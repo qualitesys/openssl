@@ -30,7 +30,7 @@ jobs:
           rm -r targetqcr
     - name: mv target/site vers docs
       run: |
-          rm -r docs/site
+          rm -r docs/site  2> /dev/null
           mkdir docs
           mv target/site docs
     - name: Setup git config
