@@ -1,0 +1,46 @@
+name: C/C++ CI Simple 2
+
+on:
+  [push]
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: master     
+    - name: configg
+      run: ./config
+    - name: make
+      run: make
+    - name: make test
+      run: make test
+    - name: Run maven compile sur qcr
+      run: mvn qcr:qcrgoalcompile
+    - name: Run maven site
+      run: mvn site
+    - name: ls -l
+      run: ls -l
+    - name: ls target/site
+      run: |
+          ls -l target/site
+          ls -l targetqcr
+          rm -r targetqcr
+    - name: mv target/site vers docs
+      run: |
+          rm -r docs/site
+          mv target/site docs
+    - name: Setup git config
+      run: |
+          # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+    - name: commit
+      run: |
+          # Stage the file, commit and push
+          git add docs/*
+          git commit -m "Commit of maven site"
+          # A virer ?? git push origin/master master --force
+          git push origin master --force
