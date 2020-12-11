@@ -31,6 +31,7 @@ jobs:
     - name: mv target/site vers docs
       run: |
           rm -r docs/site
+          mkdir docs
           mv target/site docs
     - name: Setup git config
       run: |
