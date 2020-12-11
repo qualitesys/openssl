@@ -28,12 +28,12 @@ jobs:
           ls -l target/site
           ls -l targetqcr
           rm -r targetqcr
-    - name: rm docs/site
+    - name: rmdir docs/site
       run: |
-          rm -r docs/site  2> /dev/null
-    - name: rm docs
+          rmdir -r docs/site  2> /dev/null
+    - name: rmdir docs
       run: |
-          rm -r docs  2> /dev/null
+          rmdir -r docs  2> /dev/null
     - name: mv target/site vers docs
       run: |
           mkdir docs
