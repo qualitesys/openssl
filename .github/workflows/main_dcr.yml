@@ -1,0 +1,35 @@
+# A lire https://lannonbr.com/blog/2019-12-09-git-commit-in-actions/
+name: Commit date to master
+on: push
+jobs:
+  date:
+    runs-on: ubuntu-latest
+    steps:
+      - name: ls home avant
+        run: ls -l
+      # Checkout the branch
+      - name: checkout
+        uses: actions/checkout@v2-beta # use either @v2-beta or @master. Eventually there will be a @v2 tag.
+      - name: ls home apres
+        run: ls -l
+      - name: save current date
+        run: |
+          # do some operation that changes a file in the git repo
+          date > time.txt
+          mkdir -p target
+          mkdir -p target/site
+          date > target/site/time.txt
+      - name: Run maven site
+        run: mvn site
+      - name: setup git config
+        run: |
+          # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+      - name: commit
+        run: |
+          # Stage the file, commit and push
+          git add time.txt
+          git add target/site/*
+          git commit -m "new date commit"
+          git push origin master
