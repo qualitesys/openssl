@@ -28,9 +28,14 @@ jobs:
           ls -l target/site
           ls -l targetqcr
           rm -r targetqcr
-    - name: mv target/site vers docs
+    - name: rm docs/site
       run: |
           rm -r docs/site  2> /dev/null
+    - name: rm docs
+      run: |
+          rm -r docs  2> /dev/null
+    - name: mv target/site vers docs
+      run: |
           mkdir docs
           mv target/site docs
     - name: Setup git config
