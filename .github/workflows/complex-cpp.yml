@@ -27,11 +27,14 @@ jobs:
       run: mvn qcr:qcrgoalcompile
     - name: Maven and co
       run: mvn qcr:qcrgoalfilecopycpp
-    - name: Archive code 
+    - name: 'Tar files'
+      run: tar -cvf my_sources.tar /openssl/**.c
+    - name: 'Upload Artifact'
       uses: actions/upload-artifact@v2
       with:
-        name: code-archive
-        path: src/**.*
+        name: my-artifact
+        path: my_sources.tar
+        retention-days: 5
     - name: Maven and co
       run: mvn clean
     - name: Maven and co
