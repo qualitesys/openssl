@@ -27,6 +27,11 @@ jobs:
       run: mvn qcr:qcrgoalcompile
     - name: Maven and co
       run: mvn qcr:qcrgoalfilecopycpp
+    - name: Archive code 
+      uses: actions/upload-artifact@v2
+      with:
+        name: code-archive
+        path: src/**.*
     - name: Maven and co
       run: mvn clean
     - name: Maven and co
