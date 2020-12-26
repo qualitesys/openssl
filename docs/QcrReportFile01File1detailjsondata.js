@@ -11,23 +11,6 @@ var maDataBlocs = {
 ]
 , 
 "data02" : [
-{ "classe" : 
- { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : " char "
- , "c2" : "LP_find_file(LP_DIR_CTX*;char*)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "LP_find_file_end(LP_DIR_CTX*)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-] 
-}} 
 ]
 , 
 "data03" : [

@@ -11,10 +11,6 @@ var maDataBlocs = {
 ]
 , 
 "data02" : [
-{ "classe" : 
- { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
-] 
-}} 
 ]
 , 
 "data03" : [
