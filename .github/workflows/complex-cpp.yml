@@ -28,7 +28,7 @@ jobs:
     - name: Maven and co
       run: mvn qcr:qcrgoalfilecopycpp
     - name: 'Tar files'
-      run: tar -cvf my_sources.tar /openssl/**.c
+      run: tar -cvf my_sources.tar /home/runner/work/openssl/**.c
     - name: 'Upload Artifact'
       uses: actions/upload-artifact@v2
       with:
