@@ -22,7 +22,7 @@
 	-->
     <sonar.generateautotestignorememory>yes</sonar.generateautotestignorememory> 
     <!-- Modif D.C. 2020 12 25 pour reduire nb de fichiers -->
-    <sonar.filecloneignore>/test/</sonar.filecloneignore>
+    <sonar.filecloneignore>test/;providers/</sonar.filecloneignore>
   </properties>  
   <pluginRepositories> 
     <pluginRepository> 
