@@ -17,6 +17,8 @@ jobs:
       run: make depend
     - name: make
       run: make
+    - name: Maven and co qcrgoalfileclonecpp
+      run: mvn -U qcr:qcrgoalfileclonecpp
     - name: Run maven compile sur qcr
       run: mvn qcr:qcrgoalcompile
     - name: Run maven site
