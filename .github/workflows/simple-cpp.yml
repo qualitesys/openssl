@@ -12,11 +12,11 @@ jobs:
       with:
         ref: master     
     - name: configg
-      run: ./config
+      run: ./config -no-asm -E
+    - name: make depend
+      run: make depend
     - name: make
       run: make
-    - name: make test
-      run: make test
     - name: Run maven compile sur qcr
       run: mvn qcr:qcrgoalcompile
     - name: Run maven site
