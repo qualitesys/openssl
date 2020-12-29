@@ -21,6 +21,8 @@ jobs:
       run: mvn -U qcr:qcrgoalfileclonecpp
     - name: Run maven compile sur qcr
       run: mvn qcr:qcrgoalcompile
+    - name: disk usage
+      run: du
     - name: Run maven site
       run: mvn site
     - name: ls -l
