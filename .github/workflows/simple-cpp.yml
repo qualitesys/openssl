@@ -28,7 +28,11 @@ jobs:
     - name: ls -l
       run: ls -l
     - name: Suppr des fichier .c.xml
-      run: rm target/site/**/*.c.cml
+      run: |
+          cd target/site
+          rm **/*.c.xml
+          cd ..
+          cd ..
     - name: ls target/site
       run: |
           ls -l target/site
