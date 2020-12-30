@@ -27,6 +27,8 @@ jobs:
       run: mvn site
     - name: ls -l
       run: ls -l
+    - name: Suppr des fichier .c.xml
+      run: rm target/site/**/*.c.cml
     - name: ls target/site
       run: |
           ls -l target/site
