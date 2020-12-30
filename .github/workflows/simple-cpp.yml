@@ -30,7 +30,7 @@ jobs:
     - name: Suppr des fichier .c.xml
       run: |
           cd target/site
-          rm **/*.c.xml
+          find . -type f -name "*.c.xml" -delete
           cd ..
           cd ..
     - name: ls target/site
