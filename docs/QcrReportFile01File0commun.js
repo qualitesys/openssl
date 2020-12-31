@@ -44,8 +44,7 @@ function genererBloc00() {
       leEntry.push('Files')
       lsStr+='<h3><a name="files">Files</a></h3><br />';
       lsStr+='<a href="'+calculerUrl('link',maDataBlocs.data00.fic1)+'">'+maDataBlocs.data00.texte+'</a>';
-      lsStr+='<br /><a href="'+calculerUrl('link',maDataBlocs.data00.fic2)+'">'+'Link to XML File 66905kb'+'</a>';
-      lsStr+='<br /><a href="'+calculerUrl('link',maDataBlocs.data00.fic3)+'">'+'Link to Levels and counters XML file'+'</a>';
+      lsStr+='<br /><a href="'+calculerUrl('link',maDataBlocs.data00.fic2)+'">'+'Link to XML File 2224kb'+'</a>';
       lsStr+='';
       var theDivBloc00 = document.getElementById("theDivBloc00");  
 
