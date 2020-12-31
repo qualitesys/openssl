@@ -62,73 +62,66 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03728"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#3728"
+   "c1" : "03731"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#3731"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03728] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[03731] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09956"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#9956"
+   "c1" : "09959"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#9959"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09956] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09959] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09958"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#9958"
+   "c1" : "09961"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#9961"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09958] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09961] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10325"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#10325"
+   "c1" : "10328"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#10328"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10325] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10328] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10521"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#10521"
+   "c1" : "10524"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#10524"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10521] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10524] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10522"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#10522"
+   "c1" : "10525"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#10525"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10522] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10525] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10523"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#10523"
+   "c1" : "10526"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#10526"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10523] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10526] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10527"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#10527"
+   "c1" : "10530"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#10530"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10527] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10530] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11113"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#11113"
+   "c1" : "11116"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#11116"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11113] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11115"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#11115"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11115] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11116] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -139,192 +132,199 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11957"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#11957"
+   "c1" : "11121"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#11121"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11957] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11121] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13388"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#13388"
+   "c1" : "11960"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#11960"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13388] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11960] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13410"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#13410"
+   "c1" : "13391"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#13391"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13410] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13391] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13416"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#13416"
+   "c1" : "13413"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#13413"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13416] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13413] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13436"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#13436"
+   "c1" : "13419"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#13419"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13436] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13419] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13442"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#13442"
+   "c1" : "13439"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#13439"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13442] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13439] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14589"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#14589"
+   "c1" : "13445"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#13445"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14589] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13445] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14590"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#14590"
+   "c1" : "14592"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#14592"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14590] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14592] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17432"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#17432"
+   "c1" : "14593"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#14593"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17432] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14593] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17736"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#17736"
+   "c1" : "17435"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#17435"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17736] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17435] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18280"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18280"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18280] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18298"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18298"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18298] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18317"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18317"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18317] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18337"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18337"
+   "c1" : "17739"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#17739"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18337] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17739] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18338"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18338"
+   "c1" : "18283"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18283"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18283] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18301"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18301"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18301] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18320"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18320"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18320] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18340"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18340"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18338] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18340] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18372"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18372"
+   "c1" : "18341"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18341"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000004[18372] The return statement is missing in the function body of http_server_get_asn1_req"
+ , "c3" : "QC-CPP000005[18341] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18433"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18433"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18433] goto statement jump to out"
+   "c1" : "18375"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18375"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000004[18375] The return statement is missing in the function body of http_server_get_asn1_req"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18453"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18453"
+   "c1" : "18436"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18436"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18453] goto statement jump to out"
+ , "c3" : "QC-CPP000007[18436] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18473"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18473"
+   "c1" : "18456"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18456"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18473] goto statement jump to out"
+ , "c3" : "QC-CPP000007[18456] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18490"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18490"
+   "c1" : "18476"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18476"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18490] goto statement jump to out"
+ , "c3" : "QC-CPP000007[18476] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18501"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18501"
+   "c1" : "18493"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18493"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18501] goto statement jump to out"
+ , "c3" : "QC-CPP000007[18493] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18514"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18514"
+   "c1" : "18504"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18504"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18514] goto statement jump to out"
+ , "c3" : "QC-CPP000007[18504] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18534"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18534"
+   "c1" : "18517"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18517"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18534] goto statement jump to fatal"
+ , "c3" : "QC-CPP000007[18517] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18548"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18548"
+   "c1" : "18537"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18537"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18548] goto statement jump to out"
+ , "c3" : "QC-CPP000007[18537] goto statement jump to fatal"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18569"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18569"
+   "c1" : "18551"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18551"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18569] goto statement jump to out"
+ , "c3" : "QC-CPP000007[18551] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18617"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18617"
+   "c1" : "18572"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18572"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18617] goto statement jump to fatal"
+ , "c3" : "QC-CPP000007[18572] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18652"
- , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18652"
+   "c1" : "18620"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18620"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18652] goto statement jump to out"
+ , "c3" : "QC-CPP000007[18620] goto statement jump to fatal"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18655"
+ , "c1link" : "./qc/apps/lib/libapps-lib-http_server.c.html#18655"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18655] goto statement jump to out"
 }} 
 ]
 };

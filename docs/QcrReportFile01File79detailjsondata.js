@@ -48,80 +48,73 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03275"
- , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#3275"
+   "c1" : "03278"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#3278"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03275] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[03278] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05041"
- , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#5041"
+   "c1" : "05044"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#5044"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05041] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05044] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05043"
- , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#5043"
+   "c1" : "05046"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#5046"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05043] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05046] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06492"
- , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#6492"
+   "c1" : "06495"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#6495"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06492] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06495] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07215"
- , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#7215"
+   "c1" : "07218"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#7218"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07215] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07218] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07411"
- , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#7411"
+   "c1" : "07414"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#7414"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07411] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07414] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07412"
- , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#7412"
+   "c1" : "07415"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#7415"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07412] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07415] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07413"
- , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#7413"
+   "c1" : "07416"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#7416"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07413] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07416] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07417"
- , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#7417"
+   "c1" : "07420"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#7420"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07417] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07420] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08003"
- , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#8003"
+   "c1" : "08006"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#8006"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08003] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08005"
- , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#8005"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08005] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08006] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -132,52 +125,59 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08801"
- , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#8801"
+   "c1" : "08011"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#8011"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08801] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08011] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08823"
- , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#8823"
+   "c1" : "08804"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#8804"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08823] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08804] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08829"
- , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#8829"
+   "c1" : "08826"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#8826"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08829] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08826] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08849"
- , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#8849"
+   "c1" : "08832"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#8832"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08849] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08832] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08855"
- , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#8855"
+   "c1" : "08852"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#8852"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08855] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08852] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10002"
- , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#10002"
+   "c1" : "08858"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#8858"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10002] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08858] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10003"
- , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#10003"
+   "c1" : "10005"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#10005"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10003] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10005] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10006"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#10006"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[10006] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

@@ -55,73 +55,66 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03643"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#3643"
+   "c1" : "03646"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#3646"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03643] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[03646] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10382"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#10382"
+   "c1" : "10385"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#10385"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10382] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10385] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10384"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#10384"
+   "c1" : "10387"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#10387"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10384] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10387] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10751"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#10751"
+   "c1" : "10754"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#10754"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10751] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10754] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10947"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#10947"
+   "c1" : "10950"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#10950"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10947] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10950] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10948"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#10948"
+   "c1" : "10951"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#10951"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10948] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10951] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10949"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#10949"
+   "c1" : "10952"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#10952"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10949] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10952] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10953"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#10953"
+   "c1" : "10956"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#10956"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10953] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10956] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11539"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#11539"
+   "c1" : "11542"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#11542"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11539] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11541"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#11541"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11541] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11542] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -132,234 +125,241 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12383"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#12383"
+   "c1" : "11547"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#11547"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12383] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11547] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13814"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#13814"
+   "c1" : "12386"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#12386"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13814] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12386] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13836"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#13836"
+   "c1" : "13817"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#13817"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13836] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13817] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13842"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#13842"
+   "c1" : "13839"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#13839"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13842] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13839] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13862"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#13862"
+   "c1" : "13845"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#13845"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13862] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13845] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13868"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#13868"
+   "c1" : "13865"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#13865"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13868] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13865] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14973"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#14973"
+   "c1" : "13871"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#13871"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14973] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13871] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14974"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#14974"
+   "c1" : "14976"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#14976"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14974] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14976] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17453"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#17453"
+   "c1" : "14977"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#14977"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17453] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14977] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17757"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#17757"
+   "c1" : "17456"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#17456"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17757] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17456] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18282"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18282"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18282] goto statement jump to end"
+   "c1" : "17760"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#17760"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[17760] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18286"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18286"
+   "c1" : "18285"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18285"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18286] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18285] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18307"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18307"
+   "c1" : "18289"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18289"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18307] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18289] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18328"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18328"
+   "c1" : "18310"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18310"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18328] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18310] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18332"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18332"
+   "c1" : "18331"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18331"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18332] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18331] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18352"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18352"
+   "c1" : "18335"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18335"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18352] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18335] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18357"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18357"
+   "c1" : "18355"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18355"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18357] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18355] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18362"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18362"
+   "c1" : "18360"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18360"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18362] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18360] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18377"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18377"
+   "c1" : "18365"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18365"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18377] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18365] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18382"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18382"
+   "c1" : "18380"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18380"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18382] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18380] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18406"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18406"
+   "c1" : "18385"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18385"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18406] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18385] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18408"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18408"
+   "c1" : "18409"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18409"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18408] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18409] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18427"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18427"
+   "c1" : "18411"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18411"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18427] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18411] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18443"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18443"
+   "c1" : "18430"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18430"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18443] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18430] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18460"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18460"
+   "c1" : "18446"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18446"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18460] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18446] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18487"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18487"
+   "c1" : "18463"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18463"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18487] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18463] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18574"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18574"
+   "c1" : "18490"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18490"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18574] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18490] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18618"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18618"
+   "c1" : "18577"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18577"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18618] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18577] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18671"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18671"
+   "c1" : "18621"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18621"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18671] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18621] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18697"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18697"
+   "c1" : "18674"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18674"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18697] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18674] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18735"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18735"
+   "c1" : "18700"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18700"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18735] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18700] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18782"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18782"
+   "c1" : "18738"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18738"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18782] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18738] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18787"
- , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18787"
+   "c1" : "18785"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18785"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18787] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18785] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18790"
+ , "c1link" : "./qc/apps/openssl-bin-srp.c.html#18790"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18790] goto statement jump to end"
 }} 
 ]
 };

@@ -62,73 +62,66 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "04513"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#4513"
+   "c1" : "04516"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#4516"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[04513] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[04516] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10741"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#10741"
+   "c1" : "10744"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#10744"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10741] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10744] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10743"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#10743"
+   "c1" : "10746"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#10746"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10743] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10746] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11110"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#11110"
+   "c1" : "11113"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#11113"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11110] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11113] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11306"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#11306"
+   "c1" : "11309"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#11309"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11306] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11309] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11307"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#11307"
+   "c1" : "11310"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#11310"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11307] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11310] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11308"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#11308"
+   "c1" : "11311"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#11311"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11308] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11311] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11312"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#11312"
+   "c1" : "11315"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#11315"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11312] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11315] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11898"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#11898"
+   "c1" : "11901"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#11901"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11898] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11900"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#11900"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11900] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11901] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -139,122 +132,122 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12742"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#12742"
+   "c1" : "11906"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#11906"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12742] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11906] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14173"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#14173"
+   "c1" : "12745"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#12745"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14173] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12745] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14195"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#14195"
+   "c1" : "14176"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#14176"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14195] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14176] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14201"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#14201"
+   "c1" : "14198"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#14198"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14201] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14198] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14221"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#14221"
+   "c1" : "14204"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#14204"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14221] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14204] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14227"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#14227"
+   "c1" : "14224"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#14224"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14227] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14224] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15374"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#15374"
+   "c1" : "14230"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#14230"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15374] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14230] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15375"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#15375"
+   "c1" : "15377"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#15377"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15375] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15377] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18217"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#18217"
+   "c1" : "15378"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#15378"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18217] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15378] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18521"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#18521"
+   "c1" : "18220"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#18220"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18521] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18220] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19125"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#19125"
+   "c1" : "18524"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#18524"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19125] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18524] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19151"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#19151"
+   "c1" : "19128"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#19128"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19151] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[19128] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19178"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#19178"
+   "c1" : "19154"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#19154"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19178] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[19154] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19207"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#19207"
+   "c1" : "19181"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#19181"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19207] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[19181] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19265"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#19265"
+   "c1" : "19210"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#19210"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19265] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[19210] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19300"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#19300"
+   "c1" : "19268"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#19268"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19300] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[19268] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21713"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#21713"
+   "c1" : "19303"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#19303"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[21713] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000005[19303] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -272,10 +265,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "21786"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#21786"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21786] goto statement jump to err"
+   "c1" : "21722"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#21722"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[21722] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
@@ -293,493 +286,493 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "22449"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22449"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22449] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22474"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22474"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22474] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22499"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22499"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22499] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22511"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22511"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22511] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22546"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22546"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22546] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22557"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22557"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22557] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22568"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22568"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22568] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22581"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22581"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22581] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22594"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22594"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22594] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22619"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22619"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22619] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22633"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22633"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22633] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22644"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22644"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22644] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22662"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22662"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22662] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22673"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22673"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22673] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22684"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22684"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22684] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22695"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22695"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22695] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22696"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22696"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22696] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22707"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22707"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22707] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22708"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22708"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22708] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22719"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22719"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22719] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22720"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22720"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22720] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22731"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22731"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22731] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22743"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22743"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22743] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22755"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22755"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22755] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22815"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22815"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22815] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22871"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22871"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22871] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22939"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22939"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22939] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22972"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22972"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22972] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23012"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23012"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[23012] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23039"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23039"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[23039] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23040"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23040"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[23040] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23059"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23059"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[23059] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23060"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23060"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[23060] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23085"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23085"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[23085] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23101"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23101"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[23101] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23102"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23102"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[23102] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23121"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23121"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[23121] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23122"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23122"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[23122] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23145"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23145"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[23145] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23147"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23147"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[23147] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23165"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23165"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[23165] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23167"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23167"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[23167] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23190"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23190"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[23190] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23204"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23204"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[23204] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23206"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23206"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[23206] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23225"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23225"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[23225] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23227"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23227"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[23227] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23248"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23248"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[23248] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23250"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23250"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[23250] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23291"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23291"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[23291] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23293"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23293"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[23293] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23379"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23379"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[23379] The condition of do while loop is constant, infinite loop risk : 0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23845"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23845"
+   "c1" : "21795"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#21795"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23845] goto statement jump to end"
+ , "c3" : "QC-CPP000007[21795] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23849"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23849"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23849] goto statement jump to end"
+   "c1" : "22452"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22452"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22452] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23856"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23856"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23856] goto statement jump to opterr"
+   "c1" : "22477"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22477"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22477] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23882"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23882"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23882] goto statement jump to end"
+   "c1" : "22502"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22502"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22502] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23896"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23896"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23896] goto statement jump to end"
+   "c1" : "22514"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22514"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22514] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23911"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23911"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23911] goto statement jump to end"
+   "c1" : "22549"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22549"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22549] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23939"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23939"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23939] goto statement jump to opterr"
+   "c1" : "22560"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22560"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22560] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23943"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23943"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23943] goto statement jump to opterr"
+   "c1" : "22571"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22571"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22571] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23949"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23949"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23949] goto statement jump to end"
+   "c1" : "22584"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22584"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22584] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23953"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23953"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23953] goto statement jump to opterr"
+   "c1" : "22597"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22597"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22597] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23970"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23970"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23970] goto statement jump to end"
+   "c1" : "22622"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22622"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22622] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23974"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23974"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23974] goto statement jump to end"
+   "c1" : "22636"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22636"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22636] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23979"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23979"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23979] goto statement jump to end"
+   "c1" : "22647"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22647"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22647] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "24110"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24110"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24110] goto statement jump to end"
+   "c1" : "22665"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22665"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22665] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "24121"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24121"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24121] goto statement jump to end"
+   "c1" : "22676"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22676"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22676] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "24126"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24126"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24126] goto statement jump to end"
+   "c1" : "22687"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22687"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22687] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "24137"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24137"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24137] goto statement jump to end"
+   "c1" : "22698"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22698"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22698] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "24142"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24142"
+   "c1" : "22699"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22699"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22699] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22710"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22710"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22710] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22711"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22711"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22711] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22722"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22722"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22722] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22723"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22723"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22723] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22734"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22734"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22734] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22746"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22746"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22746] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22758"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22758"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22758] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22818"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22818"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22818] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22874"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22874"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22874] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22942"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22942"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22942] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22975"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#22975"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22975] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23015"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23015"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[23015] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23042"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23042"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[23042] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23043"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23043"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[23043] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23062"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23062"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[23062] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23063"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23063"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[23063] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23088"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23088"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[23088] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23104"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23104"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[23104] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23105"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23105"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[23105] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23124"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23124"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[23124] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23125"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23125"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[23125] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23148"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23148"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[23148] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23150"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23150"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[23150] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23168"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23168"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[23168] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23170"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23170"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[23170] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23193"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23193"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[23193] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23207"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23207"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[23207] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23209"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23209"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[23209] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23228"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23228"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[23228] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23230"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23230"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[23230] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23251"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23251"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[23251] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23253"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23253"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[23253] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23294"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23294"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[23294] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23296"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23296"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[23296] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23382"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23382"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[23382] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23848"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23848"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24142] goto statement jump to end"
+ , "c3" : "QC-CPP000007[23848] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23852"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23852"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[23852] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23859"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23859"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[23859] goto statement jump to opterr"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23885"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23885"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[23885] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23899"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23899"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[23899] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23914"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23914"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[23914] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23942"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23942"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[23942] goto statement jump to opterr"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23946"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23946"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[23946] goto statement jump to opterr"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23952"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23952"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[23952] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23956"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23956"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[23956] goto statement jump to opterr"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23973"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23973"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[23973] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23977"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23977"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[23977] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23982"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#23982"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[23982] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24113"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24113"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[24113] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24124"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24124"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[24124] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24129"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24129"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[24129] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24140"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24140"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[24140] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
@@ -790,59 +783,59 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "24154"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24154"
+   "c1" : "24148"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24148"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24154] goto statement jump to end"
+ , "c3" : "QC-CPP000007[24148] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "24172"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24172"
+   "c1" : "24157"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24157"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24172] goto statement jump to end"
+ , "c3" : "QC-CPP000007[24157] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "24200"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24200"
+   "c1" : "24175"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24175"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24200] goto statement jump to show_res"
+ , "c3" : "QC-CPP000007[24175] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "24253"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24253"
+   "c1" : "24203"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24203"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[24203] goto statement jump to show_res"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24256"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24256"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[24253] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[24256] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "24268"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24268"
+   "c1" : "24271"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24271"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24268] goto statement jump to end"
+ , "c3" : "QC-CPP000007[24271] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "24779"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24779"
+   "c1" : "24782"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24782"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24779] goto statement jump to end"
+ , "c3" : "QC-CPP000007[24782] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "24947"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24947"
+   "c1" : "24950"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24950"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24947] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24964"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24964"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24964] goto statement jump to end"
+ , "c3" : "QC-CPP000007[24950] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
@@ -853,31 +846,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "24980"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24980"
+   "c1" : "24970"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24970"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24980] goto statement jump to end"
+ , "c3" : "QC-CPP000007[24970] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "24991"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24991"
+   "c1" : "24983"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24983"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24991] goto statement jump to end"
+ , "c3" : "QC-CPP000007[24983] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "25055"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#25055"
+   "c1" : "24994"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#24994"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25055] goto statement jump to end"
+ , "c3" : "QC-CPP000007[24994] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "26628"
- , "c1link" : "./qc/apps/openssl-bin-speed.c.html#26628"
+   "c1" : "25058"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#25058"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[25058] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "26631"
+ , "c1link" : "./qc/apps/openssl-bin-speed.c.html#26631"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[26628] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[26631] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

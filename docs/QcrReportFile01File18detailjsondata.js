@@ -62,73 +62,66 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "05333"
- , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#5333"
+   "c1" : "05336"
+ , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#5336"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05333] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05336] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07336"
- , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#7336"
+   "c1" : "07339"
+ , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#7339"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07336] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07339] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07338"
- , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#7338"
+   "c1" : "07341"
+ , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#7341"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07338] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07341] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07705"
- , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#7705"
+   "c1" : "07708"
+ , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#7708"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07705] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07708] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07901"
- , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#7901"
+   "c1" : "07904"
+ , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#7904"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07901] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07904] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07902"
- , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#7902"
+   "c1" : "07905"
+ , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#7905"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07902] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07905] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07903"
- , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#7903"
+   "c1" : "07906"
+ , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#7906"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07903] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07906] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07907"
- , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#7907"
+   "c1" : "07910"
+ , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#7910"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07907] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07910] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08493"
- , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#8493"
+   "c1" : "08496"
+ , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#8496"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08493] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08495"
- , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#8495"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08495] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08496] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -139,73 +132,80 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09337"
- , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#9337"
+   "c1" : "08501"
+ , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#8501"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09337] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08501] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10768"
- , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#10768"
+   "c1" : "09340"
+ , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#9340"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10768] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09340] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10790"
- , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#10790"
+   "c1" : "10771"
+ , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#10771"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10790] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10771] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10796"
- , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#10796"
+   "c1" : "10793"
+ , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#10793"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10796] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10793] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10816"
- , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#10816"
+   "c1" : "10799"
+ , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#10799"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10816] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10799] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10822"
- , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#10822"
+   "c1" : "10819"
+ , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#10819"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10822] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10819] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11969"
- , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#11969"
+   "c1" : "10825"
+ , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#10825"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11969] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10825] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11970"
- , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#11970"
+   "c1" : "11972"
+ , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#11972"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11970] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11972] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14152"
- , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#14152"
+   "c1" : "11973"
+ , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#11973"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[11973] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14155"
+ , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#14155"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000003[14152] The default case should be in last position"
+ , "c3" : "QC-CPP000003[14155] The default case should be in last position"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14152"
- , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#14152"
+   "c1" : "14155"
+ , "c1link" : "./qc/apps/lib/libtestutil-lib-opt.c.html#14155"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000002[14152] Avoid multiple switch labels with default case in switch case"
+ , "c3" : "QC-CPP000002[14155] Avoid multiple switch labels with default case in switch case"
 }} 
 ]
 };
