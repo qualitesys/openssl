@@ -4,7 +4,7 @@ var maDataBlocs = {
    "fic1"  : "./qc/apps/lib/libapps-lib-engine.c.html" 
  , "texte" : "File apps/lib/libapps-lib-engine.c 21 rule violations " 
  , "fic2"  : "./qc/apps/lib/libapps-lib-engine.c.xml" 
- , "fic3"  : "./qc/apps/lib/libapps-lib-engine.ccnt.xml" 
+ , "fic3"  : "" 
 }
 , 
 "data01" : [

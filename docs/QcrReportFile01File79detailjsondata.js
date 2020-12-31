@@ -4,7 +4,7 @@ var maDataBlocs = {
    "fic1"  : "./qc/engines/capi-dso-e_capi.c.html" 
  , "texte" : "File engines/capi-dso-e_capi.c 19 rule violations " 
  , "fic2"  : "./qc/engines/capi-dso-e_capi.c.xml" 
- , "fic3"  : "./qc/engines/capi-dso-e_capi.ccnt.xml" 
+ , "fic3"  : "" 
 }
 , 
 "data01" : [

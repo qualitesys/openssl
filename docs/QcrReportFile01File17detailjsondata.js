@@ -4,7 +4,7 @@ var maDataBlocs = {
    "fic1"  : "./qc/apps/lib/libapps-lib-s_socket.c.html" 
  , "texte" : "File apps/lib/libapps-lib-s_socket.c 29 rule violations " 
  , "fic2"  : "./qc/apps/lib/libapps-lib-s_socket.c.xml" 
- , "fic3"  : "./qc/apps/lib/libapps-lib-s_socket.ccnt.xml" 
+ , "fic3"  : "" 
 }
 , 
 "data01" : [

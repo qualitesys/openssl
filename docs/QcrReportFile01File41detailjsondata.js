@@ -4,7 +4,7 @@ var maDataBlocs = {
    "fic1"  : "./qc/apps/openssl-bin-info.c.html" 
  , "texte" : "File apps/openssl-bin-info.c 28 rule violations " 
  , "fic2"  : "./qc/apps/openssl-bin-info.c.xml" 
- , "fic3"  : "./qc/apps/openssl-bin-info.ccnt.xml" 
+ , "fic3"  : "" 
 }
 , 
 "data01" : [

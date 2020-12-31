@@ -4,7 +4,7 @@ var maDataBlocs = {
    "fic1"  : "./qc/engines/afalg-dso-e_afalg.c.html" 
  , "texte" : "File engines/afalg-dso-e_afalg.c 38 rule violations " 
  , "fic2"  : "./qc/engines/afalg-dso-e_afalg.c.xml" 
- , "fic3"  : "./qc/engines/afalg-dso-e_afalg.ccnt.xml" 
+ , "fic3"  : "" 
 }
 , 
 "data01" : [

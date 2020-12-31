@@ -4,7 +4,7 @@ var maDataBlocs = {
    "fic1"  : "./qc/crypto/srp/srp_lib.c.html" 
  , "texte" : "File crypto/srp/srp_lib.c 0 rule violation " 
  , "fic2"  : "./qc/crypto/srp/srp_lib.c.xml" 
- , "fic3"  : "./qc/crypto/srp/srp_lib.ccnt.xml" 
+ , "fic3"  : "" 
 }
 , 
 "data01" : [

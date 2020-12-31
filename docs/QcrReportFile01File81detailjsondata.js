@@ -4,7 +4,7 @@ var maDataBlocs = {
    "fic1"  : "./qc/engines/loader_attic-dso-e_loader_attic.c.html" 
  , "texte" : "File engines/loader_attic-dso-e_loader_attic.c 51 rule violations " 
  , "fic2"  : "./qc/engines/loader_attic-dso-e_loader_attic.c.xml" 
- , "fic3"  : "./qc/engines/loader_attic-dso-e_loader_attic.ccnt.xml" 
+ , "fic3"  : "" 
 }
 , 
 "data01" : [

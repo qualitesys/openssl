@@ -4,7 +4,7 @@ var maDataBlocs = {
    "fic1"  : "./qc/engines/dasync-dso-e_dasync.c.html" 
  , "texte" : "File engines/dasync-dso-e_dasync.c 24 rule violations " 
  , "fic2"  : "./qc/engines/dasync-dso-e_dasync.c.xml" 
- , "fic3"  : "./qc/engines/dasync-dso-e_dasync.ccnt.xml" 
+ , "fic3"  : "" 
 }
 , 
 "data01" : [

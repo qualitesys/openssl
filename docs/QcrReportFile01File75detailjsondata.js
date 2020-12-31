@@ -4,7 +4,7 @@ var maDataBlocs = {
    "fic1"  : "./qc/crypto/LPdir_nyi.c.html" 
  , "texte" : "File crypto/LPdir_nyi.c 0 rule violation " 
  , "fic2"  : "./qc/crypto/LPdir_nyi.c.xml" 
- , "fic3"  : "./qc/crypto/LPdir_nyi.ccnt.xml" 
+ , "fic3"  : "" 
 }
 , 
 "data01" : [

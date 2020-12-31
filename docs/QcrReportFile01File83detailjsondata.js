@@ -4,7 +4,7 @@ var maDataBlocs = {
    "fic1"  : "./qc/engines/padlock-dso-e_padlock.c.html" 
  , "texte" : "File engines/padlock-dso-e_padlock.c 19 rule violations " 
  , "fic2"  : "./qc/engines/padlock-dso-e_padlock.c.xml" 
- , "fic3"  : "./qc/engines/padlock-dso-e_padlock.ccnt.xml" 
+ , "fic3"  : "" 
 }
 , 
 "data01" : [

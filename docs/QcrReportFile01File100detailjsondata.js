@@ -4,7 +4,7 @@ var maDataBlocs = {
    "fic1"  : "./qc/fuzz/crl-test-bin-crl.c.html" 
  , "texte" : "File fuzz/crl-test-bin-crl.c 21 rule violations " 
  , "fic2"  : "./qc/fuzz/crl-test-bin-crl.c.xml" 
- , "fic3"  : "./qc/fuzz/crl-test-bin-crl.ccnt.xml" 
+ , "fic3"  : "" 
 }
 , 
 "data01" : [

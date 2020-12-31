@@ -4,7 +4,7 @@ var maDataBlocs = {
    "fic1"  : "./qc/engines/ossltest-dso-e_ossltest.c.html" 
  , "texte" : "File engines/ossltest-dso-e_ossltest.c 23 rule violations " 
  , "fic2"  : "./qc/engines/ossltest-dso-e_ossltest.c.xml" 
- , "fic3"  : "./qc/engines/ossltest-dso-e_ossltest.ccnt.xml" 
+ , "fic3"  : "" 
 }
 , 
 "data01" : [

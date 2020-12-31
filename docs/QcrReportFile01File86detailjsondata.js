@@ -4,7 +4,7 @@ var maDataBlocs = {
    "fic1"  : "./qc/fuzz/asn1parse-test-bin-asn1parse.c.html" 
  , "texte" : "File fuzz/asn1parse-test-bin-asn1parse.c 19 rule violations " 
  , "fic2"  : "./qc/fuzz/asn1parse-test-bin-asn1parse.c.xml" 
- , "fic3"  : "./qc/fuzz/asn1parse-test-bin-asn1parse.ccnt.xml" 
+ , "fic3"  : "" 
 }
 , 
 "data01" : [

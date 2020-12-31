@@ -4,7 +4,7 @@ var maDataBlocs = {
    "fic1"  : "./qc/crypto/ocsp/v3_ocsp.c.html" 
  , "texte" : "File crypto/ocsp/v3_ocsp.c 17 rule violations " 
  , "fic2"  : "./qc/crypto/ocsp/v3_ocsp.c.xml" 
- , "fic3"  : "./qc/crypto/ocsp/v3_ocsp.ccnt.xml" 
+ , "fic3"  : "" 
 }
 , 
 "data01" : [
