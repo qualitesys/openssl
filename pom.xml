@@ -22,7 +22,7 @@
 	-->
     <sonar.generateautotestignorememory>yes</sonar.generateautotestignorememory> 
     <!-- Modif D.C. 2020 12 25 pour reduire nb de fichiers -->
-    <sonar.filecloneignore>crypto/;test/;providers/</sonar.filecloneignore>
+    <sonar.filecloneignore>crypto/;ssl/;test/;</sonar.filecloneignore>
     <!-- Modif D.C. 2020 12 26 pour rapidite, pas besoin de fichiers .lin -->
     <sonar.debugskipxsl>true</sonar.debugskipxsl>
   </properties>  
