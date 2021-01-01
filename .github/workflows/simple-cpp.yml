@@ -38,6 +38,9 @@ jobs:
           ls -l target/site
           ls -l targetqcr
           rm -r targetqcr
+    - name: ls  docs/site
+      run: |
+          ls -l docs/site
     - name: rm  docs/site
       run: |
           rm -rf docs/site
