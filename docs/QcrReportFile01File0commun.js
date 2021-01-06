@@ -133,9 +133,15 @@ function genererBloc03() {
       if (paramProjectKey!=null) {
 
          lsStr+='<img src="'+maDataBlocs.data03[0].ligne+'b64'+'" alt = "Hardcopy image">';
+
+         lsStr+='<img src="'+maDataBlocs.data03[0].ligneplantuml+'b64'+'" alt = "Hardcopy image">';
+
       } else {
 
          lsStr+='<img src="'+maDataBlocs.data03[0].ligne+'" alt = "Hardcopy image">';
+
+         lsStr+='<img src="'+maDataBlocs.data03[0].ligneplantuml+'" alt = "Hardcopy image">';
+
       }
 
       var theDivBloc03 = document.getElementById("theDivBloc03");  
