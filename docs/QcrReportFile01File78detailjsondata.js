@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/engines/afalg-dso-e_afalg.c.html" 
- , "texte" : "File engines/afalg-dso-e_afalg.c 38 rule violations " 
- , "fic2"  : "./qc/engines/afalg-dso-e_afalg.c.xml" 
+   "fic1"  : "./qc/engines/loader_attic-dso-e_loader_attic.c.html" 
+ , "texte" : "File engines/loader_attic-dso-e_loader_attic.c 51 rule violations " 
+ , "fic2"  : "./qc/engines/loader_attic-dso-e_loader_attic.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,296 +42,373 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "19"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000006"
- , "c3" : "Risk of infinite while loop"
- , "c4" : "12"
-}}
-,
-{ "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-CPPCWE484"
- , "c3" : "Omitted Break Statement in Switch"
- , "c4" : "1"
+ , "c4" : "31"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000007"
  , "c3" : "goto statement"
- , "c4" : "6"
+ , "c4" : "20"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "05987"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#5987"
+   "c1" : "03975"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#3975"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05987] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[03975] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07887"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#7887"
+   "c1" : "05746"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#5746"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07887] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05746] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07889"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#7889"
+   "c1" : "05748"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#5748"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07889] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05748] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09338"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#9338"
+   "c1" : "06882"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#6882"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09338] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06882] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10061"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#10061"
+   "c1" : "07078"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#7078"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10061] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07078] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10257"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#10257"
+   "c1" : "07079"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#7079"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10257] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07079] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10258"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#10258"
+   "c1" : "07080"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#7080"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10258] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07080] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10259"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#10259"
+   "c1" : "07084"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#7084"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10259] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07084] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10263"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#10263"
+   "c1" : "07670"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#7670"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10263] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07670] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10849"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#10849"
+   "c1" : "07672"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#7672"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10849] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07672] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10851"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#10851"
+   "c1" : "07675"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#7675"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10851] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07675] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10854"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#10854"
+   "c1" : "08571"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#8571"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10854] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08571] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11647"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#11647"
+   "c1" : "09652"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#9652"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11647] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09652] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11669"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#11669"
+   "c1" : "09674"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#9674"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11669] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09674] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11675"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#11675"
+   "c1" : "09680"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#9680"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11675] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09680] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11695"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#11695"
+   "c1" : "09700"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#9700"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11695] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09700] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11701"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#11701"
+   "c1" : "09706"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#9706"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11701] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09706] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12848"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#12848"
+   "c1" : "10811"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#10811"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12848] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10811] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12849"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#12849"
+   "c1" : "10812"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#10812"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12849] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10812] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16052"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#16052"
+   "c1" : "11560"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#11560"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16052] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000005[11560] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16099"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#16099"
+   "c1" : "11593"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#11593"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16099] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000005[11593] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16131"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#16131"
+   "c1" : "11596"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#11596"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16131] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000005[11596] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16197"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#16197"
+   "c1" : "11766"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#11766"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16197] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000005[11766] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16234"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#16234"
+   "c1" : "14069"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#14069"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16234] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000005[14069] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16270"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#16270"
+   "c1" : "14551"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#14551"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14551] goto statement jump to p12_end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14555"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#14555"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14555] goto statement jump to p12_end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14777"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#14777"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16270] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000005[14777] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14821"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#14821"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14821] goto statement jump to nop8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14832"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#14832"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14832] goto statement jump to nop8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14838"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#14838"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14838] goto statement jump to nop8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14851"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#14851"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14851] goto statement jump to nop8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15004"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#15004"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15004] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15066"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#15066"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15066] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15290"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#15290"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15290] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15782"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#15782"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15782] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15812"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#15812"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15812] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15823"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#15823"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15823] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15837"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#15837"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15837] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15910"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#15910"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15910] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16056"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#16056"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16056] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16181"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#16181"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16181] goto statement jump to again"
 }} 
 ,
 { "ligne" : {
    "c1" : "16297"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#16297"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#16297"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16297] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000005[16297] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16401"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#16401"
+   "c1" : "16344"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#16344"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16401] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000005[16344] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16443"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#16443"
+   "c1" : "16631"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#16631"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16443] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000005[16631] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16453"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#16453"
+   "c1" : "16644"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#16644"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16453] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16644] goto statement jump to endloop"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16458"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#16458"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16458] The condition of do while loop is constant, infinite loop risk : 0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16468"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#16468"
+   "c1" : "16660"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#16660"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16468] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16660] goto statement jump to endloop"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16477"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#16477"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16477] The condition of do while loop is constant, infinite loop risk : 0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16487"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#16487"
+   "c1" : "16664"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#16664"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16487] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16664] goto statement jump to endloop"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16584"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#16584"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16584] The condition of do while loop is constant, infinite loop risk : 0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16674"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#16674"
+   "c1" : "16676"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#16676"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16674] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16676] goto statement jump to endloop"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16678"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#16678"
+   "c1" : "16688"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#16688"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16678] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16688] goto statement jump to endloop"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16888"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#16888"
- , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[16888] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16953"
- , "c1link" : "./qc/engines/afalg-dso-e_afalg.c.html#16953"
+   "c1" : "16735"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#16735"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16953] goto statement jump to skip_cbs"
+ , "c3" : "QC-CPP000007[16735] goto statement jump to again"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16893"
+ , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#16893"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16893] goto statement jump to skip_cbs"
 }} 
 ]
 };

@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/engines/loader_attic-dso-e_loader_attic.c.html" 
- , "texte" : "File engines/loader_attic-dso-e_loader_attic.c 51 rule violations " 
- , "fic2"  : "./qc/engines/loader_attic-dso-e_loader_attic.c.xml" 
+   "fic1"  : "./qc/fuzz/asn1-test-bin-asn1.c.html" 
+ , "texte" : "File fuzz/asn1-test-bin-asn1.c 75 rule violations " 
+ , "fic2"  : "./qc/fuzz/asn1-test-bin-asn1.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,373 +42,534 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "31"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-CPP000007"
- , "c3" : "goto statement"
- , "c4" : "20"
+ , "c4" : "75"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03975"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#3975"
+   "c1" : "03625"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#3625"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03975] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[03625] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05746"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#5746"
+   "c1" : "05365"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#5365"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05746] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05365] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05748"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#5748"
+   "c1" : "05367"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#5367"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05748] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05367] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06882"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#6882"
+   "c1" : "06574"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#6574"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06882] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06574] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07078"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#7078"
+   "c1" : "07614"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#7614"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07078] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07614] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07079"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#7079"
+   "c1" : "07810"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#7810"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07079] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07810] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07080"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#7080"
+   "c1" : "07811"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#7811"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07080] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07811] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07084"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#7084"
+   "c1" : "07812"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#7812"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07084] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07812] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07670"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#7670"
+   "c1" : "07816"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#7816"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07670] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07816] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07672"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#7672"
+   "c1" : "08402"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#8402"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07672] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08402] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07675"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#7675"
+   "c1" : "08404"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#8404"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07675] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08404] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08571"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#8571"
+   "c1" : "08407"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#8407"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08571] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08407] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09652"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#9652"
+   "c1" : "09514"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#9514"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09652] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09514] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09674"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#9674"
+   "c1" : "09536"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#9536"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09674] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09536] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09680"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#9680"
+   "c1" : "09542"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#9542"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09680] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09542] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09700"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#9700"
+   "c1" : "09562"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#9562"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09700] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09562] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09706"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#9706"
+   "c1" : "09568"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#9568"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09706] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09568] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10811"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#10811"
+   "c1" : "10673"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#10673"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10811] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10673] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10812"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#10812"
+   "c1" : "10674"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#10674"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10812] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10674] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11560"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#11560"
+   "c1" : "12239"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#12239"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11560] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12239] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11593"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#11593"
+   "c1" : "12272"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#12272"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11593] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12272] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11596"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#11596"
+   "c1" : "12275"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#12275"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11596] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12275] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11766"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#11766"
+   "c1" : "12670"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#12670"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11766] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12670] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14069"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#14069"
+   "c1" : "13571"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#13571"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14069] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13571] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14551"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#14551"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14551] goto statement jump to p12_end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14555"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#14555"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14555] goto statement jump to p12_end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14777"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#14777"
+   "c1" : "14639"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#14639"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14777] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14639] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14821"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#14821"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14821] goto statement jump to nop8"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14832"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#14832"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14832] goto statement jump to nop8"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14838"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#14838"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14838] goto statement jump to nop8"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14851"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#14851"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14851] goto statement jump to nop8"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15004"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#15004"
+   "c1" : "14641"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#14641"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15004] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14641] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15066"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#15066"
+   "c1" : "15512"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15512"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15066] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15512] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15290"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#15290"
+   "c1" : "15540"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15540"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15290] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15540] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15782"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#15782"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15782] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15812"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#15812"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15812] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15823"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#15823"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15823] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15837"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#15837"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15837] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15910"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#15910"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15910] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16056"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#16056"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16056] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16181"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#16181"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16181] goto statement jump to again"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16297"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#16297"
+   "c1" : "15540"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15540"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16297] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15540] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16344"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#16344"
+   "c1" : "15553"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15553"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16344] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15553] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16631"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#16631"
+   "c1" : "15553"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15553"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16631] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15553] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16644"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#16644"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16644] goto statement jump to endloop"
+   "c1" : "15566"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15566"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15566] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16660"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#16660"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16660] goto statement jump to endloop"
+   "c1" : "15566"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15566"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15566] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16664"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#16664"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16664] goto statement jump to endloop"
+   "c1" : "15579"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15579"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15579] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16676"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#16676"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16676] goto statement jump to endloop"
+   "c1" : "15579"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15579"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15579] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16688"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#16688"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16688] goto statement jump to endloop"
+   "c1" : "15592"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15592"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15592] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16735"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#16735"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16735] goto statement jump to again"
+   "c1" : "15592"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15592"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15592] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16893"
- , "c1link" : "./qc/engines/loader_attic-dso-e_loader_attic.c.html#16893"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16893] goto statement jump to skip_cbs"
+   "c1" : "15605"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15605"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15605] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15605"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15605"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15605] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15619"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15619"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15619] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15619"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15619"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15619] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15632"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15632"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15632] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15632"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15632"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15632] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15645"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15645"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15645] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15645"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15645"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15645] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15658"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15658"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15658] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15658"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15658"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15658] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15671"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15671"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15671] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15671"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15671"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15671] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15685"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15685"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15685] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15685"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15685"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15685] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15698"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15698"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15698] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15698"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15698"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15698] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15713"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15713"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15713] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15713"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15713"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15713] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15727"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15727"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15727] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15727"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15727"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15727] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15740"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15740"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15740] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15740"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15740"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15740] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15753"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15753"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15753] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15753"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15753"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15753] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15769"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15769"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15769] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15769"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15769"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15769] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15784"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15784"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15784] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15784"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15784"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15784] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15797"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15797"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15797] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15797"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15797"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15797] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15810"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15810"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15810] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15810"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15810"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15810] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15824"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15824"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15824] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15824"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15824"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15824] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15839"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15839"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15839] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15839"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15839"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15839] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15852"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15852"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15852] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15852"
+ , "c1link" : "./qc/fuzz/asn1-test-bin-asn1.c.html#15852"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15852] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

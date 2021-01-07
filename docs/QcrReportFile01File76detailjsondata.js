@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/ocsp/v3_ocsp.c.html" 
- , "texte" : "File crypto/ocsp/v3_ocsp.c 17 rule violations " 
- , "fic2"  : "./qc/crypto/ocsp/v3_ocsp.c.xml" 
+   "fic1"  : "./qc/engines/capi-dso-e_capi.c.html" 
+ , "texte" : "File engines/capi-dso-e_capi.c 19 rule violations " 
+ , "fic2"  : "./qc/engines/capi-dso-e_capi.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,131 +39,145 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-CPP000007"
- , "c3" : "goto statement"
- , "c4" : "17"
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
+ , "c4" : "19"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+   "c1" : "03278"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#3278"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[03278] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+   "c1" : "05044"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#5044"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[05044] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+   "c1" : "05046"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#5046"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[05046] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+   "c1" : "06495"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#6495"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[06495] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+   "c1" : "07218"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#7218"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[07218] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+   "c1" : "07414"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#7414"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[07414] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+   "c1" : "07415"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#7415"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[07415] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+   "c1" : "07416"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#7416"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[07416] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+   "c1" : "07420"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#7420"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[07420] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+   "c1" : "08006"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#8006"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[08006] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+   "c1" : "08008"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#8008"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[08008] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+   "c1" : "08011"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#8011"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[08011] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+   "c1" : "08804"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#8804"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[08804] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+   "c1" : "08826"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#8826"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[08826] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+   "c1" : "08832"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#8832"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[08832] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+   "c1" : "08852"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#8852"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[08852] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00001"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+   "c1" : "08858"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#8858"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[08858] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10005"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#10005"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[10005] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10006"
+ , "c1link" : "./qc/engines/capi-dso-e_capi.c.html#10006"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[10006] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/fuzz/ct-test-bin-test-corpus.c.html" 
- , "texte" : "File fuzz/ct-test-bin-test-corpus.c 2 rule violations " 
- , "fic2"  : "./qc/fuzz/ct-test-bin-test-corpus.c.xml" 
+   "fic1"  : "./qc/fuzz/x509-test-bin-test-corpus.c.html" 
+ , "texte" : "File fuzz/x509-test-bin-test-corpus.c 2 rule violations " 
+ , "fic2"  : "./qc/fuzz/x509-test-bin-test-corpus.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -49,14 +49,14 @@ var maDataBlocs = {
 "data13b" : [
 { "ligne" : {
    "c1" : "03833"
- , "c1link" : "./qc/fuzz/ct-test-bin-test-corpus.c.html#3833"
+ , "c1link" : "./qc/fuzz/x509-test-bin-test-corpus.c.html#3833"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[03833] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "04800"
- , "c1link" : "./qc/fuzz/ct-test-bin-test-corpus.c.html#4800"
+ , "c1link" : "./qc/fuzz/x509-test-bin-test-corpus.c.html#4800"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[04800] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 

@@ -158,7 +158,6 @@
 <occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/openssl-bin-version.c</file><nberror>3</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000005</rule><file>apps/openssl-bin-x509.c</file><nberror>22</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/openssl-bin-x509.c</file><nberror>88</nberror></occ>
-<occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>crypto/ocsp/v3_ocsp.c</file><nberror>17</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000005</rule><file>engines/afalg-dso-e_afalg.c</file><nberror>19</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000006</rule><file>engines/afalg-dso-e_afalg.c</file><nberror>12</nberror></occ>
 <occ><category>CRITICAL</category><rule>QC-CPPCWE484</rule><file>engines/afalg-dso-e_afalg.c</file><nberror>1</nberror></occ>
