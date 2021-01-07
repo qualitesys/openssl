@@ -43,6 +43,8 @@ jobs:
       run: make depend
     - name: Maven and co rm
       run: rm -f /openssl/test/*.o
+    - name: more crypto/ocsp/ocsp_vfy.c
+      run: more crypto/ocsp/ocsp_vfy.c
     - name: more crypto/ocsp/v3_ocsp.c
       run: more crypto/ocsp/v3_ocsp.c
     - name: Maven and co make
