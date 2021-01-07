@@ -25,27 +25,29 @@ jobs:
       run: mvn -U qcr:qcrgoalfileclonecpp
     - name: Maven and co compile
       run: mvn qcr:qcrgoalcompile
-    - name: Maven and co
+    - name: Maven and co mvn qcr:qcrgoalfilecopycpp
       run: mvn qcr:qcrgoalfilecopycpp
-    - name: Maven and co
+    - name: Maven and co mvn clean
       run: mvn clean
-    - name: Maven and co
+    - name: Maven and co ls
       run: ls # ne sert plus depuis 2019 12 29 cat secucpp/qcrutils.c >> crypto/cryptlib.c
-    - name: Maven and co
+    - name: Maven and co ls 
       run: ls # ne sert plus depuis 2019 12 29 cat secucpp/qcrutils.c >> apps/openssl.c
-    - name: Maven and co
+    - name: Maven and co ls
       run: ls # ne sert plus depuis 2019 12 29 cat secucpp/qcrutils.c >> fuzz/test-corpus.c
-    - name: Maven and co
+    - name: Maven and co ls
       run: ls # ne sert plus depuis 2019 12 29 rm  secucpp/qcrutils.c
-    - name: Maven and co
+    - name: Maven and co config
       run: ./config -no-asm
-    - name: Maven and co
+    - name: Maven and co make depend
       run: make depend
-    - name: Maven and co
+    - name: Maven and co rm
       run: rm -f /openssl/test/*.o
-    - name: Maven and co
+    - name: more crypto/ocsp/v3_ocsp.c
+      run: more crypto/ocsp/v3_ocsp.c
+    - name: Maven and co make
       run: make
     - name: make test
       run: make test 2> ./make_test_err.log
-    - name: Maven and co
+    - name: Maven and co sort
       run: sort -u -o make_test_err_sort.log make_test_err.log
