@@ -53,3 +53,5 @@ jobs:
       run: make test 2> ./make_test_err.log
     - name: Maven and co sort
       run: sort -u -o make_test_err_sort.log make_test_err.log
+    - name: ls
+      run: ls make_test_err_sort.log
