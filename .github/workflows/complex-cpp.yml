@@ -10,11 +10,11 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: lister
-      run: ls
+      run: ls -l
     - name: Verif maven
       run: mvn -U clean
     - name: lister
-      run: ls
+      run: ls -l
     - name: configure avec generation des template seul
       run: ./config -no-asm -E
     - name: make depend
@@ -30,13 +30,7 @@ jobs:
     - name: Maven and co mvn clean
       run: mvn clean
     - name: Maven and co ls
-      run: ls # ne sert plus depuis 2019 12 29 cat secucpp/qcrutils.c >> crypto/cryptlib.c
-    - name: Maven and co ls 
-      run: ls # ne sert plus depuis 2019 12 29 cat secucpp/qcrutils.c >> apps/openssl.c
-    - name: Maven and co ls
-      run: ls # ne sert plus depuis 2019 12 29 cat secucpp/qcrutils.c >> fuzz/test-corpus.c
-    - name: Maven and co ls
-      run: ls # ne sert plus depuis 2019 12 29 rm  secucpp/qcrutils.c
+      run: ls -l # ne sert plus depuis 2019 12 29 rm  secucpp/qcrutils.c
     - name: Maven and co config
       run: ./config -no-asm
     - name: Maven and co make depend
@@ -54,4 +48,8 @@ jobs:
     - name: Maven and co sort
       run: sort -u -o make_test_err_sort.log make_test_err.log
     - name: ls
-      run: ls make_test_err_sort.log
+      run: ls -l make_test_err_sort.log
+    - uses: actions/upload-artifact@v2
+      with:
+        name: artifact-sauve-log
+        path: make_test_err_sort.log
