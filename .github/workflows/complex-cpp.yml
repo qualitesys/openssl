@@ -44,7 +44,9 @@ jobs:
     - name: Maven and co make
       run: make
     - name: make test
-      run: make test 2> ./make_test_err.log
+      # run: make test 2> ./make_test_err.log
+      # V=1 : mode verbose
+      run: make V=1 test 2>> ./make_test_err.log
     - name: Maven and co sort
       run: sort -u -o make_test_err_sort.log make_test_err.log
     - name: ls
