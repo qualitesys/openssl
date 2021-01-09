@@ -8,6 +8,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Install Dependencies graphviz pour plantuml
+      run: |
+          sudo apt-get install graphviz
     - uses: actions/checkout@v2
       with:
         ref: master     
