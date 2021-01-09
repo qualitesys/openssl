@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/fuzz/conf-test-bin-test-corpus.c.html" 
- , "texte" : "File fuzz/conf-test-bin-test-corpus.c 2 rule violations " 
- , "fic2"  : "./qc/fuzz/conf-test-bin-test-corpus.c.xml" 
+   "fic1"  : "./qc/ssl/libssl-lib-ssl_err.c.html" 
+ , "texte" : "File ssl/libssl-lib-ssl_err.c 1 rule violations " 
+ , "fic2"  : "./qc/ssl/libssl-lib-ssl_err.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,23 +42,16 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03833"
- , "c1link" : "./qc/fuzz/conf-test-bin-test-corpus.c.html#3833"
+   "c1" : "03283"
+ , "c1link" : "./qc/ssl/libssl-lib-ssl_err.c.html#3283"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03833] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04800"
- , "c1link" : "./qc/fuzz/conf-test-bin-test-corpus.c.html#4800"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[04800] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[03283] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

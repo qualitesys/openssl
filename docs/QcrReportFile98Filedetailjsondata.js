@@ -564,171 +564,682 @@ var maDataBlocs = {
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
-  "fic"  : "fuzz/asn1-test-bin-asn1.c" 
-  , "Fic1"  : "qc/fuzz/asn1-test-bin-asn1.c.qre.nonreg.html" 
+  "fic"  : "ssl/libimplementations-lib-s3_cbc.c" 
+  , "Fic1"  : "qc/ssl/libimplementations-lib-s3_cbc.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
-  , "Fic2"  : "qc/fuzz/asn1-test-bin-asn1.c.xml.nonreg.html" 
+  , "Fic2"  : "qc/ssl/libimplementations-lib-s3_cbc.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
-  "fic"  : "fuzz/asn1-test-bin-test-corpus.c" 
-  , "Fic1"  : "qc/fuzz/asn1-test-bin-test-corpus.c.qre.nonreg.html" 
+  "fic"  : "ssl/libssl-lib-bio_ssl.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-bio_ssl.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
-  , "Fic2"  : "qc/fuzz/asn1-test-bin-test-corpus.c.xml.nonreg.html" 
+  , "Fic2"  : "qc/ssl/libssl-lib-bio_ssl.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
-  "fic"  : "fuzz/asn1parse-test-bin-asn1parse.c" 
-  , "Fic1"  : "qc/fuzz/asn1parse-test-bin-asn1parse.c.qre.nonreg.html" 
+  "fic"  : "ssl/libssl-lib-d1_lib.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-d1_lib.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
-  , "Fic2"  : "qc/fuzz/asn1parse-test-bin-asn1parse.c.xml.nonreg.html" 
+  , "Fic2"  : "qc/ssl/libssl-lib-d1_lib.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
-  "fic"  : "fuzz/asn1parse-test-bin-test-corpus.c" 
-  , "Fic1"  : "qc/fuzz/asn1parse-test-bin-test-corpus.c.qre.nonreg.html" 
+  "fic"  : "ssl/libssl-lib-d1_msg.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-d1_msg.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
-  , "Fic2"  : "qc/fuzz/asn1parse-test-bin-test-corpus.c.xml.nonreg.html" 
+  , "Fic2"  : "qc/ssl/libssl-lib-d1_msg.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
-  "fic"  : "fuzz/bignum-test-bin-bignum.c" 
-  , "Fic1"  : "qc/fuzz/bignum-test-bin-bignum.c.qre.nonreg.html" 
+  "fic"  : "ssl/libssl-lib-d1_srtp.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-d1_srtp.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
-  , "Fic2"  : "qc/fuzz/bignum-test-bin-bignum.c.xml.nonreg.html" 
+  , "Fic2"  : "qc/ssl/libssl-lib-d1_srtp.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
-  "fic"  : "fuzz/bignum-test-bin-test-corpus.c" 
-  , "Fic1"  : "qc/fuzz/bignum-test-bin-test-corpus.c.qre.nonreg.html" 
+  "fic"  : "ssl/libssl-lib-methods.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-methods.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
-  , "Fic2"  : "qc/fuzz/bignum-test-bin-test-corpus.c.xml.nonreg.html" 
+  , "Fic2"  : "qc/ssl/libssl-lib-methods.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
-  "fic"  : "fuzz/bndiv-test-bin-bndiv.c" 
-  , "Fic1"  : "qc/fuzz/bndiv-test-bin-bndiv.c.qre.nonreg.html" 
+  "fic"  : "ssl/libssl-lib-pqueue.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-pqueue.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
-  , "Fic2"  : "qc/fuzz/bndiv-test-bin-bndiv.c.xml.nonreg.html" 
+  , "Fic2"  : "qc/ssl/libssl-lib-pqueue.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
-  "fic"  : "fuzz/bndiv-test-bin-test-corpus.c" 
-  , "Fic1"  : "qc/fuzz/bndiv-test-bin-test-corpus.c.qre.nonreg.html" 
+  "fic"  : "ssl/libssl-lib-s3_cbc.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-s3_cbc.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
-  , "Fic2"  : "qc/fuzz/bndiv-test-bin-test-corpus.c.xml.nonreg.html" 
+  , "Fic2"  : "qc/ssl/libssl-lib-s3_cbc.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
-  "fic"  : "fuzz/client-test-bin-client.c" 
-  , "Fic1"  : "qc/fuzz/client-test-bin-client.c.qre.nonreg.html" 
+  "fic"  : "ssl/libssl-lib-s3_enc.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-s3_enc.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
-  , "Fic2"  : "qc/fuzz/client-test-bin-client.c.xml.nonreg.html" 
+  , "Fic2"  : "qc/ssl/libssl-lib-s3_enc.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
-  "fic"  : "fuzz/client-test-bin-test-corpus.c" 
-  , "Fic1"  : "qc/fuzz/client-test-bin-test-corpus.c.qre.nonreg.html" 
+  "fic"  : "ssl/libssl-lib-s3_lib.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-s3_lib.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
-  , "Fic2"  : "qc/fuzz/client-test-bin-test-corpus.c.xml.nonreg.html" 
+  , "Fic2"  : "qc/ssl/libssl-lib-s3_lib.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
-  "fic"  : "fuzz/cmp-test-bin-cmp.c" 
-  , "Fic1"  : "qc/fuzz/cmp-test-bin-cmp.c.qre.nonreg.html" 
+  "fic"  : "ssl/libssl-lib-s3_msg.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-s3_msg.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
-  , "Fic2"  : "qc/fuzz/cmp-test-bin-cmp.c.xml.nonreg.html" 
+  , "Fic2"  : "qc/ssl/libssl-lib-s3_msg.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
-  "fic"  : "fuzz/cmp-test-bin-test-corpus.c" 
-  , "Fic1"  : "qc/fuzz/cmp-test-bin-test-corpus.c.qre.nonreg.html" 
+  "fic"  : "ssl/libssl-lib-ssl_asn1.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-ssl_asn1.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
-  , "Fic2"  : "qc/fuzz/cmp-test-bin-test-corpus.c.xml.nonreg.html" 
+  , "Fic2"  : "qc/ssl/libssl-lib-ssl_asn1.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
-  "fic"  : "fuzz/cms-test-bin-cms.c" 
-  , "Fic1"  : "qc/fuzz/cms-test-bin-cms.c.qre.nonreg.html" 
+  "fic"  : "ssl/libssl-lib-ssl_cert.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-ssl_cert.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
-  , "Fic2"  : "qc/fuzz/cms-test-bin-cms.c.xml.nonreg.html" 
+  , "Fic2"  : "qc/ssl/libssl-lib-ssl_cert.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
-  "fic"  : "fuzz/cms-test-bin-test-corpus.c" 
-  , "Fic1"  : "qc/fuzz/cms-test-bin-test-corpus.c.qre.nonreg.html" 
+  "fic"  : "ssl/libssl-lib-ssl_ciph.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-ssl_ciph.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
-  , "Fic2"  : "qc/fuzz/cms-test-bin-test-corpus.c.xml.nonreg.html" 
+  , "Fic2"  : "qc/ssl/libssl-lib-ssl_ciph.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
-  "fic"  : "fuzz/conf-test-bin-conf.c" 
-  , "Fic1"  : "qc/fuzz/conf-test-bin-conf.c.qre.nonreg.html" 
+  "fic"  : "ssl/libssl-lib-ssl_conf.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-ssl_conf.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
-  , "Fic2"  : "qc/fuzz/conf-test-bin-conf.c.xml.nonreg.html" 
+  , "Fic2"  : "qc/ssl/libssl-lib-ssl_conf.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
-  "fic"  : "fuzz/conf-test-bin-test-corpus.c" 
-  , "Fic1"  : "qc/fuzz/conf-test-bin-test-corpus.c.qre.nonreg.html" 
+  "fic"  : "ssl/libssl-lib-ssl_err.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-ssl_err.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
-  , "Fic2"  : "qc/fuzz/conf-test-bin-test-corpus.c.xml.nonreg.html" 
+  , "Fic2"  : "qc/ssl/libssl-lib-ssl_err.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
-  "fic"  : "fuzz/crl-test-bin-crl.c" 
-  , "Fic1"  : "qc/fuzz/crl-test-bin-crl.c.qre.nonreg.html" 
+  "fic"  : "ssl/libssl-lib-ssl_err_legacy.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-ssl_err_legacy.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
-  , "Fic2"  : "qc/fuzz/crl-test-bin-crl.c.xml.nonreg.html" 
+  , "Fic2"  : "qc/ssl/libssl-lib-ssl_err_legacy.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
-  "fic"  : "fuzz/crl-test-bin-test-corpus.c" 
-  , "Fic1"  : "qc/fuzz/crl-test-bin-test-corpus.c.qre.nonreg.html" 
+  "fic"  : "ssl/libssl-lib-ssl_init.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-ssl_init.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
-  , "Fic2"  : "qc/fuzz/crl-test-bin-test-corpus.c.xml.nonreg.html" 
+  , "Fic2"  : "qc/ssl/libssl-lib-ssl_init.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
-  "fic"  : "fuzz/ct-test-bin-ct.c" 
-  , "Fic1"  : "qc/fuzz/ct-test-bin-ct.c.qre.nonreg.html" 
+  "fic"  : "ssl/libssl-lib-ssl_lib.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-ssl_lib.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
-  , "Fic2"  : "qc/fuzz/ct-test-bin-ct.c.xml.nonreg.html" 
+  , "Fic2"  : "qc/ssl/libssl-lib-ssl_lib.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
-  "fic"  : "fuzz/ct-test-bin-test-corpus.c" 
-  , "Fic1"  : "qc/fuzz/ct-test-bin-test-corpus.c.qre.nonreg.html" 
+  "fic"  : "ssl/libssl-lib-ssl_mcnf.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-ssl_mcnf.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
-  , "Fic2"  : "qc/fuzz/ct-test-bin-test-corpus.c.xml.nonreg.html" 
+  , "Fic2"  : "qc/ssl/libssl-lib-ssl_mcnf.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
-  "fic"  : "fuzz/server-test-bin-server.c" 
-  , "Fic1"  : "qc/fuzz/server-test-bin-server.c.qre.nonreg.html" 
+  "fic"  : "ssl/libssl-lib-ssl_rsa.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-ssl_rsa.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
-  , "Fic2"  : "qc/fuzz/server-test-bin-server.c.xml.nonreg.html" 
+  , "Fic2"  : "qc/ssl/libssl-lib-ssl_rsa.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
-  "fic"  : "fuzz/server-test-bin-test-corpus.c" 
-  , "Fic1"  : "qc/fuzz/server-test-bin-test-corpus.c.qre.nonreg.html" 
+  "fic"  : "ssl/libssl-lib-ssl_rsa_legacy.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-ssl_rsa_legacy.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
-  , "Fic2"  : "qc/fuzz/server-test-bin-test-corpus.c.xml.nonreg.html" 
+  , "Fic2"  : "qc/ssl/libssl-lib-ssl_rsa_legacy.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
-  "fic"  : "fuzz/x509-test-bin-test-corpus.c" 
-  , "Fic1"  : "qc/fuzz/x509-test-bin-test-corpus.c.qre.nonreg.html" 
+  "fic"  : "ssl/libssl-lib-ssl_sess.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-ssl_sess.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
-  , "Fic2"  : "qc/fuzz/x509-test-bin-test-corpus.c.xml.nonreg.html" 
+  , "Fic2"  : "qc/ssl/libssl-lib-ssl_sess.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
-  "fic"  : "fuzz/x509-test-bin-x509.c" 
-  , "Fic1"  : "qc/fuzz/x509-test-bin-x509.c.qre.nonreg.html" 
+  "fic"  : "ssl/libssl-lib-ssl_stat.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-ssl_stat.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
-  , "Fic2"  : "qc/fuzz/x509-test-bin-x509.c.xml.nonreg.html" 
+  , "Fic2"  : "qc/ssl/libssl-lib-ssl_stat.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-lib-ssl_txt.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-ssl_txt.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-lib-ssl_txt.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-lib-ssl_utst.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-ssl_utst.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-lib-ssl_utst.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-lib-t1_enc.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-t1_enc.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-lib-t1_enc.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-lib-t1_lib.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-t1_lib.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-lib-t1_lib.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-lib-t1_trce.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-t1_trce.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-lib-t1_trce.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-lib-tls13_enc.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-tls13_enc.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-lib-tls13_enc.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-lib-tls_depr.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-tls_depr.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-lib-tls_depr.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-lib-tls_srp.c" 
+  , "Fic1"  : "qc/ssl/libssl-lib-tls_srp.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-lib-tls_srp.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-bio_ssl.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-bio_ssl.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-bio_ssl.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-d1_lib.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-d1_lib.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-d1_lib.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-d1_msg.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-d1_msg.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-d1_msg.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-d1_srtp.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-d1_srtp.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-d1_srtp.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-methods.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-methods.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-methods.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-pqueue.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-pqueue.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-pqueue.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-s3_cbc.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-s3_cbc.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-s3_cbc.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-s3_enc.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-s3_enc.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-s3_enc.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-s3_lib.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-s3_lib.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-s3_lib.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-s3_msg.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-s3_msg.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-s3_msg.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-ssl_asn1.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-ssl_asn1.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-ssl_asn1.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-ssl_cert.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-ssl_cert.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-ssl_cert.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-ssl_ciph.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-ssl_ciph.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-ssl_ciph.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-ssl_conf.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-ssl_conf.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-ssl_conf.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-ssl_err.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-ssl_err.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-ssl_err.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-ssl_err_legacy.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-ssl_err_legacy.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-ssl_err_legacy.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-ssl_init.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-ssl_init.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-ssl_init.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-ssl_lib.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-ssl_lib.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-ssl_lib.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-ssl_mcnf.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-ssl_mcnf.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-ssl_mcnf.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-ssl_rsa.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-ssl_rsa.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-ssl_rsa.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-ssl_rsa_legacy.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-ssl_rsa_legacy.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-ssl_rsa_legacy.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-ssl_sess.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-ssl_sess.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-ssl_sess.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-ssl_stat.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-ssl_stat.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-ssl_stat.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-ssl_txt.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-ssl_txt.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-ssl_txt.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-ssl_utst.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-ssl_utst.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-ssl_utst.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-t1_enc.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-t1_enc.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-t1_enc.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-t1_lib.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-t1_lib.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-t1_lib.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-t1_trce.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-t1_trce.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-t1_trce.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-tls13_enc.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-tls13_enc.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-tls13_enc.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-tls_depr.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-tls_depr.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-tls_depr.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/libssl-shlib-tls_srp.c" 
+  , "Fic1"  : "qc/ssl/libssl-shlib-tls_srp.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/libssl-shlib-tls_srp.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/record/libcommon-lib-tls_pad.c" 
+  , "Fic1"  : "qc/ssl/record/libcommon-lib-tls_pad.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/record/libcommon-lib-tls_pad.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/record/libssl-lib-dtls1_bitmap.c" 
+  , "Fic1"  : "qc/ssl/record/libssl-lib-dtls1_bitmap.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/record/libssl-lib-dtls1_bitmap.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/record/libssl-lib-rec_layer_d1.c" 
+  , "Fic1"  : "qc/ssl/record/libssl-lib-rec_layer_d1.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/record/libssl-lib-rec_layer_d1.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/record/libssl-lib-rec_layer_s3.c" 
+  , "Fic1"  : "qc/ssl/record/libssl-lib-rec_layer_s3.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/record/libssl-lib-rec_layer_s3.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/record/libssl-lib-ssl3_buffer.c" 
+  , "Fic1"  : "qc/ssl/record/libssl-lib-ssl3_buffer.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/record/libssl-lib-ssl3_buffer.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/record/libssl-lib-ssl3_record.c" 
+  , "Fic1"  : "qc/ssl/record/libssl-lib-ssl3_record.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/record/libssl-lib-ssl3_record.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/record/libssl-lib-ssl3_record_tls13.c" 
+  , "Fic1"  : "qc/ssl/record/libssl-lib-ssl3_record_tls13.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/record/libssl-lib-ssl3_record_tls13.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/record/libssl-lib-tls_pad.c" 
+  , "Fic1"  : "qc/ssl/record/libssl-lib-tls_pad.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/record/libssl-lib-tls_pad.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/record/libssl-shlib-dtls1_bitmap.c" 
+  , "Fic1"  : "qc/ssl/record/libssl-shlib-dtls1_bitmap.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/record/libssl-shlib-dtls1_bitmap.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/record/libssl-shlib-rec_layer_d1.c" 
+  , "Fic1"  : "qc/ssl/record/libssl-shlib-rec_layer_d1.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/record/libssl-shlib-rec_layer_d1.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/record/libssl-shlib-rec_layer_s3.c" 
+  , "Fic1"  : "qc/ssl/record/libssl-shlib-rec_layer_s3.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/record/libssl-shlib-rec_layer_s3.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/record/libssl-shlib-ssl3_buffer.c" 
+  , "Fic1"  : "qc/ssl/record/libssl-shlib-ssl3_buffer.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/record/libssl-shlib-ssl3_buffer.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/record/libssl-shlib-ssl3_record.c" 
+  , "Fic1"  : "qc/ssl/record/libssl-shlib-ssl3_record.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/record/libssl-shlib-ssl3_record.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/record/libssl-shlib-ssl3_record_tls13.c" 
+  , "Fic1"  : "qc/ssl/record/libssl-shlib-ssl3_record_tls13.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/record/libssl-shlib-ssl3_record_tls13.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/record/libssl-shlib-tls_pad.c" 
+  , "Fic1"  : "qc/ssl/record/libssl-shlib-tls_pad.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/record/libssl-shlib-tls_pad.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/statem/libssl-lib-extensions.c" 
+  , "Fic1"  : "qc/ssl/statem/libssl-lib-extensions.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/statem/libssl-lib-extensions.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/statem/libssl-lib-extensions_clnt.c" 
+  , "Fic1"  : "qc/ssl/statem/libssl-lib-extensions_clnt.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/statem/libssl-lib-extensions_clnt.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/statem/libssl-lib-extensions_cust.c" 
+  , "Fic1"  : "qc/ssl/statem/libssl-lib-extensions_cust.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/statem/libssl-lib-extensions_cust.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/statem/libssl-lib-extensions_srvr.c" 
+  , "Fic1"  : "qc/ssl/statem/libssl-lib-extensions_srvr.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/statem/libssl-lib-extensions_srvr.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/statem/libssl-lib-statem.c" 
+  , "Fic1"  : "qc/ssl/statem/libssl-lib-statem.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/statem/libssl-lib-statem.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/statem/libssl-lib-statem_clnt.c" 
+  , "Fic1"  : "qc/ssl/statem/libssl-lib-statem_clnt.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/statem/libssl-lib-statem_clnt.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/statem/libssl-lib-statem_dtls.c" 
+  , "Fic1"  : "qc/ssl/statem/libssl-lib-statem_dtls.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/statem/libssl-lib-statem_dtls.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/statem/libssl-lib-statem_lib.c" 
+  , "Fic1"  : "qc/ssl/statem/libssl-lib-statem_lib.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/statem/libssl-lib-statem_lib.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/statem/libssl-lib-statem_srvr.c" 
+  , "Fic1"  : "qc/ssl/statem/libssl-lib-statem_srvr.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/statem/libssl-lib-statem_srvr.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/statem/libssl-shlib-extensions.c" 
+  , "Fic1"  : "qc/ssl/statem/libssl-shlib-extensions.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/statem/libssl-shlib-extensions.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/statem/libssl-shlib-extensions_clnt.c" 
+  , "Fic1"  : "qc/ssl/statem/libssl-shlib-extensions_clnt.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/statem/libssl-shlib-extensions_clnt.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/statem/libssl-shlib-extensions_cust.c" 
+  , "Fic1"  : "qc/ssl/statem/libssl-shlib-extensions_cust.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/statem/libssl-shlib-extensions_cust.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/statem/libssl-shlib-extensions_srvr.c" 
+  , "Fic1"  : "qc/ssl/statem/libssl-shlib-extensions_srvr.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/statem/libssl-shlib-extensions_srvr.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/statem/libssl-shlib-statem.c" 
+  , "Fic1"  : "qc/ssl/statem/libssl-shlib-statem.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/statem/libssl-shlib-statem.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/statem/libssl-shlib-statem_clnt.c" 
+  , "Fic1"  : "qc/ssl/statem/libssl-shlib-statem_clnt.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/statem/libssl-shlib-statem_clnt.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/statem/libssl-shlib-statem_dtls.c" 
+  , "Fic1"  : "qc/ssl/statem/libssl-shlib-statem_dtls.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/statem/libssl-shlib-statem_dtls.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/statem/libssl-shlib-statem_lib.c" 
+  , "Fic1"  : "qc/ssl/statem/libssl-shlib-statem_lib.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/statem/libssl-shlib-statem_lib.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/statem/libssl-shlib-statem_srvr.c" 
+  , "Fic1"  : "qc/ssl/statem/libssl-shlib-statem_srvr.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/statem/libssl-shlib-statem_srvr.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/tls13secretstest-bin-tls13_enc.c" 
+  , "Fic1"  : "qc/ssl/tls13secretstest-bin-tls13_enc.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/tls13secretstest-bin-tls13_enc.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
 ]
