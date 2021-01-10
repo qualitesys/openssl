@@ -11,6 +11,16 @@ var maDataBlocs = {
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : " int "
+ , "c2" : "FMT_istext(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [

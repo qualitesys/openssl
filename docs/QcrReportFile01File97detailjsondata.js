@@ -11,6 +11,44 @@ var maDataBlocs = {
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : "intmax_t"
+ , "c2" : "strtoimax(char*;char*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "uintmax_t"
+ , "c2" : "strtoumax(char*;char*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "intmax_t"
+ , "c2" : "wcstoimax(__gwchar_t*;__gwchar_t*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "uintmax_t"
+ , "c2" : "wcstoumax(__gwchar_t*;__gwchar_t*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int "
+ , "c2" : "ERR_load_SSL_strings(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+] 
+}} 
 ]
 , 
 "data03" : [
