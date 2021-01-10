@@ -1,0 +1,11 @@
+@startuml
+ <|-- dummy.
+ <|-- dummy.
+class dummy. {
++  strtoimax(char*;char*;int)
++  strtoumax(char*;char*;int)
++  wcstoimax(__gwchar_t*;__gwchar_t*;int)
++  wcstoumax(__gwchar_t*;__gwchar_t*;int)
++  ERR_load_SSL_strings(void)
+} 
+@enduml

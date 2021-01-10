@@ -1,18 +1,1443 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/apps/openssl-bin-crl2p7.c.html" 
- , "texte" : "File apps/openssl-bin-crl2p7.c 41 rule violations " 
- , "fic2"  : "./qc/apps/openssl-bin-crl2p7.c.xml" 
+   "fic1"  : "./qc/apps/lib/app_x509.c.html" 
+ , "texte" : "File apps/lib/app_x509.c 21 rule violations " 
+ , "fic2"  : "./qc/apps/lib/app_x509.c.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.__locale_struct"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.timeval"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.timespec"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.__pthread_rwlock_arch_t"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.__pthread_internal_list"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.__pthread_mutex_s"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.__pthread_cond_s"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pthread_attr_t"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.random_data"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.drand48_data"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.tm"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.itimerspec"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._IO_marker"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._IO_FILE"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.crypto_ex_data_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.crypto_threadid_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.sched_param"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._pthread_cleanup_buffer"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.__pthread_cleanup_frame"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.timezone"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.itimerval"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.sigval"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.sigevent"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.sigaction"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._fpx_sw_bytes"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._fpreg"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._fpxreg"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._xmmreg"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._fpstate"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.sigcontext"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._xsave_hdr"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._ymmh_state"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._xstate"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._libc_fpxreg"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._libc_xmmreg"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._libc_fpstate"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ucontext_t"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.sigstack"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.iovec"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.sockaddr"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.sockaddr_storage"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.msghdr"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.cmsghdr"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.linger"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.osockaddr"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.in_addr"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ip_opts"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ip_mreqn"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.in_pktinfo"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.in6_addr"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.sockaddr_in"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.sockaddr_in6"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ip_mreq"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ip_mreq_source"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ipv6_mreq"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.group_req"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.group_source_req"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ip_msfilter"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.group_filter"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.rpcent"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.netent"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.hostent"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.servent"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.protoent"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.addrinfo"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.sockaddr_un"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.tcphdr"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.tcp_info"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.tcp_md5sig"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.tcp_repair_opt"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.tcp_cookie_transactions"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.tcp_repair_window"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.winsize"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.termio"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.stat"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.flock"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.BIO_sock_info_u"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.buf_mem_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ossl_dispatch_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ossl_item_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ossl_algorithm_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ossl_param_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.asn1_string_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ASN1_ENCODING_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.asn1_string_table_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.asn1_type_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.BIT_STRING_BITNAME_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.obj_name_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.evp_cipher_info_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.rsa_pss_params_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.rsa_oaep_params_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.SHAstate_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.SHA256state_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.SHA512state_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.X509_algor_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.X509_val_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.x509_trust_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.private_key_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.X509_info_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.Netscape_spkac_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.Netscape_spki_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.Netscape_certificate_sequence"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.PBEPARAM_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.PBE2PARAM_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.PBKDF2PARAM_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.SCRYPT_PARAMS_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.lhash_st_OPENSSL_STRING"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.lh_OPENSSL_STRING_dummy"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.lhash_st_OPENSSL_CSTRING"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.lh_OPENSSL_CSTRING_dummy"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.PKCS7_CTX_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_issuer_and_serial_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_signer_info_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_recip_info_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_signed_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_enc_content_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_enveloped_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_signedandenveloped_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_digest_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_encrypted_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.lhash_st_CONF_VALUE"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.lh_CONF_VALUE_dummy"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.conf_method_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.conf_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.txt_db_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.rand_meth_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.err_state_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ERR_string_data_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.lhash_st_ERR_STRING_DATA"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.lh_ERR_STRING_DATA_dummy"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ENGINE_CMD_DEFN_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.st_dynamic_MEM_fns"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.st_dynamic_fns"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.v3_ext_method"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.X509V3_CONF_METHOD_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.v3_ext_ctx"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.BASIC_CONSTRAINTS_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.PKEY_USAGE_PERIOD_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.otherName_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.EDIPartyName_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.GENERAL_NAME_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ACCESS_DESCRIPTION_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.DIST_POINT_NAME_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.DIST_POINT_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.AUTHORITY_KEYID_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.SXNET_ID_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.SXNET_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ISSUER_SIGN_TOOL_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.NOTICEREF_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.USERNOTICE_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.POLICYQUALINFO_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.POLICYINFO_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.POLICY_MAPPING_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.GENERAL_SUBTREE_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.NAME_CONSTRAINTS_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.POLICY_CONSTRAINTS_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.PROXY_POLICY_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.PROXY_CERT_INFO_EXTENSION_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ISSUING_DIST_POINT_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.x509_purpose_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ASRange_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ASIdOrRange_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ASIdentifierChoice_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ASIdentifiers_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.IPAddressRange_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.IPAddressOrRange_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.IPAddressChoice_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.IPAddressFamily_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pw_cb_data"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.options_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.string_int_pair_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.args_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.db_attr_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ca_db_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.app_http_tls_info_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.verify_options_st"
+}} 
 ]
 , 
 "data02" : [
 { "classe" : 
  { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+{ "ligne" : {
+   "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bcopy(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bzero(void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " void "
+ , "c2" : "memcpy(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " void "
+ , "c2" : "memmove(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " void "
+ , "c2" : "memset(void*;int;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "explicit_bzero(void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " char "
+ , "c2" : "strcpy(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " char "
+ , "c2" : "strncpy(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " char "
+ , "c2" : "stpncpy(char*;char*;size_t)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : " char "
+ , "c2" : "strcat(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " char "
+ , "c2" : "strncat(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "intmax_t"
+ , "c2" : "strtoimax(char*;char*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "uintmax_t"
+ , "c2" : "strtoumax(char*;char*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "intmax_t"
+ , "c2" : "wcstoimax(__gwchar_t*;__gwchar_t*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "uintmax_t"
+ , "c2" : "wcstoumax(__gwchar_t*;__gwchar_t*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " unsigned  int "
+ , "c2" : "__bswap_32(unsignedint)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " unsigned  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "gnu_dev_major(__dev_t)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : " unsigned  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "gnu_dev_minor(__dev_t)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : {
+   "c1" : "__dev_t"
+ , "c2" : "gnu_dev_makedev(unsignedint;unsignedint)"
+ , "c3" : "1"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : {
+   "c1" : " void "
+ , "c2" : "bsearch(void*;void*;size_t;size_t;__compar_fn_t)"
+ , "c3" : "6"
+ , "c4" : "12"
+}} 
+,
+{ "ligne" : {
+   "c1" : " double  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atof(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " char "
+ , "c2" : "realpath(char*;char*)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ptsname_r(int;char*;size_t)"
+ , "c3" : "4"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "wctomb(char*;wchar_t)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "size_t"
+ , "c2" : "mbstowcs(wchar_t*;char*;size_t)"
+ , "c3" : "4"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "size_t"
+ , "c2" : "wcstombs(char*;wchar_t*;size_t)"
+ , "c3" : "4"
+ , "c4" : "3"
+}} 
+,
 { "ligne" : {
    "c1" : " int "
  , "c2" : "getchar(void)"
@@ -172,237 +1597,6 @@ var maDataBlocs = {
  , "c2" : "fread_unlocked(void*;size_t;size_t;FILE*)"
  , "c3" : "8"
  , "c4" : "12"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "bcopy(void*;void*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "bzero(void*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "memcpy(void*;void*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "memmove(void*;void*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "memset(void*;int;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "explicit_bzero(void*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " char "
- , "c2" : "strcpy(char*;char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " char "
- , "c2" : "strncpy(char*;char*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " char "
- , "c2" : "stpncpy(char*;char*;size_t)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : " char "
- , "c2" : "strcat(char*;char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " char "
- , "c2" : "strncat(char*;char*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " unsigned  int "
- , "c2" : "__bswap_32(unsignedint)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "__uint64_t"
- , "c2" : "__bswap_64(__uint64_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "__uint16_t"
- , "c2" : "__uint16_identity(__uint16_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "__uint32_t"
- , "c2" : "__uint32_identity(__uint32_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "__uint64_t"
- , "c2" : "__uint64_identity(__uint64_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " unsigned  int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "gnu_dev_major(__dev_t)"
- , "c3" : "1"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : {
-   "c1" : " unsigned  int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "gnu_dev_minor(__dev_t)"
- , "c3" : "1"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : {
-   "c1" : "__dev_t"
- , "c2" : "gnu_dev_makedev(unsignedint;unsignedint)"
- , "c3" : "1"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : {
-   "c1" : "intmax_t"
- , "c2" : "strtoimax(char*;char*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "uintmax_t"
- , "c2" : "strtoumax(char*;char*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "intmax_t"
- , "c2" : "wcstoimax(__gwchar_t*;__gwchar_t*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "uintmax_t"
- , "c2" : "wcstoumax(__gwchar_t*;__gwchar_t*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "atoi(char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "atol(char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "atoll(char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "bsearch(void*;void*;size_t;size_t;__compar_fn_t)"
- , "c3" : "6"
- , "c4" : "12"
-}} 
-,
-{ "ligne" : {
-   "c1" : " double  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "atof(char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " char "
- , "c2" : "realpath(char*;char*)"
- , "c3" : "3"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "ptsname_r(int;char*;size_t)"
- , "c3" : "4"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "wctomb(char*;wchar_t)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : "size_t"
- , "c2" : "mbstowcs(wchar_t*;char*;size_t)"
- , "c3" : "4"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : "size_t"
- , "c2" : "wcstombs(char*;wchar_t*;size_t)"
- , "c3" : "4"
- , "c4" : "3"
 }} 
 ,
 { "ligne" : {
@@ -3115,121 +4309,55 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : " struct lhash_st_FUNCTION"
- , "c2" : "lh_FUNCTION_new(unsignedlong;int)"
- , "c3" : "1"
- , "c4" : "1"
+   "c1" : "ASN1_OCTET_STRING"
+ , "c2" : "mk_octet_string(void*;size_t)"
+ , "c3" : "4"
+ , "c4" : "5"
 }} 
 ,
 { "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_FUNCTION_free(structlhash_st_FUNCTION*)"
- , "c3" : "1"
- , "c4" : "1"
+   "c1" : " int "
+ , "c2" : "x509_ctrl(void*;int;void*;size_t)"
+ , "c3" : "3"
+ , "c4" : "7"
 }} 
 ,
 { "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_FUNCTION_flush(structlhash_st_FUNCTION*)"
- , "c3" : "1"
- , "c4" : "1"
+   "c1" : " int "
+ , "c2" : "x509_req_ctrl(void*;int;void*;size_t)"
+ , "c3" : "3"
+ , "c4" : "7"
 }} 
 ,
 { "ligne" : {
-   "c1" : "FUNCTION"
- , "c2" : "lh_FUNCTION_insert(structlhash_st_FUNCTION*;FUNCTION*)"
- , "c3" : "1"
- , "c4" : "1"
+   "c1" : " int "
+ , "c2" : "do_x509_ctrl_string(int;void*;char*)"
+ , "c3" : "7"
+ , "c4" : "21"
 }} 
 ,
 { "ligne" : {
-   "c1" : "FUNCTION"
- , "c2" : "lh_FUNCTION_delete(structlhash_st_FUNCTION*;FUNCTION*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "FUNCTION"
- , "c2" : "lh_FUNCTION_retrieve(structlhash_st_FUNCTION*;FUNCTION*)"
+   "c1" : " int "
+ , "c2" : "x509_ctrl_string(X509*;char*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
    "c1" : " int "
- , "c2" : "lh_FUNCTION_error(structlhash_st_FUNCTION*)"
+ , "c2" : "x509_req_ctrl_string(X509_REQ*;char*)"
  , "c3" : "1"
  , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " unsigned  long "
- , "c2" : "lh_FUNCTION_num_items(structlhash_st_FUNCTION*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_FUNCTION_node_stats_bio(structlhash_st_FUNCTION*;BIO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_FUNCTION_node_usage_stats_bio(structlhash_st_FUNCTION*;BIO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_FUNCTION_stats_bio(structlhash_st_FUNCTION*;BIO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " unsigned  long "
- , "c2" : "lh_FUNCTION_get_down_load(structlhash_st_FUNCTION*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_FUNCTION_set_down_load(structlhash_st_FUNCTION*;unsignedlong)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_FUNCTION_doall(structlhash_st_FUNCTION*;void)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "crl2pkcs7_main(int;char*)"
- , "c3" : "41"
- , "c4" : "73"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "add_certs_from_file(structstack_st_X509*;char*)"
- , "c3" : "5"
- , "c4" : "20"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/apps/lib/app_x509.c.png" 
+
+ , "ligneplantuml" : "./qc/apps/lib/app_x509.c.svg" }
+
 ] 
 , 
 "data04" : [
@@ -3260,301 +4388,154 @@ var maDataBlocs = {
  , "c3" : "Check pointer declaration to unsigned char"
  , "c4" : "21"
 }}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-CPP000007"
- , "c3" : "goto statement"
- , "c4" : "20"
-}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03615"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#3615"
+   "c1" : "03624"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#3624"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03615] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[03624] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09843"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#9843"
+   "c1" : "09852"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#9852"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09843] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09852] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09845"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#9845"
+   "c1" : "09854"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#9854"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09845] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09854] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10212"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#10212"
+   "c1" : "10221"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#10221"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10212] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10221] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10408"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#10408"
+   "c1" : "10417"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#10417"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10408] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10417] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10409"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#10409"
+   "c1" : "10418"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#10418"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10409] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10418] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10410"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#10410"
+   "c1" : "10419"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#10419"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10410] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10419] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10414"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#10414"
+   "c1" : "10423"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#10423"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10414] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10423] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11000"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#11000"
+   "c1" : "11009"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#11009"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11000] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11009] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11002"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#11002"
+   "c1" : "11011"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#11011"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11002] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11011] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11005"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#11005"
+   "c1" : "11014"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#11014"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11005] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11014] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11844"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#11844"
+   "c1" : "11853"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#11853"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11844] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11853] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13275"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#13275"
+   "c1" : "13284"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#13284"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13275] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13284] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13297"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#13297"
+   "c1" : "13306"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#13306"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13297] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13306] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13303"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#13303"
+   "c1" : "13312"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#13312"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13303] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13312] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13323"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#13323"
+   "c1" : "13332"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#13332"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13323] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13332] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13329"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#13329"
+   "c1" : "13338"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#13338"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13329] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13338] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14476"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#14476"
+   "c1" : "14485"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#14485"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14476] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14485] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14477"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#14477"
+   "c1" : "14486"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#14486"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14477] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14486] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17319"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#17319"
+   "c1" : "17328"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#17328"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17319] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17328] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17623"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#17623"
+   "c1" : "17632"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#17632"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17623] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17927"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#17927"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17927] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17931"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#17931"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17931] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17934"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#17934"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17934] goto statement jump to opthelp"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17938"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#17938"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17938] goto statement jump to opthelp"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17960"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#17960"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17960] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17962"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#17962"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17962] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17966"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#17966"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17966] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17974"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#17974"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17974] goto statement jump to opthelp"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17983"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#17983"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17983] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18012"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#18012"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18012] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18021"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#18021"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18021] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18027"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#18027"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18027] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18033"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#18033"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18033] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18039"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#18039"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18039] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18059"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#18059"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18059] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18072"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#18072"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18072] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18082"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#18082"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18082] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18091"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#18091"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18091] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18127"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#18127"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18127] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18150"
- , "c1link" : "./qc/apps/openssl-bin-crl2p7.c.html#18150"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18150] goto statement jump to end"
+ , "c3" : "QC-CPP000005[17632] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

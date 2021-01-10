@@ -1,13 +1,1207 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/apps/openssl-bin-cmp_mock_srv.c.html" 
- , "texte" : "File apps/openssl-bin-cmp_mock_srv.c 27 rule violations " 
- , "fic2"  : "./qc/apps/openssl-bin-cmp_mock_srv.c.xml" 
+   "fic1"  : "./qc/apps/lib/app_params.c.html" 
+ , "texte" : "File apps/lib/app_params.c 24 rule violations " 
+ , "fic2"  : "./qc/apps/lib/app_params.c.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.timeval"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.timespec"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.__pthread_rwlock_arch_t"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.__pthread_internal_list"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.__pthread_mutex_s"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.__pthread_cond_s"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pthread_attr_t"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.random_data"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.drand48_data"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.tm"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.itimerspec"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.__locale_struct"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._IO_marker"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._IO_FILE"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.crypto_ex_data_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.crypto_threadid_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.sched_param"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._pthread_cleanup_buffer"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.__pthread_cleanup_frame"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.timezone"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.itimerval"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.sigval"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.sigevent"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.sigaction"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._fpx_sw_bytes"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._fpreg"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._fpxreg"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._xmmreg"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._fpstate"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.sigcontext"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._xsave_hdr"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._ymmh_state"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._xstate"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._libc_fpxreg"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._libc_xmmreg"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._libc_fpstate"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ucontext_t"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.sigstack"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.iovec"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.sockaddr"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.sockaddr_storage"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.msghdr"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.cmsghdr"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.linger"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.osockaddr"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.in_addr"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ip_opts"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ip_mreqn"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.in_pktinfo"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.in6_addr"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.sockaddr_in"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.sockaddr_in6"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ip_mreq"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ip_mreq_source"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ipv6_mreq"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.group_req"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.group_source_req"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ip_msfilter"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.group_filter"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.rpcent"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.netent"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.hostent"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.servent"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.protoent"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.addrinfo"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.sockaddr_un"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.tcphdr"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.tcp_info"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.tcp_md5sig"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.tcp_repair_opt"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.tcp_cookie_transactions"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.tcp_repair_window"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.winsize"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.termio"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.stat"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.flock"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.BIO_sock_info_u"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.buf_mem_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ossl_dispatch_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ossl_item_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ossl_algorithm_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ossl_param_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.asn1_string_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ASN1_ENCODING_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.asn1_string_table_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.asn1_type_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.BIT_STRING_BITNAME_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.obj_name_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.evp_cipher_info_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.rsa_pss_params_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.rsa_oaep_params_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.SHAstate_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.SHA256state_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.SHA512state_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.X509_algor_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.X509_val_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.x509_trust_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.private_key_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.X509_info_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.Netscape_spkac_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.Netscape_spki_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.Netscape_certificate_sequence"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.PBEPARAM_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.PBE2PARAM_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.PBKDF2PARAM_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.SCRYPT_PARAMS_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.lhash_st_OPENSSL_STRING"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.lh_OPENSSL_STRING_dummy"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.lhash_st_OPENSSL_CSTRING"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.lh_OPENSSL_CSTRING_dummy"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.PKCS7_CTX_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_issuer_and_serial_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_signer_info_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_recip_info_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_signed_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_enc_content_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_enveloped_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_signedandenveloped_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_digest_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_encrypted_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.lhash_st_CONF_VALUE"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.lh_CONF_VALUE_dummy"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.conf_method_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.conf_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.txt_db_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.rand_meth_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.err_state_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ERR_string_data_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.lhash_st_ERR_STRING_DATA"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.lh_ERR_STRING_DATA_dummy"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ENGINE_CMD_DEFN_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.st_dynamic_MEM_fns"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.st_dynamic_fns"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.v3_ext_method"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.X509V3_CONF_METHOD_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.v3_ext_ctx"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.BASIC_CONSTRAINTS_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.PKEY_USAGE_PERIOD_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.otherName_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.EDIPartyName_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.GENERAL_NAME_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ACCESS_DESCRIPTION_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.DIST_POINT_NAME_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.DIST_POINT_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.AUTHORITY_KEYID_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.SXNET_ID_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.SXNET_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ISSUER_SIGN_TOOL_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.NOTICEREF_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.USERNOTICE_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.POLICYQUALINFO_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.POLICYINFO_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.POLICY_MAPPING_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.GENERAL_SUBTREE_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.NAME_CONSTRAINTS_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.POLICY_CONSTRAINTS_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.PROXY_POLICY_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.PROXY_CERT_INFO_EXTENSION_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ISSUING_DIST_POINT_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.x509_purpose_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ASRange_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ASIdOrRange_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ASIdentifierChoice_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ASIdentifiers_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.IPAddressRange_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.IPAddressOrRange_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.IPAddressChoice_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.IPAddressFamily_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pw_cb_data"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.options_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.string_int_pair_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.args_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.db_attr_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ca_db_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.app_http_tls_info_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.verify_options_st"
+}} 
 ]
 , 
 "data02" : [
@@ -3115,422 +4309,34 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "OSSL_CRMF_MSG"
- , "c2" : "ossl_check_OSSL_CRMF_MSG_type(OSSL_CRMF_MSG*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_OSSL_CRMF_MSG_sk_type(structstack_st_OSSL_CRMF_MSG*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_OSSL_CRMF_MSG_sk_type(structstack_st_OSSL_CRMF_MSG*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_OSSL_CRMF_MSG_compfunc_type(sk_OSSL_CRMF_MSG_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_OSSL_CRMF_MSG_copyfunc_type(sk_OSSL_CRMF_MSG_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_OSSL_CRMF_MSG_freefunc_type(sk_OSSL_CRMF_MSG_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OSSL_CRMF_CERTID"
- , "c2" : "ossl_check_OSSL_CRMF_CERTID_type(OSSL_CRMF_CERTID*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_OSSL_CRMF_CERTID_sk_type(structstack_st_OSSL_CRMF_CERTID*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_OSSL_CRMF_CERTID_sk_type(structstack_st_OSSL_CRMF_CERTID*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_OSSL_CRMF_CERTID_compfunc_type(sk_OSSL_CRMF_CERTID_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_OSSL_CRMF_CERTID_copyfunc_type(sk_OSSL_CRMF_CERTID_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_OSSL_CRMF_CERTID_freefunc_type(sk_OSSL_CRMF_CERTID_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OSSL_CMP_CERTSTATUS"
- , "c2" : "ossl_check_OSSL_CMP_CERTSTATUS_type(OSSL_CMP_CERTSTATUS*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_OSSL_CMP_CERTSTATUS_sk_type(structstack_st_OSSL_CMP_CERTSTATUS*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_OSSL_CMP_CERTSTATUS_sk_type(structstack_st_OSSL_CMP_CERTSTATUS*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_OSSL_CMP_CERTSTATUS_compfunc_type(sk_OSSL_CMP_CERTSTATUS_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_OSSL_CMP_CERTSTATUS_copyfunc_type(sk_OSSL_CMP_CERTSTATUS_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_OSSL_CMP_CERTSTATUS_freefunc_type(sk_OSSL_CMP_CERTSTATUS_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OSSL_CMP_ITAV"
- , "c2" : "ossl_check_OSSL_CMP_ITAV_type(OSSL_CMP_ITAV*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_OSSL_CMP_ITAV_sk_type(structstack_st_OSSL_CMP_ITAV*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_OSSL_CMP_ITAV_sk_type(structstack_st_OSSL_CMP_ITAV*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_OSSL_CMP_ITAV_compfunc_type(sk_OSSL_CMP_ITAV_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_OSSL_CMP_ITAV_copyfunc_type(sk_OSSL_CMP_ITAV_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_OSSL_CMP_ITAV_freefunc_type(sk_OSSL_CMP_ITAV_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OSSL_CMP_PKISI"
- , "c2" : "ossl_check_OSSL_CMP_PKISI_type(OSSL_CMP_PKISI*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_OSSL_CMP_PKISI_sk_type(structstack_st_OSSL_CMP_PKISI*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_OSSL_CMP_PKISI_sk_type(structstack_st_OSSL_CMP_PKISI*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_OSSL_CMP_PKISI_compfunc_type(sk_OSSL_CMP_PKISI_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_OSSL_CMP_PKISI_copyfunc_type(sk_OSSL_CMP_PKISI_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_OSSL_CMP_PKISI_freefunc_type(sk_OSSL_CMP_PKISI_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OSSL_CMP_CERTREPMESSAGE"
- , "c2" : "ossl_check_OSSL_CMP_CERTREPMESSAGE_type(OSSL_CMP_CERTREPMESSAGE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_OSSL_CMP_CERTREPMESSAGE_sk_type(structstack_st_OSSL_CMP_CERTREPMESSAGE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_OSSL_CMP_CERTREPMESSAGE_sk_type(structstack_st_OSSL_CMP_CERTREPMESSAGE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_OSSL_CMP_CERTREPMESSAGE_compfunc_type(sk_OSSL_CMP_CERTREPMESSAGE_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_OSSL_CMP_CERTREPMESSAGE_copyfunc_type(sk_OSSL_CMP_CERTREPMESSAGE_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_OSSL_CMP_CERTREPMESSAGE_freefunc_type(sk_OSSL_CMP_CERTREPMESSAGE_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OSSL_CMP_CERTRESPONSE"
- , "c2" : "ossl_check_OSSL_CMP_CERTRESPONSE_type(OSSL_CMP_CERTRESPONSE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_OSSL_CMP_CERTRESPONSE_sk_type(structstack_st_OSSL_CMP_CERTRESPONSE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_OSSL_CMP_CERTRESPONSE_sk_type(structstack_st_OSSL_CMP_CERTRESPONSE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_OSSL_CMP_CERTRESPONSE_compfunc_type(sk_OSSL_CMP_CERTRESPONSE_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_OSSL_CMP_CERTRESPONSE_copyfunc_type(sk_OSSL_CMP_CERTRESPONSE_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_OSSL_CMP_CERTRESPONSE_freefunc_type(sk_OSSL_CMP_CERTRESPONSE_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "mock_srv_ctx_free(mock_srv_ctx*)"
- , "c3" : "2"
- , "c4" : "7"
-}} 
-,
-{ "ligne" : {
-   "c1" : "mock_srv_ctx"
- , "c2" : "mock_srv_ctx_new(void)"
- , "c3" : "3"
- , "c4" : "7"
+   "c1" : " int "
+ , "c2" : "describe_param_type(char*;size_t;OSSL_PARAM*)"
+ , "c3" : "14"
+ , "c4" : "31"
 }} 
 ,
 { "ligne" : {
    "c1" : " int "
- , "c2" : "ossl_cmp_mock_srv_set1_certOut(OSSL_CMP_SRV_CTX*;X509*)"
- , "c3" : "3"
- , "c4" : "7"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ossl_cmp_mock_srv_set1_chainOut(OSSL_CMP_SRV_CTX*;structstack_st_X509*)"
- , "c3" : "3"
- , "c4" : "8"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ossl_cmp_mock_srv_set1_caPubsOut(OSSL_CMP_SRV_CTX*;structstack_st_X509*)"
- , "c3" : "3"
- , "c4" : "8"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ossl_cmp_mock_srv_set_statusInfo(OSSL_CMP_SRV_CTX*;int;int;char*)"
- , "c3" : "3"
- , "c4" : "8"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ossl_cmp_mock_srv_set_send_error(OSSL_CMP_SRV_CTX*;int)"
- , "c3" : "2"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ossl_cmp_mock_srv_set_pollCount(OSSL_CMP_SRV_CTX*;int)"
- , "c3" : "3"
- , "c4" : "7"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ossl_cmp_mock_srv_set_checkAfterTime(OSSL_CMP_SRV_CTX*;int)"
- , "c3" : "2"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OSSL_CMP_PKISI"
- , "c2" : "process_cert_request(OSSL_CMP_SRV_CTX*;OSSL_CMP_MSG*;int;OSSL_CRMF_MSG*;X509_REQ*;X509*;structstack_st_X509*;structstack_st_X509*)"
- , "c3" : "9"
- , "c4" : "26"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OSSL_CMP_PKISI"
- , "c2" : "process_rr(OSSL_CMP_SRV_CTX*;OSSL_CMP_MSG*;X509_NAME*;ASN1_INTEGER*)"
- , "c3" : "4"
- , "c4" : "8"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "process_genm(OSSL_CMP_SRV_CTX*;OSSL_CMP_MSG*;structstack_st_OSSL_CMP_ITAV*;structstack_st_OSSL_CMP_ITAV*)"
- , "c3" : "3"
- , "c4" : "7"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "process_error(OSSL_CMP_SRV_CTX*;OSSL_CMP_MSG*;OSSL_CMP_PKISI*;ASN1_INTEGER*;OSSL_CMP_PKIFREETEXT*)"
- , "c3" : "10"
- , "c4" : "21"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "process_certConf(OSSL_CMP_SRV_CTX*;OSSL_CMP_MSG*;int;ASN1_OCTET_STRING*;OSSL_CMP_PKISI*)"
+ , "c2" : "print_param_types(char*;OSSL_PARAM*;int)"
  , "c3" : "6"
- , "c4" : "14"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "process_pollReq(OSSL_CMP_SRV_CTX*;OSSL_CMP_MSG*;int;OSSL_CMP_MSG*;int64_t*)"
- , "c3" : "5"
- , "c4" : "13"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OSSL_CMP_SRV_CTX"
- , "c2" : "ossl_cmp_mock_srv_new(OSSL_LIB_CTX*;char*)"
- , "c3" : "2"
- , "c4" : "6"
+ , "c4" : "9"
 }} 
 ,
 { "ligne" : {
    "c1" : " void "
- , "c2" : "ossl_cmp_mock_srv_free(OSSL_CMP_SRV_CTX*)"
- , "c3" : "2"
- , "c4" : "2"
+ , "c2" : "print_param_value(OSSL_PARAM*;int)"
+ , "c3" : "11"
+ , "c4" : "17"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/apps/lib/app_params.c.png" 
+
+ , "ligneplantuml" : "./qc/apps/lib/app_params.c.svg" }
+
 ] 
 , 
 "data04" : [
@@ -3563,201 +4369,180 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-CPP000007"
- , "c3" : "goto statement"
- , "c4" : "6"
+   "c1" : "CRITICAL"
+ , "c2" : "QC-CPPCWE484"
+ , "c3" : "Omitted Break Statement in Switch"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
    "c1" : "03274"
- , "c1link" : "./qc/apps/openssl-bin-cmp_mock_srv.c.html#3274"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#3274"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[03274] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "09870"
- , "c1link" : "./qc/apps/openssl-bin-cmp_mock_srv.c.html#9870"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#9870"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[09870] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "09872"
- , "c1link" : "./qc/apps/openssl-bin-cmp_mock_srv.c.html#9872"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#9872"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[09872] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "10239"
- , "c1link" : "./qc/apps/openssl-bin-cmp_mock_srv.c.html#10239"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#10239"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[10239] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "10435"
- , "c1link" : "./qc/apps/openssl-bin-cmp_mock_srv.c.html#10435"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#10435"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[10435] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "10436"
- , "c1link" : "./qc/apps/openssl-bin-cmp_mock_srv.c.html#10436"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#10436"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[10436] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "10437"
- , "c1link" : "./qc/apps/openssl-bin-cmp_mock_srv.c.html#10437"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#10437"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[10437] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "10441"
- , "c1link" : "./qc/apps/openssl-bin-cmp_mock_srv.c.html#10441"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#10441"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[10441] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "11027"
- , "c1link" : "./qc/apps/openssl-bin-cmp_mock_srv.c.html#11027"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#11027"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[11027] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "11029"
- , "c1link" : "./qc/apps/openssl-bin-cmp_mock_srv.c.html#11029"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#11029"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[11029] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "11032"
- , "c1link" : "./qc/apps/openssl-bin-cmp_mock_srv.c.html#11032"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#11032"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[11032] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "11871"
- , "c1link" : "./qc/apps/openssl-bin-cmp_mock_srv.c.html#11871"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#11871"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[11871] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "13302"
- , "c1link" : "./qc/apps/openssl-bin-cmp_mock_srv.c.html#13302"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#13302"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[13302] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "13324"
- , "c1link" : "./qc/apps/openssl-bin-cmp_mock_srv.c.html#13324"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#13324"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[13324] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "13330"
- , "c1link" : "./qc/apps/openssl-bin-cmp_mock_srv.c.html#13330"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#13330"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[13330] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "13350"
- , "c1link" : "./qc/apps/openssl-bin-cmp_mock_srv.c.html#13350"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#13350"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[13350] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "13356"
- , "c1link" : "./qc/apps/openssl-bin-cmp_mock_srv.c.html#13356"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#13356"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[13356] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "14503"
- , "c1link" : "./qc/apps/openssl-bin-cmp_mock_srv.c.html#14503"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#14503"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[14503] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "14504"
- , "c1link" : "./qc/apps/openssl-bin-cmp_mock_srv.c.html#14504"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#14504"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[14504] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "17346"
- , "c1link" : "./qc/apps/openssl-bin-cmp_mock_srv.c.html#17346"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#17346"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[17346] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "17650"
- , "c1link" : "./qc/apps/openssl-bin-cmp_mock_srv.c.html#17650"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#17650"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[17650] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18172"
- , "c1link" : "./qc/apps/openssl-bin-cmp_mock_srv.c.html#18172"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18172] goto statement jump to err"
+   "c1" : "17732"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#17732"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-CPPCWE484[17732] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18179"
- , "c1link" : "./qc/apps/openssl-bin-cmp_mock_srv.c.html#18179"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18179] goto statement jump to err"
+   "c1" : "17738"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#17738"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-CPPCWE484[17738] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18501"
- , "c1link" : "./qc/apps/openssl-bin-cmp_mock_srv.c.html#18501"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18501] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18512"
- , "c1link" : "./qc/apps/openssl-bin-cmp_mock_srv.c.html#18512"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18512] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18523"
- , "c1link" : "./qc/apps/openssl-bin-cmp_mock_srv.c.html#18523"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18523] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18534"
- , "c1link" : "./qc/apps/openssl-bin-cmp_mock_srv.c.html#18534"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18534] goto statement jump to err"
+   "c1" : "17744"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#17744"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-CPPCWE484[17744] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ]
 };

@@ -1,0 +1,141 @@
+@startuml
+ <|-- dummy.__locale_struct
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy._IO_marker
+ <|-- dummy._IO_FILE
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.timeval
+ <|-- dummy.timespec
+ <|-- dummy.
+ <|-- dummy.__pthread_rwlock_arch_t
+ <|-- dummy.__pthread_internal_list
+ <|-- dummy.__pthread_mutex_s
+ <|-- dummy.__pthread_cond_s
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.pthread_attr_t
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.random_data
+ <|-- dummy.drand48_data
+ <|-- dummy.tm
+ <|-- dummy.itimerspec
+ <|-- dummy.
+ <|-- dummy.crypto_ex_data_st
+ <|-- dummy.crypto_threadid_st
+ <|-- dummy.sched_param
+ <|-- dummy.
+ <|-- dummy._pthread_cleanup_buffer
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.__pthread_cleanup_frame
+ <|-- dummy.BIO_sock_info_u
+class dummy.BIO_sock_info_u {
++  bcopy(void*;void*;size_t)
++  bzero(void*;size_t)
++  memcpy(void*;void*;size_t)
++  memmove(void*;void*;size_t)
++  memset(void*;int;size_t)
++  explicit_bzero(void*;size_t)
++  strcpy(char*;char*)
++  strncpy(char*;char*;size_t)
++  stpncpy(char*;char*;size_t)
++  strcat(char*;char*)
++  strncat(char*;char*;size_t)
++  strtoimax(char*;char*;int)
++  strtoumax(char*;char*;int)
++  wcstoimax(__gwchar_t*;__gwchar_t*;int)
++  wcstoumax(__gwchar_t*;__gwchar_t*;int)
++  getchar(void)
++  fgetc_unlocked(FILE*)
++  getc_unlocked(FILE*)
++  getchar_unlocked(void)
++  putchar(int)
++  fputc_unlocked(int;FILE*)
++  putc_unlocked(int;FILE*)
++  putchar_unlocked(int)
++  feof_unlocked(FILE*)
++  ferror_unlocked(FILE*)
++  sprintf(char*;char*)
++  vsprintf(char*;char*;__gnuc_va_list)
++  snprintf(char*;size_t;char*)
++  vsnprintf(char*;size_t;char*;__gnuc_va_list)
++  fprintf(FILE*;char*)
++  printf(char*)
++  vprintf(char*;__gnuc_va_list)
++  vfprintf(FILE*;char*;__gnuc_va_list)
++  dprintf(int;char*)
++  vdprintf(int;char*;__gnuc_va_list)
++  fgets(char*;int;FILE*)
++  fread(void*;size_t;size_t;FILE*)
++  fread_unlocked(void*;size_t;size_t;FILE*)
++  atoi(char*)
++  atol(char*)
++  atoll(char*)
++  __bswap_32(unsignedint)
++  __bswap_64(__uint64_t)
++  __uint16_identity(__uint16_t)
++  __uint32_identity(__uint32_t)
++  __uint64_identity(__uint64_t)
++  gnu_dev_major(__dev_t)
++  gnu_dev_minor(__dev_t)
++  gnu_dev_makedev(unsignedint;unsignedint)
++  bsearch(void*;void*;size_t;size_t;__compar_fn_t)
++  atof(char*)
++  realpath(char*;char*)
++  ptsname_r(int;char*;size_t)
++  wctomb(char*;wchar_t)
++  mbstowcs(wchar_t*;char*;size_t)
++  wcstombs(char*;wchar_t*;size_t)
++  ossl_check_OPENSSL_STRING_type(char*)
++  ossl_check_const_OPENSSL_STRING_sk_type(structstack_st_OPENSSL_STRING*)
++  ossl_check_OPENSSL_STRING_sk_type(structstack_st_OPENSSL_STRING*)
++  ossl_check_OPENSSL_STRING_compfunc_type(sk_OPENSSL_STRING_compfunc)
++  ossl_check_OPENSSL_STRING_copyfunc_type(sk_OPENSSL_STRING_copyfunc)
++  ossl_check_OPENSSL_STRING_freefunc_type(sk_OPENSSL_STRING_freefunc)
++  ossl_check_OPENSSL_CSTRING_type(char*)
++  ossl_check_const_OPENSSL_CSTRING_sk_type(structstack_st_OPENSSL_CSTRING*)
++  ossl_check_OPENSSL_CSTRING_sk_type(structstack_st_OPENSSL_CSTRING*)
++  ossl_check_OPENSSL_CSTRING_compfunc_type(sk_OPENSSL_CSTRING_compfunc)
++  ossl_check_OPENSSL_CSTRING_copyfunc_type(sk_OPENSSL_CSTRING_copyfunc)
++  ossl_check_OPENSSL_CSTRING_freefunc_type(sk_OPENSSL_CSTRING_freefunc)
++  ossl_check_OPENSSL_BLOCK_type(void*)
++  ossl_check_const_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*)
++  ossl_check_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*)
++  ossl_check_OPENSSL_BLOCK_compfunc_type(sk_OPENSSL_BLOCK_compfunc)
++  ossl_check_OPENSSL_BLOCK_copyfunc_type(sk_OPENSSL_BLOCK_copyfunc)
++  ossl_check_OPENSSL_BLOCK_freefunc_type(sk_OPENSSL_BLOCK_freefunc)
++  ossl_check_void_type(void*)
++  ossl_check_const_void_sk_type(structstack_st_void*)
++  ossl_check_void_sk_type(structstack_st_void*)
++  ossl_check_void_compfunc_type(sk_void_compfunc)
++  ossl_check_void_copyfunc_type(sk_void_copyfunc)
++  ossl_check_void_freefunc_type(sk_void_freefunc)
++  pthread_equal(pthread_t;pthread_t)
++  ossl_check_BIO_type(BIO*)
++  ossl_check_const_BIO_sk_type(structstack_st_BIO*)
++  ossl_check_BIO_sk_type(structstack_st_BIO*)
++  ossl_check_BIO_compfunc_type(sk_BIO_compfunc)
++  ossl_check_BIO_copyfunc_type(sk_BIO_copyfunc)
++  ossl_check_BIO_freefunc_type(sk_BIO_freefunc)
++  name_cmp(char*;char*)
++  collect_names(char*;void*)
++  print_names(BIO*;structstack_st_OPENSSL_CSTRING*)
+} 
+@enduml

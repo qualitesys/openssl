@@ -1,0 +1,6 @@
+@startuml
+ <|-- dummy
+class dummy {
++  FMT_istext(int)
+} 
+@enduml

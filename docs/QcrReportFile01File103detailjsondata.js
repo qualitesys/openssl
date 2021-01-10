@@ -1,13 +1,1047 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/ssl/libssl-lib-ssl_sess.c.html" 
- , "texte" : "File ssl/libssl-lib-ssl_sess.c 50 rule violations " 
- , "fic2"  : "./qc/ssl/libssl-lib-ssl_sess.c.xml" 
+   "fic1"  : "./qc/ssl/ssl_rsa.c.html" 
+ , "texte" : "File ssl/ssl_rsa.c 81 rule violations " 
+ , "fic2"  : "./qc/ssl/ssl_rsa.c.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._IO_marker"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._IO_FILE"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.timeval"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.timespec"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.__pthread_rwlock_arch_t"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.__pthread_internal_list"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.__pthread_mutex_s"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.__pthread_cond_s"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pthread_attr_t"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.random_data"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.drand48_data"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.tm"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.itimerspec"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.__locale_struct"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.crypto_ex_data_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.crypto_threadid_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.sched_param"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy._pthread_cleanup_buffer"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.__pthread_cleanup_frame"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.timezone"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.itimerval"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.buf_mem_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.BIO_sock_info_u"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.asn1_string_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ASN1_ENCODING_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.asn1_string_table_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.asn1_type_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.BIT_STRING_BITNAME_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.lhash_st_OPENSSL_STRING"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.lh_OPENSSL_STRING_dummy"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.lhash_st_OPENSSL_CSTRING"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.lh_OPENSSL_CSTRING_dummy"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.err_state_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ERR_string_data_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.lhash_st_ERR_STRING_DATA"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.lh_ERR_STRING_DATA_dummy"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ossl_dispatch_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ossl_item_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ossl_algorithm_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ossl_param_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.obj_name_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.evp_cipher_info_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.rsa_pss_params_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.rsa_oaep_params_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.SHAstate_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.SHA256state_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.SHA512state_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.X509_algor_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.X509_val_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.x509_trust_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.private_key_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.X509_info_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.Netscape_spkac_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.Netscape_spki_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.Netscape_certificate_sequence"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.PBEPARAM_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.PBE2PARAM_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.PBKDF2PARAM_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.SCRYPT_PARAMS_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.PKCS7_CTX_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_issuer_and_serial_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_signer_info_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_recip_info_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_signed_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_enc_content_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_enveloped_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_signedandenveloped_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_digest_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_encrypted_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pkcs7_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.srtp_protection_profile_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.tls_session_ticket_ext_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ssl3_buffer_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ssl3_record_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.dtls1_bitmap_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.record_pqueue_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.dtls1_record_data_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.dtls_record_layer_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.record_layer_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ssl_mac_buf_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ossl_statem_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.wpacket_sub"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.wpacket_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.danetls_record_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.dane_ctx_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ssl_dane_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.bio_method_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ssl_cipher_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ssl_method_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ssl_session_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.srp_ctx_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ssl_comp_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.raw_extension_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.lhash_st_SSL_SESSION"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.lh_SSL_SESSION_dummy"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.lhash_st_X509_NAME"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.lh_X509_NAME_dummy"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ssl_ctx_ext_secure_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ssl_hmac_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.tls_group_info_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ssl_ctx_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ssl_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.sigalg_lookup_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.dtls1_retransmit_state"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.hm_header_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.dtls1_timeout_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.hm_fragment_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.pitem_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.dtls1_state_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.cert_pkey_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.cert_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ssl3_enc_method"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ssl3_comp_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.openssl_ssl_test_functions"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.lhash_st_CONF_VALUE"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.lh_CONF_VALUE_dummy"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.conf_method_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.conf_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.v3_ext_method"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.X509V3_CONF_METHOD_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.v3_ext_ctx"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.BASIC_CONSTRAINTS_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.PKEY_USAGE_PERIOD_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.otherName_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.EDIPartyName_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.GENERAL_NAME_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ACCESS_DESCRIPTION_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.DIST_POINT_NAME_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.DIST_POINT_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.AUTHORITY_KEYID_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.SXNET_ID_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.SXNET_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ISSUER_SIGN_TOOL_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.NOTICEREF_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.USERNOTICE_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.POLICYQUALINFO_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.POLICYINFO_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.POLICY_MAPPING_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.GENERAL_SUBTREE_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.NAME_CONSTRAINTS_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.POLICY_CONSTRAINTS_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.PROXY_POLICY_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.PROXY_CERT_INFO_EXTENSION_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ISSUING_DIST_POINT_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.x509_purpose_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ASRange_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ASIdOrRange_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ASIdentifierChoice_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.ASIdentifiers_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.IPAddressRange_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.IPAddressOrRange_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.IPAddressChoice_st"
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy."
+}} 
+,
+{ "ligne" : {
+   "c1" : ""
+ , "c2" : "dummy.IPAddressFamily_st"
+}} 
 ]
 , 
 "data02" : [
@@ -175,6 +1209,34 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "intmax_t"
+ , "c2" : "strtoimax(char*;char*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "uintmax_t"
+ , "c2" : "strtoumax(char*;char*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "intmax_t"
+ , "c2" : "wcstoimax(__gwchar_t*;__gwchar_t*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "uintmax_t"
+ , "c2" : "wcstoumax(__gwchar_t*;__gwchar_t*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
    "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "atoi(char*)"
  , "c3" : "1"
@@ -268,8 +1330,8 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : " char "
  , "c2" : "realpath(char*;char*)"
- , "c3" : "2"
- , "c4" : "2"
+ , "c3" : "3"
+ , "c4" : "3"
 }} 
 ,
 { "ligne" : {
@@ -298,34 +1360,6 @@ var maDataBlocs = {
  , "c2" : "wcstombs(char*;wchar_t*;size_t)"
  , "c3" : "4"
  , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : "intmax_t"
- , "c2" : "strtoimax(char*;char*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "uintmax_t"
- , "c2" : "strtoumax(char*;char*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "intmax_t"
- , "c2" : "wcstoimax(__gwchar_t*;__gwchar_t*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "uintmax_t"
- , "c2" : "wcstoumax(__gwchar_t*;__gwchar_t*;int)"
- , "c3" : "1"
- , "c4" : "1"
 }} 
 ,
 { "ligne" : {
@@ -499,6 +1533,160 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "pthread_equal(pthread_t;pthread_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ssize_t"
+ , "c2" : "read(int;void*;size_t)"
+ , "c3" : "4"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ssize_t"
+ , "c2" : "readlink(char*;char*;size_t)"
+ , "c3" : "4"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ssize_t"
+ , "c2" : "readlinkat(int;char*;char*;size_t)"
+ , "c3" : "4"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : " char "
+ , "c2" : "getcwd(char*;size_t)"
+ , "c3" : "4"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : " char "
+ , "c2" : "getwd(char*)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "size_t"
+ , "c2" : "confstr(int;char*;size_t)"
+ , "c3" : "4"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "getgroups(int;__gid_t)"
+ , "c3" : "4"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ttyname_r(int;char*;size_t)"
+ , "c3" : "4"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int "
+ , "c2" : "getlogin_r(char*;size_t)"
+ , "c3" : "4"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "gethostname(char*;size_t)"
+ , "c3" : "4"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "getdomainname(char*;size_t)"
+ , "c3" : "4"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bcopy(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bzero(void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " void "
+ , "c2" : "memcpy(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " void "
+ , "c2" : "memmove(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " void "
+ , "c2" : "memset(void*;int;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "explicit_bzero(void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " char "
+ , "c2" : "strcpy(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " char "
+ , "c2" : "strncpy(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " char "
+ , "c2" : "stpncpy(char*;char*;size_t)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : " char "
+ , "c2" : "strcat(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " char "
+ , "c2" : "strncat(char*;char*;size_t)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -835,6 +2023,195 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "OPENSSL_sk_freefunc"
  , "c2" : "ossl_check_ASN1_GENERALSTRING_freefunc_type(sk_ASN1_GENERALSTRING_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STRING"
+ , "c2" : "ossl_check_OPENSSL_STRING_lh_plain_type(OPENSSL_STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STRING"
+ , "c2" : "ossl_check_const_OPENSSL_STRING_lh_plain_type(OPENSSL_STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_LHASH"
+ , "c2" : "ossl_check_const_OPENSSL_STRING_lh_type(structlhash_st_OPENSSL_STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_LHASH"
+ , "c2" : "ossl_check_OPENSSL_STRING_lh_type(structlhash_st_OPENSSL_STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_LH_COMPFUNC"
+ , "c2" : "ossl_check_OPENSSL_STRING_lh_compfunc_type(lh_OPENSSL_STRING_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_LH_HASHFUNC"
+ , "c2" : "ossl_check_OPENSSL_STRING_lh_hashfunc_type(lh_OPENSSL_STRING_hashfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_LH_DOALL_FUNC"
+ , "c2" : "ossl_check_OPENSSL_STRING_lh_doallfunc_type(lh_OPENSSL_STRING_doallfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_CSTRING"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_lh_plain_type(OPENSSL_CSTRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_CSTRING"
+ , "c2" : "ossl_check_const_OPENSSL_CSTRING_lh_plain_type(OPENSSL_CSTRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_LHASH"
+ , "c2" : "ossl_check_const_OPENSSL_CSTRING_lh_type(structlhash_st_OPENSSL_CSTRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_LHASH"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_lh_type(structlhash_st_OPENSSL_CSTRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_LH_COMPFUNC"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_lh_compfunc_type(lh_OPENSSL_CSTRING_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_LH_HASHFUNC"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_lh_hashfunc_type(lh_OPENSSL_CSTRING_hashfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_LH_DOALL_FUNC"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_lh_doallfunc_type(lh_OPENSSL_CSTRING_doallfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int "
+ , "c2" : "ERR_GET_LIB(unsignedlong)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int "
+ , "c2" : "ERR_GET_FUNC(unsignedlong)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int "
+ , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int "
+ , "c2" : "ERR_GET_REASON(unsignedlong)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int "
+ , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int "
+ , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ERR_STRING_DATA"
+ , "c2" : "ossl_check_ERR_STRING_DATA_lh_plain_type(ERR_STRING_DATA*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ERR_STRING_DATA"
+ , "c2" : "ossl_check_const_ERR_STRING_DATA_lh_plain_type(ERR_STRING_DATA*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_LHASH"
+ , "c2" : "ossl_check_const_ERR_STRING_DATA_lh_type(structlhash_st_ERR_STRING_DATA*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_LHASH"
+ , "c2" : "ossl_check_ERR_STRING_DATA_lh_type(structlhash_st_ERR_STRING_DATA*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_LH_COMPFUNC"
+ , "c2" : "ossl_check_ERR_STRING_DATA_lh_compfunc_type(lh_ERR_STRING_DATA_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_LH_HASHFUNC"
+ , "c2" : "ossl_check_ERR_STRING_DATA_lh_hashfunc_type(lh_ERR_STRING_DATA_hashfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_LH_DOALL_FUNC"
+ , "c2" : "ossl_check_ERR_STRING_DATA_lh_doallfunc_type(lh_ERR_STRING_DATA_doallfunc)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1218,104 +2595,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "OPENSSL_STRING"
- , "c2" : "ossl_check_OPENSSL_STRING_lh_plain_type(OPENSSL_STRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STRING"
- , "c2" : "ossl_check_const_OPENSSL_STRING_lh_plain_type(OPENSSL_STRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LHASH"
- , "c2" : "ossl_check_const_OPENSSL_STRING_lh_type(structlhash_st_OPENSSL_STRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LHASH"
- , "c2" : "ossl_check_OPENSSL_STRING_lh_type(structlhash_st_OPENSSL_STRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LH_COMPFUNC"
- , "c2" : "ossl_check_OPENSSL_STRING_lh_compfunc_type(lh_OPENSSL_STRING_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LH_HASHFUNC"
- , "c2" : "ossl_check_OPENSSL_STRING_lh_hashfunc_type(lh_OPENSSL_STRING_hashfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LH_DOALL_FUNC"
- , "c2" : "ossl_check_OPENSSL_STRING_lh_doallfunc_type(lh_OPENSSL_STRING_doallfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_CSTRING"
- , "c2" : "ossl_check_OPENSSL_CSTRING_lh_plain_type(OPENSSL_CSTRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_CSTRING"
- , "c2" : "ossl_check_const_OPENSSL_CSTRING_lh_plain_type(OPENSSL_CSTRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LHASH"
- , "c2" : "ossl_check_const_OPENSSL_CSTRING_lh_type(structlhash_st_OPENSSL_CSTRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LHASH"
- , "c2" : "ossl_check_OPENSSL_CSTRING_lh_type(structlhash_st_OPENSSL_CSTRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LH_COMPFUNC"
- , "c2" : "ossl_check_OPENSSL_CSTRING_lh_compfunc_type(lh_OPENSSL_CSTRING_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LH_HASHFUNC"
- , "c2" : "ossl_check_OPENSSL_CSTRING_lh_hashfunc_type(lh_OPENSSL_CSTRING_hashfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LH_DOALL_FUNC"
- , "c2" : "ossl_check_OPENSSL_CSTRING_lh_doallfunc_type(lh_OPENSSL_CSTRING_doallfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
    "c1" : "X509_LOOKUP"
  , "c2" : "ossl_check_X509_LOOKUP_type(X509_LOOKUP*)"
  , "c3" : "1"
@@ -1563,594 +2842,6 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "OPENSSL_sk_freefunc"
  , "c2" : "ossl_check_PKCS7_freefunc_type(sk_PKCS7_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "UI_STRING"
- , "c2" : "ossl_check_UI_STRING_type(UI_STRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_UI_STRING_sk_type(structstack_st_UI_STRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_UI_STRING_sk_type(structstack_st_UI_STRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_UI_STRING_compfunc_type(sk_UI_STRING_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_UI_STRING_copyfunc_type(sk_UI_STRING_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_UI_STRING_freefunc_type(sk_UI_STRING_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ERR_GET_LIB(unsignedlong)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ERR_GET_FUNC(unsignedlong)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ERR_GET_REASON(unsignedlong)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "ERR_STRING_DATA"
- , "c2" : "ossl_check_ERR_STRING_DATA_lh_plain_type(ERR_STRING_DATA*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "ERR_STRING_DATA"
- , "c2" : "ossl_check_const_ERR_STRING_DATA_lh_plain_type(ERR_STRING_DATA*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LHASH"
- , "c2" : "ossl_check_const_ERR_STRING_DATA_lh_type(structlhash_st_ERR_STRING_DATA*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LHASH"
- , "c2" : "ossl_check_ERR_STRING_DATA_lh_type(structlhash_st_ERR_STRING_DATA*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LH_COMPFUNC"
- , "c2" : "ossl_check_ERR_STRING_DATA_lh_compfunc_type(lh_ERR_STRING_DATA_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LH_HASHFUNC"
- , "c2" : "ossl_check_ERR_STRING_DATA_lh_hashfunc_type(lh_ERR_STRING_DATA_hashfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LH_DOALL_FUNC"
- , "c2" : "ossl_check_ERR_STRING_DATA_lh_doallfunc_type(lh_ERR_STRING_DATA_doallfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "CRYPTO_UP_REF(int*;int*;void*)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "CRYPTO_DOWN_REF(int*;int*;void*)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "bcopy(void*;void*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "bzero(void*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "memcpy(void*;void*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "memmove(void*;void*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "memset(void*;int;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "explicit_bzero(void*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " char "
- , "c2" : "strcpy(char*;char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " char "
- , "c2" : "strncpy(char*;char*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " char "
- , "c2" : "stpncpy(char*;char*;size_t)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : " char "
- , "c2" : "strcat(char*;char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " char "
- , "c2" : "strncat(char*;char*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "sk_EX_CALLBACK_num(structstack_st_EX_CALLBACK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "EX_CALLBACK"
- , "c2" : "sk_EX_CALLBACK_value(structstack_st_EX_CALLBACK*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " struct stack_st_EX_CALLBACK"
- , "c2" : "sk_EX_CALLBACK_new(sk_EX_CALLBACK_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " struct stack_st_EX_CALLBACK"
- , "c2" : "sk_EX_CALLBACK_new_null(void)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " struct stack_st_EX_CALLBACK"
- , "c2" : "sk_EX_CALLBACK_new_reserve(sk_EX_CALLBACK_compfunc;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "sk_EX_CALLBACK_reserve(structstack_st_EX_CALLBACK*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "sk_EX_CALLBACK_free(structstack_st_EX_CALLBACK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "sk_EX_CALLBACK_zero(structstack_st_EX_CALLBACK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "EX_CALLBACK"
- , "c2" : "sk_EX_CALLBACK_delete(structstack_st_EX_CALLBACK*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "EX_CALLBACK"
- , "c2" : "sk_EX_CALLBACK_delete_ptr(structstack_st_EX_CALLBACK*;EX_CALLBACK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "sk_EX_CALLBACK_push(structstack_st_EX_CALLBACK*;EX_CALLBACK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "sk_EX_CALLBACK_unshift(structstack_st_EX_CALLBACK*;EX_CALLBACK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "EX_CALLBACK"
- , "c2" : "sk_EX_CALLBACK_pop(structstack_st_EX_CALLBACK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "EX_CALLBACK"
- , "c2" : "sk_EX_CALLBACK_shift(structstack_st_EX_CALLBACK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "sk_EX_CALLBACK_pop_free(structstack_st_EX_CALLBACK*;sk_EX_CALLBACK_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "sk_EX_CALLBACK_insert(structstack_st_EX_CALLBACK*;EX_CALLBACK*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "EX_CALLBACK"
- , "c2" : "sk_EX_CALLBACK_set(structstack_st_EX_CALLBACK*;int;EX_CALLBACK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "sk_EX_CALLBACK_find(structstack_st_EX_CALLBACK*;EX_CALLBACK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "sk_EX_CALLBACK_find_ex(structstack_st_EX_CALLBACK*;EX_CALLBACK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "sk_EX_CALLBACK_sort(structstack_st_EX_CALLBACK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "sk_EX_CALLBACK_is_sorted(structstack_st_EX_CALLBACK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " struct stack_st_EX_CALLBACK"
- , "c2" : "sk_EX_CALLBACK_dup(structstack_st_EX_CALLBACK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " struct stack_st_EX_CALLBACK"
- , "c2" : "sk_EX_CALLBACK_deep_copy(structstack_st_EX_CALLBACK*;sk_EX_CALLBACK_copyfunc;sk_EX_CALLBACK_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "sk_EX_CALLBACK_compfunc"
- , "c2" : "sk_EX_CALLBACK_set_cmp_func(structstack_st_EX_CALLBACK*;sk_EX_CALLBACK_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " struct lhash_st_MEM"
- , "c2" : "lh_MEM_new(unsignedlong;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_MEM_free(structlhash_st_MEM*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_MEM_flush(structlhash_st_MEM*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "MEM"
- , "c2" : "lh_MEM_insert(structlhash_st_MEM*;MEM*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "MEM"
- , "c2" : "lh_MEM_delete(structlhash_st_MEM*;MEM*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "MEM"
- , "c2" : "lh_MEM_retrieve(structlhash_st_MEM*;MEM*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "lh_MEM_error(structlhash_st_MEM*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " unsigned  long "
- , "c2" : "lh_MEM_num_items(structlhash_st_MEM*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_MEM_node_stats_bio(structlhash_st_MEM*;BIO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_MEM_node_usage_stats_bio(structlhash_st_MEM*;BIO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_MEM_stats_bio(structlhash_st_MEM*;BIO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " unsigned  long "
- , "c2" : "lh_MEM_get_down_load(structlhash_st_MEM*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_MEM_set_down_load(structlhash_st_MEM*;unsignedlong)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_MEM_doall(structlhash_st_MEM*;void)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "ssize_t"
- , "c2" : "read(int;void*;size_t)"
- , "c3" : "4"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : "ssize_t"
- , "c2" : "readlink(char*;char*;size_t)"
- , "c3" : "4"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : "ssize_t"
- , "c2" : "readlinkat(int;char*;char*;size_t)"
- , "c3" : "4"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " char "
- , "c2" : "getcwd(char*;size_t)"
- , "c3" : "4"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " char "
- , "c2" : "getwd(char*)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : "size_t"
- , "c2" : "confstr(int;char*;size_t)"
- , "c3" : "4"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "getgroups(int;__gid_t)"
- , "c3" : "4"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "ttyname_r(int;char*;size_t)"
- , "c3" : "4"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "getlogin_r(char*;size_t)"
- , "c3" : "4"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "gethostname(char*;size_t)"
- , "c3" : "4"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "getdomainname(char*;size_t)"
- , "c3" : "4"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "ossl_sleep(unsignedlong)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ossl_ends_with_dirsep(char*)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ossl_is_absolute_path(char*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2793,6 +3484,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : " int "
+ , "c2" : "CRYPTO_UP_REF(int*;int*;void*)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int "
+ , "c2" : "CRYPTO_DOWN_REF(int*;int*;void*)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
    "c1" : " struct lhash_st_SSL_SESSION"
  , "c2" : "lh_SSL_SESSION_new(unsignedlong;int)"
  , "c3" : "1"
@@ -3003,512 +3708,1051 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "SSL_SESSION"
- , "c2" : "SSL_get_session(SSL*)"
+   "c1" : "CONF_VALUE"
+ , "c2" : "ossl_check_CONF_VALUE_type(CONF_VALUE*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "SSL_SESSION"
- , "c2" : "SSL_get1_session(SSL*)"
- , "c3" : "2"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "SSL_SESSION_set_ex_data(SSL_SESSION*;int;void*)"
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_CONF_VALUE_sk_type(structstack_st_CONF_VALUE*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : " void "
- , "c2" : "SSL_SESSION_get_ex_data(SSL_SESSION*;int)"
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_CONF_VALUE_sk_type(structstack_st_CONF_VALUE*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "SSL_SESSION"
- , "c2" : "SSL_SESSION_new(void)"
- , "c3" : "5"
- , "c4" : "17"
-}} 
-,
-{ "ligne" : {
-   "c1" : "SSL_SESSION"
- , "c2" : "SSL_SESSION_dup(SSL_SESSION*)"
+   "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_CONF_VALUE_compfunc_type(sk_CONF_VALUE_compfunc)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "SSL_SESSION"
- , "c2" : "ssl_session_dup(SSL_SESSION*;int)"
- , "c3" : "24"
- , "c4" : "45"
+   "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_CONF_VALUE_copyfunc_type(sk_CONF_VALUE_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : " unsigned  char "
- , "c2" : "SSL_SESSION_get_id(SSL_SESSION*;unsignedint*)"
- , "c3" : "2"
- , "c4" : "2"
+   "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_CONF_VALUE_freefunc_type(sk_CONF_VALUE_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : " unsigned  char "
- , "c2" : "SSL_SESSION_get0_id_context(SSL_SESSION*;unsignedint*)"
- , "c3" : "2"
- , "c4" : "2"
+   "c1" : "CONF_VALUE"
+ , "c2" : "ossl_check_CONF_VALUE_lh_plain_type(CONF_VALUE*)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : " unsigned  int "
- , "c2" : "SSL_SESSION_get_compress_id(SSL_SESSION*)"
+   "c1" : "CONF_VALUE"
+ , "c2" : "ossl_check_const_CONF_VALUE_lh_plain_type(CONF_VALUE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_LHASH"
+ , "c2" : "ossl_check_const_CONF_VALUE_lh_type(structlhash_st_CONF_VALUE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_LHASH"
+ , "c2" : "ossl_check_CONF_VALUE_lh_type(structlhash_st_CONF_VALUE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_LH_COMPFUNC"
+ , "c2" : "ossl_check_CONF_VALUE_lh_compfunc_type(lh_CONF_VALUE_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_LH_HASHFUNC"
+ , "c2" : "ossl_check_CONF_VALUE_lh_hashfunc_type(lh_CONF_VALUE_hashfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_LH_DOALL_FUNC"
+ , "c2" : "ossl_check_CONF_VALUE_lh_doallfunc_type(lh_CONF_VALUE_doallfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "X509V3_EXT_METHOD"
+ , "c2" : "ossl_check_X509V3_EXT_METHOD_type(X509V3_EXT_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_X509V3_EXT_METHOD_sk_type(structstack_st_X509V3_EXT_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_X509V3_EXT_METHOD_sk_type(structstack_st_X509V3_EXT_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_X509V3_EXT_METHOD_compfunc_type(sk_X509V3_EXT_METHOD_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_X509V3_EXT_METHOD_copyfunc_type(sk_X509V3_EXT_METHOD_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_X509V3_EXT_METHOD_freefunc_type(sk_X509V3_EXT_METHOD_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ACCESS_DESCRIPTION"
+ , "c2" : "ossl_check_ACCESS_DESCRIPTION_type(ACCESS_DESCRIPTION*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_ACCESS_DESCRIPTION_sk_type(structstack_st_ACCESS_DESCRIPTION*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_ACCESS_DESCRIPTION_sk_type(structstack_st_ACCESS_DESCRIPTION*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_ACCESS_DESCRIPTION_compfunc_type(sk_ACCESS_DESCRIPTION_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_ACCESS_DESCRIPTION_copyfunc_type(sk_ACCESS_DESCRIPTION_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_ACCESS_DESCRIPTION_freefunc_type(sk_ACCESS_DESCRIPTION_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "GENERAL_NAME"
+ , "c2" : "ossl_check_GENERAL_NAME_type(GENERAL_NAME*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_GENERAL_NAME_sk_type(structstack_st_GENERAL_NAME*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_GENERAL_NAME_sk_type(structstack_st_GENERAL_NAME*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_GENERAL_NAME_compfunc_type(sk_GENERAL_NAME_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_GENERAL_NAME_copyfunc_type(sk_GENERAL_NAME_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_GENERAL_NAME_freefunc_type(sk_GENERAL_NAME_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "GENERAL_NAMES"
+ , "c2" : "ossl_check_GENERAL_NAMES_type(GENERAL_NAMES*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_GENERAL_NAMES_sk_type(structstack_st_GENERAL_NAMES*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_GENERAL_NAMES_sk_type(structstack_st_GENERAL_NAMES*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_GENERAL_NAMES_compfunc_type(sk_GENERAL_NAMES_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_GENERAL_NAMES_copyfunc_type(sk_GENERAL_NAMES_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_GENERAL_NAMES_freefunc_type(sk_GENERAL_NAMES_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "DIST_POINT"
+ , "c2" : "ossl_check_DIST_POINT_type(DIST_POINT*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_DIST_POINT_sk_type(structstack_st_DIST_POINT*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_DIST_POINT_sk_type(structstack_st_DIST_POINT*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_DIST_POINT_compfunc_type(sk_DIST_POINT_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_DIST_POINT_copyfunc_type(sk_DIST_POINT_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_DIST_POINT_freefunc_type(sk_DIST_POINT_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "SXNETID"
+ , "c2" : "ossl_check_SXNETID_type(SXNETID*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_SXNETID_sk_type(structstack_st_SXNETID*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_SXNETID_sk_type(structstack_st_SXNETID*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_SXNETID_compfunc_type(sk_SXNETID_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_SXNETID_copyfunc_type(sk_SXNETID_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_SXNETID_freefunc_type(sk_SXNETID_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "POLICYQUALINFO"
+ , "c2" : "ossl_check_POLICYQUALINFO_type(POLICYQUALINFO*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_POLICYQUALINFO_sk_type(structstack_st_POLICYQUALINFO*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_POLICYQUALINFO_sk_type(structstack_st_POLICYQUALINFO*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_POLICYQUALINFO_compfunc_type(sk_POLICYQUALINFO_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_POLICYQUALINFO_copyfunc_type(sk_POLICYQUALINFO_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_POLICYQUALINFO_freefunc_type(sk_POLICYQUALINFO_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "POLICYINFO"
+ , "c2" : "ossl_check_POLICYINFO_type(POLICYINFO*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_POLICYINFO_sk_type(structstack_st_POLICYINFO*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_POLICYINFO_sk_type(structstack_st_POLICYINFO*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_POLICYINFO_compfunc_type(sk_POLICYINFO_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_POLICYINFO_copyfunc_type(sk_POLICYINFO_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_POLICYINFO_freefunc_type(sk_POLICYINFO_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "POLICY_MAPPING"
+ , "c2" : "ossl_check_POLICY_MAPPING_type(POLICY_MAPPING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_POLICY_MAPPING_sk_type(structstack_st_POLICY_MAPPING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_POLICY_MAPPING_sk_type(structstack_st_POLICY_MAPPING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_POLICY_MAPPING_compfunc_type(sk_POLICY_MAPPING_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_POLICY_MAPPING_copyfunc_type(sk_POLICY_MAPPING_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_POLICY_MAPPING_freefunc_type(sk_POLICY_MAPPING_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "GENERAL_SUBTREE"
+ , "c2" : "ossl_check_GENERAL_SUBTREE_type(GENERAL_SUBTREE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_GENERAL_SUBTREE_sk_type(structstack_st_GENERAL_SUBTREE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_GENERAL_SUBTREE_sk_type(structstack_st_GENERAL_SUBTREE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_GENERAL_SUBTREE_compfunc_type(sk_GENERAL_SUBTREE_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_GENERAL_SUBTREE_copyfunc_type(sk_GENERAL_SUBTREE_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_GENERAL_SUBTREE_freefunc_type(sk_GENERAL_SUBTREE_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "X509_PURPOSE"
+ , "c2" : "ossl_check_X509_PURPOSE_type(X509_PURPOSE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_X509_PURPOSE_sk_type(structstack_st_X509_PURPOSE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_X509_PURPOSE_sk_type(structstack_st_X509_PURPOSE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_X509_PURPOSE_compfunc_type(sk_X509_PURPOSE_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_X509_PURPOSE_copyfunc_type(sk_X509_PURPOSE_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_X509_PURPOSE_freefunc_type(sk_X509_PURPOSE_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "X509_POLICY_NODE"
+ , "c2" : "ossl_check_X509_POLICY_NODE_type(X509_POLICY_NODE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_X509_POLICY_NODE_sk_type(structstack_st_X509_POLICY_NODE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_X509_POLICY_NODE_sk_type(structstack_st_X509_POLICY_NODE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_X509_POLICY_NODE_compfunc_type(sk_X509_POLICY_NODE_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_X509_POLICY_NODE_copyfunc_type(sk_X509_POLICY_NODE_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_X509_POLICY_NODE_freefunc_type(sk_X509_POLICY_NODE_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ASIdOrRange"
+ , "c2" : "ossl_check_ASIdOrRange_type(ASIdOrRange*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_ASIdOrRange_sk_type(structstack_st_ASIdOrRange*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_ASIdOrRange_sk_type(structstack_st_ASIdOrRange*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_ASIdOrRange_compfunc_type(sk_ASIdOrRange_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_ASIdOrRange_copyfunc_type(sk_ASIdOrRange_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_ASIdOrRange_freefunc_type(sk_ASIdOrRange_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "IPAddressOrRange"
+ , "c2" : "ossl_check_IPAddressOrRange_type(IPAddressOrRange*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_IPAddressOrRange_sk_type(structstack_st_IPAddressOrRange*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_IPAddressOrRange_sk_type(structstack_st_IPAddressOrRange*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_IPAddressOrRange_compfunc_type(sk_IPAddressOrRange_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_IPAddressOrRange_copyfunc_type(sk_IPAddressOrRange_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_IPAddressOrRange_freefunc_type(sk_IPAddressOrRange_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "IPAddressFamily"
+ , "c2" : "ossl_check_IPAddressFamily_type(IPAddressFamily*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_IPAddressFamily_sk_type(structstack_st_IPAddressFamily*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_IPAddressFamily_sk_type(structstack_st_IPAddressFamily*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_IPAddressFamily_compfunc_type(sk_IPAddressFamily_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_IPAddressFamily_copyfunc_type(sk_IPAddressFamily_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_IPAddressFamily_freefunc_type(sk_IPAddressFamily_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ASN1_STRING"
+ , "c2" : "ossl_check_ASN1_STRING_type(ASN1_STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_ASN1_STRING_sk_type(structstack_st_ASN1_STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_ASN1_STRING_sk_type(structstack_st_ASN1_STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_ASN1_STRING_compfunc_type(sk_ASN1_STRING_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_ASN1_STRING_copyfunc_type(sk_ASN1_STRING_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_ASN1_STRING_freefunc_type(sk_ASN1_STRING_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "PROFESSION_INFO"
+ , "c2" : "ossl_check_PROFESSION_INFO_type(PROFESSION_INFO*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_PROFESSION_INFO_sk_type(structstack_st_PROFESSION_INFO*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_PROFESSION_INFO_sk_type(structstack_st_PROFESSION_INFO*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_PROFESSION_INFO_compfunc_type(sk_PROFESSION_INFO_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_PROFESSION_INFO_copyfunc_type(sk_PROFESSION_INFO_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_PROFESSION_INFO_freefunc_type(sk_PROFESSION_INFO_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "ADMISSIONS"
+ , "c2" : "ossl_check_ADMISSIONS_type(ADMISSIONS*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_ADMISSIONS_sk_type(structstack_st_ADMISSIONS*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_ADMISSIONS_sk_type(structstack_st_ADMISSIONS*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_ADMISSIONS_compfunc_type(sk_ADMISSIONS_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_ADMISSIONS_copyfunc_type(sk_ADMISSIONS_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_ADMISSIONS_freefunc_type(sk_ADMISSIONS_freefunc)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
    "c1" : " int "
- , "c2" : "def_generate_session_id(SSL*;unsignedchar*;unsignedint*)"
- , "c3" : "5"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ssl_generate_session_id(SSL*;SSL_SESSION*)"
- , "c3" : "16"
- , "c4" : "24"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ssl_get_new_session(SSL*;int)"
- , "c3" : "11"
- , "c4" : "21"
-}} 
-,
-{ "ligne" : {
-   "c1" : "SSL_SESSION"
- , "c2" : "lookup_sess_in_cache(SSL*;unsignedchar*;size_t)"
- , "c3" : "9"
- , "c4" : "17"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ssl_get_prev_session(SSL*;CLIENTHELLO_MSG*)"
- , "c3" : "27"
- , "c4" : "38"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "SSL_CTX_add_session(SSL_CTX*;SSL_SESSION*)"
- , "c3" : "11"
- , "c4" : "17"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "SSL_CTX_remove_session(SSL_CTX*;SSL_SESSION*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "remove_session_lock(SSL_CTX*;SSL_SESSION*;int)"
- , "c3" : "8"
- , "c4" : "12"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "SSL_SESSION_free(SSL_SESSION*)"
+ , "c2" : "SSL_use_certificate(SSL*;X509*)"
  , "c3" : "3"
- , "c4" : "20"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "SSL_SESSION_up_ref(SSL_SESSION*)"
- , "c3" : "2"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "SSL_set_session(SSL*;SSL_SESSION*)"
- , "c3" : "4"
  , "c4" : "7"
 }} 
 ,
 { "ligne" : {
    "c1" : " int "
- , "c2" : "SSL_SESSION_set1_id(SSL_SESSION*;unsignedchar*;unsignedint)"
+ , "c2" : "SSL_use_certificate_file(SSL*;char*;int)"
+ , "c3" : "10"
+ , "c4" : "26"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int "
+ , "c2" : "SSL_use_certificate_ASN1(SSL*;unsignedchar*;int)"
  , "c3" : "3"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : {
-   "c1" : " long "
- , "c2" : "SSL_SESSION_set_timeout(SSL_SESSION*;long)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " long "
- , "c2" : "SSL_SESSION_get_timeout(SSL_SESSION*)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : " long "
- , "c2" : "SSL_SESSION_get_time(SSL_SESSION*)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : " long "
- , "c2" : "SSL_SESSION_set_time(SSL_SESSION*;long)"
- , "c3" : "2"
- , "c4" : "3"
+ , "c4" : "11"
 }} 
 ,
 { "ligne" : {
    "c1" : " int "
- , "c2" : "SSL_SESSION_get_protocol_version(SSL_SESSION*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "SSL_SESSION_set_protocol_version(SSL_SESSION*;int)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : "SSL_CIPHER"
- , "c2" : "SSL_SESSION_get0_cipher(SSL_SESSION*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "SSL_SESSION_set_cipher(SSL_SESSION*;SSL_CIPHER*)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : " char "
- , "c2" : "SSL_SESSION_get0_hostname(SSL_SESSION*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "SSL_SESSION_set1_hostname(SSL_SESSION*;char*)"
- , "c3" : "2"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "SSL_SESSION_has_ticket(SSL_SESSION*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " unsigned  long "
- , "c2" : "SSL_SESSION_get_ticket_lifetime_hint(SSL_SESSION*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "SSL_SESSION_get0_ticket(SSL_SESSION*;unsignedchar*;size_t*)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : "uint32_t"
- , "c2" : "SSL_SESSION_get_max_early_data(SSL_SESSION*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "SSL_SESSION_set_max_early_data(SSL_SESSION*;uint32_t)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "SSL_SESSION_get0_alpn_selected(SSL_SESSION*;unsignedchar*;size_t*)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "SSL_SESSION_set1_alpn_selected(SSL_SESSION*;unsignedchar*;size_t)"
- , "c3" : "3"
- , "c4" : "9"
-}} 
-,
-{ "ligne" : {
-   "c1" : "X509"
- , "c2" : "SSL_SESSION_get0_peer(SSL_SESSION*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "SSL_SESSION_set1_id_context(SSL_SESSION*;unsignedchar*;unsignedint)"
- , "c3" : "3"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "SSL_SESSION_is_resumable(SSL_SESSION*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " long "
- , "c2" : "SSL_CTX_set_timeout(SSL_CTX*;long)"
- , "c3" : "2"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : {
-   "c1" : " long "
- , "c2" : "SSL_CTX_get_timeout(SSL_CTX*)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "SSL_set_session_secret_cb(SSL*;tls_session_secret_cb_fn;void*)"
- , "c3" : "2"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "SSL_set_session_ticket_ext_cb(SSL*;tls_session_ticket_ext_cb_fn;void*)"
- , "c3" : "2"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "SSL_set_session_ticket_ext(SSL*;void*;int)"
+ , "c2" : "ssl_set_pkey(CERT*;EVP_PKEY*)"
  , "c3" : "5"
- , "c4" : "12"
+ , "c4" : "17"
 }} 
 ,
 { "ligne" : {
-   "c1" : " void "
- , "c2" : "timeout_cb(SSL_SESSION*;TIMEOUT_PARAM*)"
- , "c3" : "3"
+   "c1" : " int "
+ , "c2" : "SSL_use_PrivateKey(SSL*;EVP_PKEY*)"
+ , "c3" : "2"
  , "c4" : "5"
 }} 
 ,
 { "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_SSL_SESSION_doall_TIMEOUT_PARAM(structlhash_st_SSL_SESSION*;void;TIMEOUT_PARAM*)"
+   "c1" : " int "
+ , "c2" : "SSL_use_PrivateKey_file(SSL*;char*;int)"
+ , "c3" : "8"
+ , "c4" : "20"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int "
+ , "c2" : "SSL_use_PrivateKey_ASN1(int;SSL*;unsignedchar*;long)"
+ , "c3" : "2"
+ , "c4" : "9"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int "
+ , "c2" : "SSL_CTX_use_certificate(SSL_CTX*;X509*)"
+ , "c3" : "3"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int "
+ , "c2" : "ssl_set_cert(CERT*;X509*)"
+ , "c3" : "6"
+ , "c4" : "19"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int "
+ , "c2" : "SSL_CTX_use_certificate_file(SSL_CTX*;char*;int)"
+ , "c3" : "9"
+ , "c4" : "24"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int "
+ , "c2" : "SSL_CTX_use_certificate_ASN1(SSL_CTX*;int;unsignedchar*)"
+ , "c3" : "3"
+ , "c4" : "11"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int "
+ , "c2" : "SSL_CTX_use_PrivateKey(SSL_CTX*;EVP_PKEY*)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int "
+ , "c2" : "SSL_CTX_use_PrivateKey_file(SSL_CTX*;char*;int)"
+ , "c3" : "8"
+ , "c4" : "20"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int "
+ , "c2" : "SSL_CTX_use_PrivateKey_ASN1(int;SSL_CTX*;unsignedchar*;long)"
+ , "c3" : "2"
+ , "c4" : "9"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int "
+ , "c2" : "use_certificate_chain_file(SSL_CTX*;SSL*;char*)"
+ , "c3" : "23"
+ , "c4" : "47"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int "
+ , "c2" : "SSL_CTX_use_certificate_chain_file(SSL_CTX*;char*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
-   "c1" : " void "
- , "c2" : "SSL_CTX_flush_sessions(SSL_CTX*;long)"
+   "c1" : " int "
+ , "c2" : "SSL_use_certificate_chain_file(SSL*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int "
+ , "c2" : "serverinfo_find_extension(unsignedchar*;size_t;unsignedint;unsignedchar*;size_t*)"
+ , "c3" : "7"
+ , "c4" : "15"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int "
+ , "c2" : "serverinfoex_srv_parse_cb(SSL*;unsignedint;unsignedint;unsignedchar*;size_t;X509*;size_t;int*;void*)"
  , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int "
+ , "c2" : "serverinfo_srv_parse_cb(SSL*;unsignedint;unsignedchar*;size_t;int*;void*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int "
+ , "c2" : "serverinfoex_srv_add_cb(SSL*;unsignedint;unsignedint;unsignedchar*;size_t*;X509*;size_t;int*;void*)"
+ , "c3" : "5"
+ , "c4" : "9"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int "
+ , "c2" : "serverinfo_srv_add_cb(SSL*;unsignedint;unsignedchar*;size_t*;int*;void*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : {
+   "c1" : " int "
+ , "c2" : "serverinfo_process_buffer(unsignedint;unsignedchar*;size_t;SSL_CTX*)"
+ , "c3" : "11"
  , "c4" : "12"
 }} 
 ,
 { "ligne" : {
    "c1" : " int "
- , "c2" : "ssl_clear_bad_session(SSL*)"
- , "c3" : "3"
- , "c4" : "3"
+ , "c2" : "SSL_CTX_use_serverinfo_ex(SSL_CTX*;unsignedint;unsignedchar*;size_t)"
+ , "c3" : "6"
+ , "c4" : "16"
 }} 
 ,
 { "ligne" : {
-   "c1" : " void "
- , "c2" : "SSL_SESSION_list_remove(SSL_CTX*;SSL_SESSION*)"
- , "c3" : "8"
- , "c4" : "10"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "SSL_SESSION_list_add(SSL_CTX*;SSL_SESSION*)"
- , "c3" : "4"
- , "c4" : "9"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "SSL_CTX_sess_set_new_cb(SSL_CTX*;int)"
+   "c1" : " int "
+ , "c2" : "SSL_CTX_use_serverinfo(SSL_CTX*;unsignedchar*;size_t)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
    "c1" : " int "
- , "c2" : "(SSL*;SSL_SESSION*)"
- , "c3" : "1"
- , "c4" : "1"
+ , "c2" : "SSL_CTX_use_serverinfo_file(SSL_CTX*;char*)"
+ , "c3" : "19"
+ , "c4" : "64"
 }} 
 ,
 { "ligne" : {
-   "c1" : " void "
- , "c2" : "SSL_CTX_sess_set_remove_cb(SSL_CTX*;void)"
- , "c3" : "1"
- , "c4" : "1"
+   "c1" : " int "
+ , "c2" : "ssl_set_cert_and_key(SSL*;SSL_CTX*;X509*;EVP_PKEY*;structstack_st_X509*;int)"
+ , "c3" : "17"
+ , "c4" : "43"
 }} 
 ,
 { "ligne" : {
-   "c1" : " void "
- , "c2" : "(SSL_CTX*;SSL_SESSION*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "SSL_CTX_sess_set_get_cb(SSL_CTX*;SSL_SESSION*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "SSL_SESSION"
- , "c2" : "(SSL*;unsignedchar*;int;int*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "SSL_CTX_set_info_callback(SSL_CTX*;void)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "(SSL*;int;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "SSL_CTX_set_client_cert_cb(SSL_CTX*;int)"
+   "c1" : " int "
+ , "c2" : "SSL_use_cert_and_key(SSL*;X509*;EVP_PKEY*;structstack_st_X509*;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : {
    "c1" : " int "
- , "c2" : "(SSL*;X509*;EVP_PKEY*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "SSL_CTX_set_cookie_generate_cb(SSL_CTX*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "SSL_CTX_set_cookie_verify_cb(SSL_CTX*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "SSL_SESSION_set1_ticket_appdata(SSL_SESSION*;void*;size_t)"
- , "c3" : "3"
- , "c4" : "8"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "SSL_SESSION_get0_ticket_appdata(SSL_SESSION*;void*;size_t*)"
- , "c3" : "1"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "SSL_CTX_set_stateless_cookie_generate_cb(SSL_CTX*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "SSL_CTX_set_stateless_cookie_verify_cb(SSL_CTX*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "SSL_SESSION"
- , "c2" : "PEM_read_bio_SSL_SESSION(BIO*;SSL_SESSION*;pem_password_cb*;void*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "SSL_SESSION"
- , "c2" : "PEM_read_SSL_SESSION(FILE*;SSL_SESSION*;pem_password_cb*;void*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PEM_write_bio_SSL_SESSION(BIO*;SSL_SESSION*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PEM_write_SSL_SESSION(FILE*;SSL_SESSION*)"
+ , "c2" : "SSL_CTX_use_cert_and_key(SSL_CTX*;X509*;EVP_PKEY*;structstack_st_X509*;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3517,6 +4761,10 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/ssl/ssl_rsa.c.png" 
+
+ , "ligneplantuml" : "./qc/ssl/ssl_rsa.c.svg" }
+
 ] 
 , 
 "data04" : [
@@ -3545,366 +4793,590 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "29"
+ , "c4" : "36"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000006"
+ , "c3" : "Risk of infinite while loop"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000007"
  , "c3" : "goto statement"
- , "c4" : "21"
+ , "c4" : "44"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03389"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#3389"
+   "c1" : "03269"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#3269"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03389] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[03269] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05235"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#5235"
+   "c1" : "07118"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#7118"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05235] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07118] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05237"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#5237"
+   "c1" : "07120"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#7120"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05237] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07120] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05604"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#5604"
+   "c1" : "08223"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#8223"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05604] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08223] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05800"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#5800"
+   "c1" : "08419"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#8419"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05800] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08419] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05801"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#5801"
+   "c1" : "08420"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#8420"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05801] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08420] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05802"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#5802"
+   "c1" : "08421"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#8421"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05802] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08421] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05806"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#5806"
+   "c1" : "08425"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#8425"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05806] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08425] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06392"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#6392"
+   "c1" : "09011"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#9011"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06392] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09011] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06394"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#6394"
+   "c1" : "09013"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#9013"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06394] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09013] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06397"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#6397"
+   "c1" : "09016"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#9016"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06397] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09016] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08074"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#8074"
+   "c1" : "09855"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#9855"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08074] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09855] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08789"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#8789"
+   "c1" : "10936"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#10936"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08789] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10936] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08811"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#8811"
+   "c1" : "10958"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#10958"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08811] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10958] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08817"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#8817"
+   "c1" : "10964"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#10964"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08817] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10964] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08837"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#8837"
+   "c1" : "10984"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#10984"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08837] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10984] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08843"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#8843"
+   "c1" : "10990"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#10990"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08843] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10990] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09990"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#9990"
+   "c1" : "12095"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#12095"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09990] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12095] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09991"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#9991"
+   "c1" : "12096"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#12096"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09991] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12096] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13406"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#13406"
+   "c1" : "12771"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#12771"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13406] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12771] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13604"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#13604"
+   "c1" : "13847"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#13847"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13604] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13847] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14672"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#14672"
+   "c1" : "13849"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#13849"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14672] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13849] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14674"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#14674"
+   "c1" : "15250"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#15250"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14674] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15250] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16075"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#16075"
+   "c1" : "15272"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#15272"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16075] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15272] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16097"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#16097"
+   "c1" : "15291"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#15291"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16097] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15291] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16116"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#16116"
+   "c1" : "15314"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#15314"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16116] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15314] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16139"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#16139"
+   "c1" : "15334"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#15334"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16139] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15334] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16159"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#16159"
+   "c1" : "15514"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#15514"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16159] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15514] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16339"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#16339"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16339] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18956"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#18956"
+   "c1" : "18715"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#18715"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18956] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18715] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19035"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#19035"
+   "c1" : "18724"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#18724"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19035] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18724] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19038"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#19038"
+   "c1" : "18733"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#18733"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19038] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18733] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19046"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#19046"
+   "c1" : "18746"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#18746"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19046] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18746] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19061"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#19061"
+   "c1" : "18761"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#18761"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19061] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18761] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19071"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#19071"
+   "c1" : "18774"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#18774"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19071] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18774] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19081"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#19081"
+   "c1" : "18924"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#18924"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19081] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18924] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19088"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#19088"
+   "c1" : "18933"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#18933"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19088] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18933] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19098"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#19098"
+   "c1" : "18960"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#18960"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19098] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18960] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19114"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#19114"
+   "c1" : "18972"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#18972"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19114] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18972] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19138"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#19138"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19138] goto statement jump to err"
+   "c1" : "18985"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#18985"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[18985] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19149"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#19149"
+   "c1" : "19148"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19148"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19149] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19148] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19166"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#19166"
+   "c1" : "19157"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19157"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19166] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19157] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19554"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#19554"
+   "c1" : "19165"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19165"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19554] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19165] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19575"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#19575"
+   "c1" : "19178"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19178"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19575] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19178] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19581"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#19581"
+   "c1" : "19198"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19198"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19581] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19198] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19589"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#19589"
+   "c1" : "19284"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19284"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19589] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19284] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19607"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#19607"
+   "c1" : "19293"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19293"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19607] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19293] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19636"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#19636"
+   "c1" : "19318"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19318"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19636] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19318] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19649"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#19649"
+   "c1" : "19330"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19330"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19649] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19330] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19653"
- , "c1link" : "./qc/ssl/libssl-lib-ssl_sess.c.html#19653"
+   "c1" : "19343"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19343"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[19343] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19418"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19418"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19653] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19418] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19427"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19427"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19427] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19441"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19441"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19441] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19454"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19454"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19454] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19489"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19489"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19489] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19492"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19492"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[19492] The condition of do while loop is constant, infinite loop risk : 1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19504"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19504"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19504] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19524"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19524"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19524] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19643"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19643"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[19643] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19773"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19773"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[19773] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19865"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19865"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[19865] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19870"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19870"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[19870] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19872"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19872"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[19872] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19909"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19909"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19909] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19923"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19923"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19923] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19931"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19931"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19931] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19948"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19948"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19948] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19960"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19960"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19960] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19971"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19971"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19971] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19979"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19979"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19979] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19996"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#19996"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19996] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20013"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#20013"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20013] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20035"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#20035"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20035] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20039"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#20039"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[20039] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20114"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#20114"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20114] goto statement jump to out"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20124"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#20124"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20124] goto statement jump to out"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20134"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#20134"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20134] goto statement jump to out"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20151"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#20151"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20151] goto statement jump to out"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20168"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#20168"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20168] goto statement jump to out"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20181"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#20181"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20181] goto statement jump to out"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20205"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#20205"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20205] goto statement jump to out"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20224"
+ , "c1link" : "./qc/ssl/ssl_rsa.c.html#20224"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20224] goto statement jump to out"
 }} 
 ]
 };

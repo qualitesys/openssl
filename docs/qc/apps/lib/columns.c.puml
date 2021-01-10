@@ -1,0 +1,705 @@
+@startuml
+ <|-- dummy.__locale_struct
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.timeval
+ <|-- dummy.timespec
+ <|-- dummy.
+ <|-- dummy.__pthread_rwlock_arch_t
+ <|-- dummy.__pthread_internal_list
+ <|-- dummy.__pthread_mutex_s
+ <|-- dummy.__pthread_cond_s
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.pthread_attr_t
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.random_data
+ <|-- dummy.drand48_data
+ <|-- dummy.tm
+ <|-- dummy.itimerspec
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy._IO_marker
+ <|-- dummy._IO_FILE
+ <|-- dummy.
+ <|-- dummy.crypto_ex_data_st
+ <|-- dummy.crypto_threadid_st
+ <|-- dummy.sched_param
+ <|-- dummy.
+ <|-- dummy._pthread_cleanup_buffer
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.__pthread_cleanup_frame
+ <|-- dummy.timezone
+ <|-- dummy.itimerval
+ <|-- dummy.sigval
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.sigevent
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.sigaction
+ <|-- dummy.
+ <|-- dummy._fpx_sw_bytes
+ <|-- dummy._fpreg
+ <|-- dummy._fpxreg
+ <|-- dummy._xmmreg
+ <|-- dummy._fpstate
+ <|-- dummy.sigcontext
+ <|-- dummy.
+ <|-- dummy._xsave_hdr
+ <|-- dummy._ymmh_state
+ <|-- dummy._xstate
+ <|-- dummy.
+ <|-- dummy._libc_fpxreg
+ <|-- dummy._libc_xmmreg
+ <|-- dummy._libc_fpstate
+ <|-- dummy.
+ <|-- dummy.ucontext_t
+ <|-- dummy.sigstack
+ <|-- dummy.iovec
+ <|-- dummy.sockaddr
+ <|-- dummy.sockaddr_storage
+ <|-- dummy.msghdr
+ <|-- dummy.cmsghdr
+ <|-- dummy.linger
+ <|-- dummy.osockaddr
+ <|-- dummy.in_addr
+ <|-- dummy.ip_opts
+ <|-- dummy.ip_mreqn
+ <|-- dummy.in_pktinfo
+ <|-- dummy.in6_addr
+ <|-- dummy.
+ <|-- dummy.sockaddr_in
+ <|-- dummy.sockaddr_in6
+ <|-- dummy.ip_mreq
+ <|-- dummy.ip_mreq_source
+ <|-- dummy.ipv6_mreq
+ <|-- dummy.group_req
+ <|-- dummy.group_source_req
+ <|-- dummy.ip_msfilter
+ <|-- dummy.group_filter
+ <|-- dummy.rpcent
+ <|-- dummy.netent
+ <|-- dummy.hostent
+ <|-- dummy.servent
+ <|-- dummy.protoent
+ <|-- dummy.addrinfo
+ <|-- dummy.sockaddr_un
+ <|-- dummy.tcphdr
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.tcp_info
+ <|-- dummy.tcp_md5sig
+ <|-- dummy.tcp_repair_opt
+ <|-- dummy.tcp_cookie_transactions
+ <|-- dummy.tcp_repair_window
+ <|-- dummy.winsize
+ <|-- dummy.termio
+ <|-- dummy.stat
+ <|-- dummy.flock
+ <|-- dummy.BIO_sock_info_u
+ <|-- dummy.
+ <|-- dummy.buf_mem_st
+ <|-- dummy.ossl_dispatch_st
+ <|-- dummy.ossl_item_st
+ <|-- dummy.ossl_algorithm_st
+ <|-- dummy.ossl_param_st
+ <|-- dummy.asn1_string_st
+ <|-- dummy.ASN1_ENCODING_st
+ <|-- dummy.asn1_string_table_st
+ <|-- dummy.asn1_type_st
+ <|-- dummy.
+ <|-- dummy.BIT_STRING_BITNAME_st
+ <|-- dummy.obj_name_st
+ <|-- dummy.
+ <|-- dummy.evp_cipher_info_st
+ <|-- dummy.
+ <|-- dummy.rsa_pss_params_st
+ <|-- dummy.rsa_oaep_params_st
+ <|-- dummy.SHAstate_st
+ <|-- dummy.SHA256state_st
+ <|-- dummy.SHA512state_st
+ <|-- dummy.
+ <|-- dummy.X509_algor_st
+ <|-- dummy.X509_val_st
+ <|-- dummy.x509_trust_st
+ <|-- dummy.private_key_st
+ <|-- dummy.X509_info_st
+ <|-- dummy.Netscape_spkac_st
+ <|-- dummy.Netscape_spki_st
+ <|-- dummy.Netscape_certificate_sequence
+ <|-- dummy.PBEPARAM_st
+ <|-- dummy.PBE2PARAM_st
+ <|-- dummy.PBKDF2PARAM_st
+ <|-- dummy.SCRYPT_PARAMS_st
+ <|-- dummy.lhash_st_OPENSSL_STRING
+ <|-- dummy.lh_OPENSSL_STRING_dummy
+ <|-- dummy.lhash_st_OPENSSL_CSTRING
+ <|-- dummy.lh_OPENSSL_CSTRING_dummy
+ <|-- dummy.PKCS7_CTX_st
+ <|-- dummy.pkcs7_issuer_and_serial_st
+ <|-- dummy.pkcs7_signer_info_st
+ <|-- dummy.pkcs7_recip_info_st
+ <|-- dummy.pkcs7_signed_st
+ <|-- dummy.pkcs7_enc_content_st
+ <|-- dummy.pkcs7_enveloped_st
+ <|-- dummy.pkcs7_signedandenveloped_st
+ <|-- dummy.pkcs7_digest_st
+ <|-- dummy.pkcs7_encrypted_st
+ <|-- dummy.pkcs7_st
+ <|-- dummy.
+ <|-- dummy.
+ <|-- dummy.lhash_st_CONF_VALUE
+ <|-- dummy.lh_CONF_VALUE_dummy
+ <|-- dummy.conf_method_st
+ <|-- dummy.conf_st
+ <|-- dummy.txt_db_st
+ <|-- dummy.rand_meth_st
+ <|-- dummy.err_state_st
+ <|-- dummy.ERR_string_data_st
+ <|-- dummy.lhash_st_ERR_STRING_DATA
+ <|-- dummy.lh_ERR_STRING_DATA_dummy
+ <|-- dummy.ENGINE_CMD_DEFN_st
+ <|-- dummy.st_dynamic_MEM_fns
+ <|-- dummy.st_dynamic_fns
+ <|-- dummy.v3_ext_method
+ <|-- dummy.X509V3_CONF_METHOD_st
+ <|-- dummy.v3_ext_ctx
+ <|-- dummy.BASIC_CONSTRAINTS_st
+ <|-- dummy.PKEY_USAGE_PERIOD_st
+ <|-- dummy.otherName_st
+ <|-- dummy.EDIPartyName_st
+ <|-- dummy.GENERAL_NAME_st
+ <|-- dummy.
+ <|-- dummy.ACCESS_DESCRIPTION_st
+ <|-- dummy.DIST_POINT_NAME_st
+ <|-- dummy.
+ <|-- dummy.DIST_POINT_st
+ <|-- dummy.AUTHORITY_KEYID_st
+ <|-- dummy.SXNET_ID_st
+ <|-- dummy.SXNET_st
+ <|-- dummy.ISSUER_SIGN_TOOL_st
+ <|-- dummy.NOTICEREF_st
+ <|-- dummy.USERNOTICE_st
+ <|-- dummy.POLICYQUALINFO_st
+ <|-- dummy.
+ <|-- dummy.POLICYINFO_st
+ <|-- dummy.POLICY_MAPPING_st
+ <|-- dummy.GENERAL_SUBTREE_st
+ <|-- dummy.NAME_CONSTRAINTS_st
+ <|-- dummy.POLICY_CONSTRAINTS_st
+ <|-- dummy.PROXY_POLICY_st
+ <|-- dummy.PROXY_CERT_INFO_EXTENSION_st
+ <|-- dummy.ISSUING_DIST_POINT_st
+ <|-- dummy.x509_purpose_st
+ <|-- dummy.ASRange_st
+ <|-- dummy.ASIdOrRange_st
+ <|-- dummy.
+ <|-- dummy.ASIdentifierChoice_st
+ <|-- dummy.
+ <|-- dummy.ASIdentifiers_st
+ <|-- dummy.IPAddressRange_st
+ <|-- dummy.IPAddressOrRange_st
+ <|-- dummy.
+ <|-- dummy.IPAddressChoice_st
+ <|-- dummy.
+ <|-- dummy.IPAddressFamily_st
+ <|-- dummy.pw_cb_data
+ <|-- dummy.options_st
+ <|-- dummy.string_int_pair_st
+ <|-- dummy.args_st
+ <|-- dummy.db_attr_st
+ <|-- dummy.ca_db_st
+ <|-- dummy.app_http_tls_info_st
+ <|-- dummy.verify_options_st
+ <|-- dummy.function_st
+ <|-- dummy.lhash_st_FUNCTION
+ <|-- dummy.lh_FUNCTION_dummy
+ <|-- dummy.
+class dummy. {
++  bcopy(void*;void*;size_t)
++  bzero(void*;size_t)
++  memcpy(void*;void*;size_t)
++  memmove(void*;void*;size_t)
++  memset(void*;int;size_t)
++  explicit_bzero(void*;size_t)
++  strcpy(char*;char*)
++  strncpy(char*;char*;size_t)
++  stpncpy(char*;char*;size_t)
++  strcat(char*;char*)
++  strncat(char*;char*;size_t)
++  strtoimax(char*;char*;int)
++  strtoumax(char*;char*;int)
++  wcstoimax(__gwchar_t*;__gwchar_t*;int)
++  wcstoumax(__gwchar_t*;__gwchar_t*;int)
++  atoi(char*)
++  atol(char*)
++  atoll(char*)
++  __bswap_32(unsignedint)
++  __bswap_64(__uint64_t)
++  __uint16_identity(__uint16_t)
++  __uint32_identity(__uint32_t)
++  __uint64_identity(__uint64_t)
++  gnu_dev_major(__dev_t)
++  gnu_dev_minor(__dev_t)
++  gnu_dev_makedev(unsignedint;unsignedint)
++  bsearch(void*;void*;size_t;size_t;__compar_fn_t)
++  atof(char*)
++  realpath(char*;char*)
++  ptsname_r(int;char*;size_t)
++  wctomb(char*;wchar_t)
++  mbstowcs(wchar_t*;char*;size_t)
++  wcstombs(char*;wchar_t*;size_t)
++  getchar(void)
++  fgetc_unlocked(FILE*)
++  getc_unlocked(FILE*)
++  getchar_unlocked(void)
++  putchar(int)
++  fputc_unlocked(int;FILE*)
++  putc_unlocked(int;FILE*)
++  putchar_unlocked(int)
++  feof_unlocked(FILE*)
++  ferror_unlocked(FILE*)
++  sprintf(char*;char*)
++  vsprintf(char*;char*;__gnuc_va_list)
++  snprintf(char*;size_t;char*)
++  vsnprintf(char*;size_t;char*;__gnuc_va_list)
++  fprintf(FILE*;char*)
++  printf(char*)
++  vprintf(char*;__gnuc_va_list)
++  vfprintf(FILE*;char*;__gnuc_va_list)
++  dprintf(int;char*)
++  vdprintf(int;char*;__gnuc_va_list)
++  fgets(char*;int;FILE*)
++  fread(void*;size_t;size_t;FILE*)
++  fread_unlocked(void*;size_t;size_t;FILE*)
++  ossl_check_OPENSSL_STRING_type(char*)
++  ossl_check_const_OPENSSL_STRING_sk_type(structstack_st_OPENSSL_STRING*)
++  ossl_check_OPENSSL_STRING_sk_type(structstack_st_OPENSSL_STRING*)
++  ossl_check_OPENSSL_STRING_compfunc_type(sk_OPENSSL_STRING_compfunc)
++  ossl_check_OPENSSL_STRING_copyfunc_type(sk_OPENSSL_STRING_copyfunc)
++  ossl_check_OPENSSL_STRING_freefunc_type(sk_OPENSSL_STRING_freefunc)
++  ossl_check_OPENSSL_CSTRING_type(char*)
++  ossl_check_const_OPENSSL_CSTRING_sk_type(structstack_st_OPENSSL_CSTRING*)
++  ossl_check_OPENSSL_CSTRING_sk_type(structstack_st_OPENSSL_CSTRING*)
++  ossl_check_OPENSSL_CSTRING_compfunc_type(sk_OPENSSL_CSTRING_compfunc)
++  ossl_check_OPENSSL_CSTRING_copyfunc_type(sk_OPENSSL_CSTRING_copyfunc)
++  ossl_check_OPENSSL_CSTRING_freefunc_type(sk_OPENSSL_CSTRING_freefunc)
++  ossl_check_OPENSSL_BLOCK_type(void*)
++  ossl_check_const_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*)
++  ossl_check_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*)
++  ossl_check_OPENSSL_BLOCK_compfunc_type(sk_OPENSSL_BLOCK_compfunc)
++  ossl_check_OPENSSL_BLOCK_copyfunc_type(sk_OPENSSL_BLOCK_copyfunc)
++  ossl_check_OPENSSL_BLOCK_freefunc_type(sk_OPENSSL_BLOCK_freefunc)
++  ossl_check_void_type(void*)
++  ossl_check_const_void_sk_type(structstack_st_void*)
++  ossl_check_void_sk_type(structstack_st_void*)
++  ossl_check_void_compfunc_type(sk_void_compfunc)
++  ossl_check_void_copyfunc_type(sk_void_copyfunc)
++  ossl_check_void_freefunc_type(sk_void_freefunc)
++  pthread_equal(pthread_t;pthread_t)
++  read(int;void*;size_t)
++  readlink(char*;char*;size_t)
++  readlinkat(int;char*;char*;size_t)
++  getcwd(char*;size_t)
++  getwd(char*)
++  confstr(int;char*;size_t)
++  getgroups(int;__gid_t)
++  ttyname_r(int;char*;size_t)
++  getlogin_r(char*;size_t)
++  gethostname(char*;size_t)
++  getdomainname(char*;size_t)
++  __cmsg_nxthdr(structmsghdr*;structcmsghdr*)
++  recv(int;void*;size_t;int)
++  recvfrom(int;void*;size_t;int;structsockaddr*;socklen_t*)
++  stat(char*;structstat*)
++  lstat(char*;structstat*)
++  fstat(int;structstat*)
++  fstatat(int;char*;structstat*;int)
++  mknod(char*;__mode_t;__dev_t)
++  mknodat(int;char*;__mode_t;__dev_t)
++  open(char*;int)
++  openat(int;char*;int)
++  ossl_check_BIO_type(BIO*)
++  ossl_check_const_BIO_sk_type(structstack_st_BIO*)
++  ossl_check_BIO_sk_type(structstack_st_BIO*)
++  ossl_check_BIO_compfunc_type(sk_BIO_compfunc)
++  ossl_check_BIO_copyfunc_type(sk_BIO_copyfunc)
++  ossl_check_BIO_freefunc_type(sk_BIO_freefunc)
++  ossl_check_X509_ALGOR_type(X509_ALGOR*)
++  ossl_check_const_X509_ALGOR_sk_type(structstack_st_X509_ALGOR*)
++  ossl_check_X509_ALGOR_sk_type(structstack_st_X509_ALGOR*)
++  ossl_check_X509_ALGOR_compfunc_type(sk_X509_ALGOR_compfunc)
++  ossl_check_X509_ALGOR_copyfunc_type(sk_X509_ALGOR_copyfunc)
++  ossl_check_X509_ALGOR_freefunc_type(sk_X509_ALGOR_freefunc)
++  ossl_check_ASN1_STRING_TABLE_type(ASN1_STRING_TABLE*)
++  ossl_check_const_ASN1_STRING_TABLE_sk_type(structstack_st_ASN1_STRING_TABLE*)
++  ossl_check_ASN1_STRING_TABLE_sk_type(structstack_st_ASN1_STRING_TABLE*)
++  ossl_check_ASN1_STRING_TABLE_compfunc_type(sk_ASN1_STRING_TABLE_compfunc)
++  ossl_check_ASN1_STRING_TABLE_copyfunc_type(sk_ASN1_STRING_TABLE_copyfunc)
++  ossl_check_ASN1_STRING_TABLE_freefunc_type(sk_ASN1_STRING_TABLE_freefunc)
++  ossl_check_ASN1_TYPE_type(ASN1_TYPE*)
++  ossl_check_const_ASN1_TYPE_sk_type(structstack_st_ASN1_TYPE*)
++  ossl_check_ASN1_TYPE_sk_type(structstack_st_ASN1_TYPE*)
++  ossl_check_ASN1_TYPE_compfunc_type(sk_ASN1_TYPE_compfunc)
++  ossl_check_ASN1_TYPE_copyfunc_type(sk_ASN1_TYPE_copyfunc)
++  ossl_check_ASN1_TYPE_freefunc_type(sk_ASN1_TYPE_freefunc)
++  ossl_check_ASN1_OBJECT_type(ASN1_OBJECT*)
++  ossl_check_const_ASN1_OBJECT_sk_type(structstack_st_ASN1_OBJECT*)
++  ossl_check_ASN1_OBJECT_sk_type(structstack_st_ASN1_OBJECT*)
++  ossl_check_ASN1_OBJECT_compfunc_type(sk_ASN1_OBJECT_compfunc)
++  ossl_check_ASN1_OBJECT_copyfunc_type(sk_ASN1_OBJECT_copyfunc)
++  ossl_check_ASN1_OBJECT_freefunc_type(sk_ASN1_OBJECT_freefunc)
++  ossl_check_ASN1_INTEGER_type(ASN1_INTEGER*)
++  ossl_check_const_ASN1_INTEGER_sk_type(structstack_st_ASN1_INTEGER*)
++  ossl_check_ASN1_INTEGER_sk_type(structstack_st_ASN1_INTEGER*)
++  ossl_check_ASN1_INTEGER_compfunc_type(sk_ASN1_INTEGER_compfunc)
++  ossl_check_ASN1_INTEGER_copyfunc_type(sk_ASN1_INTEGER_copyfunc)
++  ossl_check_ASN1_INTEGER_freefunc_type(sk_ASN1_INTEGER_freefunc)
++  ossl_check_ASN1_UTF8STRING_type(ASN1_UTF8STRING*)
++  ossl_check_const_ASN1_UTF8STRING_sk_type(structstack_st_ASN1_UTF8STRING*)
++  ossl_check_ASN1_UTF8STRING_sk_type(structstack_st_ASN1_UTF8STRING*)
++  ossl_check_ASN1_UTF8STRING_compfunc_type(sk_ASN1_UTF8STRING_compfunc)
++  ossl_check_ASN1_UTF8STRING_copyfunc_type(sk_ASN1_UTF8STRING_copyfunc)
++  ossl_check_ASN1_UTF8STRING_freefunc_type(sk_ASN1_UTF8STRING_freefunc)
++  ossl_check_ASN1_GENERALSTRING_type(ASN1_GENERALSTRING*)
++  ossl_check_const_ASN1_GENERALSTRING_sk_type(structstack_st_ASN1_GENERALSTRING*)
++  ossl_check_ASN1_GENERALSTRING_sk_type(structstack_st_ASN1_GENERALSTRING*)
++  ossl_check_ASN1_GENERALSTRING_compfunc_type(sk_ASN1_GENERALSTRING_compfunc)
++  ossl_check_ASN1_GENERALSTRING_copyfunc_type(sk_ASN1_GENERALSTRING_copyfunc)
++  ossl_check_ASN1_GENERALSTRING_freefunc_type(sk_ASN1_GENERALSTRING_freefunc)
++  ossl_check_X509_NAME_type(X509_NAME*)
++  ossl_check_const_X509_NAME_sk_type(structstack_st_X509_NAME*)
++  ossl_check_X509_NAME_sk_type(structstack_st_X509_NAME*)
++  ossl_check_X509_NAME_compfunc_type(sk_X509_NAME_compfunc)
++  ossl_check_X509_NAME_copyfunc_type(sk_X509_NAME_copyfunc)
++  ossl_check_X509_NAME_freefunc_type(sk_X509_NAME_freefunc)
++  ossl_check_X509_type(X509*)
++  ossl_check_const_X509_sk_type(structstack_st_X509*)
++  ossl_check_X509_sk_type(structstack_st_X509*)
++  ossl_check_X509_compfunc_type(sk_X509_compfunc)
++  ossl_check_X509_copyfunc_type(sk_X509_copyfunc)
++  ossl_check_X509_freefunc_type(sk_X509_freefunc)
++  ossl_check_X509_REVOKED_type(X509_REVOKED*)
++  ossl_check_const_X509_REVOKED_sk_type(structstack_st_X509_REVOKED*)
++  ossl_check_X509_REVOKED_sk_type(structstack_st_X509_REVOKED*)
++  ossl_check_X509_REVOKED_compfunc_type(sk_X509_REVOKED_compfunc)
++  ossl_check_X509_REVOKED_copyfunc_type(sk_X509_REVOKED_copyfunc)
++  ossl_check_X509_REVOKED_freefunc_type(sk_X509_REVOKED_freefunc)
++  ossl_check_X509_CRL_type(X509_CRL*)
++  ossl_check_const_X509_CRL_sk_type(structstack_st_X509_CRL*)
++  ossl_check_X509_CRL_sk_type(structstack_st_X509_CRL*)
++  ossl_check_X509_CRL_compfunc_type(sk_X509_CRL_compfunc)
++  ossl_check_X509_CRL_copyfunc_type(sk_X509_CRL_copyfunc)
++  ossl_check_X509_CRL_freefunc_type(sk_X509_CRL_freefunc)
++  ossl_check_X509_NAME_ENTRY_type(X509_NAME_ENTRY*)
++  ossl_check_const_X509_NAME_ENTRY_sk_type(structstack_st_X509_NAME_ENTRY*)
++  ossl_check_X509_NAME_ENTRY_sk_type(structstack_st_X509_NAME_ENTRY*)
++  ossl_check_X509_NAME_ENTRY_compfunc_type(sk_X509_NAME_ENTRY_compfunc)
++  ossl_check_X509_NAME_ENTRY_copyfunc_type(sk_X509_NAME_ENTRY_copyfunc)
++  ossl_check_X509_NAME_ENTRY_freefunc_type(sk_X509_NAME_ENTRY_freefunc)
++  ossl_check_X509_EXTENSION_type(X509_EXTENSION*)
++  ossl_check_const_X509_EXTENSION_sk_type(structstack_st_X509_EXTENSION*)
++  ossl_check_X509_EXTENSION_sk_type(structstack_st_X509_EXTENSION*)
++  ossl_check_X509_EXTENSION_compfunc_type(sk_X509_EXTENSION_compfunc)
++  ossl_check_X509_EXTENSION_copyfunc_type(sk_X509_EXTENSION_copyfunc)
++  ossl_check_X509_EXTENSION_freefunc_type(sk_X509_EXTENSION_freefunc)
++  ossl_check_X509_ATTRIBUTE_type(X509_ATTRIBUTE*)
++  ossl_check_const_X509_ATTRIBUTE_sk_type(structstack_st_X509_ATTRIBUTE*)
++  ossl_check_X509_ATTRIBUTE_sk_type(structstack_st_X509_ATTRIBUTE*)
++  ossl_check_X509_ATTRIBUTE_compfunc_type(sk_X509_ATTRIBUTE_compfunc)
++  ossl_check_X509_ATTRIBUTE_copyfunc_type(sk_X509_ATTRIBUTE_copyfunc)
++  ossl_check_X509_ATTRIBUTE_freefunc_type(sk_X509_ATTRIBUTE_freefunc)
++  ossl_check_X509_TRUST_type(X509_TRUST*)
++  ossl_check_const_X509_TRUST_sk_type(structstack_st_X509_TRUST*)
++  ossl_check_X509_TRUST_sk_type(structstack_st_X509_TRUST*)
++  ossl_check_X509_TRUST_compfunc_type(sk_X509_TRUST_compfunc)
++  ossl_check_X509_TRUST_copyfunc_type(sk_X509_TRUST_copyfunc)
++  ossl_check_X509_TRUST_freefunc_type(sk_X509_TRUST_freefunc)
++  ossl_check_X509_INFO_type(X509_INFO*)
++  ossl_check_const_X509_INFO_sk_type(structstack_st_X509_INFO*)
++  ossl_check_X509_INFO_sk_type(structstack_st_X509_INFO*)
++  ossl_check_X509_INFO_compfunc_type(sk_X509_INFO_compfunc)
++  ossl_check_X509_INFO_copyfunc_type(sk_X509_INFO_copyfunc)
++  ossl_check_X509_INFO_freefunc_type(sk_X509_INFO_freefunc)
++  ossl_check_OPENSSL_STRING_lh_plain_type(OPENSSL_STRING*)
++  ossl_check_const_OPENSSL_STRING_lh_plain_type(OPENSSL_STRING*)
++  ossl_check_const_OPENSSL_STRING_lh_type(structlhash_st_OPENSSL_STRING*)
++  ossl_check_OPENSSL_STRING_lh_type(structlhash_st_OPENSSL_STRING*)
++  ossl_check_OPENSSL_STRING_lh_compfunc_type(lh_OPENSSL_STRING_compfunc)
++  ossl_check_OPENSSL_STRING_lh_hashfunc_type(lh_OPENSSL_STRING_hashfunc)
++  ossl_check_OPENSSL_STRING_lh_doallfunc_type(lh_OPENSSL_STRING_doallfunc)
++  ossl_check_OPENSSL_CSTRING_lh_plain_type(OPENSSL_CSTRING*)
++  ossl_check_const_OPENSSL_CSTRING_lh_plain_type(OPENSSL_CSTRING*)
++  ossl_check_const_OPENSSL_CSTRING_lh_type(structlhash_st_OPENSSL_CSTRING*)
++  ossl_check_OPENSSL_CSTRING_lh_type(structlhash_st_OPENSSL_CSTRING*)
++  ossl_check_OPENSSL_CSTRING_lh_compfunc_type(lh_OPENSSL_CSTRING_compfunc)
++  ossl_check_OPENSSL_CSTRING_lh_hashfunc_type(lh_OPENSSL_CSTRING_hashfunc)
++  ossl_check_OPENSSL_CSTRING_lh_doallfunc_type(lh_OPENSSL_CSTRING_doallfunc)
++  ossl_check_X509_LOOKUP_type(X509_LOOKUP*)
++  ossl_check_const_X509_LOOKUP_sk_type(structstack_st_X509_LOOKUP*)
++  ossl_check_X509_LOOKUP_sk_type(structstack_st_X509_LOOKUP*)
++  ossl_check_X509_LOOKUP_compfunc_type(sk_X509_LOOKUP_compfunc)
++  ossl_check_X509_LOOKUP_copyfunc_type(sk_X509_LOOKUP_copyfunc)
++  ossl_check_X509_LOOKUP_freefunc_type(sk_X509_LOOKUP_freefunc)
++  ossl_check_X509_OBJECT_type(X509_OBJECT*)
++  ossl_check_const_X509_OBJECT_sk_type(structstack_st_X509_OBJECT*)
++  ossl_check_X509_OBJECT_sk_type(structstack_st_X509_OBJECT*)
++  ossl_check_X509_OBJECT_compfunc_type(sk_X509_OBJECT_compfunc)
++  ossl_check_X509_OBJECT_copyfunc_type(sk_X509_OBJECT_copyfunc)
++  ossl_check_X509_OBJECT_freefunc_type(sk_X509_OBJECT_freefunc)
++  ossl_check_X509_VERIFY_PARAM_type(X509_VERIFY_PARAM*)
++  ossl_check_const_X509_VERIFY_PARAM_sk_type(structstack_st_X509_VERIFY_PARAM*)
++  ossl_check_X509_VERIFY_PARAM_sk_type(structstack_st_X509_VERIFY_PARAM*)
++  ossl_check_X509_VERIFY_PARAM_compfunc_type(sk_X509_VERIFY_PARAM_compfunc)
++  ossl_check_X509_VERIFY_PARAM_copyfunc_type(sk_X509_VERIFY_PARAM_copyfunc)
++  ossl_check_X509_VERIFY_PARAM_freefunc_type(sk_X509_VERIFY_PARAM_freefunc)
++  ossl_check_PKCS7_SIGNER_INFO_type(PKCS7_SIGNER_INFO*)
++  ossl_check_const_PKCS7_SIGNER_INFO_sk_type(structstack_st_PKCS7_SIGNER_INFO*)
++  ossl_check_PKCS7_SIGNER_INFO_sk_type(structstack_st_PKCS7_SIGNER_INFO*)
++  ossl_check_PKCS7_SIGNER_INFO_compfunc_type(sk_PKCS7_SIGNER_INFO_compfunc)
++  ossl_check_PKCS7_SIGNER_INFO_copyfunc_type(sk_PKCS7_SIGNER_INFO_copyfunc)
++  ossl_check_PKCS7_SIGNER_INFO_freefunc_type(sk_PKCS7_SIGNER_INFO_freefunc)
++  ossl_check_PKCS7_RECIP_INFO_type(PKCS7_RECIP_INFO*)
++  ossl_check_const_PKCS7_RECIP_INFO_sk_type(structstack_st_PKCS7_RECIP_INFO*)
++  ossl_check_PKCS7_RECIP_INFO_sk_type(structstack_st_PKCS7_RECIP_INFO*)
++  ossl_check_PKCS7_RECIP_INFO_compfunc_type(sk_PKCS7_RECIP_INFO_compfunc)
++  ossl_check_PKCS7_RECIP_INFO_copyfunc_type(sk_PKCS7_RECIP_INFO_copyfunc)
++  ossl_check_PKCS7_RECIP_INFO_freefunc_type(sk_PKCS7_RECIP_INFO_freefunc)
++  ossl_check_PKCS7_type(PKCS7*)
++  ossl_check_const_PKCS7_sk_type(structstack_st_PKCS7*)
++  ossl_check_PKCS7_sk_type(structstack_st_PKCS7*)
++  ossl_check_PKCS7_compfunc_type(sk_PKCS7_compfunc)
++  ossl_check_PKCS7_copyfunc_type(sk_PKCS7_copyfunc)
++  ossl_check_PKCS7_freefunc_type(sk_PKCS7_freefunc)
++  ossl_check_CONF_VALUE_type(CONF_VALUE*)
++  ossl_check_const_CONF_VALUE_sk_type(structstack_st_CONF_VALUE*)
++  ossl_check_CONF_VALUE_sk_type(structstack_st_CONF_VALUE*)
++  ossl_check_CONF_VALUE_compfunc_type(sk_CONF_VALUE_compfunc)
++  ossl_check_CONF_VALUE_copyfunc_type(sk_CONF_VALUE_copyfunc)
++  ossl_check_CONF_VALUE_freefunc_type(sk_CONF_VALUE_freefunc)
++  ossl_check_CONF_VALUE_lh_plain_type(CONF_VALUE*)
++  ossl_check_const_CONF_VALUE_lh_plain_type(CONF_VALUE*)
++  ossl_check_const_CONF_VALUE_lh_type(structlhash_st_CONF_VALUE*)
++  ossl_check_CONF_VALUE_lh_type(structlhash_st_CONF_VALUE*)
++  ossl_check_CONF_VALUE_lh_compfunc_type(lh_CONF_VALUE_compfunc)
++  ossl_check_CONF_VALUE_lh_hashfunc_type(lh_CONF_VALUE_hashfunc)
++  ossl_check_CONF_VALUE_lh_doallfunc_type(lh_CONF_VALUE_doallfunc)
++  sk_OPENSSL_PSTRING_num(structstack_st_OPENSSL_PSTRING*)
++  sk_OPENSSL_PSTRING_value(structstack_st_OPENSSL_PSTRING*;int)
++  sk_OPENSSL_PSTRING_new(sk_OPENSSL_PSTRING_compfunc)
++  sk_OPENSSL_PSTRING_new_null(void)
++  sk_OPENSSL_PSTRING_new_reserve(sk_OPENSSL_PSTRING_compfunc;int)
++  sk_OPENSSL_PSTRING_reserve(structstack_st_OPENSSL_PSTRING*;int)
++  sk_OPENSSL_PSTRING_free(structstack_st_OPENSSL_PSTRING*)
++  sk_OPENSSL_PSTRING_zero(structstack_st_OPENSSL_PSTRING*)
++  sk_OPENSSL_PSTRING_delete(structstack_st_OPENSSL_PSTRING*;int)
++  sk_OPENSSL_PSTRING_delete_ptr(structstack_st_OPENSSL_PSTRING*;OPENSSL_STRING*)
++  sk_OPENSSL_PSTRING_push(structstack_st_OPENSSL_PSTRING*;OPENSSL_STRING*)
++  sk_OPENSSL_PSTRING_unshift(structstack_st_OPENSSL_PSTRING*;OPENSSL_STRING*)
++  sk_OPENSSL_PSTRING_pop(structstack_st_OPENSSL_PSTRING*)
++  sk_OPENSSL_PSTRING_shift(structstack_st_OPENSSL_PSTRING*)
++  sk_OPENSSL_PSTRING_pop_free(structstack_st_OPENSSL_PSTRING*;sk_OPENSSL_PSTRING_freefunc)
++  sk_OPENSSL_PSTRING_insert(structstack_st_OPENSSL_PSTRING*;OPENSSL_STRING*;int)
++  sk_OPENSSL_PSTRING_set(structstack_st_OPENSSL_PSTRING*;int;OPENSSL_STRING*)
++  sk_OPENSSL_PSTRING_find(structstack_st_OPENSSL_PSTRING*;OPENSSL_STRING*)
++  sk_OPENSSL_PSTRING_find_ex(structstack_st_OPENSSL_PSTRING*;OPENSSL_STRING*)
++  sk_OPENSSL_PSTRING_sort(structstack_st_OPENSSL_PSTRING*)
++  sk_OPENSSL_PSTRING_is_sorted(structstack_st_OPENSSL_PSTRING*)
++  sk_OPENSSL_PSTRING_dup(structstack_st_OPENSSL_PSTRING*)
++  sk_OPENSSL_PSTRING_deep_copy(structstack_st_OPENSSL_PSTRING*;sk_OPENSSL_PSTRING_copyfunc;sk_OPENSSL_PSTRING_freefunc)
++  sk_OPENSSL_PSTRING_set_cmp_func(structstack_st_OPENSSL_PSTRING*;sk_OPENSSL_PSTRING_compfunc)
++  ossl_check_UI_STRING_type(UI_STRING*)
++  ossl_check_const_UI_STRING_sk_type(structstack_st_UI_STRING*)
++  ossl_check_UI_STRING_sk_type(structstack_st_UI_STRING*)
++  ossl_check_UI_STRING_compfunc_type(sk_UI_STRING_compfunc)
++  ossl_check_UI_STRING_copyfunc_type(sk_UI_STRING_copyfunc)
++  ossl_check_UI_STRING_freefunc_type(sk_UI_STRING_freefunc)
++  ERR_GET_LIB(unsignedlong)
++  ERR_GET_FUNC(unsignedlong)
++  ERR_GET_RFLAGS(unsignedlong)
++  ERR_GET_REASON(unsignedlong)
++  ERR_FATAL_ERROR(unsignedlong)
++  ERR_COMMON_ERROR(unsignedlong)
++  ossl_check_ERR_STRING_DATA_lh_plain_type(ERR_STRING_DATA*)
++  ossl_check_const_ERR_STRING_DATA_lh_plain_type(ERR_STRING_DATA*)
++  ossl_check_const_ERR_STRING_DATA_lh_type(structlhash_st_ERR_STRING_DATA*)
++  ossl_check_ERR_STRING_DATA_lh_type(structlhash_st_ERR_STRING_DATA*)
++  ossl_check_ERR_STRING_DATA_lh_compfunc_type(lh_ERR_STRING_DATA_compfunc)
++  ossl_check_ERR_STRING_DATA_lh_hashfunc_type(lh_ERR_STRING_DATA_hashfunc)
++  ossl_check_ERR_STRING_DATA_lh_doallfunc_type(lh_ERR_STRING_DATA_doallfunc)
++  ossl_check_X509V3_EXT_METHOD_type(X509V3_EXT_METHOD*)
++  ossl_check_const_X509V3_EXT_METHOD_sk_type(structstack_st_X509V3_EXT_METHOD*)
++  ossl_check_X509V3_EXT_METHOD_sk_type(structstack_st_X509V3_EXT_METHOD*)
++  ossl_check_X509V3_EXT_METHOD_compfunc_type(sk_X509V3_EXT_METHOD_compfunc)
++  ossl_check_X509V3_EXT_METHOD_copyfunc_type(sk_X509V3_EXT_METHOD_copyfunc)
++  ossl_check_X509V3_EXT_METHOD_freefunc_type(sk_X509V3_EXT_METHOD_freefunc)
++  ossl_check_ACCESS_DESCRIPTION_type(ACCESS_DESCRIPTION*)
++  ossl_check_const_ACCESS_DESCRIPTION_sk_type(structstack_st_ACCESS_DESCRIPTION*)
++  ossl_check_ACCESS_DESCRIPTION_sk_type(structstack_st_ACCESS_DESCRIPTION*)
++  ossl_check_ACCESS_DESCRIPTION_compfunc_type(sk_ACCESS_DESCRIPTION_compfunc)
++  ossl_check_ACCESS_DESCRIPTION_copyfunc_type(sk_ACCESS_DESCRIPTION_copyfunc)
++  ossl_check_ACCESS_DESCRIPTION_freefunc_type(sk_ACCESS_DESCRIPTION_freefunc)
++  ossl_check_GENERAL_NAME_type(GENERAL_NAME*)
++  ossl_check_const_GENERAL_NAME_sk_type(structstack_st_GENERAL_NAME*)
++  ossl_check_GENERAL_NAME_sk_type(structstack_st_GENERAL_NAME*)
++  ossl_check_GENERAL_NAME_compfunc_type(sk_GENERAL_NAME_compfunc)
++  ossl_check_GENERAL_NAME_copyfunc_type(sk_GENERAL_NAME_copyfunc)
++  ossl_check_GENERAL_NAME_freefunc_type(sk_GENERAL_NAME_freefunc)
++  ossl_check_GENERAL_NAMES_type(GENERAL_NAMES*)
++  ossl_check_const_GENERAL_NAMES_sk_type(structstack_st_GENERAL_NAMES*)
++  ossl_check_GENERAL_NAMES_sk_type(structstack_st_GENERAL_NAMES*)
++  ossl_check_GENERAL_NAMES_compfunc_type(sk_GENERAL_NAMES_compfunc)
++  ossl_check_GENERAL_NAMES_copyfunc_type(sk_GENERAL_NAMES_copyfunc)
++  ossl_check_GENERAL_NAMES_freefunc_type(sk_GENERAL_NAMES_freefunc)
++  ossl_check_DIST_POINT_type(DIST_POINT*)
++  ossl_check_const_DIST_POINT_sk_type(structstack_st_DIST_POINT*)
++  ossl_check_DIST_POINT_sk_type(structstack_st_DIST_POINT*)
++  ossl_check_DIST_POINT_compfunc_type(sk_DIST_POINT_compfunc)
++  ossl_check_DIST_POINT_copyfunc_type(sk_DIST_POINT_copyfunc)
++  ossl_check_DIST_POINT_freefunc_type(sk_DIST_POINT_freefunc)
++  ossl_check_SXNETID_type(SXNETID*)
++  ossl_check_const_SXNETID_sk_type(structstack_st_SXNETID*)
++  ossl_check_SXNETID_sk_type(structstack_st_SXNETID*)
++  ossl_check_SXNETID_compfunc_type(sk_SXNETID_compfunc)
++  ossl_check_SXNETID_copyfunc_type(sk_SXNETID_copyfunc)
++  ossl_check_SXNETID_freefunc_type(sk_SXNETID_freefunc)
++  ossl_check_POLICYQUALINFO_type(POLICYQUALINFO*)
++  ossl_check_const_POLICYQUALINFO_sk_type(structstack_st_POLICYQUALINFO*)
++  ossl_check_POLICYQUALINFO_sk_type(structstack_st_POLICYQUALINFO*)
++  ossl_check_POLICYQUALINFO_compfunc_type(sk_POLICYQUALINFO_compfunc)
++  ossl_check_POLICYQUALINFO_copyfunc_type(sk_POLICYQUALINFO_copyfunc)
++  ossl_check_POLICYQUALINFO_freefunc_type(sk_POLICYQUALINFO_freefunc)
++  ossl_check_POLICYINFO_type(POLICYINFO*)
++  ossl_check_const_POLICYINFO_sk_type(structstack_st_POLICYINFO*)
++  ossl_check_POLICYINFO_sk_type(structstack_st_POLICYINFO*)
++  ossl_check_POLICYINFO_compfunc_type(sk_POLICYINFO_compfunc)
++  ossl_check_POLICYINFO_copyfunc_type(sk_POLICYINFO_copyfunc)
++  ossl_check_POLICYINFO_freefunc_type(sk_POLICYINFO_freefunc)
++  ossl_check_POLICY_MAPPING_type(POLICY_MAPPING*)
++  ossl_check_const_POLICY_MAPPING_sk_type(structstack_st_POLICY_MAPPING*)
++  ossl_check_POLICY_MAPPING_sk_type(structstack_st_POLICY_MAPPING*)
++  ossl_check_POLICY_MAPPING_compfunc_type(sk_POLICY_MAPPING_compfunc)
++  ossl_check_POLICY_MAPPING_copyfunc_type(sk_POLICY_MAPPING_copyfunc)
++  ossl_check_POLICY_MAPPING_freefunc_type(sk_POLICY_MAPPING_freefunc)
++  ossl_check_GENERAL_SUBTREE_type(GENERAL_SUBTREE*)
++  ossl_check_const_GENERAL_SUBTREE_sk_type(structstack_st_GENERAL_SUBTREE*)
++  ossl_check_GENERAL_SUBTREE_sk_type(structstack_st_GENERAL_SUBTREE*)
++  ossl_check_GENERAL_SUBTREE_compfunc_type(sk_GENERAL_SUBTREE_compfunc)
++  ossl_check_GENERAL_SUBTREE_copyfunc_type(sk_GENERAL_SUBTREE_copyfunc)
++  ossl_check_GENERAL_SUBTREE_freefunc_type(sk_GENERAL_SUBTREE_freefunc)
++  ossl_check_X509_PURPOSE_type(X509_PURPOSE*)
++  ossl_check_const_X509_PURPOSE_sk_type(structstack_st_X509_PURPOSE*)
++  ossl_check_X509_PURPOSE_sk_type(structstack_st_X509_PURPOSE*)
++  ossl_check_X509_PURPOSE_compfunc_type(sk_X509_PURPOSE_compfunc)
++  ossl_check_X509_PURPOSE_copyfunc_type(sk_X509_PURPOSE_copyfunc)
++  ossl_check_X509_PURPOSE_freefunc_type(sk_X509_PURPOSE_freefunc)
++  ossl_check_X509_POLICY_NODE_type(X509_POLICY_NODE*)
++  ossl_check_const_X509_POLICY_NODE_sk_type(structstack_st_X509_POLICY_NODE*)
++  ossl_check_X509_POLICY_NODE_sk_type(structstack_st_X509_POLICY_NODE*)
++  ossl_check_X509_POLICY_NODE_compfunc_type(sk_X509_POLICY_NODE_compfunc)
++  ossl_check_X509_POLICY_NODE_copyfunc_type(sk_X509_POLICY_NODE_copyfunc)
++  ossl_check_X509_POLICY_NODE_freefunc_type(sk_X509_POLICY_NODE_freefunc)
++  ossl_check_ASIdOrRange_type(ASIdOrRange*)
++  ossl_check_const_ASIdOrRange_sk_type(structstack_st_ASIdOrRange*)
++  ossl_check_ASIdOrRange_sk_type(structstack_st_ASIdOrRange*)
++  ossl_check_ASIdOrRange_compfunc_type(sk_ASIdOrRange_compfunc)
++  ossl_check_ASIdOrRange_copyfunc_type(sk_ASIdOrRange_copyfunc)
++  ossl_check_ASIdOrRange_freefunc_type(sk_ASIdOrRange_freefunc)
++  ossl_check_IPAddressOrRange_type(IPAddressOrRange*)
++  ossl_check_const_IPAddressOrRange_sk_type(structstack_st_IPAddressOrRange*)
++  ossl_check_IPAddressOrRange_sk_type(structstack_st_IPAddressOrRange*)
++  ossl_check_IPAddressOrRange_compfunc_type(sk_IPAddressOrRange_compfunc)
++  ossl_check_IPAddressOrRange_copyfunc_type(sk_IPAddressOrRange_copyfunc)
++  ossl_check_IPAddressOrRange_freefunc_type(sk_IPAddressOrRange_freefunc)
++  ossl_check_IPAddressFamily_type(IPAddressFamily*)
++  ossl_check_const_IPAddressFamily_sk_type(structstack_st_IPAddressFamily*)
++  ossl_check_IPAddressFamily_sk_type(structstack_st_IPAddressFamily*)
++  ossl_check_IPAddressFamily_compfunc_type(sk_IPAddressFamily_compfunc)
++  ossl_check_IPAddressFamily_copyfunc_type(sk_IPAddressFamily_copyfunc)
++  ossl_check_IPAddressFamily_freefunc_type(sk_IPAddressFamily_freefunc)
++  ossl_check_ASN1_STRING_type(ASN1_STRING*)
++  ossl_check_const_ASN1_STRING_sk_type(structstack_st_ASN1_STRING*)
++  ossl_check_ASN1_STRING_sk_type(structstack_st_ASN1_STRING*)
++  ossl_check_ASN1_STRING_compfunc_type(sk_ASN1_STRING_compfunc)
++  ossl_check_ASN1_STRING_copyfunc_type(sk_ASN1_STRING_copyfunc)
++  ossl_check_ASN1_STRING_freefunc_type(sk_ASN1_STRING_freefunc)
++  ossl_check_PROFESSION_INFO_type(PROFESSION_INFO*)
++  ossl_check_const_PROFESSION_INFO_sk_type(structstack_st_PROFESSION_INFO*)
++  ossl_check_PROFESSION_INFO_sk_type(structstack_st_PROFESSION_INFO*)
++  ossl_check_PROFESSION_INFO_compfunc_type(sk_PROFESSION_INFO_compfunc)
++  ossl_check_PROFESSION_INFO_copyfunc_type(sk_PROFESSION_INFO_copyfunc)
++  ossl_check_PROFESSION_INFO_freefunc_type(sk_PROFESSION_INFO_freefunc)
++  ossl_check_ADMISSIONS_type(ADMISSIONS*)
++  ossl_check_const_ADMISSIONS_sk_type(structstack_st_ADMISSIONS*)
++  ossl_check_ADMISSIONS_sk_type(structstack_st_ADMISSIONS*)
++  ossl_check_ADMISSIONS_compfunc_type(sk_ADMISSIONS_compfunc)
++  ossl_check_ADMISSIONS_copyfunc_type(sk_ADMISSIONS_copyfunc)
++  ossl_check_ADMISSIONS_freefunc_type(sk_ADMISSIONS_freefunc)
++  ossl_check_OCSP_CERTID_type(OCSP_CERTID*)
++  ossl_check_const_OCSP_CERTID_sk_type(structstack_st_OCSP_CERTID*)
++  ossl_check_OCSP_CERTID_sk_type(structstack_st_OCSP_CERTID*)
++  ossl_check_OCSP_CERTID_compfunc_type(sk_OCSP_CERTID_compfunc)
++  ossl_check_OCSP_CERTID_copyfunc_type(sk_OCSP_CERTID_copyfunc)
++  ossl_check_OCSP_CERTID_freefunc_type(sk_OCSP_CERTID_freefunc)
++  ossl_check_OCSP_ONEREQ_type(OCSP_ONEREQ*)
++  ossl_check_const_OCSP_ONEREQ_sk_type(structstack_st_OCSP_ONEREQ*)
++  ossl_check_OCSP_ONEREQ_sk_type(structstack_st_OCSP_ONEREQ*)
++  ossl_check_OCSP_ONEREQ_compfunc_type(sk_OCSP_ONEREQ_compfunc)
++  ossl_check_OCSP_ONEREQ_copyfunc_type(sk_OCSP_ONEREQ_copyfunc)
++  ossl_check_OCSP_ONEREQ_freefunc_type(sk_OCSP_ONEREQ_freefunc)
++  ossl_check_OCSP_RESPID_type(OCSP_RESPID*)
++  ossl_check_const_OCSP_RESPID_sk_type(structstack_st_OCSP_RESPID*)
++  ossl_check_OCSP_RESPID_sk_type(structstack_st_OCSP_RESPID*)
++  ossl_check_OCSP_RESPID_compfunc_type(sk_OCSP_RESPID_compfunc)
++  ossl_check_OCSP_RESPID_copyfunc_type(sk_OCSP_RESPID_copyfunc)
++  ossl_check_OCSP_RESPID_freefunc_type(sk_OCSP_RESPID_freefunc)
++  ossl_check_OCSP_SINGLERESP_type(OCSP_SINGLERESP*)
++  ossl_check_const_OCSP_SINGLERESP_sk_type(structstack_st_OCSP_SINGLERESP*)
++  ossl_check_OCSP_SINGLERESP_sk_type(structstack_st_OCSP_SINGLERESP*)
++  ossl_check_OCSP_SINGLERESP_compfunc_type(sk_OCSP_SINGLERESP_compfunc)
++  ossl_check_OCSP_SINGLERESP_copyfunc_type(sk_OCSP_SINGLERESP_copyfunc)
++  ossl_check_OCSP_SINGLERESP_freefunc_type(sk_OCSP_SINGLERESP_freefunc)
++  lh_FUNCTION_new(unsignedlong;int)
++  lh_FUNCTION_free(structlhash_st_FUNCTION*)
++  lh_FUNCTION_flush(structlhash_st_FUNCTION*)
++  lh_FUNCTION_insert(structlhash_st_FUNCTION*;FUNCTION*)
++  lh_FUNCTION_delete(structlhash_st_FUNCTION*;FUNCTION*)
++  lh_FUNCTION_retrieve(structlhash_st_FUNCTION*;FUNCTION*)
++  lh_FUNCTION_error(structlhash_st_FUNCTION*)
++  lh_FUNCTION_num_items(structlhash_st_FUNCTION*)
++  lh_FUNCTION_node_stats_bio(structlhash_st_FUNCTION*;BIO*)
++  lh_FUNCTION_node_usage_stats_bio(structlhash_st_FUNCTION*;BIO*)
++  lh_FUNCTION_stats_bio(structlhash_st_FUNCTION*;BIO*)
++  lh_FUNCTION_get_down_load(structlhash_st_FUNCTION*)
++  lh_FUNCTION_set_down_load(structlhash_st_FUNCTION*;unsignedlong)
++  lh_FUNCTION_doall(structlhash_st_FUNCTION*;void)
++  calculate_columns(FUNCTION*;DISPLAY_COLUMNS*)
+} 
+@enduml
