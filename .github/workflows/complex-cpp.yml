@@ -28,7 +28,7 @@ jobs:
     - name: Maven and co qcrgoalfileclonecpp
       run: mvn -U qcr:qcrgoalfileclonecpp
     - name: Maven and co compile
-      run: mvn qcr:qcrgoalcompile
+      run: mvn -Dsonar.debugskipxsl=true qcr:qcrgoalcompile
     - name: Maven and co mvn qcr:qcrgoalfilecopycpp
       run: mvn qcr:qcrgoalfilecopycpp
     - name: Maven and co mvn clean
