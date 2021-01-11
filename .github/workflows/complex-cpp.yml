@@ -47,12 +47,16 @@ jobs:
       run: more crypto/ocsp/v3_ocsp.c
     - name: Maven and co make
       run: make
+    - name: ls -l
+      run: ls -l
+    - name: ls -l apps
+      run: ls -l apps
     - name: make test
       # run: make test 2> ./make_test_err.log
       # V=1 : mode verbose
       run: make V=1 test 2>> ./make_test_err.log
-    - name: ls -l *.log
-      run: ls -l *.log
+    - name: ls -l
+      run: ls -l
     - name: Maven and co sort
       run: sort -u -o make_test_err_sort.log make_test_err.log
     - name: ls
