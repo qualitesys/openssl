@@ -2,846 +2,12 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/s3_enc.c.html" 
- , "texte" : "File ssl/s3_enc.c 52 rule violations " 
+ , "texte" : "File ssl/s3_enc.c 62 rule violations " 
  , "fic2"  : "./qc/ssl/s3_enc.c.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy._IO_marker"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy._IO_FILE"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.timeval"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.timespec"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.__pthread_rwlock_arch_t"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.__pthread_internal_list"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.__pthread_mutex_s"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.__pthread_cond_s"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pthread_attr_t"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.random_data"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.drand48_data"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.tm"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.itimerspec"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.__locale_struct"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.crypto_ex_data_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.crypto_threadid_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.sched_param"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy._pthread_cleanup_buffer"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.__pthread_cleanup_frame"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.timezone"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.itimerval"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.buf_mem_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.BIO_sock_info_u"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.asn1_string_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ASN1_ENCODING_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.asn1_string_table_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.asn1_type_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.BIT_STRING_BITNAME_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.lhash_st_OPENSSL_STRING"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.lh_OPENSSL_STRING_dummy"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.lhash_st_OPENSSL_CSTRING"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.lh_OPENSSL_CSTRING_dummy"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.err_state_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ERR_string_data_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.lhash_st_ERR_STRING_DATA"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.lh_ERR_STRING_DATA_dummy"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ossl_dispatch_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ossl_item_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ossl_algorithm_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ossl_param_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.obj_name_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.evp_cipher_info_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.rsa_pss_params_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.rsa_oaep_params_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.SHAstate_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.SHA256state_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.SHA512state_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.X509_algor_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.X509_val_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.x509_trust_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.private_key_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.X509_info_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.Netscape_spkac_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.Netscape_spki_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.Netscape_certificate_sequence"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.PBEPARAM_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.PBE2PARAM_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.PBKDF2PARAM_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.SCRYPT_PARAMS_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.PKCS7_CTX_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_issuer_and_serial_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_signer_info_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_recip_info_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_signed_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_enc_content_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_enveloped_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_signedandenveloped_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_digest_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_encrypted_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.srtp_protection_profile_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.tls_session_ticket_ext_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ssl3_buffer_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ssl3_record_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.dtls1_bitmap_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.record_pqueue_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.dtls1_record_data_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.dtls_record_layer_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.record_layer_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ssl_mac_buf_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ossl_statem_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.wpacket_sub"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.wpacket_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.danetls_record_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.dane_ctx_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ssl_dane_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.bio_method_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ssl_cipher_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ssl_method_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ssl_session_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.srp_ctx_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ssl_comp_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.raw_extension_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.lhash_st_SSL_SESSION"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.lh_SSL_SESSION_dummy"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.lhash_st_X509_NAME"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.lh_X509_NAME_dummy"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ssl_ctx_ext_secure_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ssl_hmac_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.tls_group_info_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ssl_ctx_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ssl_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.sigalg_lookup_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.dtls1_retransmit_state"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.hm_header_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.dtls1_timeout_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.hm_fragment_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pitem_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.dtls1_state_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.cert_pkey_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.cert_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ssl3_enc_method"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ssl3_comp_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.openssl_ssl_test_functions"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.MD5state_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.lhash_st_MEM"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.lh_MEM_dummy"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ex_callback_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ex_callbacks_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ossl_ex_data_global_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ossl_lib_ctx_method"
-}} 
 ]
 , 
 "data02" : [
@@ -3882,10 +3048,6 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/ssl/s3_enc.c.png" 
-
- , "ligneplantuml" : "./qc/ssl/s3_enc.c.svg" }
-
 ] 
 , 
 "data04" : [
@@ -3918,10 +3080,24 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "7"
+}}
+,
+{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000007"
  , "c3" : "goto statement"
  , "c4" : "18"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -4060,73 +3236,101 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12771"
- , "c1link" : "./qc/ssl/s3_enc.c.html#12771"
+   "c1" : "12775"
+ , "c1link" : "./qc/ssl/s3_enc.c.html#12775"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12771] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12775] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13847"
- , "c1link" : "./qc/ssl/s3_enc.c.html#13847"
+   "c1" : "13851"
+ , "c1link" : "./qc/ssl/s3_enc.c.html#13851"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13847] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13851] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13849"
- , "c1link" : "./qc/ssl/s3_enc.c.html#13849"
+   "c1" : "13853"
+ , "c1link" : "./qc/ssl/s3_enc.c.html#13853"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13849] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13853] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15250"
- , "c1link" : "./qc/ssl/s3_enc.c.html#15250"
+   "c1" : "14947"
+ , "c1link" : "./qc/ssl/s3_enc.c.html#14947"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15250] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[14947] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15272"
- , "c1link" : "./qc/ssl/s3_enc.c.html#15272"
+   "c1" : "14988"
+ , "c1link" : "./qc/ssl/s3_enc.c.html#14988"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15272] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[14988] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15291"
- , "c1link" : "./qc/ssl/s3_enc.c.html#15291"
+   "c1" : "15030"
+ , "c1link" : "./qc/ssl/s3_enc.c.html#15030"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15291] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[15030] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15314"
- , "c1link" : "./qc/ssl/s3_enc.c.html#15314"
+   "c1" : "15065"
+ , "c1link" : "./qc/ssl/s3_enc.c.html#15065"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15314] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[15065] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15334"
- , "c1link" : "./qc/ssl/s3_enc.c.html#15334"
+   "c1" : "15249"
+ , "c1link" : "./qc/ssl/s3_enc.c.html#15249"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15334] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15249] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15514"
- , "c1link" : "./qc/ssl/s3_enc.c.html#15514"
+   "c1" : "15271"
+ , "c1link" : "./qc/ssl/s3_enc.c.html#15271"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15514] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15271] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17773"
- , "c1link" : "./qc/ssl/s3_enc.c.html#17773"
+   "c1" : "15290"
+ , "c1link" : "./qc/ssl/s3_enc.c.html#15290"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17773] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15290] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15313"
+ , "c1link" : "./qc/ssl/s3_enc.c.html#15313"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15313] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15333"
+ , "c1link" : "./qc/ssl/s3_enc.c.html#15333"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15333] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15513"
+ , "c1link" : "./qc/ssl/s3_enc.c.html#15513"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15513] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17772"
+ , "c1link" : "./qc/ssl/s3_enc.c.html#17772"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[17772] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -4193,6 +3397,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "18107"
+ , "c1link" : "./qc/ssl/s3_enc.c.html#18107"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[18107] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
    "c1" : "18117"
  , "c1link" : "./qc/ssl/s3_enc.c.html#18117"
  , "c2" : "MAJOR"
@@ -4214,6 +3425,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "18183"
+ , "c1link" : "./qc/ssl/s3_enc.c.html#18183"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[18183] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
    "c1" : "18193"
  , "c1link" : "./qc/ssl/s3_enc.c.html#18193"
  , "c2" : "MAJOR"
@@ -4232,6 +3450,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/s3_enc.c.html#18244"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[18244] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18252"
+ , "c1link" : "./qc/ssl/s3_enc.c.html#18252"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[18252] The expression reuse_dd applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -4270,24 +3495,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18654"
- , "c1link" : "./qc/ssl/s3_enc.c.html#18654"
+   "c1" : "18373"
+ , "c1link" : "./qc/ssl/s3_enc.c.html#18373"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18654] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[18373] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18665"
- , "c1link" : "./qc/ssl/s3_enc.c.html#18665"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18665] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18702"
- , "c1link" : "./qc/ssl/s3_enc.c.html#18702"
+   "c1" : "18504"
+ , "c1link" : "./qc/ssl/s3_enc.c.html#18504"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18702] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[18504] The expression  ! ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "18651"
+ , "c1link" : "./qc/ssl/s3_enc.c.html#18651"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18651] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18662"
+ , "c1link" : "./qc/ssl/s3_enc.c.html#18662"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18662] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18699"
+ , "c1link" : "./qc/ssl/s3_enc.c.html#18699"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[18699] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18765"
+ , "c1link" : "./qc/ssl/s3_enc.c.html#18765"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[18765] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

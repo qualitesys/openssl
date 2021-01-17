@@ -2,1226 +2,12 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/pkcs8.c.html" 
- , "texte" : "File apps/pkcs8.c 58 rule violations " 
+ , "texte" : "File apps/pkcs8.c 71 rule violations " 
  , "fic2"  : "./qc/apps/pkcs8.c.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy._IO_marker"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy._IO_FILE"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.timeval"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.timespec"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.__pthread_rwlock_arch_t"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.__pthread_internal_list"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.__pthread_mutex_s"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.__pthread_cond_s"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pthread_attr_t"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.random_data"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.drand48_data"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.__locale_struct"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.tm"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.itimerspec"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.crypto_ex_data_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.crypto_threadid_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.sched_param"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy._pthread_cleanup_buffer"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.__pthread_cleanup_frame"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.timezone"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.itimerval"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.sigval"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.sigevent"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.sigaction"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy._fpx_sw_bytes"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy._fpreg"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy._fpxreg"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy._xmmreg"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy._fpstate"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.sigcontext"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy._xsave_hdr"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy._ymmh_state"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy._xstate"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy._libc_fpxreg"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy._libc_xmmreg"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy._libc_fpstate"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ucontext_t"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.sigstack"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.iovec"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.sockaddr"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.sockaddr_storage"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.msghdr"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.cmsghdr"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.linger"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.osockaddr"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.in_addr"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ip_opts"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ip_mreqn"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.in_pktinfo"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.in6_addr"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.sockaddr_in"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.sockaddr_in6"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ip_mreq"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ip_mreq_source"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ipv6_mreq"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.group_req"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.group_source_req"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ip_msfilter"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.group_filter"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.rpcent"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.netent"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.hostent"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.servent"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.protoent"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.addrinfo"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.sockaddr_un"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.tcphdr"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.tcp_info"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.tcp_md5sig"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.tcp_repair_opt"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.tcp_cookie_transactions"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.tcp_repair_window"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.winsize"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.termio"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.stat"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.flock"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.BIO_sock_info_u"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.buf_mem_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ossl_dispatch_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ossl_item_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ossl_algorithm_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ossl_param_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.asn1_string_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ASN1_ENCODING_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.asn1_string_table_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.asn1_type_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.BIT_STRING_BITNAME_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.obj_name_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.evp_cipher_info_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.rsa_pss_params_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.rsa_oaep_params_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.SHAstate_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.SHA256state_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.SHA512state_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.X509_algor_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.X509_val_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.x509_trust_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.private_key_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.X509_info_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.Netscape_spkac_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.Netscape_spki_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.Netscape_certificate_sequence"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.PBEPARAM_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.PBE2PARAM_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.PBKDF2PARAM_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.SCRYPT_PARAMS_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.lhash_st_OPENSSL_STRING"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.lh_OPENSSL_STRING_dummy"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.lhash_st_OPENSSL_CSTRING"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.lh_OPENSSL_CSTRING_dummy"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.PKCS7_CTX_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_issuer_and_serial_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_signer_info_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_recip_info_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_signed_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_enc_content_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_enveloped_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_signedandenveloped_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_digest_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_encrypted_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.lhash_st_CONF_VALUE"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.lh_CONF_VALUE_dummy"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.conf_method_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.conf_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.txt_db_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.rand_meth_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.err_state_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ERR_string_data_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.lhash_st_ERR_STRING_DATA"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.lh_ERR_STRING_DATA_dummy"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ENGINE_CMD_DEFN_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.st_dynamic_MEM_fns"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.st_dynamic_fns"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.v3_ext_method"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.X509V3_CONF_METHOD_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.v3_ext_ctx"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.BASIC_CONSTRAINTS_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.PKEY_USAGE_PERIOD_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.otherName_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.EDIPartyName_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.GENERAL_NAME_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ACCESS_DESCRIPTION_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.DIST_POINT_NAME_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.DIST_POINT_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.AUTHORITY_KEYID_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.SXNET_ID_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.SXNET_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ISSUER_SIGN_TOOL_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.NOTICEREF_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.USERNOTICE_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.POLICYQUALINFO_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.POLICYINFO_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.POLICY_MAPPING_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.GENERAL_SUBTREE_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.NAME_CONSTRAINTS_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.POLICY_CONSTRAINTS_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.PROXY_POLICY_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.PROXY_CERT_INFO_EXTENSION_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ISSUING_DIST_POINT_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.x509_purpose_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ASRange_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ASIdOrRange_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ASIdentifierChoice_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ASIdentifiers_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.IPAddressRange_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.IPAddressOrRange_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.IPAddressChoice_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.IPAddressFamily_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pw_cb_data"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.options_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.string_int_pair_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.args_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.db_attr_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ca_db_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.app_http_tls_info_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.verify_options_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.function_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.lhash_st_FUNCTION"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.lh_FUNCTION_dummy"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
 ]
 , 
 "data02" : [
@@ -4479,10 +3265,6 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/apps/pkcs8.c.png" 
-
- , "ligneplantuml" : "./qc/apps/pkcs8.c.svg" }
-
 ] 
 , 
 "data04" : [
@@ -4515,10 +3297,38 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "7"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000012"
+ , "c3" : "The condition expression is invariable, always true or false"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000007"
  , "c3" : "goto statement"
  , "c4" : "34"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000010"
+ , "c3" : "A switch clause refers to a jump label"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -4657,94 +3467,101 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17329"
- , "c1link" : "./qc/apps/pkcs8.c.html#17329"
+   "c1" : "17343"
+ , "c1link" : "./qc/apps/pkcs8.c.html#17343"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17329] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17343] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17633"
- , "c1link" : "./qc/apps/pkcs8.c.html#17633"
+   "c1" : "17649"
+ , "c1link" : "./qc/apps/pkcs8.c.html#17649"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17633] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17649] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17949"
- , "c1link" : "./qc/apps/pkcs8.c.html#17949"
+   "c1" : "17965"
+ , "c1link" : "./qc/apps/pkcs8.c.html#17965"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17949] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17965] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17982"
- , "c1link" : "./qc/apps/pkcs8.c.html#17982"
+   "c1" : "17998"
+ , "c1link" : "./qc/apps/pkcs8.c.html#17998"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17982] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17998] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17985"
- , "c1link" : "./qc/apps/pkcs8.c.html#17985"
+   "c1" : "18001"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18001"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17985] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18001] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18164"
- , "c1link" : "./qc/apps/pkcs8.c.html#18164"
+   "c1" : "18174"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18174"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18164] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18168"
- , "c1link" : "./qc/apps/pkcs8.c.html#18168"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18168] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18171"
- , "c1link" : "./qc/apps/pkcs8.c.html#18171"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18171] goto statement jump to opthelp"
+ , "c3" : "QC-CPPCWE481[18174] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "18178"
  , "c1link" : "./qc/apps/pkcs8.c.html#18178"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18178] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000010[18178] The switch case refers to the jump label opthelp"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18180"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18180"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18180] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18184"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18184"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18184] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18187"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18187"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18187] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
    "c1" : "18194"
  , "c1link" : "./qc/apps/pkcs8.c.html#18194"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18194] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18194] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18198"
- , "c1link" : "./qc/apps/pkcs8.c.html#18198"
+   "c1" : "18210"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18210"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18198] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18210] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18205"
- , "c1link" : "./qc/apps/pkcs8.c.html#18205"
+   "c1" : "18214"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18214"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18205] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18214] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18212"
- , "c1link" : "./qc/apps/pkcs8.c.html#18212"
+   "c1" : "18221"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18221"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18212] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18221] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
@@ -4755,45 +3572,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18239"
- , "c1link" : "./qc/apps/pkcs8.c.html#18239"
+   "c1" : "18244"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18244"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18239] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18244] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18264"
- , "c1link" : "./qc/apps/pkcs8.c.html#18264"
+   "c1" : "18255"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18255"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18264] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18255] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18268"
- , "c1link" : "./qc/apps/pkcs8.c.html#18268"
+   "c1" : "18280"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18280"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18268] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18280] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18272"
- , "c1link" : "./qc/apps/pkcs8.c.html#18272"
+   "c1" : "18284"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18284"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18272] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18284] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18281"
- , "c1link" : "./qc/apps/pkcs8.c.html#18281"
+   "c1" : "18288"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18288"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18281] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18288] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18287"
- , "c1link" : "./qc/apps/pkcs8.c.html#18287"
+   "c1" : "18297"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18297"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18287] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18297] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
@@ -4804,13 +3621,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18310"
- , "c1link" : "./qc/apps/pkcs8.c.html#18310"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18310] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
    "c1" : "18319"
  , "c1link" : "./qc/apps/pkcs8.c.html#18319"
  , "c2" : "MAJOR"
@@ -4818,38 +3628,80 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18327"
- , "c1link" : "./qc/apps/pkcs8.c.html#18327"
+   "c1" : "18326"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18326"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18327] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18326] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18341"
- , "c1link" : "./qc/apps/pkcs8.c.html#18341"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18341] goto statement jump to end"
+   "c1" : "18328"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18328"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[18328] The expression topk8 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18384"
- , "c1link" : "./qc/apps/pkcs8.c.html#18384"
+   "c1" : "18335"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18335"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18384] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18335] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18399"
- , "c1link" : "./qc/apps/pkcs8.c.html#18399"
+   "c1" : "18336"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18336"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18399] goto statement jump to end"
+ , "c3" : "QC-CPPCWE481[18336] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18404"
- , "c1link" : "./qc/apps/pkcs8.c.html#18404"
+   "c1" : "18343"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18343"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18404] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18343] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18345"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18345"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[18345] The expression nocrypt applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "18357"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18357"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18357] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18361"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18361"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[18361] The expression cipher applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "18400"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18400"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18400] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18408"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18408"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[18408] The expression 1 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "18408"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18408"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[18408] The expression 1 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
@@ -4860,73 +3712,122 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18428"
- , "c1link" : "./qc/apps/pkcs8.c.html#18428"
+   "c1" : "18420"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18420"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18428] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18420] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18433"
- , "c1link" : "./qc/apps/pkcs8.c.html#18433"
+   "c1" : "18431"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18431"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18433] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18431] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18459"
- , "c1link" : "./qc/apps/pkcs8.c.html#18459"
+   "c1" : "18444"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18444"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18459] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18444] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18484"
- , "c1link" : "./qc/apps/pkcs8.c.html#18484"
+   "c1" : "18449"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18449"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18484] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18449] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18494"
- , "c1link" : "./qc/apps/pkcs8.c.html#18494"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18494] goto statement jump to end"
+   "c1" : "18452"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18452"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[18452] The expression nocrypt applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18507"
- , "c1link" : "./qc/apps/pkcs8.c.html#18507"
+   "c1" : "18475"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18475"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18507] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18475] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18512"
- , "c1link" : "./qc/apps/pkcs8.c.html#18512"
+   "c1" : "18500"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18500"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18512] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18500] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18524"
- , "c1link" : "./qc/apps/pkcs8.c.html#18524"
+   "c1" : "18510"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18510"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18524] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18510] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18534"
- , "c1link" : "./qc/apps/pkcs8.c.html#18534"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18534] goto statement jump to end"
+   "c1" : "18518"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18518"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[18518] The expression 1 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18576"
- , "c1link" : "./qc/apps/pkcs8.c.html#18576"
+   "c1" : "18518"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18518"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[18518] The expression 1 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18523"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18523"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18576] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18523] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18528"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18528"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18528] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18540"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18540"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18540] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18543"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18543"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[18543] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18550"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18550"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18550] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18559"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18559"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[18559] The expression traditional applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "18592"
+ , "c1link" : "./qc/apps/pkcs8.c.html#18592"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18592] goto statement jump to end"
 }} 
 ]
 };

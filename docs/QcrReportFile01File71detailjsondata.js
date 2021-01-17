@@ -2,726 +2,12 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/engines/e_afalg.c.html" 
- , "texte" : "File engines/e_afalg.c 38 rule violations " 
+ , "texte" : "File engines/e_afalg.c 71 rule violations " 
  , "fic2"  : "./qc/engines/e_afalg.c.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy._IO_marker"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy._IO_FILE"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.__locale_struct"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.timeval"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.timespec"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.__pthread_rwlock_arch_t"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.__pthread_internal_list"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.__pthread_mutex_s"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.__pthread_cond_s"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pthread_attr_t"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.random_data"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.drand48_data"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.timex"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.tm"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.itimerspec"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.crypto_ex_data_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.crypto_threadid_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.sched_param"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy._pthread_cleanup_buffer"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.__pthread_cleanup_frame"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.BIO_sock_info_u"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.asn1_string_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ASN1_ENCODING_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.asn1_string_table_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.asn1_type_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.BIT_STRING_BITNAME_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.rsa_pss_params_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.rsa_oaep_params_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ossl_dispatch_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ossl_item_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ossl_algorithm_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ossl_param_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.obj_name_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.evp_cipher_info_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.rand_meth_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.buf_mem_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.SHAstate_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.SHA256state_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.SHA512state_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.X509_algor_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.X509_val_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.x509_trust_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.private_key_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.X509_info_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.Netscape_spkac_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.Netscape_spki_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.Netscape_certificate_sequence"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.PBEPARAM_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.PBE2PARAM_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.PBKDF2PARAM_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.SCRYPT_PARAMS_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.lhash_st_OPENSSL_STRING"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.lh_OPENSSL_STRING_dummy"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.lhash_st_OPENSSL_CSTRING"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.lh_OPENSSL_CSTRING_dummy"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.PKCS7_CTX_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_issuer_and_serial_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_signer_info_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_recip_info_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_signed_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_enc_content_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_enveloped_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_signedandenveloped_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_digest_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_encrypted_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.pkcs7_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.err_state_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ERR_string_data_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.lhash_st_ERR_STRING_DATA"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.lh_ERR_STRING_DATA_dummy"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ENGINE_CMD_DEFN_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.st_dynamic_MEM_fns"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.st_dynamic_fns"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.iovec"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.sockaddr"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.sockaddr_storage"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.msghdr"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.cmsghdr"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.ucred"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.linger"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.osockaddr"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.mmsghdr"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy."
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.sockaddr_alg"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.af_alg_iv"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.flock"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.flock64"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.f_owner_ex"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.file_handle"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.stat"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.stat64"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.utsname"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.file_clone_range"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.fstrim_range"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.file_dedupe_range_info"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.file_dedupe_range"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.files_stat_struct"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.inodes_stat_t"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.fsxattr"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.fscrypt_policy"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.fscrypt_key"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.io_event"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.iocb"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.cbc_cipher_handles"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.afalg_aio_st"
-}} 
-,
-{ "ligne" : {
-   "c1" : ""
- , "c2" : "dummy.afalg_ctx_st"
-}} 
 ]
 , 
 "data02" : [
@@ -3132,10 +2418,6 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/engines/e_afalg.c.png" 
-
- , "ligneplantuml" : "./qc/engines/e_afalg.c.svg" }
-
 ] 
 , 
 "data04" : [
@@ -3175,6 +2457,27 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000008"
+ , "c3" : "Suspicious bitwise operation"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "16"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000012"
+ , "c3" : "The condition expression is invariable, always true or false"
+ , "c4" : "12"
+}}
+,
+{ "ligne" : {
    "c1" : "CRITICAL"
  , "c2" : "QC-CPPCWE484"
  , "c3" : "Omitted Break Statement in Switch"
@@ -3186,6 +2489,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000007"
  , "c3" : "goto statement"
  , "c4" : "6"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -3324,115 +2634,318 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "16052"
- , "c1link" : "./qc/engines/e_afalg.c.html#16052"
+   "c1" : "15884"
+ , "c1link" : "./qc/engines/e_afalg.c.html#15884"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16052] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000011[15884] The expression  ! error_loaded applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16099"
- , "c1link" : "./qc/engines/e_afalg.c.html#16099"
+   "c1" : "15895"
+ , "c1link" : "./qc/engines/e_afalg.c.html#15895"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16099] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000011[15895] The expression error_loaded applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16131"
- , "c1link" : "./qc/engines/e_afalg.c.html#16131"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16131] The condition of do while loop is constant, infinite loop risk : 0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16197"
- , "c1link" : "./qc/engines/e_afalg.c.html#16197"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16197] The condition of do while loop is constant, infinite loop risk : 0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16234"
- , "c1link" : "./qc/engines/e_afalg.c.html#16234"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16234] The condition of do while loop is constant, infinite loop risk : 0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16270"
- , "c1link" : "./qc/engines/e_afalg.c.html#16270"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16270] The condition of do while loop is constant, infinite loop risk : 0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16297"
- , "c1link" : "./qc/engines/e_afalg.c.html#16297"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16297] The condition of do while loop is constant, infinite loop risk : 0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16401"
- , "c1link" : "./qc/engines/e_afalg.c.html#16401"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16401] The condition of do while loop is constant, infinite loop risk : 0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16443"
- , "c1link" : "./qc/engines/e_afalg.c.html#16443"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16443] The condition of do while loop is constant, infinite loop risk : 0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16453"
- , "c1link" : "./qc/engines/e_afalg.c.html#16453"
+   "c1" : "16031"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16031"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16453] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[16031] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16458"
- , "c1link" : "./qc/engines/e_afalg.c.html#16458"
+   "c1" : "16056"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16056"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16458] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000006[16056] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16468"
- , "c1link" : "./qc/engines/e_afalg.c.html#16468"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16468] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16477"
- , "c1link" : "./qc/engines/e_afalg.c.html#16477"
+   "c1" : "16064"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16064"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16477] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000011[16064] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16487"
- , "c1link" : "./qc/engines/e_afalg.c.html#16487"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16487] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16584"
- , "c1link" : "./qc/engines/e_afalg.c.html#16584"
+   "c1" : "16064"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16064"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16584] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000012[16064] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16674"
- , "c1link" : "./qc/engines/e_afalg.c.html#16674"
+   "c1" : "16103"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16103"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[16103] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16111"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16111"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16111] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16111"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16111"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16111] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16135"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16135"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[16135] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16143"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16143"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16143] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16143"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16143"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16143] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16201"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16201"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[16201] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16209"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16209"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16209] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16209"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16209"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16209] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16238"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16238"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[16238] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16246"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16246"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16246] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16246"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16246"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16246] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16274"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16274"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[16274] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16282"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16282"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16282] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16282"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16282"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16282] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16301"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16301"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[16301] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16309"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16309"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16309] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16309"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16309"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16309] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16316"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16316"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16316] The expression  ! done applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16405"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16405"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[16405] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16413"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16413"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16413] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16413"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16413"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16413] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16426"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16426"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16674] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[16426] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16447"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16447"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[16447] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16455"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16455"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16455] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16455"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16455"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16455] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16457"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16457"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16457] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16462"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16462"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[16462] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16470"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16470"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16470] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16470"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16470"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16470] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16472"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16472"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16472] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16481"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16481"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[16481] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16489"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16489"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16489] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16489"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16489"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16489] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16491"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16491"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16491] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16501"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16501"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[16501] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16588"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16588"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[16588] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16596"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16596"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16596] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16596"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16596"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16596] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
@@ -3443,17 +2956,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "16888"
- , "c1link" : "./qc/engines/e_afalg.c.html#16888"
- , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[16888] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+   "c1" : "16682"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16682"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16682] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16953"
- , "c1link" : "./qc/engines/e_afalg.c.html#16953"
+   "c1" : "16841"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16841"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16953] goto statement jump to skip_cbs"
+ , "c3" : "QC-CPPCWE481[16841] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16852"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16852"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000008[16852] Suspicious bitwise operation with value 0, result is a|0 = a"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16892"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16892"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-CPPCWE484[16892] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16948"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16948"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16948] The expression  ! afalg_chk_platform() applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16957"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16957"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16957] goto statement jump to skip_cbs"
 }} 
 ]
 };
