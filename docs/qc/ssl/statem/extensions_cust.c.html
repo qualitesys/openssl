@@ -5864,8 +5864,8 @@
 <a name="5864">5864&nbsp;&nbsp;&nbsp;__attribute__((deprecated("Since&nbsp;OpenSSL&nbsp;"&nbsp;"3.0")))&nbsp;const&nbsp;unsigned&nbsp;char&nbsp;*EVP_CIPHER_CTX_original_iv(const&nbsp;EVP_CIPHER_CTX&nbsp;*ctx);</a><br/>
 <a name="5865">5865&nbsp;&nbsp;&nbsp;__attribute__((deprecated("Since&nbsp;OpenSSL&nbsp;"&nbsp;"3.0")))&nbsp;unsigned&nbsp;char&nbsp;*EVP_CIPHER_CTX_iv_noconst(EVP_CIPHER_CTX&nbsp;*ctx);</a><br/>
 <a name="5866">5866&nbsp;&nbsp;&nbsp;</a><br/>
-<a name="5867">5867&nbsp;&nbsp;&nbsp;int&nbsp;EVP_CIPHER_CTX_get_iv_state(EVP_CIPHER_CTX&nbsp;*ctx,&nbsp;void&nbsp;*buf,&nbsp;size_t&nbsp;len);</a><br/>
-<a name="5868">5868&nbsp;&nbsp;&nbsp;int&nbsp;EVP_CIPHER_CTX_get_iv(EVP_CIPHER_CTX&nbsp;*ctx,&nbsp;void&nbsp;*buf,&nbsp;size_t&nbsp;len);</a><br/>
+<a name="5867">5867&nbsp;&nbsp;&nbsp;int&nbsp;EVP_CIPHER_CTX_get_updated_iv(EVP_CIPHER_CTX&nbsp;*ctx,&nbsp;void&nbsp;*buf,&nbsp;size_t&nbsp;len);</a><br/>
+<a name="5868">5868&nbsp;&nbsp;&nbsp;int&nbsp;EVP_CIPHER_CTX_get_original_iv(EVP_CIPHER_CTX&nbsp;*ctx,&nbsp;void&nbsp;*buf,&nbsp;size_t&nbsp;len);</a><br/>
 <a name="5869">5869&nbsp;&nbsp;&nbsp;unsigned&nbsp;char&nbsp;*EVP_CIPHER_CTX_buf_noconst(EVP_CIPHER_CTX&nbsp;*ctx);</a><br/>
 <a name="5870">5870&nbsp;&nbsp;&nbsp;int&nbsp;EVP_CIPHER_CTX_num(const&nbsp;EVP_CIPHER_CTX&nbsp;*ctx);</a><br/>
 <a name="5871">5871&nbsp;&nbsp;&nbsp;int&nbsp;EVP_CIPHER_CTX_set_num(EVP_CIPHER_CTX&nbsp;*ctx,&nbsp;int&nbsp;num);</a><br/>
@@ -17915,7 +17915,7 @@
 <a name="17915">17915&nbsp;&nbsp;&nbsp;}</a><br/>
 <a name="17916">17916&nbsp;&nbsp;&nbsp;#&nbsp;15&nbsp;"ssl/statem/extensions_cust.c"&nbsp;2</a><br/>
 <a name="17917">17917&nbsp;&nbsp;&nbsp;#&nbsp;1&nbsp;"ssl/statem/statem_local.h"&nbsp;1</a><br/>
-<a name="17918">17918&nbsp;&nbsp;&nbsp;#&nbsp;35&nbsp;"ssl/statem/statem_local.h"</a><br/>
+<a name="17918">17918&nbsp;&nbsp;&nbsp;#&nbsp;38&nbsp;"ssl/statem/statem_local.h"</a><br/>
 <a name="17919">17919&nbsp;&nbsp;&nbsp;extern&nbsp;const&nbsp;unsigned&nbsp;char&nbsp;hrrrandom[];</a><br/>
 <a name="17920">17920&nbsp;&nbsp;&nbsp;</a><br/>
 <a name="17921">17921&nbsp;&nbsp;&nbsp;</a><br/>

@@ -6123,8 +6123,8 @@
 <a name="6123">6123&nbsp;&nbsp;&nbsp;__attribute__((deprecated("Since&nbsp;OpenSSL&nbsp;"&nbsp;"3.0")))&nbsp;const&nbsp;unsigned&nbsp;char&nbsp;*EVP_CIPHER_CTX_original_iv(const&nbsp;EVP_CIPHER_CTX&nbsp;*ctx);</a><br/>
 <a name="6124">6124&nbsp;&nbsp;&nbsp;__attribute__((deprecated("Since&nbsp;OpenSSL&nbsp;"&nbsp;"3.0")))&nbsp;unsigned&nbsp;char&nbsp;*EVP_CIPHER_CTX_iv_noconst(EVP_CIPHER_CTX&nbsp;*ctx);</a><br/>
 <a name="6125">6125&nbsp;&nbsp;&nbsp;</a><br/>
-<a name="6126">6126&nbsp;&nbsp;&nbsp;int&nbsp;EVP_CIPHER_CTX_get_iv_state(EVP_CIPHER_CTX&nbsp;*ctx,&nbsp;void&nbsp;*buf,&nbsp;size_t&nbsp;len);</a><br/>
-<a name="6127">6127&nbsp;&nbsp;&nbsp;int&nbsp;EVP_CIPHER_CTX_get_iv(EVP_CIPHER_CTX&nbsp;*ctx,&nbsp;void&nbsp;*buf,&nbsp;size_t&nbsp;len);</a><br/>
+<a name="6126">6126&nbsp;&nbsp;&nbsp;int&nbsp;EVP_CIPHER_CTX_get_updated_iv(EVP_CIPHER_CTX&nbsp;*ctx,&nbsp;void&nbsp;*buf,&nbsp;size_t&nbsp;len);</a><br/>
+<a name="6127">6127&nbsp;&nbsp;&nbsp;int&nbsp;EVP_CIPHER_CTX_get_original_iv(EVP_CIPHER_CTX&nbsp;*ctx,&nbsp;void&nbsp;*buf,&nbsp;size_t&nbsp;len);</a><br/>
 <a name="6128">6128&nbsp;&nbsp;&nbsp;unsigned&nbsp;char&nbsp;*EVP_CIPHER_CTX_buf_noconst(EVP_CIPHER_CTX&nbsp;*ctx);</a><br/>
 <a name="6129">6129&nbsp;&nbsp;&nbsp;int&nbsp;EVP_CIPHER_CTX_num(const&nbsp;EVP_CIPHER_CTX&nbsp;*ctx);</a><br/>
 <a name="6130">6130&nbsp;&nbsp;&nbsp;int&nbsp;EVP_CIPHER_CTX_set_num(EVP_CIPHER_CTX&nbsp;*ctx,&nbsp;int&nbsp;num);</a><br/>
@@ -18984,7 +18984,7 @@
 <a name="18984">18984&nbsp;&nbsp;&nbsp;size_t&nbsp;ssl_hmac_old_size(const&nbsp;SSL_HMAC&nbsp;*ctx);</a><br/>
 <a name="18985">18985&nbsp;&nbsp;&nbsp;#&nbsp;12&nbsp;"ssl/statem/extensions_srvr.c"&nbsp;2</a><br/>
 <a name="18986">18986&nbsp;&nbsp;&nbsp;#&nbsp;1&nbsp;"ssl/statem/statem_local.h"&nbsp;1</a><br/>
-<a name="18987">18987&nbsp;&nbsp;&nbsp;#&nbsp;35&nbsp;"ssl/statem/statem_local.h"</a><br/>
+<a name="18987">18987&nbsp;&nbsp;&nbsp;#&nbsp;38&nbsp;"ssl/statem/statem_local.h"</a><br/>
 <a name="18988">18988&nbsp;&nbsp;&nbsp;extern&nbsp;const&nbsp;unsigned&nbsp;char&nbsp;hrrrandom[];</a><br/>
 <a name="18989">18989&nbsp;&nbsp;&nbsp;</a><br/>
 <a name="18990">18990&nbsp;&nbsp;&nbsp;</a><br/>
