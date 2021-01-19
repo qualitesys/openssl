@@ -3712,24 +3712,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19142"
- , "c1link" : "./qc/apps/openssl.c.html#19142"
+   "c1" : "19141"
+ , "c1link" : "./qc/apps/openssl.c.html#19141"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19142] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[19141] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19448"
- , "c1link" : "./qc/apps/openssl.c.html#19448"
+   "c1" : "19447"
+ , "c1link" : "./qc/apps/openssl.c.html#19447"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19448] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[19447] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19769"
- , "c1link" : "./qc/apps/openssl.c.html#19769"
+   "c1" : "19768"
+ , "c1link" : "./qc/apps/openssl.c.html#19768"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000004[19769] The return statement is missing in the function body of main"
+ , "c3" : "QC-CPP000004[19768] The return statement is missing in the function body of main"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19794"
+ , "c1link" : "./qc/apps/openssl.c.html#19794"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[19794] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -3740,52 +3747,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19796"
- , "c1link" : "./qc/apps/openssl.c.html#19796"
+   "c1" : "19795"
+ , "c1link" : "./qc/apps/openssl.c.html#19795"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19796] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19795] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19796"
- , "c1link" : "./qc/apps/openssl.c.html#19796"
+   "c1" : "19805"
+ , "c1link" : "./qc/apps/openssl.c.html#19805"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19796] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[19805] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19806"
- , "c1link" : "./qc/apps/openssl.c.html#19806"
+   "c1" : "19885"
+ , "c1link" : "./qc/apps/openssl.c.html#19885"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19806] goto statement jump to end"
+ , "c3" : "QC-CPPCWE481[19885] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19886"
- , "c1link" : "./qc/apps/openssl.c.html#19886"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19886] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19930"
- , "c1link" : "./qc/apps/openssl.c.html#19930"
+   "c1" : "19929"
+ , "c1link" : "./qc/apps/openssl.c.html#19929"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19930] The expression  ! nl applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19929] The expression  ! nl applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20042"
- , "c1link" : "./qc/apps/openssl.c.html#20042"
+   "c1" : "20041"
+ , "c1link" : "./qc/apps/openssl.c.html#20041"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20042] The expression prog_inited applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20041] The expression prog_inited applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20056"
- , "c1link" : "./qc/apps/openssl.c.html#20056"
+   "c1" : "20055"
+ , "c1link" : "./qc/apps/openssl.c.html#20055"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20056] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20055] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

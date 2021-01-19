@@ -3418,290 +3418,290 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17343"
- , "c1link" : "./qc/apps/crl.c.html#17343"
+   "c1" : "17342"
+ , "c1link" : "./qc/apps/crl.c.html#17342"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17343] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17342] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17649"
- , "c1link" : "./qc/apps/crl.c.html#17649"
+   "c1" : "17648"
+ , "c1link" : "./qc/apps/crl.c.html#17648"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17649] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17648] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17994"
- , "c1link" : "./qc/apps/crl.c.html#17994"
+   "c1" : "17993"
+ , "c1link" : "./qc/apps/crl.c.html#17993"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17994] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17993] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17998"
- , "c1link" : "./qc/apps/crl.c.html#17998"
+   "c1" : "17997"
+ , "c1link" : "./qc/apps/crl.c.html#17997"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[17998] The switch case refers to the jump label opthelp"
+ , "c3" : "QC-CPP000010[17997] The switch case refers to the jump label opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18000"
- , "c1link" : "./qc/apps/crl.c.html#18000"
+   "c1" : "17999"
+ , "c1link" : "./qc/apps/crl.c.html#17999"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18000] goto statement jump to end"
+ , "c3" : "QC-CPP000007[17999] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18004"
- , "c1link" : "./qc/apps/crl.c.html#18004"
+   "c1" : "18003"
+ , "c1link" : "./qc/apps/crl.c.html#18003"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18004] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18003] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18007"
- , "c1link" : "./qc/apps/crl.c.html#18007"
+   "c1" : "18006"
+ , "c1link" : "./qc/apps/crl.c.html#18006"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18007] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18006] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18014"
- , "c1link" : "./qc/apps/crl.c.html#18014"
+   "c1" : "18013"
+ , "c1link" : "./qc/apps/crl.c.html#18013"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18014] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18013] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18021"
- , "c1link" : "./qc/apps/crl.c.html#18021"
+   "c1" : "18020"
+ , "c1link" : "./qc/apps/crl.c.html#18020"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18021] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18020] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18087"
- , "c1link" : "./qc/apps/crl.c.html#18087"
+   "c1" : "18086"
+ , "c1link" : "./qc/apps/crl.c.html#18086"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18087] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18086] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18091"
- , "c1link" : "./qc/apps/crl.c.html#18091"
+   "c1" : "18090"
+ , "c1link" : "./qc/apps/crl.c.html#18090"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18091] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18090] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18095"
- , "c1link" : "./qc/apps/crl.c.html#18095"
+   "c1" : "18094"
+ , "c1link" : "./qc/apps/crl.c.html#18094"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18095] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18094] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18103"
- , "c1link" : "./qc/apps/crl.c.html#18103"
+   "c1" : "18102"
+ , "c1link" : "./qc/apps/crl.c.html#18102"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18103] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18102] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18111"
- , "c1link" : "./qc/apps/crl.c.html#18111"
+   "c1" : "18110"
+ , "c1link" : "./qc/apps/crl.c.html#18110"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18111] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18110] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18112"
+ , "c1link" : "./qc/apps/crl.c.html#18112"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[18112] The expression do_ver applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "18113"
  , "c1link" : "./qc/apps/crl.c.html#18113"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[18113] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18119"
+ , "c1link" : "./qc/apps/crl.c.html#18119"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18119] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18126"
+ , "c1link" : "./qc/apps/crl.c.html#18126"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18126] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18142"
+ , "c1link" : "./qc/apps/crl.c.html#18142"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18142] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18153"
+ , "c1link" : "./qc/apps/crl.c.html#18153"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18153] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18163"
+ , "c1link" : "./qc/apps/crl.c.html#18163"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18163] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18168"
+ , "c1link" : "./qc/apps/crl.c.html#18168"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18168] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18175"
+ , "c1link" : "./qc/apps/crl.c.html#18175"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18113] The expression do_ver applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18175] The expression crldiff applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18114"
- , "c1link" : "./qc/apps/crl.c.html#18114"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18114] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18120"
- , "c1link" : "./qc/apps/crl.c.html#18120"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18120] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18127"
- , "c1link" : "./qc/apps/crl.c.html#18127"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18127] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18143"
- , "c1link" : "./qc/apps/crl.c.html#18143"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18143] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18154"
- , "c1link" : "./qc/apps/crl.c.html#18154"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18154] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18164"
- , "c1link" : "./qc/apps/crl.c.html#18164"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18164] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18169"
- , "c1link" : "./qc/apps/crl.c.html#18169"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18169] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18176"
- , "c1link" : "./qc/apps/crl.c.html#18176"
+   "c1" : "18177"
+ , "c1link" : "./qc/apps/crl.c.html#18177"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18176] The expression crldiff applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18177] The expression  ! keyfile applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18178"
- , "c1link" : "./qc/apps/crl.c.html#18178"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18178] The expression  ! keyfile applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "18180"
- , "c1link" : "./qc/apps/crl.c.html#18180"
+   "c1" : "18179"
+ , "c1link" : "./qc/apps/crl.c.html#18179"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18180] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18179] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18182"
+ , "c1link" : "./qc/apps/crl.c.html#18182"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[18182] The expression  ! newcrl applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "18183"
  , "c1link" : "./qc/apps/crl.c.html#18183"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18183] The expression  ! newcrl applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "18184"
- , "c1link" : "./qc/apps/crl.c.html#18184"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18184] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18183] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18200"
- , "c1link" : "./qc/apps/crl.c.html#18200"
+   "c1" : "18199"
+ , "c1link" : "./qc/apps/crl.c.html#18199"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18200] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18199] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18205"
- , "c1link" : "./qc/apps/crl.c.html#18205"
+   "c1" : "18204"
+ , "c1link" : "./qc/apps/crl.c.html#18204"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18205] The expression delta applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18204] The expression delta applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18210"
- , "c1link" : "./qc/apps/crl.c.html#18210"
+   "c1" : "18209"
+ , "c1link" : "./qc/apps/crl.c.html#18209"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18210] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18209] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18214"
- , "c1link" : "./qc/apps/crl.c.html#18214"
+   "c1" : "18213"
+ , "c1link" : "./qc/apps/crl.c.html#18213"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18214] The expression badsig applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18213] The expression badsig applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18225"
- , "c1link" : "./qc/apps/crl.c.html#18225"
+   "c1" : "18224"
+ , "c1link" : "./qc/apps/crl.c.html#18224"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18225] The expression num applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18224] The expression num applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18244"
- , "c1link" : "./qc/apps/crl.c.html#18244"
+   "c1" : "18243"
+ , "c1link" : "./qc/apps/crl.c.html#18243"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18244] The expression crlnum applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18243] The expression crlnum applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18260"
- , "c1link" : "./qc/apps/crl.c.html#18260"
+   "c1" : "18259"
+ , "c1link" : "./qc/apps/crl.c.html#18259"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18260] The expression ok applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18259] The expression ok applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18292"
- , "c1link" : "./qc/apps/crl.c.html#18292"
+   "c1" : "18291"
+ , "c1link" : "./qc/apps/crl.c.html#18291"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18292] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18291] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18309"
- , "c1link" : "./qc/apps/crl.c.html#18309"
+   "c1" : "18308"
+ , "c1link" : "./qc/apps/crl.c.html#18308"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18309] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18308] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18311"
- , "c1link" : "./qc/apps/crl.c.html#18311"
+   "c1" : "18310"
+ , "c1link" : "./qc/apps/crl.c.html#18310"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18311] The expression text applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18310] The expression text applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18314"
- , "c1link" : "./qc/apps/crl.c.html#18314"
+   "c1" : "18313"
+ , "c1link" : "./qc/apps/crl.c.html#18313"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18314] The expression noout applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18313] The expression noout applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18316"
- , "c1link" : "./qc/apps/crl.c.html#18316"
+   "c1" : "18315"
+ , "c1link" : "./qc/apps/crl.c.html#18315"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18316] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18315] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18323"
- , "c1link" : "./qc/apps/crl.c.html#18323"
+   "c1" : "18322"
+ , "c1link" : "./qc/apps/crl.c.html#18322"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18323] The expression  ! i applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18322] The expression  ! i applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18325"
- , "c1link" : "./qc/apps/crl.c.html#18325"
+   "c1" : "18324"
+ , "c1link" : "./qc/apps/crl.c.html#18324"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18325] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18324] goto statement jump to end"
 }} 
 ]
 };
