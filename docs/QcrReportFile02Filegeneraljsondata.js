@@ -61,7 +61,7 @@ var mavar =
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"531" , "nbComplexite":"2.42"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"490" , "nbComplexite":"1.34"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"489" , "nbComplexite":"1.26"} ,' + 
-' { "namespace":"" , "classe":"dummy" , "nbMethodes":"460" , "nbComplexite":"1.64"} ,' + 
+' { "namespace":"" , "classe":"dummy" , "nbMethodes":"460" , "nbComplexite":"1.63"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"509" , "nbComplexite":"2.24"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"458" , "nbComplexite":"1.27"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"484" , "nbComplexite":"1.43"} ,' + 

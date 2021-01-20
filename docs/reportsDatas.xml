@@ -283,7 +283,7 @@
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/sess_id.c</file><nberror>1</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000005</rule><file>apps/smime.c</file><nberror>21</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>apps/smime.c</file><nberror>9</nberror></occ>
-<occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/smime.c</file><nberror>50</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/smime.c</file><nberror>48</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000010</rule><file>apps/smime.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/smime.c</file><nberror>11</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000005</rule><file>apps/speed.c</file><nberror>80</nberror></occ>
