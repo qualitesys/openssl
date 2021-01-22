@@ -16,6 +16,7 @@
 #include <stdio.h>
 #include "internal/cryptlib.h"
 #include "internal/refcount.h"
+#include "internal/namemap.h"
 #include <openssl/bn.h>
 #include <openssl/err.h>
 #include <openssl/objects.h>
@@ -636,13 +637,6 @@ static EVP_PKEY *new_cmac_key_int(const unsigned char *priv, size_t len,
 # endif
 }
 
-EVP_PKEY *EVP_PKEY_new_CMAC_key_ex(const unsigned char *priv, size_t len,
-                                   const char *cipher_name, OSSL_LIB_CTX *libctx,
-                                   const char *propq)
-{
-    return new_cmac_key_int(priv, len, cipher_name, NULL, libctx, propq, NULL);
-}
-
 EVP_PKEY *EVP_PKEY_new_CMAC_key(ENGINE *e, const unsigned char *priv,
                                 size_t len, const EVP_CIPHER *cipher)
 {
@@ -979,6 +973,8 @@ int evp_pkey_name2type(const char *name)
         type = EVP_PKEY_DH;
     else if (strcasecmp(name, "X9.42 DH") == 0)
         type = EVP_PKEY_DHX;
+    else if (strcasecmp(name, "DHX") == 0)
+        type = EVP_PKEY_DHX;
     else if (strcasecmp(name, "DSA") == 0)
         type = EVP_PKEY_DSA;
 
@@ -1158,6 +1154,18 @@ int EVP_PKEY_print_params(BIO *out, const EVP_PKEY *pkey,
                       pctx);
 }
 
+static void mdname2nid(const char *mdname, void *data)
+{
+    int *nid = (int *)data;
+
+    if (*nid != NID_undef)
+        return;
+
+    *nid = OBJ_sn2nid(mdname);
+    if (*nid == NID_undef)
+        *nid = OBJ_ln2nid(mdname);
+}
+
 static int legacy_asn1_ctrl_to_param(EVP_PKEY *pkey, int op,
                                      int arg1, void *arg2)
 {
@@ -1171,11 +1179,27 @@ static int legacy_asn1_ctrl_to_param(EVP_PKEY *pkey, int op,
                                                       sizeof(mdname));
 
             if (rv > 0) {
-                int nid;
+                int mdnum;
+                OSSL_LIB_CTX *libctx = ossl_provider_libctx(pkey->keymgmt->prov);
+                /* Make sure the MD is in the namemap if available */
+                EVP_MD *md = EVP_MD_fetch(libctx, mdname, NULL);
+                OSSL_NAMEMAP *namemap = ossl_namemap_stored(libctx);
+                int nid = NID_undef;
 
-                nid = OBJ_sn2nid(mdname);
-                if (nid == NID_undef)
-                    nid = OBJ_ln2nid(mdname);
+                /*
+                 * The only reason to fetch the MD was to make sure it is in the
+                 * namemap. We can immediately free it.
+                 */
+                EVP_MD_free(md);
+                mdnum = ossl_namemap_name2num(namemap, mdname);
+                if (mdnum == 0)
+                    return 0;
+
+                /*
+                 * We have the namemap number - now we need to find the
+                 * associated nid
+                 */
+                ossl_namemap_doall_names(namemap, mdnum, mdname2nid, &nid);
                 *(int *)arg2 = nid;
             }
             return rv;
