@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/s_server.c.html" 
- , "texte" : "File apps/s_server.c 267 rule violations " 
+ , "texte" : "File apps/s_server.c 269 rule violations " 
  , "fic2"  : "./qc/apps/s_server.c.xml" 
  , "fic3"  : "" 
 }
@@ -3806,6 +3806,13 @@ var maDataBlocs = {
  , "c3" : "Assigning instead of comparing"
  , "c4" : "22"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-CPP000013"
+ , "c3" : "Inline assembly code"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -5163,6 +5170,13 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "23329"
  , "c1link" : "./qc/apps/s_server.c.html#23329"
+ , "c2" : "MINOR"
+ , "c3" : "QC-CPP000013[23329] Inline assembly code"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23329"
+ , "c1link" : "./qc/apps/s_server.c.html#23329"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[23329] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
@@ -5466,6 +5480,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/s_server.c.html#24149"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[24149] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24154"
+ , "c1link" : "./qc/apps/s_server.c.html#24154"
+ , "c2" : "MINOR"
+ , "c3" : "QC-CPP000013[24154] Inline assembly code"
 }} 
 ,
 { "ligne" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/speed.c.html" 
- , "texte" : "File apps/speed.c 191 rule violations " 
+ , "texte" : "File apps/speed.c 192 rule violations " 
  , "fic2"  : "./qc/apps/speed.c.xml" 
  , "fic3"  : "" 
 }
@@ -3652,6 +3652,13 @@ var maDataBlocs = {
  , "c3" : "Assigning instead of comparing"
  , "c4" : "28"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-CPP000013"
+ , "c3" : "Inline assembly code"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -4325,6 +4332,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/speed.c.html#23311"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[23311] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23397"
+ , "c1link" : "./qc/apps/speed.c.html#23397"
+ , "c2" : "MINOR"
+ , "c3" : "QC-CPP000013[23397] Inline assembly code"
 }} 
 ,
 { "ligne" : {

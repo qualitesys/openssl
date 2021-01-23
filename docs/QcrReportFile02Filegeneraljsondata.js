@@ -3,7 +3,7 @@ var mavar =
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"465" , "nbComplexite":"1.31"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"474" , "nbComplexite":"2.29"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"490" , "nbComplexite":"1.27"} ,' + 
-' { "namespace":"" , "classe":"dummy" , "nbMethodes":"579" , "nbComplexite":"2.03"} ,' + 
+' { "namespace":"" , "classe":"dummy" , "nbMethodes":"579" , "nbComplexite":"2.04"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"502" , "nbComplexite":"1.26"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"490" , "nbComplexite":"1.93"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"458" , "nbComplexite":"1.36"} ,' + 
@@ -27,7 +27,7 @@ var mavar =
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"472" , "nbComplexite":"1.19"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"447" , "nbComplexite":"1.22"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"449" , "nbComplexite":"1.21"} ,' + 
-' { "namespace":"" , "classe":"dummy" , "nbMethodes":"618" , "nbComplexite":"1.81"} ,' + 
+' { "namespace":"" , "classe":"dummy" , "nbMethodes":"618" , "nbComplexite":"1.82"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"263" , "nbComplexite":"1.26"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"458" , "nbComplexite":"1.19"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"452" , "nbComplexite":"1.22"} ,' + 
@@ -69,7 +69,7 @@ var mavar =
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"486" , "nbComplexite":"1.67"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"460" , "nbComplexite":"1.44"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"458" , "nbComplexite":"1.24"} ,' + 
-' { "namespace":"" , "classe":"dummy" , "nbMethodes":"465" , "nbComplexite":"1.79"} ,' + 
+' { "namespace":"" , "classe":"dummy" , "nbMethodes":"465" , "nbComplexite":"1.82"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"343" , "nbComplexite":"1.60"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"243" , "nbComplexite":"1.14"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"344" , "nbComplexite":"1.39"} ,' + 

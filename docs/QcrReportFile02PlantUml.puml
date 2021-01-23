@@ -14,7 +14,7 @@ Complexity :1.27
 }
 class dummy {
 Nb methods :579
-Complexity :2.03
+Complexity :2.04
 }
 class dummy {
 Nb methods :502
@@ -110,7 +110,7 @@ Complexity :1.21
 }
 class dummy {
 Nb methods :618
-Complexity :1.81
+Complexity :1.82
 }
 class dummy {
 Nb methods :263
@@ -278,7 +278,7 @@ Complexity :1.24
 }
 class dummy {
 Nb methods :465
-Complexity :1.79
+Complexity :1.82
 }
 class dummy {
 Nb methods :343

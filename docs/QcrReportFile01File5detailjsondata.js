@@ -3481,8 +3481,8 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "OSSL_CMP_PKISI"
  , "c2" : "process_rr(OSSL_CMP_SRV_CTX*;OSSL_CMP_MSG*;X509_NAME*;ASN1_INTEGER*)"
- , "c3" : "4"
- , "c4" : "8"
+ , "c3" : "5"
+ , "c4" : "9"
 }} 
 ,
 { "ligne" : {
@@ -3831,10 +3831,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18819"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18819"
+   "c1" : "18823"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18823"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18819] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18823] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

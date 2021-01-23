@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/kdf.c.html" 
- , "texte" : "File apps/kdf.c 43 rule violations " 
+ , "texte" : "File apps/kdf.c 42 rule violations " 
  , "fic2"  : "./qc/apps/kdf.c.xml" 
  , "fic3"  : "" 
 }
@@ -3263,13 +3263,6 @@ var maDataBlocs = {
 ,
 { "ligne" : {
    "c1" : "MAJOR"
- , "c2" : "QC-CPP000002"
- , "c3" : "Avoid multiple switch labels with default case in switch case"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
  , "c2" : "QC-CPP000003"
  , "c3" : "In switch clause the default case should be in last position"
  , "c4" : "1"
@@ -3478,13 +3471,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/kdf.c.html#18023"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[18023] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18020"
- , "c1link" : "./qc/apps/kdf.c.html#18020"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000002[18020] Avoid multiple switch labels with default case in switch case"
 }} 
 ,
 { "ligne" : {

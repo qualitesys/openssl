@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/s_client.c.html" 
- , "texte" : "File apps/s_client.c 283 rule violations " 
+ , "texte" : "File apps/s_client.c 289 rule violations " 
  , "fic2"  : "./qc/apps/s_client.c.xml" 
  , "fic3"  : "" 
 }
@@ -3785,6 +3785,13 @@ var maDataBlocs = {
  , "c3" : "Assigning instead of comparing"
  , "c4" : "31"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-CPP000013"
+ , "c3" : "Inline assembly code"
+ , "c4" : "6"
+}}
  ] 
 ,
 "data13b" : [
@@ -4127,6 +4134,13 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "21278"
  , "c1link" : "./qc/apps/s_client.c.html#21278"
+ , "c2" : "MINOR"
+ , "c3" : "QC-CPP000013[21278] Inline assembly code"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21278"
+ , "c1link" : "./qc/apps/s_client.c.html#21278"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[21278] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
@@ -4143,6 +4157,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/s_client.c.html#21282"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[21282] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21287"
+ , "c1link" : "./qc/apps/s_client.c.html#21287"
+ , "c2" : "MINOR"
+ , "c3" : "QC-CPP000013[21287] Inline assembly code"
 }} 
 ,
 { "ligne" : {
@@ -5072,6 +5093,13 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "23192"
  , "c1link" : "./qc/apps/s_client.c.html#23192"
+ , "c2" : "MINOR"
+ , "c3" : "QC-CPP000013[23192] Inline assembly code"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23192"
+ , "c1link" : "./qc/apps/s_client.c.html#23192"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[23192] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
@@ -5310,6 +5338,13 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "23661"
  , "c1link" : "./qc/apps/s_client.c.html#23661"
+ , "c2" : "MINOR"
+ , "c3" : "QC-CPP000013[23661] Inline assembly code"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23661"
+ , "c1link" : "./qc/apps/s_client.c.html#23661"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[23661] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
@@ -5326,6 +5361,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/s_client.c.html#23665"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[23665] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23670"
+ , "c1link" : "./qc/apps/s_client.c.html#23670"
+ , "c2" : "MINOR"
+ , "c3" : "QC-CPP000013[23670] Inline assembly code"
 }} 
 ,
 { "ligne" : {
@@ -5578,6 +5620,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/s_client.c.html#24124"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[24124] The expression in_init applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24139"
+ , "c1link" : "./qc/apps/s_client.c.html#24139"
+ , "c2" : "MINOR"
+ , "c3" : "QC-CPP000013[24139] Inline assembly code"
 }} 
 ,
 { "ligne" : {

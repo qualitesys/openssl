@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/lib/s_socket.c.html" 
- , "texte" : "File apps/lib/s_socket.c 37 rule violations " 
+ , "texte" : "File apps/lib/s_socket.c 38 rule violations " 
  , "fic2"  : "./qc/apps/lib/s_socket.c.xml" 
  , "fic3"  : "" 
 }
@@ -3414,6 +3414,13 @@ var maDataBlocs = {
  , "c3" : "Assigning instead of comparing"
  , "c4" : "5"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-CPP000013"
+ , "c3" : "Inline assembly code"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -3639,6 +3646,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/lib/s_socket.c.html#19949"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19949] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19974"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#19974"
+ , "c2" : "MINOR"
+ , "c3" : "QC-CPP000013[19974] Inline assembly code"
 }} 
 ,
 { "ligne" : {

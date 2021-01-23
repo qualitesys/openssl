@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/engines/e_afalg.c.html" 
- , "texte" : "File engines/e_afalg.c 71 rule violations " 
+ , "texte" : "File engines/e_afalg.c 73 rule violations " 
  , "fic2"  : "./qc/engines/e_afalg.c.xml" 
  , "fic3"  : "" 
 }
@@ -2497,6 +2497,13 @@ var maDataBlocs = {
  , "c3" : "Assigning instead of comparing"
  , "c4" : "4"
 }}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-CPP000013"
+ , "c3" : "Inline assembly code"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -2631,6 +2638,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/engines/e_afalg.c.html#12849"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[12849] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15458"
+ , "c1link" : "./qc/engines/e_afalg.c.html#15458"
+ , "c2" : "MINOR"
+ , "c3" : "QC-CPP000013[15458] Inline assembly code"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15466"
+ , "c1link" : "./qc/engines/e_afalg.c.html#15466"
+ , "c2" : "MINOR"
+ , "c3" : "QC-CPP000013[15466] Inline assembly code"
 }} 
 ,
 { "ligne" : {
