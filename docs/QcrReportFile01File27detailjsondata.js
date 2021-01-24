@@ -3334,24 +3334,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17341"
- , "c1link" : "./qc/apps/lib/app_x509.c.html#17341"
+   "c1" : "17339"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#17339"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17341] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17339] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17647"
- , "c1link" : "./qc/apps/lib/app_x509.c.html#17647"
+   "c1" : "17645"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#17645"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17647] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17645] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17836"
- , "c1link" : "./qc/apps/lib/app_x509.c.html#17836"
+   "c1" : "17834"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#17834"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17836] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17834] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

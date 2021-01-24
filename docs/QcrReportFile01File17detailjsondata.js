@@ -3614,24 +3614,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17342"
- , "c1link" : "./qc/apps/errstr.c.html#17342"
+   "c1" : "17340"
+ , "c1link" : "./qc/apps/errstr.c.html#17340"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17342] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17340] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17648"
- , "c1link" : "./qc/apps/errstr.c.html#17648"
+   "c1" : "17646"
+ , "c1link" : "./qc/apps/errstr.c.html#17646"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17648] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17646] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17923"
- , "c1link" : "./qc/apps/errstr.c.html#17923"
+   "c1" : "17921"
+ , "c1link" : "./qc/apps/errstr.c.html#17921"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17923] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17921] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18997"
+ , "c1link" : "./qc/apps/errstr.c.html#18997"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[18997] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -3642,31 +3649,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19001"
- , "c1link" : "./qc/apps/errstr.c.html#19001"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19001] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "19635"
+ , "c1link" : "./qc/apps/errstr.c.html#19635"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[19635] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19637"
- , "c1link" : "./qc/apps/errstr.c.html#19637"
+   "c1" : "19640"
+ , "c1link" : "./qc/apps/errstr.c.html#19640"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19637] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[19640] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19642"
- , "c1link" : "./qc/apps/errstr.c.html#19642"
+   "c1" : "19644"
+ , "c1link" : "./qc/apps/errstr.c.html#19644"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19642] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19646"
- , "c1link" : "./qc/apps/errstr.c.html#19646"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19646] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19644] goto statement jump to end"
 }} 
 ]
 };

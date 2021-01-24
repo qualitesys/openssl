@@ -3362,45 +3362,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17356"
- , "c1link" : "./qc/apps/lib/engine.c.html#17356"
+   "c1" : "17354"
+ , "c1link" : "./qc/apps/lib/engine.c.html#17354"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17356] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17354] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17662"
- , "c1link" : "./qc/apps/lib/engine.c.html#17662"
+   "c1" : "17660"
+ , "c1link" : "./qc/apps/lib/engine.c.html#17660"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17662] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17660] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17737"
- , "c1link" : "./qc/apps/lib/engine.c.html#17737"
+   "c1" : "17735"
+ , "c1link" : "./qc/apps/lib/engine.c.html#17735"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17737] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17735] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17783"
- , "c1link" : "./qc/apps/lib/engine.c.html#17783"
+   "c1" : "17781"
+ , "c1link" : "./qc/apps/lib/engine.c.html#17781"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17783] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17781] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17788"
- , "c1link" : "./qc/apps/lib/engine.c.html#17788"
+   "c1" : "17786"
+ , "c1link" : "./qc/apps/lib/engine.c.html#17786"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17788] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17786] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17801"
- , "c1link" : "./qc/apps/lib/engine.c.html#17801"
+   "c1" : "17799"
+ , "c1link" : "./qc/apps/lib/engine.c.html#17799"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17801] The expression debug applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17799] The expression debug applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -3495,255 +3495,262 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17400"
- , "c1link" : "./qc/apps/fipsinstall.c.html#17400"
+   "c1" : "17398"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#17398"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17400] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17398] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17706"
- , "c1link" : "./qc/apps/fipsinstall.c.html#17706"
+   "c1" : "17704"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#17704"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17706] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17704] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17975"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#17975"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17975] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "17977"
  , "c1link" : "./qc/apps/fipsinstall.c.html#17977"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17977] goto statement jump to err"
+ , "c3" : "QC-CPP000007[17977] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17979"
- , "c1link" : "./qc/apps/fipsinstall.c.html#17979"
+   "c1" : "17978"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#17978"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17979] goto statement jump to end"
+ , "c3" : "QC-CPPCWE481[17978] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "17980"
  , "c1link" : "./qc/apps/fipsinstall.c.html#17980"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17980] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[17980] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17982"
- , "c1link" : "./qc/apps/fipsinstall.c.html#17982"
+   "c1" : "17984"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#17984"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17982] goto statement jump to err"
+ , "c3" : "QC-CPP000007[17984] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17986"
- , "c1link" : "./qc/apps/fipsinstall.c.html#17986"
+   "c1" : "18010"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18010"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17986] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18010] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18012"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18012"
+   "c1" : "18070"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18070"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18012] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18070] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18072"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18072"
+   "c1" : "18081"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18081"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18072] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18081] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18083"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18083"
+   "c1" : "18123"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18123"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18083] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18123] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18125"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18125"
+   "c1" : "18135"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18135"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18125] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18135] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18137"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18137"
+   "c1" : "18142"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18142"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18137] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18142] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18144"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18144"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18144] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18192"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18192"
+   "c1" : "18190"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18190"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18192] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18190] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18215"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18215"
+   "c1" : "18213"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18213"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18215] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18213] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18224"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18224"
+   "c1" : "18222"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18222"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18224] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18222] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18233"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18233"
+   "c1" : "18231"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18231"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18233] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18231] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18242"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18242"
+   "c1" : "18240"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18240"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18242] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18240] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18253"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18253"
+   "c1" : "18251"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18251"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18253] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18251] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18262"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18262"
+   "c1" : "18260"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18260"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18262] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18260] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18273"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18273"
+   "c1" : "18271"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18271"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18273] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18271] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18341"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18341"
+   "c1" : "18339"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18339"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18341] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18339] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18361"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18361"
+   "c1" : "18359"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18359"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18361] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18359] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18366"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18366"
+   "c1" : "18364"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18364"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18366] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18364] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18369"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18369"
+   "c1" : "18367"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18367"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18369] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18367] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18371"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18371"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000010[18371] The switch case refers to the jump label opthelp"
 }} 
 ,
 { "ligne" : {
    "c1" : "18373"
  , "c1link" : "./qc/apps/fipsinstall.c.html#18373"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[18373] The switch case refers to the jump label opthelp"
+ , "c3" : "QC-CPP000007[18373] goto statement jump to cleanup"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18375"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18375"
+   "c1" : "18377"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18377"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18375] goto statement jump to cleanup"
+ , "c3" : "QC-CPP000007[18377] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18379"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18379"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18379] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18392"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18392"
+   "c1" : "18390"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18390"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[18392] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[18390] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18421"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18421"
+   "c1" : "18419"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18419"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18421] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18419] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18436"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18436"
+   "c1" : "18434"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18434"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18436] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18434] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18450"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18450"
+   "c1" : "18448"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18448"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18450] The expression  ! quiet applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18448] The expression  ! quiet applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18454"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18454"
+   "c1" : "18452"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18452"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18454] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18452] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18471"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18471"
+   "c1" : "18469"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18469"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18471] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18469] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18485"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18485"
+   "c1" : "18483"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18483"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18485] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18483] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18492"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18492"
+   "c1" : "18490"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18490"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18492] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18490] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18516"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18516"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18516] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
@@ -3754,108 +3761,108 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18520"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18520"
+   "c1" : "18527"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18527"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18520] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18527] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18529"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18529"
+   "c1" : "18536"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18536"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18529] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18536] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18538"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18538"
+   "c1" : "18553"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18553"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18538] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18553] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18555"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18555"
+   "c1" : "18563"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18563"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18555] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18563] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18565"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18565"
+   "c1" : "18580"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18580"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18565] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18580] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18582"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18582"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18582] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18590"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18590"
+   "c1" : "18588"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18588"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18590] The expression  ! ok applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18588] The expression  ! ok applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18591"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18591"
+   "c1" : "18589"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18589"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18591] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18589] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18601"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18601"
+   "c1" : "18599"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18599"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18601] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18599] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18605"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18605"
+   "c1" : "18603"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18603"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18605] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18603] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18615"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18615"
+   "c1" : "18613"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18613"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18615] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18613] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18616"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18616"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18616] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
    "c1" : "18618"
  , "c1link" : "./qc/apps/fipsinstall.c.html#18618"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18618] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18620"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18620"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18620] The expression verify applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18618] The expression verify applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18623"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18623"
+   "c1" : "18621"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18621"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18623] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18621] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18624"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18624"
+   "c1" : "18622"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18622"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18624] The expression  ! quiet applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18622] The expression  ! quiet applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "18635"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18635"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18635] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
@@ -3866,87 +3873,80 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18639"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18639"
+   "c1" : "18646"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18646"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18639] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18646] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18648"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18648"
+   "c1" : "18653"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18653"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18648] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18653] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18655"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18655"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18655] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18656"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18656"
+   "c1" : "18654"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18654"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18656] The expression  ! quiet applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18654] The expression  ! quiet applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18663"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18663"
+   "c1" : "18661"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18661"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18663] The expression  ! quiet applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18661] The expression  ! quiet applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18710"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18710"
+   "c1" : "18708"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18708"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18710] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18708] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18719"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18719"
+   "c1" : "18717"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18717"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18719] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18717] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18728"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18728"
+   "c1" : "18726"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18726"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18728] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18726] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18731"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18731"
+   "c1" : "18729"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18729"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18731] The expression self_test_log applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18729] The expression self_test_log applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18759"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18759"
+   "c1" : "18757"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18757"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18759] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18757] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18764"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#18764"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18764] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
    "c1" : "18766"
  , "c1link" : "./qc/apps/fipsinstall.c.html#18766"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18766] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18768"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18768"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18768] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18766] goto statement jump to err"
 }} 
 ]
 };

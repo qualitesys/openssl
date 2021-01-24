@@ -3320,24 +3320,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17359"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#17359"
+   "c1" : "17357"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#17357"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17359] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17357] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17665"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#17665"
+   "c1" : "17663"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#17663"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17665] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17663] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17777"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#17777"
+   "c1" : "17775"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#17775"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17777] The expression last applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17775] The expression last applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

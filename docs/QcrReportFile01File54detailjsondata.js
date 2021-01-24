@@ -3481,199 +3481,199 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17359"
- , "c1link" : "./qc/apps/rehash.c.html#17359"
+   "c1" : "17357"
+ , "c1link" : "./qc/apps/rehash.c.html#17357"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17359] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17357] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17665"
- , "c1link" : "./qc/apps/rehash.c.html#17665"
+   "c1" : "17663"
+ , "c1link" : "./qc/apps/rehash.c.html#17663"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17665] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17663] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18210"
- , "c1link" : "./qc/apps/rehash.c.html#18210"
+   "c1" : "18208"
+ , "c1link" : "./qc/apps/rehash.c.html#18208"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18210] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18208] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18215"
- , "c1link" : "./qc/apps/rehash.c.html#18215"
+   "c1" : "18213"
+ , "c1link" : "./qc/apps/rehash.c.html#18213"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18215] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18213] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18221"
- , "c1link" : "./qc/apps/rehash.c.html#18221"
+   "c1" : "18219"
+ , "c1link" : "./qc/apps/rehash.c.html#18219"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18221] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18219] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18224"
- , "c1link" : "./qc/apps/rehash.c.html#18224"
+   "c1" : "18222"
+ , "c1link" : "./qc/apps/rehash.c.html#18222"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18224] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18222] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18232"
- , "c1link" : "./qc/apps/rehash.c.html#18232"
+   "c1" : "18230"
+ , "c1link" : "./qc/apps/rehash.c.html#18230"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18232] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18230] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18253"
- , "c1link" : "./qc/apps/rehash.c.html#18253"
+   "c1" : "18251"
+ , "c1link" : "./qc/apps/rehash.c.html#18251"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18253] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18251] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18261"
- , "c1link" : "./qc/apps/rehash.c.html#18261"
+   "c1" : "18259"
+ , "c1link" : "./qc/apps/rehash.c.html#18259"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18261] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18259] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18278"
- , "c1link" : "./qc/apps/rehash.c.html#18278"
+   "c1" : "18276"
+ , "c1link" : "./qc/apps/rehash.c.html#18276"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18278] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18276] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18294"
- , "c1link" : "./qc/apps/rehash.c.html#18294"
+   "c1" : "18292"
+ , "c1link" : "./qc/apps/rehash.c.html#18292"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18294] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18292] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18298"
- , "c1link" : "./qc/apps/rehash.c.html#18298"
+   "c1" : "18296"
+ , "c1link" : "./qc/apps/rehash.c.html#18296"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18298] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18296] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18311"
- , "c1link" : "./qc/apps/rehash.c.html#18311"
+   "c1" : "18309"
+ , "c1link" : "./qc/apps/rehash.c.html#18309"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18311] The expression ok applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18309] The expression ok applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18394"
- , "c1link" : "./qc/apps/rehash.c.html#18394"
+   "c1" : "18392"
+ , "c1link" : "./qc/apps/rehash.c.html#18392"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18394] The expression verbose applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18392] The expression verbose applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18397"
- , "c1link" : "./qc/apps/rehash.c.html#18397"
+   "c1" : "18395"
+ , "c1link" : "./qc/apps/rehash.c.html#18395"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18397] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18395] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18402"
+ , "c1link" : "./qc/apps/rehash.c.html#18402"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18402] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "18404"
  , "c1link" : "./qc/apps/rehash.c.html#18404"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18404] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[18404] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18406"
- , "c1link" : "./qc/apps/rehash.c.html#18406"
+   "c1" : "18409"
+ , "c1link" : "./qc/apps/rehash.c.html#18409"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18406] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18409] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18411"
- , "c1link" : "./qc/apps/rehash.c.html#18411"
+   "c1" : "18418"
+ , "c1link" : "./qc/apps/rehash.c.html#18418"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18411] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[18418] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18420"
- , "c1link" : "./qc/apps/rehash.c.html#18420"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18420] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18462"
- , "c1link" : "./qc/apps/rehash.c.html#18462"
+   "c1" : "18460"
+ , "c1link" : "./qc/apps/rehash.c.html#18460"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18462] The expression verbose applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18460] The expression verbose applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18473"
- , "c1link" : "./qc/apps/rehash.c.html#18473"
+   "c1" : "18471"
+ , "c1link" : "./qc/apps/rehash.c.html#18471"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18473] The expression verbose applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18471] The expression verbose applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18506"
- , "c1link" : "./qc/apps/rehash.c.html#18506"
+   "c1" : "18504"
+ , "c1link" : "./qc/apps/rehash.c.html#18504"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18506] The expression remove_links applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18504] The expression remove_links applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18511"
- , "c1link" : "./qc/apps/rehash.c.html#18511"
+   "c1" : "18509"
+ , "c1link" : "./qc/apps/rehash.c.html#18509"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18511] The expression verbose applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18509] The expression verbose applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18591"
- , "c1link" : "./qc/apps/rehash.c.html#18591"
+   "c1" : "18589"
+ , "c1link" : "./qc/apps/rehash.c.html#18589"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18591] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18589] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18596"
- , "c1link" : "./qc/apps/rehash.c.html#18596"
+   "c1" : "18594"
+ , "c1link" : "./qc/apps/rehash.c.html#18594"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18596] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18594] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18599"
- , "c1link" : "./qc/apps/rehash.c.html#18599"
+   "c1" : "18597"
+ , "c1link" : "./qc/apps/rehash.c.html#18597"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18599] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18597] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18614"
- , "c1link" : "./qc/apps/rehash.c.html#18614"
+   "c1" : "18612"
+ , "c1link" : "./qc/apps/rehash.c.html#18612"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18614] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18612] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18637"
- , "c1link" : "./qc/apps/rehash.c.html#18637"
+   "c1" : "18635"
+ , "c1link" : "./qc/apps/rehash.c.html#18635"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18637] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18635] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

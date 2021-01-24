@@ -3320,45 +3320,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17359"
- , "c1link" : "./qc/apps/lib/app_params.c.html#17359"
+   "c1" : "17357"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#17357"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17359] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17357] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17665"
- , "c1link" : "./qc/apps/lib/app_params.c.html#17665"
+   "c1" : "17663"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#17663"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17665] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17663] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17747"
- , "c1link" : "./qc/apps/lib/app_params.c.html#17747"
+   "c1" : "17745"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#17745"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[17747] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[17745] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17753"
- , "c1link" : "./qc/apps/lib/app_params.c.html#17753"
+   "c1" : "17751"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#17751"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[17753] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[17751] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17759"
- , "c1link" : "./qc/apps/lib/app_params.c.html#17759"
+   "c1" : "17757"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#17757"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[17759] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[17757] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17781"
- , "c1link" : "./qc/apps/lib/app_params.c.html#17781"
+   "c1" : "17779"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#17779"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17781] The expression show_type_number applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17779] The expression show_type_number applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };
