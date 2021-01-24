@@ -1,7 +1,7 @@
 name: C/C++ CI Simple 2
 
 on:
-  [push]:
+  push:
   schedule:
     # * is a special character in YAML so you have to quote this string
     # Demarrage a 23h30 chaque jour
