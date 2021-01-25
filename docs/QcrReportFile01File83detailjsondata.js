@@ -2753,45 +2753,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07123"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#7123"
+   "c1" : "07128"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#7128"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07123] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07128] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07125"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#7125"
+   "c1" : "07130"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#7130"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07125] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07130] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08228"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#8228"
+   "c1" : "08233"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#8233"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08228] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08233] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08424"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#8424"
+   "c1" : "08429"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#8429"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08424] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08425"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#8425"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08425] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08426"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#8426"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08426] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08429] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -2802,17 +2788,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09016"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#9016"
+   "c1" : "08431"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#8431"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09016] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08431] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09018"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#9018"
+   "c1" : "08435"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#8435"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09018] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08435] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -2823,276 +2809,290 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09860"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#9860"
+   "c1" : "09023"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#9023"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09860] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09023] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10941"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#10941"
+   "c1" : "09026"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#9026"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10941] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09026] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10963"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#10963"
+   "c1" : "09865"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#9865"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10963] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09865] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10969"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#10969"
+   "c1" : "10946"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#10946"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10969] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10946] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10989"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#10989"
+   "c1" : "10968"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#10968"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10989] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10968] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10995"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#10995"
+   "c1" : "10974"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#10974"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10995] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10974] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12100"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#12100"
+   "c1" : "10994"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#10994"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12100] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10994] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12101"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#12101"
+   "c1" : "11000"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#11000"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12101] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11000] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12780"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#12780"
+   "c1" : "12105"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#12105"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12780] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12105] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13856"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#13856"
+   "c1" : "12106"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#12106"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13856] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12106] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13858"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#13858"
+   "c1" : "12785"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#12785"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13858] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12785] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14952"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#14952"
+   "c1" : "13861"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#13861"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14952] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[13861] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14993"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#14993"
+   "c1" : "13863"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#13863"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14993] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[13863] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15035"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#15035"
+   "c1" : "14957"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#14957"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15035] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14957] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15070"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#15070"
+   "c1" : "14998"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#14998"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15070] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14998] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15254"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#15254"
+   "c1" : "15040"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#15040"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15254] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[15040] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15276"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#15276"
+   "c1" : "15075"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#15075"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15276] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[15075] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15295"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#15295"
+   "c1" : "15259"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#15259"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15295] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15259] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15318"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#15318"
+   "c1" : "15281"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#15281"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15318] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15281] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15338"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#15338"
+   "c1" : "15300"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#15300"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15338] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15300] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15518"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#15518"
+   "c1" : "15323"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#15323"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15518] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15323] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17812"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17812"
+   "c1" : "15343"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#15343"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15343] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15523"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#15523"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15523] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17817"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17817"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17812] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17817] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17812"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17812"
+   "c1" : "17817"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17817"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17812] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17817] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17812"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17812"
+   "c1" : "17817"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17817"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17812] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17817] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17812"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17812"
+   "c1" : "17817"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17817"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17812] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17817] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17812"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17812"
+   "c1" : "17817"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17817"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17812] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17817] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17812"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17812"
+   "c1" : "17817"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17817"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17812] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17817] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17812"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17812"
+   "c1" : "17817"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17817"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17812] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17817] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17812"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17812"
+   "c1" : "17817"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17817"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17812] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17817] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17813"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17813"
+   "c1" : "17818"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17818"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17813] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17818] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17813"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17813"
+   "c1" : "17818"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17818"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17813] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17818] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17813"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17813"
+   "c1" : "17818"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17818"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17813] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17818] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17813"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17813"
+   "c1" : "17818"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17818"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17813] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17818] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17813"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17813"
+   "c1" : "17818"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17818"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17813] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17818] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17813"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17813"
+   "c1" : "17818"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17818"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17813] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17818] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17813"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17813"
+   "c1" : "17818"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17818"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17813] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17818] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17813"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17813"
+   "c1" : "17818"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17818"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17813] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17818] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17835"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17835"
+   "c1" : "17840"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17840"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17835] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17840] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17856"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17856"
+   "c1" : "17861"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#17861"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17856] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17861] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

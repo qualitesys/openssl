@@ -3292,45 +3292,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09878"
- , "c1link" : "./qc/apps/info.c.html#9878"
+   "c1" : "09883"
+ , "c1link" : "./qc/apps/info.c.html#9883"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09878] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09883] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09880"
- , "c1link" : "./qc/apps/info.c.html#9880"
+   "c1" : "09885"
+ , "c1link" : "./qc/apps/info.c.html#9885"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09880] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09885] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10247"
- , "c1link" : "./qc/apps/info.c.html#10247"
+   "c1" : "10252"
+ , "c1link" : "./qc/apps/info.c.html#10252"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10247] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10252] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10443"
- , "c1link" : "./qc/apps/info.c.html#10443"
+   "c1" : "10448"
+ , "c1link" : "./qc/apps/info.c.html#10448"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10443] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10444"
- , "c1link" : "./qc/apps/info.c.html#10444"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10444] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10445"
- , "c1link" : "./qc/apps/info.c.html#10445"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10445] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10448] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -3341,17 +3327,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11035"
- , "c1link" : "./qc/apps/info.c.html#11035"
+   "c1" : "10450"
+ , "c1link" : "./qc/apps/info.c.html#10450"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11035] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10450] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11037"
- , "c1link" : "./qc/apps/info.c.html#11037"
+   "c1" : "10454"
+ , "c1link" : "./qc/apps/info.c.html#10454"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11037] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10454] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -3362,129 +3348,143 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11879"
- , "c1link" : "./qc/apps/info.c.html#11879"
+   "c1" : "11042"
+ , "c1link" : "./qc/apps/info.c.html#11042"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11879] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11042] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13310"
- , "c1link" : "./qc/apps/info.c.html#13310"
+   "c1" : "11045"
+ , "c1link" : "./qc/apps/info.c.html#11045"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13310] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11045] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13332"
- , "c1link" : "./qc/apps/info.c.html#13332"
+   "c1" : "11884"
+ , "c1link" : "./qc/apps/info.c.html#11884"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13332] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11884] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13338"
- , "c1link" : "./qc/apps/info.c.html#13338"
+   "c1" : "13315"
+ , "c1link" : "./qc/apps/info.c.html#13315"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13338] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13315] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13358"
- , "c1link" : "./qc/apps/info.c.html#13358"
+   "c1" : "13337"
+ , "c1link" : "./qc/apps/info.c.html#13337"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13358] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13337] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13364"
- , "c1link" : "./qc/apps/info.c.html#13364"
+   "c1" : "13343"
+ , "c1link" : "./qc/apps/info.c.html#13343"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13364] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13343] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14511"
- , "c1link" : "./qc/apps/info.c.html#14511"
+   "c1" : "13363"
+ , "c1link" : "./qc/apps/info.c.html#13363"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14511] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13363] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14512"
- , "c1link" : "./qc/apps/info.c.html#14512"
+   "c1" : "13369"
+ , "c1link" : "./qc/apps/info.c.html#13369"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14512] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13369] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17365"
- , "c1link" : "./qc/apps/info.c.html#17365"
+   "c1" : "14516"
+ , "c1link" : "./qc/apps/info.c.html#14516"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17365] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14516] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17671"
- , "c1link" : "./qc/apps/info.c.html#17671"
+   "c1" : "14517"
+ , "c1link" : "./qc/apps/info.c.html#14517"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17671] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14517] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17912"
- , "c1link" : "./qc/apps/info.c.html#17912"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17912] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "17370"
+ , "c1link" : "./qc/apps/info.c.html#17370"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[17370] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17914"
- , "c1link" : "./qc/apps/info.c.html#17914"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000003[17914] The default case should be in last position"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17915"
- , "c1link" : "./qc/apps/info.c.html#17915"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[17915] The switch case refers to the jump label opthelp"
+   "c1" : "17676"
+ , "c1link" : "./qc/apps/info.c.html#17676"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[17676] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "17917"
  , "c1link" : "./qc/apps/info.c.html#17917"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17917] goto statement jump to end"
+ , "c3" : "QC-CPPCWE481[17917] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17921"
- , "c1link" : "./qc/apps/info.c.html#17921"
+   "c1" : "17919"
+ , "c1link" : "./qc/apps/info.c.html#17919"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17921] goto statement jump to end"
+ , "c3" : "QC-CPP000003[17919] The default case should be in last position"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17957"
- , "c1link" : "./qc/apps/info.c.html#17957"
+   "c1" : "17920"
+ , "c1link" : "./qc/apps/info.c.html#17920"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17957] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000010[17920] The switch case refers to the jump label opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17960"
- , "c1link" : "./qc/apps/info.c.html#17960"
+   "c1" : "17922"
+ , "c1link" : "./qc/apps/info.c.html#17922"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17960] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[17922] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17964"
- , "c1link" : "./qc/apps/info.c.html#17964"
+   "c1" : "17926"
+ , "c1link" : "./qc/apps/info.c.html#17926"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17964] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[17926] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17962"
+ , "c1link" : "./qc/apps/info.c.html#17962"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17962] goto statement jump to opthelp"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17965"
+ , "c1link" : "./qc/apps/info.c.html#17965"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17965] goto statement jump to opthelp"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17969"
+ , "c1link" : "./qc/apps/info.c.html#17969"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17969] goto statement jump to opthelp"
 }} 
 ]
 };

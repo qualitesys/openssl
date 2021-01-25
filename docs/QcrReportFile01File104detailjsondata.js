@@ -1969,45 +1969,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05265"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#5265"
+   "c1" : "05270"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#5270"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05265] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05270] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05267"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#5267"
+   "c1" : "05272"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#5272"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05267] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05272] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06352"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#6352"
+   "c1" : "06357"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#6357"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06352] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06357] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06548"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#6548"
+   "c1" : "06553"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#6553"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06548] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06549"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#6549"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06549] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06550"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#6550"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06550] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06553] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -2018,17 +2004,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07140"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#7140"
+   "c1" : "06555"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#6555"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07140] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06555] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07142"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#7142"
+   "c1" : "06559"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#6559"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07142] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06559] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -2039,178 +2025,192 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07984"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#7984"
+   "c1" : "07147"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#7147"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07984] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07147] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08991"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#8991"
+   "c1" : "07150"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#7150"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08991] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07150] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09013"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#9013"
+   "c1" : "07989"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#7989"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09013] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07989] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09019"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#9019"
+   "c1" : "08996"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#8996"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09019] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08996] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09039"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#9039"
+   "c1" : "09018"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#9018"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09039] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09018] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09045"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#9045"
+   "c1" : "09024"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#9024"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09045] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09024] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10150"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#10150"
+   "c1" : "09044"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#9044"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10150] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09044] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10151"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#10151"
+   "c1" : "09050"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#9050"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10151] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09050] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10830"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#10830"
+   "c1" : "10155"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#10155"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10830] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10155] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11906"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#11906"
+   "c1" : "10156"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#10156"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11906] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10156] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11908"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#11908"
+   "c1" : "10835"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#10835"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11908] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10835] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12534"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#12534"
+   "c1" : "11911"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#11911"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[11911] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11913"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#11913"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[11913] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12539"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#12539"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12534] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12539] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12580"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#12580"
+   "c1" : "12585"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#12585"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12580] goto statement jump to end"
+ , "c3" : "QC-CPP000007[12585] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12589"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#12589"
+   "c1" : "12594"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#12594"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12589] goto statement jump to end"
+ , "c3" : "QC-CPP000007[12594] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12613"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#12613"
+   "c1" : "12618"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#12618"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12613] goto statement jump to end"
+ , "c3" : "QC-CPP000007[12618] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12625"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#12625"
+   "c1" : "12630"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#12630"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12625] goto statement jump to end"
+ , "c3" : "QC-CPP000007[12630] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12637"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#12637"
+   "c1" : "12642"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#12642"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12637] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12642] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12641"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#12641"
+   "c1" : "12646"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#12646"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12641] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12646] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12680"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#12680"
+   "c1" : "12685"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#12685"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12680] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12685] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12726"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#12726"
+   "c1" : "12731"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#12731"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12726] goto statement jump to end"
+ , "c3" : "QC-CPP000007[12731] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12735"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#12735"
+   "c1" : "12740"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#12740"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12735] goto statement jump to end"
+ , "c3" : "QC-CPP000007[12740] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12759"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#12759"
+   "c1" : "12764"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#12764"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12759] goto statement jump to end"
+ , "c3" : "QC-CPP000007[12764] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12771"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#12771"
+   "c1" : "12776"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#12776"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12771] goto statement jump to end"
+ , "c3" : "QC-CPP000007[12776] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12784"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#12784"
+   "c1" : "12789"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#12789"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12784] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12789] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12788"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#12788"
+   "c1" : "12793"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#12793"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12788] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12793] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

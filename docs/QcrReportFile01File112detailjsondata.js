@@ -4321,45 +4321,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05042"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#5042"
+   "c1" : "05047"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#5047"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05042] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05047] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05044"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#5044"
+   "c1" : "05049"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#5049"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05044] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05049] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05926"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#5926"
+   "c1" : "05931"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#5931"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05926] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05931] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06122"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#6122"
+   "c1" : "06127"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#6127"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06122] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06123"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#6123"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06123] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06124"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#6124"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06124] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06127] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -4370,17 +4356,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06714"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#6714"
+   "c1" : "06129"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#6129"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06714] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06129] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06716"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#6716"
+   "c1" : "06133"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#6133"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06716] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06133] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -4391,332 +4377,346 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07558"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#7558"
+   "c1" : "06721"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#6721"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07558] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06721] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08989"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#8989"
+   "c1" : "06724"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#6724"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08989] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06724] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09011"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#9011"
+   "c1" : "07563"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#7563"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09011] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07563] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09017"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#9017"
+   "c1" : "08994"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#8994"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09017] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08994] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09037"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#9037"
+   "c1" : "09016"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#9016"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09037] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09016] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09043"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#9043"
+   "c1" : "09022"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#9022"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09043] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09022] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10148"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#10148"
+   "c1" : "09042"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#9042"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10148] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09042] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10149"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#10149"
+   "c1" : "09048"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#9048"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10149] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09048] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14009"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#14009"
+   "c1" : "10153"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#10153"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14009] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10153] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15085"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#15085"
+   "c1" : "10154"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#10154"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15085] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10154] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15087"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#15087"
+   "c1" : "14014"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#14014"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15087] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14014] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16181"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#16181"
+   "c1" : "15090"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#15090"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16181] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[15090] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16222"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#16222"
+   "c1" : "15092"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#15092"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16222] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[15092] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16264"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#16264"
+   "c1" : "16186"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#16186"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16264] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16186] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16299"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#16299"
+   "c1" : "16227"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#16227"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16299] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16227] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16483"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#16483"
+   "c1" : "16269"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#16269"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16483] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[16269] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16505"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#16505"
+   "c1" : "16304"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#16304"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16505] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[16304] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16524"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#16524"
+   "c1" : "16488"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#16488"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16524] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16488] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16547"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#16547"
+   "c1" : "16510"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#16510"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16547] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16510] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16567"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#16567"
+   "c1" : "16529"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#16529"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16567] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16529] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16747"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#16747"
+   "c1" : "16552"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#16552"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16747] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16552] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19498"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#19498"
+   "c1" : "16572"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#16572"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19498] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16572] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19526"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#19526"
+   "c1" : "16752"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#16752"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19526] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16752] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19923"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#19923"
+   "c1" : "19503"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#19503"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19923] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[19503] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19990"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#19990"
+   "c1" : "19531"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#19531"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19990] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[19531] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20336"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#20336"
+   "c1" : "19928"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#19928"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20336] The expression found applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[19928] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20370"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#20370"
+   "c1" : "19995"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#19995"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[19995] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20341"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#20341"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20341] The expression found applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20375"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#20375"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20370] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20375] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20419"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#20419"
+   "c1" : "20424"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#20424"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[20419] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[20424] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20667"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#20667"
+   "c1" : "20672"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#20672"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20667] The expression key_share applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20672] The expression key_share applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20983"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#20983"
+   "c1" : "20988"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#20988"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20983] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20988] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21135"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21135"
+   "c1" : "21140"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21140"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21135] goto statement jump to err"
+ , "c3" : "QC-CPP000007[21140] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21145"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21145"
+   "c1" : "21150"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21150"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21145] goto statement jump to err"
+ , "c3" : "QC-CPP000007[21150] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21155"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21155"
+   "c1" : "21160"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21160"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21155] goto statement jump to err"
+ , "c3" : "QC-CPP000007[21160] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21165"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21165"
+   "c1" : "21170"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21170"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21165] goto statement jump to err"
+ , "c3" : "QC-CPP000007[21170] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21302"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21302"
+   "c1" : "21307"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21307"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[21302] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[21307] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21305"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21305"
+   "c1" : "21310"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21310"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21305] The expression  ! using_ecc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21310] The expression  ! using_ecc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21356"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21356"
+   "c1" : "21361"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21361"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21356] The expression first applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21361] The expression first applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21477"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21477"
+   "c1" : "21482"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21482"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[21477] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[21482] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21653"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21653"
+   "c1" : "21658"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21658"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[21653] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[21658] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21722"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21722"
+   "c1" : "21727"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21727"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[21722] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[21727] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21786"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21786"
+   "c1" : "21791"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21791"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[21786] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[21791] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21844"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21844"
+   "c1" : "21849"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21849"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[21844] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[21849] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21845"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21845"
+   "c1" : "21850"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21850"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[21845] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[21850] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21976"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21976"
+   "c1" : "21981"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21981"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21976] goto statement jump to err"
+ , "c3" : "QC-CPP000007[21981] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21992"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21992"
+   "c1" : "21997"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#21997"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21992] goto statement jump to err"
+ , "c3" : "QC-CPP000007[21997] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22001"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#22001"
+   "c1" : "22006"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#22006"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22001] goto statement jump to err"
+ , "c3" : "QC-CPP000007[22006] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22014"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#22014"
+   "c1" : "22019"
+ , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#22019"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22014] goto statement jump to err"
+ , "c3" : "QC-CPP000007[22019] goto statement jump to err"
 }} 
 ]
 };

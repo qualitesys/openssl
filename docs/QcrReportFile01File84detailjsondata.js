@@ -3124,45 +3124,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07119"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#7119"
+   "c1" : "07124"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#7124"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07119] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07124] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07121"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#7121"
+   "c1" : "07126"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#7126"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07121] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07126] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08224"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#8224"
+   "c1" : "08229"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#8229"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08224] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08229] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08420"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#8420"
+   "c1" : "08425"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#8425"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08420] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08421"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#8421"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08421] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08422"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#8422"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08422] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08425] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -3173,17 +3159,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09012"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#9012"
+   "c1" : "08427"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#8427"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09012] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08427] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09014"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#9014"
+   "c1" : "08431"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#8431"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09014] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08431] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -3194,304 +3180,304 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09856"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#9856"
+   "c1" : "09019"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#9019"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09856] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09019] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10937"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#10937"
+   "c1" : "09022"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#9022"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10937] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09022] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10959"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#10959"
+   "c1" : "09861"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#9861"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10959] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09861] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10965"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#10965"
+   "c1" : "10942"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#10942"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10965] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10942] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10985"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#10985"
+   "c1" : "10964"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#10964"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10985] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10964] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10991"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#10991"
+   "c1" : "10970"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#10970"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10991] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10970] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12096"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#12096"
+   "c1" : "10990"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#10990"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12096] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10990] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12097"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#12097"
+   "c1" : "10996"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#10996"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12097] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10996] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12776"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#12776"
+   "c1" : "12101"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#12101"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12776] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12101] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13852"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#13852"
+   "c1" : "12102"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#12102"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13852] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12102] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13854"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#13854"
+   "c1" : "12781"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#12781"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13854] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12781] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14948"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#14948"
+   "c1" : "13857"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#13857"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14948] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[13857] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14989"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#14989"
+   "c1" : "13859"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#13859"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14989] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[13859] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15031"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#15031"
+   "c1" : "14953"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#14953"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15031] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14953] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15066"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#15066"
+   "c1" : "14994"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#14994"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15066] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14994] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15250"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#15250"
+   "c1" : "15036"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#15036"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15250] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[15036] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15272"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#15272"
+   "c1" : "15071"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#15071"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15272] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[15071] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15291"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#15291"
+   "c1" : "15255"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#15255"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15291] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15255] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15314"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#15314"
+   "c1" : "15277"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#15277"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15314] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15277] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15334"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#15334"
+   "c1" : "15296"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#15296"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15334] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15296] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15514"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#15514"
+   "c1" : "15319"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#15319"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15514] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15319] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17923"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#17923"
+   "c1" : "15339"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#15339"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17923] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15339] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17951"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#17951"
+   "c1" : "15519"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#15519"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15519] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17928"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#17928"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[17928] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17956"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#17956"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17951] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17956] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18035"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18035"
+   "c1" : "18040"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18040"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18035] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18040] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18046"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18046"
+   "c1" : "18051"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18051"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18046] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18051] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18059"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18059"
+   "c1" : "18064"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18064"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18059] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18064] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18195"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18195"
+   "c1" : "18200"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18200"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18195] The expression item applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18200] The expression item applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18217"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18217"
+   "c1" : "18222"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18222"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18217] The expression item applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18222] The expression item applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18278"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18278"
+   "c1" : "18283"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18283"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18278] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18283] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18363"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18363"
+   "c1" : "18368"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18368"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18363] The expression item applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18368] The expression item applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18374"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18374"
+   "c1" : "18379"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18379"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18374] goto statement jump to start"
+ , "c3" : "QC-CPP000007[18379] goto statement jump to start"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18383"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18383"
+   "c1" : "18388"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18388"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18383] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18388] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18394"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18394"
+   "c1" : "18399"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18399"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18394] goto statement jump to start"
+ , "c3" : "QC-CPP000007[18399] goto statement jump to start"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18396"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18396"
+   "c1" : "18401"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18401"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18396] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18401] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18422"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18422"
+   "c1" : "18427"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18427"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18422] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18427] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18423"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18423"
+   "c1" : "18428"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18428"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18423] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18428] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18424"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18424"
+   "c1" : "18429"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18429"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18424] goto statement jump to start"
+ , "c3" : "QC-CPP000007[18429] goto statement jump to start"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18432"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18432"
+   "c1" : "18437"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18437"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18432] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18437] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18433"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18433"
+   "c1" : "18438"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18438"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18433] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18438] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18481"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18481"
+   "c1" : "18486"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18486"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18481] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18486] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18491"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18491"
+   "c1" : "18496"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18496"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18491] The expression peek applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "18493"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18493"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18493] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18497"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18497"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18497] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000011[18496] The expression peek applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -3502,13 +3488,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18501"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18501"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18501] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
    "c1" : "18502"
  , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18502"
  , "c2" : "MAJOR"
@@ -3516,178 +3495,185 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18517"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18517"
+   "c1" : "18503"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18503"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[18503] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18506"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18506"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[18506] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18507"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18507"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[18507] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18522"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18522"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18517] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18522] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18561"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18561"
+   "c1" : "18566"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18566"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18561] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18566] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18592"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18592"
+   "c1" : "18597"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18597"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18592] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18597] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18604"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18604"
+   "c1" : "18609"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18609"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18604] goto statement jump to start"
+ , "c3" : "QC-CPP000007[18609] goto statement jump to start"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18610"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18610"
+   "c1" : "18615"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18615"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18610] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18615] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18611"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18611"
+   "c1" : "18616"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18616"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18611] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18616] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18620"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18620"
+   "c1" : "18625"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18625"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18620] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18625] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18621"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18621"
+   "c1" : "18626"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18626"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18621] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18626] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18622"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18622"
+   "c1" : "18627"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18627"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18622] goto statement jump to start"
+ , "c3" : "QC-CPP000007[18627] goto statement jump to start"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18638"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18638"
+   "c1" : "18643"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18643"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18638] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18643] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18639"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18639"
+   "c1" : "18644"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18644"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18639] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18644] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18640"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18640"
+   "c1" : "18645"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18645"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18640] goto statement jump to start"
+ , "c3" : "QC-CPP000007[18645] goto statement jump to start"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18660"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18660"
+   "c1" : "18665"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18665"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18660] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18665] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18661"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18661"
+   "c1" : "18666"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18666"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18661] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18666] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18674"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18674"
+   "c1" : "18679"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18679"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18674] goto statement jump to start"
+ , "c3" : "QC-CPP000007[18679] goto statement jump to start"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18719"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18719"
+   "c1" : "18724"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18724"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18719] goto statement jump to start"
+ , "c3" : "QC-CPP000007[18724] goto statement jump to start"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18794"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18794"
+   "c1" : "18799"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18799"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18794] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18799] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18855"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18855"
+   "c1" : "18860"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18860"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18855] The expression clear applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18860] The expression clear applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18881"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18881"
+   "c1" : "18886"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18886"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18881] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18886] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18919"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18919"
+   "c1" : "18924"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18924"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18919] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18924] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18920"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18920"
+   "c1" : "18925"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18925"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18920] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18925] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18921"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18921"
+   "c1" : "18926"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18926"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18921] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18926] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18944"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18944"
+   "c1" : "18949"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18949"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18944] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18964"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18964"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18964] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18968"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18968"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18968] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18949] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -3698,136 +3684,150 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18971"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18971"
+   "c1" : "18973"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18973"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[18973] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18974"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18974"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[18974] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18976"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18976"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18971] The expression eivlen applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18976] The expression eivlen applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18972"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18972"
+   "c1" : "18977"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18977"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18972] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18977] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18999"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#18999"
+   "c1" : "19004"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19004"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18999] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19004] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19006"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19006"
+   "c1" : "19011"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19011"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19006] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19011] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19006"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19006"
+   "c1" : "19011"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19011"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19006] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19011] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19006"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19006"
+   "c1" : "19011"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19011"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19006] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19011] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19006"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19006"
+   "c1" : "19011"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19011"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19006] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19011] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19006"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19006"
+   "c1" : "19011"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19011"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19006] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19011] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19010"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19010"
+   "c1" : "19015"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19015"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19010] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19015] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19010"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19010"
+   "c1" : "19015"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19015"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19010] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19015] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19010"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19010"
+   "c1" : "19015"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19015"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19010] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19015] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19010"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19010"
+   "c1" : "19015"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19015"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19010] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19015] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19010"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19010"
+   "c1" : "19015"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19015"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19010] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19020"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19020"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19020] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19021"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19021"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19021] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19015] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "19025"
  , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19025"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19025] The expression create_empty_fragment applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19035"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19035"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19035] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19025] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19036"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19036"
+   "c1" : "19026"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19026"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19036] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19026] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19082"
- , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19082"
+   "c1" : "19030"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19030"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19082] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[19030] The expression create_empty_fragment applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19040"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19040"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[19040] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19041"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19041"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[19041] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19087"
+ , "c1link" : "./qc/ssl/record/rec_layer_d1.c.html#19087"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[19087] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

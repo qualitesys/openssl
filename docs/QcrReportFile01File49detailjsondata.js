@@ -3292,45 +3292,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09853"
- , "c1link" : "./qc/apps/pkeyparam.c.html#9853"
+   "c1" : "09858"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#9858"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09853] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09858] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09855"
- , "c1link" : "./qc/apps/pkeyparam.c.html#9855"
+   "c1" : "09860"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#9860"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09855] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09860] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10222"
- , "c1link" : "./qc/apps/pkeyparam.c.html#10222"
+   "c1" : "10227"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#10227"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10222] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10227] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10418"
- , "c1link" : "./qc/apps/pkeyparam.c.html#10418"
+   "c1" : "10423"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#10423"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10418] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10419"
- , "c1link" : "./qc/apps/pkeyparam.c.html#10419"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10419] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10420"
- , "c1link" : "./qc/apps/pkeyparam.c.html#10420"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10420] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10423] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -3341,17 +3327,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11010"
- , "c1link" : "./qc/apps/pkeyparam.c.html#11010"
+   "c1" : "10425"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#10425"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11010] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10425] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11012"
- , "c1link" : "./qc/apps/pkeyparam.c.html#11012"
+   "c1" : "10429"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#10429"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11012] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10429] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -3362,178 +3348,192 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11854"
- , "c1link" : "./qc/apps/pkeyparam.c.html#11854"
+   "c1" : "11017"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#11017"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11854] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11017] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13285"
- , "c1link" : "./qc/apps/pkeyparam.c.html#13285"
+   "c1" : "11020"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#11020"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13285] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11020] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13307"
- , "c1link" : "./qc/apps/pkeyparam.c.html#13307"
+   "c1" : "11859"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#11859"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13307] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11859] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13313"
- , "c1link" : "./qc/apps/pkeyparam.c.html#13313"
+   "c1" : "13290"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#13290"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13313] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13290] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13333"
- , "c1link" : "./qc/apps/pkeyparam.c.html#13333"
+   "c1" : "13312"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#13312"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13333] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13312] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13339"
- , "c1link" : "./qc/apps/pkeyparam.c.html#13339"
+   "c1" : "13318"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#13318"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13339] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13318] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14486"
- , "c1link" : "./qc/apps/pkeyparam.c.html#14486"
+   "c1" : "13338"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#13338"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14486] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13338] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14487"
- , "c1link" : "./qc/apps/pkeyparam.c.html#14487"
+   "c1" : "13344"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#13344"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14487] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13344] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17340"
- , "c1link" : "./qc/apps/pkeyparam.c.html#17340"
+   "c1" : "14491"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#14491"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17340] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14491] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17646"
- , "c1link" : "./qc/apps/pkeyparam.c.html#17646"
+   "c1" : "14492"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#14492"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17646] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14492] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17930"
- , "c1link" : "./qc/apps/pkeyparam.c.html#17930"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17930] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17934"
- , "c1link" : "./qc/apps/pkeyparam.c.html#17934"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[17934] The switch case refers to the jump label opthelp"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17936"
- , "c1link" : "./qc/apps/pkeyparam.c.html#17936"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17936] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17940"
- , "c1link" : "./qc/apps/pkeyparam.c.html#17940"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17940] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17961"
- , "c1link" : "./qc/apps/pkeyparam.c.html#17961"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17961] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17969"
- , "c1link" : "./qc/apps/pkeyparam.c.html#17969"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17969] goto statement jump to opthelp"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17977"
- , "c1link" : "./qc/apps/pkeyparam.c.html#17977"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17977] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17984"
- , "c1link" : "./qc/apps/pkeyparam.c.html#17984"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17984] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17997"
- , "c1link" : "./qc/apps/pkeyparam.c.html#17997"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17997] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18000"
- , "c1link" : "./qc/apps/pkeyparam.c.html#18000"
+   "c1" : "17345"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#17345"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18000] The expression check applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[17345] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18008"
- , "c1link" : "./qc/apps/pkeyparam.c.html#18008"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18008] goto statement jump to end"
+   "c1" : "17651"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#17651"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[17651] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18022"
- , "c1link" : "./qc/apps/pkeyparam.c.html#18022"
+   "c1" : "17935"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#17935"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18022] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17935] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17939"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#17939"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000010[17939] The switch case refers to the jump label opthelp"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17941"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#17941"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17941] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17945"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#17945"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17945] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17966"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#17966"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17966] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17974"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#17974"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17974] goto statement jump to opthelp"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17982"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#17982"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17982] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17989"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#17989"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17989] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18002"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#18002"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18002] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18005"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#18005"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[18005] The expression check applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "18013"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#18013"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18013] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
    "c1" : "18027"
  , "c1link" : "./qc/apps/pkeyparam.c.html#18027"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18027] goto statement jump to end"
+ , "c3" : "QC-CPPCWE481[18027] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18031"
- , "c1link" : "./qc/apps/pkeyparam.c.html#18031"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18031] The expression  ! noout applies to a single value or variable, might be ambiguous."
+   "c1" : "18032"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#18032"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18032] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18034"
- , "c1link" : "./qc/apps/pkeyparam.c.html#18034"
+   "c1" : "18036"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#18036"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18034] The expression text applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18036] The expression  ! noout applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "18039"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#18039"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[18039] The expression text applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };
