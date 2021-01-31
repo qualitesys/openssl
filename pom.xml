@@ -25,7 +25,12 @@
     <!-- Modif D.C. 2021 01 26
     <sonar.filecloneignore>crypto/;fuzz/;test/;providers/</sonar.filecloneignore>
     -->
+    <!-- Modif D.C. 2021 01 31 pb librairies copiees sont plusieurs noms 
+         Les */libfips-lib* sont differentes des /libcrypto-lib* et /libcrypto-shlib* qui elles sont identiques et proviennent des memes fichiers .c
+         Donc on ignore les */libfips-lib*
     <sonar.filecloneignore>fuzz/;test/;providers/</sonar.filecloneignore>
+    -->
+    <sonar.filecloneignore>fuzz/;test/;providers/;crypto/libfips;crypto/aes/libfips;crypto/bn/libfips;crypto/buffer/libfips;crypto/cmac/libfips;crypto/des/libfips;crypto/dh/libfips;crypto/dsa/libfips;crypto/ec/libfips;crypto/ec/curve448/libfips;crypto/ec/curve448/arch_32/libfips;crypto/evp/libfips;crypto/ffc/libfips;crypto/hmac/libfips;crypto/modes/libfips;crypto/property/libfips;crypto/rand/libfips;crypto/rsa/libfips;crypto/sha/libfips;crypto/stack/libfips;</sonar.filecloneignore>
     <!-- Modif D.C. 2020 12 26 pour rapidite, pas besoin de fichiers .lin -->
     <!-- Modif D.C. 2021 01 10 en comm, necessaire pour schema d archi Reporting02 -->
     <!-- Modif D.C. 2021 01 30 remis -->
