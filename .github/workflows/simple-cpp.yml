@@ -34,6 +34,15 @@ jobs:
       run: mvn qcr:qcrgoalcompile
     - name: disk usage
       run: du
+    - name: rm  test
+      run: |
+          rm -rf test
+    - name: rm  target
+      run: |
+          rm -rf target
+    - name: rm  doc
+      run: |
+          rm -rf doc
     - name: Run maven site
       run: mvn site
     - name: ls -l
