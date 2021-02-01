@@ -337,7 +337,7 @@ This example is for setting parameters on some object:
     size_t foo_l = strlen(foo) + 1;
     const char bar[] = "some other string";
     const OSSL_PARAM set[] = {
-        OSSL_PARAM_utf8_ptr("foo", foo, foo_l),
+        OSSL_PARAM_utf8_ptr("foo", &foo, foo_l),
         OSSL_PARAM_utf8_string("bar", bar, sizeof(bar)),
         OSSL_PARAM_END
     };
@@ -351,7 +351,7 @@ available parameters:
     const char *foo = NULL;
     char bar[1024];
     OSSL_PARAM request[] = {
-        OSSL_PARAM_utf8_ptr("foo", foo, 0),
+        OSSL_PARAM_utf8_ptr("foo", &foo, 0),
         OSSL_PARAM_utf8_string("bar", bar, sizeof(bar)),
         OSSL_PARAM_END
     };
@@ -380,7 +380,7 @@ These APIs were introduced in OpenSSL 3.0.
 
 =head1 COPYRIGHT
 
-Copyright 2019-2020 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2019-2021 The OpenSSL Project Authors. All Rights Reserved.
 
 Licensed under the Apache License 2.0 (the "License").  You may not use
 this file except in compliance with the License.  You can obtain a copy

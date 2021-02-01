@@ -1,5 +1,5 @@
 /*
- * Copyright 2017-2020 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2017-2021 The OpenSSL Project Authors. All Rights Reserved.
  * Copyright 2017 Ribose Inc. All Rights Reserved.
  * Ported from Ribose contributions from Botan.
  *
@@ -16,6 +16,7 @@
 # ifndef OPENSSL_NO_SM2
 
 #  include <openssl/ec.h>
+#  include "crypto/types.h"
 
 int sm2_key_private_check(const EC_KEY *eckey);
 

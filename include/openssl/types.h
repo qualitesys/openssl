@@ -1,5 +1,5 @@
 /*
- * Copyright 2001-2020 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2001-2021 The OpenSSL Project Authors. All Rights Reserved.
  *
  * Licensed under the Apache License 2.0 (the "License").  You may not use
  * this file except in compliance with the License.  You can obtain a copy
@@ -144,8 +144,10 @@ typedef struct rsa_meth_st RSA_METHOD;
 # endif
 typedef struct rsa_pss_params_st RSA_PSS_PARAMS;
 
+# ifndef OPENSSL_NO_DEPRECATED_3_0
 typedef struct ec_key_st EC_KEY;
 typedef struct ec_key_method_st EC_KEY_METHOD;
+# endif
 
 typedef struct rand_meth_st RAND_METHOD;
 typedef struct rand_drbg_st RAND_DRBG;

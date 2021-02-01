@@ -1,5 +1,5 @@
 /*
- * Copyright 2015-2020 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2015-2021 The OpenSSL Project Authors. All Rights Reserved.
  *
  * Licensed under the Apache License 2.0 (the "License").  You may not use
  * this file except in compliance with the License.  You can obtain a copy
@@ -388,6 +388,20 @@ int opt_pair(const char *name, const OPT_PAIR* pairs, int *result)
     opt_printf_stderr("%s: Value must be one of:\n", prog);
     for (pp = pairs; pp->name; pp++)
         opt_printf_stderr("\t%s\n", pp->name);
+    return 0;
+}
+
+/* Look through a list of valid names */
+int opt_string(const char *name, const char **options)
+{
+    const char **p;
+
+    for (p = options; *p != NULL; p++)
+        if (strcmp(*p, name) == 0)
+            return 1;
+    opt_printf_stderr("%s: Value must be one of:\n", prog);
+    for (p = options; *p != NULL; p++)
+        opt_printf_stderr("\t%s\n", *p);
     return 0;
 }
 
