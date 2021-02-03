@@ -44,7 +44,7 @@ jobs:
       run: |
           rm -rf doc
     - name: Run maven site
-      run: mvn site
+      run: mvn site -Dsonar.reporting01nodocgeneration=yes
     - name: ls -l
       run: ls -l
     - name: Suppr des fichier .c.xml
