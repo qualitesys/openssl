@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html" 
- , "texte" : "File ssl/statem/libssl-shlib-statem_lib.c 75 rule violations " 
- , "fic2"  : "./qc/ssl/statem/libssl-shlib-statem_lib.c.xml" 
+   "fic1"  : "./qc/crypto/bn/bn_asm.c.html" 
+ , "texte" : "File crypto/bn/bn_asm.c 388 rule violations " 
+ , "fic2"  : "./qc/crypto/bn/bn_asm.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -11,3243 +11,6 @@ var maDataBlocs = {
 ]
 , 
 "data02" : [
-{ "classe" : 
- { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
-{ "ligne" : {
-   "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "bcopy(void*;void*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "bzero(void*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "memcpy(void*;void*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "memmove(void*;void*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "memset(void*;int;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "explicit_bzero(void*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " char "
- , "c2" : "strcpy(char*;char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " char "
- , "c2" : "strncpy(char*;char*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " char "
- , "c2" : "stpncpy(char*;char*;size_t)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : " char "
- , "c2" : "strcat(char*;char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " char "
- , "c2" : "strncat(char*;char*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "getchar(void)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "fgetc_unlocked(FILE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "getc_unlocked(FILE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "getchar_unlocked(void)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "putchar(int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "fputc_unlocked(int;FILE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "putc_unlocked(int;FILE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "putchar_unlocked(int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "feof_unlocked(FILE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "ferror_unlocked(FILE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "sprintf(char*;char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "vsprintf(char*;char*;__gnuc_va_list)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "snprintf(char*;size_t;char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "vsnprintf(char*;size_t;char*;__gnuc_va_list)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "fprintf(FILE*;char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "printf(char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "vprintf(char*;__gnuc_va_list)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "vfprintf(FILE*;char*;__gnuc_va_list)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "dprintf(int;char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "vdprintf(int;char*;__gnuc_va_list)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " char "
- , "c2" : "fgets(char*;int;FILE*)"
- , "c3" : "4"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : "size_t"
- , "c2" : "fread(void*;size_t;size_t;FILE*)"
- , "c3" : "4"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : "size_t"
- , "c2" : "fread_unlocked(void*;size_t;size_t;FILE*)"
- , "c3" : "8"
- , "c4" : "12"
-}} 
-,
-{ "ligne" : {
-   "c1" : "intmax_t"
- , "c2" : "strtoimax(char*;char*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "uintmax_t"
- , "c2" : "strtoumax(char*;char*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "intmax_t"
- , "c2" : "wcstoimax(__gwchar_t*;__gwchar_t*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "uintmax_t"
- , "c2" : "wcstoumax(__gwchar_t*;__gwchar_t*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "atoi(char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "atol(char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "atoll(char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " unsigned  int "
- , "c2" : "__bswap_32(unsignedint)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "__uint64_t"
- , "c2" : "__bswap_64(__uint64_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "__uint16_t"
- , "c2" : "__uint16_identity(__uint16_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "__uint32_t"
- , "c2" : "__uint32_identity(__uint32_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "__uint64_t"
- , "c2" : "__uint64_identity(__uint64_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " unsigned  int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "gnu_dev_major(__dev_t)"
- , "c3" : "1"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : {
-   "c1" : " unsigned  int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "gnu_dev_minor(__dev_t)"
- , "c3" : "1"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : {
-   "c1" : "__dev_t"
- , "c2" : "gnu_dev_makedev(unsignedint;unsignedint)"
- , "c3" : "1"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "bsearch(void*;void*;size_t;size_t;__compar_fn_t)"
- , "c3" : "6"
- , "c4" : "12"
-}} 
-,
-{ "ligne" : {
-   "c1" : " double  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "atof(char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " char "
- , "c2" : "realpath(char*;char*)"
- , "c3" : "3"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "ptsname_r(int;char*;size_t)"
- , "c3" : "4"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "wctomb(char*;wchar_t)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : "size_t"
- , "c2" : "mbstowcs(wchar_t*;char*;size_t)"
- , "c3" : "4"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : "size_t"
- , "c2" : "wcstombs(char*;wchar_t*;size_t)"
- , "c3" : "4"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " char "
- , "c2" : "ossl_check_OPENSSL_STRING_type(char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_OPENSSL_STRING_sk_type(structstack_st_OPENSSL_STRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_OPENSSL_STRING_sk_type(structstack_st_OPENSSL_STRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_OPENSSL_STRING_compfunc_type(sk_OPENSSL_STRING_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_OPENSSL_STRING_copyfunc_type(sk_OPENSSL_STRING_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_OPENSSL_STRING_freefunc_type(sk_OPENSSL_STRING_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " char "
- , "c2" : "ossl_check_OPENSSL_CSTRING_type(char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_OPENSSL_CSTRING_sk_type(structstack_st_OPENSSL_CSTRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_OPENSSL_CSTRING_sk_type(structstack_st_OPENSSL_CSTRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_OPENSSL_CSTRING_compfunc_type(sk_OPENSSL_CSTRING_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_OPENSSL_CSTRING_copyfunc_type(sk_OPENSSL_CSTRING_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_OPENSSL_CSTRING_freefunc_type(sk_OPENSSL_CSTRING_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "ossl_check_OPENSSL_BLOCK_type(void*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_OPENSSL_BLOCK_compfunc_type(sk_OPENSSL_BLOCK_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_OPENSSL_BLOCK_copyfunc_type(sk_OPENSSL_BLOCK_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_OPENSSL_BLOCK_freefunc_type(sk_OPENSSL_BLOCK_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "ossl_check_void_type(void*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_void_sk_type(structstack_st_void*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_void_sk_type(structstack_st_void*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_void_compfunc_type(sk_void_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_void_copyfunc_type(sk_void_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_void_freefunc_type(sk_void_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "pthread_equal(pthread_t;pthread_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "ssize_t"
- , "c2" : "read(int;void*;size_t)"
- , "c3" : "4"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : "ssize_t"
- , "c2" : "readlink(char*;char*;size_t)"
- , "c3" : "4"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : "ssize_t"
- , "c2" : "readlinkat(int;char*;char*;size_t)"
- , "c3" : "4"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " char "
- , "c2" : "getcwd(char*;size_t)"
- , "c3" : "4"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " char "
- , "c2" : "getwd(char*)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : "size_t"
- , "c2" : "confstr(int;char*;size_t)"
- , "c3" : "4"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "getgroups(int;__gid_t)"
- , "c3" : "4"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "ttyname_r(int;char*;size_t)"
- , "c3" : "4"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "getlogin_r(char*;size_t)"
- , "c3" : "4"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "gethostname(char*;size_t)"
- , "c3" : "4"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "getdomainname(char*;size_t)"
- , "c3" : "4"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : "BIO"
- , "c2" : "ossl_check_BIO_type(BIO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_BIO_sk_type(structstack_st_BIO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_BIO_sk_type(structstack_st_BIO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_BIO_compfunc_type(sk_BIO_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_BIO_copyfunc_type(sk_BIO_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_BIO_freefunc_type(sk_BIO_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "X509_ALGOR"
- , "c2" : "ossl_check_X509_ALGOR_type(X509_ALGOR*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_X509_ALGOR_sk_type(structstack_st_X509_ALGOR*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_X509_ALGOR_sk_type(structstack_st_X509_ALGOR*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_X509_ALGOR_compfunc_type(sk_X509_ALGOR_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_X509_ALGOR_copyfunc_type(sk_X509_ALGOR_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_X509_ALGOR_freefunc_type(sk_X509_ALGOR_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "ASN1_STRING_TABLE"
- , "c2" : "ossl_check_ASN1_STRING_TABLE_type(ASN1_STRING_TABLE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_ASN1_STRING_TABLE_sk_type(structstack_st_ASN1_STRING_TABLE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_ASN1_STRING_TABLE_sk_type(structstack_st_ASN1_STRING_TABLE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_ASN1_STRING_TABLE_compfunc_type(sk_ASN1_STRING_TABLE_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_ASN1_STRING_TABLE_copyfunc_type(sk_ASN1_STRING_TABLE_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_ASN1_STRING_TABLE_freefunc_type(sk_ASN1_STRING_TABLE_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "ASN1_TYPE"
- , "c2" : "ossl_check_ASN1_TYPE_type(ASN1_TYPE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_ASN1_TYPE_sk_type(structstack_st_ASN1_TYPE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_ASN1_TYPE_sk_type(structstack_st_ASN1_TYPE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_ASN1_TYPE_compfunc_type(sk_ASN1_TYPE_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_ASN1_TYPE_copyfunc_type(sk_ASN1_TYPE_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_ASN1_TYPE_freefunc_type(sk_ASN1_TYPE_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "ASN1_OBJECT"
- , "c2" : "ossl_check_ASN1_OBJECT_type(ASN1_OBJECT*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_ASN1_OBJECT_sk_type(structstack_st_ASN1_OBJECT*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_ASN1_OBJECT_sk_type(structstack_st_ASN1_OBJECT*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_ASN1_OBJECT_compfunc_type(sk_ASN1_OBJECT_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_ASN1_OBJECT_copyfunc_type(sk_ASN1_OBJECT_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_ASN1_OBJECT_freefunc_type(sk_ASN1_OBJECT_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "ASN1_INTEGER"
- , "c2" : "ossl_check_ASN1_INTEGER_type(ASN1_INTEGER*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_ASN1_INTEGER_sk_type(structstack_st_ASN1_INTEGER*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_ASN1_INTEGER_sk_type(structstack_st_ASN1_INTEGER*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_ASN1_INTEGER_compfunc_type(sk_ASN1_INTEGER_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_ASN1_INTEGER_copyfunc_type(sk_ASN1_INTEGER_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_ASN1_INTEGER_freefunc_type(sk_ASN1_INTEGER_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "ASN1_UTF8STRING"
- , "c2" : "ossl_check_ASN1_UTF8STRING_type(ASN1_UTF8STRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_ASN1_UTF8STRING_sk_type(structstack_st_ASN1_UTF8STRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_ASN1_UTF8STRING_sk_type(structstack_st_ASN1_UTF8STRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_ASN1_UTF8STRING_compfunc_type(sk_ASN1_UTF8STRING_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_ASN1_UTF8STRING_copyfunc_type(sk_ASN1_UTF8STRING_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_ASN1_UTF8STRING_freefunc_type(sk_ASN1_UTF8STRING_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "ASN1_GENERALSTRING"
- , "c2" : "ossl_check_ASN1_GENERALSTRING_type(ASN1_GENERALSTRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_ASN1_GENERALSTRING_sk_type(structstack_st_ASN1_GENERALSTRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_ASN1_GENERALSTRING_sk_type(structstack_st_ASN1_GENERALSTRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_ASN1_GENERALSTRING_compfunc_type(sk_ASN1_GENERALSTRING_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_ASN1_GENERALSTRING_copyfunc_type(sk_ASN1_GENERALSTRING_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_ASN1_GENERALSTRING_freefunc_type(sk_ASN1_GENERALSTRING_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STRING"
- , "c2" : "ossl_check_OPENSSL_STRING_lh_plain_type(OPENSSL_STRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STRING"
- , "c2" : "ossl_check_const_OPENSSL_STRING_lh_plain_type(OPENSSL_STRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LHASH"
- , "c2" : "ossl_check_const_OPENSSL_STRING_lh_type(structlhash_st_OPENSSL_STRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LHASH"
- , "c2" : "ossl_check_OPENSSL_STRING_lh_type(structlhash_st_OPENSSL_STRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LH_COMPFUNC"
- , "c2" : "ossl_check_OPENSSL_STRING_lh_compfunc_type(lh_OPENSSL_STRING_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LH_HASHFUNC"
- , "c2" : "ossl_check_OPENSSL_STRING_lh_hashfunc_type(lh_OPENSSL_STRING_hashfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LH_DOALL_FUNC"
- , "c2" : "ossl_check_OPENSSL_STRING_lh_doallfunc_type(lh_OPENSSL_STRING_doallfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_CSTRING"
- , "c2" : "ossl_check_OPENSSL_CSTRING_lh_plain_type(OPENSSL_CSTRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_CSTRING"
- , "c2" : "ossl_check_const_OPENSSL_CSTRING_lh_plain_type(OPENSSL_CSTRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LHASH"
- , "c2" : "ossl_check_const_OPENSSL_CSTRING_lh_type(structlhash_st_OPENSSL_CSTRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LHASH"
- , "c2" : "ossl_check_OPENSSL_CSTRING_lh_type(structlhash_st_OPENSSL_CSTRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LH_COMPFUNC"
- , "c2" : "ossl_check_OPENSSL_CSTRING_lh_compfunc_type(lh_OPENSSL_CSTRING_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LH_HASHFUNC"
- , "c2" : "ossl_check_OPENSSL_CSTRING_lh_hashfunc_type(lh_OPENSSL_CSTRING_hashfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LH_DOALL_FUNC"
- , "c2" : "ossl_check_OPENSSL_CSTRING_lh_doallfunc_type(lh_OPENSSL_CSTRING_doallfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ERR_GET_LIB(unsignedlong)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ERR_GET_FUNC(unsignedlong)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ERR_GET_REASON(unsignedlong)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "ERR_STRING_DATA"
- , "c2" : "ossl_check_ERR_STRING_DATA_lh_plain_type(ERR_STRING_DATA*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "ERR_STRING_DATA"
- , "c2" : "ossl_check_const_ERR_STRING_DATA_lh_plain_type(ERR_STRING_DATA*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LHASH"
- , "c2" : "ossl_check_const_ERR_STRING_DATA_lh_type(structlhash_st_ERR_STRING_DATA*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LHASH"
- , "c2" : "ossl_check_ERR_STRING_DATA_lh_type(structlhash_st_ERR_STRING_DATA*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LH_COMPFUNC"
- , "c2" : "ossl_check_ERR_STRING_DATA_lh_compfunc_type(lh_ERR_STRING_DATA_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LH_HASHFUNC"
- , "c2" : "ossl_check_ERR_STRING_DATA_lh_hashfunc_type(lh_ERR_STRING_DATA_hashfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_LH_DOALL_FUNC"
- , "c2" : "ossl_check_ERR_STRING_DATA_lh_doallfunc_type(lh_ERR_STRING_DATA_doallfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "X509_NAME"
- , "c2" : "ossl_check_X509_NAME_type(X509_NAME*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_X509_NAME_sk_type(structstack_st_X509_NAME*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_X509_NAME_sk_type(structstack_st_X509_NAME*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_X509_NAME_compfunc_type(sk_X509_NAME_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_X509_NAME_copyfunc_type(sk_X509_NAME_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_X509_NAME_freefunc_type(sk_X509_NAME_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "X509"
- , "c2" : "ossl_check_X509_type(X509*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_X509_sk_type(structstack_st_X509*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_X509_sk_type(structstack_st_X509*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_X509_compfunc_type(sk_X509_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_X509_copyfunc_type(sk_X509_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_X509_freefunc_type(sk_X509_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "X509_REVOKED"
- , "c2" : "ossl_check_X509_REVOKED_type(X509_REVOKED*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_X509_REVOKED_sk_type(structstack_st_X509_REVOKED*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_X509_REVOKED_sk_type(structstack_st_X509_REVOKED*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_X509_REVOKED_compfunc_type(sk_X509_REVOKED_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_X509_REVOKED_copyfunc_type(sk_X509_REVOKED_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_X509_REVOKED_freefunc_type(sk_X509_REVOKED_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "X509_CRL"
- , "c2" : "ossl_check_X509_CRL_type(X509_CRL*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_X509_CRL_sk_type(structstack_st_X509_CRL*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_X509_CRL_sk_type(structstack_st_X509_CRL*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_X509_CRL_compfunc_type(sk_X509_CRL_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_X509_CRL_copyfunc_type(sk_X509_CRL_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_X509_CRL_freefunc_type(sk_X509_CRL_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "X509_NAME_ENTRY"
- , "c2" : "ossl_check_X509_NAME_ENTRY_type(X509_NAME_ENTRY*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_X509_NAME_ENTRY_sk_type(structstack_st_X509_NAME_ENTRY*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_X509_NAME_ENTRY_sk_type(structstack_st_X509_NAME_ENTRY*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_X509_NAME_ENTRY_compfunc_type(sk_X509_NAME_ENTRY_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_X509_NAME_ENTRY_copyfunc_type(sk_X509_NAME_ENTRY_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_X509_NAME_ENTRY_freefunc_type(sk_X509_NAME_ENTRY_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "X509_EXTENSION"
- , "c2" : "ossl_check_X509_EXTENSION_type(X509_EXTENSION*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_X509_EXTENSION_sk_type(structstack_st_X509_EXTENSION*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_X509_EXTENSION_sk_type(structstack_st_X509_EXTENSION*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_X509_EXTENSION_compfunc_type(sk_X509_EXTENSION_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_X509_EXTENSION_copyfunc_type(sk_X509_EXTENSION_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_X509_EXTENSION_freefunc_type(sk_X509_EXTENSION_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "X509_ATTRIBUTE"
- , "c2" : "ossl_check_X509_ATTRIBUTE_type(X509_ATTRIBUTE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_X509_ATTRIBUTE_sk_type(structstack_st_X509_ATTRIBUTE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_X509_ATTRIBUTE_sk_type(structstack_st_X509_ATTRIBUTE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_X509_ATTRIBUTE_compfunc_type(sk_X509_ATTRIBUTE_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_X509_ATTRIBUTE_copyfunc_type(sk_X509_ATTRIBUTE_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_X509_ATTRIBUTE_freefunc_type(sk_X509_ATTRIBUTE_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "X509_TRUST"
- , "c2" : "ossl_check_X509_TRUST_type(X509_TRUST*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_X509_TRUST_sk_type(structstack_st_X509_TRUST*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_X509_TRUST_sk_type(structstack_st_X509_TRUST*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_X509_TRUST_compfunc_type(sk_X509_TRUST_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_X509_TRUST_copyfunc_type(sk_X509_TRUST_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_X509_TRUST_freefunc_type(sk_X509_TRUST_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "X509_INFO"
- , "c2" : "ossl_check_X509_INFO_type(X509_INFO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_X509_INFO_sk_type(structstack_st_X509_INFO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_X509_INFO_sk_type(structstack_st_X509_INFO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_X509_INFO_compfunc_type(sk_X509_INFO_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_X509_INFO_copyfunc_type(sk_X509_INFO_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_X509_INFO_freefunc_type(sk_X509_INFO_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "X509_LOOKUP"
- , "c2" : "ossl_check_X509_LOOKUP_type(X509_LOOKUP*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_X509_LOOKUP_sk_type(structstack_st_X509_LOOKUP*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_X509_LOOKUP_sk_type(structstack_st_X509_LOOKUP*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_X509_LOOKUP_compfunc_type(sk_X509_LOOKUP_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_X509_LOOKUP_copyfunc_type(sk_X509_LOOKUP_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_X509_LOOKUP_freefunc_type(sk_X509_LOOKUP_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "X509_OBJECT"
- , "c2" : "ossl_check_X509_OBJECT_type(X509_OBJECT*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_X509_OBJECT_sk_type(structstack_st_X509_OBJECT*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_X509_OBJECT_sk_type(structstack_st_X509_OBJECT*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_X509_OBJECT_compfunc_type(sk_X509_OBJECT_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_X509_OBJECT_copyfunc_type(sk_X509_OBJECT_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_X509_OBJECT_freefunc_type(sk_X509_OBJECT_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "X509_VERIFY_PARAM"
- , "c2" : "ossl_check_X509_VERIFY_PARAM_type(X509_VERIFY_PARAM*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_X509_VERIFY_PARAM_sk_type(structstack_st_X509_VERIFY_PARAM*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_X509_VERIFY_PARAM_sk_type(structstack_st_X509_VERIFY_PARAM*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_X509_VERIFY_PARAM_compfunc_type(sk_X509_VERIFY_PARAM_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_X509_VERIFY_PARAM_copyfunc_type(sk_X509_VERIFY_PARAM_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_X509_VERIFY_PARAM_freefunc_type(sk_X509_VERIFY_PARAM_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "PKCS7_SIGNER_INFO"
- , "c2" : "ossl_check_PKCS7_SIGNER_INFO_type(PKCS7_SIGNER_INFO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_PKCS7_SIGNER_INFO_sk_type(structstack_st_PKCS7_SIGNER_INFO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_PKCS7_SIGNER_INFO_sk_type(structstack_st_PKCS7_SIGNER_INFO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_PKCS7_SIGNER_INFO_compfunc_type(sk_PKCS7_SIGNER_INFO_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_PKCS7_SIGNER_INFO_copyfunc_type(sk_PKCS7_SIGNER_INFO_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_PKCS7_SIGNER_INFO_freefunc_type(sk_PKCS7_SIGNER_INFO_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "PKCS7_RECIP_INFO"
- , "c2" : "ossl_check_PKCS7_RECIP_INFO_type(PKCS7_RECIP_INFO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_PKCS7_RECIP_INFO_sk_type(structstack_st_PKCS7_RECIP_INFO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_PKCS7_RECIP_INFO_sk_type(structstack_st_PKCS7_RECIP_INFO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_PKCS7_RECIP_INFO_compfunc_type(sk_PKCS7_RECIP_INFO_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_PKCS7_RECIP_INFO_copyfunc_type(sk_PKCS7_RECIP_INFO_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_PKCS7_RECIP_INFO_freefunc_type(sk_PKCS7_RECIP_INFO_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "PKCS7"
- , "c2" : "ossl_check_PKCS7_type(PKCS7*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_PKCS7_sk_type(structstack_st_PKCS7*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_PKCS7_sk_type(structstack_st_PKCS7*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_PKCS7_compfunc_type(sk_PKCS7_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_PKCS7_copyfunc_type(sk_PKCS7_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_PKCS7_freefunc_type(sk_PKCS7_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "SCT"
- , "c2" : "ossl_check_SCT_type(SCT*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_SCT_sk_type(structstack_st_SCT*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_SCT_sk_type(structstack_st_SCT*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_SCT_compfunc_type(sk_SCT_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_SCT_copyfunc_type(sk_SCT_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_SCT_freefunc_type(sk_SCT_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "CTLOG"
- , "c2" : "ossl_check_CTLOG_type(CTLOG*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_CTLOG_sk_type(structstack_st_CTLOG*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_CTLOG_sk_type(structstack_st_CTLOG*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_CTLOG_compfunc_type(sk_CTLOG_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_CTLOG_copyfunc_type(sk_CTLOG_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_CTLOG_freefunc_type(sk_CTLOG_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "SRTP_PROTECTION_PROFILE"
- , "c2" : "ossl_check_SRTP_PROTECTION_PROFILE_type(SRTP_PROTECTION_PROFILE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_SRTP_PROTECTION_PROFILE_sk_type(structstack_st_SRTP_PROTECTION_PROFILE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_SRTP_PROTECTION_PROFILE_sk_type(structstack_st_SRTP_PROTECTION_PROFILE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_SRTP_PROTECTION_PROFILE_compfunc_type(sk_SRTP_PROTECTION_PROFILE_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_SRTP_PROTECTION_PROFILE_copyfunc_type(sk_SRTP_PROTECTION_PROFILE_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_SRTP_PROTECTION_PROFILE_freefunc_type(sk_SRTP_PROTECTION_PROFILE_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "SSL_CIPHER"
- , "c2" : "ossl_check_SSL_CIPHER_type(SSL_CIPHER*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_SSL_CIPHER_sk_type(structstack_st_SSL_CIPHER*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_SSL_CIPHER_sk_type(structstack_st_SSL_CIPHER*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_SSL_CIPHER_compfunc_type(sk_SSL_CIPHER_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_SSL_CIPHER_copyfunc_type(sk_SSL_CIPHER_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_SSL_CIPHER_freefunc_type(sk_SSL_CIPHER_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "SSL_COMP"
- , "c2" : "ossl_check_SSL_COMP_type(SSL_COMP*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_SSL_COMP_sk_type(structstack_st_SSL_COMP*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_SSL_COMP_sk_type(structstack_st_SSL_COMP*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_SSL_COMP_compfunc_type(sk_SSL_COMP_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_SSL_COMP_copyfunc_type(sk_SSL_COMP_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_SSL_COMP_freefunc_type(sk_SSL_COMP_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "packet_forward(PACKET*;size_t)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : "size_t"
- , "c2" : "PACKET_remaining(PACKET*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " unsigned  char "
- , "c2" : "PACKET_end(PACKET*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " unsigned  char "
- , "c2" : "PACKET_data(PACKET*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_buf_init(PACKET*;unsignedchar*;size_t)"
- , "c3" : "2"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "PACKET_null_init(PACKET*)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_equal(PACKET*;void*;size_t)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_peek_sub_packet(PACKET*;PACKET*;size_t)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_get_sub_packet(PACKET*;PACKET*;size_t)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_peek_net_2(PACKET*;unsignedint*)"
- , "c3" : "2"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_get_net_2(PACKET*;unsignedint*)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_get_net_2_len(PACKET*;size_t*)"
- , "c3" : "2"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_peek_net_3(PACKET*;unsignedlong*)"
- , "c3" : "2"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_get_net_3(PACKET*;unsignedlong*)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_get_net_3_len(PACKET*;size_t*)"
- , "c3" : "2"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_peek_net_4(PACKET*;unsignedlong*)"
- , "c3" : "2"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_get_net_4(PACKET*;unsignedlong*)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_get_net_4_len(PACKET*;size_t*)"
- , "c3" : "2"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_peek_1(PACKET*;unsignedint*)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_get_1(PACKET*;unsignedint*)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_get_1_len(PACKET*;size_t*)"
- , "c3" : "2"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_peek_4(PACKET*;unsignedlong*)"
- , "c3" : "2"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_get_4(PACKET*;unsignedlong*)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_peek_bytes(PACKET*;unsignedchar*;size_t)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_get_bytes(PACKET*;unsignedchar*;size_t)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_peek_copy_bytes(PACKET*;unsignedchar*;size_t)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_copy_bytes(PACKET*;unsignedchar*;size_t)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_copy_all(PACKET*;unsignedchar*;size_t;size_t*)"
- , "c3" : "2"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_memdup(PACKET*;unsignedchar*;size_t*)"
- , "c3" : "3"
- , "c4" : "10"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_strndup(PACKET*;char*)"
- , "c3" : "1"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_contains_zero_byte(PACKET*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_forward(PACKET*;size_t)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_get_length_prefixed_1(PACKET*;PACKET*)"
- , "c3" : "2"
- , "c4" : "8"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_as_length_prefixed_1(PACKET*;PACKET*)"
- , "c3" : "2"
- , "c4" : "8"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_get_length_prefixed_2(PACKET*;PACKET*)"
- , "c3" : "2"
- , "c4" : "8"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_as_length_prefixed_2(PACKET*;PACKET*)"
- , "c3" : "2"
- , "c4" : "8"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "PACKET_get_length_prefixed_3(PACKET*;PACKET*)"
- , "c3" : "2"
- , "c4" : "8"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "sk_danetls_record_num(structstack_st_danetls_record*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "danetls_record"
- , "c2" : "sk_danetls_record_value(structstack_st_danetls_record*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " struct stack_st_danetls_record"
- , "c2" : "sk_danetls_record_new(sk_danetls_record_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " struct stack_st_danetls_record"
- , "c2" : "sk_danetls_record_new_null(void)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " struct stack_st_danetls_record"
- , "c2" : "sk_danetls_record_new_reserve(sk_danetls_record_compfunc;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "sk_danetls_record_reserve(structstack_st_danetls_record*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "sk_danetls_record_free(structstack_st_danetls_record*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "sk_danetls_record_zero(structstack_st_danetls_record*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "danetls_record"
- , "c2" : "sk_danetls_record_delete(structstack_st_danetls_record*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "danetls_record"
- , "c2" : "sk_danetls_record_delete_ptr(structstack_st_danetls_record*;danetls_record*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "sk_danetls_record_push(structstack_st_danetls_record*;danetls_record*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "sk_danetls_record_unshift(structstack_st_danetls_record*;danetls_record*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "danetls_record"
- , "c2" : "sk_danetls_record_pop(structstack_st_danetls_record*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "danetls_record"
- , "c2" : "sk_danetls_record_shift(structstack_st_danetls_record*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "sk_danetls_record_pop_free(structstack_st_danetls_record*;sk_danetls_record_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "sk_danetls_record_insert(structstack_st_danetls_record*;danetls_record*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "danetls_record"
- , "c2" : "sk_danetls_record_set(structstack_st_danetls_record*;int;danetls_record*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "sk_danetls_record_find(structstack_st_danetls_record*;danetls_record*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "sk_danetls_record_find_ex(structstack_st_danetls_record*;danetls_record*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "sk_danetls_record_sort(structstack_st_danetls_record*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "sk_danetls_record_is_sorted(structstack_st_danetls_record*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " struct stack_st_danetls_record"
- , "c2" : "sk_danetls_record_dup(structstack_st_danetls_record*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " struct stack_st_danetls_record"
- , "c2" : "sk_danetls_record_deep_copy(structstack_st_danetls_record*;sk_danetls_record_copyfunc;sk_danetls_record_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "sk_danetls_record_compfunc"
- , "c2" : "sk_danetls_record_set_cmp_func(structstack_st_danetls_record*;sk_danetls_record_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "CRYPTO_UP_REF(int*;int*;void*)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "CRYPTO_DOWN_REF(int*;int*;void*)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " struct lhash_st_SSL_SESSION"
- , "c2" : "lh_SSL_SESSION_new(unsignedlong;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_SSL_SESSION_free(structlhash_st_SSL_SESSION*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_SSL_SESSION_flush(structlhash_st_SSL_SESSION*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "SSL_SESSION"
- , "c2" : "lh_SSL_SESSION_insert(structlhash_st_SSL_SESSION*;SSL_SESSION*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "SSL_SESSION"
- , "c2" : "lh_SSL_SESSION_delete(structlhash_st_SSL_SESSION*;SSL_SESSION*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "SSL_SESSION"
- , "c2" : "lh_SSL_SESSION_retrieve(structlhash_st_SSL_SESSION*;SSL_SESSION*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "lh_SSL_SESSION_error(structlhash_st_SSL_SESSION*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " unsigned  long "
- , "c2" : "lh_SSL_SESSION_num_items(structlhash_st_SSL_SESSION*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_SSL_SESSION_node_stats_bio(structlhash_st_SSL_SESSION*;BIO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_SSL_SESSION_node_usage_stats_bio(structlhash_st_SSL_SESSION*;BIO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_SSL_SESSION_stats_bio(structlhash_st_SSL_SESSION*;BIO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " unsigned  long "
- , "c2" : "lh_SSL_SESSION_get_down_load(structlhash_st_SSL_SESSION*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_SSL_SESSION_set_down_load(structlhash_st_SSL_SESSION*;unsignedlong)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_SSL_SESSION_doall(structlhash_st_SSL_SESSION*;void)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " struct lhash_st_X509_NAME"
- , "c2" : "lh_X509_NAME_new(unsignedlong;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_X509_NAME_free(structlhash_st_X509_NAME*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_X509_NAME_flush(structlhash_st_X509_NAME*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "X509_NAME"
- , "c2" : "lh_X509_NAME_insert(structlhash_st_X509_NAME*;X509_NAME*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "X509_NAME"
- , "c2" : "lh_X509_NAME_delete(structlhash_st_X509_NAME*;X509_NAME*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "X509_NAME"
- , "c2" : "lh_X509_NAME_retrieve(structlhash_st_X509_NAME*;X509_NAME*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "lh_X509_NAME_error(structlhash_st_X509_NAME*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " unsigned  long "
- , "c2" : "lh_X509_NAME_num_items(structlhash_st_X509_NAME*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_X509_NAME_node_stats_bio(structlhash_st_X509_NAME*;BIO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_X509_NAME_node_usage_stats_bio(structlhash_st_X509_NAME*;BIO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_X509_NAME_stats_bio(structlhash_st_X509_NAME*;BIO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " unsigned  long "
- , "c2" : "lh_X509_NAME_get_down_load(structlhash_st_X509_NAME*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_X509_NAME_set_down_load(structlhash_st_X509_NAME*;unsignedlong)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_X509_NAME_doall(structlhash_st_X509_NAME*;void)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ssl_has_cert(SSL*;int)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "tls1_get_peer_groups(SSL*;uint16_t*;size_t*)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "sk_EX_CALLBACK_num(structstack_st_EX_CALLBACK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "EX_CALLBACK"
- , "c2" : "sk_EX_CALLBACK_value(structstack_st_EX_CALLBACK*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " struct stack_st_EX_CALLBACK"
- , "c2" : "sk_EX_CALLBACK_new(sk_EX_CALLBACK_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " struct stack_st_EX_CALLBACK"
- , "c2" : "sk_EX_CALLBACK_new_null(void)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " struct stack_st_EX_CALLBACK"
- , "c2" : "sk_EX_CALLBACK_new_reserve(sk_EX_CALLBACK_compfunc;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "sk_EX_CALLBACK_reserve(structstack_st_EX_CALLBACK*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "sk_EX_CALLBACK_free(structstack_st_EX_CALLBACK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "sk_EX_CALLBACK_zero(structstack_st_EX_CALLBACK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "EX_CALLBACK"
- , "c2" : "sk_EX_CALLBACK_delete(structstack_st_EX_CALLBACK*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "EX_CALLBACK"
- , "c2" : "sk_EX_CALLBACK_delete_ptr(structstack_st_EX_CALLBACK*;EX_CALLBACK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "sk_EX_CALLBACK_push(structstack_st_EX_CALLBACK*;EX_CALLBACK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "sk_EX_CALLBACK_unshift(structstack_st_EX_CALLBACK*;EX_CALLBACK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "EX_CALLBACK"
- , "c2" : "sk_EX_CALLBACK_pop(structstack_st_EX_CALLBACK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "EX_CALLBACK"
- , "c2" : "sk_EX_CALLBACK_shift(structstack_st_EX_CALLBACK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "sk_EX_CALLBACK_pop_free(structstack_st_EX_CALLBACK*;sk_EX_CALLBACK_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "sk_EX_CALLBACK_insert(structstack_st_EX_CALLBACK*;EX_CALLBACK*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "EX_CALLBACK"
- , "c2" : "sk_EX_CALLBACK_set(structstack_st_EX_CALLBACK*;int;EX_CALLBACK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "sk_EX_CALLBACK_find(structstack_st_EX_CALLBACK*;EX_CALLBACK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "sk_EX_CALLBACK_find_ex(structstack_st_EX_CALLBACK*;EX_CALLBACK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "sk_EX_CALLBACK_sort(structstack_st_EX_CALLBACK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "sk_EX_CALLBACK_is_sorted(structstack_st_EX_CALLBACK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " struct stack_st_EX_CALLBACK"
- , "c2" : "sk_EX_CALLBACK_dup(structstack_st_EX_CALLBACK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " struct stack_st_EX_CALLBACK"
- , "c2" : "sk_EX_CALLBACK_deep_copy(structstack_st_EX_CALLBACK*;sk_EX_CALLBACK_copyfunc;sk_EX_CALLBACK_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "sk_EX_CALLBACK_compfunc"
- , "c2" : "sk_EX_CALLBACK_set_cmp_func(structstack_st_EX_CALLBACK*;sk_EX_CALLBACK_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " struct lhash_st_MEM"
- , "c2" : "lh_MEM_new(unsignedlong;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_MEM_free(structlhash_st_MEM*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_MEM_flush(structlhash_st_MEM*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "MEM"
- , "c2" : "lh_MEM_insert(structlhash_st_MEM*;MEM*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "MEM"
- , "c2" : "lh_MEM_delete(structlhash_st_MEM*;MEM*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "MEM"
- , "c2" : "lh_MEM_retrieve(structlhash_st_MEM*;MEM*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "lh_MEM_error(structlhash_st_MEM*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " unsigned  long "
- , "c2" : "lh_MEM_num_items(structlhash_st_MEM*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_MEM_node_stats_bio(structlhash_st_MEM*;BIO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_MEM_node_usage_stats_bio(structlhash_st_MEM*;BIO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_MEM_stats_bio(structlhash_st_MEM*;BIO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " unsigned  long "
- , "c2" : "lh_MEM_get_down_load(structlhash_st_MEM*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_MEM_set_down_load(structlhash_st_MEM*;unsignedlong)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "lh_MEM_doall(structlhash_st_MEM*;void)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "ossl_sleep(unsignedlong)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ossl_ends_with_dirsep(char*)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ossl_is_absolute_path(char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ssl3_do_write(SSL*;int)"
- , "c3" : "7"
- , "c4" : "10"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "tls_close_construct_packet(SSL*;WPACKET*;int)"
- , "c3" : "2"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "tls_setup_handshake(SSL*)"
- , "c3" : "28"
- , "c4" : "36"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "get_cert_verify_tbs_data(SSL*;unsignedchar*;void*;size_t*)"
- , "c3" : "9"
- , "c4" : "18"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "tls_construct_cert_verify(SSL*;WPACKET*)"
- , "c3" : "18"
- , "c4" : "45"
-}} 
-,
-{ "ligne" : {
-   "c1" : "MSG_PROCESS_RETURN"
- , "c2" : "tls_process_cert_verify(SSL*;PACKET*)"
- , "c3" : "34"
- , "c4" : "64"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "tls_construct_finished(SSL*;WPACKET*)"
- , "c3" : "11"
- , "c4" : "23"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "tls_construct_key_update(SSL*;WPACKET*)"
- , "c3" : "2"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : {
-   "c1" : "MSG_PROCESS_RETURN"
- , "c2" : "tls_process_key_update(SSL*;PACKET*)"
- , "c3" : "6"
- , "c4" : "10"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ssl3_take_mac(SSL*)"
- , "c3" : "4"
- , "c4" : "9"
-}} 
-,
-{ "ligne" : {
-   "c1" : "MSG_PROCESS_RETURN"
- , "c2" : "tls_process_change_cipher_spec(SSL*;PACKET*)"
- , "c3" : "9"
- , "c4" : "14"
-}} 
-,
-{ "ligne" : {
-   "c1" : "MSG_PROCESS_RETURN"
- , "c2" : "tls_process_finished(SSL*;PACKET*)"
- , "c3" : "18"
- , "c4" : "26"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "tls_construct_change_cipher_spec(SSL*;WPACKET*)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ssl_add_cert_to_wpacket(SSL*;WPACKET*;X509*;int)"
- , "c3" : "4"
- , "c4" : "9"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ssl_add_cert_chain(SSL*;WPACKET*;CERT_PKEY*)"
- , "c3" : "19"
- , "c4" : "41"
-}} 
-,
-{ "ligne" : {
-   "c1" : " unsigned  long "
- , "c2" : "ssl3_output_cert_chain(SSL*;WPACKET*;CERT_PKEY*)"
- , "c3" : "4"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : {
-   "c1" : "WORK_STATE"
- , "c2" : "tls_finish_handshake(SSL*;WORK_STATE;int;int)"
- , "c3" : "20"
- , "c4" : "32"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "tls_get_message_header(SSL*;int*)"
- , "c3" : "17"
- , "c4" : "36"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "tls_get_message_body(SSL*;size_t*)"
- , "c3" : "13"
- , "c4" : "23"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ssl_x509err2alert(int)"
- , "c3" : "3"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ssl_allow_compression(SSL*)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "version_cmp(SSL*;int;int)"
- , "c3" : "3"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ssl_method_error(SSL*;SSL_METHOD*)"
- , "c3" : "5"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "is_tls13_capable(SSL*)"
- , "c3" : "13"
- , "c4" : "15"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ssl_version_supported(SSL*;int;SSL_METHOD*)"
- , "c3" : "6"
- , "c4" : "12"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ssl_check_version_downgrade(SSL*)"
- , "c3" : "8"
- , "c4" : "10"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ssl_set_version_bound(int;int;int*)"
- , "c3" : "7"
- , "c4" : "13"
-}} 
-,
-{ "ligne" : {
-   "c1" : " void "
- , "c2" : "check_for_downgrade(SSL*;int;DOWNGRADE*)"
- , "c3" : "5"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ssl_choose_server_version(SSL*;CLIENTHELLO_MSG*;DOWNGRADE*)"
- , "c3" : "20"
- , "c4" : "45"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ssl_choose_client_version(SSL*;int;RAW_EXTENSION*)"
- , "c3" : "18"
- , "c4" : "43"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ssl_get_min_max_version(SSL*;int*;int*;int*)"
- , "c3" : "14"
- , "c4" : "34"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ssl_set_client_hello_version(SSL*)"
- , "c3" : "4"
- , "c4" : "8"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "check_in_list(SSL*;uint16_t;uint16_t*;size_t;int)"
- , "c3" : "4"
- , "c4" : "7"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "create_synthetic_message_hash(SSL*;unsignedchar*;size_t;unsignedchar*;size_t)"
- , "c3" : "6"
- , "c4" : "12"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "ca_dn_cmp(X509_NAME*;X509_NAME*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "parse_ca_names(SSL*;PACKET*)"
- , "c3" : "8"
- , "c4" : "25"
-}} 
-,
-{ "ligne" : {
-   "c1" : " struct stack_st_X509_NAME"
- , "c2" : "get_ca_names(SSL*)"
- , "c3" : "4"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "construct_ca_names(SSL*;structstack_st_X509_NAME*;WPACKET*)"
- , "c3" : "6"
- , "c4" : "13"
-}} 
-,
-{ "ligne" : {
-   "c1" : "size_t"
- , "c2" : "construct_key_exchange_tbs(SSL*;unsignedchar*;void*;size_t)"
- , "c3" : "2"
- , "c4" : "9"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "tls13_save_handshake_digest_for_pha(SSL*)"
- , "c3" : "5"
- , "c4" : "7"
-}} 
-,
-{ "ligne" : {
-   "c1" : " int "
- , "c2" : "tls13_restore_handshake_digest_for_pha(SSL*)"
- , "c3" : "3"
- , "c4" : "5"
-}} 
-] 
-}} 
 ]
 , 
 "data03" : [
@@ -3279,548 +42,2746 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "38"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000006"
  , "c3" : "Risk of infinite while loop"
- , "c4" : "2"
+ , "c4" : "126"
 }}
 ,
 { "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-CPP000007"
- , "c3" : "goto statement"
- , "c4" : "35"
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "132"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000012"
+ , "c3" : "The condition expression is invariable, always true or false"
+ , "c4" : "126"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03621"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#3621"
+   "c1" : "03221"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#3221"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03621] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[03221] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07111"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#7111"
+   "c1" : "05387"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#5387"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07111] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05387] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07113"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#7113"
+   "c1" : "05389"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#5389"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07113] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05389] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08216"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#8216"
+   "c1" : "07561"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#7561"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08216] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07561] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08412"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#8412"
+   "c1" : "07804"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#7804"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08412] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[07804] The expression num applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08413"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#8413"
+   "c1" : "07840"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#7840"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08413] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[07840] The expression num applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08414"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#8414"
+   "c1" : "07870"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#7870"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08414] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[07870] The expression n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08418"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#8418"
+   "c1" : "07897"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#7897"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08418] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[07897] The expression i applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09004"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#9004"
+   "c1" : "07991"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#7991"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09004] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[07991] The expression n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09006"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#9006"
+   "c1" : "08049"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8049"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09006] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[08049] The expression n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09009"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#9009"
+   "c1" : "08070"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8070"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09009] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000006[08070] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09848"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#9848"
+   "c1" : "08070"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8070"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09848] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[08070] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10929"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#10929"
+   "c1" : "08070"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8070"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10929] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[08070] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10951"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#10951"
+   "c1" : "08073"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8073"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10951] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000006[08073] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10957"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#10957"
+   "c1" : "08073"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8073"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10957] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[08073] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10977"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#10977"
+   "c1" : "08073"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8073"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10977] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[08073] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10983"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#10983"
+   "c1" : "08074"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8074"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10983] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000006[08074] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12088"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#12088"
+   "c1" : "08074"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8074"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12088] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[08074] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12089"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#12089"
+   "c1" : "08074"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8074"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12089] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[08074] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12764"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#12764"
+   "c1" : "08077"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8077"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12764] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000006[08077] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13832"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#13832"
+   "c1" : "08077"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8077"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13832] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[08077] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13834"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#13834"
+   "c1" : "08077"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8077"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13834] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[08077] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15235"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#15235"
+   "c1" : "08078"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8078"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15235] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000006[08078] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15257"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#15257"
+   "c1" : "08078"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8078"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15257] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[08078] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15276"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#15276"
+   "c1" : "08078"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8078"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15276] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[08078] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15299"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#15299"
+   "c1" : "08079"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8079"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15299] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000006[08079] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15319"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#15319"
+   "c1" : "08079"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8079"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15319] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[08079] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15499"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#15499"
+   "c1" : "08079"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8079"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15499] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[08079] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18248"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#18248"
+   "c1" : "08082"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8082"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18248] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000006[08082] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18647"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#18647"
+   "c1" : "08082"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8082"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18647] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[08082] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18669"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#18669"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18669] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18683"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#18683"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18683] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18697"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#18697"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18697] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18703"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#18703"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18703] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18712"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#18712"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18712] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18730"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#18730"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18730] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18742"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#18742"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18742] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18769"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#18769"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18769] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18783"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#18783"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18783] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18800"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#18800"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18800] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18814"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#18814"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18814] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18839"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#18839"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18839] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18845"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#18845"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18845] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18864"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#18864"
+   "c1" : "08082"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8082"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18864] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[08082] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18866"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#18866"
+   "c1" : "08083"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8083"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18866] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000006[08083] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18901"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#18901"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18901] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18916"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#18916"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18916] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18940"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#18940"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18940] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18952"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#18952"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18952] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18956"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#18956"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18956] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18964"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#18964"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18964] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18973"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#18973"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18973] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18977"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#18977"
+   "c1" : "08083"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8083"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[18977] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000011[08083] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19009"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#19009"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19009] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19018"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#19018"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19018] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19023"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#19023"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19023] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19026"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#19026"
+   "c1" : "08083"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8083"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19026] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000012[08083] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19053"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#19053"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19053] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19071"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#19071"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19071] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19092"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#19092"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19092] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19109"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#19109"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19109] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19117"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#19117"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19117] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19127"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#19127"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19127] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19544"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#19544"
+   "c1" : "08084"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8084"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19544] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000006[08084] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19943"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#19943"
+   "c1" : "08084"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8084"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19943] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[08084] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20081"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#20081"
+   "c1" : "08084"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8084"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[20081] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[08084] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21119"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#21119"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21119] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21128"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#21128"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21128] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21132"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#21132"
+   "c1" : "08085"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8085"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[21132] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000006[08085] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21142"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#21142"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21142] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21160"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#21160"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21160] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21168"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#21168"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21168] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21177"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#21177"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21177] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21249"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#21249"
+   "c1" : "08085"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8085"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[21249] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[08085] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21293"
- , "c1link" : "./qc/ssl/statem/libssl-shlib-statem_lib.c.html#21293"
+   "c1" : "08085"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8085"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[21293] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[08085] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08088"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8088"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08088] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08088"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8088"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08088] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08088"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8088"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08088] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08089"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8089"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08089] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08089"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8089"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08089] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08089"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8089"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08089] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08090"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8090"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08090] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08090"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8090"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08090] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08090"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8090"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08090] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08091"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8091"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08091] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08091"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8091"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08091] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08091"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8091"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08091] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08092"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8092"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08092] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08092"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8092"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08092] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08092"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8092"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08092] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08095"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8095"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08095] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08095"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8095"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08095] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08095"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8095"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08095] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08096"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8096"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08096] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08096"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8096"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08096] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08096"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8096"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08096] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08097"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8097"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08097] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08097"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8097"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08097] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08097"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8097"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08097] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08098"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8098"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08098] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08098"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8098"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08098] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08098"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8098"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08098] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08099"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8099"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08099] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08099"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8099"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08099] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08099"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8099"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08099] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08100"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8100"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08100] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08100"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8100"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08100] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08100"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8100"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08100] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08103"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8103"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08103] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08103"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8103"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08103] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08103"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8103"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08103] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08104"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8104"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08104] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08104"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8104"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08104] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08104"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8104"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08104] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08105"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8105"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08105] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08105"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8105"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08105] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08105"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8105"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08105] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08106"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8106"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08106] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08106"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8106"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08106] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08106"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8106"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08106] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08107"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8107"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08107] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08107"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8107"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08107] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08107"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8107"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08107] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08108"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8108"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08108] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08108"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8108"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08108] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08108"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8108"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08108] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08109"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8109"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08109] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08109"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8109"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08109] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08109"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8109"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08109] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08112"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8112"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08112] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08112"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8112"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08112] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08112"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8112"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08112] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08113"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8113"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08113] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08113"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8113"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08113] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08113"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8113"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08113] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08114"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8114"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08114] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08114"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8114"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08114] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08114"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8114"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08114] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08115"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8115"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08115] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08115"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8115"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08115] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08115"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8115"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08115] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08116"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8116"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08116] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08116"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8116"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08116] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08116"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8116"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08116] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08117"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8117"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08117] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08117"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8117"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08117] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08117"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8117"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08117] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08118"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8118"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08118] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08118"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8118"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08118] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08118"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8118"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08118] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08119"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8119"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08119] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08119"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8119"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08119] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08119"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8119"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08119] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08122"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8122"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08122] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08122"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8122"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08122] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08122"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8122"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08122] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08123"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8123"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08123] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08123"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8123"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08123] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08123"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8123"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08123] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08124"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8124"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08124] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08124"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8124"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08124] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08124"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8124"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08124] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08125"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8125"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08125] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08125"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8125"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08125] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08125"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8125"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08125] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08126"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8126"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08126] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08126"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8126"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08126] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08126"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8126"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08126] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08127"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8127"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08127] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08127"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8127"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08127] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08127"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8127"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08127] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08128"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8128"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08128] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08128"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8128"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08128] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08128"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8128"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08128] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08131"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8131"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08131] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08131"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8131"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08131] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08131"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8131"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08131] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08132"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8132"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08132] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08132"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8132"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08132] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08132"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8132"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08132] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08133"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8133"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08133] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08133"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8133"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08133] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08133"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8133"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08133] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08134"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8134"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08134] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08134"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8134"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08134] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08134"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8134"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08134] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08135"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8135"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08135] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08135"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8135"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08135] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08135"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8135"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08135] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08136"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8136"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08136] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08136"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8136"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08136] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08136"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8136"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08136] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08139"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8139"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08139] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08139"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8139"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08139] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08139"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8139"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08139] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08140"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8140"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08140] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08140"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8140"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08140] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08140"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8140"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08140] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08141"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8141"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08141] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08141"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8141"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08141] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08141"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8141"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08141] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08142"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8142"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08142] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08142"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8142"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08142] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08142"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8142"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08142] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08143"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8143"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08143] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08143"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8143"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08143] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08143"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8143"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08143] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08146"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8146"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08146] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08146"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8146"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08146] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08146"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8146"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08146] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08147"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8147"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08147] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08147"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8147"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08147] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08147"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8147"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08147] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08148"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8148"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08148] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08148"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8148"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08148] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08148"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8148"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08148] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08149"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8149"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08149] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08149"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8149"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08149] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08149"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8149"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08149] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08152"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8152"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08152] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08152"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8152"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08152] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08152"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8152"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08152] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08153"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8153"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08153] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08153"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8153"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08153] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08153"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8153"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08153] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08154"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8154"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08154] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08154"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8154"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08154] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08154"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8154"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08154] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08157"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8157"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08157] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08157"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8157"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08157] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08157"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8157"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08157] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08158"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8158"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08158] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08158"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8158"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08158] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08158"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8158"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08158] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08161"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8161"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08161] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08161"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8161"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08161] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08161"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8161"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08161] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08173"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8173"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08173] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08173"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8173"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08173] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08173"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8173"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08173] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08176"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8176"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08176] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08176"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8176"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08176] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08176"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8176"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08176] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08177"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8177"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08177] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08177"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8177"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08177] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08177"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8177"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08177] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08180"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8180"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08180] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08180"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8180"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08180] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08180"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8180"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08180] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08181"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8181"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08181] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08181"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8181"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08181] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08181"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8181"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08181] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08182"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8182"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08182] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08182"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8182"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08182] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08182"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8182"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08182] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08185"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8185"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08185] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08185"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8185"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08185] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08185"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8185"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08185] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08186"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8186"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08186] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08186"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8186"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08186] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08186"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8186"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08186] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08187"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8187"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08187] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08187"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8187"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08187] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08187"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8187"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08187] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08188"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8188"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08188] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08188"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8188"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08188] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08188"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8188"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08188] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08191"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8191"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08191] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08191"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8191"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08191] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08191"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8191"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08191] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08192"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8192"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08192] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08192"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8192"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08192] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08192"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8192"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08192] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08193"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8193"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08193] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08193"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8193"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08193] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08193"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8193"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08193] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08196"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8196"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08196] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08196"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8196"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08196] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08196"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8196"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08196] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08197"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8197"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08197] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08197"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8197"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08197] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08197"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8197"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08197] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08200"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8200"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08200] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08200"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8200"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08200] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08200"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8200"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08200] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08212"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8212"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08212] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08212"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8212"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08212] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08212"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8212"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08212] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08215"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8215"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08215] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08215"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8215"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08215] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08215"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8215"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08215] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08218"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8218"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08218] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08218"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8218"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08218] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08218"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8218"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08218] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08219"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8219"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08219] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08219"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8219"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08219] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08219"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8219"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08219] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08222"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8222"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08222] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08222"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8222"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08222] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08222"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8222"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08222] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08223"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8223"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08223] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08223"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8223"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08223] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08223"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8223"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08223] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08226"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8226"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08226] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08226"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8226"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08226] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08226"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8226"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08226] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08227"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8227"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08227] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08227"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8227"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08227] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08227"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8227"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08227] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08228"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8228"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08228] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08228"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8228"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08228] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08228"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8228"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08228] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08231"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8231"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08231] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08231"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8231"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08231] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08231"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8231"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08231] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08232"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8232"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08232] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08232"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8232"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08232] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08232"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8232"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08232] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08233"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8233"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08233] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08233"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8233"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08233] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08233"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8233"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08233] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08236"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8236"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08236] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08236"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8236"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08236] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08236"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8236"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08236] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08237"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8237"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08237] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08237"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8237"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08237] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08237"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8237"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08237] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08238"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8238"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08238] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08238"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8238"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08238] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08238"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8238"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08238] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08239"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8239"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08239] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08239"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8239"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08239] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08239"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8239"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08239] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08242"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8242"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08242] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08242"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8242"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08242] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08242"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8242"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08242] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08243"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8243"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08243] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08243"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8243"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08243] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08243"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8243"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08243] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08244"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8244"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08244] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08244"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8244"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08244] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08244"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8244"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08244] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08245"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8245"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08245] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08245"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8245"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08245] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08245"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8245"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08245] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08248"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8248"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08248] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08248"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8248"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08248] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08248"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8248"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08248] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08249"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8249"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08249] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08249"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8249"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08249] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08249"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8249"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08249] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08250"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8250"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08250] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08250"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8250"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08250] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08250"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8250"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08250] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08251"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8251"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08251] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08251"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8251"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08251] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08251"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8251"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08251] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08254"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8254"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08254] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08254"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8254"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08254] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08254"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8254"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08254] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08255"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8255"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08255] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08255"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8255"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08255] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08255"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8255"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08255] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08256"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8256"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08256] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08256"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8256"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08256] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08256"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8256"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08256] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08259"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8259"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08259] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08259"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8259"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08259] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08259"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8259"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08259] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08260"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8260"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08260] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08260"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8260"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08260] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08260"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8260"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08260] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08261"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8261"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08261] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08261"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8261"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08261] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08261"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8261"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08261] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08264"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8264"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08264] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08264"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8264"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08264] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08264"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8264"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08264] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08265"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8265"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08265] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08265"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8265"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08265] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08265"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8265"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08265] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08268"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8268"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08268] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08268"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8268"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08268] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08268"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8268"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08268] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08269"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8269"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08269] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08269"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8269"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08269] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08269"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8269"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08269] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08272"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8272"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08272] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08272"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8272"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08272] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08272"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8272"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08272] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08275"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8275"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08275] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08275"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8275"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08275] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08275"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8275"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08275] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08287"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8287"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08287] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08287"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8287"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08287] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08287"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8287"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08287] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08290"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8290"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08290] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08290"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8290"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08290] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08290"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8290"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08290] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08293"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8293"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08293] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08293"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8293"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08293] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08293"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8293"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08293] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08294"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8294"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08294] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08294"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8294"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08294] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08294"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8294"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08294] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08297"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8297"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08297] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08297"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8297"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08297] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08297"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8297"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08297] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08298"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8298"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08298] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08298"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8298"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08298] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08298"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8298"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08298] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08301"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8301"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08301] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08301"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8301"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08301] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08301"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8301"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08301] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08302"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8302"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08302] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08302"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8302"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08302] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08302"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8302"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08302] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08305"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8305"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08305] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08305"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8305"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08305] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08305"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8305"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08305] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08308"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8308"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08308] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08308"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8308"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08308] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08308"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8308"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08308] The expression 0 is invariable, always true or false"
 }} 
 ]
 };

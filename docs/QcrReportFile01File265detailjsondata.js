@@ -1,0 +1,114 @@
+console.log('leListeStr main01 start json de data maDataBlocs');
+var maDataBlocs = {
+"data00" : {
+   "fic1"  : "./qc/crypto/core_algorithm.c.html" 
+ , "texte" : "File crypto/core_algorithm.c 7 rule violations " 
+ , "fic2"  : "./qc/crypto/core_algorithm.c.xml" 
+ , "fic3"  : "" 
+}
+, 
+"data01" : [
+]
+, 
+"data02" : [
+]
+, 
+"data03" : [
+] 
+, 
+"data04" : [
+]
+, 
+"data05" : [
+]
+, 
+"data06" : [
+]
+, 
+"data07" : [
+]
+, 
+"data08" : [
+]
+, 
+"data11" : [
+]
+, 
+"data14" : [
+]
+, 
+"data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
+ , "c4" : "4"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "1"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {
+   "c1" : "04209"
+ , "c1link" : "./qc/crypto/core_algorithm.c.html#4209"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[04209] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05998"
+ , "c1link" : "./qc/crypto/core_algorithm.c.html#5998"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[05998] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06000"
+ , "c1link" : "./qc/crypto/core_algorithm.c.html#6000"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[06000] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08172"
+ , "c1link" : "./qc/crypto/core_algorithm.c.html#8172"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[08172] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08398"
+ , "c1link" : "./qc/crypto/core_algorithm.c.html#8398"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08398] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08425"
+ , "c1link" : "./qc/crypto/core_algorithm.c.html#8425"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08425] The expression  ! ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08462"
+ , "c1link" : "./qc/crypto/core_algorithm.c.html#8462"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08462] The expression  ! ret applies to a single value or variable, might be ambiguous."
+}} 
+]
+};
+console.log('leListeStr 99 main end');
