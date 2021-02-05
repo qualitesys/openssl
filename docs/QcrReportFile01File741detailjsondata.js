@@ -104,24 +104,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08010"
- , "c1link" : "./qc/crypto/x509/x509_req.c.html#8010"
+   "c1" : "08014"
+ , "c1link" : "./qc/crypto/x509/x509_req.c.html#8014"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08010] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08014] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08011"
- , "c1link" : "./qc/crypto/x509/x509_req.c.html#8011"
+   "c1" : "08015"
+ , "c1link" : "./qc/crypto/x509/x509_req.c.html#8015"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08011] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08012"
- , "c1link" : "./qc/crypto/x509/x509_req.c.html#8012"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08012] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08015] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -132,45 +125,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08602"
- , "c1link" : "./qc/crypto/x509/x509_req.c.html#8602"
+   "c1" : "08020"
+ , "c1link" : "./qc/crypto/x509/x509_req.c.html#8020"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08602] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08020] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08604"
- , "c1link" : "./qc/crypto/x509/x509_req.c.html#8604"
+   "c1" : "08606"
+ , "c1link" : "./qc/crypto/x509/x509_req.c.html#8606"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08604] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08606] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08607"
- , "c1link" : "./qc/crypto/x509/x509_req.c.html#8607"
+   "c1" : "08608"
+ , "c1link" : "./qc/crypto/x509/x509_req.c.html#8608"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08607] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08608] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09658"
- , "c1link" : "./qc/crypto/x509/x509_req.c.html#9658"
+   "c1" : "08611"
+ , "c1link" : "./qc/crypto/x509/x509_req.c.html#8611"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09658] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08611] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11217"
- , "c1link" : "./qc/crypto/x509/x509_req.c.html#11217"
+   "c1" : "09664"
+ , "c1link" : "./qc/crypto/x509/x509_req.c.html#9664"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11217] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09664] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11239"
- , "c1link" : "./qc/crypto/x509/x509_req.c.html#11239"
+   "c1" : "11223"
+ , "c1link" : "./qc/crypto/x509/x509_req.c.html#11223"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11239] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11223] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -181,10 +174,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11265"
- , "c1link" : "./qc/crypto/x509/x509_req.c.html#11265"
+   "c1" : "11251"
+ , "c1link" : "./qc/crypto/x509/x509_req.c.html#11251"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11265] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11251] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -195,87 +188,94 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12388"
- , "c1link" : "./qc/crypto/x509/x509_req.c.html#12388"
+   "c1" : "11277"
+ , "c1link" : "./qc/crypto/x509/x509_req.c.html#11277"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12388] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11277] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12389"
- , "c1link" : "./qc/crypto/x509/x509_req.c.html#12389"
+   "c1" : "12394"
+ , "c1link" : "./qc/crypto/x509/x509_req.c.html#12394"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12389] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12394] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13505"
- , "c1link" : "./qc/crypto/x509/x509_req.c.html#13505"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13505] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13517"
- , "c1link" : "./qc/crypto/x509/x509_req.c.html#13517"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13517] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13521"
- , "c1link" : "./qc/crypto/x509/x509_req.c.html#13521"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13521] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13529"
- , "c1link" : "./qc/crypto/x509/x509_req.c.html#13529"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13529] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13531"
- , "c1link" : "./qc/crypto/x509/x509_req.c.html#13531"
+   "c1" : "12395"
+ , "c1link" : "./qc/crypto/x509/x509_req.c.html#12395"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13531] The expression  ! i applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[12395] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13532"
- , "c1link" : "./qc/crypto/x509/x509_req.c.html#13532"
+   "c1" : "13511"
+ , "c1link" : "./qc/crypto/x509/x509_req.c.html#13511"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13532] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13511] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13540"
- , "c1link" : "./qc/crypto/x509/x509_req.c.html#13540"
+   "c1" : "13523"
+ , "c1link" : "./qc/crypto/x509/x509_req.c.html#13523"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13540] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13523] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13615"
- , "c1link" : "./qc/crypto/x509/x509_req.c.html#13615"
+   "c1" : "13527"
+ , "c1link" : "./qc/crypto/x509/x509_req.c.html#13527"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13527] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13535"
+ , "c1link" : "./qc/crypto/x509/x509_req.c.html#13535"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13535] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13537"
+ , "c1link" : "./qc/crypto/x509/x509_req.c.html#13537"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13537] The expression  ! i applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13538"
+ , "c1link" : "./qc/crypto/x509/x509_req.c.html#13538"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13538] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13546"
+ , "c1link" : "./qc/crypto/x509/x509_req.c.html#13546"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13546] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13621"
+ , "c1link" : "./qc/crypto/x509/x509_req.c.html#13621"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[13615] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[13621] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13668"
- , "c1link" : "./qc/crypto/x509/x509_req.c.html#13668"
+   "c1" : "13674"
+ , "c1link" : "./qc/crypto/x509/x509_req.c.html#13674"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13668] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13674] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13719"
- , "c1link" : "./qc/crypto/x509/x509_req.c.html#13719"
+   "c1" : "13725"
+ , "c1link" : "./qc/crypto/x509/x509_req.c.html#13725"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13719] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13725] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

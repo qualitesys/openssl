@@ -76,304 +76,304 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05980"
- , "c1link" : "./qc/crypto/provider_conf.c.html#5980"
+   "c1" : "05979"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#5979"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05980] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[05979] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "05980"
- , "c1link" : "./qc/crypto/provider_conf.c.html#5980"
+   "c1" : "05979"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#5979"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05980] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[05979] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05976"
- , "c1link" : "./qc/crypto/provider_conf.c.html#5976"
+   "c1" : "05975"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#5975"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[05976] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000006[05975] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05980"
- , "c1link" : "./qc/crypto/provider_conf.c.html#5980"
+   "c1" : "05979"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#5979"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05980] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[05979] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "05980"
- , "c1link" : "./qc/crypto/provider_conf.c.html#5980"
+   "c1" : "05979"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#5979"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05980] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[05979] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06007"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6007"
+   "c1" : "06006"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6006"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06007] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06006] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06007"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6007"
+   "c1" : "06006"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6006"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06007] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[06006] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06003"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6003"
+   "c1" : "06002"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6002"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[06003] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000006[06002] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06007"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6007"
+   "c1" : "06006"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6006"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06007] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06006] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06007"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6007"
+   "c1" : "06006"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6006"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06007] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[06006] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06013"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6013"
+   "c1" : "06012"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6012"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06013] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06012] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06013"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6013"
+   "c1" : "06012"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6012"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06013] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[06012] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06009"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6009"
+   "c1" : "06008"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6008"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[06009] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000006[06008] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06013"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6013"
+   "c1" : "06012"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6012"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06013] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06012] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06013"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6013"
+   "c1" : "06012"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6012"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06013] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[06012] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06044"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6044"
+   "c1" : "06043"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6043"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06044] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06043] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06044"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6044"
+   "c1" : "06043"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6043"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06044] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[06043] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06040"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6040"
+   "c1" : "06039"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6039"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[06040] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000006[06039] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06044"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6044"
+   "c1" : "06043"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6043"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06044] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06043] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06044"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6044"
+   "c1" : "06043"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6043"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06044] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[06043] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06048"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6048"
+   "c1" : "06047"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6047"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06048] The expression  ! ecmds applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06047] The expression  ! ecmds applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06064"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6064"
+   "c1" : "06063"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6063"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06064] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06063] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06064"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6064"
+   "c1" : "06063"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6063"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06064] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[06063] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06060"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6060"
+   "c1" : "06059"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6059"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[06060] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000006[06059] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06064"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6064"
+   "c1" : "06063"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6063"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06064] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06063] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06064"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6064"
+   "c1" : "06063"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6063"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06064] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[06063] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06097"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6097"
+   "c1" : "06096"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6096"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06097] The expression soft applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06096] The expression soft applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06146"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6146"
+   "c1" : "06145"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6145"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06146] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06145] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06146"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6146"
+   "c1" : "06145"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6145"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06146] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[06145] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06142"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6142"
+   "c1" : "06141"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6141"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[06142] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000006[06141] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06146"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6146"
+   "c1" : "06145"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6145"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06146] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06145] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06146"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6146"
+   "c1" : "06145"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6145"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06146] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[06145] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06152"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6152"
+   "c1" : "06151"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6151"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06152] The expression  ! elist applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06151] The expression  ! elist applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06183"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6183"
+   "c1" : "06182"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6182"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06183] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06182] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06183"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6183"
+   "c1" : "06182"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6182"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06183] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[06182] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06179"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6179"
+   "c1" : "06178"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6178"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[06179] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000006[06178] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06183"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6183"
+   "c1" : "06182"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6182"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06183] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06182] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06183"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6183"
+   "c1" : "06182"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6182"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06183] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[06182] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06192"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6192"
+   "c1" : "06191"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6191"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06192] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06191] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06192"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6192"
+   "c1" : "06191"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6191"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06192] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[06191] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06188"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6188"
+   "c1" : "06187"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6187"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[06188] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000006[06187] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06192"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6192"
+   "c1" : "06191"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6191"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06192] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06191] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06192"
- , "c1link" : "./qc/crypto/provider_conf.c.html#6192"
+   "c1" : "06191"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#6191"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06192] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[06191] The expression 0 is invariable, always true or false"
 }} 
 ]
 };

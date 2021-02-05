@@ -83,24 +83,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07852"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#7852"
+   "c1" : "07856"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#7856"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07852] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07856] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07853"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#7853"
+   "c1" : "07857"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#7857"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07853] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07854"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#7854"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07854] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07857] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -111,38 +104,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08444"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#8444"
+   "c1" : "07862"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#7862"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08444] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07862] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08446"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#8446"
+   "c1" : "08448"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#8448"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08446] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08448] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08449"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#8449"
+   "c1" : "08450"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#8450"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08449] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08450] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09260"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#9260"
+   "c1" : "08453"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#8453"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09260] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08453] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09282"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#9282"
+   "c1" : "09266"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#9266"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09282] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09266] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -153,10 +146,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09308"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#9308"
+   "c1" : "09294"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#9294"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09308] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09294] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -167,24 +160,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10473"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#10473"
+   "c1" : "09320"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#9320"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10473] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09320] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10474"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#10474"
+   "c1" : "10479"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#10479"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10474] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10479] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13410"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#13410"
+   "c1" : "10480"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#10480"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13410] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10480] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13416"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#13416"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[13416] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

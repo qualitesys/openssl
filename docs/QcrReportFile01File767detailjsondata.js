@@ -83,24 +83,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07847"
- , "c1link" : "./qc/engines/e_padlock.c.html#7847"
+   "c1" : "07851"
+ , "c1link" : "./qc/engines/e_padlock.c.html#7851"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07847] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07851] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07848"
- , "c1link" : "./qc/engines/e_padlock.c.html#7848"
+   "c1" : "07852"
+ , "c1link" : "./qc/engines/e_padlock.c.html#7852"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07848] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07849"
- , "c1link" : "./qc/engines/e_padlock.c.html#7849"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07849] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07852] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -111,38 +104,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08439"
- , "c1link" : "./qc/engines/e_padlock.c.html#8439"
+   "c1" : "07857"
+ , "c1link" : "./qc/engines/e_padlock.c.html#7857"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08439] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07857] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08441"
- , "c1link" : "./qc/engines/e_padlock.c.html#8441"
+   "c1" : "08443"
+ , "c1link" : "./qc/engines/e_padlock.c.html#8443"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08441] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08443] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08444"
- , "c1link" : "./qc/engines/e_padlock.c.html#8444"
+   "c1" : "08445"
+ , "c1link" : "./qc/engines/e_padlock.c.html#8445"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08444] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08445] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09255"
- , "c1link" : "./qc/engines/e_padlock.c.html#9255"
+   "c1" : "08448"
+ , "c1link" : "./qc/engines/e_padlock.c.html#8448"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09255] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08448] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09277"
- , "c1link" : "./qc/engines/e_padlock.c.html#9277"
+   "c1" : "09261"
+ , "c1link" : "./qc/engines/e_padlock.c.html#9261"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09277] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09261] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -153,10 +146,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09303"
- , "c1link" : "./qc/engines/e_padlock.c.html#9303"
+   "c1" : "09289"
+ , "c1link" : "./qc/engines/e_padlock.c.html#9289"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09303] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09289] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -167,17 +160,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10468"
- , "c1link" : "./qc/engines/e_padlock.c.html#10468"
+   "c1" : "09315"
+ , "c1link" : "./qc/engines/e_padlock.c.html#9315"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10468] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09315] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10469"
- , "c1link" : "./qc/engines/e_padlock.c.html#10469"
+   "c1" : "10474"
+ , "c1link" : "./qc/engines/e_padlock.c.html#10474"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10469] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10474] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10475"
+ , "c1link" : "./qc/engines/e_padlock.c.html#10475"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[10475] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

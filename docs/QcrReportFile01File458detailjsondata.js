@@ -83,24 +83,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05931"
- , "c1link" : "./qc/crypto/evp/legacy_mdc2.c.html#5931"
+   "c1" : "05935"
+ , "c1link" : "./qc/crypto/evp/legacy_mdc2.c.html#5935"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05931] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05935] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05932"
- , "c1link" : "./qc/crypto/evp/legacy_mdc2.c.html#5932"
+   "c1" : "05936"
+ , "c1link" : "./qc/crypto/evp/legacy_mdc2.c.html#5936"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05932] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05933"
- , "c1link" : "./qc/crypto/evp/legacy_mdc2.c.html#5933"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05933] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05936] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -111,31 +104,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06523"
- , "c1link" : "./qc/crypto/evp/legacy_mdc2.c.html#6523"
+   "c1" : "05941"
+ , "c1link" : "./qc/crypto/evp/legacy_mdc2.c.html#5941"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06523] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05941] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06525"
- , "c1link" : "./qc/crypto/evp/legacy_mdc2.c.html#6525"
+   "c1" : "06527"
+ , "c1link" : "./qc/crypto/evp/legacy_mdc2.c.html#6527"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06525] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06527] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06528"
- , "c1link" : "./qc/crypto/evp/legacy_mdc2.c.html#6528"
+   "c1" : "06529"
+ , "c1link" : "./qc/crypto/evp/legacy_mdc2.c.html#6529"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06528] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06529] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07868"
- , "c1link" : "./qc/crypto/evp/legacy_mdc2.c.html#7868"
+   "c1" : "06532"
+ , "c1link" : "./qc/crypto/evp/legacy_mdc2.c.html#6532"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07868] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06532] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07873"
+ , "c1link" : "./qc/crypto/evp/legacy_mdc2.c.html#7873"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[07873] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

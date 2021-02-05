@@ -90,24 +90,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08338"
- , "c1link" : "./qc/crypto/dh/dh_asn1.c.html#8338"
+   "c1" : "08342"
+ , "c1link" : "./qc/crypto/dh/dh_asn1.c.html#8342"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08338] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08342] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08339"
- , "c1link" : "./qc/crypto/dh/dh_asn1.c.html#8339"
+   "c1" : "08343"
+ , "c1link" : "./qc/crypto/dh/dh_asn1.c.html#8343"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08339] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08340"
- , "c1link" : "./qc/crypto/dh/dh_asn1.c.html#8340"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08340] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08343] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -118,31 +111,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08930"
- , "c1link" : "./qc/crypto/dh/dh_asn1.c.html#8930"
+   "c1" : "08348"
+ , "c1link" : "./qc/crypto/dh/dh_asn1.c.html#8348"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08930] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08348] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08932"
- , "c1link" : "./qc/crypto/dh/dh_asn1.c.html#8932"
+   "c1" : "08934"
+ , "c1link" : "./qc/crypto/dh/dh_asn1.c.html#8934"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08932] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08934] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08935"
- , "c1link" : "./qc/crypto/dh/dh_asn1.c.html#8935"
+   "c1" : "08936"
+ , "c1link" : "./qc/crypto/dh/dh_asn1.c.html#8936"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08935] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08936] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10343"
- , "c1link" : "./qc/crypto/dh/dh_asn1.c.html#10343"
+   "c1" : "08939"
+ , "c1link" : "./qc/crypto/dh/dh_asn1.c.html#8939"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[08939] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10349"
+ , "c1link" : "./qc/crypto/dh/dh_asn1.c.html#10349"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10343] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10349] goto statement jump to err"
 }} 
 ]
 };

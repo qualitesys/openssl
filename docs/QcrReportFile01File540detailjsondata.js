@@ -104,24 +104,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08015"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#8015"
+   "c1" : "08019"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#8019"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08015] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08019] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08016"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#8016"
+   "c1" : "08020"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#8020"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08016] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08017"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#8017"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08017] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08020] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -132,45 +125,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08607"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#8607"
+   "c1" : "08025"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#8025"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08607] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08025] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08609"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#8609"
+   "c1" : "08611"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#8611"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08609] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08611] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08612"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#8612"
+   "c1" : "08613"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#8613"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08612] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08613] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09474"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#9474"
+   "c1" : "08616"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#8616"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09474] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08616] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11033"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#11033"
+   "c1" : "09480"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#9480"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11033] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09480] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11055"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#11055"
+   "c1" : "11039"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#11039"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11055] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11039] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -181,10 +174,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11081"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#11081"
+   "c1" : "11067"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#11067"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11081] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11067] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -195,136 +188,129 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12204"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#12204"
+   "c1" : "11093"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#11093"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12204] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11093] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12205"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#12205"
+   "c1" : "12210"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#12210"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12205] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12210] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14684"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14684"
+   "c1" : "12211"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#12211"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14684] The expression  ! cid applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14686"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14686"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14686] The expression pmd applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14688"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14688"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14688] The expression piNameHash applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[12211] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "14690"
  , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14690"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14690] The expression pikeyHash applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14690] The expression  ! cid applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "14692"
  , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14692"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14692] The expression pserial applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14692] The expression pmd applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14713"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14713"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14713] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14718"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14718"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14718] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14720"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14720"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14720] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14721"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14721"
+   "c1" : "14694"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14694"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14721] The expression  ! bs applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14694] The expression piNameHash applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14723"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14723"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14723] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "14696"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14696"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14696] The expression pikeyHash applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14728"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14728"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14728] goto statement jump to err"
+   "c1" : "14698"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14698"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14698] The expression pserial applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14732"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14732"
+   "c1" : "14719"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14719"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14732] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[14719] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14763"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14763"
+   "c1" : "14724"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14724"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14763] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[14724] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14726"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14726"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14726] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14727"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14727"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14727] The expression  ! bs applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14729"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14729"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[14729] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14734"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14734"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14734] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14738"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14738"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14738] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "14769"
  , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14769"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14769] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[14769] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14771"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14771"
+   "c1" : "14775"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14775"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14771] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[14775] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14776"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14776"
+   "c1" : "14777"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14777"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14776] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14779"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14779"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14779] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[14777] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -335,220 +321,234 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14786"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14786"
+   "c1" : "14785"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14785"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14786] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[14785] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14791"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14791"
+   "c1" : "14788"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14788"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14791] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14788] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14794"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14794"
+   "c1" : "14792"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14792"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14794] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14792] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14796"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14796"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14796] The expression  ! revtime applies to a single value or variable, might be ambiguous."
+   "c1" : "14797"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14797"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14797] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14800"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14800"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[14800] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "14802"
  , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14802"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14802] goto statement jump to err"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14802] The expression  ! revtime applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14804"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14804"
+   "c1" : "14808"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14808"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14804] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[14808] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14809"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14809"
+   "c1" : "14810"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14810"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14809] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[14810] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14811"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14811"
+   "c1" : "14815"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14815"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14811] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14815] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14813"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14813"
+   "c1" : "14817"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14817"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14813] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[14817] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14818"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14818"
+   "c1" : "14819"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14819"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14818] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[14819] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14820"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14820"
+   "c1" : "14824"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14824"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14820] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14824] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14825"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14825"
+   "c1" : "14826"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14826"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14825] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[14826] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14830"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14830"
+   "c1" : "14831"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14831"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14830] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[14831] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14834"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14834"
+   "c1" : "14836"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14836"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14834] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[14836] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14839"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14839"
+   "c1" : "14840"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14840"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14839] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[14840] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14843"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14843"
+   "c1" : "14845"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14845"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14843] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14845] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14847"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14847"
+   "c1" : "14849"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14849"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14847] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14849] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14893"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14893"
+   "c1" : "14853"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14853"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14893] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14853] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14907"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14907"
+   "c1" : "14899"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14899"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14907] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14899] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14912"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14912"
+   "c1" : "14913"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14913"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14912] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14913] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14916"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14916"
+   "c1" : "14918"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14918"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14916] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14918] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14923"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14923"
+   "c1" : "14922"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14922"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14923] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14922] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14925"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14925"
+   "c1" : "14929"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14929"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14925] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14929] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14930"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14930"
+   "c1" : "14931"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14931"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14930] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14931] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14942"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14942"
+   "c1" : "14936"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14936"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14942] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14936] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15016"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#15016"
+   "c1" : "14948"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#14948"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15016] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14948] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15024"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#15024"
+   "c1" : "15022"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#15022"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15024] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15022] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15028"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#15028"
+   "c1" : "15030"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#15030"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15028] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15030] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15072"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#15072"
+   "c1" : "15034"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#15034"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15072] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15034] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15079"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#15079"
+   "c1" : "15078"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#15078"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15079] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15078] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15087"
- , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#15087"
+   "c1" : "15085"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#15085"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15087] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15085] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15093"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_srv.c.html#15093"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15093] goto statement jump to err"
 }} 
 ]
 };

@@ -97,24 +97,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06092"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#6092"
+   "c1" : "06096"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#6096"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06092] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06096] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06093"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#6093"
+   "c1" : "06097"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#6097"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06093] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06094"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#6094"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06094] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06097] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -125,94 +118,94 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06684"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#6684"
+   "c1" : "06102"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#6102"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06684] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06102] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06686"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#6686"
+   "c1" : "06688"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#6688"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06686] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06688] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06689"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#6689"
+   "c1" : "06690"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#6690"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06689] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06690] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07735"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#7735"
+   "c1" : "06693"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#6693"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07735] The expression (ossl_is_little_endian) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[06693] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07744"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#7744"
+   "c1" : "07741"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#7741"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07744] The expression (ossl_is_little_endian) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07741] The expression (ossl_is_little_endian) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07796"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#7796"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07796] goto statement jump to err"
+   "c1" : "07750"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#7750"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07750] The expression (ossl_is_little_endian) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07800"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#7800"
+   "c1" : "07802"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#7802"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07800] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07802] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07808"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#7808"
+   "c1" : "07806"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#7806"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07808] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07806] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07812"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#7812"
+   "c1" : "07814"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#7814"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07812] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07814] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07855"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#7855"
+   "c1" : "07818"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#7818"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07855] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[07818] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "07861"
  , "c1link" : "./qc/crypto/modes/siv128.c.html#7861"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07861] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07867"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#7867"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07861] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07867] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07939"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#7939"
+   "c1" : "07945"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#7945"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07939] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07944"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#7944"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07944] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07945] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -223,17 +216,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07965"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#7965"
+   "c1" : "07956"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#7956"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07965] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07956] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08040"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8040"
+   "c1" : "07971"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#7971"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08040] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07971] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08046"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8046"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08046] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

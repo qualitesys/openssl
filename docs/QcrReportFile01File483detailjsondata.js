@@ -90,24 +90,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05739"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#5739"
+   "c1" : "05743"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#5743"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05739] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05743] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05740"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#5740"
+   "c1" : "05744"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#5744"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05740] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05741"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#5741"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05741] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05744] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -118,115 +111,122 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06331"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#6331"
+   "c1" : "05749"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#5749"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06331] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05749] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06333"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#6333"
+   "c1" : "06335"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#6335"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06333] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06335] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06336"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#6336"
+   "c1" : "06337"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#6337"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06336] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06337] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07393"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#7393"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07393] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "06340"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#6340"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[06340] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07400"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#7400"
+   "c1" : "07399"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#7399"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07400] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[07399] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07422"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#7422"
+   "c1" : "07406"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#7406"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07422] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07406] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07431"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#7431"
+   "c1" : "07428"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#7428"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07431] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07428] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07441"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#7441"
+   "c1" : "07437"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#7437"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07441] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07437] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07450"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#7450"
+   "c1" : "07447"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#7447"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07450] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07447] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07458"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#7458"
+   "c1" : "07456"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#7456"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07458] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07456] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07468"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#7468"
+   "c1" : "07464"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#7464"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07468] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07464] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07470"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#7470"
+   "c1" : "07474"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#7474"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07470] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07474] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07479"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#7479"
+   "c1" : "07476"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#7476"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07479] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07476] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07496"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#7496"
+   "c1" : "07485"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#7485"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07496] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07485] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07504"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#7504"
+   "c1" : "07502"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#7502"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07504] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07502] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07507"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#7507"
+   "c1" : "07510"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#7510"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07507] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07510] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07513"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#7513"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07513] goto statement jump to err"
 }} 
 ]
 };

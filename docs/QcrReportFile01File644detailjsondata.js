@@ -97,24 +97,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06778"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#6778"
+   "c1" : "06782"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#6782"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06778] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06782] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06779"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#6779"
+   "c1" : "06783"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#6783"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06779] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06780"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#6780"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06780] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06783] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -125,227 +118,234 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07370"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#7370"
+   "c1" : "06788"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#6788"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07370] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06788] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07372"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#7372"
+   "c1" : "07374"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#7374"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07372] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07374] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07375"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#7375"
+   "c1" : "07376"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#7376"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07375] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07376] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08963"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#8963"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08963] goto statement jump to done"
+   "c1" : "07379"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#7379"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[07379] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08970"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#8970"
+   "c1" : "08969"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#8969"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08970] goto statement jump to done"
+ , "c3" : "QC-CPP000007[08969] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09138"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9138"
+   "c1" : "08976"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#8976"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09138] goto statement jump to done"
+ , "c3" : "QC-CPP000007[08976] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09148"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9148"
+   "c1" : "09144"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9144"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09148] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09144] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09172"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9172"
+   "c1" : "09154"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9154"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09172] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09154] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09192"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9192"
+   "c1" : "09178"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9178"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09192] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09178] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09212"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9212"
+   "c1" : "09198"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9198"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09212] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09198] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09223"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9223"
+   "c1" : "09218"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9218"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09223] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09218] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09247"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9247"
+   "c1" : "09229"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9229"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09247] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09229] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09257"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9257"
+   "c1" : "09253"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9253"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09257] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09253] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09271"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9271"
+   "c1" : "09263"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9263"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09271] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09263] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09286"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9286"
+   "c1" : "09277"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9277"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09286] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09277] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09303"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9303"
+   "c1" : "09292"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9292"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09303] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09292] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09319"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9319"
+   "c1" : "09309"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9309"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09319] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09309] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09341"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9341"
+   "c1" : "09325"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9325"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09341] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09325] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09350"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9350"
+   "c1" : "09347"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9347"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09350] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09347] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09361"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9361"
+   "c1" : "09356"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9356"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09361] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09356] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09451"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9451"
+   "c1" : "09367"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9367"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09451] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09367] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09471"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9471"
+   "c1" : "09457"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9457"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09471] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09457] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09480"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9480"
+   "c1" : "09477"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9477"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09480] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09477] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09498"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9498"
+   "c1" : "09486"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9486"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09498] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09486] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09515"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9515"
+   "c1" : "09504"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9504"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09515] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09504] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09540"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9540"
+   "c1" : "09521"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9521"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09540] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09521] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09554"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9554"
+   "c1" : "09546"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9546"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09554] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09546] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09571"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9571"
+   "c1" : "09560"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9560"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09571] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09560] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09587"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9587"
+   "c1" : "09577"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9577"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09587] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09577] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09604"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9604"
+   "c1" : "09593"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9593"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09604] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09593] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09621"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9621"
+   "c1" : "09610"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9610"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09621] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09610] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09630"
- , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9630"
+   "c1" : "09627"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9627"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09630] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09627] goto statement jump to done"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09636"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9636"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09636] goto statement jump to done"
 }} 
 ]
 };

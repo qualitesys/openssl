@@ -97,24 +97,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08272"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8272"
+   "c1" : "08276"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8276"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08272] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08276] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08273"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8273"
+   "c1" : "08277"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8277"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08273] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08274"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8274"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08274] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08277] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -125,45 +118,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08864"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8864"
+   "c1" : "08282"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8282"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08864] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08282] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08866"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8866"
+   "c1" : "08868"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8868"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08866] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08868] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08869"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8869"
+   "c1" : "08870"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8870"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08869] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08870] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09731"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#9731"
+   "c1" : "08873"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8873"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09731] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08873] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11290"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#11290"
+   "c1" : "09737"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#9737"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11290] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09737] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11312"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#11312"
+   "c1" : "11296"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#11296"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11312] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11296] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -174,10 +167,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11338"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#11338"
+   "c1" : "11324"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#11324"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11338] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11324] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -188,108 +181,115 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12461"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#12461"
+   "c1" : "11350"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#11350"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12461] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11350] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12462"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#12462"
+   "c1" : "12467"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#12467"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12462] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12467] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14019"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#14019"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14019] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "12468"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#12468"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[12468] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14024"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#14024"
+   "c1" : "14025"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#14025"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14024] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[14025] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14051"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#14051"
+   "c1" : "14030"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#14030"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14051] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14030] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14067"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#14067"
+   "c1" : "14057"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#14057"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14067] goto statement jump to parse_err"
+ , "c3" : "QC-CPP000007[14057] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14105"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#14105"
+   "c1" : "14073"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#14073"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14105] goto statement jump to parse_err"
+ , "c3" : "QC-CPP000007[14073] goto statement jump to parse_err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14112"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#14112"
+   "c1" : "14111"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#14111"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14112] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14111] goto statement jump to parse_err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14130"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#14130"
+   "c1" : "14118"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#14118"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14130] goto statement jump to parse_err"
+ , "c3" : "QC-CPP000007[14118] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14137"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#14137"
+   "c1" : "14136"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#14136"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14137] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[14136] goto statement jump to parse_err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14142"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#14142"
+   "c1" : "14143"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#14143"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14142] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[14143] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14147"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#14147"
+   "c1" : "14148"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#14148"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14147] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[14148] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14152"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#14152"
+   "c1" : "14153"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#14153"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14152] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[14153] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14163"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#14163"
+   "c1" : "14158"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#14158"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14163] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[14158] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14168"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#14168"
+   "c1" : "14169"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#14169"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14168] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[14169] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14174"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#14174"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14174] goto statement jump to err"
 }} 
 ]
 };

@@ -104,17 +104,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08396"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#8396"
+   "c1" : "08397"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#8397"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08396] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08897"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#8897"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08897] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08397] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -125,794 +118,801 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08992"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#8992"
+   "c1" : "08899"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#8899"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08992] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08899] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09033"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9033"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09033] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09038"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9038"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09038] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09058"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9058"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09058] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09097"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9097"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09097] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09100"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9100"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09100] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09107"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9107"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09107] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09116"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9116"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09116] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09122"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9122"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09122] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09126"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9126"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09126] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09160"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9160"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09160] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09234"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9234"
+   "c1" : "08993"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#8993"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09234] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08993] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09261"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9261"
+   "c1" : "09034"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9034"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09261] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[09034] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09266"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9266"
+   "c1" : "09039"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9039"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09266] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09039] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09286"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9286"
+   "c1" : "09059"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9059"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09286] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09059] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09306"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9306"
+   "c1" : "09098"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9098"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09306] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09098] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09299"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9299"
+   "c1" : "09101"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9101"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000002[09299] Avoid multiple switch labels with default case in switch case"
+ , "c3" : "QC-CPP000007[09101] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09309"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9309"
+   "c1" : "09108"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9108"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09309] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09108] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09316"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9316"
+   "c1" : "09117"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9117"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09316] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09117] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09325"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9325"
+   "c1" : "09123"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9123"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09325] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09123] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09331"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9331"
+   "c1" : "09127"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9127"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09331] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09127] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09345"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9345"
+   "c1" : "09161"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9161"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09345] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09161] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09354"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9354"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09354] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09364"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9364"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09364] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09367"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9367"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09367] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09396"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9396"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09396] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09409"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9409"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09409] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09422"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9422"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09422] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09429"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9429"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09429] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09435"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9435"
+   "c1" : "09235"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9235"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09435] The expression blinding applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[09235] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09437"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9437"
+   "c1" : "09262"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9262"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09437] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[09262] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09441"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9441"
+   "c1" : "09267"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9267"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09441] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09267] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09467"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9467"
+   "c1" : "09287"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9287"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09287] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09307"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9307"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09307] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09300"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9300"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000002[09300] Avoid multiple switch labels with default case in switch case"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09310"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9310"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09310] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09317"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9317"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09317] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09326"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9326"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09326] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09332"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9332"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09332] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09346"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9346"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09346] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09355"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9355"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09355] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09365"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9365"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09365] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09368"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9368"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09368] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09397"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9397"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09397] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09410"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9410"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09410] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09423"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9423"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09423] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09430"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9430"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09430] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09436"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9436"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09467] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[09436] The expression blinding applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09494"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9494"
+   "c1" : "09438"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9438"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09494] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[09438] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09499"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9499"
+   "c1" : "09442"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9442"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09499] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09442] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09519"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9519"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09519] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09532"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9532"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09532] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09541"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9541"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09541] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09549"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9549"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09549] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09564"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9564"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09564] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09573"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9573"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09573] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09583"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9583"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09583] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09586"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9586"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09586] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09616"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9616"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09616] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09629"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9629"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09629] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09642"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9642"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09642] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09650"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9650"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09650] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09655"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9655"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09655] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09661"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9661"
+   "c1" : "09468"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9468"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09661] The expression blinding applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[09468] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09663"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9663"
+   "c1" : "09495"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9495"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09663] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[09495] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09667"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9667"
+   "c1" : "09500"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9500"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09667] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09500] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09686"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9686"
+   "c1" : "09520"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9520"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09686] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[09520] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09686"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9686"
+   "c1" : "09533"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9533"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09686] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[09533] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09694"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9694"
+   "c1" : "09542"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9542"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09694] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09542] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09723"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9723"
+   "c1" : "09550"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9550"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09550] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09565"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9565"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09565] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09574"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9574"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09574] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09584"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9584"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09584] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09587"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9587"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09587] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09617"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9617"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09617] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09630"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9630"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09630] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09643"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9643"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09643] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09651"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9651"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09651] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09656"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9656"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09656] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09662"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9662"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09723] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[09662] The expression blinding applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09764"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9764"
+   "c1" : "09664"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9664"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09764] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[09664] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09769"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9769"
+   "c1" : "09668"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9668"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09769] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09668] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09789"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9789"
+   "c1" : "09687"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9687"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09789] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[09687] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09802"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9802"
+   "c1" : "09687"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9687"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09802] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[09687] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09810"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9810"
+   "c1" : "09695"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9695"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09810] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09695] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09818"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9818"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09818] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09824"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9824"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09824] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09828"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9828"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09828] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09832"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9832"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09832] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09836"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9836"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09836] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09846"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9846"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09846] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09846"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9846"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09846] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09854"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9854"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09854] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09893"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9893"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09893] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09897"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9897"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09897] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09899"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9899"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09899] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09910"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9910"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09910] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09923"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9923"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09923] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09931"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9931"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09931] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09950"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9950"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09950] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09952"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9952"
+   "c1" : "09724"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9724"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09952] The expression smooth applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[09724] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09988"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9988"
+   "c1" : "09765"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9765"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09988] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[09765] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09990"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9990"
+   "c1" : "09770"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9770"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09990] goto statement jump to tail"
+ , "c3" : "QC-CPP000007[09770] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10001"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10001"
+   "c1" : "09790"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9790"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10001] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09790] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10010"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10010"
+   "c1" : "09803"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9803"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10010] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09803] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10021"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10021"
+   "c1" : "09811"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9811"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10021] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09811] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10030"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10030"
+   "c1" : "09819"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9819"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10030] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09819] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10043"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10043"
+   "c1" : "09825"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9825"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10043] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09825] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10056"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10056"
+   "c1" : "09829"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9829"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10056] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09829] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10063"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10063"
+   "c1" : "09833"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9833"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10063] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09833] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10083"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10083"
+   "c1" : "09837"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9837"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10083] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09837] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10088"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10088"
+   "c1" : "09847"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9847"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10088] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[09847] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10095"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10095"
+   "c1" : "09847"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9847"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10095] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[09847] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10111"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10111"
+   "c1" : "09855"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9855"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10111] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09855] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10117"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10117"
+   "c1" : "09894"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9894"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10117] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09894] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10127"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10127"
+   "c1" : "09898"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9898"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10127] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[09898] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10134"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10134"
+   "c1" : "09900"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9900"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10134] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09900] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10137"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10137"
+   "c1" : "09911"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9911"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10137] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09911] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10146"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10146"
+   "c1" : "09924"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9924"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10146] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09924] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10155"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10155"
+   "c1" : "09932"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9932"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10155] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09932] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10163"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10163"
+   "c1" : "09951"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9951"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10163] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09951] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10165"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10165"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10165] goto statement jump to err"
+   "c1" : "09953"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9953"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09953] The expression smooth applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10167"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10167"
+   "c1" : "09989"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9989"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10167] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09989] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10179"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10179"
+   "c1" : "09991"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#9991"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10179] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09991] goto statement jump to tail"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10185"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10185"
+   "c1" : "10002"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10002"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10185] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10002] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10190"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10190"
+   "c1" : "10011"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10011"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10190] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10011] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10201"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10201"
+   "c1" : "10022"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10022"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10201] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10022] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10207"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10207"
+   "c1" : "10031"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10031"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10207] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10031] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10211"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10211"
+   "c1" : "10044"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10044"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10211] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10044] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10215"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10215"
+   "c1" : "10057"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10057"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10215] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10057] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10227"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10227"
+   "c1" : "10064"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10064"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10227] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10064] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10232"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10232"
+   "c1" : "10084"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10084"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10232] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10084] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10241"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10241"
+   "c1" : "10089"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10089"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10241] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[10089] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10245"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10245"
+   "c1" : "10096"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10096"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10245] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10096] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10252"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10252"
+   "c1" : "10112"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10112"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10252] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10112] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10255"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10255"
+   "c1" : "10118"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10118"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10255] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10118] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10269"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10269"
+   "c1" : "10128"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10128"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10269] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10128] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10275"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10275"
+   "c1" : "10135"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10135"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10275] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10135] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10138"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10138"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10138] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10147"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10147"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10147] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10156"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10156"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10156] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10164"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10164"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10164] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10166"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10166"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10166] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10168"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10168"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10168] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10180"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10180"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10180] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10186"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10186"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10186] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10191"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10191"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10191] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10202"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10202"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10202] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10208"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10208"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10208] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10212"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10212"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10212] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10216"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10216"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10216] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10228"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10228"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10228] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10233"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10233"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10233] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10242"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10242"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10242] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10246"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10246"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10246] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10253"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10253"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10253] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10256"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10256"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10256] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10270"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10270"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10270] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10276"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#10276"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10276] goto statement jump to err"
 }} 
 ]
 };

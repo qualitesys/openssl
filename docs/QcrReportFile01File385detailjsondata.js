@@ -104,24 +104,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09774"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#9774"
+   "c1" : "09778"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#9778"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09774] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09778] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09775"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#9775"
+   "c1" : "09779"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#9779"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09775] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09776"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#9776"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09776] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09779] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -132,38 +125,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10366"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#10366"
+   "c1" : "09784"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#9784"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10366] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09784] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10368"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#10368"
+   "c1" : "10370"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#10370"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10368] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10370] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10371"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#10371"
+   "c1" : "10372"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#10372"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10371] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10372] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11139"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#11139"
+   "c1" : "10375"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#10375"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11139] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10375] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11161"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#11161"
+   "c1" : "11145"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#11145"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11161] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11145] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -174,10 +167,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11187"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#11187"
+   "c1" : "11173"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#11173"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11187] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11173] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -188,59 +181,59 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12310"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#12310"
+   "c1" : "11199"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#11199"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12310] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11199] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12311"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#12311"
+   "c1" : "12316"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#12316"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12311] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12316] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13459"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#13459"
+   "c1" : "12317"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#12317"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13459] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12317] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14458"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14458"
+   "c1" : "13465"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#13465"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14458] The expression  ! toadd applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[13465] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14558"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14558"
+   "c1" : "14464"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14464"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14464] The expression  ! toadd applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14564"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14564"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14558] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14564] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14603"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14603"
+   "c1" : "14609"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14609"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14603] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14609] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14639"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14639"
+   "c1" : "14645"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14645"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14639] The expression  ! init applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14641"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14641"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14641] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000011[14645] The expression  ! init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -251,45 +244,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14663"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14663"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14663] The expression  ! cipher applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14730"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14730"
+   "c1" : "14653"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14653"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14730] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14653] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14769"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14769"
+   "c1" : "14669"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14669"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14769] The expression  ! init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14669] The expression  ! cipher applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14771"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14771"
+   "c1" : "14736"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14736"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14771] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14736] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14787"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14787"
+   "c1" : "14775"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14775"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14787] The expression  ! digest applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14775] The expression  ! init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14824"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14824"
+   "c1" : "14777"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14777"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[14777] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14793"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14793"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14824] The expression  ! in applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14793] The expression  ! digest applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14830"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14830"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14830] The expression  ! in applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

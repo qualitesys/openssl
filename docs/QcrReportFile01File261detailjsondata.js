@@ -118,24 +118,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08378"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#8378"
+   "c1" : "08382"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#8382"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08378] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08382] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08379"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#8379"
+   "c1" : "08383"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#8383"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08379] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08380"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#8380"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08380] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08383] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -146,45 +139,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08970"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#8970"
+   "c1" : "08388"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#8388"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08970] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08388] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08972"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#8972"
+   "c1" : "08974"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#8974"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08972] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08974] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08975"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#8975"
+   "c1" : "08976"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#8976"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08975] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08976] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09837"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#9837"
+   "c1" : "08979"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#8979"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09837] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08979] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11396"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#11396"
+   "c1" : "09843"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#9843"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11396] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09843] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11418"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#11418"
+   "c1" : "11402"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#11402"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11418] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11402] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -195,10 +188,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11444"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#11444"
+   "c1" : "11430"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#11430"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11444] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11430] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -209,255 +202,262 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12567"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#12567"
+   "c1" : "11456"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#11456"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12567] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11456] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12568"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#12568"
+   "c1" : "12573"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#12573"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12568] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12573] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13876"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13876"
+   "c1" : "12574"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#12574"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13876] The expression  ! cnf applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[12574] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13886"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13886"
+   "c1" : "13882"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13882"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13886] The expression appname applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13882] The expression  ! cnf applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13900"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13900"
+   "c1" : "13892"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13892"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13900] The expression  ! vsection applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13892] The expression appname applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13909"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13909"
+   "c1" : "13906"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13906"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13909] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13906] The expression  ! vsection applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13909"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13909"
+   "c1" : "13915"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13915"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13909] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000011[13915] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13905"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13905"
+   "c1" : "13915"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13915"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[13905] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000012[13915] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13909"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13909"
+   "c1" : "13911"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13911"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13909] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000006[13911] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13909"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13909"
+   "c1" : "13915"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13915"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13909] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000011[13915] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13937"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13937"
+   "c1" : "13915"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13915"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13937] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13915] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13937"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13937"
+   "c1" : "13943"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13943"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13937] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000011[13943] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13933"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13933"
+   "c1" : "13943"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13943"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[13933] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000012[13943] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13937"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13937"
+   "c1" : "13939"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13939"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13937] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000006[13939] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13937"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13937"
+   "c1" : "13943"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13943"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13937] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000011[13943] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13977"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13977"
+   "c1" : "13943"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13943"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13943] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13983"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13983"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13977] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13983] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13993"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13993"
+   "c1" : "13999"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#13999"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13993] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13999] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14004"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14004"
+   "c1" : "14010"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14010"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14004] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14010] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14065"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14065"
+   "c1" : "14071"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14071"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14065] The expression  ! md applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14071] The expression  ! md applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14128"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14128"
+   "c1" : "14134"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14134"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14128] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14134] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14137"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14137"
+   "c1" : "14143"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14143"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14137] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14143] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14148"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14148"
+   "c1" : "14154"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14154"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14148] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14154] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14187"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14187"
+   "c1" : "14193"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14193"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14187] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14193] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14247"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14247"
+   "c1" : "14253"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14253"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14247] The expression p applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14253] The expression p applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14285"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14285"
+   "c1" : "14291"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14291"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14285] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14291] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14297"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14297"
+   "c1" : "14303"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14303"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14297] goto statement jump to memerr"
+ , "c3" : "QC-CPP000007[14303] goto statement jump to memerr"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14305"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14305"
+   "c1" : "14311"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14311"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14305] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14314"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14314"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14314] The expression  ! initialized_modules applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000007[14311] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "14320"
  , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14320"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14320] The expression  ! initialized_modules applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14326"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14326"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14320] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14326] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14330"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14330"
+   "c1" : "14336"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14336"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14330] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14336] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14344"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14344"
+   "c1" : "14350"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14350"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14344] The expression imod applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14350] The expression imod applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14414"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14414"
+   "c1" : "14420"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14420"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14414] The expression  ! imod applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14420] The expression  ! imod applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14499"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14499"
+   "c1" : "14505"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14505"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14499] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14505] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14550"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14550"
+   "c1" : "14556"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14556"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14550] The expression nospc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14556] The expression nospc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14570"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14570"
+   "c1" : "14576"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14576"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14570] The expression p applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14576] The expression p applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14574"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14574"
+   "c1" : "14580"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#14580"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14574] The expression nospc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14580] The expression nospc applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -125,24 +125,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09797"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#9797"
+   "c1" : "09801"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#9801"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09797] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09801] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09798"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#9798"
+   "c1" : "09802"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#9802"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09798] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09799"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#9799"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09799] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09802] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -153,38 +146,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10389"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#10389"
+   "c1" : "09807"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#9807"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10389] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09807] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10391"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#10391"
+   "c1" : "10393"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#10393"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10391] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10393] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10394"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#10394"
+   "c1" : "10395"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#10395"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10394] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10395] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11162"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#11162"
+   "c1" : "10398"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#10398"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11162] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10398] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11184"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#11184"
+   "c1" : "11168"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#11168"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11184] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11168] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -195,10 +188,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11210"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#11210"
+   "c1" : "11196"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#11196"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11210] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11196] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -209,283 +202,290 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12333"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#12333"
+   "c1" : "11222"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#11222"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12333] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11222] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12334"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#12334"
+   "c1" : "12339"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#12339"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12334] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12339] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13766"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#13766"
+   "c1" : "12340"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#12340"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13766] The expression conflict applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[12340] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13780"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#13780"
+   "c1" : "13772"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#13772"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13780] The expression engine_list_tail applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13772] The expression conflict applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13827"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#13827"
+   "c1" : "13786"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#13786"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13827] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13786] The expression engine_list_tail applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13827"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#13827"
+   "c1" : "13833"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#13833"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13827] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000011[13833] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13823"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#13823"
+   "c1" : "13833"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#13833"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[13823] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000012[13833] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13827"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#13827"
+   "c1" : "13829"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#13829"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13827] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000006[13829] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13827"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#13827"
+   "c1" : "13833"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#13833"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13827] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000011[13833] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13904"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#13904"
+   "c1" : "13833"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#13833"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13904] The expression ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "13910"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#13910"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13910] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13833] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
    "c1" : "13910"
  , "c1link" : "./qc/crypto/engine/eng_list.c.html#13910"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13910] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000011[13910] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13906"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#13906"
+   "c1" : "13916"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#13916"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[13906] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000011[13916] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13910"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#13910"
+   "c1" : "13916"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#13916"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13910] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13916] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13910"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#13910"
+   "c1" : "13912"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#13912"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13910] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000006[13912] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13935"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#13935"
+   "c1" : "13916"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#13916"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13935] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13916] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13916"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#13916"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13916] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
    "c1" : "13941"
  , "c1link" : "./qc/crypto/engine/eng_list.c.html#13941"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13941] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13941] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13941"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#13941"
+   "c1" : "13947"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#13947"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13941] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000011[13947] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13937"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#13937"
+   "c1" : "13947"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#13947"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[13937] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000012[13947] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13941"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#13941"
+   "c1" : "13943"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#13943"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13941] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000006[13943] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13941"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#13941"
+   "c1" : "13947"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#13947"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13941] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000011[13947] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13969"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#13969"
+   "c1" : "13947"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#13947"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13969] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13947] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13976"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#13976"
+   "c1" : "13975"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#13975"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13976] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13975] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13976"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#13976"
+   "c1" : "13982"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#13982"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13976] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000011[13982] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13972"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#13972"
+   "c1" : "13982"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#13982"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[13972] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000012[13982] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13976"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#13976"
+   "c1" : "13978"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#13978"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13976] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000006[13978] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13976"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#13976"
+   "c1" : "13982"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#13982"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13976] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000011[13982] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14005"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#14005"
+   "c1" : "13982"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#13982"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14005] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13982] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14012"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#14012"
+   "c1" : "14011"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#14011"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14012] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14011] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14012"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#14012"
+   "c1" : "14018"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#14018"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14012] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000011[14018] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14008"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#14008"
+   "c1" : "14018"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#14018"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[14008] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000012[14018] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14012"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#14012"
+   "c1" : "14014"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#14014"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14012] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000006[14014] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14012"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#14012"
+   "c1" : "14018"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#14018"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14012] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000011[14018] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14197"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#14197"
+   "c1" : "14018"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#14018"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14197] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[14018] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14197"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#14197"
+   "c1" : "14203"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#14203"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14197] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000011[14203] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14193"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#14193"
+   "c1" : "14203"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#14203"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[14193] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000012[14203] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14197"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#14197"
+   "c1" : "14199"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#14199"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14197] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000006[14199] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14197"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#14197"
+   "c1" : "14203"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#14203"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14197] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000011[14203] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14211"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#14211"
+   "c1" : "14203"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#14203"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14203] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14217"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#14217"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14211] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14217] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14228"
- , "c1link" : "./qc/crypto/engine/eng_list.c.html#14228"
+   "c1" : "14234"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#14234"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14228] goto statement jump to notfound"
+ , "c3" : "QC-CPP000007[14234] goto statement jump to notfound"
 }} 
 ]
 };

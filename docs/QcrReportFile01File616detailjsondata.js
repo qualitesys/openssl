@@ -83,115 +83,115 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06270"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6270"
+   "c1" : "06271"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6271"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06270] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06271] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06474"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6474"
+   "c1" : "06475"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6475"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[06474] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[06475] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06490"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6490"
+   "c1" : "06491"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6491"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[06490] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06495"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6495"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06495] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[06491] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "06496"
  , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6496"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[06496] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[06496] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06501"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6501"
+   "c1" : "06497"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6497"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06501] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[06497] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "06502"
  , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6502"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[06502] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[06502] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06507"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6507"
+   "c1" : "06503"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6503"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06507] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[06503] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "06508"
  , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6508"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[06508] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[06508] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06513"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6513"
+   "c1" : "06509"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6509"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06513] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[06509] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06550"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6550"
+   "c1" : "06514"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6514"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[06550] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[06514] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06552"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6552"
+   "c1" : "06551"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6551"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06552] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[06551] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06555"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6555"
+   "c1" : "06553"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6553"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[06555] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[06553] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06560"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6560"
+   "c1" : "06556"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6556"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06560] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[06556] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06579"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6579"
+   "c1" : "06561"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6561"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06579] goto statement jump to err"
+ , "c3" : "QC-CPP000007[06561] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06582"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6582"
+   "c1" : "06580"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6580"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06582] goto statement jump to err"
+ , "c3" : "QC-CPP000007[06580] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06583"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6583"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06583] goto statement jump to err"
 }} 
 ]
 };

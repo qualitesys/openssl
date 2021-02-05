@@ -90,24 +90,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06166"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#6166"
+   "c1" : "06170"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#6170"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06166] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06170] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06167"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#6167"
+   "c1" : "06171"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#6171"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06167] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06168"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#6168"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06168] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06171] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -118,45 +111,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06758"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#6758"
+   "c1" : "06176"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#6176"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06758] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06176] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06760"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#6760"
+   "c1" : "06762"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#6762"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06760] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06762] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06763"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#6763"
+   "c1" : "06764"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#6764"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06763] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06764] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07625"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#7625"
+   "c1" : "06767"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#6767"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07625] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06767] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09184"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#9184"
+   "c1" : "07631"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#7631"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09184] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07631] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09206"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#9206"
+   "c1" : "09190"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#9190"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09206] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09190] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -167,10 +160,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09232"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#9232"
+   "c1" : "09218"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#9218"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09232] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09218] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -181,220 +174,227 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10397"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#10397"
+   "c1" : "09244"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#9244"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10397] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09244] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10398"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#10398"
+   "c1" : "10403"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#10403"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10398] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10403] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12460"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12460"
+   "c1" : "10404"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#10404"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12460] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10404] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12475"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12475"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12475] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "12466"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12466"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[12466] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12475"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12475"
+   "c1" : "12481"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12481"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12475] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12481] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12475"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12475"
+   "c1" : "12481"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12481"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12475] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12481] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12475"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12475"
+   "c1" : "12481"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12481"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12475] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12481] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12475"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12475"
+   "c1" : "12481"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12481"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12475] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12481] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12475"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12475"
+   "c1" : "12481"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12481"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12475] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12481] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12475"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12475"
+   "c1" : "12481"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12481"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12475] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12481] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12475"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12475"
+   "c1" : "12481"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12481"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12475] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12481] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12476"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12476"
+   "c1" : "12481"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12481"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12476] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12481] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12476"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12476"
+   "c1" : "12482"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12482"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12476] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12482] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12476"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12476"
+   "c1" : "12482"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12482"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12476] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12482] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12476"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12476"
+   "c1" : "12482"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12482"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12476] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12482] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12476"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12476"
+   "c1" : "12482"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12482"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12476] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12482] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12501"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12501"
+   "c1" : "12482"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12482"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12501] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12482] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12501"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12501"
+   "c1" : "12507"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12507"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12501] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12507] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12501"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12501"
+   "c1" : "12507"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12507"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12501] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12507] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12501"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12501"
+   "c1" : "12507"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12507"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12501] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12507] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12501"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12501"
+   "c1" : "12507"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12507"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12501] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12507] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12501"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12501"
+   "c1" : "12507"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12507"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12501] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12507] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12501"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12501"
+   "c1" : "12507"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12507"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12501] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12507] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12510"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12510"
+   "c1" : "12507"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12507"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12510] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12507] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12510"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12510"
+   "c1" : "12516"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12516"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12510] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12516] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12510"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12510"
+   "c1" : "12516"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12516"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12510] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12516] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12510"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12510"
+   "c1" : "12516"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12516"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12510] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12516] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12510"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12510"
+   "c1" : "12516"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12516"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12510] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12516] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12579"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12579"
+   "c1" : "12516"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12516"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12579] goto statement jump to end"
+ , "c3" : "QC-CPPCWE481[12516] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12587"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12587"
+   "c1" : "12585"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12585"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12587] goto statement jump to end"
+ , "c3" : "QC-CPP000007[12585] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12590"
- , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12590"
+   "c1" : "12593"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12593"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12590] goto statement jump to end"
+ , "c3" : "QC-CPP000007[12593] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12596"
+ , "c1link" : "./qc/crypto/ct/ct_vfy.c.html#12596"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12596] goto statement jump to end"
 }} 
 ]
 };

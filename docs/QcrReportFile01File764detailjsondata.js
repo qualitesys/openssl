@@ -111,24 +111,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07866"
- , "c1link" : "./qc/engines/e_dasync.c.html#7866"
+   "c1" : "07870"
+ , "c1link" : "./qc/engines/e_dasync.c.html#7870"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07866] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07870] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07867"
- , "c1link" : "./qc/engines/e_dasync.c.html#7867"
+   "c1" : "07871"
+ , "c1link" : "./qc/engines/e_dasync.c.html#7871"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07867] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07868"
- , "c1link" : "./qc/engines/e_dasync.c.html#7868"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07868] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07871] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -139,38 +132,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08458"
- , "c1link" : "./qc/engines/e_dasync.c.html#8458"
+   "c1" : "07876"
+ , "c1link" : "./qc/engines/e_dasync.c.html#7876"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08458] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07876] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08460"
- , "c1link" : "./qc/engines/e_dasync.c.html#8460"
+   "c1" : "08462"
+ , "c1link" : "./qc/engines/e_dasync.c.html#8462"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08460] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08462] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08463"
- , "c1link" : "./qc/engines/e_dasync.c.html#8463"
+   "c1" : "08464"
+ , "c1link" : "./qc/engines/e_dasync.c.html#8464"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08463] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08464] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09274"
- , "c1link" : "./qc/engines/e_dasync.c.html#9274"
+   "c1" : "08467"
+ , "c1link" : "./qc/engines/e_dasync.c.html#8467"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09274] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08467] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09296"
- , "c1link" : "./qc/engines/e_dasync.c.html#9296"
+   "c1" : "09280"
+ , "c1link" : "./qc/engines/e_dasync.c.html#9280"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09296] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09280] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -181,10 +174,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09322"
- , "c1link" : "./qc/engines/e_dasync.c.html#9322"
+   "c1" : "09308"
+ , "c1link" : "./qc/engines/e_dasync.c.html#9308"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09322] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09308] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -195,143 +188,150 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10487"
- , "c1link" : "./qc/engines/e_dasync.c.html#10487"
+   "c1" : "09334"
+ , "c1link" : "./qc/engines/e_dasync.c.html#9334"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10487] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09334] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10488"
- , "c1link" : "./qc/engines/e_dasync.c.html#10488"
+   "c1" : "10493"
+ , "c1link" : "./qc/engines/e_dasync.c.html#10493"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10488] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10493] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11999"
- , "c1link" : "./qc/engines/e_dasync.c.html#11999"
+   "c1" : "10494"
+ , "c1link" : "./qc/engines/e_dasync.c.html#10494"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11999] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10494] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13015"
- , "c1link" : "./qc/engines/e_dasync.c.html#13015"
+   "c1" : "12005"
+ , "c1link" : "./qc/engines/e_dasync.c.html#12005"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13015] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12005] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13017"
- , "c1link" : "./qc/engines/e_dasync.c.html#13017"
+   "c1" : "13021"
+ , "c1link" : "./qc/engines/e_dasync.c.html#13021"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13017] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13021] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15378"
- , "c1link" : "./qc/engines/e_dasync.c.html#15378"
+   "c1" : "13023"
+ , "c1link" : "./qc/engines/e_dasync.c.html#13023"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15378] The expression  ! error_loaded applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[13023] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15389"
- , "c1link" : "./qc/engines/e_dasync.c.html#15389"
+   "c1" : "15384"
+ , "c1link" : "./qc/engines/e_dasync.c.html#15384"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15389] The expression error_loaded applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15384] The expression  ! error_loaded applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15467"
- , "c1link" : "./qc/engines/e_dasync.c.html#15467"
+   "c1" : "15395"
+ , "c1link" : "./qc/engines/e_dasync.c.html#15395"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15467] The expression  ! init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15395] The expression error_loaded applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15469"
- , "c1link" : "./qc/engines/e_dasync.c.html#15469"
+   "c1" : "15473"
+ , "c1link" : "./qc/engines/e_dasync.c.html#15473"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15473] The expression  ! init applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15475"
+ , "c1link" : "./qc/engines/e_dasync.c.html#15475"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15469] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15475] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15592"
- , "c1link" : "./qc/engines/e_dasync.c.html#15592"
+   "c1" : "15598"
+ , "c1link" : "./qc/engines/e_dasync.c.html#15598"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15592] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15598] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15597"
- , "c1link" : "./qc/engines/e_dasync.c.html#15597"
+   "c1" : "15603"
+ , "c1link" : "./qc/engines/e_dasync.c.html#15603"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15597] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15603] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15667"
- , "c1link" : "./qc/engines/e_dasync.c.html#15667"
+   "c1" : "15673"
+ , "c1link" : "./qc/engines/e_dasync.c.html#15673"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[15667] Suspicious bitwise operation with value 0, result is a|0 = a"
+ , "c3" : "QC-CPP000008[15673] Suspicious bitwise operation with value 0, result is a|0 = a"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15699"
- , "c1link" : "./qc/engines/e_dasync.c.html#15699"
+   "c1" : "15705"
+ , "c1link" : "./qc/engines/e_dasync.c.html#15705"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[15699] Suspicious bitwise operation with value 0, result is a|0 = a"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15750"
- , "c1link" : "./qc/engines/e_dasync.c.html#15750"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15750] goto statement jump to skip_cbs"
+ , "c3" : "QC-CPP000008[15705] Suspicious bitwise operation with value 0, result is a|0 = a"
 }} 
 ,
 { "ligne" : {
    "c1" : "15756"
  , "c1link" : "./qc/engines/e_dasync.c.html#15756"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15756] The expression  ! ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15776"
- , "c1link" : "./qc/engines/e_dasync.c.html#15776"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15776] The expression  ! toadd applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15845"
- , "c1link" : "./qc/engines/e_dasync.c.html#15845"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15845] The expression  ! digest applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15930"
- , "c1link" : "./qc/engines/e_dasync.c.html#15930"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15930] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[15756] goto statement jump to skip_cbs"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16061"
- , "c1link" : "./qc/engines/e_dasync.c.html#16061"
+   "c1" : "15762"
+ , "c1link" : "./qc/engines/e_dasync.c.html#15762"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16061] The expression  ! aeadcapable applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15762] The expression  ! ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16071"
- , "c1link" : "./qc/engines/e_dasync.c.html#16071"
+   "c1" : "15782"
+ , "c1link" : "./qc/engines/e_dasync.c.html#15782"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16071] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[15782] The expression  ! toadd applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15851"
+ , "c1link" : "./qc/engines/e_dasync.c.html#15851"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15851] The expression  ! digest applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15936"
+ , "c1link" : "./qc/engines/e_dasync.c.html#15936"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15936] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16067"
+ , "c1link" : "./qc/engines/e_dasync.c.html#16067"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16067] The expression  ! aeadcapable applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16077"
+ , "c1link" : "./qc/engines/e_dasync.c.html#16077"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[16077] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

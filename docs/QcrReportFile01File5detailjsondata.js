@@ -90,24 +90,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10536"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#10536"
+   "c1" : "10540"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#10540"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10536] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10540] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10537"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#10537"
+   "c1" : "10541"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#10541"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10537] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10538"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#10538"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10538] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10541] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -118,45 +111,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11128"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#11128"
+   "c1" : "10546"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#10546"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11128] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10546] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11130"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#11130"
+   "c1" : "11132"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#11132"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11130] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11132] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11133"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#11133"
+   "c1" : "11134"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#11134"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11133] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11134] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11995"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#11995"
+   "c1" : "11137"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#11137"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11995] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11137] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13554"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#13554"
+   "c1" : "12001"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#12001"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13554] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12001] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13576"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#13576"
+   "c1" : "13560"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#13560"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13576] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13560] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -167,10 +160,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13602"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#13602"
+   "c1" : "13588"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#13588"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13602] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13588] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -181,45 +174,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14767"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#14767"
+   "c1" : "13614"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#13614"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14767] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13614] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14768"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#14768"
+   "c1" : "14773"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#14773"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14768] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14773] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17627"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#17627"
+   "c1" : "14774"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#14774"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17627] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14774] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17933"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#17933"
+   "c1" : "17633"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#17633"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17933] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17633] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18455"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18455"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18455] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18457"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18457"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18457] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "17939"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#17939"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[17939] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -230,94 +216,108 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18531"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18531"
+   "c1" : "18464"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18464"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18531] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18464] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18568"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18568"
+   "c1" : "18469"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18469"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18568] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[18469] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18597"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18597"
+   "c1" : "18538"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18538"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18597] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18538] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18757"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18757"
+   "c1" : "18575"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18575"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18757] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18575] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18778"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18778"
+   "c1" : "18604"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18604"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18778] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18604] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18784"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18784"
+   "c1" : "18764"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18764"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18784] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[18764] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18790"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18790"
+   "c1" : "18785"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18785"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18790] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18785] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18795"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18795"
+   "c1" : "18791"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18791"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18795] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18791] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18801"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18801"
+   "c1" : "18797"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18797"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18801] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18797] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18806"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18806"
+   "c1" : "18802"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18802"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18806] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18802] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18812"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18812"
+   "c1" : "18808"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18808"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18812] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18808] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18817"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18817"
+   "c1" : "18813"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18813"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18817] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18813] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19091"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19091"
+   "c1" : "18819"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18819"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19091] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18819] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18824"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18824"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18824] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19098"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19098"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[19098] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

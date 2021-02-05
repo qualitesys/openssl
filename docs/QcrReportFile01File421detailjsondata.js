@@ -83,24 +83,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05750"
- , "c1link" : "./qc/crypto/evp/e_camellia.c.html#5750"
+   "c1" : "05754"
+ , "c1link" : "./qc/crypto/evp/e_camellia.c.html#5754"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05750] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05754] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05751"
- , "c1link" : "./qc/crypto/evp/e_camellia.c.html#5751"
+   "c1" : "05755"
+ , "c1link" : "./qc/crypto/evp/e_camellia.c.html#5755"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05751] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05752"
- , "c1link" : "./qc/crypto/evp/e_camellia.c.html#5752"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05752] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05755] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -111,38 +104,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06342"
- , "c1link" : "./qc/crypto/evp/e_camellia.c.html#6342"
+   "c1" : "05760"
+ , "c1link" : "./qc/crypto/evp/e_camellia.c.html#5760"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06342] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05760] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06344"
- , "c1link" : "./qc/crypto/evp/e_camellia.c.html#6344"
+   "c1" : "06346"
+ , "c1link" : "./qc/crypto/evp/e_camellia.c.html#6346"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06344] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06346] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06347"
- , "c1link" : "./qc/crypto/evp/e_camellia.c.html#6347"
+   "c1" : "06348"
+ , "c1link" : "./qc/crypto/evp/e_camellia.c.html#6348"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06347] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06348] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08367"
- , "c1link" : "./qc/crypto/evp/e_camellia.c.html#8367"
+   "c1" : "06351"
+ , "c1link" : "./qc/crypto/evp/e_camellia.c.html#6351"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08367] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06351] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09641"
- , "c1link" : "./qc/crypto/evp/e_camellia.c.html#9641"
+   "c1" : "08372"
+ , "c1link" : "./qc/crypto/evp/e_camellia.c.html#8372"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09641] The expression len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[08372] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09646"
+ , "c1link" : "./qc/crypto/evp/e_camellia.c.html#9646"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09646] The expression len applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -76,24 +76,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06095"
- , "c1link" : "./qc/crypto/dh/dh_meth.c.html#6095"
+   "c1" : "06099"
+ , "c1link" : "./qc/crypto/dh/dh_meth.c.html#6099"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06095] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06099] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06096"
- , "c1link" : "./qc/crypto/dh/dh_meth.c.html#6096"
+   "c1" : "06100"
+ , "c1link" : "./qc/crypto/dh/dh_meth.c.html#6100"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06096] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06097"
- , "c1link" : "./qc/crypto/dh/dh_meth.c.html#6097"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06097] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06100] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -104,24 +97,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06687"
- , "c1link" : "./qc/crypto/dh/dh_meth.c.html#6687"
+   "c1" : "06105"
+ , "c1link" : "./qc/crypto/dh/dh_meth.c.html#6105"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06687] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06105] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06689"
- , "c1link" : "./qc/crypto/dh/dh_meth.c.html#6689"
+   "c1" : "06691"
+ , "c1link" : "./qc/crypto/dh/dh_meth.c.html#6691"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06689] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06691] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06692"
- , "c1link" : "./qc/crypto/dh/dh_meth.c.html#6692"
+   "c1" : "06693"
+ , "c1link" : "./qc/crypto/dh/dh_meth.c.html#6693"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06692] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06693] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06696"
+ , "c1link" : "./qc/crypto/dh/dh_meth.c.html#6696"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[06696] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

@@ -97,24 +97,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10780"
- , "c1link" : "./qc/crypto/bio/bf_lbuf.c.html#10780"
+   "c1" : "10784"
+ , "c1link" : "./qc/crypto/bio/bf_lbuf.c.html#10784"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10780] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10784] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10781"
- , "c1link" : "./qc/crypto/bio/bf_lbuf.c.html#10781"
+   "c1" : "10785"
+ , "c1link" : "./qc/crypto/bio/bf_lbuf.c.html#10785"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10781] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10782"
- , "c1link" : "./qc/crypto/bio/bf_lbuf.c.html#10782"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10782] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10785] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -125,38 +118,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11372"
- , "c1link" : "./qc/crypto/bio/bf_lbuf.c.html#11372"
+   "c1" : "10790"
+ , "c1link" : "./qc/crypto/bio/bf_lbuf.c.html#10790"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11372] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10790] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11374"
- , "c1link" : "./qc/crypto/bio/bf_lbuf.c.html#11374"
+   "c1" : "11376"
+ , "c1link" : "./qc/crypto/bio/bf_lbuf.c.html#11376"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11374] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11376] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11377"
- , "c1link" : "./qc/crypto/bio/bf_lbuf.c.html#11377"
+   "c1" : "11378"
+ , "c1link" : "./qc/crypto/bio/bf_lbuf.c.html#11378"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11377] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11378] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12089"
- , "c1link" : "./qc/crypto/bio/bf_lbuf.c.html#12089"
+   "c1" : "11381"
+ , "c1link" : "./qc/crypto/bio/bf_lbuf.c.html#11381"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[11381] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12095"
+ , "c1link" : "./qc/crypto/bio/bf_lbuf.c.html#12095"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12089] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12095] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12323"
- , "c1link" : "./qc/crypto/bio/bf_lbuf.c.html#12323"
+   "c1" : "12329"
+ , "c1link" : "./qc/crypto/bio/bf_lbuf.c.html#12329"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12323] goto statement jump to malloc_error"
+ , "c3" : "QC-CPP000007[12329] goto statement jump to malloc_error"
 }} 
 ]
 };

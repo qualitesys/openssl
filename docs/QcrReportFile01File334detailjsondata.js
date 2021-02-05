@@ -104,24 +104,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08523"
- , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#8523"
+   "c1" : "08527"
+ , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#8527"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08523] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08527] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08524"
- , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#8524"
+   "c1" : "08528"
+ , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#8528"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08524] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08525"
- , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#8525"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08525] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08528] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -132,136 +125,143 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09115"
- , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#9115"
+   "c1" : "08533"
+ , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#8533"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09115] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08533] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09117"
- , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#9117"
+   "c1" : "09119"
+ , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#9119"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09117] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09119] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09120"
- , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#9120"
+   "c1" : "09121"
+ , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#9121"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09120] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09121] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10181"
- , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#10181"
+   "c1" : "09124"
+ , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#9124"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10181] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[09124] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10222"
- , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#10222"
+   "c1" : "10187"
+ , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#10187"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10222] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10187] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10264"
- , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#10264"
+   "c1" : "10228"
+ , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#10228"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10264] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10228] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10299"
- , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#10299"
+   "c1" : "10270"
+ , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#10270"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10299] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10270] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10483"
- , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#10483"
+   "c1" : "10305"
+ , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#10305"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10483] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[10305] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10505"
- , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#10505"
+   "c1" : "10489"
+ , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#10489"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10505] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10489] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10524"
- , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#10524"
+   "c1" : "10511"
+ , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#10511"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10524] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10511] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10547"
- , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#10547"
+   "c1" : "10530"
+ , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#10530"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10547] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10530] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10567"
- , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#10567"
+   "c1" : "10553"
+ , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#10553"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10567] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10553] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10747"
- , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#10747"
+   "c1" : "10573"
+ , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#10573"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10747] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10573] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10926"
- , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#10926"
+   "c1" : "10753"
+ , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#10753"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[10753] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10932"
+ , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#10932"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10926] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10932] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10987"
- , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#10987"
+   "c1" : "10993"
+ , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#10993"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10987] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10993] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11072"
- , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#11072"
+   "c1" : "11078"
+ , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#11078"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11072] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11078] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11073"
- , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#11073"
+   "c1" : "11079"
+ , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#11079"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11073] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11079] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11093"
- , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#11093"
+   "c1" : "11099"
+ , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#11099"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11093] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11099] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11097"
- , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#11097"
+   "c1" : "11103"
+ , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#11103"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11097] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11103] goto statement jump to err"
 }} 
 ]
 };

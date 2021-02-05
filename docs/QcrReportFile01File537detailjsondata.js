@@ -90,24 +90,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06074"
- , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#6074"
+   "c1" : "06078"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#6078"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06074] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06078] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06075"
- , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#6075"
+   "c1" : "06079"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#6079"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06075] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06076"
- , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#6076"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06076] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06079] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -118,45 +111,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06666"
- , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#6666"
+   "c1" : "06084"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#6084"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06666] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06084] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06668"
- , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#6668"
+   "c1" : "06670"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#6670"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06668] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06670] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06671"
- , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#6671"
+   "c1" : "06672"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#6672"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06671] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06672] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07533"
- , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#7533"
+   "c1" : "06675"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#6675"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07533] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06675] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09092"
- , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#9092"
+   "c1" : "07539"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#7539"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09092] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07539] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09114"
- , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#9114"
+   "c1" : "09098"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#9098"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09114] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09098] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -167,10 +160,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09140"
- , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#9140"
+   "c1" : "09126"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#9126"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09140] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09126] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -181,38 +174,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10263"
- , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#10263"
+   "c1" : "09152"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#9152"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10263] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09152] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10264"
- , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#10264"
+   "c1" : "10269"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#10269"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10264] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10269] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11770"
- , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#11770"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11770] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "10270"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#10270"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[10270] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11797"
- , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#11797"
+   "c1" : "11776"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#11776"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11797] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[11776] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11806"
- , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#11806"
+   "c1" : "11803"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#11803"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11806] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11803] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11812"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#11812"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11812] goto statement jump to err"
 }} 
 ]
 };

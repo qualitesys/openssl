@@ -83,24 +83,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05749"
- , "c1link" : "./qc/crypto/evp/p_legacy.c.html#5749"
+   "c1" : "05753"
+ , "c1link" : "./qc/crypto/evp/p_legacy.c.html#5753"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05749] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05753] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05750"
- , "c1link" : "./qc/crypto/evp/p_legacy.c.html#5750"
+   "c1" : "05754"
+ , "c1link" : "./qc/crypto/evp/p_legacy.c.html#5754"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05750] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05751"
- , "c1link" : "./qc/crypto/evp/p_legacy.c.html#5751"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05751] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05754] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -111,52 +104,59 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06341"
- , "c1link" : "./qc/crypto/evp/p_legacy.c.html#6341"
+   "c1" : "05759"
+ , "c1link" : "./qc/crypto/evp/p_legacy.c.html#5759"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06341] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05759] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06343"
- , "c1link" : "./qc/crypto/evp/p_legacy.c.html#6343"
+   "c1" : "06345"
+ , "c1link" : "./qc/crypto/evp/p_legacy.c.html#6345"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06343] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06345] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06346"
- , "c1link" : "./qc/crypto/evp/p_legacy.c.html#6346"
+   "c1" : "06347"
+ , "c1link" : "./qc/crypto/evp/p_legacy.c.html#6347"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06346] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06347] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07866"
- , "c1link" : "./qc/crypto/evp/p_legacy.c.html#7866"
+   "c1" : "06350"
+ , "c1link" : "./qc/crypto/evp/p_legacy.c.html#6350"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07866] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06350] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09293"
- , "c1link" : "./qc/crypto/evp/p_legacy.c.html#9293"
+   "c1" : "07872"
+ , "c1link" : "./qc/crypto/evp/p_legacy.c.html#7872"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09293] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07872] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10105"
- , "c1link" : "./qc/crypto/evp/p_legacy.c.html#10105"
+   "c1" : "09298"
+ , "c1link" : "./qc/crypto/evp/p_legacy.c.html#9298"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10105] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[09298] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10157"
- , "c1link" : "./qc/crypto/evp/p_legacy.c.html#10157"
+   "c1" : "10110"
+ , "c1link" : "./qc/crypto/evp/p_legacy.c.html#10110"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10157] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10110] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10162"
+ , "c1link" : "./qc/crypto/evp/p_legacy.c.html#10162"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10162] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

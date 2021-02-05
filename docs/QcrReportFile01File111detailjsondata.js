@@ -97,24 +97,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08009"
- , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#8009"
+   "c1" : "08013"
+ , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#8013"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08009] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08013] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08010"
- , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#8010"
+   "c1" : "08014"
+ , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#8014"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08010] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08011"
- , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#8011"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08011] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08014] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -125,73 +118,80 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08601"
- , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#8601"
+   "c1" : "08019"
+ , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#8019"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08601] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08019] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08603"
- , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#8603"
+   "c1" : "08605"
+ , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#8605"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08603] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08605] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08606"
- , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#8606"
+   "c1" : "08607"
+ , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#8607"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08606] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08607] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10072"
- , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#10072"
+   "c1" : "08610"
+ , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#8610"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10072] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08610] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10620"
- , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#10620"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10620] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10634"
- , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#10634"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10634] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10650"
- , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#10650"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10650] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10654"
- , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#10654"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10654] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10684"
- , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#10684"
+   "c1" : "10077"
+ , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#10077"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10684] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10077] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10694"
- , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#10694"
+   "c1" : "10625"
+ , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#10625"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10694] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[10625] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10639"
+ , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#10639"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10639] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10655"
+ , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#10655"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10655] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10659"
+ , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#10659"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10659] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10689"
+ , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#10689"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[10689] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10699"
+ , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#10699"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10699] goto statement jump to err"
 }} 
 ]
 };

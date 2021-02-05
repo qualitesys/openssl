@@ -97,24 +97,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08015"
- , "c1link" : "./qc/crypto/evp/e_sm4.c.html#8015"
+   "c1" : "08019"
+ , "c1link" : "./qc/crypto/evp/e_sm4.c.html#8019"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08015] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08019] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08016"
- , "c1link" : "./qc/crypto/evp/e_sm4.c.html#8016"
+   "c1" : "08020"
+ , "c1link" : "./qc/crypto/evp/e_sm4.c.html#8020"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08016] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08017"
- , "c1link" : "./qc/crypto/evp/e_sm4.c.html#8017"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08017] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08020] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -125,66 +118,73 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08607"
- , "c1link" : "./qc/crypto/evp/e_sm4.c.html#8607"
+   "c1" : "08025"
+ , "c1link" : "./qc/crypto/evp/e_sm4.c.html#8025"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08607] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08025] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08609"
- , "c1link" : "./qc/crypto/evp/e_sm4.c.html#8609"
+   "c1" : "08611"
+ , "c1link" : "./qc/crypto/evp/e_sm4.c.html#8611"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08609] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08611] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08612"
- , "c1link" : "./qc/crypto/evp/e_sm4.c.html#8612"
+   "c1" : "08613"
+ , "c1link" : "./qc/crypto/evp/e_sm4.c.html#8613"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08612] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08613] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10172"
- , "c1link" : "./qc/crypto/evp/e_sm4.c.html#10172"
+   "c1" : "08616"
+ , "c1link" : "./qc/crypto/evp/e_sm4.c.html#8616"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10172] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08616] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10995"
- , "c1link" : "./qc/crypto/evp/e_sm4.c.html#10995"
+   "c1" : "10177"
+ , "c1link" : "./qc/crypto/evp/e_sm4.c.html#10177"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10995] The expression enc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[10177] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11014"
- , "c1link" : "./qc/crypto/evp/e_sm4.c.html#11014"
+   "c1" : "11000"
+ , "c1link" : "./qc/crypto/evp/e_sm4.c.html#11000"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11014] The expression enc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11000] The expression enc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11028"
- , "c1link" : "./qc/crypto/evp/e_sm4.c.html#11028"
+   "c1" : "11019"
+ , "c1link" : "./qc/crypto/evp/e_sm4.c.html#11019"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11028] The expression inl applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11019] The expression enc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11028"
- , "c1link" : "./qc/crypto/evp/e_sm4.c.html#11028"
+   "c1" : "11033"
+ , "c1link" : "./qc/crypto/evp/e_sm4.c.html#11033"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11028] The expression 128==1 is invariable, always true or false"
+ , "c3" : "QC-CPP000011[11033] The expression inl applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11028"
- , "c1link" : "./qc/crypto/evp/e_sm4.c.html#11028"
+   "c1" : "11033"
+ , "c1link" : "./qc/crypto/evp/e_sm4.c.html#11033"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11028] The expression inl applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[11033] The expression 128==1 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11033"
+ , "c1link" : "./qc/crypto/evp/e_sm4.c.html#11033"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[11033] The expression inl applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

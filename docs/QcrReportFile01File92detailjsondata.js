@@ -97,24 +97,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08135"
- , "c1link" : "./qc/crypto/asn1/a_strex.c.html#8135"
+   "c1" : "08139"
+ , "c1link" : "./qc/crypto/asn1/a_strex.c.html#8139"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08135] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08139] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08136"
- , "c1link" : "./qc/crypto/asn1/a_strex.c.html#8136"
+   "c1" : "08140"
+ , "c1link" : "./qc/crypto/asn1/a_strex.c.html#8140"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08136] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08137"
- , "c1link" : "./qc/crypto/asn1/a_strex.c.html#8137"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08137] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08140] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -125,45 +118,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08727"
- , "c1link" : "./qc/crypto/asn1/a_strex.c.html#8727"
+   "c1" : "08145"
+ , "c1link" : "./qc/crypto/asn1/a_strex.c.html#8145"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08727] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08145] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08729"
- , "c1link" : "./qc/crypto/asn1/a_strex.c.html#8729"
+   "c1" : "08731"
+ , "c1link" : "./qc/crypto/asn1/a_strex.c.html#8731"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08729] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08731] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08732"
- , "c1link" : "./qc/crypto/asn1/a_strex.c.html#8732"
+   "c1" : "08733"
+ , "c1link" : "./qc/crypto/asn1/a_strex.c.html#8733"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08732] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08733] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09594"
- , "c1link" : "./qc/crypto/asn1/a_strex.c.html#9594"
+   "c1" : "08736"
+ , "c1link" : "./qc/crypto/asn1/a_strex.c.html#8736"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09594] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08736] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11153"
- , "c1link" : "./qc/crypto/asn1/a_strex.c.html#11153"
+   "c1" : "09600"
+ , "c1link" : "./qc/crypto/asn1/a_strex.c.html#9600"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11153] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09600] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11175"
- , "c1link" : "./qc/crypto/asn1/a_strex.c.html#11175"
+   "c1" : "11159"
+ , "c1link" : "./qc/crypto/asn1/a_strex.c.html#11159"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11175] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11159] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -174,10 +167,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11201"
- , "c1link" : "./qc/crypto/asn1/a_strex.c.html#11201"
+   "c1" : "11187"
+ , "c1link" : "./qc/crypto/asn1/a_strex.c.html#11187"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11201] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11187] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -188,108 +181,115 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12324"
- , "c1link" : "./qc/crypto/asn1/a_strex.c.html#12324"
+   "c1" : "11213"
+ , "c1link" : "./qc/crypto/asn1/a_strex.c.html#11213"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12324] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11213] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12325"
- , "c1link" : "./qc/crypto/asn1/a_strex.c.html#12325"
+   "c1" : "12330"
+ , "c1link" : "./qc/crypto/asn1/a_strex.c.html#12330"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12325] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12330] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12829"
- , "c1link" : "./qc/crypto/asn1/a_strex.c.html#12829"
+   "c1" : "12331"
+ , "c1link" : "./qc/crypto/asn1/a_strex.c.html#12331"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12829] The expression  ! arg applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[12331] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12839"
- , "c1link" : "./qc/crypto/asn1/a_strex.c.html#12839"
+   "c1" : "12835"
+ , "c1link" : "./qc/crypto/asn1/a_strex.c.html#12835"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12839] The expression  ! arg applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[12835] The expression  ! arg applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12884"
- , "c1link" : "./qc/crypto/asn1/a_strex.c.html#12884"
+   "c1" : "12845"
+ , "c1link" : "./qc/crypto/asn1/a_strex.c.html#12845"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12884] The expression do_quotes applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[12845] The expression  ! arg applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12924"
- , "c1link" : "./qc/crypto/asn1/a_strex.c.html#12924"
+   "c1" : "12890"
+ , "c1link" : "./qc/crypto/asn1/a_strex.c.html#12890"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12924] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[12890] The expression do_quotes applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13026"
- , "c1link" : "./qc/crypto/asn1/a_strex.c.html#13026"
+   "c1" : "12930"
+ , "c1link" : "./qc/crypto/asn1/a_strex.c.html#12930"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13026] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12930] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13028"
- , "c1link" : "./qc/crypto/asn1/a_strex.c.html#13028"
+   "c1" : "13032"
+ , "c1link" : "./qc/crypto/asn1/a_strex.c.html#13032"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13028] The expression arg applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[13032] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13056"
- , "c1link" : "./qc/crypto/asn1/a_strex.c.html#13056"
+   "c1" : "13034"
+ , "c1link" : "./qc/crypto/asn1/a_strex.c.html#13034"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13056] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[13034] The expression arg applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13075"
- , "c1link" : "./qc/crypto/asn1/a_strex.c.html#13075"
+   "c1" : "13062"
+ , "c1link" : "./qc/crypto/asn1/a_strex.c.html#13062"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[13062] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13081"
+ , "c1link" : "./qc/crypto/asn1/a_strex.c.html#13081"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13075] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[13081] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13185"
- , "c1link" : "./qc/crypto/asn1/a_strex.c.html#13185"
+   "c1" : "13191"
+ , "c1link" : "./qc/crypto/asn1/a_strex.c.html#13191"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13185] The expression  ! type applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13191] The expression  ! type applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13199"
- , "c1link" : "./qc/crypto/asn1/a_strex.c.html#13199"
+   "c1" : "13205"
+ , "c1link" : "./qc/crypto/asn1/a_strex.c.html#13205"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13199] The expression quotes applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13205] The expression quotes applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13201"
- , "c1link" : "./qc/crypto/asn1/a_strex.c.html#13201"
+   "c1" : "13207"
+ , "c1link" : "./qc/crypto/asn1/a_strex.c.html#13207"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13201] The expression  ! arg applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13207] The expression  ! arg applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13384"
- , "c1link" : "./qc/crypto/asn1/a_strex.c.html#13384"
+   "c1" : "13390"
+ , "c1link" : "./qc/crypto/asn1/a_strex.c.html#13390"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13384] The expression  ! btmp applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13390] The expression  ! btmp applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13415"
- , "c1link" : "./qc/crypto/asn1/a_strex.c.html#13415"
+   "c1" : "13421"
+ , "c1link" : "./qc/crypto/asn1/a_strex.c.html#13421"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13415] The expression  ! in applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13421] The expression  ! in applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -111,24 +111,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08006"
- , "c1link" : "./qc/crypto/evp/bio_enc.c.html#8006"
+   "c1" : "08010"
+ , "c1link" : "./qc/crypto/evp/bio_enc.c.html#8010"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08006] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08010] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08007"
- , "c1link" : "./qc/crypto/evp/bio_enc.c.html#8007"
+   "c1" : "08011"
+ , "c1link" : "./qc/crypto/evp/bio_enc.c.html#8011"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08007] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08008"
- , "c1link" : "./qc/crypto/evp/bio_enc.c.html#8008"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08008] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08011] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -139,73 +132,80 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08598"
- , "c1link" : "./qc/crypto/evp/bio_enc.c.html#8598"
+   "c1" : "08016"
+ , "c1link" : "./qc/crypto/evp/bio_enc.c.html#8016"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08598] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08016] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08600"
- , "c1link" : "./qc/crypto/evp/bio_enc.c.html#8600"
+   "c1" : "08602"
+ , "c1link" : "./qc/crypto/evp/bio_enc.c.html#8602"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08600] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08602] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08603"
- , "c1link" : "./qc/crypto/evp/bio_enc.c.html#8603"
+   "c1" : "08604"
+ , "c1link" : "./qc/crypto/evp/bio_enc.c.html#8604"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08603] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08604] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09353"
- , "c1link" : "./qc/crypto/evp/bio_enc.c.html#9353"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09353] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09377"
- , "c1link" : "./qc/crypto/evp/bio_enc.c.html#9377"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09377] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09471"
- , "c1link" : "./qc/crypto/evp/bio_enc.c.html#9471"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09471] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09510"
- , "c1link" : "./qc/crypto/evp/bio_enc.c.html#9510"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09510] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09688"
- , "c1link" : "./qc/crypto/evp/bio_enc.c.html#9688"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[09688] The switch case refers to the jump label again"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09710"
- , "c1link" : "./qc/crypto/evp/bio_enc.c.html#9710"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09710] goto statement jump to again"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09740"
- , "c1link" : "./qc/crypto/evp/bio_enc.c.html#9740"
+   "c1" : "08607"
+ , "c1link" : "./qc/crypto/evp/bio_enc.c.html#8607"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09740] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[08607] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09359"
+ , "c1link" : "./qc/crypto/evp/bio_enc.c.html#9359"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09359] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09383"
+ , "c1link" : "./qc/crypto/evp/bio_enc.c.html#9383"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09383] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09477"
+ , "c1link" : "./qc/crypto/evp/bio_enc.c.html#9477"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09477] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09516"
+ , "c1link" : "./qc/crypto/evp/bio_enc.c.html#9516"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09516] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09694"
+ , "c1link" : "./qc/crypto/evp/bio_enc.c.html#9694"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000010[09694] The switch case refers to the jump label again"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09716"
+ , "c1link" : "./qc/crypto/evp/bio_enc.c.html#9716"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09716] goto statement jump to again"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09746"
+ , "c1link" : "./qc/crypto/evp/bio_enc.c.html#9746"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09746] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

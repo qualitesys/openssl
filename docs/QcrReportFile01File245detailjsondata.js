@@ -104,24 +104,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08211"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#8211"
+   "c1" : "08215"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#8215"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08211] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08215] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08212"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#8212"
+   "c1" : "08216"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#8216"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08212] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08213"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#8213"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08213] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08216] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -132,45 +125,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08803"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#8803"
+   "c1" : "08221"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#8221"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08803] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08221] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08805"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#8805"
+   "c1" : "08807"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#8807"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08805] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08807] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08808"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#8808"
+   "c1" : "08809"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#8809"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08808] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08809] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09674"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#9674"
+   "c1" : "08812"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#8812"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09674] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08812] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11233"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#11233"
+   "c1" : "09680"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#9680"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11233] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09680] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11255"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#11255"
+   "c1" : "11239"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#11239"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11255] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11239] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -181,10 +174,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11281"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#11281"
+   "c1" : "11267"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#11267"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11281] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11267] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -195,332 +188,339 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12404"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#12404"
+   "c1" : "11293"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#11293"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12404] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11293] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12405"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#12405"
+   "c1" : "12410"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#12410"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12405] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12410] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15436"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15436"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15436] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15447"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15447"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15447] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15460"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15460"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15460] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15471"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15471"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15471] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15484"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15484"
+   "c1" : "12411"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#12411"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15484] The expression  ! ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[12411] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15509"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15509"
+   "c1" : "15442"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15442"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15509] goto statement jump to merr"
+ , "c3" : "QC-CPP000007[15442] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15510"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15510"
+   "c1" : "15453"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15453"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15453] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15466"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15466"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15466] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15477"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15477"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15477] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15490"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15490"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15510] The expression id applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15490] The expression  ! ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15518"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15518"
+   "c1" : "15515"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15515"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15518] goto statement jump to merr"
+ , "c3" : "QC-CPP000007[15515] goto statement jump to merr"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15520"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15520"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15520] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15575"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15575"
+   "c1" : "15516"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15516"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15575] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[15516] The expression id applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15584"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15584"
+   "c1" : "15524"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15524"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15584] goto statement jump to merr"
+ , "c3" : "QC-CPP000007[15524] goto statement jump to merr"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15588"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15588"
+   "c1" : "15526"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15526"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15588] goto statement jump to merr"
+ , "c3" : "QC-CPP000007[15526] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15593"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15593"
+   "c1" : "15581"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15581"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15593] The expression  ! r applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[15581] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15735"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15735"
+   "c1" : "15590"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15590"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15735] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15590] goto statement jump to merr"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15743"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15743"
+   "c1" : "15594"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15594"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15743] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15594] goto statement jump to merr"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15753"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15753"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15753] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15772"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15772"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15772] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15777"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15777"
+   "c1" : "15599"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15599"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15777] The expression  ! rct applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15599] The expression  ! r applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15741"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15741"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15741] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15749"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15749"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15749] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15759"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15759"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15759] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15778"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15778"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15778] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "15783"
  , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15783"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15783] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15800"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15800"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15800] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15812"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15812"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15812] The expression  ! msig applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15783] The expression  ! rct applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15789"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15789"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15789] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15806"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15806"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15806] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "15818"
  , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15818"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15818] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15827"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15827"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15827] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15836"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15836"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15836] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15845"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15845"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15845] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15853"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15853"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15853] The expression  ! octype applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15818] The expression  ! msig applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15824"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15824"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15824] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15833"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15833"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15833] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15842"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15842"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15842] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15851"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15851"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15851] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "15859"
  , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15859"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15859] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15870"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15870"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15870] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15881"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15881"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15881] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15891"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15891"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15891] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15933"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15933"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15933] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15941"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15941"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15941] The expression  ! ctype applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15859] The expression  ! octype applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15865"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15865"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15865] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15876"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15876"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15876] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15887"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15887"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15887] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15897"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15897"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15897] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15939"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15939"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15939] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "15947"
  , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15947"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15947] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15977"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15977"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15977] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[15947] The expression  ! ctype applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15990"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15990"
+   "c1" : "15953"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15953"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15990] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[15953] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15995"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15995"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15995] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15998"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15998"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15998] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15999"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15999"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15999] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16008"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#16008"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16008] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16033"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#16033"
+   "c1" : "15983"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15983"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16033] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15983] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16046"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#16046"
+   "c1" : "15996"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#15996"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16046] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15996] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16051"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#16051"
+   "c1" : "16001"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#16001"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16051] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16001] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16054"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#16054"
+   "c1" : "16004"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#16004"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16054] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16004] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16055"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#16055"
+   "c1" : "16005"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#16005"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16055] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16005] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16064"
- , "c1link" : "./qc/crypto/cms/cms_ess.c.html#16064"
+   "c1" : "16014"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#16014"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16064] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16014] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16039"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#16039"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[16039] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16052"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#16052"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[16052] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16057"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#16057"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16057] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16060"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#16060"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[16060] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16061"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#16061"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16061] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16070"
+ , "c1link" : "./qc/crypto/cms/cms_ess.c.html#16070"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16070] goto statement jump to err"
 }} 
 ]
 };

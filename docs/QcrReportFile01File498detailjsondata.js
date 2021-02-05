@@ -69,73 +69,73 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05970"
- , "c1link" : "./qc/crypto/initthread.c.html#5970"
+   "c1" : "05969"
+ , "c1link" : "./qc/crypto/initthread.c.html#5969"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05970] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05969] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05972"
- , "c1link" : "./qc/crypto/initthread.c.html#5972"
+   "c1" : "05971"
+ , "c1link" : "./qc/crypto/initthread.c.html#5971"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05972] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05971] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08144"
- , "c1link" : "./qc/crypto/initthread.c.html#8144"
+   "c1" : "08143"
+ , "c1link" : "./qc/crypto/initthread.c.html#8143"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08144] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08143] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08325"
- , "c1link" : "./qc/crypto/initthread.c.html#8325"
+   "c1" : "08324"
+ , "c1link" : "./qc/crypto/initthread.c.html#8324"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08325] The expression alloc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08324] The expression alloc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08332"
- , "c1link" : "./qc/crypto/initthread.c.html#8332"
+   "c1" : "08331"
+ , "c1link" : "./qc/crypto/initthread.c.html#8331"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08332] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08331] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08368"
- , "c1link" : "./qc/crypto/initthread.c.html#8368"
+   "c1" : "08367"
+ , "c1link" : "./qc/crypto/initthread.c.html#8367"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08368] The expression  ! keep applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08367] The expression  ! keep applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08593"
- , "c1link" : "./qc/crypto/initthread.c.html#8593"
+   "c1" : "08592"
+ , "c1link" : "./qc/crypto/initthread.c.html#8592"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08593] The expression  ! all applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08592] The expression  ! all applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08619"
- , "c1link" : "./qc/crypto/initthread.c.html#8619"
+   "c1" : "08618"
+ , "c1link" : "./qc/crypto/initthread.c.html#8618"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08619] The expression  ! all applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08618] The expression  ! all applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08646"
- , "c1link" : "./qc/crypto/initthread.c.html#8646"
+   "c1" : "08645"
+ , "c1link" : "./qc/crypto/initthread.c.html#8645"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08646] The expression all applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08645] The expression all applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08649"
- , "c1link" : "./qc/crypto/initthread.c.html#8649"
+   "c1" : "08648"
+ , "c1link" : "./qc/crypto/initthread.c.html#8648"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08649] The expression all applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08648] The expression all applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

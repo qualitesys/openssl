@@ -83,24 +83,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05763"
- , "c1link" : "./qc/crypto/rand/prov_seed.c.html#5763"
+   "c1" : "05767"
+ , "c1link" : "./qc/crypto/rand/prov_seed.c.html#5767"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05763] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05767] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05764"
- , "c1link" : "./qc/crypto/rand/prov_seed.c.html#5764"
+   "c1" : "05768"
+ , "c1link" : "./qc/crypto/rand/prov_seed.c.html#5768"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05764] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05765"
- , "c1link" : "./qc/crypto/rand/prov_seed.c.html#5765"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05765] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05768] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -111,59 +104,66 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06355"
- , "c1link" : "./qc/crypto/rand/prov_seed.c.html#6355"
+   "c1" : "05773"
+ , "c1link" : "./qc/crypto/rand/prov_seed.c.html#5773"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06355] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05773] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06357"
- , "c1link" : "./qc/crypto/rand/prov_seed.c.html#6357"
+   "c1" : "06359"
+ , "c1link" : "./qc/crypto/rand/prov_seed.c.html#6359"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06357] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06359] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06360"
- , "c1link" : "./qc/crypto/rand/prov_seed.c.html#6360"
+   "c1" : "06361"
+ , "c1link" : "./qc/crypto/rand/prov_seed.c.html#6361"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06360] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06361] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07104"
- , "c1link" : "./qc/crypto/rand/prov_seed.c.html#7104"
+   "c1" : "06364"
+ , "c1link" : "./qc/crypto/rand/prov_seed.c.html#6364"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07104] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06364] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07105"
- , "c1link" : "./qc/crypto/rand/prov_seed.c.html#7105"
+   "c1" : "07110"
+ , "c1link" : "./qc/crypto/rand/prov_seed.c.html#7110"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07105] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07110] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07119"
- , "c1link" : "./qc/crypto/rand/prov_seed.c.html#7119"
+   "c1" : "07111"
+ , "c1link" : "./qc/crypto/rand/prov_seed.c.html#7111"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07119] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07111] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07966"
- , "c1link" : "./qc/crypto/rand/prov_seed.c.html#7966"
+   "c1" : "07125"
+ , "c1link" : "./qc/crypto/rand/prov_seed.c.html#7125"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[07125] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07971"
+ , "c1link" : "./qc/crypto/rand/prov_seed.c.html#7971"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07966] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07971] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07973"
- , "c1link" : "./qc/crypto/rand/prov_seed.c.html#7973"
+   "c1" : "07978"
+ , "c1link" : "./qc/crypto/rand/prov_seed.c.html#7978"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07973] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07978] goto statement jump to err"
 }} 
 ]
 };

@@ -4511,7 +4511,7 @@
 <a name="4511">4511&nbsp;&nbsp;&nbsp;struct&nbsp;lhash_st_OPENSSL_CSTRING&nbsp;{&nbsp;union&nbsp;lh_OPENSSL_CSTRING_dummy&nbsp;{&nbsp;void*&nbsp;d1;&nbsp;unsigned&nbsp;long&nbsp;d2;&nbsp;int&nbsp;d3;&nbsp;}&nbsp;dummy;&nbsp;};&nbsp;typedef&nbsp;int&nbsp;(*lh_OPENSSL_CSTRING_compfunc)(const&nbsp;OPENSSL_CSTRING&nbsp;*a,&nbsp;const&nbsp;OPENSSL_CSTRING&nbsp;*b);&nbsp;typedef&nbsp;unsigned&nbsp;long&nbsp;(*lh_OPENSSL_CSTRING_hashfunc)(const&nbsp;OPENSSL_CSTRING&nbsp;*a);&nbsp;typedef&nbsp;void&nbsp;(*lh_OPENSSL_CSTRING_doallfunc)(OPENSSL_CSTRING&nbsp;*a);&nbsp;static&nbsp;__attribute__((unused))&nbsp;inline&nbsp;OPENSSL_CSTRING&nbsp;*ossl_check_OPENSSL_CSTRING_lh_plain_type(OPENSSL_CSTRING&nbsp;*ptr)&nbsp;{&nbsp;return&nbsp;ptr;&nbsp;}&nbsp;static&nbsp;__attribute__((unused))&nbsp;inline&nbsp;const&nbsp;OPENSSL_CSTRING&nbsp;*ossl_check_const_OPENSSL_CSTRING_lh_plain_type(const&nbsp;OPENSSL_CSTRING&nbsp;*ptr)&nbsp;{&nbsp;return&nbsp;ptr;&nbsp;}&nbsp;static&nbsp;__attribute__((unused))&nbsp;inline&nbsp;const&nbsp;OPENSSL_LHASH&nbsp;*ossl_check_const_OPENSSL_CSTRING_lh_type(const&nbsp;struct&nbsp;lhash_st_OPENSSL_CSTRING&nbsp;*lh)&nbsp;{&nbsp;return&nbsp;(const&nbsp;OPENSSL_LHASH&nbsp;*)lh;&nbsp;}&nbsp;static&nbsp;__attribute__((unused))&nbsp;inline&nbsp;OPENSSL_LHASH&nbsp;*ossl_check_OPENSSL_CSTRING_lh_type(struct&nbsp;lhash_st_OPENSSL_CSTRING&nbsp;*lh)&nbsp;{&nbsp;return&nbsp;(OPENSSL_LHASH&nbsp;*)lh;&nbsp;}&nbsp;static&nbsp;__attribute__((unused))&nbsp;inline&nbsp;OPENSSL_LH_COMPFUNC&nbsp;ossl_check_OPENSSL_CSTRING_lh_compfunc_type(lh_OPENSSL_CSTRING_compfunc&nbsp;cmp)&nbsp;{&nbsp;return&nbsp;(OPENSSL_LH_COMPFUNC)cmp;&nbsp;}&nbsp;static&nbsp;__attribute__((unused))&nbsp;inline&nbsp;OPENSSL_LH_HASHFUNC&nbsp;ossl_check_OPENSSL_CSTRING_lh_hashfunc_type(lh_OPENSSL_CSTRING_hashfunc&nbsp;hfn)&nbsp;{&nbsp;return&nbsp;(OPENSSL_LH_HASHFUNC)hfn;&nbsp;}&nbsp;static&nbsp;__attribute__((unused))&nbsp;inline&nbsp;OPENSSL_LH_DOALL_FUNC&nbsp;ossl_check_OPENSSL_CSTRING_lh_doallfunc_type(lh_OPENSSL_CSTRING_doallfunc&nbsp;dfn)&nbsp;{&nbsp;return&nbsp;(OPENSSL_LH_DOALL_FUNC)dfn;&nbsp;}&nbsp;struct&nbsp;lhash_st_OPENSSL_CSTRING;</a><br/>
 <a name="4512">4512&nbsp;&nbsp;&nbsp;#&nbsp;14&nbsp;"apps/include/function.h"&nbsp;2</a><br/>
 <a name="4513">4513&nbsp;&nbsp;&nbsp;#&nbsp;1&nbsp;"apps/include/opt.h"&nbsp;1</a><br/>
-<a name="4514">4514&nbsp;&nbsp;&nbsp;#&nbsp;292&nbsp;"apps/include/opt.h"</a><br/>
+<a name="4514">4514&nbsp;&nbsp;&nbsp;#&nbsp;294&nbsp;"apps/include/opt.h"</a><br/>
 <a name="4515">4515&nbsp;&nbsp;&nbsp;extern&nbsp;const&nbsp;char&nbsp;OPT_HELP_STR[];</a><br/>
 <a name="4516">4516&nbsp;&nbsp;&nbsp;extern&nbsp;const&nbsp;char&nbsp;OPT_MORE_STR[];</a><br/>
 <a name="4517">4517&nbsp;&nbsp;&nbsp;extern&nbsp;const&nbsp;char&nbsp;OPT_SECTION_STR[];</a><br/>
@@ -4539,7 +4539,7 @@
 <a name="4539">4539&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const&nbsp;char&nbsp;*name;</a><br/>
 <a name="4540">4540&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;retval;</a><br/>
 <a name="4541">4541&nbsp;&nbsp;&nbsp;}&nbsp;OPT_PAIR,&nbsp;STRINT_PAIR;</a><br/>
-<a name="4542">4542&nbsp;&nbsp;&nbsp;#&nbsp;342&nbsp;"apps/include/opt.h"</a><br/>
+<a name="4542">4542&nbsp;&nbsp;&nbsp;#&nbsp;344&nbsp;"apps/include/opt.h"</a><br/>
 <a name="4543">4543&nbsp;&nbsp;&nbsp;const&nbsp;char&nbsp;*opt_path_end(const&nbsp;char&nbsp;*filename);</a><br/>
 <a name="4544">4544&nbsp;&nbsp;&nbsp;char&nbsp;*opt_progname(const&nbsp;char&nbsp;*argv0);</a><br/>
 <a name="4545">4545&nbsp;&nbsp;&nbsp;char&nbsp;*opt_appname(const&nbsp;char&nbsp;*arg0);</a><br/>

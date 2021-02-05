@@ -97,24 +97,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08387"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#8387"
+   "c1" : "08391"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#8391"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08387] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08391] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08388"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#8388"
+   "c1" : "08392"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#8392"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08388] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08389"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#8389"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08389] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08392] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -125,45 +118,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08979"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#8979"
+   "c1" : "08397"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#8397"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08979] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08397] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08981"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#8981"
+   "c1" : "08983"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#8983"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08981] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08983] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08984"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#8984"
+   "c1" : "08985"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#8985"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08984] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08985] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09846"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#9846"
+   "c1" : "08988"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#8988"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09846] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08988] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11055"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#11055"
+   "c1" : "09852"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#9852"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11055] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09852] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11077"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#11077"
+   "c1" : "11061"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#11061"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11077] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11061] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -174,10 +167,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11103"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#11103"
+   "c1" : "11089"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#11089"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11103] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11089] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -188,192 +181,213 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12226"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#12226"
+   "c1" : "11115"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#11115"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12226] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11115] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12227"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#12227"
+   "c1" : "12232"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#12232"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12227] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12232] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12911"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#12911"
+   "c1" : "12233"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#12233"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12911] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12233] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13987"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#13987"
+   "c1" : "12917"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#12917"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13987] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12917] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13989"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#13989"
+   "c1" : "13993"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#13993"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13989] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13993] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15083"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#15083"
+   "c1" : "13995"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#13995"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15083] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[13995] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15124"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#15124"
+   "c1" : "15089"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#15089"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15124] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15089] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15166"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#15166"
+   "c1" : "15130"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#15130"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15166] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15130] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15201"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#15201"
+   "c1" : "15172"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#15172"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15201] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15172] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15385"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#15385"
+   "c1" : "15207"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#15207"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15385] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[15207] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15407"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#15407"
+   "c1" : "15391"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#15391"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15407] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15391] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15426"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#15426"
+   "c1" : "15413"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#15413"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15426] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15413] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15449"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#15449"
+   "c1" : "15432"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#15432"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15449] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15432] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15469"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#15469"
+   "c1" : "15455"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#15455"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15469] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15455] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15649"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#15649"
+   "c1" : "15475"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#15475"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15649] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15475] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17895"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#17895"
+   "c1" : "15655"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#15655"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15655] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17890"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#17890"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17895] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17890] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17925"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#17925"
+   "c1" : "17920"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#17920"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17925] goto statement jump to err"
+ , "c3" : "QC-CPP000007[17920] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17928"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#17928"
+   "c1" : "17923"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#17923"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17928] goto statement jump to err"
+ , "c3" : "QC-CPP000007[17923] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17931"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#17931"
+   "c1" : "17926"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#17926"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17931] goto statement jump to err"
+ , "c3" : "QC-CPP000007[17926] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17941"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#17941"
+   "c1" : "17936"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#17936"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17941] goto statement jump to err"
+ , "c3" : "QC-CPP000007[17936] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17945"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#17945"
+   "c1" : "17940"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#17940"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17945] goto statement jump to err"
+ , "c3" : "QC-CPP000007[17940] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17955"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#17955"
+   "c1" : "17950"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#17950"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17955] goto statement jump to err"
+ , "c3" : "QC-CPP000007[17950] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17958"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#17958"
+   "c1" : "17953"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#17953"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17958] goto statement jump to err"
+ , "c3" : "QC-CPP000007[17953] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17961"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#17961"
+   "c1" : "17956"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#17956"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17961] goto statement jump to err"
+ , "c3" : "QC-CPP000007[17956] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17959"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#17959"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17959] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17962"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#17962"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17962] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "17964"
  , "c1link" : "./qc/ssl/ssl_txt.c.html#17964"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17964] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17967"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#17967"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17967] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17969"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#17969"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17969] The expression istls13 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17964] The expression istls13 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17966"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#17966"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17966] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17968"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#17968"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17968] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
@@ -384,24 +398,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17973"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#17973"
+   "c1" : "17975"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#17975"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17973] goto statement jump to err"
+ , "c3" : "QC-CPP000007[17975] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17976"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#17976"
+   "c1" : "17977"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#17977"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17976] goto statement jump to err"
+ , "c3" : "QC-CPP000007[17977] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17980"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#17980"
+   "c1" : "17979"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#17979"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17980] goto statement jump to err"
+ , "c3" : "QC-CPP000007[17979] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
@@ -412,38 +426,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17984"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#17984"
+   "c1" : "17986"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#17986"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17984] goto statement jump to err"
+ , "c3" : "QC-CPP000007[17986] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17987"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#17987"
+   "c1" : "17988"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#17988"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17987] goto statement jump to err"
+ , "c3" : "QC-CPP000007[17988] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17991"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#17991"
+   "c1" : "17994"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#17994"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17991] goto statement jump to err"
+ , "c3" : "QC-CPP000007[17994] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17993"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#17993"
+   "c1" : "17998"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#17998"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17993] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17999"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#17999"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17999] goto statement jump to err"
+ , "c3" : "QC-CPP000007[17998] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
@@ -454,66 +461,73 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18008"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#18008"
+   "c1" : "18034"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#18034"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18008] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18034] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18039"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#18039"
+   "c1" : "18041"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#18041"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18039] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18041] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18046"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#18046"
+   "c1" : "18045"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#18045"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18046] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18045] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18050"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#18050"
+   "c1" : "18051"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#18051"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18050] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18051] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18056"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#18056"
+   "c1" : "18055"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#18055"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18056] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18055] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18060"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#18060"
+   "c1" : "18058"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#18058"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18060] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18058] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18063"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#18063"
+   "c1" : "18061"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#18061"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18063] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18061] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18066"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#18066"
+   "c1" : "18064"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#18064"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18066] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18064] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18069"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#18069"
+   "c1" : "18068"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#18068"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18069] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18068] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18070"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#18070"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[18070] The expression istls13 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -524,73 +538,59 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18075"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#18075"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18075] The expression istls13 applies to a single value or variable, might be ambiguous."
+   "c1" : "18094"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#18094"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18094] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18078"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#18078"
+   "c1" : "18096"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#18096"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18078] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18096] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18099"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#18099"
+   "c1" : "18104"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#18104"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18099] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18104] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18101"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#18101"
+   "c1" : "18107"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#18107"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18101] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18107] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18109"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#18109"
+   "c1" : "18110"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#18110"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18109] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18110] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18112"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#18112"
+   "c1" : "18113"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#18113"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18112] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18113] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18115"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#18115"
+   "c1" : "18116"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#18116"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18115] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18116] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18118"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#18118"
+   "c1" : "18119"
+ , "c1link" : "./qc/ssl/ssl_txt.c.html#18119"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18118] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18121"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#18121"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18121] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18124"
- , "c1link" : "./qc/ssl/ssl_txt.c.html#18124"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18124] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18119] goto statement jump to err"
 }} 
 ]
 };

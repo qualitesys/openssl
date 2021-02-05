@@ -118,24 +118,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08011"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#8011"
+   "c1" : "08015"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#8015"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08011] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08015] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08012"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#8012"
+   "c1" : "08016"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#8016"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08012] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08013"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#8013"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08013] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08016] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -146,45 +139,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08603"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#8603"
+   "c1" : "08021"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#8021"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08603] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08021] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08605"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#8605"
+   "c1" : "08607"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#8607"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08605] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08607] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08608"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#8608"
+   "c1" : "08609"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#8609"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08608] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08609] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10331"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#10331"
+   "c1" : "08612"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#8612"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10331] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08612] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11126"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#11126"
+   "c1" : "10337"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#10337"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11126] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10337] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11148"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#11148"
+   "c1" : "11132"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#11132"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11148] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11132] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -195,10 +188,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11174"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#11174"
+   "c1" : "11160"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#11160"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11174] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11160] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -209,206 +202,206 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12297"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#12297"
+   "c1" : "11186"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#11186"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12297] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11186] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12298"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#12298"
+   "c1" : "12303"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#12303"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12298] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12303] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14084"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#14084"
+   "c1" : "12304"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#12304"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14084] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12304] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15041"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#15041"
+   "c1" : "14089"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#14089"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[14089] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15046"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#15046"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15041] goto statement jump to legacy"
+ , "c3" : "QC-CPP000007[15046] goto statement jump to legacy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15138"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#15138"
+   "c1" : "15143"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#15143"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15138] The expression enc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15143] The expression enc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15166"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#15166"
+   "c1" : "15171"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#15171"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15166] goto statement jump to skip_to_init"
+ , "c3" : "QC-CPP000007[15171] goto statement jump to skip_to_init"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15214"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#15214"
+   "c1" : "15219"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#15219"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15214] goto statement jump to legacy"
+ , "c3" : "QC-CPP000007[15219] goto statement jump to legacy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15327"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#15327"
+   "c1" : "15332"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#15332"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15327] The expression enc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15332] The expression enc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15547"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#15547"
+   "c1" : "15552"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#15552"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[15547] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[15552] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15557"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#15557"
+   "c1" : "15562"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#15562"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15557] The expression iv applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15562] The expression iv applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15565"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#15565"
+   "c1" : "15570"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#15570"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15565] The expression iv applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15570] The expression iv applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15786"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#15786"
+   "c1" : "15791"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#15791"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15786] goto statement jump to legacy"
+ , "c3" : "QC-CPP000007[15791] goto statement jump to legacy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15806"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#15806"
+   "c1" : "15811"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#15811"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15806] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15811] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15882"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#15882"
+   "c1" : "15887"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#15887"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15882] goto statement jump to legacy"
+ , "c3" : "QC-CPP000007[15887] goto statement jump to legacy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15902"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#15902"
+   "c1" : "15907"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#15907"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15902] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15907] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15940"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#15940"
+   "c1" : "15945"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#15945"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15940] The expression bl applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15945] The expression bl applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15957"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#15957"
+   "c1" : "15962"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#15962"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15957] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15962] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16013"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16013"
+   "c1" : "16018"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16018"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16013] goto statement jump to legacy"
+ , "c3" : "QC-CPP000007[16018] goto statement jump to legacy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16033"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16033"
+   "c1" : "16038"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16038"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16033] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16038] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16115"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16115"
+   "c1" : "16120"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16120"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16115] The expression fix_len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16120] The expression fix_len applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16179"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16179"
+   "c1" : "16184"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16184"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16179] goto statement jump to legacy"
+ , "c3" : "QC-CPP000007[16184] goto statement jump to legacy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16199"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16199"
+   "c1" : "16204"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16204"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16199] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16204] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16379"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16379"
+   "c1" : "16384"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16384"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16379] The expression pad applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16384] The expression pad applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16464"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16464"
+   "c1" : "16469"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16469"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16464] goto statement jump to legacy"
+ , "c3" : "QC-CPP000007[16469] goto statement jump to legacy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16488"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16488"
+   "c1" : "16493"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16493"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16488] goto statement jump to end"
+ , "c3" : "QC-CPP000007[16493] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16486"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16486"
+   "c1" : "16491"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16491"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000002[16486] Avoid multiple switch labels with default case in switch case"
+ , "c3" : "QC-CPP000002[16491] Avoid multiple switch labels with default case in switch case"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16511"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16511"
+   "c1" : "16516"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16516"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[16511] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[16516] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16525"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16525"
+   "c1" : "16530"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16530"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[16525] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16538"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16538"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16538] goto statement jump to end"
+ , "c3" : "QC-CPPCWE484[16530] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
@@ -419,38 +412,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "16546"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16546"
+   "c1" : "16548"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16548"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16548] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16551"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16551"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[16546] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[16551] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16624"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16624"
+   "c1" : "16629"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16629"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16624] The expression set_params applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16629] The expression set_params applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16628"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16628"
+   "c1" : "16633"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16633"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16628] goto statement jump to end"
+ , "c3" : "QC-CPP000007[16633] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16830"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16830"
+   "c1" : "16835"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#16835"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16830] goto statement jump to legacy"
+ , "c3" : "QC-CPP000007[16835] goto statement jump to legacy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17006"
- , "c1link" : "./qc/crypto/evp/evp_enc.c.html#17006"
+   "c1" : "17011"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#17011"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17006] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17011] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

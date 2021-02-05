@@ -104,24 +104,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08083"
- , "c1link" : "./qc/crypto/property/property.c.html#8083"
+   "c1" : "08087"
+ , "c1link" : "./qc/crypto/property/property.c.html#8087"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08083] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08087] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08084"
- , "c1link" : "./qc/crypto/property/property.c.html#8084"
+   "c1" : "08088"
+ , "c1link" : "./qc/crypto/property/property.c.html#8088"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08084] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08085"
- , "c1link" : "./qc/crypto/property/property.c.html#8085"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08085] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08088] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -132,220 +125,227 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08675"
- , "c1link" : "./qc/crypto/property/property.c.html#8675"
+   "c1" : "08093"
+ , "c1link" : "./qc/crypto/property/property.c.html#8093"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08675] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08093] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08677"
- , "c1link" : "./qc/crypto/property/property.c.html#8677"
+   "c1" : "08679"
+ , "c1link" : "./qc/crypto/property/property.c.html#8679"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08677] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08679] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08680"
- , "c1link" : "./qc/crypto/property/property.c.html#8680"
+   "c1" : "08681"
+ , "c1link" : "./qc/crypto/property/property.c.html#8681"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08680] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08681] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09634"
- , "c1link" : "./qc/crypto/property/property.c.html#9634"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09634] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09646"
- , "c1link" : "./qc/crypto/property/property.c.html#9646"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09646] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09743"
- , "c1link" : "./qc/crypto/property/property.c.html#9743"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09743] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09754"
- , "c1link" : "./qc/crypto/property/property.c.html#9754"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09754] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09764"
- , "c1link" : "./qc/crypto/property/property.c.html#9764"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09764] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09769"
- , "c1link" : "./qc/crypto/property/property.c.html#9769"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09769] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09774"
- , "c1link" : "./qc/crypto/property/property.c.html#9774"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09774] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09779"
- , "c1link" : "./qc/crypto/property/property.c.html#9779"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09779] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09782"
- , "c1link" : "./qc/crypto/property/property.c.html#9782"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09782] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09924"
- , "c1link" : "./qc/crypto/property/property.c.html#9924"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09924] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09949"
- , "c1link" : "./qc/crypto/property/property.c.html#9949"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09949] goto statement jump to fin"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09959"
- , "c1link" : "./qc/crypto/property/property.c.html#9959"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09959] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09967"
- , "c1link" : "./qc/crypto/property/property.c.html#9967"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09967] goto statement jump to fin"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09977"
- , "c1link" : "./qc/crypto/property/property.c.html#9977"
+   "c1" : "08684"
+ , "c1link" : "./qc/crypto/property/property.c.html#8684"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09977] The expression  ! optional applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[08684] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09978"
- , "c1link" : "./qc/crypto/property/property.c.html#9978"
+   "c1" : "09640"
+ , "c1link" : "./qc/crypto/property/property.c.html#9640"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09978] goto statement jump to fin"
+ , "c3" : "QC-CPPCWE481[09640] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10079"
- , "c1link" : "./qc/crypto/property/property.c.html#10079"
+   "c1" : "09652"
+ , "c1link" : "./qc/crypto/property/property.c.html#9652"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10079] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[09652] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10107"
- , "c1link" : "./qc/crypto/property/property.c.html#10107"
+   "c1" : "09749"
+ , "c1link" : "./qc/crypto/property/property.c.html#9749"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10107] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[09749] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10120"
- , "c1link" : "./qc/crypto/property/property.c.html#10120"
+   "c1" : "09760"
+ , "c1link" : "./qc/crypto/property/property.c.html#9760"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10120] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09760] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10166"
- , "c1link" : "./qc/crypto/property/property.c.html#10166"
+   "c1" : "09770"
+ , "c1link" : "./qc/crypto/property/property.c.html#9770"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10166] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[09770] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10174"
- , "c1link" : "./qc/crypto/property/property.c.html#10174"
+   "c1" : "09775"
+ , "c1link" : "./qc/crypto/property/property.c.html#9775"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10174] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[09775] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10182"
- , "c1link" : "./qc/crypto/property/property.c.html#10182"
+   "c1" : "09780"
+ , "c1link" : "./qc/crypto/property/property.c.html#9780"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10182] goto statement jump to end"
+ , "c3" : "QC-CPPCWE481[09780] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10184"
- , "c1link" : "./qc/crypto/property/property.c.html#10184"
+   "c1" : "09785"
+ , "c1link" : "./qc/crypto/property/property.c.html#9785"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10184] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[09785] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10184"
- , "c1link" : "./qc/crypto/property/property.c.html#10184"
+   "c1" : "09788"
+ , "c1link" : "./qc/crypto/property/property.c.html#9788"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10184] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[09788] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10184"
- , "c1link" : "./qc/crypto/property/property.c.html#10184"
+   "c1" : "09930"
+ , "c1link" : "./qc/crypto/property/property.c.html#9930"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10184] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[09930] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10195"
- , "c1link" : "./qc/crypto/property/property.c.html#10195"
+   "c1" : "09955"
+ , "c1link" : "./qc/crypto/property/property.c.html#9955"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10195] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09955] goto statement jump to fin"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10197"
- , "c1link" : "./qc/crypto/property/property.c.html#10197"
+   "c1" : "09965"
+ , "c1link" : "./qc/crypto/property/property.c.html#9965"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10197] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[09965] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09973"
+ , "c1link" : "./qc/crypto/property/property.c.html#9973"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09973] goto statement jump to fin"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09983"
+ , "c1link" : "./qc/crypto/property/property.c.html#9983"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09983] The expression  ! optional applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09984"
+ , "c1link" : "./qc/crypto/property/property.c.html#9984"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09984] goto statement jump to fin"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10085"
+ , "c1link" : "./qc/crypto/property/property.c.html#10085"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10085] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10113"
+ , "c1link" : "./qc/crypto/property/property.c.html#10113"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10113] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10126"
+ , "c1link" : "./qc/crypto/property/property.c.html#10126"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10126] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10172"
+ , "c1link" : "./qc/crypto/property/property.c.html#10172"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10172] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10180"
+ , "c1link" : "./qc/crypto/property/property.c.html#10180"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10180] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10188"
+ , "c1link" : "./qc/crypto/property/property.c.html#10188"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10188] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10190"
+ , "c1link" : "./qc/crypto/property/property.c.html#10190"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10190] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10190"
+ , "c1link" : "./qc/crypto/property/property.c.html#10190"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10190] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10190"
+ , "c1link" : "./qc/crypto/property/property.c.html#10190"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10190] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10201"
+ , "c1link" : "./qc/crypto/property/property.c.html#10201"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10201] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "10203"
  , "c1link" : "./qc/crypto/property/property.c.html#10203"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10203] goto statement jump to end"
+ , "c3" : "QC-CPPCWE481[10203] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10208"
- , "c1link" : "./qc/crypto/property/property.c.html#10208"
+   "c1" : "10209"
+ , "c1link" : "./qc/crypto/property/property.c.html#10209"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10208] goto statement jump to end"
+ , "c3" : "QC-CPP000007[10209] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10214"
+ , "c1link" : "./qc/crypto/property/property.c.html#10214"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10214] goto statement jump to end"
 }} 
 ]
 };

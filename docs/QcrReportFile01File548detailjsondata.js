@@ -97,24 +97,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05987"
- , "c1link" : "./qc/crypto/passphrase.c.html#5987"
+   "c1" : "05991"
+ , "c1link" : "./qc/crypto/passphrase.c.html#5991"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05987] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05991] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05988"
- , "c1link" : "./qc/crypto/passphrase.c.html#5988"
+   "c1" : "05992"
+ , "c1link" : "./qc/crypto/passphrase.c.html#5992"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05988] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05989"
- , "c1link" : "./qc/crypto/passphrase.c.html#5989"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05989] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05992] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -125,45 +118,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06579"
- , "c1link" : "./qc/crypto/passphrase.c.html#6579"
+   "c1" : "05997"
+ , "c1link" : "./qc/crypto/passphrase.c.html#5997"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06579] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05997] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06581"
- , "c1link" : "./qc/crypto/passphrase.c.html#6581"
+   "c1" : "06583"
+ , "c1link" : "./qc/crypto/passphrase.c.html#6583"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06581] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06583] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06584"
- , "c1link" : "./qc/crypto/passphrase.c.html#6584"
+   "c1" : "06585"
+ , "c1link" : "./qc/crypto/passphrase.c.html#6585"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06584] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06585] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07496"
- , "c1link" : "./qc/crypto/passphrase.c.html#7496"
+   "c1" : "06588"
+ , "c1link" : "./qc/crypto/passphrase.c.html#6588"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07496] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06588] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09055"
- , "c1link" : "./qc/crypto/passphrase.c.html#9055"
+   "c1" : "07502"
+ , "c1link" : "./qc/crypto/passphrase.c.html#7502"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09055] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07502] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09077"
- , "c1link" : "./qc/crypto/passphrase.c.html#9077"
+   "c1" : "09061"
+ , "c1link" : "./qc/crypto/passphrase.c.html#9061"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09077] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09061] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -174,10 +167,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09103"
- , "c1link" : "./qc/crypto/passphrase.c.html#9103"
+   "c1" : "09089"
+ , "c1link" : "./qc/crypto/passphrase.c.html#9089"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09103] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09089] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -188,87 +181,94 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10226"
- , "c1link" : "./qc/crypto/passphrase.c.html#10226"
+   "c1" : "09115"
+ , "c1link" : "./qc/crypto/passphrase.c.html#9115"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10226] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09115] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10227"
- , "c1link" : "./qc/crypto/passphrase.c.html#10227"
+   "c1" : "10232"
+ , "c1link" : "./qc/crypto/passphrase.c.html#10232"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10227] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10232] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13034"
- , "c1link" : "./qc/crypto/passphrase.c.html#13034"
+   "c1" : "10233"
+ , "c1link" : "./qc/crypto/passphrase.c.html#10233"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13034] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10233] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13326"
- , "c1link" : "./qc/crypto/passphrase.c.html#13326"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13326] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13365"
- , "c1link" : "./qc/crypto/passphrase.c.html#13365"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13365] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13377"
- , "c1link" : "./qc/crypto/passphrase.c.html#13377"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13377] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13380"
- , "c1link" : "./qc/crypto/passphrase.c.html#13380"
+   "c1" : "13040"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13040"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13380] The expression verify applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[13040] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13393"
- , "c1link" : "./qc/crypto/passphrase.c.html#13393"
+   "c1" : "13332"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13332"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13393] goto statement jump to end"
+ , "c3" : "QC-CPPCWE481[13332] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13405"
- , "c1link" : "./qc/crypto/passphrase.c.html#13405"
+   "c1" : "13371"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13371"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13405] goto statement jump to end"
+ , "c3" : "QC-CPP000007[13371] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13508"
- , "c1link" : "./qc/crypto/passphrase.c.html#13508"
+   "c1" : "13383"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13383"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13508] goto statement jump to do_cache"
+ , "c3" : "QC-CPP000007[13383] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13513"
- , "c1link" : "./qc/crypto/passphrase.c.html#13513"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13513] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "13386"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13386"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13386] The expression verify applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13531"
- , "c1link" : "./qc/crypto/passphrase.c.html#13531"
+   "c1" : "13399"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13399"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13531] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[13399] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13411"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13411"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13411] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13514"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13514"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13514] goto statement jump to do_cache"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13519"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13519"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[13519] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13537"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13537"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[13537] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

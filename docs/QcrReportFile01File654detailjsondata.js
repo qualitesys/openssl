@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/stack/stack.c.html" 
- , "texte" : "File crypto/stack/stack.c 11 rule violations " 
+ , "texte" : "File crypto/stack/stack.c 15 rule violations " 
  , "fic2"  : "./qc/crypto/stack/stack.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000007"
  , "c3" : "goto statement"
- , "c4" : "1"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : {
@@ -104,45 +104,73 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07649"
- , "c1link" : "./qc/crypto/stack/stack.c.html#7649"
+   "c1" : "07623"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#7623"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07649] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[07623] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07654"
- , "c1link" : "./qc/crypto/stack/stack.c.html#7654"
+   "c1" : "07658"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#7658"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07654] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[07658] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07673"
- , "c1link" : "./qc/crypto/stack/stack.c.html#7673"
+   "c1" : "07663"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#7663"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07673] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[07663] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07726"
- , "c1link" : "./qc/crypto/stack/stack.c.html#7726"
+   "c1" : "07688"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#7688"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07726] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07688] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07803"
- , "c1link" : "./qc/crypto/stack/stack.c.html#7803"
+   "c1" : "07693"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#7693"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07803] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[07693] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07819"
- , "c1link" : "./qc/crypto/stack/stack.c.html#7819"
+   "c1" : "07734"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#7734"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07734] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07743"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#7743"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07743] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07755"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#7755"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07755] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07828"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#7828"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07828] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07844"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#7844"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07819] The expression  ! exact applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07844] The expression  ! exact applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -97,24 +97,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08038"
- , "c1link" : "./qc/crypto/rand/randfile.c.html#8038"
+   "c1" : "08042"
+ , "c1link" : "./qc/crypto/rand/randfile.c.html#8042"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08038] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08042] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08039"
- , "c1link" : "./qc/crypto/rand/randfile.c.html#8039"
+   "c1" : "08043"
+ , "c1link" : "./qc/crypto/rand/randfile.c.html#8043"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08039] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08040"
- , "c1link" : "./qc/crypto/rand/randfile.c.html#8040"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08040] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08043] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -125,59 +118,66 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08630"
- , "c1link" : "./qc/crypto/rand/randfile.c.html#8630"
+   "c1" : "08048"
+ , "c1link" : "./qc/crypto/rand/randfile.c.html#8048"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08630] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08048] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08632"
- , "c1link" : "./qc/crypto/rand/randfile.c.html#8632"
+   "c1" : "08634"
+ , "c1link" : "./qc/crypto/rand/randfile.c.html#8634"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08632] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08634] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08635"
- , "c1link" : "./qc/crypto/rand/randfile.c.html#8635"
+   "c1" : "08636"
+ , "c1link" : "./qc/crypto/rand/randfile.c.html#8636"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08635] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08636] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09720"
- , "c1link" : "./qc/crypto/rand/randfile.c.html#9720"
+   "c1" : "08639"
+ , "c1link" : "./qc/crypto/rand/randfile.c.html#8639"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[08639] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09726"
+ , "c1link" : "./qc/crypto/rand/randfile.c.html#9726"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09720] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09790"
- , "c1link" : "./qc/crypto/rand/randfile.c.html#9790"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09790] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[09726] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "09796"
  , "c1link" : "./qc/crypto/rand/randfile.c.html#9796"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09796] The expression  ! RAND_status() applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09897"
- , "c1link" : "./qc/crypto/rand/randfile.c.html#9897"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09897] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[09796] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09923"
- , "c1link" : "./qc/crypto/rand/randfile.c.html#9923"
+   "c1" : "09802"
+ , "c1link" : "./qc/crypto/rand/randfile.c.html#9802"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09923] The expression use_randfile applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09802] The expression  ! RAND_status() applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09903"
+ , "c1link" : "./qc/crypto/rand/randfile.c.html#9903"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09903] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09929"
+ , "c1link" : "./qc/crypto/rand/randfile.c.html#9929"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09929] The expression use_randfile applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };
