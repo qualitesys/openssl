@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/srp/srp_lib.c.html" 
- , "texte" : "File crypto/srp/srp_lib.c 61 rule violations " 
- , "fic2"  : "./qc/crypto/srp/srp_lib.c.xml" 
+   "fic1"  : "./qc/crypto/store/store_lib.c.html" 
+ , "texte" : "File crypto/store/store_lib.c 75 rule violations " 
+ , "fic2"  : "./qc/crypto/store/store_lib.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,450 +42,569 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "19"
+ , "c4" : "21"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000006"
+ , "c3" : "Risk of infinite while loop"
+ , "c4" : "7"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "15"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000012"
+ , "c3" : "The condition expression is invariable, always true or false"
+ , "c4" : "14"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000007"
  , "c3" : "goto statement"
- , "c4" : "23"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPPCWE481"
  , "c3" : "Assigning instead of comparing"
- , "c4" : "19"
+ , "c4" : "13"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03573"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#3573"
+   "c1" : "03581"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#3581"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03573] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[03581] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05378"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#5378"
+   "c1" : "07505"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#7505"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05378] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07505] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05380"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#5380"
+   "c1" : "07507"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#7507"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05380] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07507] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07552"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#7552"
+   "c1" : "07874"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#7874"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07552] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07874] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07600"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#7600"
+   "c1" : "08074"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#8074"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07600] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08074] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07622"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#7622"
+   "c1" : "08075"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#8075"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07622] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08075] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07628"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#7628"
+   "c1" : "08076"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#8076"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07628] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08076] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07648"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#7648"
+   "c1" : "08080"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#8080"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07648] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08080] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07654"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#7654"
+   "c1" : "08666"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#8666"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07654] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08666] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08007"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#8007"
+   "c1" : "08668"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#8668"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08007] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08668] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08207"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#8207"
+   "c1" : "08671"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#8671"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08207] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08671] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08208"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#8208"
+   "c1" : "09585"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#9585"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08208] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09585] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08209"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#8209"
+   "c1" : "11144"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#11144"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08209] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11144] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08213"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#8213"
+   "c1" : "11166"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#11166"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08213] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11166] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08799"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#8799"
+   "c1" : "11172"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#11172"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08799] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11172] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08801"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#8801"
+   "c1" : "11192"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#11192"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08801] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11192] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08804"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#8804"
+   "c1" : "11198"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#11198"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08804] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11198] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09500"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#9500"
+   "c1" : "12315"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#12315"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09500] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12315] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09525"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#9525"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09525] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09527"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#9527"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09527] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09528"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#9528"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09528] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09533"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#9533"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09533] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09545"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#9545"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09545] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09627"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#9627"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09627] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09631"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#9631"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09631] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09636"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#9636"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09636] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09641"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#9641"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09641] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09643"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#9643"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09643] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09704"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#9704"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09704] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09715"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#9715"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09715] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09720"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#9720"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09720] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09724"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#9724"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09724] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09729"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#9729"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09729] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09734"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#9734"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09734] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09775"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#9775"
+   "c1" : "12316"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#12316"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09775] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12316] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09821"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#9821"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09821] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "13081"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#13081"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[13081] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09826"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#9826"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09826] goto statement jump to err"
+   "c1" : "13320"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#13320"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[13320] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09834"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#9834"
+   "c1" : "14959"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#14959"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09834] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[14959] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09854"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#9854"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09854] goto statement jump to err"
+   "c1" : "14983"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#14983"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14983] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09856"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#9856"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09856] goto statement jump to err"
+   "c1" : "14983"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#14983"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14983] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09858"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#9858"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09858] goto statement jump to err"
+   "c1" : "14979"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#14979"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[14979] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09866"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#9866"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09866] goto statement jump to err"
+   "c1" : "14983"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#14983"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14983] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09915"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#9915"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09915] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "14983"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#14983"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14983] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09926"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#9926"
+   "c1" : "14985"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#14985"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09926] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14985] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09999"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#9999"
+   "c1" : "15006"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15006"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09999] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15006] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10010"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#10010"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10010] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "15062"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15062"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15062] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10015"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#10015"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10015] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "15062"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15062"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15062] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10020"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#10020"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10020] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "15058"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15058"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[15058] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10025"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#10025"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10025] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "15062"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15062"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15062] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10030"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#10030"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10030] goto statement jump to err"
+   "c1" : "15062"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15062"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15062] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10035"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#10035"
+   "c1" : "15069"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15069"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10035] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15069] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10036"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#10036"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10036] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "15075"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15075"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15075] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10041"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#10041"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10041] goto statement jump to err"
+   "c1" : "15075"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15075"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15075] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10043"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#10043"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10043] goto statement jump to err"
+   "c1" : "15071"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15071"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[15071] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10045"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#10045"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10045] goto statement jump to err"
+   "c1" : "15075"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15075"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15075] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10047"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#10047"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10047] goto statement jump to err"
+   "c1" : "15075"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15075"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15075] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10049"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#10049"
+   "c1" : "15081"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15081"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10049] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[15081] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10102"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#10102"
+   "c1" : "15086"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15086"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10102] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15086] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10109"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#10109"
+   "c1" : "15096"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15096"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10109] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[15096] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10114"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#10114"
+   "c1" : "15110"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15110"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10114] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15110] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10117"
- , "c1link" : "./qc/crypto/srp/srp_lib.c.html#10117"
+   "c1" : "15411"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15411"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10117] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[15411] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15428"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15428"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15428] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15436"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15436"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15436] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15438"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15438"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15438] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15470"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15470"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15470] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15527"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15527"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15527] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15527"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15527"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15527] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15523"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15523"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[15523] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15527"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15527"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15527] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15527"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15527"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15527] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15611"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15611"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15611] goto statement jump to again"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15624"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15624"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15624] goto statement jump to again"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15638"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15638"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15638] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15638"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15638"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15638] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15634"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15634"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[15634] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15638"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15638"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15638] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15638"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15638"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15638] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15700"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15700"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15700] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15700"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15700"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15700] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15696"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15696"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[15696] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15700"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15700"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15700] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15700"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#15700"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15700] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16487"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16487"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16487] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16487"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16487"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16487] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16483"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16483"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[16483] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16487"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16487"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16487] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16487"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16487"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16487] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16490"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16490"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[16490] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16503"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16503"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[16503] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16513"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16513"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[16513] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16575"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16575"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[16575] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

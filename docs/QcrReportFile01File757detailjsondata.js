@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/x509/x_name.c.html" 
- , "texte" : "File crypto/x509/x_name.c 54 rule violations " 
- , "fic2"  : "./qc/crypto/x509/x_name.c.xml" 
+   "fic1"  : "./qc/engines/e_afalg.c.html" 
+ , "texte" : "File engines/e_afalg.c 73 rule violations " 
+ , "fic2"  : "./qc/engines/e_afalg.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,408 +42,576 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "24"
+ , "c4" : "19"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000006"
+ , "c3" : "Risk of infinite while loop"
+ , "c4" : "12"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000008"
+ , "c3" : "Suspicious bitwise operation"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "4"
+ , "c4" : "16"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000012"
+ , "c3" : "The condition expression is invariable, always true or false"
+ , "c4" : "12"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-CPPCWE484"
+ , "c3" : "Omitted Break Statement in Switch"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000007"
  , "c3" : "goto statement"
- , "c4" : "23"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPPCWE481"
  , "c3" : "Assigning instead of comparing"
- , "c4" : "3"
+ , "c4" : "4"
+}}
+,
+{ "ligne" : {
+   "c1" : "MINOR"
+ , "c2" : "QC-CPP000013"
+ , "c3" : "Inline assembly code"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03580"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#3580"
+   "c1" : "05964"
+ , "c1link" : "./qc/engines/e_afalg.c.html#5964"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03580] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05964] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05385"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#5385"
+   "c1" : "07908"
+ , "c1link" : "./qc/engines/e_afalg.c.html#7908"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05385] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07908] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05387"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#5387"
+   "c1" : "07910"
+ , "c1link" : "./qc/engines/e_afalg.c.html#7910"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05387] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07910] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07559"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#7559"
+   "c1" : "09369"
+ , "c1link" : "./qc/engines/e_afalg.c.html#9369"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07559] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09369] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08016"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#8016"
+   "c1" : "10215"
+ , "c1link" : "./qc/engines/e_afalg.c.html#10215"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08016] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10215] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08216"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#8216"
+   "c1" : "10415"
+ , "c1link" : "./qc/engines/e_afalg.c.html#10415"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08216] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10415] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08217"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#8217"
+   "c1" : "10416"
+ , "c1link" : "./qc/engines/e_afalg.c.html#10416"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08217] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10416] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08218"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#8218"
+   "c1" : "10417"
+ , "c1link" : "./qc/engines/e_afalg.c.html#10417"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08218] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10417] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08222"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#8222"
+   "c1" : "10421"
+ , "c1link" : "./qc/engines/e_afalg.c.html#10421"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08222] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10421] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08808"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#8808"
+   "c1" : "11007"
+ , "c1link" : "./qc/engines/e_afalg.c.html#11007"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08808] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11007] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08810"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#8810"
+   "c1" : "11009"
+ , "c1link" : "./qc/engines/e_afalg.c.html#11009"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08810] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11009] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08813"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#8813"
+   "c1" : "11012"
+ , "c1link" : "./qc/engines/e_afalg.c.html#11012"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08813] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11012] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09677"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#9677"
+   "c1" : "11825"
+ , "c1link" : "./qc/engines/e_afalg.c.html#11825"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09677] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11825] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11236"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#11236"
+   "c1" : "11847"
+ , "c1link" : "./qc/engines/e_afalg.c.html#11847"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11236] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11847] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11258"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#11258"
+   "c1" : "11853"
+ , "c1link" : "./qc/engines/e_afalg.c.html#11853"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11258] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11853] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11264"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#11264"
+   "c1" : "11873"
+ , "c1link" : "./qc/engines/e_afalg.c.html#11873"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11264] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11873] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11284"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#11284"
+   "c1" : "11879"
+ , "c1link" : "./qc/engines/e_afalg.c.html#11879"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11284] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11879] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11290"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#11290"
+   "c1" : "13038"
+ , "c1link" : "./qc/engines/e_afalg.c.html#13038"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11290] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13038] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12407"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#12407"
+   "c1" : "13039"
+ , "c1link" : "./qc/engines/e_afalg.c.html#13039"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12407] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13039] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12408"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#12408"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12408] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "15746"
+ , "c1link" : "./qc/engines/e_afalg.c.html#15746"
+ , "c2" : "MINOR"
+ , "c3" : "QC-CPP000013[15746] Inline assembly code"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13695"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#13695"
+   "c1" : "15754"
+ , "c1link" : "./qc/engines/e_afalg.c.html#15754"
+ , "c2" : "MINOR"
+ , "c3" : "QC-CPP000013[15754] Inline assembly code"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16168"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16168"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16168] The expression  ! error_loaded applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16179"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16179"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16179] The expression error_loaded applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16315"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16315"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13695] goto statement jump to memerr"
+ , "c3" : "QC-CPPCWE481[16315] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13696"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#13696"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13696] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13701"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#13701"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13701] goto statement jump to memerr"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13702"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#13702"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13702] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13707"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#13707"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13707] goto statement jump to memerr"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13718"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#13718"
+   "c1" : "16340"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16340"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13718] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000006[16340] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13767"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#13767"
+   "c1" : "16348"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16348"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13767] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[16348] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13804"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#13804"
+   "c1" : "16348"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16348"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13804] The expression  * val applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[16348] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13815"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#13815"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13815] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13818"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#13818"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13818] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13828"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#13828"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13828] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13837"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#13837"
+   "c1" : "16381"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16381"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13837] The expression  ! ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000006[16381] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13838"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#13838"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13838] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13902"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#13902"
+   "c1" : "16389"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16389"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13902] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[16389] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13913"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#13913"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13913] goto statement jump to memerr"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13918"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#13918"
+   "c1" : "16389"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16389"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13918] The expression  ! entries applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[16389] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13919"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#13919"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13919] goto statement jump to memerr"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13922"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#13922"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13922] goto statement jump to memerr"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13927"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#13927"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13927] goto statement jump to memerr"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13936"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#13936"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13936] goto statement jump to memerr"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13967"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#13967"
+   "c1" : "16407"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16407"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13967] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000006[16407] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14003"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#14003"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14003] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14014"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#14014"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14014] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14022"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#14022"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14022] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14037"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#14037"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14037] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14050"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#14050"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14050] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14053"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#14053"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14053] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14060"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#14060"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14060] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14076"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#14076"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14076] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14090"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#14090"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14090] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14108"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#14108"
+   "c1" : "16415"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16415"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14108] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[16415] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14206"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#14206"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14206] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "16415"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16415"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16415] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14250"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#14250"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14250] goto statement jump to err"
+   "c1" : "16473"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16473"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[16473] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14254"
- , "c1link" : "./qc/crypto/x509/x_name.c.html#14254"
+   "c1" : "16481"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16481"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16481] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16481"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16481"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16481] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16510"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16510"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[16510] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16518"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16518"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16518] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16518"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16518"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16518] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16546"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16546"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[16546] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16554"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16554"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16554] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16554"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16554"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16554] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16573"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16573"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[16573] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16581"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16581"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16581] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16581"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16581"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16581] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16588"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16588"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16588] The expression  ! done applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16677"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16677"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[16677] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16685"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16685"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16685] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16685"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16685"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16685] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16698"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16698"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14254] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[16698] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16719"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16719"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[16719] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16727"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16727"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16727] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16727"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16727"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16727] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16729"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16729"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16729] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16734"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16734"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[16734] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16742"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16742"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16742] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16742"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16742"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16742] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16744"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16744"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16744] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16753"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16753"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[16753] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16761"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16761"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16761] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16761"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16761"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16761] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16763"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16763"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16763] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16773"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16773"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[16773] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16860"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16860"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[16860] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16868"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16868"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16868] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16868"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16868"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16868] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16950"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16950"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16950] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16954"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16954"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16954] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17113"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17113"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[17113] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17124"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17124"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000008[17124] Suspicious bitwise operation with value 0, result is a|0 = a"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17164"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17164"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-CPPCWE484[17164] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17220"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17220"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17220] The expression  ! afalg_chk_platform() applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17229"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17229"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17229] goto statement jump to skip_cbs"
 }} 
 ]
 };

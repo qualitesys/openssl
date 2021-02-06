@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/ui/ui_err.c.html" 
- , "texte" : "File crypto/ui/ui_err.c 1 rule violations " 
- , "fic2"  : "./qc/crypto/ui/ui_err.c.xml" 
+   "fic1"  : "./qc/crypto/uid.c.html" 
+ , "texte" : "File crypto/uid.c 1 rule violations " 
+ , "fic2"  : "./qc/crypto/uid.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -48,10 +48,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03235"
- , "c1link" : "./qc/crypto/ui/ui_err.c.html#3235"
+   "c1" : "03219"
+ , "c1link" : "./qc/crypto/uid.c.html#3219"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03235] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[03219] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

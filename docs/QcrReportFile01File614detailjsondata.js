@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/rsa/rsa_lib.c.html" 
- , "texte" : "File crypto/rsa/rsa_lib.c 38 rule violations " 
- , "fic2"  : "./qc/crypto/rsa/rsa_lib.c.xml" 
+   "fic1"  : "./qc/crypto/rsa/rsa_oaep.c.html" 
+ , "texte" : "File crypto/rsa/rsa_oaep.c 39 rule violations " 
+ , "fic2"  : "./qc/crypto/rsa/rsa_oaep.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,296 +42,289 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "22"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "1"
+ , "c4" : "24"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000007"
  , "c3" : "goto statement"
- , "c4" : "10"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-CPPCWE481"
- , "c3" : "Assigning instead of comparing"
- , "c4" : "5"
+ , "c4" : "15"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03224"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#3224"
+   "c1" : "02376"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#2376"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03224] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[02376] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05006"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#5006"
+   "c1" : "02377"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#2377"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05006] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[02377] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05008"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#5008"
+   "c1" : "03929"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#3929"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05008] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[03929] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06467"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#6467"
+   "c1" : "05734"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#5734"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06467] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05734] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07313"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#7313"
+   "c1" : "05736"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#5736"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07313] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05736] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07513"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#7513"
+   "c1" : "07908"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#7908"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07513] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07908] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07514"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#7514"
+   "c1" : "08175"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#8175"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07514] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08175] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07515"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#7515"
+   "c1" : "08375"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#8375"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07515] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08375] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07519"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#7519"
+   "c1" : "08376"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#8376"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07519] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08376] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08105"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#8105"
+   "c1" : "08377"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#8377"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08105] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08377] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08107"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#8107"
+   "c1" : "08381"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#8381"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08107] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08381] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08110"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#8110"
+   "c1" : "08967"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#8967"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08110] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08967] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08923"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#8923"
+   "c1" : "08969"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#8969"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08923] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08969] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08945"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#8945"
+   "c1" : "08972"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#8972"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08945] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08972] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08951"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#8951"
+   "c1" : "09738"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#9738"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08951] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09738] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08971"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#8971"
+   "c1" : "09760"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#9760"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08971] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09760] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08977"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#8977"
+   "c1" : "09766"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#9766"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08977] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09766] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10136"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#10136"
+   "c1" : "09786"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#9786"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10136] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09786] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10137"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#10137"
+   "c1" : "09792"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#9792"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10137] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09792] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13426"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#13426"
+   "c1" : "10454"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10454"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13426] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10454] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14246"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#14246"
+   "c1" : "10666"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10666"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14246] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10666] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14856"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#14856"
+   "c1" : "10667"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10667"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14856] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10667] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15150"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#15150"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15150] The expression engine applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15157"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#15157"
+   "c1" : "10730"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10730"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15157] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10730] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15175"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#15175"
+   "c1" : "10738"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10738"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15175] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10738] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15183"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#15183"
+   "c1" : "10752"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10752"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15183] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10752] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15197"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#15197"
+   "c1" : "10757"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10757"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15197] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10757] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15639"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#15639"
+   "c1" : "10764"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10764"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15639] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10764] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15664"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#15664"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15664] goto statement jump to err"
+   "c1" : "10813"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10813"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[10813] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15673"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#15673"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15673] goto statement jump to err"
+   "c1" : "10818"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10818"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[10818] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15756"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#15756"
+   "c1" : "10876"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10876"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15756] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[10876] goto statement jump to cleanup"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15802"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#15802"
+   "c1" : "10890"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10890"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15802] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[10890] goto statement jump to cleanup"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16027"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#16027"
+   "c1" : "10917"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10917"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16027] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10917] goto statement jump to cleanup"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16030"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#16030"
+   "c1" : "10922"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10922"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16030] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[10922] goto statement jump to cleanup"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16040"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#16040"
+   "c1" : "10935"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10935"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16040] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10935] goto statement jump to cleanup"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16056"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#16056"
+   "c1" : "11009"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11009"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16056] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11009] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17110"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#17110"
+   "c1" : "11012"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11012"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17110] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[11012] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17117"
- , "c1link" : "./qc/crypto/rsa/rsa_lib.c.html#17117"
+   "c1" : "11028"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11028"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17117] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[11028] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11035"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11035"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11035] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11043"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11043"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11043] goto statement jump to err"
 }} 
 ]
 };

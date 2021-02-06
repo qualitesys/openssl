@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/rsa/rsa_schemes.c.html" 
- , "texte" : "File crypto/rsa/rsa_schemes.c 12 rule violations " 
- , "fic2"  : "./qc/crypto/rsa/rsa_schemes.c.xml" 
+   "fic1"  : "./qc/crypto/seed/seed.c.html" 
+ , "texte" : "File crypto/seed/seed.c 1 rule violations " 
+ , "fic2"  : "./qc/crypto/seed/seed.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,93 +42,16 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "12"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03327"
- , "c1link" : "./qc/crypto/rsa/rsa_schemes.c.html#3327"
+   "c1" : "03593"
+ , "c1link" : "./qc/crypto/seed/seed.c.html#3593"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03327] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05173"
- , "c1link" : "./qc/crypto/rsa/rsa_schemes.c.html#5173"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05173] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05175"
- , "c1link" : "./qc/crypto/rsa/rsa_schemes.c.html#5175"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05175] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05542"
- , "c1link" : "./qc/crypto/rsa/rsa_schemes.c.html#5542"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05542] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05742"
- , "c1link" : "./qc/crypto/rsa/rsa_schemes.c.html#5742"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05742] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05743"
- , "c1link" : "./qc/crypto/rsa/rsa_schemes.c.html#5743"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05743] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05744"
- , "c1link" : "./qc/crypto/rsa/rsa_schemes.c.html#5744"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05744] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05748"
- , "c1link" : "./qc/crypto/rsa/rsa_schemes.c.html#5748"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05748] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06334"
- , "c1link" : "./qc/crypto/rsa/rsa_schemes.c.html#6334"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06334] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06336"
- , "c1link" : "./qc/crypto/rsa/rsa_schemes.c.html#6336"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06336] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06339"
- , "c1link" : "./qc/crypto/rsa/rsa_schemes.c.html#6339"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06339] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07521"
- , "c1link" : "./qc/crypto/rsa/rsa_schemes.c.html#7521"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07521] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[03593] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

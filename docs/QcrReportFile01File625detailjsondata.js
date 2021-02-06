@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/rsa/rsa_saos.c.html" 
- , "texte" : "File crypto/rsa/rsa_saos.c 26 rule violations " 
- , "fic2"  : "./qc/crypto/rsa/rsa_saos.c.xml" 
+   "fic1"  : "./qc/crypto/rsa/rsa_x931g.c.html" 
+ , "texte" : "File crypto/rsa/rsa_x931g.c 35 rule violations " 
+ , "fic2"  : "./qc/crypto/rsa/rsa_x931g.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,198 +42,268 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "23"
+ , "c4" : "4"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000007"
  , "c3" : "goto statement"
- , "c4" : "3"
+ , "c4" : "29"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03578"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#3578"
+   "c1" : "03580"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#3580"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03578] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[03580] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05383"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#5383"
+   "c1" : "05795"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#5795"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05383] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05795] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05385"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#5385"
+   "c1" : "05797"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#5797"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05385] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05797] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07557"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#7557"
+   "c1" : "06617"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6617"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07557] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06617] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08080"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#8080"
+   "c1" : "06835"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6835"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08080] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[06835] The expression  ! rsa applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08460"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#8460"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08460] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08461"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#8461"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08461] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08462"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#8462"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08462] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08466"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#8466"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08466] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09052"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#9052"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09052] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09054"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#9054"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09054] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09057"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#9057"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09057] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09921"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#9921"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09921] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11051"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#11051"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11051] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11073"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#11073"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11073] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11079"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#11079"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11079] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11099"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#11099"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11099] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11105"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#11105"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11105] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12222"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#12222"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12222] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12223"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#12223"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12223] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12714"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#12714"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12714] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12765"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#12765"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12765] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12766"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#12766"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12766] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12793"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#12793"
+   "c1" : "06836"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6836"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12793] goto statement jump to err"
+ , "c3" : "QC-CPP000007[06836] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12798"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#12798"
+   "c1" : "06844"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6844"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12798] goto statement jump to err"
+ , "c3" : "QC-CPP000007[06844] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12811"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#12811"
+   "c1" : "06857"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6857"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12811] goto statement jump to err"
+ , "c3" : "QC-CPP000007[06857] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06861"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6861"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06861] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06882"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6882"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06882] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06886"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6886"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06886] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06900"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6900"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06900] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06903"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6903"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06903] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06932"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6932"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06932] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06934"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6934"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06934] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06938"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6938"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06938] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06940"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6940"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06940] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06942"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6942"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06942] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06945"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6945"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06945] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06952"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6952"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06952] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06960"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6960"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06960] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06972"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6972"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06972] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06981"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6981"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06981] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06987"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6987"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06987] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06996"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6996"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06996] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07002"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7002"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07002] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07015"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7015"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07015] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07053"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7053"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07053] goto statement jump to error"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07063"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7063"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07063] goto statement jump to error"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07065"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7065"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07065] goto statement jump to error"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07078"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7078"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07078] goto statement jump to error"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07100"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7100"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07100] goto statement jump to error"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07120"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7120"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07120] goto statement jump to error"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07169"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7169"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07169] goto statement jump to error"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07178"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7178"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07178] The expression ok applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

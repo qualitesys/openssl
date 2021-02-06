@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/siphash/siphash.c.html" 
- , "texte" : "File crypto/siphash/siphash.c 24 rule violations " 
- , "fic2"  : "./qc/crypto/siphash/siphash.c.xml" 
+   "fic1"  : "./qc/crypto/sm3/legacy_sm3.c.html" 
+ , "texte" : "File crypto/sm3/legacy_sm3.c 12 rule violations " 
+ , "fic2"  : "./qc/crypto/sm3/legacy_sm3.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,205 +42,93 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000006"
- , "c3" : "Risk of infinite while loop"
- , "c4" : "5"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "6"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000012"
- , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "5"
-}}
-,
-{ "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-CPPCWE484"
- , "c3" : "Omitted Break Statement in Switch"
- , "c4" : "7"
+ , "c4" : "12"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03570"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#3570"
+   "c1" : "03329"
+ , "c1link" : "./qc/crypto/sm3/legacy_sm3.c.html#3329"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03570] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[03329] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04661"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#4661"
+   "c1" : "05175"
+ , "c1link" : "./qc/crypto/sm3/legacy_sm3.c.html#5175"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04661] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000005[05175] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04661"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#4661"
+   "c1" : "05177"
+ , "c1link" : "./qc/crypto/sm3/legacy_sm3.c.html#5177"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04661] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[05177] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04661"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#4661"
+   "c1" : "05544"
+ , "c1link" : "./qc/crypto/sm3/legacy_sm3.c.html#5544"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04661] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000005[05544] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04671"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#4671"
+   "c1" : "05744"
+ , "c1link" : "./qc/crypto/sm3/legacy_sm3.c.html#5744"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04671] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000005[05744] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04671"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#4671"
+   "c1" : "05745"
+ , "c1link" : "./qc/crypto/sm3/legacy_sm3.c.html#5745"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04671] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[05745] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04671"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#4671"
+   "c1" : "05746"
+ , "c1link" : "./qc/crypto/sm3/legacy_sm3.c.html#5746"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04671] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000005[05746] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04676"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#4676"
+   "c1" : "05750"
+ , "c1link" : "./qc/crypto/sm3/legacy_sm3.c.html#5750"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04676] The expression left applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[05750] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04700"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#4700"
- , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[04700] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04703"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#4703"
- , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[04703] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04706"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#4706"
- , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[04706] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04709"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#4709"
- , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[04709] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04712"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#4712"
- , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[04712] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04715"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#4715"
- , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[04715] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04718"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#4718"
- , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[04718] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04726"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#4726"
+   "c1" : "06336"
+ , "c1link" : "./qc/crypto/sm3/legacy_sm3.c.html#6336"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04726] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000005[06336] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04726"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#4726"
+   "c1" : "06338"
+ , "c1link" : "./qc/crypto/sm3/legacy_sm3.c.html#6338"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04726] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[06338] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04726"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#4726"
+   "c1" : "06341"
+ , "c1link" : "./qc/crypto/sm3/legacy_sm3.c.html#6341"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04726] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000005[06341] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04733"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#4733"
+   "c1" : "07682"
+ , "c1link" : "./qc/crypto/sm3/legacy_sm3.c.html#7682"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04733] The condition of do while loop is constant, infinite loop risk : 0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04733"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#4733"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04733] The expression 0 applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "04733"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#4733"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04733] The expression 0 is invariable, always true or false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04740"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#4740"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04740] The condition of do while loop is constant, infinite loop risk : 0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04740"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#4740"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04740] The expression 0 applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "04740"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#4740"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04740] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000005[07682] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };
