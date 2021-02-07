@@ -5338,6 +5338,62 @@ var maDataBlocs = {
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
+  "fic"  : "providers/baseprov.c" 
+  , "Fic1"  : "qc/providers/baseprov.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/providers/baseprov.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "providers/common/bio_prov.c" 
+  , "Fic1"  : "qc/providers/common/bio_prov.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/providers/common/bio_prov.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "providers/defltprov.c" 
+  , "Fic1"  : "qc/providers/defltprov.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/providers/defltprov.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "providers/fips/fipsprov.c" 
+  , "Fic1"  : "qc/providers/fips/fipsprov.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/providers/fips/fipsprov.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "providers/fips/self_test_kats.c" 
+  , "Fic1"  : "qc/providers/fips/self_test_kats.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/providers/fips/self_test_kats.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "providers/legacyprov.c" 
+  , "Fic1"  : "qc/providers/legacyprov.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/providers/legacyprov.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "providers/nullprov.c" 
+  , "Fic1"  : "qc/providers/nullprov.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/providers/nullprov.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "providers/prov_running.c" 
+  , "Fic1"  : "qc/providers/prov_running.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/providers/prov_running.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
   "fic"  : "ssl/bio_ssl.c" 
   , "Fic1"  : "qc/ssl/bio_ssl.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
