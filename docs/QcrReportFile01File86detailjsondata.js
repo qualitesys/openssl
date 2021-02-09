@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/asn1/a_int.c.html" 
- , "texte" : "File crypto/asn1/a_int.c 26 rule violations " 
- , "fic2"  : "./qc/crypto/asn1/a_int.c.xml" 
+   "fic1"  : "./qc/ssl/methods.c.html" 
+ , "texte" : "File ssl/methods.c 32 rule violations " 
+ , "fic2"  : "./qc/ssl/methods.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,212 +42,240 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "7"
+ , "c4" : "28"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "8"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-CPP000007"
- , "c3" : "goto statement"
- , "c4" : "6"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-CPPCWE481"
- , "c3" : "Assigning instead of comparing"
- , "c4" : "5"
+ , "c4" : "4"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03568"
- , "c1link" : "./qc/crypto/asn1/a_int.c.html#3568"
+   "c1" : "03246"
+ , "c1link" : "./qc/ssl/methods.c.html#3246"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03568] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[03246] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05373"
- , "c1link" : "./qc/crypto/asn1/a_int.c.html#5373"
+   "c1" : "04992"
+ , "c1link" : "./qc/ssl/methods.c.html#4992"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05373] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[04992] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05375"
- , "c1link" : "./qc/crypto/asn1/a_int.c.html#5375"
+   "c1" : "04994"
+ , "c1link" : "./qc/ssl/methods.c.html#4994"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05375] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[04994] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07547"
- , "c1link" : "./qc/crypto/asn1/a_int.c.html#7547"
+   "c1" : "05361"
+ , "c1link" : "./qc/ssl/methods.c.html#5361"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07547] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05361] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07672"
- , "c1link" : "./qc/crypto/asn1/a_int.c.html#7672"
+   "c1" : "08383"
+ , "c1link" : "./qc/ssl/methods.c.html#8383"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07672] The expression neg applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[08383] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07680"
- , "c1link" : "./qc/crypto/asn1/a_int.c.html#7680"
+   "c1" : "08384"
+ , "c1link" : "./qc/ssl/methods.c.html#8384"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07680] The expression neg applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[08384] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07702"
- , "c1link" : "./qc/crypto/asn1/a_int.c.html#7702"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07702] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07702"
- , "c1link" : "./qc/crypto/asn1/a_int.c.html#7702"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07702] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07712"
- , "c1link" : "./qc/crypto/asn1/a_int.c.html#7712"
+   "c1" : "08385"
+ , "c1link" : "./qc/ssl/methods.c.html#8385"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07712] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08385] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07724"
- , "c1link" : "./qc/crypto/asn1/a_int.c.html#7724"
+   "c1" : "08389"
+ , "c1link" : "./qc/ssl/methods.c.html#8389"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07724] The expression neg applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[08389] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07749"
- , "c1link" : "./qc/crypto/asn1/a_int.c.html#7749"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07749] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07790"
- , "c1link" : "./qc/crypto/asn1/a_int.c.html#7790"
+   "c1" : "08975"
+ , "c1link" : "./qc/ssl/methods.c.html#8975"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07790] The expression pneg applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[08975] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07799"
- , "c1link" : "./qc/crypto/asn1/a_int.c.html#7799"
+   "c1" : "08977"
+ , "c1link" : "./qc/ssl/methods.c.html#8977"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07799] The expression neg applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[08977] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07889"
- , "c1link" : "./qc/crypto/asn1/a_int.c.html#7889"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07889] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07900"
- , "c1link" : "./qc/crypto/asn1/a_int.c.html#7900"
+   "c1" : "08980"
+ , "c1link" : "./qc/ssl/methods.c.html#8980"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07900] The expression neg applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[08980] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08010"
- , "c1link" : "./qc/crypto/asn1/a_int.c.html#8010"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08010] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08014"
- , "c1link" : "./qc/crypto/asn1/a_int.c.html#8014"
+   "c1" : "09844"
+ , "c1link" : "./qc/ssl/methods.c.html#9844"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08014] The expression neg applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[09844] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08148"
- , "c1link" : "./qc/crypto/asn1/a_int.c.html#8148"
+   "c1" : "11053"
+ , "c1link" : "./qc/ssl/methods.c.html#11053"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08148] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11053] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08149"
- , "c1link" : "./qc/crypto/asn1/a_int.c.html#8149"
+   "c1" : "11075"
+ , "c1link" : "./qc/ssl/methods.c.html#11075"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08149] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11075] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08163"
- , "c1link" : "./qc/crypto/asn1/a_int.c.html#8163"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08163] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08181"
- , "c1link" : "./qc/crypto/asn1/a_int.c.html#8181"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08181] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08186"
- , "c1link" : "./qc/crypto/asn1/a_int.c.html#8186"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08186] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08200"
- , "c1link" : "./qc/crypto/asn1/a_int.c.html#8200"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08200] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08203"
- , "c1link" : "./qc/crypto/asn1/a_int.c.html#8203"
+   "c1" : "11081"
+ , "c1link" : "./qc/ssl/methods.c.html#11081"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08203] The expression len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[11081] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08269"
- , "c1link" : "./qc/crypto/asn1/a_int.c.html#8269"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08269] goto statement jump to err"
+   "c1" : "11101"
+ , "c1link" : "./qc/ssl/methods.c.html#11101"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[11101] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08290"
- , "c1link" : "./qc/crypto/asn1/a_int.c.html#8290"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08290] goto statement jump to err"
+   "c1" : "11107"
+ , "c1link" : "./qc/ssl/methods.c.html#11107"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[11107] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12224"
+ , "c1link" : "./qc/ssl/methods.c.html#12224"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[12224] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12225"
+ , "c1link" : "./qc/ssl/methods.c.html#12225"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[12225] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12909"
+ , "c1link" : "./qc/ssl/methods.c.html#12909"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[12909] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13985"
+ , "c1link" : "./qc/ssl/methods.c.html#13985"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[13985] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13987"
+ , "c1link" : "./qc/ssl/methods.c.html#13987"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[13987] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15081"
+ , "c1link" : "./qc/ssl/methods.c.html#15081"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15081] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15122"
+ , "c1link" : "./qc/ssl/methods.c.html#15122"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15122] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15164"
+ , "c1link" : "./qc/ssl/methods.c.html#15164"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15164] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15199"
+ , "c1link" : "./qc/ssl/methods.c.html#15199"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15199] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15383"
+ , "c1link" : "./qc/ssl/methods.c.html#15383"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15383] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15405"
+ , "c1link" : "./qc/ssl/methods.c.html#15405"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15405] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15424"
+ , "c1link" : "./qc/ssl/methods.c.html#15424"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15424] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15447"
+ , "c1link" : "./qc/ssl/methods.c.html#15447"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15447] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15467"
+ , "c1link" : "./qc/ssl/methods.c.html#15467"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15467] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15647"
+ , "c1link" : "./qc/ssl/methods.c.html#15647"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15647] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

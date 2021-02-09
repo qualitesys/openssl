@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/asn1/ameth_lib.c.html" 
- , "texte" : "File crypto/asn1/ameth_lib.c 37 rule violations " 
- , "fic2"  : "./qc/crypto/asn1/ameth_lib.c.xml" 
+   "fic1"  : "./qc/ssl/ssl_asn1.c.html" 
+ , "texte" : "File ssl/ssl_asn1.c 47 rule violations " 
+ , "fic2"  : "./qc/ssl/ssl_asn1.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,282 +42,352 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "21"
+ , "c4" : "29"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "14"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000007"
  , "c3" : "goto statement"
- , "c4" : "2"
+ , "c4" : "14"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03224"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#3224"
+   "c1" : "03222"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#3222"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03224] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[03222] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06996"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#6996"
+   "c1" : "07079"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#7079"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06996] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07079] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06998"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#6998"
+   "c1" : "07081"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#7081"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06998] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07081] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07659"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#7659"
+   "c1" : "08184"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#8184"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07659] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08184] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08117"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#8117"
+   "c1" : "08384"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#8384"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08117] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08384] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08317"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#8317"
+   "c1" : "08385"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#8385"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08317] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08385] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08318"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#8318"
+   "c1" : "08386"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#8386"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08318] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08386] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08319"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#8319"
+   "c1" : "08390"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#8390"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08319] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08390] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08323"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#8323"
+   "c1" : "08976"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#8976"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08323] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08976] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08909"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#8909"
+   "c1" : "08978"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#8978"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08909] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08978] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08911"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#8911"
+   "c1" : "08981"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#8981"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08911] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08981] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08914"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#8914"
+   "c1" : "09845"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#9845"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08914] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09845] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09778"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#9778"
+   "c1" : "11054"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#11054"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09778] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11054] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11337"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#11337"
+   "c1" : "11076"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#11076"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11337] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11076] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11359"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#11359"
+   "c1" : "11082"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#11082"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11359] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11082] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11365"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#11365"
+   "c1" : "11102"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#11102"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11365] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11102] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11385"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#11385"
+   "c1" : "11108"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#11108"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11385] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11108] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11391"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#11391"
+   "c1" : "12225"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#12225"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11391] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12225] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12508"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#12508"
+   "c1" : "12226"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#12226"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12508] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12226] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12509"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#12509"
+   "c1" : "12910"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#12910"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12509] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12910] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14505"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#14505"
+   "c1" : "13986"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#13986"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14505] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13986] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15093"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#15093"
+   "c1" : "13988"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#13988"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15093] The expression app_methods applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[13988] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15119"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#15119"
+   "c1" : "15082"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#15082"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15119] The expression app_methods applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15082] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15159"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#15159"
+   "c1" : "15123"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#15123"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15159] The expression pe applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15123] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15164"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#15164"
+   "c1" : "15165"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#15165"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15164] The expression e applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15165] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15190"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#15190"
+   "c1" : "15200"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#15200"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15190] The expression pe applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15200] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15194"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#15194"
+   "c1" : "15384"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#15384"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15194] The expression ameth applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[15384] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15316"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#15316"
+   "c1" : "15406"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#15406"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15316] The expression  ! ameth applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[15406] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15318"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#15318"
+   "c1" : "15425"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#15425"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15318] The expression ppkey_id applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[15425] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15320"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#15320"
+   "c1" : "15448"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#15448"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15320] The expression ppkey_base_id applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[15448] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15322"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#15322"
+   "c1" : "15468"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#15468"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15322] The expression ppkey_flags applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[15468] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15324"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#15324"
+   "c1" : "15648"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#15648"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15324] The expression pinfo applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[15648] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15326"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#15326"
+   "c1" : "18633"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#18633"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15326] The expression ppem_str applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[18633] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15356"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#15356"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15356] The expression info applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15359"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#15359"
+   "c1" : "18656"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#18656"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15359] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18656] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15362"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#15362"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15362] The expression pem_str applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15365"
- , "c1link" : "./qc/crypto/asn1/ameth_lib.c.html#15365"
+   "c1" : "18673"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#18673"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15365] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18673] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18684"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#18684"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18684] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18695"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#18695"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18695] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18706"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#18706"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18706] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18719"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#18719"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18719] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18723"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#18723"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18723] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18727"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#18727"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18727] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18755"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#18755"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18755] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18761"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#18761"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18761] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18765"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#18765"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18765] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18767"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#18767"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18767] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18800"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#18800"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18800] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18810"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#18810"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18810] goto statement jump to err"
 }} 
 ]
 };

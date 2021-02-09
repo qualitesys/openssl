@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/asn1/a_time.c.html" 
- , "texte" : "File crypto/asn1/a_time.c 28 rule violations " 
- , "fic2"  : "./qc/crypto/asn1/a_time.c.xml" 
+   "fic1"  : "./qc/ssl/record/tls_pad.c.html" 
+ , "texte" : "File ssl/record/tls_pad.c 18 rule violations " 
+ , "fic2"  : "./qc/ssl/record/tls_pad.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "4"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : {
@@ -54,207 +54,137 @@ var maDataBlocs = {
 ,
 { "ligne" : {
    "c1" : "MAJOR"
- , "c2" : "QC-CPP000007"
- , "c3" : "goto statement"
- , "c4" : "23"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03240"
- , "c1link" : "./qc/crypto/asn1/a_time.c.html#3240"
+   "c1" : "03350"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#3350"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03240] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[03350] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04980"
- , "c1link" : "./qc/crypto/asn1/a_time.c.html#4980"
+   "c1" : "05196"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#5196"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[04980] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05196] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04982"
- , "c1link" : "./qc/crypto/asn1/a_time.c.html#4982"
+   "c1" : "05198"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#5198"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[04982] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05198] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07776"
- , "c1link" : "./qc/crypto/asn1/a_time.c.html#7776"
+   "c1" : "05565"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#5565"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07776] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05565] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08167"
- , "c1link" : "./qc/crypto/asn1/a_time.c.html#8167"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08167] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08174"
- , "c1link" : "./qc/crypto/asn1/a_time.c.html#8174"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08174] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08178"
- , "c1link" : "./qc/crypto/asn1/a_time.c.html#8178"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08178] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08181"
- , "c1link" : "./qc/crypto/asn1/a_time.c.html#8181"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08181] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08185"
- , "c1link" : "./qc/crypto/asn1/a_time.c.html#8185"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08185] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08190"
- , "c1link" : "./qc/crypto/asn1/a_time.c.html#8190"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08190] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08214"
- , "c1link" : "./qc/crypto/asn1/a_time.c.html#8214"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08214] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08235"
- , "c1link" : "./qc/crypto/asn1/a_time.c.html#8235"
+   "c1" : "05765"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#5765"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08235] The expression strict applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[05765] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08237"
- , "c1link" : "./qc/crypto/asn1/a_time.c.html#8237"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08237] goto statement jump to err"
+   "c1" : "05766"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#5766"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[05766] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08239"
- , "c1link" : "./qc/crypto/asn1/a_time.c.html#8239"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08239] goto statement jump to err"
+   "c1" : "05767"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#5767"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[05767] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08245"
- , "c1link" : "./qc/crypto/asn1/a_time.c.html#8245"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08245] goto statement jump to err"
+   "c1" : "05771"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#5771"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[05771] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08248"
- , "c1link" : "./qc/crypto/asn1/a_time.c.html#8248"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08248] goto statement jump to err"
+   "c1" : "06357"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#6357"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[06357] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08270"
- , "c1link" : "./qc/crypto/asn1/a_time.c.html#8270"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08270] goto statement jump to err"
+   "c1" : "06359"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#6359"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[06359] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08273"
- , "c1link" : "./qc/crypto/asn1/a_time.c.html#8273"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08273] goto statement jump to err"
+   "c1" : "06362"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#6362"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[06362] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08277"
- , "c1link" : "./qc/crypto/asn1/a_time.c.html#8277"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08277] goto statement jump to err"
+   "c1" : "07769"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#7769"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[07769] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08281"
- , "c1link" : "./qc/crypto/asn1/a_time.c.html#8281"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08281] goto statement jump to err"
+   "c1" : "07770"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#7770"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[07770] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08296"
- , "c1link" : "./qc/crypto/asn1/a_time.c.html#8296"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08296] goto statement jump to err"
+   "c1" : "09689"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#9689"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[09689] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08299"
- , "c1link" : "./qc/crypto/asn1/a_time.c.html#8299"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08299] goto statement jump to err"
+   "c1" : "09793"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#9793"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09793] The expression aead applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08332"
- , "c1link" : "./qc/crypto/asn1/a_time.c.html#8332"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08332] goto statement jump to err"
+   "c1" : "09845"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#9845"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[09845] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08334"
- , "c1link" : "./qc/crypto/asn1/a_time.c.html#8334"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08334] goto statement jump to err"
+   "c1" : "09850"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#9850"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[09850] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08361"
- , "c1link" : "./qc/crypto/asn1/a_time.c.html#8361"
+   "c1" : "09911"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#9911"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08361] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08503"
- , "c1link" : "./qc/crypto/asn1/a_time.c.html#8503"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08503] goto statement jump to out"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08512"
- , "c1link" : "./qc/crypto/asn1/a_time.c.html#8512"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08512] goto statement jump to out"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08526"
- , "c1link" : "./qc/crypto/asn1/a_time.c.html#8526"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08526] goto statement jump to out"
+ , "c3" : "QC-CPPCWE481[09911] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };
