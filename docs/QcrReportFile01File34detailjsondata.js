@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/lib/http_server.c.html" 
- , "texte" : "File apps/lib/http_server.c 46 rule violations " 
+ , "texte" : "File apps/lib/http_server.c 45 rule violations " 
  , "fic2"  : "./qc/apps/lib/http_server.c.xml" 
  , "fic3"  : "" 
 }
@@ -38,13 +38,6 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000004"
- , "c3" : "Return statement is missing in a function"
- , "c4" : "1"
-}}
-,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
@@ -290,13 +283,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/lib/http_server.c.html#18632"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[18632] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18666"
- , "c1link" : "./qc/apps/lib/http_server.c.html#18666"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000004[18666] The return statement is missing in the function body of http_server_get_asn1_req"
 }} 
 ,
 { "ligne" : {

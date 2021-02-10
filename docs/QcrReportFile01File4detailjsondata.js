@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/cmp.c.html" 
- , "texte" : "File apps/cmp.c 185 rule violations " 
+ , "texte" : "File apps/cmp.c 184 rule violations " 
  , "fic2"  : "./qc/apps/cmp.c.xml" 
  , "fic3"  : "" 
 }
@@ -38,13 +38,6 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000004"
- , "c3" : "Return statement is missing in a function"
- , "c4" : "1"
-}}
-,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
@@ -745,13 +738,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/cmp.c.html#23604"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[23604] goto statement jump to oom"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23619"
- , "c1link" : "./qc/apps/cmp.c.html#23619"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000004[23619] The return statement is missing in the function body of setup_client_ctx"
 }} 
 ,
 { "ligne" : {
