@@ -1916,7 +1916,6 @@ WORK_STATE tls_post_process_server_certificate(SSL *s, WORK_STATE wst)
             return WORK_ERROR;
         }
     }
-    s->session->peer_type = certidx;
 
     X509_free(s->session->peer);
     X509_up_ref(x);
@@ -2063,8 +2062,8 @@ static int tls_process_ske_dhe(SSL *s, PACKET *pkt, EVP_PKEY **pkey)
         SSLfatal(s, SSL_AD_INTERNAL_ERROR, ERR_R_INTERNAL_ERROR);
         goto err;
     }
-    if (EVP_PKEY_key_fromdata_init(pctx) <= 0
-            || EVP_PKEY_fromdata(pctx, &peer_tmp, params) <= 0) {
+    if (EVP_PKEY_fromdata_init(pctx) <= 0
+            || EVP_PKEY_fromdata(pctx, &peer_tmp, EVP_PKEY_KEYPAIR, params) <= 0) {
         SSLfatal(s, SSL_AD_INTERNAL_ERROR, SSL_R_BAD_DH_VALUE);
         goto err;
     }

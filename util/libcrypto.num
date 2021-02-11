@@ -2423,7 +2423,7 @@ EC_POINT_get_Jprojective_coordinates_GFp 2473	3_0_0	EXIST::FUNCTION:DEPRECATEDIN
 EVP_aes_128_cbc_hmac_sha256             2474	3_0_0	EXIST::FUNCTION:
 i2d_PKCS7_SIGNED                        2475	3_0_0	EXIST::FUNCTION:
 TS_VERIFY_CTX_set_data                  2476	3_0_0	EXIST::FUNCTION:TS
-BN_pseudo_rand_range                    2477	3_0_0	EXIST::FUNCTION:
+BN_pseudo_rand_range                    2477	3_0_0	EXIST::FUNCTION:DEPRECATEDIN_3_0
 X509V3_EXT_add_nconf                    2478	3_0_0	EXIST::FUNCTION:
 EVP_CIPHER_CTX_ctrl                     2479	3_0_0	EXIST::FUNCTION:
 ASN1_T61STRING_it                       2480	3_0_0	EXIST::FUNCTION:
@@ -3435,7 +3435,7 @@ X509_check_host                         3506	3_0_0	EXIST::FUNCTION:
 PEM_read_ECPKParameters                 3507	3_0_0	EXIST::FUNCTION:DEPRECATEDIN_3_0,EC,STDIO
 X509_ATTRIBUTE_get0_data                3508	3_0_0	EXIST::FUNCTION:
 CMS_add1_signer                         3509	3_0_0	EXIST::FUNCTION:CMS
-BN_pseudo_rand                          3510	3_0_0	EXIST::FUNCTION:
+BN_pseudo_rand                          3510	3_0_0	EXIST::FUNCTION:DEPRECATEDIN_3_0
 d2i_DIRECTORYSTRING                     3511	3_0_0	EXIST::FUNCTION:
 d2i_ASN1_PRINTABLE                      3512	3_0_0	EXIST::FUNCTION:
 EVP_PKEY_add1_attr_by_NID               3513	3_0_0	EXIST::FUNCTION:
@@ -4798,11 +4798,7 @@ X509_add_certs                          ?	3_0_0	EXIST::FUNCTION:
 X509_STORE_load_file                    ?	3_0_0	EXIST::FUNCTION:
 X509_STORE_load_path                    ?	3_0_0	EXIST::FUNCTION:
 X509_STORE_load_store                   ?	3_0_0	EXIST::FUNCTION:
-EVP_PKEY_param_fromdata_init            ?	3_0_0	EXIST::FUNCTION:
-EVP_PKEY_key_fromdata_init              ?	3_0_0	EXIST::FUNCTION:
 EVP_PKEY_fromdata                       ?	3_0_0	EXIST::FUNCTION:
-EVP_PKEY_param_fromdata_settable        ?	3_0_0	EXIST::FUNCTION:
-EVP_PKEY_key_fromdata_settable          ?	3_0_0	EXIST::FUNCTION:
 EVP_ASYM_CIPHER_free                    ?	3_0_0	EXIST::FUNCTION:
 EVP_ASYM_CIPHER_up_ref                  ?	3_0_0	EXIST::FUNCTION:
 EVP_ASYM_CIPHER_provider                ?	3_0_0	EXIST::FUNCTION:
@@ -4996,6 +4992,7 @@ EVP_PKEY_get_octet_string_param         ?	3_0_0	EXIST::FUNCTION:
 EVP_PKEY_is_a                           ?	3_0_0	EXIST::FUNCTION:
 EVP_PKEY_can_sign                       ?	3_0_0	EXIST::FUNCTION:
 X509_STORE_CTX_new_ex                   ?	3_0_0	EXIST::FUNCTION:
+X509_STORE_CTX_verify                   ?	3_0_0	EXIST::FUNCTION:
 CT_POLICY_EVAL_CTX_new_ex               ?	3_0_0	EXIST::FUNCTION:CT
 CTLOG_new_ex                            ?	3_0_0	EXIST::FUNCTION:CT
 CTLOG_new_from_base64_ex                ?	3_0_0	EXIST::FUNCTION:CT
@@ -5299,3 +5296,5 @@ EVP_PKEY_set_octet_string_param         ?	3_0_0	EXIST::FUNCTION:
 EVP_PKEY_get_ec_point_conv_form         ?	3_0_0	EXIST::FUNCTION:
 EVP_PKEY_get_field_type                 ?	3_0_0	EXIST::FUNCTION:
 EVP_PKEY_get_params                     ?	3_0_0	EXIST::FUNCTION:
+EVP_PKEY_fromdata_init                  ?	3_0_0	EXIST::FUNCTION:
+EVP_PKEY_fromdata_settable              ?	3_0_0	EXIST::FUNCTION:
