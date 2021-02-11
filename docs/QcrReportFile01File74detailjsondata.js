@@ -69,647 +69,647 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03925"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#3925"
+   "c1" : "03896"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#3896"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03925] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[03896] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05696"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#5696"
+   "c1" : "05662"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#5662"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05696] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05662] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05698"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#5698"
+   "c1" : "05664"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#5664"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05698] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05664] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06832"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#6832"
+   "c1" : "07296"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#7296"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06832] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07296] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07032"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#7032"
+   "c1" : "07496"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#7496"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07032] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07496] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07033"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#7033"
+   "c1" : "07497"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#7497"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07033] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07497] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07034"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#7034"
+   "c1" : "07498"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#7498"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07034] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07498] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07038"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#7038"
+   "c1" : "07502"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#7502"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07038] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07502] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07624"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#7624"
+   "c1" : "08088"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#8088"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07624] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08088] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07626"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#7626"
+   "c1" : "08090"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#8090"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07626] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08090] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07629"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#7629"
+   "c1" : "08093"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#8093"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07629] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08093] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08550"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#8550"
+   "c1" : "08995"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#8995"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08550] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08995] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09759"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#9759"
+   "c1" : "10200"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#10200"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09759] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10200] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09781"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#9781"
+   "c1" : "10222"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#10222"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09781] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10222] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09787"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#9787"
+   "c1" : "10228"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#10228"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09787] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10228] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09807"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#9807"
+   "c1" : "10248"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#10248"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09807] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10248] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09813"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#9813"
+   "c1" : "10254"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#10254"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09813] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10254] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10930"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#10930"
+   "c1" : "11368"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#11368"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10930] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11368] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10931"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#10931"
+   "c1" : "11369"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#11369"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10931] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11369] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11688"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#11688"
+   "c1" : "12116"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#12116"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11688] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12116] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11721"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#11721"
+   "c1" : "12149"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#12149"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11721] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12149] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11724"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#11724"
+   "c1" : "12152"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#12152"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11724] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12152] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11894"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#11894"
+   "c1" : "12313"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#12313"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11894] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12313] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14205"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#14205"
+   "c1" : "14617"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#14617"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14205] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14617] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14285"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#14285"
+   "c1" : "14702"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#14702"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14285] The expression  ! error_loaded applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14296"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#14296"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14296] The expression error_loaded applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14355"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#14355"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14355] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14485"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#14485"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14485] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14511"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#14511"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14511] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14516"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#14516"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14516] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14637"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#14637"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14637] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14679"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#14679"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14679] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14687"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#14687"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14687] goto statement jump to p12_end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14691"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#14691"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14691] goto statement jump to p12_end"
+ , "c3" : "QC-CPP000011[14702] The expression  ! error_loaded applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "14713"
  , "c1link" : "./qc/engines/e_loader_attic.c.html#14713"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14713] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14723"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#14723"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14723] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14729"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#14729"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14729] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14752"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#14752"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14752] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14758"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#14758"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14758] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14779"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#14779"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14779] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14805"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#14805"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14805] The expression  ! ok applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14713] The expression error_loaded applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14913"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#14913"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14913] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14934"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#14934"
+   "c1" : "14772"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#14772"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14934] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14772] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14951"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#14951"
+   "c1" : "14902"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#14902"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14951] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14902] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14957"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#14957"
+   "c1" : "14928"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#14928"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14957] goto statement jump to nop8"
+ , "c3" : "QC-CPPCWE481[14928] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14960"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#14960"
+   "c1" : "14933"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#14933"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14960] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14933] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14968"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#14968"
+   "c1" : "15054"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#15054"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14968] goto statement jump to nop8"
+ , "c3" : "QC-CPPCWE481[15054] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14974"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#14974"
+   "c1" : "15096"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#15096"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14974] goto statement jump to nop8"
+ , "c3" : "QC-CPPCWE481[15096] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14977"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#14977"
+   "c1" : "15104"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#15104"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14977] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[15104] goto statement jump to p12_end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14987"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#14987"
+   "c1" : "15108"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#15108"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14987] goto statement jump to nop8"
+ , "c3" : "QC-CPP000007[15108] goto statement jump to p12_end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15062"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#15062"
+   "c1" : "15130"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#15130"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15062] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15063"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#15063"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15063] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15130] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "15140"
  , "c1link" : "./qc/engines/e_loader_attic.c.html#15140"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15140] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15146"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#15146"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15146] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15169"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#15169"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15169] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15175"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#15175"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15175] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15196"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#15196"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15196] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15222"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#15222"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15140] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[15222] The expression  ! ok applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15202"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#15202"
+   "c1" : "15330"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#15330"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15202] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15330] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15324"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#15324"
+   "c1" : "15351"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#15351"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15324] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15351] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15382"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#15382"
+   "c1" : "15368"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#15368"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15382] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15368] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15383"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#15383"
+   "c1" : "15374"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#15374"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15383] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[15374] goto statement jump to nop8"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15426"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#15426"
+   "c1" : "15377"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#15377"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15377] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15385"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#15385"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15385] goto statement jump to nop8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15391"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#15391"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15391] goto statement jump to nop8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15394"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#15394"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15394] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15404"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#15404"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15404] goto statement jump to nop8"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15479"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#15479"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15479] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15480"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#15480"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15480] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15557"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#15557"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15426] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15557] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15635"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#15635"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15635] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15774"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#15774"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15774] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15918"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#15918"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15918] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15948"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#15948"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15948] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15952"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#15952"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15952] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15959"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#15959"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15959] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15973"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#15973"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15973] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16014"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#16014"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16014] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16023"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#16023"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16023] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16046"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#16046"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16046] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16199"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#16199"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16199] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16232"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#16232"
+   "c1" : "15619"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#15619"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16232] The expression handler_ctx applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[15619] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16236"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#16236"
+   "c1" : "15741"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#15741"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16236] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15741] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16299"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#16299"
+   "c1" : "15799"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#15799"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16299] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15799] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16303"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#16303"
+   "c1" : "15800"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#15800"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16303] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15800] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16324"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#16324"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16324] goto statement jump to again"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16388"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#16388"
+   "c1" : "15843"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#15843"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16388] The expression secure applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[15843] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16052"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#16052"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[16052] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16191"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#16191"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[16191] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16335"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#16335"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16335] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16365"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#16365"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16365] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16369"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#16369"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[16369] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16376"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#16376"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16376] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16390"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#16390"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16390] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16431"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#16431"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[16431] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "16440"
  , "c1link" : "./qc/engines/e_loader_attic.c.html#16440"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[16440] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16463"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#16463"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16463] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16616"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#16616"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16616] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16649"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#16649"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16440] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[16649] The expression handler_ctx applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16461"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#16461"
+   "c1" : "16653"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#16653"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16461] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16653] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16487"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#16487"
+   "c1" : "16716"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#16716"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[16716] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16720"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#16720"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[16720] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16741"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#16741"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16741] goto statement jump to again"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16805"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#16805"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16487] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[16805] The expression secure applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16507"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#16507"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16507] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16512"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#16512"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16512] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16726"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#16726"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16726] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16774"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#16774"
+   "c1" : "16857"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#16857"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16774] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16787"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#16787"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16787] goto statement jump to endloop"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16790"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#16790"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16790] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16796"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#16796"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16796] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16803"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#16803"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16803] goto statement jump to endloop"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16807"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#16807"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16807] goto statement jump to endloop"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16819"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#16819"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16819] goto statement jump to endloop"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16831"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#16831"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16831] goto statement jump to endloop"
+ , "c3" : "QC-CPP000005[16857] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "16878"
  , "c1link" : "./qc/engines/e_loader_attic.c.html#16878"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16878] goto statement jump to again"
+ , "c3" : "QC-CPPCWE481[16878] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16986"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#16986"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16986] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "16904"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#16904"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[16904] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17036"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#17036"
+   "c1" : "16924"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#16924"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17036] goto statement jump to skip_cbs"
+ , "c3" : "QC-CPPCWE481[16924] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16929"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#16929"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[16929] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17143"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#17143"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[17143] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17191"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#17191"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[17191] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17204"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#17204"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17204] goto statement jump to endloop"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17207"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#17207"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[17207] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17213"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#17213"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[17213] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17220"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#17220"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17220] goto statement jump to endloop"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17224"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#17224"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17224] goto statement jump to endloop"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17236"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#17236"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17236] goto statement jump to endloop"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17248"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#17248"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17248] goto statement jump to endloop"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17295"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#17295"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17295] goto statement jump to again"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17403"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#17403"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[17403] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17453"
+ , "c1link" : "./qc/engines/e_loader_attic.c.html#17453"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17453] goto statement jump to skip_cbs"
 }} 
 ]
 };

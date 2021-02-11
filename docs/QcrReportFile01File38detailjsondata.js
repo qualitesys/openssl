@@ -90,269 +90,269 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "04353"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#4353"
+   "c1" : "04328"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#4328"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[04353] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[04328] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09981"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#9981"
+   "c1" : "10451"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#10451"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09981] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10451] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09983"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#9983"
+   "c1" : "10453"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#10453"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09983] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10453] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10350"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#10350"
+   "c1" : "10820"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#10820"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10350] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10820] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10550"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#10550"
+   "c1" : "11020"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#11020"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10550] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11020] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10551"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#10551"
+   "c1" : "11021"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#11021"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10551] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11021] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10552"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#10552"
+   "c1" : "11022"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#11022"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10552] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11022] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10556"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#10556"
+   "c1" : "11026"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#11026"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10556] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11026] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11142"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#11142"
+   "c1" : "11612"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#11612"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11142] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11612] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11144"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#11144"
+   "c1" : "11614"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#11614"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11144] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11614] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11147"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#11147"
+   "c1" : "11617"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#11617"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11147] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11617] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12011"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#12011"
+   "c1" : "12477"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#12477"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12011] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12477] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13570"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#13570"
+   "c1" : "14026"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#14026"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13570] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14026] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13592"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#13592"
+   "c1" : "14048"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#14048"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13592] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14048] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13598"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#13598"
+   "c1" : "14054"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#14054"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13598] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14054] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13618"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#13618"
+   "c1" : "14074"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#14074"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13618] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14074] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13624"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#13624"
+   "c1" : "14080"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#14080"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13624] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14080] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14783"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#14783"
+   "c1" : "15233"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#15233"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14783] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15233] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14784"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#14784"
+   "c1" : "15234"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#15234"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14784] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15234] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17610"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#17610"
+   "c1" : "18012"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#18012"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17610] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18012] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17916"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#17916"
+   "c1" : "18318"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#18318"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17916] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18318] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18051"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#18051"
+   "c1" : "18439"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#18439"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18051] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18439] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19127"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#19127"
+   "c1" : "19485"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#19485"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19127] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[19485] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19129"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#19129"
+   "c1" : "19487"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#19487"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19129] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[19487] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19862"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#19862"
+   "c1" : "20220"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#20220"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19862] goto statement jump to out"
+ , "c3" : "QC-CPP000007[20220] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20098"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#20098"
+   "c1" : "20456"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#20456"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20098] goto statement jump to end"
+ , "c3" : "QC-CPP000007[20456] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20125"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#20125"
+   "c1" : "20483"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#20483"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20125] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20483] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20131"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#20131"
+   "c1" : "20489"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#20489"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20131] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20489] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20136"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#20136"
+   "c1" : "20494"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#20494"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20136] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20494] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20160"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#20160"
+   "c1" : "20518"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#20518"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20160] The expression  ! success applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20518] The expression  ! success applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20163"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#20163"
+   "c1" : "20521"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#20521"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20163] goto statement jump to end"
+ , "c3" : "QC-CPP000007[20521] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20199"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#20199"
+   "c1" : "20557"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#20557"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20199] goto statement jump to end"
+ , "c3" : "QC-CPP000007[20557] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20224"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#20224"
+   "c1" : "20582"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#20582"
  , "c2" : "MINOR"
- , "c3" : "QC-CPP000013[20224] Inline assembly code"
+ , "c3" : "QC-CPP000013[20582] Inline assembly code"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20224"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#20224"
+   "c1" : "20582"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#20582"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[20224] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000006[20582] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20228"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#20228"
+   "c1" : "20586"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#20586"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20228] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20586] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20228"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#20228"
+   "c1" : "20586"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#20586"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[20228] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[20586] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20233"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#20233"
+   "c1" : "20591"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#20591"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20233] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20591] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20233"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#20233"
+   "c1" : "20591"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#20591"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20233] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20591] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

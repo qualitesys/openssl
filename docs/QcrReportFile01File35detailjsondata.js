@@ -48,10 +48,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03581"
- , "c1link" : "./qc/apps/lib/names.c.html#3581"
+   "c1" : "03552"
+ , "c1link" : "./qc/apps/lib/names.c.html#3552"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03581] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[03552] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

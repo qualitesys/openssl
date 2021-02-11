@@ -69,220 +69,220 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03817"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#3817"
+   "c1" : "03800"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#3800"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03817] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[03800] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05687"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#5687"
+   "c1" : "05659"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#5659"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05687] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05659] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05689"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#5689"
+   "c1" : "05661"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#5661"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05689] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05661] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06056"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#6056"
+   "c1" : "06028"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#6028"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06056] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06028] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06256"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#6256"
+   "c1" : "06228"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#6228"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06256] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06228] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06257"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#6257"
+   "c1" : "06229"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#6229"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06257] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06229] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06258"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#6258"
+   "c1" : "06230"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#6230"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06258] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06230] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06262"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#6262"
+   "c1" : "06234"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#6234"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06262] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06234] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06848"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#6848"
+   "c1" : "06820"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#6820"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06848] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06820] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06850"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#6850"
+   "c1" : "06822"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#6822"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06850] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06822] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06853"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#6853"
+   "c1" : "06825"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#6825"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06853] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06825] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09840"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#9840"
+   "c1" : "09811"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#9811"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09840] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09811] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11366"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#11366"
+   "c1" : "11318"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#11318"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11366] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11318] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12161"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#12161"
+   "c1" : "12103"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#12103"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12161] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12103] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12183"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#12183"
+   "c1" : "12125"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#12125"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12183] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12125] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12189"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#12189"
+   "c1" : "12131"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#12131"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12189] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12131] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12209"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#12209"
+   "c1" : "12151"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#12151"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12209] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12151] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12215"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#12215"
+   "c1" : "12157"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#12157"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12215] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12157] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13332"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#13332"
+   "c1" : "13271"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#13271"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13332] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13271] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13333"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#13333"
+   "c1" : "13272"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#13272"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13333] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13272] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14567"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#14567"
+   "c1" : "14506"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#14506"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14567] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14506] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14568"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#14568"
+   "c1" : "14507"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#14507"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14568] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14507] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14582"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#14582"
+   "c1" : "14521"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#14521"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14582] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14521] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15416"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#15416"
+   "c1" : "15357"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#15357"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15416] The expression  ! ossl_prov_is_running() applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15357] The expression  ! ossl_prov_is_running() applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15626"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#15626"
+   "c1" : "15567"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#15567"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15626] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15567] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15631"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#15631"
+   "c1" : "15572"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#15572"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15631] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15572] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15642"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#15642"
+   "c1" : "15583"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#15583"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15642] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15583] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15647"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#15647"
+   "c1" : "15588"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#15588"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15647] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15588] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15653"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#15653"
+   "c1" : "15594"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#15594"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15653] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15594] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15666"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#15666"
+   "c1" : "15607"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#15607"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15666] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15607] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15713"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#15713"
+   "c1" : "15654"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#15654"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15713] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15654] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

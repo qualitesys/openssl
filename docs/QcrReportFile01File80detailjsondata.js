@@ -55,24 +55,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "04160"
- , "c1link" : "./qc/providers/legacyprov.c.html#4160"
+   "c1" : "04148"
+ , "c1link" : "./qc/providers/legacyprov.c.html#4148"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[04160] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[04148] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06648"
- , "c1link" : "./qc/providers/legacyprov.c.html#6648"
+   "c1" : "06639"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6639"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[06648] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[06639] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06653"
- , "c1link" : "./qc/providers/legacyprov.c.html#6653"
+   "c1" : "06644"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6644"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[06653] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[06644] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };
