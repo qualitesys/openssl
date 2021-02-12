@@ -188,10 +188,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18341"
- , "c1link" : "./qc/apps/lib/app_provider.c.html#18341"
+   "c1" : "18342"
+ , "c1link" : "./qc/apps/lib/app_provider.c.html#18342"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18341] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18342] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

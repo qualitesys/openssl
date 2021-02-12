@@ -202,24 +202,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18319"
- , "c1link" : "./qc/apps/errstr.c.html#18319"
+   "c1" : "18320"
+ , "c1link" : "./qc/apps/errstr.c.html#18320"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18319] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18320] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18581"
- , "c1link" : "./qc/apps/errstr.c.html#18581"
+   "c1" : "18582"
+ , "c1link" : "./qc/apps/errstr.c.html#18582"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18581] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19627"
- , "c1link" : "./qc/apps/errstr.c.html#19627"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19627] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18582] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -230,24 +223,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20265"
- , "c1link" : "./qc/apps/errstr.c.html#20265"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20265] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "19631"
+ , "c1link" : "./qc/apps/errstr.c.html#19631"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[19631] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20270"
- , "c1link" : "./qc/apps/errstr.c.html#20270"
+   "c1" : "20272"
+ , "c1link" : "./qc/apps/errstr.c.html#20272"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20270] goto statement jump to end"
+ , "c3" : "QC-CPPCWE481[20272] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20274"
- , "c1link" : "./qc/apps/errstr.c.html#20274"
+   "c1" : "20277"
+ , "c1link" : "./qc/apps/errstr.c.html#20277"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20274] goto statement jump to end"
+ , "c3" : "QC-CPP000007[20277] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20281"
+ , "c1link" : "./qc/apps/errstr.c.html#20281"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20281] goto statement jump to end"
 }} 
 ]
 };

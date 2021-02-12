@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/lib/app_rand.c.html" 
- , "texte" : "File apps/lib/app_rand.c 22 rule violations " 
+ , "texte" : "File apps/lib/app_rand.c 23 rule violations " 
  , "fic2"  : "./qc/apps/lib/app_rand.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,6 +49,13 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
  , "c4" : "1"
 }}
  ] 
@@ -195,17 +202,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18341"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#18341"
+   "c1" : "18342"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#18342"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18341] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18342] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18454"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#18454"
+   "c1" : "18456"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#18456"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18454] The expression last applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18456] The expression last applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "18524"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#18524"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[18524] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

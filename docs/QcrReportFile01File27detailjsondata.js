@@ -195,17 +195,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18323"
- , "c1link" : "./qc/apps/lib/app_x509.c.html#18323"
+   "c1" : "18324"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#18324"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18323] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18324] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18513"
- , "c1link" : "./qc/apps/lib/app_x509.c.html#18513"
+   "c1" : "18514"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#18514"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18513] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18514] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

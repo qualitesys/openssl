@@ -202,38 +202,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18341"
- , "c1link" : "./qc/apps/lib/app_params.c.html#18341"
+   "c1" : "18342"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#18342"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18341] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18342] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18424"
- , "c1link" : "./qc/apps/lib/app_params.c.html#18424"
+   "c1" : "18425"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#18425"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[18424] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[18425] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18430"
- , "c1link" : "./qc/apps/lib/app_params.c.html#18430"
+   "c1" : "18431"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#18431"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[18430] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[18431] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18436"
- , "c1link" : "./qc/apps/lib/app_params.c.html#18436"
+   "c1" : "18437"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#18437"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[18436] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[18437] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18458"
- , "c1link" : "./qc/apps/lib/app_params.c.html#18458"
+   "c1" : "18459"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#18459"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18458] The expression show_type_number applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18459] The expression show_type_number applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };
