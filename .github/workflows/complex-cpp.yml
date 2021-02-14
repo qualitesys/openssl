@@ -55,8 +55,8 @@ jobs:
       # run: make test 2> ./make_test_err.log
       # V=1 : mode verbose
       run: make V=1 test 2>> ./make_test_err.log
-    - name: ls -l
-      run: ls -l
+    - name: ls -lR *.txt
+      run: ls -l *.txt
     - name: Maven and co sort
       run: sort -u -o make_test_err_sort.log make_test_err.log
     - name: ls
@@ -65,3 +65,7 @@ jobs:
       with:
         name: artifact-sauve-log
         path: make_test_err_sort.log
+    - uses: actions/upload-artifact@v2
+      with:
+        name: ArtifactTest
+        path: test
