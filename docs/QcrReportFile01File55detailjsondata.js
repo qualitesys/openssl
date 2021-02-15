@@ -76,31 +76,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10441"
- , "c1link" : "./qc/apps/rehash.c.html#10441"
+   "c1" : "10442"
+ , "c1link" : "./qc/apps/rehash.c.html#10442"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10441] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10442] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10443"
- , "c1link" : "./qc/apps/rehash.c.html#10443"
+   "c1" : "10444"
+ , "c1link" : "./qc/apps/rehash.c.html#10444"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10443] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10444] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10810"
- , "c1link" : "./qc/apps/rehash.c.html#10810"
+   "c1" : "10811"
+ , "c1link" : "./qc/apps/rehash.c.html#10811"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10810] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11010"
- , "c1link" : "./qc/apps/rehash.c.html#11010"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11010] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10811] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -118,283 +111,290 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11016"
- , "c1link" : "./qc/apps/rehash.c.html#11016"
+   "c1" : "11013"
+ , "c1link" : "./qc/apps/rehash.c.html#11013"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11016] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11013] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11602"
- , "c1link" : "./qc/apps/rehash.c.html#11602"
+   "c1" : "11017"
+ , "c1link" : "./qc/apps/rehash.c.html#11017"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11602] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11017] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11604"
- , "c1link" : "./qc/apps/rehash.c.html#11604"
+   "c1" : "11603"
+ , "c1link" : "./qc/apps/rehash.c.html#11603"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11604] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11603] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11607"
- , "c1link" : "./qc/apps/rehash.c.html#11607"
+   "c1" : "11605"
+ , "c1link" : "./qc/apps/rehash.c.html#11605"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11607] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11605] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12467"
- , "c1link" : "./qc/apps/rehash.c.html#12467"
+   "c1" : "11608"
+ , "c1link" : "./qc/apps/rehash.c.html#11608"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12467] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11608] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14016"
- , "c1link" : "./qc/apps/rehash.c.html#14016"
+   "c1" : "12469"
+ , "c1link" : "./qc/apps/rehash.c.html#12469"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14016] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12469] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14038"
- , "c1link" : "./qc/apps/rehash.c.html#14038"
+   "c1" : "14018"
+ , "c1link" : "./qc/apps/rehash.c.html#14018"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14038] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14018] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14044"
- , "c1link" : "./qc/apps/rehash.c.html#14044"
+   "c1" : "14040"
+ , "c1link" : "./qc/apps/rehash.c.html#14040"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14044] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14040] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14064"
- , "c1link" : "./qc/apps/rehash.c.html#14064"
+   "c1" : "14046"
+ , "c1link" : "./qc/apps/rehash.c.html#14046"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14064] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14046] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14070"
- , "c1link" : "./qc/apps/rehash.c.html#14070"
+   "c1" : "14066"
+ , "c1link" : "./qc/apps/rehash.c.html#14066"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14070] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14066] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15223"
- , "c1link" : "./qc/apps/rehash.c.html#15223"
+   "c1" : "14072"
+ , "c1link" : "./qc/apps/rehash.c.html#14072"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15223] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14072] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15224"
- , "c1link" : "./qc/apps/rehash.c.html#15224"
+   "c1" : "15225"
+ , "c1link" : "./qc/apps/rehash.c.html#15225"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15224] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15225] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18035"
- , "c1link" : "./qc/apps/rehash.c.html#18035"
+   "c1" : "15226"
+ , "c1link" : "./qc/apps/rehash.c.html#15226"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18035] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15226] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18342"
- , "c1link" : "./qc/apps/rehash.c.html#18342"
+   "c1" : "18037"
+ , "c1link" : "./qc/apps/rehash.c.html#18037"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18342] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18037] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18890"
- , "c1link" : "./qc/apps/rehash.c.html#18890"
+   "c1" : "18344"
+ , "c1link" : "./qc/apps/rehash.c.html#18344"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[18344] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18892"
+ , "c1link" : "./qc/apps/rehash.c.html#18892"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18890] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18892] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18895"
- , "c1link" : "./qc/apps/rehash.c.html#18895"
+   "c1" : "18897"
+ , "c1link" : "./qc/apps/rehash.c.html#18897"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18895] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18897] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18901"
- , "c1link" : "./qc/apps/rehash.c.html#18901"
+   "c1" : "18903"
+ , "c1link" : "./qc/apps/rehash.c.html#18903"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18901] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18903] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18904"
- , "c1link" : "./qc/apps/rehash.c.html#18904"
+   "c1" : "18906"
+ , "c1link" : "./qc/apps/rehash.c.html#18906"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18904] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18906] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18912"
- , "c1link" : "./qc/apps/rehash.c.html#18912"
+   "c1" : "18914"
+ , "c1link" : "./qc/apps/rehash.c.html#18914"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18912] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18914] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18933"
- , "c1link" : "./qc/apps/rehash.c.html#18933"
+   "c1" : "18935"
+ , "c1link" : "./qc/apps/rehash.c.html#18935"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18933] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18935] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18941"
- , "c1link" : "./qc/apps/rehash.c.html#18941"
+   "c1" : "18943"
+ , "c1link" : "./qc/apps/rehash.c.html#18943"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18941] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18943] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18958"
- , "c1link" : "./qc/apps/rehash.c.html#18958"
+   "c1" : "18960"
+ , "c1link" : "./qc/apps/rehash.c.html#18960"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18958] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18960] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18974"
- , "c1link" : "./qc/apps/rehash.c.html#18974"
+   "c1" : "18976"
+ , "c1link" : "./qc/apps/rehash.c.html#18976"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18974] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18976] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18978"
- , "c1link" : "./qc/apps/rehash.c.html#18978"
+   "c1" : "18980"
+ , "c1link" : "./qc/apps/rehash.c.html#18980"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18978] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18980] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18991"
- , "c1link" : "./qc/apps/rehash.c.html#18991"
+   "c1" : "18993"
+ , "c1link" : "./qc/apps/rehash.c.html#18993"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18991] The expression ok applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18993] The expression ok applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19074"
- , "c1link" : "./qc/apps/rehash.c.html#19074"
+   "c1" : "19076"
+ , "c1link" : "./qc/apps/rehash.c.html#19076"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19074] The expression verbose applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19076] The expression verbose applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19077"
- , "c1link" : "./qc/apps/rehash.c.html#19077"
+   "c1" : "19079"
+ , "c1link" : "./qc/apps/rehash.c.html#19079"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19077] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19084"
- , "c1link" : "./qc/apps/rehash.c.html#19084"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19084] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[19079] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "19086"
  , "c1link" : "./qc/apps/rehash.c.html#19086"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19086] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[19086] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19091"
- , "c1link" : "./qc/apps/rehash.c.html#19091"
+   "c1" : "19088"
+ , "c1link" : "./qc/apps/rehash.c.html#19088"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19091] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19088] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19100"
- , "c1link" : "./qc/apps/rehash.c.html#19100"
+   "c1" : "19093"
+ , "c1link" : "./qc/apps/rehash.c.html#19093"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19100] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[19093] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19142"
- , "c1link" : "./qc/apps/rehash.c.html#19142"
+   "c1" : "19102"
+ , "c1link" : "./qc/apps/rehash.c.html#19102"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19102] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19144"
+ , "c1link" : "./qc/apps/rehash.c.html#19144"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19142] The expression verbose applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19144] The expression verbose applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19153"
- , "c1link" : "./qc/apps/rehash.c.html#19153"
+   "c1" : "19155"
+ , "c1link" : "./qc/apps/rehash.c.html#19155"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19153] The expression verbose applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19155] The expression verbose applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19186"
- , "c1link" : "./qc/apps/rehash.c.html#19186"
+   "c1" : "19188"
+ , "c1link" : "./qc/apps/rehash.c.html#19188"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19186] The expression remove_links applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19188] The expression remove_links applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19191"
- , "c1link" : "./qc/apps/rehash.c.html#19191"
+   "c1" : "19193"
+ , "c1link" : "./qc/apps/rehash.c.html#19193"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19191] The expression verbose applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19193] The expression verbose applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19271"
- , "c1link" : "./qc/apps/rehash.c.html#19271"
+   "c1" : "19273"
+ , "c1link" : "./qc/apps/rehash.c.html#19273"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19271] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19273] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19276"
- , "c1link" : "./qc/apps/rehash.c.html#19276"
+   "c1" : "19278"
+ , "c1link" : "./qc/apps/rehash.c.html#19278"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19276] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19278] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19279"
- , "c1link" : "./qc/apps/rehash.c.html#19279"
+   "c1" : "19281"
+ , "c1link" : "./qc/apps/rehash.c.html#19281"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19279] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19281] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19294"
- , "c1link" : "./qc/apps/rehash.c.html#19294"
+   "c1" : "19296"
+ , "c1link" : "./qc/apps/rehash.c.html#19296"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19294] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19296] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19317"
- , "c1link" : "./qc/apps/rehash.c.html#19317"
+   "c1" : "19319"
+ , "c1link" : "./qc/apps/rehash.c.html#19319"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19317] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19319] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

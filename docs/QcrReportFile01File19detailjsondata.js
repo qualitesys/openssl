@@ -83,31 +83,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10412"
- , "c1link" : "./qc/apps/gendsa.c.html#10412"
+   "c1" : "10413"
+ , "c1link" : "./qc/apps/gendsa.c.html#10413"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10412] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10413] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10414"
- , "c1link" : "./qc/apps/gendsa.c.html#10414"
+   "c1" : "10415"
+ , "c1link" : "./qc/apps/gendsa.c.html#10415"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10414] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10415] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10781"
- , "c1link" : "./qc/apps/gendsa.c.html#10781"
+   "c1" : "10782"
+ , "c1link" : "./qc/apps/gendsa.c.html#10782"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10781] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10981"
- , "c1link" : "./qc/apps/gendsa.c.html#10981"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10981] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10782] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -125,206 +118,213 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10987"
- , "c1link" : "./qc/apps/gendsa.c.html#10987"
+   "c1" : "10984"
+ , "c1link" : "./qc/apps/gendsa.c.html#10984"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10987] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10984] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11573"
- , "c1link" : "./qc/apps/gendsa.c.html#11573"
+   "c1" : "10988"
+ , "c1link" : "./qc/apps/gendsa.c.html#10988"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11573] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10988] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11575"
- , "c1link" : "./qc/apps/gendsa.c.html#11575"
+   "c1" : "11574"
+ , "c1link" : "./qc/apps/gendsa.c.html#11574"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11575] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11574] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11578"
- , "c1link" : "./qc/apps/gendsa.c.html#11578"
+   "c1" : "11576"
+ , "c1link" : "./qc/apps/gendsa.c.html#11576"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11578] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11576] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12438"
- , "c1link" : "./qc/apps/gendsa.c.html#12438"
+   "c1" : "11579"
+ , "c1link" : "./qc/apps/gendsa.c.html#11579"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12438] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11579] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13987"
- , "c1link" : "./qc/apps/gendsa.c.html#13987"
+   "c1" : "12440"
+ , "c1link" : "./qc/apps/gendsa.c.html#12440"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13987] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12440] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14009"
- , "c1link" : "./qc/apps/gendsa.c.html#14009"
+   "c1" : "13989"
+ , "c1link" : "./qc/apps/gendsa.c.html#13989"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14009] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13989] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14015"
- , "c1link" : "./qc/apps/gendsa.c.html#14015"
+   "c1" : "14011"
+ , "c1link" : "./qc/apps/gendsa.c.html#14011"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14015] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14011] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14035"
- , "c1link" : "./qc/apps/gendsa.c.html#14035"
+   "c1" : "14017"
+ , "c1link" : "./qc/apps/gendsa.c.html#14017"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14035] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14017] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14041"
- , "c1link" : "./qc/apps/gendsa.c.html#14041"
+   "c1" : "14037"
+ , "c1link" : "./qc/apps/gendsa.c.html#14037"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14041] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14037] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15194"
- , "c1link" : "./qc/apps/gendsa.c.html#15194"
+   "c1" : "14043"
+ , "c1link" : "./qc/apps/gendsa.c.html#14043"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15194] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14043] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15195"
- , "c1link" : "./qc/apps/gendsa.c.html#15195"
+   "c1" : "15196"
+ , "c1link" : "./qc/apps/gendsa.c.html#15196"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15195] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15196] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18006"
- , "c1link" : "./qc/apps/gendsa.c.html#18006"
+   "c1" : "15197"
+ , "c1link" : "./qc/apps/gendsa.c.html#15197"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18006] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15197] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18313"
- , "c1link" : "./qc/apps/gendsa.c.html#18313"
+   "c1" : "18008"
+ , "c1link" : "./qc/apps/gendsa.c.html#18008"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18313] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18008] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18620"
- , "c1link" : "./qc/apps/gendsa.c.html#18620"
+   "c1" : "18315"
+ , "c1link" : "./qc/apps/gendsa.c.html#18315"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[18315] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18622"
+ , "c1link" : "./qc/apps/gendsa.c.html#18622"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18620] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18624"
- , "c1link" : "./qc/apps/gendsa.c.html#18624"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[18624] The switch case refers to the jump label opthelp"
+ , "c3" : "QC-CPPCWE481[18622] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "18626"
  , "c1link" : "./qc/apps/gendsa.c.html#18626"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18626] goto statement jump to end"
+ , "c3" : "QC-CPP000010[18626] The switch case refers to the jump label opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18630"
- , "c1link" : "./qc/apps/gendsa.c.html#18630"
+   "c1" : "18628"
+ , "c1link" : "./qc/apps/gendsa.c.html#18628"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18630] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18628] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18642"
- , "c1link" : "./qc/apps/gendsa.c.html#18642"
+   "c1" : "18632"
+ , "c1link" : "./qc/apps/gendsa.c.html#18632"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18642] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18632] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18646"
- , "c1link" : "./qc/apps/gendsa.c.html#18646"
+   "c1" : "18644"
+ , "c1link" : "./qc/apps/gendsa.c.html#18644"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18646] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18644] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18661"
- , "c1link" : "./qc/apps/gendsa.c.html#18661"
+   "c1" : "18648"
+ , "c1link" : "./qc/apps/gendsa.c.html#18648"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18661] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18648] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18671"
- , "c1link" : "./qc/apps/gendsa.c.html#18671"
+   "c1" : "18663"
+ , "c1link" : "./qc/apps/gendsa.c.html#18663"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18671] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18663] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18685"
- , "c1link" : "./qc/apps/gendsa.c.html#18685"
+   "c1" : "18673"
+ , "c1link" : "./qc/apps/gendsa.c.html#18673"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18685] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18673] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18696"
- , "c1link" : "./qc/apps/gendsa.c.html#18696"
+   "c1" : "18687"
+ , "c1link" : "./qc/apps/gendsa.c.html#18687"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18696] goto statement jump to end2"
+ , "c3" : "QC-CPP000007[18687] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18715"
- , "c1link" : "./qc/apps/gendsa.c.html#18715"
+   "c1" : "18698"
+ , "c1link" : "./qc/apps/gendsa.c.html#18698"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18715] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18698] goto statement jump to end2"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18725"
- , "c1link" : "./qc/apps/gendsa.c.html#18725"
+   "c1" : "18717"
+ , "c1link" : "./qc/apps/gendsa.c.html#18717"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18725] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18717] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
    "c1" : "18727"
  , "c1link" : "./qc/apps/gendsa.c.html#18727"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18727] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18729"
+ , "c1link" : "./qc/apps/gendsa.c.html#18729"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18727] The expression verbose applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18729] The expression verbose applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18731"
- , "c1link" : "./qc/apps/gendsa.c.html#18731"
+   "c1" : "18733"
+ , "c1link" : "./qc/apps/gendsa.c.html#18733"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18731] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18733] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18749"
- , "c1link" : "./qc/apps/gendsa.c.html#18749"
+   "c1" : "18751"
+ , "c1link" : "./qc/apps/gendsa.c.html#18751"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18749] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18751] goto statement jump to end"
 }} 
 ]
 };

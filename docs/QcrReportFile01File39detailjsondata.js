@@ -69,31 +69,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05724"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#5724"
+   "c1" : "05725"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#5725"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05724] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05725] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05726"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#5726"
+   "c1" : "05727"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#5727"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05726] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05727] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06093"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#6093"
+   "c1" : "06094"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#6094"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06093] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06293"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#6293"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06293] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06094] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -111,101 +104,101 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06299"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#6299"
+   "c1" : "06296"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#6296"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06299] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06296] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06885"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#6885"
+   "c1" : "06300"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#6300"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06885] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06300] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06887"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#6887"
+   "c1" : "06886"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#6886"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06887] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06886] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06890"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#6890"
+   "c1" : "06888"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#6888"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06890] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06888] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07750"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#7750"
+   "c1" : "06891"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#6891"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07750] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06891] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09299"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#9299"
+   "c1" : "07752"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#7752"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09299] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07752] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09321"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#9321"
+   "c1" : "09301"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#9301"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09321] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09301] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09327"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#9327"
+   "c1" : "09323"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#9323"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09327] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09323] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09347"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#9347"
+   "c1" : "09329"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#9329"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09347] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09329] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09353"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#9353"
+   "c1" : "09349"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#9349"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09353] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09349] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10506"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#10506"
+   "c1" : "09355"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#9355"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10506] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09355] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10507"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#10507"
+   "c1" : "10508"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#10508"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10507] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10508] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11183"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#11183"
+   "c1" : "10509"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#10509"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11183] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10509] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12230"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#12230"
+   "c1" : "11185"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#11185"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12230] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11185] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -216,59 +209,66 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19901"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#19901"
+   "c1" : "12234"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#12234"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19901] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12234] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20208"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20208"
+   "c1" : "19903"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#19903"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[20208] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[19903] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20429"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20429"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20429] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "20210"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20210"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[20210] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20433"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20433"
+   "c1" : "20431"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20431"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20433] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20431] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20479"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20479"
+   "c1" : "20435"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20435"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20479] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20435] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20546"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20546"
+   "c1" : "20481"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20481"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20546] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[20481] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20553"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20553"
+   "c1" : "20548"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20548"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20553] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20548] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20600"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20600"
+   "c1" : "20555"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20555"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20600] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[20555] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20602"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20602"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[20602] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };
