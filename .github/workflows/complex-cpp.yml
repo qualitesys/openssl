@@ -57,8 +57,8 @@ jobs:
       run: make V=1 test 2>> ./make_test_err.log
     - name: ls -l 
       run: ls -l 
-    - name: ls -ldR 
-      run: ls -ldR 
+    - name: ls -lR 
+      run: ls -lR "$PWD/"*
     - name: Maven and co sort
       run: sort -u -o make_test_err_sort.log make_test_err.log
     - name: ls
