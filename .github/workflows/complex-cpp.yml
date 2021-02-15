@@ -56,7 +56,7 @@ jobs:
       # V=1 : mode verbose
       run: make V=1 test 2>> ./make_test_err.log
     - name: ls -lR *.txt
-      run: ls -lR * | grep "\.txt$"
+      run: ls -ldR * | grep "\.qcrtxt$"
     - name: Maven and co sort
       run: sort -u -o make_test_err_sort.log make_test_err.log
     - name: ls
