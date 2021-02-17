@@ -83,346 +83,339 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10420"
- , "c1link" : "./qc/apps/dgst.c.html#10420"
+   "c1" : "10427"
+ , "c1link" : "./qc/apps/dgst.c.html#10427"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10420] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10427] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10422"
- , "c1link" : "./qc/apps/dgst.c.html#10422"
+   "c1" : "10429"
+ , "c1link" : "./qc/apps/dgst.c.html#10429"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10422] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10429] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10789"
- , "c1link" : "./qc/apps/dgst.c.html#10789"
+   "c1" : "10796"
+ , "c1link" : "./qc/apps/dgst.c.html#10796"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10789] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10796] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10989"
- , "c1link" : "./qc/apps/dgst.c.html#10989"
+   "c1" : "10996"
+ , "c1link" : "./qc/apps/dgst.c.html#10996"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10989] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10996] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10990"
- , "c1link" : "./qc/apps/dgst.c.html#10990"
+   "c1" : "10997"
+ , "c1link" : "./qc/apps/dgst.c.html#10997"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10990] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10997] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10991"
- , "c1link" : "./qc/apps/dgst.c.html#10991"
+   "c1" : "10998"
+ , "c1link" : "./qc/apps/dgst.c.html#10998"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10991] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10998] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10995"
- , "c1link" : "./qc/apps/dgst.c.html#10995"
+   "c1" : "11002"
+ , "c1link" : "./qc/apps/dgst.c.html#11002"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10995] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11002] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11581"
- , "c1link" : "./qc/apps/dgst.c.html#11581"
+   "c1" : "11588"
+ , "c1link" : "./qc/apps/dgst.c.html#11588"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11581] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11588] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11583"
- , "c1link" : "./qc/apps/dgst.c.html#11583"
+   "c1" : "11590"
+ , "c1link" : "./qc/apps/dgst.c.html#11590"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11583] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11590] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11586"
- , "c1link" : "./qc/apps/dgst.c.html#11586"
+   "c1" : "11593"
+ , "c1link" : "./qc/apps/dgst.c.html#11593"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11586] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11593] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12447"
- , "c1link" : "./qc/apps/dgst.c.html#12447"
+   "c1" : "12454"
+ , "c1link" : "./qc/apps/dgst.c.html#12454"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12447] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12454] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13996"
- , "c1link" : "./qc/apps/dgst.c.html#13996"
+   "c1" : "14003"
+ , "c1link" : "./qc/apps/dgst.c.html#14003"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13996] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14003] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14018"
- , "c1link" : "./qc/apps/dgst.c.html#14018"
+   "c1" : "14025"
+ , "c1link" : "./qc/apps/dgst.c.html#14025"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14018] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14025] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14024"
- , "c1link" : "./qc/apps/dgst.c.html#14024"
+   "c1" : "14031"
+ , "c1link" : "./qc/apps/dgst.c.html#14031"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14024] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14031] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14044"
- , "c1link" : "./qc/apps/dgst.c.html#14044"
+   "c1" : "14051"
+ , "c1link" : "./qc/apps/dgst.c.html#14051"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14044] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14051] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14050"
- , "c1link" : "./qc/apps/dgst.c.html#14050"
+   "c1" : "14057"
+ , "c1link" : "./qc/apps/dgst.c.html#14057"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14050] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14057] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15203"
- , "c1link" : "./qc/apps/dgst.c.html#15203"
+   "c1" : "15210"
+ , "c1link" : "./qc/apps/dgst.c.html#15210"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15203] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15210] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15204"
- , "c1link" : "./qc/apps/dgst.c.html#15204"
+   "c1" : "15211"
+ , "c1link" : "./qc/apps/dgst.c.html#15211"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15204] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15211] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18015"
- , "c1link" : "./qc/apps/dgst.c.html#18015"
+   "c1" : "18022"
+ , "c1link" : "./qc/apps/dgst.c.html#18022"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18015] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18022] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18322"
- , "c1link" : "./qc/apps/dgst.c.html#18322"
+   "c1" : "18329"
+ , "c1link" : "./qc/apps/dgst.c.html#18329"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18322] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18329] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18555"
- , "c1link" : "./qc/apps/dgst.c.html#18555"
+   "c1" : "18562"
+ , "c1link" : "./qc/apps/dgst.c.html#18562"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18555] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18562] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18833"
- , "c1link" : "./qc/apps/dgst.c.html#18833"
+   "c1" : "18840"
+ , "c1link" : "./qc/apps/dgst.c.html#18840"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18833] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18840] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18849"
- , "c1link" : "./qc/apps/dgst.c.html#18849"
+   "c1" : "18856"
+ , "c1link" : "./qc/apps/dgst.c.html#18856"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18849] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18856] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18853"
- , "c1link" : "./qc/apps/dgst.c.html#18853"
+   "c1" : "18860"
+ , "c1link" : "./qc/apps/dgst.c.html#18860"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[18853] The switch case refers to the jump label opthelp"
+ , "c3" : "QC-CPP000010[18860] The switch case refers to the jump label opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18855"
- , "c1link" : "./qc/apps/dgst.c.html#18855"
+   "c1" : "18862"
+ , "c1link" : "./qc/apps/dgst.c.html#18862"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18855] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18862] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18859"
- , "c1link" : "./qc/apps/dgst.c.html#18859"
+   "c1" : "18866"
+ , "c1link" : "./qc/apps/dgst.c.html#18866"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18859] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18866] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18868"
- , "c1link" : "./qc/apps/dgst.c.html#18868"
+   "c1" : "18875"
+ , "c1link" : "./qc/apps/dgst.c.html#18875"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18868] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18875] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18877"
- , "c1link" : "./qc/apps/dgst.c.html#18877"
+   "c1" : "18884"
+ , "c1link" : "./qc/apps/dgst.c.html#18884"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18877] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18884] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18890"
- , "c1link" : "./qc/apps/dgst.c.html#18890"
+   "c1" : "18897"
+ , "c1link" : "./qc/apps/dgst.c.html#18897"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18890] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18897] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18901"
- , "c1link" : "./qc/apps/dgst.c.html#18901"
+   "c1" : "18908"
+ , "c1link" : "./qc/apps/dgst.c.html#18908"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18901] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18908] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18931"
- , "c1link" : "./qc/apps/dgst.c.html#18931"
+   "c1" : "18938"
+ , "c1link" : "./qc/apps/dgst.c.html#18938"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18931] The expression  ! sigopts applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18938] The expression  ! sigopts applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18934"
- , "c1link" : "./qc/apps/dgst.c.html#18934"
+   "c1" : "18941"
+ , "c1link" : "./qc/apps/dgst.c.html#18941"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18934] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18941] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18937"
- , "c1link" : "./qc/apps/dgst.c.html#18937"
+   "c1" : "18944"
+ , "c1link" : "./qc/apps/dgst.c.html#18944"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18937] The expression  ! macopts applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "18940"
- , "c1link" : "./qc/apps/dgst.c.html#18940"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18940] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000011[18944] The expression  ! macopts applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "18947"
  , "c1link" : "./qc/apps/dgst.c.html#18947"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18947] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18947] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18961"
- , "c1link" : "./qc/apps/dgst.c.html#18961"
+   "c1" : "18954"
+ , "c1link" : "./qc/apps/dgst.c.html#18954"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18961] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18954] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18970"
- , "c1link" : "./qc/apps/dgst.c.html#18970"
+   "c1" : "18968"
+ , "c1link" : "./qc/apps/dgst.c.html#18968"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18970] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18968] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18980"
- , "c1link" : "./qc/apps/dgst.c.html#18980"
+   "c1" : "18977"
+ , "c1link" : "./qc/apps/dgst.c.html#18977"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18980] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18977] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18982"
- , "c1link" : "./qc/apps/dgst.c.html#18982"
+   "c1" : "18987"
+ , "c1link" : "./qc/apps/dgst.c.html#18987"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18987] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18989"
+ , "c1link" : "./qc/apps/dgst.c.html#18989"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18982] The expression engine_impl applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18989] The expression engine_impl applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18997"
- , "c1link" : "./qc/apps/dgst.c.html#18997"
+   "c1" : "19004"
+ , "c1link" : "./qc/apps/dgst.c.html#19004"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18997] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19004] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19000"
- , "c1link" : "./qc/apps/dgst.c.html#19000"
+   "c1" : "19007"
+ , "c1link" : "./qc/apps/dgst.c.html#19007"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19000] The expression debug applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19007] The expression debug applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19016"
- , "c1link" : "./qc/apps/dgst.c.html#19016"
+   "c1" : "19023"
+ , "c1link" : "./qc/apps/dgst.c.html#19023"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19016] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19023] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19036"
- , "c1link" : "./qc/apps/dgst.c.html#19036"
+   "c1" : "19043"
+ , "c1link" : "./qc/apps/dgst.c.html#19043"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19036] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19043] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19052"
- , "c1link" : "./qc/apps/dgst.c.html#19052"
+   "c1" : "19059"
+ , "c1link" : "./qc/apps/dgst.c.html#19059"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19052] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19059] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19062"
- , "c1link" : "./qc/apps/dgst.c.html#19062"
+   "c1" : "19069"
+ , "c1link" : "./qc/apps/dgst.c.html#19069"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19062] The expression want_pub applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19069] The expression want_pub applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19078"
- , "c1link" : "./qc/apps/dgst.c.html#19078"
+   "c1" : "19085"
+ , "c1link" : "./qc/apps/dgst.c.html#19085"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19078] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19085] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19087"
- , "c1link" : "./qc/apps/dgst.c.html#19087"
+   "c1" : "19094"
+ , "c1link" : "./qc/apps/dgst.c.html#19094"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19087] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19094] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19111"
- , "c1link" : "./qc/apps/dgst.c.html#19111"
+   "c1" : "19118"
+ , "c1link" : "./qc/apps/dgst.c.html#19118"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19111] goto statement jump to mac_end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19124"
- , "c1link" : "./qc/apps/dgst.c.html#19124"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19124] goto statement jump to mac_end"
+ , "c3" : "QC-CPP000007[19118] goto statement jump to mac_end"
 }} 
 ,
 { "ligne" : {
@@ -433,136 +426,129 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19137"
- , "c1link" : "./qc/apps/dgst.c.html#19137"
+   "c1" : "19138"
+ , "c1link" : "./qc/apps/dgst.c.html#19138"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19137] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19138] goto statement jump to mac_end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19153"
- , "c1link" : "./qc/apps/dgst.c.html#19153"
+   "c1" : "19144"
+ , "c1link" : "./qc/apps/dgst.c.html#19144"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19153] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19144] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19175"
- , "c1link" : "./qc/apps/dgst.c.html#19175"
+   "c1" : "19160"
+ , "c1link" : "./qc/apps/dgst.c.html#19160"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19175] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19160] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19177"
- , "c1link" : "./qc/apps/dgst.c.html#19177"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19177] The expression do_verify applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19181"
- , "c1link" : "./qc/apps/dgst.c.html#19181"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19181] The expression  ! r applies to a single value or variable, might be ambiguous."
+   "c1" : "19182"
+ , "c1link" : "./qc/apps/dgst.c.html#19182"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19182] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
    "c1" : "19184"
  , "c1link" : "./qc/apps/dgst.c.html#19184"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19184] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19197"
- , "c1link" : "./qc/apps/dgst.c.html#19197"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19197] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19212"
- , "c1link" : "./qc/apps/dgst.c.html#19212"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19212] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19223"
- , "c1link" : "./qc/apps/dgst.c.html#19223"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19223] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19244"
- , "c1link" : "./qc/apps/dgst.c.html#19244"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19244] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19253"
- , "c1link" : "./qc/apps/dgst.c.html#19253"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19253] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19277"
- , "c1link" : "./qc/apps/dgst.c.html#19277"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19277] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19285"
- , "c1link" : "./qc/apps/dgst.c.html#19285"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19285] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19307"
- , "c1link" : "./qc/apps/dgst.c.html#19307"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19307] The expression  ! out_bin applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19184] The expression do_verify applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19326"
- , "c1link" : "./qc/apps/dgst.c.html#19326"
+   "c1" : "19188"
+ , "c1link" : "./qc/apps/dgst.c.html#19188"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19326] The expression r applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19188] The expression  ! r applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19439"
- , "c1link" : "./qc/apps/dgst.c.html#19439"
+   "c1" : "19191"
+ , "c1link" : "./qc/apps/dgst.c.html#19191"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19191] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19204"
+ , "c1link" : "./qc/apps/dgst.c.html#19204"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19204] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19219"
+ , "c1link" : "./qc/apps/dgst.c.html#19219"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19219] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19230"
+ , "c1link" : "./qc/apps/dgst.c.html#19230"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19230] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19251"
+ , "c1link" : "./qc/apps/dgst.c.html#19251"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19251] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19260"
+ , "c1link" : "./qc/apps/dgst.c.html#19260"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19260] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19284"
+ , "c1link" : "./qc/apps/dgst.c.html#19284"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19284] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19292"
+ , "c1link" : "./qc/apps/dgst.c.html#19292"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19292] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19314"
+ , "c1link" : "./qc/apps/dgst.c.html#19314"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19439] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[19314] The expression  ! out_bin applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19458"
- , "c1link" : "./qc/apps/dgst.c.html#19458"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19458] goto statement jump to end"
+   "c1" : "19333"
+ , "c1link" : "./qc/apps/dgst.c.html#19333"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19333] The expression r applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19475"
- , "c1link" : "./qc/apps/dgst.c.html#19475"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19475] goto statement jump to end"
+   "c1" : "19446"
+ , "c1link" : "./qc/apps/dgst.c.html#19446"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[19446] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19479"
- , "c1link" : "./qc/apps/dgst.c.html#19479"
+   "c1" : "19465"
+ , "c1link" : "./qc/apps/dgst.c.html#19465"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19479] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19465] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
@@ -573,38 +559,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19500"
- , "c1link" : "./qc/apps/dgst.c.html#19500"
+   "c1" : "19486"
+ , "c1link" : "./qc/apps/dgst.c.html#19486"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19500] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19486] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19510"
- , "c1link" : "./qc/apps/dgst.c.html#19510"
+   "c1" : "19489"
+ , "c1link" : "./qc/apps/dgst.c.html#19489"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19510] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19489] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19526"
- , "c1link" : "./qc/apps/dgst.c.html#19526"
+   "c1" : "19507"
+ , "c1link" : "./qc/apps/dgst.c.html#19507"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19526] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19507] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19532"
- , "c1link" : "./qc/apps/dgst.c.html#19532"
+   "c1" : "19517"
+ , "c1link" : "./qc/apps/dgst.c.html#19517"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19532] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19517] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19536"
- , "c1link" : "./qc/apps/dgst.c.html#19536"
+   "c1" : "19533"
+ , "c1link" : "./qc/apps/dgst.c.html#19533"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19533] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19539"
+ , "c1link" : "./qc/apps/dgst.c.html#19539"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19539] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19543"
+ , "c1link" : "./qc/apps/dgst.c.html#19543"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19536] The expression binout applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19543] The expression binout applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

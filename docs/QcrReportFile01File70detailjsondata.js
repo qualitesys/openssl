@@ -83,241 +83,227 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10420"
- , "c1link" : "./qc/apps/version.c.html#10420"
+   "c1" : "10427"
+ , "c1link" : "./qc/apps/version.c.html#10427"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10420] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10427] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10422"
- , "c1link" : "./qc/apps/version.c.html#10422"
+   "c1" : "10429"
+ , "c1link" : "./qc/apps/version.c.html#10429"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10422] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10429] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10789"
- , "c1link" : "./qc/apps/version.c.html#10789"
+   "c1" : "10796"
+ , "c1link" : "./qc/apps/version.c.html#10796"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10789] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10796] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10989"
- , "c1link" : "./qc/apps/version.c.html#10989"
+   "c1" : "10996"
+ , "c1link" : "./qc/apps/version.c.html#10996"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10989] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10996] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10990"
- , "c1link" : "./qc/apps/version.c.html#10990"
+   "c1" : "10997"
+ , "c1link" : "./qc/apps/version.c.html#10997"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10990] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10997] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10991"
- , "c1link" : "./qc/apps/version.c.html#10991"
+   "c1" : "10998"
+ , "c1link" : "./qc/apps/version.c.html#10998"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10991] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10998] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10995"
- , "c1link" : "./qc/apps/version.c.html#10995"
+   "c1" : "11002"
+ , "c1link" : "./qc/apps/version.c.html#11002"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10995] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11002] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11581"
- , "c1link" : "./qc/apps/version.c.html#11581"
+   "c1" : "11588"
+ , "c1link" : "./qc/apps/version.c.html#11588"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11581] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11588] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11583"
- , "c1link" : "./qc/apps/version.c.html#11583"
+   "c1" : "11590"
+ , "c1link" : "./qc/apps/version.c.html#11590"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11583] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11590] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11586"
- , "c1link" : "./qc/apps/version.c.html#11586"
+   "c1" : "11593"
+ , "c1link" : "./qc/apps/version.c.html#11593"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11586] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11593] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12447"
- , "c1link" : "./qc/apps/version.c.html#12447"
+   "c1" : "12454"
+ , "c1link" : "./qc/apps/version.c.html#12454"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12447] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12454] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13996"
- , "c1link" : "./qc/apps/version.c.html#13996"
+   "c1" : "14003"
+ , "c1link" : "./qc/apps/version.c.html#14003"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13996] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14003] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14018"
- , "c1link" : "./qc/apps/version.c.html#14018"
+   "c1" : "14025"
+ , "c1link" : "./qc/apps/version.c.html#14025"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14018] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14025] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14024"
- , "c1link" : "./qc/apps/version.c.html#14024"
+   "c1" : "14031"
+ , "c1link" : "./qc/apps/version.c.html#14031"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14024] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14031] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14044"
- , "c1link" : "./qc/apps/version.c.html#14044"
+   "c1" : "14051"
+ , "c1link" : "./qc/apps/version.c.html#14051"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14044] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14051] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14050"
- , "c1link" : "./qc/apps/version.c.html#14050"
+   "c1" : "14057"
+ , "c1link" : "./qc/apps/version.c.html#14057"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14050] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14057] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15203"
- , "c1link" : "./qc/apps/version.c.html#15203"
+   "c1" : "15210"
+ , "c1link" : "./qc/apps/version.c.html#15210"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15203] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15210] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15204"
- , "c1link" : "./qc/apps/version.c.html#15204"
+   "c1" : "15211"
+ , "c1link" : "./qc/apps/version.c.html#15211"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15204] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15211] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18015"
- , "c1link" : "./qc/apps/version.c.html#18015"
+   "c1" : "18022"
+ , "c1link" : "./qc/apps/version.c.html#18022"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18015] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18022] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18322"
- , "c1link" : "./qc/apps/version.c.html#18322"
+   "c1" : "18329"
+ , "c1link" : "./qc/apps/version.c.html#18329"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18322] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18329] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18569"
- , "c1link" : "./qc/apps/version.c.html#18569"
+   "c1" : "18576"
+ , "c1link" : "./qc/apps/version.c.html#18576"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18569] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18576] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18573"
- , "c1link" : "./qc/apps/version.c.html#18573"
+   "c1" : "18580"
+ , "c1link" : "./qc/apps/version.c.html#18580"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[18573] The switch case refers to the jump label opthelp"
+ , "c3" : "QC-CPP000010[18580] The switch case refers to the jump label opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18575"
- , "c1link" : "./qc/apps/version.c.html#18575"
+   "c1" : "18582"
+ , "c1link" : "./qc/apps/version.c.html#18582"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18575] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18582] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18579"
- , "c1link" : "./qc/apps/version.c.html#18579"
+   "c1" : "18586"
+ , "c1link" : "./qc/apps/version.c.html#18586"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18579] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18586] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18581"
- , "c1link" : "./qc/apps/version.c.html#18581"
+   "c1" : "18588"
+ , "c1link" : "./qc/apps/version.c.html#18588"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18581] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18588] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18584"
- , "c1link" : "./qc/apps/version.c.html#18584"
+   "c1" : "18591"
+ , "c1link" : "./qc/apps/version.c.html#18591"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18584] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18591] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18587"
- , "c1link" : "./qc/apps/version.c.html#18587"
+   "c1" : "18594"
+ , "c1link" : "./qc/apps/version.c.html#18594"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18587] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18594] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18590"
- , "c1link" : "./qc/apps/version.c.html#18590"
+   "c1" : "18597"
+ , "c1link" : "./qc/apps/version.c.html#18597"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18590] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18597] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18593"
- , "c1link" : "./qc/apps/version.c.html#18593"
+   "c1" : "18600"
+ , "c1link" : "./qc/apps/version.c.html#18600"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18593] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18600] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18596"
- , "c1link" : "./qc/apps/version.c.html#18596"
+   "c1" : "18603"
+ , "c1link" : "./qc/apps/version.c.html#18603"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18596] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18603] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18599"
- , "c1link" : "./qc/apps/version.c.html#18599"
+   "c1" : "18606"
+ , "c1link" : "./qc/apps/version.c.html#18606"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18599] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18606] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18602"
- , "c1link" : "./qc/apps/version.c.html#18602"
+   "c1" : "18609"
+ , "c1link" : "./qc/apps/version.c.html#18609"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18602] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18605"
- , "c1link" : "./qc/apps/version.c.html#18605"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18605] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18608"
- , "c1link" : "./qc/apps/version.c.html#18608"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18608] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18609] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -328,143 +314,157 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18612"
- , "c1link" : "./qc/apps/version.c.html#18612"
+   "c1" : "18615"
+ , "c1link" : "./qc/apps/version.c.html#18615"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18612] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18615] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18612"
- , "c1link" : "./qc/apps/version.c.html#18612"
+   "c1" : "18619"
+ , "c1link" : "./qc/apps/version.c.html#18619"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18612] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18619] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18612"
- , "c1link" : "./qc/apps/version.c.html#18612"
+   "c1" : "18619"
+ , "c1link" : "./qc/apps/version.c.html#18619"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18612] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18619] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18611"
- , "c1link" : "./qc/apps/version.c.html#18611"
+   "c1" : "18619"
+ , "c1link" : "./qc/apps/version.c.html#18619"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18611] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18619] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18611"
- , "c1link" : "./qc/apps/version.c.html#18611"
+   "c1" : "18619"
+ , "c1link" : "./qc/apps/version.c.html#18619"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18611] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18619] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18611"
- , "c1link" : "./qc/apps/version.c.html#18611"
+   "c1" : "18618"
+ , "c1link" : "./qc/apps/version.c.html#18618"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18611] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18618] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18611"
- , "c1link" : "./qc/apps/version.c.html#18611"
+   "c1" : "18618"
+ , "c1link" : "./qc/apps/version.c.html#18618"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18611] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18618] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18611"
- , "c1link" : "./qc/apps/version.c.html#18611"
+   "c1" : "18618"
+ , "c1link" : "./qc/apps/version.c.html#18618"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18611] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18618] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18621"
- , "c1link" : "./qc/apps/version.c.html#18621"
+   "c1" : "18618"
+ , "c1link" : "./qc/apps/version.c.html#18618"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18621] goto statement jump to opthelp"
+ , "c3" : "QC-CPPCWE481[18618] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18623"
- , "c1link" : "./qc/apps/version.c.html#18623"
+   "c1" : "18618"
+ , "c1link" : "./qc/apps/version.c.html#18618"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[18618] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18628"
+ , "c1link" : "./qc/apps/version.c.html#18628"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18628] goto statement jump to opthelp"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18630"
+ , "c1link" : "./qc/apps/version.c.html#18630"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18623] The expression  ! dirty applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "18626"
- , "c1link" : "./qc/apps/version.c.html#18626"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18626] The expression version applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "18629"
- , "c1link" : "./qc/apps/version.c.html#18629"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18629] The expression date applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "18631"
- , "c1link" : "./qc/apps/version.c.html#18631"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18631] The expression platform applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18630] The expression  ! dirty applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "18633"
  , "c1link" : "./qc/apps/version.c.html#18633"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18633] The expression options applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18633] The expression version applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "18636"
+ , "c1link" : "./qc/apps/version.c.html#18636"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[18636] The expression date applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "18638"
  , "c1link" : "./qc/apps/version.c.html#18638"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18638] The expression cflags applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18638] The expression platform applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "18640"
  , "c1link" : "./qc/apps/version.c.html#18640"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18640] The expression dir applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18640] The expression options applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18642"
- , "c1link" : "./qc/apps/version.c.html#18642"
+   "c1" : "18645"
+ , "c1link" : "./qc/apps/version.c.html#18645"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18642] The expression engdir applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18645] The expression cflags applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18644"
- , "c1link" : "./qc/apps/version.c.html#18644"
+   "c1" : "18647"
+ , "c1link" : "./qc/apps/version.c.html#18647"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18644] The expression moddir applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18647] The expression dir applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18646"
- , "c1link" : "./qc/apps/version.c.html#18646"
+   "c1" : "18649"
+ , "c1link" : "./qc/apps/version.c.html#18649"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18646] The expression seed applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18649] The expression engdir applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18650"
- , "c1link" : "./qc/apps/version.c.html#18650"
+   "c1" : "18651"
+ , "c1link" : "./qc/apps/version.c.html#18651"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18650] The expression cpuinfo applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18651] The expression moddir applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "18653"
+ , "c1link" : "./qc/apps/version.c.html#18653"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[18653] The expression seed applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "18657"
+ , "c1link" : "./qc/apps/version.c.html#18657"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[18657] The expression cpuinfo applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

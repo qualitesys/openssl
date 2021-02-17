@@ -83,234 +83,227 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10444"
- , "c1link" : "./qc/apps/rsautl.c.html#10444"
+   "c1" : "10451"
+ , "c1link" : "./qc/apps/rsautl.c.html#10451"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10444] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10451] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10446"
- , "c1link" : "./qc/apps/rsautl.c.html#10446"
+   "c1" : "10453"
+ , "c1link" : "./qc/apps/rsautl.c.html#10453"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10446] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10453] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10813"
- , "c1link" : "./qc/apps/rsautl.c.html#10813"
+   "c1" : "10820"
+ , "c1link" : "./qc/apps/rsautl.c.html#10820"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10813] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10820] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11013"
- , "c1link" : "./qc/apps/rsautl.c.html#11013"
+   "c1" : "11020"
+ , "c1link" : "./qc/apps/rsautl.c.html#11020"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11013] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11020] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11014"
- , "c1link" : "./qc/apps/rsautl.c.html#11014"
+   "c1" : "11021"
+ , "c1link" : "./qc/apps/rsautl.c.html#11021"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11014] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11021] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11015"
- , "c1link" : "./qc/apps/rsautl.c.html#11015"
+   "c1" : "11022"
+ , "c1link" : "./qc/apps/rsautl.c.html#11022"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11015] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11022] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11019"
- , "c1link" : "./qc/apps/rsautl.c.html#11019"
+   "c1" : "11026"
+ , "c1link" : "./qc/apps/rsautl.c.html#11026"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11019] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11026] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11605"
- , "c1link" : "./qc/apps/rsautl.c.html#11605"
+   "c1" : "11612"
+ , "c1link" : "./qc/apps/rsautl.c.html#11612"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11605] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11612] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11607"
- , "c1link" : "./qc/apps/rsautl.c.html#11607"
+   "c1" : "11614"
+ , "c1link" : "./qc/apps/rsautl.c.html#11614"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11607] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11614] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11610"
- , "c1link" : "./qc/apps/rsautl.c.html#11610"
+   "c1" : "11617"
+ , "c1link" : "./qc/apps/rsautl.c.html#11617"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11610] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11617] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12471"
- , "c1link" : "./qc/apps/rsautl.c.html#12471"
+   "c1" : "12478"
+ , "c1link" : "./qc/apps/rsautl.c.html#12478"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12471] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12478] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14020"
- , "c1link" : "./qc/apps/rsautl.c.html#14020"
+   "c1" : "14027"
+ , "c1link" : "./qc/apps/rsautl.c.html#14027"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14020] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14027] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14042"
- , "c1link" : "./qc/apps/rsautl.c.html#14042"
+   "c1" : "14049"
+ , "c1link" : "./qc/apps/rsautl.c.html#14049"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14042] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14049] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14048"
- , "c1link" : "./qc/apps/rsautl.c.html#14048"
+   "c1" : "14055"
+ , "c1link" : "./qc/apps/rsautl.c.html#14055"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14048] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14055] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14068"
- , "c1link" : "./qc/apps/rsautl.c.html#14068"
+   "c1" : "14075"
+ , "c1link" : "./qc/apps/rsautl.c.html#14075"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14068] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14075] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14074"
- , "c1link" : "./qc/apps/rsautl.c.html#14074"
+   "c1" : "14081"
+ , "c1link" : "./qc/apps/rsautl.c.html#14081"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14074] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14081] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15227"
- , "c1link" : "./qc/apps/rsautl.c.html#15227"
+   "c1" : "15234"
+ , "c1link" : "./qc/apps/rsautl.c.html#15234"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15227] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15234] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15228"
- , "c1link" : "./qc/apps/rsautl.c.html#15228"
+   "c1" : "15235"
+ , "c1link" : "./qc/apps/rsautl.c.html#15235"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15228] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15235] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18039"
- , "c1link" : "./qc/apps/rsautl.c.html#18039"
+   "c1" : "18046"
+ , "c1link" : "./qc/apps/rsautl.c.html#18046"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18039] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18046] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18346"
- , "c1link" : "./qc/apps/rsautl.c.html#18346"
+   "c1" : "18353"
+ , "c1link" : "./qc/apps/rsautl.c.html#18353"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18346] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18353] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18652"
- , "c1link" : "./qc/apps/rsautl.c.html#18652"
+   "c1" : "18659"
+ , "c1link" : "./qc/apps/rsautl.c.html#18659"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18652] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18659] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18667"
- , "c1link" : "./qc/apps/rsautl.c.html#18667"
+   "c1" : "18674"
+ , "c1link" : "./qc/apps/rsautl.c.html#18674"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18667] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18674] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18671"
- , "c1link" : "./qc/apps/rsautl.c.html#18671"
+   "c1" : "18678"
+ , "c1link" : "./qc/apps/rsautl.c.html#18678"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[18671] The switch case refers to the jump label opthelp"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18673"
- , "c1link" : "./qc/apps/rsautl.c.html#18673"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18673] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18677"
- , "c1link" : "./qc/apps/rsautl.c.html#18677"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18677] goto statement jump to end"
+ , "c3" : "QC-CPP000010[18678] The switch case refers to the jump label opthelp"
 }} 
 ,
 { "ligne" : {
    "c1" : "18680"
  , "c1link" : "./qc/apps/rsautl.c.html#18680"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18680] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18680] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18743"
- , "c1link" : "./qc/apps/rsautl.c.html#18743"
+   "c1" : "18684"
+ , "c1link" : "./qc/apps/rsautl.c.html#18684"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18743] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18684] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18747"
- , "c1link" : "./qc/apps/rsautl.c.html#18747"
+   "c1" : "18687"
+ , "c1link" : "./qc/apps/rsautl.c.html#18687"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18747] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18687] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18755"
- , "c1link" : "./qc/apps/rsautl.c.html#18755"
+   "c1" : "18750"
+ , "c1link" : "./qc/apps/rsautl.c.html#18750"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18755] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18750] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18760"
- , "c1link" : "./qc/apps/rsautl.c.html#18760"
+   "c1" : "18754"
+ , "c1link" : "./qc/apps/rsautl.c.html#18754"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18760] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18754] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18773"
- , "c1link" : "./qc/apps/rsautl.c.html#18773"
+   "c1" : "18762"
+ , "c1link" : "./qc/apps/rsautl.c.html#18762"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18773] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18762] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18795"
- , "c1link" : "./qc/apps/rsautl.c.html#18795"
+   "c1" : "18767"
+ , "c1link" : "./qc/apps/rsautl.c.html#18767"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18767] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18780"
+ , "c1link" : "./qc/apps/rsautl.c.html#18780"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18780] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18802"
+ , "c1link" : "./qc/apps/rsautl.c.html#18802"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18795] The expression x applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "18815"
- , "c1link" : "./qc/apps/rsautl.c.html#18815"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18815] goto statement jump to end"
+ , "c3" : "QC-CPP000011[18802] The expression x applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -321,59 +314,66 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18834"
- , "c1link" : "./qc/apps/rsautl.c.html#18834"
+   "c1" : "18829"
+ , "c1link" : "./qc/apps/rsautl.c.html#18829"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18834] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18829] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18837"
- , "c1link" : "./qc/apps/rsautl.c.html#18837"
+   "c1" : "18841"
+ , "c1link" : "./qc/apps/rsautl.c.html#18841"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18841] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18844"
+ , "c1link" : "./qc/apps/rsautl.c.html#18844"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18837] The expression rev applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18844] The expression rev applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18848"
- , "c1link" : "./qc/apps/rsautl.c.html#18848"
+   "c1" : "18855"
+ , "c1link" : "./qc/apps/rsautl.c.html#18855"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18848] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18855] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18861"
- , "c1link" : "./qc/apps/rsautl.c.html#18861"
+   "c1" : "18868"
+ , "c1link" : "./qc/apps/rsautl.c.html#18868"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18861] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18868] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18887"
- , "c1link" : "./qc/apps/rsautl.c.html#18887"
+   "c1" : "18894"
+ , "c1link" : "./qc/apps/rsautl.c.html#18894"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18887] The expression  ! rv applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "18890"
- , "c1link" : "./qc/apps/rsautl.c.html#18890"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18890] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18893"
- , "c1link" : "./qc/apps/rsautl.c.html#18893"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18893] The expression asn1parse applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18894] The expression  ! rv applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "18897"
  , "c1link" : "./qc/apps/rsautl.c.html#18897"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18897] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18900"
+ , "c1link" : "./qc/apps/rsautl.c.html#18900"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18897] The expression hexdump applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18900] The expression asn1parse applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "18904"
+ , "c1link" : "./qc/apps/rsautl.c.html#18904"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[18904] The expression hexdump applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };
