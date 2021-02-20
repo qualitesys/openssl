@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/engines/e_ossltest.c.html" 
- , "texte" : "File engines/e_ossltest.c 45 rule violations " 
+ , "texte" : "File engines/e_ossltest.c 25 rule violations " 
  , "fic2"  : "./qc/engines/e_ossltest.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "22"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -75,146 +75,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "03568"
- , "c1link" : "./qc/engines/e_ossltest.c.html#3568"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03568] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05318"
- , "c1link" : "./qc/engines/e_ossltest.c.html#5318"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05318] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05320"
- , "c1link" : "./qc/engines/e_ossltest.c.html#5320"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05320] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06774"
- , "c1link" : "./qc/engines/e_ossltest.c.html#6774"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06774] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08124"
- , "c1link" : "./qc/engines/e_ossltest.c.html#8124"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08124] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08324"
- , "c1link" : "./qc/engines/e_ossltest.c.html#8324"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08324] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08325"
- , "c1link" : "./qc/engines/e_ossltest.c.html#8325"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08325] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08326"
- , "c1link" : "./qc/engines/e_ossltest.c.html#8326"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08326] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08330"
- , "c1link" : "./qc/engines/e_ossltest.c.html#8330"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08330] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08916"
- , "c1link" : "./qc/engines/e_ossltest.c.html#8916"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08916] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08918"
- , "c1link" : "./qc/engines/e_ossltest.c.html#8918"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08918] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08921"
- , "c1link" : "./qc/engines/e_ossltest.c.html#8921"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08921] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09715"
- , "c1link" : "./qc/engines/e_ossltest.c.html#9715"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09715] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09737"
- , "c1link" : "./qc/engines/e_ossltest.c.html#9737"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09737] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09743"
- , "c1link" : "./qc/engines/e_ossltest.c.html#9743"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09743] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09763"
- , "c1link" : "./qc/engines/e_ossltest.c.html#9763"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09763] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09769"
- , "c1link" : "./qc/engines/e_ossltest.c.html#9769"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09769] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10922"
- , "c1link" : "./qc/engines/e_ossltest.c.html#10922"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10922] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10923"
- , "c1link" : "./qc/engines/e_ossltest.c.html#10923"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10923] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12231"
- , "c1link" : "./qc/engines/e_ossltest.c.html#12231"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12231] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
 { "ligne" : {
    "c1" : "12549"
  , "c1link" : "./qc/engines/e_ossltest.c.html#12549"

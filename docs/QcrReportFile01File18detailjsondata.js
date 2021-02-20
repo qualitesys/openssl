@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/fipsinstall.c.html" 
- , "texte" : "File apps/fipsinstall.c 84 rule violations " 
+ , "texte" : "File apps/fipsinstall.c 63 rule violations " 
  , "fic2"  : "./qc/apps/fipsinstall.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "23"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -82,153 +82,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "04162"
- , "c1link" : "./qc/apps/fipsinstall.c.html#4162"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[04162] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06010"
- , "c1link" : "./qc/apps/fipsinstall.c.html#6010"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06010] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06012"
- , "c1link" : "./qc/apps/fipsinstall.c.html#6012"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06012] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06379"
- , "c1link" : "./qc/apps/fipsinstall.c.html#6379"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06379] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06579"
- , "c1link" : "./qc/apps/fipsinstall.c.html#6579"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06579] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06580"
- , "c1link" : "./qc/apps/fipsinstall.c.html#6580"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06580] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06581"
- , "c1link" : "./qc/apps/fipsinstall.c.html#6581"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06581] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06585"
- , "c1link" : "./qc/apps/fipsinstall.c.html#6585"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06585] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07171"
- , "c1link" : "./qc/apps/fipsinstall.c.html#7171"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07171] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07173"
- , "c1link" : "./qc/apps/fipsinstall.c.html#7173"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07173] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07176"
- , "c1link" : "./qc/apps/fipsinstall.c.html#7176"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07176] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12757"
- , "c1link" : "./qc/apps/fipsinstall.c.html#12757"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12757] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14306"
- , "c1link" : "./qc/apps/fipsinstall.c.html#14306"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14306] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14328"
- , "c1link" : "./qc/apps/fipsinstall.c.html#14328"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14328] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14334"
- , "c1link" : "./qc/apps/fipsinstall.c.html#14334"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14334] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14354"
- , "c1link" : "./qc/apps/fipsinstall.c.html#14354"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14354] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14360"
- , "c1link" : "./qc/apps/fipsinstall.c.html#14360"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14360] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15474"
- , "c1link" : "./qc/apps/fipsinstall.c.html#15474"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15474] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15475"
- , "c1link" : "./qc/apps/fipsinstall.c.html#15475"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15475] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18101"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18101"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18101] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18408"
- , "c1link" : "./qc/apps/fipsinstall.c.html#18408"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18408] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
 { "ligne" : {
    "c1" : "18680"
  , "c1link" : "./qc/apps/fipsinstall.c.html#18680"

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/statem/statem_dtls.c.html" 
- , "texte" : "File ssl/statem/statem_dtls.c 168 rule violations " 
+ , "texte" : "File ssl/statem/statem_dtls.c 140 rule violations " 
  , "fic2"  : "./qc/ssl/statem/statem_dtls.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "37"
+ , "c4" : "9"
 }}
 ,
 { "ligne" : {
@@ -75,160 +75,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "03548"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#3548"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03548] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07034"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#7034"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07034] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07036"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#7036"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07036] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08639"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#8639"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08639] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08839"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#8839"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08839] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08840"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#8840"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08840] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08841"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#8841"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08841] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08845"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#8845"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08845] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09431"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#9431"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09431] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09433"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#9433"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09433] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09436"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#9436"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09436] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10297"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#10297"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10297] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11502"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#11502"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11502] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11524"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#11524"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11524] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11530"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#11530"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11530] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11550"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#11550"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11550] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11556"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#11556"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11556] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12670"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#12670"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12670] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12671"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#12671"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12671] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13347"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#13347"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13347] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14394"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#14394"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14394] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14396"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#14396"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14396] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
 { "ligne" : {
    "c1" : "15505"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#15505"
@@ -293,27 +139,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "16071"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#16071"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16071] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18825"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#18825"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18825] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18856"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#18856"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18856] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
    "c1" : "18871"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#18871"
  , "c2" : "BLOCKER"
@@ -367,13 +192,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#18952"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[18952] The expression  ! frag applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19145"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19145"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19145] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -755,13 +573,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19405"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19405"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19405] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
    "c1" : "19414"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19414"
  , "c2" : "BLOCKER"
@@ -948,13 +759,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19854"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19854] goto statement jump to f_err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19858"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19858"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19858] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/record/rec_layer_s3.c.html" 
- , "texte" : "File ssl/record/rec_layer_s3.c 138 rule violations " 
+ , "texte" : "File ssl/record/rec_layer_s3.c 108 rule violations " 
  , "fic2"  : "./qc/ssl/record/rec_layer_s3.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "38"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : {
@@ -75,160 +75,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "03227"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#3227"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03227] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07044"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#7044"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07044] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07046"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#7046"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07046] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08649"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#8649"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08649] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08849"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#8849"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08849] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08850"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#8850"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08850] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08851"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#8851"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08851] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08855"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#8855"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08855] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09441"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#9441"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09441] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09443"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#9443"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09443] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09446"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#9446"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09446] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10307"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#10307"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10307] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11512"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#11512"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11512] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11534"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#11534"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11534] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11540"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#11540"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11540] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11560"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#11560"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11560] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11566"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#11566"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11566] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12680"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#12680"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12680] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12681"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#12681"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12681] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13357"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#13357"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13357] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14404"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#14404"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14404] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14406"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#14406"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14406] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
 { "ligne" : {
    "c1" : "15515"
  , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#15515"
@@ -290,13 +136,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#15901"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[15901] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16081"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#16081"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16081] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -461,13 +300,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19220"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#19220"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19220] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
    "c1" : "19246"
  , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#19246"
  , "c2" : "MAJOR"
@@ -601,13 +433,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19411"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#19411"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19411] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
    "c1" : "19420"
  , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#19420"
  , "c2" : "MAJOR"
@@ -710,13 +535,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#19523"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19523] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19526"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#19526"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19526] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -825,20 +643,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19772"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#19772"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19772] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19773"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#19773"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19773] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
    "c1" : "19842"
  , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#19842"
  , "c2" : "MAJOR"
@@ -909,13 +713,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20028"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#20028"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[20028] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
    "c1" : "20073"
  , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#20073"
  , "c2" : "MAJOR"
@@ -976,13 +773,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#20154"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[20154] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20173"
- , "c1link" : "./qc/ssl/record/rec_layer_s3.c.html#20173"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[20173] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {

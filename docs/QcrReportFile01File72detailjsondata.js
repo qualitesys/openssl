@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/engines/e_afalg.c.html" 
- , "texte" : "File engines/e_afalg.c 73 rule violations " 
+ , "texte" : "File engines/e_afalg.c 54 rule violations " 
  , "fic2"  : "./qc/engines/e_afalg.c.xml" 
  , "fic3"  : "" 
 }
@@ -38,13 +38,6 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "19"
-}}
-,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000006"
@@ -103,139 +96,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "05942"
- , "c1link" : "./qc/engines/e_afalg.c.html#5942"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05942] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07870"
- , "c1link" : "./qc/engines/e_afalg.c.html#7870"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07870] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07872"
- , "c1link" : "./qc/engines/e_afalg.c.html#7872"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07872] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09326"
- , "c1link" : "./qc/engines/e_afalg.c.html#9326"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09326] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10676"
- , "c1link" : "./qc/engines/e_afalg.c.html#10676"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10676] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10876"
- , "c1link" : "./qc/engines/e_afalg.c.html#10876"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10876] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10877"
- , "c1link" : "./qc/engines/e_afalg.c.html#10877"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10877] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10878"
- , "c1link" : "./qc/engines/e_afalg.c.html#10878"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10878] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10882"
- , "c1link" : "./qc/engines/e_afalg.c.html#10882"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10882] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11468"
- , "c1link" : "./qc/engines/e_afalg.c.html#11468"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11468] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11470"
- , "c1link" : "./qc/engines/e_afalg.c.html#11470"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11470] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11473"
- , "c1link" : "./qc/engines/e_afalg.c.html#11473"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11473] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12267"
- , "c1link" : "./qc/engines/e_afalg.c.html#12267"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12267] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12289"
- , "c1link" : "./qc/engines/e_afalg.c.html#12289"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12289] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12295"
- , "c1link" : "./qc/engines/e_afalg.c.html#12295"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12295] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12315"
- , "c1link" : "./qc/engines/e_afalg.c.html#12315"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12315] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12321"
- , "c1link" : "./qc/engines/e_afalg.c.html#12321"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12321] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13474"
- , "c1link" : "./qc/engines/e_afalg.c.html#13474"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13474] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13475"
- , "c1link" : "./qc/engines/e_afalg.c.html#13475"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13475] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
 { "ligne" : {
    "c1" : "16176"
  , "c1link" : "./qc/engines/e_afalg.c.html#16176"

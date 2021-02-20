@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/fips/self_test_kats.c.html" 
- , "texte" : "File providers/fips/self_test_kats.c 86 rule violations " 
+ , "texte" : "File providers/fips/self_test_kats.c 74 rule violations " 
  , "fic2"  : "./qc/providers/fips/self_test_kats.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "13"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -61,90 +61,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "04162"
- , "c1link" : "./qc/providers/fips/self_test_kats.c.html#4162"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[04162] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06010"
- , "c1link" : "./qc/providers/fips/self_test_kats.c.html#6010"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06010] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06012"
- , "c1link" : "./qc/providers/fips/self_test_kats.c.html#6012"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06012] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06379"
- , "c1link" : "./qc/providers/fips/self_test_kats.c.html#6379"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06379] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06579"
- , "c1link" : "./qc/providers/fips/self_test_kats.c.html#6579"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06579] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06580"
- , "c1link" : "./qc/providers/fips/self_test_kats.c.html#6580"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06580] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06581"
- , "c1link" : "./qc/providers/fips/self_test_kats.c.html#6581"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06581] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06585"
- , "c1link" : "./qc/providers/fips/self_test_kats.c.html#6585"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06585] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07171"
- , "c1link" : "./qc/providers/fips/self_test_kats.c.html#7171"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07171] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07173"
- , "c1link" : "./qc/providers/fips/self_test_kats.c.html#7173"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07173] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07176"
- , "c1link" : "./qc/providers/fips/self_test_kats.c.html#7176"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07176] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09871"
- , "c1link" : "./qc/providers/fips/self_test_kats.c.html#9871"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09871] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
 { "ligne" : {
    "c1" : "11484"
  , "c1link" : "./qc/providers/fips/self_test_kats.c.html#11484"
