@@ -69,5 +69,5 @@ jobs:
         path: make_test_err_sort.log
     - uses: actions/upload-artifact@v2
       with:
-        name: ArtifactTest
-        path: test
+        name: ArtifactTestRuns
+        path: test-runs
