@@ -70,4 +70,6 @@ jobs:
     - uses: actions/upload-artifact@v2
       with:
         name: ArtifactTestRuns
-        path: test-runs
+        path: |
+           test-runs
+           !test-runs/**/*:*
