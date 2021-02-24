@@ -69,171 +69,171 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "18676"
- , "c1link" : "./qc/apps/lib/http_server.c.html#18676"
+   "c1" : "18691"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#18691"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18676] The expression multi applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18691] The expression multi applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18801"
- , "c1link" : "./qc/apps/lib/http_server.c.html#18801"
+   "c1" : "18816"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#18816"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18801] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18816] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18902"
- , "c1link" : "./qc/apps/lib/http_server.c.html#18902"
+   "c1" : "18917"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#18917"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18902] The expression termsig applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18917] The expression termsig applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18905"
- , "c1link" : "./qc/apps/lib/http_server.c.html#18905"
+   "c1" : "18920"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#18920"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18905] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18920] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18930"
- , "c1link" : "./qc/apps/lib/http_server.c.html#18930"
+   "c1" : "18945"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#18945"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18930] The expression termsig applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18945] The expression termsig applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18986"
- , "c1link" : "./qc/apps/lib/http_server.c.html#18986"
+   "c1" : "19001"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#19001"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18986] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19001] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19004"
- , "c1link" : "./qc/apps/lib/http_server.c.html#19004"
+   "c1" : "19019"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#19019"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19004] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19019] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19023"
- , "c1link" : "./qc/apps/lib/http_server.c.html#19023"
+   "c1" : "19038"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#19038"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19023] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19038] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19043"
- , "c1link" : "./qc/apps/lib/http_server.c.html#19043"
+   "c1" : "19058"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#19058"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19043] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[19058] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19044"
- , "c1link" : "./qc/apps/lib/http_server.c.html#19044"
+   "c1" : "19059"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#19059"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19044] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[19059] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19139"
- , "c1link" : "./qc/apps/lib/http_server.c.html#19139"
+   "c1" : "19154"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#19154"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19139] goto statement jump to out"
+ , "c3" : "QC-CPP000007[19154] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19159"
- , "c1link" : "./qc/apps/lib/http_server.c.html#19159"
+   "c1" : "19174"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#19174"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19159] goto statement jump to out"
+ , "c3" : "QC-CPP000007[19174] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19179"
- , "c1link" : "./qc/apps/lib/http_server.c.html#19179"
+   "c1" : "19194"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#19194"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19179] goto statement jump to out"
+ , "c3" : "QC-CPP000007[19194] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19196"
- , "c1link" : "./qc/apps/lib/http_server.c.html#19196"
+   "c1" : "19211"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#19211"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19196] goto statement jump to out"
+ , "c3" : "QC-CPP000007[19211] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19207"
- , "c1link" : "./qc/apps/lib/http_server.c.html#19207"
+   "c1" : "19222"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#19222"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19207] goto statement jump to out"
+ , "c3" : "QC-CPP000007[19222] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19220"
- , "c1link" : "./qc/apps/lib/http_server.c.html#19220"
+   "c1" : "19235"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#19235"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19220] goto statement jump to out"
+ , "c3" : "QC-CPP000007[19235] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19223"
- , "c1link" : "./qc/apps/lib/http_server.c.html#19223"
+   "c1" : "19238"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#19238"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19223] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19238] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19228"
- , "c1link" : "./qc/apps/lib/http_server.c.html#19228"
+   "c1" : "19243"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#19243"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19228] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19243] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19240"
- , "c1link" : "./qc/apps/lib/http_server.c.html#19240"
+   "c1" : "19255"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#19255"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19240] goto statement jump to fatal"
+ , "c3" : "QC-CPP000007[19255] goto statement jump to fatal"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19254"
- , "c1link" : "./qc/apps/lib/http_server.c.html#19254"
+   "c1" : "19269"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#19269"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19254] goto statement jump to out"
+ , "c3" : "QC-CPP000007[19269] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19275"
- , "c1link" : "./qc/apps/lib/http_server.c.html#19275"
+   "c1" : "19290"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#19290"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19275] goto statement jump to out"
+ , "c3" : "QC-CPP000007[19290] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19311"
- , "c1link" : "./qc/apps/lib/http_server.c.html#19311"
+   "c1" : "19326"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#19326"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19311] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19326] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19323"
- , "c1link" : "./qc/apps/lib/http_server.c.html#19323"
+   "c1" : "19338"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#19338"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19323] goto statement jump to fatal"
+ , "c3" : "QC-CPP000007[19338] goto statement jump to fatal"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19358"
- , "c1link" : "./qc/apps/lib/http_server.c.html#19358"
+   "c1" : "19373"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#19373"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19358] goto statement jump to out"
+ , "c3" : "QC-CPP000007[19373] goto statement jump to out"
 }} 
 ]
 };

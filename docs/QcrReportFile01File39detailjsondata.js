@@ -55,45 +55,45 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "20438"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20438"
+   "c1" : "20453"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20453"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20438] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20453] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20442"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20442"
+   "c1" : "20457"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20457"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20442] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20457] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20488"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20488"
+   "c1" : "20503"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20503"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20488] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20503] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20555"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20555"
+   "c1" : "20570"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20570"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20555] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20570] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20562"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20562"
+   "c1" : "20577"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20577"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20562] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20577] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20609"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20609"
+   "c1" : "20624"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20624"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20609] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20624] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

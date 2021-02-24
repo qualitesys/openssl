@@ -76,605 +76,598 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "15505"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#15505"
+   "c1" : "15514"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#15514"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15505] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15514] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15546"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#15546"
+   "c1" : "15555"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#15555"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15546] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15555] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15588"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#15588"
+   "c1" : "15597"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#15597"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15588] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15597] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15623"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#15623"
+   "c1" : "15632"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#15632"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15623] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15632] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15807"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#15807"
+   "c1" : "15816"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#15816"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15807] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15816] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15829"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#15829"
+   "c1" : "15838"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#15838"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15829] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15838] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15848"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#15848"
+   "c1" : "15857"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#15857"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15848] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15857] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15871"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#15871"
+   "c1" : "15880"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#15880"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15871] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15880] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15891"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#15891"
+   "c1" : "15900"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#15900"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15891] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15900] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18871"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#18871"
+   "c1" : "18880"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#18880"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18871] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18880] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18876"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#18876"
+   "c1" : "18885"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#18885"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18876] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18885] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18882"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#18882"
+   "c1" : "18891"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#18891"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18882] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18891] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18899"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#18899"
+   "c1" : "18908"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#18908"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18899] The expression frag_len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18908] The expression frag_len applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18900"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#18900"
+   "c1" : "18909"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#18909"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18900] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18909] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18923"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#18923"
+   "c1" : "18932"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#18932"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18923] The expression reassembly applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18932] The expression reassembly applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18924"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#18924"
+   "c1" : "18933"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#18933"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000001[18924] The unary operator + should be avoided, confusing"
+ , "c3" : "QC-CPP000001[18933] The unary operator + should be avoided, confusing"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18952"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#18952"
+   "c1" : "18961"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#18961"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18952] The expression  ! frag applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18961] The expression  ! frag applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19156"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19156"
+   "c1" : "19165"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19165"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19156] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19165] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19156"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19156"
+   "c1" : "19165"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19165"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19156] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19165] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19156"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19156"
+   "c1" : "19165"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19165"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19156] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19165] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19156"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19156"
+   "c1" : "19165"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19165"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19156] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19165] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19156"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19156"
+   "c1" : "19165"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19165"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19156] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19165] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19156"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19156"
+   "c1" : "19165"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19165"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19156] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19165] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19156"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19156"
+   "c1" : "19165"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19165"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19156] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19165] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19157"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19157"
+   "c1" : "19166"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19166"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19157] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19166] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19157"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19157"
+   "c1" : "19166"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19166"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19157] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19166] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19157"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19157"
+   "c1" : "19166"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19166"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19157] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19166] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19157"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19157"
+   "c1" : "19166"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19166"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19157] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19166] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19157"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19157"
+   "c1" : "19166"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19166"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19157] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19166] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19158"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19158"
+   "c1" : "19167"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19167"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19158] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19167] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19158"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19158"
+   "c1" : "19167"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19167"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19158] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19167] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19158"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19158"
+   "c1" : "19167"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19167"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19158] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19167] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19158"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19158"
+   "c1" : "19167"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19167"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19158] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19167] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19158"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19158"
+   "c1" : "19167"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19167"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19158] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19167] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19158"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19158"
+   "c1" : "19167"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19167"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19158] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19167] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19158"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19158"
+   "c1" : "19167"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19167"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19158] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19167] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19159"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19159"
+   "c1" : "19168"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19168"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19159] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19168] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19159"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19159"
+   "c1" : "19168"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19168"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19159] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19168] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19159"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19159"
+   "c1" : "19168"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19168"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19159] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19168] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19159"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19159"
+   "c1" : "19168"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19168"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19159] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19168] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19159"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19159"
+   "c1" : "19168"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19168"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19159] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19168] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19159"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19159"
+   "c1" : "19168"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19168"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19159] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19168] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19159"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19159"
+   "c1" : "19168"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19168"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19159] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19168] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19202"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19202"
+   "c1" : "19211"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19211"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19202] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[19211] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19215"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19215"
+   "c1" : "19224"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19224"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19215] goto statement jump to again"
+ , "c3" : "QC-CPP000007[19224] goto statement jump to again"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19240"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19240"
+   "c1" : "19249"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19249"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19240] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19249] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19240"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19240"
+   "c1" : "19249"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19249"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19240] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19249] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19240"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19240"
+   "c1" : "19249"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19249"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19240] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19249] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19240"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19240"
+   "c1" : "19249"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19249"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19240] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19249] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19240"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19240"
+   "c1" : "19249"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19249"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19240] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19249] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19240"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19240"
+   "c1" : "19249"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19249"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19240] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19249] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19240"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19240"
+   "c1" : "19249"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19249"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19240] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19249] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19241"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19241"
+   "c1" : "19250"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19250"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19241] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19250] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19241"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19241"
+   "c1" : "19250"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19250"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19241] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19250] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19241"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19241"
+   "c1" : "19250"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19250"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19241] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19250] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19241"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19241"
+   "c1" : "19250"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19250"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19241] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19250] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19241"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19241"
+   "c1" : "19250"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19250"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19241] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19250] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19242"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19242"
+   "c1" : "19251"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19251"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19242] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19251] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19242"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19242"
+   "c1" : "19251"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19251"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19242] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19251] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19242"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19242"
+   "c1" : "19251"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19251"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19242] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19251] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19242"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19242"
+   "c1" : "19251"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19251"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19242] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19251] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19242"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19242"
+   "c1" : "19251"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19251"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19242] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19251] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19242"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19242"
+   "c1" : "19251"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19251"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19242] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19251] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19242"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19242"
+   "c1" : "19251"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19251"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19242] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19251] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19243"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19243"
+   "c1" : "19252"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19252"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19243] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19252] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19243"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19243"
+   "c1" : "19252"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19252"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19243] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19252] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19243"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19243"
+   "c1" : "19252"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19252"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19243] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19252] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19243"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19243"
+   "c1" : "19252"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19252"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19243] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19252] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19243"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19243"
+   "c1" : "19252"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19252"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19243] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19252] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19243"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19243"
+   "c1" : "19252"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19252"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19243] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19252] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19243"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19243"
+   "c1" : "19252"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19252"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19243] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19252] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19414"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19414"
+   "c1" : "19423"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19423"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19414] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19423] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19447"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19447"
+   "c1" : "19456"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19456"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19447] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19456] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19470"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19470"
+   "c1" : "19479"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19479"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19470] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19479] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19487"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19487"
+   "c1" : "19496"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19496"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19487] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19496] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19503"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19503"
+   "c1" : "19512"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19512"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19503] The expression frag_len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19512] The expression frag_len applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19514"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19514"
+   "c1" : "19523"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19523"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19514] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19523] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19531"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19531"
+   "c1" : "19540"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19540"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19531] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19540] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19537"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19537"
+   "c1" : "19546"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19546"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19537] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19546] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19538"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19538"
+   "c1" : "19547"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19547"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19538] The expression is_complete applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19547] The expression is_complete applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19541"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19541"
+   "c1" : "19550"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19550"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19541] The expression is_complete applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19550] The expression is_complete applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19562"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19562"
+   "c1" : "19571"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19571"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19562] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19571] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19577"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19577"
+   "c1" : "19586"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19586"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19577] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19586] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19611"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19611"
+   "c1" : "19620"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19620"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19611] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19620] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19648"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19648"
+   "c1" : "19657"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19657"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19648] The expression frag_len applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19659"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19659"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19659] goto statement jump to err"
+ , "c3" : "QC-CPP000011[19657] The expression frag_len applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -685,24 +678,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19676"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19676"
+   "c1" : "19677"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19677"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19676] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19677] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19680"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19680"
+   "c1" : "19685"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19685"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19685] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19689"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19689"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19680] The expression frag_len applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19694"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19694"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19694] goto statement jump to err"
+ , "c3" : "QC-CPP000011[19689] The expression frag_len applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -720,248 +713,206 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19766"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19766"
+   "c1" : "19721"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19721"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19766] goto statement jump to f_err"
+ , "c3" : "QC-CPP000007[19721] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19785"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19785"
+   "c1" : "19775"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19775"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19785] goto statement jump to f_err"
+ , "c3" : "QC-CPP000007[19775] goto statement jump to f_err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19805"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19805"
+   "c1" : "19794"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19794"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19805] goto statement jump to f_err"
+ , "c3" : "QC-CPP000007[19794] goto statement jump to f_err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19840"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19840"
+   "c1" : "19814"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19814"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19840] goto statement jump to redo"
+ , "c3" : "QC-CPP000007[19814] goto statement jump to f_err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19848"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19848"
+   "c1" : "19849"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19849"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19848] goto statement jump to f_err"
+ , "c3" : "QC-CPP000007[19849] goto statement jump to redo"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19854"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19854"
+   "c1" : "19857"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19857"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19854] goto statement jump to f_err"
+ , "c3" : "QC-CPP000007[19857] goto statement jump to f_err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19891"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19891"
+   "c1" : "19863"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19863"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19891] goto statement jump to f_err"
+ , "c3" : "QC-CPP000007[19863] goto statement jump to f_err"
 }} 
 ,
 { "ligne" : {
    "c1" : "19900"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19900"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19900] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[19900] goto statement jump to f_err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20010"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20010"
+   "c1" : "19909"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#19909"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[19909] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20019"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20019"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20010] The expression is_ccs applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20019] The expression is_ccs applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20193"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20193"
+   "c1" : "20202"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20202"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20193] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20202] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20193"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20193"
+   "c1" : "20202"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20202"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20193] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20202] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20193"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20193"
+   "c1" : "20202"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20202"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20193] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20202] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20193"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20193"
+   "c1" : "20202"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20202"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20193] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20202] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20193"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20193"
+   "c1" : "20202"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20202"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20193] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20202] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20193"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20193"
+   "c1" : "20202"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20202"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20193] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20202] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20193"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20193"
+   "c1" : "20202"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20202"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20193] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20202] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20195"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20195"
+   "c1" : "20204"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20204"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20195] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20204] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20195"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20195"
+   "c1" : "20204"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20204"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20195] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20204] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20195"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20195"
+   "c1" : "20204"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20204"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20195] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20204] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20195"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20195"
+   "c1" : "20204"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20204"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20195] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20204] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20195"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20195"
+   "c1" : "20204"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20204"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20195] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20204] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20196"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20196"
+   "c1" : "20205"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20205"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20196] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20205] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20196"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20196"
+   "c1" : "20205"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20205"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20196] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20205] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20196"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20196"
+   "c1" : "20205"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20205"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20196] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20205] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20196"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20196"
+   "c1" : "20205"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20205"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20196] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20205] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20196"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20196"
+   "c1" : "20205"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20205"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20196] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20205] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20196"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20196"
+   "c1" : "20205"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20205"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20196] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20205] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20196"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20196"
+   "c1" : "20205"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20205"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20196] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20197"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20197"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20197] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20197"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20197"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20197] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20197"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20197"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20197] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20197"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20197"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20197] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20197"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20197"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20197] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20197"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20197"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20197] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20197"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20197"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20197] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20205] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -986,73 +937,122 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20208"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20208"
+   "c1" : "20206"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20206"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20208] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20206] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20208"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20208"
+   "c1" : "20206"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20206"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20208] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20206] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20208"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20208"
+   "c1" : "20206"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20206"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20208] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20206] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20209"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20209"
+   "c1" : "20206"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20206"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20209] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20209"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20209"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20209] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20209"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20209"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20209] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20210"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20210"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20210] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20210"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20210"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20210] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20210"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20210"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20210] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20206] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "20215"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20215"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[20215] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20215"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20215"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[20215] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20215"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20215"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[20215] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20217"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20217"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[20217] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20217"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20217"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[20217] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20217"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20217"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[20217] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20218"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20218"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[20218] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20218"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20218"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[20218] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20218"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20218"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[20218] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20219"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20219"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[20219] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20219"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20219"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[20219] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20219"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20219"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[20219] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20224"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20224"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[20215] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[20224] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

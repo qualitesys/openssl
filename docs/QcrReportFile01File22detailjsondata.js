@@ -69,59 +69,59 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "18593"
- , "c1link" : "./qc/apps/info.c.html#18593"
+   "c1" : "18608"
+ , "c1link" : "./qc/apps/info.c.html#18608"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18593] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18608] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18595"
- , "c1link" : "./qc/apps/info.c.html#18595"
+   "c1" : "18610"
+ , "c1link" : "./qc/apps/info.c.html#18610"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000003[18595] The default case should be in last position"
+ , "c3" : "QC-CPP000003[18610] The default case should be in last position"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18596"
- , "c1link" : "./qc/apps/info.c.html#18596"
+   "c1" : "18611"
+ , "c1link" : "./qc/apps/info.c.html#18611"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[18596] The switch case refers to the jump label opthelp"
+ , "c3" : "QC-CPP000010[18611] The switch case refers to the jump label opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18598"
- , "c1link" : "./qc/apps/info.c.html#18598"
+   "c1" : "18613"
+ , "c1link" : "./qc/apps/info.c.html#18613"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18598] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18613] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18602"
- , "c1link" : "./qc/apps/info.c.html#18602"
+   "c1" : "18617"
+ , "c1link" : "./qc/apps/info.c.html#18617"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18602] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18617] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18638"
- , "c1link" : "./qc/apps/info.c.html#18638"
+   "c1" : "18653"
+ , "c1link" : "./qc/apps/info.c.html#18653"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18638] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18653] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18641"
- , "c1link" : "./qc/apps/info.c.html#18641"
+   "c1" : "18656"
+ , "c1link" : "./qc/apps/info.c.html#18656"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18641] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18656] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18645"
- , "c1link" : "./qc/apps/info.c.html#18645"
+   "c1" : "18660"
+ , "c1link" : "./qc/apps/info.c.html#18660"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18645] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18660] goto statement jump to opthelp"
 }} 
 ]
 };
