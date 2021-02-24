@@ -1,5 +1,5 @@
 /*
- * Copyright 2020-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2021 The OpenSSL Project Authors. All Rights Reserved.
  *
  * Licensed under the Apache License 2.0 (the "License").  You may not use
  * this file except in compliance with the License.  You can obtain a copy
@@ -7,10 +7,8 @@
  * https://www.openssl.org/source/license.html
  */
 
-#ifndef OSSL_CRYPTO_PKCS7_H
-# define OSSL_CRYPTO_PKCS7_H
-# pragma once
+#include <openssl/core_dispatch.h>
 
-void ossl_pkcs7_resolve_libctx(PKCS7 *p7);
-
-#endif
+OSSL_provider_init_fn filter_provider_init;
+int filter_provider_set_filter(int operation, const char *name);
+int filter_provider_check_clean_finish(void);

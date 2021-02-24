@@ -41,10 +41,12 @@ extern "C" {
  * |type| is the return-type of the function, |name| is the name of the
  * function to fetch, and |args| is a parenthesized list of parameters
  * for the function (that is, it is |name|'s function signature).
+ * Note: This is considered a "reserved" internal macro. Applications should
+ * not use this or assume its existence.
  */
 #define OSSL_CORE_MAKE_FUNC(type,name,args)                             \
     typedef type (OSSL_FUNC_##name##_fn)args;                           \
-    static ossl_inline \
+    static ossl_unused ossl_inline \
     OSSL_FUNC_##name##_fn *OSSL_FUNC_##name(const OSSL_DISPATCH *opf)   \
     {                                                                   \
         return (OSSL_FUNC_##name##_fn *)opf->function;                  \
@@ -191,13 +193,16 @@ OSSL_CORE_MAKE_FUNC(int,provider_get_params,(void *provctx,
 # define OSSL_FUNC_PROVIDER_QUERY_OPERATION    1027
 OSSL_CORE_MAKE_FUNC(const OSSL_ALGORITHM *,provider_query_operation,
                     (void *provctx, int operation_id, int *no_store))
-# define OSSL_FUNC_PROVIDER_GET_REASON_STRINGS 1028
+# define OSSL_FUNC_PROVIDER_UNQUERY_OPERATION  1028
+OSSL_CORE_MAKE_FUNC(void, provider_unquery_operation,
+                    (void *provctx, int operation_id, const OSSL_ALGORITHM *))
+# define OSSL_FUNC_PROVIDER_GET_REASON_STRINGS 1029
 OSSL_CORE_MAKE_FUNC(const OSSL_ITEM *,provider_get_reason_strings,
                     (void *provctx))
-# define OSSL_FUNC_PROVIDER_GET_CAPABILITIES   1029
+# define OSSL_FUNC_PROVIDER_GET_CAPABILITIES   1030
 OSSL_CORE_MAKE_FUNC(int, provider_get_capabilities, (void *provctx,
                     const char *capability, OSSL_CALLBACK *cb, void *arg))
-# define OSSL_FUNC_PROVIDER_SELF_TEST          1030
+# define OSSL_FUNC_PROVIDER_SELF_TEST          1031
 OSSL_CORE_MAKE_FUNC(int, provider_self_test, (void *provctx))
 
 /* Operations */
