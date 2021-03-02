@@ -838,12 +838,12 @@ static ECX_KEY *evp_pkey_get1_ECX_KEY(EVP_PKEY *pkey, int type)
 {
     ECX_KEY *ret = evp_pkey_get0_ECX_KEY(pkey, type);
     if (ret != NULL)
-        ecx_key_up_ref(ret);
+        ossl_ecx_key_up_ref(ret);
     return ret;
 }
 
 #  define IMPLEMENT_ECX_VARIANT(NAME)                                   \
-    ECX_KEY *evp_pkey_get1_##NAME(EVP_PKEY *pkey)                       \
+    ECX_KEY *ossl_evp_pkey_get1_##NAME(EVP_PKEY *pkey)                  \
     {                                                                   \
         return evp_pkey_get1_ECX_KEY(pkey, EVP_PKEY_##NAME);            \
     }
@@ -982,20 +982,20 @@ int EVP_PKEY_is_a(const EVP_PKEY *pkey, const char *name)
     return EVP_KEYMGMT_is_a(pkey->keymgmt, name);
 }
 
-void EVP_PKEY_typenames_do_all(const EVP_PKEY *pkey,
-                               void (*fn)(const char *name, void *data),
-                               void *data)
+int EVP_PKEY_typenames_do_all(const EVP_PKEY *pkey,
+                              void (*fn)(const char *name, void *data),
+                              void *data)
 {
     if (!evp_pkey_is_typed(pkey))
-        return;
+        return 0;
 
     if (!evp_pkey_is_provided(pkey)) {
         const char *name = OBJ_nid2sn(EVP_PKEY_id(pkey));
 
         fn(name, data);
-        return;
+        return 1;
     }
-    EVP_KEYMGMT_names_do_all(pkey->keymgmt, fn, data);
+    return EVP_KEYMGMT_names_do_all(pkey->keymgmt, fn, data);
 }
 
 int EVP_PKEY_can_sign(const EVP_PKEY *pkey)
@@ -1182,7 +1182,8 @@ static int legacy_asn1_ctrl_to_param(EVP_PKEY *pkey, int op,
                  * We have the namemap number - now we need to find the
                  * associated nid
                  */
-                ossl_namemap_doall_names(namemap, mdnum, mdname2nid, &nid);
+                if (!ossl_namemap_doall_names(namemap, mdnum, mdname2nid, &nid))
+                    return 0;
                 *(int *)arg2 = nid;
             }
             return rv;
@@ -1526,8 +1527,8 @@ int EVP_PKEY_set_type_by_keymgmt(EVP_PKEY *pkey, EVP_KEYMGMT *keymgmt)
      */
     const char *str[2] = { NULL, NULL };
 
-    EVP_KEYMGMT_names_do_all(keymgmt, find_ameth, &str);
-    if (str[1] != NULL) {
+    if (!EVP_KEYMGMT_names_do_all(keymgmt, find_ameth, &str)
+            || str[1] != NULL) {
         ERR_raise(ERR_LIB_EVP, ERR_R_INTERNAL_ERROR);
         return 0;
     }

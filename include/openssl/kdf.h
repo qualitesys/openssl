@@ -41,20 +41,23 @@ const EVP_KDF *EVP_KDF_CTX_kdf(EVP_KDF_CTX *ctx);
 
 void EVP_KDF_CTX_reset(EVP_KDF_CTX *ctx);
 size_t EVP_KDF_CTX_get_kdf_size(EVP_KDF_CTX *ctx);
-int EVP_KDF_derive(EVP_KDF_CTX *ctx, unsigned char *key, size_t keylen);
+int EVP_KDF_derive(EVP_KDF_CTX *ctx, unsigned char *key, size_t keylen,
+                   const OSSL_PARAM params[]);
 int EVP_KDF_get_params(EVP_KDF *kdf, OSSL_PARAM params[]);
 int EVP_KDF_CTX_get_params(EVP_KDF_CTX *ctx, OSSL_PARAM params[]);
 int EVP_KDF_CTX_set_params(EVP_KDF_CTX *ctx, const OSSL_PARAM params[]);
 const OSSL_PARAM *EVP_KDF_gettable_params(const EVP_KDF *kdf);
 const OSSL_PARAM *EVP_KDF_gettable_ctx_params(const EVP_KDF *kdf);
 const OSSL_PARAM *EVP_KDF_settable_ctx_params(const EVP_KDF *kdf);
+const OSSL_PARAM *EVP_KDF_CTX_gettable_params(EVP_KDF_CTX *ctx);
+const OSSL_PARAM *EVP_KDF_CTX_settable_params(EVP_KDF_CTX *ctx);
 
 void EVP_KDF_do_all_provided(OSSL_LIB_CTX *libctx,
                              void (*fn)(EVP_KDF *kdf, void *arg),
                              void *arg);
-void EVP_KDF_names_do_all(const EVP_KDF *kdf,
-                          void (*fn)(const char *name, void *data),
-                          void *data);
+int EVP_KDF_names_do_all(const EVP_KDF *kdf,
+                         void (*fn)(const char *name, void *data),
+                         void *data);
 
 # define EVP_KDF_HKDF_MODE_EXTRACT_AND_EXPAND  0
 # define EVP_KDF_HKDF_MODE_EXTRACT_ONLY        1

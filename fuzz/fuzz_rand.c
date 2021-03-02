@@ -41,7 +41,8 @@ static int fuzz_rand_instantiate(ossl_unused void *vrng,
                                  ossl_unused unsigned int strength,
                                  ossl_unused int prediction_resistance,
                                  ossl_unused const unsigned char *pstr,
-                                 ossl_unused size_t pstr_len)
+                                 ossl_unused size_t pstr_len,
+                                 ossl_unused const OSSL_PARAM params[])
 {
     *(int *)vrng = EVP_RAND_STATE_READY;
     return 1;
@@ -91,7 +92,8 @@ static int fuzz_rand_get_ctx_params(void *vrng, OSSL_PARAM params[])
     return 1;
 }
 
-static const OSSL_PARAM *fuzz_rand_gettable_ctx_params(ossl_unused void *provctx)
+static const OSSL_PARAM *fuzz_rand_gettable_ctx_params(ossl_unused void *vrng,
+                                                       ossl_unused void *provctx)
 {
     static const OSSL_PARAM known_gettable_ctx_params[] = {
         OSSL_PARAM_int(OSSL_RAND_PARAM_STATE, NULL),
