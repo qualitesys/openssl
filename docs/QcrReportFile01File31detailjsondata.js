@@ -55,17 +55,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "18436"
- , "c1link" : "./qc/apps/lib/engine.c.html#18436"
+   "c1" : "18441"
+ , "c1link" : "./qc/apps/lib/engine.c.html#18441"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18436] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18482"
- , "c1link" : "./qc/apps/lib/engine.c.html#18482"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18482] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18441] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -76,10 +69,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18500"
- , "c1link" : "./qc/apps/lib/engine.c.html#18500"
+   "c1" : "18492"
+ , "c1link" : "./qc/apps/lib/engine.c.html#18492"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[18492] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18505"
+ , "c1link" : "./qc/apps/lib/engine.c.html#18505"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18500] The expression debug applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18505] The expression debug applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

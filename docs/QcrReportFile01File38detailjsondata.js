@@ -83,31 +83,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "20416"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#20416"
+   "c1" : "20421"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#20421"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20416] goto statement jump to out"
+ , "c3" : "QC-CPP000007[20421] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20652"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#20652"
+   "c1" : "20657"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#20657"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20652] goto statement jump to end"
+ , "c3" : "QC-CPP000007[20657] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20679"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#20679"
+   "c1" : "20684"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#20684"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20679] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20685"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#20685"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20685] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20684] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -118,66 +111,73 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20714"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#20714"
+   "c1" : "20695"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#20695"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[20695] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20719"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#20719"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20714] The expression  ! success applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20719] The expression  ! success applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20717"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#20717"
+   "c1" : "20722"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#20722"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20717] goto statement jump to end"
+ , "c3" : "QC-CPP000007[20722] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20753"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#20753"
+   "c1" : "20758"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#20758"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20753] goto statement jump to end"
+ , "c3" : "QC-CPP000007[20758] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20778"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#20778"
+   "c1" : "20783"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#20783"
  , "c2" : "MINOR"
- , "c3" : "QC-CPP000013[20778] Inline assembly code"
+ , "c3" : "QC-CPP000013[20783] Inline assembly code"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20778"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#20778"
+   "c1" : "20783"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#20783"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[20778] The condition of do while loop is constant, infinite loop risk : 0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20782"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#20782"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20782] The expression 0 applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "20782"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#20782"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[20782] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000006[20783] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
    "c1" : "20787"
  , "c1link" : "./qc/apps/lib/s_socket.c.html#20787"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20787] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20787] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "20787"
  , "c1link" : "./qc/apps/lib/s_socket.c.html#20787"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20787] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20792"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#20792"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20787] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20792] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20792"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#20792"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[20792] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

@@ -62,17 +62,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "15384"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#15384"
+   "c1" : "15389"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#15389"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15384] The expression  ! ossl_prov_is_running() applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15594"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#15594"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15594] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000011[15389] The expression  ! ossl_prov_is_running() applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -83,38 +76,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15610"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#15610"
+   "c1" : "15604"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#15604"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15610] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[15604] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "15615"
  , "c1link" : "./qc/providers/fips/fipsprov.c.html#15615"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15615] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[15615] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15621"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#15621"
+   "c1" : "15620"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#15620"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15621] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[15620] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15634"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#15634"
+   "c1" : "15626"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#15626"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15634] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15626] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15681"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#15681"
+   "c1" : "15639"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#15639"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15681] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[15639] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15686"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#15686"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15686] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };
