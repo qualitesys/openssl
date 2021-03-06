@@ -48,17 +48,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "06657"
- , "c1link" : "./qc/providers/legacyprov.c.html#6657"
+   "c1" : "06655"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6655"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[06657] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[06655] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06662"
- , "c1link" : "./qc/providers/legacyprov.c.html#6662"
+   "c1" : "06660"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6660"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[06662] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[06660] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

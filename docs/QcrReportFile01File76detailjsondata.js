@@ -76,178 +76,178 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "12567"
- , "c1link" : "./qc/engines/e_ossltest.c.html#12567"
+   "c1" : "12565"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#12565"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12567] The expression  ! error_loaded applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[12565] The expression  ! error_loaded applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12578"
- , "c1link" : "./qc/engines/e_ossltest.c.html#12578"
+   "c1" : "12576"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#12576"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12578] The expression error_loaded applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[12576] The expression error_loaded applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12644"
- , "c1link" : "./qc/engines/e_ossltest.c.html#12644"
+   "c1" : "12642"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#12642"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12644] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12642] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12689"
- , "c1link" : "./qc/engines/e_ossltest.c.html#12689"
+   "c1" : "12687"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#12687"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12689] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12687] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12734"
- , "c1link" : "./qc/engines/e_ossltest.c.html#12734"
+   "c1" : "12732"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#12732"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12734] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12732] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12784"
- , "c1link" : "./qc/engines/e_ossltest.c.html#12784"
+   "c1" : "12782"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#12782"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12784] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12782] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12822"
- , "c1link" : "./qc/engines/e_ossltest.c.html#12822"
+   "c1" : "12820"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#12820"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12822] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12820] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12883"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#12883"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12883] The expression  ! init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "12885"
  , "c1link" : "./qc/engines/e_ossltest.c.html#12885"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12885] The expression  ! init applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "12887"
- , "c1link" : "./qc/engines/e_ossltest.c.html#12887"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12887] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12885] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12893"
- , "c1link" : "./qc/engines/e_ossltest.c.html#12893"
+   "c1" : "12891"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#12891"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12893] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12891] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12899"
- , "c1link" : "./qc/engines/e_ossltest.c.html#12899"
+   "c1" : "12897"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#12897"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12899] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12897] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12905"
- , "c1link" : "./qc/engines/e_ossltest.c.html#12905"
+   "c1" : "12903"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#12903"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12905] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12903] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12911"
- , "c1link" : "./qc/engines/e_ossltest.c.html#12911"
+   "c1" : "12909"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#12909"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12911] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12909] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12957"
- , "c1link" : "./qc/engines/e_ossltest.c.html#12957"
+   "c1" : "12955"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#12955"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12957] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12955] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12966"
- , "c1link" : "./qc/engines/e_ossltest.c.html#12966"
+   "c1" : "12964"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#12964"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[12966] Suspicious bitwise operation with value 0, result is a|0 = a"
+ , "c3" : "QC-CPP000008[12964] Suspicious bitwise operation with value 0, result is a|0 = a"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13002"
- , "c1link" : "./qc/engines/e_ossltest.c.html#13002"
+   "c1" : "13000"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#13000"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13002] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[13000] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13010"
- , "c1link" : "./qc/engines/e_ossltest.c.html#13010"
+   "c1" : "13008"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#13008"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[13010] Suspicious bitwise operation with value 0, result is a|0 = a"
+ , "c3" : "QC-CPP000008[13008] Suspicious bitwise operation with value 0, result is a|0 = a"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13062"
- , "c1link" : "./qc/engines/e_ossltest.c.html#13062"
+   "c1" : "13060"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#13060"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13062] The expression  ! in applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13060] The expression  ! in applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13068"
- , "c1link" : "./qc/engines/e_ossltest.c.html#13068"
+   "c1" : "13066"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#13066"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13068] The expression pub applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13066] The expression pub applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13138"
- , "c1link" : "./qc/engines/e_ossltest.c.html#13138"
+   "c1" : "13136"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#13136"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13138] goto statement jump to skip_cbs"
+ , "c3" : "QC-CPP000007[13136] goto statement jump to skip_cbs"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13169"
- , "c1link" : "./qc/engines/e_ossltest.c.html#13169"
+   "c1" : "13167"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#13167"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13169] The expression  ! toadd applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13167] The expression  ! toadd applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13201"
- , "c1link" : "./qc/engines/e_ossltest.c.html#13201"
+   "c1" : "13199"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#13199"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13201] The expression  ! digest applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13199] The expression  ! digest applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13238"
- , "c1link" : "./qc/engines/e_ossltest.c.html#13238"
+   "c1" : "13236"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#13236"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13238] The expression  ! cipher applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13236] The expression  ! cipher applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13409"
- , "c1link" : "./qc/engines/e_ossltest.c.html#13409"
+   "c1" : "13407"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#13407"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13409] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13407] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13455"
- , "c1link" : "./qc/engines/e_ossltest.c.html#13455"
+   "c1" : "13453"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#13453"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13455] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13453] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

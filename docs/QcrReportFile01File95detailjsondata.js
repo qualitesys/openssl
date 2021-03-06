@@ -62,45 +62,45 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "08279"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#8279"
+   "c1" : "08277"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#8277"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08279] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08277] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08280"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#8280"
+   "c1" : "08278"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#8278"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08280] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08278] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10298"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#10298"
+   "c1" : "10296"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#10296"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10298] The expression aead applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10296] The expression aead applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10350"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#10350"
+   "c1" : "10348"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#10348"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10350] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10348] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10355"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#10355"
+   "c1" : "10353"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#10353"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10355] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10353] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10416"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#10416"
+   "c1" : "10414"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#10414"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10416] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10414] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };
