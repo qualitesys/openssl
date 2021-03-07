@@ -73,3 +73,10 @@ jobs:
         path: |
            test-runs
            !test-runs/**/*:*
+    - name: Run maven site
+      run: mvn site -Dsonar.reporting01nodocgeneration=yes
+    - uses: actions/upload-artifact@v2
+      with:
+        name: ArtifactMvnSite
+        path: |
+           target/site
