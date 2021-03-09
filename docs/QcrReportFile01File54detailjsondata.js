@@ -62,87 +62,73 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "18739"
- , "c1link" : "./qc/apps/rand.c.html#18739"
+   "c1" : "18746"
+ , "c1link" : "./qc/apps/rand.c.html#18746"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18739] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18746] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18743"
- , "c1link" : "./qc/apps/rand.c.html#18743"
+   "c1" : "18750"
+ , "c1link" : "./qc/apps/rand.c.html#18750"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[18743] The switch case refers to the jump label opthelp"
+ , "c3" : "QC-CPP000010[18750] The switch case refers to the jump label opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18745"
- , "c1link" : "./qc/apps/rand.c.html#18745"
+   "c1" : "18752"
+ , "c1link" : "./qc/apps/rand.c.html#18752"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18745] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18752] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18749"
- , "c1link" : "./qc/apps/rand.c.html#18749"
+   "c1" : "18756"
+ , "c1link" : "./qc/apps/rand.c.html#18756"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18749] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18756] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18758"
- , "c1link" : "./qc/apps/rand.c.html#18758"
+   "c1" : "18765"
+ , "c1link" : "./qc/apps/rand.c.html#18765"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18758] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18765] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18768"
- , "c1link" : "./qc/apps/rand.c.html#18768"
+   "c1" : "18775"
+ , "c1link" : "./qc/apps/rand.c.html#18775"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18768] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18775] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18778"
- , "c1link" : "./qc/apps/rand.c.html#18778"
+   "c1" : "18785"
+ , "c1link" : "./qc/apps/rand.c.html#18785"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18778] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18785] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18780"
- , "c1link" : "./qc/apps/rand.c.html#18780"
+   "c1" : "18787"
+ , "c1link" : "./qc/apps/rand.c.html#18787"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18780] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18787] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18790"
- , "c1link" : "./qc/apps/rand.c.html#18790"
+   "c1" : "18797"
+ , "c1link" : "./qc/apps/rand.c.html#18797"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18790] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18797] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18799"
- , "c1link" : "./qc/apps/rand.c.html#18799"
+   "c1" : "18806"
+ , "c1link" : "./qc/apps/rand.c.html#18806"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18799] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18812"
- , "c1link" : "./qc/apps/rand.c.html#18812"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18812] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18815"
- , "c1link" : "./qc/apps/rand.c.html#18815"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18815] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18806] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
@@ -153,10 +139,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18830"
- , "c1link" : "./qc/apps/rand.c.html#18830"
+   "c1" : "18822"
+ , "c1link" : "./qc/apps/rand.c.html#18822"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18830] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18822] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18826"
+ , "c1link" : "./qc/apps/rand.c.html#18826"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18826] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18837"
+ , "c1link" : "./qc/apps/rand.c.html#18837"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18837] goto statement jump to end"
 }} 
 ]
 };

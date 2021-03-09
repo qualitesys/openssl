@@ -69,52 +69,45 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "18614"
- , "c1link" : "./qc/apps/nseq.c.html#18614"
+   "c1" : "18621"
+ , "c1link" : "./qc/apps/nseq.c.html#18621"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18614] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18621] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18618"
- , "c1link" : "./qc/apps/nseq.c.html#18618"
+   "c1" : "18625"
+ , "c1link" : "./qc/apps/nseq.c.html#18625"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[18618] The switch case refers to the jump label opthelp"
+ , "c3" : "QC-CPP000010[18625] The switch case refers to the jump label opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18620"
- , "c1link" : "./qc/apps/nseq.c.html#18620"
+   "c1" : "18627"
+ , "c1link" : "./qc/apps/nseq.c.html#18627"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18620] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18627] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18624"
- , "c1link" : "./qc/apps/nseq.c.html#18624"
+   "c1" : "18631"
+ , "c1link" : "./qc/apps/nseq.c.html#18631"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18624] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18631] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18636"
- , "c1link" : "./qc/apps/nseq.c.html#18636"
+   "c1" : "18643"
+ , "c1link" : "./qc/apps/nseq.c.html#18643"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18636] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18643] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18644"
- , "c1link" : "./qc/apps/nseq.c.html#18644"
+   "c1" : "18651"
+ , "c1link" : "./qc/apps/nseq.c.html#18651"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18644] goto statement jump to opthelp"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18652"
- , "c1link" : "./qc/apps/nseq.c.html#18652"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18652] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18651] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
@@ -125,17 +118,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18661"
- , "c1link" : "./qc/apps/nseq.c.html#18661"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18661] The expression toseq applies to a single value or variable, might be ambiguous."
+   "c1" : "18666"
+ , "c1link" : "./qc/apps/nseq.c.html#18666"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18666] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
    "c1" : "18668"
  , "c1link" : "./qc/apps/nseq.c.html#18668"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18668] goto statement jump to end"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[18668] The expression toseq applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -146,17 +139,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18676"
- , "c1link" : "./qc/apps/nseq.c.html#18676"
+   "c1" : "18682"
+ , "c1link" : "./qc/apps/nseq.c.html#18682"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18676] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[18682] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18690"
- , "c1link" : "./qc/apps/nseq.c.html#18690"
+   "c1" : "18683"
+ , "c1link" : "./qc/apps/nseq.c.html#18683"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18690] goto statement jump to end"
+ , "c3" : "QC-CPPCWE481[18683] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -167,17 +160,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18701"
- , "c1link" : "./qc/apps/nseq.c.html#18701"
+   "c1" : "18704"
+ , "c1link" : "./qc/apps/nseq.c.html#18704"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18701] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18704] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18725"
- , "c1link" : "./qc/apps/nseq.c.html#18725"
+   "c1" : "18708"
+ , "c1link" : "./qc/apps/nseq.c.html#18708"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18725] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18708] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18732"
+ , "c1link" : "./qc/apps/nseq.c.html#18732"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18732] goto statement jump to end"
 }} 
 ]
 };

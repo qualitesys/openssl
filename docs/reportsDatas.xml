@@ -165,7 +165,7 @@
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/passwd.c</file><nberror>5</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>apps/pkcs12.c</file><nberror>28</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000012</rule><file>apps/pkcs12.c</file><nberror>3</nberror></occ>
-<occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/pkcs12.c</file><nberror>50</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/pkcs12.c</file><nberror>53</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000010</rule><file>apps/pkcs12.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/pkcs12.c</file><nberror>11</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>apps/pkcs7.c</file><nberror>7</nberror></occ>

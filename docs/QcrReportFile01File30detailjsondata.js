@@ -48,10 +48,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "18456"
- , "c1link" : "./qc/apps/lib/columns.c.html#18456"
+   "c1" : "18463"
+ , "c1link" : "./qc/apps/lib/columns.c.html#18463"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18456] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18463] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

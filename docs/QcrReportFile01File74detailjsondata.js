@@ -69,101 +69,101 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "15782"
- , "c1link" : "./qc/engines/e_dasync.c.html#15782"
+   "c1" : "15789"
+ , "c1link" : "./qc/engines/e_dasync.c.html#15789"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15782] The expression  ! error_loaded applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15789] The expression  ! error_loaded applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15793"
- , "c1link" : "./qc/engines/e_dasync.c.html#15793"
+   "c1" : "15800"
+ , "c1link" : "./qc/engines/e_dasync.c.html#15800"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15793] The expression error_loaded applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15800] The expression error_loaded applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15871"
- , "c1link" : "./qc/engines/e_dasync.c.html#15871"
+   "c1" : "15878"
+ , "c1link" : "./qc/engines/e_dasync.c.html#15878"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15871] The expression  ! init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15878] The expression  ! init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15873"
- , "c1link" : "./qc/engines/e_dasync.c.html#15873"
+   "c1" : "15880"
+ , "c1link" : "./qc/engines/e_dasync.c.html#15880"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15873] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15880] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15996"
- , "c1link" : "./qc/engines/e_dasync.c.html#15996"
+   "c1" : "16003"
+ , "c1link" : "./qc/engines/e_dasync.c.html#16003"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15996] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16003] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16001"
- , "c1link" : "./qc/engines/e_dasync.c.html#16001"
+   "c1" : "16008"
+ , "c1link" : "./qc/engines/e_dasync.c.html#16008"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16008] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16071"
- , "c1link" : "./qc/engines/e_dasync.c.html#16071"
+   "c1" : "16078"
+ , "c1link" : "./qc/engines/e_dasync.c.html#16078"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[16071] Suspicious bitwise operation with value 0, result is a|0 = a"
+ , "c3" : "QC-CPP000008[16078] Suspicious bitwise operation with value 0, result is a|0 = a"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16103"
- , "c1link" : "./qc/engines/e_dasync.c.html#16103"
+   "c1" : "16110"
+ , "c1link" : "./qc/engines/e_dasync.c.html#16110"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[16103] Suspicious bitwise operation with value 0, result is a|0 = a"
+ , "c3" : "QC-CPP000008[16110] Suspicious bitwise operation with value 0, result is a|0 = a"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16154"
- , "c1link" : "./qc/engines/e_dasync.c.html#16154"
+   "c1" : "16161"
+ , "c1link" : "./qc/engines/e_dasync.c.html#16161"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16154] goto statement jump to skip_cbs"
+ , "c3" : "QC-CPP000007[16161] goto statement jump to skip_cbs"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16160"
- , "c1link" : "./qc/engines/e_dasync.c.html#16160"
+   "c1" : "16167"
+ , "c1link" : "./qc/engines/e_dasync.c.html#16167"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16160] The expression  ! ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16167] The expression  ! ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16180"
- , "c1link" : "./qc/engines/e_dasync.c.html#16180"
+   "c1" : "16187"
+ , "c1link" : "./qc/engines/e_dasync.c.html#16187"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16180] The expression  ! toadd applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16187] The expression  ! toadd applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16249"
- , "c1link" : "./qc/engines/e_dasync.c.html#16249"
+   "c1" : "16256"
+ , "c1link" : "./qc/engines/e_dasync.c.html#16256"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16249] The expression  ! digest applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16256] The expression  ! digest applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16334"
- , "c1link" : "./qc/engines/e_dasync.c.html#16334"
+   "c1" : "16341"
+ , "c1link" : "./qc/engines/e_dasync.c.html#16341"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16334] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16341] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16465"
- , "c1link" : "./qc/engines/e_dasync.c.html#16465"
+   "c1" : "16472"
+ , "c1link" : "./qc/engines/e_dasync.c.html#16472"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16465] The expression  ! aeadcapable applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16472] The expression  ! aeadcapable applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

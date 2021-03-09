@@ -69,52 +69,38 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "18611"
- , "c1link" : "./qc/apps/info.c.html#18611"
+   "c1" : "18618"
+ , "c1link" : "./qc/apps/info.c.html#18618"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18611] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18613"
- , "c1link" : "./qc/apps/info.c.html#18613"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000003[18613] The default case should be in last position"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18614"
- , "c1link" : "./qc/apps/info.c.html#18614"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[18614] The switch case refers to the jump label opthelp"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18616"
- , "c1link" : "./qc/apps/info.c.html#18616"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18616] goto statement jump to end"
+ , "c3" : "QC-CPPCWE481[18618] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "18620"
  , "c1link" : "./qc/apps/info.c.html#18620"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18620] goto statement jump to end"
+ , "c3" : "QC-CPP000003[18620] The default case should be in last position"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18656"
- , "c1link" : "./qc/apps/info.c.html#18656"
+   "c1" : "18621"
+ , "c1link" : "./qc/apps/info.c.html#18621"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18656] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000010[18621] The switch case refers to the jump label opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18659"
- , "c1link" : "./qc/apps/info.c.html#18659"
+   "c1" : "18623"
+ , "c1link" : "./qc/apps/info.c.html#18623"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18659] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18623] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18627"
+ , "c1link" : "./qc/apps/info.c.html#18627"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18627] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
@@ -122,6 +108,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/info.c.html#18663"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[18663] goto statement jump to opthelp"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18666"
+ , "c1link" : "./qc/apps/info.c.html#18666"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18666] goto statement jump to opthelp"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18670"
+ , "c1link" : "./qc/apps/info.c.html#18670"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18670] goto statement jump to opthelp"
 }} 
 ]
 };

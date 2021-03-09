@@ -55,101 +55,101 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "15527"
- , "c1link" : "./qc/ssl/record/ssl3_record_tls13.c.html#15527"
+   "c1" : "15534"
+ , "c1link" : "./qc/ssl/record/ssl3_record_tls13.c.html#15534"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15527] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15534] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15568"
- , "c1link" : "./qc/ssl/record/ssl3_record_tls13.c.html#15568"
+   "c1" : "15575"
+ , "c1link" : "./qc/ssl/record/ssl3_record_tls13.c.html#15575"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15568] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15575] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15610"
- , "c1link" : "./qc/ssl/record/ssl3_record_tls13.c.html#15610"
+   "c1" : "15617"
+ , "c1link" : "./qc/ssl/record/ssl3_record_tls13.c.html#15617"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15610] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15617] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15645"
- , "c1link" : "./qc/ssl/record/ssl3_record_tls13.c.html#15645"
+   "c1" : "15652"
+ , "c1link" : "./qc/ssl/record/ssl3_record_tls13.c.html#15652"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15645] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15652] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15829"
- , "c1link" : "./qc/ssl/record/ssl3_record_tls13.c.html#15829"
+   "c1" : "15836"
+ , "c1link" : "./qc/ssl/record/ssl3_record_tls13.c.html#15836"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15829] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15836] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15851"
- , "c1link" : "./qc/ssl/record/ssl3_record_tls13.c.html#15851"
+   "c1" : "15858"
+ , "c1link" : "./qc/ssl/record/ssl3_record_tls13.c.html#15858"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15851] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15858] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15870"
- , "c1link" : "./qc/ssl/record/ssl3_record_tls13.c.html#15870"
+   "c1" : "15877"
+ , "c1link" : "./qc/ssl/record/ssl3_record_tls13.c.html#15877"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15870] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15877] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15893"
- , "c1link" : "./qc/ssl/record/ssl3_record_tls13.c.html#15893"
+   "c1" : "15900"
+ , "c1link" : "./qc/ssl/record/ssl3_record_tls13.c.html#15900"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15893] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15900] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15913"
- , "c1link" : "./qc/ssl/record/ssl3_record_tls13.c.html#15913"
+   "c1" : "15920"
+ , "c1link" : "./qc/ssl/record/ssl3_record_tls13.c.html#15920"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15913] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15920] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18539"
- , "c1link" : "./qc/ssl/record/ssl3_record_tls13.c.html#18539"
+   "c1" : "18546"
+ , "c1link" : "./qc/ssl/record/ssl3_record_tls13.c.html#18546"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18539] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18546] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18540"
- , "c1link" : "./qc/ssl/record/ssl3_record_tls13.c.html#18540"
+   "c1" : "18547"
+ , "c1link" : "./qc/ssl/record/ssl3_record_tls13.c.html#18547"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18540] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18547] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18557"
- , "c1link" : "./qc/ssl/record/ssl3_record_tls13.c.html#18557"
+   "c1" : "18564"
+ , "c1link" : "./qc/ssl/record/ssl3_record_tls13.c.html#18564"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18557] The expression sending applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18564] The expression sending applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18660"
- , "c1link" : "./qc/ssl/record/ssl3_record_tls13.c.html#18660"
+   "c1" : "18667"
+ , "c1link" : "./qc/ssl/record/ssl3_record_tls13.c.html#18667"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18660] The expression  ! sending applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18667] The expression  ! sending applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18765"
- , "c1link" : "./qc/ssl/record/ssl3_record_tls13.c.html#18765"
+   "c1" : "18772"
+ , "c1link" : "./qc/ssl/record/ssl3_record_tls13.c.html#18772"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18765] The expression sending applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18772] The expression sending applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };
