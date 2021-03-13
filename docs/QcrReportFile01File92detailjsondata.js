@@ -69,108 +69,108 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "15534"
- , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#15534"
+   "c1" : "15566"
+ , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#15566"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15534] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15566] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15575"
- , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#15575"
+   "c1" : "15607"
+ , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#15607"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15575] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15607] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15617"
- , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#15617"
+   "c1" : "15649"
+ , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#15649"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15617] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15649] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15652"
- , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#15652"
+   "c1" : "15684"
+ , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#15684"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15652] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15684] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15836"
- , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#15836"
+   "c1" : "15868"
+ , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#15868"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15836] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15868] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15858"
- , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#15858"
+   "c1" : "15890"
+ , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#15890"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15858] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15890] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15877"
- , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#15877"
+   "c1" : "15909"
+ , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#15909"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15877] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15909] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15900"
- , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#15900"
+   "c1" : "15932"
+ , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#15932"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15900] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15932] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15920"
- , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#15920"
+   "c1" : "15952"
+ , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#15952"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15920] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15952] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18430"
- , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#18430"
+   "c1" : "18477"
+ , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#18477"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18430] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18477] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18458"
- , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#18458"
+   "c1" : "18505"
+ , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#18505"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18458] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18505] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18479"
- , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#18479"
+   "c1" : "18526"
+ , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#18526"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18479] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18526] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18485"
- , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#18485"
+   "c1" : "18532"
+ , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#18532"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18485] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18532] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18534"
- , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#18534"
+   "c1" : "18581"
+ , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#18581"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18534] The expression  ! (0) is invariable, always true or false"
+ , "c3" : "QC-CPP000012[18581] The expression  ! (0) is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18593"
- , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#18593"
+   "c1" : "18640"
+ , "c1link" : "./qc/ssl/record/ssl3_buffer.c.html#18640"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18593] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18640] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

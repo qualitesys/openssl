@@ -69,276 +69,276 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "15563"
- , "c1link" : "./qc/ssl/ssl_init.c.html#15563"
+   "c1" : "15595"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#15595"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15563] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15595] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15604"
- , "c1link" : "./qc/ssl/ssl_init.c.html#15604"
+   "c1" : "15636"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#15636"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15604] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15636] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15646"
- , "c1link" : "./qc/ssl/ssl_init.c.html#15646"
+   "c1" : "15678"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#15678"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15646] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15678] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15681"
- , "c1link" : "./qc/ssl/ssl_init.c.html#15681"
+   "c1" : "15713"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#15713"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15681] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15713] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15865"
- , "c1link" : "./qc/ssl/ssl_init.c.html#15865"
+   "c1" : "15897"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#15897"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15865] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15897] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15887"
- , "c1link" : "./qc/ssl/ssl_init.c.html#15887"
+   "c1" : "15919"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#15919"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15887] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15919] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15906"
- , "c1link" : "./qc/ssl/ssl_init.c.html#15906"
+   "c1" : "15938"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#15938"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15906] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15938] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15929"
- , "c1link" : "./qc/ssl/ssl_init.c.html#15929"
+   "c1" : "15961"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#15961"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15929] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15961] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15949"
- , "c1link" : "./qc/ssl/ssl_init.c.html#15949"
+   "c1" : "15981"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#15981"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15949] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15981] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18402"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18402"
+   "c1" : "18449"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18449"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18402] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18449] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18402"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18402"
+   "c1" : "18449"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18449"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18402] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[18449] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18398"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18398"
+   "c1" : "18445"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18445"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[18398] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000006[18445] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18402"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18402"
+   "c1" : "18449"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18449"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18402] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18449] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18402"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18402"
+   "c1" : "18449"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18449"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18402] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[18449] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18415"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18415"
+   "c1" : "18462"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18462"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18415] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18462] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18415"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18415"
+   "c1" : "18462"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18462"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18415] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[18462] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18411"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18411"
+   "c1" : "18458"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18458"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[18411] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000006[18458] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18415"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18415"
+   "c1" : "18462"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18462"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18415] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18462] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18415"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18415"
+   "c1" : "18462"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18462"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18415] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[18462] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18442"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18442"
+   "c1" : "18489"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18489"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18442] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18489] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18442"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18442"
+   "c1" : "18489"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18489"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18442] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[18489] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18438"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18438"
+   "c1" : "18485"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18485"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[18438] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000006[18485] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18442"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18442"
+   "c1" : "18489"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18489"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18442] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18489] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18442"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18442"
+   "c1" : "18489"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18489"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18442] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[18489] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18459"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18459"
+   "c1" : "18506"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18506"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18459] The expression stopped applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18506] The expression stopped applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18463"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18463"
+   "c1" : "18510"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18510"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18463] The expression ssl_base_inited applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18510] The expression ssl_base_inited applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18469"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18469"
+   "c1" : "18516"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18516"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18469] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18516] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18469"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18469"
+   "c1" : "18516"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18516"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18469] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[18516] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18465"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18465"
+   "c1" : "18512"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18512"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[18465] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000006[18512] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18469"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18469"
+   "c1" : "18516"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18516"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18469] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18516] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18469"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18469"
+   "c1" : "18516"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18516"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18469] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[18516] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18475"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18475"
+   "c1" : "18522"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18522"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18475] The expression ssl_strings_inited applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18522] The expression ssl_strings_inited applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18480"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18480"
+   "c1" : "18527"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18527"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18480] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18527] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18480"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18480"
+   "c1" : "18527"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18527"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18480] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[18527] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18476"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18476"
+   "c1" : "18523"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18523"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[18476] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000006[18523] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18480"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18480"
+   "c1" : "18527"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18527"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18480] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18527] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18480"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18480"
+   "c1" : "18527"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18527"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18480] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[18527] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18500"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18500"
+   "c1" : "18547"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18547"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18500] The expression stopped applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18547] The expression stopped applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18501"
- , "c1link" : "./qc/ssl/ssl_init.c.html#18501"
+   "c1" : "18548"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#18548"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18501] The expression  ! stoperrset applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18548] The expression  ! stoperrset applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

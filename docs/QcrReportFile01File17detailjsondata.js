@@ -55,24 +55,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "20306"
- , "c1link" : "./qc/apps/errstr.c.html#20306"
+   "c1" : "20347"
+ , "c1link" : "./qc/apps/errstr.c.html#20347"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20306] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20347] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20311"
- , "c1link" : "./qc/apps/errstr.c.html#20311"
+   "c1" : "20352"
+ , "c1link" : "./qc/apps/errstr.c.html#20352"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20311] goto statement jump to end"
+ , "c3" : "QC-CPP000007[20352] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20315"
- , "c1link" : "./qc/apps/errstr.c.html#20315"
+   "c1" : "20356"
+ , "c1link" : "./qc/apps/errstr.c.html#20356"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20315] goto statement jump to end"
+ , "c3" : "QC-CPP000007[20356] goto statement jump to end"
 }} 
 ]
 };

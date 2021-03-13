@@ -83,556 +83,556 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "15522"
- , "c1link" : "./qc/ssl/s3_lib.c.html#15522"
+   "c1" : "15554"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#15554"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15522] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15554] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15563"
- , "c1link" : "./qc/ssl/s3_lib.c.html#15563"
+   "c1" : "15595"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#15595"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15563] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15595] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15605"
- , "c1link" : "./qc/ssl/s3_lib.c.html#15605"
+   "c1" : "15637"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#15637"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15605] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15637] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15640"
- , "c1link" : "./qc/ssl/s3_lib.c.html#15640"
+   "c1" : "15672"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#15672"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15640] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15672] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15824"
- , "c1link" : "./qc/ssl/s3_lib.c.html#15824"
+   "c1" : "15856"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#15856"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15824] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15856] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15846"
- , "c1link" : "./qc/ssl/s3_lib.c.html#15846"
+   "c1" : "15878"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#15878"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15846] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15878] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15865"
- , "c1link" : "./qc/ssl/s3_lib.c.html#15865"
+   "c1" : "15897"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#15897"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15865] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15897] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15888"
- , "c1link" : "./qc/ssl/s3_lib.c.html#15888"
+   "c1" : "15920"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#15920"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15888] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15920] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15908"
- , "c1link" : "./qc/ssl/s3_lib.c.html#15908"
+   "c1" : "15940"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#15940"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15908] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15940] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22632"
- , "c1link" : "./qc/ssl/s3_lib.c.html#22632"
+   "c1" : "22679"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#22679"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[22632] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[22679] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22702"
- , "c1link" : "./qc/ssl/s3_lib.c.html#22702"
+   "c1" : "22749"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#22749"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22702] The expression larg applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[22749] The expression larg applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "22716"
- , "c1link" : "./qc/ssl/s3_lib.c.html#22716"
+   "c1" : "22763"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#22763"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22716] The expression larg applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[22763] The expression larg applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "22775"
- , "c1link" : "./qc/ssl/s3_lib.c.html#22775"
+   "c1" : "22822"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#22822"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22775] The expression parg applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[22822] The expression parg applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "22833"
- , "c1link" : "./qc/ssl/s3_lib.c.html#22833"
+   "c1" : "22880"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#22880"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22833] The expression pctype applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[22880] The expression pctype applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "23118"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23118"
+   "c1" : "23165"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#23165"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[23118] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[23165] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23140"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23140"
+   "c1" : "23187"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#23187"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[23140] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[23187] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23208"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23208"
+   "c1" : "23255"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#23255"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[23208] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[23255] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23252"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23252"
+   "c1" : "23299"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#23299"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[23252] The expression larg applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[23299] The expression larg applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "23266"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23266"
+   "c1" : "23313"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#23313"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[23266] The expression larg applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[23313] The expression larg applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "23454"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23454"
+   "c1" : "23501"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#23501"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[23454] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[23501] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "23454"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23454"
+   "c1" : "23501"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#23501"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[23454] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[23501] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23450"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23450"
+   "c1" : "23497"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#23497"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[23450] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000006[23497] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23467"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23467"
+   "c1" : "23514"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#23514"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[23467] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[23514] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "23467"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23467"
+   "c1" : "23514"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#23514"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[23467] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[23514] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23493"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23493"
+   "c1" : "23540"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#23540"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[23493] The expression found applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[23540] The expression found applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "23593"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23593"
+   "c1" : "23640"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#23640"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[23593] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[23640] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "23593"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23593"
+   "c1" : "23640"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#23640"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[23593] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[23640] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23589"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23589"
+   "c1" : "23636"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#23636"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[23589] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000006[23636] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23593"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23593"
+   "c1" : "23640"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#23640"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[23593] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[23640] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "23593"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23593"
+   "c1" : "23640"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#23640"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[23593] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[23640] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23604"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23604"
+   "c1" : "23651"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#23651"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[23604] The expression  ! ok applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[23651] The expression  ! ok applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "23616"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23616"
+   "c1" : "23663"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#23663"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[23616] The expression  ! ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[23663] The expression  ! ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "23621"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23621"
+   "c1" : "23668"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#23668"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[23621] The expression prefer_sha256 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[23668] The expression prefer_sha256 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "23929"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23929"
+   "c1" : "23976"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#23976"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[23929] The expression server applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[23976] The expression server applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "23933"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23933"
+   "c1" : "23980"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#23980"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[23933] The expression send_time applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[23980] The expression send_time applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "23941"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23941"
+   "c1" : "23988"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#23988"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[23941] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[23988] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23941"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23941"
+   "c1" : "23988"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#23988"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[23941] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[23988] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23941"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23941"
+   "c1" : "23988"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#23988"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[23941] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[23988] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23941"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23941"
+   "c1" : "23988"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#23988"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[23941] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[23988] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23987"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23987"
+   "c1" : "24034"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24034"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23987] goto statement jump to err"
+ , "c3" : "QC-CPP000007[24034] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23989"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23989"
+   "c1" : "24036"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24036"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[23989] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[24036] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23989"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23989"
+   "c1" : "24036"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24036"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[23989] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[24036] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23989"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23989"
+   "c1" : "24036"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24036"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[23989] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[24036] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23989"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23989"
+   "c1" : "24036"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24036"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[23989] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[24036] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23989"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23989"
+   "c1" : "24036"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24036"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[23989] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[24036] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23995"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23995"
+   "c1" : "24042"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24042"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[23995] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[24042] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23995"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23995"
+   "c1" : "24042"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24042"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[23995] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[24042] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23995"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23995"
+   "c1" : "24042"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24042"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[23995] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[24042] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23995"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23995"
+   "c1" : "24042"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24042"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[23995] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[24042] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "23995"
- , "c1link" : "./qc/ssl/s3_lib.c.html#23995"
+   "c1" : "24042"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24042"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[23995] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[24042] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "24009"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24009"
+   "c1" : "24056"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24056"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24009] goto statement jump to err"
+ , "c3" : "QC-CPP000007[24056] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "24021"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24021"
+   "c1" : "24068"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24068"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24021] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24027"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24027"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[24027] The expression pms applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "24028"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24028"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[24028] The expression free_pms applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "24072"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24072"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24072] goto statement jump to err"
+ , "c3" : "QC-CPP000007[24068] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "24074"
  , "c1link" : "./qc/ssl/s3_lib.c.html#24074"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24074] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24114"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24114"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24114] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24130"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24130"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24130] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24138"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24138"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24138] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24146"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24146"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24146] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24189"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24189"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24189] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24199"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24199"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24199] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24201"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24201"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24201] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24208"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24208"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24208] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24262"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24262"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[24262] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[24074] The expression pms applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "24301"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24301"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24301] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24318"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24318"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24318] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24327"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24327"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24327] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24330"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24330"
+   "c1" : "24075"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24075"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[24330] The expression gensecret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[24075] The expression free_pms applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "24357"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24357"
+   "c1" : "24119"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24119"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[24119] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24121"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24121"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[24121] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24161"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24161"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[24161] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24177"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24177"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[24177] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24185"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24185"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[24185] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24193"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24193"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[24193] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24236"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24236"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[24236] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24246"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24246"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[24246] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24248"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24248"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[24248] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24255"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24255"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[24255] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24309"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24309"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[24357] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[24309] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "24391"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24391"
+   "c1" : "24348"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24348"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24391] goto statement jump to err"
+ , "c3" : "QC-CPP000007[24348] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "24405"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24405"
+   "c1" : "24365"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24365"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24405] goto statement jump to err"
+ , "c3" : "QC-CPP000007[24365] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "24414"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24414"
+   "c1" : "24374"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24374"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24414] goto statement jump to err"
+ , "c3" : "QC-CPP000007[24374] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "24417"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24417"
+   "c1" : "24377"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24377"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[24417] The expression gensecret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[24377] The expression gensecret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "24443"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24443"
+   "c1" : "24404"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24404"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[24443] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[24404] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "24486"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24486"
+   "c1" : "24442"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24442"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24486] goto statement jump to err"
+ , "c3" : "QC-CPP000007[24442] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "24505"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24505"
+   "c1" : "24456"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24456"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24505] goto statement jump to err"
+ , "c3" : "QC-CPP000007[24456] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "24514"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24514"
+   "c1" : "24465"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24465"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24514] goto statement jump to err"
+ , "c3" : "QC-CPP000007[24465] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "24517"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24517"
+   "c1" : "24468"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24468"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[24517] The expression gensecret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[24468] The expression gensecret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24494"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24494"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[24494] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24541"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24541"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[24541] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24560"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24560"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[24560] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24569"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24569"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[24569] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24572"
+ , "c1link" : "./qc/ssl/s3_lib.c.html#24572"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24572] The expression gensecret applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

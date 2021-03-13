@@ -69,45 +69,45 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "14766"
- , "c1link" : "./qc/apps/lib/opt.c.html#14766"
+   "c1" : "14798"
+ , "c1link" : "./qc/apps/lib/opt.c.html#14798"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14766] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14798] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14780"
- , "c1link" : "./qc/apps/lib/opt.c.html#14780"
+   "c1" : "14812"
+ , "c1link" : "./qc/apps/lib/opt.c.html#14812"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14780] The expression arg applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14812] The expression arg applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14808"
- , "c1link" : "./qc/apps/lib/opt.c.html#14808"
+   "c1" : "14840"
+ , "c1link" : "./qc/apps/lib/opt.c.html#14840"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000003[14808] The default case should be in last position"
+ , "c3" : "QC-CPP000003[14840] The default case should be in last position"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14808"
- , "c1link" : "./qc/apps/lib/opt.c.html#14808"
+   "c1" : "14840"
+ , "c1link" : "./qc/apps/lib/opt.c.html#14840"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000002[14808] Avoid multiple switch labels with default case in switch case"
+ , "c3" : "QC-CPP000002[14840] Avoid multiple switch labels with default case in switch case"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14989"
- , "c1link" : "./qc/apps/lib/opt.c.html#14989"
+   "c1" : "15021"
+ , "c1link" : "./qc/apps/lib/opt.c.html#15021"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14989] The expression  ! doingparams applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15021] The expression  ! doingparams applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15031"
- , "c1link" : "./qc/apps/lib/opt.c.html#15031"
+   "c1" : "15063"
+ , "c1link" : "./qc/apps/lib/opt.c.html#15063"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15031] The expression standard_prolog applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15063] The expression standard_prolog applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -12,10 +12,10 @@
 <occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/ciphers.c</file><nberror>12</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000010</rule><file>apps/ciphers.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/ciphers.c</file><nberror>3</nberror></occ>
-<occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>apps/cmp.c</file><nberror>30</nberror></occ>
-<occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/cmp.c</file><nberror>103</nberror></occ>
+<occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>apps/cmp.c</file><nberror>28</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/cmp.c</file><nberror>99</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000010</rule><file>apps/cmp.c</file><nberror>1</nberror></occ>
-<occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/cmp.c</file><nberror>23</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/cmp.c</file><nberror>20</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/cmp_mock_srv.c</file><nberror>6</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/cmp_mock_srv.c</file><nberror>10</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000005</rule><file>apps/cms.c</file><nberror>2</nberror></occ>
@@ -106,8 +106,8 @@
 <occ><category>BLOCKER</category><rule>QC-CPP000006</rule><file>apps/lib/apps.c</file><nberror>1</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>apps/lib/apps.c</file><nberror>39</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000012</rule><file>apps/lib/apps.c</file><nberror>1</nberror></occ>
-<occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/lib/apps.c</file><nberror>60</nberror></occ>
-<occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/lib/apps.c</file><nberror>42</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/lib/apps.c</file><nberror>65</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/lib/apps.c</file><nberror>44</nberror></occ>
 <occ><category>MINOR</category><rule>QC-CPP000013</rule><file>apps/lib/apps.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/lib/apps_ui.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/lib/columns.c</file><nberror>1</nberror></occ>
@@ -301,6 +301,7 @@
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>engines/e_ossltest.c</file><nberror>8</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>engines/e_ossltest.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>engines/e_ossltest.c</file><nberror>12</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>providers/common/bio_prov.c</file><nberror>1</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>providers/fips/fipsprov.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>providers/fips/fipsprov.c</file><nberror>3</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>providers/fips/fipsprov.c</file><nberror>4</nberror></occ>

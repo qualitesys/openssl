@@ -69,66 +69,66 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "20438"
- , "c1link" : "./qc/apps/openssl.c.html#20438"
+   "c1" : "20479"
+ , "c1link" : "./qc/apps/openssl.c.html#20479"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000004[20438] The return statement is missing in the function body of main"
+ , "c3" : "QC-CPP000004[20479] The return statement is missing in the function body of main"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20464"
- , "c1link" : "./qc/apps/openssl.c.html#20464"
+   "c1" : "20505"
+ , "c1link" : "./qc/apps/openssl.c.html#20505"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20464] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20505] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20465"
- , "c1link" : "./qc/apps/openssl.c.html#20465"
+   "c1" : "20506"
+ , "c1link" : "./qc/apps/openssl.c.html#20506"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20465] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20506] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20465"
- , "c1link" : "./qc/apps/openssl.c.html#20465"
+   "c1" : "20506"
+ , "c1link" : "./qc/apps/openssl.c.html#20506"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20465] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20506] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20475"
- , "c1link" : "./qc/apps/openssl.c.html#20475"
+   "c1" : "20516"
+ , "c1link" : "./qc/apps/openssl.c.html#20516"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20475] goto statement jump to end"
+ , "c3" : "QC-CPP000007[20516] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20555"
- , "c1link" : "./qc/apps/openssl.c.html#20555"
+   "c1" : "20596"
+ , "c1link" : "./qc/apps/openssl.c.html#20596"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20555] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20596] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20599"
- , "c1link" : "./qc/apps/openssl.c.html#20599"
+   "c1" : "20640"
+ , "c1link" : "./qc/apps/openssl.c.html#20640"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20599] The expression  ! nl applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20640] The expression  ! nl applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20711"
- , "c1link" : "./qc/apps/openssl.c.html#20711"
+   "c1" : "20752"
+ , "c1link" : "./qc/apps/openssl.c.html#20752"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20711] The expression prog_inited applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20752] The expression prog_inited applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20725"
- , "c1link" : "./qc/apps/openssl.c.html#20725"
+   "c1" : "20766"
+ , "c1link" : "./qc/apps/openssl.c.html#20766"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20725] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20766] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

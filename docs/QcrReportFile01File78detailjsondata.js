@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/common/bio_prov.c.html" 
- , "texte" : "File providers/common/bio_prov.c 0 rule violation " 
+ , "texte" : "File providers/common/bio_prov.c 1 rule violations " 
  , "fic2"  : "./qc/providers/common/bio_prov.c.xml" 
  , "fic3"  : "" 
 }
@@ -37,5 +37,22 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data13a" : [
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "1"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {
+   "c1" : "08579"
+ , "c1link" : "./qc/providers/common/bio_prov.c.html#8579"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08579] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+]
 };
 console.log('leListeStr 99 main end');

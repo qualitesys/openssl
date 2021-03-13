@@ -62,59 +62,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "18746"
- , "c1link" : "./qc/apps/rand.c.html#18746"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18746] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18750"
- , "c1link" : "./qc/apps/rand.c.html#18750"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[18750] The switch case refers to the jump label opthelp"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18752"
- , "c1link" : "./qc/apps/rand.c.html#18752"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18752] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18756"
- , "c1link" : "./qc/apps/rand.c.html#18756"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18756] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18765"
- , "c1link" : "./qc/apps/rand.c.html#18765"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18765] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18775"
- , "c1link" : "./qc/apps/rand.c.html#18775"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18775] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18785"
- , "c1link" : "./qc/apps/rand.c.html#18785"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18785] goto statement jump to opthelp"
-}} 
-,
-{ "ligne" : {
    "c1" : "18787"
  , "c1link" : "./qc/apps/rand.c.html#18787"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18787] goto statement jump to opthelp"
+ , "c3" : "QC-CPPCWE481[18787] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18791"
+ , "c1link" : "./qc/apps/rand.c.html#18791"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000010[18791] The switch case refers to the jump label opthelp"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18793"
+ , "c1link" : "./qc/apps/rand.c.html#18793"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18793] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
@@ -132,31 +97,66 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18819"
- , "c1link" : "./qc/apps/rand.c.html#18819"
+   "c1" : "18816"
+ , "c1link" : "./qc/apps/rand.c.html#18816"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18819] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18822"
- , "c1link" : "./qc/apps/rand.c.html#18822"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18822] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18816] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
    "c1" : "18826"
  , "c1link" : "./qc/apps/rand.c.html#18826"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18826] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18826] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18837"
- , "c1link" : "./qc/apps/rand.c.html#18837"
+   "c1" : "18828"
+ , "c1link" : "./qc/apps/rand.c.html#18828"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18837] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18828] goto statement jump to opthelp"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18838"
+ , "c1link" : "./qc/apps/rand.c.html#18838"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18838] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18847"
+ , "c1link" : "./qc/apps/rand.c.html#18847"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18847] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18860"
+ , "c1link" : "./qc/apps/rand.c.html#18860"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18860] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18863"
+ , "c1link" : "./qc/apps/rand.c.html#18863"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18863] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18867"
+ , "c1link" : "./qc/apps/rand.c.html#18867"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18867] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18878"
+ , "c1link" : "./qc/apps/rand.c.html#18878"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18878] goto statement jump to end"
 }} 
 ]
 };
