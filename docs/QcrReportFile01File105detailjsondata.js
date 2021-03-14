@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/ssl/ssl_err_legacy.c.html" 
- , "texte" : "File ssl/ssl_err_legacy.c 0 rule violation " 
- , "fic2"  : "./qc/ssl/ssl_err_legacy.c.xml" 
+   "fic1"  : "./qc/ssl/ssl_err.c.html" 
+ , "texte" : "File ssl/ssl_err.c 0 rule violation " 
+ , "fic2"  : "./qc/ssl/ssl_err.c.xml" 
  , "fic3"  : "" 
 }
 , 

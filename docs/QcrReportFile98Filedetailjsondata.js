@@ -501,6 +501,13 @@ var maDataBlocs = {
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
+  "fic"  : "crypto/mem.c" 
+  , "Fic1"  : "qc/crypto/mem.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/mem.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
   "fic"  : "engines/e_afalg.c" 
   , "Fic1"  : "qc/engines/e_afalg.c.qre.nonreg.html" 
   , "OKKO1"  : "" 

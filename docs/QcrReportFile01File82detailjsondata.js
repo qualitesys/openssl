@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/providers/prov_running.c.html" 
- , "texte" : "File providers/prov_running.c 0 rule violation " 
- , "fic2"  : "./qc/providers/prov_running.c.xml" 
+   "fic1"  : "./qc/providers/legacyprov.c.html" 
+ , "texte" : "File providers/legacyprov.c 2 rule violations " 
+ , "fic2"  : "./qc/providers/legacyprov.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -37,5 +37,29 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data13a" : [
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "2"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {
+   "c1" : "06665"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6665"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[06665] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06670"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6670"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[06670] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+]
 };
 console.log('leListeStr 99 main end');

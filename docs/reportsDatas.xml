@@ -280,6 +280,7 @@
 <occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/x509.c</file><nberror>89</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000010</rule><file>apps/x509.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/x509.c</file><nberror>21</nberror></occ>
+<occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>crypto/mem.c</file><nberror>3</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000006</rule><file>engines/e_afalg.c</file><nberror>12</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000008</rule><file>engines/e_afalg.c</file><nberror>1</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>engines/e_afalg.c</file><nberror>16</nberror></occ>
