@@ -132,157 +132,143 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19487"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#19487"
+   "c1" : "19492"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#19492"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19487] The expression sess applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19492] The expression sess applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19594"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#19594"
+   "c1" : "19599"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#19599"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19594] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19599] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19673"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#19673"
+   "c1" : "19678"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#19678"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19673] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19678] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19676"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#19676"
+   "c1" : "19681"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#19681"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19676] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19681] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19684"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#19684"
+   "c1" : "19689"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#19689"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19684] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19689] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19699"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#19699"
+   "c1" : "19704"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#19704"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19699] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19704] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19709"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#19709"
+   "c1" : "19714"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#19714"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19709] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19714] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19719"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#19719"
+   "c1" : "19724"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#19724"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19719] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19724] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19726"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#19726"
+   "c1" : "19731"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#19731"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19726] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19731] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19736"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#19736"
+   "c1" : "19741"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#19741"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19736] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19741] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19752"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#19752"
+   "c1" : "19757"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#19757"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19752] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19757] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19770"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#19770"
+   "c1" : "19775"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#19775"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19770] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19775] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19781"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#19781"
+   "c1" : "19786"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#19786"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19781] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19786] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19798"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#19798"
+   "c1" : "19803"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#19803"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19798] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19803] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19818"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#19818"
+   "c1" : "19823"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#19823"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19818] The expression len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19823] The expression len applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19945"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#19945"
+   "c1" : "19960"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#19960"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19945] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19960] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19971"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#19971"
+   "c1" : "19986"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#19986"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19971] The expression session applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19986] The expression session applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20105"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#20105"
+   "c1" : "20125"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#20125"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20105] The expression copy applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20125] The expression copy applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20174"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#20174"
+   "c1" : "20194"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#20194"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20174] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20194] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20195"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#20195"
+   "c1" : "20215"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#20215"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20195] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20201"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#20201"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20201] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20209"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#20209"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20209] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20215] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
@@ -293,80 +279,94 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20246"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#20246"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20246] The expression try_session_cache applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "20250"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#20250"
+   "c1" : "20229"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#20229"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20250] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20229] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20263"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#20263"
+   "c1" : "20241"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#20241"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20263] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20241] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20267"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#20267"
+   "c1" : "20266"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#20266"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20266] The expression try_session_cache applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20270"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#20270"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20267] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20270] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20311"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#20311"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20311] The expression  ! try_session_cache applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "20319"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#20319"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20319] The expression fatal applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "20469"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#20469"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20469] The expression lck applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "20471"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#20471"
+   "c1" : "20283"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#20283"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20471] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[20283] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20482"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#20482"
+   "c1" : "20287"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#20287"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20287] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20331"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#20331"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20482] The expression lck applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20331] The expression  ! try_session_cache applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20339"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#20339"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20339] The expression fatal applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "20492"
  , "c1link" : "./qc/ssl/ssl_sess.c.html#20492"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20492] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20492] The expression lck applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20999"
- , "c1link" : "./qc/ssl/ssl_sess.c.html#20999"
+   "c1" : "20496"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#20496"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20999] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20496] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20507"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#20507"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20507] The expression lck applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20517"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#20517"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20517] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21024"
+ , "c1link" : "./qc/ssl/ssl_sess.c.html#21024"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[21024] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

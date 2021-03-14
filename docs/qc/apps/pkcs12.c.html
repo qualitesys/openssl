@@ -3527,8 +3527,8 @@
 <a name="3527">3527&nbsp;&nbsp;&nbsp;typedef&nbsp;void&nbsp;CRYPTO_RWLOCK;</a><br/>
 <a name="3528">3528&nbsp;&nbsp;&nbsp;</a><br/>
 <a name="3529">3529&nbsp;&nbsp;&nbsp;CRYPTO_RWLOCK&nbsp;*CRYPTO_THREAD_lock_new(void);</a><br/>
-<a name="3530">3530&nbsp;&nbsp;&nbsp;int&nbsp;CRYPTO_THREAD_read_lock(CRYPTO_RWLOCK&nbsp;*lock);</a><br/>
-<a name="3531">3531&nbsp;&nbsp;&nbsp;int&nbsp;CRYPTO_THREAD_write_lock(CRYPTO_RWLOCK&nbsp;*lock);</a><br/>
+<a name="3530">3530&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;CRYPTO_THREAD_read_lock(CRYPTO_RWLOCK&nbsp;*lock);</a><br/>
+<a name="3531">3531&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;CRYPTO_THREAD_write_lock(CRYPTO_RWLOCK&nbsp;*lock);</a><br/>
 <a name="3532">3532&nbsp;&nbsp;&nbsp;int&nbsp;CRYPTO_THREAD_unlock(CRYPTO_RWLOCK&nbsp;*lock);</a><br/>
 <a name="3533">3533&nbsp;&nbsp;&nbsp;void&nbsp;CRYPTO_THREAD_lock_free(CRYPTO_RWLOCK&nbsp;*lock);</a><br/>
 <a name="3534">3534&nbsp;&nbsp;&nbsp;</a><br/>
@@ -18980,7 +18980,7 @@
 <a name="18980">18980&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"passcerts",&nbsp;OPT_PASSCERTS,&nbsp;'s',&nbsp;"Certificate&nbsp;file&nbsp;pass&nbsp;phrase&nbsp;source"},</a><br/>
 <a name="18981">18981&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"chain",&nbsp;OPT_CHAIN,&nbsp;'-',&nbsp;"Build&nbsp;and&nbsp;add&nbsp;certificate&nbsp;chain&nbsp;for&nbsp;EE&nbsp;cert,"},</a><br/>
 <a name="18982">18982&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{OPT_MORE_STR,&nbsp;0,&nbsp;0,</a><br/>
-<a name="18983">18983&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"which&nbsp;is&nbsp;the&nbsp;1st&nbsp;cert&nbsp;from&nbsp;-in&nbsp;matching&nbsp;the&nbsp;privte&nbsp;key&nbsp;(if&nbsp;given)"},</a><br/>
+<a name="18983">18983&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"which&nbsp;is&nbsp;the&nbsp;1st&nbsp;cert&nbsp;from&nbsp;-in&nbsp;matching&nbsp;the&nbsp;private&nbsp;key&nbsp;(if&nbsp;given)"},</a><br/>
 <a name="18984">18984&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"untrusted",&nbsp;OPT_UNTRUSTED,&nbsp;'&lt;',&nbsp;"Untrusted&nbsp;certificates&nbsp;for&nbsp;chain&nbsp;building"},</a><br/>
 <a name="18985">18985&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"CAfile",&nbsp;OPT_CAFILE,&nbsp;'&lt;',&nbsp;"PEM-format&nbsp;file&nbsp;of&nbsp;CA's"},</a><br/>
 <a name="18986">18986&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"CApath",&nbsp;OPT_CAPATH,&nbsp;'/',&nbsp;"PEM-format&nbsp;directory&nbsp;of&nbsp;CA's"},</a><br/>
