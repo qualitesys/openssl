@@ -45,16 +45,20 @@ jobs:
       run: more crypto/ocsp/ocsp_vfy.c
     - name: more crypto/ocsp/v3_ocsp.c
       run: more crypto/ocsp/v3_ocsp.c
+    - name: more crypto/libcrypto-lib-mem.c
+      run: more crypto/libcrypto-lib-mem.c
     - name: Maven and co make
       run: make
     - name: ls -l
       run: ls -l
     - name: ls -l apps
       run: ls -l apps
+    - name: ls -l crypto
+      run: ls -l crypto
     - name: make test
       # run: make test 2> ./make_test_err.log
       # V=1 : mode verbose
-      run: make V=1 test 2>> ./make_test_err.log
+      run: make V=1 TESTS=01 test 2>> ./make_test_err.log
     - name: ls -l 
       run: ls -l 
     - name: ls -lR 
