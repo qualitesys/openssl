@@ -45,8 +45,8 @@ jobs:
       run: more crypto/ocsp/ocsp_vfy.c
     - name: more crypto/ocsp/v3_ocsp.c
       run: more crypto/ocsp/v3_ocsp.c
-    - name: more crypto/libcrypto-lib-mem.c
-      run: more crypto/libcrypto-lib-mem.c
+    - name: more crypto/mem.c
+      run: more crypto/mem.c
     - name: Maven and co make
       run: make
     - name: ls -l
