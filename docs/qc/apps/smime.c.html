@@ -18287,7 +18287,7 @@
 <a name="18287">18287&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const&nbsp;char&nbsp;*desc,&nbsp;X509_VERIFY_PARAM&nbsp;*vpm);</a><br/>
 <a name="18288">18288&nbsp;&nbsp;&nbsp;X509_STORE&nbsp;*load_certstore(char&nbsp;*input,&nbsp;const&nbsp;char&nbsp;*pass,&nbsp;const&nbsp;char&nbsp;*desc,</a><br/>
 <a name="18289">18289&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;X509_VERIFY_PARAM&nbsp;*vpm);</a><br/>
-<a name="18290">18290&nbsp;&nbsp;&nbsp;int&nbsp;load_certs(const&nbsp;char&nbsp;*uri,&nbsp;struct&nbsp;stack_st_X509&nbsp;**certs,</a><br/>
+<a name="18290">18290&nbsp;&nbsp;&nbsp;int&nbsp;load_certs(const&nbsp;char&nbsp;*uri,&nbsp;int&nbsp;maybe_stdin,&nbsp;struct&nbsp;stack_st_X509&nbsp;**certs,</a><br/>
 <a name="18291">18291&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const&nbsp;char&nbsp;*pass,&nbsp;const&nbsp;char&nbsp;*desc);</a><br/>
 <a name="18292">18292&nbsp;&nbsp;&nbsp;int&nbsp;load_crls(const&nbsp;char&nbsp;*uri,&nbsp;struct&nbsp;stack_st_X509_CRL&nbsp;**crls,</a><br/>
 <a name="18293">18293&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const&nbsp;char&nbsp;*pass,&nbsp;const&nbsp;char&nbsp;*desc);</a><br/>
@@ -19331,11 +19331,11 @@
 <a name="19331">19331&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;((void&nbsp;*)0)</a><br/>
 <a name="19332">19332&nbsp;&nbsp;&nbsp;#&nbsp;459&nbsp;"apps/smime.c"</a><br/>
 <a name="19333">19333&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)&nbsp;{</a><br/>
-<a name="19334">19334&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!load_certs(certfile,&nbsp;&amp;other,&nbsp;</a><br/>
+<a name="19334">19334&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!load_certs(certfile,&nbsp;0,&nbsp;&amp;other,&nbsp;</a><br/>
 <a name="19335">19335&nbsp;&nbsp;&nbsp;#&nbsp;460&nbsp;"apps/smime.c"&nbsp;3&nbsp;4</a><br/>
-<a name="19336">19336&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;((void&nbsp;*)0)</a><br/>
+<a name="19336">19336&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;((void&nbsp;*)0)</a><br/>
 <a name="19337">19337&nbsp;&nbsp;&nbsp;#&nbsp;460&nbsp;"apps/smime.c"</a><br/>
-<a name="19338">19338&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;"certificates"))&nbsp;{</a><br/>
+<a name="19338">19338&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;"certificates"))&nbsp;{</a><br/>
 <a name="19339">19339&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ERR_print_errors(bio_err);</a><br/>
 <a name="19340">19340&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;goto&nbsp;end;</a><br/>
 <a name="19341">19341&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</a><br/>

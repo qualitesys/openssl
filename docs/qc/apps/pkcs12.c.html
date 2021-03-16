@@ -18290,7 +18290,7 @@
 <a name="18290">18290&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const&nbsp;char&nbsp;*desc,&nbsp;X509_VERIFY_PARAM&nbsp;*vpm);</a><br/>
 <a name="18291">18291&nbsp;&nbsp;&nbsp;X509_STORE&nbsp;*load_certstore(char&nbsp;*input,&nbsp;const&nbsp;char&nbsp;*pass,&nbsp;const&nbsp;char&nbsp;*desc,</a><br/>
 <a name="18292">18292&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;X509_VERIFY_PARAM&nbsp;*vpm);</a><br/>
-<a name="18293">18293&nbsp;&nbsp;&nbsp;int&nbsp;load_certs(const&nbsp;char&nbsp;*uri,&nbsp;struct&nbsp;stack_st_X509&nbsp;**certs,</a><br/>
+<a name="18293">18293&nbsp;&nbsp;&nbsp;int&nbsp;load_certs(const&nbsp;char&nbsp;*uri,&nbsp;int&nbsp;maybe_stdin,&nbsp;struct&nbsp;stack_st_X509&nbsp;**certs,</a><br/>
 <a name="18294">18294&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const&nbsp;char&nbsp;*pass,&nbsp;const&nbsp;char&nbsp;*desc);</a><br/>
 <a name="18295">18295&nbsp;&nbsp;&nbsp;int&nbsp;load_crls(const&nbsp;char&nbsp;*uri,&nbsp;struct&nbsp;stack_st_X509_CRL&nbsp;**crls,</a><br/>
 <a name="18296">18296&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const&nbsp;char&nbsp;*pass,&nbsp;const&nbsp;char&nbsp;*desc);</a><br/>
@@ -19633,7 +19633,7 @@
 <a name="19633">19633&nbsp;&nbsp;&nbsp;</a><br/>
 <a name="19634">19634&nbsp;&nbsp;&nbsp;</a><br/>
 <a name="19635">19635&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!(options&nbsp;&amp;&nbsp;0x2))&nbsp;{</a><br/>
-<a name="19636">19636&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!load_certs(infile,&nbsp;&amp;certs,&nbsp;passin,</a><br/>
+<a name="19636">19636&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!load_certs(infile,&nbsp;1,&nbsp;&amp;certs,&nbsp;passin,</a><br/>
 <a name="19637">19637&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"certificates&nbsp;from&nbsp;-in&nbsp;file"))</a><br/>
 <a name="19638">19638&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;goto&nbsp;export_end;</a><br/>
 <a name="19639">19639&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(OPENSSL_sk_num(ossl_check_const_X509_sk_type(certs))&nbsp;&lt;&nbsp;1)&nbsp;{</a><br/>
@@ -19688,7 +19688,7 @@
 <a name="19688">19688&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;((void&nbsp;*)0)</a><br/>
 <a name="19689">19689&nbsp;&nbsp;&nbsp;#&nbsp;562&nbsp;"apps/pkcs12.c"</a><br/>
 <a name="19690">19690&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)&nbsp;{</a><br/>
-<a name="19691">19691&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!load_certs(untrusted,&nbsp;&amp;untrusted_certs,&nbsp;passcerts,</a><br/>
+<a name="19691">19691&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!load_certs(untrusted,&nbsp;0,&nbsp;&amp;untrusted_certs,&nbsp;passcerts,</a><br/>
 <a name="19692">19692&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"untrusted&nbsp;certificates"))</a><br/>
 <a name="19693">19693&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;goto&nbsp;export_end;</a><br/>
 <a name="19694">19694&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</a><br/>
@@ -19745,7 +19745,7 @@
 <a name="19745">19745&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;((void&nbsp;*)0)</a><br/>
 <a name="19746">19746&nbsp;&nbsp;&nbsp;#&nbsp;607&nbsp;"apps/pkcs12.c"</a><br/>
 <a name="19747">19747&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)&nbsp;{</a><br/>
-<a name="19748">19748&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!load_certs(certfile,&nbsp;&amp;certs,&nbsp;passcerts,</a><br/>
+<a name="19748">19748&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!load_certs(certfile,&nbsp;0,&nbsp;&amp;certs,&nbsp;passcerts,</a><br/>
 <a name="19749">19749&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"extra&nbsp;certificates&nbsp;from&nbsp;-certfile"))</a><br/>
 <a name="19750">19750&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;goto&nbsp;export_end;</a><br/>
 <a name="19751">19751&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</a><br/>

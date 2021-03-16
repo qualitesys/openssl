@@ -18287,7 +18287,7 @@
 <a name="18287">18287&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const&nbsp;char&nbsp;*desc,&nbsp;X509_VERIFY_PARAM&nbsp;*vpm);</a><br/>
 <a name="18288">18288&nbsp;&nbsp;&nbsp;X509_STORE&nbsp;*load_certstore(char&nbsp;*input,&nbsp;const&nbsp;char&nbsp;*pass,&nbsp;const&nbsp;char&nbsp;*desc,</a><br/>
 <a name="18289">18289&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;X509_VERIFY_PARAM&nbsp;*vpm);</a><br/>
-<a name="18290">18290&nbsp;&nbsp;&nbsp;int&nbsp;load_certs(const&nbsp;char&nbsp;*uri,&nbsp;struct&nbsp;stack_st_X509&nbsp;**certs,</a><br/>
+<a name="18290">18290&nbsp;&nbsp;&nbsp;int&nbsp;load_certs(const&nbsp;char&nbsp;*uri,&nbsp;int&nbsp;maybe_stdin,&nbsp;struct&nbsp;stack_st_X509&nbsp;**certs,</a><br/>
 <a name="18291">18291&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const&nbsp;char&nbsp;*pass,&nbsp;const&nbsp;char&nbsp;*desc);</a><br/>
 <a name="18292">18292&nbsp;&nbsp;&nbsp;int&nbsp;load_crls(const&nbsp;char&nbsp;*uri,&nbsp;struct&nbsp;stack_st_X509_CRL&nbsp;**crls,</a><br/>
 <a name="18293">18293&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const&nbsp;char&nbsp;*pass,&nbsp;const&nbsp;char&nbsp;*desc);</a><br/>
@@ -20243,11 +20243,11 @@
 <a name="20243">20243&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;((void&nbsp;*)0)</a><br/>
 <a name="20244">20244&nbsp;&nbsp;&nbsp;#&nbsp;828&nbsp;"apps/cms.c"</a><br/>
 <a name="20245">20245&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)&nbsp;{</a><br/>
-<a name="20246">20246&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!load_certs(certfile,&nbsp;&amp;other,&nbsp;</a><br/>
+<a name="20246">20246&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!load_certs(certfile,&nbsp;0,&nbsp;&amp;other,&nbsp;</a><br/>
 <a name="20247">20247&nbsp;&nbsp;&nbsp;#&nbsp;829&nbsp;"apps/cms.c"&nbsp;3&nbsp;4</a><br/>
-<a name="20248">20248&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;((void&nbsp;*)0)</a><br/>
+<a name="20248">20248&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;((void&nbsp;*)0)</a><br/>
 <a name="20249">20249&nbsp;&nbsp;&nbsp;#&nbsp;829&nbsp;"apps/cms.c"</a><br/>
-<a name="20250">20250&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;"certificate&nbsp;file"))&nbsp;{</a><br/>
+<a name="20250">20250&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;"certificate&nbsp;file"))&nbsp;{</a><br/>
 <a name="20251">20251&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ERR_print_errors(bio_err);</a><br/>
 <a name="20252">20252&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;goto&nbsp;end;</a><br/>
 <a name="20253">20253&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</a><br/>
