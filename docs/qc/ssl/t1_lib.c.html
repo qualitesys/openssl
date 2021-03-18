@@ -10476,8 +10476,8 @@
 <a name="10476">10476&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void&nbsp;*data);</a><br/>
 <a name="10477">10477&nbsp;&nbsp;&nbsp;int&nbsp;PKCS7_add_attribute(PKCS7_SIGNER_INFO&nbsp;*p7si,&nbsp;int&nbsp;nid,&nbsp;int&nbsp;atrtype,</a><br/>
 <a name="10478">10478&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void&nbsp;*value);</a><br/>
-<a name="10479">10479&nbsp;&nbsp;&nbsp;ASN1_TYPE&nbsp;*PKCS7_get_attribute(PKCS7_SIGNER_INFO&nbsp;*si,&nbsp;int&nbsp;nid);</a><br/>
-<a name="10480">10480&nbsp;&nbsp;&nbsp;ASN1_TYPE&nbsp;*PKCS7_get_signed_attribute(PKCS7_SIGNER_INFO&nbsp;*si,&nbsp;int&nbsp;nid);</a><br/>
+<a name="10479">10479&nbsp;&nbsp;&nbsp;ASN1_TYPE&nbsp;*PKCS7_get_attribute(const&nbsp;PKCS7_SIGNER_INFO&nbsp;*si,&nbsp;int&nbsp;nid);</a><br/>
+<a name="10480">10480&nbsp;&nbsp;&nbsp;ASN1_TYPE&nbsp;*PKCS7_get_signed_attribute(const&nbsp;PKCS7_SIGNER_INFO&nbsp;*si,&nbsp;int&nbsp;nid);</a><br/>
 <a name="10481">10481&nbsp;&nbsp;&nbsp;int&nbsp;PKCS7_set_signed_attributes(PKCS7_SIGNER_INFO&nbsp;*p7si,</a><br/>
 <a name="10482">10482&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;struct&nbsp;stack_st_X509_ATTRIBUTE&nbsp;*sk);</a><br/>
 <a name="10483">10483&nbsp;&nbsp;&nbsp;int&nbsp;PKCS7_set_attributes(PKCS7_SIGNER_INFO&nbsp;*p7si,</a><br/>

@@ -24,7 +24,7 @@
 <occ><category>MAJOR</category><rule>QC-CPP000010</rule><file>apps/cms.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/cms.c</file><nberror>21</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>apps/crl.c</file><nberror>12</nberror></occ>
-<occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/crl.c</file><nberror>24</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/crl.c</file><nberror>25</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000010</rule><file>apps/crl.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/crl.c</file><nberror>2</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>apps/crl2p7.c</file><nberror>2</nberror></occ>
