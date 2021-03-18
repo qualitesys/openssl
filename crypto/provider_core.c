@@ -7,6 +7,7 @@
  * https://www.openssl.org/source/license.html
  */
 
+#include <assert.h>
 #include <openssl/core.h>
 #include <openssl/core_dispatch.h>
 #include <openssl/core_names.h>
@@ -156,7 +157,7 @@ static void *provider_store_new(OSSL_LIB_CTX *ctx)
     }
     store->use_fallbacks = 1;
 
-    for (p = predefined_providers; p->name != NULL; p++) {
+    for (p = ossl_predefined_providers; p->name != NULL; p++) {
         OSSL_PROVIDER *prov = NULL;
 
         /*
@@ -1118,7 +1119,7 @@ static OPENSSL_CORE_CTX *core_get_libctx(const OSSL_CORE_HANDLE *handle)
      * that does not apply here. Here |prov| == NULL can happen only in
      * case of a coding error.
      */
-    (void)ossl_assert(prov != NULL);
+    assert(prov != NULL);
     return (OPENSSL_CORE_CTX *)prov->libctx;
 }
 
