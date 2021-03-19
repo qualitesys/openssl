@@ -75,8 +75,6 @@ jobs:
       run: make V=1 TESTS=08 test 2>> ./make_test_err08.log
     - name: make test09
       run: make V=1 TESTS=09 test 2>> ./make_test_err09.log
-    - name: make test80
-      run: make V=1 TESTS=80 test 2>> ./make_test_err80.log
     - name: make test99
       run: make V=1 TESTS=99 test 2>> ./make_test_err99.log
     - name: ls -l 
