@@ -58,23 +58,6 @@ jobs:
     - name: make test01
       # run: make test 2> ./make_test_err.log
       # V=1 : mode verbose
-      run: make V=1 TESTS=01 test 2>> ./make_test_err01.log
-    - name: make test02
-      run: make V=1 TESTS=02 test 2>> ./make_test_err02.log
-    - name: make test03
-      run: make V=1 TESTS=03 test 2>> ./make_test_err03.log
-    - name: make test04
-      run: make V=1 TESTS=04 test 2>> ./make_test_err04.log
-    - name: make test05
-      run: make V=1 TESTS=05 test 2>> ./make_test_err05.log
-    - name: make test06
-      run: make V=1 TESTS=06 test 2>> ./make_test_err06.log
-    - name: make test07
-      run: make V=1 TESTS=07 test 2>> ./make_test_err07.log
-    - name: make test08
-      run: make V=1 TESTS=08 test 2>> ./make_test_err08.log
-    - name: make test09
-      run: make V=1 TESTS=09 test 2>> ./make_test_err09.log
     - name: make test99
       run: make V=1 TESTS=99 test 2>> ./make_test_err99.log
     - name: ls -l 
