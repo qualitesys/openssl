@@ -58,7 +58,7 @@ jobs:
     - name: make test99
       # run: make test 2> ./make_test_err.log
       # V=1 : mode verbose
-      run: make V=1 TESTS=99 test 2>> ./make_test_err99.log
+      run: make V=1 TESTS=80 test 2>> ./make_test_err80.log
     - name: ls -l 
       run: ls -l 
     - name: ls -lR 
