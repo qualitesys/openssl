@@ -48,24 +48,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "07766"
- , "c1link" : "./qc/crypto/mem.c.html#7766"
+   "c1" : "07771"
+ , "c1link" : "./qc/crypto/mem.c.html#7771"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07766] The expression  ! allow_customize applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07771] The expression  ! allow_customize applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07827"
- , "c1link" : "./qc/crypto/mem.c.html#7827"
+   "c1" : "07832"
+ , "c1link" : "./qc/crypto/mem.c.html#7832"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07827] The expression allow_customize applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07832] The expression allow_customize applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07943"
- , "c1link" : "./qc/crypto/mem.c.html#7943"
+   "c1" : "07948"
+ , "c1link" : "./qc/crypto/mem.c.html#7948"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07943] The expression num applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07948] The expression num applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

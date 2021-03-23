@@ -55,17 +55,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "18531"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#18531"
+   "c1" : "18545"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#18545"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18531] The expression last applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18545] The expression last applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18599"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#18599"
+   "c1" : "18613"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#18613"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18599] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18613] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };
