@@ -55,10 +55,10 @@ jobs:
       run: ls -l apps
     - name: ls -l crypto
       run: ls -l crypto
-    - name: make test99
+    - name: make test01
       # run: make test 2> ./make_test_err.log
       # V=1 : mode verbose
-      run: make V=1 TESTS=80 test 2>> ./make_test_err80.log
+      run: make V=1 TESTS=01 test 2>> ./make_test_err80.log
     - name: ls -l 
       run: ls -l 
     - name: ls -lR 
