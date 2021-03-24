@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/s_time.c.html" 
- , "texte" : "File apps/s_time.c 2079 rule violations " 
+ , "texte" : "File apps/s_time.c 2081 rule violations " 
  , "fic2"  : "./qc/apps/s_time.c.xml" 
  , "fic3"  : "" 
 }
@@ -63,7 +63,7 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-CPPCWE481"
  , "c3" : "Assigning instead of comparing"
- , "c4" : "8"
+ , "c4" : "10"
 }}
 ,
 { "ligne" : {
@@ -14587,45 +14587,59 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "21044"
- , "c1link" : "./qc/apps/s_time.c.html#21044"
+   "c1" : "21016"
+ , "c1link" : "./qc/apps/s_time.c.html#21016"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21044] goto statement jump to end"
+ , "c3" : "QC-CPPCWE481[21016] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21054"
- , "c1link" : "./qc/apps/s_time.c.html#21054"
+   "c1" : "21045"
+ , "c1link" : "./qc/apps/s_time.c.html#21045"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21054] goto statement jump to end"
+ , "c3" : "QC-CPP000007[21045] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
    "c1" : "21055"
  , "c1link" : "./qc/apps/s_time.c.html#21055"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[21055] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[21055] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21110"
- , "c1link" : "./qc/apps/s_time.c.html#21110"
+   "c1" : "21056"
+ , "c1link" : "./qc/apps/s_time.c.html#21056"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21110] A pointer is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[21056] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21111"
- , "c1link" : "./qc/apps/s_time.c.html#21111"
+   "c1" : "21060"
+ , "c1link" : "./qc/apps/s_time.c.html#21060"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21111] A pointer is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[21060] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21114"
- , "c1link" : "./qc/apps/s_time.c.html#21114"
+   "c1" : "21112"
+ , "c1link" : "./qc/apps/s_time.c.html#21112"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[21114] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[21112] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21113"
+ , "c1link" : "./qc/apps/s_time.c.html#21113"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[21113] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21116"
+ , "c1link" : "./qc/apps/s_time.c.html#21116"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[21116] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

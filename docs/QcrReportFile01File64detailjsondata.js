@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/speed.c.html" 
- , "texte" : "File apps/speed.c 2059 rule violations " 
+ , "texte" : "File apps/speed.c 2060 rule violations " 
  , "fic2"  : "./qc/apps/speed.c.xml" 
  , "fic3"  : "" 
 }
@@ -84,7 +84,7 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-CPPCWE481"
  , "c3" : "Assigning instead of comparing"
- , "c4" : "41"
+ , "c4" : "42"
 }}
 ,
 { "ligne" : {
@@ -14510,10 +14510,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "26619"
- , "c1link" : "./qc/apps/speed.c.html#26619"
+   "c1" : "26547"
+ , "c1link" : "./qc/apps/speed.c.html#26547"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[26547] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "26622"
+ , "c1link" : "./qc/apps/speed.c.html#26622"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[26619] The expression mr applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[26622] The expression mr applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };
