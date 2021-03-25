@@ -55,6 +55,13 @@ jobs:
       run: ls -l apps
     - name: ls -l crypto
       run: ls -l crypto
+    - name: Run maven site
+      run: mvn site -Dsonar.reporting01nodocgeneration=yes
+    - uses: actions/upload-artifact@v2
+      with:
+        name: ArtifactMvnSite
+        path: |
+           target/site
     - name: make test01
       # run: make test 2> ./make_test_err.log
       # V=1 : mode verbose
@@ -77,10 +84,4 @@ jobs:
         path: |
            test-runs
            !test-runs/**/*:*
-    - name: Run maven site
-      run: mvn site -Dsonar.reporting01nodocgeneration=yes
-    - uses: actions/upload-artifact@v2
-      with:
-        name: ArtifactMvnSite
-        path: |
-           target/site
+    
