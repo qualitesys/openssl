@@ -55,6 +55,8 @@ jobs:
       run: ls -l apps
     - name: ls -l crypto
       run: ls -l crypto
+    - name: ls -l crypto/bio
+      run: ls -l crypto/bio
     - name: Run maven site
       run: mvn site -Dsonar.reporting01nodocgeneration=yes
     - uses: actions/upload-artifact@v2
