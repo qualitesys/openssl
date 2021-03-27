@@ -10,7 +10,7 @@
   <url>http://maven.apache.org</url>  
   <properties> 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>  
-    <compileSource>1.6</compileSource>  
+    <compileSource>1.6</compileSource>   
     <sonar.language>cpp</sonar.language>  
     <sonar.dynamicAnalysis>false</sonar.dynamicAnalysis>  
     <sonar.debugmode></sonar.debugmode>  
