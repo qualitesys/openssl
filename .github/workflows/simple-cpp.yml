@@ -18,8 +18,8 @@ jobs:
     - uses: actions/checkout@v2
       with:
         ref: master     
-    - name: configg
-      run: ./config -no-asm -E
+    - name: config (modif D.C. 2021 03 28 pour ajt rpath pour libraries dynamique)
+      run: ./config -no-asm -E -Wl,-rpath,.
     - name: make depend
       run: make depend
     - name: make
