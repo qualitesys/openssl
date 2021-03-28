@@ -83,24 +83,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13996"
- , "c1link" : "./qc/apps/lib/opt.c.html#13996"
+   "c1" : "13998"
+ , "c1link" : "./qc/apps/lib/opt.c.html#13998"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13996] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13999"
- , "c1link" : "./qc/apps/lib/opt.c.html#13999"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13999] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14000"
- , "c1link" : "./qc/apps/lib/opt.c.html#14000"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14000] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[13998] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -125,80 +111,80 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14008"
- , "c1link" : "./qc/apps/lib/opt.c.html#14008"
+   "c1" : "14004"
+ , "c1link" : "./qc/apps/lib/opt.c.html#14004"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14008] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14004] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14021"
- , "c1link" : "./qc/apps/lib/opt.c.html#14021"
+   "c1" : "14005"
+ , "c1link" : "./qc/apps/lib/opt.c.html#14005"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14021] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14005] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14111"
- , "c1link" : "./qc/apps/lib/opt.c.html#14111"
+   "c1" : "14010"
+ , "c1link" : "./qc/apps/lib/opt.c.html#14010"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14111] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14010] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14279"
- , "c1link" : "./qc/apps/lib/opt.c.html#14279"
+   "c1" : "14023"
+ , "c1link" : "./qc/apps/lib/opt.c.html#14023"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14279] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14023] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14295"
- , "c1link" : "./qc/apps/lib/opt.c.html#14295"
+   "c1" : "14113"
+ , "c1link" : "./qc/apps/lib/opt.c.html#14113"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14295] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14113] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14362"
- , "c1link" : "./qc/apps/lib/opt.c.html#14362"
+   "c1" : "14281"
+ , "c1link" : "./qc/apps/lib/opt.c.html#14281"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14362] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14281] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14420"
- , "c1link" : "./qc/apps/lib/opt.c.html#14420"
+   "c1" : "14297"
+ , "c1link" : "./qc/apps/lib/opt.c.html#14297"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14420] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14297] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14478"
- , "c1link" : "./qc/apps/lib/opt.c.html#14478"
+   "c1" : "14364"
+ , "c1link" : "./qc/apps/lib/opt.c.html#14364"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14478] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14364] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14534"
- , "c1link" : "./qc/apps/lib/opt.c.html#14534"
+   "c1" : "14422"
+ , "c1link" : "./qc/apps/lib/opt.c.html#14422"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14534] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14422] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14591"
- , "c1link" : "./qc/apps/lib/opt.c.html#14591"
+   "c1" : "14480"
+ , "c1link" : "./qc/apps/lib/opt.c.html#14480"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14591] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14480] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14592"
- , "c1link" : "./qc/apps/lib/opt.c.html#14592"
+   "c1" : "14536"
+ , "c1link" : "./qc/apps/lib/opt.c.html#14536"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14592] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14536] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -209,59 +195,66 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14775"
- , "c1link" : "./qc/apps/lib/opt.c.html#14775"
+   "c1" : "14594"
+ , "c1link" : "./qc/apps/lib/opt.c.html#14594"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14775] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14594] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14776"
- , "c1link" : "./qc/apps/lib/opt.c.html#14776"
+   "c1" : "14595"
+ , "c1link" : "./qc/apps/lib/opt.c.html#14595"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14776] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14595] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14812"
- , "c1link" : "./qc/apps/lib/opt.c.html#14812"
+   "c1" : "14777"
+ , "c1link" : "./qc/apps/lib/opt.c.html#14777"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14812] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[14777] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14826"
- , "c1link" : "./qc/apps/lib/opt.c.html#14826"
+   "c1" : "14778"
+ , "c1link" : "./qc/apps/lib/opt.c.html#14778"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14778] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14814"
+ , "c1link" : "./qc/apps/lib/opt.c.html#14814"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[14814] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14828"
+ , "c1link" : "./qc/apps/lib/opt.c.html#14828"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14826] The expression arg applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14828] The expression arg applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14854"
- , "c1link" : "./qc/apps/lib/opt.c.html#14854"
+   "c1" : "14856"
+ , "c1link" : "./qc/apps/lib/opt.c.html#14856"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000003[14854] The default case should be in last position"
+ , "c3" : "QC-CPP000003[14856] The default case should be in last position"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14854"
- , "c1link" : "./qc/apps/lib/opt.c.html#14854"
+   "c1" : "14856"
+ , "c1link" : "./qc/apps/lib/opt.c.html#14856"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000002[14854] Avoid multiple switch labels with default case in switch case"
+ , "c3" : "QC-CPP000002[14856] Avoid multiple switch labels with default case in switch case"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14954"
- , "c1link" : "./qc/apps/lib/opt.c.html#14954"
+   "c1" : "14956"
+ , "c1link" : "./qc/apps/lib/opt.c.html#14956"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14954] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15002"
- , "c1link" : "./qc/apps/lib/opt.c.html#15002"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15002] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14956] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -272,24 +265,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15035"
- , "c1link" : "./qc/apps/lib/opt.c.html#15035"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15035] The expression  ! doingparams applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15057"
- , "c1link" : "./qc/apps/lib/opt.c.html#15057"
+   "c1" : "15006"
+ , "c1link" : "./qc/apps/lib/opt.c.html#15006"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15057] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[15006] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15077"
- , "c1link" : "./qc/apps/lib/opt.c.html#15077"
+   "c1" : "15037"
+ , "c1link" : "./qc/apps/lib/opt.c.html#15037"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15077] The expression standard_prolog applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15037] The expression  ! doingparams applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15059"
+ , "c1link" : "./qc/apps/lib/opt.c.html#15059"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15059] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15079"
+ , "c1link" : "./qc/apps/lib/opt.c.html#15079"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15079] The expression standard_prolog applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -62,24 +62,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12147"
- , "c1link" : "./qc/apps/lib/apps_ui.c.html#12147"
+   "c1" : "12149"
+ , "c1link" : "./qc/apps/lib/apps_ui.c.html#12149"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12147] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12160"
- , "c1link" : "./qc/apps/lib/apps_ui.c.html#12160"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12160] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[12149] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "12162"
  , "c1link" : "./qc/apps/lib/apps_ui.c.html#12162"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12162] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[12162] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12164"
+ , "c1link" : "./qc/apps/lib/apps_ui.c.html#12164"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[12164] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

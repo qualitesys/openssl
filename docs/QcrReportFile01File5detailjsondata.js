@@ -69,136 +69,136 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18960"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18960"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18960] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
    "c1" : "18962"
  , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18962"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18962] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[18962] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18967"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18967"
+   "c1" : "18964"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18964"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18967] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[18964] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19036"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19036"
+   "c1" : "18969"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#18969"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19036] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[18969] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19073"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19073"
+   "c1" : "19038"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19038"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19073] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19038] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19088"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19088"
+   "c1" : "19075"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19075"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19088] A pointer is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[19075] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19102"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19102"
+   "c1" : "19090"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19090"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19102] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[19090] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19262"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19262"
+   "c1" : "19104"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19104"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19262] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19104] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19283"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19283"
+   "c1" : "19264"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19264"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19283] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19264] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19289"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19289"
+   "c1" : "19285"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19285"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19289] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[19285] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19295"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19295"
+   "c1" : "19291"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19291"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19295] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[19291] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19300"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19300"
+   "c1" : "19297"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19297"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19300] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[19297] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19306"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19306"
+   "c1" : "19302"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19302"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19306] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[19302] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19311"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19311"
+   "c1" : "19308"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19308"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19311] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[19308] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19317"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19317"
+   "c1" : "19313"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19313"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19317] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[19313] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19322"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19322"
+   "c1" : "19319"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19319"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19322] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[19319] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19481"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19481"
+   "c1" : "19324"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19324"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19481] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000007[19324] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19551"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19551"
+   "c1" : "19483"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19483"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19551] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19483] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19596"
- , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19596"
+   "c1" : "19553"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19553"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19596] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[19553] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19598"
+ , "c1link" : "./qc/apps/cmp_mock_srv.c.html#19598"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[19598] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

@@ -83,115 +83,115 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18699"
- , "c1link" : "./qc/apps/gendsa.c.html#18699"
+   "c1" : "18701"
+ , "c1link" : "./qc/apps/gendsa.c.html#18701"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18699] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[18701] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18704"
- , "c1link" : "./qc/apps/gendsa.c.html#18704"
+   "c1" : "18706"
+ , "c1link" : "./qc/apps/gendsa.c.html#18706"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18704] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18708"
- , "c1link" : "./qc/apps/gendsa.c.html#18708"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[18708] The switch case refers to the jump label opthelp"
+ , "c3" : "QC-CPPCWE481[18706] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "18710"
  , "c1link" : "./qc/apps/gendsa.c.html#18710"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18710] goto statement jump to end"
+ , "c3" : "QC-CPP000010[18710] The switch case refers to the jump label opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18714"
- , "c1link" : "./qc/apps/gendsa.c.html#18714"
+   "c1" : "18712"
+ , "c1link" : "./qc/apps/gendsa.c.html#18712"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18714] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18712] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18726"
- , "c1link" : "./qc/apps/gendsa.c.html#18726"
+   "c1" : "18716"
+ , "c1link" : "./qc/apps/gendsa.c.html#18716"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18726] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18716] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18730"
- , "c1link" : "./qc/apps/gendsa.c.html#18730"
+   "c1" : "18728"
+ , "c1link" : "./qc/apps/gendsa.c.html#18728"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18730] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18728] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18745"
- , "c1link" : "./qc/apps/gendsa.c.html#18745"
+   "c1" : "18732"
+ , "c1link" : "./qc/apps/gendsa.c.html#18732"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18745] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18732] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18755"
- , "c1link" : "./qc/apps/gendsa.c.html#18755"
+   "c1" : "18747"
+ , "c1link" : "./qc/apps/gendsa.c.html#18747"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18755] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18747] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18769"
- , "c1link" : "./qc/apps/gendsa.c.html#18769"
+   "c1" : "18757"
+ , "c1link" : "./qc/apps/gendsa.c.html#18757"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18769] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18757] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18780"
- , "c1link" : "./qc/apps/gendsa.c.html#18780"
+   "c1" : "18771"
+ , "c1link" : "./qc/apps/gendsa.c.html#18771"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18780] goto statement jump to end2"
+ , "c3" : "QC-CPP000007[18771] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18800"
- , "c1link" : "./qc/apps/gendsa.c.html#18800"
+   "c1" : "18782"
+ , "c1link" : "./qc/apps/gendsa.c.html#18782"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18800] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18782] goto statement jump to end2"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18810"
- , "c1link" : "./qc/apps/gendsa.c.html#18810"
+   "c1" : "18802"
+ , "c1link" : "./qc/apps/gendsa.c.html#18802"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18810] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18802] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
    "c1" : "18812"
  , "c1link" : "./qc/apps/gendsa.c.html#18812"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18812] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18814"
+ , "c1link" : "./qc/apps/gendsa.c.html#18814"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18812] The expression verbose applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18814] The expression verbose applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18816"
- , "c1link" : "./qc/apps/gendsa.c.html#18816"
+   "c1" : "18818"
+ , "c1link" : "./qc/apps/gendsa.c.html#18818"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18816] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18818] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18834"
- , "c1link" : "./qc/apps/gendsa.c.html#18834"
+   "c1" : "18836"
+ , "c1link" : "./qc/apps/gendsa.c.html#18836"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18834] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18836] goto statement jump to end"
 }} 
 ]
 };
