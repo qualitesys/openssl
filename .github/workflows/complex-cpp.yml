@@ -32,7 +32,7 @@ jobs:
     - name: Maven and co mvn qcr:qcrgoalfilecopycpp
       run: mvn qcr:qcrgoalfilecopycpp
     - name: Maven and co mvn clean
-      run: mvn clean
+      run: mvn clean qcr:qcrgoalclean
     - name: Maven and co ls
       run: ls -l # ne sert plus depuis 2019 12 29 rm  secucpp/qcrutils.c
     - name: Compilation qcrutils3
