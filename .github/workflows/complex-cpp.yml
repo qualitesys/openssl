@@ -42,7 +42,7 @@ jobs:
     - name: ls secucpp
       run: ls -l secucpp
     - name: Maven and co config. Modif D.C. 2021 03 30 ajt librarie
-      run: ./config -no-asm -Wl,-rpath,./secucpp/ -L./secucpp/ -lqcrutils3
+      run: ./config -no-asm -Wl,-rpath,/home/runner/work/openssl/openssl/secucpp/ -L/home/runner/work/openssl/openssl/secucpp/ -lqcrutils3
     - name: Maven and co make depend
       run: make depend
     - name: Maven and co rm
