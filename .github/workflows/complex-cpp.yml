@@ -35,8 +35,14 @@ jobs:
       run: mvn clean
     - name: Maven and co ls
       run: ls -l # ne sert plus depuis 2019 12 29 rm  secucpp/qcrutils.c
-    - name: Maven and co config
-      run: ./config -no-asm
+    - name: Compilation qcrutils3
+      run: gcc -fPIC -pthread -m64 -Wall -O3 -c -o secucpp/qcrutils3.o secucpp/qcrutils3.c 
+    - name: Creation library shared libqcrutils3
+      run: gcc -fPIC -pthread -m64 -Wall -O3 -Wl,-znodelete -shared  -Wl,-Bsymbolic -Wl,-soname=secucpp/libqcrutils3.so -o secucpp/libqcrutils3.so secucpp/qcrutils3.o
+    - name: ls secucpp
+      run: ls -l secucpp
+    - name: Maven and co config. Modif D.C. 2021 03 30 ajt librarie
+      run: ./config -no-asm -Wl,-rpath,secucpp/ -Lsecucpp/ -lqcrutils3
     - name: Maven and co make depend
       run: make depend
     - name: Maven and co rm
