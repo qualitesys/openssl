@@ -31,6 +31,13 @@ jobs:
       run: mvn -Dsonar.debugskipxsl=true qcr:qcrgoalcompile
     - name: Maven and co mvn qcr:qcrgoalfilecopycpp
       run: mvn qcr:qcrgoalfilecopycpp
+    - name: Run maven site avant tests
+      run: mvn site -Dsonar.reporting01nodocgeneration=yes
+    - uses: actions/upload-artifact@v2
+      with:
+        name: ArtifactMvnSiteAvantTests
+        path: |
+           target/site      
     - name: Maven and co mvn clean
       run: mvn clean qcr:qcrgoalclean
     - name: Maven and co ls
@@ -67,18 +74,17 @@ jobs:
       run: ls -l crypto
     - name: ls -l crypto/bio
       run: ls -l crypto/bio
-    - name: Run maven site
-      run: mvn site -Dsonar.reporting01nodocgeneration=yes
-    - uses: actions/upload-artifact@v2
-      with:
-        name: ArtifactMvnSite
-        path: |
-           target/site
     - name: make test01
       # run: make test 2> ./make_test_err.log
       # V=1 : mode verbose
       run: make V=1 TESTS=01 test 2>> ./make_test_err80.log
-    - name: ls -l 
+    - name: Run maven site apres tests
+      run: mvn site -Dsonar.reporting01nodocgeneration=yes
+    - uses: actions/upload-artifact@v2
+      with:
+        name: ArtifactMvnSiteApresTests
+        path: |
+           target/site    - name: ls -l 
       run: ls -l 
     - name: ls -lR 
       run: ls -lR "$PWD/"*
