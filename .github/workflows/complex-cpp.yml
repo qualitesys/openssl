@@ -42,7 +42,7 @@ jobs:
     - name: ls secucpp avant
       run: ls -l secucpp
     - name: Chmod sur libqcrutils3
-      run: chmod -R 555 libqcrutils3.so
+      run: chmod -R 555 secucpp/libqcrutils3.so
     - name: ls secucpp apres
       run: ls -l secucpp
     - name: Maven and co config. Modif D.C. 2021 03 30 ajt librarie
