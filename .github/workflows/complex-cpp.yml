@@ -38,7 +38,7 @@ jobs:
     - name: Compilation qcrutils3
       run: gcc -fPIC -pthread -m64 -Wall -O3 -c -o secucpp/qcrutils3.o secucpp/qcrutils3.c 
     - name: Creation library shared libqcrutils3
-      run: gcc -fPIC -pthread -m64 -Wall -O3 -Wl,-znodelete -shared  -Wl,-Bsymbolic -Wl,-soname=secucpp/libqcrutils3.so -o secucpp/libqcrutils3.so secucpp/qcrutils3.o
+      run: gcc -fPIC -pthread -m64 -Wall -O3 -Wl,-znodelete -shared  -Wl,-Bsymbolic -o secucpp/libqcrutils3.so secucpp/qcrutils3.o
     - name: ls secucpp avant
       run: ls -l secucpp
     - name: Chmod sur libqcrutils3
