@@ -84,7 +84,8 @@ jobs:
       with:
         name: ArtifactMvnSiteApresTests
         path: |
-           target/site    - name: ls -l 
+           target/site   
+    - name: ls -l 
       run: ls -l 
     - name: ls -lR 
       run: ls -lR "$PWD/"*
