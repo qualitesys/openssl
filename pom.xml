@@ -29,7 +29,7 @@
          Les */libfips-lib* sont differentes des /libcrypto-lib* et /libcrypto-shlib* qui elles sont identiques et proviennent des memes fichiers .c
          Donc on ignore les */libfips-lib*
     <sonar.filecloneignore>fuzz/;test/;providers/</sonar.filecloneignore>
-    -->
+    --> 
     <!-- Modif D.C. 2021 02 07 pb avec providers/fips, ajoute providers;
     <sonar.filecloneignore>fuzz/;test/;providers/;crypto/libfips;crypto/aes/libfips;crypto/bn/libfips;crypto/buffer/libfips;crypto/cmac/libfips;crypto/des/libfips;crypto/dh/libfips;crypto/dsa/libfips;crypto/ec/libfips;crypto/ec/curve448/libfips;crypto/ec/curve448/arch_32/libfips;crypto/evp/libfips;crypto/ffc/libfips;crypto/hmac/libfips;crypto/modes/libfips;crypto/objects;crypto/property/libfips;crypto/rand/libfips;crypto/rsa/libfips;crypto/sha/libfips;crypto/stack/libfips;</sonar.filecloneignore>
     -->
