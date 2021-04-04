@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/openssl.c.html" 
- , "texte" : "File apps/openssl.c 17 rule violations " 
+ , "texte" : "File apps/openssl.c 16 rule violations " 
  , "fic2"  : "./qc/apps/openssl.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,13 +40,6 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-CPP000004"
- , "c3" : "Return statement is missing in a function"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
  , "c4" : "2"
@@ -80,13 +73,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/openssl.c.html#2456"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[02456] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20495"
- , "c1link" : "./qc/apps/openssl.c.html#20495"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000004[20495] The return statement is missing in the function body of main"
 }} 
 ,
 { "ligne" : {

@@ -195,7 +195,6 @@
 <occ><category>MAJOR</category><rule>QC-CPP000010</rule><file>apps/ocsp.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/ocsp.c</file><nberror>9</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>apps/ocsp.c</file><nberror>23</nberror></occ>
-<occ><category>BLOCKER</category><rule>QC-CPP000004</rule><file>apps/openssl.c</file><nberror>1</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>apps/openssl.c</file><nberror>2</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/openssl.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/openssl.c</file><nberror>5</nberror></occ>
