@@ -8,7 +8,7 @@
   <version>LATEST</version>   
   <name>qcr-maven-plugin Maven Mojo</name>      
   <url>http://maven.apache.org</url>  
-  <properties> 
+  <properties>  
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>  
     <compileSource>1.6</compileSource>   
     <sonar.language>cpp</sonar.language>  
