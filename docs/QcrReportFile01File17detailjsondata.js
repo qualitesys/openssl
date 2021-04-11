@@ -69,31 +69,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20358"
- , "c1link" : "./qc/apps/errstr.c.html#20358"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20358] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20363"
- , "c1link" : "./qc/apps/errstr.c.html#20363"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20363] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20368"
- , "c1link" : "./qc/apps/errstr.c.html#20368"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20368] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
    "c1" : "20372"
  , "c1link" : "./qc/apps/errstr.c.html#20372"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20372] goto statement jump to end"
+ , "c3" : "QC-CPP000014[20372] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20377"
+ , "c1link" : "./qc/apps/errstr.c.html#20377"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[20377] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20382"
+ , "c1link" : "./qc/apps/errstr.c.html#20382"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20382] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20386"
+ , "c1link" : "./qc/apps/errstr.c.html#20386"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20386] goto statement jump to end"
 }} 
 ]
 };

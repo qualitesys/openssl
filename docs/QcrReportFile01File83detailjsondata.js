@@ -55,31 +55,31 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03575"
- , "c1link" : "./qc/providers/legacyprov.c.html#3575"
+   "c1" : "03576"
+ , "c1link" : "./qc/providers/legacyprov.c.html#3576"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[03575] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[03576] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06468"
- , "c1link" : "./qc/providers/legacyprov.c.html#6468"
+   "c1" : "06469"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6469"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06468] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[06469] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06670"
- , "c1link" : "./qc/providers/legacyprov.c.html#6670"
+   "c1" : "06671"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6671"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[06670] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[06671] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06675"
- , "c1link" : "./qc/providers/legacyprov.c.html#6675"
+   "c1" : "06676"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6676"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[06675] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[06676] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

@@ -69,108 +69,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03197"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#3197"
+   "c1" : "03198"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#3198"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[03197] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14704"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#14704"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14704] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14705"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#14705"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14705] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14706"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#14706"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14706] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14707"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#14707"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14707] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14708"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#14708"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14708] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14709"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#14709"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14709] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14710"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#14710"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14710] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14711"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#14711"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14711] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14712"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#14712"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14712] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14713"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#14713"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14713] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14714"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#14714"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14714] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14715"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#14715"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14715] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14716"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#14716"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14716] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14717"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#14717"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14717] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[03198] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -223,59 +125,136 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14837"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#14837"
+   "c1" : "14725"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#14725"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14837] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14725] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15437"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#15437"
+   "c1" : "14726"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#14726"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14726] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14727"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#14727"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14727] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14728"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#14728"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14728] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14729"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#14729"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14729] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14730"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#14730"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14730] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14731"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#14731"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14731] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14732"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#14732"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14732] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14733"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#14733"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14733] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14734"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#14734"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14734] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14735"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#14735"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14735] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14736"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#14736"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14736] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14737"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#14737"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14737] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14738"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#14738"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14738] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14851"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#14851"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14851] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15461"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#15461"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15437] The expression  ! ossl_prov_is_running() applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15461] The expression  ! ossl_prov_is_running() applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15520"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#15520"
+   "c1" : "15544"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#15544"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15520] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[15544] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15647"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#15647"
+   "c1" : "15671"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#15671"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15647] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15671] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15652"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#15652"
+   "c1" : "15676"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#15676"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15652] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15663"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#15663"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15663] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15668"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#15668"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15668] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15674"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#15674"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15674] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[15676] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -286,10 +265,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15731"
- , "c1link" : "./qc/providers/fips/fipsprov.c.html#15731"
+   "c1" : "15692"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#15692"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15731] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15692] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15698"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#15698"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15698] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15711"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#15711"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15711] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15755"
+ , "c1link" : "./qc/providers/fips/fipsprov.c.html#15755"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15755] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

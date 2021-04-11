@@ -69,45 +69,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18503"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#18503"
+   "c1" : "18517"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#18517"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18503] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[18517] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18504"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#18504"
+   "c1" : "18518"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#18518"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18504] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[18518] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18532"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#18532"
+   "c1" : "18546"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#18546"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18532] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[18546] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18547"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#18547"
+   "c1" : "18561"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#18561"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18547] The expression last applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18561] The expression last applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18558"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#18558"
+   "c1" : "18572"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#18572"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18558] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[18572] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18615"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#18615"
+   "c1" : "18629"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#18629"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18615] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18629] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

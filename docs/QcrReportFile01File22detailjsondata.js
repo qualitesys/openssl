@@ -83,66 +83,66 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18671"
- , "c1link" : "./qc/apps/info.c.html#18671"
+   "c1" : "18685"
+ , "c1link" : "./qc/apps/info.c.html#18685"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18671] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[18685] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18675"
- , "c1link" : "./qc/apps/info.c.html#18675"
+   "c1" : "18689"
+ , "c1link" : "./qc/apps/info.c.html#18689"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18675] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18689] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18677"
- , "c1link" : "./qc/apps/info.c.html#18677"
+   "c1" : "18691"
+ , "c1link" : "./qc/apps/info.c.html#18691"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000003[18677] The default case should be in last position"
+ , "c3" : "QC-CPP000003[18691] The default case should be in last position"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18678"
- , "c1link" : "./qc/apps/info.c.html#18678"
+   "c1" : "18692"
+ , "c1link" : "./qc/apps/info.c.html#18692"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[18678] The switch case refers to the jump label opthelp"
+ , "c3" : "QC-CPP000010[18692] The switch case refers to the jump label opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18680"
- , "c1link" : "./qc/apps/info.c.html#18680"
+   "c1" : "18694"
+ , "c1link" : "./qc/apps/info.c.html#18694"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18680] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18694] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18684"
- , "c1link" : "./qc/apps/info.c.html#18684"
+   "c1" : "18698"
+ , "c1link" : "./qc/apps/info.c.html#18698"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18684] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18698] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18720"
- , "c1link" : "./qc/apps/info.c.html#18720"
+   "c1" : "18734"
+ , "c1link" : "./qc/apps/info.c.html#18734"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18720] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18734] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18723"
- , "c1link" : "./qc/apps/info.c.html#18723"
+   "c1" : "18737"
+ , "c1link" : "./qc/apps/info.c.html#18737"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18723] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18737] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18727"
- , "c1link" : "./qc/apps/info.c.html#18727"
+   "c1" : "18741"
+ , "c1link" : "./qc/apps/info.c.html#18741"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18727] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18741] goto statement jump to opthelp"
 }} 
 ]
 };

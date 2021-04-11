@@ -83,360 +83,360 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15720"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#15720"
+   "c1" : "15737"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#15737"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15720] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15737] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15761"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#15761"
+   "c1" : "15778"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#15778"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15761] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15778] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15803"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#15803"
+   "c1" : "15820"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#15820"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15803] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15820] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15838"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#15838"
+   "c1" : "15855"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#15855"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15838] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15855] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16022"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#16022"
+   "c1" : "16039"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#16039"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16022] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[16039] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16022"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#16022"
+   "c1" : "16039"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#16039"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16022] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16039] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16044"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#16044"
+   "c1" : "16061"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#16061"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16044] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[16061] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16044"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#16044"
+   "c1" : "16061"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#16061"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16044] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16061] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16063"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#16063"
+   "c1" : "16080"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#16080"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16063] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[16080] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16063"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#16063"
+   "c1" : "16080"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#16080"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16063] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16080] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16086"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#16086"
+   "c1" : "16103"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#16103"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16086] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[16103] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16086"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#16086"
+   "c1" : "16103"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#16103"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16086] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16103] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16106"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#16106"
+   "c1" : "16123"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#16123"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16106] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[16123] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16106"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#16106"
+   "c1" : "16123"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#16123"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16106] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16123] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19459"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#19459"
+   "c1" : "19477"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#19477"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19459] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19477] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19514"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#19514"
+   "c1" : "19532"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#19532"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19514] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19532] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19611"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#19611"
+   "c1" : "19629"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#19629"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19611] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19629] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19649"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#19649"
+   "c1" : "19667"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#19667"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19649] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19667] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19658"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#19658"
+   "c1" : "19676"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#19676"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19658] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19676] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19679"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#19679"
+   "c1" : "19697"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#19697"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19679] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19697] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19702"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#19702"
+   "c1" : "19720"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#19720"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19702] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19720] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19721"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#19721"
+   "c1" : "19739"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#19739"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19721] The expression init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19739] The expression init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19736"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#19736"
+   "c1" : "19754"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#19754"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19736] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19754] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19810"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#19810"
+   "c1" : "19828"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#19828"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19810] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19828] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19823"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#19823"
+   "c1" : "19841"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#19841"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19823] The expression fin applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19841] The expression fin applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19867"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#19867"
+   "c1" : "19885"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#19885"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19867] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19885] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20556"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#20556"
+   "c1" : "20574"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#20574"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20556] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[20574] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20556"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#20556"
+   "c1" : "20574"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#20574"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20556] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[20574] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20669"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#20669"
+   "c1" : "20687"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#20687"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20669] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[20687] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20669"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#20669"
+   "c1" : "20687"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#20687"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[20669] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[20687] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20677"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#20677"
+   "c1" : "20695"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#20695"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20677] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[20695] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20677"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#20677"
+   "c1" : "20695"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#20695"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[20677] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[20695] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20690"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#20690"
+   "c1" : "20708"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#20708"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20690] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20708] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20700"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#20700"
+   "c1" : "20718"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#20718"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20700] The expression external applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20718] The expression external applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20720"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#20720"
+   "c1" : "20738"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#20738"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20720] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20738] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20748"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#20748"
+   "c1" : "20766"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#20766"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20748] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20766] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20755"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#20755"
+   "c1" : "20773"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#20773"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20755] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20773] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20761"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#20761"
+   "c1" : "20779"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#20779"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20761] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20779] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20774"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#20774"
+   "c1" : "20792"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#20792"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20774] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20792] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20785"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#20785"
+   "c1" : "20803"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#20803"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20785] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[20803] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20787"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#20787"
+   "c1" : "20805"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#20805"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20787] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20805] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20795"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#20795"
+   "c1" : "20813"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#20813"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20795] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20813] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20816"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#20816"
+   "c1" : "20834"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#20834"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20816] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20834] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20827"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#20827"
+   "c1" : "20845"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#20845"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20827] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20845] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20842"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#20842"
+   "c1" : "20860"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#20860"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20842] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20860] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20858"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#20858"
+   "c1" : "20876"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#20876"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20858] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20876] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20861"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#20861"
+   "c1" : "20879"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#20879"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20861] The expression  ! sign applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20879] The expression  ! sign applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20883"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#20883"
+   "c1" : "20901"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#20901"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20883] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20901] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20886"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#20886"
+   "c1" : "20904"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#20904"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20886] The expression sign applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20904] The expression sign applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20891"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#20891"
+   "c1" : "20909"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#20909"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20891] The expression  ! ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20909] The expression  ! ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20910"
- , "c1link" : "./qc/ssl/statem/extensions.c.html#20910"
+   "c1" : "20928"
+ , "c1link" : "./qc/ssl/statem/extensions.c.html#20928"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20910] The expression  ! sent applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20928] The expression  ! sent applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

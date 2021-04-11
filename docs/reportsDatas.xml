@@ -306,10 +306,10 @@
 <occ><category>BLOCKER</category><rule>QC-CPP000006</rule><file>apps/speed.c</file><nberror>4</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>apps/speed.c</file><nberror>50</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000012</rule><file>apps/speed.c</file><nberror>4</nberror></occ>
-<occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/speed.c</file><nberror>41</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/speed.c</file><nberror>42</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000010</rule><file>apps/speed.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/speed.c</file><nberror>44</nberror></occ>
-<occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>apps/speed.c</file><nberror>18</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>apps/speed.c</file><nberror>15</nberror></occ>
 <occ><category>MINOR</category><rule>QC-CPP000013</rule><file>apps/speed.c</file><nberror>1</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>apps/spkac.c</file><nberror>3</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/spkac.c</file><nberror>18</nberror></occ>

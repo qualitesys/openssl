@@ -76,108 +76,108 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20497"
- , "c1link" : "./qc/apps/openssl.c.html#20497"
+   "c1" : "20511"
+ , "c1link" : "./qc/apps/openssl.c.html#20511"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20497] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[20511] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20503"
- , "c1link" : "./qc/apps/openssl.c.html#20503"
+   "c1" : "20517"
+ , "c1link" : "./qc/apps/openssl.c.html#20517"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20503] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[20517] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20504"
- , "c1link" : "./qc/apps/openssl.c.html#20504"
+   "c1" : "20518"
+ , "c1link" : "./qc/apps/openssl.c.html#20518"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20504] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[20518] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20521"
- , "c1link" : "./qc/apps/openssl.c.html#20521"
+   "c1" : "20535"
+ , "c1link" : "./qc/apps/openssl.c.html#20535"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20521] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20535] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20522"
- , "c1link" : "./qc/apps/openssl.c.html#20522"
+   "c1" : "20536"
+ , "c1link" : "./qc/apps/openssl.c.html#20536"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20522] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20536] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20522"
- , "c1link" : "./qc/apps/openssl.c.html#20522"
+   "c1" : "20536"
+ , "c1link" : "./qc/apps/openssl.c.html#20536"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20522] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20536] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20532"
- , "c1link" : "./qc/apps/openssl.c.html#20532"
+   "c1" : "20546"
+ , "c1link" : "./qc/apps/openssl.c.html#20546"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20532] goto statement jump to end"
+ , "c3" : "QC-CPP000007[20546] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20603"
- , "c1link" : "./qc/apps/openssl.c.html#20603"
+   "c1" : "20617"
+ , "c1link" : "./qc/apps/openssl.c.html#20617"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20603] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[20617] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20606"
- , "c1link" : "./qc/apps/openssl.c.html#20606"
+   "c1" : "20620"
+ , "c1link" : "./qc/apps/openssl.c.html#20620"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20606] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[20620] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20612"
- , "c1link" : "./qc/apps/openssl.c.html#20612"
+   "c1" : "20626"
+ , "c1link" : "./qc/apps/openssl.c.html#20626"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20612] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20626] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20656"
- , "c1link" : "./qc/apps/openssl.c.html#20656"
+   "c1" : "20670"
+ , "c1link" : "./qc/apps/openssl.c.html#20670"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20656] The expression  ! nl applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20670] The expression  ! nl applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20676"
- , "c1link" : "./qc/apps/openssl.c.html#20676"
+   "c1" : "20690"
+ , "c1link" : "./qc/apps/openssl.c.html#20690"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20676] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[20690] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20765"
- , "c1link" : "./qc/apps/openssl.c.html#20765"
+   "c1" : "20779"
+ , "c1link" : "./qc/apps/openssl.c.html#20779"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20765] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20768"
- , "c1link" : "./qc/apps/openssl.c.html#20768"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20768] The expression prog_inited applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000014[20779] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "20782"
  , "c1link" : "./qc/apps/openssl.c.html#20782"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20782] The expression prog_inited applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20796"
+ , "c1link" : "./qc/apps/openssl.c.html#20796"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20782] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20796] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

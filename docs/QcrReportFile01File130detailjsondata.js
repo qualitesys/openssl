@@ -69,122 +69,122 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "16122"
- , "c1link" : "./qc/ssl/tls_depr.c.html#16122"
+   "c1" : "16139"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#16139"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16122] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16139] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16163"
- , "c1link" : "./qc/ssl/tls_depr.c.html#16163"
+   "c1" : "16180"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#16180"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16163] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16180] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16205"
- , "c1link" : "./qc/ssl/tls_depr.c.html#16205"
+   "c1" : "16222"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#16222"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16205] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16222] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16240"
- , "c1link" : "./qc/ssl/tls_depr.c.html#16240"
+   "c1" : "16257"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#16257"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16240] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16257] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16424"
- , "c1link" : "./qc/ssl/tls_depr.c.html#16424"
+   "c1" : "16441"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#16441"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16424] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[16441] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16424"
- , "c1link" : "./qc/ssl/tls_depr.c.html#16424"
+   "c1" : "16441"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#16441"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16424] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16441] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16446"
- , "c1link" : "./qc/ssl/tls_depr.c.html#16446"
+   "c1" : "16463"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#16463"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16446] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[16463] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16446"
- , "c1link" : "./qc/ssl/tls_depr.c.html#16446"
+   "c1" : "16463"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#16463"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16446] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16463] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16465"
- , "c1link" : "./qc/ssl/tls_depr.c.html#16465"
+   "c1" : "16482"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#16482"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16465] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[16482] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16465"
- , "c1link" : "./qc/ssl/tls_depr.c.html#16465"
+   "c1" : "16482"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#16482"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16465] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16482] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16488"
- , "c1link" : "./qc/ssl/tls_depr.c.html#16488"
+   "c1" : "16505"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#16505"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16488] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[16505] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16488"
- , "c1link" : "./qc/ssl/tls_depr.c.html#16488"
+   "c1" : "16505"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#16505"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16488] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16505] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16508"
- , "c1link" : "./qc/ssl/tls_depr.c.html#16508"
+   "c1" : "16525"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#16525"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16508] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[16525] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16508"
- , "c1link" : "./qc/ssl/tls_depr.c.html#16508"
+   "c1" : "16525"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#16525"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16508] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16525] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18964"
- , "c1link" : "./qc/ssl/tls_depr.c.html#18964"
+   "c1" : "18982"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#18982"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18964] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[18982] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18990"
- , "c1link" : "./qc/ssl/tls_depr.c.html#18990"
+   "c1" : "19008"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#19008"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18990] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19008] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19121"
- , "c1link" : "./qc/ssl/tls_depr.c.html#19121"
+   "c1" : "19139"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#19139"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19121] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19139] A pointer is declared but not initialized"
 }} 
 ]
 };
