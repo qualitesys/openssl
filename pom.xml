@@ -46,7 +46,7 @@
   <pluginRepositories> 
     <pluginRepository> 
       <id>QualityChecker remote repository</id>  
-      <url>http://www.qualitesys.com/mavenrepository/</url> 
+      <url>https://www.qualitesys.com/mavenrepository/</url> 
     </pluginRepository> 
   </pluginRepositories>  
   <build> 
