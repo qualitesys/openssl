@@ -43,6 +43,9 @@ jobs:
     - name: rm  doc
       run: |
           rm -rf doc
+    - name: mvn -version
+      run: |
+          mvn -version
     - name: maven describe mojo
       run: mvn help:describe -Dplugin=com.qualitesys.maven.plugins:qcr-maven-plugin -Ddetail=true
     - name: Run maven site
