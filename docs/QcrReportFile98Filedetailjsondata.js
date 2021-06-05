@@ -4,10 +4,10 @@ console.log('main start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : [
  { "ligne" : {
-  "fic"  : "apps/asn1pars.c" 
-  , "Fic1"  : "qc/apps/asn1pars.c.qre.nonreg.html" 
+  "fic"  : "apps/asn1parse.c" 
+  , "Fic1"  : "qc/apps/asn1parse.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
-  , "Fic2"  : "qc/apps/asn1pars.c.xml.nonreg.html" 
+  , "Fic2"  : "qc/apps/asn1parse.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
@@ -32,13 +32,6 @@ var maDataBlocs = {
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
-  "fic"  : "apps/cmp_mock_srv.c" 
-  , "Fic1"  : "qc/apps/cmp_mock_srv.c.qre.nonreg.html" 
-  , "OKKO1"  : "" 
-  , "Fic2"  : "qc/apps/cmp_mock_srv.c.xml.nonreg.html" 
-  , "OKKO2"  : "" 
-}},
- { "ligne" : {
   "fic"  : "apps/cms.c" 
   , "Fic1"  : "qc/apps/cms.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
@@ -53,10 +46,10 @@ var maDataBlocs = {
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
-  "fic"  : "apps/crl2p7.c" 
-  , "Fic1"  : "qc/apps/crl2p7.c.qre.nonreg.html" 
+  "fic"  : "apps/crl2pkcs7.c" 
+  , "Fic1"  : "qc/apps/crl2pkcs7.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
-  , "Fic2"  : "qc/apps/crl2p7.c.xml.nonreg.html" 
+  , "Fic2"  : "qc/apps/crl2pkcs7.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
@@ -204,6 +197,13 @@ var maDataBlocs = {
   , "Fic1"  : "qc/apps/lib/apps_ui.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
   , "Fic2"  : "qc/apps/lib/apps_ui.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "apps/lib/cmp_mock_srv.c" 
+  , "Fic1"  : "qc/apps/lib/cmp_mock_srv.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/apps/lib/cmp_mock_srv.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
@@ -561,20 +561,6 @@ var maDataBlocs = {
   , "Fic1"  : "qc/providers/common/bio_prov.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
   , "Fic2"  : "qc/providers/common/bio_prov.c.xml.nonreg.html" 
-  , "OKKO2"  : "" 
-}},
- { "ligne" : {
-  "fic"  : "providers/fips/fipsprov.c" 
-  , "Fic1"  : "qc/providers/fips/fipsprov.c.qre.nonreg.html" 
-  , "OKKO1"  : "" 
-  , "Fic2"  : "qc/providers/fips/fipsprov.c.xml.nonreg.html" 
-  , "OKKO2"  : "" 
-}},
- { "ligne" : {
-  "fic"  : "providers/fips/self_test_kats.c" 
-  , "Fic1"  : "qc/providers/fips/self_test_kats.c.qre.nonreg.html" 
-  , "OKKO1"  : "" 
-  , "Fic2"  : "qc/providers/fips/self_test_kats.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {

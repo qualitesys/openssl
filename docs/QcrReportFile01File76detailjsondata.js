@@ -76,157 +76,157 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "02980"
- , "c1link" : "./qc/engines/e_dasync.c.html#2980"
+   "c1" : "02981"
+ , "c1link" : "./qc/engines/e_dasync.c.html#2981"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02980] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[02981] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15851"
- , "c1link" : "./qc/engines/e_dasync.c.html#15851"
+   "c1" : "17221"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17221"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15851] The expression  ! error_loaded applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17221] The expression  ! error_loaded applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15862"
- , "c1link" : "./qc/engines/e_dasync.c.html#15862"
+   "c1" : "17232"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17232"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15862] The expression error_loaded applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17232] The expression error_loaded applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15940"
- , "c1link" : "./qc/engines/e_dasync.c.html#15940"
+   "c1" : "17310"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17310"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15940] The expression  ! init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17310] The expression  ! init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15941"
- , "c1link" : "./qc/engines/e_dasync.c.html#15941"
+   "c1" : "17311"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17311"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15941] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[17311] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15942"
- , "c1link" : "./qc/engines/e_dasync.c.html#15942"
+   "c1" : "17312"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17312"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15942] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17312] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15977"
- , "c1link" : "./qc/engines/e_dasync.c.html#15977"
+   "c1" : "17347"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17347"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15977] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[17347] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15978"
- , "c1link" : "./qc/engines/e_dasync.c.html#15978"
+   "c1" : "17348"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17348"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15978] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[17348] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16065"
- , "c1link" : "./qc/engines/e_dasync.c.html#16065"
+   "c1" : "17435"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17435"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16065] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17435] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16070"
- , "c1link" : "./qc/engines/e_dasync.c.html#16070"
+   "c1" : "17440"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17440"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16070] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17440] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16140"
- , "c1link" : "./qc/engines/e_dasync.c.html#16140"
+   "c1" : "17510"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17510"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[16140] Suspicious bitwise operation with value 0, result is a|0 = a"
+ , "c3" : "QC-CPP000008[17510] Suspicious bitwise operation with value 0, result is a|0 = a"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16172"
- , "c1link" : "./qc/engines/e_dasync.c.html#16172"
+   "c1" : "17542"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17542"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[16172] Suspicious bitwise operation with value 0, result is a|0 = a"
+ , "c3" : "QC-CPP000008[17542] Suspicious bitwise operation with value 0, result is a|0 = a"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16223"
- , "c1link" : "./qc/engines/e_dasync.c.html#16223"
+   "c1" : "17593"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17593"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16223] goto statement jump to skip_cbs"
+ , "c3" : "QC-CPP000007[17593] goto statement jump to skip_cbs"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16229"
- , "c1link" : "./qc/engines/e_dasync.c.html#16229"
+   "c1" : "17599"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17599"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16229] The expression  ! ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17599] The expression  ! ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16249"
- , "c1link" : "./qc/engines/e_dasync.c.html#16249"
+   "c1" : "17619"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17619"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16249] The expression  ! toadd applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17619] The expression  ! toadd applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16318"
- , "c1link" : "./qc/engines/e_dasync.c.html#16318"
+   "c1" : "17688"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17688"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16318] The expression  ! digest applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17688] The expression  ! digest applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16390"
- , "c1link" : "./qc/engines/e_dasync.c.html#16390"
+   "c1" : "17760"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17760"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16390] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[17760] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16391"
- , "c1link" : "./qc/engines/e_dasync.c.html#16391"
+   "c1" : "17761"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17761"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16391] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[17761] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16393"
- , "c1link" : "./qc/engines/e_dasync.c.html#16393"
+   "c1" : "17763"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17763"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16393] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[17763] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16395"
- , "c1link" : "./qc/engines/e_dasync.c.html#16395"
+   "c1" : "17765"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17765"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16395] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[17765] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16403"
- , "c1link" : "./qc/engines/e_dasync.c.html#16403"
+   "c1" : "17773"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17773"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16403] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17773] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16534"
- , "c1link" : "./qc/engines/e_dasync.c.html#16534"
+   "c1" : "17904"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17904"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16534] The expression  ! aeadcapable applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17904] The expression  ! aeadcapable applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };
