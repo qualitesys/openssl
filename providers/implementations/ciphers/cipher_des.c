@@ -86,6 +86,9 @@ static int des_init(void *vctx, const unsigned char *key, size_t keylen,
     if (iv != NULL) {
         if (!ossl_cipher_generic_initiv(ctx, iv, ivlen))
             return 0;
+    } else if (ctx->iv_set) {
+        /* reset IV to keep compatibility with 1.1.1 */
+        memcpy(ctx->iv, ctx->oiv, ctx->ivlen);
     }
 
     if (key != NULL) {
@@ -119,7 +122,7 @@ static int des_generatekey(PROV_CIPHER_CTX *ctx, void *ptr)
     DES_cblock *deskey = ptr;
     size_t kl = ctx->keylen;
 
-    if (kl == 0 || RAND_priv_bytes_ex(ctx->libctx, ptr, kl) <= 0)
+    if (kl == 0 || RAND_priv_bytes_ex(ctx->libctx, ptr, kl, 0) <= 0)
         return 0;
     DES_set_odd_parity(deskey);
     return 1;

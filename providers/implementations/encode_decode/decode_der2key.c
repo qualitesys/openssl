@@ -36,26 +36,6 @@
 #include "prov/implementations.h"
 #include "endecoder_local.h"
 
-#define SET_ERR_MARK() ERR_set_mark()
-#define CLEAR_ERR_MARK()                                                \
-    do {                                                                \
-        int err = ERR_peek_last_error();                                \
-                                                                        \
-        if (ERR_GET_LIB(err) == ERR_LIB_ASN1                            \
-            && (ERR_GET_REASON(err) == ASN1_R_HEADER_TOO_LONG           \
-                || ERR_GET_REASON(err) == ASN1_R_UNSUPPORTED_TYPE       \
-                || ERR_GET_REASON(err) == ERR_R_NESTED_ASN1_ERROR       \
-                || ERR_GET_REASON(err) == ASN1_R_NOT_ENOUGH_DATA))      \
-            ERR_pop_to_mark();                                          \
-        else                                                            \
-            ERR_clear_last_mark();                                      \
-    } while(0)
-#define RESET_ERR_MARK()                                                \
-    do {                                                                \
-        CLEAR_ERR_MARK();                                               \
-        SET_ERR_MARK();                                                 \
-    } while(0)
-
 struct der2key_ctx_st;           /* Forward declaration */
 typedef int check_key_fn(void *, struct der2key_ctx_st *ctx);
 typedef void adjust_key_fn(void *, struct der2key_ctx_st *ctx);
@@ -143,18 +123,24 @@ static void *der2key_decode_p8(const unsigned char **input_der,
     void *key = NULL;
 
     ctx->flag_fatal = 0;
+
+    ERR_set_mark();
     if ((p8 = d2i_X509_SIG(NULL, input_der, input_der_len)) != NULL) {
         char pbuf[PEM_BUFSIZE];
         size_t plen = 0;
 
+        ERR_clear_last_mark();
+
         if (!pw_cb(pbuf, sizeof(pbuf), &plen, NULL, pw_cbarg))
             ERR_raise(ERR_LIB_PROV, PROV_R_UNABLE_TO_GET_PASSPHRASE);
         else
-            p8inf = PKCS8_decrypt(p8, pbuf, plen);
+            p8inf = PKCS8_decrypt_ex(p8, pbuf, plen, PROV_LIBCTX_OF(ctx->provctx), NULL);
         if (p8inf == NULL)
             ctx->flag_fatal = 1;
         X509_SIG_free(p8);
     } else {
+        /* Pop any errors that might have been raised by d2i_X509_SIG. */
+        ERR_pop_to_mark();
         p8inf = d2i_PKCS8_PRIV_KEY_INFO(NULL, input_der, input_der_len);
     }
     if (p8inf != NULL
@@ -162,6 +148,7 @@ static void *der2key_decode_p8(const unsigned char **input_der,
         && OBJ_obj2nid(alg->algorithm) == ctx->desc->evp_type)
         key = key_from_pkcs8(p8inf, PROV_LIBCTX_OF(ctx->provctx), NULL);
     PKCS8_PRIV_KEY_INFO_free(p8inf);
+
     return key;
 }
 
@@ -188,39 +175,6 @@ static void der2key_freectx(void *vctx)
     struct der2key_ctx_st *ctx = vctx;
 
     OPENSSL_free(ctx);
-}
-
-static const OSSL_PARAM *
-der2key_gettable_params(void *provctx, const struct keytype_desc_st *desc)
-{
-    static const OSSL_PARAM gettables[] = {
-        { OSSL_DECODER_PARAM_INPUT_TYPE, OSSL_PARAM_UTF8_PTR, NULL, 0, 0 },
-        OSSL_PARAM_END,
-    };
-    static const OSSL_PARAM gettables_w_structure[] = {
-        { OSSL_DECODER_PARAM_INPUT_TYPE, OSSL_PARAM_UTF8_PTR, NULL, 0, 0 },
-        { OSSL_DECODER_PARAM_INPUT_STRUCTURE, OSSL_PARAM_UTF8_PTR, NULL, 0, 0 },
-        OSSL_PARAM_END,
-    };
-
-    return desc->structure_name != NULL ? gettables_w_structure :  gettables;
-}
-
-static int der2key_get_params(OSSL_PARAM params[],
-                              const struct keytype_desc_st *desc)
-{
-    OSSL_PARAM *p;
-
-    p = OSSL_PARAM_locate(params, OSSL_DECODER_PARAM_INPUT_TYPE);
-    if (p != NULL && !OSSL_PARAM_set_utf8_ptr(p, "DER"))
-        return 0;
-    if (desc->structure_name != NULL) {
-        p = OSSL_PARAM_locate(params, OSSL_DECODER_PARAM_INPUT_STRUCTURE);
-        if (p != NULL && !OSSL_PARAM_set_utf8_ptr(p, desc->structure_name))
-            return 0;
-    }
-
-    return 1;
 }
 
 static int der2key_check_selection(int selection,
@@ -284,12 +238,13 @@ static int der2key_decode(void *vctx, OSSL_CORE_BIO *cin, int selection,
         return 0;
     }
 
-    SET_ERR_MARK();
-    if (!read_der(ctx->provctx, cin, &der, &der_len))
+    ok = read_der(ctx->provctx, cin, &der, &der_len);
+    if (!ok)
         goto next;
 
+    ok = 0;                      /* Assume that we fail */
+
     if ((selection & OSSL_KEYMGMT_SELECT_PRIVATE_KEY) != 0) {
-        RESET_ERR_MARK();
         derp = der;
         if (ctx->desc->d2i_PKCS8 != NULL) {
             key = ctx->desc->d2i_PKCS8(NULL, &derp, der_len, ctx,
@@ -303,7 +258,6 @@ static int der2key_decode(void *vctx, OSSL_CORE_BIO *cin, int selection,
             goto next;
     }
     if (key == NULL && (selection & OSSL_KEYMGMT_SELECT_PUBLIC_KEY) != 0) {
-        RESET_ERR_MARK();
         derp = der;
         if (ctx->desc->d2i_PUBKEY != NULL)
             key = ctx->desc->d2i_PUBKEY(NULL, &derp, der_len);
@@ -313,19 +267,25 @@ static int der2key_decode(void *vctx, OSSL_CORE_BIO *cin, int selection,
             goto next;
     }
     if (key == NULL && (selection & OSSL_KEYMGMT_SELECT_ALL_PARAMETERS) != 0) {
-        RESET_ERR_MARK();
         derp = der;
         if (ctx->desc->d2i_key_params != NULL)
             key = ctx->desc->d2i_key_params(NULL, &derp, der_len);
         if (key == NULL && orig_selection != 0)
             goto next;
     }
-    RESET_ERR_MARK();
+
+    /*
+     * Last minute check to see if this was the correct type of key.  This
+     * should never lead to a fatal error, i.e. the decoding itself was
+     * correct, it was just an unexpected key type.  This is generally for
+     * classes of key types that have subtle variants, like RSA-PSS keys as
+     * opposed to plain RSA keys.
+     */
     if (key != NULL
         && ctx->desc->check_key != NULL
         && !ctx->desc->check_key(key, ctx)) {
-        CLEAR_ERR_MARK();
-        goto end;
+        ctx->desc->free_key(key);
+        key = NULL;
     }
 
     if (key != NULL && ctx->desc->adjust_key != NULL)
@@ -333,11 +293,10 @@ static int der2key_decode(void *vctx, OSSL_CORE_BIO *cin, int selection,
 
  next:
     /*
-     * Prune low-level ASN.1 parse errors from error queue, assuming
-     * that this is called by decoder_process() in a loop trying several
-     * formats.
+     * Indicated that we successfully decoded something, or not at all.
+     * Ending up "empty handed" is not an error.
      */
-    CLEAR_ERR_MARK();
+    ok = 1;
 
     /*
      * We free memory here so it's not held up during the callback, because
@@ -799,24 +758,10 @@ static void rsa_adjust(void *key, struct der2key_ctx_st *ctx)
           DO_##kind(keytype) };                                         \
                                                                         \
     static OSSL_FUNC_decoder_newctx_fn kind##_der2##keytype##_newctx;   \
-    static OSSL_FUNC_decoder_gettable_params_fn                         \
-    kind##_der2##keytype##_gettable_params;                             \
-    static OSSL_FUNC_decoder_get_params_fn                              \
-    kind##_der2##keytype##_get_params;                                  \
                                                                         \
     static void *kind##_der2##keytype##_newctx(void *provctx)           \
     {                                                                   \
         return der2key_newctx(provctx, &kind##_##keytype##_desc);       \
-    }                                                                   \
-    static const OSSL_PARAM *                                           \
-    kind##_der2##keytype##_gettable_params(void *provctx)               \
-    {                                                                   \
-        return                                                          \
-            der2key_gettable_params(provctx, &kind##_##keytype##_desc); \
-    }                                                                   \
-    static int kind##_der2##keytype##_get_params(OSSL_PARAM params[])   \
-    {                                                                   \
-        return der2key_get_params(params, &kind##_##keytype##_desc);    \
     }                                                                   \
     static int kind##_der2##keytype##_does_selection(void *provctx,     \
                                                      int selection)     \
@@ -830,10 +775,6 @@ static void rsa_adjust(void *key, struct der2key_ctx_st *ctx)
           (void (*)(void))kind##_der2##keytype##_newctx },              \
         { OSSL_FUNC_DECODER_FREECTX,                                    \
           (void (*)(void))der2key_freectx },                            \
-        { OSSL_FUNC_DECODER_GETTABLE_PARAMS,                            \
-          (void (*)(void))kind##_der2##keytype##_gettable_params },     \
-        { OSSL_FUNC_DECODER_GET_PARAMS,                                 \
-          (void (*)(void))kind##_der2##keytype##_get_params },          \
         { OSSL_FUNC_DECODER_DOES_SELECTION,                             \
           (void (*)(void))kind##_der2##keytype##_does_selection },      \
         { OSSL_FUNC_DECODER_DECODE,                                     \

@@ -521,9 +521,9 @@ never be used in production environments.  It will only work when used with
 gcc or clang and should be used in conjunction with the [no-shared](#no-shared)
 option.
 
-### no-acvp_tests
+### enable-acvp-tests
 
-Do not build support for Automated Cryptographic Validation Protocol (ACVP)
+Build support for Automated Cryptographic Validation Protocol (ACVP)
 tests.
 
 This is required for FIPS validation purposes. Certain ACVP tests require
@@ -577,6 +577,11 @@ Enabling this option demands extra care.  For any compiler flag given directly
 as configuration option, you must ensure that it's valid for both the C and
 the C++ compiler.  If not, the C++ build test will most likely break.  As an
 alternative, you can use the language specific variables, `CFLAGS` and `CXXFLAGS`.
+
+### --banner=text
+
+Use the specified text instead of the default banner at the end of
+configuration.
 
 ### no-bulk
 
@@ -705,9 +710,9 @@ for further details.
 Don't compile in filename and line number information (e.g.  for errors and
 memory allocation).
 
-### no-fips
+### enable-fips
 
-Don't compile the FIPS provider
+Build (and install) the FIPS provider
 
 ### no-fips-securitychecks
 

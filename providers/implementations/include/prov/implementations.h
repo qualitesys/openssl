@@ -249,6 +249,7 @@ extern const OSSL_DISPATCH ossl_siphash_functions[];
 extern const OSSL_DISPATCH ossl_poly1305_functions[];
 
 /* KDFs / PRFs */
+extern const OSSL_DISPATCH ossl_kdf_pbkdf1_functions[];
 extern const OSSL_DISPATCH ossl_kdf_pbkdf2_functions[];
 extern const OSSL_DISPATCH ossl_kdf_pkcs12_functions[];
 #ifndef OPENSSL_NO_SCRYPT
@@ -284,7 +285,7 @@ extern const OSSL_DISPATCH ossl_ed448_keymgmt_functions[];
 extern const OSSL_DISPATCH ossl_ec_keymgmt_functions[];
 extern const OSSL_DISPATCH ossl_kdf_keymgmt_functions[];
 extern const OSSL_DISPATCH ossl_mac_legacy_keymgmt_functions[];
-extern const OSSL_DISPATCH ossl_cossl_mac_legacy_keymgmt_functions[];
+extern const OSSL_DISPATCH ossl_cmac_legacy_keymgmt_functions[];
 #ifndef OPENSSL_NO_SM2
 extern const OSSL_DISPATCH ossl_sm2_keymgmt_functions[];
 #endif

@@ -11,11 +11,12 @@
 #include <openssl/crypto.h>
 #include "internal/cryptlib.h"
 #include "internal/conf.h"
+#include "conf_local.h"
 #include <openssl/x509.h>
 #include <openssl/asn1.h>
 #include <openssl/engine.h>
 
-#ifdef _WIN32
+#if defined(_WIN32) && !defined(__BORLANDC__)
 # define strdup _strdup
 #endif
 

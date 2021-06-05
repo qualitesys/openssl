@@ -104,6 +104,37 @@ static int x509_cb(int operation, ASN1_VALUE **pval, const ASN1_ITEM *it,
 
             if (!ossl_x509_set0_libctx(ret, old->libctx, old->propq))
                 return 0;
+            if (old->cert_info.key != NULL) {
+                EVP_PKEY *pkey = X509_PUBKEY_get0(old->cert_info.key);
+
+                if (pkey != NULL) {
+                    pkey = EVP_PKEY_dup(pkey);
+                    if (pkey == NULL) {
+                        ERR_raise(ERR_LIB_X509, ERR_R_MALLOC_FAILURE);
+                        return 0;
+                    }
+                    if (!X509_PUBKEY_set(&ret->cert_info.key, pkey)) {
+                        EVP_PKEY_free(pkey);
+                        ERR_raise(ERR_LIB_X509, ERR_R_INTERNAL_ERROR);
+                        return 0;
+                    }
+                    EVP_PKEY_free(pkey);
+                }
+            }
+        }
+        break;
+    case ASN1_OP_GET0_LIBCTX:
+        {
+            OSSL_LIB_CTX **libctx = exarg;
+
+            *libctx = ret->libctx;
+        }
+        break;
+    case ASN1_OP_GET0_PROPQ:
+        {
+            const char **propq = exarg;
+
+            *propq = ret->propq;
         }
         break;
     default:
@@ -129,10 +160,12 @@ X509 *d2i_X509(X509 **a, const unsigned char **in, long len)
 
     cert = (X509 *)ASN1_item_d2i((ASN1_VALUE **)a, in, len, (X509_it()));
     /* Only cache the extensions if the cert object was passed in */
-    if (cert != NULL && a != NULL) {
+    if (cert != NULL && a != NULL) { /* then cert == *a */
         if (!ossl_x509v3_cache_extensions(cert)) {
-            if (free_on_error)
+            if (free_on_error) {
+                *a = NULL;
                 X509_free(cert);
+            }
             cert = NULL;
         }
     }
@@ -167,7 +200,7 @@ X509 *X509_new_ex(OSSL_LIB_CTX *libctx, const char *propq)
 {
     X509 *cert = NULL;
 
-    cert = (X509 *)ASN1_item_new((X509_it()));
+    cert = (X509 *)ASN1_item_new_ex(X509_it(), libctx, propq);
     if (!ossl_x509_set0_libctx(cert, libctx, propq)) {
         X509_free(cert);
         cert = NULL;

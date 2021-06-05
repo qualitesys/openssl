@@ -117,7 +117,11 @@ Properties can be used to further specify details about an implementation:
 =item input
 
 This property is used to specify what format of input the implementation
-can decode.  OpenSSL providers recognize the following input types:
+can decode.
+
+This property is I<mandatory>.
+
+OpenSSL providers recognize the following input types:
 
 =over 4
 
@@ -142,9 +146,27 @@ An implementation with that input type decodes PVK formatted data.
 =item structure
 
 This property is used to specify the structure that the decoded data is
-expected to have. An example could be C<pkcs8>, to specify explicitly that
-the object to be decoded (presumably an asymmetric key pair, in this case)
-is wrapped in a PKCS#8 structure.
+expected to have.
+
+This property is I<optional>.
+
+Structures currently recognised by built-in decoders:
+
+=over 4
+
+=item "type-specific"
+
+Type specific structure.
+
+=item "pkcs8"
+
+Structure according to the PKCS#8 specification.
+
+=item "SubjectPublicKeyInfo"
+
+Encoding of public keys according to the Subject Public Key Info of RFC 5280.
+
+=back
 
 =back
 
@@ -210,79 +232,31 @@ The decoding functions also take an B<OSSL_PASSPHRASE_CALLBACK> function
 pointer along with a pointer to application data I<cbarg>, which should be
 used when a pass phrase prompt is needed.
 
-=head2 Decoder parameters
-
-The decoder implementation itself has parameters that can be used to
-determine how it fits in a chain of decoders:
+It's important to understand that the return value from this function is
+interpreted as follows:
 
 =over 4
 
-=item "input-type" (B<OSSL_DECODER_PARAM_INPUT_TYPE>) <UTF8 string>
+=item True (1)
 
-This is used to specify the input type for a decoder implementation.
+This means "carry on the decoding process", and is meaningful even though
+this function couldn't decode the input into anything, because there may be
+another decoder implementation that can decode it into something.
 
-This parameter is I<mandatory>.
+The I<data_cb> callback should never be called when this function can't
+decode the input into anything.
 
-Input types currently recognized by built-in decoders:
+=item False (0)
 
-=over 4
-
-=item "DER"
-
-ASN.1 DER encoded binary data
-
-=item "PEM"
-
-Base64 encoded data with PEM headers
-
-=item "MSBLOB"
-
-Private or public key encoding according to Microsoft specification
-
-=item "PVK"
-
-Encrypted private key encoding according to Microsoft specification
+This means "stop the decoding process", and is meaningful when the input
+could be decoded into some sort of object that this function understands,
+but further treatment of that object results into errors that won't be
+possible for some other decoder implementation to get a different result.
 
 =back
 
-=for comment If we had functionality to get the value of a specific property
-in a set of properties, it would be possible to determine the input type
-from the C<input> property.
-
-=item "input-structure" (B<OSSL_ENCODER_PARAM_INPUT_STRUCTURE>) <UTF8 string>
-
-This is used to specify the outermost input structure for a decoder
+The conditions to stop the decoding process are at the discretion of the
 implementation.
-
-For example, an input of type "DER" for a key pair could be structured
-using PKCS#8, or a key type specific structure, such as PKCS#1 for RSA
-keys.
-
-This parameter is I<optional>.
-
-Input structures currently recognized by built-in decoders:
-
-=over 4
-
-=item "type-specific"
-
-Type specific structure.
-
-=item "PKCS8"
-
-Structure according to the PKCS#8 specification.
-
-=item "SubjectPublicKeyInfo"
-
-Encoding of public keys according to the Subject Public Key Info of RFC 5280.
-
-=back
-
-=for comment If we had functionality to get the value of a specific property
-in a set of properties, it would be possible to determine the input
-structure from the C<structure> property.
-
-=back
 
 =head2 Decoder operation parameters
 
@@ -315,7 +289,8 @@ constant B<OSSL_PARAM> elements.
 OSSL_FUNC_decoder_does_selection() returns 1 if the decoder implementation
 supports any of the I<selection> bits, otherwise 0.
 
-OSSL_FUNC_decoder_decode() returns 1 on success, or 0 on failure.
+OSSL_FUNC_decoder_decode() returns 1 to signal that the decoding process
+should continue, or 0 to signal that it should stop.
 
 =head1 SEE ALSO
 
