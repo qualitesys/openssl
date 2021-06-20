@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/providers/common/bio_prov.c.html" 
- , "texte" : "File providers/common/bio_prov.c 3 rule violations " 
- , "fic2"  : "./qc/providers/common/bio_prov.c.xml" 
+   "fic1"  : "./qc/engines/e_padlock.c.html" 
+ , "texte" : "File engines/e_padlock.c 1 rule violations " 
+ , "fic2"  : "./qc/engines/e_padlock.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,39 +40,18 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "MAJOR"
- , "c2" : "QC-CPPCWE481"
- , "c3" : "Assigning instead of comparing"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "02313"
- , "c1link" : "./qc/providers/common/bio_prov.c.html#2313"
+   "c1" : "02485"
+ , "c1link" : "./qc/engines/e_padlock.c.html#2485"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02313] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07104"
- , "c1link" : "./qc/providers/common/bio_prov.c.html#7104"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07104] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07118"
- , "c1link" : "./qc/providers/common/bio_prov.c.html#7118"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07118] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[02485] A pointer is declared but not initialized"
 }} 
 ]
 };

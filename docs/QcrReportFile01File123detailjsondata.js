@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/ssl/statem/statem_srvr.c.html" 
- , "texte" : "File ssl/statem/statem_srvr.c 245 rule violations " 
- , "fic2"  : "./qc/ssl/statem/statem_srvr.c.xml" 
+   "fic1"  : "./qc/ssl/statem/statem_lib.c.html" 
+ , "texte" : "File ssl/statem/statem_lib.c 121 rule violations " 
+ , "fic2"  : "./qc/ssl/statem/statem_lib.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,13 +42,20 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "20"
+ , "c4" : "12"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000006"
  , "c3" : "Risk of infinite while loop"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000008"
+ , "c3" : "Suspicious bitwise operation"
  , "c4" : "1"
 }}
 ,
@@ -56,1759 +63,884 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "13"
+ , "c4" : "20"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "2"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-CPP000002"
- , "c3" : "Avoid multiple switch labels with default case in switch case"
- , "c4" : "2"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000007"
  , "c3" : "goto statement"
- , "c4" : "165"
+ , "c4" : "35"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPPCWE481"
  , "c3" : "Assigning instead of comparing"
- , "c4" : "9"
+ , "c4" : "12"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "33"
+ , "c4" : "35"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "02317"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#2317"
+   "c1" : "02699"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#2699"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02317] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[02699] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16971"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#16971"
+   "c1" : "17002"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#17002"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16971] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17002] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17012"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#17012"
+   "c1" : "17043"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#17043"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17012] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17043] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17054"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#17054"
+   "c1" : "17085"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#17085"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17054] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17085] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17089"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#17089"
+   "c1" : "17120"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#17120"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17089] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17120] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17273"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#17273"
+   "c1" : "17304"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#17304"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17273] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[17304] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17273"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#17273"
+   "c1" : "17304"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#17304"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17273] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17304] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17295"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#17295"
+   "c1" : "17326"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#17326"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17295] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[17326] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17295"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#17295"
+   "c1" : "17326"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#17326"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17295] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17326] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17314"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#17314"
+   "c1" : "17345"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#17345"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17314] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[17345] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17314"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#17314"
+   "c1" : "17345"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#17345"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17314] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17345] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17337"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#17337"
+   "c1" : "17368"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#17368"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17337] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[17368] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17337"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#17337"
+   "c1" : "17368"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#17368"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17337] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17368] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17357"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#17357"
+   "c1" : "17388"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#17388"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17357] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[17388] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17357"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#17357"
+   "c1" : "17388"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#17388"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17357] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17388] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20550"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#20550"
+   "c1" : "20504"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#20504"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[20550] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[20504] The expression md5sha1_needed applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20551"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#20551"
+   "c1" : "20531"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#20531"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[20551] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[20531] The expression  ! ok applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20562"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#20562"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20562] The expression ok applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20565"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#20565"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20565] The expression  ! ok applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20705"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#20705"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[20705] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20743"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#20743"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[20743] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20744"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#20744"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[20744] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20766"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#20766"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20766] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20780"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#20780"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20780] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20794"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#20794"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20794] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20800"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#20800"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20800] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20809"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#20809"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20809] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20833"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#20833"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20833] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20845"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#20845"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20845] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20868"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#20868"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20868] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20882"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#20882"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20882] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20899"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#20899"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20899] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20913"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#20913"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20913] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20938"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#20938"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20938] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20944"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#20944"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20944] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20963"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#20963"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[20963] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20963"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#20963"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[20963] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20965"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#20965"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[20965] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20974"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#20974"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[20974] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20981"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#20981"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[20981] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21000"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21000"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[21000] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21015"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21015"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[21015] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21033"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21033"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[21033] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21045"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21045"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[21045] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21049"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21049"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[21049] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21057"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21057"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[21057] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21066"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21066"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[21066] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21074"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21074"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21074] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21074"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21074"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[21074] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21070"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21070"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[21070] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21078"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21078"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21078] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21078"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21078"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[21078] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21102"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21102"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[21102] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21111"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21111"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[21111] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21116"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21116"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[21116] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21123"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21123"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21123] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21123"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21123"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[21123] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21119"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21119"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[21119] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21127"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21127"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21127] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21127"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21127"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[21127] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21151"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21151"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[21151] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "21159"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#21159"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21159"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21159] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[21159] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21288"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#21288"
+   "c1" : "21169"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21169"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21288] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000007[21169] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22351"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22351"
+   "c1" : "21190"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21190"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22351] goto statement jump to err"
+ , "c3" : "QC-CPP000007[21190] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22375"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22375"
+   "c1" : "21203"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21203"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22375] goto statement jump to err"
+ , "c3" : "QC-CPP000007[21203] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22394"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22394"
+   "c1" : "21211"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21211"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22394] goto statement jump to err"
+ , "c3" : "QC-CPP000007[21211] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22409"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22409"
+   "c1" : "21221"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21221"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22409] goto statement jump to err"
+ , "c3" : "QC-CPP000007[21221] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22419"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22419"
+   "c1" : "21246"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21246"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22419] goto statement jump to err"
+ , "c3" : "QC-CPP000014[21246] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22440"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22440"
+   "c1" : "21406"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21406"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22440] goto statement jump to err"
+ , "c3" : "QC-CPP000014[21406] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22449"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22449"
+   "c1" : "21638"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21638"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22449] goto statement jump to err"
+ , "c3" : "QC-CPP000014[21638] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22463"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22463"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22463] goto statement jump to err"
+   "c1" : "21638"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21638"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[21638] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22485"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22485"
+   "c1" : "21677"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21677"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22485] goto statement jump to err"
+ , "c3" : "QC-CPP000014[21677] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22501"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22501"
+   "c1" : "21678"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21678"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22501] goto statement jump to err"
+ , "c3" : "QC-CPP000014[21678] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21684"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21684"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[21684] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21862"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21862"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21862] The expression clearbufs applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21897"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#21897"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21897] The expression cleanuphand applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "22024"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22024"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[22024] The expression  ! stop applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "22037"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22037"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[22037] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22037"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22037"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22037] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22077"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22077"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[22077] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22113"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22113"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[22113] The expression skip_message applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "22134"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22134"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[22134] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22134"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22134"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[22134] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22134"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22134"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[22134] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22157"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22157"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[22157] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22157"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22157"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[22157] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22280"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22280"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[22280] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22305"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22305"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[22305] The expression  ! dtls applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "22405"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22405"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000008[22405] Suspicious bitwise operation with value 0, result is a|0 = a"
 }} 
 ,
 { "ligne" : {
    "c1" : "22511"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22511"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22511"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22511] goto statement jump to err"
+ , "c3" : "QC-CPP000014[22511] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22521"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22521"
+   "c1" : "22512"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22512"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22521] goto statement jump to err"
+ , "c3" : "QC-CPP000014[22512] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22542"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22542"
+   "c1" : "22553"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22553"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22542] goto statement jump to err"
+ , "c3" : "QC-CPP000014[22553] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22551"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22551"
+   "c1" : "22554"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22554"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22551] goto statement jump to err"
+ , "c3" : "QC-CPP000014[22554] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22565"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22565"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22565] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22578"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22578"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22578] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22587"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22587"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22587] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22619"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22619"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[22619] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22654"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22654"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22654] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22647"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22647"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000002[22647] Avoid multiple switch labels with default case in switch case"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22676"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22676"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22676] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22694"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22694"
+   "c1" : "22611"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22611"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22694] The expression protverr applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[22611] The expression valid_tls applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "22697"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22697"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[22697] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22704"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22704"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22704] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22714"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22714"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22714] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22733"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22733"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22733] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22745"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22745"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22745] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22758"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22758"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22758] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22770"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22770"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22770] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22791"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22791"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22791] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22809"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22809"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22809] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22829"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22829"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22829] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22847"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22847"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22847] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22861"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22861"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22861] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22869"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22869"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22869] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22878"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22878"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22878] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22883"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22883"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22883] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22906"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22906"
+   "c1" : "22616"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22616"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22906] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[22616] The expression valid_dtls applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "22906"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22906"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[22906] The expression 0 is invariable, always true or false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22936"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22936"
+   "c1" : "22657"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22657"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22936] goto statement jump to err"
+ , "c3" : "QC-CPP000014[22657] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22902"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22902"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[22902] The condition of do while loop is constant, infinite loop risk : 0"
+   "c1" : "22658"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22658"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[22658] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22660"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22660"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[22660] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22759"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22759"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[22759] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22782"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22782"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[22782] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22783"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22783"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[22783] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22937"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22937"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[22937] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "22938"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22938"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22938"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[22938] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22939"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22939"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[22939] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22950"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22950"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[22950] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22970"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#22970"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[22970] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23000"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#23000"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22938] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[23000] The expression  ! hole applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "22938"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22938"
+   "c1" : "23014"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#23014"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[23014] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23014"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#23014"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[23014] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23177"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#23177"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[23177] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23186"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#23186"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[23186] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23190"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#23190"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[23190] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23190"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#23190"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[23190] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23200"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#23200"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[23200] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23204"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#23204"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[23204] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23218"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#23218"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[23218] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23226"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#23226"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[23226] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23235"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#23235"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[23235] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23307"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#23307"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[23307] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23316"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#23316"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[23316] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23351"
+ , "c1link" : "./qc/ssl/statem/statem_lib.c.html#23351"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[22938] The expression 0 is invariable, always true or false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22953"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22953"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22953] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22967"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22967"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22967] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22977"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22977"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[22977] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22985"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#22985"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22985] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23040"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23040"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23040] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23074"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23074"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23074] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23091"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23091"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23091] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23112"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23112"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23112] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23126"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23126"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23126] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23149"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23149"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[23149] The expression done applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "23152"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23152"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[23152] The expression done applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "23175"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23175"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23175] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23196"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23196"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23196] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23273"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23273"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000002[23273] Avoid multiple switch labels with default case in switch case"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23294"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23294"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[23294] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23418"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23418"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[23418] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23424"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23424"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23424] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23445"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23445"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23445] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23470"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23470"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23470] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23477"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23477"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23477] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23500"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23500"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23500] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23510"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23510"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23510] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23518"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23518"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[23518] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23527"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23527"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23527] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23542"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23542"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[23542] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23542"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23542"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[23542] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23568"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23568"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[23568] The expression usetls13 applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "23678"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23678"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[23678] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23704"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23704"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23704] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23717"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23717"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23717] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23722"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23722"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[23722] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23722"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23722"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[23722] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23722"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23722"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[23722] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23752"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23752"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23752] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23779"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23779"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23779] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23794"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23794"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23794] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23803"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23803"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23803] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23815"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23815"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23815] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23829"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23829"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23829] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23852"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23852"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23852] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23866"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23866"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23866] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23878"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23878"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23878] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23890"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23890"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23890] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23902"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23902"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23902] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23956"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23956"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23956] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23970"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23970"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23970] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23990"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#23990"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[23990] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24014"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24014"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24014] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24024"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24024"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[24024] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24034"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24034"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[24034] The expression  ! res applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "24040"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24040"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24040] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24058"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24058"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24058] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24071"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24071"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24071] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24093"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24093"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24093] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24110"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24110"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[24110] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24111"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24111"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[24111] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24111"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24111"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[24111] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24111"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24111"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[24111] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24125"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24125"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24125] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24134"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24134"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24134] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24143"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24143"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24143] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24167"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24167"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24167] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24177"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24177"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24177] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24185"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24185"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24185] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24203"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24203"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24203] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24213"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24213"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[24213] The expression freer applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "24229"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24229"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[24229] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24279"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24279"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24279] goto statement jump to done"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24294"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24294"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[24294] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24425"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24425"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[24425] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24493"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24493"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24493] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24503"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24503"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24503] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24523"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24523"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24523] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24537"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24537"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24537] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24544"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24544"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24544] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24562"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24562"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[24562] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24562"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24562"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[24562] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24576"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24576"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24576] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24589"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24589"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24589] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24598"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24598"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24598] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24607"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24607"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24607] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24620"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24620"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24620] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24629"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24629"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24629] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24634"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24634"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24634] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24666"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24666"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24666] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24669"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24669"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[24669] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24684"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24684"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24684] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24696"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24696"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24696] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24710"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24710"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24710] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24719"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24719"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24719] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24725"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24725"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24725] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24745"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24745"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[24745] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24745"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24745"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[24745] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24756"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24756"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[24756] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24811"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24811"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[24811] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24822"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24822"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[24822] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24822"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24822"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[24822] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24830"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24830"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[24830] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24830"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24830"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[24830] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24886"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24886"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[24886] The expression client_pub_pkey applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "24915"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24915"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24915] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24924"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24924"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24924] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24933"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24933"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24933] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24946"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24946"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24946] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24952"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24952"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[24952] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24990"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#24990"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[24990] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25014"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25014"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25014] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25035"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25035"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25035] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25049"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25049"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25049] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25057"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25057"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25057] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25068"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25068"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25068] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25082"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25082"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25082] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25093"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25093"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25093] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25099"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25099"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25099] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25122"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25122"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25122] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25133"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25133"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25133] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25142"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25142"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25142] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25147"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25147"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25147] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25152"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25152"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25152] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25157"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25157"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25157] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25162"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25162"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25162] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25167"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25167"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25167] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25172"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25172"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25172] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25180"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25180"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25180] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25242"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25242"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[25242] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25242"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25242"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[25242] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25242"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25242"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[25242] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25263"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25263"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[25263] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25273"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25273"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25273] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25293"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25293"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25293] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25303"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25303"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25303] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25314"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25314"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25314] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25329"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25329"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25329] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25341"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25341"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25341] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25350"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25350"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25350] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25367"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25367"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25367] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25380"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25380"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25380] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25391"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25391"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25391] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25409"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25409"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25409] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25420"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25420"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25420] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25425"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25425"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25425] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25428"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25428"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[25428] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25437"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25437"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25437] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25445"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25445"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25445] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25459"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25459"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25459] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25464"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25464"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[25464] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25470"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25470"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25470] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25490"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25490"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25490] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25509"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25509"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25509] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25609"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25609"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[25609] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25624"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25624"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[25624] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25624"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25624"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[25624] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25624"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25624"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[25624] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25624"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25624"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[25624] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25624"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25624"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[25624] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25624"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25624"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[25624] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25625"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25625"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[25625] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25625"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25625"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[25625] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25627"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25627"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[25627] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25651"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25651"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25651] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25664"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25664"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25664] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25683"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25683"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25683] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25693"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25693"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25693] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25715"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25715"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25715] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25731"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25731"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25731] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25741"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25741"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25741] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25794"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25794"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25794] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25807"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25807"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25807] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25821"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25821"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25821] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25842"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25842"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25842] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25851"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25851"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25851] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25883"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25883"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25883] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25893"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25893"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25893] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25951"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25951"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25951] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25969"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25969"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25969] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25978"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25978"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25978] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25987"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#25987"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[25987] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "26005"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#26005"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[26005] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "26033"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#26033"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[26033] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "26051"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#26051"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[26051] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "26064"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#26064"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[26064] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "26069"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#26069"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[26069] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "26081"
- , "c1link" : "./qc/ssl/statem/statem_srvr.c.html#26081"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[26081] goto statement jump to err"
+ , "c3" : "QC-CPP000005[23351] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

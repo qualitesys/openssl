@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/apps/lib/app_provider.c.html" 
- , "texte" : "File apps/lib/app_provider.c 2 rule violations " 
- , "fic2"  : "./qc/apps/lib/app_provider.c.xml" 
+   "fic1"  : "./qc/apps/lib/app_params.c.html" 
+ , "texte" : "File apps/lib/app_params.c 5 rule violations " 
+ , "fic2"  : "./qc/apps/lib/app_params.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,26 +39,61 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-CPPCWE484"
+ , "c3" : "Omitted Break Statement in Switch"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
    "c1" : "01424"
- , "c1link" : "./qc/apps/lib/app_provider.c.html#1424"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#1424"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[01424] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18758"
- , "c1link" : "./qc/apps/lib/app_provider.c.html#18758"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18758] A pointer is declared but not initialized"
+   "c1" : "18757"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#18757"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-CPPCWE484[18757] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18763"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#18763"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-CPPCWE484[18763] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18769"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#18769"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-CPPCWE484[18769] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18791"
+ , "c1link" : "./qc/apps/lib/app_params.c.html#18791"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[18791] The expression show_type_number applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

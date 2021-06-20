@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/providers/legacyprov.c.html" 
- , "texte" : "File providers/legacyprov.c 4 rule violations " 
- , "fic2"  : "./qc/providers/legacyprov.c.xml" 
+   "fic1"  : "./qc/providers/common/bio_prov.c.html" 
+ , "texte" : "File providers/common/bio_prov.c 3 rule violations " 
+ , "fic2"  : "./qc/providers/common/bio_prov.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-CPPCWE481"
  , "c3" : "Assigning instead of comparing"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -55,31 +55,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03598"
- , "c1link" : "./qc/providers/legacyprov.c.html#3598"
+   "c1" : "02326"
+ , "c1link" : "./qc/providers/common/bio_prov.c.html#2326"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[03598] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[02326] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06503"
- , "c1link" : "./qc/providers/legacyprov.c.html#6503"
+   "c1" : "07118"
+ , "c1link" : "./qc/providers/common/bio_prov.c.html#7118"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06503] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[07118] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06695"
- , "c1link" : "./qc/providers/legacyprov.c.html#6695"
+   "c1" : "07132"
+ , "c1link" : "./qc/providers/common/bio_prov.c.html#7132"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[06695] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06700"
- , "c1link" : "./qc/providers/legacyprov.c.html#6700"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[06700] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07132] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

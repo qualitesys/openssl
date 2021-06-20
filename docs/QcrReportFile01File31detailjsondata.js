@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/apps/lib/engine.c.html" 
- , "texte" : "File apps/lib/engine.c 8 rule violations " 
- , "fic2"  : "./qc/apps/lib/engine.c.xml" 
+   "fic1"  : "./qc/apps/lib/columns.c.html" 
+ , "texte" : "File apps/lib/columns.c 3 rule violations " 
+ , "fic2"  : "./qc/apps/lib/columns.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,82 +39,40 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPPCWE481"
  , "c3" : "Assigning instead of comparing"
- , "c4" : "3"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "4"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "02945"
- , "c1link" : "./qc/apps/lib/engine.c.html#2945"
+   "c1" : "01804"
+ , "c1link" : "./qc/apps/lib/columns.c.html#1804"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02945] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[01804] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18699"
- , "c1link" : "./qc/apps/lib/engine.c.html#18699"
+   "c1" : "18752"
+ , "c1link" : "./qc/apps/lib/columns.c.html#18752"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18699] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[18752] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18745"
- , "c1link" : "./qc/apps/lib/engine.c.html#18745"
+   "c1" : "18761"
+ , "c1link" : "./qc/apps/lib/columns.c.html#18761"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18745] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18750"
- , "c1link" : "./qc/apps/lib/engine.c.html#18750"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18750] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18763"
- , "c1link" : "./qc/apps/lib/engine.c.html#18763"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18763] The expression debug applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "18863"
- , "c1link" : "./qc/apps/lib/engine.c.html#18863"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18863] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18933"
- , "c1link" : "./qc/apps/lib/engine.c.html#18933"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18933] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18955"
- , "c1link" : "./qc/apps/lib/engine.c.html#18955"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18955] A pointer is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[18761] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

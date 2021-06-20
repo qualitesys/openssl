@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/apps/lib/fmt.c.html" 
- , "texte" : "File apps/lib/fmt.c 0 rule violation " 
- , "fic2"  : "./qc/apps/lib/fmt.c.xml" 
+   "fic1"  : "./qc/apps/lib/engine_loader.c.html" 
+ , "texte" : "File apps/lib/engine_loader.c 3 rule violations " 
+ , "fic2"  : "./qc/apps/lib/engine_loader.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -37,5 +37,43 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data13a" : [
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "2"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {
+   "c1" : "01424"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#1424"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[01424] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18780"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#18780"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[18780] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18942"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#18942"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[18942] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+]
 };
 console.log('leListeStr 99 main end');
