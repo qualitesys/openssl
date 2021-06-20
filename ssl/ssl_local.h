@@ -593,8 +593,10 @@ struct ssl_session_st {
      */
     long verify_result;         /* only for servers */
     CRYPTO_REF_COUNT references;
-    long timeout;
-    long time;
+    time_t timeout;
+    time_t time;
+    time_t calc_timeout;
+    int timeout_ovf;
     unsigned int compress_meth; /* Need to lookup the method */
     const SSL_CIPHER *cipher;
     unsigned long cipher_id;    /* when ASN.1 loaded, this needs to be used to
@@ -634,6 +636,7 @@ struct ssl_session_st {
     unsigned char *ticket_appdata;
     size_t ticket_appdata_len;
     uint32_t flags;
+    SSL_CTX *owner;
     CRYPTO_RWLOCK *lock;
 };
 
@@ -2433,6 +2436,7 @@ __owur int ssl_cert_set_cert_store(CERT *c, X509_STORE *store, int chain,
 __owur int ssl_security(const SSL *s, int op, int bits, int nid, void *other);
 __owur int ssl_ctx_security(const SSL_CTX *ctx, int op, int bits, int nid,
                             void *other);
+int ssl_get_security_level_bits(const SSL *s, const SSL_CTX *ctx, int *levelp);
 
 __owur int ssl_cert_lookup_by_nid(int nid, size_t *pidx);
 __owur const SSL_CERT_LOOKUP *ssl_cert_lookup_by_pkey(const EVP_PKEY *pk,
@@ -2842,6 +2846,8 @@ int ssl_srp_ctx_init_intern(SSL *s);
 
 int ssl_srp_calc_a_param_intern(SSL *s);
 int ssl_srp_server_param_with_username_intern(SSL *s, int *ad);
+
+void ssl_session_calculate_timeout(SSL_SESSION* ss);
 
 # else /* OPENSSL_UNIT_TEST */
 

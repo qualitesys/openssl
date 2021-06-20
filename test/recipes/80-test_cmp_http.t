@@ -12,7 +12,7 @@ use strict;
 use warnings;
 
 use POSIX;
-use OpenSSL::Test qw/:DEFAULT with data_file data_dir srctop_dir bldtop_dir result_dir/;
+use OpenSSL::Test qw/:DEFAULT cmdstr data_file data_dir srctop_dir bldtop_dir result_dir/;
 use OpenSSL::Test::Utils;
 
 BEGIN {
@@ -133,19 +133,17 @@ sub test_cmp_http {
     $params = [ '-server', "127.0.0.1:$server_port", @$params ]
         unless grep { $_ eq '-server' } @$params;
 
-    with({ exit_checker => sub {
-        my $actual_result = shift == 0;
-        my $OK = $actual_result == $expected_result;
-        if ($faillog && !$OK) {
+    unless (is(my $actual_result = run(cmd([$path_app, @$params,])),
+               $expected_result,
+               $title)) {
+        if ($faillog) {
             my $quote_spc_empty = sub { $_ eq "" ? '""' : $_ =~ m/ / ? '"'.$_.'"' : $_ };
             my $invocation = "$path_app ".join(' ', map $quote_spc_empty->($_), @$params);
             print $faillog "$server_name $aspect \"$title\" ($i/$n)".
                 " expected=$expected_result actual=$actual_result\n";
             print $faillog "$invocation\n\n";
         }
-        return $OK; } },
-         sub { ok(run(cmd([$path_app, @$params,])),
-                  $title); });
+    }
 }
 
 sub test_cmp_http_aspect {
@@ -268,10 +266,8 @@ sub load_tests {
 
 sub start_mock_server {
     my $args = $_[0]; # optional further CLI arguments
-    my $dir = bldtop_dir("");
-    local $ENV{LD_LIBRARY_PATH} = $dir;
-    local $ENV{DYLD_LIBRARY_PATH} = $dir;
-    my $cmd = bldtop_dir($app) . " -config server.cnf $args";
+    my $cmd = cmdstr(app(['openssl', 'cmp', '-config', 'server.cnf',
+                          $args ? $args : ()]), display => 1);
     print "Current directory is ".getcwd()."\n";
     print "Launching mock server: $cmd\n";
     die "Invalid port: $server_port" unless $server_port =~ m/^\d+$/;
@@ -280,21 +276,23 @@ sub start_mock_server {
     if ($server_port == 0) {
         # Find out the actual server port
         while (<$server_fh>) {
-            print;
+            print "Server output: $_";
+            next if m/using section/;
             s/\R$//;                # Better chomp
-            next unless (/^ACCEPT/);
-            $server_port = $server_tls = $kur_port = $pbm_port = $1
-                if m/^ACCEPT\s.*?:(\d+)$/;
-            last;
+            ($server_port, $pid) = ($1, $2) if /^ACCEPT\s.*:(\d+) PID=(\d+)$/;
+            last; # Do not loop further to prevent hangs on server misbehavior
         }
     }
-    return $pid if $server_port =~ m/^(\d+)$/;
-    stop_mock_server($pid);
-    return 0;
+    unless ($server_port > 0) {
+        stop_mock_server($pid);
+        return 0;
+    }
+    $server_tls = $kur_port = $pbm_port = $server_port;
+    return $pid;
 }
 
 sub stop_mock_server {
     my $pid = $_[0];
     print "Killing mock server with pid=$pid\n";
-    kill('QUIT', $pid) if $pid;
+    kill('KILL', $pid);
 }

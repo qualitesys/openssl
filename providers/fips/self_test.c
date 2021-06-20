@@ -71,10 +71,8 @@ DEFINE_RUN_ONCE_STATIC(do_fips_self_test_init)
 #define DEP_INIT_ATTRIBUTE  static
 #define DEP_FINI_ATTRIBUTE  static
 
-#if !defined(__GNUC__)
 static void init(void);
 static void cleanup(void);
-#endif
 
 /*
  * This is the Default Entry Point (DEP) code.
@@ -105,9 +103,23 @@ BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved)
     }
     return TRUE;
 }
-#elif defined(__sun) || defined(_AIX)
+#elif defined(__sun)
 # pragma init(init)
 # pragma fini(cleanup)
+
+#elif defined(_AIX)
+void _init(void);
+void _cleanup(void);
+# pragma init(_init)
+# pragma fini(_cleanup)
+void _init(void)
+{
+    init();
+}
+void _cleanup(void)
+{
+    cleanup();
+}
 
 #elif defined(__hpux)
 # pragma init "init"

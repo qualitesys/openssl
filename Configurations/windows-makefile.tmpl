@@ -461,10 +461,10 @@ libclean:
 	-del /Q /F $(LIBS) libcrypto.* libssl.* ossl_static.pdb
 
 clean: libclean
-	-rmdir /Q /S $(HTMLDOCS1_BLDDIRS)
-	-rmdir /Q /S $(HTMLDOCS3_BLDDIRS)
-	-rmdir /Q /S $(HTMLDOCS5_BLDDIRS)
-	-rmdir /Q /S $(HTMLDOCS7_BLDDIRS)
+	-rd /Q /S $(HTMLDOCS1_BLDDIRS)
+	-rd /Q /S $(HTMLDOCS3_BLDDIRS)
+	-rd /Q /S $(HTMLDOCS5_BLDDIRS)
+	-rd /Q /S $(HTMLDOCS7_BLDDIRS)
 	{- join("\n\t", map { "-del /Q /F $_" } @PROGRAMS) -}
 	{- join("\n\t", map { "-del /Q /F $_" } @MODULES) -}
 	{- join("\n\t", map { "-del /Q /F $_" } @SCRIPTS) -}
@@ -474,7 +474,7 @@ clean: libclean
 	-del /Q /S /F engines\*.lib engines\*.exp
 	-del /Q /S /F apps\*.lib apps\*.rc apps\*.res apps\*.exp
 	-del /Q /S /F test\*.exp
-	-rmdir /Q /S test\test-runs
+	-rd /Q /S test\test-runs
 
 distclean: clean
 	-del /Q /F configdata.pm
@@ -641,11 +641,7 @@ uninstall_image_docs:
 
 # Helper targets #####################################################
 
-copy-utils: $(BLDDIR)\util\wrap.pl $(BLDDIR)\apps\openssl.cnf
-
-$(BLDDIR)\util\wrap.pl: configdata.pm
-	@if NOT EXIST "$(BLDDIR)\util" mkdir "$(BLDDIR)\util"
-	@if NOT "$(SRCDIR)"=="$(BLDDIR)" copy "$(SRCDIR)\util\$(@F)" "$(BLDDIR)\util"
+copy-utils: $(BLDDIR)\apps\openssl.cnf
 
 $(BLDDIR)\apps\openssl.cnf: configdata.pm
 	@if NOT EXIST "$(BLDDIR)\apps" mkdir "$(BLDDIR)\apps"
@@ -1007,7 +1003,7 @@ EOF
                                            "util", "dofile.pl")),
                            rel2abs($config{builddir}));
       return <<"EOF";
-$script: $sources
+$script: $sources configdata.pm
 	"\$(PERL)" "-I\$(BLDDIR)" -Mconfigdata "$dofile" \\
 	    "-o$target{build_file}" $sources > \$@
 EOF
