@@ -48,10 +48,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "02276"
- , "c1link" : "./qc/ssl/ssl_err.c.html#2276"
+   "c1" : "02283"
+ , "c1link" : "./qc/ssl/ssl_err.c.html#2283"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02276] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[02283] A pointer is declared but not initialized"
 }} 
 ]
 };

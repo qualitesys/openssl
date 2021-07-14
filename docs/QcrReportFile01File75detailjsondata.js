@@ -104,472 +104,472 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "05232"
- , "c1link" : "./qc/engines/e_afalg.c.html#5232"
+   "c1" : "05230"
+ , "c1link" : "./qc/engines/e_afalg.c.html#5230"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05232] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[05230] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17671"
- , "c1link" : "./qc/engines/e_afalg.c.html#17671"
+   "c1" : "17664"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17664"
  , "c2" : "MINOR"
- , "c3" : "QC-CPP000013[17671] Inline assembly code"
+ , "c3" : "QC-CPP000013[17664] Inline assembly code"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17679"
- , "c1link" : "./qc/engines/e_afalg.c.html#17679"
+   "c1" : "17672"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17672"
  , "c2" : "MINOR"
- , "c3" : "QC-CPP000013[17679] Inline assembly code"
+ , "c3" : "QC-CPP000013[17672] Inline assembly code"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18093"
- , "c1link" : "./qc/engines/e_afalg.c.html#18093"
+   "c1" : "18086"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18086"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18093] The expression  ! error_loaded applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18086] The expression  ! error_loaded applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18104"
- , "c1link" : "./qc/engines/e_afalg.c.html#18104"
+   "c1" : "18097"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18097"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18104] The expression error_loaded applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18097] The expression error_loaded applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18284"
- , "c1link" : "./qc/engines/e_afalg.c.html#18284"
+   "c1" : "18277"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18277"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18284] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[18277] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18285"
- , "c1link" : "./qc/engines/e_afalg.c.html#18285"
+   "c1" : "18278"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18278"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18285] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[18278] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18293"
- , "c1link" : "./qc/engines/e_afalg.c.html#18293"
+   "c1" : "18286"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18286"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18293] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18286] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18318"
- , "c1link" : "./qc/engines/e_afalg.c.html#18318"
+   "c1" : "18311"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18311"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[18318] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000006[18311] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18326"
- , "c1link" : "./qc/engines/e_afalg.c.html#18326"
+   "c1" : "18319"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18319"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18326] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18319] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18326"
- , "c1link" : "./qc/engines/e_afalg.c.html#18326"
+   "c1" : "18319"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18319"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18326] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[18319] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18359"
- , "c1link" : "./qc/engines/e_afalg.c.html#18359"
+   "c1" : "18352"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18352"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[18359] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000006[18352] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18367"
- , "c1link" : "./qc/engines/e_afalg.c.html#18367"
+   "c1" : "18360"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18360"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18367] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18360] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18367"
- , "c1link" : "./qc/engines/e_afalg.c.html#18367"
+   "c1" : "18360"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18360"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18367] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[18360] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18385"
- , "c1link" : "./qc/engines/e_afalg.c.html#18385"
+   "c1" : "18378"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18378"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[18385] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000006[18378] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18393"
- , "c1link" : "./qc/engines/e_afalg.c.html#18393"
+   "c1" : "18386"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18386"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18393] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18386] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18393"
- , "c1link" : "./qc/engines/e_afalg.c.html#18393"
+   "c1" : "18386"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18386"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18393] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[18386] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18411"
- , "c1link" : "./qc/engines/e_afalg.c.html#18411"
+   "c1" : "18404"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18404"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18411] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[18404] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18451"
- , "c1link" : "./qc/engines/e_afalg.c.html#18451"
+   "c1" : "18444"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18444"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[18451] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000006[18444] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18459"
- , "c1link" : "./qc/engines/e_afalg.c.html#18459"
+   "c1" : "18452"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18452"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18459] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18452] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18459"
- , "c1link" : "./qc/engines/e_afalg.c.html#18459"
+   "c1" : "18452"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18452"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18459] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[18452] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18488"
- , "c1link" : "./qc/engines/e_afalg.c.html#18488"
+   "c1" : "18481"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18481"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[18488] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000006[18481] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18496"
- , "c1link" : "./qc/engines/e_afalg.c.html#18496"
+   "c1" : "18489"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18489"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18496] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18489] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18496"
- , "c1link" : "./qc/engines/e_afalg.c.html#18496"
+   "c1" : "18489"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18489"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18496] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[18489] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18516"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18516"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[18516] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
    "c1" : "18524"
  , "c1link" : "./qc/engines/e_afalg.c.html#18524"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[18524] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000011[18524] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18532"
- , "c1link" : "./qc/engines/e_afalg.c.html#18532"
+   "c1" : "18524"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18524"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18532] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[18524] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18532"
- , "c1link" : "./qc/engines/e_afalg.c.html#18532"
+   "c1" : "18543"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18543"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18532] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000006[18543] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
    "c1" : "18551"
  , "c1link" : "./qc/engines/e_afalg.c.html#18551"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[18551] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000011[18551] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18559"
- , "c1link" : "./qc/engines/e_afalg.c.html#18559"
+   "c1" : "18551"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18551"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18559] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[18551] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18559"
- , "c1link" : "./qc/engines/e_afalg.c.html#18559"
+   "c1" : "18558"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18558"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18559] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000011[18558] The expression  ! done applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18566"
- , "c1link" : "./qc/engines/e_afalg.c.html#18566"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18566] The expression  ! done applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "18607"
- , "c1link" : "./qc/engines/e_afalg.c.html#18607"
+   "c1" : "18599"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18599"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18607] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[18599] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18647"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18647"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[18647] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
    "c1" : "18655"
  , "c1link" : "./qc/engines/e_afalg.c.html#18655"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[18655] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000011[18655] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18663"
- , "c1link" : "./qc/engines/e_afalg.c.html#18663"
+   "c1" : "18655"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18655"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18663] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[18655] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18663"
- , "c1link" : "./qc/engines/e_afalg.c.html#18663"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18663] The expression 0 is invariable, always true or false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18676"
- , "c1link" : "./qc/engines/e_afalg.c.html#18676"
+   "c1" : "18668"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18668"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18676] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18668] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18689"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18689"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[18689] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
    "c1" : "18697"
  , "c1link" : "./qc/engines/e_afalg.c.html#18697"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[18697] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000011[18697] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18705"
- , "c1link" : "./qc/engines/e_afalg.c.html#18705"
+   "c1" : "18697"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18697"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18705] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[18697] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18705"
- , "c1link" : "./qc/engines/e_afalg.c.html#18705"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18705] The expression 0 is invariable, always true or false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18707"
- , "c1link" : "./qc/engines/e_afalg.c.html#18707"
+   "c1" : "18699"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18699"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18707] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18699] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18704"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18704"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[18704] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
    "c1" : "18712"
  , "c1link" : "./qc/engines/e_afalg.c.html#18712"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[18712] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000011[18712] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18720"
- , "c1link" : "./qc/engines/e_afalg.c.html#18720"
+   "c1" : "18712"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18712"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18720] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[18712] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18720"
- , "c1link" : "./qc/engines/e_afalg.c.html#18720"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18720] The expression 0 is invariable, always true or false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18722"
- , "c1link" : "./qc/engines/e_afalg.c.html#18722"
+   "c1" : "18714"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18714"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18722] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18714] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18723"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18723"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[18723] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
    "c1" : "18731"
  , "c1link" : "./qc/engines/e_afalg.c.html#18731"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[18731] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000011[18731] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18739"
- , "c1link" : "./qc/engines/e_afalg.c.html#18739"
+   "c1" : "18731"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18731"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18739] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[18731] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18739"
- , "c1link" : "./qc/engines/e_afalg.c.html#18739"
+   "c1" : "18733"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18733"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18733] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18743"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18743"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[18743] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18752"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18752"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[18752] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18830"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18830"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18739] The expression 0 is invariable, always true or false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18741"
- , "c1link" : "./qc/engines/e_afalg.c.html#18741"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18741] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18751"
- , "c1link" : "./qc/engines/e_afalg.c.html#18751"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18751] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18760"
- , "c1link" : "./qc/engines/e_afalg.c.html#18760"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18760] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000006[18830] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
    "c1" : "18838"
  , "c1link" : "./qc/engines/e_afalg.c.html#18838"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[18838] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000011[18838] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18846"
- , "c1link" : "./qc/engines/e_afalg.c.html#18846"
+   "c1" : "18838"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18838"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18846] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[18838] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18846"
- , "c1link" : "./qc/engines/e_afalg.c.html#18846"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18846] The expression 0 is invariable, always true or false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18866"
- , "c1link" : "./qc/engines/e_afalg.c.html#18866"
+   "c1" : "18858"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18858"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18866] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[18858] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18867"
- , "c1link" : "./qc/engines/e_afalg.c.html#18867"
+   "c1" : "18859"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18859"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18867] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[18859] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18917"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18917"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[18917] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18918"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18918"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18918] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18921"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18921"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18921] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "18925"
  , "c1link" : "./qc/engines/e_afalg.c.html#18925"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18925] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[18925] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18926"
- , "c1link" : "./qc/engines/e_afalg.c.html#18926"
+   "c1" : "18944"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18944"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18926] goto statement jump to err"
+ , "c3" : "QC-CPP000014[18944] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18929"
- , "c1link" : "./qc/engines/e_afalg.c.html#18929"
+   "c1" : "19010"
+ , "c1link" : "./qc/engines/e_afalg.c.html#19010"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18929] goto statement jump to err"
+ , "c3" : "QC-CPP000014[19010] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18933"
- , "c1link" : "./qc/engines/e_afalg.c.html#18933"
+   "c1" : "19084"
+ , "c1link" : "./qc/engines/e_afalg.c.html#19084"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18933] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[19084] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18952"
- , "c1link" : "./qc/engines/e_afalg.c.html#18952"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18952] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19018"
- , "c1link" : "./qc/engines/e_afalg.c.html#19018"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19018] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19092"
- , "c1link" : "./qc/engines/e_afalg.c.html#19092"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19092] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19103"
- , "c1link" : "./qc/engines/e_afalg.c.html#19103"
+   "c1" : "19095"
+ , "c1link" : "./qc/engines/e_afalg.c.html#19095"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[19103] Suspicious bitwise operation with value 0, result is a|0 = a"
+ , "c3" : "QC-CPP000008[19095] Suspicious bitwise operation with value 0, result is a|0 = a"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19143"
- , "c1link" : "./qc/engines/e_afalg.c.html#19143"
+   "c1" : "19135"
+ , "c1link" : "./qc/engines/e_afalg.c.html#19135"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[19143] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[19135] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19199"
- , "c1link" : "./qc/engines/e_afalg.c.html#19199"
+   "c1" : "19191"
+ , "c1link" : "./qc/engines/e_afalg.c.html#19191"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19199] The expression  ! afalg_chk_platform() applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19191] The expression  ! afalg_chk_platform() applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19208"
- , "c1link" : "./qc/engines/e_afalg.c.html#19208"
+   "c1" : "19200"
+ , "c1link" : "./qc/engines/e_afalg.c.html#19200"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19208] goto statement jump to skip_cbs"
+ , "c3" : "QC-CPP000007[19200] goto statement jump to skip_cbs"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19217"
- , "c1link" : "./qc/engines/e_afalg.c.html#19217"
+   "c1" : "19209"
+ , "c1link" : "./qc/engines/e_afalg.c.html#19209"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19217] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19209] A pointer is declared but not initialized"
 }} 
 ]
 };

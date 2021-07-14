@@ -62,52 +62,52 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "01424"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#1424"
+   "c1" : "01431"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#1431"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01424] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[01431] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18744"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#18744"
+   "c1" : "18736"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#18736"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18744] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[18736] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18745"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#18745"
+   "c1" : "18737"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#18737"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18745] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[18737] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18773"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#18773"
+   "c1" : "18765"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#18765"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18773] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[18765] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18788"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#18788"
+   "c1" : "18780"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#18780"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18788] The expression last applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18780] The expression last applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18799"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#18799"
+   "c1" : "18791"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#18791"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18799] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[18791] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18853"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#18853"
+   "c1" : "18845"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#18845"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18853] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18845] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

@@ -55,31 +55,31 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "02656"
- , "c1link" : "./qc/apps/lib/apps_ui.c.html#2656"
+   "c1" : "02663"
+ , "c1link" : "./qc/apps/lib/apps_ui.c.html#2663"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02656] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[02663] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13557"
- , "c1link" : "./qc/apps/lib/apps_ui.c.html#13557"
+   "c1" : "13554"
+ , "c1link" : "./qc/apps/lib/apps_ui.c.html#13554"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13557] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[13554] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13570"
- , "c1link" : "./qc/apps/lib/apps_ui.c.html#13570"
+   "c1" : "13567"
+ , "c1link" : "./qc/apps/lib/apps_ui.c.html#13567"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13570] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[13567] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13572"
- , "c1link" : "./qc/apps/lib/apps_ui.c.html#13572"
+   "c1" : "13569"
+ , "c1link" : "./qc/apps/lib/apps_ui.c.html#13569"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13572] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[13569] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

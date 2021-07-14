@@ -48,10 +48,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "02586"
- , "c1link" : "./qc/engines/e_capi.c.html#2586"
+   "c1" : "02588"
+ , "c1link" : "./qc/engines/e_capi.c.html#2588"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02586] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[02588] A pointer is declared but not initialized"
 }} 
 ]
 };

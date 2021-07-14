@@ -90,150 +90,206 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "02317"
- , "c1link" : "./qc/ssl/t1_enc.c.html#2317"
+   "c1" : "02324"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#2324"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02317] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[02324] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17009"
- , "c1link" : "./qc/ssl/t1_enc.c.html#17009"
+   "c1" : "17006"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#17006"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17009] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17006] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17050"
- , "c1link" : "./qc/ssl/t1_enc.c.html#17050"
+   "c1" : "17047"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#17047"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17050] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17047] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17092"
- , "c1link" : "./qc/ssl/t1_enc.c.html#17092"
+   "c1" : "17089"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#17089"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17092] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17089] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17127"
- , "c1link" : "./qc/ssl/t1_enc.c.html#17127"
+   "c1" : "17124"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#17124"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17127] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17124] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17311"
- , "c1link" : "./qc/ssl/t1_enc.c.html#17311"
+   "c1" : "17308"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#17308"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17311] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[17308] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17311"
- , "c1link" : "./qc/ssl/t1_enc.c.html#17311"
+   "c1" : "17308"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#17308"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17311] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17308] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17333"
- , "c1link" : "./qc/ssl/t1_enc.c.html#17333"
+   "c1" : "17330"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#17330"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17333] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[17330] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17333"
- , "c1link" : "./qc/ssl/t1_enc.c.html#17333"
+   "c1" : "17330"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#17330"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17333] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17330] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17352"
- , "c1link" : "./qc/ssl/t1_enc.c.html#17352"
+   "c1" : "17349"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#17349"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17352] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[17349] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17352"
- , "c1link" : "./qc/ssl/t1_enc.c.html#17352"
+   "c1" : "17349"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#17349"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17352] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17349] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17375"
- , "c1link" : "./qc/ssl/t1_enc.c.html#17375"
+   "c1" : "17372"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#17372"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17375] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[17372] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17375"
- , "c1link" : "./qc/ssl/t1_enc.c.html#17375"
+   "c1" : "17372"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#17372"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17375] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17372] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17395"
- , "c1link" : "./qc/ssl/t1_enc.c.html#17395"
+   "c1" : "17392"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#17392"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17395] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[17392] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17395"
- , "c1link" : "./qc/ssl/t1_enc.c.html#17395"
+   "c1" : "17392"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#17392"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17395] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17392] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20257"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20257"
+   "c1" : "20254"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20254"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20257] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[20254] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20264"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20264"
+   "c1" : "20261"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20261"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20264] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[20261] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20272"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20272"
+   "c1" : "20269"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20269"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20272] The expression fatal applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20269] The expression fatal applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20292"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20292"
+   "c1" : "20289"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20289"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20292] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20289] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20300"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20300"
+   "c1" : "20297"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20297"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20300] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20297] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20324"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20324"
+   "c1" : "20321"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20321"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20324] The expression fatal applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20321] The expression fatal applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20415"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20415"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[20415] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20415"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20415"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[20415] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20415"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20415"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[20415] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20416"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20416"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[20416] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20416"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20416"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[20416] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20416"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20416"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[20416] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20416"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20416"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[20416] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20417"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20417"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[20417] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -241,48 +297,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/t1_enc.c.html#20418"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[20418] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20418"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20418"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20418] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20418"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20418"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[20418] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20419"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20419"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20419] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20419"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20419"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20419] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20419"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20419"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20419] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20419"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20419"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[20419] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -293,17 +307,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20421"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20421"
+   "c1" : "20422"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20422"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20421] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[20422] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20423"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20423"
+   "c1" : "20424"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20424"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20423] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[20424] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -314,115 +328,122 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20427"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20427"
+   "c1" : "20426"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20426"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20427] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[20426] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20428"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20428"
+   "c1" : "20459"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20459"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20428] A pointer is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[20459] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20429"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20429"
+   "c1" : "20469"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20469"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20429] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000007[20469] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20462"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20462"
+   "c1" : "20492"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20492"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20462] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[20492] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20472"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20472"
+   "c1" : "20518"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20518"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20472] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20518] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20495"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20495"
+   "c1" : "20551"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20551"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20495] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[20551] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20521"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20521"
+   "c1" : "20561"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20561"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20521] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20561] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20554"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20554"
+   "c1" : "20576"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20576"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20554] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[20576] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20564"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20564"
+   "c1" : "20595"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20595"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20564] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20595] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20579"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20579"
+   "c1" : "20622"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20622"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20579] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20622] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20598"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20598"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20598] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20625"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20625"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20625] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20638"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20638"
+   "c1" : "20635"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20635"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20638] The expression reuse_dd applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20635] The expression reuse_dd applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20642"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20642"
+   "c1" : "20639"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20639"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20642] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20639] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20671"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20671"
+   "c1" : "20668"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20668"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20671] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20668] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20716"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20716"
+   "c1" : "20713"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20713"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20716] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20713] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20722"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20722"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20722] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20722"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20722"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20722] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20718"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20718"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20718] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
@@ -440,94 +461,101 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20721"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20721"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[20721] The condition of do while loop is constant, infinite loop risk : 0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20728"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20728"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20728] The expression 0 applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "20728"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20728"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[20728] The expression 0 is invariable, always true or false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20747"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20747"
+   "c1" : "20744"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20744"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20747] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20744] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20798"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20798"
+   "c1" : "20795"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20795"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20798] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20795] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20811"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20811"
+   "c1" : "20808"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20808"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20811] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20808] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20824"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20824"
+   "c1" : "20821"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20821"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20824] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20821] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20833"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20833"
+   "c1" : "20830"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20830"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20833] goto statement jump to err"
+ , "c3" : "QC-CPP000007[20830] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20842"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20842"
+   "c1" : "20839"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20839"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20842] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20839] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20842"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20842"
+   "c1" : "20839"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20839"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[20842] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[20839] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20838"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20838"
+   "c1" : "20835"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20835"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[20838] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000006[20835] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20847"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20847"
+   "c1" : "20844"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20844"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20847] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20844] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20847"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20847"
+   "c1" : "20844"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20844"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[20847] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[20844] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20853"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20853"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[20853] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20853"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20853"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[20853] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20854"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20854"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[20854] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20855"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20855"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[20855] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -538,87 +566,80 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20856"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20856"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[20856] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20857"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20857"
+   "c1" : "20883"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20883"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20857] A pointer is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[20883] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20858"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20858"
+   "c1" : "20893"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20893"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20858] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000007[20893] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20859"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20859"
+   "c1" : "20903"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20903"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20903] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20903"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20903"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20903] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20899"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20899"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20899] The condition of do while loop is constant, infinite loop risk : 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20913"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20913"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20913] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20913"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20913"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20913] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20917"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20917"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20859] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000007[20917] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20886"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20886"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20886] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20896"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20896"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20896] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20906"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20906"
+   "c1" : "20924"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20924"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20906] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20924] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20906"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20906"
+   "c1" : "20924"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#20924"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[20906] The expression 0 is invariable, always true or false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20902"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20902"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[20902] The condition of do while loop is constant, infinite loop risk : 0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20916"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20916"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20916] The expression 0 applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "20916"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20916"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[20916] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[20924] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
    "c1" : "20920"
  , "c1link" : "./qc/ssl/t1_enc.c.html#20920"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20920] goto statement jump to err"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20920] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
@@ -636,24 +657,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20923"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20923"
+   "c1" : "21017"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#21017"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[20923] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000011[21017] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20930"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20930"
+   "c1" : "21017"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#21017"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20930] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[21017] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20930"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20930"
+   "c1" : "21013"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#21013"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[20930] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000006[21013] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
@@ -671,87 +692,73 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "21016"
- , "c1link" : "./qc/ssl/t1_enc.c.html#21016"
+   "c1" : "21071"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#21071"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[21016] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000011[21071] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21023"
- , "c1link" : "./qc/ssl/t1_enc.c.html#21023"
+   "c1" : "21071"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#21071"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21023] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[21071] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21023"
- , "c1link" : "./qc/ssl/t1_enc.c.html#21023"
+   "c1" : "21067"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#21067"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21023] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000006[21067] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21074"
- , "c1link" : "./qc/ssl/t1_enc.c.html#21074"
+   "c1" : "21082"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#21082"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21074] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21082] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21074"
- , "c1link" : "./qc/ssl/t1_enc.c.html#21074"
+   "c1" : "21082"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#21082"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21074] The expression 0 is invariable, always true or false"
+ , "c3" : "QC-CPP000012[21082] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21070"
- , "c1link" : "./qc/ssl/t1_enc.c.html#21070"
+   "c1" : "21093"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#21093"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[21070] The condition of do while loop is constant, infinite loop risk : 0"
+ , "c3" : "QC-CPP000005[21093] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21085"
- , "c1link" : "./qc/ssl/t1_enc.c.html#21085"
+   "c1" : "21107"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#21107"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21085] The expression 0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21107] The expression use_context applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21085"
- , "c1link" : "./qc/ssl/t1_enc.c.html#21085"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21085] The expression 0 is invariable, always true or false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21096"
- , "c1link" : "./qc/ssl/t1_enc.c.html#21096"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[21096] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21110"
- , "c1link" : "./qc/ssl/t1_enc.c.html#21110"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21110] The expression use_context applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "21120"
- , "c1link" : "./qc/ssl/t1_enc.c.html#21120"
+   "c1" : "21117"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#21117"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21120] goto statement jump to err2"
+ , "c3" : "QC-CPP000007[21117] goto statement jump to err2"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21129"
- , "c1link" : "./qc/ssl/t1_enc.c.html#21129"
+   "c1" : "21126"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#21126"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21129] The expression use_context applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21126] The expression use_context applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21147"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#21147"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[21147] goto statement jump to err1"
 }} 
 ,
 { "ligne" : {
@@ -783,24 +790,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "21162"
- , "c1link" : "./qc/ssl/t1_enc.c.html#21162"
+   "c1" : "21186"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#21186"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21162] goto statement jump to err1"
+ , "c3" : "QC-CPP000007[21186] goto statement jump to ret"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21189"
- , "c1link" : "./qc/ssl/t1_enc.c.html#21189"
+   "c1" : "21194"
+ , "c1link" : "./qc/ssl/t1_enc.c.html#21194"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21189] goto statement jump to ret"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21197"
- , "c1link" : "./qc/ssl/t1_enc.c.html#21197"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21197] goto statement jump to ret"
+ , "c3" : "QC-CPP000007[21194] goto statement jump to ret"
 }} 
 ]
 };
