@@ -11,7 +11,6 @@
 #include "internal/cryptlib.h"
 #include <openssl/evp.h>
 #include <openssl/objects.h>
-#include <openssl/x509.h>
 #include "crypto/evp.h"
 #include "internal/provider.h"
 #include "internal/numbers.h"   /* includes SIZE_MAX */
@@ -209,7 +208,14 @@ static int do_sigver_init(EVP_MD_CTX *ctx, EVP_PKEY_CTX **pctx,
                                           mdname, provkey, params);
     }
 
-    goto end;
+    /*
+     * If the operation was not a success and no digest was found, an error
+     * needs to be raised.
+     */
+    if (ret > 0 || mdname != NULL)
+        goto end;
+    if (type == NULL)   /* This check is redundant but clarifies matters */
+        ERR_raise(ERR_LIB_EVP, EVP_R_NO_DEFAULT_DIGEST);
 
  err:
     evp_pkey_ctx_free_old_ops(locpctx);
