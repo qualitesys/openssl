@@ -30,6 +30,16 @@ breaking changes, and mappings for the large list of deprecated functions.
 
 ### Changes between 1.1.1 and 3.0 [xx XXX xxxx]
 
+ * On build targets where the multilib postfix is set in the build
+   configuration the libdir directory was changing based on whether
+   the lib directory with the multilib postfix exists on the system
+   or not. This unpredictable behavior was removed and eventual
+   multilib postfix is now always added to the default libdir. Use
+   `--libdir=lib` to override the libdir if adding the postfix is
+   undesirable.
+
+   *Jan Lána*
+
  * The ERR_GET_FUNC() function was removed.  With the loss of meaningful
    function codes, this function can only cause problems for calling
    applications.
@@ -291,6 +301,15 @@ breaking changes, and mappings for the large list of deprecated functions.
    *Rich Salz*
 
  * Deprecated the obsolete X9.31 RSA key generation related functions.
+
+ * While a callback function set via `SSL_CTX_set_cert_verify_callback()`
+   is not allowed to return a value > 1, this is no more taken as failure.
+
+   *Viktor Dukhovni and David von Oheimb*
+
+ * Deprecated the obsolete X9.31 RSA key generation related functions
+   BN_X931_generate_Xpq(), BN_X931_derive_prime_ex(), and
+   BN_X931_generate_prime_ex().
 
    *Tomáš Mráz*
 
@@ -1556,12 +1575,6 @@ OpenSSL 1.1.1
    The presence of this system service is determined at run-time.
 
    *Richard Levitte*
-
- * Added newline escaping functionality to a filename when using openssl dgst.
-   This output format is to replicate the output format found in the `*sum`
-   checksum programs. This aims to preserve backward compatibility.
-
-   *Matt Eaton, Richard Levitte, and Paul Dale*
 
  * Print all values for a PKCS#12 attribute with 'openssl pkcs12', not just
    the first value.
