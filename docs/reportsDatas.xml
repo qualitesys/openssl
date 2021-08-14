@@ -256,7 +256,7 @@
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/rehash.c</file><nberror>7</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>apps/rehash.c</file><nberror>19</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>apps/req.c</file><nberror>39</nberror></occ>
-<occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/req.c</file><nberror>82</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/req.c</file><nberror>83</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000010</rule><file>apps/req.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/req.c</file><nberror>20</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>apps/req.c</file><nberror>22</nberror></occ>
@@ -432,7 +432,7 @@
 <occ><category>BLOCKER</category><rule>QC-CPP000005</rule><file>ssl/record/ssl3_buffer.c</file><nberror>7</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>ssl/record/ssl3_buffer.c</file><nberror>4</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000012</rule><file>ssl/record/ssl3_buffer.c</file><nberror>1</nberror></occ>
-<occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>ssl/record/ssl3_buffer.c</file><nberror>3</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>ssl/record/ssl3_buffer.c</file><nberror>2</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>ssl/record/ssl3_buffer.c</file><nberror>12</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000005</rule><file>ssl/record/ssl3_record.c</file><nberror>12</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000006</rule><file>ssl/record/ssl3_record.c</file><nberror>4</nberror></occ>
@@ -581,7 +581,7 @@
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>ssl/statem/statem_srvr.c</file><nberror>13</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000012</rule><file>ssl/statem/statem_srvr.c</file><nberror>2</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000002</rule><file>ssl/statem/statem_srvr.c</file><nberror>2</nberror></occ>
-<occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>ssl/statem/statem_srvr.c</file><nberror>165</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>ssl/statem/statem_srvr.c</file><nberror>164</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>ssl/statem/statem_srvr.c</file><nberror>9</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>ssl/statem/statem_srvr.c</file><nberror>33</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000005</rule><file>ssl/t1_enc.c</file><nberror>9</nberror></occ>
@@ -604,6 +604,7 @@
 <occ><category>BLOCKER</category><rule>QC-CPP000005</rule><file>ssl/tls13_enc.c</file><nberror>12</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>ssl/tls13_enc.c</file><nberror>9</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>ssl/tls13_enc.c</file><nberror>26</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>ssl/tls13_enc.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>ssl/tls13_enc.c</file><nberror>21</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000005</rule><file>ssl/tls_depr.c</file><nberror>5</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>ssl/tls_depr.c</file><nberror>4</nberror></occ>

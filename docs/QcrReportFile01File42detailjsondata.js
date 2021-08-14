@@ -97,192 +97,192 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18907"
- , "c1link" : "./qc/apps/mac.c.html#18907"
+   "c1" : "18909"
+ , "c1link" : "./qc/apps/mac.c.html#18909"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18907] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[18909] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18941"
- , "c1link" : "./qc/apps/mac.c.html#18941"
+   "c1" : "18943"
+ , "c1link" : "./qc/apps/mac.c.html#18943"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18941] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[18943] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18958"
- , "c1link" : "./qc/apps/mac.c.html#18958"
+   "c1" : "18960"
+ , "c1link" : "./qc/apps/mac.c.html#18960"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18958] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19003"
- , "c1link" : "./qc/apps/mac.c.html#19003"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19003] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000005[18960] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "19005"
  , "c1link" : "./qc/apps/mac.c.html#19005"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000003[19005] The default case should be in last position"
+ , "c3" : "QC-CPPCWE481[19005] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19006"
- , "c1link" : "./qc/apps/mac.c.html#19006"
+   "c1" : "19007"
+ , "c1link" : "./qc/apps/mac.c.html#19007"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[19006] The switch case refers to the jump label opthelp"
+ , "c3" : "QC-CPP000003[19007] The default case should be in last position"
 }} 
 ,
 { "ligne" : {
    "c1" : "19008"
  , "c1link" : "./qc/apps/mac.c.html#19008"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19008] goto statement jump to err"
+ , "c3" : "QC-CPP000010[19008] The switch case refers to the jump label opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19012"
- , "c1link" : "./qc/apps/mac.c.html#19012"
+   "c1" : "19010"
+ , "c1link" : "./qc/apps/mac.c.html#19010"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19012] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19010] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19034"
- , "c1link" : "./qc/apps/mac.c.html#19034"
+   "c1" : "19014"
+ , "c1link" : "./qc/apps/mac.c.html#19014"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19034] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19014] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19044"
- , "c1link" : "./qc/apps/mac.c.html#19044"
+   "c1" : "19036"
+ , "c1link" : "./qc/apps/mac.c.html#19036"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19044] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19036] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19054"
- , "c1link" : "./qc/apps/mac.c.html#19054"
+   "c1" : "19046"
+ , "c1link" : "./qc/apps/mac.c.html#19046"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19054] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19046] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19058"
- , "c1link" : "./qc/apps/mac.c.html#19058"
+   "c1" : "19056"
+ , "c1link" : "./qc/apps/mac.c.html#19056"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19058] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19056] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19067"
- , "c1link" : "./qc/apps/mac.c.html#19067"
+   "c1" : "19060"
+ , "c1link" : "./qc/apps/mac.c.html#19060"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19067] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19060] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19076"
- , "c1link" : "./qc/apps/mac.c.html#19076"
+   "c1" : "19069"
+ , "c1link" : "./qc/apps/mac.c.html#19069"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19076] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19069] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19085"
- , "c1link" : "./qc/apps/mac.c.html#19085"
+   "c1" : "19078"
+ , "c1link" : "./qc/apps/mac.c.html#19078"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19085] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19078] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19101"
- , "c1link" : "./qc/apps/mac.c.html#19101"
+   "c1" : "19087"
+ , "c1link" : "./qc/apps/mac.c.html#19087"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19101] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19087] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19109"
- , "c1link" : "./qc/apps/mac.c.html#19109"
+   "c1" : "19103"
+ , "c1link" : "./qc/apps/mac.c.html#19103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19103] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19111"
+ , "c1link" : "./qc/apps/mac.c.html#19111"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19109] The expression  ! ok applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19111] The expression  ! ok applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19110"
- , "c1link" : "./qc/apps/mac.c.html#19110"
+   "c1" : "19112"
+ , "c1link" : "./qc/apps/mac.c.html#19112"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19110] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19112] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19126"
- , "c1link" : "./qc/apps/mac.c.html#19126"
+   "c1" : "19128"
+ , "c1link" : "./qc/apps/mac.c.html#19128"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19126] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19128] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19134"
- , "c1link" : "./qc/apps/mac.c.html#19134"
+   "c1" : "19136"
+ , "c1link" : "./qc/apps/mac.c.html#19136"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19134] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19136] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19146"
- , "c1link" : "./qc/apps/mac.c.html#19146"
+   "c1" : "19148"
+ , "c1link" : "./qc/apps/mac.c.html#19148"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19146] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19148] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19162"
- , "c1link" : "./qc/apps/mac.c.html#19162"
+   "c1" : "19164"
+ , "c1link" : "./qc/apps/mac.c.html#19164"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19162] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19164] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19168"
- , "c1link" : "./qc/apps/mac.c.html#19168"
+   "c1" : "19170"
+ , "c1link" : "./qc/apps/mac.c.html#19170"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19168] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19170] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19178"
- , "c1link" : "./qc/apps/mac.c.html#19178"
+   "c1" : "19180"
+ , "c1link" : "./qc/apps/mac.c.html#19180"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19178] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19180] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19182"
- , "c1link" : "./qc/apps/mac.c.html#19182"
+   "c1" : "19184"
+ , "c1link" : "./qc/apps/mac.c.html#19184"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19182] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19184] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19187"
- , "c1link" : "./qc/apps/mac.c.html#19187"
+   "c1" : "19189"
+ , "c1link" : "./qc/apps/mac.c.html#19189"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19187] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19189] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19190"
- , "c1link" : "./qc/apps/mac.c.html#19190"
+   "c1" : "19192"
+ , "c1link" : "./qc/apps/mac.c.html#19192"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19190] The expression out_bin applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19192] The expression out_bin applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

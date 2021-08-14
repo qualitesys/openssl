@@ -62,17 +62,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18772"
- , "c1link" : "./qc/apps/lib/engine_loader.c.html#18772"
+   "c1" : "18774"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#18774"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18772] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[18774] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18934"
- , "c1link" : "./qc/apps/lib/engine_loader.c.html#18934"
+   "c1" : "18936"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#18936"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18934] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18936] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };
