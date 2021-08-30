@@ -20,12 +20,12 @@
 <occ><category>MAJOR</category><rule>QC-CPP000010</rule><file>apps/cmp.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/cmp.c</file><nberror>17</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>apps/cmp.c</file><nberror>35</nberror></occ>
-<occ><category>BLOCKER</category><rule>QC-CPP000005</rule><file>apps/cms.c</file><nberror>3</nberror></occ>
+<occ><category>BLOCKER</category><rule>QC-CPP000005</rule><file>apps/cms.c</file><nberror>2</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>apps/cms.c</file><nberror>12</nberror></occ>
-<occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/cms.c</file><nberror>102</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/cms.c</file><nberror>101</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000010</rule><file>apps/cms.c</file><nberror>1</nberror></occ>
-<occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/cms.c</file><nberror>20</nberror></occ>
-<occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>apps/cms.c</file><nberror>31</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/cms.c</file><nberror>18</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>apps/cms.c</file><nberror>28</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>apps/crl.c</file><nberror>11</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/crl.c</file><nberror>26</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000010</rule><file>apps/crl.c</file><nberror>1</nberror></occ>
@@ -255,8 +255,8 @@
 <occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/rehash.c</file><nberror>13</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/rehash.c</file><nberror>7</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>apps/rehash.c</file><nberror>19</nberror></occ>
-<occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>apps/req.c</file><nberror>39</nberror></occ>
-<occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/req.c</file><nberror>83</nberror></occ>
+<occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>apps/req.c</file><nberror>38</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/req.c</file><nberror>82</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000010</rule><file>apps/req.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/req.c</file><nberror>20</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>apps/req.c</file><nberror>22</nberror></occ>
@@ -347,7 +347,7 @@
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/version.c</file><nberror>20</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>apps/version.c</file><nberror>2</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>apps/x509.c</file><nberror>20</nberror></occ>
-<occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/x509.c</file><nberror>91</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/x509.c</file><nberror>92</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000010</rule><file>apps/x509.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/x509.c</file><nberror>22</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>apps/x509.c</file><nberror>14</nberror></occ>

@@ -286,80 +286,73 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "21710"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21710"
+   "c1" : "21711"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21711"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21710] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[21711] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21829"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21829"
+   "c1" : "21830"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21830"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21829] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[21830] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21837"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21837"
+   "c1" : "21838"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21838"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21837] The expression exc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21838] The expression exc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21969"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21969"
+   "c1" : "21970"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21970"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21969] goto statement jump to err"
+ , "c3" : "QC-CPP000007[21970] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21985"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21985"
+   "c1" : "21986"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21986"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21985] goto statement jump to err"
+ , "c3" : "QC-CPP000007[21986] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21997"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21997"
+   "c1" : "21998"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21998"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21997] goto statement jump to err"
+ , "c3" : "QC-CPP000007[21998] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22009"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22009"
+   "c1" : "22010"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22010"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22009] goto statement jump to err"
+ , "c3" : "QC-CPP000007[22010] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22040"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22040"
+   "c1" : "22041"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22041"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[22040] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[22041] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22040"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22040"
+   "c1" : "22041"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22041"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22040] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[22041] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22055"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22055"
+   "c1" : "22056"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22056"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22055] The expression i applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "22081"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22081"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[22081] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000011[22056] The expression i applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -370,38 +363,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "22091"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22091"
+   "c1" : "22083"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22083"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[22091] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[22083] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22104"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22104"
+   "c1" : "22092"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22092"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[22104] A pointer is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[22092] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22123"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22123"
+   "c1" : "22105"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22105"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[22123] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[22105] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22135"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22135"
+   "c1" : "22124"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22124"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[22135] A pointer is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[22124] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22159"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22159"
+   "c1" : "22136"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22136"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[22159] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[22136] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -412,129 +405,136 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "22230"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22230"
+   "c1" : "22161"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22161"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[22230] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[22161] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22243"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22243"
+   "c1" : "22231"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22231"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[22243] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[22231] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22246"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22246"
+   "c1" : "22244"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22244"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[22244] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22247"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22247"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22246] The expression crl_download applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[22247] The expression crl_download applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "22287"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22287"
+   "c1" : "22288"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22288"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22287] goto statement jump to err"
+ , "c3" : "QC-CPP000007[22288] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22293"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22293"
+   "c1" : "22294"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22294"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22293] goto statement jump to err"
+ , "c3" : "QC-CPP000007[22294] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22299"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22299"
+   "c1" : "22300"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22300"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22299] goto statement jump to err"
+ , "c3" : "QC-CPP000007[22300] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22305"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22305"
+   "c1" : "22306"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22306"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22305] goto statement jump to err"
+ , "c3" : "QC-CPP000007[22306] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22308"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22308"
+   "c1" : "22309"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22309"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22308] The expression crl_download applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[22309] The expression crl_download applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "22330"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22330"
+   "c1" : "22331"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22331"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22330] goto statement jump to err"
+ , "c3" : "QC-CPP000007[22331] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22336"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22336"
+   "c1" : "22337"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22337"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22336] goto statement jump to err"
+ , "c3" : "QC-CPP000007[22337] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22342"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22342"
+   "c1" : "22343"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22343"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22342] goto statement jump to err"
+ , "c3" : "QC-CPP000007[22343] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22348"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22348"
+   "c1" : "22349"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22349"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22348] goto statement jump to err"
+ , "c3" : "QC-CPP000007[22349] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22402"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22402"
+   "c1" : "22403"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22403"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[22402] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[22403] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22441"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22441"
+   "c1" : "22442"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22442"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22441] The expression show_nm applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[22442] The expression show_nm applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "22453"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22453"
+   "c1" : "22454"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22454"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[22453] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[22454] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22467"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22467"
+   "c1" : "22468"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22468"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22467] The expression cert_md applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[22468] The expression cert_md applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "22496"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22496"
+   "c1" : "22497"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22497"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[22496] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[22497] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22558"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22558"
+   "c1" : "22559"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22559"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22558] The expression show_bits applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[22559] The expression show_bits applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };
