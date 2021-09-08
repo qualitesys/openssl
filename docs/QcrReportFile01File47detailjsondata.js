@@ -930,13 +930,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20874"
- , "c1link" : "./qc/apps/pkcs12.c.html#20874"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20874] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
    "c1" : "20875"
  , "c1link" : "./qc/apps/pkcs12.c.html#20875"
  , "c2" : "MAJOR"
@@ -944,24 +937,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20877"
- , "c1link" : "./qc/apps/pkcs12.c.html#20877"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20877] The expression  ! attrlst applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "20887"
- , "c1link" : "./qc/apps/pkcs12.c.html#20887"
+   "c1" : "20876"
+ , "c1link" : "./qc/apps/pkcs12.c.html#20876"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20887] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[20876] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20921"
- , "c1link" : "./qc/apps/pkcs12.c.html#20921"
+   "c1" : "20878"
+ , "c1link" : "./qc/apps/pkcs12.c.html#20878"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20921] The expression  ! str applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20878] The expression  ! attrlst applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20888"
+ , "c1link" : "./qc/apps/pkcs12.c.html#20888"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[20888] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20922"
+ , "c1link" : "./qc/apps/pkcs12.c.html#20922"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20922] The expression  ! str applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

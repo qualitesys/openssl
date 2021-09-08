@@ -20165,9 +20165,9 @@
 <a name="20165">20165&nbsp;&nbsp;&nbsp;static&nbsp;const&nbsp;unsigned&nbsp;char&nbsp;label_prefix[]&nbsp;=&nbsp;"tls13&nbsp;";</a><br/>
 <a name="20166">20166&nbsp;&nbsp;&nbsp;#&nbsp;34&nbsp;"ssl/tls13_enc.c"</a><br/>
 <a name="20167">20167&nbsp;&nbsp;&nbsp;int&nbsp;tls13_hkdf_expand(SSL&nbsp;*s,&nbsp;const&nbsp;EVP_MD&nbsp;*md,&nbsp;const&nbsp;unsigned&nbsp;char&nbsp;*secret,</a><br/>
-<a name="20168">20168&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const&nbsp;unsigned&nbsp;char&nbsp;*label,&nbsp;size_t&nbsp;labellen,</a><br/>
-<a name="20169">20169&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const&nbsp;unsigned&nbsp;char&nbsp;*data,&nbsp;size_t&nbsp;datalen,</a><br/>
-<a name="20170">20170&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned&nbsp;char&nbsp;*out,&nbsp;size_t&nbsp;outlen,&nbsp;int&nbsp;fatal)</a><br/>
+<a name="20168">20168&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const&nbsp;unsigned&nbsp;char&nbsp;*label,&nbsp;size_t&nbsp;labellen,</a><br/>
+<a name="20169">20169&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const&nbsp;unsigned&nbsp;char&nbsp;*data,&nbsp;size_t&nbsp;datalen,</a><br/>
+<a name="20170">20170&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned&nbsp;char&nbsp;*out,&nbsp;size_t&nbsp;outlen,&nbsp;int&nbsp;fatal)</a><br/>
 <a name="20171">20171&nbsp;&nbsp;&nbsp;{</a><br/>
 <a name="20172">20172&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EVP_KDF&nbsp;*kdf&nbsp;=&nbsp;EVP_KDF_fetch(s-&gt;ctx-&gt;libctx,&nbsp;"TLS13-KDF",</a><br/>
 <a name="20173">20173&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s-&gt;ctx-&gt;propq);</a><br/>
