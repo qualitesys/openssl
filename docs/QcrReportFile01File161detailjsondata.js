@@ -39,19 +39,19 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
  , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03235"
- , "c1link" : "./qc/crypto/bio/bio_err.c.html#3235"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03235] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "02283"
+ , "c1link" : "./qc/crypto/bio/bio_err.c.html#2283"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[02283] A pointer is declared but not initialized"
 }} 
 ]
 };

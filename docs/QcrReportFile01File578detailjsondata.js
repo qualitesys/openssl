@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/pkcs7/pkcs7err.c.html" 
- , "texte" : "File crypto/pkcs7/pkcs7err.c 1 rule violations " 
- , "fic2"  : "./qc/crypto/pkcs7/pkcs7err.c.xml" 
+   "fic1"  : "./qc/crypto/pkcs7/pk7_asn1.c.html" 
+ , "texte" : "File crypto/pkcs7/pk7_asn1.c 2 rule violations " 
+ , "fic2"  : "./qc/crypto/pkcs7/pk7_asn1.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,19 +39,26 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "1"
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03235"
- , "c1link" : "./qc/crypto/pkcs7/pkcs7err.c.html#3235"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03235] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "02080"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_asn1.c.html#2080"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[02080] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13479"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_asn1.c.html#13479"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13479] A pointer is declared but not initialized"
 }} 
 ]
 };

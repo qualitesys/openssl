@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/evp/legacy_md5.c.html" 
- , "texte" : "File crypto/evp/legacy_md5.c 13 rule violations " 
- , "fic2"  : "./qc/crypto/evp/legacy_md5.c.xml" 
+   "fic1"  : "./qc/crypto/evp/kem.c.html" 
+ , "texte" : "File crypto/evp/kem.c 14 rule violations " 
+ , "fic2"  : "./qc/crypto/evp/kem.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,103 +39,124 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "13"
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "9"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00405"
- , "c1link" : "./qc/crypto/evp/legacy_md5.c.html#405"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[00405] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "02076"
+ , "c1link" : "./qc/crypto/evp/kem.c.html#2076"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[02076] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03371"
- , "c1link" : "./qc/crypto/evp/legacy_md5.c.html#3371"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03371] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "09912"
+ , "c1link" : "./qc/crypto/evp/kem.c.html#9912"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09912] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05217"
- , "c1link" : "./qc/crypto/evp/legacy_md5.c.html#5217"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05217] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "09948"
+ , "c1link" : "./qc/crypto/evp/kem.c.html#9948"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09948] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05219"
- , "c1link" : "./qc/crypto/evp/legacy_md5.c.html#5219"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05219] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "09964"
+ , "c1link" : "./qc/crypto/evp/kem.c.html#9964"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09964] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05586"
- , "c1link" : "./qc/crypto/evp/legacy_md5.c.html#5586"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05586] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "09980"
+ , "c1link" : "./qc/crypto/evp/kem.c.html#9980"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09980] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05786"
- , "c1link" : "./qc/crypto/evp/legacy_md5.c.html#5786"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05786] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "09996"
+ , "c1link" : "./qc/crypto/evp/kem.c.html#9996"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09996] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05787"
- , "c1link" : "./qc/crypto/evp/legacy_md5.c.html#5787"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05787] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "10006"
+ , "c1link" : "./qc/crypto/evp/kem.c.html#10006"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10006] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05788"
- , "c1link" : "./qc/crypto/evp/legacy_md5.c.html#5788"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05788] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "10185"
+ , "c1link" : "./qc/crypto/evp/kem.c.html#10185"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10185] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05792"
- , "c1link" : "./qc/crypto/evp/legacy_md5.c.html#5792"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05792] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "10195"
+ , "c1link" : "./qc/crypto/evp/kem.c.html#10195"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10195] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06378"
- , "c1link" : "./qc/crypto/evp/legacy_md5.c.html#6378"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06378] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "10199"
+ , "c1link" : "./qc/crypto/evp/kem.c.html#10199"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10199] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06380"
- , "c1link" : "./qc/crypto/evp/legacy_md5.c.html#6380"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06380] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "10204"
+ , "c1link" : "./qc/crypto/evp/kem.c.html#10204"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10204] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06383"
- , "c1link" : "./qc/crypto/evp/legacy_md5.c.html#6383"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06383] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "10336"
+ , "c1link" : "./qc/crypto/evp/kem.c.html#10336"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10336] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07724"
- , "c1link" : "./qc/crypto/evp/legacy_md5.c.html#7724"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07724] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "10441"
+ , "c1link" : "./qc/crypto/evp/kem.c.html#10441"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10441] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10468"
+ , "c1link" : "./qc/crypto/evp/kem.c.html#10468"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10468] A pointer is declared but not initialized"
 }} 
 ]
 };

@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/cryptlib.c.html" 
- , "texte" : "File crypto/cryptlib.c 6 rule violations " 
- , "fic2"  : "./qc/crypto/cryptlib.c.xml" 
+   "fic1"  : "./qc/crypto/cpuid.c.html" 
+ , "texte" : "File crypto/cpuid.c 3 rule violations " 
+ , "fic2"  : "./qc/crypto/cpuid.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,51 +42,37 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "6"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03224"
- , "c1link" : "./qc/crypto/cryptlib.c.html#3224"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03224] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "01429"
+ , "c1link" : "./qc/crypto/cpuid.c.html#1429"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[01429] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07078"
- , "c1link" : "./qc/crypto/cryptlib.c.html#7078"
+   "c1" : "07808"
+ , "c1link" : "./qc/crypto/cpuid.c.html#7808"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07078] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07808] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07080"
- , "c1link" : "./qc/crypto/cryptlib.c.html#7080"
+   "c1" : "07809"
+ , "c1link" : "./qc/crypto/cpuid.c.html#7809"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07080] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07741"
- , "c1link" : "./qc/crypto/cryptlib.c.html#7741"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07741] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07849"
- , "c1link" : "./qc/crypto/cryptlib.c.html#7849"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07849] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07850"
- , "c1link" : "./qc/crypto/cryptlib.c.html#7850"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07850] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07809] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

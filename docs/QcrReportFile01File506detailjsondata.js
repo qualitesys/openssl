@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/md5/md5_sha1.c.html" 
- , "texte" : "File crypto/md5/md5_sha1.c 17 rule violations " 
- , "fic2"  : "./qc/crypto/md5/md5_sha1.c.xml" 
+   "fic1"  : "./qc/crypto/lhash/lhash.c.html" 
+ , "texte" : "File crypto/lhash/lhash.c 29 rule violations " 
+ , "fic2"  : "./qc/crypto/lhash/lhash.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,130 +40,235 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "17"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "23"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00783"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#783"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[00783] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "02456"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#2456"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[02456] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00812"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#812"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[00812] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "05251"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5251"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05251] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00834"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#834"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[00834] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "05253"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5253"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[05253] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00840"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#840"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[00840] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "05269"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5269"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[05269] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00860"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#860"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[00860] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "05274"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5274"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[05274] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00866"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#866"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[00866] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "05319"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5319"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05319] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03815"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#3815"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03815] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "05319"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5319"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05319] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05661"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#5661"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05661] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "05350"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5350"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05350] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05663"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#5663"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05663] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "05350"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5350"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05350] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06030"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#6030"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06030] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "05351"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5351"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05351] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06230"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#6230"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06230] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "05368"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5368"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[05368] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06231"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#6231"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06231] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "05406"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5406"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05406] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06232"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#6232"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06232] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "05406"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5406"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05406] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06236"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#6236"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06236] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "05407"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5407"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05407] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06822"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#6822"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06822] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "05442"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5442"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05442] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06824"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#6824"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06824] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "05443"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5443"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05443] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06827"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#6827"
+   "c1" : "05521"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5521"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05521] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05521"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5521"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05521] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05542"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5542"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06827] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[05542] The expression use_arg applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05567"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5567"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05567] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05567"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5567"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05567] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05567"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5567"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05567] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05567"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5567"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05567] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05625"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5625"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05625] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05625"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5625"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05625] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05625"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5625"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05625] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05677"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5677"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05677] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05677"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5677"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05677] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05777"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5777"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05777] The expression  * c applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

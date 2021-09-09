@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/camellia/cmll_cbc.c.html" 
- , "texte" : "File crypto/camellia/cmll_cbc.c 1 rule violations " 
- , "fic2"  : "./qc/crypto/camellia/cmll_cbc.c.xml" 
+   "fic1"  : "./qc/crypto/bsearch.c.html" 
+ , "texte" : "File crypto/bsearch.c 1 rule violations " 
+ , "fic2"  : "./qc/crypto/bsearch.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,19 +39,19 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
  , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00967"
- , "c1link" : "./qc/crypto/camellia/cmll_cbc.c.html#967"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00967] The expression enc applies to a single value or variable, might be ambiguous."
+   "c1" : "01197"
+ , "c1link" : "./qc/crypto/bsearch.c.html#1197"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[01197] A pointer is declared but not initialized"
 }} 
 ]
 };

@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/modes/cts128.c.html" 
- , "texte" : "File crypto/modes/cts128.c 9 rule violations " 
- , "fic2"  : "./qc/crypto/modes/cts128.c.xml" 
+   "fic1"  : "./qc/crypto/mem_sec.c.html" 
+ , "texte" : "File crypto/mem_sec.c 22 rule violations " 
+ , "fic2"  : "./qc/crypto/mem_sec.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,16 +40,16 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
  , "c4" : "4"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : {
@@ -58,70 +58,168 @@ var maDataBlocs = {
  , "c3" : "Assigning instead of comparing"
  , "c4" : "4"
 }}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "7"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03569"
- , "c1link" : "./qc/crypto/modes/cts128.c.html#3569"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03569] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04853"
- , "c1link" : "./qc/crypto/modes/cts128.c.html#4853"
+   "c1" : "01429"
+ , "c1link" : "./qc/crypto/mem_sec.c.html#1429"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04853] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[01429] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04916"
- , "c1link" : "./qc/crypto/modes/cts128.c.html#4916"
+   "c1" : "07520"
+ , "c1link" : "./qc/crypto/mem_sec.c.html#7520"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07520] The expression  ! secure_mem_initialized applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "07528"
+ , "c1link" : "./qc/crypto/mem_sec.c.html#7528"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04916] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07528] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04988"
- , "c1link" : "./qc/crypto/modes/cts128.c.html#4988"
+   "c1" : "07576"
+ , "c1link" : "./qc/crypto/mem_sec.c.html#7576"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04988] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[07576] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04993"
- , "c1link" : "./qc/crypto/modes/cts128.c.html#4993"
+   "c1" : "07579"
+ , "c1link" : "./qc/crypto/mem_sec.c.html#7579"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04993] The expression len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07579] The expression  ! secure_mem_initialized applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "05040"
- , "c1link" : "./qc/crypto/modes/cts128.c.html#5040"
+   "c1" : "07601"
+ , "c1link" : "./qc/crypto/mem_sec.c.html#7601"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05040] The expression len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07601] The expression secure_mem_initialized applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "05077"
- , "c1link" : "./qc/crypto/modes/cts128.c.html#5077"
+   "c1" : "07670"
+ , "c1link" : "./qc/crypto/mem_sec.c.html#7670"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07670] The expression  ! secure_mem_initialized applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "07764"
+ , "c1link" : "./qc/crypto/mem_sec.c.html#7764"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05077] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07764] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05082"
- , "c1link" : "./qc/crypto/modes/cts128.c.html#5082"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05082] The expression len applies to a single value or variable, might be ambiguous."
+   "c1" : "07776"
+ , "c1link" : "./qc/crypto/mem_sec.c.html#7776"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07776] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05126"
- , "c1link" : "./qc/crypto/modes/cts128.c.html#5126"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05126] The expression len applies to a single value or variable, might be ambiguous."
+   "c1" : "07781"
+ , "c1link" : "./qc/crypto/mem_sec.c.html#7781"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[07781] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08248"
+ , "c1link" : "./qc/crypto/mem_sec.c.html#8248"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08248] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08248"
+ , "c1link" : "./qc/crypto/mem_sec.c.html#8248"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08248] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08248"
+ , "c1link" : "./qc/crypto/mem_sec.c.html#8248"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08248] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08248"
+ , "c1link" : "./qc/crypto/mem_sec.c.html#8248"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08248] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08248"
+ , "c1link" : "./qc/crypto/mem_sec.c.html#8248"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08248] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/crypto/mem_sec.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/crypto/mem_sec.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/crypto/mem_sec.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/crypto/mem_sec.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/crypto/mem_sec.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/crypto/mem_sec.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00001"
+ , "c1link" : "./qc/crypto/mem_sec.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

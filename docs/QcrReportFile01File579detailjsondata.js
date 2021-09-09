@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/poly1305/poly1305.c.html" 
- , "texte" : "File crypto/poly1305/poly1305.c 20 rule violations " 
- , "fic2"  : "./qc/crypto/poly1305/poly1305.c.xml" 
+   "fic1"  : "./qc/crypto/pkcs7/pk7_attr.c.html" 
+ , "texte" : "File crypto/pkcs7/pk7_attr.c 17 rule violations " 
+ , "fic2"  : "./qc/crypto/pkcs7/pk7_attr.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -54,151 +54,144 @@ var maDataBlocs = {
 ,
 { "ligne" : {
    "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "4"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
  , "c2" : "QC-CPPCWE481"
  , "c3" : "Assigning instead of comparing"
- , "c4" : "18"
+ , "c4" : "5"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "6"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03570"
- , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#3570"
+   "c1" : "02076"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_attr.c.html#2076"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[02076] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12991"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_attr.c.html#12991"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[12991] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12993"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_attr.c.html#12993"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[12993] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13013"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_attr.c.html#13013"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13013] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13014"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_attr.c.html#13014"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13014] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13014"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_attr.c.html#13014"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03570] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13014] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04644"
- , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#4644"
+   "c1" : "13045"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_attr.c.html#13045"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04644] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[13045] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04644"
- , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#4644"
+   "c1" : "13047"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_attr.c.html#13047"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04644] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[13047] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04645"
- , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#4645"
+   "c1" : "13062"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_attr.c.html#13062"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04645] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[13062] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04645"
- , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#4645"
+   "c1" : "13067"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_attr.c.html#13067"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04645] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[13067] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04663"
- , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#4663"
+   "c1" : "13069"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_attr.c.html#13069"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04663] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[13069] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04663"
- , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#4663"
+   "c1" : "13074"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_attr.c.html#13074"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04663] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[13074] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04669"
- , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#4669"
+   "c1" : "13077"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_attr.c.html#13077"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04669] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[13077] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04669"
- , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#4669"
+   "c1" : "13088"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_attr.c.html#13088"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04669] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[13088] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04695"
- , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#4695"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04695] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04695"
- , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#4695"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04695] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04696"
- , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#4696"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04696] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04696"
- , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#4696"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04696] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04708"
- , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#4708"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04708] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04708"
- , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#4708"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04708] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04709"
- , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#4709"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04709] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04709"
- , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#4709"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04709] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04734"
- , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#4734"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04734] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04757"
- , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#4757"
+   "c1" : "13106"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_attr.c.html#13106"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04757] The expression rem applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13106] The expression  ! coid applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "04771"
- , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#4771"
+   "c1" : "13118"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_attr.c.html#13118"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04771] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[13118] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13141"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_attr.c.html#13141"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13141] A pointer is declared but not initialized"
 }} 
 ]
 };

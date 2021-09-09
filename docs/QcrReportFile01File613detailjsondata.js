@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/rsa/rsa_none.c.html" 
- , "texte" : "File crypto/rsa/rsa_none.c 4 rule violations " 
- , "fic2"  : "./qc/crypto/rsa/rsa_none.c.xml" 
+   "fic1"  : "./qc/crypto/rsa/rsa_depr.c.html" 
+ , "texte" : "File crypto/rsa/rsa_depr.c 3 rule violations " 
+ , "fic2"  : "./qc/crypto/rsa/rsa_depr.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,40 +39,40 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "4"
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03583"
- , "c1link" : "./qc/crypto/rsa/rsa_none.c.html#3583"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03583] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "02357"
+ , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2357"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[02357] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05388"
- , "c1link" : "./qc/crypto/rsa/rsa_none.c.html#5388"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05388] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "06590"
+ , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#6590"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06590] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05390"
- , "c1link" : "./qc/crypto/rsa/rsa_none.c.html#5390"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05390] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07562"
- , "c1link" : "./qc/crypto/rsa/rsa_none.c.html#7562"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07562] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "06599"
+ , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#6599"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06599] goto statement jump to err"
 }} 
 ]
 };

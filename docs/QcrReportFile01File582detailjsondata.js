@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/provider.c.html" 
- , "texte" : "File crypto/provider.c 4 rule violations " 
- , "fic2"  : "./qc/crypto/provider.c.xml" 
+   "fic1"  : "./qc/crypto/pkcs7/pk7_mime.c.html" 
+ , "texte" : "File crypto/pkcs7/pk7_mime.c 3 rule violations " 
+ , "fic2"  : "./qc/crypto/pkcs7/pk7_mime.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,47 +39,33 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
    "c1" : "MAJOR"
- , "c2" : "QC-CPPCWE481"
- , "c3" : "Assigning instead of comparing"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
  , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03235"
- , "c1link" : "./qc/crypto/provider.c.html#3235"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03235] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "02080"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_mime.c.html#2080"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[02080] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05461"
- , "c1link" : "./qc/crypto/provider.c.html#5461"
+   "c1" : "13134"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_mime.c.html#13134"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05461] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[13134] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05466"
- , "c1link" : "./qc/crypto/provider.c.html#5466"
+   "c1" : "13157"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_mime.c.html#13157"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05466] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05591"
- , "c1link" : "./qc/crypto/provider.c.html#5591"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05591] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[13157] A pointer is declared but not initialized"
 }} 
 ]
 };

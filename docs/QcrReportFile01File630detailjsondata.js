@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/seed/seed_ofb.c.html" 
- , "texte" : "File crypto/seed/seed_ofb.c 1 rule violations " 
- , "fic2"  : "./qc/crypto/seed/seed_ofb.c.xml" 
+   "fic1"  : "./qc/crypto/rsa/rsa_x931.c.html" 
+ , "texte" : "File crypto/rsa/rsa_x931.c 5 rule violations " 
+ , "fic2"  : "./qc/crypto/rsa/rsa_x931.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,16 +42,51 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "1"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03243"
- , "c1link" : "./qc/crypto/seed/seed_ofb.c.html#3243"
+   "c1" : "02107"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931.c.html#2107"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[02107] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06640"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931.c.html#6640"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06640] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06640"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931.c.html#6640"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03243] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06640] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06681"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931.c.html#6681"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06681] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06681"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931.c.html#6681"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[06681] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

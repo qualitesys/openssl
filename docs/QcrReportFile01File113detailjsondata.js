@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/ssl/ssl_stat.c.html" 
- , "texte" : "File ssl/ssl_stat.c 15 rule violations " 
- , "fic2"  : "./qc/ssl/ssl_stat.c.xml" 
+   "fic1"  : "./qc/crypto/asn1/d2i_param.c.html" 
+ , "texte" : "File crypto/asn1/d2i_param.c 8 rule violations " 
+ , "fic2"  : "./qc/crypto/asn1/d2i_param.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,128 +42,86 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "5"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
  , "c4" : "4"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "6"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "02324"
- , "c1link" : "./qc/ssl/ssl_stat.c.html#2324"
+   "c1" : "02080"
+ , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#2080"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02324] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[02080] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17008"
- , "c1link" : "./qc/ssl/ssl_stat.c.html#17008"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17008] The expression ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "17049"
- , "c1link" : "./qc/ssl/ssl_stat.c.html#17049"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17049] The expression ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "17091"
- , "c1link" : "./qc/ssl/ssl_stat.c.html#17091"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17091] The expression ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "17126"
- , "c1link" : "./qc/ssl/ssl_stat.c.html#17126"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17126] The expression ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "17310"
- , "c1link" : "./qc/ssl/ssl_stat.c.html#17310"
+   "c1" : "09460"
+ , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#9460"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17310] A pointer is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[09460] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17310"
- , "c1link" : "./qc/ssl/ssl_stat.c.html#17310"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17310] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17332"
- , "c1link" : "./qc/ssl/ssl_stat.c.html#17332"
+   "c1" : "09474"
+ , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#9474"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17332] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000007[09474] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17332"
- , "c1link" : "./qc/ssl/ssl_stat.c.html#17332"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17332] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17351"
- , "c1link" : "./qc/ssl/ssl_stat.c.html#17351"
+   "c1" : "09490"
+ , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#9490"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17351] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000007[09490] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17351"
- , "c1link" : "./qc/ssl/ssl_stat.c.html#17351"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17351] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17374"
- , "c1link" : "./qc/ssl/ssl_stat.c.html#17374"
+   "c1" : "09494"
+ , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#9494"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17374] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000007[09494] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17374"
- , "c1link" : "./qc/ssl/ssl_stat.c.html#17374"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17374] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17394"
- , "c1link" : "./qc/ssl/ssl_stat.c.html#17394"
+   "c1" : "09524"
+ , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#9524"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17394] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[09524] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17394"
- , "c1link" : "./qc/ssl/ssl_stat.c.html#17394"
+   "c1" : "09524"
+ , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#9524"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17394] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09524] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09534"
+ , "c1link" : "./qc/crypto/asn1/d2i_param.c.html#9534"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09534] goto statement jump to err"
 }} 
 ]
 };

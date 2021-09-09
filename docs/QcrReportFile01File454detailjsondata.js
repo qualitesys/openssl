@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/evp/legacy_blake2.c.html" 
- , "texte" : "File crypto/evp/legacy_blake2.c 12 rule violations " 
- , "fic2"  : "./qc/crypto/evp/legacy_blake2.c.xml" 
+   "fic1"  : "./qc/crypto/evp/kdf_lib.c.html" 
+ , "texte" : "File crypto/evp/kdf_lib.c 3 rule violations " 
+ , "fic2"  : "./qc/crypto/evp/kdf_lib.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,96 +39,40 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "12"
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03329"
- , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#3329"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03329] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "02076"
+ , "c1link" : "./qc/crypto/evp/kdf_lib.c.html#2076"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[02076] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05175"
- , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#5175"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05175] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "09916"
+ , "c1link" : "./qc/crypto/evp/kdf_lib.c.html#9916"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09916] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05177"
- , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#5177"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05177] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05544"
- , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#5544"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05544] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05744"
- , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#5744"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05744] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05745"
- , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#5745"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05745] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05746"
- , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#5746"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05746] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05750"
- , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#5750"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05750] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06336"
- , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#6336"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06336] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06338"
- , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#6338"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06338] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06341"
- , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#6341"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06341] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07682"
- , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#7682"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07682] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "09965"
+ , "c1link" : "./qc/crypto/evp/kdf_lib.c.html#9965"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09965] A pointer is declared but not initialized"
 }} 
 ]
 };

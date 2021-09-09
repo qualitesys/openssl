@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/params_from_text.c.html" 
- , "texte" : "File crypto/params_from_text.c 10 rule violations " 
- , "fic2"  : "./qc/crypto/params_from_text.c.xml" 
+   "fic1"  : "./qc/crypto/ocsp/v3_ocsp.c.html" 
+ , "texte" : "File crypto/ocsp/v3_ocsp.c 23 rule violations " 
+ , "fic2"  : "./qc/crypto/ocsp/v3_ocsp.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,95 +40,186 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "2"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "6"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
- , "c2" : "QC-CPPCWE481"
- , "c3" : "Assigning instead of comparing"
- , "c4" : "2"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "17"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "4"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03612"
- , "c1link" : "./qc/crypto/params_from_text.c.html#3612"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03612] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05630"
- , "c1link" : "./qc/crypto/params_from_text.c.html#5630"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05630] The expression  * ishex applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "05633"
- , "c1link" : "./qc/crypto/params_from_text.c.html#5633"
+   "c1" : "02080"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#2080"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05633] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[02080] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05654"
- , "c1link" : "./qc/crypto/params_from_text.c.html#5654"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05654] The expression  * ishex applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "05692"
- , "c1link" : "./qc/crypto/params_from_text.c.html#5692"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05692] The expression  * ishex applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "05703"
- , "c1link" : "./qc/crypto/params_from_text.c.html#5703"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05703] The expression  * ishex applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "05740"
- , "c1link" : "./qc/crypto/params_from_text.c.html#5740"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05740] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05755"
- , "c1link" : "./qc/crypto/params_from_text.c.html#5755"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05755] The expression ishex applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "05814"
- , "c1link" : "./qc/crypto/params_from_text.c.html#5814"
+   "c1" : "13906"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#13906"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05814] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[13906] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05830"
- , "c1link" : "./qc/crypto/params_from_text.c.html#5830"
+   "c1" : "13908"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#13908"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13908] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13910"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#13910"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13910] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13914"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#13914"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13914] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13916"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#13916"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13916] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13918"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#13918"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13918] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13922"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#13922"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13922] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13924"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#13924"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13924] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13926"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#13926"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13926] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13966"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#13966"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05830] The expression  ! ok applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13966] The expression pp applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13975"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#13975"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13975] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13975"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#13975"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13975] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13992"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#13992"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13992] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13997"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#13997"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13997] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14001"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#14001"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14001] The expression pos applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14058"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#14058"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14058] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14061"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#14061"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14061] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14063"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#14063"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14063] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14067"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#14067"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14067] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14069"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#14069"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14069] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14071"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#14071"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14071] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14073"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#14073"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14073] goto statement jump to err"
 }} 
 ]
 };

@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/rsa/rsa_mp.c.html" 
- , "texte" : "File crypto/rsa/rsa_mp.c 19 rule violations " 
- , "fic2"  : "./qc/crypto/rsa/rsa_mp.c.xml" 
+   "fic1"  : "./qc/crypto/rsa/rsa_chk.c.html" 
+ , "texte" : "File crypto/rsa/rsa_chk.c 29 rule violations " 
+ , "fic2"  : "./qc/crypto/rsa/rsa_chk.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,158 +40,228 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "4"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000007"
  , "c3" : "goto statement"
- , "c4" : "8"
+ , "c4" : "20"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
- , "c2" : "QC-CPPCWE481"
- , "c3" : "Assigning instead of comparing"
- , "c4" : "7"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "8"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03223"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#3223"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03223] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05449"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#5449"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05449] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05451"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#5451"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05451] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06271"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6271"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06271] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06475"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6475"
+   "c1" : "02592"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#2592"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[06475] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[02592] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06491"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6491"
+   "c1" : "06506"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#6506"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[06491] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[06506] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06496"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6496"
+   "c1" : "06506"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#6506"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06496] goto statement jump to err"
+ , "c3" : "QC-CPP000014[06506] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06497"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6497"
+   "c1" : "06506"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#6506"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[06497] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[06506] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06502"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6502"
+   "c1" : "06506"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#6506"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06502] goto statement jump to err"
+ , "c3" : "QC-CPP000014[06506] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06503"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6503"
+   "c1" : "06506"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#6506"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[06503] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[06506] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06508"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6508"
+   "c1" : "06507"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#6507"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06508] goto statement jump to err"
+ , "c3" : "QC-CPP000014[06507] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "06509"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6509"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#6509"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[06509] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[06509] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06514"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6514"
+   "c1" : "06593"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#6593"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06514] goto statement jump to err"
+ , "c3" : "QC-CPP000007[06593] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06551"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6551"
+   "c1" : "06649"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#6649"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[06551] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[06649] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06553"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6553"
+   "c1" : "06655"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#6655"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06553] goto statement jump to err"
+ , "c3" : "QC-CPP000007[06655] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06556"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6556"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[06556] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "06660"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#6660"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06660] The expression ex_primes applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06561"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6561"
+   "c1" : "06677"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#6677"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06561] goto statement jump to err"
+ , "c3" : "QC-CPP000007[06677] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06580"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6580"
+   "c1" : "06681"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#6681"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06580] goto statement jump to err"
+ , "c3" : "QC-CPP000007[06681] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06583"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6583"
+   "c1" : "06687"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#6687"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06583] goto statement jump to err"
+ , "c3" : "QC-CPP000007[06687] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06691"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#6691"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06691] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06697"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#6697"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06697] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06701"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#6701"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06701] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06705"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#6705"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06705] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06714"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#6714"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06714] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06718"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#6718"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06718] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06746"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#6746"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06746] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06754"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#6754"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06754] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06768"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#6768"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06768] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06776"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#6776"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06776] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06790"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#6790"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06790] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06807"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#6807"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06807] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06815"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#6815"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06815] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06828"
+ , "c1link" : "./qc/crypto/rsa/rsa_chk.c.html#6828"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06828] goto statement jump to err"
 }} 
 ]
 };

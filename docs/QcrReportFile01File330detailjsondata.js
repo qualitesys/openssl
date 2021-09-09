@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/dsa/dsa_meth.c.html" 
- , "texte" : "File crypto/dsa/dsa_meth.c 11 rule violations " 
- , "fic2"  : "./qc/crypto/dsa/dsa_meth.c.xml" 
+   "fic1"  : "./qc/crypto/dsa/dsa_depr.c.html" 
+ , "texte" : "File crypto/dsa/dsa_depr.c 5 rule violations " 
+ , "fic2"  : "./qc/crypto/dsa/dsa_depr.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,89 +39,61 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "11"
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03291"
- , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#3291"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03291] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "02357"
+ , "c1link" : "./qc/crypto/dsa/dsa_depr.c.html#2357"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[02357] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05031"
- , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#5031"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05031] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "08912"
+ , "c1link" : "./qc/crypto/dsa/dsa_depr.c.html#8912"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08912] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05033"
- , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#5033"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05033] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "08913"
+ , "c1link" : "./qc/crypto/dsa/dsa_depr.c.html#8913"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08913] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06081"
- , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#6081"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06081] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "08915"
+ , "c1link" : "./qc/crypto/dsa/dsa_depr.c.html#8915"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08915] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06281"
- , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#6281"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06281] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06282"
- , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#6282"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06282] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06283"
- , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#6283"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06283] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06287"
- , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#6287"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06287] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06873"
- , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#6873"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06873] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06875"
- , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#6875"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06875] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06878"
- , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#6878"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06878] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "08931"
+ , "c1link" : "./qc/crypto/dsa/dsa_depr.c.html#8931"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08931] goto statement jump to err"
 }} 
 ]
 };

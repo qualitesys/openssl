@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/x509/x509_set.c.html" 
- , "texte" : "File crypto/x509/x509_set.c 23 rule violations " 
- , "fic2"  : "./qc/crypto/x509/x509_set.c.xml" 
+   "fic1"  : "./qc/crypto/x509/x509_ext.c.html" 
+ , "texte" : "File crypto/x509/x509_ext.c 1 rule violations " 
+ , "fic2"  : "./qc/crypto/x509/x509_ext.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,187 +39,19 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "20"
-}}
-,
-{ "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-CPPCWE484"
- , "c3" : "Omitted Break Statement in Switch"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
    "c1" : "MAJOR"
- , "c2" : "QC-CPPCWE481"
- , "c3" : "Assigning instead of comparing"
- , "c4" : "2"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03568"
- , "c1link" : "./qc/crypto/x509/x509_set.c.html#3568"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03568] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05373"
- , "c1link" : "./qc/crypto/x509/x509_set.c.html#5373"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05373] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05375"
- , "c1link" : "./qc/crypto/x509/x509_set.c.html#5375"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05375] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07547"
- , "c1link" : "./qc/crypto/x509/x509_set.c.html#7547"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07547] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07784"
- , "c1link" : "./qc/crypto/x509/x509_set.c.html#7784"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07784] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08157"
- , "c1link" : "./qc/crypto/x509/x509_set.c.html#8157"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08157] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08158"
- , "c1link" : "./qc/crypto/x509/x509_set.c.html#8158"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08158] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08159"
- , "c1link" : "./qc/crypto/x509/x509_set.c.html#8159"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08159] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08163"
- , "c1link" : "./qc/crypto/x509/x509_set.c.html#8163"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08163] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08749"
- , "c1link" : "./qc/crypto/x509/x509_set.c.html#8749"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08749] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08751"
- , "c1link" : "./qc/crypto/x509/x509_set.c.html#8751"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08751] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08754"
- , "c1link" : "./qc/crypto/x509/x509_set.c.html#8754"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08754] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09622"
- , "c1link" : "./qc/crypto/x509/x509_set.c.html#9622"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09622] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11181"
- , "c1link" : "./qc/crypto/x509/x509_set.c.html#11181"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11181] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11203"
- , "c1link" : "./qc/crypto/x509/x509_set.c.html#11203"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11203] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11209"
- , "c1link" : "./qc/crypto/x509/x509_set.c.html#11209"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11209] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11229"
- , "c1link" : "./qc/crypto/x509/x509_set.c.html#11229"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11229] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11235"
- , "c1link" : "./qc/crypto/x509/x509_set.c.html#11235"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11235] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12352"
- , "c1link" : "./qc/crypto/x509/x509_set.c.html#12352"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12352] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12353"
- , "c1link" : "./qc/crypto/x509/x509_set.c.html#12353"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12353] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14306"
- , "c1link" : "./qc/crypto/x509/x509_set.c.html#14306"
+   "c1" : "02080"
+ , "c1link" : "./qc/crypto/x509/x509_ext.c.html#2080"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14306] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14608"
- , "c1link" : "./qc/crypto/x509/x509_set.c.html#14608"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14608] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14624"
- , "c1link" : "./qc/crypto/x509/x509_set.c.html#14624"
- , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[14624] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPP000014[02080] A pointer is declared but not initialized"
 }} 
 ]
 };

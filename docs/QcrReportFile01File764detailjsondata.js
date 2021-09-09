@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/providers/common/bio_prov.c.html" 
- , "texte" : "File providers/common/bio_prov.c 4 rule violations " 
- , "fic2"  : "./qc/providers/common/bio_prov.c.xml" 
+   "fic1"  : "./qc/engines/e_capi.c.html" 
+ , "texte" : "File engines/e_capi.c 1 rule violations " 
+ , "fic2"  : "./qc/engines/e_capi.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,40 +39,19 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "4"
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "04169"
- , "c1link" : "./qc/providers/common/bio_prov.c.html#4169"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[04169] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05958"
- , "c1link" : "./qc/providers/common/bio_prov.c.html#5958"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05958] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05960"
- , "c1link" : "./qc/providers/common/bio_prov.c.html#5960"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05960] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08132"
- , "c1link" : "./qc/providers/common/bio_prov.c.html#8132"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08132] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "02588"
+ , "c1link" : "./qc/engines/e_capi.c.html#2588"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[02588] A pointer is declared but not initialized"
 }} 
 ]
 };

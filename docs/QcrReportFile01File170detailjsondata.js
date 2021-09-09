@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/bio/bss_log.c.html" 
- , "texte" : "File crypto/bio/bss_log.c 5 rule violations " 
- , "fic2"  : "./qc/crypto/bio/bss_log.c.xml" 
+   "fic1"  : "./qc/crypto/bio/bss_core.c.html" 
+ , "texte" : "File crypto/bio/bss_core.c 3 rule violations " 
+ , "fic2"  : "./qc/crypto/bio/bss_core.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,54 +39,40 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "4"
-}}
-,
-{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPPCWE481"
  , "c3" : "Assigning instead of comparing"
  , "c4" : "1"
 }}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03251"
- , "c1link" : "./qc/crypto/bio/bss_log.c.html#3251"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03251] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09610"
- , "c1link" : "./qc/crypto/bio/bss_log.c.html#9610"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09610] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09612"
- , "c1link" : "./qc/crypto/bio/bss_log.c.html#9612"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09612] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10240"
- , "c1link" : "./qc/crypto/bio/bss_log.c.html#10240"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10240] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10649"
- , "c1link" : "./qc/crypto/bio/bss_log.c.html#10649"
+   "c1" : "02336"
+ , "c1link" : "./qc/crypto/bio/bss_core.c.html#2336"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10649] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[02336] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11205"
+ , "c1link" : "./qc/crypto/bio/bss_core.c.html#11205"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[11205] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11224"
+ , "c1link" : "./qc/crypto/bio/bss_core.c.html#11224"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[11224] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

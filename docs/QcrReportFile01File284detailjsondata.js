@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/ctype.c.html" 
- , "texte" : "File crypto/ctype.c 0 rule violation " 
- , "fic2"  : "./qc/crypto/ctype.c.xml" 
+   "fic1"  : "./qc/crypto/ct/ct_prn.c.html" 
+ , "texte" : "File crypto/ct/ct_prn.c 1 rule violations " 
+ , "fic2"  : "./qc/crypto/ct/ct_prn.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -37,5 +37,22 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data13a" : [
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "1"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {
+   "c1" : "02551"
+ , "c1link" : "./qc/crypto/ct/ct_prn.c.html#2551"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[02551] A pointer is declared but not initialized"
+}} 
+]
 };
 console.log('leListeStr 99 main end');

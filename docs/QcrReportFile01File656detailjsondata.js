@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/threads_lib.c.html" 
- , "texte" : "File crypto/threads_lib.c 1 rule violations " 
- , "fic2"  : "./qc/crypto/threads_lib.c.xml" 
+   "fic1"  : "./qc/crypto/store/store_err.c.html" 
+ , "texte" : "File crypto/store/store_err.c 1 rule violations " 
+ , "fic2"  : "./qc/crypto/store/store_err.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,19 +39,19 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
  , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03219"
- , "c1link" : "./qc/crypto/threads_lib.c.html#3219"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03219] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "02283"
+ , "c1link" : "./qc/crypto/store/store_err.c.html#2283"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[02283] A pointer is declared but not initialized"
 }} 
 ]
 };

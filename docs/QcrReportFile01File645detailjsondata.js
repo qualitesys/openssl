@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/sm4/sm4.c.html" 
- , "texte" : "File crypto/sm4/sm4.c 48 rule violations " 
- , "fic2"  : "./qc/crypto/sm4/sm4.c.xml" 
+   "fic1"  : "./qc/crypto/sm2/sm2_crypt.c.html" 
+ , "texte" : "File crypto/sm2/sm2_crypt.c 31 rule violations " 
+ , "fic2"  : "./qc/crypto/sm2/sm2_crypt.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,362 +39,236 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000006"
- , "c3" : "Risk of infinite while loop"
- , "c4" : "16"
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "30"
 }}
 ,
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "16"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000012"
- , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00544"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#544"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00544] The condition of do while loop is constant, infinite loop risk : 0"
+   "c1" : "02895"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#2895"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[02895] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00544"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#544"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00544] The expression 0 applies to a single value or variable, might be ambiguous."
+   "c1" : "09699"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9699"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09699] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00544"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#544"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00544] The expression 0 is invariable, always true or false"
+   "c1" : "09706"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9706"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09706] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00545"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#545"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00545] The condition of do while loop is constant, infinite loop risk : 0"
+   "c1" : "09870"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9870"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09870] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00545"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#545"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00545] The expression 0 applies to a single value or variable, might be ambiguous."
+   "c1" : "09880"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9880"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09880] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00545"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#545"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00545] The expression 0 is invariable, always true or false"
+   "c1" : "09904"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9904"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09904] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00546"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#546"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00546] The condition of do while loop is constant, infinite loop risk : 0"
+   "c1" : "09924"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9924"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09924] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00546"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#546"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00546] The expression 0 applies to a single value or variable, might be ambiguous."
+   "c1" : "09944"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9944"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09944] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00546"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#546"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00546] The expression 0 is invariable, always true or false"
+   "c1" : "09955"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9955"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09955] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00547"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#547"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00547] The condition of do while loop is constant, infinite loop risk : 0"
+   "c1" : "09979"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9979"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09979] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00547"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#547"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00547] The expression 0 applies to a single value or variable, might be ambiguous."
+   "c1" : "09989"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#9989"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09989] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00547"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#547"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00547] The expression 0 is invariable, always true or false"
+   "c1" : "10003"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#10003"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10003] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00548"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#548"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00548] The condition of do while loop is constant, infinite loop risk : 0"
+   "c1" : "10018"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#10018"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10018] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00548"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#548"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00548] The expression 0 applies to a single value or variable, might be ambiguous."
+   "c1" : "10035"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#10035"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10035] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00548"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#548"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00548] The expression 0 is invariable, always true or false"
+   "c1" : "10051"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#10051"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10051] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00549"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#549"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00549] The condition of do while loop is constant, infinite loop risk : 0"
+   "c1" : "10073"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#10073"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10073] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00549"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#549"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00549] The expression 0 applies to a single value or variable, might be ambiguous."
+   "c1" : "10082"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#10082"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10082] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00549"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#549"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00549] The expression 0 is invariable, always true or false"
+   "c1" : "10093"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#10093"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10093] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00550"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#550"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00550] The condition of do while loop is constant, infinite loop risk : 0"
+   "c1" : "10183"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#10183"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10183] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00550"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#550"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00550] The expression 0 applies to a single value or variable, might be ambiguous."
+   "c1" : "10203"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#10203"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10203] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00550"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#550"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00550] The expression 0 is invariable, always true or false"
+   "c1" : "10212"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#10212"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10212] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00551"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#551"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00551] The condition of do while loop is constant, infinite loop risk : 0"
+   "c1" : "10224"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#10224"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10224] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00551"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#551"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00551] The expression 0 applies to a single value or variable, might be ambiguous."
+   "c1" : "10238"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#10238"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10238] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00551"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#551"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00551] The expression 0 is invariable, always true or false"
+   "c1" : "10255"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#10255"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10255] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00566"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#566"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00566] The condition of do while loop is constant, infinite loop risk : 0"
+   "c1" : "10280"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#10280"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10280] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00566"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#566"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00566] The expression 0 applies to a single value or variable, might be ambiguous."
+   "c1" : "10294"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#10294"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10294] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00566"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#566"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00566] The expression 0 is invariable, always true or false"
+   "c1" : "10311"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#10311"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10311] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00567"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#567"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00567] The condition of do while loop is constant, infinite loop risk : 0"
+   "c1" : "10327"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#10327"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10327] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00567"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#567"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00567] The expression 0 applies to a single value or variable, might be ambiguous."
+   "c1" : "10344"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#10344"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10344] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00567"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#567"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00567] The expression 0 is invariable, always true or false"
+   "c1" : "10361"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#10361"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10361] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00568"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#568"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00568] The condition of do while loop is constant, infinite loop risk : 0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00568"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#568"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00568] The expression 0 applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "00568"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#568"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00568] The expression 0 is invariable, always true or false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00569"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#569"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00569] The condition of do while loop is constant, infinite loop risk : 0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00569"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#569"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00569] The expression 0 applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "00569"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#569"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00569] The expression 0 is invariable, always true or false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00570"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#570"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00570] The condition of do while loop is constant, infinite loop risk : 0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00570"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#570"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00570] The expression 0 applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "00570"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#570"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00570] The expression 0 is invariable, always true or false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00571"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#571"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00571] The condition of do while loop is constant, infinite loop risk : 0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00571"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#571"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00571] The expression 0 applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "00571"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#571"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00571] The expression 0 is invariable, always true or false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00572"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#572"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00572] The condition of do while loop is constant, infinite loop risk : 0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00572"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#572"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00572] The expression 0 applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "00572"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#572"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00572] The expression 0 is invariable, always true or false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00573"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#573"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00573] The condition of do while loop is constant, infinite loop risk : 0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00573"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#573"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00573] The expression 0 applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "00573"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#573"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00573] The expression 0 is invariable, always true or false"
+   "c1" : "10370"
+ , "c1link" : "./qc/crypto/sm2/sm2_crypt.c.html#10370"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10370] goto statement jump to done"
 }} 
 ]
 };

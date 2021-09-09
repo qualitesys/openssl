@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/ffc/ffc_dh.c.html" 
- , "texte" : "File crypto/ffc/ffc_dh.c 11 rule violations " 
- , "fic2"  : "./qc/crypto/ffc/ffc_dh.c.xml" 
+   "fic1"  : "./qc/crypto/evp/pmeth_gn.c.html" 
+ , "texte" : "File crypto/evp/pmeth_gn.c 26 rule violations " 
+ , "fic2"  : "./qc/crypto/evp/pmeth_gn.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,88 +40,214 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "11"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "20"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03310"
- , "c1link" : "./qc/crypto/ffc/ffc_dh.c.html#3310"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03310] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "02076"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#2076"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[02076] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05172"
- , "c1link" : "./qc/crypto/ffc/ffc_dh.c.html#5172"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05172] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "09887"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#9887"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09887] goto statement jump to not_supported"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05174"
- , "c1link" : "./qc/crypto/ffc/ffc_dh.c.html#5174"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05174] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "09901"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#9901"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09901] goto statement jump to legacy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05541"
- , "c1link" : "./qc/crypto/ffc/ffc_dh.c.html#5541"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05541] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "09936"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#9936"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09936] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05741"
- , "c1link" : "./qc/crypto/ffc/ffc_dh.c.html#5741"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05741] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "09959"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#9959"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09959] goto statement jump to not_supported"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05742"
- , "c1link" : "./qc/crypto/ffc/ffc_dh.c.html#5742"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05742] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "10000"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#10000"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10000] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05743"
- , "c1link" : "./qc/crypto/ffc/ffc_dh.c.html#5743"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05743] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "10030"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#10030"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10030] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05747"
- , "c1link" : "./qc/crypto/ffc/ffc_dh.c.html#5747"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05747] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "10038"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#10038"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10038] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06333"
- , "c1link" : "./qc/crypto/ffc/ffc_dh.c.html#6333"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06333] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "10077"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#10077"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10077] goto statement jump to not_supported"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06335"
- , "c1link" : "./qc/crypto/ffc/ffc_dh.c.html#6335"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06335] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "10080"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#10080"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10080] goto statement jump to not_initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06338"
- , "c1link" : "./qc/crypto/ffc/ffc_dh.c.html#6338"
+   "c1" : "10087"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#10087"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10087] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10107"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#10107"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10107] goto statement jump to legacy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10128"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#10128"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10128] goto statement jump to not_supported"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10158"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#10158"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06338] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[10158] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10167"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#10167"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10167] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10180"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#10180"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10180] goto statement jump to not_accessible"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10190"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#10190"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10190] goto statement jump to not_supported"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10217"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#10217"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10217] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10225"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#10225"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10225] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10234"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#10234"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10234] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10317"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#10317"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10317] The expression  ! mac_ctx applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10324"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#10324"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10324] goto statement jump to merr"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10326"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#10326"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10326] goto statement jump to merr"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10328"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#10328"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10328] goto statement jump to merr"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10349"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#10349"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10349] goto statement jump to not_supported"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10357"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#10357"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10357] goto statement jump to not_supported"
 }} 
 ]
 };

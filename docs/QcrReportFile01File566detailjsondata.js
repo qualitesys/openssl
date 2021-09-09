@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/pkcs12/p12_p8d.c.html" 
- , "texte" : "File crypto/pkcs12/p12_p8d.c 23 rule violations " 
- , "fic2"  : "./qc/crypto/pkcs12/p12_p8d.c.xml" 
+   "fic1"  : "./qc/crypto/pkcs12/p12_decr.c.html" 
+ , "texte" : "File crypto/pkcs12/p12_decr.c 32 rule violations " 
+ , "fic2"  : "./qc/crypto/pkcs12/p12_decr.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,170 +42,275 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "23"
+ , "c4" : "4"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000006"
+ , "c3" : "Risk of infinite while loop"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "8"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000012"
+ , "c3" : "The condition expression is invariable, always true or false"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "12"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03568"
- , "c1link" : "./qc/crypto/pkcs12/p12_p8d.c.html#3568"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03568] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "02080"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#2080"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[02080] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05373"
- , "c1link" : "./qc/crypto/pkcs12/p12_p8d.c.html#5373"
+   "c1" : "13386"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13386"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05373] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13386] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05375"
- , "c1link" : "./qc/crypto/pkcs12/p12_p8d.c.html#5375"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05375] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "13405"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13405"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13405] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07547"
- , "c1link" : "./qc/crypto/pkcs12/p12_p8d.c.html#7547"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07547] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "13411"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13411"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13411] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07831"
- , "c1link" : "./qc/crypto/pkcs12/p12_p8d.c.html#7831"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07831] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "13428"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13428"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13428] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08031"
- , "c1link" : "./qc/crypto/pkcs12/p12_p8d.c.html#8031"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08031] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "13440"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13440"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13440] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08032"
- , "c1link" : "./qc/crypto/pkcs12/p12_p8d.c.html#8032"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08032] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "13450"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13450"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13450] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08033"
- , "c1link" : "./qc/crypto/pkcs12/p12_p8d.c.html#8033"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08033] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "13455"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13455"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[13455] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08037"
- , "c1link" : "./qc/crypto/pkcs12/p12_p8d.c.html#8037"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08037] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "13465"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13465"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13465] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08623"
- , "c1link" : "./qc/crypto/pkcs12/p12_p8d.c.html#8623"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08623] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "13480"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13480"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13480] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08625"
- , "c1link" : "./qc/crypto/pkcs12/p12_p8d.c.html#8625"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08625] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "13494"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13494"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13494] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08628"
- , "c1link" : "./qc/crypto/pkcs12/p12_p8d.c.html#8628"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08628] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "13507"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13507"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13507] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09492"
- , "c1link" : "./qc/crypto/pkcs12/p12_p8d.c.html#9492"
+   "c1" : "13512"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13512"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09492] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[13512] The expression datalen applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11051"
- , "c1link" : "./qc/crypto/pkcs12/p12_p8d.c.html#11051"
+   "c1" : "13514"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13514"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11051] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[13514] The expression data applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11073"
- , "c1link" : "./qc/crypto/pkcs12/p12_p8d.c.html#11073"
+   "c1" : "13550"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13550"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11073] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13550] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11079"
- , "c1link" : "./qc/crypto/pkcs12/p12_p8d.c.html#11079"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11079] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "13555"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13555"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13555] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11099"
- , "c1link" : "./qc/crypto/pkcs12/p12_p8d.c.html#11099"
+   "c1" : "13555"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13555"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11099] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13555] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11105"
- , "c1link" : "./qc/crypto/pkcs12/p12_p8d.c.html#11105"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11105] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "13556"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13556"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13556] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12222"
- , "c1link" : "./qc/crypto/pkcs12/p12_p8d.c.html#12222"
+   "c1" : "13571"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13571"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12222] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[13571] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12223"
- , "c1link" : "./qc/crypto/pkcs12/p12_p8d.c.html#12223"
+   "c1" : "13571"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13571"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12223] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[13571] The expression 0 is invariable, always true or false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12802"
- , "c1link" : "./qc/crypto/pkcs12/p12_p8d.c.html#12802"
+   "c1" : "13567"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13567"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12802] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000006[13567] The condition of do while loop is constant, infinite loop risk : 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12835"
- , "c1link" : "./qc/crypto/pkcs12/p12_p8d.c.html#12835"
+   "c1" : "13575"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13575"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12835] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[13575] The expression 0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12838"
- , "c1link" : "./qc/crypto/pkcs12/p12_p8d.c.html#12838"
+   "c1" : "13575"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13575"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12838] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[13575] The expression 0 is invariable, always true or false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13581"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13581"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13581] The expression zbuf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13583"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13583"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13583] The expression  ! ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13626"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13626"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[13626] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13633"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13633"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[13633] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13643"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13643"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13643] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13646"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13646"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13646] The expression  ! in applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13652"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13652"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13652] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13662"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13662"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13662] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13664"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13664"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13664] The expression zbuf applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

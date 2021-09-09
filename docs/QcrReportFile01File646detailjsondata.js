@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/sparse_array.c.html" 
- , "texte" : "File crypto/sparse_array.c 3 rule violations " 
- , "fic2"  : "./qc/crypto/sparse_array.c.xml" 
+   "fic1"  : "./qc/crypto/sm2/sm2_err.c.html" 
+ , "texte" : "File crypto/sm2/sm2_err.c 1 rule violations " 
+ , "fic2"  : "./qc/crypto/sm2/sm2_err.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,40 +39,19 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
    "c1" : "MAJOR"
- , "c2" : "QC-CPPCWE481"
- , "c3" : "Assigning instead of comparing"
- , "c4" : "2"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03219"
- , "c1link" : "./qc/crypto/sparse_array.c.html#3219"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03219] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04767"
- , "c1link" : "./qc/crypto/sparse_array.c.html#4767"
+   "c1" : "02283"
+ , "c1link" : "./qc/crypto/sm2/sm2_err.c.html#2283"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04767] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04791"
- , "c1link" : "./qc/crypto/sparse_array.c.html#4791"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04791] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[02283] A pointer is declared but not initialized"
 }} 
 ]
 };

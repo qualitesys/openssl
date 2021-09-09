@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/ess/ess_asn1.c.html" 
- , "texte" : "File crypto/ess/ess_asn1.c 19 rule violations " 
- , "fic2"  : "./qc/crypto/ess/ess_asn1.c.xml" 
+   "fic1"  : "./qc/crypto/err/err.c.html" 
+ , "texte" : "File crypto/err/err.c 22 rule violations " 
+ , "fic2"  : "./qc/crypto/err/err.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,142 +42,184 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "19"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "16"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03235"
- , "c1link" : "./qc/crypto/ess/ess_asn1.c.html#3235"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03235] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "03035"
+ , "c1link" : "./qc/crypto/err/err.c.html#3035"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[03035] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05230"
- , "c1link" : "./qc/crypto/ess/ess_asn1.c.html#5230"
+   "c1" : "06503"
+ , "c1link" : "./qc/crypto/err/err.c.html#6503"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05230] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06503] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05232"
- , "c1link" : "./qc/crypto/ess/ess_asn1.c.html#5232"
+   "c1" : "06504"
+ , "c1link" : "./qc/crypto/err/err.c.html#6504"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05232] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06504] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06021"
- , "c1link" : "./qc/crypto/ess/ess_asn1.c.html#6021"
+   "c1" : "08152"
+ , "c1link" : "./qc/crypto/err/err.c.html#8152"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06021] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[08152] The expression deall applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06221"
- , "c1link" : "./qc/crypto/ess/ess_asn1.c.html#6221"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06221] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "08390"
+ , "c1link" : "./qc/crypto/err/err.c.html#8390"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08390] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06222"
- , "c1link" : "./qc/crypto/ess/ess_asn1.c.html#6222"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06222] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "08602"
+ , "c1link" : "./qc/crypto/err/err.c.html#8602"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08602] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06223"
- , "c1link" : "./qc/crypto/ess/ess_asn1.c.html#6223"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06223] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "08615"
+ , "c1link" : "./qc/crypto/err/err.c.html#8615"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08615] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06227"
- , "c1link" : "./qc/crypto/ess/ess_asn1.c.html#6227"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06227] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "08883"
+ , "c1link" : "./qc/crypto/err/err.c.html#8883"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08883] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06813"
- , "c1link" : "./qc/crypto/ess/ess_asn1.c.html#6813"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06813] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "08998"
+ , "c1link" : "./qc/crypto/err/err.c.html#8998"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08998] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06815"
- , "c1link" : "./qc/crypto/ess/ess_asn1.c.html#6815"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06815] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "09076"
+ , "c1link" : "./qc/crypto/err/err.c.html#9076"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09076] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06818"
- , "c1link" : "./qc/crypto/ess/ess_asn1.c.html#6818"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06818] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "09206"
+ , "c1link" : "./qc/crypto/err/err.c.html#9206"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09206] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07682"
- , "c1link" : "./qc/crypto/ess/ess_asn1.c.html#7682"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07682] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "09251"
+ , "c1link" : "./qc/crypto/err/err.c.html#9251"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09251] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09241"
- , "c1link" : "./qc/crypto/ess/ess_asn1.c.html#9241"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09241] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "09376"
+ , "c1link" : "./qc/crypto/err/err.c.html#9376"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09376] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09263"
- , "c1link" : "./qc/crypto/ess/ess_asn1.c.html#9263"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09263] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "09430"
+ , "c1link" : "./qc/crypto/err/err.c.html#9430"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09430] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09269"
- , "c1link" : "./qc/crypto/ess/ess_asn1.c.html#9269"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09269] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "09430"
+ , "c1link" : "./qc/crypto/err/err.c.html#9430"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09430] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09289"
- , "c1link" : "./qc/crypto/ess/ess_asn1.c.html#9289"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09289] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "09431"
+ , "c1link" : "./qc/crypto/err/err.c.html#9431"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09431] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09295"
- , "c1link" : "./qc/crypto/ess/ess_asn1.c.html#9295"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09295] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "09457"
+ , "c1link" : "./qc/crypto/err/err.c.html#9457"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09457] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10412"
- , "c1link" : "./qc/crypto/ess/ess_asn1.c.html#10412"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10412] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "09490"
+ , "c1link" : "./qc/crypto/err/err.c.html#9490"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09490] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10413"
- , "c1link" : "./qc/crypto/ess/ess_asn1.c.html#10413"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10413] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "09512"
+ , "c1link" : "./qc/crypto/err/err.c.html#9512"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09512] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09530"
+ , "c1link" : "./qc/crypto/err/err.c.html#9530"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09530] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09554"
+ , "c1link" : "./qc/crypto/err/err.c.html#9554"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09554] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09579"
+ , "c1link" : "./qc/crypto/err/err.c.html#9579"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09579] A pointer is declared but not initialized"
 }} 
 ]
 };

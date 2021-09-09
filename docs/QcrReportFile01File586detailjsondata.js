@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/punycode.c.html" 
- , "texte" : "File crypto/punycode.c 3 rule violations " 
- , "fic2"  : "./qc/crypto/punycode.c.xml" 
+   "fic1"  : "./qc/crypto/property/defn_cache.c.html" 
+ , "texte" : "File crypto/property/defn_cache.c 8 rule violations " 
+ , "fic2"  : "./qc/crypto/property/defn_cache.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,47 +39,75 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000006"
- , "c3" : "Risk of infinite while loop"
- , "c4" : "1"
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000012"
- , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "1"
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "5"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "01861"
- , "c1link" : "./qc/crypto/punycode.c.html#1861"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[01861] The condition of do while loop is constant, infinite loop risk : 1"
+   "c1" : "02663"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#2663"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[02663] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01861"
- , "c1link" : "./qc/crypto/punycode.c.html#1861"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01861] The expression 1 applies to a single value or variable, might be ambiguous."
+   "c1" : "06370"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6370"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06370] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01861"
- , "c1link" : "./qc/crypto/punycode.c.html#1861"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01861] The expression 1 is invariable, always true or false"
+   "c1" : "06371"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6371"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06371] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06404"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6404"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06404] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06410"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6410"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06410] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06439"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6439"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06439] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06458"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6458"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06458] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06461"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6461"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06461] goto statement jump to end"
 }} 
 ]
 };

@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/modes/wrap128.c.html" 
- , "texte" : "File crypto/modes/wrap128.c 9 rule violations " 
- , "fic2"  : "./qc/crypto/modes/wrap128.c.xml" 
+   "fic1"  : "./qc/crypto/modes/cts128.c.html" 
+ , "texte" : "File crypto/modes/cts128.c 9 rule violations " 
+ , "fic2"  : "./qc/crypto/modes/cts128.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,81 +40,88 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "6"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "3"
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "4"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03573"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#3573"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03573] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "01589"
+ , "c1link" : "./qc/crypto/modes/cts128.c.html#1589"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[01589] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05378"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#5378"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05378] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "04911"
+ , "c1link" : "./qc/crypto/modes/cts128.c.html#4911"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04911] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05380"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#5380"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05380] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "04974"
+ , "c1link" : "./qc/crypto/modes/cts128.c.html#4974"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04974] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07552"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#7552"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07552] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "05046"
+ , "c1link" : "./qc/crypto/modes/cts128.c.html#5046"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[05046] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07797"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#7797"
+   "c1" : "05051"
+ , "c1link" : "./qc/crypto/modes/cts128.c.html#5051"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07797] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[05051] The expression len applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07804"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#7804"
+   "c1" : "05098"
+ , "c1link" : "./qc/crypto/modes/cts128.c.html#5098"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07804] The expression  ! iv applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[05098] The expression len applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07832"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#7832"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07832] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "05135"
+ , "c1link" : "./qc/crypto/modes/cts128.c.html#5135"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[05135] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07870"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#7870"
+   "c1" : "05140"
+ , "c1link" : "./qc/crypto/modes/cts128.c.html#5140"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07870] The expression  ! iv applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[05140] The expression len applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07902"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#7902"
+   "c1" : "05184"
+ , "c1link" : "./qc/crypto/modes/cts128.c.html#5184"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07902] The expression  ! icv applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[05184] The expression len applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

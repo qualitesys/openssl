@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/evp/bio_md.c.html" 
- , "texte" : "File crypto/evp/bio_md.c 11 rule violations " 
- , "fic2"  : "./qc/crypto/evp/bio_md.c.xml" 
+   "fic1"  : "./qc/crypto/ess/ess_err.c.html" 
+ , "texte" : "File crypto/ess/ess_err.c 1 rule violations " 
+ , "fic2"  : "./qc/crypto/ess/ess_err.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,89 +39,19 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "11"
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03249"
- , "c1link" : "./qc/crypto/evp/bio_md.c.html#3249"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03249] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05236"
- , "c1link" : "./qc/crypto/evp/bio_md.c.html#5236"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05236] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05238"
- , "c1link" : "./qc/crypto/evp/bio_md.c.html#5238"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05238] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05605"
- , "c1link" : "./qc/crypto/evp/bio_md.c.html#5605"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05605] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05805"
- , "c1link" : "./qc/crypto/evp/bio_md.c.html#5805"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05805] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05806"
- , "c1link" : "./qc/crypto/evp/bio_md.c.html#5806"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05806] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05807"
- , "c1link" : "./qc/crypto/evp/bio_md.c.html#5807"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05807] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05811"
- , "c1link" : "./qc/crypto/evp/bio_md.c.html#5811"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05811] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06397"
- , "c1link" : "./qc/crypto/evp/bio_md.c.html#6397"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06397] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06399"
- , "c1link" : "./qc/crypto/evp/bio_md.c.html#6399"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06399] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06402"
- , "c1link" : "./qc/crypto/evp/bio_md.c.html#6402"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06402] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "02283"
+ , "c1link" : "./qc/crypto/ess/ess_err.c.html#2283"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[02283] A pointer is declared but not initialized"
 }} 
 ]
 };

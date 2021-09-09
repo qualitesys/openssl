@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/bio/bf_prefix.c.html" 
- , "texte" : "File crypto/bio/bf_prefix.c 4 rule violations " 
- , "fic2"  : "./qc/crypto/bio/bf_prefix.c.xml" 
+   "fic1"  : "./qc/crypto/bio/bio_cb.c.html" 
+ , "texte" : "File crypto/bio/bio_cb.c 3 rule violations " 
+ , "fic2"  : "./qc/crypto/bio/bio_cb.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,40 +39,33 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "4"
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03600"
- , "c1link" : "./qc/crypto/bio/bf_prefix.c.html#3600"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03600] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "02456"
+ , "c1link" : "./qc/crypto/bio/bio_cb.c.html#2456"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[02456] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09591"
- , "c1link" : "./qc/crypto/bio/bf_prefix.c.html#9591"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09591] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "10474"
+ , "c1link" : "./qc/crypto/bio/bio_cb.c.html#10474"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10474] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09593"
- , "c1link" : "./qc/crypto/bio/bf_prefix.c.html#9593"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09593] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10221"
- , "c1link" : "./qc/crypto/bio/bf_prefix.c.html#10221"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10221] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "10476"
+ , "c1link" : "./qc/crypto/bio/bio_cb.c.html#10476"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10476] A pointer is declared but not initialized"
 }} 
 ]
 };

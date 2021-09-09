@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/o_time.c.html" 
- , "texte" : "File crypto/o_time.c 3 rule violations " 
- , "fic2"  : "./qc/crypto/o_time.c.xml" 
+   "fic1"  : "./qc/crypto/modes/xts128.c.html" 
+ , "texte" : "File crypto/modes/xts128.c 6 rule violations " 
+ , "fic2"  : "./qc/crypto/modes/xts128.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,39 +40,67 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "1"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
  , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03570"
- , "c1link" : "./qc/crypto/o_time.c.html#3570"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03570] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "01589"
+ , "c1link" : "./qc/crypto/modes/xts128.c.html#1589"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[01589] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04588"
- , "c1link" : "./qc/crypto/o_time.c.html#4588"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04588] The expression pday applies to a single value or variable, might be ambiguous."
+   "c1" : "04951"
+ , "c1link" : "./qc/crypto/modes/xts128.c.html#4951"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04951] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04590"
- , "c1link" : "./qc/crypto/o_time.c.html#4590"
+   "c1" : "04952"
+ , "c1link" : "./qc/crypto/modes/xts128.c.html#4952"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04952] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04961"
+ , "c1link" : "./qc/crypto/modes/xts128.c.html#4961"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04590] The expression psec applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[04961] The expression (ossl_is_little_endian) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "04982"
+ , "c1link" : "./qc/crypto/modes/xts128.c.html#4982"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[04982] The expression enc applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05000"
+ , "c1link" : "./qc/crypto/modes/xts128.c.html#5000"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05000] The expression (ossl_is_little_endian) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/evp/legacy_md5_sha1.c.html" 
- , "texte" : "File crypto/evp/legacy_md5_sha1.c 18 rule violations " 
- , "fic2"  : "./qc/crypto/evp/legacy_md5_sha1.c.xml" 
+   "fic1"  : "./qc/crypto/evp/keymgmt_lib.c.html" 
+ , "texte" : "File crypto/evp/keymgmt_lib.c 12 rule violations " 
+ , "fic2"  : "./qc/crypto/evp/keymgmt_lib.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,137 +40,109 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "18"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "6"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03339"
- , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#3339"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03339] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "01191"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#1191"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[01191] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05185"
- , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#5185"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05185] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "09860"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#9860"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09860] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05187"
- , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#5187"
+   "c1" : "09889"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#9889"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05187] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[09889] The expression delete_on_error applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "05554"
- , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#5554"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05554] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "09947"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#9947"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09947] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05754"
- , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#5754"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05754] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "09983"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#9983"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09983] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05755"
- , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#5755"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05755] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "10187"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#10187"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10187] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05756"
- , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#5756"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05756] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "10296"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#10296"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10296] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05760"
- , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#5760"
+   "c1" : "10432"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#10432"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05760] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[10432] The expression ok applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06346"
- , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#6346"
+   "c1" : "10472"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#10472"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06346] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[10472] The expression ok applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06348"
- , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#6348"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06348] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "10553"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#10553"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10553] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06351"
- , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#6351"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06351] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "10583"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#10583"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10583] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07692"
- , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#7692"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07692] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08246"
- , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#8246"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08246] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08275"
- , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#8275"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08275] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08297"
- , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#8297"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08297] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08303"
- , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#8303"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08303] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08323"
- , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#8323"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08323] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08329"
- , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#8329"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08329] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "10617"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#10617"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10617] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/dso/dso_win32.c.html" 
- , "texte" : "File crypto/dso/dso_win32.c 4 rule violations " 
- , "fic2"  : "./qc/crypto/dso/dso_win32.c.xml" 
+   "fic1"  : "./qc/crypto/dso/dso_dlfcn.c.html" 
+ , "texte" : "File crypto/dso/dso_dlfcn.c 12 rule violations " 
+ , "fic2"  : "./qc/crypto/dso/dso_dlfcn.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,39 +40,109 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
  , "c4" : "4"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "5"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03224"
- , "c1link" : "./qc/crypto/dso/dso_win32.c.html#3224"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03224] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "02566"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#2566"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[02566] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06998"
- , "c1link" : "./qc/crypto/dso/dso_win32.c.html#6998"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06998] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "09402"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9402"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09402] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07000"
- , "c1link" : "./qc/crypto/dso/dso_win32.c.html#7000"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07000] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "09424"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9424"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09424] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07661"
- , "c1link" : "./qc/crypto/dso/dso_win32.c.html#7661"
+   "c1" : "09441"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9441"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09441] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09460"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9460"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09460] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09499"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9499"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09499] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09574"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9574"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09574] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09618"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9618"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07661] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[09618] The expression  ! filespec1 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09679"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9679"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09679] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09689"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9689"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09689] The expression transform applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09712"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9712"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09712] The expression transform applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09781"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9781"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09781] The expression handle applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

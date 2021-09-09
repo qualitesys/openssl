@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/md5/md5_one.c.html" 
- , "texte" : "File crypto/md5/md5_one.c 2 rule violations " 
- , "fic2"  : "./qc/crypto/md5/md5_one.c.xml" 
+   "fic1"  : "./qc/crypto/lhash/lh_stats.c.html" 
+ , "texte" : "File crypto/lhash/lh_stats.c 6 rule violations " 
+ , "fic2"  : "./qc/crypto/lhash/lh_stats.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,26 +39,54 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "2"
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "6"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "01693"
- , "c1link" : "./qc/crypto/md5/md5_one.c.html#1693"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[01693] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "02456"
+ , "c1link" : "./qc/crypto/lhash/lh_stats.c.html#2456"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[02456] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03618"
- , "c1link" : "./qc/crypto/md5/md5_one.c.html#3618"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03618] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "06255"
+ , "c1link" : "./qc/crypto/lhash/lh_stats.c.html#6255"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06255] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06271"
+ , "c1link" : "./qc/crypto/lhash/lh_stats.c.html#6271"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06271] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06287"
+ , "c1link" : "./qc/crypto/lhash/lh_stats.c.html#6287"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06287] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06325"
+ , "c1link" : "./qc/crypto/lhash/lh_stats.c.html#6325"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06325] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06341"
+ , "c1link" : "./qc/crypto/lhash/lh_stats.c.html#6341"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06341] A pointer is declared but not initialized"
 }} 
 ]
 };

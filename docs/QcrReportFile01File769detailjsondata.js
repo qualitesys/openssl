@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/providers/nullprov.c.html" 
- , "texte" : "File providers/nullprov.c 1 rule violations " 
- , "fic2"  : "./qc/providers/nullprov.c.xml" 
+   "fic1"  : "./qc/providers/baseprov.c.html" 
+ , "texte" : "File providers/baseprov.c 5 rule violations " 
+ , "fic2"  : "./qc/providers/baseprov.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,19 +39,54 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "1"
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "04160"
- , "c1link" : "./qc/providers/nullprov.c.html#4160"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[04160] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "03609"
+ , "c1link" : "./qc/providers/baseprov.c.html#3609"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[03609] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06684"
+ , "c1link" : "./qc/providers/baseprov.c.html#6684"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06684] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07060"
+ , "c1link" : "./qc/providers/baseprov.c.html#7060"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[07060] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07088"
+ , "c1link" : "./qc/providers/baseprov.c.html#7088"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07088] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07093"
+ , "c1link" : "./qc/providers/baseprov.c.html#7093"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07093] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

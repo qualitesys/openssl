@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/ssl/ssl_rsa_legacy.c.html" 
- , "texte" : "File ssl/ssl_rsa_legacy.c 23 rule violations " 
- , "fic2"  : "./qc/ssl/ssl_rsa_legacy.c.xml" 
+   "fic1"  : "./qc/crypto/asn1/bio_asn1.c.html" 
+ , "texte" : "File crypto/asn1/bio_asn1.c 15 rule violations " 
+ , "fic2"  : "./qc/crypto/asn1/bio_asn1.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,191 +42,142 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "2"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000007"
  , "c3" : "goto statement"
- , "c4" : "8"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPPCWE481"
  , "c3" : "Assigning instead of comparing"
- , "c4" : "4"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "9"
+ , "c4" : "8"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "02283"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#2283"
+   "c1" : "03046"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#3046"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02283] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[03046] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14533"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14533"
+   "c1" : "06275"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#6275"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14533] A pointer is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[06275] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14548"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14548"
+   "c1" : "06296"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#6296"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14548] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[06296] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14576"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14576"
+   "c1" : "06340"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#6340"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14576] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[06340] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14594"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14594"
+   "c1" : "06342"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#6342"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14594] goto statement jump to end"
+ , "c3" : "QC-CPP000014[06342] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14603"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14603"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14603] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14627"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14627"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14627] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14639"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14639"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14639] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14651"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14651"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14651] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14651"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14651"
+   "c1" : "06342"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#6342"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14651] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[06342] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14652"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14652"
+   "c1" : "06343"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#6343"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14652] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[06343] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14655"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14655"
+   "c1" : "06381"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#6381"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14655] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[06381] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14680"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14680"
+   "c1" : "06399"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#6399"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14680] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000007[06399] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14694"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14694"
+   "c1" : "06419"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#6419"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14694] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[06419] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14722"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14722"
+   "c1" : "06429"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#6429"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14722] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000007[06429] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14740"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14740"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14740] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14749"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14749"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14749] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14773"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14773"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14773] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14785"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14785"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14785] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14798"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14798"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14798] A pointer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14798"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14798"
+   "c1" : "06465"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#6465"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14798] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[06465] The expression  cleanup  applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14799"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14799"
+   "c1" : "06534"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#6534"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14799] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[06534] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14802"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14802"
+   "c1" : "06535"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#6535"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14802] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[06535] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06537"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#6537"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06537] A pointer is declared but not initialized"
 }} 
 ]
 };

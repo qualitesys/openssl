@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/pem/pem_pkey.c.html" 
- , "texte" : "File crypto/pem/pem_pkey.c 38 rule violations " 
- , "fic2"  : "./qc/crypto/pem/pem_pkey.c.xml" 
+   "fic1"  : "./qc/crypto/pem/pem_all.c.html" 
+ , "texte" : "File crypto/pem/pem_all.c 28 rule violations " 
+ , "fic2"  : "./qc/crypto/pem/pem_all.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,296 +42,233 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "25"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "2"
+ , "c4" : "9"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000007"
  , "c3" : "goto statement"
- , "c4" : "5"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPPCWE481"
  , "c3" : "Assigning instead of comparing"
- , "c4" : "6"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "12"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03568"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#3568"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03568] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05373"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#5373"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05373] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05375"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#5375"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05375] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07547"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#7547"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07547] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07640"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#7640"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07640] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08013"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#8013"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08013] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08014"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#8014"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08014] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08015"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#8015"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08015] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08019"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#8019"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08019] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08605"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#8605"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08605] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08607"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#8607"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08607] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08610"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#8610"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08610] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09478"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#9478"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09478] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11037"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#11037"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11037] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11059"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#11059"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11059] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11065"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#11065"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11065] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11085"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#11085"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11085] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11091"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#11091"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11091] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12208"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#12208"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12208] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12209"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#12209"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12209] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12800"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#12800"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12800] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12833"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#12833"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12833] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12836"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#12836"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12836] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13722"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#13722"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13722] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14640"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#14640"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14640] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15344"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#15344"
+   "c1" : "02107"
+ , "c1link" : "./qc/crypto/pem/pem_all.c.html#2107"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15344] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[02107] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15356"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#15356"
+   "c1" : "13616"
+ , "c1link" : "./qc/crypto/pem/pem_all.c.html#13616"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15356] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[13616] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15370"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#15370"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15370] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15373"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#15373"
+   "c1" : "13617"
+ , "c1link" : "./qc/crypto/pem/pem_all.c.html#13617"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15373] The expression try_secure applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13617] The expression  ! key applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15376"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#15376"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15376] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15382"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#15382"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15382] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15385"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#15385"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15385] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15459"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#15459"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15459] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15515"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#15515"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15515] goto statement jump to legacy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15545"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#15545"
+   "c1" : "13625"
+ , "c1link" : "./qc/crypto/pem/pem_all.c.html#13625"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15545] The expression  ! ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13625] The expression  ! rtmp applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15672"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#15672"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15672] goto statement jump to legacy"
+   "c1" : "13631"
+ , "c1link" : "./qc/crypto/pem/pem_all.c.html#13631"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13631] The expression rsa applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15705"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#15705"
+   "c1" : "13641"
+ , "c1link" : "./qc/crypto/pem/pem_all.c.html#13641"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15705] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[13641] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15742"
- , "c1link" : "./qc/crypto/pem/pem_pkey.c.html#15742"
+   "c1" : "13654"
+ , "c1link" : "./qc/crypto/pem/pem_all.c.html#13654"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15742] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[13654] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13736"
+ , "c1link" : "./qc/crypto/pem/pem_all.c.html#13736"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13736] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13737"
+ , "c1link" : "./qc/crypto/pem/pem_all.c.html#13737"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13737] The expression  ! key applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13745"
+ , "c1link" : "./qc/crypto/pem/pem_all.c.html#13745"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13745] The expression  ! dtmp applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13751"
+ , "c1link" : "./qc/crypto/pem/pem_all.c.html#13751"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13751] The expression dsa applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13761"
+ , "c1link" : "./qc/crypto/pem/pem_all.c.html#13761"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13761] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13807"
+ , "c1link" : "./qc/crypto/pem/pem_all.c.html#13807"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13807] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13857"
+ , "c1link" : "./qc/crypto/pem/pem_all.c.html#13857"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13857] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13858"
+ , "c1link" : "./qc/crypto/pem/pem_all.c.html#13858"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13858] The expression  ! key applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13866"
+ , "c1link" : "./qc/crypto/pem/pem_all.c.html#13866"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13866] The expression  ! dtmp applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13872"
+ , "c1link" : "./qc/crypto/pem/pem_all.c.html#13872"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13872] The expression eckey applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13882"
+ , "c1link" : "./qc/crypto/pem/pem_all.c.html#13882"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13882] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13966"
+ , "c1link" : "./qc/crypto/pem/pem_all.c.html#13966"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13966] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14056"
+ , "c1link" : "./qc/crypto/pem/pem_all.c.html#14056"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[14056] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14061"
+ , "c1link" : "./qc/crypto/pem/pem_all.c.html#14061"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[14061] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14104"
+ , "c1link" : "./qc/crypto/pem/pem_all.c.html#14104"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14104] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14105"
+ , "c1link" : "./qc/crypto/pem/pem_all.c.html#14105"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14105] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14107"
+ , "c1link" : "./qc/crypto/pem/pem_all.c.html#14107"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[14107] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14131"
+ , "c1link" : "./qc/crypto/pem/pem_all.c.html#14131"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14131] goto statement jump to legacy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14147"
+ , "c1link" : "./qc/crypto/pem/pem_all.c.html#14147"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14147] goto statement jump to legacy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14167"
+ , "c1link" : "./qc/crypto/pem/pem_all.c.html#14167"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14167] goto statement jump to legacy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14183"
+ , "c1link" : "./qc/crypto/pem/pem_all.c.html#14183"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14183] goto statement jump to legacy"
 }} 
 ]
 };

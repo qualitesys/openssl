@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/rc4/rc4_skey.c.html" 
- , "texte" : "File crypto/rc4/rc4_skey.c 7 rule violations " 
- , "fic2"  : "./qc/crypto/rc4/rc4_skey.c.xml" 
+   "fic1"  : "./qc/crypto/rand/randfile.c.html" 
+ , "texte" : "File crypto/rand/randfile.c 7 rule violations " 
+ , "fic2"  : "./qc/crypto/rand/randfile.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,81 +40,74 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "4"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000012"
- , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPPCWE481"
  , "c3" : "Assigning instead of comparing"
- , "c4" : "1"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03630"
- , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#3630"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03630] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05423"
- , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#5423"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05423] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05425"
- , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#5425"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05425] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07597"
- , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#7597"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07597] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07625"
- , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#7625"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07625] The expression  sizeof ( unsigned  int  )==1 applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07625"
- , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#7625"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07625] The expression  sizeof ( unsigned  int  )==1 is invariable, always true or false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07641"
- , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#7641"
+   "c1" : "01187"
+ , "c1link" : "./qc/crypto/rand/randfile.c.html#1187"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07641] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[01187] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08913"
+ , "c1link" : "./qc/crypto/rand/randfile.c.html#8913"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08913] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08918"
+ , "c1link" : "./qc/crypto/rand/randfile.c.html#8918"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08918] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08988"
+ , "c1link" : "./qc/crypto/rand/randfile.c.html#8988"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08988] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08994"
+ , "c1link" : "./qc/crypto/rand/randfile.c.html#8994"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08994] The expression  ! RAND_status() applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09095"
+ , "c1link" : "./qc/crypto/rand/randfile.c.html#9095"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09095] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09121"
+ , "c1link" : "./qc/crypto/rand/randfile.c.html#9121"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09121] The expression use_randfile applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

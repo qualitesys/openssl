@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/rc2/rc2_skey.c.html" 
- , "texte" : "File crypto/rc2/rc2_skey.c 2 rule violations " 
- , "fic2"  : "./qc/crypto/rc2/rc2_skey.c.xml" 
+   "fic1"  : "./qc/crypto/rand/prov_seed.c.html" 
+ , "texte" : "File crypto/rand/prov_seed.c 5 rule violations " 
+ , "fic2"  : "./qc/crypto/rand/prov_seed.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,33 +39,54 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "1"
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "1"
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00106"
- , "c1link" : "./qc/crypto/rc2/rc2_skey.c.html#106"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[00106] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "01213"
+ , "c1link" : "./qc/crypto/rand/prov_seed.c.html#1213"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[01213] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00139"
- , "c1link" : "./qc/crypto/rc2/rc2_skey.c.html#139"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00139] The expression i-- applies to a single value or variable, might be ambiguous."
+   "c1" : "08131"
+ , "c1link" : "./qc/crypto/rand/prov_seed.c.html#8131"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08131] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08170"
+ , "c1link" : "./qc/crypto/rand/prov_seed.c.html#8170"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08170] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08187"
+ , "c1link" : "./qc/crypto/rand/prov_seed.c.html#8187"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08187] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08194"
+ , "c1link" : "./qc/crypto/rand/prov_seed.c.html#8194"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08194] goto statement jump to err"
 }} 
 ]
 };

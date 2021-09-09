@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/engine/tb_cipher.c.html" 
- , "texte" : "File crypto/engine/tb_cipher.c 20 rule violations " 
- , "fic2"  : "./qc/crypto/engine/tb_cipher.c.xml" 
+   "fic1"  : "./qc/crypto/engine/eng_openssl.c.html" 
+ , "texte" : "File crypto/engine/eng_openssl.c 20 rule violations " 
+ , "fic2"  : "./qc/crypto/engine/eng_openssl.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,151 +40,165 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "20"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "6"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "6"
+}}
+,
+{ "ligne" : {
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "8"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03236"
- , "c1link" : "./qc/crypto/engine/tb_cipher.c.html#3236"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03236] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "02112"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#2112"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[02112] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05413"
- , "c1link" : "./qc/crypto/engine/tb_cipher.c.html#5413"
+   "c1" : "13974"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#13974"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05413] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[13974] The expression  ! toadd applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "05415"
- , "c1link" : "./qc/crypto/engine/tb_cipher.c.html#5415"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05415] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "14063"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14063"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14063] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07587"
- , "c1link" : "./qc/crypto/engine/tb_cipher.c.html#7587"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07587] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "14065"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14065"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[14065] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08755"
- , "c1link" : "./qc/crypto/engine/tb_cipher.c.html#8755"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08755] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "14108"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14108"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14108] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09601"
- , "c1link" : "./qc/crypto/engine/tb_cipher.c.html#9601"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09601] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "14110"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14110"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[14110] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09801"
- , "c1link" : "./qc/crypto/engine/tb_cipher.c.html#9801"
+   "c1" : "14146"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14146"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09801] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[14146] The expression  ! init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09802"
- , "c1link" : "./qc/crypto/engine/tb_cipher.c.html#9802"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09802] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "14147"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14147"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14147] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09803"
- , "c1link" : "./qc/crypto/engine/tb_cipher.c.html#9803"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09803] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "14148"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14148"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[14148] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09807"
- , "c1link" : "./qc/crypto/engine/tb_cipher.c.html#9807"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09807] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "14154"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14154"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[14154] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10393"
- , "c1link" : "./qc/crypto/engine/tb_cipher.c.html#10393"
+   "c1" : "14170"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14170"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10393] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[14170] The expression  ! cipher applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10395"
- , "c1link" : "./qc/crypto/engine/tb_cipher.c.html#10395"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10395] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "14235"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14235"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14235] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10398"
- , "c1link" : "./qc/crypto/engine/tb_cipher.c.html#10398"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10398] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "14237"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14237"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[14237] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11168"
- , "c1link" : "./qc/crypto/engine/tb_cipher.c.html#11168"
+   "c1" : "14276"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14276"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11168] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[14276] The expression  ! init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11190"
- , "c1link" : "./qc/crypto/engine/tb_cipher.c.html#11190"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11190] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "14277"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14277"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14277] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11196"
- , "c1link" : "./qc/crypto/engine/tb_cipher.c.html#11196"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11196] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "14278"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14278"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[14278] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11216"
- , "c1link" : "./qc/crypto/engine/tb_cipher.c.html#11216"
+   "c1" : "14294"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14294"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11216] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[14294] The expression  ! digest applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11222"
- , "c1link" : "./qc/crypto/engine/tb_cipher.c.html#11222"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11222] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "14322"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14322"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14322] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12339"
- , "c1link" : "./qc/crypto/engine/tb_cipher.c.html#12339"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12339] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "14323"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14323"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14323] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12340"
- , "c1link" : "./qc/crypto/engine/tb_cipher.c.html#12340"
+   "c1" : "14331"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#14331"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12340] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[14331] The expression  ! in applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

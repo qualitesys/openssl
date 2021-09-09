@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/err/err_all.c.html" 
- , "texte" : "File crypto/err/err_all.c 2 rule violations " 
- , "fic2"  : "./qc/crypto/err/err_all.c.xml" 
+   "fic1"  : "./qc/crypto/engine/tb_eckey.c.html" 
+ , "texte" : "File crypto/engine/tb_eckey.c 2 rule violations " 
+ , "fic2"  : "./qc/crypto/engine/tb_eckey.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,33 +39,26 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000012"
- , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "1"
+   "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "03236"
- , "c1link" : "./qc/crypto/err/err_all.c.html#3236"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[03236] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "02303"
+ , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#2303"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[02303] A pointer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04903"
- , "c1link" : "./qc/crypto/err/err_all.c.html#4903"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04903] The expression 0 is invariable, always true or false"
+   "c1" : "14169"
+ , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#14169"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14169] A pointer is declared but not initialized"
 }} 
 ]
 };
