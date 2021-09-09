@@ -36,7 +36,10 @@
     <!-- Modif D.C. 2021 02 09 ajt crypto entier 
     <sonar.filecloneignore>fuzz/;test/;crypto/libfips;crypto/aes/libfips;crypto/bn/libfips;crypto/buffer/libfips;crypto/cmac/libfips;crypto/des/libfips;crypto/dh/libfips;crypto/dsa/libfips;crypto/ec/libfips;crypto/ec/curve448/libfips;crypto/ec/curve448/arch_32/libfips;crypto/evp/libfips;crypto/ffc/libfips;crypto/hmac/libfips;crypto/modes/libfips;crypto/objects;crypto/property/libfips;crypto/rand/libfips;crypto/rsa/libfips;crypto/sha/libfips;crypto/stack/libfips;</sonar.filecloneignore>
     -->
+    <!-- Modif D.C. 2021 09 09 remis crypto entier
     <sonar.filecloneignore>fuzz/;test/;crypto;crypto/libfips;crypto/aes/libfips;crypto/bn/libfips;crypto/buffer/libfips;crypto/cmac/libfips;crypto/des/libfips;crypto/dh/libfips;crypto/dsa/libfips;crypto/ec/libfips;crypto/ec/curve448/libfips;crypto/ec/curve448/arch_32/libfips;crypto/evp/libfips;crypto/ffc/libfips;crypto/hmac/libfips;crypto/modes/libfips;crypto/objects;crypto/property/libfips;crypto/rand/libfips;crypto/rsa/libfips;crypto/sha/libfips;crypto/stack/libfips;</sonar.filecloneignore>
+    -->
+    <sonar.filecloneignore>fuzz/;test/;crypto/libfips;crypto/aes/libfips;crypto/bn/libfips;crypto/buffer/libfips;crypto/cmac/libfips;crypto/des/libfips;crypto/dh/libfips;crypto/dsa/libfips;crypto/ec/libfips;crypto/ec/curve448/libfips;crypto/ec/curve448/arch_32/libfips;crypto/evp/libfips;crypto/ffc/libfips;crypto/hmac/libfips;crypto/modes/libfips;crypto/objects;crypto/property/libfips;crypto/rand/libfips;crypto/rsa/libfips;crypto/sha/libfips;crypto/stack/libfips;</sonar.filecloneignore>
     <sonar.filecloneforce>crypto/libcrypto-lib-mem.;crypto/libcrypto-shlib-mem.;crypto/bio/libcrypto-lib-bio_lib.;crypto/bio/libcrypto-shlib-bio_lib.</sonar.filecloneforce>
     <!-- Modif D.C. 2020 12 26 pour rapidite, pas besoin de fichiers .lin -->
     <!-- Modif D.C. 2021 01 10 en comm, necessaire pour schema d archi Reporting02 -->
