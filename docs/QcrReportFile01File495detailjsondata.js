@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/http/http_lib.c.html" 
- , "texte" : "File crypto/http/http_lib.c 37 rule violations " 
+ , "texte" : "File crypto/http/http_lib.c 39 rule violations " 
  , "fic2"  : "./qc/crypto/http/http_lib.c.xml" 
  , "fic3"  : "" 
 }
@@ -38,6 +38,13 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000015"
+ , "c3" : "Suspicious use of a negative array index"
+ , "c4" : "2"
+}}
+,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000007"
@@ -318,6 +325,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/http/http_lib.c.html#6699"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[06699] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06768"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#6768"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000015[06768] Suspicion use of negative array index -1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06768"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#6768"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000015[06768] Suspicion use of negative array index -1"
 }} 
 ]
 };

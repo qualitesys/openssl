@@ -16,6 +16,7 @@
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/ciphers.c</file><nberror>3</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>apps/ciphers.c</file><nberror>4</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>apps/cmp.c</file><nberror>30</nberror></occ>
+<occ><category>BLOCKER</category><rule>QC-CPP000015</rule><file>apps/cmp.c</file><nberror>2</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/cmp.c</file><nberror>98</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000010</rule><file>apps/cmp.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/cmp.c</file><nberror>17</nberror></occ>
@@ -149,6 +150,7 @@
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>apps/lib/engine_loader.c</file><nberror>2</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000005</rule><file>apps/lib/http_server.c</file><nberror>2</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>apps/lib/http_server.c</file><nberror>3</nberror></occ>
+<occ><category>BLOCKER</category><rule>QC-CPP000015</rule><file>apps/lib/http_server.c</file><nberror>2</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>apps/lib/http_server.c</file><nberror>17</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>apps/lib/http_server.c</file><nberror>8</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>apps/lib/http_server.c</file><nberror>8</nberror></occ>
@@ -367,6 +369,7 @@
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>crypto/aria/aria.c</file><nberror>5</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000005</rule><file>crypto/asn1/a_bitstr.c</file><nberror>4</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>crypto/asn1/a_bitstr.c</file><nberror>2</nberror></occ>
+<occ><category>BLOCKER</category><rule>QC-CPP000015</rule><file>crypto/asn1/a_bitstr.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>crypto/asn1/a_bitstr.c</file><nberror>4</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>crypto/asn1/a_bitstr.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>crypto/asn1/a_bitstr.c</file><nberror>6</nberror></occ>
@@ -396,6 +399,7 @@
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>crypto/asn1/a_mbstr.c</file><nberror>12</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000005</rule><file>crypto/asn1/a_object.c</file><nberror>4</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>crypto/asn1/a_object.c</file><nberror>6</nberror></occ>
+<occ><category>BLOCKER</category><rule>QC-CPP000015</rule><file>crypto/asn1/a_object.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>crypto/asn1/a_object.c</file><nberror>14</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>crypto/asn1/a_object.c</file><nberror>5</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>crypto/asn1/a_object.c</file><nberror>7</nberror></occ>
@@ -690,6 +694,7 @@
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>crypto/bn/bn_dh.c</file><nberror>1</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000009</rule><file>crypto/bn/bn_div.c</file><nberror>2</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>crypto/bn/bn_div.c</file><nberror>1</nberror></occ>
+<occ><category>BLOCKER</category><rule>QC-CPP000015</rule><file>crypto/bn/bn_div.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>crypto/bn/bn_div.c</file><nberror>6</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>crypto/bn/bn_div.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>crypto/bn/bn_div.c</file><nberror>8</nberror></occ>
@@ -1574,6 +1579,7 @@
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>crypto/http/http_client.c</file><nberror>11</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>crypto/http/http_client.c</file><nberror>21</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>crypto/http/http_err.c</file><nberror>1</nberror></occ>
+<occ><category>BLOCKER</category><rule>QC-CPP000015</rule><file>crypto/http/http_lib.c</file><nberror>2</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>crypto/http/http_lib.c</file><nberror>10</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>crypto/http/http_lib.c</file><nberror>8</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>crypto/http/http_lib.c</file><nberror>19</nberror></occ>
@@ -2112,6 +2118,7 @@
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>crypto/ts/ts_verify_ctx.c</file><nberror>7</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>crypto/ts/ts_verify_ctx.c</file><nberror>6</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>crypto/txt_db/txt_db.c</file><nberror>1</nberror></occ>
+<occ><category>BLOCKER</category><rule>QC-CPP000015</rule><file>crypto/txt_db/txt_db.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>crypto/txt_db/txt_db.c</file><nberror>16</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>crypto/txt_db/txt_db.c</file><nberror>9</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>crypto/txt_db/txt_db.c</file><nberror>15</nberror></occ>
@@ -2233,6 +2240,7 @@
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>crypto/x509/v3_lib.c</file><nberror>9</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000005</rule><file>crypto/x509/v3_ncons.c</file><nberror>2</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>crypto/x509/v3_ncons.c</file><nberror>3</nberror></occ>
+<occ><category>BLOCKER</category><rule>QC-CPP000015</rule><file>crypto/x509/v3_ncons.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>crypto/x509/v3_ncons.c</file><nberror>12</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>crypto/x509/v3_ncons.c</file><nberror>2</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>crypto/x509/v3_ncons.c</file><nberror>16</nberror></occ>
@@ -2521,6 +2529,7 @@
 <occ><category>BLOCKER</category><rule>QC-CPP000005</rule><file>ssl/ssl_lib.c</file><nberror>10</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>ssl/ssl_lib.c</file><nberror>36</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000012</rule><file>ssl/ssl_lib.c</file><nberror>4</nberror></occ>
+<occ><category>BLOCKER</category><rule>QC-CPP000015</rule><file>ssl/ssl_lib.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000002</rule><file>ssl/ssl_lib.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000003</rule><file>ssl/ssl_lib.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>ssl/ssl_lib.c</file><nberror>60</nberror></occ>

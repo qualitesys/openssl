@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/asn1/a_bitstr.c.html" 
- , "texte" : "File crypto/asn1/a_bitstr.c 17 rule violations " 
+ , "texte" : "File crypto/asn1/a_bitstr.c 18 rule violations " 
  , "fic2"  : "./qc/crypto/asn1/a_bitstr.c.xml" 
  , "fic3"  : "" 
 }
@@ -50,6 +50,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
  , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000015"
+ , "c3" : "Suspicious use of a negative array index"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -101,6 +108,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/asn1/a_bitstr.c.html#6221"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[06221] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06278"
+ , "c1link" : "./qc/crypto/asn1/a_bitstr.c.html#6278"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000015[06278] Suspicion use of negative array index -1"
 }} 
 ,
 { "ligne" : {

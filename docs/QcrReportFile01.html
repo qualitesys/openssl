@@ -51,26 +51,26 @@
                           <a href="project-reports.html" title="Project Reports">Project Reports</a>
                     <ul>
                       <li class="none">
+                          <a href="QcrReportFile93.html" title="QC93 C execution errors">QC93 C execution errors</a>
+            </li>
+                      <li class="none">
                           <a href="QcrReportFile95.html" title="QC95 Sonar vs QualityChecker compatibility matrix">QC95 Sonar vs QualityChecker compatibility matrix</a>
-            </li>
-                      <li class="none">
-                          <a href="QcrReportFile99.html" title="QC99 Email dispatch of critical informations">QC99 Email dispatch of critical informations</a>
-            </li>
-                      <li class="none">
-                          <a href="QcrReportFile02.html" title="QC02 Class hierarchy">QC02 Class hierarchy</a>
             </li>
                       <li class="none">
                           <a href="QcrReportFile98.html" title="QC98 Non regression report">QC98 Non regression report</a>
             </li>
                       <li class="none">
-            <strong>QC01 Rules violations</strong>
-          </li>
-                      <li class="none">
-                          <a href="QcrReportFile93.html" title="QC93 C execution errors">QC93 C execution errors</a>
+                          <a href="QcrReportFile99.html" title="QC99 Email dispatch of critical informations">QC99 Email dispatch of critical informations</a>
             </li>
                       <li class="none">
                           <a href="QcrReportFile12.html" title="QC12 Global security">QC12 Global security</a>
             </li>
+                      <li class="none">
+                          <a href="QcrReportFile02.html" title="QC02 Class hierarchy">QC02 Class hierarchy</a>
+            </li>
+                      <li class="none">
+            <strong>QC01 Rules violations</strong>
+          </li>
               </ul>
         </li>
           </ul>
@@ -114,7 +114,7 @@
 <td><a href="#Top_10_Rules_BLOCKER_occurrences">BLOCKER</a></td>
 <td>QC-BLOCKER</td>
 <td>Total number of Blocker  violations</td>
-<td>5636</td></tr>
+<td>5648</td></tr>
 <tr class="a">
 <td><a href="#Top_10_Rules_CRITICAL_occurrences">CRITICAL</a></td>
 <td>QC-CRITICAL</td>
@@ -4448,6 +4448,56 @@
 <td></td>
 <td></td>
 <td><a href="./QcrReportFile01File0.html?numFile=816">ssl/t1_enc.c (12)</a></td>
+<td></td></tr>
+<tr class="a">
+<td>BLOCKER</td>
+<td>QC-CPP000015</td>
+<td>Suspicious use of a negative array index</td>
+<td>12</td></tr>
+<tr class="b">
+<td></td>
+<td></td>
+<td><a href="./QcrReportFile01File0.html?numFile=4">apps/cmp.c (2)</a></td>
+<td></td></tr>
+<tr class="a">
+<td></td>
+<td></td>
+<td><a href="./QcrReportFile01File0.html?numFile=35">apps/lib/http_server.c (2)</a></td>
+<td></td></tr>
+<tr class="b">
+<td></td>
+<td></td>
+<td><a href="./QcrReportFile01File0.html?numFile=82">crypto/asn1/a_bitstr.c (1)</a></td>
+<td></td></tr>
+<tr class="a">
+<td></td>
+<td></td>
+<td><a href="./QcrReportFile01File0.html?numFile=90">crypto/asn1/a_object.c (1)</a></td>
+<td></td></tr>
+<tr class="b">
+<td></td>
+<td></td>
+<td><a href="./QcrReportFile01File0.html?numFile=186">crypto/bn/bn_div.c (1)</a></td>
+<td></td></tr>
+<tr class="a">
+<td></td>
+<td></td>
+<td><a href="./QcrReportFile01File0.html?numFile=495">crypto/http/http_lib.c (2)</a></td>
+<td></td></tr>
+<tr class="b">
+<td></td>
+<td></td>
+<td><a href="./QcrReportFile01File0.html?numFile=678">crypto/txt_db/txt_db.c (1)</a></td>
+<td></td></tr>
+<tr class="a">
+<td></td>
+<td></td>
+<td><a href="./QcrReportFile01File0.html?numFile=717">crypto/x509/v3_ncons.c (1)</a></td>
+<td></td></tr>
+<tr class="b">
+<td></td>
+<td></td>
+<td><a href="./QcrReportFile01File0.html?numFile=799">ssl/ssl_lib.c (1)</a></td>
 <td></td></tr>
 <tr class="a">
 <td>CRITICAL</td>
@@ -13486,7 +13536,12 @@
 <td>BLOCKER</td>
 <td>QC-CPP000009</td>
 <td>Suspicious bitwise assignment</td>
-<td>13</td></tr></table></div><br />
+<td>13</td></tr>
+<tr class="a">
+<td>BLOCKER</td>
+<td>QC-CPP000015</td>
+<td>Suspicious use of a negative array index</td>
+<td>12</td></tr></table></div><br />
 <div class="section">
 <h3>Top 10 Rules CRITICAL occurrences<a name="Top_10_Rules_CRITICAL_occurrences"></a></h3><a name="Top_10_Rules_CRITICAL_occurrences"></a>
 <p></p>
@@ -13681,8 +13736,8 @@
 <tr class="b">
 <td>apps</td>
 <td>22</td>
-<td>1340</td>
-<td>237</td>
+<td>1342</td>
+<td>239</td>
 <td>2</td>
 <td>1101</td>
 <td>0</td>
@@ -13753,8 +13808,8 @@
 <tr class="b">
 <td>apps/lib/http</td>
 <td>1</td>
-<td>38</td>
-<td>5</td>
+<td>40</td>
+<td>7</td>
 <td>0</td>
 <td>33</td>
 <td>0</td>
@@ -13843,8 +13898,8 @@
 <tr class="b">
 <td>crypto/asn1/a</td>
 <td>1</td>
-<td>17</td>
-<td>6</td>
+<td>18</td>
+<td>7</td>
 <td>0</td>
 <td>11</td>
 <td>0</td>
@@ -13879,8 +13934,8 @@
 <tr class="b">
 <td>crypto/asn1/a</td>
 <td>13</td>
-<td>245</td>
-<td>68</td>
+<td>246</td>
+<td>69</td>
 <td>0</td>
 <td>177</td>
 <td>0</td>
@@ -14104,8 +14159,8 @@
 <tr class="a">
 <td>crypto/bn/bn</td>
 <td>26</td>
-<td>1442</td>
-<td>519</td>
+<td>1443</td>
+<td>520</td>
 <td>0</td>
 <td>923</td>
 <td>0</td>
@@ -14986,8 +15041,8 @@
 <tr class="a">
 <td>crypto/http/http</td>
 <td>3</td>
-<td>132</td>
-<td>27</td>
+<td>134</td>
+<td>29</td>
 <td>1</td>
 <td>104</td>
 <td>0</td>
@@ -15589,8 +15644,8 @@
 <tr class="b">
 <td>crypto/txt_db/txt</td>
 <td>1</td>
-<td>41</td>
-<td>1</td>
+<td>42</td>
+<td>2</td>
 <td>0</td>
 <td>40</td>
 <td>0</td>
@@ -15652,8 +15707,8 @@
 <tr class="a">
 <td>crypto/x509/v3</td>
 <td>32</td>
-<td>853</td>
-<td>171</td>
+<td>854</td>
+<td>172</td>
 <td>0</td>
 <td>682</td>
 <td>0</td>
@@ -15859,8 +15914,8 @@
 <tr class="b">
 <td>ssl/ssl</td>
 <td>4</td>
-<td>331</td>
-<td>99</td>
+<td>332</td>
+<td>100</td>
 <td>0</td>
 <td>232</td>
 <td>0</td>
@@ -15980,8 +16035,8 @@
 <tr class="a">
 <td><a href="./QcrReportFile01File0.html?numFile=4">apps/cmp.c</a></td>
 <td>1124917</td>
-<td>181</td>
-<td>30</td>
+<td>183</td>
+<td>32</td>
 <td>0</td>
 <td>151</td>
 <td>0</td>
@@ -16259,8 +16314,8 @@
 <tr class="b">
 <td><a href="./QcrReportFile01File0.html?numFile=35">apps/lib/http_server.c</a></td>
 <td>930641</td>
-<td>38</td>
-<td>5</td>
+<td>40</td>
+<td>7</td>
 <td>0</td>
 <td>33</td>
 <td>0</td>
@@ -16682,8 +16737,8 @@
 <tr class="a">
 <td><a href="./QcrReportFile01File0.html?numFile=82">crypto/asn1/a_bitstr.c</a></td>
 <td>252124</td>
-<td>17</td>
-<td>6</td>
+<td>18</td>
+<td>7</td>
 <td>0</td>
 <td>11</td>
 <td>0</td>
@@ -16754,8 +16809,8 @@
 <tr class="a">
 <td><a href="./QcrReportFile01File0.html?numFile=90">crypto/asn1/a_object.c</a></td>
 <td>342062</td>
-<td>36</td>
-<td>10</td>
+<td>37</td>
+<td>11</td>
 <td>0</td>
 <td>26</td>
 <td>0</td>
@@ -17618,8 +17673,8 @@
 <tr class="a">
 <td><a href="./QcrReportFile01File0.html?numFile=186">crypto/bn/bn_div.c</a></td>
 <td>239522</td>
-<td>18</td>
-<td>3</td>
+<td>19</td>
+<td>4</td>
 <td>0</td>
 <td>15</td>
 <td>0</td>
@@ -20399,8 +20454,8 @@
 <tr class="b">
 <td><a href="./QcrReportFile01File0.html?numFile=495">crypto/http/http_lib.c</a></td>
 <td>250500</td>
-<td>37</td>
-<td>0</td>
+<td>39</td>
+<td>2</td>
 <td>0</td>
 <td>37</td>
 <td>0</td>
@@ -22046,8 +22101,8 @@
 <tr class="a">
 <td><a href="./QcrReportFile01File0.html?numFile=678">crypto/txt_db/txt_db.c</a></td>
 <td>247066</td>
-<td>41</td>
-<td>1</td>
+<td>42</td>
+<td>2</td>
 <td>0</td>
 <td>40</td>
 <td>0</td>
@@ -22397,8 +22452,8 @@
 <tr class="b">
 <td><a href="./QcrReportFile01File0.html?numFile=717">crypto/x509/v3_ncons.c</a></td>
 <td>712140</td>
-<td>35</td>
-<td>5</td>
+<td>36</td>
+<td>6</td>
 <td>0</td>
 <td>30</td>
 <td>0</td>
@@ -23135,8 +23190,8 @@
 <tr class="b">
 <td><a href="./QcrReportFile01File0.html?numFile=799">ssl/ssl_lib.c</a></td>
 <td>1097418</td>
-<td>193</td>
-<td>50</td>
+<td>194</td>
+<td>51</td>
 <td>0</td>
 <td>143</td>
 <td>0</td>

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/txt_db/txt_db.c.html" 
- , "texte" : "File crypto/txt_db/txt_db.c 41 rule violations " 
+ , "texte" : "File crypto/txt_db/txt_db.c 42 rule violations " 
  , "fic2"  : "./qc/crypto/txt_db/txt_db.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,6 +42,13 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000015"
+ , "c3" : "Suspicious use of a negative array index"
  , "c4" : "1"
 }}
 ,
@@ -304,6 +311,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#6440"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[06440] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06459"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#6459"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000015[06459] Suspicion use of negative array index -1"
 }} 
 ,
 { "ligne" : {

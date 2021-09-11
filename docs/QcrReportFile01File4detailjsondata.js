@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/cmp.c.html" 
- , "texte" : "File apps/cmp.c 181 rule violations " 
+ , "texte" : "File apps/cmp.c 183 rule violations " 
  , "fic2"  : "./qc/apps/cmp.c.xml" 
  , "fic3"  : "" 
 }
@@ -43,6 +43,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
  , "c4" : "30"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000015"
+ , "c3" : "Suspicious use of a negative array index"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -934,6 +941,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/cmp.c.html#24885"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[24885] A pointer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24895"
+ , "c1link" : "./qc/apps/cmp.c.html#24895"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000015[24895] Suspicion use of negative array index -1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24914"
+ , "c1link" : "./qc/apps/cmp.c.html#24914"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000015[24914] Suspicion use of negative array index -1"
 }} 
 ,
 { "ligne" : {
