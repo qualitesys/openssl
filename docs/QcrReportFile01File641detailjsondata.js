@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/sha/sha256.c.html" 
- , "texte" : "File crypto/sha/sha256.c 278 rule violations " 
+ , "texte" : "File crypto/sha/sha256.c 288 rule violations " 
  , "fic2"  : "./qc/crypto/sha/sha256.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "50"
+ , "c4" : "60"
 }}
 ,
 { "ligne" : {
@@ -86,7 +86,77 @@ var maDataBlocs = {
    "c1" : "01212"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#1212"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01212] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[01212] The pointer __p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03111"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#3111"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03111] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03111"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#3111"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03111] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03111"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#3111"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03111] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03143"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#3143"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03143] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03143"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#3143"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03143] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03143"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#3143"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03143] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03155"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#3155"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03155] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03155"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#3155"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03155] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03155"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#3155"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03155] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03166"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#3166"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03166] The expression  - 1 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -100,7 +170,7 @@ var maDataBlocs = {
    "c1" : "04727"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4727"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[04727] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[04727] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {

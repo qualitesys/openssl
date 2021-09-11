@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/x509/pcy_cache.c.html" 
- , "texte" : "File crypto/x509/pcy_cache.c 25 rule violations " 
+ , "texte" : "File crypto/x509/pcy_cache.c 43 rule violations " 
  , "fic2"  : "./qc/crypto/x509/pcy_cache.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "5"
+ , "c4" : "23"
 }}
 ,
 { "ligne" : {
@@ -72,14 +72,84 @@ var maDataBlocs = {
    "c1" : "01187"
  , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#1187"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01187] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[01187] The pointer __p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03103"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#3103"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03103] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03103"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#3103"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03103] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03103"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#3103"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03103] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03135"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#3135"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03135] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03135"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#3135"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03135] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03135"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#3135"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03135] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03147"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#3147"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03147] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03147"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#3147"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03147] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03147"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#3147"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03147] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03158"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#3158"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03158] The expression  - 1 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "13754"
  , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#13754"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13754] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[13754] The pointer policy is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -97,10 +167,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "13761"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#13761"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13761] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "13769"
  , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#13769"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[13769] goto statement jump to just_cleanup"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13780"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#13780"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13780] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -135,7 +219,21 @@ var maDataBlocs = {
    "c1" : "13837"
  , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#13837"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13837] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[13837] The pointer cache is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13862"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#13862"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13862] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13869"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#13869"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13869] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -241,6 +339,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#13986"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[13986] The expression  ! cache applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13998"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#13998"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13998] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14035"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#14035"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14035] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14039"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#14039"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14039] The expression 2 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14039"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#14039"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14039] The expression 0x100 applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

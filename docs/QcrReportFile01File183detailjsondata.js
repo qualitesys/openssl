@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bn/bn_ctx.c.html" 
- , "texte" : "File crypto/bn/bn_ctx.c 54 rule violations " 
+ , "texte" : "File crypto/bn/bn_ctx.c 73 rule violations " 
  , "fic2"  : "./qc/crypto/bn/bn_ctx.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "16"
+ , "c4" : "35"
 }}
 ,
 { "ligne" : {
@@ -76,17 +76,87 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
+   "c1" : "01212"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#1212"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01212] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01212"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#1212"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01212] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01212"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#1212"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01212] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01244"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#1244"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01244] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01244"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#1244"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01244] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01244"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#1244"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01244] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01256"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#1256"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01256] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01256"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#1256"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01256] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01256"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#1256"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01256] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01267"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#1267"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01267] The expression  - 1 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "02301"
  , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#2301"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02301] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[02301] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "06468"
  , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6468"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06468] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[06468] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -94,6 +164,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6470"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[06470] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06472"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6472"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06472] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06510"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6510"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06510] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06532"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6532"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06532] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -209,6 +300,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "06591"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6591"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06591] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "06599"
  , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6599"
  , "c2" : "BLOCKER"
@@ -282,7 +380,7 @@ var maDataBlocs = {
    "c1" : "06620"
  , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6620"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06620] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[06620] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -328,6 +426,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "06635"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6635"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06635] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "06663"
  , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6663"
  , "c2" : "BLOCKER"
@@ -363,6 +468,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "06671"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6671"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06671] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "06693"
  , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6693"
  , "c2" : "MAJOR"
@@ -373,7 +485,7 @@ var maDataBlocs = {
    "c1" : "06713"
  , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6713"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06713] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[06713] The pointer newitems is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -381,6 +493,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6715"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[06715] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06717"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6717"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06717] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -408,21 +527,21 @@ var maDataBlocs = {
    "c1" : "06759"
  , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6759"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06759] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[06759] The pointer bn is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "06774"
  , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6774"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06774] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[06774] The pointer bn is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "06779"
  , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6779"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06779] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[06779] The pointer item is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -430,6 +549,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6781"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[06781] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06783"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6783"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06783] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06811"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6811"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06811] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

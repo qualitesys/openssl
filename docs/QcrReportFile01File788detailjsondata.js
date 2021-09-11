@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/s3_cbc.c.html" 
- , "texte" : "File ssl/s3_cbc.c 60 rule violations " 
+ , "texte" : "File ssl/s3_cbc.c 78 rule violations " 
  , "fic2"  : "./qc/ssl/s3_cbc.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "5"
+ , "c4" : "23"
 }}
 ,
 { "ligne" : {
@@ -79,7 +79,7 @@ var maDataBlocs = {
    "c1" : "01214"
  , "c1link" : "./qc/ssl/s3_cbc.c.html#1214"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01214] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[01214] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -97,6 +97,76 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03460"
+ , "c1link" : "./qc/ssl/s3_cbc.c.html#3460"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03460] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03460"
+ , "c1link" : "./qc/ssl/s3_cbc.c.html#3460"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03460] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03460"
+ , "c1link" : "./qc/ssl/s3_cbc.c.html#3460"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03460] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03492"
+ , "c1link" : "./qc/ssl/s3_cbc.c.html#3492"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03492] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03492"
+ , "c1link" : "./qc/ssl/s3_cbc.c.html#3492"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03492] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03492"
+ , "c1link" : "./qc/ssl/s3_cbc.c.html#3492"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03492] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03504"
+ , "c1link" : "./qc/ssl/s3_cbc.c.html#3504"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03504] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03504"
+ , "c1link" : "./qc/ssl/s3_cbc.c.html#3504"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03504] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03504"
+ , "c1link" : "./qc/ssl/s3_cbc.c.html#3504"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03504] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03515"
+ , "c1link" : "./qc/ssl/s3_cbc.c.html#3515"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03515] The expression  - 1 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "08943"
  , "c1link" : "./qc/ssl/s3_cbc.c.html#8943"
  , "c2" : "MAJOR"
@@ -430,6 +500,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/s3_cbc.c.html#8976"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[08976] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09087"
+ , "c1link" : "./qc/ssl/s3_cbc.c.html#9087"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09087] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -440,10 +517,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "09150"
+ , "c1link" : "./qc/ssl/s3_cbc.c.html#9150"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09150] The expression is_sslv3 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09150"
+ , "c1link" : "./qc/ssl/s3_cbc.c.html#9150"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09150] The expression 1 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09150"
+ , "c1link" : "./qc/ssl/s3_cbc.c.html#9150"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09150] The expression 0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "09156"
  , "c1link" : "./qc/ssl/s3_cbc.c.html#9156"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[09156] The expression  ! is_sslv3 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09164"
+ , "c1link" : "./qc/ssl/s3_cbc.c.html#9164"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09164] The expression hmac_pad applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -458,6 +563,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/s3_cbc.c.html#9188"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[09188] The expression is_sslv3 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09276"
+ , "c1link" : "./qc/ssl/s3_cbc.c.html#9276"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09276] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -493,6 +605,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/s3_cbc.c.html#9302"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[09302] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09305"
+ , "c1link" : "./qc/ssl/s3_cbc.c.html#9305"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09305] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09305"
+ , "c1link" : "./qc/ssl/s3_cbc.c.html#9305"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09305] The expression md_out_size applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

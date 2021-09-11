@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/ec_deprecated.c.html" 
- , "texte" : "File crypto/ec/ec_deprecated.c 9 rule violations " 
+ , "texte" : "File crypto/ec/ec_deprecated.c 22 rule violations " 
  , "fic2"  : "./qc/crypto/ec/ec_deprecated.c.xml" 
  , "fic3"  : "" 
 }
@@ -46,6 +46,13 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "13"
+}}
+,
+{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPPCWE481"
  , "c3" : "Assigning instead of comparing"
@@ -65,14 +72,84 @@ var maDataBlocs = {
    "c1" : "01209"
  , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#1209"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01209] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[01209] The pointer __p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02747"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#2747"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02747] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02747"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#2747"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02747] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02747"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#2747"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02747] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02779"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#2779"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02779] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02779"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#2779"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02779] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02779"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#2779"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02779] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02791"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#2791"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02791] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02791"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#2791"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02791] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02791"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#2791"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02791] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02802"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#2802"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02802] The expression  - 1 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "06644"
  , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#6644"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06644] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[06644] The pointer buf is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -86,7 +163,7 @@ var maDataBlocs = {
    "c1" : "06666"
  , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#6666"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06666] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[06666] The pointer buf is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -100,7 +177,7 @@ var maDataBlocs = {
    "c1" : "06667"
  , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#6667"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06667] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[06667] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -118,10 +195,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "06673"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#6673"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06673] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06699"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#6699"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06699] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "06702"
  , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#6702"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[06702] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06704"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#6704"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06704] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

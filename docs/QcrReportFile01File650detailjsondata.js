@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/sm3/sm3.c.html" 
- , "texte" : "File crypto/sm3/sm3.c 305 rule violations " 
+ , "texte" : "File crypto/sm3/sm3.c 317 rule violations " 
  , "fic2"  : "./qc/crypto/sm3/sm3.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,14 +49,14 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000006"
  , "c3" : "Risk of infinite while loop"
- , "c4" : "65"
+ , "c4" : "66"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "65"
+ , "c4" : "76"
 }}
 ,
 { "ligne" : {
@@ -86,7 +86,77 @@ var maDataBlocs = {
    "c1" : "01797"
  , "c1link" : "./qc/crypto/sm3/sm3.c.html#1797"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01797] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[01797] The pointer __p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03127"
+ , "c1link" : "./qc/crypto/sm3/sm3.c.html#3127"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03127] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03127"
+ , "c1link" : "./qc/crypto/sm3/sm3.c.html#3127"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03127] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03127"
+ , "c1link" : "./qc/crypto/sm3/sm3.c.html#3127"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03127] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03159"
+ , "c1link" : "./qc/crypto/sm3/sm3.c.html#3159"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03159] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03159"
+ , "c1link" : "./qc/crypto/sm3/sm3.c.html#3159"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03159] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03159"
+ , "c1link" : "./qc/crypto/sm3/sm3.c.html#3159"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03159] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03171"
+ , "c1link" : "./qc/crypto/sm3/sm3.c.html#3171"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03171] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03171"
+ , "c1link" : "./qc/crypto/sm3/sm3.c.html#3171"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03171] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03171"
+ , "c1link" : "./qc/crypto/sm3/sm3.c.html#3171"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03171] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03182"
+ , "c1link" : "./qc/crypto/sm3/sm3.c.html#3182"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03182] The expression  - 1 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -100,7 +170,7 @@ var maDataBlocs = {
    "c1" : "04612"
  , "c1link" : "./qc/crypto/sm3/sm3.c.html#4612"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[04612] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[04612] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -423,6 +493,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sm3/sm3.c.html#4727"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[04727] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04733"
+ , "c1link" : "./qc/crypto/sm3/sm3.c.html#4733"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[04733] The expression num-- applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "04733"
+ , "c1link" : "./qc/crypto/sm3/sm3.c.html#4733"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04733] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {

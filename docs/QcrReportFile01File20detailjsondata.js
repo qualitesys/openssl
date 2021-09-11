@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/genrsa.c.html" 
- , "texte" : "File apps/genrsa.c 29 rule violations " 
+ , "texte" : "File apps/genrsa.c 57 rule violations " 
  , "fic2"  : "./qc/apps/genrsa.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "4"
+ , "c4" : "32"
 }}
 ,
 { "ligne" : {
@@ -76,31 +76,192 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
+   "c1" : "01013"
+ , "c1link" : "./qc/apps/genrsa.c.html#1013"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01013] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01013"
+ , "c1link" : "./qc/apps/genrsa.c.html#1013"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01013] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01013"
+ , "c1link" : "./qc/apps/genrsa.c.html#1013"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01013] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01045"
+ , "c1link" : "./qc/apps/genrsa.c.html#1045"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01045] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01045"
+ , "c1link" : "./qc/apps/genrsa.c.html#1045"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01045] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01045"
+ , "c1link" : "./qc/apps/genrsa.c.html#1045"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01045] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01057"
+ , "c1link" : "./qc/apps/genrsa.c.html#1057"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01057] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01057"
+ , "c1link" : "./qc/apps/genrsa.c.html#1057"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01057] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01057"
+ , "c1link" : "./qc/apps/genrsa.c.html#1057"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01057] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01068"
+ , "c1link" : "./qc/apps/genrsa.c.html#1068"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01068] The expression  - 1 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "02909"
  , "c1link" : "./qc/apps/genrsa.c.html#2909"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02909] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[02909] The pointer __p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06273"
+ , "c1link" : "./qc/apps/genrsa.c.html#6273"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06273] The expression __gid_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "07387"
+ , "c1link" : "./qc/apps/genrsa.c.html#7387"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07387] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "07387"
+ , "c1link" : "./qc/apps/genrsa.c.html#7387"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07387] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08913"
+ , "c1link" : "./qc/apps/genrsa.c.html#8913"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08913] The expression 020000000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08913"
+ , "c1link" : "./qc/apps/genrsa.c.html#8913"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08913] The expression 0200000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08913"
+ , "c1link" : "./qc/apps/genrsa.c.html#8913"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08913] The expression 020000000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08913"
+ , "c1link" : "./qc/apps/genrsa.c.html#8913"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08913] The expression 0200000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08946"
+ , "c1link" : "./qc/apps/genrsa.c.html#8946"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08946] The expression 020000000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08946"
+ , "c1link" : "./qc/apps/genrsa.c.html#8946"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08946] The expression 0200000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08946"
+ , "c1link" : "./qc/apps/genrsa.c.html#8946"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08946] The expression 020000000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08946"
+ , "c1link" : "./qc/apps/genrsa.c.html#8946"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08946] The expression 0200000 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "18941"
  , "c1link" : "./qc/apps/genrsa.c.html#18941"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18941] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[18941] The pointer prog is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "18941"
  , "c1link" : "./qc/apps/genrsa.c.html#18941"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18941] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[18941] The pointer hexe is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "18941"
  , "c1link" : "./qc/apps/genrsa.c.html#18941"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18941] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[18941] The pointer dece is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18951"
+ , "c1link" : "./qc/apps/genrsa.c.html#18951"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[18951] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "18955"
+ , "c1link" : "./qc/apps/genrsa.c.html#18955"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[18955] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -181,6 +342,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19035"
+ , "c1link" : "./qc/apps/genrsa.c.html#19035"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19035] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19039"
  , "c1link" : "./qc/apps/genrsa.c.html#19039"
  , "c2" : "MAJOR"
@@ -192,6 +360,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/genrsa.c.html#19051"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19051] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19057"
+ , "c1link" : "./qc/apps/genrsa.c.html#19057"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19057] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -244,10 +419,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19105"
+ , "c1link" : "./qc/apps/genrsa.c.html#19105"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19105] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19109"
  , "c1link" : "./qc/apps/genrsa.c.html#19109"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19109] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19113"
+ , "c1link" : "./qc/apps/genrsa.c.html#19113"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19113] The expression hexe applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19113"
+ , "c1link" : "./qc/apps/genrsa.c.html#19113"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19113] The expression dece applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

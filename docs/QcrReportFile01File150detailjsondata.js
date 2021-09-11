@@ -72,14 +72,14 @@ var maDataBlocs = {
    "c1" : "00405"
  , "c1link" : "./qc/crypto/bf/bf_enc.c.html#405"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00405] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[00405] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "00405"
  , "c1link" : "./qc/crypto/bf/bf_enc.c.html#405"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00405] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[00405] The pointer s is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -310,14 +310,14 @@ var maDataBlocs = {
    "c1" : "00444"
  , "c1link" : "./qc/crypto/bf/bf_enc.c.html#444"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00444] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[00444] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "00444"
  , "c1link" : "./qc/crypto/bf/bf_enc.c.html#444"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00444] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[00444] The pointer s is declared but not initialized"
 }} 
 ,
 { "ligne" : {

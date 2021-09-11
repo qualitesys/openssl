@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/whrlpool/wp_dgst.c.html" 
- , "texte" : "File crypto/whrlpool/wp_dgst.c 16 rule violations " 
+ , "texte" : "File crypto/whrlpool/wp_dgst.c 30 rule violations " 
  , "fic2"  : "./qc/crypto/whrlpool/wp_dgst.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "9"
+ , "c4" : "23"
 }}
 ,
 { "ligne" : {
@@ -79,7 +79,77 @@ var maDataBlocs = {
    "c1" : "01219"
  , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#1219"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01219] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[01219] The pointer __p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02757"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#2757"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02757] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02757"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#2757"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02757] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02757"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#2757"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02757] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02789"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#2789"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02789] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02789"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#2789"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02789] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02789"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#2789"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02789] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02801"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#2801"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02801] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02801"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#2801"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02801] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02801"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#2801"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02801] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02812"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#2812"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02812] The expression  - 1 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -101,6 +171,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4666"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[04666] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04679"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4679"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[04679] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -163,7 +240,7 @@ var maDataBlocs = {
    "c1" : "04776"
  , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4776"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[04776] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[04776] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -181,10 +258,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "04797"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4797"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[04797] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "04798"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4798"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[04798] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "04803"
  , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4803"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[04803] The expression md applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "04818"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4818"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[04818] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

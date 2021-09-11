@@ -79,7 +79,7 @@ var maDataBlocs = {
    "c1" : "01694"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#1694"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01694] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[01694] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {

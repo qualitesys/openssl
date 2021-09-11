@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/rc2/rc2_cbc.c.html" 
- , "texte" : "File crypto/rc2/rc2_cbc.c 109 rule violations " 
+ , "texte" : "File crypto/rc2/rc2_cbc.c 113 rule violations " 
  , "fic2"  : "./qc/crypto/rc2/rc2_cbc.c.xml" 
  , "fic3"  : "" 
 }
@@ -38,6 +38,13 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000006"
+ , "c3" : "Risk of infinite while loop"
+ , "c4" : "4"
+}}
+,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
@@ -800,14 +807,14 @@ var maDataBlocs = {
    "c1" : "00152"
  , "c1link" : "./qc/crypto/rc2/rc2_cbc.c.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00152] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[00152] The pointer p0 is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "00152"
  , "c1link" : "./qc/crypto/rc2/rc2_cbc.c.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00152] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[00152] The pointer p1 is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -818,17 +825,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "00198"
- , "c1link" : "./qc/crypto/rc2/rc2_cbc.c.html#198"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00198] A pointer is declared but not initialized"
+   "c1" : "00167"
+ , "c1link" : "./qc/crypto/rc2/rc2_cbc.c.html#167"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[00167] The condition of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00167"
+ , "c1link" : "./qc/crypto/rc2/rc2_cbc.c.html#167"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[00167] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
    "c1" : "00198"
  , "c1link" : "./qc/crypto/rc2/rc2_cbc.c.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00198] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[00198] The pointer p0 is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00198"
+ , "c1link" : "./qc/crypto/rc2/rc2_cbc.c.html#198"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00198] The pointer p1 is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00214"
+ , "c1link" : "./qc/crypto/rc2/rc2_cbc.c.html#214"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[00214] The condition of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00214"
+ , "c1link" : "./qc/crypto/rc2/rc2_cbc.c.html#214"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[00214] The end expression of for loop is empty, infinite loop risk"
 }} 
 ]
 };

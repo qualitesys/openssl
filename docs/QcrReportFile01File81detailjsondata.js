@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/aria/aria.c.html" 
- , "texte" : "File crypto/aria/aria.c 238 rule violations " 
+ , "texte" : "File crypto/aria/aria.c 243 rule violations " 
  , "fic2"  : "./qc/crypto/aria/aria.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "76"
+ , "c4" : "81"
 }}
 ,
 { "ligne" : {
@@ -79,7 +79,28 @@ var maDataBlocs = {
    "c1" : "01055"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1055"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01055] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[01055] The pointer rk is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01059"
+ , "c1link" : "./qc/crypto/aria/aria.c.html#1059"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01059] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01063"
+ , "c1link" : "./qc/crypto/aria/aria.c.html#1063"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01063] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01067"
+ , "c1link" : "./qc/crypto/aria/aria.c.html#1067"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01067] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -576,14 +597,28 @@ var maDataBlocs = {
    "c1" : "01134"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1134"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01134] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[01134] The pointer ck is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "01136"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1136"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01136] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[01136] The pointer rk is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01141"
+ , "c1link" : "./qc/crypto/aria/aria.c.html#1141"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01141] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01145"
+ , "c1link" : "./qc/crypto/aria/aria.c.html#1145"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01145] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1290,14 +1325,14 @@ var maDataBlocs = {
    "c1" : "01272"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1272"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01272] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[01272] The pointer rk_head is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "01273"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1273"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01273] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[01273] The pointer rk_tail is declared but not initialized"
 }} 
 ,
 { "ligne" : {

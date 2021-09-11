@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ts/ts_asn1.c.html" 
- , "texte" : "File crypto/ts/ts_asn1.c 7 rule violations " 
+ , "texte" : "File crypto/ts/ts_asn1.c 17 rule violations " 
  , "fic2"  : "./qc/crypto/ts/ts_asn1.c.xml" 
  , "fic3"  : "" 
 }
@@ -46,6 +46,13 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "10"
+}}
+,
+{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
@@ -58,42 +65,112 @@ var maDataBlocs = {
    "c1" : "01705"
  , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#1705"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01705] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[01705] The pointer __p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03065"
+ , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#3065"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03065] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03065"
+ , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#3065"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03065] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03065"
+ , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#3065"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03065] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03097"
+ , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#3097"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03097] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03097"
+ , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#3097"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03097] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03097"
+ , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#3097"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03097] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03109"
+ , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#3109"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03109] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03109"
+ , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#3109"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03109] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03109"
+ , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#3109"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03109] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03120"
+ , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#3120"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03120] The expression  - 1 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "13935"
  , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#13935"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13935] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[13935] The pointer pkcs7_signed is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "13936"
  , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#13936"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13936] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[13936] The pointer enveloped is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "13937"
  , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#13937"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13937] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[13937] The pointer tst_info_wrapper is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "13938"
  , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#13938"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13938] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[13938] The pointer tst_info_der is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "13939"
  , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#13939"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13939] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[13939] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {

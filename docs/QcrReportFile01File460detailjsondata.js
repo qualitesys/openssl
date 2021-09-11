@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/legacy_md4.c.html" 
- , "texte" : "File crypto/evp/legacy_md4.c 1 rule violations " 
+ , "texte" : "File crypto/evp/legacy_md4.c 11 rule violations " 
  , "fic2"  : "./qc/crypto/evp/legacy_md4.c.xml" 
  , "fic3"  : "" 
 }
@@ -39,6 +39,13 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "10"
+}}
+,
+{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
@@ -48,10 +55,80 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
+   "c1" : "01257"
+ , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#1257"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01257] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01257"
+ , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#1257"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01257] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01257"
+ , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#1257"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01257] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01289"
+ , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#1289"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01289] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01289"
+ , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#1289"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01289] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01289"
+ , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#1289"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01289] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01301"
+ , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#1301"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01301] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01301"
+ , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#1301"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01301] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01301"
+ , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#1301"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01301] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01312"
+ , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#1312"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01312] The expression  - 1 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "03279"
  , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#3279"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[03279] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[03279] The pointer __p is declared but not initialized"
 }} 
 ]
 };

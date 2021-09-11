@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/crl2pkcs7.c.html" 
- , "texte" : "File apps/crl2pkcs7.c 33 rule violations " 
+ , "texte" : "File apps/crl2pkcs7.c 72 rule violations " 
  , "fic2"  : "./qc/apps/crl2pkcs7.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "2"
+ , "c4" : "41"
 }}
 ,
 { "ligne" : {
@@ -76,24 +76,171 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
+   "c1" : "00993"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#993"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00993] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00993"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#993"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00993] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00993"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#993"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00993] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01025"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#1025"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01025] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01025"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#1025"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01025] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01025"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#1025"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01025] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01037"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#1037"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01037] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01037"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#1037"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01037] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01037"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#1037"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01037] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01048"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#1048"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01048] The expression  - 1 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "02695"
  , "c1link" : "./qc/apps/crl2pkcs7.c.html#2695"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02695] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[02695] The pointer __p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06059"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#6059"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06059] The expression __gid_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "07173"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#7173"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07173] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "07173"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#7173"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07173] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08910"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#8910"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08910] The expression 020000000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08910"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#8910"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08910] The expression 0200000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08910"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#8910"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08910] The expression 020000000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08910"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#8910"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08910] The expression 0200000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08943"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#8943"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08943] The expression 020000000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08943"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#8943"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08943] The expression 0200000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08943"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#8943"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08943] The expression 020000000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08943"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#8943"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08943] The expression 0200000 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "18929"
  , "c1link" : "./qc/apps/crl2pkcs7.c.html#18929"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18929] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[18929] The pointer prog is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "18929"
  , "c1link" : "./qc/apps/crl2pkcs7.c.html#18929"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18929] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[18929] The pointer certfile is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -146,6 +293,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "18966"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#18966"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[18966] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "18971"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#18971"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[18971] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "18974"
  , "c1link" : "./qc/apps/crl2pkcs7.c.html#18974"
  , "c2" : "MAJOR"
@@ -181,10 +342,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "18994"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#18994"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[18994] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "18997"
  , "c1link" : "./qc/apps/crl2pkcs7.c.html#18997"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[18997] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19005"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#19005"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19005] The expression 5 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19005"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#19005"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19005] The expression 0x8000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19021"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#19021"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19021] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -202,6 +391,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19032"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#19032"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19032] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19035"
  , "c1link" : "./qc/apps/crl2pkcs7.c.html#19035"
  , "c2" : "MAJOR"
@@ -213,6 +409,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/crl2pkcs7.c.html#19036"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[19036] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19038"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#19038"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19038] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -230,10 +433,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19051"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#19051"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19051] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19054"
  , "c1link" : "./qc/apps/crl2pkcs7.c.html#19054"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[19054] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19056"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#19056"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19056] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -244,10 +461,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19071"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#19071"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19071] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19074"
  , "c1link" : "./qc/apps/crl2pkcs7.c.html#19074"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[19074] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19076"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#19076"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19076] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -265,10 +496,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19095"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#19095"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19095] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19098"
  , "c1link" : "./qc/apps/crl2pkcs7.c.html#19098"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19098] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19102"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#19102"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19102] The expression 5 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19102"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#19102"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19102] The expression 0x8000 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -289,7 +541,14 @@ var maDataBlocs = {
    "c1" : "19134"
  , "c1link" : "./qc/apps/crl2pkcs7.c.html#19134"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19134] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19134] The pointer xi is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19139"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#19139"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19139] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -300,10 +559,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19162"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#19162"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19162] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19166"
  , "c1link" : "./qc/apps/crl2pkcs7.c.html#19166"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19166] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19174"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#19174"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19174] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

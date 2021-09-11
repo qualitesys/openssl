@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/statem/statem_dtls.c.html" 
- , "texte" : "File ssl/statem/statem_dtls.c 159 rule violations " 
+ , "texte" : "File ssl/statem/statem_dtls.c 200 rule violations " 
  , "fic2"  : "./qc/ssl/statem/statem_dtls.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "14"
+ , "c4" : "55"
 }}
 ,
 { "ligne" : {
@@ -83,10 +83,94 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
+   "c1" : "01409"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#1409"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01409] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01409"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#1409"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01409] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01409"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#1409"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01409] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01441"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#1441"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01441] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01441"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#1441"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01441] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01441"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#1441"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01441] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01453"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#1453"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01453] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01453"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#1453"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01453] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01453"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#1453"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01453] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01464"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#1464"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01464] The expression  - 1 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "02706"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#2706"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02706] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[02706] The pointer __p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06070"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#6070"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06070] The expression __gid_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16903"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#16903"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16903] The expression 18446744073709551615UL applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -118,10 +202,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "17256"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#17256"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17256] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "17303"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#17303"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17303] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[17303] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -135,7 +226,7 @@ var maDataBlocs = {
    "c1" : "17325"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#17325"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17325] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[17325] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -149,7 +240,7 @@ var maDataBlocs = {
    "c1" : "17344"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#17344"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17344] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[17344] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -163,7 +254,7 @@ var maDataBlocs = {
    "c1" : "17367"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#17367"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17367] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[17367] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -177,7 +268,7 @@ var maDataBlocs = {
    "c1" : "17387"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#17387"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17387] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[17387] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -209,6 +300,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "20425"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20425"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20425] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "20440"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20440"
  , "c2" : "BLOCKER"
@@ -220,6 +318,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20441"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[20441] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20443"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20443"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20443] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -237,10 +342,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "20468"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20468"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20468] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "20493"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20493"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[20493] The expression  ! frag applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20656"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20656"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20656] The expression retry applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -429,14 +548,14 @@ var maDataBlocs = {
    "c1" : "20742"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20742"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20742] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[20742] The pointer msg_hdr is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "20743"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20743"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20743] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[20743] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -653,14 +772,42 @@ var maDataBlocs = {
    "c1" : "20914"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20914"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20914] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[20914] The pointer item is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "20915"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20915"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20915] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[20915] The pointer frag is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20922"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20922"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20922] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20947"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20947"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20947] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20954"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20954"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20954] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20966"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20966"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20966] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -678,6 +825,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "21023"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21023"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21023] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21029"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21029"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21029] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "21032"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21032"
  , "c2" : "MAJOR"
@@ -689,6 +850,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21049"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[21049] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21060"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21060"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21060] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -734,10 +902,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "21114"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21114"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21114] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21120"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21120"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21120] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "21124"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21124"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[21124] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21136"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21136"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21136] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -748,10 +937,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "21147"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21147"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21147] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "21173"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21173"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[21173] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21187"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21187"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21187] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21204"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21204"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21204] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -776,6 +986,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "21235"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21235"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21235] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "21238"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21238"
  , "c2" : "MAJOR"
@@ -797,6 +1014,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "21262"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21262"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21262] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "21265"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21265"
  , "c2" : "MAJOR"
@@ -804,10 +1028,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "21271"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21271"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21271] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "21274"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21274"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[21274] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21282"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21282"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21282] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -829,6 +1067,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21367"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[21367] goto statement jump to f_err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21381"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21381"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21381] The expression frag_len applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -870,28 +1115,42 @@ var maDataBlocs = {
    "c1" : "21527"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21527"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21527] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[21527] The pointer item is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "21528"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21528"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21528] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[21528] The pointer frag is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21535"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21535"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21535] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "21551"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21551"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21551] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[21551] The pointer item is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "21552"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21552"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21552] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[21552] The pointer frag is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21565"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21565"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21565] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -902,17 +1161,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "21574"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21574"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21574] The expression 3 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21574"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21574"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21574] The expression 1 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21617"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21617"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21617] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "21632"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21632"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21632] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[21632] The pointer item is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "21633"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21633"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21633] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[21633] The pointer frag is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21646"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21646"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21646] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1185,7 +1472,7 @@ var maDataBlocs = {
    "c1" : "21777"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21777"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21777] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[21777] The pointer header is declared but not initialized"
 }} 
 ,
 { "ligne" : {

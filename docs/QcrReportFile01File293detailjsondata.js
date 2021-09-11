@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/des/cbc_enc.c.html" 
- , "texte" : "File crypto/des/cbc_enc.c 91 rule violations " 
+ , "texte" : "File crypto/des/cbc_enc.c 101 rule violations " 
  , "fic2"  : "./qc/crypto/des/cbc_enc.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "1"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : {
@@ -76,17 +76,87 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
+   "c1" : "01212"
+ , "c1link" : "./qc/crypto/des/cbc_enc.c.html#1212"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01212] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01212"
+ , "c1link" : "./qc/crypto/des/cbc_enc.c.html#1212"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01212] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01212"
+ , "c1link" : "./qc/crypto/des/cbc_enc.c.html#1212"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01212] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01244"
+ , "c1link" : "./qc/crypto/des/cbc_enc.c.html#1244"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01244] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01244"
+ , "c1link" : "./qc/crypto/des/cbc_enc.c.html#1244"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01244] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01244"
+ , "c1link" : "./qc/crypto/des/cbc_enc.c.html#1244"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01244] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01256"
+ , "c1link" : "./qc/crypto/des/cbc_enc.c.html#1256"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01256] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01256"
+ , "c1link" : "./qc/crypto/des/cbc_enc.c.html#1256"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01256] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01256"
+ , "c1link" : "./qc/crypto/des/cbc_enc.c.html#1256"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01256] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01267"
+ , "c1link" : "./qc/crypto/des/cbc_enc.c.html#1267"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01267] The expression  - 1 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "02289"
  , "c1link" : "./qc/crypto/des/cbc_enc.c.html#2289"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02289] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[02289] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "03115"
  , "c1link" : "./qc/crypto/des/cbc_enc.c.html#3115"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[03115] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[03115] The pointer iv is declared but not initialized"
 }} 
 ,
 { "ligne" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/crmf/crmf_lib.c.html" 
- , "texte" : "File crypto/crmf/crmf_lib.c 121 rule violations " 
+ , "texte" : "File crypto/crmf/crmf_lib.c 252 rule violations " 
  , "fic2"  : "./qc/crypto/crmf/crmf_lib.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "4"
+ , "c4" : "135"
 }}
 ,
 { "ligne" : {
@@ -90,10 +90,80 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
+   "c1" : "01543"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#1543"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01543] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01543"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#1543"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01543] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01543"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#1543"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01543] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01575"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#1575"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01575] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01575"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#1575"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01575] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01575"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#1575"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01575] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01587"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#1587"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01587] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01587"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#1587"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01587] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01587"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#1587"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01587] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01598"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#1598"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01598] The expression  - 1 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "02567"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#2567"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02567] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[02567] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -108,6 +178,41 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13829"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[13829] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13860"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13860"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13860] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13864"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13864"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13864] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13868"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13868"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13868] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13881"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13881"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13881] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13887"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13887"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13887] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -142,7 +247,35 @@ var maDataBlocs = {
    "c1" : "13910"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13910"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13910] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[13910] The pointer controls is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13916"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13916"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13916] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13920"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13920"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13920] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13936"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13936"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13936] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13940"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13940"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13940] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -160,6 +293,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "13944"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13944"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13944] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "13946"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13946"
  , "c2" : "MAJOR"
@@ -174,6 +314,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "13948"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13948"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13948] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "13950"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13950"
  , "c2" : "MAJOR"
@@ -185,6 +332,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13950"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[13950] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13952"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13952"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13952] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -205,7 +359,35 @@ var maDataBlocs = {
    "c1" : "13958"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13958"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13958] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[13958] The pointer controls is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13964"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13964] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13968"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13968"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13968] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13984"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13984"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13984] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13988"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13988"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13988] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -223,6 +405,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "13992"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13992"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13992] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "13994"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13994"
  , "c2" : "MAJOR"
@@ -234,6 +423,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13994"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[13994] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13996"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13996"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13996] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -251,6 +447,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14000"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14000"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14000] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "14002"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14002"
  , "c2" : "MAJOR"
@@ -262,13 +465,83 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14002"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[14002] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14009"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14009"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14009] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14035"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14035"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14035] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14039"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14039"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14039] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14051"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14051"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14051] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14057"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14057"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14057] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14070"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14070"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14070] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "14087"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14087"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14087] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14087] The pointer controls is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14093"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14093"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14093] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14097"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14097"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14097] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14113"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14113"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14113] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14117"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14117"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14117] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -286,6 +559,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14121"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14121"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14121] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "14123"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14123"
  , "c2" : "MAJOR"
@@ -300,6 +580,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14125"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14125"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14125] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "14127"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14127"
  , "c2" : "MAJOR"
@@ -311,6 +598,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14127"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[14127] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14129"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14129"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14129] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -331,7 +625,35 @@ var maDataBlocs = {
    "c1" : "14135"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14135"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14135] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14135] The pointer controls is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14141"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14141"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14141] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14145"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14145"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14145] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14161"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14161"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14161] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14165"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14165"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14165] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -349,6 +671,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14169"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14169"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14169] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "14171"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14171"
  , "c2" : "MAJOR"
@@ -360,6 +689,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14171"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[14171] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14173"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14173"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14173] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -377,6 +713,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14177"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14177"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14177] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "14179"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14179"
  , "c2" : "MAJOR"
@@ -388,6 +731,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14179"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[14179] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14192"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14192"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14192] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14196"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14196"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14196] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -395,6 +752,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14211"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[14211] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14213"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14213"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14213] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -419,6 +783,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14225"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14225"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14225] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "14228"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14228"
  , "c2" : "MAJOR"
@@ -429,7 +800,35 @@ var maDataBlocs = {
    "c1" : "14244"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14244"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14244] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14244] The pointer controls is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14250"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14250"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14250] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14254"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14254"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14254] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14270"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14270"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14270] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14274"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14274"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14274] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -447,6 +846,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14278"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14278"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14278] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "14280"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14280"
  , "c2" : "MAJOR"
@@ -458,6 +864,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14280"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[14280] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14282"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14282"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14282] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -475,6 +888,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14286"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14286"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14286] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "14288"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14288"
  , "c2" : "MAJOR"
@@ -486,6 +906,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14288"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[14288] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14306"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14306"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14306] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14310"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14310"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14310] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14323"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14323"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14323] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -493,6 +934,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14326"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[14326] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14329"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14329"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14329] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -510,10 +958,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14340"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14340"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14340] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "14353"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14353"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14353] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14353] The pointer controls is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14359"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14359"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14359] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14363"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14363"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14363] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14379"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14379"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14379] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14383"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14383"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14383] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -531,6 +1014,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14387"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14387"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14387] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "14389"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14389"
  , "c2" : "MAJOR"
@@ -545,6 +1035,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14391"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14391"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14391] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "14393"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14393"
  , "c2" : "MAJOR"
@@ -556,6 +1053,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14393"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[14393] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14395"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14395"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14395] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -576,7 +1080,35 @@ var maDataBlocs = {
    "c1" : "14400"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14400"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14400] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14400] The pointer controls is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14406"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14406"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14406] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14410"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14410"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14410] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14426"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14426"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14426] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14430"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14430"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14430] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -594,6 +1126,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14434"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14434"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14434] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "14436"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14436"
  , "c2" : "MAJOR"
@@ -605,6 +1144,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14436"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[14436] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14438"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14438"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14438] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -622,6 +1168,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14442"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14442"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14442] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "14444"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14444"
  , "c2" : "MAJOR"
@@ -633,13 +1186,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14444"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[14444] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14452"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14452"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14452] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14456"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14456"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14456] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "14477"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14477"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14477] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14477] The pointer vld is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14482"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14482"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14482] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -650,10 +1224,87 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14495"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14495"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14495] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14510"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14510"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14510] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14514"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14514"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14514] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14518"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14518"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14518] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14572"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14572"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14572] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14576"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14576"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14576] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14597"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14597"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14597] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14631"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14631"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14631] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14635"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14635"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14635] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14648"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14648"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14648] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "14651"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14651"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[14651] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14653"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14653"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14653] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -685,6 +1336,48 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14682"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14682"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14682] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14686"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14686"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14686] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14690"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14690"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14690] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14702"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14702"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14702] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14745"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14745"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14745] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14749"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14749"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14749] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "14761"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14761"
  , "c2" : "MAJOR"
@@ -696,6 +1389,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14762"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[14762] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14764"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14764"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14764] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -713,10 +1413,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14774"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14774"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14774] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "14777"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14777"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[14777] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14786"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14786"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14786] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -741,10 +1455,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14802"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14802"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14802] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "14805"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14805"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[14805] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14812"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14812"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14812] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -765,14 +1493,14 @@ var maDataBlocs = {
    "c1" : "14858"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14858"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14858] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14858] The pointer it is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "14859"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14859"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14859] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14859] The pointer asn is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -783,10 +1511,59 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14863"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14863"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14863] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14867"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14867"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14867] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14880"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14880"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14880] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "14893"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14893"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[14893] The expression  ! acceptRAVerified applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14906"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14906"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14906] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14919"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14919"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14919] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14929"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14929"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14929] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14952"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14952"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14952] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -797,10 +1574,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "15086"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15086"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15086] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15098"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15098"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15098] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15104"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15104"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15104] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15110"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15110"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15110] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "15114"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15114"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[15114] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15116"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15116"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15116] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15123"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15123"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15123] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -832,6 +1651,55 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "15182"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15182"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15182] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15186"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15186"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15186] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15190"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15190"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15190] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15195"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15195"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15195] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15199"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15199"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15199] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15230"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15230"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15230] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15237"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15237"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15237] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "15246"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15246"
  , "c2" : "MAJOR"
@@ -839,10 +1707,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "15255"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15255"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15255] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "15268"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15268"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[15268] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15270"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15270"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15270] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -881,6 +1763,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "15293"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15293"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15293] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "15296"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15296"
  , "c2" : "MAJOR"
@@ -909,6 +1798,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "15315"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15315"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15315] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15320"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15320"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15320] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "15323"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15323"
  , "c2" : "MAJOR"
@@ -930,10 +1833,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "15343"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15343"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15343] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "15346"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15346"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[15346] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15349"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15349"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15349] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/pem/pem_pk8.c.html" 
- , "texte" : "File crypto/pem/pem_pk8.c 16 rule violations " 
+ , "texte" : "File crypto/pem/pem_pk8.c 43 rule violations " 
  , "fic2"  : "./qc/crypto/pem/pem_pk8.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "3"
+ , "c4" : "30"
 }}
 ,
 { "ligne" : {
@@ -69,24 +69,143 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
+   "c1" : "00993"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#993"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00993] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00993"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#993"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00993] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00993"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#993"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00993] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01025"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#1025"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01025] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01025"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#1025"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01025] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01025"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#1025"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01025] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01037"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#1037"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01037] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01037"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#1037"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01037] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01037"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#1037"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01037] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01048"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#1048"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01048] The expression  - 1 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "02080"
  , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#2080"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02080] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[02080] The pointer __p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13714"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#13714"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13714] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13726"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#13726"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13726] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13730"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#13730"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13730] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13735"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#13735"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13735] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13755"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#13755"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13755] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13776"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#13776"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13776] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13783"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#13783"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13783] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "13792"
  , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#13792"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13792] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[13792] The pointer p8 is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "13793"
  , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#13793"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13793] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[13793] The pointer p8inf is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -97,6 +216,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "13799"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#13799"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13799] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "13807"
  , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#13807"
  , "c2" : "MAJOR"
@@ -104,10 +230,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "13809"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#13809"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13809] The expression enc applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13812"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#13812"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13812] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "13822"
  , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#13822"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[13822] goto statement jump to legacy_end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13836"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#13836"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13836] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -135,7 +282,28 @@ var maDataBlocs = {
    "c1" : "13872"
  , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#13872"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13872] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[13872] The pointer ret is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13882"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#13882"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13882] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13892"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#13892"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13892] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13916"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#13916"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13916] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -146,10 +314,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "13934"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#13934"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13934] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "14001"
  , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#14001"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14001] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14001] The pointer bp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -160,17 +335,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14006"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#14006"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14006] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "14024"
  , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#14024"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14024] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14024] The pointer bp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "14025"
  , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#14025"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14025] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14025] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -178,6 +360,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#14027"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[14027] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14029"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#14029"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14029] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -72,14 +72,14 @@ var maDataBlocs = {
    "c1" : "00089"
  , "c1link" : "./qc/crypto/idea/i_ofb64.c.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00089] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[00089] The pointer dp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "00091"
  , "c1link" : "./qc/crypto/idea/i_ofb64.c.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00091] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[00091] The pointer iv is declared but not initialized"
 }} 
 ,
 { "ligne" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bio/ossl_core_bio.c.html" 
- , "texte" : "File crypto/bio/ossl_core_bio.c 3 rule violations " 
+ , "texte" : "File crypto/bio/ossl_core_bio.c 22 rule violations " 
  , "fic2"  : "./qc/crypto/bio/ossl_core_bio.c.xml" 
  , "fic3"  : "" 
 }
@@ -39,6 +39,13 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "19"
+}}
+,
+{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPPCWE481"
  , "c3" : "Assigning instead of comparing"
@@ -58,7 +65,98 @@ var maDataBlocs = {
    "c1" : "01770"
  , "c1link" : "./qc/crypto/bio/ossl_core_bio.c.html#1770"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01770] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[01770] The pointer __p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03130"
+ , "c1link" : "./qc/crypto/bio/ossl_core_bio.c.html#3130"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03130] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03130"
+ , "c1link" : "./qc/crypto/bio/ossl_core_bio.c.html#3130"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03130] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03130"
+ , "c1link" : "./qc/crypto/bio/ossl_core_bio.c.html#3130"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03130] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03162"
+ , "c1link" : "./qc/crypto/bio/ossl_core_bio.c.html#3162"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03162] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03162"
+ , "c1link" : "./qc/crypto/bio/ossl_core_bio.c.html#3162"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03162] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03162"
+ , "c1link" : "./qc/crypto/bio/ossl_core_bio.c.html#3162"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03162] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03174"
+ , "c1link" : "./qc/crypto/bio/ossl_core_bio.c.html#3174"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03174] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03174"
+ , "c1link" : "./qc/crypto/bio/ossl_core_bio.c.html#3174"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03174] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03174"
+ , "c1link" : "./qc/crypto/bio/ossl_core_bio.c.html#3174"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03174] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03185"
+ , "c1link" : "./qc/crypto/bio/ossl_core_bio.c.html#3185"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03185] The expression  - 1 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05729"
+ , "c1link" : "./qc/crypto/bio/ossl_core_bio.c.html#5729"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05729] The expression __gid_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06933"
+ , "c1link" : "./qc/crypto/bio/ossl_core_bio.c.html#6933"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06933] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06933"
+ , "c1link" : "./qc/crypto/bio/ossl_core_bio.c.html#6933"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06933] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -69,10 +167,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "10514"
+ , "c1link" : "./qc/crypto/bio/ossl_core_bio.c.html#10514"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10514] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10518"
+ , "c1link" : "./qc/crypto/bio/ossl_core_bio.c.html#10518"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10518] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10545"
+ , "c1link" : "./qc/crypto/bio/ossl_core_bio.c.html#10545"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10545] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10564"
+ , "c1link" : "./qc/crypto/bio/ossl_core_bio.c.html#10564"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10564] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10588"
+ , "c1link" : "./qc/crypto/bio/ossl_core_bio.c.html#10588"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10588] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "10596"
  , "c1link" : "./qc/crypto/bio/ossl_core_bio.c.html#10596"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[10596] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10598"
+ , "c1link" : "./qc/crypto/bio/ossl_core_bio.c.html#10598"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10598] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -14865,7 +14865,7 @@
 <a name="14865">14865&nbsp;&nbsp;&nbsp;</a><br/>
 <a name="14866">14866&nbsp;&nbsp;&nbsp;static&nbsp;int&nbsp;dh_cmp_parameters(const&nbsp;EVP_PKEY&nbsp;*a,&nbsp;const&nbsp;EVP_PKEY&nbsp;*b)</a><br/>
 <a name="14867">14867&nbsp;&nbsp;&nbsp;{</a><br/>
-<a name="14868">14868&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;ossl_ffc_params_cmp(&amp;a-&gt;pkey.dh-&gt;params,&nbsp;&amp;a-&gt;pkey.dh-&gt;params,</a><br/>
+<a name="14868">14868&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;ossl_ffc_params_cmp(&amp;a-&gt;pkey.dh-&gt;params,&nbsp;&amp;b-&gt;pkey.dh-&gt;params,</a><br/>
 <a name="14869">14869&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a-&gt;ameth&nbsp;!=&nbsp;&amp;ossl_dhx_asn1_meth);</a><br/>
 <a name="14870">14870&nbsp;&nbsp;&nbsp;}</a><br/>
 <a name="14871">14871&nbsp;&nbsp;&nbsp;</a><br/>

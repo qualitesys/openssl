@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/des/set_key.c.html" 
- , "texte" : "File crypto/des/set_key.c 28 rule violations " 
+ , "texte" : "File crypto/des/set_key.c 40 rule violations " 
  , "fic2"  : "./qc/crypto/des/set_key.c.xml" 
  , "fic3"  : "" 
 }
@@ -46,6 +46,13 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "12"
+}}
+,
+{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPPCWE481"
  , "c3" : "Assigning instead of comparing"
@@ -65,14 +72,98 @@ var maDataBlocs = {
    "c1" : "01219"
  , "c1link" : "./qc/crypto/des/set_key.c.html#1219"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01219] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[01219] The pointer __p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02757"
+ , "c1link" : "./qc/crypto/des/set_key.c.html#2757"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02757] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02757"
+ , "c1link" : "./qc/crypto/des/set_key.c.html#2757"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02757] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02757"
+ , "c1link" : "./qc/crypto/des/set_key.c.html#2757"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02757] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02789"
+ , "c1link" : "./qc/crypto/des/set_key.c.html#2789"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02789] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02789"
+ , "c1link" : "./qc/crypto/des/set_key.c.html#2789"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02789] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02789"
+ , "c1link" : "./qc/crypto/des/set_key.c.html#2789"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02789] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02801"
+ , "c1link" : "./qc/crypto/des/set_key.c.html#2801"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02801] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02801"
+ , "c1link" : "./qc/crypto/des/set_key.c.html#2801"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02801] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02801"
+ , "c1link" : "./qc/crypto/des/set_key.c.html#2801"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02801] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02812"
+ , "c1link" : "./qc/crypto/des/set_key.c.html#2812"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02812] The expression  - 1 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "04778"
+ , "c1link" : "./qc/crypto/des/set_key.c.html#4778"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[04778] The expression  sizeof (DES_cblock) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "04786"
+ , "c1link" : "./qc/crypto/des/set_key.c.html#4786"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[04786] The expression  sizeof (DES_cblock) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "05004"
  , "c1link" : "./qc/crypto/des/set_key.c.html#5004"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05004] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[05004] The pointer in is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -86,7 +177,7 @@ var maDataBlocs = {
    "c1" : "05005"
  , "c1link" : "./qc/crypto/des/set_key.c.html#5005"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05005] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[05005] The pointer k is declared but not initialized"
 }} 
 ,
 { "ligne" : {

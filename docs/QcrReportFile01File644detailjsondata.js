@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/siphash/siphash.c.html" 
- , "texte" : "File crypto/siphash/siphash.c 25 rule violations " 
+ , "texte" : "File crypto/siphash/siphash.c 35 rule violations " 
  , "fic2"  : "./qc/crypto/siphash/siphash.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "6"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : {
@@ -79,14 +79,84 @@ var maDataBlocs = {
    "c1" : "01183"
  , "c1link" : "./qc/crypto/siphash/siphash.c.html#1183"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01183] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[01183] The pointer __p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03098"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#3098"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03098] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03098"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#3098"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03098] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03098"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#3098"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03098] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03130"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#3130"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03130] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03130"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#3130"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03130] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03130"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#3130"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03130] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03142"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#3142"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03142] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03142"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#3142"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03142] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03142"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#3142"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03142] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03153"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#3153"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03153] The expression  - 1 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "04692"
  , "c1link" : "./qc/crypto/siphash/siphash.c.html#4692"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[04692] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[04692] The pointer end is declared but not initialized"
 }} 
 ,
 { "ligne" : {

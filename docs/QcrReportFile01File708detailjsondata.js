@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/x509/v3_crld.c.html" 
- , "texte" : "File crypto/x509/v3_crld.c 61 rule violations " 
+ , "texte" : "File crypto/x509/v3_crld.c 91 rule violations " 
  , "fic2"  : "./qc/crypto/x509/v3_crld.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "8"
+ , "c4" : "38"
 }}
 ,
 { "ligne" : {
@@ -69,24 +69,94 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
+   "c1" : "00993"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#993"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00993] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00993"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#993"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00993] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00993"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#993"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00993] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01025"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#1025"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01025] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01025"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#1025"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01025] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01025"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#1025"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01025] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01037"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#1037"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01037] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01037"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#1037"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01037] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01037"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#1037"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01037] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01048"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#1048"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01048] The expression  - 1 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "02080"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#2080"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02080] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[02080] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "14002"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14002"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14002] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14002] The pointer gnsect is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "14003"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14003"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14003] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14003] The pointer gens is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -114,14 +184,21 @@ var maDataBlocs = {
    "c1" : "14052"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14052"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14052] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14052] The pointer dnsect is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "14053"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14053"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14053] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14053] The pointer nm is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14057"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14057"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14057] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -129,6 +206,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14062"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[14062] The expression  ! dnsect applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14079"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14079"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14079] The expression  ! ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -160,6 +244,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14108"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14108"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14108] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "14111"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14111"
  , "c2" : "MAJOR"
@@ -177,14 +268,28 @@ var maDataBlocs = {
    "c1" : "14156"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14156"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14156] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14156] The pointer pbn is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "14157"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14157"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14157] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14157] The pointer bnam is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14162"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14162"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14162] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14168"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14168"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14168] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -192,6 +297,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14171"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[14171] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14176"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14176"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14176] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14182"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14182"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14182] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -209,6 +328,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14196"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14196"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14196] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "14199"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14199"
  , "c2" : "MAJOR"
@@ -219,7 +345,7 @@ var maDataBlocs = {
    "c1" : "14212"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14212"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14212] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14212] The pointer pbn is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -240,7 +366,14 @@ var maDataBlocs = {
    "c1" : "14234"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14234"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14234] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14234] The pointer cnf is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14239"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14239"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14239] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -265,6 +398,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14258"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14258"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14258] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "14261"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14261"
  , "c2" : "MAJOR"
@@ -275,14 +415,21 @@ var maDataBlocs = {
    "c1" : "14279"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14279"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14279] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14279] The pointer crld is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "14290"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14290"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14290] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14290] The pointer cnf is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14301"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14301"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14301] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -296,14 +443,21 @@ var maDataBlocs = {
    "c1" : "14306"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14306"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14306] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14306] The pointer point is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14311"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14311"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14311] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "14314"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14314"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14314] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14314] The pointer dpsect is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -321,6 +475,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14322"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14322"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14322] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "14325"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14325"
  , "c2" : "MAJOR"
@@ -335,6 +496,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14330"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14330"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14330] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "14333"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14333"
  , "c2" : "MAJOR"
@@ -346,6 +514,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14334"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[14334] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14336"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14336"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14336] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -370,6 +545,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14349"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14349"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14349] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "14352"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14352"
  , "c2" : "MAJOR"
@@ -384,6 +566,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14356"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14356"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14356] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "14359"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14359"
  , "c2" : "MAJOR"
@@ -394,21 +583,28 @@ var maDataBlocs = {
    "c1" : "14635"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14635"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14635] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14635] The pointer cnf is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "14636"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14636"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14636] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14636] The pointer name is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "14636"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14636"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14636] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14636] The pointer val is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14641"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14641"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14641] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -471,21 +667,35 @@ var maDataBlocs = {
    "c1" : "14751"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14751"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14751] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14751] The pointer point is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "14773"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14773"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14773] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14773] The pointer frag is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "14774"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14774"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14774] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[14774] The pointer ne is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14778"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14778"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14778] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14787"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#14787"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14787] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

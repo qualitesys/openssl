@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/nullprov.c.html" 
- , "texte" : "File providers/nullprov.c 2 rule violations " 
+ , "texte" : "File providers/nullprov.c 16 rule violations " 
  , "fic2"  : "./qc/providers/nullprov.c.xml" 
  , "fic3"  : "" 
 }
@@ -39,6 +39,13 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "14"
+}}
+,
+{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
@@ -48,17 +55,115 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
+   "c1" : "01373"
+ , "c1link" : "./qc/providers/nullprov.c.html#1373"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01373] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01373"
+ , "c1link" : "./qc/providers/nullprov.c.html#1373"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01373] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01373"
+ , "c1link" : "./qc/providers/nullprov.c.html#1373"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01373] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01405"
+ , "c1link" : "./qc/providers/nullprov.c.html#1405"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01405] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01405"
+ , "c1link" : "./qc/providers/nullprov.c.html#1405"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01405] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01405"
+ , "c1link" : "./qc/providers/nullprov.c.html#1405"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01405] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01417"
+ , "c1link" : "./qc/providers/nullprov.c.html#1417"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01417] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01417"
+ , "c1link" : "./qc/providers/nullprov.c.html#1417"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01417] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01417"
+ , "c1link" : "./qc/providers/nullprov.c.html#1417"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01417] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01428"
+ , "c1link" : "./qc/providers/nullprov.c.html#1428"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01428] The expression  - 1 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "03609"
  , "c1link" : "./qc/providers/nullprov.c.html#3609"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[03609] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[03609] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "06214"
  , "c1link" : "./qc/providers/nullprov.c.html#6214"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06214] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[06214] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06219"
+ , "c1link" : "./qc/providers/nullprov.c.html#6219"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06219] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06226"
+ , "c1link" : "./qc/providers/nullprov.c.html#6226"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06226] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06233"
+ , "c1link" : "./qc/providers/nullprov.c.html#6233"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06233] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06240"
+ , "c1link" : "./qc/providers/nullprov.c.html#6240"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06240] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

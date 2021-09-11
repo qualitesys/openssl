@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/dsa/dsa_ossl.c.html" 
- , "texte" : "File crypto/dsa/dsa_ossl.c 60 rule violations " 
+ , "texte" : "File crypto/dsa/dsa_ossl.c 101 rule violations " 
  , "fic2"  : "./qc/crypto/dsa/dsa_ossl.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "2"
+ , "c4" : "43"
 }}
 ,
 { "ligne" : {
@@ -69,38 +69,129 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
+   "c1" : "01020"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#1020"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01020] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01020"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#1020"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01020] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01020"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#1020"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01020] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01052"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#1052"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01052] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01052"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#1052"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01052] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01052"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#1052"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01052] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01064"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#1064"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01064] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01064"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#1064"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01064] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01064"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#1064"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01064] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01075"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#1075"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01075] The expression  - 1 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "02107"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#2107"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02107] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[02107] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "09471"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9471"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09471] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[09471] The pointer m is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "09471"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9471"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09471] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[09471] The pointer blind is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "09471"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9471"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09471] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[09471] The pointer blindm is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "09471"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9471"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09471] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[09471] The pointer tmp is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09487"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9487"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09487] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09492"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9492"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09492] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09497"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9497"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09497] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -111,10 +202,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "09505"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9505"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09505] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "09509"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9509"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[09509] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09515"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9515"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09515] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -125,6 +230,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "09523"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9523"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09523] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09527"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9527"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09527] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "09530"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9530"
  , "c2" : "MAJOR"
@@ -132,10 +251,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "09535"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9535"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09535] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "09538"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9538"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[09538] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09545"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9545"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09545] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -150,6 +283,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9552"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[09552] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09563"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9563"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09563] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -202,6 +342,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "09598"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9598"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09598] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "09601"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9601"
  , "c2" : "MAJOR"
@@ -226,14 +373,35 @@ var maDataBlocs = {
    "c1" : "09657"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9657"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09657] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[09657] The pointer k is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "09662"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9662"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09662] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[09662] The pointer l is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09688"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9688"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09688] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09703"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9703"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09703] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09707"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9707"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09707] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -244,10 +412,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "09714"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9714"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09714] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "09718"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9718"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[09718] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09724"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9724"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09724] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -262,6 +444,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9736"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[09736] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09742"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9742"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09742] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -293,6 +482,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "09773"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9773"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09773] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "09778"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9778"
  , "c2" : "MAJOR"
@@ -321,6 +517,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "09795"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9795"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09795] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "09798"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9798"
  , "c2" : "MAJOR"
@@ -338,42 +541,91 @@ var maDataBlocs = {
    "c1" : "09825"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9825"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09825] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[09825] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "09826"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9826"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09826] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[09826] The pointer u1 is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "09826"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9826"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09826] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[09826] The pointer u2 is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "09826"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9826"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09826] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[09826] The pointer t1 is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "09832"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9832"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09832] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[09832] The pointer r is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "09832"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9832"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09832] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[09832] The pointer s is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09837"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9837"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09837] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09842"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9842"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09842] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09847"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9847"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09847] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09887"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9887"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09887] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09891"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9891"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09891] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09895"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9895"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09895] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09899"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9899"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09899] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -398,10 +650,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "09922"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9922"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09922] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "09925"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9925"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[09925] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09937"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9937"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09937] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -440,6 +706,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "09959"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09959] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "09964"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#9964"
  , "c2" : "MAJOR"
@@ -464,14 +737,14 @@ var maDataBlocs = {
    "c1" : "10020"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#10020"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10020] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[10020] The pointer r is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "10020"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#10020"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10020] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[10020] The pointer e is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -482,10 +755,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "10024"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#10024"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10024] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "10034"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#10034"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[10034] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10036"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#10036"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10036] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

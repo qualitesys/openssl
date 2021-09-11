@@ -58,14 +58,14 @@ var maDataBlocs = {
    "c1" : "00080"
  , "c1link" : "./qc/crypto/idea/i_skey.c.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00080] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[00080] The pointer kt is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "00080"
  , "c1link" : "./qc/crypto/idea/i_skey.c.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00080] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[00080] The pointer kf is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -184,14 +184,14 @@ var maDataBlocs = {
    "c1" : "00120"
  , "c1link" : "./qc/crypto/idea/i_skey.c.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00120] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[00120] The pointer fp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "00120"
  , "c1link" : "./qc/crypto/idea/i_skey.c.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00120] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[00120] The pointer tp is declared but not initialized"
 }} 
 ]
 };

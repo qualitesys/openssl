@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/rehash.c.html" 
- , "texte" : "File apps/rehash.c 45 rule violations " 
+ , "texte" : "File apps/rehash.c 97 rule violations " 
  , "fic2"  : "./qc/apps/rehash.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "6"
+ , "c4" : "58"
 }}
 ,
 { "ligne" : {
@@ -72,56 +72,266 @@ var maDataBlocs = {
    "c1" : "01431"
  , "c1link" : "./qc/apps/rehash.c.html#1431"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01431] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[01431] The pointer __p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02791"
+ , "c1link" : "./qc/apps/rehash.c.html#2791"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02791] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02791"
+ , "c1link" : "./qc/apps/rehash.c.html#2791"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02791] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02791"
+ , "c1link" : "./qc/apps/rehash.c.html#2791"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02791] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02823"
+ , "c1link" : "./qc/apps/rehash.c.html#2823"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02823] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02823"
+ , "c1link" : "./qc/apps/rehash.c.html#2823"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02823] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02823"
+ , "c1link" : "./qc/apps/rehash.c.html#2823"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02823] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02835"
+ , "c1link" : "./qc/apps/rehash.c.html#2835"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02835] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02835"
+ , "c1link" : "./qc/apps/rehash.c.html#2835"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02835] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02835"
+ , "c1link" : "./qc/apps/rehash.c.html#2835"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02835] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02846"
+ , "c1link" : "./qc/apps/rehash.c.html#2846"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02846] The expression  - 1 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05723"
+ , "c1link" : "./qc/apps/rehash.c.html#5723"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05723] The expression __gid_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06928"
+ , "c1link" : "./qc/apps/rehash.c.html#6928"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06928] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06928"
+ , "c1link" : "./qc/apps/rehash.c.html#6928"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06928] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08942"
+ , "c1link" : "./qc/apps/rehash.c.html#8942"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08942] The expression 020000000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08942"
+ , "c1link" : "./qc/apps/rehash.c.html#8942"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08942] The expression 0200000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08942"
+ , "c1link" : "./qc/apps/rehash.c.html#8942"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08942] The expression 020000000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08942"
+ , "c1link" : "./qc/apps/rehash.c.html#8942"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08942] The expression 0200000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08975"
+ , "c1link" : "./qc/apps/rehash.c.html#8975"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08975] The expression 020000000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08975"
+ , "c1link" : "./qc/apps/rehash.c.html#8975"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08975] The expression 0200000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08975"
+ , "c1link" : "./qc/apps/rehash.c.html#8975"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08975] The expression 020000000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08975"
+ , "c1link" : "./qc/apps/rehash.c.html#8975"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08975] The expression 0200000 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "19029"
  , "c1link" : "./qc/apps/rehash.c.html#19029"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19029] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19029] The pointer evpmd is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "19058"
  , "c1link" : "./qc/apps/rehash.c.html#19058"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19058] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19058] The pointer bp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "19059"
  , "c1link" : "./qc/apps/rehash.c.html#19059"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19059] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19059] The pointer ep is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19066"
+ , "c1link" : "./qc/apps/rehash.c.html#19066"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19066] The expression bp applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19071"
+ , "c1link" : "./qc/apps/rehash.c.html#19071"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19071] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19082"
+ , "c1link" : "./qc/apps/rehash.c.html#19082"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19082] The expression ep applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19083"
+ , "c1link" : "./qc/apps/rehash.c.html#19083"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19083] The expression digest applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19094"
+ , "c1link" : "./qc/apps/rehash.c.html#19094"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19094] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19103"
+ , "c1link" : "./qc/apps/rehash.c.html#19103"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19103] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19120"
+ , "c1link" : "./qc/apps/rehash.c.html#19120"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19120] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19129"
+ , "c1link" : "./qc/apps/rehash.c.html#19129"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19129] The expression need_symlink applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "19150"
  , "c1link" : "./qc/apps/rehash.c.html#19150"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19150] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19150] The pointer endptr is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19182"
+ , "c1link" : "./qc/apps/rehash.c.html#19182"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19182] The expression linktarget applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "19203"
  , "c1link" : "./qc/apps/rehash.c.html#19203"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19203] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19203] The pointer x is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "19209"
  , "c1link" : "./qc/apps/rehash.c.html#19209"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19209] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19209] The pointer b is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "19210"
  , "c1link" : "./qc/apps/rehash.c.html#19210"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19210] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19210] The pointer ext is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -132,10 +342,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19218"
+ , "c1link" : "./qc/apps/rehash.c.html#19218"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19218] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19221"
  , "c1link" : "./qc/apps/rehash.c.html#19221"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19221] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19222"
+ , "c1link" : "./qc/apps/rehash.c.html#19222"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19222] The expression extensions applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19226"
+ , "c1link" : "./qc/apps/rehash.c.html#19226"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19226] The expression extensions applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -153,10 +384,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19232"
+ , "c1link" : "./qc/apps/rehash.c.html#19232"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19232] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19238"
  , "c1link" : "./qc/apps/rehash.c.html#19238"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19238] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19256"
+ , "c1link" : "./qc/apps/rehash.c.html#19256"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19256] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -174,10 +419,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19272"
+ , "c1link" : "./qc/apps/rehash.c.html#19272"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19272] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19284"
  , "c1link" : "./qc/apps/rehash.c.html#19284"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19284] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19288"
+ , "c1link" : "./qc/apps/rehash.c.html#19288"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19288] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -195,6 +454,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19308"
+ , "c1link" : "./qc/apps/rehash.c.html#19308"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19308] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19317"
  , "c1link" : "./qc/apps/rehash.c.html#19317"
  , "c2" : "BLOCKER"
@@ -205,49 +471,49 @@ var maDataBlocs = {
    "c1" : "19359"
  , "c1link" : "./qc/apps/rehash.c.html#19359"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19359] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19359] The pointer bp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "19359"
  , "c1link" : "./qc/apps/rehash.c.html#19359"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19359] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19359] The pointer nextbp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "19360"
  , "c1link" : "./qc/apps/rehash.c.html#19360"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19360] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19360] The pointer ep is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "19360"
  , "c1link" : "./qc/apps/rehash.c.html#19360"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19360] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19360] The pointer nextep is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "19370"
  , "c1link" : "./qc/apps/rehash.c.html#19370"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19370] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19370] The pointer pathsep is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "19371"
  , "c1link" : "./qc/apps/rehash.c.html#19371"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19371] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19371] The pointer filename is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "19372"
  , "c1link" : "./qc/apps/rehash.c.html#19372"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19372] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19372] The pointer buf is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -265,6 +531,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19405"
+ , "c1link" : "./qc/apps/rehash.c.html#19405"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19405] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19410"
  , "c1link" : "./qc/apps/rehash.c.html#19410"
  , "c2" : "MAJOR"
@@ -279,6 +552,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19414"
+ , "c1link" : "./qc/apps/rehash.c.html#19414"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19414] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19417"
  , "c1link" : "./qc/apps/rehash.c.html#19417"
  , "c2" : "MAJOR"
@@ -286,10 +566,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19419"
+ , "c1link" : "./qc/apps/rehash.c.html#19419"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19419] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19426"
  , "c1link" : "./qc/apps/rehash.c.html#19426"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19426] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19446"
+ , "c1link" : "./qc/apps/rehash.c.html#19446"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19446] The expression 0120000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19453"
+ , "c1link" : "./qc/apps/rehash.c.html#19453"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19453] The expression hash_table applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19454"
+ , "c1link" : "./qc/apps/rehash.c.html#19454"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19454] The expression bp applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19458"
+ , "c1link" : "./qc/apps/rehash.c.html#19458"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19458] The expression ep applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19462"
+ , "c1link" : "./qc/apps/rehash.c.html#19462"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19462] The expression ep applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -307,6 +629,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19484"
+ , "c1link" : "./qc/apps/rehash.c.html#19484"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19484] The expression  * __errno_location() applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19512"
  , "c1link" : "./qc/apps/rehash.c.html#19512"
  , "c2" : "BLOCKER"
@@ -321,31 +650,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19590"
- , "c1link" : "./qc/apps/rehash.c.html#19590"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19590] A pointer is declared but not initialized"
+   "c1" : "19522"
+ , "c1link" : "./qc/apps/rehash.c.html#19522"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19522] The expression  * __errno_location() applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "19590"
  , "c1link" : "./qc/apps/rehash.c.html#19590"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19590] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19590] The pointer env is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19590"
+ , "c1link" : "./qc/apps/rehash.c.html#19590"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[19590] The pointer prog is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "19591"
  , "c1link" : "./qc/apps/rehash.c.html#19591"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19591] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19591] The pointer e is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "19591"
  , "c1link" : "./qc/apps/rehash.c.html#19591"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19591] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19591] The pointer m is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -377,10 +713,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19634"
+ , "c1link" : "./qc/apps/rehash.c.html#19634"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19634] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19639"
+ , "c1link" : "./qc/apps/rehash.c.html#19639"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19639] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19643"
  , "c1link" : "./qc/apps/rehash.c.html#19643"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[19643] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19645"
+ , "c1link" : "./qc/apps/rehash.c.html#19645"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19645] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19652"
+ , "c1link" : "./qc/apps/rehash.c.html#19652"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19652] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

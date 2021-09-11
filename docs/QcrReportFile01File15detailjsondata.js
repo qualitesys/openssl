@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/engine.c.html" 
- , "texte" : "File apps/engine.c 50 rule violations " 
+ , "texte" : "File apps/engine.c 90 rule violations " 
  , "fic2"  : "./qc/apps/engine.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "9"
+ , "c4" : "49"
 }}
 ,
 { "ligne" : {
@@ -79,7 +79,161 @@ var maDataBlocs = {
    "c1" : "01433"
  , "c1link" : "./qc/apps/engine.c.html#1433"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01433] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[01433] The pointer __p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02793"
+ , "c1link" : "./qc/apps/engine.c.html#2793"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02793] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02793"
+ , "c1link" : "./qc/apps/engine.c.html#2793"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02793] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02793"
+ , "c1link" : "./qc/apps/engine.c.html#2793"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02793] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02825"
+ , "c1link" : "./qc/apps/engine.c.html#2825"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02825] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02825"
+ , "c1link" : "./qc/apps/engine.c.html#2825"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02825] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02825"
+ , "c1link" : "./qc/apps/engine.c.html#2825"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02825] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02837"
+ , "c1link" : "./qc/apps/engine.c.html#2837"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02837] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02837"
+ , "c1link" : "./qc/apps/engine.c.html#2837"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02837] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02837"
+ , "c1link" : "./qc/apps/engine.c.html#2837"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02837] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02848"
+ , "c1link" : "./qc/apps/engine.c.html#2848"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02848] The expression  - 1 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05725"
+ , "c1link" : "./qc/apps/engine.c.html#5725"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05725] The expression __gid_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06930"
+ , "c1link" : "./qc/apps/engine.c.html#6930"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06930] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06930"
+ , "c1link" : "./qc/apps/engine.c.html#6930"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06930] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08944"
+ , "c1link" : "./qc/apps/engine.c.html#8944"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08944] The expression 020000000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08944"
+ , "c1link" : "./qc/apps/engine.c.html#8944"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08944] The expression 0200000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08944"
+ , "c1link" : "./qc/apps/engine.c.html#8944"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08944] The expression 020000000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08944"
+ , "c1link" : "./qc/apps/engine.c.html#8944"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08944] The expression 0200000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08977"
+ , "c1link" : "./qc/apps/engine.c.html#8977"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08977] The expression 020000000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08977"
+ , "c1link" : "./qc/apps/engine.c.html#8977"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08977] The expression 0200000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08977"
+ , "c1link" : "./qc/apps/engine.c.html#8977"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08977] The expression 020000000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08977"
+ , "c1link" : "./qc/apps/engine.c.html#8977"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08977] The expression 0200000 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20647"
+ , "c1link" : "./qc/apps/engine.c.html#20647"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20647] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -87,6 +241,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/engine.c.html#20651"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[20651] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20663"
+ , "c1link" : "./qc/apps/engine.c.html#20663"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20663] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -129,6 +290,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/engine.c.html#20777"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[20777] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20793"
+ , "c1link" : "./qc/apps/engine.c.html#20793"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20793] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -205,14 +373,14 @@ var maDataBlocs = {
    "c1" : "20930"
  , "c1link" : "./qc/apps/engine.c.html#20930"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20930] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[20930] The pointer cmd is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "20930"
  , "c1link" : "./qc/apps/engine.c.html#20930"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20930] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[20930] The pointer arg is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -220,6 +388,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/engine.c.html#20934"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[20934] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20936"
+ , "c1link" : "./qc/apps/engine.c.html#20936"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20936] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -233,28 +408,49 @@ var maDataBlocs = {
    "c1" : "20989"
  , "c1link" : "./qc/apps/engine.c.html#20989"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20989] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[20989] The pointer e is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "20993"
  , "c1link" : "./qc/apps/engine.c.html#20993"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20993] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[20993] The pointer out is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "20996"
  , "c1link" : "./qc/apps/engine.c.html#20996"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20996] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[20996] The pointer prog is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "20997"
  , "c1link" : "./qc/apps/engine.c.html#20997"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20997] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[20997] The pointer argv1 is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21002"
+ , "c1link" : "./qc/apps/engine.c.html#21002"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21002] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21006"
+ , "c1link" : "./qc/apps/engine.c.html#21006"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21006] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21010"
+ , "c1link" : "./qc/apps/engine.c.html#21010"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21010] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -269,6 +465,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/engine.c.html#21018"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[21018] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21020"
+ , "c1link" : "./qc/apps/engine.c.html#21020"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21020] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -300,6 +503,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "21070"
+ , "c1link" : "./qc/apps/engine.c.html#21070"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21070] The expression  * argv applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "21075"
  , "c1link" : "./qc/apps/engine.c.html#21075"
  , "c2" : "MAJOR"
@@ -307,10 +517,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "21083"
+ , "c1link" : "./qc/apps/engine.c.html#21083"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21083] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "21093"
  , "c1link" : "./qc/apps/engine.c.html#21093"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[21093] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21095"
+ , "c1link" : "./qc/apps/engine.c.html#21095"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21095] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -324,7 +548,14 @@ var maDataBlocs = {
    "c1" : "21116"
  , "c1link" : "./qc/apps/engine.c.html#21116"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21116] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[21116] The pointer nids is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21123"
+ , "c1link" : "./qc/apps/engine.c.html#21123"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21123] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -335,10 +566,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "21130"
+ , "c1link" : "./qc/apps/engine.c.html#21130"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21130] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "21134"
  , "c1link" : "./qc/apps/engine.c.html#21134"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[21134] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21137"
+ , "c1link" : "./qc/apps/engine.c.html#21137"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21137] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -349,10 +594,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "21144"
+ , "c1link" : "./qc/apps/engine.c.html#21144"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21144] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "21148"
  , "c1link" : "./qc/apps/engine.c.html#21148"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[21148] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21153"
+ , "c1link" : "./qc/apps/engine.c.html#21153"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21153] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -370,6 +629,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "21170"
+ , "c1link" : "./qc/apps/engine.c.html#21170"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21170] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "21173"
  , "c1link" : "./qc/apps/engine.c.html#21173"
  , "c2" : "MAJOR"
@@ -381,6 +647,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/engine.c.html#21181"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[21181] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21187"
+ , "c1link" : "./qc/apps/engine.c.html#21187"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21187] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -402,6 +675,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/engine.c.html#21210"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[21210] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21214"
+ , "c1link" : "./qc/apps/engine.c.html#21214"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21214] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

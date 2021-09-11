@@ -800,7 +800,7 @@ var maDataBlocs = {
    "c1" : "00154"
  , "c1link" : "./qc/crypto/idea/i_cbc.c.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00154] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[00154] The pointer p is declared but not initialized"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/rsa/rsa_pss.c.html" 
- , "texte" : "File crypto/rsa/rsa_pss.c 34 rule violations " 
+ , "texte" : "File crypto/rsa/rsa_pss.c 62 rule violations " 
  , "fic2"  : "./qc/crypto/rsa/rsa_pss.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "2"
+ , "c4" : "30"
 }}
 ,
 { "ligne" : {
@@ -69,17 +69,87 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
+   "c1" : "01020"
+ , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#1020"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01020] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01020"
+ , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#1020"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01020] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01020"
+ , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#1020"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01020] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01052"
+ , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#1052"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01052] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01052"
+ , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#1052"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01052] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01052"
+ , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#1052"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01052] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01064"
+ , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#1064"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01064] The expression __size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01064"
+ , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#1064"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01064] The expression __n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01064"
+ , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#1064"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01064] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01075"
+ , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#1075"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01075] The expression  - 1 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "02107"
  , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#2107"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02107] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[02107] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "09530"
  , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#9530"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09530] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[09530] The pointer H is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -97,10 +167,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "09541"
+ , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#9541"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09541] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "09544"
  , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#9544"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[09544] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09548"
+ , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#9548"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09548] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -143,6 +227,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#9612"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[09612] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09619"
+ , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#9619"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09619] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -205,14 +296,14 @@ var maDataBlocs = {
    "c1" : "09706"
  , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#9706"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09706] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[09706] The pointer H is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "09710"
  , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#9710"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09710] A pointer is declared but not initialized"
+ , "c3" : "QC-CPP000014[09710] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -220,6 +311,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#9706"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[09706] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09719"
+ , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#9719"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09719] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -251,6 +349,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "09775"
+ , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#9775"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09775] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "09783"
  , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#9783"
  , "c2" : "MAJOR"
@@ -265,6 +370,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "09793"
+ , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#9793"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09793] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "09796"
  , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#9796"
  , "c2" : "MAJOR"
@@ -276,6 +388,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#9804"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[09804] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09805"
+ , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#9805"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09805] The expression sLen applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -304,6 +423,83 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#9830"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[09830] The expression MSBits applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09861"
+ , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#9861"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09861] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09894"
+ , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#9894"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09894] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09907"
+ , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#9907"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09907] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09920"
+ , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#9920"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09920] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09933"
+ , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#9933"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09933] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09946"
+ , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#9946"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09946] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09958"
+ , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#9958"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09958] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09969"
+ , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#9969"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09969] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09980"
+ , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#9980"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09980] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09991"
+ , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#9991"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09991] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10002"
+ , "c1link" : "./qc/crypto/rsa/rsa_pss.c.html#10002"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10002] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };
