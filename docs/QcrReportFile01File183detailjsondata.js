@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bn/bn_ctx.c.html" 
- , "texte" : "File crypto/bn/bn_ctx.c 70 rule violations " 
+ , "texte" : "File crypto/bn/bn_ctx.c 63 rule violations " 
  , "fic2"  : "./qc/crypto/bn/bn_ctx.c.xml" 
  , "fic3"  : "" 
 }
@@ -63,7 +63,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000017"
  , "c3" : "Dead code"
- , "c4" : "14"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : {
@@ -251,13 +251,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06554"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6554"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[06554] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "06567"
  , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6567"
  , "c2" : "BLOCKER"
@@ -283,13 +276,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6567"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06567] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06567"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6567"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[06567] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -321,13 +307,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06584"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6584"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[06584] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "06599"
  , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6599"
  , "c2" : "BLOCKER"
@@ -356,13 +335,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06599"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6599"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[06599] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "06615"
  , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6615"
  , "c2" : "BLOCKER"
@@ -388,13 +360,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6615"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06615] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06615"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6615"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[06615] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -433,13 +398,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06626"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6626"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[06626] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "06633"
  , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6633"
  , "c2" : "MAJOR"
@@ -472,13 +430,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6663"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06663] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06663"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#6663"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[06663] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {

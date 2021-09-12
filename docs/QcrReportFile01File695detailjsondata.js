@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/x509/pcy_tree.c.html" 
- , "texte" : "File crypto/x509/pcy_tree.c 65 rule violations " 
+ , "texte" : "File crypto/x509/pcy_tree.c 63 rule violations " 
  , "fic2"  : "./qc/crypto/x509/pcy_tree.c.xml" 
  , "fic3"  : "" 
 }
@@ -63,7 +63,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000017"
  , "c3" : "Dead code"
- , "c4" : "4"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -447,13 +447,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13884"
- , "c1link" : "./qc/crypto/x509/pcy_tree.c.html#13884"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[13884] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "13900"
  , "c1link" : "./qc/crypto/x509/pcy_tree.c.html#13900"
  , "c2" : "MAJOR"
@@ -500,13 +493,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/pcy_tree.c.html#13971"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[13971] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13971"
- , "c1link" : "./qc/crypto/x509/pcy_tree.c.html#13971"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[13971] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/record/ssl3_record.c.html" 
- , "texte" : "File ssl/record/ssl3_record.c 203 rule violations " 
+ , "texte" : "File ssl/record/ssl3_record.c 199 rule violations " 
  , "fic2"  : "./qc/ssl/record/ssl3_record.c.xml" 
  , "fic3"  : "" 
 }
@@ -70,7 +70,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000017"
  , "c3" : "Dead code"
- , "c4" : "8"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -542,13 +542,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/record/ssl3_record.c.html#20818"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[20818] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20818"
- , "c1link" : "./qc/ssl/record/ssl3_record.c.html#20818"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[20818] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1084,13 +1077,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "21908"
- , "c1link" : "./qc/ssl/record/ssl3_record.c.html#21908"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[21908] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "21921"
  , "c1link" : "./qc/ssl/record/ssl3_record.c.html#21921"
  , "c2" : "BLOCKER"
@@ -1116,13 +1102,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/record/ssl3_record.c.html#21924"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[21924] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21924"
- , "c1link" : "./qc/ssl/record/ssl3_record.c.html#21924"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[21924] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1200,13 +1179,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/record/ssl3_record.c.html#22055"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[22055] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22055"
- , "c1link" : "./qc/ssl/record/ssl3_record.c.html#22055"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[22055] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {

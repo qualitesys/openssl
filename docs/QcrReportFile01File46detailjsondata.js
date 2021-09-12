@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/passwd.c.html" 
- , "texte" : "File apps/passwd.c 203 rule violations " 
+ , "texte" : "File apps/passwd.c 170 rule violations " 
  , "fic2"  : "./qc/apps/passwd.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,13 +57,6 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "42"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000017"
- , "c3" : "Dead code"
- , "c4" : "33"
 }}
 ,
 { "ligne" : {
@@ -776,13 +769,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19969"
- , "c1link" : "./qc/apps/passwd.c.html#19969"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19969] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "19970"
  , "c1link" : "./qc/apps/passwd.c.html#19970"
  , "c2" : "BLOCKER"
@@ -794,13 +780,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/passwd.c.html#19970"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[19970] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19970"
- , "c1link" : "./qc/apps/passwd.c.html#19970"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19970] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -818,13 +797,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19971"
- , "c1link" : "./qc/apps/passwd.c.html#19971"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19971] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "19972"
  , "c1link" : "./qc/apps/passwd.c.html#19972"
  , "c2" : "BLOCKER"
@@ -836,13 +808,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/passwd.c.html#19972"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[19972] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19972"
- , "c1link" : "./qc/apps/passwd.c.html#19972"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19972] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -860,13 +825,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19973"
- , "c1link" : "./qc/apps/passwd.c.html#19973"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19973] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "19974"
  , "c1link" : "./qc/apps/passwd.c.html#19974"
  , "c2" : "BLOCKER"
@@ -878,13 +836,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/passwd.c.html#19974"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[19974] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19974"
- , "c1link" : "./qc/apps/passwd.c.html#19974"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19974] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -902,13 +853,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19975"
- , "c1link" : "./qc/apps/passwd.c.html#19975"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19975] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "19976"
  , "c1link" : "./qc/apps/passwd.c.html#19976"
  , "c2" : "BLOCKER"
@@ -920,13 +864,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/passwd.c.html#19976"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[19976] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19976"
- , "c1link" : "./qc/apps/passwd.c.html#19976"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19976] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -944,13 +881,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19977"
- , "c1link" : "./qc/apps/passwd.c.html#19977"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19977] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "19978"
  , "c1link" : "./qc/apps/passwd.c.html#19978"
  , "c2" : "BLOCKER"
@@ -962,13 +892,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/passwd.c.html#19978"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[19978] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19978"
- , "c1link" : "./qc/apps/passwd.c.html#19978"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19978] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -986,13 +909,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19979"
- , "c1link" : "./qc/apps/passwd.c.html#19979"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19979] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "19982"
  , "c1link" : "./qc/apps/passwd.c.html#19982"
  , "c2" : "BLOCKER"
@@ -1004,13 +920,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/passwd.c.html#19982"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[19982] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19982"
- , "c1link" : "./qc/apps/passwd.c.html#19982"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19982] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1028,13 +937,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19983"
- , "c1link" : "./qc/apps/passwd.c.html#19983"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19983] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "19984"
  , "c1link" : "./qc/apps/passwd.c.html#19984"
  , "c2" : "BLOCKER"
@@ -1046,13 +948,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/passwd.c.html#19984"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[19984] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19984"
- , "c1link" : "./qc/apps/passwd.c.html#19984"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19984] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1070,13 +965,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19985"
- , "c1link" : "./qc/apps/passwd.c.html#19985"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19985] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "19986"
  , "c1link" : "./qc/apps/passwd.c.html#19986"
  , "c2" : "BLOCKER"
@@ -1088,13 +976,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/passwd.c.html#19986"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[19986] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19986"
- , "c1link" : "./qc/apps/passwd.c.html#19986"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19986] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1112,13 +993,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19987"
- , "c1link" : "./qc/apps/passwd.c.html#19987"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19987] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "19988"
  , "c1link" : "./qc/apps/passwd.c.html#19988"
  , "c2" : "BLOCKER"
@@ -1130,13 +1004,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/passwd.c.html#19988"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[19988] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19988"
- , "c1link" : "./qc/apps/passwd.c.html#19988"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19988] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1154,13 +1021,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19989"
- , "c1link" : "./qc/apps/passwd.c.html#19989"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19989] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "19990"
  , "c1link" : "./qc/apps/passwd.c.html#19990"
  , "c2" : "BLOCKER"
@@ -1172,13 +1032,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/passwd.c.html#19990"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[19990] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19990"
- , "c1link" : "./qc/apps/passwd.c.html#19990"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19990] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1196,13 +1049,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19991"
- , "c1link" : "./qc/apps/passwd.c.html#19991"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19991] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "19992"
  , "c1link" : "./qc/apps/passwd.c.html#19992"
  , "c2" : "BLOCKER"
@@ -1214,13 +1060,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/passwd.c.html#19992"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[19992] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19992"
- , "c1link" : "./qc/apps/passwd.c.html#19992"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19992] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1238,13 +1077,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19993"
- , "c1link" : "./qc/apps/passwd.c.html#19993"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19993] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "19994"
  , "c1link" : "./qc/apps/passwd.c.html#19994"
  , "c2" : "BLOCKER"
@@ -1256,13 +1088,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/passwd.c.html#19994"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[19994] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19994"
- , "c1link" : "./qc/apps/passwd.c.html#19994"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19994] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1280,13 +1105,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19995"
- , "c1link" : "./qc/apps/passwd.c.html#19995"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19995] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "19996"
  , "c1link" : "./qc/apps/passwd.c.html#19996"
  , "c2" : "BLOCKER"
@@ -1298,13 +1116,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/passwd.c.html#19996"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[19996] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19996"
- , "c1link" : "./qc/apps/passwd.c.html#19996"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19996] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1322,13 +1133,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19997"
- , "c1link" : "./qc/apps/passwd.c.html#19997"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19997] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "19998"
  , "c1link" : "./qc/apps/passwd.c.html#19998"
  , "c2" : "BLOCKER"
@@ -1340,13 +1144,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/passwd.c.html#19998"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[19998] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19998"
- , "c1link" : "./qc/apps/passwd.c.html#19998"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19998] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1364,13 +1161,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19999"
- , "c1link" : "./qc/apps/passwd.c.html#19999"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[19999] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "20000"
  , "c1link" : "./qc/apps/passwd.c.html#20000"
  , "c2" : "BLOCKER"
@@ -1382,13 +1172,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/passwd.c.html#20000"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[20000] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20000"
- , "c1link" : "./qc/apps/passwd.c.html#20000"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[20000] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1406,13 +1189,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20001"
- , "c1link" : "./qc/apps/passwd.c.html#20001"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[20001] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "20002"
  , "c1link" : "./qc/apps/passwd.c.html#20002"
  , "c2" : "BLOCKER"
@@ -1427,13 +1203,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20002"
- , "c1link" : "./qc/apps/passwd.c.html#20002"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[20002] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "20003"
  , "c1link" : "./qc/apps/passwd.c.html#20003"
  , "c2" : "BLOCKER"
@@ -1445,13 +1214,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/passwd.c.html#20003"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[20003] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20003"
- , "c1link" : "./qc/apps/passwd.c.html#20003"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[20003] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {

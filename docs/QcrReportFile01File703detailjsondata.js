@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/x509/v3_asid.c.html" 
- , "texte" : "File crypto/x509/v3_asid.c 120 rule violations " 
+ , "texte" : "File crypto/x509/v3_asid.c 111 rule violations " 
  , "fic2"  : "./qc/crypto/x509/v3_asid.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,13 +57,6 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "13"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000017"
- , "c3" : "Dead code"
- , "c4" : "9"
 }}
 ,
 { "ligne" : {
@@ -622,13 +615,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15228"
- , "c1link" : "./qc/crypto/x509/v3_asid.c.html#15228"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[15228] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "15295"
  , "c1link" : "./qc/crypto/x509/v3_asid.c.html#15295"
  , "c2" : "BLOCKER"
@@ -654,13 +640,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/v3_asid.c.html#15295"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[15295] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15295"
- , "c1link" : "./qc/crypto/x509/v3_asid.c.html#15295"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[15295] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -692,13 +671,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15303"
- , "c1link" : "./qc/crypto/x509/v3_asid.c.html#15303"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[15303] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "15317"
  , "c1link" : "./qc/crypto/x509/v3_asid.c.html#15317"
  , "c2" : "BLOCKER"
@@ -724,13 +696,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/v3_asid.c.html#15317"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[15317] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15317"
- , "c1link" : "./qc/crypto/x509/v3_asid.c.html#15317"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[15317] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -769,13 +734,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15342"
- , "c1link" : "./qc/crypto/x509/v3_asid.c.html#15342"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[15342] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "15358"
  , "c1link" : "./qc/crypto/x509/v3_asid.c.html#15358"
  , "c2" : "BLOCKER"
@@ -801,13 +759,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/v3_asid.c.html#15358"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[15358] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15358"
- , "c1link" : "./qc/crypto/x509/v3_asid.c.html#15358"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[15358] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -846,13 +797,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15382"
- , "c1link" : "./qc/crypto/x509/v3_asid.c.html#15382"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[15382] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "15418"
  , "c1link" : "./qc/crypto/x509/v3_asid.c.html#15418"
  , "c2" : "BLOCKER"
@@ -881,13 +825,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15418"
- , "c1link" : "./qc/crypto/x509/v3_asid.c.html#15418"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[15418] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "15429"
  , "c1link" : "./qc/crypto/x509/v3_asid.c.html#15429"
  , "c2" : "BLOCKER"
@@ -913,13 +850,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/v3_asid.c.html#15429"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[15429] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15429"
- , "c1link" : "./qc/crypto/x509/v3_asid.c.html#15429"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[15429] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {

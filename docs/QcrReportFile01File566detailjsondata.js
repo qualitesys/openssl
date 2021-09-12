@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/pkcs12/p12_decr.c.html" 
- , "texte" : "File crypto/pkcs12/p12_decr.c 45 rule violations " 
+ , "texte" : "File crypto/pkcs12/p12_decr.c 44 rule violations " 
  , "fic2"  : "./qc/crypto/pkcs12/p12_decr.c.xml" 
  , "fic3"  : "" 
 }
@@ -70,7 +70,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000017"
  , "c3" : "Dead code"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -339,13 +339,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13575"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[13575] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13575"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#13575"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[13575] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {

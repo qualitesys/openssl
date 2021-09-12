@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/speed.c.html" 
- , "texte" : "File apps/speed.c 272 rule violations " 
+ , "texte" : "File apps/speed.c 268 rule violations " 
  , "fic2"  : "./qc/apps/speed.c.xml" 
  , "fic3"  : "" 
 }
@@ -64,13 +64,6 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "13"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000017"
- , "c3" : "Dead code"
- , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -314,13 +307,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "22028"
- , "c1link" : "./qc/apps/speed.c.html#22028"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[22028] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "22031"
  , "c1link" : "./qc/apps/speed.c.html#22031"
  , "c2" : "BLOCKER"
@@ -335,13 +321,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "22031"
- , "c1link" : "./qc/apps/speed.c.html#22031"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[22031] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "22034"
  , "c1link" : "./qc/apps/speed.c.html#22034"
  , "c2" : "BLOCKER"
@@ -353,13 +332,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/speed.c.html#22034"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[22034] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22034"
- , "c1link" : "./qc/apps/speed.c.html#22034"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[22034] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -864,13 +836,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/speed.c.html#23590"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[23590] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23590"
- , "c1link" : "./qc/apps/speed.c.html#23590"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[23590] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {

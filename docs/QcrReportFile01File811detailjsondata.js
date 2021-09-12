@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/statem/statem.c.html" 
- , "texte" : "File ssl/statem/statem.c 81 rule violations " 
+ , "texte" : "File ssl/statem/statem.c 74 rule violations " 
  , "fic2"  : "./qc/ssl/statem/statem.c.xml" 
  , "fic3"  : "" 
 }
@@ -71,13 +71,6 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "16"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000017"
- , "c3" : "Dead code"
- , "c4" : "7"
 }}
 ,
 { "ligne" : {
@@ -468,13 +461,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20895"
- , "c1link" : "./qc/ssl/statem/statem.c.html#20895"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[20895] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "20901"
  , "c1link" : "./qc/ssl/statem/statem.c.html#20901"
  , "c2" : "MAJOR"
@@ -517,13 +503,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "21081"
- , "c1link" : "./qc/ssl/statem/statem.c.html#21081"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[21081] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "21105"
  , "c1link" : "./qc/ssl/statem/statem.c.html#21105"
  , "c2" : "BLOCKER"
@@ -535,13 +514,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/statem.c.html#21109"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[21109] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21109"
- , "c1link" : "./qc/ssl/statem/statem.c.html#21109"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[21109] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -580,13 +552,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "21230"
- , "c1link" : "./qc/ssl/statem/statem.c.html#21230"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[21230] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "21236"
  , "c1link" : "./qc/ssl/statem/statem.c.html#21236"
  , "c2" : "MAJOR"
@@ -605,13 +570,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/statem.c.html#21242"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[21242] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21242"
- , "c1link" : "./qc/ssl/statem/statem.c.html#21242"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[21242] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -636,13 +594,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "21286"
- , "c1link" : "./qc/ssl/statem/statem.c.html#21286"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[21286] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "21315"
  , "c1link" : "./qc/ssl/statem/statem.c.html#21315"
  , "c2" : "MAJOR"
@@ -661,13 +612,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/statem.c.html#21321"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[21321] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21321"
- , "c1link" : "./qc/ssl/statem/statem.c.html#21321"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[21321] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {

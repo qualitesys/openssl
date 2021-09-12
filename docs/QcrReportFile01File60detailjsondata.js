@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/s_client.c.html" 
- , "texte" : "File apps/s_client.c 334 rule violations " 
+ , "texte" : "File apps/s_client.c 328 rule violations " 
  , "fic2"  : "./qc/apps/s_client.c.xml" 
  , "fic3"  : "" 
 }
@@ -64,13 +64,6 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "16"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000017"
- , "c3" : "Dead code"
- , "c4" : "6"
 }}
 ,
 { "ligne" : {
@@ -496,13 +489,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "22179"
- , "c1link" : "./qc/apps/s_client.c.html#22179"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[22179] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "22184"
  , "c1link" : "./qc/apps/s_client.c.html#22184"
  , "c2" : "MINOR"
@@ -521,13 +507,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/s_client.c.html#22188"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[22188] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22188"
- , "c1link" : "./qc/apps/s_client.c.html#22188"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[22188] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1539,13 +1518,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "24087"
- , "c1link" : "./qc/apps/s_client.c.html#24087"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[24087] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "24092"
  , "c1link" : "./qc/apps/s_client.c.html#24092"
  , "c2" : "MAJOR"
@@ -1805,13 +1777,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "24556"
- , "c1link" : "./qc/apps/s_client.c.html#24556"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[24556] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "24561"
  , "c1link" : "./qc/apps/s_client.c.html#24561"
  , "c2" : "MINOR"
@@ -1830,13 +1795,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/s_client.c.html#24565"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[24565] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24565"
- , "c1link" : "./qc/apps/s_client.c.html#24565"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[24565] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -2208,13 +2166,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/s_client.c.html#25032"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[25032] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "25032"
- , "c1link" : "./qc/apps/s_client.c.html#25032"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[25032] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {

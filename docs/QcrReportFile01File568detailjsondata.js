@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/pkcs12/p12_key.c.html" 
- , "texte" : "File crypto/pkcs12/p12_key.c 30 rule violations " 
+ , "texte" : "File crypto/pkcs12/p12_key.c 28 rule violations " 
  , "fic2"  : "./qc/crypto/pkcs12/p12_key.c.xml" 
  , "fic3"  : "" 
 }
@@ -70,7 +70,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000017"
  , "c3" : "Dead code"
- , "c4" : "4"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -251,13 +251,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13780"
- , "c1link" : "./qc/crypto/pkcs12/p12_key.c.html#13780"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[13780] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "13788"
  , "c1link" : "./qc/crypto/pkcs12/p12_key.c.html#13788"
  , "c2" : "BLOCKER"
@@ -283,13 +276,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/pkcs12/p12_key.c.html#13792"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[13792] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13792"
- , "c1link" : "./qc/crypto/pkcs12/p12_key.c.html#13792"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[13792] The condition is always false. Dead code"
 }} 
 ]
 };

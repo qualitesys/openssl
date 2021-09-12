@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/ssl_ciph.c.html" 
- , "texte" : "File ssl/ssl_ciph.c 133 rule violations " 
+ , "texte" : "File ssl/ssl_ciph.c 131 rule violations " 
  , "fic2"  : "./qc/ssl/ssl_ciph.c.xml" 
  , "fic3"  : "" 
 }
@@ -70,7 +70,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000017"
  , "c3" : "Dead code"
- , "c4" : "4"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -545,13 +545,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "22071"
- , "c1link" : "./qc/ssl/ssl_ciph.c.html#22071"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[22071] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "22078"
  , "c1link" : "./qc/ssl/ssl_ciph.c.html#22078"
  , "c2" : "MAJOR"
@@ -913,13 +906,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_ciph.c.html#22925"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[22925] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22925"
- , "c1link" : "./qc/ssl/ssl_ciph.c.html#22925"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[22925] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {

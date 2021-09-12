@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/t1_lib.c.html" 
- , "texte" : "File ssl/t1_lib.c 232 rule violations " 
+ , "texte" : "File ssl/t1_lib.c 230 rule violations " 
  , "fic2"  : "./qc/ssl/t1_lib.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,13 +57,6 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "20"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000017"
- , "c3" : "Dead code"
- , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -1315,13 +1308,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "23211"
- , "c1link" : "./qc/ssl/t1_lib.c.html#23211"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[23211] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "23281"
  , "c1link" : "./qc/ssl/t1_lib.c.html#23281"
  , "c2" : "BLOCKER"
@@ -1473,13 +1459,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/t1_lib.c.html#23395"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[23395] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "23395"
- , "c1link" : "./qc/ssl/t1_lib.c.html#23395"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[23395] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {

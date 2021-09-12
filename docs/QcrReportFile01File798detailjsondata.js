@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/ssl_init.c.html" 
- , "texte" : "File ssl/ssl_init.c 44 rule violations " 
+ , "texte" : "File ssl/ssl_init.c 41 rule violations " 
  , "fic2"  : "./qc/ssl/ssl_init.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,13 +57,6 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "8"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000017"
- , "c3" : "Dead code"
- , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -335,13 +328,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20004"
- , "c1link" : "./qc/ssl/ssl_init.c.html#20004"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[20004] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "20008"
  , "c1link" : "./qc/ssl/ssl_init.c.html#20008"
  , "c2" : "BLOCKER"
@@ -356,13 +342,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20008"
- , "c1link" : "./qc/ssl/ssl_init.c.html#20008"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[20008] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "20013"
  , "c1link" : "./qc/ssl/ssl_init.c.html#20013"
  , "c2" : "BLOCKER"
@@ -374,13 +353,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_init.c.html#20013"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[20013] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20013"
- , "c1link" : "./qc/ssl/ssl_init.c.html#20013"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[20013] The condition is always false. Dead code"
 }} 
 ]
 };

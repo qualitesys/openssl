@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/s3_lib.c.html" 
- , "texte" : "File ssl/s3_lib.c 123 rule violations " 
+ , "texte" : "File ssl/s3_lib.c 122 rule violations " 
  , "fic2"  : "./qc/ssl/s3_lib.c.xml" 
  , "fic3"  : "" 
 }
@@ -70,7 +70,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000017"
  , "c3" : "Dead code"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -472,13 +472,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/s3_lib.c.html#24096"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[24096] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "24096"
- , "c1link" : "./qc/ssl/s3_lib.c.html#24096"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[24096] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {

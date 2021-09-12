@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/asn1/tasn_dec.c.html" 
- , "texte" : "File crypto/asn1/tasn_dec.c 185 rule violations " 
+ , "texte" : "File crypto/asn1/tasn_dec.c 181 rule violations " 
  , "fic2"  : "./qc/crypto/asn1/tasn_dec.c.xml" 
  , "fic3"  : "" 
 }
@@ -64,13 +64,6 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "17"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000017"
- , "c3" : "Dead code"
- , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -206,13 +199,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/asn1/tasn_dec.c.html#6483"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06483] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06483"
- , "c1link" : "./qc/crypto/asn1/tasn_dec.c.html#6483"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[06483] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -958,13 +944,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07409"
- , "c1link" : "./qc/crypto/asn1/tasn_dec.c.html#7409"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[07409] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "07412"
  , "c1link" : "./qc/crypto/asn1/tasn_dec.c.html#7412"
  , "c2" : "BLOCKER"
@@ -1357,13 +1336,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07977"
- , "c1link" : "./qc/crypto/asn1/tasn_dec.c.html#7977"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[07977] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "08022"
  , "c1link" : "./qc/crypto/asn1/tasn_dec.c.html#8022"
  , "c2" : "BLOCKER"
@@ -1382,13 +1354,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/asn1/tasn_dec.c.html#8026"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[08026] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08026"
- , "c1link" : "./qc/crypto/asn1/tasn_dec.c.html#8026"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[08026] The condition is always false. Dead code"
 }} 
 ]
 };

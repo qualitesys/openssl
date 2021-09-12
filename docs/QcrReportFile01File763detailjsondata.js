@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/engines/e_afalg.c.html" 
- , "texte" : "File engines/e_afalg.c 100 rule violations " 
+ , "texte" : "File engines/e_afalg.c 88 rule violations " 
  , "fic2"  : "./qc/engines/e_afalg.c.xml" 
  , "fic3"  : "" 
 }
@@ -64,13 +64,6 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "26"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000017"
- , "c3" : "Dead code"
- , "c4" : "12"
 }}
 ,
 { "ligne" : {
@@ -363,13 +356,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18321"
- , "c1link" : "./qc/engines/e_afalg.c.html#18321"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[18321] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "18354"
  , "c1link" : "./qc/engines/e_afalg.c.html#18354"
  , "c2" : "BLOCKER"
@@ -384,13 +370,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18362"
- , "c1link" : "./qc/engines/e_afalg.c.html#18362"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[18362] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "18380"
  , "c1link" : "./qc/engines/e_afalg.c.html#18380"
  , "c2" : "BLOCKER"
@@ -402,13 +381,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/engines/e_afalg.c.html#18388"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[18388] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18388"
- , "c1link" : "./qc/engines/e_afalg.c.html#18388"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[18388] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -430,13 +402,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/engines/e_afalg.c.html#18454"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[18454] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18454"
- , "c1link" : "./qc/engines/e_afalg.c.html#18454"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[18454] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -468,13 +433,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18491"
- , "c1link" : "./qc/engines/e_afalg.c.html#18491"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[18491] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "18518"
  , "c1link" : "./qc/engines/e_afalg.c.html#18518"
  , "c2" : "BLOCKER"
@@ -489,13 +447,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18526"
- , "c1link" : "./qc/engines/e_afalg.c.html#18526"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[18526] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "18545"
  , "c1link" : "./qc/engines/e_afalg.c.html#18545"
  , "c2" : "BLOCKER"
@@ -507,13 +458,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/engines/e_afalg.c.html#18553"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[18553] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18553"
- , "c1link" : "./qc/engines/e_afalg.c.html#18553"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[18553] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -545,13 +489,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18657"
- , "c1link" : "./qc/engines/e_afalg.c.html#18657"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[18657] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "18670"
  , "c1link" : "./qc/engines/e_afalg.c.html#18670"
  , "c2" : "MAJOR"
@@ -570,13 +507,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/engines/e_afalg.c.html#18699"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[18699] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18699"
- , "c1link" : "./qc/engines/e_afalg.c.html#18699"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[18699] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -601,13 +531,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18714"
- , "c1link" : "./qc/engines/e_afalg.c.html#18714"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[18714] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "18716"
  , "c1link" : "./qc/engines/e_afalg.c.html#18716"
  , "c2" : "MAJOR"
@@ -626,13 +549,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/engines/e_afalg.c.html#18733"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[18733] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18733"
- , "c1link" : "./qc/engines/e_afalg.c.html#18733"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[18733] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -668,13 +584,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/engines/e_afalg.c.html#18840"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[18840] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18840"
- , "c1link" : "./qc/engines/e_afalg.c.html#18840"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[18840] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {

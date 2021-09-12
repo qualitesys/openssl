@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/cmp/cmp_vfy.c.html" 
- , "texte" : "File crypto/cmp/cmp_vfy.c 52 rule violations " 
+ , "texte" : "File crypto/cmp/cmp_vfy.c 51 rule violations " 
  , "fic2"  : "./qc/crypto/cmp/cmp_vfy.c.xml" 
  , "fic3"  : "" 
 }
@@ -50,13 +50,6 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "6"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000017"
- , "c3" : "Dead code"
- , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -437,13 +430,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#15806"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[15806] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15806"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#15806"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[15806] The condition is always false. Dead code"
 }} 
 ]
 };

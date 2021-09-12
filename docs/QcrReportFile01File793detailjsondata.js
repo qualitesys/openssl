@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/ssl_cert.c.html" 
- , "texte" : "File ssl/ssl_cert.c 119 rule violations " 
+ , "texte" : "File ssl/ssl_cert.c 118 rule violations " 
  , "fic2"  : "./qc/ssl/ssl_cert.c.xml" 
  , "fic3"  : "" 
 }
@@ -64,13 +64,6 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "10"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000017"
- , "c3" : "Dead code"
- , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -318,13 +311,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_cert.c.html#20170"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[20170] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20170"
- , "c1link" : "./qc/ssl/ssl_cert.c.html#20170"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[20170] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {

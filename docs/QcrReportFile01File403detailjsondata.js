@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/err/err.c.html" 
- , "texte" : "File crypto/err/err.c 62 rule violations " 
+ , "texte" : "File crypto/err/err.c 54 rule violations " 
  , "fic2"  : "./qc/crypto/err/err.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,13 +57,6 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "14"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000017"
- , "c3" : "Dead code"
- , "c4" : "8"
 }}
 ,
 { "ligne" : {
@@ -230,13 +223,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08546"
- , "c1link" : "./qc/crypto/err/err.c.html#8546"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[08546] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "08575"
  , "c1link" : "./qc/crypto/err/err.c.html#8575"
  , "c2" : "BLOCKER"
@@ -251,13 +237,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08575"
- , "c1link" : "./qc/crypto/err/err.c.html#8575"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[08575] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "08593"
  , "c1link" : "./qc/crypto/err/err.c.html#8593"
  , "c2" : "BLOCKER"
@@ -269,13 +248,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/err/err.c.html#8593"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[08593] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08593"
- , "c1link" : "./qc/crypto/err/err.c.html#8593"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[08593] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -335,13 +307,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09079"
- , "c1link" : "./qc/crypto/err/err.c.html#9079"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[09079] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "09121"
  , "c1link" : "./qc/crypto/err/err.c.html#9121"
  , "c2" : "BLOCKER"
@@ -353,13 +318,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/err/err.c.html#9121"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[09121] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09121"
- , "c1link" : "./qc/crypto/err/err.c.html#9121"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[09121] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -391,13 +349,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09224"
- , "c1link" : "./qc/crypto/err/err.c.html#9224"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[09224] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "09251"
  , "c1link" : "./qc/crypto/err/err.c.html#9251"
  , "c2" : "MAJOR"
@@ -419,13 +370,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09334"
- , "c1link" : "./qc/crypto/err/err.c.html#9334"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[09334] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "09363"
  , "c1link" : "./qc/crypto/err/err.c.html#9363"
  , "c2" : "BLOCKER"
@@ -437,13 +381,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/err/err.c.html#9363"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[09363] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09363"
- , "c1link" : "./qc/crypto/err/err.c.html#9363"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[09363] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {

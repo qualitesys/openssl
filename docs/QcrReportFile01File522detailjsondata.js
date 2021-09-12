@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/modes/gcm128.c.html" 
- , "texte" : "File crypto/modes/gcm128.c 235 rule violations " 
+ , "texte" : "File crypto/modes/gcm128.c 230 rule violations " 
  , "fic2"  : "./qc/crypto/modes/gcm128.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,13 +57,6 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "20"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000017"
- , "c3" : "Dead code"
- , "c4" : "5"
 }}
 ,
 { "ligne" : {
@@ -202,13 +195,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06473"
- , "c1link" : "./qc/crypto/modes/gcm128.c.html#6473"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[06473] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "06475"
  , "c1link" : "./qc/crypto/modes/gcm128.c.html#6475"
  , "c2" : "BLOCKER"
@@ -230,13 +216,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06475"
- , "c1link" : "./qc/crypto/modes/gcm128.c.html#6475"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[06475] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "06477"
  , "c1link" : "./qc/crypto/modes/gcm128.c.html#6477"
  , "c2" : "BLOCKER"
@@ -255,13 +234,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/modes/gcm128.c.html#6477"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06477] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06477"
- , "c1link" : "./qc/crypto/modes/gcm128.c.html#6477"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[06477] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -923,13 +895,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06966"
- , "c1link" : "./qc/crypto/modes/gcm128.c.html#6966"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[06966] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "06973"
  , "c1link" : "./qc/crypto/modes/gcm128.c.html#6973"
  , "c2" : "BLOCKER"
@@ -1221,13 +1186,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/modes/gcm128.c.html#7148"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[07148] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07148"
- , "c1link" : "./qc/crypto/modes/gcm128.c.html#7148"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[07148] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/e_aes.c.html" 
- , "texte" : "File crypto/evp/e_aes.c 82 rule violations " 
+ , "texte" : "File crypto/evp/e_aes.c 78 rule violations " 
  , "fic2"  : "./qc/crypto/evp/e_aes.c.xml" 
  , "fic3"  : "" 
 }
@@ -64,13 +64,6 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "10"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000017"
- , "c3" : "Dead code"
- , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -293,13 +286,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11086"
- , "c1link" : "./qc/crypto/evp/e_aes.c.html#11086"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[11086] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "11097"
  , "c1link" : "./qc/crypto/evp/e_aes.c.html#11097"
  , "c2" : "BLOCKER"
@@ -433,13 +419,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11414"
- , "c1link" : "./qc/crypto/evp/e_aes.c.html#11414"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[11414] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "11417"
  , "c1link" : "./qc/crypto/evp/e_aes.c.html#11417"
  , "c2" : "BLOCKER"
@@ -507,13 +486,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/e_aes.c.html#11639"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[11639] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11639"
- , "c1link" : "./qc/crypto/evp/e_aes.c.html#11639"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[11639] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -640,13 +612,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/e_aes.c.html#12256"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[12256] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12256"
- , "c1link" : "./qc/crypto/evp/e_aes.c.html#12256"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[12256] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {

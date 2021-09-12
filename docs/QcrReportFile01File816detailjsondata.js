@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/t1_enc.c.html" 
- , "texte" : "File ssl/t1_enc.c 121 rule violations " 
+ , "texte" : "File ssl/t1_enc.c 115 rule violations " 
  , "fic2"  : "./qc/ssl/t1_enc.c.xml" 
  , "fic3"  : "" 
 }
@@ -70,7 +70,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000017"
  , "c3" : "Dead code"
- , "c4" : "12"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : {
@@ -580,13 +580,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20719"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20719"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[20719] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "20738"
  , "c1link" : "./qc/ssl/t1_enc.c.html#20738"
  , "c2" : "MAJOR"
@@ -661,13 +654,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/t1_enc.c.html#20838"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[20838] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20838"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20838"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[20838] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -748,13 +734,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20907"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20907"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[20907] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "20911"
  , "c1link" : "./qc/ssl/t1_enc.c.html#20911"
  , "c2" : "MAJOR"
@@ -790,13 +769,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20921"
- , "c1link" : "./qc/ssl/t1_enc.c.html#20921"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[20921] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "21011"
  , "c1link" : "./qc/ssl/t1_enc.c.html#21011"
  , "c2" : "BLOCKER"
@@ -825,13 +797,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "21014"
- , "c1link" : "./qc/ssl/t1_enc.c.html#21014"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[21014] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "21065"
  , "c1link" : "./qc/ssl/t1_enc.c.html#21065"
  , "c2" : "BLOCKER"
@@ -857,13 +822,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/t1_enc.c.html#21076"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[21076] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21076"
- , "c1link" : "./qc/ssl/t1_enc.c.html#21076"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[21076] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {

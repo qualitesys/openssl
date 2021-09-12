@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/camellia/camellia.c.html" 
- , "texte" : "File crypto/camellia/camellia.c 179 rule violations " 
+ , "texte" : "File crypto/camellia/camellia.c 135 rule violations " 
  , "fic2"  : "./qc/crypto/camellia/camellia.c.xml" 
  , "fic3"  : "" 
 }
@@ -50,13 +50,6 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "46"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000017"
- , "c3" : "Dead code"
- , "c4" : "44"
 }}
 ,
 { "ligne" : {
@@ -167,13 +160,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02189"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2189"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02189] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "02190"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2190"
  , "c2" : "BLOCKER"
@@ -185,13 +171,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2190"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02190] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02190"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2190"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02190] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -209,13 +188,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02193"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2193"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02193] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "02194"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2194"
  , "c2" : "BLOCKER"
@@ -227,13 +199,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2194"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02194] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02194"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2194"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02194] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -251,13 +216,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02199"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2199"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02199] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "02201"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2201"
  , "c2" : "BLOCKER"
@@ -269,13 +227,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2201"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02201] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02201"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2201"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02201] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -293,13 +244,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02203"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2203"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02203] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "02205"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2205"
  , "c2" : "BLOCKER"
@@ -311,13 +255,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2205"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02205] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02205"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2205"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02205] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -335,13 +272,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02207"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2207"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02207] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "02209"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2209"
  , "c2" : "BLOCKER"
@@ -353,13 +283,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2209"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02209] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02209"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2209"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02209] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -377,13 +300,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02213"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2213"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02213] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "02215"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2215"
  , "c2" : "BLOCKER"
@@ -395,13 +311,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2215"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02215] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02215"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2215"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02215] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -419,13 +328,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02217"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2217"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02217] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "02219"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2219"
  , "c2" : "BLOCKER"
@@ -437,13 +339,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2219"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02219] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02219"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2219"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02219] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -461,13 +356,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02221"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2221"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02221] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "02223"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2223"
  , "c2" : "BLOCKER"
@@ -479,13 +367,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2223"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02223] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02223"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2223"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02223] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -503,13 +384,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02230"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2230"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02230] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "02231"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2231"
  , "c2" : "BLOCKER"
@@ -521,13 +395,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2231"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02231] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02231"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2231"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02231] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -545,13 +412,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02234"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2234"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02234] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "02236"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2236"
  , "c2" : "BLOCKER"
@@ -563,13 +423,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2236"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02236] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02236"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2236"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02236] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -587,13 +440,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02238"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2238"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02238] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "02242"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2242"
  , "c2" : "BLOCKER"
@@ -605,13 +451,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2242"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02242] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02242"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2242"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02242] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -629,13 +468,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02244"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2244"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02244] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "02246"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2246"
  , "c2" : "BLOCKER"
@@ -647,13 +479,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2246"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02246] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02246"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2246"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02246] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -671,13 +496,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02248"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2248"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02248] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "02252"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2252"
  , "c2" : "BLOCKER"
@@ -689,13 +507,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2252"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02252] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02252"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2252"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02252] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -713,13 +524,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02254"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2254"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02254] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "02258"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2258"
  , "c2" : "BLOCKER"
@@ -731,13 +535,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2258"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02258] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02258"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2258"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02258] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -755,13 +552,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02262"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2262"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02262] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "02264"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2264"
  , "c2" : "BLOCKER"
@@ -773,13 +563,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2264"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02264] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02264"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2264"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02264] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -797,13 +580,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02266"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2266"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02266] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "02268"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2268"
  , "c2" : "BLOCKER"
@@ -815,13 +591,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2268"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02268] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02268"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2268"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02268] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -853,13 +622,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02291"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2291"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02291] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "02292"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2292"
  , "c2" : "BLOCKER"
@@ -871,13 +633,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2292"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02292] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02292"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2292"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02292] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -895,13 +650,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02293"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2293"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02293] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "02294"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2294"
  , "c2" : "BLOCKER"
@@ -913,13 +661,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2294"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02294] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02294"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2294"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02294] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -937,13 +678,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02295"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2295"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02295] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "02296"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2296"
  , "c2" : "BLOCKER"
@@ -955,13 +689,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2296"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02296] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02296"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2296"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02296] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1105,13 +832,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02344"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2344"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02344] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "02345"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2345"
  , "c2" : "BLOCKER"
@@ -1123,13 +843,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2345"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02345] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02345"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2345"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02345] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1147,13 +860,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02346"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2346"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02346] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "02347"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2347"
  , "c2" : "BLOCKER"
@@ -1165,13 +871,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2347"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02347] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02347"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2347"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02347] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1189,13 +888,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02348"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2348"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02348] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "02349"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2349"
  , "c2" : "BLOCKER"
@@ -1207,13 +899,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2349"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02349] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02349"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2349"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[02349] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {

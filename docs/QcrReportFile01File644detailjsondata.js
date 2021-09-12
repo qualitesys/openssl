@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/siphash/siphash.c.html" 
- , "texte" : "File crypto/siphash/siphash.c 35 rule violations " 
+ , "texte" : "File crypto/siphash/siphash.c 30 rule violations " 
  , "fic2"  : "./qc/crypto/siphash/siphash.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,13 +57,6 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "6"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000017"
- , "c3" : "Dead code"
- , "c4" : "5"
 }}
 ,
 { "ligne" : {
@@ -181,13 +174,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "04722"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#4722"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[04722] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "04732"
  , "c1link" : "./qc/crypto/siphash/siphash.c.html#4732"
  , "c2" : "BLOCKER"
@@ -199,13 +185,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/siphash/siphash.c.html#4732"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[04732] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04732"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#4732"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[04732] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -279,13 +258,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "04787"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#4787"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[04787] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "04794"
  , "c1link" : "./qc/crypto/siphash/siphash.c.html#4794"
  , "c2" : "BLOCKER"
@@ -300,13 +272,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "04794"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#4794"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[04794] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "04801"
  , "c1link" : "./qc/crypto/siphash/siphash.c.html#4801"
  , "c2" : "BLOCKER"
@@ -318,13 +283,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/siphash/siphash.c.html#4801"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[04801] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04801"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#4801"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[04801] The condition is always false. Dead code"
 }} 
 ]
 };

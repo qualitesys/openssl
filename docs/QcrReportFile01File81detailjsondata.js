@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/aria/aria.c.html" 
- , "texte" : "File crypto/aria/aria.c 238 rule violations " 
+ , "texte" : "File crypto/aria/aria.c 162 rule violations " 
  , "fic2"  : "./qc/crypto/aria/aria.c.xml" 
  , "fic3"  : "" 
 }
@@ -53,13 +53,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000017"
- , "c3" : "Dead code"
- , "c4" : "76"
-}}
-,
-{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPPCWE481"
  , "c3" : "Assigning instead of comparing"
@@ -97,10 +90,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01085"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1085"
+   "c1" : "01088"
+ , "c1link" : "./qc/crypto/aria/aria.c.html#1088"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01085] The condition is always false. Dead code"
+ , "c3" : "QC-CPP000006[01088] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01088"
+ , "c1link" : "./qc/crypto/aria/aria.c.html#1088"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01088] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -121,7 +121,14 @@ var maDataBlocs = {
    "c1" : "01088"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1088"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01088] The condition is always false. Dead code"
+ , "c3" : "QC-CPP000006[01088] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01088"
+ , "c1link" : "./qc/crypto/aria/aria.c.html#1088"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01088] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -142,13 +149,6 @@ var maDataBlocs = {
    "c1" : "01088"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1088"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01088] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01088"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1088"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[01088] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
@@ -157,55 +157,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/aria/aria.c.html#1088"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01088] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01088"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1088"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01088] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01088"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1088"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[01088] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01088"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1088"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01088] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01088"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1088"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01088] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01088"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1088"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[01088] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01088"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1088"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01088] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01088"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1088"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01088] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -220,13 +171,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/aria/aria.c.html#1089"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01089] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01089"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1089"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01089] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -254,7 +198,14 @@ var maDataBlocs = {
    "c1" : "01093"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1093"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01093] The condition is always false. Dead code"
+ , "c3" : "QC-CPP000006[01093] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01093"
+ , "c1link" : "./qc/crypto/aria/aria.c.html#1093"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01093] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -275,13 +226,6 @@ var maDataBlocs = {
    "c1" : "01093"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1093"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01093] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01093"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1093"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[01093] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
@@ -296,13 +240,6 @@ var maDataBlocs = {
    "c1" : "01093"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1093"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01093] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01093"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1093"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[01093] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
@@ -311,34 +248,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/aria/aria.c.html#1093"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01093] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01093"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1093"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01093] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01093"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1093"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[01093] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01093"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1093"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01093] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01093"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1093"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01093] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -356,10 +265,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01094"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1094"
+   "c1" : "01097"
+ , "c1link" : "./qc/crypto/aria/aria.c.html#1097"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01094] The condition is always false. Dead code"
+ , "c3" : "QC-CPP000006[01097] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01097"
+ , "c1link" : "./qc/crypto/aria/aria.c.html#1097"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01097] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -380,7 +296,14 @@ var maDataBlocs = {
    "c1" : "01097"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1097"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01097] The condition is always false. Dead code"
+ , "c3" : "QC-CPP000006[01097] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01097"
+ , "c1link" : "./qc/crypto/aria/aria.c.html#1097"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01097] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -401,13 +324,6 @@ var maDataBlocs = {
    "c1" : "01097"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1097"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01097] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01097"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1097"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[01097] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
@@ -416,55 +332,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/aria/aria.c.html#1097"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01097] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01097"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1097"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01097] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01097"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1097"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[01097] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01097"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1097"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01097] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01097"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1097"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01097] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01097"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1097"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[01097] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01097"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1097"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01097] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01097"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1097"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01097] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -482,13 +349,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01098"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1098"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01098] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "01123"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1123"
  , "c2" : "BLOCKER"
@@ -500,13 +360,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/aria/aria.c.html#1123"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01123] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01123"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1123"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01123] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -524,13 +377,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01124"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1124"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01124] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "01125"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1125"
  , "c2" : "BLOCKER"
@@ -545,13 +391,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01125"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1125"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01125] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "01126"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1126"
  , "c2" : "BLOCKER"
@@ -563,13 +402,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/aria/aria.c.html#1126"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01126] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01126"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1126"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01126] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -604,7 +436,14 @@ var maDataBlocs = {
    "c1" : "01168"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1168"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01168] The condition is always false. Dead code"
+ , "c3" : "QC-CPP000006[01168] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01168"
+ , "c1link" : "./qc/crypto/aria/aria.c.html#1168"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01168] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -625,13 +464,6 @@ var maDataBlocs = {
    "c1" : "01168"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1168"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01168] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01168"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1168"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[01168] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
@@ -646,13 +478,6 @@ var maDataBlocs = {
    "c1" : "01168"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1168"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01168] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01168"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1168"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[01168] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
@@ -661,34 +486,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/aria/aria.c.html#1168"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01168] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01168"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1168"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01168] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01168"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1168"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[01168] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01168"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1168"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01168] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01168"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1168"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01168] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -737,7 +534,14 @@ var maDataBlocs = {
    "c1" : "01200"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1200"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01200] The condition is always false. Dead code"
+ , "c3" : "QC-CPP000006[01200] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01200"
+ , "c1link" : "./qc/crypto/aria/aria.c.html#1200"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01200] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -758,7 +562,14 @@ var maDataBlocs = {
    "c1" : "01200"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1200"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01200] The condition is always false. Dead code"
+ , "c3" : "QC-CPP000006[01200] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01200"
+ , "c1link" : "./qc/crypto/aria/aria.c.html#1200"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01200] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -776,52 +587,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01200"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1200"
+   "c1" : "01217"
+ , "c1link" : "./qc/crypto/aria/aria.c.html#1217"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01200] The condition is always false. Dead code"
+ , "c3" : "QC-CPP000006[01217] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01200"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1200"
+   "c1" : "01217"
+ , "c1link" : "./qc/crypto/aria/aria.c.html#1217"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[01200] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01200"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1200"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01200] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01200"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1200"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01200] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01200"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1200"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[01200] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01200"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1200"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01200] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01200"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1200"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01200] The condition is always false. Dead code"
+ , "c3" : "QC-CPP000012[01217] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -842,7 +618,14 @@ var maDataBlocs = {
    "c1" : "01217"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1217"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01217] The condition is always false. Dead code"
+ , "c3" : "QC-CPP000006[01217] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01217"
+ , "c1link" : "./qc/crypto/aria/aria.c.html#1217"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01217] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -863,13 +646,6 @@ var maDataBlocs = {
    "c1" : "01217"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1217"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01217] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01217"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1217"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[01217] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
@@ -878,55 +654,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/aria/aria.c.html#1217"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01217] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01217"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1217"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01217] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01217"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1217"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[01217] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01217"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1217"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01217] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01217"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1217"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01217] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01217"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1217"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[01217] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01217"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1217"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01217] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01217"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1217"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01217] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -944,13 +671,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01224"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1224"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01224] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "01226"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1226"
  , "c2" : "BLOCKER"
@@ -962,13 +682,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/aria/aria.c.html#1226"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01226] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01226"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1226"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01226] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -986,13 +699,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01228"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1228"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01228] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "01230"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1230"
  , "c2" : "BLOCKER"
@@ -1004,13 +710,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/aria/aria.c.html#1230"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01230] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01230"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1230"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01230] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1028,13 +727,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01233"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1233"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01233] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "01235"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1235"
  , "c2" : "BLOCKER"
@@ -1046,13 +738,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/aria/aria.c.html#1235"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01235] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01235"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1235"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01235] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1070,13 +755,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01237"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1237"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01237] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "01239"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1239"
  , "c2" : "BLOCKER"
@@ -1088,13 +766,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/aria/aria.c.html#1239"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01239] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01239"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1239"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01239] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1112,13 +783,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01242"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1242"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01242] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "01244"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1244"
  , "c2" : "BLOCKER"
@@ -1130,13 +794,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/aria/aria.c.html#1244"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01244] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01244"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1244"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01244] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1154,13 +811,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01246"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1246"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01246] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "01248"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1248"
  , "c2" : "BLOCKER"
@@ -1172,13 +822,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/aria/aria.c.html#1248"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01248] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01248"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1248"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01248] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1196,13 +839,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01251"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1251"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01251] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "01254"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1254"
  , "c2" : "BLOCKER"
@@ -1214,13 +850,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/aria/aria.c.html#1254"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01254] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01254"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1254"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01254] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1238,13 +867,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01256"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1256"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01256] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "01260"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1260"
  , "c2" : "BLOCKER"
@@ -1259,13 +881,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01260"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1260"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01260] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "01263"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1263"
  , "c2" : "BLOCKER"
@@ -1277,13 +892,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/aria/aria.c.html#1263"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01263] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01263"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1263"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01263] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1315,13 +923,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01303"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1303"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01303] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "01304"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1304"
  , "c2" : "BLOCKER"
@@ -1333,13 +934,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/aria/aria.c.html#1304"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01304] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01304"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1304"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01304] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1357,13 +951,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01305"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1305"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01305] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "01306"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1306"
  , "c2" : "BLOCKER"
@@ -1375,13 +962,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/aria/aria.c.html#1306"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01306] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01306"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1306"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01306] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1399,13 +979,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01308"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1308"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01308] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "01309"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1309"
  , "c2" : "BLOCKER"
@@ -1417,13 +990,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/aria/aria.c.html#1309"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01309] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01309"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1309"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01309] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1441,13 +1007,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01310"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1310"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01310] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "01317"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1317"
  , "c2" : "BLOCKER"
@@ -1459,13 +1018,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/aria/aria.c.html#1317"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01317] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01317"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1317"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01317] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1483,13 +1035,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01318"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1318"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01318] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "01319"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1319"
  , "c2" : "BLOCKER"
@@ -1501,13 +1046,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/aria/aria.c.html#1319"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01319] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01319"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1319"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01319] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1525,13 +1063,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01320"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1320"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01320] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "01322"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1322"
  , "c2" : "BLOCKER"
@@ -1543,13 +1074,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/aria/aria.c.html#1322"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01322] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01322"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1322"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01322] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1567,13 +1091,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01323"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1323"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01323] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "01324"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1324"
  , "c2" : "BLOCKER"
@@ -1585,13 +1102,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/aria/aria.c.html#1324"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01324] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01324"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1324"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01324] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1609,13 +1119,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01336"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1336"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01336] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "01337"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1337"
  , "c2" : "BLOCKER"
@@ -1627,13 +1130,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/aria/aria.c.html#1337"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01337] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01337"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1337"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01337] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1651,13 +1147,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01338"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1338"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01338] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "01339"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1339"
  , "c2" : "BLOCKER"
@@ -1669,13 +1158,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/aria/aria.c.html#1339"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01339] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01339"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1339"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01339] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1693,13 +1175,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01341"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1341"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01341] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "01342"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1342"
  , "c2" : "BLOCKER"
@@ -1714,13 +1189,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01342"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1342"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01342] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
    "c1" : "01343"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1343"
  , "c2" : "BLOCKER"
@@ -1732,13 +1200,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/aria/aria.c.html#1343"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01343] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01343"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1343"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[01343] The condition is always false. Dead code"
 }} 
 ]
 };
