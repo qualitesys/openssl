@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/ec_asn1.c.html" 
- , "texte" : "File crypto/ec/ec_asn1.c 294 rule violations " 
+ , "texte" : "File crypto/ec/ec_asn1.c 366 rule violations " 
  , "fic2"  : "./qc/crypto/ec/ec_asn1.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,14 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "146"
+ , "c4" : "94"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000012"
+ , "c3" : "The condition expression is invariable, always true or false"
+ , "c4" : "124"
 }}
 ,
 { "ligne" : {
@@ -76,6 +83,13 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
+   "c1" : "00411"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#411"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00411] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "01592"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#1592"
  , "c2" : "MAJOR"
@@ -83,17 +97,59 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03446"
- , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#3446"
+   "c1" : "01597"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#1597"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03446] The expression __size applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01597] The expression __l&lt;__u applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01784"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#1784"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01784] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01834"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#1834"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01834] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01865"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#1865"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01865] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03414"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#3414"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03414] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03444"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#3444"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03444] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03445"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#3445"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03445] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "03446"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#3446"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03446] The expression __n applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03446] The expression __size|__n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -104,17 +160,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03478"
- , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#3478"
+   "c1" : "03476"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#3476"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03478] The expression __size applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03476] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03477"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#3477"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03477] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "03478"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#3478"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03478] The expression __n applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03478] The expression __size|__n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -125,17 +188,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03490"
- , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#3490"
+   "c1" : "03488"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#3488"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03490] The expression __size applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03488] The expression __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03489"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#3489"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03489] The expression __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "03490"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#3490"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03490] The expression __n applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03490] The expression __size|__n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -149,35 +219,98 @@ var maDataBlocs = {
    "c1" : "03501"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#3501"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03501] The expression  - 1 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[03501] The expression ( - 1) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "09796"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#9796"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09796] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[09796] The expression (( void  *)0) is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09801"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#9801"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09801] The expression  ! EC_POINT_copy(s,p)|| ! EC_POINT_dbl(group,r,s,ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "09814"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#9814"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09814] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[09814] The expression (( void  *)0) is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09819"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#9819"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09819] The expression  ! EC_POINT_add(group,s,r,s,ctx)|| ! EC_POINT_dbl(group,r,r,ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "09833"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#9833"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09833] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[09833] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10368"
- , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10368"
+   "c1" : "09935"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#9935"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10368] The expression 18446744073709551615UL applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[09935] The expression (( unsigned  int  )0x7fffffff+1) is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09942"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#9942"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09942] The expression (( unsigned  int  )0x7fffffff+1) is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09949"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#9949"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09949] The expression (( unsigned  int  )0x7fffffff+1) is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10366"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10366"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10366] The expression ((18446744073709551615UL)/2) is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10397"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10397"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10397] The expression PACKET_remaining(pkt)!=num applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10410"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10410"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10410] The expression PACKET_remaining(pkt)&lt;len applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10424"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10424"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10424] The expression  ! PACKET_peek_sub_packet(pkt,subpkt,len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10452"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10452"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10452] The expression  ! PACKET_peek_net_2(pkt,data) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -188,10 +321,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "10493"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10493"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10493] The expression  ! PACKET_peek_net_3(pkt,data) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "10507"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10507"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[10507] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10535"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10535"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10535] The expression  ! PACKET_peek_net_4(pkt,data) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -202,6 +349,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "10559"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10559"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10559] The expression  ! PACKET_remaining(pkt) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10570"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10570"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10570] The expression  ! PACKET_peek_1(pkt,data) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "10584"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10584"
  , "c2" : "BLOCKER"
@@ -209,10 +370,59 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "10615"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10615"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10615] The expression  ! PACKET_peek_4(pkt,data) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10633"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10633"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10633] The expression PACKET_remaining(pkt)&lt;len applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10651"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10651"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10651] The expression  ! PACKET_peek_bytes(pkt,data,len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10664"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10664"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10664] The expression PACKET_remaining(pkt)&lt;len applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10679"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10679"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10679] The expression  ! PACKET_peek_copy_bytes(pkt,data,len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10691"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10691"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10691] The expression PACKET_remaining(pkt)&gt;dest_len applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "10721"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10721"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10721] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[10721] The expression (( void  *)0) is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10756"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10756"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10756] The expression PACKET_remaining(pkt)&lt;len applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -230,6 +440,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "10770"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10770"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10770] The expression  ! PACKET_get_1( & tmp, & length)|| ! PACKET_get_bytes( & tmp, & data,(size_t )length) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "10790"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10790"
  , "c2" : "MAJOR"
@@ -241,6 +458,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10790"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[10790] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10792"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10792"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10792] The expression  ! PACKET_get_1( & tmp, & length) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10793"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10793"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10793] The expression  ! PACKET_get_bytes( & tmp, & data,(size_t )length) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -258,6 +489,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "10812"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10812"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10812] The expression  ! PACKET_get_net_2( & tmp, & length)|| ! PACKET_get_bytes( & tmp, & data,(size_t )length) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "10832"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10832"
  , "c2" : "MAJOR"
@@ -269,6 +507,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10832"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[10832] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10835"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10835"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10835] The expression  ! PACKET_get_net_2( & tmp, & length) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10836"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10836"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10836] The expression  ! PACKET_get_bytes( & tmp, & data,(size_t )length) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -286,17 +538,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "10854"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#10854"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10854] The expression  ! PACKET_get_net_3( & tmp, & length)|| ! PACKET_get_bytes( & tmp, & data,(size_t )length) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "11644"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#11644"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11644] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[11644] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "11648"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#11648"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11648] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[11648] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -310,7 +569,7 @@ var maDataBlocs = {
    "c1" : "11661"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#11661"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11661] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[11661] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -331,7 +590,7 @@ var maDataBlocs = {
    "c1" : "11675"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#11675"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11675] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[11675] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -352,7 +611,7 @@ var maDataBlocs = {
    "c1" : "11714"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#11714"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11714] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[11714] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -373,7 +632,7 @@ var maDataBlocs = {
    "c1" : "11740"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#11740"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11740] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[11740] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -401,7 +660,7 @@ var maDataBlocs = {
    "c1" : "11766"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#11766"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11766] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[11766] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -409,6 +668,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#11774"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[11774] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11780"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#11780"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[11780] The expression  ! EC_GROUP_get_trinomial_basis(group, & k) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -422,7 +688,7 @@ var maDataBlocs = {
    "c1" : "11786"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#11786"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11786] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[11786] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -433,10 +699,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "11796"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#11796"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[11796] The expression  ! ASN1_INTEGER_set(char_two-&gt;p.tpBasis,( long  )k) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "11802"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#11802"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[11802] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11807"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#11807"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[11807] The expression  ! EC_GROUP_get_pentanomial_basis(group, & k1, & k2, & k3) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -450,7 +730,7 @@ var maDataBlocs = {
    "c1" : "11813"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#11813"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11813] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[11813] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -464,7 +744,7 @@ var maDataBlocs = {
    "c1" : "11834"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#11834"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11834] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[11834] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -492,14 +772,7 @@ var maDataBlocs = {
    "c1" : "11886"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#11886"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11886] The expression  ! group applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "11886"
- , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#11886"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11886] The expression  ! curve applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11886] The expression  ! group|| ! curve|| ! curve-&gt;a|| ! curve-&gt;b applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -520,14 +793,14 @@ var maDataBlocs = {
    "c1" : "11891"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#11891"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11891] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[11891] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "11895"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#11895"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11895] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[11895] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -562,14 +835,14 @@ var maDataBlocs = {
    "c1" : "11932"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#11932"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11932] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[11932] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "11937"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#11937"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11937] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[11937] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -587,10 +860,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "11958"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#11958"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[11958] The expression  ! ASN1_OCTET_STRING_set(curve-&gt;a,a_buf,len)|| ! ASN1_OCTET_STRING_set(curve-&gt;b,b_buf,len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "11965"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#11965"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[11965] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11969"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#11969"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[11969] The expression group-&gt;seed applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "11970"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#11970"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[11970] The expression  ! curve-&gt;seed applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -604,7 +898,7 @@ var maDataBlocs = {
    "c1" : "11973"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#11973"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11973] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[11973] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -612,6 +906,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#11981"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[11981] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11985"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#11985"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[11985] The expression  ! ASN1_BIT_STRING_set(curve-&gt;seed,group-&gt;seed,( int  )group-&gt;seed_len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -646,7 +947,7 @@ var maDataBlocs = {
    "c1" : "12038"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12038"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12038] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12038] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -660,7 +961,7 @@ var maDataBlocs = {
    "c1" : "12043"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12043"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12043] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12043] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -671,10 +972,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "12060"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12060"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12060] The expression  ! ec_asn1_group2fieldid(group,ret-&gt;fieldID) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "12066"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12066"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[12066] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12070"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12070"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12070] The expression  ! ec_asn1_group2curve(group,ret-&gt;curve) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -695,7 +1010,7 @@ var maDataBlocs = {
    "c1" : "12082"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12082"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12082] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12082] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -723,14 +1038,14 @@ var maDataBlocs = {
    "c1" : "12110"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12110"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12110] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12110] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "12114"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12114"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12114] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12114] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -744,7 +1059,7 @@ var maDataBlocs = {
    "c1" : "12131"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12131"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12131] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12131] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -772,7 +1087,7 @@ var maDataBlocs = {
    "c1" : "12144"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12144"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12144] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12144] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -786,7 +1101,7 @@ var maDataBlocs = {
    "c1" : "12160"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12160"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12160] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12160] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -807,7 +1122,7 @@ var maDataBlocs = {
    "c1" : "12166"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12166"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12166] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12166] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -821,14 +1136,14 @@ var maDataBlocs = {
    "c1" : "12184"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12184"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12184] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12184] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "12203"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12203"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12203] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12203] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -842,14 +1157,28 @@ var maDataBlocs = {
    "c1" : "12208"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12208"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12208] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12208] The expression (( void  *)0) is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12223"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12223"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12223] The expression ret-&gt;type==ECPKPARAMETERS_TYPE_NAMED applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "12225"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12225"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12225] The expression ret-&gt;type==ECPKPARAMETERS_TYPE_EXPLICIT applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "12228"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12228"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12228] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12228] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -863,7 +1192,7 @@ var maDataBlocs = {
    "c1" : "12244"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12244"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12244] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12244] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -877,7 +1206,7 @@ var maDataBlocs = {
    "c1" : "12271"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12271"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12271] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12271] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -891,21 +1220,21 @@ var maDataBlocs = {
    "c1" : "12328"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12328"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12328] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12328] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "12333"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12333"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12333] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12333] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "12338"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12338"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12338] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12338] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -919,35 +1248,35 @@ var maDataBlocs = {
    "c1" : "12357"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12357"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12357] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12357] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "12362"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12362"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12362] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12362] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "12366"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12366"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12366] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12366] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "12371"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12371"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12371] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12371] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "12375"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12375"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12375] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12375] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -961,7 +1290,7 @@ var maDataBlocs = {
    "c1" : "12392"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12392"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12392] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12392] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -975,7 +1304,7 @@ var maDataBlocs = {
    "c1" : "12409"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12409"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12409] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12409] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1010,7 +1339,7 @@ var maDataBlocs = {
    "c1" : "12446"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12446"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12446] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12446] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1021,10 +1350,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "12463"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12463"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12463] The expression  ! char_two-&gt;p.tpBasis applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "12469"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12469"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[12469] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12474"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12474"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12474] The expression char_two-&gt;m&gt;tmp_long applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1035,10 +1378,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "12484"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12484"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12484] The expression  ! BN_set_bit(p,( int  )char_two-&gt;m) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "12485"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12485"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[12485] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12486"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12486"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12486] The expression  ! BN_set_bit(p,( int  )tmp_long) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1066,7 +1423,7 @@ var maDataBlocs = {
    "c1" : "12496"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12496"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12496] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12496] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1077,10 +1434,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "12508"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12508"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12508] The expression char_two-&gt;m&gt;penta-&gt;k3 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "12508"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12508"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12508] The expression penta-&gt;k3&gt;penta-&gt;k2 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "12509"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12509"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12509] The expression penta-&gt;k2&gt;penta-&gt;k1 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "12515"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12515"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[12515] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12519"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12519"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12519] The expression  ! BN_set_bit(p,( int  )char_two-&gt;m) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1091,6 +1476,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "12521"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12521"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12521] The expression  ! BN_set_bit(p,( int  )penta-&gt;k1) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "12522"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12522"
  , "c2" : "MAJOR"
@@ -1098,10 +1490,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "12523"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12523"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12523] The expression  ! BN_set_bit(p,( int  )penta-&gt;k2) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "12524"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12524"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[12524] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12525"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12525"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12525] The expression  ! BN_set_bit(p,( int  )penta-&gt;k3) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1136,7 +1542,7 @@ var maDataBlocs = {
    "c1" : "12559"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12559"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12559] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12559] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1150,7 +1556,7 @@ var maDataBlocs = {
    "c1" : "12576"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12576"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12576] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12576] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1158,6 +1564,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12584"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[12584] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12587"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12587"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12587] The expression BN_is_negative(p)||BN_is_zero(p) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1185,7 +1598,7 @@ var maDataBlocs = {
    "c1" : "12623"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12623"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12623] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12623] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1199,7 +1612,7 @@ var maDataBlocs = {
    "c1" : "12637"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12637"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12637] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12637] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1213,7 +1626,7 @@ var maDataBlocs = {
    "c1" : "12643"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12643"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12643] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12643] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1227,21 +1640,21 @@ var maDataBlocs = {
    "c1" : "12660"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12660"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12660] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12660] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "12665"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12665"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12665] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12665] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "12670"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12670"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12670] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12670] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1262,7 +1675,7 @@ var maDataBlocs = {
    "c1" : "12684"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12684"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12684] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12684] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1290,7 +1703,7 @@ var maDataBlocs = {
    "c1" : "12711"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12711"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12711] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12711] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1298,6 +1711,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12719"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[12719] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12721"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12721"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12721] The expression BN_is_negative(a)||BN_is_zero(a) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1318,7 +1738,7 @@ var maDataBlocs = {
    "c1" : "12741"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12741"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12741] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12741] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1332,7 +1752,7 @@ var maDataBlocs = {
    "c1" : "12752"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12752"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12752] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12752] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1340,6 +1760,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12760"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[12760] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12763"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12763"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12763] The expression  ! EC_GROUP_set_generator(ret,point,a,b) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1360,7 +1787,7 @@ var maDataBlocs = {
    "c1" : "12774"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12774"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12774] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12774] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1381,7 +1808,7 @@ var maDataBlocs = {
    "c1" : "12786"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12786"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12786] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12786] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1409,7 +1836,7 @@ var maDataBlocs = {
    "c1" : "12816"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12816"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12816] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12816] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1423,7 +1850,7 @@ var maDataBlocs = {
    "c1" : "12837"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12837"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12837] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12837] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1444,7 +1871,14 @@ var maDataBlocs = {
    "c1" : "12883"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12883"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12883] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12883] The expression (( void  *)0) is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12898"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12898"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12898] The expression params-&gt;type==ECPKPARAMETERS_TYPE_NAMED applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1458,7 +1892,14 @@ var maDataBlocs = {
    "c1" : "12903"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12903"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12903] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12903] The expression (( void  *)0) is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12918"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12918"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12918] The expression params-&gt;type==ECPKPARAMETERS_TYPE_EXPLICIT applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1466,6 +1907,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12921"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[12921] The expression  ! ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "12934"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12934"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12934] The expression params-&gt;type==ECPKPARAMETERS_TYPE_IMPLICIT applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1486,7 +1934,7 @@ var maDataBlocs = {
    "c1" : "12979"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12979"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12979] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12979] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1500,7 +1948,14 @@ var maDataBlocs = {
    "c1" : "12992"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#12992"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12992] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12992] The expression (( void  *)0) is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13003"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13003"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13003] The expression params-&gt;type==ECPKPARAMETERS_TYPE_EXPLICIT applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1514,7 +1969,7 @@ var maDataBlocs = {
    "c1" : "13026"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13026"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13026] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13026] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1542,21 +1997,21 @@ var maDataBlocs = {
    "c1" : "13071"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13071"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13071] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13071] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13082"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13082"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13082] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13082] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13086"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13086"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13086] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13086] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1570,7 +2025,7 @@ var maDataBlocs = {
    "c1" : "13091"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13091"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13091] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13091] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1581,17 +2036,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "13104"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13104"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13104] The expression priv_key-&gt;parameters applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13112"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13112"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13112] The expression priv_key-&gt;parameters-&gt;type==ECPKPARAMETERS_TYPE_EXPLICIT applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "13109"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13109"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13109] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13109] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13118"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13118"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13118] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13118] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1599,6 +2068,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13126"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[13126] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13131"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13131"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13131] The expression priv_key-&gt;privateKey applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1619,7 +2095,7 @@ var maDataBlocs = {
    "c1" : "13152"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13152"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13152] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13152] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1627,6 +2103,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13160"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[13160] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13163"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13163"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13163] The expression priv_key-&gt;publicKey applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1647,7 +2130,7 @@ var maDataBlocs = {
    "c1" : "13184"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13184"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13184] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13184] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1665,10 +2148,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "13205"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13205"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13205] The expression  * a!=ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "13203"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13203"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13203] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13203] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1682,21 +2172,21 @@ var maDataBlocs = {
    "c1" : "13237"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13237"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13237] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13237] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13241"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13241"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13241] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13241] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13246"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13246"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13246] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13246] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1717,7 +2207,7 @@ var maDataBlocs = {
    "c1" : "13259"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13259"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13259] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13259] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1745,7 +2235,7 @@ var maDataBlocs = {
    "c1" : "13295"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13295"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13295] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13295] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1759,7 +2249,7 @@ var maDataBlocs = {
    "c1" : "13311"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13311"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13311] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13311] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1794,7 +2284,7 @@ var maDataBlocs = {
    "c1" : "13367"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13367"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13367] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13367] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1808,28 +2298,28 @@ var maDataBlocs = {
    "c1" : "13386"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13386"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13386] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13386] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13390"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13390"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13390] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13390] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13407"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13407"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13407] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13407] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13411"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13411"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13411] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13411] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1843,14 +2333,28 @@ var maDataBlocs = {
    "c1" : "13416"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13416"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13416] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13416] The expression (( void  *)0) is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13433"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13433"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13433] The expression  ! d2i_ECPKParameters( & ret-&gt;group,in,len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13438"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13438"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13438] The expression  * a!=ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "13436"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13436"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13436] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13436] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1861,13 +2365,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13470"
- , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13470"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13470] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "13472"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13472"
  , "c2" : "BLOCKER"
@@ -1875,38 +2372,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "13470"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13470"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13470] The expression (( void  *)0) is invariable"
+}} 
+,
+{ "ligne" : {
    "c1" : "13474"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13474"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13474] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13474] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13478"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13478"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13478] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13478] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13516"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13516"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13516] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13516] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13540"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13540"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13540] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13540] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13548"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13548"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13548] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13548] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1920,7 +2424,7 @@ var maDataBlocs = {
    "c1" : "13553"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13553"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13553] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13553] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1941,14 +2445,14 @@ var maDataBlocs = {
    "c1" : "13601"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13601"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13601] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13601] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13616"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13616"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13616] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13616] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1962,77 +2466,77 @@ var maDataBlocs = {
    "c1" : "13637"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13637"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13637] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13637] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13641"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13641"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13641] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13641] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13649"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13649"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13649] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13649] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13660"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13660"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13660] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13660] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13666"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13666"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13666] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13666] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13673"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13673"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13673] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13673] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13677"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13677"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13677] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13677] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13689"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13689"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13689] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13689] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13693"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13693"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13693] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13693] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13712"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13712"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13712] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13712] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13719"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13719"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13719] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13719] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -2046,49 +2550,56 @@ var maDataBlocs = {
    "c1" : "13724"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13724"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13724] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13724] The expression (( void  *)0) is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13740"
+ , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13740"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13740] The expression  ! ossl_encode_der_dsa_sig( & pkt,sig-&gt;r,sig-&gt;s)|| ! WPACKET_get_total_written( & pkt, & encoded_len)|| ! WPACKET_finish( & pkt) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "13750"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13750"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13750] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13750] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13755"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13755"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13755] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13755] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13777"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13777"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13777] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13777] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13783"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13783"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13783] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13783] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13803"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13803"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13803] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13803] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13807"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13807"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13807] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13807] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -2109,21 +2620,21 @@ var maDataBlocs = {
    "c1" : "13827"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13827"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13827] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13827] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13834"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13834"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13834] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13834] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13842"
  , "c1link" : "./qc/crypto/ec/ec_asn1.c.html#13842"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13842] The expression ( void  *)0 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13842] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/sha/keccak1600.c.html" 
- , "texte" : "File crypto/sha/keccak1600.c 7 rule violations " 
+ , "texte" : "File crypto/sha/keccak1600.c 9 rule violations " 
  , "fic2"  : "./qc/crypto/sha/keccak1600.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "4"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : {
@@ -55,45 +55,59 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00754"
- , "c1link" : "./qc/crypto/sha/keccak1600.c.html#754"
+   "c1" : "00716"
+ , "c1link" : "./qc/crypto/sha/keccak1600.c.html#716"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00754] The expression  ! (0) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[00716] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "00754"
  , "c1link" : "./qc/crypto/sha/keccak1600.c.html#754"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00754] The expression  ! (0) is invariable, always true or false"
+ , "c3" : "QC-CPP000012[00754] The expression  ! (0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "00936"
  , "c1link" : "./qc/crypto/sha/keccak1600.c.html#936"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00936] The expression (0) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "00936"
- , "c1link" : "./qc/crypto/sha/keccak1600.c.html#936"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00936] The expression (0) is invariable, always true or false"
+ , "c3" : "QC-CPP000012[00936] The expression (0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "00972"
  , "c1link" : "./qc/crypto/sha/keccak1600.c.html#972"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00972] The expression (0) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[00972] The expression (0) is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00972"
- , "c1link" : "./qc/crypto/sha/keccak1600.c.html#972"
+   "c1" : "01018"
+ , "c1link" : "./qc/crypto/sha/keccak1600.c.html#1018"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00972] The expression (0) is invariable, always true or false"
+ , "c3" : "QC-CPP000011[01018] The expression len&gt;=r applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01019"
+ , "c1link" : "./qc/crypto/sha/keccak1600.c.html#1019"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01019] The expression i&lt;w applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01051"
+ , "c1link" : "./qc/crypto/sha/keccak1600.c.html#1051"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01051] The expression i&lt;w applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01055"
+ , "c1link" : "./qc/crypto/sha/keccak1600.c.html#1055"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01055] The expression i&lt;len applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
