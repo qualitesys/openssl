@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/cast/c_enc.c.html" 
- , "texte" : "File crypto/cast/c_enc.c 108 rule violations " 
+ , "texte" : "File crypto/cast/c_enc.c 106 rule violations " 
  , "fic2"  : "./qc/crypto/cast/c_enc.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "3"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -76,24 +76,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "00101"
- , "c1link" : "./qc/crypto/cast/c_enc.c.html#101"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00101] The expression  ! key-&gt;short_key applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "00115"
  , "c1link" : "./qc/crypto/cast/c_enc.c.html#115"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[00115] The pointer k is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00121"
- , "c1link" : "./qc/crypto/cast/c_enc.c.html#121"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00121] The expression  ! key-&gt;short_key applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

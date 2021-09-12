@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/engines/e_capi.c.html" 
- , "texte" : "File engines/e_capi.c 22 rule violations " 
+ , "texte" : "File engines/e_capi.c 14 rule violations " 
  , "fic2"  : "./qc/engines/e_capi.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "17"
+ , "c4" : "9"
 }}
 ,
 { "ligne" : {
@@ -62,31 +62,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "01179"
- , "c1link" : "./qc/engines/e_capi.c.html#1179"
+   "c1" : "01211"
+ , "c1link" : "./qc/engines/e_capi.c.html#1211"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01179] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01209"
- , "c1link" : "./qc/engines/e_capi.c.html#1209"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01209] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01210"
- , "c1link" : "./qc/engines/e_capi.c.html#1210"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01210] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01211] The expression __size applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "01211"
  , "c1link" : "./qc/engines/e_capi.c.html#1211"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01211] The expression __size|__n applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01211] The expression __n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -97,24 +83,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01241"
- , "c1link" : "./qc/engines/e_capi.c.html#1241"
+   "c1" : "01243"
+ , "c1link" : "./qc/engines/e_capi.c.html#1243"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01241] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01242"
- , "c1link" : "./qc/engines/e_capi.c.html#1242"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01242] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01243] The expression __size applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "01243"
  , "c1link" : "./qc/engines/e_capi.c.html#1243"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01243] The expression __size|__n applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01243] The expression __n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -125,24 +104,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01253"
- , "c1link" : "./qc/engines/e_capi.c.html#1253"
+   "c1" : "01255"
+ , "c1link" : "./qc/engines/e_capi.c.html#1255"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01253] The expression __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01254"
- , "c1link" : "./qc/engines/e_capi.c.html#1254"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01254] The expression __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01255] The expression __size applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "01255"
  , "c1link" : "./qc/engines/e_capi.c.html#1255"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01255] The expression __size|__n applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01255] The expression __n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -164,34 +136,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/engines/e_capi.c.html#2588"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[02588] The pointer __p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02593"
- , "c1link" : "./qc/engines/e_capi.c.html#2593"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02593] The expression __l&lt;__u applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02780"
- , "c1link" : "./qc/engines/e_capi.c.html#2780"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02780] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02830"
- , "c1link" : "./qc/engines/e_capi.c.html#2830"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02830] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02861"
- , "c1link" : "./qc/engines/e_capi.c.html#2861"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02861] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

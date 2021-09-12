@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/rc2/rc2_skey.c.html" 
- , "texte" : "File crypto/rc2/rc2_skey.c 5 rule violations " 
+ , "texte" : "File crypto/rc2/rc2_skey.c 4 rule violations " 
  , "fic2"  : "./qc/crypto/rc2/rc2_skey.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -80,13 +80,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rc2/rc2_skey.c.html#103"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[00103] The pointer ki is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00116"
- , "c1link" : "./qc/crypto/rc2/rc2_skey.c.html#116"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00116] The expression i&lt;len applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

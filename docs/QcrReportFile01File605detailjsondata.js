@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/rc4/rc4_skey.c.html" 
- , "texte" : "File crypto/rc4/rc4_skey.c 30 rule violations " 
+ , "texte" : "File crypto/rc4/rc4_skey.c 17 rule violations " 
  , "fic2"  : "./qc/crypto/rc4/rc4_skey.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "22"
+ , "c4" : "9"
 }}
 ,
 { "ligne" : {
@@ -76,66 +76,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01257"
- , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#1257"
+   "c1" : "03151"
+ , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#3151"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01257] The expression __l&lt;__u applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01444"
- , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#1444"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01444] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01494"
- , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#1494"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01494] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01525"
- , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#1525"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01525] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01895"
- , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#1895"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01895] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "03119"
- , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#3119"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03119] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "03149"
- , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#3149"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03149] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "03150"
- , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#3150"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03150] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03151] The expression __size applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "03151"
  , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#3151"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03151] The expression __size|__n applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03151] The expression __n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -146,24 +97,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03181"
- , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#3181"
+   "c1" : "03183"
+ , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#3183"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03181] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "03182"
- , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#3182"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03182] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03183] The expression __size applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "03183"
  , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#3183"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03183] The expression __size|__n applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03183] The expression __n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -174,24 +118,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03193"
- , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#3193"
+   "c1" : "03195"
+ , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#3195"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03193] The expression __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "03194"
- , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#3194"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03194] The expression __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03195] The expression __size applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "03195"
  , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#3195"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03195] The expression __size|__n applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03195] The expression __n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -248,34 +185,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#6189"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[06189] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06194"
- , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#6194"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06194] The expression ++id1==len applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "06195"
- , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#6195"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06195] The expression ++id1==len applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "06196"
- , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#6196"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06196] The expression ++id1==len applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "06197"
- , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#6197"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06197] The expression ++id1==len applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/cast/c_skey.c.html" 
- , "texte" : "File crypto/cast/c_skey.c 6 rule violations " 
+ , "texte" : "File crypto/cast/c_skey.c 4 rule violations " 
  , "fic2"  : "./qc/crypto/cast/c_skey.c.xml" 
  , "fic3"  : "" 
 }
@@ -53,13 +53,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "2"
-}}
-,
-{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
@@ -76,13 +69,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "00631"
- , "c1link" : "./qc/crypto/cast/c_skey.c.html#631"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00631] The expression i&lt;len applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "00645"
  , "c1link" : "./qc/crypto/cast/c_skey.c.html#645"
  , "c2" : "BLOCKER"
@@ -94,13 +80,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/cast/c_skey.c.html#645"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[00645] The end expression of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00701"
- , "c1link" : "./qc/crypto/cast/c_skey.c.html#701"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00701] The expression K!=k applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

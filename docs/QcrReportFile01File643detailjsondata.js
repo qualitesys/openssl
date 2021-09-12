@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/sha/sha512.c.html" 
- , "texte" : "File crypto/sha/sha512.c 160 rule violations " 
+ , "texte" : "File crypto/sha/sha512.c 195 rule violations " 
  , "fic2"  : "./qc/crypto/sha/sha512.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "24"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : {
@@ -64,6 +64,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "52"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000017"
+ , "c3" : "Dead code"
+ , "c4" : "48"
 }}
 ,
 { "ligne" : {
@@ -83,31 +90,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00988"
- , "c1link" : "./qc/crypto/sha/sha512.c.html#988"
+   "c1" : "01020"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#1020"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00988] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01018"
- , "c1link" : "./qc/crypto/sha/sha512.c.html#1018"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01018] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01019"
- , "c1link" : "./qc/crypto/sha/sha512.c.html#1019"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01019] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01020] The expression __size applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "01020"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#1020"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01020] The expression __size|__n applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01020] The expression __n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -118,24 +111,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01050"
- , "c1link" : "./qc/crypto/sha/sha512.c.html#1050"
+   "c1" : "01052"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#1052"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01050] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01051"
- , "c1link" : "./qc/crypto/sha/sha512.c.html#1051"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01051] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01052] The expression __size applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "01052"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#1052"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01052] The expression __size|__n applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01052] The expression __n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -146,24 +132,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01062"
- , "c1link" : "./qc/crypto/sha/sha512.c.html#1062"
+   "c1" : "01064"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#1064"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01062] The expression __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01063"
- , "c1link" : "./qc/crypto/sha/sha512.c.html#1063"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01063] The expression __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01064] The expression __size applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "01064"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#1064"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01064] The expression __size|__n applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01064] The expression __n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -185,41 +164,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha512.c.html#2104"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[02104] The pointer __p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02109"
- , "c1link" : "./qc/crypto/sha/sha512.c.html#2109"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02109] The expression __l&lt;__u applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02296"
- , "c1link" : "./qc/crypto/sha/sha512.c.html#2296"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02296] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02346"
- , "c1link" : "./qc/crypto/sha/sha512.c.html#2346"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02346] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02377"
- , "c1link" : "./qc/crypto/sha/sha512.c.html#2377"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02377] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02747"
- , "c1link" : "./qc/crypto/sha/sha512.c.html#2747"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02747] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -251,13 +195,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06312"
- , "c1link" : "./qc/crypto/sha/sha512.c.html#6312"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06312] The expression c-&gt;u applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "06432"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6432"
  , "c2" : "BLOCKER"
@@ -272,31 +209,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06439"
- , "c1link" : "./qc/crypto/sha/sha512.c.html#6439"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06439] The expression l&lt;c-&gt;Nl applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "06441"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6441"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[06441] The expression len applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "06448"
- , "c1link" : "./qc/crypto/sha/sha512.c.html#6448"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06448] The expression len&lt;n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "06458"
- , "c1link" : "./qc/crypto/sha/sha512.c.html#6458"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06458] The expression len&gt;= sizeof (c-&gt;u) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -328,6 +244,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "06548"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6548"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06548] The condition is always false. Dead code"
+}} 
+,
+{ "ligne" : {
    "c1" : "06549"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6549"
  , "c2" : "MAJOR"
@@ -346,6 +269,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6550"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06550] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06550"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6550"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06550] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -370,6 +300,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "06552"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6552"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06552] The condition is always false. Dead code"
+}} 
+,
+{ "ligne" : {
    "c1" : "06553"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6553"
  , "c2" : "MAJOR"
@@ -388,6 +325,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6554"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06554] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06554"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6554"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06554] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -412,6 +356,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "06556"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6556"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06556] The condition is always false. Dead code"
+}} 
+,
+{ "ligne" : {
    "c1" : "06557"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6557"
  , "c2" : "MAJOR"
@@ -430,6 +381,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6558"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06558] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06558"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6558"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06558] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -454,6 +412,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "06560"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6560"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06560] The condition is always false. Dead code"
+}} 
+,
+{ "ligne" : {
    "c1" : "06561"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6561"
  , "c2" : "MAJOR"
@@ -472,6 +437,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6562"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06562] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06562"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6562"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06562] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -496,6 +468,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "06564"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6564"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06564] The condition is always false. Dead code"
+}} 
+,
+{ "ligne" : {
    "c1" : "06565"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6565"
  , "c2" : "MAJOR"
@@ -514,6 +493,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6566"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06566] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06566"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6566"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06566] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -538,6 +524,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "06568"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6568"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06568] The condition is always false. Dead code"
+}} 
+,
+{ "ligne" : {
    "c1" : "06569"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6569"
  , "c2" : "MAJOR"
@@ -556,6 +549,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6570"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06570] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06570"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6570"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06570] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -580,6 +580,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "06572"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6572"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06572] The condition is always false. Dead code"
+}} 
+,
+{ "ligne" : {
    "c1" : "06573"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6573"
  , "c2" : "MAJOR"
@@ -598,6 +605,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6574"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06574] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06574"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6574"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06574] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -622,6 +636,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "06576"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6576"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06576] The condition is always false. Dead code"
+}} 
+,
+{ "ligne" : {
    "c1" : "06577"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6577"
  , "c2" : "MAJOR"
@@ -640,6 +661,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6578"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06578] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06578"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6578"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06578] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -667,6 +695,13 @@ var maDataBlocs = {
    "c1" : "06582"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6582"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06582] The condition is always false. Dead code"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06582"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6582"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[06582] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
@@ -675,6 +710,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6582"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06582] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06582"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6582"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06582] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -702,6 +744,13 @@ var maDataBlocs = {
    "c1" : "06583"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6583"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06583] The condition is always false. Dead code"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06583"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6583"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[06583] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
@@ -710,6 +759,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6583"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06583] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06583"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6583"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06583] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -737,6 +793,13 @@ var maDataBlocs = {
    "c1" : "06584"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6584"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06584] The condition is always false. Dead code"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06584"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6584"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[06584] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
@@ -745,6 +808,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6584"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06584] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06584"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6584"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06584] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -772,6 +842,13 @@ var maDataBlocs = {
    "c1" : "06585"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6585"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06585] The condition is always false. Dead code"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06585"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6585"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[06585] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
@@ -780,6 +857,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6585"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06585] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06585"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6585"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06585] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -807,6 +891,13 @@ var maDataBlocs = {
    "c1" : "06586"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6586"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06586] The condition is always false. Dead code"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06586"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6586"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[06586] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
@@ -815,6 +906,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6586"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06586] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06586"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6586"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06586] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -842,6 +940,13 @@ var maDataBlocs = {
    "c1" : "06587"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6587"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06587] The condition is always false. Dead code"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06587"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6587"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[06587] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
@@ -850,6 +955,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6587"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06587] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06587"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6587"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06587] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -877,6 +989,13 @@ var maDataBlocs = {
    "c1" : "06588"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6588"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06588] The condition is always false. Dead code"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06588"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6588"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[06588] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
@@ -885,6 +1004,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6588"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06588] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06588"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6588"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06588] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -912,6 +1038,13 @@ var maDataBlocs = {
    "c1" : "06589"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6589"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06589] The condition is always false. Dead code"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06589"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6589"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[06589] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
@@ -920,6 +1053,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6589"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06589] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06589"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6589"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06589] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -947,6 +1087,13 @@ var maDataBlocs = {
    "c1" : "06590"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6590"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06590] The condition is always false. Dead code"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06590"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6590"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[06590] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
@@ -955,6 +1102,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6590"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06590] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06590"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6590"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06590] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -982,6 +1136,13 @@ var maDataBlocs = {
    "c1" : "06591"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6591"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06591] The condition is always false. Dead code"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06591"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6591"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[06591] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
@@ -990,6 +1151,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6591"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06591] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06591"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6591"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06591] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1017,6 +1185,13 @@ var maDataBlocs = {
    "c1" : "06592"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6592"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06592] The condition is always false. Dead code"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06592"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6592"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[06592] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
@@ -1025,6 +1200,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6592"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06592] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06592"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6592"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06592] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1052,6 +1234,13 @@ var maDataBlocs = {
    "c1" : "06593"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6593"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06593] The condition is always false. Dead code"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06593"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6593"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[06593] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
@@ -1060,6 +1249,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6593"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06593] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06593"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6593"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06593] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1087,6 +1283,13 @@ var maDataBlocs = {
    "c1" : "06594"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6594"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06594] The condition is always false. Dead code"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06594"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6594"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[06594] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
@@ -1095,6 +1298,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6594"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06594] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06594"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6594"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06594] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1122,6 +1332,13 @@ var maDataBlocs = {
    "c1" : "06595"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6595"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06595] The condition is always false. Dead code"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06595"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6595"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[06595] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
@@ -1130,6 +1347,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6595"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06595] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06595"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6595"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06595] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1157,6 +1381,13 @@ var maDataBlocs = {
    "c1" : "06596"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6596"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06596] The condition is always false. Dead code"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06596"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6596"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[06596] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
@@ -1165,6 +1396,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6596"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06596] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06596"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6596"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06596] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
@@ -1192,6 +1430,13 @@ var maDataBlocs = {
    "c1" : "06597"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6597"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06597] The condition is always false. Dead code"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06597"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6597"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[06597] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
@@ -1200,6 +1445,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6597"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06597] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06597"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#6597"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[06597] The condition is always false. Dead code"
 }} 
 ]
 };

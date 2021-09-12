@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/pkcs12/p12_kiss.c.html" 
- , "texte" : "File crypto/pkcs12/p12_kiss.c 78 rule violations " 
+ , "texte" : "File crypto/pkcs12/p12_kiss.c 39 rule violations " 
  , "fic2"  : "./qc/crypto/pkcs12/p12_kiss.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,14 +42,14 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "30"
+ , "c4" : "15"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "28"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -76,31 +76,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00961"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#961"
+   "c1" : "00993"
+ , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#993"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00961] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "00991"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#991"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00991] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "00992"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#992"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00992] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[00993] The expression __size applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "00993"
  , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#993"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00993] The expression __size|__n applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[00993] The expression __n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -111,24 +97,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01023"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#1023"
+   "c1" : "01025"
+ , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#1025"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01023] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01024"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#1024"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01024] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01025] The expression __size applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "01025"
  , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#1025"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01025] The expression __size|__n applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01025] The expression __n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -139,24 +118,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01035"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#1035"
+   "c1" : "01037"
+ , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#1037"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01035] The expression __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01036"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#1036"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01036] The expression __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01037] The expression __size applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "01037"
  , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#1037"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01037] The expression __size|__n applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01037] The expression __n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -181,41 +153,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02085"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#2085"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02085] The expression __l&lt;__u applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02272"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#2272"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02272] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02322"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#2322"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02322] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02353"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#2353"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02353] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02723"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#2723"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02723] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "05859"
  , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#5859"
  , "c2" : "BLOCKER"
@@ -234,41 +171,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#5873"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[05873] The expression (( unsigned  int  )0x7fffffff+1) is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13898"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#13898"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13898] The expression (( void  *)0) is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13908"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#13908"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13908] The expression (( void  *)0) is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13921"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#13921"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13921] The expression (( void  *)0) is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13934"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#13934"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13934] The expression (( void  *)0) is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13937"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#13937"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13937] The expression  ! PKCS12_mac_present(p12) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -293,27 +195,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13970"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#13970"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13970] The expression (( void  *)0) is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13974"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#13974"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13974] The expression (( void  *)0) is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13979"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#13979"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13979] The expression (( void  *)0) is invariable"
-}} 
-,
-{ "ligne" : {
    "c1" : "13987"
  , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#13987"
  , "c2" : "MAJOR"
@@ -335,41 +216,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14006"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14006"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14006] The expression (( void  *)0) is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14011"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14011"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14011] The expression (( void  *)0) is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14015"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14015"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14015] The expression (( void  *)0) is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14020"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14020"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14020] The expression (( void  *)0) is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14024"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14024"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14024] The expression (( void  *)0) is invariable"
-}} 
-,
-{ "ligne" : {
    "c1" : "14032"
  , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14032"
  , "c2" : "BLOCKER"
@@ -377,31 +223,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14040"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14040"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14040] The expression (( void  *)0) is invariable"
-}} 
-,
-{ "ligne" : {
    "c1" : "14044"
  , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14044"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[14044] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14057"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14057"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14057] The expression (( void  *)0) is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14069"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14069"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14069] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -433,45 +258,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14098"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14098"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14098] The expression (( void  *)0) is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14102"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14102"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14102] The expression i&lt;OPENSSL_sk_num(ossl_check_const_PKCS7_sk_type(asafes)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "14111"
  , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14111"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[14111] The expression  ! bags applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14115"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14115"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14115] The expression  ! parse_bags(bags,pass,passlen,pkey,ocerts) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14131"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14131"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14131] The expression i&lt;OPENSSL_sk_num(ossl_check_const_PKCS12_SAFEBAG_sk_type(bags)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14132"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14132"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14132] The expression  ! parse_bag(((PKCS12_SAFEBAG *)OPENSSL_sk_value(ossl_check_const_PKCS12_SAFEBAG_sk_type(bags),(i))),pass,passlen,pkey,ocerts) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -510,52 +300,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14167"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14167"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14167] The expression (( void  *)0) is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14171"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14171"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14171] The expression (( void  *)0) is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14178"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14178"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14178] The expression (( void  *)0) is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14187"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14187"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14187] The expression (( void  *)0) is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14191"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14191"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14191] The expression (( void  *)0) is invariable"
-}} 
-,
-{ "ligne" : {
    "c1" : "14195"
  , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14195"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[14195] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14197"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14197"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14197] The expression (( void  *)0) is invariable"
 }} 
 ,
 { "ligne" : {
@@ -566,13 +314,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14210"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14210"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14210] The expression (( void  *)0) is invariable"
-}} 
-,
-{ "ligne" : {
    "c1" : "14215"
  , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14215"
  , "c2" : "MAJOR"
@@ -580,17 +321,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14217"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14217"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14217] The expression (( void  *)0) is invariable"
-}} 
-,
-{ "ligne" : {
    "c1" : "14221"
  , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14221"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14221] The expression lkid&& ! X509_keyid_set1(x509,lkid-&gt;data,lkid-&gt;length) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14221] The expression lkid applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -612,13 +346,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14233"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[14233] The expression  ! r applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14240"
- , "c1link" : "./qc/crypto/pkcs12/p12_kiss.c.html#14240"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14240] The expression  ! OPENSSL_sk_push(ossl_check_X509_sk_type(ocerts),ossl_check_X509_type(x509)) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };
