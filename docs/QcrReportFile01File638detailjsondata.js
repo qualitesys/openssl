@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/sha/keccak1600.c.html" 
- , "texte" : "File crypto/sha/keccak1600.c 4 rule violations " 
+ , "texte" : "File crypto/sha/keccak1600.c 8 rule violations " 
  , "fic2"  : "./qc/crypto/sha/keccak1600.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,18 +42,46 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "1"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "3"
+ , "c4" : "4"
 }}
  ] 
 ,
 "data13b" : [
+{ "ligne" : {
+   "c1" : "00715"
+ , "c1link" : "./qc/crypto/sha/keccak1600.c.html#715"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00715] The expression __dest applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00716"
+ , "c1link" : "./qc/crypto/sha/keccak1600.c.html#716"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00716] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00716"
+ , "c1link" : "./qc/crypto/sha/keccak1600.c.html#716"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00716] The expression __dest applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00715"
+ , "c1link" : "./qc/crypto/sha/keccak1600.c.html#715"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00715] The expression 2&gt;1 is invariable"
+}} 
+,
 { "ligne" : {
    "c1" : "00754"
  , "c1link" : "./qc/crypto/sha/keccak1600.c.html#754"

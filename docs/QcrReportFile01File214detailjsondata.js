@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/camellia/camellia.c.html" 
- , "texte" : "File crypto/camellia/camellia.c 135 rule violations " 
+ , "texte" : "File crypto/camellia/camellia.c 160 rule violations " 
  , "fic2"  : "./qc/crypto/camellia/camellia.c.xml" 
  , "fic3"  : "" 
 }
@@ -47,9 +47,16 @@ var maDataBlocs = {
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "15"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "46"
+ , "c4" : "56"
 }}
 ,
 { "ligne" : {
@@ -69,10 +76,185 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
+   "c1" : "00516"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#516"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00516] The expression __dest applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00517"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#517"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00517] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00517"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#517"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00517] The expression __dest applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00516"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#516"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00516] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
    "c1" : "01694"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#1694"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[01694] The pointer __p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01857"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#1857"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01857] The expression __resolved applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01857"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#1857"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01857] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01884"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#1884"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01884] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01884"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#1884"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01884] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01886"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#1886"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01886] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01888"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#1888"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01888] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01888"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#1888"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01888] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01910"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#1910"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01910] The expression __s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01910"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#1910"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01910] The expression __s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01910"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#1910"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01910] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01910"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#1910"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01910] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01934"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#1934"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01934] The expression __dst applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01934"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#1934"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01934] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01936"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#1936"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01936] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01940"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#1940"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01940] The expression __dst applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01940"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#1940"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01940] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01965"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#1965"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01965] The expression __dst applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01965"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#1965"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01965] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01967"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#1967"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01967] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01969"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#1969"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01969] The expression __dst applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01969"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#1969"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01969] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/ecdsa_sign.c.html" 
- , "texte" : "File crypto/ec/ecdsa_sign.c 14 rule violations " 
+ , "texte" : "File crypto/ec/ecdsa_sign.c 56 rule violations " 
  , "fic2"  : "./qc/crypto/ec/ecdsa_sign.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,14 +42,14 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "9"
+ , "c4" : "39"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "4"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : {
@@ -61,6 +61,69 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
+{ "ligne" : {
+   "c1" : "01827"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1827"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01827] The expression __s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01827"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1827"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01827] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01829"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1829"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01829] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01832"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1832"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01832] The expression __s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01832"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1832"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01832] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01857"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1857"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01857] The expression __ptr applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01857"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1857"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01857] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01859"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1859"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01859] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01860"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1860"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01860] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+}} 
+,
 { "ligne" : {
    "c1" : "01861"
  , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1861"
@@ -80,6 +143,48 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1861"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[01861] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01864"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1864"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01864] The expression __ptr applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01864"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1864"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01864] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01889"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1889"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01889] The expression __ptr applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01889"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1889"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01889] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01891"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1891"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01891] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01892"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1892"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01892] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -104,6 +209,34 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01897"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1897"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01897] The expression __ptr applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01897"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1897"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01897] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01903"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1903"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01903] The expression __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01904"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1904"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01904] The expression __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "01905"
  , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1905"
  , "c2" : "BLOCKER"
@@ -125,13 +258,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01916"
- , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1916"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01916] The expression ( - 1) is invariable"
-}} 
-,
-{ "ligne" : {
    "c1" : "02887"
  , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#2887"
  , "c2" : "MAJOR"
@@ -139,24 +265,192 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09592"
- , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#9592"
+   "c1" : "03050"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3050"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09592] The expression (( unsigned  int  )0x7fffffff+1) is invariable"
+ , "c3" : "QC-CPP000011[03050] The expression __resolved applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09599"
- , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#9599"
+   "c1" : "03050"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3050"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09599] The expression (( unsigned  int  )0x7fffffff+1) is invariable"
+ , "c3" : "QC-CPP000012[03050] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09606"
- , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#9606"
+   "c1" : "03053"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3053"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09606] The expression (( unsigned  int  )0x7fffffff+1) is invariable"
+ , "c3" : "QC-CPP000011[03053] The expression __resolved applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03053"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3053"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[03053] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03077"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3077"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03077] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03077"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3077"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[03077] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03079"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3079"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03079] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03081"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3081"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03081] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03081"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3081"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[03081] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03103"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3103"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03103] The expression __s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03103"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3103"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03103] The expression __s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03103"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3103"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[03103] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03103"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3103"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[03103] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03127"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3127"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03127] The expression __dst applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03127"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3127"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[03127] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03129"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3129"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03129] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03133"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3133"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03133] The expression __dst applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03133"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3133"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[03133] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03158"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3158"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03158] The expression __dst applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03158"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3158"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[03158] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03160"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3160"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03160] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03162"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3162"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[03162] The expression __dst applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "03162"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3162"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[03162] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09458"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#9458"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09458] The expression  ! EC_POINT_copy(s,p) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09459"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#9459"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09459] The expression  ! EC_POINT_dbl(group,r,s,ctx) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09476"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#9476"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09476] The expression  ! EC_POINT_add(group,s,r,s,ctx) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09477"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#9477"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09477] The expression  ! EC_POINT_dbl(group,r,r,ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

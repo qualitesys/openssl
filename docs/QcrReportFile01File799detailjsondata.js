@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/ssl_lib.c.html" 
- , "texte" : "File ssl/ssl_lib.c 233 rule violations " 
+ , "texte" : "File ssl/ssl_lib.c 671 rule violations " 
  , "fic2"  : "./qc/ssl/ssl_lib.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,14 +56,14 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "62"
+ , "c4" : "431"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "14"
+ , "c4" : "83"
 }}
 ,
 { "ligne" : {
@@ -118,6 +118,69 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
+   "c1" : "00959"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00959] The expression __s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00959"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00959] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00961"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#961"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00961] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00964"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00964] The expression __s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00964"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00964] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00989"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#989"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00989] The expression __ptr applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00989"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#989"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00989] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00991"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#991"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00991] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00992"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#992"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00992] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "00993"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#993"
  , "c2" : "BLOCKER"
@@ -136,6 +199,48 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_lib.c.html#993"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[00993] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00996"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#996"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00996] The expression __ptr applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00996"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#996"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00996] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01021"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#1021"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01021] The expression __ptr applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01021"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#1021"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01021] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01023"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#1023"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01023] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01024"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#1024"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01024] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -160,6 +265,34 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01029"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#1029"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01029] The expression __ptr applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01029"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#1029"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01029] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01035"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#1035"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01035] The expression __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01036"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#1036"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01036] The expression __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "01037"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#1037"
  , "c2" : "BLOCKER"
@@ -181,17 +314,381 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01048"
- , "c1link" : "./qc/ssl/ssl_lib.c.html#1048"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01048] The expression ( - 1) is invariable"
-}} 
-,
-{ "ligne" : {
    "c1" : "02324"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#2324"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[02324] The pointer __p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02487"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#2487"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02487] The expression __resolved applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02487"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#2487"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02487] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02490"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#2490"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02490] The expression __resolved applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02490"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#2490"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02490] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02514"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#2514"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02514] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02514"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#2514"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02514] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02516"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#2516"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02516] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02518"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#2518"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02518] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02518"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#2518"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02518] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02540"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#2540"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02540] The expression __s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02540"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#2540"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02540] The expression __s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02540"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#2540"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02540] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02540"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#2540"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02540] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02564"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#2564"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02564] The expression __dst applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02564"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#2564"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02564] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02566"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#2566"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02566] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02570"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#2570"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02570] The expression __dst applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02570"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#2570"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02570] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02595"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#2595"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02595] The expression __dst applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02595"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#2595"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02595] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02597"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#2597"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02597] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02599"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#2599"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02599] The expression __dst applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02599"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#2599"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02599] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05558"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5558"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05558] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05558"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5558"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05558] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05560"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5560"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05560] The expression  ! __builtin_constant_p(__nbytes) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05563"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5563"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05563] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05563"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5563"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05563] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05588"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5588"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05588] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05588"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5588"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05588] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05590"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5590"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05590] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05593"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5593"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05593] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05593"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5593"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05593] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05622"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5622"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05622] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05622"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5622"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05622] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05624"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5624"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05624] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05627"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5627"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05627] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05627"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5627"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05627] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05648"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5648"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05648] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05648"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5648"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05648] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05650"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5650"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05650] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05653"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5653"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05653] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05653"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5653"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05653] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05669"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5669"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05669] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05669"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5669"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05669] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05688"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5688"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05688] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05688"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5688"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05688] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05690"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5690"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05690] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05693"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5693"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05693] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05693"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5693"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05693] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05713"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5713"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05713] The expression __list applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05713"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5713"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05713] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05715"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5715"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05715] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -202,31 +699,220 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07882"
- , "c1link" : "./qc/ssl/ssl_lib.c.html#7882"
+   "c1" : "05718"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5718"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07882] The expression (( unsigned  int  )0x7fffffff+1) is invariable"
+ , "c3" : "QC-CPP000011[05718] The expression __list applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07889"
- , "c1link" : "./qc/ssl/ssl_lib.c.html#7889"
+   "c1" : "05718"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5718"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07889] The expression (( unsigned  int  )0x7fffffff+1) is invariable"
+ , "c3" : "QC-CPP000012[05718] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07896"
- , "c1link" : "./qc/ssl/ssl_lib.c.html#7896"
+   "c1" : "05739"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5739"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07896] The expression (( unsigned  int  )0x7fffffff+1) is invariable"
+ , "c3" : "QC-CPP000011[05739] The expression __buf applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16908"
- , "c1link" : "./qc/ssl/ssl_lib.c.html#16908"
+   "c1" : "05739"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5739"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16908] The expression ((18446744073709551615UL)/2) is invariable"
+ , "c3" : "QC-CPP000012[05739] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05741"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5741"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05741] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05744"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5744"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05744] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05744"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5744"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05744] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05765"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5765"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05765] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05765"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5765"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05765] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05767"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5767"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05767] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05770"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5770"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05770] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05770"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5770"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05770] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05792"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5792"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05792] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05792"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5792"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05792] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05794"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5794"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05794] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05797"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5797"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05797] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05797"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5797"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05797] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05821"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5821"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05821] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05821"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5821"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05821] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05823"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5823"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05823] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05826"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5826"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05826] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05826"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#5826"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05826] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06188"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#6188"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06188] The expression __dest applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06189"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#6189"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06189] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06189"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#6189"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06189] The expression __dest applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06188"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#6188"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06188] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16939"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#16939"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16939] The expression pkt applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16952"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#16952"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16952] The expression pkt applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16966"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#16966"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16966] The expression  ! PACKET_peek_sub_packet(pkt,subpkt,len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16981"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#16981"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16981] The expression pkt applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16994"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#16994"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16994] The expression  ! PACKET_peek_net_2(pkt,data) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -237,10 +923,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "17021"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#17021"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17021] The expression pkt applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17035"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#17035"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17035] The expression  ! PACKET_peek_net_3(pkt,data) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "17049"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#17049"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[17049] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17062"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#17062"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17062] The expression pkt applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17077"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#17077"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17077] The expression  ! PACKET_peek_net_4(pkt,data) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -251,10 +965,80 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "17101"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#17101"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17101] The expression  ! PACKET_remaining(pkt) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17112"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#17112"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17112] The expression  ! PACKET_peek_1(pkt,data) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "17126"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#17126"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[17126] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17139"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#17139"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17139] The expression pkt applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17157"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#17157"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17157] The expression  ! PACKET_peek_4(pkt,data) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17175"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#17175"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17175] The expression pkt applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17193"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#17193"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17193] The expression  ! PACKET_peek_bytes(pkt,data,len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17206"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#17206"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17206] The expression pkt applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17221"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#17221"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17221] The expression  ! PACKET_peek_copy_bytes(pkt,data,len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17233"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#17233"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17233] The expression pkt applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17298"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#17298"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17298] The expression pkt applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -272,6 +1056,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "17312"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#17312"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17312] The expression  ! PACKET_get_1( &amp; tmp, &amp; length) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17313"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#17313"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17313] The expression  ! PACKET_get_bytes( &amp; tmp, &amp; data,(size_t )length) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "17332"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#17332"
  , "c2" : "MAJOR"
@@ -283,6 +1081,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_lib.c.html#17332"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[17332] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17334"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#17334"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17334] The expression  ! PACKET_get_1( &amp; tmp, &amp; length) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17335"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#17335"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17335] The expression  ! PACKET_get_bytes( &amp; tmp, &amp; data,(size_t )length) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17336"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#17336"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17336] The expression  &amp; tmp applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -300,6 +1119,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "17354"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#17354"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17354] The expression  ! PACKET_get_net_2( &amp; tmp, &amp; length) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17355"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#17355"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17355] The expression  ! PACKET_get_bytes( &amp; tmp, &amp; data,(size_t )length) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "17374"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#17374"
  , "c2" : "MAJOR"
@@ -314,6 +1147,27 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "17377"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#17377"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17377] The expression  ! PACKET_get_net_2( &amp; tmp, &amp; length) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17378"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#17378"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17378] The expression  ! PACKET_get_bytes( &amp; tmp, &amp; data,(size_t )length) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17379"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#17379"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17379] The expression  &amp; tmp applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "17394"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#17394"
  , "c2" : "MAJOR"
@@ -325,6 +1179,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_lib.c.html#17394"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[17394] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17396"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#17396"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17396] The expression  ! PACKET_get_net_3( &amp; tmp, &amp; length) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17397"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#17397"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17397] The expression  ! PACKET_get_bytes( &amp; tmp, &amp; data,(size_t )length) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -349,6 +1217,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "20696"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#20696"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20696] The expression (dane_mds)[0] applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "20697"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#20697"
  , "c2" : "MAJOR"
@@ -360,6 +1235,69 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_lib.c.html#20700"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[20700] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20699"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#20699"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20699] The expression i applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20787"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#20787"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20787] The expression  &amp; from-&gt;dane applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20791"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#20791"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20791] The expression ( &amp; from-&gt;dane)-&gt;trecs applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20820"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#20820"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20820] The expression to applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20820"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#20820"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20820] The expression t-&gt;usage applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20820"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#20820"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20820] The expression t-&gt;selector applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20820"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#20820"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20820] The expression t-&gt;mtype applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20821"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#20821"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20821] The expression t-&gt;data applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20821"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#20821"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20821] The expression t-&gt;dlen applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -384,6 +1322,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "20990"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#20990"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20990] The expression md applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "20998"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#20998"
  , "c2" : "BLOCKER"
@@ -398,10 +1343,59 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "21056"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21056"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21056] The expression  ! d2i_X509( &amp; cert, &amp; p,ilen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21066"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21066"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21066] The expression cert applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "21090"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#21090"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[21090] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21095"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21095"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21095] The expression  ! OPENSSL_sk_push(ossl_check_X509_sk_type(dane-&gt;certs),ossl_check_X509_type(cert)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21108"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21108"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21108] The expression  ! d2i_PUBKEY( &amp; pkey, &amp; p,ilen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21144"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21144"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21144] The expression rec-&gt;mtype applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21144"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21144"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21144] The expression mtype applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21149"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21149"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21149] The expression  ! sk_danetls_record_insert(dane-&gt;trecs,t,i) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -468,10 +1462,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "21240"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21240"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21240] The expression ssl_clear_bad_session(s) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21268"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21268"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21268] The expression s-&gt;renegotiate applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21339"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21339"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21339] The expression  ! s-&gt;method-&gt;ssl_new(s) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21342"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21342"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21342] The expression  ! s-&gt;method-&gt;ssl_clear(s) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "21355"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#21355"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[21355] The pointer sk is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21359"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21359"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21359] The expression  ! SSL_CTX_set_ciphersuites(ctx,OSSL_default_ciphersuites()) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21376"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21376"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21376] The expression ossl_check_const_SSL_CIPHER_sk_type(sk) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -517,6 +1553,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "21488"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21488"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21488] The expression s-&gt;sid_ctx applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "21489"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#21489"
  , "c2" : "MAJOR"
@@ -538,10 +1581,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "21542"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21542"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21542] The expression ctx-&gt;ext.ecpointformats applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21546"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21546"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21546] The expression  ! s-&gt;ext.ecpointformats applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "21548"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#21548"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[21548] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21553"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21553"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21553] The expression ctx-&gt;ext.supportedgroups applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21558"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21558"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21558] The expression  ! s-&gt;ext.supportedgroups applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -552,10 +1623,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "21573"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21573"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21573] The expression s-&gt;ctx-&gt;ext.alpn applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "21581"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#21581"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[21581] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21604"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21604"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21604] The expression  ! s-&gt;method-&gt;ssl_new(s) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -566,10 +1651,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "21609"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21609"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21609] The expression  ! SSL_clear(s) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "21610"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#21610"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[21610] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21612"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21612"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21612] The expression  ! CRYPTO_new_ex_data(0,s, &amp; s-&gt;ex_data) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21612"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21612"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[21612] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -580,6 +1686,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "21632"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21632"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21632] The expression  ! SSL_set_ct_validation_callback(s,ctx-&gt;ct_validation_callback,ctx-&gt;ct_validation_callback_arg) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "21634"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#21634"
  , "c2" : "MAJOR"
@@ -587,10 +1700,73 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "21661"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21661"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21661] The expression  &amp; s-&gt;references applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21661"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21661"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21661] The expression  &amp; i applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21661"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21661"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21661] The expression s-&gt;lock applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21705"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21705"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21705] The expression  ! CRYPTO_THREAD_write_lock(ctx-&gt;lock) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21714"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21714"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21714] The expression  ! CRYPTO_THREAD_write_lock(ssl-&gt;lock) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "21731"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#21731"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[21731] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21733"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21733"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21733] The expression r.session_id applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21740"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21740"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21740] The expression  ! CRYPTO_THREAD_read_lock(ssl-&gt;session_ctx-&gt;lock) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21775"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21775"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21775] The expression hostname applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21775"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21775"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21775] The expression s-&gt;param applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -636,10 +1812,59 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "21876"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21876"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21876] The expression  ! SSL_ctrl(s,55,0,( void  *)basedomain) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21876"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21876"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[21876] The expression 55 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21876"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21876"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[21876] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21887"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21887"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21887] The expression  ! X509_VERIFY_PARAM_set1_host(s-&gt;param,basedomain,0) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21887"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21887"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[21887] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "21936"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#21936"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[21936] The expression dane applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21940"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21940"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21940] The expression (dane)-&gt;trecs applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21942"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21942"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21942] The expression dane-&gt;mtlsa applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -661,6 +1886,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_lib.c.html#21964"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[21964] The expression dane applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21968"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21968"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21968] The expression (dane)-&gt;trecs applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21970"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#21970"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21970] The expression dane-&gt;mtlsa applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -696,6 +1935,48 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_lib.c.html#21979"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[21979] The expression dlen applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "22185"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#22185"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[22185] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "22185"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#22185"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[22185] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "22202"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#22202"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[22202] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "22211"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#22211"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[22211] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "22211"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#22211"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[22211] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "22211"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#22211"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[22211] The expression s applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -737,14 +2018,42 @@ var maDataBlocs = {
    "c1" : "22319"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#22319"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[22319] The expression (5|0x0400|0x0100) is invariable"
+ , "c3" : "QC-CPP000011[22319] The expression rbio applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "22320"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#22320"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[22320] The expression rbio applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "22320"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#22320"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[22320] The expression 105 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22320"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#22320"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[22320] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "22357"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#22357"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[22357] The expression (5|0x0400|0x0100) is invariable"
+ , "c3" : "QC-CPP000011[22357] The expression wbio applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "22358"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#22358"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[22358] The expression wbio applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -755,10 +2064,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "22477"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#22477"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[22477] The expression RECORD_LAYER_processed_read_pending( &amp; s-&gt;rlayer) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "22519"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#22519"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[22519] The pointer r is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22554"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#22554"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[22554] The expression  ! SSL_set_session(t,SSL_get_session(f)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "22564"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#22564"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[22564] The expression t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "22571"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#22571"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[22571] The expression  ! SSL_set_session_id_context(t,f-&gt;sid_ctx,( int  )f-&gt;sid_ctx_length) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "22658"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#22658"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[22658] The expression s-&gt;job applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "22791"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#22791"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[22791] The expression  ! ASYNC_WAIT_CTX_set_callback(s-&gt;waitctx,ssl_async_wait_ctx_cb,s) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -783,10 +2134,80 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "22948"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#22948"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[22948] The expression  ! s-&gt;server applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "22959"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#22959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[22959] The expression  ! SSL_in_before(s) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "23178"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#23178"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[23178] The expression  ! (0) is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23188"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23188"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23188] The expression s-&gt;s3.alert_dispatch applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "23198"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23198"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23198] The expression s-&gt;wbio applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "23198"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23198"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[23198] The expression 11 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23198"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23198"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[23198] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23203"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23203"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23203] The expression  ! BIO_test_flags(s-&gt;wbio,0x08) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "23203"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23203"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[23203] The expression 0x08 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "23271"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23271"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23271] The expression s-&gt;server applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "23272"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23272"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23272] The expression  ! SSL_in_before(s) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -797,10 +2218,136 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "23322"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23322"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23322] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "23335"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#23335"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[23335] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "23376"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23376"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23376] The expression  ! SSL_in_init(s) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "23404"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23404"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23404] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "23404"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23404"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23404] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "23423"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23423"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23423] The expression  ! SSL_is_init_finished(s) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "23432"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23432"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23432] The expression RECORD_LAYER_write_pending( &amp; s-&gt;rlayer) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "23457"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23457"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23457] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "23457"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23457"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23457] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "23480"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23480"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23480] The expression  ! can_renegotiate(s) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "23490"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23490"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23490] The expression  ! can_renegotiate(s) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "23510"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23510"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23510] The expression SSL_in_init(s) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "23511"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23511"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23511] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "23511"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23511"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23511] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "23511"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23511"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23511] The expression  ! s-&gt;server applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "23512"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23512"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23512] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "23512"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23512"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23512] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "23515"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23515"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23515] The expression  ! RECORD_LAYER_write_pending( &amp; s-&gt;rlayer) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "23515"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23515"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23515] The expression  ! SSL_in_init(s) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -825,6 +2372,62 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "23592"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23592"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23592] The expression  ! s-&gt;session applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "23592"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23592"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23592] The expression SSL_in_init(s) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "23592"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23592"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23592] The expression ossl_statem_get_in_handshake(s) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "23928"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23928"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23928] The expression  * ap applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "23928"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23928"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23928] The expression  * bp applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "23930"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23930"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23930] The expression  * ap applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "23930"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23930"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23930] The expression  * bp applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "23975"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#23975"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[23975] The expression  ! s-&gt;server applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "23990"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#23990"
  , "c2" : "MAJOR"
@@ -836,6 +2439,41 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_lib.c.html#23994"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[23994] The expression  ! ciphers applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24000"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24000"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24000] The expression  ! ssl_set_client_disabled(s) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24006"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24006"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24006] The expression ossl_check_const_SSL_CIPHER_sk_type(ciphers) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24008"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24008"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24008] The expression  ! ssl_cipher_disabled(s,c,(1|(1&lt;&lt;16)),0) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24008"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24008"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[24008] The expression (1|(1&lt;&lt;16)) is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24008"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24008"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[24008] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -853,6 +2491,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "24017"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24017"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24017] The expression  ! OPENSSL_sk_push(ossl_check_SSL_CIPHER_sk_type(sk),ossl_check_SSL_CIPHER_type(c)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "24067"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#24067"
  , "c2" : "MAJOR"
@@ -867,10 +2512,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "24085"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24085"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24085] The expression ossl_check_const_SSL_CIPHER_sk_type(sk) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "24129"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#24129"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[24129] The pointer c is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24137"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24137"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24137] The expression ossl_check_const_SSL_CIPHER_sk_type(sk) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -881,10 +2540,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "24167"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24167"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24167] The expression sk applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "24181"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#24181"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[24181] The pointer sk is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24193"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24193"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24193] The expression sk applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -916,6 +2589,48 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "24211"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24211"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24211] The expression  ! s-&gt;server applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24242"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24242"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24242] The expression ossl_check_const_SSL_CIPHER_sk_type(clntsk) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24242"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24242"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24242] The expression ossl_check_const_SSL_CIPHER_sk_type(srvrsk) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24249"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24249"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24249] The expression ossl_check_const_SSL_CIPHER_sk_type(clntsk) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24253"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24253"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24253] The expression ossl_check_SSL_CIPHER_sk_type(srvrsk) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24253"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24253"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24253] The expression ossl_check_SSL_CIPHER_type(c) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "24268"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#24268"
  , "c2" : "BLOCKER"
@@ -927,6 +2642,69 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_lib.c.html#24290"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[24290] The expression server applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24292"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24292"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24292] The expression s-&gt;hit applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24292"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24292"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24292] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24292"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24292"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24292] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24296"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24296"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24296] The expression SSL_in_before(s) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24310"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24310"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24310] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24310"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24310"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24310] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24310"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24310"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24310] The expression s-&gt;hit applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24324"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24324"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24324] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24324"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24324"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[24324] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -958,10 +2736,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "24347"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24347"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24347] The expression i applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24347"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24347"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24347] The expression j applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24348"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24348"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24348] The expression  &amp; server[i+1] applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24348"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24348"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24348] The expression  &amp; client[j+1] applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24348"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24348"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24348] The expression server[i] applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "24352"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#24352"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[24352] goto statement jump to found"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24415"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24415"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24415] The expression idx applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -979,6 +2799,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "24445"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24445"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24445] The expression  ! alpn_value_ok(protos,protos_len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "24476"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#24476"
  , "c2" : "MAJOR"
@@ -993,6 +2820,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "24493"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24493"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24493] The expression  ! alpn_value_ok(protos,protos_len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "24581"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#24581"
  , "c2" : "BLOCKER"
@@ -1004,6 +2838,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_lib.c.html#24585"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[24585] The expression tmp_storage applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24634"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24634"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24634] The expression  ! OPENSSL_init_ssl(0x00200000L,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24634"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24634"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[24634] The expression 0x00200000L is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1063,10 +2911,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "24739"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24739"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24739] The expression  ! ssl_load_ciphers(ret) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "24740"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#24740"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[24740] goto statement jump to err2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24742"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24742"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24742] The expression  ! ssl_setup_sig_algs(ret) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1077,6 +2939,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "24746"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24746"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24746] The expression  ! ssl_load_groups(ret) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "24747"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#24747"
  , "c2" : "MAJOR"
@@ -1084,10 +2953,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "24749"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24749"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24749] The expression  ! SSL_CTX_set_ciphersuites(ret,OSSL_default_ciphersuites()) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "24750"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#24750"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[24750] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24752"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24752"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24752] The expression  ! ssl_create_cipher_list(ret,ret-&gt;tls13_ciphersuites, &amp; ret-&gt;cipher_list, &amp; ret-&gt;cipher_list_by_id,OSSL_default_cipher_list(),ret-&gt;cert) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24756"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24756"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24756] The expression ossl_check_const_SSL_CIPHER_sk_type(ret-&gt;cipher_list) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1133,6 +3023,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "24794"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24794"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24794] The expression  ! CRYPTO_new_ex_data(1,ret, &amp; ret-&gt;ex_data) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24794"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24794"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[24794] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {
    "c1" : "24795"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#24795"
  , "c2" : "MAJOR"
@@ -1154,6 +3058,97 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "24812"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24812"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24812] The expression libctx applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24812"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24812"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24812] The expression ret-&gt;ext.tick_key_name applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24813"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24813"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24813] The expression  sizeof (ret-&gt;ext.tick_key_name) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24814"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24814"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24814] The expression libctx applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24814"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24814"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24814] The expression ret-&gt;ext.secure-&gt;tick_hmac_key applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24815"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24815"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24815] The expression  sizeof (ret-&gt;ext.secure-&gt;tick_hmac_key) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24816"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24816"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24816] The expression libctx applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24816"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24816"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24816] The expression ret-&gt;ext.secure-&gt;tick_aes_key applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24817"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24817"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24817] The expression  sizeof (ret-&gt;ext.secure-&gt;tick_aes_key) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24820"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24820"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24820] The expression libctx applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24820"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24820"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24820] The expression ret-&gt;ext.cookie_hmac_key applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24821"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24821"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24821] The expression  sizeof (ret-&gt;ext.cookie_hmac_key) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24821"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24821"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[24821] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "24822"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#24822"
  , "c2" : "MAJOR"
@@ -1161,10 +3156,80 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "24825"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24825"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24825] The expression  ! ssl_ctx_srp_ctx_init_intern(ret) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "24826"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#24826"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[24826] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24874"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24874"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24874] The expression  &amp; ctx-&gt;references applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24874"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24874"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24874] The expression  &amp; i applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "24874"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#24874"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[24874] The expression ctx-&gt;lock applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25075"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25075"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25075] The expression ssl_has_cert(s,6) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25075"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25075"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[25075] The expression 6 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "25079"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25079"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25079] The expression ssl_has_cert(s,5) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25079"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25079"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[25079] The expression 5 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "25083"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25083"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25083] The expression ssl_has_cert(s,4) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25083"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25083"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[25083] The expression 4 is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1196,10 +3261,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "25100"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25100"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25100] The expression ssl_has_cert(s,1) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "25102"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#25102"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[25102] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[25102] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25102"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25102"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25102] The expression SSL_version(s) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1224,17 +3303,136 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "25125"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25125"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25125] The expression ssl_has_cert(s,7) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "25127"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#25127"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[25127] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[25127] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25127"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25127"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25127] The expression SSL_version(s) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25125"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25125"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[25125] The expression 7 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "25126"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25126"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[25126] The expression 7 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "25131"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25131"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25131] The expression ssl_has_cert(s,8) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "25133"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#25133"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[25133] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[25133] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25133"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25133"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25133] The expression SSL_version(s) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25131"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25131"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[25131] The expression 8 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "25132"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25132"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[25132] The expression 8 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "25157"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25157"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25157] The expression x applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25202"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25202"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25202] The expression s-&gt;server applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25208"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25208"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25208] The expression  ! s-&gt;hit applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25208"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25208"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25208] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25208"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25208"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25208] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25211"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25211"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25211] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25211"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25211"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25211] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25212"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25212"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25212] The expression  ! s-&gt;server applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25234"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25234"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25234] The expression  ! s-&gt;session_ctx-&gt;new_session_cb(s,s-&gt;session) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1259,6 +3457,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "25252"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25252"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25252] The expression __atomic_load(__atomic_load_ptr, &amp; __atomic_load_tmp,(memory_order_relaxed)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "25305"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#25305"
  , "c2" : "MAJOR"
@@ -1273,6 +3478,146 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "25315"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25315"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25315] The expression l applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25321"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25321"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25321] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25323"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25323"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25323] The expression BIO_test_flags(bio,0x01) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25323"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25323"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[25323] The expression 0x01 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "25325"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25325"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25325] The expression BIO_test_flags(bio,0x02) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25325"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25325"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[25325] The expression 0x02 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "25328"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25328"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25328] The expression BIO_test_flags(bio,0x04) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25328"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25328"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[25328] The expression 0x04 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "25339"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25339"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25339] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25342"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25342"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25342] The expression BIO_test_flags(bio,0x02) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25342"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25342"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[25342] The expression 0x02 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "25344"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25344"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25344] The expression BIO_test_flags(bio,0x01) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25344"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25344"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[25344] The expression 0x01 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "25349"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25349"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25349] The expression BIO_test_flags(bio,0x04) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25349"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25349"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[25349] The expression 0x04 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "25359"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25359"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25359] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25361"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25361"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25361] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25363"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25363"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25363] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25365"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25365"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25365] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25367"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25367"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25367] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "25379"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#25379"
  , "c2" : "MAJOR"
@@ -1284,6 +3629,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_lib.c.html#25380"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[25380] The pointer s is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "25409"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25409"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25409] The expression SSL_in_init(s) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25409"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25409"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25409] The expression SSL_in_before(s) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1308,10 +3667,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "25547"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25547"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25547] The expression ossl_check_const_X509_NAME_sk_type(src) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25557"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25557"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25557] The expression ossl_check_X509_NAME_sk_type(sk) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25557"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25557"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25557] The expression ossl_check_X509_NAME_type(xn) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25557"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25557"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25557] The expression (i) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "25570"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#25570"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[25570] The pointer ret is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "25574"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25574"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25574] The expression  ! SSL_in_init(s) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25574"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25574"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25574] The expression  ! SSL_in_before(s) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1322,10 +3723,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "25602"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25602"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25602] The expression  ! SSL_copy_session_id(ret,s) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "25603"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#25603"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[25603] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "25611"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25611"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25611] The expression  ! SSL_set_ssl_method(ret,s-&gt;method) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1343,10 +3758,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "25629"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25629"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25629] The expression  ! SSL_set_session_id_context(ret,s-&gt;sid_ctx,( int  )s-&gt;sid_ctx_length) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "25631"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#25631"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[25631] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "25634"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25634"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25634] The expression  ! ssl_dane_dup(ret,s) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1357,10 +3786,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "25660"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25660"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25660] The expression  ! CRYPTO_dup_ex_data(0, &amp; ret-&gt;ex_data, &amp; s-&gt;ex_data) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25660"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25660"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[25660] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "25661"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#25661"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[25661] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "25664"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25664"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25664] The expression s-&gt;handshake_func applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25665"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25665"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25665] The expression s-&gt;server applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1392,6 +3849,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "25705"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25705"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25705] The expression  ! dup_ca_names( &amp; ret-&gt;ca_names,s-&gt;ca_names) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25706"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25706"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25706] The expression  ! dup_ca_names( &amp; ret-&gt;client_ca_names,s-&gt;client_ca_names) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "25707"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#25707"
  , "c2" : "MAJOR"
@@ -1406,10 +3877,73 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "25894"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25894"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25894] The expression  ! BIO_int_ctrl(bbio,117,1,0) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25894"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25894"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[25894] The expression 117 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "25894"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25894"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[25894] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {
+   "c1" : "25894"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25894"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[25894] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "25977"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#25977"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[25977] The pointer new_cert is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "25999"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#25999"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[25999] The expression  ! custom_exts_copy_flags( &amp; new_cert-&gt;custext, &amp; ssl-&gt;cert-&gt;custext) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "26015"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#26015"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[26015] The expression ssl-&gt;sid_ctx applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "26034"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#26034"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[26034] The expression ssl-&gt;sid_ctx applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "26034"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#26034"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[26034] The expression ssl-&gt;ctx-&gt;sid_ctx applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "26034"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#26034"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[26034] The expression ssl-&gt;sid_ctx_length applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1434,6 +3968,55 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "26177"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#26177"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[26177] The expression  ! SSL_CTX_load_verify_file(ctx,CAfile) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "26183"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#26183"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[26183] The expression  ! SSL_CTX_load_verify_dir(ctx,CApath) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "26218"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#26218"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[26218] The expression ssl-&gt;s3.client_random applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "26228"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#26228"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[26228] The expression ssl-&gt;s3.server_random applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "26248"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#26248"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[26248] The expression sess-&gt;master_key applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "26311"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#26311"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[26311] The expression identity_hint applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "26354"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#26354"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[26354] The expression identity_hint applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "26531"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#26531"
  , "c2" : "MAJOR"
@@ -1445,6 +4028,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_lib.c.html#26538"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[26538] The expression  ! (0) is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "26599"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#26599"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[26599] The expression md applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "26599"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#26599"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[26599] The expression  * hash applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1469,6 +4066,27 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "26666"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#26666"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[26666] The expression  ! EVP_MD_CTX_copy_ex(ctx,hdgst) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "26667"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#26667"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[26667] The expression ctx applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "26667"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#26667"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[26667] The expression out applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "26677"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#26677"
  , "c2" : "MAJOR"
@@ -1490,10 +4108,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "26851"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#26851"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[26851] The expression sct applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "26851"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#26851"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[26851] The expression origin applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "26852"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#26852"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[26852] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "26854"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#26854"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[26854] The expression ossl_check_SCT_sk_type( * dst) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "26854"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#26854"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[26854] The expression ossl_check_SCT_type(sct) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1539,6 +4185,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "26948"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#26948"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[26948] The expression br applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "26971"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#26971"
  , "c2" : "MAJOR"
@@ -1546,10 +4199,87 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "27034"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27034"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27034] The expression  ! s-&gt;scts_parsed applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "27035"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27035"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27035] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "27036"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27036"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27036] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "27037"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27037"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27037] The expression s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "27038"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#27038"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[27038] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "27093"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27093"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27093] The expression SSL_CTX_has_client_custom_ext(s-&gt;ctx,18) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "27094"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27094"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[27094] The expression 18 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "27112"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27112"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27112] The expression  ! SSL_ctrl(s,65,1,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "27112"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27112"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[27112] The expression 65 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "27112"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27112"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[27112] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {
+   "c1" : "27137"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27137"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27137] The expression SSL_CTX_has_client_custom_ext(ctx,18) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "27138"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27138"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[27138] The expression 18 is invariable"
 }} 
 ,
 { "ligne" : {
@@ -1567,6 +4297,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "27206"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27206"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27206] The expression ossl_check_const_X509_sk_type(s-&gt;verified_chain) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "27213"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#27213"
  , "c2" : "BLOCKER"
@@ -1574,10 +4311,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "27217"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27217"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27217] The expression (dane)-&gt;trecs applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "27240"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#27240"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[27240] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "27252"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27252"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27252] The expression scts applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "27252"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27252"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27252] The expression ctx applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1609,10 +4367,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "27471"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27471"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27471] The expression ext-&gt;present applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "27483"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#27483"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[27483] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "27497"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27497"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27497] The expression ext-&gt;present applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1630,10 +4402,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "27525"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27525"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27525] The expression r-&gt;present applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "27548"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27548"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27548] The expression RECORD_LAYER_read_pending(rl) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "27548"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27548"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27548] The expression RECORD_LAYER_write_pending(rl) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "27600"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#27600"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[27600] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "27680"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27680"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27680] The expression cipher_suites applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "27689"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27689"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27689] The expression cipher_suites applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1651,6 +4458,48 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "27727"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27727"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27727] The expression  &amp; sslv2ciphers applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "27729"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27729"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27729] The expression  ! PACKET_get_1( &amp; sslv2ciphers, &amp; leadbyte) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "27731"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27731"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27731] The expression  ! PACKET_copy_bytes( &amp; sslv2ciphers,raw,2) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "27734"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27734"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27734] The expression  ! PACKET_forward( &amp; sslv2ciphers,2) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "27752"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27752"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27752] The expression  ! PACKET_memdup(cipher_suites, &amp; s-&gt;s3.tmp.ciphers_raw, &amp; s-&gt;s3.tmp.ciphers_rawlen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "27770"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27770"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27770] The expression  ! PACKET_buf_init( &amp; pkt,bytes,len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "27780"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#27780"
  , "c2" : "MAJOR"
@@ -1658,10 +4507,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "27797"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27797"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27797] The expression cipher_suites applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "27798"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#27798"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[27798] The expression fatal applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "27813"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27813"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27813] The expression cipher_suites applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1686,10 +4549,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "27856"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27856"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27856] The expression PACKET_copy_bytes(cipher_suites,cipher,n) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "27862"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#27862"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[27862] The expression sslv2format applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "27862"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27862"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[27862] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "27872"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27872"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27872] The expression c-&gt;valid applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "27872"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27872"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27872] The expression  ! OPENSSL_sk_push(ossl_check_SSL_CIPHER_sk_type(sk),ossl_check_SSL_CIPHER_type(c)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "27873"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27873"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27873] The expression  ! c-&gt;valid applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "27873"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27873"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27873] The expression  ! OPENSSL_sk_push(ossl_check_SSL_CIPHER_sk_type(scsvs),ossl_check_SSL_CIPHER_type(c)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1707,6 +4612,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "27890"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27890"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27890] The expression cipher_suites applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "27891"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#27891"
  , "c2" : "BLOCKER"
@@ -1718,6 +4630,83 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_lib.c.html#27903"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[27903] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "27984"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27984"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27984] The expression ssl-&gt;session-&gt;ext.max_fragment_len_mode applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "27984"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27984"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27984] The expression ssl-&gt;session-&gt;ext.max_fragment_len_mode applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "27998"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27998"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27998] The expression ssl-&gt;session-&gt;ext.max_fragment_len_mode applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "27998"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#27998"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[27998] The expression ssl-&gt;session-&gt;ext.max_fragment_len_mode applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "28015"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#28015"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[28015] The expression  ! SSL_clear(s) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "28024"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#28024"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[28024] The expression s-&gt;ext.cookieok applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "28027"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#28027"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[28027] The expression  ! ossl_statem_in_error(s) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "28045"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#28045"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[28045] The expression ssl applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "28045"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#28045"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[28045] The expression ssl applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "28053"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#28053"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[28053] The expression  ! ssl-&gt;server applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "28062"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#28062"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[28062] The expression  ! SSL_is_init_finished(ssl) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1735,6 +4724,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "28108"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#28108"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[28108] The expression  ! send_certificate_request(ssl) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "28153"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#28153"
  , "c2" : "MAJOR"
@@ -1742,10 +4738,80 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "28177"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#28177"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[28177] The expression cipher applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "28200"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#28200"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[28200] The expression cipher applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "28217"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#28217"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[28217] The pointer md is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "28237"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#28237"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[28237] The expression md applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "28260"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#28260"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[28260] The expression md applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "28275"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#28275"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[28275] The expression  ! ssl_security(s,(7|(4&lt;&lt;16)),EVP_PKEY_get_security_bits(dhpkey),0,dhpkey) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "28275"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#28275"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[28275] The expression (7|(4&lt;&lt;16)) is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "28276"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#28276"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[28276] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "28292"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#28292"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[28292] The expression  ! ssl_ctx_security(ctx,(7|(4&lt;&lt;16)),EVP_PKEY_get_security_bits(dhpkey),0,dhpkey) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "28292"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#28292"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[28292] The expression (7|(4&lt;&lt;16)) is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "28293"
+ , "c1link" : "./qc/ssl/ssl_lib.c.html#28293"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[28293] The expression 0 is invariable, always false"
 }} 
 ]
 };

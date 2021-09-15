@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/enc.c.html" 
- , "texte" : "File apps/enc.c 96 rule violations " 
+ , "texte" : "File apps/enc.c 260 rule violations " 
  , "fic2"  : "./qc/apps/enc.c.xml" 
  , "fic3"  : "" 
 }
@@ -63,14 +63,14 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "37"
+ , "c4" : "156"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "9"
+ , "c4" : "54"
 }}
 ,
 { "ligne" : {
@@ -104,6 +104,69 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
+   "c1" : "00959"
+ , "c1link" : "./qc/apps/enc.c.html#959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00959] The expression __s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00959"
+ , "c1link" : "./qc/apps/enc.c.html#959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00959] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00961"
+ , "c1link" : "./qc/apps/enc.c.html#961"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00961] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00964"
+ , "c1link" : "./qc/apps/enc.c.html#964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00964] The expression __s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00964"
+ , "c1link" : "./qc/apps/enc.c.html#964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00964] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00989"
+ , "c1link" : "./qc/apps/enc.c.html#989"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00989] The expression __ptr applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00989"
+ , "c1link" : "./qc/apps/enc.c.html#989"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00989] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00991"
+ , "c1link" : "./qc/apps/enc.c.html#991"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00991] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00992"
+ , "c1link" : "./qc/apps/enc.c.html#992"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00992] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "00993"
  , "c1link" : "./qc/apps/enc.c.html#993"
  , "c2" : "BLOCKER"
@@ -122,6 +185,48 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/enc.c.html#993"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[00993] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00996"
+ , "c1link" : "./qc/apps/enc.c.html#996"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00996] The expression __ptr applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00996"
+ , "c1link" : "./qc/apps/enc.c.html#996"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00996] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01021"
+ , "c1link" : "./qc/apps/enc.c.html#1021"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01021] The expression __ptr applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01021"
+ , "c1link" : "./qc/apps/enc.c.html#1021"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01021] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01023"
+ , "c1link" : "./qc/apps/enc.c.html#1023"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01023] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01024"
+ , "c1link" : "./qc/apps/enc.c.html#1024"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01024] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -146,6 +251,34 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01029"
+ , "c1link" : "./qc/apps/enc.c.html#1029"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01029] The expression __ptr applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01029"
+ , "c1link" : "./qc/apps/enc.c.html#1029"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01029] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01035"
+ , "c1link" : "./qc/apps/enc.c.html#1035"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01035] The expression __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01036"
+ , "c1link" : "./qc/apps/enc.c.html#1036"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01036] The expression __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "01037"
  , "c1link" : "./qc/apps/enc.c.html#1037"
  , "c2" : "BLOCKER"
@@ -167,17 +300,395 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01048"
- , "c1link" : "./qc/apps/enc.c.html#1048"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01048] The expression ( - 1) is invariable"
-}} 
-,
-{ "ligne" : {
    "c1" : "02076"
  , "c1link" : "./qc/apps/enc.c.html#2076"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[02076] The pointer __p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02239"
+ , "c1link" : "./qc/apps/enc.c.html#2239"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02239] The expression __resolved applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02239"
+ , "c1link" : "./qc/apps/enc.c.html#2239"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02239] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02266"
+ , "c1link" : "./qc/apps/enc.c.html#2266"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02266] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02266"
+ , "c1link" : "./qc/apps/enc.c.html#2266"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02266] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02268"
+ , "c1link" : "./qc/apps/enc.c.html#2268"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02268] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02270"
+ , "c1link" : "./qc/apps/enc.c.html#2270"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02270] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02270"
+ , "c1link" : "./qc/apps/enc.c.html#2270"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02270] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02292"
+ , "c1link" : "./qc/apps/enc.c.html#2292"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02292] The expression __s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02292"
+ , "c1link" : "./qc/apps/enc.c.html#2292"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02292] The expression __s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02292"
+ , "c1link" : "./qc/apps/enc.c.html#2292"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02292] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02292"
+ , "c1link" : "./qc/apps/enc.c.html#2292"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02292] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02316"
+ , "c1link" : "./qc/apps/enc.c.html#2316"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02316] The expression __dst applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02316"
+ , "c1link" : "./qc/apps/enc.c.html#2316"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02316] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02318"
+ , "c1link" : "./qc/apps/enc.c.html#2318"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02318] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02322"
+ , "c1link" : "./qc/apps/enc.c.html#2322"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02322] The expression __dst applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02322"
+ , "c1link" : "./qc/apps/enc.c.html#2322"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02322] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02347"
+ , "c1link" : "./qc/apps/enc.c.html#2347"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02347] The expression __dst applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02347"
+ , "c1link" : "./qc/apps/enc.c.html#2347"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02347] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02349"
+ , "c1link" : "./qc/apps/enc.c.html#2349"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02349] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02351"
+ , "c1link" : "./qc/apps/enc.c.html#2351"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02351] The expression __dst applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02351"
+ , "c1link" : "./qc/apps/enc.c.html#2351"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02351] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02718"
+ , "c1link" : "./qc/apps/enc.c.html#2718"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02718] The expression __dest applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02719"
+ , "c1link" : "./qc/apps/enc.c.html#2719"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02719] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02719"
+ , "c1link" : "./qc/apps/enc.c.html#2719"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02719] The expression __dest applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02718"
+ , "c1link" : "./qc/apps/enc.c.html#2718"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02718] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05911"
+ , "c1link" : "./qc/apps/enc.c.html#5911"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05911] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05911"
+ , "c1link" : "./qc/apps/enc.c.html#5911"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05911] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05913"
+ , "c1link" : "./qc/apps/enc.c.html#5913"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05913] The expression  ! __builtin_constant_p(__nbytes) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05916"
+ , "c1link" : "./qc/apps/enc.c.html#5916"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05916] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05916"
+ , "c1link" : "./qc/apps/enc.c.html#5916"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05916] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05941"
+ , "c1link" : "./qc/apps/enc.c.html#5941"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05941] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05941"
+ , "c1link" : "./qc/apps/enc.c.html#5941"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05941] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05943"
+ , "c1link" : "./qc/apps/enc.c.html#5943"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05943] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05946"
+ , "c1link" : "./qc/apps/enc.c.html#5946"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05946] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05946"
+ , "c1link" : "./qc/apps/enc.c.html#5946"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05946] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05975"
+ , "c1link" : "./qc/apps/enc.c.html#5975"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05975] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05975"
+ , "c1link" : "./qc/apps/enc.c.html#5975"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05975] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05977"
+ , "c1link" : "./qc/apps/enc.c.html#5977"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05977] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05980"
+ , "c1link" : "./qc/apps/enc.c.html#5980"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05980] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05980"
+ , "c1link" : "./qc/apps/enc.c.html#5980"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05980] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06001"
+ , "c1link" : "./qc/apps/enc.c.html#6001"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06001] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06001"
+ , "c1link" : "./qc/apps/enc.c.html#6001"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06001] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06003"
+ , "c1link" : "./qc/apps/enc.c.html#6003"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06003] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06006"
+ , "c1link" : "./qc/apps/enc.c.html#6006"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06006] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06006"
+ , "c1link" : "./qc/apps/enc.c.html#6006"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06006] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06022"
+ , "c1link" : "./qc/apps/enc.c.html#6022"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06022] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06022"
+ , "c1link" : "./qc/apps/enc.c.html#6022"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06022] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06041"
+ , "c1link" : "./qc/apps/enc.c.html#6041"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06041] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06041"
+ , "c1link" : "./qc/apps/enc.c.html#6041"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06041] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06043"
+ , "c1link" : "./qc/apps/enc.c.html#6043"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06043] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06046"
+ , "c1link" : "./qc/apps/enc.c.html#6046"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06046] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06046"
+ , "c1link" : "./qc/apps/enc.c.html#6046"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06046] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06066"
+ , "c1link" : "./qc/apps/enc.c.html#6066"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06066] The expression __list applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06066"
+ , "c1link" : "./qc/apps/enc.c.html#6066"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06066] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06068"
+ , "c1link" : "./qc/apps/enc.c.html#6068"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06068] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -188,6 +699,167 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "06071"
+ , "c1link" : "./qc/apps/enc.c.html#6071"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06071] The expression __list applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06071"
+ , "c1link" : "./qc/apps/enc.c.html#6071"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06071] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06092"
+ , "c1link" : "./qc/apps/enc.c.html#6092"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06092] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06092"
+ , "c1link" : "./qc/apps/enc.c.html#6092"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06092] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06094"
+ , "c1link" : "./qc/apps/enc.c.html#6094"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06094] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06097"
+ , "c1link" : "./qc/apps/enc.c.html#6097"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06097] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06097"
+ , "c1link" : "./qc/apps/enc.c.html#6097"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06097] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06118"
+ , "c1link" : "./qc/apps/enc.c.html#6118"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06118] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06118"
+ , "c1link" : "./qc/apps/enc.c.html#6118"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06118] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06120"
+ , "c1link" : "./qc/apps/enc.c.html#6120"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06120] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06123"
+ , "c1link" : "./qc/apps/enc.c.html#6123"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06123] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06123"
+ , "c1link" : "./qc/apps/enc.c.html#6123"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06123] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06145"
+ , "c1link" : "./qc/apps/enc.c.html#6145"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06145] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06145"
+ , "c1link" : "./qc/apps/enc.c.html#6145"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06145] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06147"
+ , "c1link" : "./qc/apps/enc.c.html#6147"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06147] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06150"
+ , "c1link" : "./qc/apps/enc.c.html#6150"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06150] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06150"
+ , "c1link" : "./qc/apps/enc.c.html#6150"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06150] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06174"
+ , "c1link" : "./qc/apps/enc.c.html#6174"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06174] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06174"
+ , "c1link" : "./qc/apps/enc.c.html#6174"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06174] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06176"
+ , "c1link" : "./qc/apps/enc.c.html#6176"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06176] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06179"
+ , "c1link" : "./qc/apps/enc.c.html#6179"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06179] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06179"
+ , "c1link" : "./qc/apps/enc.c.html#6179"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06179] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07185"
+ , "c1link" : "./qc/apps/enc.c.html#7185"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07185] The expression __cmsg-&gt;cmsg_len applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "07185"
  , "c1link" : "./qc/apps/enc.c.html#7185"
  , "c2" : "BLOCKER"
@@ -202,52 +874,87 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08922"
- , "c1link" : "./qc/apps/enc.c.html#8922"
+   "c1" : "07484"
+ , "c1link" : "./qc/apps/enc.c.html#7484"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08922] The expression (020000000|0200000) is invariable"
+ , "c3" : "QC-CPP000011[07484] The expression __buf applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08922"
- , "c1link" : "./qc/apps/enc.c.html#8922"
+   "c1" : "07484"
+ , "c1link" : "./qc/apps/enc.c.html#7484"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08922] The expression (020000000|0200000) is invariable"
+ , "c3" : "QC-CPP000012[07484] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08955"
- , "c1link" : "./qc/apps/enc.c.html#8955"
+   "c1" : "07486"
+ , "c1link" : "./qc/apps/enc.c.html#7486"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08955] The expression (020000000|0200000) is invariable"
+ , "c3" : "QC-CPP000011[07486] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08955"
- , "c1link" : "./qc/apps/enc.c.html#8955"
+   "c1" : "07489"
+ , "c1link" : "./qc/apps/enc.c.html#7489"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08955] The expression (020000000|0200000) is invariable"
+ , "c3" : "QC-CPP000011[07489] The expression __buf applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17685"
- , "c1link" : "./qc/apps/enc.c.html#17685"
+   "c1" : "07489"
+ , "c1link" : "./qc/apps/enc.c.html#7489"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17685] The expression (( unsigned  int  )0x7fffffff+1) is invariable"
+ , "c3" : "QC-CPP000012[07489] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17692"
- , "c1link" : "./qc/apps/enc.c.html#17692"
+   "c1" : "07515"
+ , "c1link" : "./qc/apps/enc.c.html#7515"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17692] The expression (( unsigned  int  )0x7fffffff+1) is invariable"
+ , "c3" : "QC-CPP000011[07515] The expression __buf applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17699"
- , "c1link" : "./qc/apps/enc.c.html#17699"
+   "c1" : "07515"
+ , "c1link" : "./qc/apps/enc.c.html#7515"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17699] The expression (( unsigned  int  )0x7fffffff+1) is invariable"
+ , "c3" : "QC-CPP000012[07515] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07517"
+ , "c1link" : "./qc/apps/enc.c.html#7517"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07517] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "07520"
+ , "c1link" : "./qc/apps/enc.c.html#7520"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07520] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "07520"
+ , "c1link" : "./qc/apps/enc.c.html#7520"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07520] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08920"
+ , "c1link" : "./qc/apps/enc.c.html#8920"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08920] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08953"
+ , "c1link" : "./qc/apps/enc.c.html#8953"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08953] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -269,6 +976,48 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/enc.c.html#19174"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[19174] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19189"
+ , "c1link" : "./qc/apps/enc.c.html#19189"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19189] The expression argv[0] applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19189"
+ , "c1link" : "./qc/apps/enc.c.html#19189"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19189] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19189"
+ , "c1link" : "./qc/apps/enc.c.html#19189"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19189] The expression 'base64' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19195"
+ , "c1link" : "./qc/apps/enc.c.html#19195"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19195] The expression argv[0] applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19195"
+ , "c1link" : "./qc/apps/enc.c.html#19195"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19195] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19195"
+ , "c1link" : "./qc/apps/enc.c.html#19195"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19195] The expression 'enc' is invariable"
 }} 
 ,
 { "ligne" : {
@@ -314,6 +1063,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19275"
+ , "c1link" : "./qc/apps/enc.c.html#19275"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19275] The expression  ! opt_long(opt_arg(), &amp; n) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19276"
  , "c1link" : "./qc/apps/enc.c.html#19276"
  , "c2" : "BLOCKER"
@@ -349,6 +1105,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19305"
+ , "c1link" : "./qc/apps/enc.c.html#19305"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19305] The expression i applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19305"
+ , "c1link" : "./qc/apps/enc.c.html#19305"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19305] The expression i applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19309"
  , "c1link" : "./qc/apps/enc.c.html#19309"
  , "c2" : "MAJOR"
@@ -356,10 +1126,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19345"
+ , "c1link" : "./qc/apps/enc.c.html#19345"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19345] The expression  ! opt_rand(o) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19346"
  , "c1link" : "./qc/apps/enc.c.html#19346"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19346] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19349"
+ , "c1link" : "./qc/apps/enc.c.html#19349"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19349] The expression  ! opt_provider(o) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -391,10 +1175,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19368"
+ , "c1link" : "./qc/apps/enc.c.html#19368"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19368] The expression  ! opt_cipher(ciphername, &amp; cipher) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19369"
  , "c1link" : "./qc/apps/enc.c.html#19369"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19369] goto statement jump to opthelp"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19376"
+ , "c1link" : "./qc/apps/enc.c.html#19376"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19376] The expression  ! opt_md(digestname, &amp; dgst) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -447,6 +1245,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19433"
+ , "c1link" : "./qc/apps/enc.c.html#19433"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19433] The expression  ! app_passwd(passarg,(( void  *)0), &amp; pass,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19443"
  , "c1link" : "./qc/apps/enc.c.html#19443"
  , "c2" : "MAJOR"
@@ -472,6 +1277,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/enc.c.html#19463"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[19463] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19472"
+ , "c1link" : "./qc/apps/enc.c.html#19472"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19472] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -566,6 +1378,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19557"
+ , "c1link" : "./qc/apps/enc.c.html#19557"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19557] The expression  ! set_hex(hsalt,salt, sizeof (salt)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19559"
  , "c1link" : "./qc/apps/enc.c.html#19559"
  , "c2" : "MAJOR"
@@ -580,6 +1399,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19567"
+ , "c1link" : "./qc/apps/enc.c.html#19567"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19567] The expression salt applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19567"
+ , "c1link" : "./qc/apps/enc.c.html#19567"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19567] The expression  sizeof (salt) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19569"
  , "c1link" : "./qc/apps/enc.c.html#19569"
  , "c2" : "MAJOR"
@@ -587,10 +1420,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19576"
+ , "c1link" : "./qc/apps/enc.c.html#19576"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19576] The expression wbio applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19576"
+ , "c1link" : "./qc/apps/enc.c.html#19576"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19576] The expression magic applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19577"
  , "c1link" : "./qc/apps/enc.c.html#19577"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[19577] The expression magic applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19577"
+ , "c1link" : "./qc/apps/enc.c.html#19577"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19577] The expression magic applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19578"
+ , "c1link" : "./qc/apps/enc.c.html#19578"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19578] The expression wbio applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19579"
+ , "c1link" : "./qc/apps/enc.c.html#19579"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19579] The expression ( char  *)salt applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19580"
+ , "c1link" : "./qc/apps/enc.c.html#19580"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19580] The expression  sizeof (salt) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -611,6 +1486,27 @@ var maDataBlocs = {
    "c1" : "19591"
  , "c1link" : "./qc/apps/enc.c.html#19591"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19591] The expression rbio applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19591"
+ , "c1link" : "./qc/apps/enc.c.html#19591"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19591] The expression mbuf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19591"
+ , "c1link" : "./qc/apps/enc.c.html#19591"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19591] The expression  sizeof (mbuf) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19591"
+ , "c1link" : "./qc/apps/enc.c.html#19591"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[19591] The expression mbuf applies to a single value or variable, might be ambiguous."
 }} 
 ,
@@ -619,6 +1515,48 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/enc.c.html#19593"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19593] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19595"
+ , "c1link" : "./qc/apps/enc.c.html#19595"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19595] The expression mbuf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19595"
+ , "c1link" : "./qc/apps/enc.c.html#19595"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19595] The expression magic applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19595"
+ , "c1link" : "./qc/apps/enc.c.html#19595"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19595] The expression  sizeof (mbuf) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19596"
+ , "c1link" : "./qc/apps/enc.c.html#19596"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19596] The expression rbio applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19596"
+ , "c1link" : "./qc/apps/enc.c.html#19596"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19596] The expression salt applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19597"
+ , "c1link" : "./qc/apps/enc.c.html#19597"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19597] The expression  sizeof (salt) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -643,10 +1581,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19624"
+ , "c1link" : "./qc/apps/enc.c.html#19624"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19624] The expression  ! PKCS5_PBKDF2_HMAC(str,str_len,sptr,islen,iter,dgst,iklen+ivlen,tmpkeyiv) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19627"
  , "c1link" : "./qc/apps/enc.c.html#19627"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19627] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19636"
+ , "c1link" : "./qc/apps/enc.c.html#19636"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19636] The expression  ! EVP_BytesToKey(cipher,dgst,sptr,( unsigned  char  *)str,str_len,1,key,iv) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19638"
+ , "c1link" : "./qc/apps/enc.c.html#19638"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19638] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
@@ -657,6 +1616,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19660"
+ , "c1link" : "./qc/apps/enc.c.html#19660"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19660] The expression  ! set_hex(hiv,iv,siz) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19662"
  , "c1link" : "./qc/apps/enc.c.html#19662"
  , "c2" : "MAJOR"
@@ -664,10 +1630,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19674"
+ , "c1link" : "./qc/apps/enc.c.html#19674"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19674] The expression cipher applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19680"
  , "c1link" : "./qc/apps/enc.c.html#19680"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19680] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19687"
+ , "c1link" : "./qc/apps/enc.c.html#19687"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19687] The expression  ! set_hex(hkey,key,EVP_CIPHER_get_key_length(cipher)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -692,6 +1672,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19709"
+ , "c1link" : "./qc/apps/enc.c.html#19709"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19709] The expression  ! EVP_CipherInit_ex(ctx,cipher,e,(( void  *)0),(( void  *)0),enc) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19721"
  , "c1link" : "./qc/apps/enc.c.html#19721"
  , "c2" : "MAJOR"
@@ -703,6 +1690,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/enc.c.html#19724"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[19724] The expression nopad applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19727"
+ , "c1link" : "./qc/apps/enc.c.html#19727"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19727] The expression  ! EVP_CipherInit_ex(ctx,(( void  *)0),(( void  *)0),key,iv,enc) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -741,6 +1735,34 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19754"
+ , "c1link" : "./qc/apps/enc.c.html#19754"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19754] The expression cipher applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19756"
+ , "c1link" : "./qc/apps/enc.c.html#19756"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19756] The expression cipher applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19760"
+ , "c1link" : "./qc/apps/enc.c.html#19760"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19760] The expression cipher applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19762"
+ , "c1link" : "./qc/apps/enc.c.html#19762"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19762] The expression cipher applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19768"
  , "c1link" : "./qc/apps/enc.c.html#19768"
  , "c2" : "MAJOR"
@@ -748,10 +1770,94 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19781"
+ , "c1link" : "./qc/apps/enc.c.html#19781"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19781] The expression ( int  )BIO_ctrl(rbio,10,0,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19785"
+ , "c1link" : "./qc/apps/enc.c.html#19785"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19785] The expression  ! ( int  )BIO_ctrl(rbio,2,0,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19781"
+ , "c1link" : "./qc/apps/enc.c.html#19781"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19781] The expression 10 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19781"
+ , "c1link" : "./qc/apps/enc.c.html#19781"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19781] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19785"
+ , "c1link" : "./qc/apps/enc.c.html#19785"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19785] The expression 2 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19785"
+ , "c1link" : "./qc/apps/enc.c.html#19785"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19785] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19793"
+ , "c1link" : "./qc/apps/enc.c.html#19793"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19793] The expression wbio applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19793"
+ , "c1link" : "./qc/apps/enc.c.html#19793"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19793] The expression ( char  *)buff applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19793"
+ , "c1link" : "./qc/apps/enc.c.html#19793"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19793] The expression inl applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "19795"
  , "c1link" : "./qc/apps/enc.c.html#19795"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19795] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19798"
+ , "c1link" : "./qc/apps/enc.c.html#19798"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19798] The expression  ! ( int  )BIO_ctrl(wbio,11,0,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19798"
+ , "c1link" : "./qc/apps/enc.c.html#19798"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19798] The expression 11 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19798"
+ , "c1link" : "./qc/apps/enc.c.html#19798"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19798] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -773,6 +1879,48 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/enc.c.html#19833"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[19833] The pointer cipher is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19837"
+ , "c1link" : "./qc/apps/enc.c.html#19837"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19837] The expression  * __ctype_b_loc() applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19837"
+ , "c1link" : "./qc/apps/enc.c.html#19837"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19837] The expression ( int  )((( unsigned  char  )  *  name-&gt;name)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19853"
+ , "c1link" : "./qc/apps/enc.c.html#19853"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19853] The expression cipher applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19854"
+ , "c1link" : "./qc/apps/enc.c.html#19854"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19854] The expression cipher applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19884"
+ , "c1link" : "./qc/apps/enc.c.html#19884"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19884] The expression  * __ctype_b_loc() applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19884"
+ , "c1link" : "./qc/apps/enc.c.html#19884"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19884] The expression ( int  )((j)) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

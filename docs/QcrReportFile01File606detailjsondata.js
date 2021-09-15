@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ripemd/rmd_dgst.c.html" 
- , "texte" : "File crypto/ripemd/rmd_dgst.c 113 rule violations " 
+ , "texte" : "File crypto/ripemd/rmd_dgst.c 155 rule violations " 
  , "fic2"  : "./qc/crypto/ripemd/rmd_dgst.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,14 +56,14 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "10"
+ , "c4" : "38"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "3"
+ , "c4" : "17"
 }}
 ,
 { "ligne" : {
@@ -83,6 +83,69 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
+   "c1" : "00986"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#986"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00986] The expression __s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00986"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#986"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00986] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00988"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#988"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00988] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00991"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#991"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00991] The expression __s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00991"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#991"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00991] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01016"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#1016"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01016] The expression __ptr applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01016"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#1016"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01016] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01018"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#1018"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01018] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01019"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#1019"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01019] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "01020"
  , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#1020"
  , "c2" : "BLOCKER"
@@ -101,6 +164,48 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#1020"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[01020] The expression size_t applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01023"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#1023"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01023] The expression __ptr applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01023"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#1023"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01023] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01048"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#1048"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01048] The expression __ptr applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01048"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#1048"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01048] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01050"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#1050"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01050] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01051"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#1051"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01051] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -125,6 +230,34 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01056"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#1056"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01056] The expression __ptr applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01056"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#1056"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01056] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01062"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#1062"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01062] The expression __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "01063"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#1063"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[01063] The expression __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "01064"
  , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#1064"
  , "c2" : "BLOCKER"
@@ -146,17 +279,185 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01075"
- , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#1075"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01075] The expression ( - 1) is invariable"
-}} 
-,
-{ "ligne" : {
    "c1" : "02105"
  , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#2105"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[02105] The pointer __p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02268"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#2268"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02268] The expression __resolved applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02268"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#2268"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02268] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02295"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#2295"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02295] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02295"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#2295"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02295] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02297"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#2297"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02297] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02299"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#2299"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02299] The expression __buf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02299"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#2299"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02299] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02321"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#2321"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02321] The expression __s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02321"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#2321"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02321] The expression __s applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02321"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#2321"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02321] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02321"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#2321"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02321] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02345"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#2345"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02345] The expression __dst applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02345"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#2345"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02345] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02347"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#2347"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02347] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02351"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#2351"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02351] The expression __dst applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02351"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#2351"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02351] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02376"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#2376"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02376] The expression __dst applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02376"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#2376"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02376] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02378"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#2378"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02378] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02380"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#2380"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02380] The expression __dst applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02380"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#2380"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02380] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02747"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#2747"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02747] The expression __dest applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02748"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#2748"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02748] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02748"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#2748"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[02748] The expression __dest applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "02747"
+ , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#2747"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02747] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
@@ -185,13 +486,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#4683"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[04683] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04689"
- , "c1link" : "./qc/crypto/ripemd/rmd_dgst.c.html#4689"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04689] The expression (64-8) is invariable"
 }} 
 ,
 { "ligne" : {
