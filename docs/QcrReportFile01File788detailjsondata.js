@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/s3_cbc.c.html" 
- , "texte" : "File ssl/s3_cbc.c 99 rule violations " 
+ , "texte" : "File ssl/s3_cbc.c 95 rule violations " 
  , "fic2"  : "./qc/ssl/s3_cbc.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "22"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : {
@@ -237,13 +237,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03460"
- , "c1link" : "./qc/ssl/s3_cbc.c.html#3460"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03460] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "03463"
  , "c1link" : "./qc/ssl/s3_cbc.c.html#3463"
  , "c2" : "BLOCKER"
@@ -272,13 +265,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03492"
- , "c1link" : "./qc/ssl/s3_cbc.c.html#3492"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03492] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "03496"
  , "c1link" : "./qc/ssl/s3_cbc.c.html#3496"
  , "c2" : "BLOCKER"
@@ -297,13 +283,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/s3_cbc.c.html#3504"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[03504] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "03504"
- , "c1link" : "./qc/ssl/s3_cbc.c.html#3504"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03504] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -703,13 +682,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/s3_cbc.c.html#9156"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[09156] The expression  ! is_sslv3 applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09164"
- , "c1link" : "./qc/ssl/s3_cbc.c.html#9164"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09164] The expression hmac_pad applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

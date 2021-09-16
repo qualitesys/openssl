@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/tls13_enc.c.html" 
- , "texte" : "File ssl/tls13_enc.c 153 rule violations " 
+ , "texte" : "File ssl/tls13_enc.c 149 rule violations " 
  , "fic2"  : "./qc/ssl/tls13_enc.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "40"
+ , "c4" : "36"
 }}
 ,
 { "ligne" : {
@@ -209,13 +209,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02792"
- , "c1link" : "./qc/ssl/tls13_enc.c.html#2792"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02792] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02795"
  , "c1link" : "./qc/ssl/tls13_enc.c.html#2795"
  , "c2" : "BLOCKER"
@@ -244,13 +237,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02824"
- , "c1link" : "./qc/ssl/tls13_enc.c.html#2824"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02824] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02828"
  , "c1link" : "./qc/ssl/tls13_enc.c.html#2828"
  , "c2" : "BLOCKER"
@@ -269,13 +255,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/tls13_enc.c.html#2836"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[02836] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02836"
- , "c1link" : "./qc/ssl/tls13_enc.c.html#2836"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02836] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -395,13 +374,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/tls13_enc.c.html#5719"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[05719] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05724"
- , "c1link" : "./qc/ssl/tls13_enc.c.html#5724"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05724] The expression __gid_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

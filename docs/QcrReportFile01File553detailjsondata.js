@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/pem/pem_lib.c.html" 
- , "texte" : "File crypto/pem/pem_lib.c 145 rule violations " 
+ , "texte" : "File crypto/pem/pem_lib.c 140 rule violations " 
  , "fic2"  : "./qc/crypto/pem/pem_lib.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "34"
+ , "c4" : "29"
 }}
 ,
 { "ligne" : {
@@ -125,13 +125,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "00993"
- , "c1link" : "./qc/crypto/pem/pem_lib.c.html#993"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00993] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "00996"
  , "c1link" : "./qc/crypto/pem/pem_lib.c.html#996"
  , "c2" : "BLOCKER"
@@ -160,13 +153,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01025"
- , "c1link" : "./qc/crypto/pem/pem_lib.c.html#1025"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01025] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01029"
  , "c1link" : "./qc/crypto/pem/pem_lib.c.html#1029"
  , "c2" : "BLOCKER"
@@ -185,13 +171,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/pem/pem_lib.c.html#1037"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[01037] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01037"
- , "c1link" : "./qc/crypto/pem/pem_lib.c.html#1037"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01037] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -615,13 +594,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14706"
- , "c1link" : "./qc/crypto/pem/pem_lib.c.html#14706"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14706] The expression buf applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "14712"
  , "c1link" : "./qc/crypto/pem/pem_lib.c.html#14712"
  , "c2" : "MAJOR"
@@ -913,13 +885,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/pem/pem_lib.c.html#15296"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[15296] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15305"
- , "c1link" : "./qc/crypto/pem/pem_lib.c.html#15305"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15305] The expression tailstr applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

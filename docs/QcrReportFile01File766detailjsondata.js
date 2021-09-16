@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/engines/e_loader_attic.c.html" 
- , "texte" : "File engines/e_loader_attic.c 146 rule violations " 
+ , "texte" : "File engines/e_loader_attic.c 141 rule violations " 
  , "fic2"  : "./qc/engines/e_loader_attic.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "35"
+ , "c4" : "30"
 }}
 ,
 { "ligne" : {
@@ -132,13 +132,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01982"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#1982"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01982] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01985"
  , "c1link" : "./qc/engines/e_loader_attic.c.html#1985"
  , "c2" : "BLOCKER"
@@ -167,13 +160,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02014"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#2014"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02014] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02018"
  , "c1link" : "./qc/engines/e_loader_attic.c.html#2018"
  , "c2" : "BLOCKER"
@@ -192,13 +178,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/engines/e_loader_attic.c.html#2026"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[02026] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02026"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#2026"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02026] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -836,20 +815,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/engines/e_loader_attic.c.html#16720"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[16720] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16724"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#16724"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16724] The expression file_handlers applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16724"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#16724"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16724] The expression (file_handlers)[0] applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

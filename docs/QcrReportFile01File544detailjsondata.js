@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/param_build.c.html" 
- , "texte" : "File crypto/param_build.c 45 rule violations " 
+ , "texte" : "File crypto/param_build.c 40 rule violations " 
  , "fic2"  : "./qc/crypto/param_build.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "16"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : {
@@ -118,13 +118,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01586"
- , "c1link" : "./qc/crypto/param_build.c.html#1586"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01586] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01589"
  , "c1link" : "./qc/crypto/param_build.c.html#1589"
  , "c2" : "BLOCKER"
@@ -153,13 +146,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01618"
- , "c1link" : "./qc/crypto/param_build.c.html#1618"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01618] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01622"
  , "c1link" : "./qc/crypto/param_build.c.html#1622"
  , "c2" : "BLOCKER"
@@ -178,13 +164,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/param_build.c.html#1630"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[01630] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01630"
- , "c1link" : "./qc/crypto/param_build.c.html#1630"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01630] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -286,13 +265,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06393"
- , "c1link" : "./qc/crypto/param_build.c.html#6393"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06393] The expression pd-&gt;num applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "06538"
  , "c1link" : "./qc/crypto/param_build.c.html#6538"
  , "c2" : "MAJOR"
@@ -353,13 +325,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/param_build.c.html#6695"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[06695] The expression pd-&gt;secure applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "06728"
- , "c1link" : "./qc/crypto/param_build.c.html#6728"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06728] The expression pd-&gt;num applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/e_camellia.c.html" 
- , "texte" : "File crypto/evp/e_camellia.c 37 rule violations " 
+ , "texte" : "File crypto/evp/e_camellia.c 33 rule violations " 
  , "fic2"  : "./qc/crypto/evp/e_camellia.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "18"
+ , "c4" : "14"
 }}
 ,
 { "ligne" : {
@@ -97,13 +97,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01034"
- , "c1link" : "./qc/crypto/evp/e_camellia.c.html#1034"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01034] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01037"
  , "c1link" : "./qc/crypto/evp/e_camellia.c.html#1037"
  , "c2" : "BLOCKER"
@@ -132,13 +125,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01066"
- , "c1link" : "./qc/crypto/evp/e_camellia.c.html#1066"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01066] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01070"
  , "c1link" : "./qc/crypto/evp/e_camellia.c.html#1070"
  , "c2" : "BLOCKER"
@@ -157,13 +143,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/e_camellia.c.html#1078"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[01078] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01078"
- , "c1link" : "./qc/crypto/evp/e_camellia.c.html#1078"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01078] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -297,13 +276,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/e_camellia.c.html#10009"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[10009] The expression 0x2000 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10018"
- , "c1link" : "./qc/crypto/evp/e_camellia.c.html#10018"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10018] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

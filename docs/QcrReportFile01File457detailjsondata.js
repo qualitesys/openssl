@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/keymgmt_lib.c.html" 
- , "texte" : "File crypto/evp/keymgmt_lib.c 48 rule violations " 
+ , "texte" : "File crypto/evp/keymgmt_lib.c 45 rule violations " 
  , "fic2"  : "./qc/crypto/evp/keymgmt_lib.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "19"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : {
@@ -209,13 +209,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03107"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#3107"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03107] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "03110"
  , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#3110"
  , "c2" : "BLOCKER"
@@ -244,13 +237,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03139"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#3139"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03139] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "03143"
  , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#3143"
  , "c2" : "BLOCKER"
@@ -269,13 +255,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#3151"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[03151] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "03151"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#3151"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03151] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

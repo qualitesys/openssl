@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/dsa/dsa_vrf.c.html" 
- , "texte" : "File crypto/dsa/dsa_vrf.c 30 rule violations " 
+ , "texte" : "File crypto/dsa/dsa_vrf.c 27 rule violations " 
  , "fic2"  : "./qc/crypto/dsa/dsa_vrf.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "13"
+ , "c4" : "10"
 }}
 ,
 { "ligne" : {
@@ -202,13 +202,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03113"
- , "c1link" : "./qc/crypto/dsa/dsa_vrf.c.html#3113"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03113] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "03116"
  , "c1link" : "./qc/crypto/dsa/dsa_vrf.c.html#3116"
  , "c2" : "BLOCKER"
@@ -237,13 +230,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03145"
- , "c1link" : "./qc/crypto/dsa/dsa_vrf.c.html#3145"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03145] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "03149"
  , "c1link" : "./qc/crypto/dsa/dsa_vrf.c.html#3149"
  , "c2" : "BLOCKER"
@@ -262,13 +248,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/dsa/dsa_vrf.c.html#3157"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[03157] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "03157"
- , "c1link" : "./qc/crypto/dsa/dsa_vrf.c.html#3157"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03157] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/uid.c.html" 
- , "texte" : "File crypto/uid.c 59 rule violations " 
+ , "texte" : "File crypto/uid.c 55 rule violations " 
  , "fic2"  : "./qc/crypto/uid.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "22"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : {
@@ -188,13 +188,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02747"
- , "c1link" : "./qc/crypto/uid.c.html#2747"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02747] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02750"
  , "c1link" : "./qc/crypto/uid.c.html#2750"
  , "c2" : "BLOCKER"
@@ -223,13 +216,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02779"
- , "c1link" : "./qc/crypto/uid.c.html#2779"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02779] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02783"
  , "c1link" : "./qc/crypto/uid.c.html#2783"
  , "c2" : "BLOCKER"
@@ -248,13 +234,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/uid.c.html#2791"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[02791] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02791"
- , "c1link" : "./qc/crypto/uid.c.html#2791"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02791] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -374,13 +353,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/uid.c.html#5610"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[05610] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05615"
- , "c1link" : "./qc/crypto/uid.c.html#5615"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05615] The expression __gid_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

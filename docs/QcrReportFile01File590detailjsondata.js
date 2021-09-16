@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/provider_conf.c.html" 
- , "texte" : "File crypto/provider_conf.c 55 rule violations " 
+ , "texte" : "File crypto/provider_conf.c 51 rule violations " 
  , "fic2"  : "./qc/crypto/provider_conf.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "27"
+ , "c4" : "23"
 }}
 ,
 { "ligne" : {
@@ -111,13 +111,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01592"
- , "c1link" : "./qc/crypto/provider_conf.c.html#1592"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01592] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01595"
  , "c1link" : "./qc/crypto/provider_conf.c.html#1595"
  , "c2" : "BLOCKER"
@@ -146,13 +139,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01624"
- , "c1link" : "./qc/crypto/provider_conf.c.html#1624"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01624] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01628"
  , "c1link" : "./qc/crypto/provider_conf.c.html#1628"
  , "c2" : "BLOCKER"
@@ -171,13 +157,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/provider_conf.c.html#1636"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[01636] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01636"
- , "c1link" : "./qc/crypto/provider_conf.c.html#1636"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01636] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -283,13 +262,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/provider_conf.c.html#7199"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[07199] The expression i&lt;OPENSSL_sk_num(ossl_check_const_CONF_VALUE_sk_type(sect)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07202"
- , "c1link" : "./qc/crypto/provider_conf.c.html#7202"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07202] The expression buffer applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

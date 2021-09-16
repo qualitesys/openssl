@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ffc/ffc_params.c.html" 
- , "texte" : "File crypto/ffc/ffc_params.c 104 rule violations " 
+ , "texte" : "File crypto/ffc/ffc_params.c 100 rule violations " 
  , "fic2"  : "./qc/crypto/ffc/ffc_params.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "24"
+ , "c4" : "20"
 }}
 ,
 { "ligne" : {
@@ -125,13 +125,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01962"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#1962"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01962] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01965"
  , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#1965"
  , "c2" : "BLOCKER"
@@ -160,13 +153,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01994"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#1994"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01994] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01998"
  , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#1998"
  , "c2" : "BLOCKER"
@@ -185,13 +171,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#2006"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[02006] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02006"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#2006"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02006] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -409,13 +388,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10329"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[10329] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10334"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10334"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10334] The expression __gid_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

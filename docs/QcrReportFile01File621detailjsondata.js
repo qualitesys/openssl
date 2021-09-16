@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/rsa/rsa_oaep.c.html" 
- , "texte" : "File crypto/rsa/rsa_oaep.c 57 rule violations " 
+ , "texte" : "File crypto/rsa/rsa_oaep.c 54 rule violations " 
  , "fic2"  : "./qc/crypto/rsa/rsa_oaep.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "13"
+ , "c4" : "10"
 }}
 ,
 { "ligne" : {
@@ -230,13 +230,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03232"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#3232"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03232] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "03235"
  , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#3235"
  , "c2" : "BLOCKER"
@@ -265,13 +258,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03264"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#3264"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03264] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "03268"
  , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#3268"
  , "c2" : "BLOCKER"
@@ -290,13 +276,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#3276"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[03276] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "03276"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#3276"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03276] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

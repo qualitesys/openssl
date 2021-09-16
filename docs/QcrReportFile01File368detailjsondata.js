@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/ecdh_kdf.c.html" 
- , "texte" : "File crypto/ec/ecdh_kdf.c 32 rule violations " 
+ , "texte" : "File crypto/ec/ecdh_kdf.c 29 rule violations " 
  , "fic2"  : "./qc/crypto/ec/ecdh_kdf.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "13"
+ , "c4" : "10"
 }}
 ,
 { "ligne" : {
@@ -118,13 +118,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02211"
- , "c1link" : "./qc/crypto/ec/ecdh_kdf.c.html#2211"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02211] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02214"
  , "c1link" : "./qc/crypto/ec/ecdh_kdf.c.html#2214"
  , "c2" : "BLOCKER"
@@ -153,13 +146,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02243"
- , "c1link" : "./qc/crypto/ec/ecdh_kdf.c.html#2243"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02243] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02247"
  , "c1link" : "./qc/crypto/ec/ecdh_kdf.c.html#2247"
  , "c2" : "BLOCKER"
@@ -178,13 +164,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ecdh_kdf.c.html#2255"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[02255] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02255"
- , "c1link" : "./qc/crypto/ec/ecdh_kdf.c.html#2255"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02255] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

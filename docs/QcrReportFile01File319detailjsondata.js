@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/dh/dh_kdf.c.html" 
- , "texte" : "File crypto/dh/dh_kdf.c 64 rule violations " 
+ , "texte" : "File crypto/dh/dh_kdf.c 60 rule violations " 
  , "fic2"  : "./qc/crypto/dh/dh_kdf.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "23"
+ , "c4" : "19"
 }}
 ,
 { "ligne" : {
@@ -202,13 +202,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02798"
- , "c1link" : "./qc/crypto/dh/dh_kdf.c.html#2798"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02798] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02801"
  , "c1link" : "./qc/crypto/dh/dh_kdf.c.html#2801"
  , "c2" : "BLOCKER"
@@ -237,13 +230,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02830"
- , "c1link" : "./qc/crypto/dh/dh_kdf.c.html#2830"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02830] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02834"
  , "c1link" : "./qc/crypto/dh/dh_kdf.c.html#2834"
  , "c2" : "BLOCKER"
@@ -262,13 +248,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/dh/dh_kdf.c.html#2842"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[02842] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02842"
- , "c1link" : "./qc/crypto/dh/dh_kdf.c.html#2842"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02842] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -388,13 +367,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/dh/dh_kdf.c.html#5725"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[05725] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05730"
- , "c1link" : "./qc/crypto/dh/dh_kdf.c.html#5730"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05730] The expression __gid_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

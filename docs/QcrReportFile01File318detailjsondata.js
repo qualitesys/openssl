@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/dh/dh_group_params.c.html" 
- , "texte" : "File crypto/dh/dh_group_params.c 65 rule violations " 
+ , "texte" : "File crypto/dh/dh_group_params.c 61 rule violations " 
  , "fic2"  : "./qc/crypto/dh/dh_group_params.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "23"
+ , "c4" : "19"
 }}
 ,
 { "ligne" : {
@@ -104,13 +104,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01020"
- , "c1link" : "./qc/crypto/dh/dh_group_params.c.html#1020"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01020] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01023"
  , "c1link" : "./qc/crypto/dh/dh_group_params.c.html#1023"
  , "c2" : "BLOCKER"
@@ -139,13 +132,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01052"
- , "c1link" : "./qc/crypto/dh/dh_group_params.c.html#1052"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01052] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01056"
  , "c1link" : "./qc/crypto/dh/dh_group_params.c.html#1056"
  , "c2" : "BLOCKER"
@@ -164,13 +150,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/dh/dh_group_params.c.html#1064"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[01064] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01064"
- , "c1link" : "./qc/crypto/dh/dh_group_params.c.html#1064"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01064] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -395,13 +374,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/dh/dh_group_params.c.html#10579"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[10579] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10584"
- , "c1link" : "./qc/crypto/dh/dh_group_params.c.html#10584"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10584] The expression __gid_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/statem/statem.c.html" 
- , "texte" : "File ssl/statem/statem.c 148 rule violations " 
+ , "texte" : "File ssl/statem/statem.c 144 rule violations " 
  , "fic2"  : "./qc/ssl/statem/statem.c.xml" 
  , "fic3"  : "" 
 }
@@ -63,7 +63,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "59"
+ , "c4" : "55"
 }}
 ,
 { "ligne" : {
@@ -244,13 +244,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03103"
- , "c1link" : "./qc/ssl/statem/statem.c.html#3103"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03103] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "03106"
  , "c1link" : "./qc/ssl/statem/statem.c.html#3106"
  , "c2" : "BLOCKER"
@@ -279,13 +272,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03135"
- , "c1link" : "./qc/ssl/statem/statem.c.html#3135"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03135] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "03139"
  , "c1link" : "./qc/ssl/statem/statem.c.html#3139"
  , "c2" : "BLOCKER"
@@ -304,13 +290,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/statem.c.html#3147"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[03147] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "03147"
- , "c1link" : "./qc/ssl/statem/statem.c.html#3147"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03147] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -430,13 +409,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/statem.c.html#10028"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[10028] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10033"
- , "c1link" : "./qc/ssl/statem/statem.c.html#10033"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10033] The expression __gid_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

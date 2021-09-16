@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/pmeth_lib.c.html" 
- , "texte" : "File crypto/evp/pmeth_lib.c 107 rule violations " 
+ , "texte" : "File crypto/evp/pmeth_lib.c 102 rule violations " 
  , "fic2"  : "./qc/crypto/evp/pmeth_lib.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "51"
+ , "c4" : "46"
 }}
 ,
 { "ligne" : {
@@ -118,13 +118,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01020"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#1020"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01020] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01023"
  , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#1023"
  , "c2" : "BLOCKER"
@@ -153,13 +146,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01052"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#1052"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01052] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01056"
  , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#1056"
  , "c2" : "BLOCKER"
@@ -178,13 +164,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#1064"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[01064] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01064"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#1064"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01064] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -521,20 +500,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#16819"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[16819] The expression app_pkey_methods applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16826"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#16826"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16826] The expression standard_methods applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16826"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#16826"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16826] The expression (standard_methods)[0] applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

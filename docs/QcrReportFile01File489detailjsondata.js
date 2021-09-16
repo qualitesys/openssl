@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ffc/ffc_dh.c.html" 
- , "texte" : "File crypto/ffc/ffc_dh.c 66 rule violations " 
+ , "texte" : "File crypto/ffc/ffc_dh.c 56 rule violations " 
  , "fic2"  : "./qc/crypto/ffc/ffc_dh.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "28"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : {
@@ -97,13 +97,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01578"
- , "c1link" : "./qc/crypto/ffc/ffc_dh.c.html#1578"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01578] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01581"
  , "c1link" : "./qc/crypto/ffc/ffc_dh.c.html#1581"
  , "c2" : "BLOCKER"
@@ -132,13 +125,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01610"
- , "c1link" : "./qc/crypto/ffc/ffc_dh.c.html#1610"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01610] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01614"
  , "c1link" : "./qc/crypto/ffc/ffc_dh.c.html#1614"
  , "c2" : "BLOCKER"
@@ -157,13 +143,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ffc/ffc_dh.c.html#1622"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[01622] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01622"
- , "c1link" : "./qc/crypto/ffc/ffc_dh.c.html#1622"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01622] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -387,13 +366,6 @@ var maDataBlocs = {
    "c1" : "09583"
  , "c1link" : "./qc/crypto/ffc/ffc_dh.c.html#9583"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09583] The expression __gid_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09583"
- , "c1link" : "./qc/crypto/ffc/ffc_dh.c.html#9583"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[09583] The expression 2&gt;1 is invariable"
 }} 
 ,
@@ -479,48 +451,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ffc/ffc_dh.c.html#9691"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[09691] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09847"
- , "c1link" : "./qc/crypto/ffc/ffc_dh.c.html#9847"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09847] The expression dh_named_groups applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09847"
- , "c1link" : "./qc/crypto/ffc/ffc_dh.c.html#9847"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09847] The expression (dh_named_groups)[0] applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09862"
- , "c1link" : "./qc/crypto/ffc/ffc_dh.c.html#9862"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09862] The expression dh_named_groups applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09862"
- , "c1link" : "./qc/crypto/ffc/ffc_dh.c.html#9862"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09862] The expression (dh_named_groups)[0] applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09880"
- , "c1link" : "./qc/crypto/ffc/ffc_dh.c.html#9880"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09880] The expression dh_named_groups applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09880"
- , "c1link" : "./qc/crypto/ffc/ffc_dh.c.html#9880"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09880] The expression (dh_named_groups)[0] applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

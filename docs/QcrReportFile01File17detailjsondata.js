@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/fipsinstall.c.html" 
- , "texte" : "File apps/fipsinstall.c 174 rule violations " 
+ , "texte" : "File apps/fipsinstall.c 168 rule violations " 
  , "fic2"  : "./qc/apps/fipsinstall.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "40"
+ , "c4" : "34"
 }}
 ,
 { "ligne" : {
@@ -146,13 +146,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01402"
- , "c1link" : "./qc/apps/fipsinstall.c.html#1402"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01402] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01405"
  , "c1link" : "./qc/apps/fipsinstall.c.html#1405"
  , "c2" : "BLOCKER"
@@ -181,13 +174,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01434"
- , "c1link" : "./qc/apps/fipsinstall.c.html#1434"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01434] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01438"
  , "c1link" : "./qc/apps/fipsinstall.c.html#1438"
  , "c2" : "BLOCKER"
@@ -206,13 +192,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/fipsinstall.c.html#1446"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[01446] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01446"
- , "c1link" : "./qc/apps/fipsinstall.c.html#1446"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01446] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -436,13 +415,6 @@ var maDataBlocs = {
    "c1" : "09851"
  , "c1link" : "./qc/apps/fipsinstall.c.html#9851"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09851] The expression __gid_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09851"
- , "c1link" : "./qc/apps/fipsinstall.c.html#9851"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[09851] The expression 2&gt;1 is invariable"
 }} 
 ,
@@ -535,20 +507,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/fipsinstall.c.html#10965"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[10965] The expression __cmsg-&gt;cmsg_len applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "10965"
- , "c1link" : "./qc/apps/fipsinstall.c.html#10965"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10965] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "10965"
- , "c1link" : "./qc/apps/fipsinstall.c.html#10965"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10965] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/cms/cms_att.c.html" 
- , "texte" : "File crypto/cms/cms_att.c 34 rule violations " 
+ , "texte" : "File crypto/cms/cms_att.c 29 rule violations " 
  , "fic2"  : "./qc/crypto/cms/cms_att.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "15"
+ , "c4" : "10"
 }}
 ,
 { "ligne" : {
@@ -97,13 +97,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01543"
- , "c1link" : "./qc/crypto/cms/cms_att.c.html#1543"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01543] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01546"
  , "c1link" : "./qc/crypto/cms/cms_att.c.html#1546"
  , "c2" : "BLOCKER"
@@ -132,13 +125,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01575"
- , "c1link" : "./qc/crypto/cms/cms_att.c.html#1575"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01575] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01579"
  , "c1link" : "./qc/crypto/cms/cms_att.c.html#1579"
  , "c2" : "BLOCKER"
@@ -157,13 +143,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/cms/cms_att.c.html#1587"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[01587] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01587"
- , "c1link" : "./qc/crypto/cms/cms_att.c.html#1587"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01587] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -269,20 +248,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/cms/cms_att.c.html#14006"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[14006] The expression have_attrs applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14020"
- , "c1link" : "./qc/crypto/cms/cms_att.c.html#14020"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14020] The expression cms_attribute_properties applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14020"
- , "c1link" : "./qc/crypto/cms/cms_att.c.html#14020"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14020] The expression (cms_attribute_properties)[0] applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

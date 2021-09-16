@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/openssl.c.html" 
- , "texte" : "File apps/openssl.c 92 rule violations " 
+ , "texte" : "File apps/openssl.c 86 rule violations " 
  , "fic2"  : "./qc/apps/openssl.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "30"
+ , "c4" : "24"
 }}
 ,
 { "ligne" : {
@@ -111,13 +111,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "00993"
- , "c1link" : "./qc/apps/openssl.c.html#993"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00993] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "00996"
  , "c1link" : "./qc/apps/openssl.c.html#996"
  , "c2" : "BLOCKER"
@@ -146,13 +139,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01025"
- , "c1link" : "./qc/apps/openssl.c.html#1025"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01025] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01029"
  , "c1link" : "./qc/apps/openssl.c.html#1029"
  , "c2" : "BLOCKER"
@@ -171,13 +157,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/openssl.c.html#1037"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[01037] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01037"
- , "c1link" : "./qc/apps/openssl.c.html#1037"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01037] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -408,13 +387,6 @@ var maDataBlocs = {
    "c1" : "16927"
  , "c1link" : "./qc/apps/openssl.c.html#16927"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16927] The expression __gid_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16927"
- , "c1link" : "./qc/apps/openssl.c.html#16927"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[16927] The expression 2&gt;1 is invariable"
 }} 
 ,
@@ -507,20 +479,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/openssl.c.html#18041"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[18041] The expression __cmsg-&gt;cmsg_len applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "18041"
- , "c1link" : "./qc/apps/openssl.c.html#18041"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18041] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "18041"
- , "c1link" : "./qc/apps/openssl.c.html#18041"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18041] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

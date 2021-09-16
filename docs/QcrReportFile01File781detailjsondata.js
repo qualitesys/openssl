@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/record/dtls1_bitmap.c.html" 
- , "texte" : "File ssl/record/dtls1_bitmap.c 103 rule violations " 
+ , "texte" : "File ssl/record/dtls1_bitmap.c 96 rule violations " 
  , "fic2"  : "./qc/ssl/record/dtls1_bitmap.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "36"
+ , "c4" : "29"
 }}
 ,
 { "ligne" : {
@@ -209,13 +209,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02791"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#2791"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02791] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02794"
  , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#2794"
  , "c2" : "BLOCKER"
@@ -244,13 +237,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02823"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#2823"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02823] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02827"
  , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#2827"
  , "c2" : "BLOCKER"
@@ -269,13 +255,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#2835"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[02835] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02835"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#2835"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02835] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -395,13 +374,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#5718"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[05718] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05723"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#5723"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05723] The expression __gid_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -769,31 +741,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19963"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#19963"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19963] The expression bitmap-&gt;map applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "19976"
  , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#19976"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[19976] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19981"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#19981"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19981] The expression bitmap-&gt;map applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19988"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#19988"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19988] The expression bitmap-&gt;map applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

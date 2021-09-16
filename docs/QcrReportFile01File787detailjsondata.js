@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/record/tls_pad.c.html" 
- , "texte" : "File ssl/record/tls_pad.c 39 rule violations " 
+ , "texte" : "File ssl/record/tls_pad.c 36 rule violations " 
  , "fic2"  : "./qc/ssl/record/tls_pad.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "14"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : {
@@ -202,13 +202,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02862"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#2862"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02862] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02865"
  , "c1link" : "./qc/ssl/record/tls_pad.c.html#2865"
  , "c2" : "BLOCKER"
@@ -237,13 +230,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02894"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#2894"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02894] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02898"
  , "c1link" : "./qc/ssl/record/tls_pad.c.html#2898"
  , "c2" : "BLOCKER"
@@ -262,13 +248,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/record/tls_pad.c.html#2906"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[02906] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02906"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#2906"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02906] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

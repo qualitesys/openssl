@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/engines/e_afalg.c.html" 
- , "texte" : "File engines/e_afalg.c 148 rule violations " 
+ , "texte" : "File engines/e_afalg.c 137 rule violations " 
  , "fic2"  : "./qc/engines/e_afalg.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "45"
+ , "c4" : "34"
 }}
 ,
 { "ligne" : {
@@ -139,13 +139,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01221"
- , "c1link" : "./qc/engines/e_afalg.c.html#1221"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01221] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01224"
  , "c1link" : "./qc/engines/e_afalg.c.html#1224"
  , "c2" : "BLOCKER"
@@ -188,13 +181,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01282"
- , "c1link" : "./qc/engines/e_afalg.c.html#1282"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01282] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01286"
  , "c1link" : "./qc/engines/e_afalg.c.html#1286"
  , "c2" : "BLOCKER"
@@ -213,13 +199,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/engines/e_afalg.c.html#1294"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[01294] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01294"
- , "c1link" : "./qc/engines/e_afalg.c.html#1294"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01294] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -395,13 +374,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/engines/e_afalg.c.html#3391"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03391] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03396"
- , "c1link" : "./qc/engines/e_afalg.c.html#3396"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03396] The expression __gid_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -601,20 +573,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "16519"
- , "c1link" : "./qc/engines/e_afalg.c.html#16519"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16519] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16519"
- , "c1link" : "./qc/engines/e_afalg.c.html#16519"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16519] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "16891"
  , "c1link" : "./qc/engines/e_afalg.c.html#16891"
  , "c2" : "BLOCKER"
@@ -682,13 +640,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/engines/e_afalg.c.html#18099"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[18099] The expression error_loaded applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "18217"
- , "c1link" : "./qc/engines/e_afalg.c.html#18217"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18217] The expression  * timeout applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1056,20 +1007,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19168"
- , "c1link" : "./qc/engines/e_afalg.c.html#19168"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19168] The expression afalg_cipher_nids applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19168"
- , "c1link" : "./qc/engines/e_afalg.c.html#19168"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19168] The expression (afalg_cipher_nids)[0] applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "19190"
  , "c1link" : "./qc/engines/e_afalg.c.html#19190"
  , "c2" : "BLOCKER"
@@ -1123,20 +1060,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/engines/e_afalg.c.html#19249"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[19249] The expression (kver[2]) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19326"
- , "c1link" : "./qc/engines/e_afalg.c.html#19326"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19326] The expression afalg_cipher_nids applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19326"
- , "c1link" : "./qc/engines/e_afalg.c.html#19326"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19326] The expression (afalg_cipher_nids)[0] applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

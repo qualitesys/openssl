@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ocsp/ocsp_vfy.c.html" 
- , "texte" : "File crypto/ocsp/ocsp_vfy.c 92 rule violations " 
+ , "texte" : "File crypto/ocsp/ocsp_vfy.c 89 rule violations " 
  , "fic2"  : "./qc/crypto/ocsp/ocsp_vfy.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "20"
+ , "c4" : "17"
 }}
 ,
 { "ligne" : {
@@ -132,13 +132,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01602"
- , "c1link" : "./qc/crypto/ocsp/ocsp_vfy.c.html#1602"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01602] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01605"
  , "c1link" : "./qc/crypto/ocsp/ocsp_vfy.c.html#1605"
  , "c2" : "BLOCKER"
@@ -167,13 +160,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01634"
- , "c1link" : "./qc/crypto/ocsp/ocsp_vfy.c.html#1634"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01634] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01638"
  , "c1link" : "./qc/crypto/ocsp/ocsp_vfy.c.html#1638"
  , "c2" : "BLOCKER"
@@ -192,13 +178,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ocsp/ocsp_vfy.c.html#1646"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[01646] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01646"
- , "c1link" : "./qc/crypto/ocsp/ocsp_vfy.c.html#1646"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01646] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

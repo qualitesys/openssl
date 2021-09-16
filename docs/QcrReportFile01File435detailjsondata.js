@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/e_rc4_hmac_md5.c.html" 
- , "texte" : "File crypto/evp/e_rc4_hmac_md5.c 34 rule violations " 
+ , "texte" : "File crypto/evp/e_rc4_hmac_md5.c 28 rule violations " 
  , "fic2"  : "./qc/crypto/evp/e_rc4_hmac_md5.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "16"
+ , "c4" : "10"
 }}
 ,
 { "ligne" : {
@@ -202,13 +202,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03113"
- , "c1link" : "./qc/crypto/evp/e_rc4_hmac_md5.c.html#3113"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03113] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "03116"
  , "c1link" : "./qc/crypto/evp/e_rc4_hmac_md5.c.html#3116"
  , "c2" : "BLOCKER"
@@ -237,13 +230,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03145"
- , "c1link" : "./qc/crypto/evp/e_rc4_hmac_md5.c.html#3145"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03145] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "03149"
  , "c1link" : "./qc/crypto/evp/e_rc4_hmac_md5.c.html#3149"
  , "c2" : "BLOCKER"
@@ -265,38 +251,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03157"
- , "c1link" : "./qc/crypto/evp/e_rc4_hmac_md5.c.html#3157"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03157] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "09462"
  , "c1link" : "./qc/crypto/evp/e_rc4_hmac_md5.c.html#9462"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[09462] The expression 16 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09487"
- , "c1link" : "./qc/crypto/evp/e_rc4_hmac_md5.c.html#9487"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09487] The expression hmac_key applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09495"
- , "c1link" : "./qc/crypto/evp/e_rc4_hmac_md5.c.html#9495"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09495] The expression hmac_key applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09500"
- , "c1link" : "./qc/crypto/evp/e_rc4_hmac_md5.c.html#9500"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09500] The expression hmac_key applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

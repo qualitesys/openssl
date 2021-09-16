@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/ec_curve.c.html" 
- , "texte" : "File crypto/ec/ec_curve.c 79 rule violations " 
+ , "texte" : "File crypto/ec/ec_curve.c 72 rule violations " 
  , "fic2"  : "./qc/crypto/ec/ec_curve.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "19"
+ , "c4" : "12"
 }}
 ,
 { "ligne" : {
@@ -223,13 +223,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03446"
- , "c1link" : "./qc/crypto/ec/ec_curve.c.html#3446"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03446] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "03449"
  , "c1link" : "./qc/crypto/ec/ec_curve.c.html#3449"
  , "c2" : "BLOCKER"
@@ -258,13 +251,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03478"
- , "c1link" : "./qc/crypto/ec/ec_curve.c.html#3478"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03478] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "03482"
  , "c1link" : "./qc/crypto/ec/ec_curve.c.html#3482"
  , "c2" : "BLOCKER"
@@ -283,27 +269,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ec_curve.c.html#3490"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[03490] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "03490"
- , "c1link" : "./qc/crypto/ec/ec_curve.c.html#3490"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03490] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "13090"
- , "c1link" : "./qc/crypto/ec/ec_curve.c.html#13090"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13090] The expression curve_list applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "13090"
- , "c1link" : "./qc/crypto/ec/ec_curve.c.html#13090"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13090] The expression (curve_list)[0] applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -612,20 +577,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ec_curve.c.html#13591"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[13591] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13594"
- , "c1link" : "./qc/crypto/ec/ec_curve.c.html#13594"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13594] The expression curve_list applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "13594"
- , "c1link" : "./qc/crypto/ec/ec_curve.c.html#13594"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13594] The expression (curve_list)[0] applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

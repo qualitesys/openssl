@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/s_server.c.html" 
- , "texte" : "File apps/s_server.c 465 rule violations " 
+ , "texte" : "File apps/s_server.c 456 rule violations " 
  , "fic2"  : "./qc/apps/s_server.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "150"
+ , "c4" : "141"
 }}
 ,
 { "ligne" : {
@@ -139,13 +139,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01128"
- , "c1link" : "./qc/apps/s_server.c.html#1128"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01128] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01131"
  , "c1link" : "./qc/apps/s_server.c.html#1131"
  , "c2" : "BLOCKER"
@@ -174,13 +167,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01160"
- , "c1link" : "./qc/apps/s_server.c.html#1160"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01160] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01164"
  , "c1link" : "./qc/apps/s_server.c.html#1164"
  , "c2" : "BLOCKER"
@@ -199,13 +185,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/s_server.c.html#1172"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[01172] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01172"
- , "c1link" : "./qc/apps/s_server.c.html#1172"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01172] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -436,13 +415,6 @@ var maDataBlocs = {
    "c1" : "16413"
  , "c1link" : "./qc/apps/s_server.c.html#16413"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16413] The expression __gid_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16413"
- , "c1link" : "./qc/apps/s_server.c.html#16413"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[16413] The expression 2&gt;1 is invariable"
 }} 
 ,
@@ -535,20 +507,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/s_server.c.html#17527"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[17527] The expression __cmsg-&gt;cmsg_len applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "17527"
- , "c1link" : "./qc/apps/s_server.c.html#17527"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17527] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "17527"
- , "c1link" : "./qc/apps/s_server.c.html#17527"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17527] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -2239,24 +2197,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "24429"
- , "c1link" : "./qc/apps/s_server.c.html#24429"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[24429] The expression __fd_mask applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "24446"
  , "c1link" : "./qc/apps/s_server.c.html#24446"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[24446] The expression s applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "24448"
- , "c1link" : "./qc/apps/s_server.c.html#24448"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[24448] The expression __fd_mask applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -2866,13 +2810,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/s_server.c.html#25196"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[25196] The expression s applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "25198"
- , "c1link" : "./qc/apps/s_server.c.html#25198"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[25198] The expression __fd_mask applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

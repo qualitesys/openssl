@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/ssl_cert.c.html" 
- , "texte" : "File ssl/ssl_cert.c 197 rule violations " 
+ , "texte" : "File ssl/ssl_cert.c 185 rule violations " 
  , "fic2"  : "./qc/ssl/ssl_cert.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "79"
+ , "c4" : "67"
 }}
 ,
 { "ligne" : {
@@ -125,13 +125,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "00993"
- , "c1link" : "./qc/ssl/ssl_cert.c.html#993"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00993] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "00996"
  , "c1link" : "./qc/ssl/ssl_cert.c.html#996"
  , "c2" : "BLOCKER"
@@ -160,13 +153,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01025"
- , "c1link" : "./qc/ssl/ssl_cert.c.html#1025"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01025] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01029"
  , "c1link" : "./qc/ssl/ssl_cert.c.html#1029"
  , "c2" : "BLOCKER"
@@ -185,13 +171,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_cert.c.html#1037"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[01037] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01037"
- , "c1link" : "./qc/ssl/ssl_cert.c.html#1037"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01037] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -402,13 +381,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_cert.c.html#14525"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[14525] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14530"
- , "c1link" : "./qc/ssl/ssl_cert.c.html#14530"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14530] The expression __gid_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1182,24 +1154,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "21268"
- , "c1link" : "./qc/ssl/ssl_cert.c.html#21268"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21268] The expression buf applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "21274"
  , "c1link" : "./qc/ssl/ssl_cert.c.html#21274"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[21274] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21281"
- , "c1link" : "./qc/ssl/ssl_cert.c.html#21281"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21281] The expression buf applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1424,48 +1382,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_cert.c.html#21686"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[21686] The expression (nid) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "21729"
- , "c1link" : "./qc/ssl/ssl_cert.c.html#21729"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21729] The expression ssl_cert_info applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "21729"
- , "c1link" : "./qc/ssl/ssl_cert.c.html#21729"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21729] The expression (ssl_cert_info)[0] applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "21743"
- , "c1link" : "./qc/ssl/ssl_cert.c.html#21743"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21743] The expression ssl_cert_info applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "21743"
- , "c1link" : "./qc/ssl/ssl_cert.c.html#21743"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21743] The expression (ssl_cert_info)[0] applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "21767"
- , "c1link" : "./qc/ssl/ssl_cert.c.html#21767"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21767] The expression ssl_cert_info applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "21767"
- , "c1link" : "./qc/ssl/ssl_cert.c.html#21767"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21767] The expression (ssl_cert_info)[0] applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

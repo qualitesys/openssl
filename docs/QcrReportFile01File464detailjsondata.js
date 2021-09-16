@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/legacy_ripemd.c.html" 
- , "texte" : "File crypto/evp/legacy_ripemd.c 29 rule violations " 
+ , "texte" : "File crypto/evp/legacy_ripemd.c 26 rule violations " 
  , "fic2"  : "./qc/crypto/evp/legacy_ripemd.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "12"
+ , "c4" : "9"
 }}
 ,
 { "ligne" : {
@@ -97,13 +97,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01259"
- , "c1link" : "./qc/crypto/evp/legacy_ripemd.c.html#1259"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01259] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01262"
  , "c1link" : "./qc/crypto/evp/legacy_ripemd.c.html#1262"
  , "c2" : "BLOCKER"
@@ -132,13 +125,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01291"
- , "c1link" : "./qc/crypto/evp/legacy_ripemd.c.html#1291"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01291] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01295"
  , "c1link" : "./qc/crypto/evp/legacy_ripemd.c.html#1295"
  , "c2" : "BLOCKER"
@@ -157,13 +143,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/legacy_ripemd.c.html#1303"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[01303] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01303"
- , "c1link" : "./qc/crypto/evp/legacy_ripemd.c.html#1303"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01303] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

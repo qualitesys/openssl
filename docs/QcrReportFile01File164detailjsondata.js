@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bio/bio_print.c.html" 
- , "texte" : "File crypto/bio/bio_print.c 82 rule violations " 
+ , "texte" : "File crypto/bio/bio_print.c 73 rule violations " 
  , "fic2"  : "./qc/crypto/bio/bio_print.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "33"
+ , "c4" : "24"
 }}
 ,
 { "ligne" : {
@@ -111,13 +111,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "00993"
- , "c1link" : "./qc/crypto/bio/bio_print.c.html#993"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00993] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "00996"
  , "c1link" : "./qc/crypto/bio/bio_print.c.html#996"
  , "c2" : "BLOCKER"
@@ -146,13 +139,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01025"
- , "c1link" : "./qc/crypto/bio/bio_print.c.html#1025"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01025] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01029"
  , "c1link" : "./qc/crypto/bio/bio_print.c.html#1029"
  , "c2" : "BLOCKER"
@@ -171,13 +157,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bio/bio_print.c.html#1037"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[01037] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01037"
- , "c1link" : "./qc/crypto/bio/bio_print.c.html#1037"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01037] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -447,20 +426,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06802"
- , "c1link" : "./qc/crypto/bio/bio_print.c.html#6802"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06802] The expression convert applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "06803"
- , "c1link" : "./qc/crypto/bio/bio_print.c.html#6803"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06803] The expression convert applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "06823"
  , "c1link" : "./qc/crypto/bio/bio_print.c.html#6823"
  , "c2" : "BLOCKER"
@@ -514,34 +479,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bio/bio_print.c.html#7025"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[07025] The expression intpart applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07025"
- , "c1link" : "./qc/crypto/bio/bio_print.c.html#7025"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07025] The expression iconvert applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07026"
- , "c1link" : "./qc/crypto/bio/bio_print.c.html#7026"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07026] The expression iconvert applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07044"
- , "c1link" : "./qc/crypto/bio/bio_print.c.html#7044"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07044] The expression fconvert applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07059"
- , "c1link" : "./qc/crypto/bio/bio_print.c.html#7059"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07059] The expression econvert applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

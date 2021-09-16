@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/statem/statem_clnt.c.html" 
- , "texte" : "File ssl/statem/statem_clnt.c 414 rule violations " 
+ , "texte" : "File ssl/statem/statem_clnt.c 406 rule violations " 
  , "fic2"  : "./qc/ssl/statem/statem_clnt.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "84"
+ , "c4" : "76"
 }}
 ,
 { "ligne" : {
@@ -118,13 +118,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "00993"
- , "c1link" : "./qc/ssl/statem/statem_clnt.c.html#993"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00993] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "00996"
  , "c1link" : "./qc/ssl/statem/statem_clnt.c.html#996"
  , "c2" : "BLOCKER"
@@ -153,13 +146,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01025"
- , "c1link" : "./qc/ssl/statem/statem_clnt.c.html#1025"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01025] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01029"
  , "c1link" : "./qc/ssl/statem/statem_clnt.c.html#1029"
  , "c2" : "BLOCKER"
@@ -178,13 +164,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/statem_clnt.c.html#1037"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[01037] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01037"
- , "c1link" : "./qc/ssl/statem/statem_clnt.c.html#1037"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01037] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -402,13 +381,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/statem_clnt.c.html#5716"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[05716] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05721"
- , "c1link" : "./qc/ssl/statem/statem_clnt.c.html#5721"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05721] The expression __gid_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -881,13 +853,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "22111"
- , "c1link" : "./qc/ssl/statem/statem_clnt.c.html#22111"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22111] The expression s-&gt;s3.client_random applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "22112"
  , "c1link" : "./qc/ssl/statem/statem_clnt.c.html#22112"
  , "c2" : "BLOCKER"
@@ -941,13 +906,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/statem_clnt.c.html#22174"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[22174] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22188"
- , "c1link" : "./qc/ssl/statem/statem_clnt.c.html#22188"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22188] The expression s-&gt;d1-&gt;cookie applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1018,13 +976,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/statem_clnt.c.html#22278"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[22278] The expression 2 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22289"
- , "c1link" : "./qc/ssl/statem/statem_clnt.c.html#22289"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22289] The expression s-&gt;d1-&gt;cookie applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1130,13 +1081,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/statem_clnt.c.html#22477"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[22477] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22480"
- , "c1link" : "./qc/ssl/statem/statem_clnt.c.html#22480"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22480] The expression s-&gt;session-&gt;session_id applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

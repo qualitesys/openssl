@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/modes/ccm128.c.html" 
- , "texte" : "File crypto/modes/ccm128.c 60 rule violations " 
+ , "texte" : "File crypto/modes/ccm128.c 54 rule violations " 
  , "fic2"  : "./qc/crypto/modes/ccm128.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "29"
+ , "c4" : "23"
 }}
 ,
 { "ligne" : {
@@ -209,13 +209,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03097"
- , "c1link" : "./qc/crypto/modes/ccm128.c.html#3097"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03097] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "03100"
  , "c1link" : "./qc/crypto/modes/ccm128.c.html#3100"
  , "c2" : "BLOCKER"
@@ -244,13 +237,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03129"
- , "c1link" : "./qc/crypto/modes/ccm128.c.html#3129"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03129] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "03133"
  , "c1link" : "./qc/crypto/modes/ccm128.c.html#3133"
  , "c2" : "BLOCKER"
@@ -269,34 +255,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/modes/ccm128.c.html#3141"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[03141] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "03141"
- , "c1link" : "./qc/crypto/modes/ccm128.c.html#3141"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03141] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "04927"
- , "c1link" : "./qc/crypto/modes/ccm128.c.html#4927"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04927] The expression mlen applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "04963"
- , "c1link" : "./qc/crypto/modes/ccm128.c.html#4963"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04963] The expression alen applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "04964"
- , "c1link" : "./qc/crypto/modes/ccm128.c.html#4964"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04964] The expression alen applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

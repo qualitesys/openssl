@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/threads_pthread.c.html" 
- , "texte" : "File crypto/threads_pthread.c 63 rule violations " 
+ , "texte" : "File crypto/threads_pthread.c 59 rule violations " 
  , "fic2"  : "./qc/crypto/threads_pthread.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "23"
+ , "c4" : "19"
 }}
 ,
 { "ligne" : {
@@ -195,13 +195,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02747"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#2747"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02747] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02750"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#2750"
  , "c2" : "BLOCKER"
@@ -230,13 +223,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02779"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#2779"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02779] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02783"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#2783"
  , "c2" : "BLOCKER"
@@ -255,13 +241,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/threads_pthread.c.html#2791"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[02791] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02791"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#2791"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02791] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -395,13 +374,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/threads_pthread.c.html#7526"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[07526] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07531"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7531"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07531] The expression __gid_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

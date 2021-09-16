@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/ec_lib.c.html" 
- , "texte" : "File crypto/ec/ec_lib.c 159 rule violations " 
+ , "texte" : "File crypto/ec/ec_lib.c 153 rule violations " 
  , "fic2"  : "./qc/crypto/ec/ec_lib.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "43"
+ , "c4" : "37"
 }}
 ,
 { "ligne" : {
@@ -132,13 +132,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01966"
- , "c1link" : "./qc/crypto/ec/ec_lib.c.html#1966"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01966] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01969"
  , "c1link" : "./qc/crypto/ec/ec_lib.c.html#1969"
  , "c2" : "BLOCKER"
@@ -167,13 +160,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01998"
- , "c1link" : "./qc/crypto/ec/ec_lib.c.html#1998"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01998] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02002"
  , "c1link" : "./qc/crypto/ec/ec_lib.c.html#2002"
  , "c2" : "BLOCKER"
@@ -192,13 +178,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ec_lib.c.html#2010"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[02010] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02010"
- , "c1link" : "./qc/crypto/ec/ec_lib.c.html#2010"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02010] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -416,13 +395,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ec_lib.c.html#11537"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[11537] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11542"
- , "c1link" : "./qc/crypto/ec/ec_lib.c.html#11542"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11542] The expression __gid_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -878,20 +850,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ec_lib.c.html#13466"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[13466] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13514"
- , "c1link" : "./qc/crypto/ec/ec_lib.c.html#13514"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13514] The expression group-&gt;poly applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "13514"
- , "c1link" : "./qc/crypto/ec/ec_lib.c.html#13514"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13514] The expression (group-&gt;poly)[0] applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

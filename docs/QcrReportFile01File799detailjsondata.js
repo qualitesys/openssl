@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/ssl_lib.c.html" 
- , "texte" : "File ssl/ssl_lib.c 376 rule violations " 
+ , "texte" : "File ssl/ssl_lib.c 363 rule violations " 
  , "fic2"  : "./qc/ssl/ssl_lib.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "136"
+ , "c4" : "123"
 }}
 ,
 { "ligne" : {
@@ -153,13 +153,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "00993"
- , "c1link" : "./qc/ssl/ssl_lib.c.html#993"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00993] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "00996"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#996"
  , "c2" : "BLOCKER"
@@ -188,13 +181,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01025"
- , "c1link" : "./qc/ssl/ssl_lib.c.html#1025"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01025] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01029"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#1029"
  , "c2" : "BLOCKER"
@@ -213,13 +199,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_lib.c.html#1037"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[01037] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01037"
- , "c1link" : "./qc/ssl/ssl_lib.c.html#1037"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01037] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -437,13 +416,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_lib.c.html#5713"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[05713] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05718"
- , "c1link" : "./qc/ssl/ssl_lib.c.html#5718"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05718] The expression __gid_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -706,20 +678,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20696"
- , "c1link" : "./qc/ssl/ssl_lib.c.html#20696"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20696] The expression dane_mds applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "20696"
- , "c1link" : "./qc/ssl/ssl_lib.c.html#20696"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20696] The expression (dane_mds)[0] applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "20697"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#20697"
  , "c2" : "MAJOR"
@@ -902,13 +860,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "21488"
- , "c1link" : "./qc/ssl/ssl_lib.c.html#21488"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21488] The expression s-&gt;sid_ctx applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "21489"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#21489"
  , "c2" : "MAJOR"
@@ -1025,13 +976,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_lib.c.html#21731"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[21731] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21733"
- , "c1link" : "./qc/ssl/ssl_lib.c.html#21733"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21733] The expression r.session_id applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1658,13 +1602,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "24585"
- , "c1link" : "./qc/ssl/ssl_lib.c.html#24585"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[24585] The expression tmp_storage applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "24634"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#24634"
  , "c2" : "BLOCKER"
@@ -2232,13 +2169,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "26015"
- , "c1link" : "./qc/ssl/ssl_lib.c.html#26015"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[26015] The expression ssl-&gt;sid_ctx applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "26054"
  , "c1link" : "./qc/ssl/ssl_lib.c.html#26054"
  , "c2" : "MAJOR"
@@ -2257,27 +2187,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_lib.c.html#26115"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[26115] The pointer lookup is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "26218"
- , "c1link" : "./qc/ssl/ssl_lib.c.html#26218"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[26218] The expression ssl-&gt;s3.client_random applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "26228"
- , "c1link" : "./qc/ssl/ssl_lib.c.html#26228"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[26228] The expression ssl-&gt;s3.server_random applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "26248"
- , "c1link" : "./qc/ssl/ssl_lib.c.html#26248"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[26248] The expression sess-&gt;master_key applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

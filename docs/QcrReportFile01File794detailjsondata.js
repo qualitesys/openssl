@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/ssl_ciph.c.html" 
- , "texte" : "File ssl/ssl_ciph.c 218 rule violations " 
+ , "texte" : "File ssl/ssl_ciph.c 213 rule violations " 
  , "fic2"  : "./qc/ssl/ssl_ciph.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "100"
+ , "c4" : "95"
 }}
 ,
 { "ligne" : {
@@ -132,13 +132,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "00993"
- , "c1link" : "./qc/ssl/ssl_ciph.c.html#993"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00993] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "00996"
  , "c1link" : "./qc/ssl/ssl_ciph.c.html#996"
  , "c2" : "BLOCKER"
@@ -167,13 +160,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01025"
- , "c1link" : "./qc/ssl/ssl_ciph.c.html#1025"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01025] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01029"
  , "c1link" : "./qc/ssl/ssl_ciph.c.html#1029"
  , "c2" : "BLOCKER"
@@ -192,13 +178,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_ciph.c.html#1037"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[01037] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01037"
- , "c1link" : "./qc/ssl/ssl_ciph.c.html#1037"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01037] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -409,13 +388,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_ciph.c.html#14964"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[14964] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14969"
- , "c1link" : "./qc/ssl/ssl_ciph.c.html#14969"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14969] The expression __gid_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1396,13 +1368,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_ciph.c.html#22458"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[22458] The pointer cipher is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22462"
- , "c1link" : "./qc/ssl/ssl_ciph.c.html#22462"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22462] The expression name applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

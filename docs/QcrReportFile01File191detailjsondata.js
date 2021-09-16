@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bn/bn_gf2m.c.html" 
- , "texte" : "File crypto/bn/bn_gf2m.c 161 rule violations " 
+ , "texte" : "File crypto/bn/bn_gf2m.c 156 rule violations " 
  , "fic2"  : "./qc/crypto/bn/bn_gf2m.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "28"
+ , "c4" : "23"
 }}
 ,
 { "ligne" : {
@@ -118,13 +118,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01031"
- , "c1link" : "./qc/crypto/bn/bn_gf2m.c.html#1031"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01031] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01034"
  , "c1link" : "./qc/crypto/bn/bn_gf2m.c.html#1034"
  , "c2" : "BLOCKER"
@@ -153,13 +146,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01063"
- , "c1link" : "./qc/crypto/bn/bn_gf2m.c.html#1063"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01063] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01067"
  , "c1link" : "./qc/crypto/bn/bn_gf2m.c.html#1067"
  , "c2" : "BLOCKER"
@@ -178,13 +164,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_gf2m.c.html#1075"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[01075] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01075"
- , "c1link" : "./qc/crypto/bn/bn_gf2m.c.html#1075"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01075] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -374,20 +353,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_gf2m.c.html#6590"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[06590] The expression  ! ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "06590"
- , "c1link" : "./qc/crypto/bn/bn_gf2m.c.html#6590"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06590] The expression arr applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "06590"
- , "c1link" : "./qc/crypto/bn/bn_gf2m.c.html#6590"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06590] The expression (arr)[0] applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

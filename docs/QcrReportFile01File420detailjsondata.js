@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/dh_support.c.html" 
- , "texte" : "File crypto/evp/dh_support.c 35 rule violations " 
+ , "texte" : "File crypto/evp/dh_support.c 28 rule violations " 
  , "fic2"  : "./qc/crypto/evp/dh_support.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "17"
+ , "c4" : "10"
 }}
 ,
 { "ligne" : {
@@ -209,13 +209,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03214"
- , "c1link" : "./qc/crypto/evp/dh_support.c.html#3214"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03214] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "03217"
  , "c1link" : "./qc/crypto/evp/dh_support.c.html#3217"
  , "c2" : "BLOCKER"
@@ -244,13 +237,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03246"
- , "c1link" : "./qc/crypto/evp/dh_support.c.html#3246"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03246] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "03250"
  , "c1link" : "./qc/crypto/evp/dh_support.c.html#3250"
  , "c2" : "BLOCKER"
@@ -269,41 +255,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/dh_support.c.html#3258"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[03258] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "03258"
- , "c1link" : "./qc/crypto/evp/dh_support.c.html#3258"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03258] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08519"
- , "c1link" : "./qc/crypto/evp/dh_support.c.html#8519"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08519] The expression dhtype2id applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08519"
- , "c1link" : "./qc/crypto/evp/dh_support.c.html#8519"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08519] The expression (dhtype2id)[0] applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08535"
- , "c1link" : "./qc/crypto/evp/dh_support.c.html#8535"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08535] The expression dhtype2id applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08535"
- , "c1link" : "./qc/crypto/evp/dh_support.c.html#8535"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08535] The expression (dhtype2id)[0] applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

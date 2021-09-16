@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/statem/extensions_srvr.c.html" 
- , "texte" : "File ssl/statem/extensions_srvr.c 290 rule violations " 
+ , "texte" : "File ssl/statem/extensions_srvr.c 286 rule violations " 
  , "fic2"  : "./qc/ssl/statem/extensions_srvr.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "64"
+ , "c4" : "60"
 }}
 ,
 { "ligne" : {
@@ -118,13 +118,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01222"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#1222"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01222] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01225"
  , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#1225"
  , "c2" : "BLOCKER"
@@ -153,13 +146,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01254"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#1254"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01254] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01258"
  , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#1258"
  , "c2" : "BLOCKER"
@@ -178,13 +164,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#1266"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[01266] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01266"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#1266"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01266] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -395,13 +374,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#13924"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[13924] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13929"
- , "c1link" : "./qc/ssl/statem/extensions_srvr.c.html#13929"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13929] The expression __gid_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

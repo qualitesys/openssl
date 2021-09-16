@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/rsa/rsa_mp.c.html" 
- , "texte" : "File crypto/rsa/rsa_mp.c 46 rule violations " 
+ , "texte" : "File crypto/rsa/rsa_mp.c 43 rule violations " 
  , "fic2"  : "./qc/crypto/rsa/rsa_mp.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "12"
+ , "c4" : "9"
 }}
 ,
 { "ligne" : {
@@ -111,13 +111,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01205"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#1205"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01205] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01208"
  , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#1208"
  , "c2" : "BLOCKER"
@@ -146,13 +139,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01237"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#1237"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01237] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01241"
  , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#1241"
  , "c2" : "BLOCKER"
@@ -171,13 +157,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#1249"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[01249] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01249"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#1249"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01249] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

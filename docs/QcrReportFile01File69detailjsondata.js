@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/ts.c.html" 
- , "texte" : "File apps/ts.c 276 rule violations " 
+ , "texte" : "File apps/ts.c 269 rule violations " 
  , "fic2"  : "./qc/apps/ts.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "62"
+ , "c4" : "55"
 }}
 ,
 { "ligne" : {
@@ -125,13 +125,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01012"
- , "c1link" : "./qc/apps/ts.c.html#1012"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01012] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01015"
  , "c1link" : "./qc/apps/ts.c.html#1015"
  , "c2" : "BLOCKER"
@@ -160,13 +153,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01044"
- , "c1link" : "./qc/apps/ts.c.html#1044"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01044] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01048"
  , "c1link" : "./qc/apps/ts.c.html#1048"
  , "c2" : "BLOCKER"
@@ -185,13 +171,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/ts.c.html#1056"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[01056] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01056"
- , "c1link" : "./qc/apps/ts.c.html#1056"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01056] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -422,13 +401,6 @@ var maDataBlocs = {
    "c1" : "06070"
  , "c1link" : "./qc/apps/ts.c.html#6070"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06070] The expression __gid_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "06070"
- , "c1link" : "./qc/apps/ts.c.html#6070"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06070] The expression 2&gt;1 is invariable"
 }} 
 ,
@@ -521,20 +493,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/ts.c.html#7184"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[07184] The expression __cmsg-&gt;cmsg_len applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07184"
- , "c1link" : "./qc/apps/ts.c.html#7184"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07184] The expression size_t applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07184"
- , "c1link" : "./qc/apps/ts.c.html#7184"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07184] The expression size_t applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1207,13 +1165,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/ts.c.html#20083"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[20083] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20122"
- , "c1link" : "./qc/apps/ts.c.html#20122"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20122] The expression buf applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
