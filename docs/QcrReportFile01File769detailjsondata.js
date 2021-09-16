@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/baseprov.c.html" 
- , "texte" : "File providers/baseprov.c 35 rule violations " 
+ , "texte" : "File providers/baseprov.c 29 rule violations " 
  , "fic2"  : "./qc/providers/baseprov.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "10"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -68,13 +68,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00384"
- , "c1link" : "./qc/providers/baseprov.c.html#384"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00384] The expression ( ! __builtin_constant_p(__n)||__n&gt;__builtin_object_size(__dest,2&gt;1)) applies to a single value or variable, might be ambiguous."
-}} 
-,
 { "ligne" : {
    "c1" : "00383"
  , "c1link" : "./qc/providers/baseprov.c.html#383"
@@ -104,20 +97,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01373"
- , "c1link" : "./qc/providers/baseprov.c.html#1373"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01373] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01373"
- , "c1link" : "./qc/providers/baseprov.c.html#1373"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01373] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01376"
  , "c1link" : "./qc/providers/baseprov.c.html#1376"
  , "c2" : "BLOCKER"
@@ -132,38 +111,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01405"
- , "c1link" : "./qc/providers/baseprov.c.html#1405"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01405] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01405"
- , "c1link" : "./qc/providers/baseprov.c.html#1405"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01405] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01409"
  , "c1link" : "./qc/providers/baseprov.c.html#1409"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01409] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01417"
- , "c1link" : "./qc/providers/baseprov.c.html#1417"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01417] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01417"
- , "c1link" : "./qc/providers/baseprov.c.html#1417"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01417] The expression __n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -195,10 +146,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03803"
- , "c1link" : "./qc/providers/baseprov.c.html#3803"
+   "c1" : "03801"
+ , "c1link" : "./qc/providers/baseprov.c.html#3801"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03803] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03801] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -230,10 +181,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03855"
- , "c1link" : "./qc/providers/baseprov.c.html#3855"
+   "c1" : "03851"
+ , "c1link" : "./qc/providers/baseprov.c.html#3851"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03855] The expression __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  ) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03851] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -251,10 +202,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03884"
- , "c1link" : "./qc/providers/baseprov.c.html#3884"
+   "c1" : "03882"
+ , "c1link" : "./qc/providers/baseprov.c.html#3882"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03884] The expression __len&gt;__builtin_object_size(__dst,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03882] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -297,6 +248,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/baseprov.c.html#7060"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[07060] The pointer corebiometh is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07062"
+ , "c1link" : "./qc/providers/baseprov.c.html#7062"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07062] The expression  ! ossl_prov_bio_from_dispatch(in) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

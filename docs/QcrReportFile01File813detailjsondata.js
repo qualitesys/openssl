@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/statem/statem_dtls.c.html" 
- , "texte" : "File ssl/statem/statem_dtls.c 257 rule violations " 
+ , "texte" : "File ssl/statem/statem_dtls.c 251 rule violations " 
  , "fic2"  : "./qc/ssl/statem/statem_dtls.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "61"
+ , "c4" : "55"
 }}
 ,
 { "ligne" : {
@@ -90,13 +90,6 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00420"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#420"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00420] The expression ( ! __builtin_constant_p(__n)||__n&gt;__builtin_object_size(__dest,2&gt;1)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "00419"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#419"
  , "c2" : "BLOCKER"
@@ -125,20 +118,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01409"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#1409"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01409] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01409"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#1409"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01409] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01412"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#1412"
  , "c2" : "BLOCKER"
@@ -153,38 +132,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01441"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#1441"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01441] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01441"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#1441"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01441] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01445"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#1445"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01445] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01453"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#1453"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01453] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01453"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#1453"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01453] The expression __n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -216,10 +167,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02900"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#2900"
+   "c1" : "02898"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#2898"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02900] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02898] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -251,10 +202,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02952"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#2952"
+   "c1" : "02948"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#2948"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02952] The expression __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  ) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02948] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -272,10 +223,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02981"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#2981"
+   "c1" : "02979"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#2979"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02981] The expression __len&gt;__builtin_object_size(__dst,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02979] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -293,10 +244,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05915"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#5915"
+   "c1" : "05912"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#5912"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05915] The expression __nbytes&gt;__builtin_object_size(__buf,0) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[05912] The expression  ! __builtin_constant_p(__nbytes) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -314,10 +265,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05945"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#5945"
+   "c1" : "05942"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#5942"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05945] The expression __len&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[05942] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -335,10 +286,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05979"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#5979"
+   "c1" : "05976"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#5976"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05979] The expression __len&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[05976] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -356,10 +307,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06005"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#6005"
+   "c1" : "06002"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#6002"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06005] The expression __size&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06002] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -384,10 +335,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06045"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#6045"
+   "c1" : "06042"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#6042"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06045] The expression __builtin_object_size(__buf,2&gt;1)&lt;__len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06042] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -419,10 +370,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06096"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#6096"
+   "c1" : "06093"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#6093"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06096] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06093] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -440,10 +391,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06122"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#6122"
+   "c1" : "06119"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#6119"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06122] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06119] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -461,10 +412,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06149"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#6149"
+   "c1" : "06146"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#6146"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06149] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06146] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -482,10 +433,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06178"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#6178"
+   "c1" : "06175"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#6175"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06178] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06175] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -496,17 +447,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "16932"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#16932"
+   "c1" : "16959"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#16959"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16932] The expression PACKET_remaining(pkt)!=num applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16959] The expression  ! PACKET_peek_sub_packet(pkt,subpkt,len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16945"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#16945"
+   "c1" : "16987"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#16987"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16945] The expression PACKET_remaining(pkt)&lt;len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16987] The expression  ! PACKET_peek_net_2(pkt,data) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -517,10 +468,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "17028"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#17028"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17028] The expression  ! PACKET_peek_net_3(pkt,data) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "17042"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#17042"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[17042] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17070"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#17070"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17070] The expression  ! PACKET_peek_net_4(pkt,data) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -531,6 +496,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "17094"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#17094"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17094] The expression  ! PACKET_remaining(pkt) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17105"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#17105"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17105] The expression  ! PACKET_peek_1(pkt,data) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "17119"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#17119"
  , "c2" : "BLOCKER"
@@ -538,31 +517,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17168"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#17168"
+   "c1" : "17150"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#17150"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17168] The expression PACKET_remaining(pkt)&lt;len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17150] The expression  ! PACKET_peek_4(pkt,data) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17199"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#17199"
+   "c1" : "17186"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#17186"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17199] The expression PACKET_remaining(pkt)&lt;len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17186] The expression  ! PACKET_peek_bytes(pkt,data,len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17226"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#17226"
+   "c1" : "17214"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#17214"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17226] The expression PACKET_remaining(pkt)&gt;dest_len applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "17291"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#17291"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17291] The expression PACKET_remaining(pkt)&lt;len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17214] The expression  ! PACKET_peek_copy_bytes(pkt,data,len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -699,10 +671,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20520"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20520"
+   "c1" : "20517"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20517"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20520] The expression s-&gt;d1-&gt;mtu&lt;dtls1_min_mtu(s) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20517] The expression  ! dtls1_query_mtu(s) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -713,31 +685,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20531"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20531"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20531] The expression s-&gt;enc_write_ctx applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "20540"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20540"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20540] The expression s-&gt;enc_write_ctx applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "20621"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20621"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[20621] The expression ( unsigned  int  )s-&gt;init_num applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "20656"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20656"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20656] The expression retry applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -755,10 +706,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20681"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20681"
+   "c1" : "20663"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20663"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20681] The expression  ! s-&gt;d1-&gt;retransmitting applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20663] The expression  ! dtls1_query_mtu(s) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -941,6 +892,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20700"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[20700] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20708"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20708"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20708] The expression  ! ssl3_finish_mac(s,p,xlen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -969,6 +927,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20743"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[20743] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20752"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20752"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20752] The expression  ! dtls_get_reassembled_message(s, &amp; errtype, &amp; tmplen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1182,10 +1147,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20812"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20812"
+   "c1" : "20822"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20822"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20812] The expression s-&gt;init_buf-&gt;data applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20822] The expression  ! ssl3_finish_mac(s,msg,msg_len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1196,10 +1161,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20858"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20858"
+   "c1" : "20872"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20872"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20858] The expression msg_len&gt;dtls1_max_handshake_message_len(s) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20872] The expression  ! BUF_MEM_grow_clean(s-&gt;init_buf,msg_len+12) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1217,24 +1182,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20966"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20966"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20966] The expression ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "20976"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#20976"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[20976] The expression ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "21008"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21008"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21008] The expression msg_hdr-&gt;msg_len&gt;dtls1_max_handshake_message_len(s) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1343,13 +1294,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "21229"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21229"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21229] The expression frag_len&gt;dtls1_max_handshake_message_len(s) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "21230"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21230"
  , "c2" : "MAJOR"
@@ -1413,31 +1357,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "21361"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21361"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21361] The expression frag_len&gt;RECORD_LAYER_get_rrec_length( &amp; s-&gt;rlayer) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "21367"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21367"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[21367] goto statement jump to f_err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21381"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21381"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21381] The expression frag_len applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "21386"
- , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21386"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21386] The expression  ! s-&gt;server applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1490,6 +1413,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "21414"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21414"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21414] The expression  ! dtls1_preprocess_fragment(s, &amp; msg_hdr) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "21416"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21416"
  , "c2" : "MAJOR"
@@ -1514,7 +1444,21 @@ var maDataBlocs = {
    "c1" : "21476"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21476"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21476] The expression  ! WPACKET_put_bytes__((pkt),(s-&gt;d1-&gt;handshake_write_seq),2) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21476"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21476"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[21476] The expression 2 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21508"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21508"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21508] The expression  ! SSL_in_init(s) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1857,6 +1801,13 @@ var maDataBlocs = {
    "c1" : "21783"
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21783"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21783] The expression  ! WPACKET_put_bytes__((pkt),(1),1) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21783"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21783"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[21783] The expression (1) is invariable"
 }} 
 ,
@@ -1872,6 +1823,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21791"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[21791] The expression 12 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21817"
+ , "c1link" : "./qc/ssl/statem/statem_dtls.c.html#21817"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21817] The expression  ! dtls1_buffer_message(s,htype==0x0101?1 : 0) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

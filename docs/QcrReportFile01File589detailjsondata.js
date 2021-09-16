@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/provider_child.c.html" 
- , "texte" : "File crypto/provider_child.c 51 rule violations " 
+ , "texte" : "File crypto/provider_child.c 46 rule violations " 
  , "fic2"  : "./qc/crypto/provider_child.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "12"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : {
@@ -97,10 +97,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01405"
- , "c1link" : "./qc/crypto/provider_child.c.html#1405"
+   "c1" : "01403"
+ , "c1link" : "./qc/crypto/provider_child.c.html#1403"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01405] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01403] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -132,10 +132,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01457"
- , "c1link" : "./qc/crypto/provider_child.c.html#1457"
+   "c1" : "01453"
+ , "c1link" : "./qc/crypto/provider_child.c.html#1453"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01457] The expression __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  ) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01453] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -153,10 +153,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01486"
- , "c1link" : "./qc/crypto/provider_child.c.html#1486"
+   "c1" : "01484"
+ , "c1link" : "./qc/crypto/provider_child.c.html#1484"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01486] The expression __len&gt;__builtin_object_size(__dst,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01484] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -188,20 +188,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02749"
- , "c1link" : "./qc/crypto/provider_child.c.html#2749"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02749] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02749"
- , "c1link" : "./qc/crypto/provider_child.c.html#2749"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02749] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02752"
  , "c1link" : "./qc/crypto/provider_child.c.html#2752"
  , "c2" : "BLOCKER"
@@ -216,45 +202,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02781"
- , "c1link" : "./qc/crypto/provider_child.c.html#2781"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02781] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02781"
- , "c1link" : "./qc/crypto/provider_child.c.html#2781"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02781] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02785"
  , "c1link" : "./qc/crypto/provider_child.c.html#2785"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02785] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02793"
- , "c1link" : "./qc/crypto/provider_child.c.html#2793"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02793] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02793"
- , "c1link" : "./qc/crypto/provider_child.c.html#2793"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02793] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08256"
- , "c1link" : "./qc/crypto/provider_child.c.html#8256"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08256] The expression ( ! __builtin_constant_p(__n)||__n&gt;__builtin_object_size(__dest,2&gt;1)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -300,17 +251,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09646"
- , "c1link" : "./qc/crypto/provider_child.c.html#9646"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09646] The expression gbl-&gt;isinited&amp;&amp; ! CRYPTO_THREAD_write_lock(gbl-&gt;lock) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "09657"
  , "c1link" : "./qc/crypto/provider_child.c.html#9657"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[09657] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09673"
+ , "c1link" : "./qc/crypto/provider_child.c.html#9673"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09673] The expression  ! ossl_provider_activate(cprov,0,1) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -346,6 +297,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/provider_child.c.html#9686"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[09686] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09688"
+ , "c1link" : "./qc/crypto/provider_child.c.html#9688"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09688] The expression  ! ossl_provider_activate(cprov,0,0) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -416,6 +374,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/provider_child.c.html#9757"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[09757] The pointer gbl is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09857"
+ , "c1link" : "./qc/crypto/provider_child.c.html#9857"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09857] The expression  ! gbl-&gt;c_provider_register_child_cb(gbl-&gt;handle,provider_create_child_cb,provider_remove_child_cb,provider_global_props_cb,ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

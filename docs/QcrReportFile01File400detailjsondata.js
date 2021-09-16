@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/engine/tb_pkmeth.c.html" 
- , "texte" : "File crypto/engine/tb_pkmeth.c 38 rule violations " 
+ , "texte" : "File crypto/engine/tb_pkmeth.c 31 rule violations " 
  , "fic2"  : "./qc/crypto/engine/tb_pkmeth.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "15"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : {
@@ -83,20 +83,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01224"
- , "c1link" : "./qc/crypto/engine/tb_pkmeth.c.html#1224"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01224] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01224"
- , "c1link" : "./qc/crypto/engine/tb_pkmeth.c.html#1224"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01224] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01227"
  , "c1link" : "./qc/crypto/engine/tb_pkmeth.c.html#1227"
  , "c2" : "BLOCKER"
@@ -111,38 +97,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01256"
- , "c1link" : "./qc/crypto/engine/tb_pkmeth.c.html#1256"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01256] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01256"
- , "c1link" : "./qc/crypto/engine/tb_pkmeth.c.html#1256"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01256] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01260"
  , "c1link" : "./qc/crypto/engine/tb_pkmeth.c.html#1260"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01260] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01268"
- , "c1link" : "./qc/crypto/engine/tb_pkmeth.c.html#1268"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01268] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01268"
- , "c1link" : "./qc/crypto/engine/tb_pkmeth.c.html#1268"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01268] The expression __n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -167,10 +125,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02507"
- , "c1link" : "./qc/crypto/engine/tb_pkmeth.c.html#2507"
+   "c1" : "02505"
+ , "c1link" : "./qc/crypto/engine/tb_pkmeth.c.html#2505"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02507] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02505] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -202,10 +160,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02559"
- , "c1link" : "./qc/crypto/engine/tb_pkmeth.c.html#2559"
+   "c1" : "02555"
+ , "c1link" : "./qc/crypto/engine/tb_pkmeth.c.html#2555"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02559] The expression __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  ) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02555] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -223,10 +181,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02588"
- , "c1link" : "./qc/crypto/engine/tb_pkmeth.c.html#2588"
+   "c1" : "02586"
+ , "c1link" : "./qc/crypto/engine/tb_pkmeth.c.html#2586"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02588] The expression __len&gt;__builtin_object_size(__dst,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02586] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -234,13 +192,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/engine/tb_pkmeth.c.html#2588"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02588] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04915"
- , "c1link" : "./qc/crypto/engine/tb_pkmeth.c.html#4915"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04915] The expression ( ! __builtin_constant_p(__n)||__n&gt;__builtin_object_size(__dest,2&gt;1)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -300,13 +251,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14222"
- , "c1link" : "./qc/crypto/engine/tb_pkmeth.c.html#14222"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14222] The expression  ! fn|| ! fn(e, &amp; ret,(( void  *)0),nid) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "14262"
  , "c1link" : "./qc/crypto/engine/tb_pkmeth.c.html#14262"
  , "c2" : "MAJOR"
@@ -325,6 +269,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/engine/tb_pkmeth.c.html#14264"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[14264] The pointer pknids is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14272"
+ , "c1link" : "./qc/crypto/engine/tb_pkmeth.c.html#14272"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14272] The expression e-&gt;pkey_meths(e, &amp; pkm,(( void  *)0),pknids[i]) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

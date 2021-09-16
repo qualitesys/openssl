@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/rsa/rsa_mp_names.c.html" 
- , "texte" : "File crypto/rsa/rsa_mp_names.c 26 rule violations " 
+ , "texte" : "File crypto/rsa/rsa_mp_names.c 20 rule violations " 
  , "fic2"  : "./qc/crypto/rsa/rsa_mp_names.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "9"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -83,20 +83,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01909"
- , "c1link" : "./qc/crypto/rsa/rsa_mp_names.c.html#1909"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01909] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01909"
- , "c1link" : "./qc/crypto/rsa/rsa_mp_names.c.html#1909"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01909] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01912"
  , "c1link" : "./qc/crypto/rsa/rsa_mp_names.c.html#1912"
  , "c2" : "BLOCKER"
@@ -111,38 +97,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01941"
- , "c1link" : "./qc/crypto/rsa/rsa_mp_names.c.html#1941"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01941] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01941"
- , "c1link" : "./qc/crypto/rsa/rsa_mp_names.c.html#1941"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01941] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01945"
  , "c1link" : "./qc/crypto/rsa/rsa_mp_names.c.html#1945"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01945] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01953"
- , "c1link" : "./qc/crypto/rsa/rsa_mp_names.c.html#1953"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01953] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01953"
- , "c1link" : "./qc/crypto/rsa/rsa_mp_names.c.html#1953"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01953] The expression __n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -174,10 +132,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03127"
- , "c1link" : "./qc/crypto/rsa/rsa_mp_names.c.html#3127"
+   "c1" : "03125"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp_names.c.html#3125"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03127] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03125] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -209,10 +167,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03179"
- , "c1link" : "./qc/crypto/rsa/rsa_mp_names.c.html#3179"
+   "c1" : "03175"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp_names.c.html#3175"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03179] The expression __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  ) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03175] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -230,10 +188,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03208"
- , "c1link" : "./qc/crypto/rsa/rsa_mp_names.c.html#3208"
+   "c1" : "03206"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp_names.c.html#3206"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03208] The expression __len&gt;__builtin_object_size(__dst,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03206] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

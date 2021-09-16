@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/evp_rand.c.html" 
- , "texte" : "File crypto/evp/evp_rand.c 38 rule violations " 
+ , "texte" : "File crypto/evp/evp_rand.c 45 rule violations " 
  , "fic2"  : "./qc/crypto/evp/evp_rand.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "10"
+ , "c4" : "17"
 }}
 ,
 { "ligne" : {
@@ -90,20 +90,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "00993"
- , "c1link" : "./qc/crypto/evp/evp_rand.c.html#993"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00993] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "00993"
- , "c1link" : "./qc/crypto/evp/evp_rand.c.html#993"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00993] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "00996"
  , "c1link" : "./qc/crypto/evp/evp_rand.c.html#996"
  , "c2" : "BLOCKER"
@@ -118,38 +104,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01025"
- , "c1link" : "./qc/crypto/evp/evp_rand.c.html#1025"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01025] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01025"
- , "c1link" : "./qc/crypto/evp/evp_rand.c.html#1025"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01025] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01029"
  , "c1link" : "./qc/crypto/evp/evp_rand.c.html#1029"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01029] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01037"
- , "c1link" : "./qc/crypto/evp/evp_rand.c.html#1037"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01037] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01037"
- , "c1link" : "./qc/crypto/evp/evp_rand.c.html#1037"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01037] The expression __n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -174,10 +132,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02270"
- , "c1link" : "./qc/crypto/evp/evp_rand.c.html#2270"
+   "c1" : "02268"
+ , "c1link" : "./qc/crypto/evp/evp_rand.c.html#2268"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02270] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02268] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -209,10 +167,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02322"
- , "c1link" : "./qc/crypto/evp/evp_rand.c.html#2322"
+   "c1" : "02318"
+ , "c1link" : "./qc/crypto/evp/evp_rand.c.html#2318"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02322] The expression __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  ) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02318] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -230,10 +188,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02351"
- , "c1link" : "./qc/crypto/evp/evp_rand.c.html#2351"
+   "c1" : "02349"
+ , "c1link" : "./qc/crypto/evp/evp_rand.c.html#2349"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02351] The expression __len&gt;__builtin_object_size(__dst,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02349] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -241,13 +199,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/evp_rand.c.html#2351"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02351] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08146"
- , "c1link" : "./qc/crypto/evp/evp_rand.c.html#8146"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08146] The expression ( ! __builtin_constant_p(__n)||__n&gt;__builtin_object_size(__dest,2&gt;1)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -293,6 +244,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "10457"
+ , "c1link" : "./qc/crypto/evp/evp_rand.c.html#10457"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10457] The expression  ! evp_rand_ctx_up_ref(parent) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "10474"
  , "c1link" : "./qc/crypto/evp/evp_rand.c.html#10474"
  , "c2" : "MAJOR"
@@ -304,6 +262,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/evp_rand.c.html#10505"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[10505] The pointer parent is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10545"
+ , "c1link" : "./qc/crypto/evp/evp_rand.c.html#10545"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10545] The expression  ! evp_rand_lock(ctx) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10568"
+ , "c1link" : "./qc/crypto/evp/evp_rand.c.html#10568"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10568] The expression  ! evp_rand_lock(ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -332,6 +304,83 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/evp_rand.c.html#10654"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[10654] The pointer provctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10709"
+ , "c1link" : "./qc/crypto/evp/evp_rand.c.html#10709"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10709] The expression  ! evp_rand_lock(ctx) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10726"
+ , "c1link" : "./qc/crypto/evp/evp_rand.c.html#10726"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10726] The expression  ! evp_rand_lock(ctx) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10771"
+ , "c1link" : "./qc/crypto/evp/evp_rand.c.html#10771"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10771] The expression  ! ctx-&gt;meth-&gt;generate(ctx-&gt;algctx,out,chunk,strength,prediction_resistance,addin,addin_len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10795"
+ , "c1link" : "./qc/crypto/evp/evp_rand.c.html#10795"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10795] The expression  ! evp_rand_lock(ctx) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10823"
+ , "c1link" : "./qc/crypto/evp/evp_rand.c.html#10823"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10823] The expression  ! evp_rand_lock(ctx) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10853"
+ , "c1link" : "./qc/crypto/evp/evp_rand.c.html#10853"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10853] The expression  ! evp_rand_get_ctx_params_locked(ctx,params) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10862"
+ , "c1link" : "./qc/crypto/evp/evp_rand.c.html#10862"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10862] The expression  ! evp_rand_lock(ctx) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10880"
+ , "c1link" : "./qc/crypto/evp/evp_rand.c.html#10880"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10880] The expression ctx-&gt;meth-&gt;nonce(ctx-&gt;algctx,out,str,outlen,outlen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10893"
+ , "c1link" : "./qc/crypto/evp/evp_rand.c.html#10893"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10893] The expression  ! evp_rand_lock(ctx) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10922"
+ , "c1link" : "./qc/crypto/evp/evp_rand.c.html#10922"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10922] The expression  ! EVP_RAND_CTX_get_params(ctx,params) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10942"
+ , "c1link" : "./qc/crypto/evp/evp_rand.c.html#10942"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10942] The expression  ! evp_rand_lock(ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

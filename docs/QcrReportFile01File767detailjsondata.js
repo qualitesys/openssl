@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/engines/e_ossltest.c.html" 
- , "texte" : "File engines/e_ossltest.c 81 rule violations " 
+ , "texte" : "File engines/e_ossltest.c 75 rule violations " 
  , "fic2"  : "./qc/engines/e_ossltest.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "20"
+ , "c4" : "14"
 }}
 ,
 { "ligne" : {
@@ -111,20 +111,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01020"
- , "c1link" : "./qc/engines/e_ossltest.c.html#1020"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01020] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01020"
- , "c1link" : "./qc/engines/e_ossltest.c.html#1020"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01020] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01023"
  , "c1link" : "./qc/engines/e_ossltest.c.html#1023"
  , "c2" : "BLOCKER"
@@ -139,45 +125,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01052"
- , "c1link" : "./qc/engines/e_ossltest.c.html#1052"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01052] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01052"
- , "c1link" : "./qc/engines/e_ossltest.c.html#1052"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01052] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01056"
  , "c1link" : "./qc/engines/e_ossltest.c.html#1056"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01056] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01064"
- , "c1link" : "./qc/engines/e_ossltest.c.html#1064"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01064] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01064"
- , "c1link" : "./qc/engines/e_ossltest.c.html#1064"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01064] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01447"
- , "c1link" : "./qc/engines/e_ossltest.c.html#1447"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01447] The expression ( ! __builtin_constant_p(__n)||__n&gt;__builtin_object_size(__dest,2&gt;1)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -216,10 +167,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03168"
- , "c1link" : "./qc/engines/e_ossltest.c.html#3168"
+   "c1" : "03166"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#3166"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03168] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03166] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -251,10 +202,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03220"
- , "c1link" : "./qc/engines/e_ossltest.c.html#3220"
+   "c1" : "03216"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#3216"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03220] The expression __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  ) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03216] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -272,10 +223,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03249"
- , "c1link" : "./qc/engines/e_ossltest.c.html#3249"
+   "c1" : "03247"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#3247"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03249] The expression __len&gt;__builtin_object_size(__dst,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03247] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -594,17 +545,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14594"
- , "c1link" : "./qc/engines/e_ossltest.c.html#14594"
+   "c1" : "14596"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#14596"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14594] The expression id applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14602"
- , "c1link" : "./qc/engines/e_ossltest.c.html#14602"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14602] The expression ENGINE_get_static_state()==fns-&gt;static_state applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14596] The expression  ! bind_ossltest(e) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -612,6 +556,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/engines/e_ossltest.c.html#14602"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[14602] goto statement jump to skip_cbs"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14602"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#14602"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14602] The expression  ! bind_helper(e,id) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14618"
+ , "c1link" : "./qc/engines/e_ossltest.c.html#14618"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14618] The expression  ! bind_ossltest(ret) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

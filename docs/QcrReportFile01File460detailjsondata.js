@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/legacy_md4.c.html" 
- , "texte" : "File crypto/evp/legacy_md4.c 26 rule violations " 
+ , "texte" : "File crypto/evp/legacy_md4.c 20 rule violations " 
  , "fic2"  : "./qc/crypto/evp/legacy_md4.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "9"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -83,20 +83,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01257"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#1257"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01257] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01257"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#1257"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01257] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01260"
  , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#1260"
  , "c2" : "BLOCKER"
@@ -111,38 +97,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01289"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#1289"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01289] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01289"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#1289"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01289] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01293"
  , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#1293"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01293] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01301"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#1301"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01301] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01301"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#1301"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01301] The expression __n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -174,10 +132,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03473"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#3473"
+   "c1" : "03471"
+ , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#3471"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03473] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03471] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -209,10 +167,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03525"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#3525"
+   "c1" : "03521"
+ , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#3521"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03525] The expression __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  ) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03521] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -230,10 +188,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03554"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#3554"
+   "c1" : "03552"
+ , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#3552"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03554] The expression __len&gt;__builtin_object_size(__dst,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03552] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

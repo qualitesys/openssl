@@ -104,20 +104,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "00993"
- , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#993"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00993] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "00993"
- , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#993"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00993] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "00996"
  , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#996"
  , "c2" : "BLOCKER"
@@ -132,38 +118,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01025"
- , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#1025"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01025] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01025"
- , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#1025"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01025] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01029"
  , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#1029"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01029] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01037"
- , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#1037"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01037] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01037"
- , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#1037"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01037] The expression __n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -188,10 +146,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02274"
- , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#2274"
+   "c1" : "02272"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#2272"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02274] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02272] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -223,10 +181,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02326"
- , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#2326"
+   "c1" : "02322"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#2322"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02326] The expression __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  ) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02322] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -244,10 +202,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02355"
- , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#2355"
+   "c1" : "02353"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#2353"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02355] The expression __len&gt;__builtin_object_size(__dst,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02353] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -255,13 +213,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#2355"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02355] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02723"
- , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#2723"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02723] The expression ( ! __builtin_constant_p(__n)||__n&gt;__builtin_object_size(__dest,2&gt;1)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -289,6 +240,13 @@ var maDataBlocs = {
    "c1" : "13147"
  , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13147"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13147] The expression  ! PKCS7_set_type(p7,22) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13147"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13147"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[13147] The expression 22 is invariable"
 }} 
 ,
@@ -297,6 +255,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13148"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[13148] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13150"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13150"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13150] The expression  ! PKCS7_content_new(p7,21) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -314,13 +279,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13153"
- , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13153"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13153] The expression pkey&amp;&amp; ! PKCS7_sign_add_signer(p7,signcert,pkey,(( void  *)0),flags) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "13163"
  , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13163"
  , "c2" : "MAJOR"
@@ -328,10 +286,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13167"
- , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13167"
+   "c1" : "13168"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13168"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13167] The expression i&lt;OPENSSL_sk_num(ossl_check_const_X509_sk_type(certs)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13168] The expression  ! PKCS7_add_certificate(p7,((X509 *)OPENSSL_sk_value(ossl_check_const_X509_sk_type(certs),(i)))) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -339,6 +297,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13169"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[13169] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13183"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13183"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13183] The expression PKCS7_final(p7,data,flags) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -356,10 +321,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "13240"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13240"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13240] The expression  ! PKCS7_dataFinal(p7,p7bio) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "13246"
  , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13246"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[13246] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13260"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13260"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13260] The expression EVP_get_cipherbyname(OBJ_nid2sn(nid)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13267"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13267"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13267] The expression EVP_get_digestbyname(OBJ_nid2sn(nid)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13287"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13287"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13287] The expression  ! X509_check_private_key(signcert,pkey) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -370,10 +363,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "13320"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13320"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13320] The expression  ! PKCS7_add_certificate(p7,signcert) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "13321"
  , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13321"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[13321] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13325"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13325"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13325] The expression  ! PKCS7_add_attrib_content_type(si,(( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -573,6 +580,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "13367"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13367"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13367] The expression  ! pkcs7_copy_existing_digest(p7,si) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "13368"
  , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13368"
  , "c2" : "MAJOR"
@@ -601,10 +615,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13400"
- , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13400"
+   "c1" : "13406"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13406"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13400] The expression i&lt;OPENSSL_sk_num(ossl_check_const_PKCS7_SIGNER_INFO_sk_type(sinfos)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13406] The expression  ! OBJ_cmp(si-&gt;digest_alg-&gt;algorithm,sitmp-&gt;digest_alg-&gt;algorithm) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -646,13 +660,6 @@ var maDataBlocs = {
    "c1" : "13485"
  , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13485"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13485] The expression PKCS7_ctrl(p7,2,0,(( void  *)0))&amp;&amp; ! indata applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "13485"
- , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13485"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[13485] The expression 2 is invariable"
 }} 
 ,
@@ -661,13 +668,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13485"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[13485] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13506"
- , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13506"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13506] The expression  ! PKCS7_ctrl(p7,2,0,(( void  *)0))&amp;&amp;indata applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -685,13 +685,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13522"
- , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13522"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13522] The expression  ! sinfos|| ! OPENSSL_sk_num(ossl_check_const_PKCS7_SIGNER_INFO_sk_type(sinfos)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "13548"
  , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13548"
  , "c2" : "MAJOR"
@@ -699,10 +692,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13550"
- , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13550"
+   "c1" : "13553"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13553"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13550] The expression k&lt;OPENSSL_sk_num(ossl_check_const_X509_sk_type(signers)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13553] The expression  ! X509_STORE_CTX_init(cert_ctx,store,signer,p7-&gt;d.sign-&gt;cert) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -710,6 +703,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13560"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[13560] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13563"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13563"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13563] The expression  ! X509_STORE_CTX_init(cert_ctx,store,signer,(( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -724,13 +724,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13584"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[13584] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13589"
- , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13589"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13589] The expression indata applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -811,17 +804,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "13659"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13659"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13659] The expression  ! SMIME_text(tmpout,out) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "13666"
  , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13666"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[13666] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13673"
- , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13673"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13673] The expression i&lt;OPENSSL_sk_num(ossl_check_const_PKCS7_SIGNER_INFO_sk_type(sinfos)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -881,13 +874,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13771"
- , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13771"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13771] The expression i&lt;OPENSSL_sk_num(ossl_check_const_PKCS7_SIGNER_INFO_sk_type(sinfos)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "13780"
  , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13780"
  , "c2" : "BLOCKER"
@@ -895,24 +881,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13783"
- , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13783"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13783] The expression  ! signer applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "13784"
- , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13784"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13784] The expression p7-&gt;d.sign-&gt;cert applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "13788"
  , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13788"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[13788] The expression  ! signer applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13798"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13798"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13798] The expression  ! OPENSSL_sk_push(ossl_check_X509_sk_type(signers),ossl_check_X509_type(signer)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -940,6 +919,13 @@ var maDataBlocs = {
    "c1" : "13842"
  , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13842"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13842] The expression  ! PKCS7_set_type(p7,23) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13842"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13842"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[13842] The expression 23 is invariable"
 }} 
 ,
@@ -951,6 +937,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "13844"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13844"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13844] The expression  ! PKCS7_set_cipher(p7,cipher) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "13850"
  , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13850"
  , "c2" : "MAJOR"
@@ -958,10 +951,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13853"
- , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13853"
+   "c1" : "13855"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13855"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13853] The expression i&lt;OPENSSL_sk_num(ossl_check_const_X509_sk_type(certs)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13855] The expression  ! PKCS7_add_recipient(p7,x509) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -972,17 +965,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "13868"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13868"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13868] The expression PKCS7_final(p7,in,flags) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "13900"
  , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13900"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[13900] The pointer tmpmem is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13930"
- , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13930"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13930] The expression cert&amp;&amp; ! X509_check_private_key(cert,pkey) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1018,6 +1011,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13973"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[13973] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13989"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#13989"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13989] The expression  ! BIO_ctrl(tmpmem,113,0,(( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1066,6 +1066,13 @@ var maDataBlocs = {
    "c1" : "14016"
  , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#14016"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14016] The expression  ! BIO_ctrl(tmpmem,113,0,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14016"
+ , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#14016"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[14016] The expression 113 is invariable"
 }} 
 ,
@@ -1074,13 +1081,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#14016"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[14016] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14026"
- , "c1link" : "./qc/crypto/pkcs7/pk7_smime.c.html#14026"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14026] The expression BIO_write(data,buf,i)!=i applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

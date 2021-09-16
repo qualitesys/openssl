@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/record/tls_pad.c.html" 
- , "texte" : "File ssl/record/tls_pad.c 36 rule violations " 
+ , "texte" : "File ssl/record/tls_pad.c 30 rule violations " 
  , "fic2"  : "./qc/ssl/record/tls_pad.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "11"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : {
@@ -97,10 +97,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01403"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#1403"
+   "c1" : "01401"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#1401"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01403] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01401] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -132,10 +132,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01455"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#1455"
+   "c1" : "01451"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#1451"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01455] The expression __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  ) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01451] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -153,10 +153,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01484"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#1484"
+   "c1" : "01482"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#1482"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01484] The expression __len&gt;__builtin_object_size(__dst,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01482] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -188,20 +188,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02862"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#2862"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02862] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02862"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#2862"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02862] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02865"
  , "c1link" : "./qc/ssl/record/tls_pad.c.html#2865"
  , "c2" : "BLOCKER"
@@ -216,45 +202,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02894"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#2894"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02894] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02894"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#2894"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02894] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02898"
  , "c1link" : "./qc/ssl/record/tls_pad.c.html#2898"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02898] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02906"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#2906"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02906] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02906"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#2906"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02906] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08152"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#8152"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08152] The expression ( ! __builtin_constant_p(__n)||__n&gt;__builtin_object_size(__dest,2&gt;1)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -311,6 +262,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/record/tls_pad.c.html#9057"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[09057] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09105"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#9105"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09105] The expression  ! RAND_bytes_ex(libctx,randmac,mac_size,0) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

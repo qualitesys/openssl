@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/x509/x509_vfy.c.html" 
- , "texte" : "File crypto/x509/x509_vfy.c 267 rule violations " 
+ , "texte" : "File crypto/x509/x509_vfy.c 277 rule violations " 
  , "fic2"  : "./qc/crypto/x509/x509_vfy.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "72"
+ , "c4" : "82"
 }}
 ,
 { "ligne" : {
@@ -111,20 +111,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01020"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#1020"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01020] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01020"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#1020"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01020] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01023"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#1023"
  , "c2" : "BLOCKER"
@@ -139,38 +125,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01052"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#1052"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01052] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01052"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#1052"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01052] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01056"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#1056"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01056] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01064"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#1064"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01064] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01064"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#1064"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01064] The expression __n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -202,10 +160,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02629"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#2629"
+   "c1" : "02627"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#2627"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02629] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02627] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -237,10 +195,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02681"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#2681"
+   "c1" : "02677"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#2677"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02681] The expression __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  ) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02677] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -258,10 +216,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02710"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#2710"
+   "c1" : "02708"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#2708"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02710] The expression __len&gt;__builtin_object_size(__dst,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02708] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -269,13 +227,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#2710"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02710] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03056"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#3056"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03056] The expression ( ! __builtin_constant_p(__n)||__n&gt;__builtin_object_size(__dest,2&gt;1)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -300,6 +251,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "13886"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#13886"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13886] The expression  ! ossl_x509v3_cache_extensions(cert) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "13890"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#13890"
  , "c2" : "BLOCKER"
@@ -314,17 +272,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13925"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#13925"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13925] The expression i&lt;OPENSSL_sk_num(ossl_check_const_X509_sk_type(certs)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "13940"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#13940"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[13940] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13941"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#13941"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13941] The expression  ! X509_up_ref(xtmp) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -408,6 +366,13 @@ var maDataBlocs = {
    "c1" : "14126"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#14126"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14126] The expression  ! ossl_x509_add_cert_new( &amp; ctx-&gt;chain,ctx-&gt;cert,0x1) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14126"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#14126"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[14126] The expression 0x1 is invariable"
 }} 
 ,
@@ -433,10 +398,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14177"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#14177"
+   "c1" : "14182"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#14182"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14177] The expression i&lt;OPENSSL_sk_num(ossl_check_const_X509_sk_type(sk)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14182] The expression ossl_x509_check_cert_time(ctx,issuer, - 1) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -454,10 +419,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14249"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#14249"
+   "c1" : "14252"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#14252"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14249] The expression i&lt;OPENSSL_sk_num(ossl_check_const_X509_sk_type(ctx-&gt;other_ctx)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14252] The expression  ! X509_add_cert(sk,x,0x1) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -479,13 +444,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#14329"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[14329] The expression 34 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14332"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#14332"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14332] The expression  ! allow_proxy_certs applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -650,13 +608,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14515"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#14515"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14515] The expression i&lt;OPENSSL_sk_num(ossl_check_const_GENERAL_NAME_sk_type(gs)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "14562"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#14562"
  , "c2" : "MAJOR"
@@ -716,6 +667,13 @@ var maDataBlocs = {
    "c1" : "14700"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#14700"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14700] The expression  ! check_id_error(ctx,62) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14700"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#14700"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[14700] The expression 62 is invariable"
 }} 
 ,
@@ -730,6 +688,13 @@ var maDataBlocs = {
    "c1" : "14709"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#14709"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14709] The expression  ! check_id_error(ctx,63) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14709"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#14709"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[14709] The expression 63 is invariable"
 }} 
 ,
@@ -738,6 +703,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#14716"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[14716] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14717"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#14717"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14717] The expression  ! check_id_error(ctx,64) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -787,13 +759,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#14805"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[14805] goto statement jump to trusted"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14819"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#14819"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14819] The expression dane applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -912,6 +877,13 @@ var maDataBlocs = {
    "c1" : "14985"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#14985"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14985] The expression  ! verify_cb_crl(ctx,15) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14985"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#14985"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[14985] The expression 15 is invariable"
 }} 
 ,
@@ -926,7 +898,21 @@ var maDataBlocs = {
    "c1" : "14992"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#14992"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14992] The expression  ! verify_cb_crl(ctx,11) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14992"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#14992"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[14992] The expression 11 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14996"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#14996"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14996] The expression X509_CRL_get0_nextUpdate(crl) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -940,14 +926,14 @@ var maDataBlocs = {
    "c1" : "15002"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15002"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15002] The expression 16 is invariable"
+ , "c3" : "QC-CPP000011[15002] The expression  ! verify_cb_crl(ctx,16) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15007"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15007"
+   "c1" : "15002"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15002"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15007] The expression  ! notify|| ! verify_cb_crl(ctx,12) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[15002] The expression 16 is invariable"
 }} 
 ,
 { "ligne" : {
@@ -972,10 +958,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15044"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15044"
+   "c1" : "15178"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15178"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15044] The expression i&lt;OPENSSL_sk_num(ossl_check_const_X509_CRL_sk_type(crls)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15178] The expression  ! crl_extension_match(delta,base,90) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -983,6 +969,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15178"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[15178] The expression 90 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15180"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15180"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15180] The expression  ! crl_extension_match(delta,base,770) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1000,24 +993,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15201"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15201"
+   "c1" : "15205"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15205"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15201] The expression ctx-&gt;current_cert-&gt;ex_flags applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15205] The expression check_delta_base(delta,base) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15201"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15201"
+   "c1" : "15206"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15206"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15201] The expression base-&gt;flags applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15203"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15203"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15203] The expression i&lt;OPENSSL_sk_num(ossl_check_const_X509_CRL_sk_type(crls)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15206] The expression check_crl_time(ctx,delta,0) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1031,21 +1017,35 @@ var maDataBlocs = {
    "c1" : "15259"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15259"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15259] The expression check_crl_time(ctx,crl,0) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15259"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15259"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[15259] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15309"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15309"
+   "c1" : "15270"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15270"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15309] The expression cidx&lt;OPENSSL_sk_num(ossl_check_const_X509_sk_type(ctx-&gt;chain)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15270] The expression crl_crldp_check(x,crl,crl_score, &amp; crl_reasons) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15328"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15328"
+   "c1" : "15311"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15311"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15328] The expression i&lt;OPENSSL_sk_num(ossl_check_const_X509_sk_type(ctx-&gt;untrusted)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15311] The expression X509_NAME_cmp(X509_get_subject_name(crl_issuer),cnm) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15358"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15358"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15358] The expression  ! X509_STORE_CTX_init( &amp; crl_ctx,ctx-&gt;store,x,ctx-&gt;untrusted) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1070,38 +1070,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15453"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15453"
+   "c1" : "15520"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15520"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15453] The expression i&lt;OPENSSL_sk_num(ossl_check_const_GENERAL_NAME_sk_type(gens)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15465"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15465"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15465] The expression i&lt;OPENSSL_sk_num(ossl_check_const_GENERAL_NAME_sk_type(a-&gt;name.fullname)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15467"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15467"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15467] The expression j&lt;OPENSSL_sk_num(ossl_check_const_GENERAL_NAME_sk_type(b-&gt;name.fullname)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15490"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15490"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15490] The expression i&lt;OPENSSL_sk_num(ossl_check_const_GENERAL_NAME_sk_type(dp-&gt;CRLissuer)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15517"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15517"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15517] The expression i&lt;OPENSSL_sk_num(ossl_check_const_DIST_POINT_sk_type(x-&gt;crldp)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15520] The expression crldp_check_crlissuer(dp,crl,crl_score) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1203,6 +1175,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "15735"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15735"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15735] The expression X509_CRL_get0_by_cert(crl, &amp; rev,x) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15738"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15738"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15738] The expression  ! verify_cb_crl(ctx,23) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "15738"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15738"
  , "c2" : "BLOCKER"
@@ -1214,13 +1200,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15749"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[15749] The expression ctx-&gt;parent applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15752"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15752"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15752] The expression ctx-&gt;bare_ta_signed&amp;&amp; ! OPENSSL_sk_push(ossl_check_X509_sk_type(ctx-&gt;chain),ossl_check_X509_type((( void  *)0))) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1245,17 +1224,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15770"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15770"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15770] The expression i&lt;OPENSSL_sk_num(ossl_check_const_X509_sk_type(ctx-&gt;chain)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "15773"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15773"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[15773] The expression 42 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15808"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15808"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15808] The expression  ! ctx-&gt;verify_cb(2,ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1364,6 +1343,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "15934"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15934"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15934] The expression  ! ossl_x509_check_cert_time(ctx,xs,n) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15944"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15944"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15944] The expression  ! ctx-&gt;verify_cb(1,ctx) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "15944"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15944"
  , "c2" : "BLOCKER"
@@ -1382,6 +1375,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15985"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[15985] The expression generalizedtime_length applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15998"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#15998"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15998] The expression  ! ossl_ascii_isdigit(ctm-&gt;data[i]) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1413,10 +1413,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "16129"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#16129"
+   "c1" : "16143"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#16143"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16129] The expression i&lt;OPENSSL_sk_num(ossl_check_const_X509_sk_type(chain)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16143] The expression  ! EVP_PKEY_missing_parameters(ktmp) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16167"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#16167"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16167] The expression  ! EVP_PKEY_copy_parameters(ktmp2,ktmp) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16256"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#16256"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16256] The expression  ! crl_extension_match(base,newer,90) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1424,6 +1438,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#16256"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[16256] The expression 90 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16268"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#16268"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16268] The expression  ! crl_extension_match(base,newer,770) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1448,10 +1469,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "16320"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#16320"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16320] The expression  ! X509_CRL_set_issuer_name(crl,X509_CRL_get_issuer(newer)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "16321"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#16321"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[16321] goto statement jump to memerr"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16323"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#16323"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16323] The expression  ! X509_CRL_set1_lastUpdate(crl,X509_CRL_get0_lastUpdate(newer)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1462,10 +1497,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "16325"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#16325"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16325] The expression  ! X509_CRL_set1_nextUpdate(crl,X509_CRL_get0_nextUpdate(newer)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "16326"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#16326"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[16326] goto statement jump to memerr"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16329"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#16329"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16329] The expression  ! X509_CRL_add1_ext_i2d(crl,140,base-&gt;crl_number,1,0) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1497,10 +1546,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "16336"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#16336"
+   "c1" : "16339"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#16339"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16336] The expression i&lt;X509_CRL_get_ext_count(newer) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16339] The expression  ! X509_CRL_add_ext(crl,ext, - 1) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1518,13 +1567,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "16346"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#16346"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16346] The expression i&lt;OPENSSL_sk_num(ossl_check_const_X509_REVOKED_sk_type(revs)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "16347"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#16347"
  , "c2" : "MAJOR"
@@ -1539,10 +1581,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "16355"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#16355"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16355] The expression  ! X509_CRL_get0_by_serial(base, &amp; rvtmp, &amp; rvn-&gt;serialNumber) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "16362"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#16362"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[16362] goto statement jump to memerr"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16363"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#16363"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16363] The expression  ! X509_CRL_add0_revoked(crl,rvtmp) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1591,6 +1647,13 @@ var maDataBlocs = {
    "c1" : "16934"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#16934"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16934] The expression CRYPTO_new_ex_data(5,ctx, &amp; ctx-&gt;ex_data) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16934"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#16934"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[16934] The expression 5 is invariable"
 }} 
 ,
@@ -1626,14 +1689,14 @@ var maDataBlocs = {
    "c1" : "17330"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17330"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17330] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[17330] The expression  ! EVP_Digest(i2dbuf,i2dlen,cmpbuf, &amp; cmplen,md,0) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17346"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17346"
+   "c1" : "17330"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17330"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17346] The expression matched applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[17330] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -1665,10 +1728,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17480"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17480"
+   "c1" : "17489"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17489"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17480] The expression done&amp;&amp; ! X509_get_pubkey_parameters((( void  *)0),ctx-&gt;chain) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17489] The expression  ! check_leaf_suiteb(ctx,cert) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1676,6 +1739,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17508"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[17508] The expression done applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17510"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17510"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17510] The expression  ! check_leaf_suiteb(ctx,cert) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1700,13 +1770,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17591"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17591"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17591] The expression dane applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "17600"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17600"
  , "c2" : "BLOCKER"
@@ -1718,6 +1781,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17601"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[17601] goto statement jump to memerr"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17608"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17608"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17608] The expression  ! X509_add_certs(sk_untrusted,ctx-&gt;untrusted,0) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1749,13 +1819,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17661"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17661"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17661] The expression  ! self_signed applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "17663"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17663"
  , "c2" : "MAJOR"
@@ -1763,24 +1826,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17670"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17670"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17670] The expression dane applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "17684"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17684"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17684] The expression dane applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "17697"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17697"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[17697] The expression  ! self_signed applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17698"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17698"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17698] The expression  ! OPENSSL_sk_push(ossl_check_X509_sk_type(ctx-&gt;chain),ossl_check_X509_type(issuer)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1826,13 +1882,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17745"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17745"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17745] The expression  ! may_alternate applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "17760"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17760"
  , "c2" : "MAJOR"
@@ -1844,6 +1893,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17779"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[17779] The expression may_trusted applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17787"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17787"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17787] The expression  ! X509_add_cert(ctx-&gt;chain,issuer,0x1) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1868,17 +1924,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17846"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17846"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17846] The expression dane applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "17854"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17854"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[17854] The expression 65 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17857"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17857"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17857] The expression X509_self_signed(((X509 *)OPENSSL_sk_value(ossl_check_const_X509_sk_type(ctx-&gt;chain),(num-1))),0) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1910,6 +1966,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "17941"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17941"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17941] The expression  ! X509_STORE_CTX_init(ctx,store,target,finish_chain?certs : (( void  *)0)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "17946"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17946"
  , "c2" : "MAJOR"
@@ -1927,6 +1990,13 @@ var maDataBlocs = {
    "c1" : "17949"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17949"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17949] The expression  ! ossl_x509_add_cert_new( &amp; ctx-&gt;chain,target,0x1) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17949"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17949"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[17949] The expression 0x1 is invariable"
 }} 
 ,
@@ -1938,13 +2008,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17955"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17955"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17955] The expression  ! build_chain(ctx)&amp;&amp;finish_chain applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "17956"
  , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17956"
  , "c2" : "MAJOR"
@@ -1952,10 +2015,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17959"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17959"
+   "c1" : "17961"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#17961"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17959] The expression  ! with_self_signed applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17961] The expression  ! ossl_x509_add_certs_new( &amp; result,ctx-&gt;chain,flags) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "18054"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#18054"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[18054] The expression  ! X509_get_signature_info(cert,(( void  *)0),(( void  *)0), &amp; secbits,(( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

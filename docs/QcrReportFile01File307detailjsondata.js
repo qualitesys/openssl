@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/des/rand_key.c.html" 
- , "texte" : "File crypto/des/rand_key.c 25 rule violations " 
+ , "texte" : "File crypto/des/rand_key.c 20 rule violations " 
  , "fic2"  : "./qc/crypto/des/rand_key.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "9"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -83,10 +83,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01729"
- , "c1link" : "./qc/crypto/des/rand_key.c.html#1729"
+   "c1" : "01727"
+ , "c1link" : "./qc/crypto/des/rand_key.c.html#1727"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01729] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01727] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -118,10 +118,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01781"
- , "c1link" : "./qc/crypto/des/rand_key.c.html#1781"
+   "c1" : "01777"
+ , "c1link" : "./qc/crypto/des/rand_key.c.html#1777"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01781] The expression __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  ) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01777] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -139,10 +139,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01810"
- , "c1link" : "./qc/crypto/des/rand_key.c.html#1810"
+   "c1" : "01808"
+ , "c1link" : "./qc/crypto/des/rand_key.c.html#1808"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01810] The expression __len&gt;__builtin_object_size(__dst,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01808] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -174,20 +174,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03014"
- , "c1link" : "./qc/crypto/des/rand_key.c.html#3014"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03014] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "03014"
- , "c1link" : "./qc/crypto/des/rand_key.c.html#3014"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03014] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "03017"
  , "c1link" : "./qc/crypto/des/rand_key.c.html#3017"
  , "c2" : "BLOCKER"
@@ -202,20 +188,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03046"
- , "c1link" : "./qc/crypto/des/rand_key.c.html#3046"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03046] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "03046"
- , "c1link" : "./qc/crypto/des/rand_key.c.html#3046"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03046] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "03050"
  , "c1link" : "./qc/crypto/des/rand_key.c.html#3050"
  , "c2" : "BLOCKER"
@@ -223,17 +195,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03058"
- , "c1link" : "./qc/crypto/des/rand_key.c.html#3058"
+   "c1" : "07969"
+ , "c1link" : "./qc/crypto/des/rand_key.c.html#7969"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03058] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "03058"
- , "c1link" : "./qc/crypto/des/rand_key.c.html#3058"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03058] The expression __n applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07969] The expression DES_is_weak_key(ret) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

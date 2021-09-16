@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/sha/keccak1600.c.html" 
- , "texte" : "File crypto/sha/keccak1600.c 6 rule violations " 
+ , "texte" : "File crypto/sha/keccak1600.c 5 rule violations " 
  , "fic2"  : "./qc/crypto/sha/keccak1600.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -54,13 +54,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00716"
- , "c1link" : "./qc/crypto/sha/keccak1600.c.html#716"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00716] The expression ( ! __builtin_constant_p(__n)||__n&gt;__builtin_object_size(__dest,2&gt;1)) applies to a single value or variable, might be ambiguous."
-}} 
-,
 { "ligne" : {
    "c1" : "00715"
  , "c1link" : "./qc/crypto/sha/keccak1600.c.html#715"

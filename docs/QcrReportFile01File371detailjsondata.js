@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/ecdsa_sign.c.html" 
- , "texte" : "File crypto/ec/ecdsa_sign.c 26 rule violations " 
+ , "texte" : "File crypto/ec/ecdsa_sign.c 20 rule violations " 
  , "fic2"  : "./qc/crypto/ec/ecdsa_sign.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "9"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -83,20 +83,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01861"
- , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1861"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01861] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01861"
- , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1861"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01861] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01864"
  , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1864"
  , "c2" : "BLOCKER"
@@ -111,38 +97,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01893"
- , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1893"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01893] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01893"
- , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1893"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01893] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01897"
  , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1897"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01897] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01905"
- , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1905"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01905] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01905"
- , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#1905"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01905] The expression __n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -174,10 +132,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03081"
- , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3081"
+   "c1" : "03079"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3079"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03081] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03079] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -209,10 +167,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03133"
- , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3133"
+   "c1" : "03129"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3129"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03133] The expression __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  ) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03129] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -230,10 +188,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03162"
- , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3162"
+   "c1" : "03160"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#3160"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03162] The expression __len&gt;__builtin_object_size(__dst,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03160] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

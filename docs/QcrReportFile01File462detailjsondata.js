@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/legacy_md5_sha1.c.html" 
- , "texte" : "File crypto/evp/legacy_md5_sha1.c 26 rule violations " 
+ , "texte" : "File crypto/evp/legacy_md5_sha1.c 20 rule violations " 
  , "fic2"  : "./qc/crypto/evp/legacy_md5_sha1.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "9"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -83,20 +83,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01036"
- , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#1036"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01036] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01036"
- , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#1036"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01036] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01039"
  , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#1039"
  , "c2" : "BLOCKER"
@@ -111,38 +97,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01068"
- , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#1068"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01068] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01068"
- , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#1068"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01068] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01072"
  , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#1072"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01072] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01080"
- , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#1080"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01080] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01080"
- , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#1080"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01080] The expression __n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -174,10 +132,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03446"
- , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#3446"
+   "c1" : "03444"
+ , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#3444"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03446] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03444] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -209,10 +167,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03498"
- , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#3498"
+   "c1" : "03494"
+ , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#3494"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03498] The expression __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  ) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03494] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -230,10 +188,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03527"
- , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#3527"
+   "c1" : "03525"
+ , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#3525"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03527] The expression __len&gt;__builtin_object_size(__dst,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03525] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

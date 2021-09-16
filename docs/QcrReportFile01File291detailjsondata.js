@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/der_writer.c.html" 
- , "texte" : "File crypto/der_writer.c 49 rule violations " 
+ , "texte" : "File crypto/der_writer.c 47 rule violations " 
  , "fic2"  : "./qc/crypto/der_writer.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "20"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : {
@@ -90,10 +90,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01377"
- , "c1link" : "./qc/crypto/der_writer.c.html#1377"
+   "c1" : "01375"
+ , "c1link" : "./qc/crypto/der_writer.c.html#1375"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01377] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01375] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -125,10 +125,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01429"
- , "c1link" : "./qc/crypto/der_writer.c.html#1429"
+   "c1" : "01425"
+ , "c1link" : "./qc/crypto/der_writer.c.html#1425"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01429] The expression __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  ) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01425] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -146,10 +146,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01458"
- , "c1link" : "./qc/crypto/der_writer.c.html#1458"
+   "c1" : "01456"
+ , "c1link" : "./qc/crypto/der_writer.c.html#1456"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01458] The expression __len&gt;__builtin_object_size(__dst,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01456] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -157,13 +157,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/der_writer.c.html#1458"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01458] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01826"
- , "c1link" : "./qc/crypto/der_writer.c.html#1826"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01826] The expression ( ! __builtin_constant_p(__n)||__n&gt;__builtin_object_size(__dest,2&gt;1)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -195,20 +188,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03102"
- , "c1link" : "./qc/crypto/der_writer.c.html#3102"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03102] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "03102"
- , "c1link" : "./qc/crypto/der_writer.c.html#3102"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03102] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "03105"
  , "c1link" : "./qc/crypto/der_writer.c.html#3105"
  , "c2" : "BLOCKER"
@@ -223,20 +202,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03134"
- , "c1link" : "./qc/crypto/der_writer.c.html#3134"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03134] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "03134"
- , "c1link" : "./qc/crypto/der_writer.c.html#3134"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03134] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "03138"
  , "c1link" : "./qc/crypto/der_writer.c.html#3138"
  , "c2" : "BLOCKER"
@@ -244,31 +209,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03146"
- , "c1link" : "./qc/crypto/der_writer.c.html#3146"
+   "c1" : "06264"
+ , "c1link" : "./qc/crypto/der_writer.c.html#6264"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03146] The expression __size applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06264] The expression  ! PACKET_peek_sub_packet(pkt,subpkt,len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "03146"
- , "c1link" : "./qc/crypto/der_writer.c.html#3146"
+   "c1" : "06292"
+ , "c1link" : "./qc/crypto/der_writer.c.html#6292"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03146] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "06237"
- , "c1link" : "./qc/crypto/der_writer.c.html#6237"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06237] The expression PACKET_remaining(pkt)!=num applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "06250"
- , "c1link" : "./qc/crypto/der_writer.c.html#6250"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06250] The expression PACKET_remaining(pkt)&lt;len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06292] The expression  ! PACKET_peek_net_2(pkt,data) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -279,10 +230,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "06333"
+ , "c1link" : "./qc/crypto/der_writer.c.html#6333"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06333] The expression  ! PACKET_peek_net_3(pkt,data) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "06347"
  , "c1link" : "./qc/crypto/der_writer.c.html#6347"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[06347] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06375"
+ , "c1link" : "./qc/crypto/der_writer.c.html#6375"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06375] The expression  ! PACKET_peek_net_4(pkt,data) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -293,6 +258,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "06399"
+ , "c1link" : "./qc/crypto/der_writer.c.html#6399"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06399] The expression  ! PACKET_remaining(pkt) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06410"
+ , "c1link" : "./qc/crypto/der_writer.c.html#6410"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06410] The expression  ! PACKET_peek_1(pkt,data) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "06424"
  , "c1link" : "./qc/crypto/der_writer.c.html#6424"
  , "c2" : "BLOCKER"
@@ -300,31 +279,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06473"
- , "c1link" : "./qc/crypto/der_writer.c.html#6473"
+   "c1" : "06455"
+ , "c1link" : "./qc/crypto/der_writer.c.html#6455"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06473] The expression PACKET_remaining(pkt)&lt;len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06455] The expression  ! PACKET_peek_4(pkt,data) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06504"
- , "c1link" : "./qc/crypto/der_writer.c.html#6504"
+   "c1" : "06491"
+ , "c1link" : "./qc/crypto/der_writer.c.html#6491"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06504] The expression PACKET_remaining(pkt)&lt;len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06491] The expression  ! PACKET_peek_bytes(pkt,data,len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06531"
- , "c1link" : "./qc/crypto/der_writer.c.html#6531"
+   "c1" : "06519"
+ , "c1link" : "./qc/crypto/der_writer.c.html#6519"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06531] The expression PACKET_remaining(pkt)&gt;dest_len applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "06596"
- , "c1link" : "./qc/crypto/der_writer.c.html#6596"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06596] The expression PACKET_remaining(pkt)&lt;len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06519] The expression  ! PACKET_peek_copy_bytes(pkt,data,len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -409,6 +381,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/der_writer.c.html#7094"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[07094] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07106"
+ , "c1link" : "./qc/crypto/der_writer.c.html#7106"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07106] The expression  ! WPACKET_allocate_bytes(pkt,n, &amp; p) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "07125"
+ , "c1link" : "./qc/crypto/der_writer.c.html#7125"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07125] The expression BN_is_zero(v) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

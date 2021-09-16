@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/evp_fetch.c.html" 
- , "texte" : "File crypto/evp/evp_fetch.c 49 rule violations " 
+ , "texte" : "File crypto/evp/evp_fetch.c 46 rule violations " 
  , "fic2"  : "./qc/crypto/evp/evp_fetch.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "11"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : {
@@ -90,20 +90,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01505"
- , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#1505"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01505] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01505"
- , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#1505"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01505] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01508"
  , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#1508"
  , "c2" : "BLOCKER"
@@ -118,38 +104,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01537"
- , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#1537"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01537] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01537"
- , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#1537"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01537] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01541"
  , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#1541"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01541] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01549"
- , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#1549"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01549] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01549"
- , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#1549"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01549] The expression __n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -181,10 +139,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03437"
- , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#3437"
+   "c1" : "03435"
+ , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#3435"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03437] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03435] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -216,10 +174,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03489"
- , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#3489"
+   "c1" : "03485"
+ , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#3485"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03489] The expression __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  ) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03485] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -237,10 +195,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03518"
- , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#3518"
+   "c1" : "03516"
+ , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#3516"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03518] The expression __len&gt;__builtin_object_size(__dst,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03516] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -248,13 +206,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#3518"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03518] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08063"
- , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#8063"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08063] The expression ( ! __builtin_constant_p(__n)||__n&gt;__builtin_object_size(__dest,2&gt;1)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -283,6 +234,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#10105"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[10105] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10116"
+ , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#10116"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10116] The expression  ! ossl_method_store_fetch(store,meth_id,methdata-&gt;propquery, &amp; method) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -370,10 +328,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "10514"
+ , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#10514"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10514] The expression ossl_global_properties_no_mirrored(libctx) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "10586"
  , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#10586"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[10586] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10598"
+ , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#10598"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10598] The expression  ! evp_set_parsed_default_properties(libctx,pl,loadconfig,mirrored) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -395,6 +367,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#10632"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[10632] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10658"
+ , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#10658"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10658] The expression  ! evp_set_parsed_default_properties(libctx,pl2,0,0) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

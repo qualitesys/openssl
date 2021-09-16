@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/asn1/a_utctm.c.html" 
- , "texte" : "File crypto/asn1/a_utctm.c 30 rule violations " 
+ , "texte" : "File crypto/asn1/a_utctm.c 25 rule violations " 
  , "fic2"  : "./qc/crypto/asn1/a_utctm.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "12"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : {
@@ -83,20 +83,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "00993"
- , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#993"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00993] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "00993"
- , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#993"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00993] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "00996"
  , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#996"
  , "c2" : "BLOCKER"
@@ -111,38 +97,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01025"
- , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#1025"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01025] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01025"
- , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#1025"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01025] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01029"
  , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#1029"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01029] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01037"
- , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#1037"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01037] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01037"
- , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#1037"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01037] The expression __n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -167,10 +125,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02522"
- , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#2522"
+   "c1" : "02520"
+ , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#2520"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02522] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02520] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -202,10 +160,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02574"
- , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#2574"
+   "c1" : "02570"
+ , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#2570"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02574] The expression __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  ) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02570] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -223,10 +181,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02603"
- , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#2603"
+   "c1" : "02601"
+ , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#2601"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02603] The expression __len&gt;__builtin_object_size(__dst,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02601] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -237,17 +195,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02949"
- , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#2949"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02949] The expression ( ! __builtin_constant_p(__n)||__n&gt;__builtin_object_size(__dest,2&gt;1)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02948"
  , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#2948"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02948] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06448"
+ , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#6448"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06448] The expression  ! ASN1_UTCTIME_check( &amp; t) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -258,17 +216,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06484"
- , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#6484"
+   "c1" : "06485"
+ , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#6485"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06484] The expression offset_day applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06485] The expression  ! OPENSSL_gmtime_adj(ts,offset_day,offset_sec) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06484"
- , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#6484"
+   "c1" : "06501"
+ , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#6501"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06484] The expression offset_sec applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06501] The expression  ! ossl_asn1_utctime_to_tm( &amp; stm,s) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06511"
+ , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#6511"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06511] The expression  ! OPENSSL_gmtime_diff( &amp; day, &amp; sec, &amp; ttm, &amp; stm) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

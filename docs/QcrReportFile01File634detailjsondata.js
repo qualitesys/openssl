@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/seed/seed_cfb.c.html" 
- , "texte" : "File crypto/seed/seed_cfb.c 25 rule violations " 
+ , "texte" : "File crypto/seed/seed_cfb.c 19 rule violations " 
  , "fic2"  : "./qc/crypto/seed/seed_cfb.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "9"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -83,10 +83,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01596"
- , "c1link" : "./qc/crypto/seed/seed_cfb.c.html#1596"
+   "c1" : "01594"
+ , "c1link" : "./qc/crypto/seed/seed_cfb.c.html#1594"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01596] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01594] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -118,10 +118,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01648"
- , "c1link" : "./qc/crypto/seed/seed_cfb.c.html#1648"
+   "c1" : "01644"
+ , "c1link" : "./qc/crypto/seed/seed_cfb.c.html#1644"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01648] The expression __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  ) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01644] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -139,10 +139,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01677"
- , "c1link" : "./qc/crypto/seed/seed_cfb.c.html#1677"
+   "c1" : "01675"
+ , "c1link" : "./qc/crypto/seed/seed_cfb.c.html#1675"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01677] The expression __len&gt;__builtin_object_size(__dst,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01675] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -174,20 +174,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02762"
- , "c1link" : "./qc/crypto/seed/seed_cfb.c.html#2762"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02762] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02762"
- , "c1link" : "./qc/crypto/seed/seed_cfb.c.html#2762"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02762] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02765"
  , "c1link" : "./qc/crypto/seed/seed_cfb.c.html#2765"
  , "c2" : "BLOCKER"
@@ -202,38 +188,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02794"
- , "c1link" : "./qc/crypto/seed/seed_cfb.c.html#2794"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02794] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02794"
- , "c1link" : "./qc/crypto/seed/seed_cfb.c.html#2794"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02794] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02798"
  , "c1link" : "./qc/crypto/seed/seed_cfb.c.html#2798"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02798] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02806"
- , "c1link" : "./qc/crypto/seed/seed_cfb.c.html#2806"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02806] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02806"
- , "c1link" : "./qc/crypto/seed/seed_cfb.c.html#2806"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02806] The expression __n applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

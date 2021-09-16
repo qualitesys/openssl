@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/x509/pcy_node.c.html" 
- , "texte" : "File crypto/x509/pcy_node.c 39 rule violations " 
+ , "texte" : "File crypto/x509/pcy_node.c 36 rule violations " 
  , "fic2"  : "./qc/crypto/x509/pcy_node.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "15"
+ , "c4" : "12"
 }}
 ,
 { "ligne" : {
@@ -90,20 +90,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01525"
- , "c1link" : "./qc/crypto/x509/pcy_node.c.html#1525"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01525] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01525"
- , "c1link" : "./qc/crypto/x509/pcy_node.c.html#1525"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01525] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01528"
  , "c1link" : "./qc/crypto/x509/pcy_node.c.html#1528"
  , "c2" : "BLOCKER"
@@ -118,38 +104,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01557"
- , "c1link" : "./qc/crypto/x509/pcy_node.c.html#1557"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01557] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01557"
- , "c1link" : "./qc/crypto/x509/pcy_node.c.html#1557"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01557] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01561"
  , "c1link" : "./qc/crypto/x509/pcy_node.c.html#1561"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01561] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01569"
- , "c1link" : "./qc/crypto/x509/pcy_node.c.html#1569"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01569] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01569"
- , "c1link" : "./qc/crypto/x509/pcy_node.c.html#1569"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01569] The expression __n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -174,10 +132,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02745"
- , "c1link" : "./qc/crypto/x509/pcy_node.c.html#2745"
+   "c1" : "02743"
+ , "c1link" : "./qc/crypto/x509/pcy_node.c.html#2743"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02745] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02743] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -209,10 +167,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02797"
- , "c1link" : "./qc/crypto/x509/pcy_node.c.html#2797"
+   "c1" : "02793"
+ , "c1link" : "./qc/crypto/x509/pcy_node.c.html#2793"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02797] The expression __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  ) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02793] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -230,10 +188,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02826"
- , "c1link" : "./qc/crypto/x509/pcy_node.c.html#2826"
+   "c1" : "02824"
+ , "c1link" : "./qc/crypto/x509/pcy_node.c.html#2824"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02826] The expression __len&gt;__builtin_object_size(__dst,2&gt;1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02824] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -251,10 +209,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12762"
- , "c1link" : "./qc/crypto/x509/pcy_node.c.html#12762"
+   "c1" : "12765"
+ , "c1link" : "./qc/crypto/x509/pcy_node.c.html#12765"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12762] The expression i&lt;OPENSSL_sk_num(ossl_check_const_X509_POLICY_NODE_sk_type(level-&gt;nodes)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[12765] The expression  ! OBJ_cmp(node-&gt;data-&gt;valid_policy,id) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -293,6 +251,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "12827"
+ , "c1link" : "./qc/crypto/x509/pcy_node.c.html#12827"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12827] The expression  ! OPENSSL_sk_push(ossl_check_X509_POLICY_NODE_sk_type(level-&gt;nodes),ossl_check_X509_POLICY_NODE_type(node)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "12833"
  , "c1link" : "./qc/crypto/x509/pcy_node.c.html#12833"
  , "c2" : "MAJOR"
@@ -311,6 +276,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/pcy_node.c.html#12855"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[12855] goto statement jump to node_error"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12857"
+ , "c1link" : "./qc/crypto/x509/pcy_node.c.html#12857"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12857] The expression  ! sk_X509_POLICY_DATA_push(tree-&gt;extra_data,data) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -335,10 +307,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12905"
- , "c1link" : "./qc/crypto/x509/pcy_node.c.html#12905"
+   "c1" : "12900"
+ , "c1link" : "./qc/crypto/x509/pcy_node.c.html#12900"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12905] The expression i&lt;OPENSSL_sk_num(ossl_check_const_ASN1_OBJECT_sk_type(x-&gt;expected_policy_set)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[12900] The expression  ! OBJ_cmp(x-&gt;valid_policy,oid) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "12907"
+ , "c1link" : "./qc/crypto/x509/pcy_node.c.html#12907"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12907] The expression  ! OBJ_cmp(policy_oid,oid) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

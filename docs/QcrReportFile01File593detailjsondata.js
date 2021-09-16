@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/punycode.c.html" 
- , "texte" : "File crypto/punycode.c 20 rule violations " 
+ , "texte" : "File crypto/punycode.c 13 rule violations " 
  , "fic2"  : "./qc/crypto/punycode.c.xml" 
  , "fic3"  : "" 
 }
@@ -47,13 +47,6 @@ var maDataBlocs = {
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "7"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "10"
@@ -61,13 +54,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00396"
- , "c1link" : "./qc/crypto/punycode.c.html#396"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00396] The expression ( ! __builtin_constant_p(__n)||__n&gt;__builtin_object_size(__dest,2&gt;1)) applies to a single value or variable, might be ambiguous."
-}} 
-,
 { "ligne" : {
    "c1" : "00395"
  , "c1link" : "./qc/crypto/punycode.c.html#395"
@@ -97,20 +83,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01385"
- , "c1link" : "./qc/crypto/punycode.c.html#1385"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01385] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01385"
- , "c1link" : "./qc/crypto/punycode.c.html#1385"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01385] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01388"
  , "c1link" : "./qc/crypto/punycode.c.html#1388"
  , "c2" : "BLOCKER"
@@ -125,38 +97,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01417"
- , "c1link" : "./qc/crypto/punycode.c.html#1417"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01417] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01417"
- , "c1link" : "./qc/crypto/punycode.c.html#1417"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01417] The expression __n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01421"
  , "c1link" : "./qc/crypto/punycode.c.html#1421"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01421] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01429"
- , "c1link" : "./qc/crypto/punycode.c.html#1429"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01429] The expression __size applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01429"
- , "c1link" : "./qc/crypto/punycode.c.html#1429"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01429] The expression __n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
