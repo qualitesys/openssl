@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ocsp/ocsp_prn.c.html" 
- , "texte" : "File crypto/ocsp/ocsp_prn.c 167 rule violations " 
+ , "texte" : "File crypto/ocsp/ocsp_prn.c 101 rule violations " 
  , "fic2"  : "./qc/crypto/ocsp/ocsp_prn.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "87"
+ , "c4" : "21"
 }}
 ,
 { "ligne" : {
@@ -79,28 +79,7 @@ var maDataBlocs = {
    "c1" : "01172"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#1172"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01172] The expression __s applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01172"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#1172"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01172] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01174"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#1174"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01174] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01177"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#1177"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01177] The expression __s applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -114,28 +93,7 @@ var maDataBlocs = {
    "c1" : "01202"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#1202"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01202] The expression __ptr applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01202"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#1202"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01202] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01204"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#1204"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01204] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01205"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#1205"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01205] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -163,13 +121,6 @@ var maDataBlocs = {
    "c1" : "01209"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#1209"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01209] The expression __ptr applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01209"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#1209"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01209] The expression 0 is invariable, always false"
 }} 
 ,
@@ -177,28 +128,7 @@ var maDataBlocs = {
    "c1" : "01234"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#1234"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01234] The expression __ptr applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01234"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#1234"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01234] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01236"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#1236"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01236] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01237"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#1237"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01237] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -226,28 +156,7 @@ var maDataBlocs = {
    "c1" : "01242"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#1242"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01242] The expression __ptr applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01242"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#1242"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01242] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01248"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#1248"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01248] The expression __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01249"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#1249"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01249] The expression __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -282,21 +191,7 @@ var maDataBlocs = {
    "c1" : "02459"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#2459"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02459] The expression __resolved applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02459"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#2459"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02459] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02486"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#2486"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02486] The expression __buf applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -307,17 +202,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02488"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#2488"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02488] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02490"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#2490"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02490] The expression __buf applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02490] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -331,20 +219,6 @@ var maDataBlocs = {
    "c1" : "02512"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#2512"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02512] The expression __s applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02512"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#2512"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02512] The expression __s applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02512"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#2512"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02512] The expression 2&gt;1 is invariable"
 }} 
 ,
@@ -353,13 +227,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#2512"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02512] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02536"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#2536"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02536] The expression __dst applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -370,17 +237,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02538"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#2538"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02538] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02542"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#2542"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02542] The expression __dst applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02542] The expression __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  ) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -394,28 +254,14 @@ var maDataBlocs = {
    "c1" : "02567"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#2567"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02567] The expression __dst applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02567"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#2567"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02567] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02569"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#2569"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02569] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "02571"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#2571"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02571] The expression __dst applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02571] The expression __len&gt;__builtin_object_size(__dst,2&gt;1) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -426,24 +272,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13614"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#13614"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13614] The expression __dest applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "13615"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#13615"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13615] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "13615"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#13615"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13615] The expression __dest applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13615] The expression ( ! __builtin_constant_p(__n)||__n&gt;__builtin_object_size(__dest,2&gt;1)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -451,13 +283,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#13614"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[13614] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14044"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14044"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14044] The expression bp applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -485,20 +310,6 @@ var maDataBlocs = {
    "c1" : "14047"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14047"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14047] The expression bp applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14047"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14047"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14047] The expression l applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14047"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14047"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[14047] The expression '    Version: %lu (0x%lx)' is invariable"
 }} 
 ,
@@ -507,13 +318,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14048"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[14048] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14054"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14054"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14054] The expression bp applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -541,13 +345,6 @@ var maDataBlocs = {
    "c1" : "14058"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14058"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14058] The expression bp applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14058"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14058"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[14058] The expression '\n    Requestor List:\n' is invariable"
 }} 
 ,
@@ -569,14 +366,7 @@ var maDataBlocs = {
    "c1" : "14060"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14060"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14060] The expression ossl_check_const_OCSP_ONEREQ_sk_type(inf-&gt;requestList) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14064"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14064"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14064] The expression  ! X509V3_extensions_print(bp,'Request Single Extensions',one-&gt;singleRequestExtensions,flags,8) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14060] The expression i&lt;OPENSSL_sk_num(ossl_check_const_OCSP_ONEREQ_sk_type(inf-&gt;requestList)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -598,13 +388,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14067"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[14067] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14069"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14069"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14069] The expression  ! X509V3_extensions_print(bp,'Request Extensions',inf-&gt;requestExtensions,flags,4) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -639,14 +422,7 @@ var maDataBlocs = {
    "c1" : "14074"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14074"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14074] The expression ossl_check_const_X509_sk_type(sig-&gt;certs) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14125"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14125"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14125] The expression bp applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14074] The expression i&lt;OPENSSL_sk_num(ossl_check_const_X509_sk_type(sig-&gt;certs)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -667,27 +443,6 @@ var maDataBlocs = {
    "c1" : "14128"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14128"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14128] The expression bp applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14129"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14129"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14129] The expression OCSP_response_status_str(l) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14129"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14129"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14129] The expression l applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14128"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14128"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[14128] The expression '    OCSP Response Status: %s (0x%lx)\n' is invariable"
 }} 
 ,
@@ -696,13 +451,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14130"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[14130] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14137"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14137"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14137] The expression bp applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -720,31 +468,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14139"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14139"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14139] The expression bp applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14139"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14139"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14139] The expression rb-&gt;responseType applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "14140"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14140"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[14140] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14141"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14141"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14141] The expression rb-&gt;responseType applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -765,20 +492,6 @@ var maDataBlocs = {
    "c1" : "14154"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14154"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14154] The expression bp applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14154"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14154"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14154] The expression l applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14154"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14154"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[14154] The expression '\n    Version: %lu (0x%lx)\n' is invariable"
 }} 
 ,
@@ -787,13 +500,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14155"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[14155] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14156"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14156"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14156] The expression bp applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -814,13 +520,6 @@ var maDataBlocs = {
    "c1" : "14169"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14169"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14169] The expression bp applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14169"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14169"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[14169] The expression '\n    Produced At: ' is invariable"
 }} 
 ,
@@ -832,24 +531,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14171"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14171"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14171] The expression  ! ASN1_GENERALIZEDTIME_print(bp,rd-&gt;producedAt) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "14172"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14172"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[14172] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14173"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14173"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14173] The expression bp applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -870,35 +555,14 @@ var maDataBlocs = {
    "c1" : "14175"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14175"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14175] The expression ossl_check_const_OCSP_SINGLERESP_sk_type(rd-&gt;responses) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14175] The expression i&lt;OPENSSL_sk_num(ossl_check_const_OCSP_SINGLERESP_sk_type(rd-&gt;responses)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "14176"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14176"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14176] The expression ossl_check_const_OCSP_SINGLERESP_sk_type(rd-&gt;responses) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14176"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14176"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14176] The expression (i) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14180"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14180"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14180] The expression bp applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14180"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14180"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14180] The expression cid applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14176] The expression  ! ((OCSP_SINGLERESP *)OPENSSL_sk_value(ossl_check_const_OCSP_SINGLERESP_sk_type(rd-&gt;responses),(i))) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -919,20 +583,6 @@ var maDataBlocs = {
    "c1" : "14183"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14183"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14183] The expression bp applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14184"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14184"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14184] The expression OCSP_cert_status_str(cst-&gt;type) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14183"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14183"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[14183] The expression '    Cert Status: %s' is invariable"
 }} 
 ,
@@ -941,13 +591,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14185"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[14185] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14188"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14188"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14188] The expression bp applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -965,13 +608,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14190"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14190"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14190] The expression  ! ASN1_GENERALIZEDTIME_print(bp,rev-&gt;revocationTime) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "14191"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14191"
  , "c2" : "MAJOR"
@@ -983,27 +619,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14192"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[14192] The expression rev-&gt;revocationReason applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14194"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14194"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14194] The expression bp applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14196"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14196"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14196] The expression OCSP_crl_reason_str(l) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14196"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14196"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14196] The expression l applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1024,13 +639,6 @@ var maDataBlocs = {
    "c1" : "14200"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14200"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14200] The expression bp applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14200"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14200"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[14200] The expression '\n    This Update: ' is invariable"
 }} 
 ,
@@ -1039,13 +647,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14201"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[14201] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14202"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14202"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14202] The expression  ! ASN1_GENERALIZEDTIME_print(bp,single-&gt;thisUpdate) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1066,13 +667,6 @@ var maDataBlocs = {
    "c1" : "14205"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14205"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14205] The expression bp applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14205"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14205"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[14205] The expression '\n    Next Update: ' is invariable"
 }} 
 ,
@@ -1084,24 +678,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14207"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14207"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14207] The expression  ! ASN1_GENERALIZEDTIME_print(bp,single-&gt;nextUpdate) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "14208"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14208"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[14208] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14210"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14210"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14210] The expression bp applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1123,13 +703,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14211"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[14211] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14212"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14212"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14212] The expression  ! X509V3_extensions_print(bp,'Response Single Extensions',single-&gt;singleExtensions,flags,8) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1157,13 +730,6 @@ var maDataBlocs = {
    "c1" : "14216"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14216"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14216] The expression bp applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14216"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14216"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[14216] The expression '\n' is invariable"
 }} 
 ,
@@ -1179,13 +745,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14217"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[14217] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14219"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14219"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14219] The expression  ! X509V3_extensions_print(bp,'Response Extensions',rd-&gt;responseExtensions,flags,4) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1210,27 +769,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14222"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14222"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14222] The expression bp applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14222"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14222"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14222] The expression  &amp; br-&gt;signatureAlgorithm applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14222"
- , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14222"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14222] The expression br-&gt;signature applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "14223"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14223"
  , "c2" : "MAJOR"
@@ -1241,7 +779,7 @@ var maDataBlocs = {
    "c1" : "14225"
  , "c1link" : "./qc/crypto/ocsp/ocsp_prn.c.html#14225"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14225] The expression ossl_check_const_X509_sk_type(br-&gt;certs) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14225] The expression i&lt;OPENSSL_sk_num(ossl_check_const_X509_sk_type(br-&gt;certs)) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

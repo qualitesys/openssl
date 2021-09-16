@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/rsa/rsa_depr.c.html" 
- , "texte" : "File crypto/rsa/rsa_depr.c 59 rule violations " 
+ , "texte" : "File crypto/rsa/rsa_depr.c 32 rule violations " 
  , "fic2"  : "./qc/crypto/rsa/rsa_depr.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "40"
+ , "c4" : "13"
 }}
 ,
 { "ligne" : {
@@ -72,28 +72,7 @@ var maDataBlocs = {
    "c1" : "00988"
  , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#988"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00988] The expression __s applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "00988"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#988"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00988] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00990"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#990"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00990] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "00993"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#993"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00993] The expression __s applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -107,28 +86,7 @@ var maDataBlocs = {
    "c1" : "01018"
  , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#1018"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01018] The expression __ptr applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01018"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#1018"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01018] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01020"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#1020"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01020] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01021"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#1021"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01021] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -156,13 +114,6 @@ var maDataBlocs = {
    "c1" : "01025"
  , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#1025"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01025] The expression __ptr applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01025"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#1025"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01025] The expression 0 is invariable, always false"
 }} 
 ,
@@ -170,28 +121,7 @@ var maDataBlocs = {
    "c1" : "01050"
  , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#1050"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01050] The expression __ptr applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01050"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#1050"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01050] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01052"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#1052"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01052] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01053"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#1053"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01053] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -219,28 +149,7 @@ var maDataBlocs = {
    "c1" : "01058"
  , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#1058"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01058] The expression __ptr applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01058"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#1058"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01058] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01064"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#1064"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01064] The expression __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01065"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#1065"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01065] The expression __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -275,21 +184,7 @@ var maDataBlocs = {
    "c1" : "02520"
  , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2520"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02520] The expression __resolved applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02520"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2520"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02520] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02547"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2547"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02547] The expression __buf applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -300,17 +195,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02549"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2549"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02549] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02551"
  , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2551"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02551] The expression __buf applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02551] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -324,20 +212,6 @@ var maDataBlocs = {
    "c1" : "02573"
  , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2573"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02573] The expression __s applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02573"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2573"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02573] The expression __s applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02573"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2573"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02573] The expression 2&gt;1 is invariable"
 }} 
 ,
@@ -346,13 +220,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2573"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02573] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02597"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2597"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02597] The expression __dst applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -363,17 +230,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02599"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2599"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02599] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02603"
  , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2603"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02603] The expression __dst applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02603] The expression __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  ) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -387,28 +247,14 @@ var maDataBlocs = {
    "c1" : "02628"
  , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2628"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02628] The expression __dst applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02628"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2628"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02628] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02630"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2630"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02630] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "02632"
  , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2632"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02632] The expression __dst applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02632] The expression __len&gt;__builtin_object_size(__dst,2&gt;1) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -419,24 +265,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02977"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2977"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02977] The expression __dest applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02978"
  , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2978"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02978] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02978"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2978"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02978] The expression __dest applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02978] The expression ( ! __builtin_constant_p(__n)||__n&gt;__builtin_object_size(__dest,2&gt;1)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -454,31 +286,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06598"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#6598"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06598] The expression e applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "06598"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#6598"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06598] The expression i applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "06599"
  , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#6599"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[06599] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06604"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#6604"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06604] The expression RSA_generate_key_ex(rsa,bits,e,cb) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

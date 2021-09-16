@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/threads_pthread.c.html" 
- , "texte" : "File crypto/threads_pthread.c 131 rule violations " 
+ , "texte" : "File crypto/threads_pthread.c 63 rule violations " 
  , "fic2"  : "./qc/crypto/threads_pthread.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "91"
+ , "c4" : "23"
 }}
 ,
 { "ligne" : {
@@ -79,21 +79,7 @@ var maDataBlocs = {
    "c1" : "01372"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#1372"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01372] The expression __resolved applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01372"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#1372"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01372] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01399"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#1399"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01399] The expression __buf applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -104,17 +90,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01401"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#1401"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01401] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01403"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#1403"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01403] The expression __buf applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01403] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -128,20 +107,6 @@ var maDataBlocs = {
    "c1" : "01425"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#1425"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01425] The expression __s applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01425"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#1425"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01425] The expression __s applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01425"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#1425"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01425] The expression 2&gt;1 is invariable"
 }} 
 ,
@@ -150,13 +115,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/threads_pthread.c.html#1425"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01425] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01449"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#1449"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01449] The expression __dst applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -167,17 +125,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01451"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#1451"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01451] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01455"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#1455"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01455] The expression __dst applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01455] The expression __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  ) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -191,28 +142,14 @@ var maDataBlocs = {
    "c1" : "01480"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#1480"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01480] The expression __dst applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "01480"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#1480"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01480] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01482"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#1482"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01482] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "01484"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#1484"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01484] The expression __dst applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[01484] The expression __len&gt;__builtin_object_size(__dst,2&gt;1) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -226,28 +163,7 @@ var maDataBlocs = {
    "c1" : "02713"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#2713"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02713] The expression __s applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02713"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#2713"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02713] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02715"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#2715"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02715] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02718"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#2718"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02718] The expression __s applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -261,28 +177,7 @@ var maDataBlocs = {
    "c1" : "02743"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#2743"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02743] The expression __ptr applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02743"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#2743"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02743] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02745"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#2745"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02745] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02746"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#2746"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02746] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -310,13 +205,6 @@ var maDataBlocs = {
    "c1" : "02750"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#2750"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02750] The expression __ptr applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02750"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#2750"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02750] The expression 0 is invariable, always false"
 }} 
 ,
@@ -324,28 +212,7 @@ var maDataBlocs = {
    "c1" : "02775"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#2775"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02775] The expression __ptr applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02775"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#2775"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02775] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02777"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#2777"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02777] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02778"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#2778"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02778] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -373,28 +240,7 @@ var maDataBlocs = {
    "c1" : "02783"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#2783"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02783] The expression __ptr applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02783"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#2783"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02783] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02789"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#2789"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02789] The expression __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "02790"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#2790"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02790] The expression __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -419,24 +265,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "04567"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#4567"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04567] The expression __dest applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "04568"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#4568"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04568] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "04568"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#4568"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04568] The expression __dest applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[04568] The expression ( ! __builtin_constant_p(__n)||__n&gt;__builtin_object_size(__dest,2&gt;1)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -450,28 +282,14 @@ var maDataBlocs = {
    "c1" : "07371"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#7371"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07371] The expression __buf applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07371"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7371"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[07371] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07373"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7373"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07373] The expression  ! __builtin_constant_p(__nbytes) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "07376"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#7376"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07376] The expression __buf applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07376] The expression __nbytes&gt;__builtin_object_size(__buf,0) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -485,28 +303,14 @@ var maDataBlocs = {
    "c1" : "07401"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#7401"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07401] The expression __buf applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07401"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7401"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[07401] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07403"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7403"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07403] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "07406"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#7406"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07406] The expression __buf applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07406] The expression __len&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -520,28 +324,14 @@ var maDataBlocs = {
    "c1" : "07435"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#7435"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07435] The expression __buf applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07435"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7435"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[07435] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07437"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7437"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07437] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "07440"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#7440"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07440] The expression __buf applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07440] The expression __len&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -555,28 +345,14 @@ var maDataBlocs = {
    "c1" : "07461"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#7461"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07461] The expression __buf applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07461"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7461"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[07461] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07463"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7463"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07463] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "07466"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#7466"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07466] The expression __buf applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07466] The expression __size&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -590,21 +366,7 @@ var maDataBlocs = {
    "c1" : "07482"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#7482"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07482] The expression __buf applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07482"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7482"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[07482] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07501"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7501"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07501] The expression __buf applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -615,17 +377,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07503"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7503"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07503] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "07506"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#7506"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07506] The expression __buf applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07506] The expression __builtin_object_size(__buf,2&gt;1)&lt;__len applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -639,21 +394,7 @@ var maDataBlocs = {
    "c1" : "07526"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#7526"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07526] The expression __list applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07526"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7526"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[07526] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07528"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7528"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07528] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -667,21 +408,7 @@ var maDataBlocs = {
    "c1" : "07531"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#7531"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07531] The expression __list applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07531"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7531"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[07531] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07552"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7552"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07552] The expression __buf applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -692,17 +419,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07554"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7554"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07554] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "07557"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#7557"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07557] The expression __buf applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07557] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -716,28 +436,14 @@ var maDataBlocs = {
    "c1" : "07578"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#7578"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07578] The expression __buf applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07578"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7578"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[07578] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07580"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7580"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07580] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "07583"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#7583"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07583] The expression __buf applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07583] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -751,28 +457,14 @@ var maDataBlocs = {
    "c1" : "07605"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#7605"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07605] The expression __buf applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07605"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7605"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[07605] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07607"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7607"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07607] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "07610"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#7610"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07610] The expression __buf applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07610] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -786,28 +478,14 @@ var maDataBlocs = {
    "c1" : "07634"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#7634"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07634] The expression __buf applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07634"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7634"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[07634] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07636"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7636"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07636] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "07639"
  , "c1link" : "./qc/crypto/threads_pthread.c.html#7639"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07639] The expression __buf applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07639] The expression __buflen&gt;__builtin_object_size(__buf,2&gt;1) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -829,160 +507,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/threads_pthread.c.html#7669"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[07669] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07682"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7682"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07682] The expression lock applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07701"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7701"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07701] The expression lock applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07716"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7716"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07716] The expression lock applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07731"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7731"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07731] The expression lock applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07764"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7764"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07764] The expression once applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07764"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7764"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07764] The expression init applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07772"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7772"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07772] The expression key applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07772"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7772"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07772] The expression  cleanup  applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07785"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7785"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07785] The expression  * key applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07785"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7785"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07785] The expression val applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07793"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7793"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07793] The expression  * key applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07812"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7812"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07812] The expression __atomic_is_lock_free( sizeof ( * val),val) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07827"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7827"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07827] The expression  ! CRYPTO_THREAD_write_lock(lock) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07833"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7833"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07833] The expression  ! CRYPTO_THREAD_unlock(lock) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07843"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7843"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07843] The expression __atomic_is_lock_free( sizeof ( * val),val) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07858"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7858"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07858] The expression  ! CRYPTO_THREAD_write_lock(lock) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07863"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7863"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07863] The expression  ! CRYPTO_THREAD_unlock(lock) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07872"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7872"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07872] The expression __atomic_is_lock_free( sizeof ( * val),val) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07887"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7887"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07887] The expression  ! CRYPTO_THREAD_read_lock(lock) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07890"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7890"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07890] The expression  ! CRYPTO_THREAD_unlock(lock) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07916"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7916"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07916] The expression  &amp; fork_once_control applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07916"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7916"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07916] The expression fork_once_func applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };
