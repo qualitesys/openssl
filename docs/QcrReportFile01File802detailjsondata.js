@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/ssl_rsa_legacy.c.html" 
- , "texte" : "File ssl/ssl_rsa_legacy.c 60 rule violations " 
+ , "texte" : "File ssl/ssl_rsa_legacy.c 49 rule violations " 
  , "fic2"  : "./qc/ssl/ssl_rsa_legacy.c.xml" 
  , "fic3"  : "" 
 }
@@ -60,13 +60,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000018"
- , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "11"
-}}
-,
-{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000007"
  , "c3" : "goto statement"
@@ -104,13 +97,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01177"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#1177"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01177] Suspicious mix of Bitwise and Literal expressions in (size_t )__n&gt;__builtin_object_size(__s,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "01202"
  , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#1202"
  , "c2" : "BLOCKER"
@@ -125,13 +111,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01209"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#1209"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01209] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
-}} 
-,
-{ "ligne" : {
    "c1" : "01234"
  , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#1234"
  , "c2" : "BLOCKER"
@@ -143,13 +122,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#1242"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01242] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01242"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#1242"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01242] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
 }} 
 ,
 { "ligne" : {
@@ -188,13 +160,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02477"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#2477"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02477] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "02499"
  , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#2499"
  , "c2" : "BLOCKER"
@@ -206,13 +171,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#2499"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02499] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02499"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#2499"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02499] Suspicious mix of Bitwise and Literal expressions in 16&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -237,13 +195,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02529"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#2529"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02529] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  )"
-}} 
-,
-{ "ligne" : {
    "c1" : "02554"
  , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#2554"
  , "c2" : "BLOCKER"
@@ -265,13 +216,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02558"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#2558"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02558] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "14533"
  , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14533"
  , "c2" : "MAJOR"
@@ -290,13 +234,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14562"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[14562] The expression 6 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14562"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14562"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[14562] Suspicious mix of Bitwise and Literal expressions in EVP_PKEY_assign((pkey),6,(rsa))&lt;=0"
 }} 
 ,
 { "ligne" : {
@@ -332,13 +269,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14597"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[14597] The expression 0x02 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14597"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14597"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[14597] Suspicious mix of Bitwise and Literal expressions in ( int  )BIO_ctrl(in,108,0x01|0x02,( char  *)(file))&lt;=0"
 }} 
 ,
 { "ligne" : {
@@ -412,13 +342,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14708"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14708"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[14708] Suspicious mix of Bitwise and Literal expressions in EVP_PKEY_assign((pkey),6,(rsa))&lt;=0"
-}} 
-,
-{ "ligne" : {
    "c1" : "14722"
  , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14722"
  , "c2" : "MAJOR"
@@ -451,13 +374,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14743"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[14743] The expression 0x02 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14743"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14743"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[14743] Suspicious mix of Bitwise and Literal expressions in ( int  )BIO_ctrl(in,108,0x01|0x02,( char  *)(file))&lt;=0"
 }} 
 ,
 { "ligne" : {

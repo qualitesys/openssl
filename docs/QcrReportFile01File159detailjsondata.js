@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bio/bio_cb.c.html" 
- , "texte" : "File crypto/bio/bio_cb.c 79 rule violations " 
+ , "texte" : "File crypto/bio/bio_cb.c 60 rule violations " 
  , "fic2"  : "./qc/crypto/bio/bio_cb.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "21"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -83,13 +83,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "00964"
- , "c1link" : "./qc/crypto/bio/bio_cb.c.html#964"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[00964] Suspicious mix of Bitwise and Literal expressions in (size_t )__n&gt;__builtin_object_size(__s,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "00989"
  , "c1link" : "./qc/crypto/bio/bio_cb.c.html#989"
  , "c2" : "BLOCKER"
@@ -101,13 +94,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bio/bio_cb.c.html#996"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00996] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00996"
- , "c1link" : "./qc/crypto/bio/bio_cb.c.html#996"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[00996] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
 }} 
 ,
 { "ligne" : {
@@ -125,24 +111,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01029"
- , "c1link" : "./qc/crypto/bio/bio_cb.c.html#1029"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01029] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
-}} 
-,
-{ "ligne" : {
    "c1" : "01419"
  , "c1link" : "./qc/crypto/bio/bio_cb.c.html#1419"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01419] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01420"
- , "c1link" : "./qc/crypto/bio/bio_cb.c.html#1420"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01420] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__dest,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -181,13 +153,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02650"
- , "c1link" : "./qc/crypto/bio/bio_cb.c.html#2650"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02650] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "02672"
  , "c1link" : "./qc/crypto/bio/bio_cb.c.html#2672"
  , "c2" : "BLOCKER"
@@ -199,13 +164,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bio/bio_cb.c.html#2672"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02672] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02672"
- , "c1link" : "./qc/crypto/bio/bio_cb.c.html#2672"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02672] Suspicious mix of Bitwise and Literal expressions in 16&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -230,13 +188,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02702"
- , "c1link" : "./qc/crypto/bio/bio_cb.c.html#2702"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02702] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  )"
-}} 
-,
-{ "ligne" : {
    "c1" : "02727"
  , "c1link" : "./qc/crypto/bio/bio_cb.c.html#2727"
  , "c2" : "BLOCKER"
@@ -255,13 +206,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bio/bio_cb.c.html#2731"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02731] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02731"
- , "c1link" : "./qc/crypto/bio/bio_cb.c.html#2731"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02731] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -286,13 +230,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05914"
- , "c1link" : "./qc/crypto/bio/bio_cb.c.html#5914"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[05914] Suspicious mix of Bitwise and Literal expressions in __nbytes&gt;__builtin_object_size(__buf,0)"
-}} 
-,
-{ "ligne" : {
    "c1" : "05939"
  , "c1link" : "./qc/crypto/bio/bio_cb.c.html#5939"
  , "c2" : "BLOCKER"
@@ -311,13 +248,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bio/bio_cb.c.html#5944"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[05944] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05944"
- , "c1link" : "./qc/crypto/bio/bio_cb.c.html#5944"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[05944] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__buf,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -342,13 +272,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05978"
- , "c1link" : "./qc/crypto/bio/bio_cb.c.html#5978"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[05978] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__buf,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "05999"
  , "c1link" : "./qc/crypto/bio/bio_cb.c.html#5999"
  , "c2" : "BLOCKER"
@@ -367,13 +290,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bio/bio_cb.c.html#6004"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06004] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06004"
- , "c1link" : "./qc/crypto/bio/bio_cb.c.html#6004"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06004] Suspicious mix of Bitwise and Literal expressions in __size&gt;__builtin_object_size(__buf,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -402,13 +318,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bio/bio_cb.c.html#6044"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06044] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06044"
- , "c1link" : "./qc/crypto/bio/bio_cb.c.html#6044"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06044] Suspicious mix of Bitwise and Literal expressions in __builtin_object_size(__buf,2&gt;1)&lt;__len"
 }} 
 ,
 { "ligne" : {
@@ -454,13 +363,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06095"
- , "c1link" : "./qc/crypto/bio/bio_cb.c.html#6095"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06095] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "06116"
  , "c1link" : "./qc/crypto/bio/bio_cb.c.html#6116"
  , "c2" : "BLOCKER"
@@ -479,13 +381,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bio/bio_cb.c.html#6121"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06121] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06121"
- , "c1link" : "./qc/crypto/bio/bio_cb.c.html#6121"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06121] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -510,13 +405,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06148"
- , "c1link" : "./qc/crypto/bio/bio_cb.c.html#6148"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06148] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "06172"
  , "c1link" : "./qc/crypto/bio/bio_cb.c.html#6172"
  , "c2" : "BLOCKER"
@@ -535,13 +423,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bio/bio_cb.c.html#6177"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06177] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06177"
- , "c1link" : "./qc/crypto/bio/bio_cb.c.html#6177"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06177] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -573,13 +454,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07486"
- , "c1link" : "./qc/crypto/bio/bio_cb.c.html#7486"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[07486] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__buf,0)"
-}} 
-,
-{ "ligne" : {
    "c1" : "07512"
  , "c1link" : "./qc/crypto/bio/bio_cb.c.html#7512"
  , "c2" : "BLOCKER"
@@ -598,13 +472,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bio/bio_cb.c.html#7517"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[07517] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07517"
- , "c1link" : "./qc/crypto/bio/bio_cb.c.html#7517"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[07517] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__buf,0)"
 }} 
 ,
 { "ligne" : {

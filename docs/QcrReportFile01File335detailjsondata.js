@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/dsa/dsa_meth.c.html" 
- , "texte" : "File crypto/dsa/dsa_meth.c 30 rule violations " 
+ , "texte" : "File crypto/dsa/dsa_meth.c 21 rule violations " 
  , "fic2"  : "./qc/crypto/dsa/dsa_meth.c.xml" 
  , "fic3"  : "" 
 }
@@ -53,13 +53,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000018"
- , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "9"
-}}
-,
-{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
@@ -90,13 +83,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01856"
- , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#1856"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01856] Suspicious mix of Bitwise and Literal expressions in __builtin_object_size(__resolved,2&gt;1)&lt;4096"
-}} 
-,
-{ "ligne" : {
    "c1" : "01880"
  , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#1880"
  , "c2" : "BLOCKER"
@@ -118,13 +104,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01884"
- , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#1884"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01884] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "01906"
  , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#1906"
  , "c2" : "BLOCKER"
@@ -136,13 +115,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#1906"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01906] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01906"
- , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#1906"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01906] Suspicious mix of Bitwise and Literal expressions in 16&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -167,13 +139,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01936"
- , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#1936"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01936] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  )"
-}} 
-,
-{ "ligne" : {
    "c1" : "01961"
  , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#1961"
  , "c2" : "BLOCKER"
@@ -195,13 +160,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01965"
- , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#1965"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01965] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "03050"
  , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#3050"
  , "c2" : "BLOCKER"
@@ -213,13 +171,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#3055"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03055] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03055"
- , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#3055"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03055] Suspicious mix of Bitwise and Literal expressions in (size_t )__n&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -237,13 +188,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03087"
- , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#3087"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03087] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
-}} 
-,
-{ "ligne" : {
    "c1" : "03112"
  , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#3112"
  , "c2" : "BLOCKER"
@@ -258,24 +202,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03120"
- , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#3120"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03120] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
-}} 
-,
-{ "ligne" : {
    "c1" : "08858"
  , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#8858"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[08858] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08859"
- , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#8859"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[08859] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__dest,2&gt;1)"
 }} 
 ]
 };

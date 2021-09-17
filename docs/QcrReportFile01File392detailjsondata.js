@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/engine/eng_rdrand.c.html" 
- , "texte" : "File crypto/engine/eng_rdrand.c 30 rule violations " 
+ , "texte" : "File crypto/engine/eng_rdrand.c 21 rule violations " 
  , "fic2"  : "./qc/crypto/engine/eng_rdrand.c.xml" 
  , "fic3"  : "" 
 }
@@ -53,13 +53,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000018"
- , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "9"
-}}
-,
-{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
@@ -83,13 +76,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "00984"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#984"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[00984] Suspicious mix of Bitwise and Literal expressions in (size_t )__n&gt;__builtin_object_size(__s,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "01009"
  , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#1009"
  , "c2" : "BLOCKER"
@@ -101,13 +87,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#1016"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01016] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01016"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#1016"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01016] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
 }} 
 ,
 { "ligne" : {
@@ -125,24 +104,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01049"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#1049"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01049] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
-}} 
-,
-{ "ligne" : {
    "c1" : "01439"
  , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#1439"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01439] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01440"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#1440"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01440] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__dest,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -167,13 +132,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03134"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3134"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03134] Suspicious mix of Bitwise and Literal expressions in __builtin_object_size(__resolved,2&gt;1)&lt;4096"
-}} 
-,
-{ "ligne" : {
    "c1" : "03158"
  , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3158"
  , "c2" : "BLOCKER"
@@ -195,13 +153,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03162"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3162"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03162] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "03184"
  , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3184"
  , "c2" : "BLOCKER"
@@ -213,13 +164,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3184"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03184] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03184"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3184"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03184] Suspicious mix of Bitwise and Literal expressions in 16&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -244,13 +188,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03214"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3214"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03214] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  )"
-}} 
-,
-{ "ligne" : {
    "c1" : "03239"
  , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3239"
  , "c2" : "BLOCKER"
@@ -269,13 +206,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3243"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03243] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03243"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3243"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03243] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)"
 }} 
 ]
 };

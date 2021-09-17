@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/modes/ofb128.c.html" 
- , "texte" : "File crypto/modes/ofb128.c 32 rule violations " 
+ , "texte" : "File crypto/modes/ofb128.c 24 rule violations " 
  , "fic2"  : "./qc/crypto/modes/ofb128.c.xml" 
  , "fic3"  : "" 
 }
@@ -60,13 +60,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000018"
- , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "8"
-}}
-,
-{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
@@ -80,13 +73,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/modes/ofb128.c.html#383"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00383] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00384"
- , "c1link" : "./qc/crypto/modes/ofb128.c.html#384"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[00384] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__dest,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -125,13 +111,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01783"
- , "c1link" : "./qc/crypto/modes/ofb128.c.html#1783"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01783] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "01805"
  , "c1link" : "./qc/crypto/modes/ofb128.c.html#1805"
  , "c2" : "BLOCKER"
@@ -143,13 +122,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/modes/ofb128.c.html#1805"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01805] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01805"
- , "c1link" : "./qc/crypto/modes/ofb128.c.html#1805"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01805] Suspicious mix of Bitwise and Literal expressions in 16&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -174,13 +146,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01835"
- , "c1link" : "./qc/crypto/modes/ofb128.c.html#1835"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01835] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  )"
-}} 
-,
-{ "ligne" : {
    "c1" : "01860"
  , "c1link" : "./qc/crypto/modes/ofb128.c.html#1860"
  , "c2" : "BLOCKER"
@@ -202,13 +167,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01864"
- , "c1link" : "./qc/crypto/modes/ofb128.c.html#1864"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01864] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "03063"
  , "c1link" : "./qc/crypto/modes/ofb128.c.html#3063"
  , "c2" : "BLOCKER"
@@ -220,13 +178,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/modes/ofb128.c.html#3068"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03068] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03068"
- , "c1link" : "./qc/crypto/modes/ofb128.c.html#3068"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03068] Suspicious mix of Bitwise and Literal expressions in (size_t )__n&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -244,13 +195,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03100"
- , "c1link" : "./qc/crypto/modes/ofb128.c.html#3100"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03100] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
-}} 
-,
-{ "ligne" : {
    "c1" : "03125"
  , "c1link" : "./qc/crypto/modes/ofb128.c.html#3125"
  , "c2" : "BLOCKER"
@@ -262,13 +206,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/modes/ofb128.c.html#3133"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03133] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03133"
- , "c1link" : "./qc/crypto/modes/ofb128.c.html#3133"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03133] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
 }} 
 ,
 { "ligne" : {

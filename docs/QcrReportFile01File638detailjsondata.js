@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/sha/keccak1600.c.html" 
- , "texte" : "File crypto/sha/keccak1600.c 6 rule violations " 
+ , "texte" : "File crypto/sha/keccak1600.c 5 rule violations " 
  , "fic2"  : "./qc/crypto/sha/keccak1600.c.xml" 
  , "fic3"  : "" 
 }
@@ -51,13 +51,6 @@ var maDataBlocs = {
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "4"
 }}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000018"
- , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -66,13 +59,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/keccak1600.c.html#715"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00715] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00716"
- , "c1link" : "./qc/crypto/sha/keccak1600.c.html#716"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[00716] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__dest,2&gt;1)"
 }} 
 ,
 { "ligne" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/statem/statem.c.html" 
- , "texte" : "File ssl/statem/statem.c 163 rule violations " 
+ , "texte" : "File ssl/statem/statem.c 135 rule violations " 
  , "fic2"  : "./qc/ssl/statem/statem.c.xml" 
  , "fic3"  : "" 
 }
@@ -77,7 +77,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "31"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -146,13 +146,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01381"
- , "c1link" : "./qc/ssl/statem/statem.c.html#1381"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01381] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "01403"
  , "c1link" : "./qc/ssl/statem/statem.c.html#1403"
  , "c2" : "BLOCKER"
@@ -164,13 +157,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/statem.c.html#1403"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01403] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01403"
- , "c1link" : "./qc/ssl/statem/statem.c.html#1403"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01403] Suspicious mix of Bitwise and Literal expressions in 16&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -195,13 +181,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01433"
- , "c1link" : "./qc/ssl/statem/statem.c.html#1433"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01433] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  )"
-}} 
-,
-{ "ligne" : {
    "c1" : "01458"
  , "c1link" : "./qc/ssl/statem/statem.c.html#1458"
  , "c2" : "BLOCKER"
@@ -223,24 +202,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01462"
- , "c1link" : "./qc/ssl/statem/statem.c.html#1462"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01462] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "01829"
  , "c1link" : "./qc/ssl/statem/statem.c.html#1829"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01829] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01830"
- , "c1link" : "./qc/ssl/statem/statem.c.html#1830"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01830] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__dest,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -258,13 +223,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03074"
- , "c1link" : "./qc/ssl/statem/statem.c.html#3074"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03074] Suspicious mix of Bitwise and Literal expressions in (size_t )__n&gt;__builtin_object_size(__s,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "03099"
  , "c1link" : "./qc/ssl/statem/statem.c.html#3099"
  , "c2" : "BLOCKER"
@@ -279,13 +237,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03106"
- , "c1link" : "./qc/ssl/statem/statem.c.html#3106"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03106] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
-}} 
-,
-{ "ligne" : {
    "c1" : "03131"
  , "c1link" : "./qc/ssl/statem/statem.c.html#3131"
  , "c2" : "BLOCKER"
@@ -297,13 +248,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/statem.c.html#3139"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03139] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03139"
- , "c1link" : "./qc/ssl/statem/statem.c.html#3139"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03139] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
 }} 
 ,
 { "ligne" : {
@@ -328,13 +272,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09878"
- , "c1link" : "./qc/ssl/statem/statem.c.html#9878"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[09878] Suspicious mix of Bitwise and Literal expressions in __nbytes&gt;__builtin_object_size(__buf,0)"
-}} 
-,
-{ "ligne" : {
    "c1" : "09903"
  , "c1link" : "./qc/ssl/statem/statem.c.html#9903"
  , "c2" : "BLOCKER"
@@ -353,13 +290,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/statem.c.html#9908"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[09908] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09908"
- , "c1link" : "./qc/ssl/statem/statem.c.html#9908"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[09908] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__buf,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -384,13 +314,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09942"
- , "c1link" : "./qc/ssl/statem/statem.c.html#9942"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[09942] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__buf,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "09963"
  , "c1link" : "./qc/ssl/statem/statem.c.html#9963"
  , "c2" : "BLOCKER"
@@ -409,13 +332,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/statem.c.html#9968"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[09968] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09968"
- , "c1link" : "./qc/ssl/statem/statem.c.html#9968"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[09968] Suspicious mix of Bitwise and Literal expressions in __size&gt;__builtin_object_size(__buf,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -444,13 +360,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/statem.c.html#10008"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[10008] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10008"
- , "c1link" : "./qc/ssl/statem/statem.c.html#10008"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[10008] Suspicious mix of Bitwise and Literal expressions in __builtin_object_size(__buf,2&gt;1)&lt;__len"
 }} 
 ,
 { "ligne" : {
@@ -496,13 +405,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10059"
- , "c1link" : "./qc/ssl/statem/statem.c.html#10059"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[10059] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "10080"
  , "c1link" : "./qc/ssl/statem/statem.c.html#10080"
  , "c2" : "BLOCKER"
@@ -521,13 +423,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/statem.c.html#10085"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[10085] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10085"
- , "c1link" : "./qc/ssl/statem/statem.c.html#10085"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[10085] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -552,13 +447,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10112"
- , "c1link" : "./qc/ssl/statem/statem.c.html#10112"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[10112] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "10136"
  , "c1link" : "./qc/ssl/statem/statem.c.html#10136"
  , "c2" : "BLOCKER"
@@ -580,13 +468,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10141"
- , "c1link" : "./qc/ssl/statem/statem.c.html#10141"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[10141] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "17111"
  , "c1link" : "./qc/ssl/statem/statem.c.html#17111"
  , "c2" : "BLOCKER"
@@ -594,24 +475,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17155"
- , "c1link" : "./qc/ssl/statem/statem.c.html#17155"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[17155] Suspicious mix of Bitwise and Literal expressions in PACKET_remaining(pkt)&lt;len"
-}} 
-,
-{ "ligne" : {
    "c1" : "17169"
  , "c1link" : "./qc/ssl/statem/statem.c.html#17169"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[17169] The expression  ! PACKET_peek_sub_packet(pkt,subpkt,len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "17184"
- , "c1link" : "./qc/ssl/statem/statem.c.html#17184"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[17184] Suspicious mix of Bitwise and Literal expressions in PACKET_remaining(pkt)&lt;2"
 }} 
 ,
 { "ligne" : {
@@ -629,13 +496,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17224"
- , "c1link" : "./qc/ssl/statem/statem.c.html#17224"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[17224] Suspicious mix of Bitwise and Literal expressions in PACKET_remaining(pkt)&lt;3"
-}} 
-,
-{ "ligne" : {
    "c1" : "17238"
  , "c1link" : "./qc/ssl/statem/statem.c.html#17238"
  , "c2" : "BLOCKER"
@@ -647,13 +507,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/statem.c.html#17252"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[17252] The expression ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "17265"
- , "c1link" : "./qc/ssl/statem/statem.c.html#17265"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[17265] Suspicious mix of Bitwise and Literal expressions in PACKET_remaining(pkt)&lt;4"
 }} 
 ,
 { "ligne" : {
@@ -692,24 +545,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17342"
- , "c1link" : "./qc/ssl/statem/statem.c.html#17342"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[17342] Suspicious mix of Bitwise and Literal expressions in PACKET_remaining(pkt)&lt;4"
-}} 
-,
-{ "ligne" : {
    "c1" : "17360"
  , "c1link" : "./qc/ssl/statem/statem.c.html#17360"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[17360] The expression  ! PACKET_peek_4(pkt,data) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "17378"
- , "c1link" : "./qc/ssl/statem/statem.c.html#17378"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[17378] Suspicious mix of Bitwise and Literal expressions in PACKET_remaining(pkt)&lt;len"
 }} 
 ,
 { "ligne" : {
@@ -720,31 +559,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17409"
- , "c1link" : "./qc/ssl/statem/statem.c.html#17409"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[17409] Suspicious mix of Bitwise and Literal expressions in PACKET_remaining(pkt)&lt;len"
-}} 
-,
-{ "ligne" : {
    "c1" : "17424"
  , "c1link" : "./qc/ssl/statem/statem.c.html#17424"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[17424] The expression  ! PACKET_peek_copy_bytes(pkt,data,len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "17436"
- , "c1link" : "./qc/ssl/statem/statem.c.html#17436"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[17436] Suspicious mix of Bitwise and Literal expressions in PACKET_remaining(pkt)&gt;dest_len"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17501"
- , "c1link" : "./qc/ssl/statem/statem.c.html#17501"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[17501] Suspicious mix of Bitwise and Literal expressions in PACKET_remaining(pkt)&lt;len"
 }} 
 ,
 { "ligne" : {
@@ -1056,13 +874,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "21020"
- , "c1link" : "./qc/ssl/statem/statem.c.html#21020"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[21020] Suspicious mix of Bitwise and Literal expressions in s-&gt;s3.tmp.message_size&gt;max_message_size(s)"
-}} 
-,
-{ "ligne" : {
    "c1" : "21062"
  , "c1link" : "./qc/ssl/statem/statem.c.html#21062"
  , "c2" : "BLOCKER"
@@ -1235,13 +1046,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/statem.c.html#21354"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[21354] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21354"
- , "c1link" : "./qc/ssl/statem/statem.c.html#21354"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[21354] Suspicious mix of Bitwise and Literal expressions in ( int  )BIO_ctrl(s-&gt;wbio,11,0,(( void  *)0))&lt;=0"
 }} 
 ,
 { "ligne" : {

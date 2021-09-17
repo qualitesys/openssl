@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ct/ct_x509v3.c.html" 
- , "texte" : "File crypto/ct/ct_x509v3.c 28 rule violations " 
+ , "texte" : "File crypto/ct/ct_x509v3.c 20 rule violations " 
  , "fic2"  : "./qc/crypto/ct/ct_x509v3.c.xml" 
  , "fic3"  : "" 
 }
@@ -53,13 +53,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000018"
- , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "8"
-}}
-,
-{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
@@ -90,13 +83,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01875"
- , "c1link" : "./qc/crypto/ct/ct_x509v3.c.html#1875"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01875] Suspicious mix of Bitwise and Literal expressions in __builtin_object_size(__resolved,2&gt;1)&lt;4096"
-}} 
-,
-{ "ligne" : {
    "c1" : "01899"
  , "c1link" : "./qc/crypto/ct/ct_x509v3.c.html#1899"
  , "c2" : "BLOCKER"
@@ -118,13 +104,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01903"
- , "c1link" : "./qc/crypto/ct/ct_x509v3.c.html#1903"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01903] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "01925"
  , "c1link" : "./qc/crypto/ct/ct_x509v3.c.html#1925"
  , "c2" : "BLOCKER"
@@ -136,13 +115,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ct/ct_x509v3.c.html#1925"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01925] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01925"
- , "c1link" : "./qc/crypto/ct/ct_x509v3.c.html#1925"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01925] Suspicious mix of Bitwise and Literal expressions in 16&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -167,13 +139,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01955"
- , "c1link" : "./qc/crypto/ct/ct_x509v3.c.html#1955"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01955] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  )"
-}} 
-,
-{ "ligne" : {
    "c1" : "01980"
  , "c1link" : "./qc/crypto/ct/ct_x509v3.c.html#1980"
  , "c2" : "BLOCKER"
@@ -195,13 +160,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01984"
- , "c1link" : "./qc/crypto/ct/ct_x509v3.c.html#1984"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01984] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "03035"
  , "c1link" : "./qc/crypto/ct/ct_x509v3.c.html#3035"
  , "c2" : "BLOCKER"
@@ -213,13 +171,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ct/ct_x509v3.c.html#3040"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03040] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03040"
- , "c1link" : "./qc/crypto/ct/ct_x509v3.c.html#3040"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03040] Suspicious mix of Bitwise and Literal expressions in (size_t )__n&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -237,13 +188,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03072"
- , "c1link" : "./qc/crypto/ct/ct_x509v3.c.html#3072"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03072] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
-}} 
-,
-{ "ligne" : {
    "c1" : "03097"
  , "c1link" : "./qc/crypto/ct/ct_x509v3.c.html#3097"
  , "c2" : "BLOCKER"
@@ -255,13 +199,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ct/ct_x509v3.c.html#3105"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03105] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03105"
- , "c1link" : "./qc/crypto/ct/ct_x509v3.c.html#3105"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03105] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
 }} 
 ]
 };

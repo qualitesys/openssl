@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/methods.c.html" 
- , "texte" : "File ssl/methods.c 101 rule violations " 
+ , "texte" : "File ssl/methods.c 75 rule violations " 
  , "fic2"  : "./qc/ssl/methods.c.xml" 
  , "fic3"  : "" 
 }
@@ -63,7 +63,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "28"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -90,13 +90,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "00964"
- , "c1link" : "./qc/ssl/methods.c.html#964"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[00964] Suspicious mix of Bitwise and Literal expressions in (size_t )__n&gt;__builtin_object_size(__s,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "00989"
  , "c1link" : "./qc/ssl/methods.c.html#989"
  , "c2" : "BLOCKER"
@@ -111,13 +104,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "00996"
- , "c1link" : "./qc/ssl/methods.c.html#996"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[00996] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
-}} 
-,
-{ "ligne" : {
    "c1" : "01021"
  , "c1link" : "./qc/ssl/methods.c.html#1021"
  , "c2" : "BLOCKER"
@@ -129,13 +115,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/methods.c.html#1029"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01029] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01029"
- , "c1link" : "./qc/ssl/methods.c.html#1029"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01029] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
 }} 
 ,
 { "ligne" : {
@@ -174,13 +153,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02505"
- , "c1link" : "./qc/ssl/methods.c.html#2505"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02505] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "02527"
  , "c1link" : "./qc/ssl/methods.c.html#2527"
  , "c2" : "BLOCKER"
@@ -192,13 +164,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/methods.c.html#2527"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02527] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02527"
- , "c1link" : "./qc/ssl/methods.c.html#2527"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02527] Suspicious mix of Bitwise and Literal expressions in 16&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -223,13 +188,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02557"
- , "c1link" : "./qc/ssl/methods.c.html#2557"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02557] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  )"
-}} 
-,
-{ "ligne" : {
    "c1" : "02582"
  , "c1link" : "./qc/ssl/methods.c.html#2582"
  , "c2" : "BLOCKER"
@@ -248,13 +206,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/methods.c.html#2586"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02586] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02586"
- , "c1link" : "./qc/ssl/methods.c.html#2586"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02586] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -279,13 +230,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06805"
- , "c1link" : "./qc/ssl/methods.c.html#6805"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06805] Suspicious mix of Bitwise and Literal expressions in __nbytes&gt;__builtin_object_size(__buf,0)"
-}} 
-,
-{ "ligne" : {
    "c1" : "06830"
  , "c1link" : "./qc/ssl/methods.c.html#6830"
  , "c2" : "BLOCKER"
@@ -304,13 +248,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/methods.c.html#6835"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06835] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06835"
- , "c1link" : "./qc/ssl/methods.c.html#6835"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06835] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__buf,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -335,13 +272,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06869"
- , "c1link" : "./qc/ssl/methods.c.html#6869"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06869] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__buf,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "06890"
  , "c1link" : "./qc/ssl/methods.c.html#6890"
  , "c2" : "BLOCKER"
@@ -360,13 +290,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/methods.c.html#6895"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06895] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06895"
- , "c1link" : "./qc/ssl/methods.c.html#6895"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06895] Suspicious mix of Bitwise and Literal expressions in __size&gt;__builtin_object_size(__buf,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -395,13 +318,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/methods.c.html#6935"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06935] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06935"
- , "c1link" : "./qc/ssl/methods.c.html#6935"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06935] Suspicious mix of Bitwise and Literal expressions in __builtin_object_size(__buf,2&gt;1)&lt;__len"
 }} 
 ,
 { "ligne" : {
@@ -447,13 +363,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06986"
- , "c1link" : "./qc/ssl/methods.c.html#6986"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06986] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "07007"
  , "c1link" : "./qc/ssl/methods.c.html#7007"
  , "c2" : "BLOCKER"
@@ -472,13 +381,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/methods.c.html#7012"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[07012] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07012"
- , "c1link" : "./qc/ssl/methods.c.html#7012"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[07012] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -503,13 +405,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07039"
- , "c1link" : "./qc/ssl/methods.c.html#7039"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[07039] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "07063"
  , "c1link" : "./qc/ssl/methods.c.html#7063"
  , "c2" : "BLOCKER"
@@ -531,24 +426,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07068"
- , "c1link" : "./qc/ssl/methods.c.html#7068"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[07068] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "07430"
  , "c1link" : "./qc/ssl/methods.c.html#7430"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[07430] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07431"
- , "c1link" : "./qc/ssl/methods.c.html#7431"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[07431] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__dest,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -559,24 +440,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "16950"
- , "c1link" : "./qc/ssl/methods.c.html#16950"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[16950] Suspicious mix of Bitwise and Literal expressions in PACKET_remaining(pkt)&lt;len"
-}} 
-,
-{ "ligne" : {
    "c1" : "16964"
  , "c1link" : "./qc/ssl/methods.c.html#16964"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[16964] The expression  ! PACKET_peek_sub_packet(pkt,subpkt,len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16979"
- , "c1link" : "./qc/ssl/methods.c.html#16979"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[16979] Suspicious mix of Bitwise and Literal expressions in PACKET_remaining(pkt)&lt;2"
 }} 
 ,
 { "ligne" : {
@@ -594,13 +461,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17019"
- , "c1link" : "./qc/ssl/methods.c.html#17019"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[17019] Suspicious mix of Bitwise and Literal expressions in PACKET_remaining(pkt)&lt;3"
-}} 
-,
-{ "ligne" : {
    "c1" : "17033"
  , "c1link" : "./qc/ssl/methods.c.html#17033"
  , "c2" : "BLOCKER"
@@ -612,13 +472,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/methods.c.html#17047"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[17047] The expression ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "17060"
- , "c1link" : "./qc/ssl/methods.c.html#17060"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[17060] Suspicious mix of Bitwise and Literal expressions in PACKET_remaining(pkt)&lt;4"
 }} 
 ,
 { "ligne" : {
@@ -657,24 +510,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17137"
- , "c1link" : "./qc/ssl/methods.c.html#17137"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[17137] Suspicious mix of Bitwise and Literal expressions in PACKET_remaining(pkt)&lt;4"
-}} 
-,
-{ "ligne" : {
    "c1" : "17155"
  , "c1link" : "./qc/ssl/methods.c.html#17155"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[17155] The expression  ! PACKET_peek_4(pkt,data) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "17173"
- , "c1link" : "./qc/ssl/methods.c.html#17173"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[17173] Suspicious mix of Bitwise and Literal expressions in PACKET_remaining(pkt)&lt;len"
 }} 
 ,
 { "ligne" : {
@@ -685,31 +524,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17204"
- , "c1link" : "./qc/ssl/methods.c.html#17204"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[17204] Suspicious mix of Bitwise and Literal expressions in PACKET_remaining(pkt)&lt;len"
-}} 
-,
-{ "ligne" : {
    "c1" : "17219"
  , "c1link" : "./qc/ssl/methods.c.html#17219"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[17219] The expression  ! PACKET_peek_copy_bytes(pkt,data,len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "17231"
- , "c1link" : "./qc/ssl/methods.c.html#17231"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[17231] Suspicious mix of Bitwise and Literal expressions in PACKET_remaining(pkt)&gt;dest_len"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17296"
- , "c1link" : "./qc/ssl/methods.c.html#17296"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[17296] Suspicious mix of Bitwise and Literal expressions in PACKET_remaining(pkt)&lt;len"
 }} 
 ,
 { "ligne" : {

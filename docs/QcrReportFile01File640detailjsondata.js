@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/sha/sha1dgst.c.html" 
- , "texte" : "File crypto/sha/sha1dgst.c 427 rule violations " 
+ , "texte" : "File crypto/sha/sha1dgst.c 417 rule violations " 
  , "fic2"  : "./qc/crypto/sha/sha1dgst.c.xml" 
  , "fic3"  : "" 
 }
@@ -77,7 +77,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "13"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -132,13 +132,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01413"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#1413"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01413] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "01435"
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#1435"
  , "c2" : "BLOCKER"
@@ -150,13 +143,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#1435"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01435] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01435"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#1435"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01435] Suspicious mix of Bitwise and Literal expressions in 16&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -181,13 +167,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01465"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#1465"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01465] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  )"
-}} 
-,
-{ "ligne" : {
    "c1" : "01490"
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#1490"
  , "c2" : "BLOCKER"
@@ -209,13 +188,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01494"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#1494"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01494] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "02723"
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#2723"
  , "c2" : "BLOCKER"
@@ -227,13 +199,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#2728"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02728] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02728"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#2728"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02728] Suspicious mix of Bitwise and Literal expressions in (size_t )__n&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -251,13 +216,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02760"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#2760"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02760] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
-}} 
-,
-{ "ligne" : {
    "c1" : "02785"
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#2785"
  , "c2" : "BLOCKER"
@@ -272,24 +230,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02793"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#2793"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02793] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
-}} 
-,
-{ "ligne" : {
    "c1" : "08152"
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8152"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[08152] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08153"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8153"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[08153] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__dest,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -3037,13 +2981,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08544"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8544"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[08544] Suspicious mix of Bitwise and Literal expressions in SHA1_Update(sha1,ms,mslen)&lt;=0"
-}} 
-,
-{ "ligne" : {
    "c1" : "08550"
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8550"
  , "c2" : "BLOCKER"
@@ -3062,13 +2999,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8558"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[08558] The expression  ! SHA1_Init(sha1) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08561"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8561"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[08561] Suspicious mix of Bitwise and Literal expressions in SHA1_Update(sha1,ms,mslen)&lt;=0"
 }} 
 ,
 { "ligne" : {

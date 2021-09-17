@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/cms/cms_asn1.c.html" 
- , "texte" : "File crypto/cms/cms_asn1.c 30 rule violations " 
+ , "texte" : "File crypto/cms/cms_asn1.c 21 rule violations " 
  , "fic2"  : "./qc/crypto/cms/cms_asn1.c.xml" 
  , "fic3"  : "" 
 }
@@ -53,13 +53,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000018"
- , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "9"
-}}
-,
-{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
@@ -83,13 +76,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01514"
- , "c1link" : "./qc/crypto/cms/cms_asn1.c.html#1514"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01514] Suspicious mix of Bitwise and Literal expressions in (size_t )__n&gt;__builtin_object_size(__s,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "01539"
  , "c1link" : "./qc/crypto/cms/cms_asn1.c.html#1539"
  , "c2" : "BLOCKER"
@@ -104,13 +90,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01546"
- , "c1link" : "./qc/crypto/cms/cms_asn1.c.html#1546"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01546] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
-}} 
-,
-{ "ligne" : {
    "c1" : "01571"
  , "c1link" : "./qc/crypto/cms/cms_asn1.c.html#1571"
  , "c2" : "BLOCKER"
@@ -122,13 +101,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/cms/cms_asn1.c.html#1579"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01579] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01579"
- , "c1link" : "./qc/crypto/cms/cms_asn1.c.html#1579"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01579] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
 }} 
 ,
 { "ligne" : {
@@ -167,13 +139,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02761"
- , "c1link" : "./qc/crypto/cms/cms_asn1.c.html#2761"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02761] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "02783"
  , "c1link" : "./qc/crypto/cms/cms_asn1.c.html#2783"
  , "c2" : "BLOCKER"
@@ -185,13 +150,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/cms/cms_asn1.c.html#2783"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02783] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02783"
- , "c1link" : "./qc/crypto/cms/cms_asn1.c.html#2783"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02783] Suspicious mix of Bitwise and Literal expressions in 16&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -216,13 +174,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02813"
- , "c1link" : "./qc/crypto/cms/cms_asn1.c.html#2813"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02813] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  )"
-}} 
-,
-{ "ligne" : {
    "c1" : "02838"
  , "c1link" : "./qc/crypto/cms/cms_asn1.c.html#2838"
  , "c2" : "BLOCKER"
@@ -244,13 +195,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02842"
- , "c1link" : "./qc/crypto/cms/cms_asn1.c.html#2842"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02842] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "15509"
  , "c1link" : "./qc/crypto/cms/cms_asn1.c.html#15509"
  , "c2" : "BLOCKER"
@@ -258,24 +202,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15516"
- , "c1link" : "./qc/crypto/cms/cms_asn1.c.html#15516"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[15516] Suspicious mix of Bitwise and Literal expressions in CMS_stream( &amp; sarg-&gt;boundary,cms)&lt;=0"
-}} 
-,
-{ "ligne" : {
    "c1" : "15521"
  , "c1link" : "./qc/crypto/cms/cms_asn1.c.html#15521"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[15521] The expression  ! sarg-&gt;ndef_bio applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15527"
- , "c1link" : "./qc/crypto/cms/cms_asn1.c.html#15527"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[15527] Suspicious mix of Bitwise and Literal expressions in CMS_dataFinal(cms,sarg-&gt;ndef_bio)&lt;=0"
 }} 
 ]
 };

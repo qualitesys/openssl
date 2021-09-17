@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/rsa/rsa_ossl.c.html" 
- , "texte" : "File crypto/rsa/rsa_ossl.c 223 rule violations " 
+ , "texte" : "File crypto/rsa/rsa_ossl.c 202 rule violations " 
  , "fic2"  : "./qc/crypto/rsa/rsa_ossl.c.xml" 
  , "fic3"  : "" 
 }
@@ -63,7 +63,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "22"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -125,13 +125,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01408"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#1408"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01408] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "01430"
  , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#1430"
  , "c2" : "BLOCKER"
@@ -143,13 +136,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#1430"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01430] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01430"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#1430"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01430] Suspicious mix of Bitwise and Literal expressions in 16&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -174,13 +160,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01460"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#1460"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01460] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  )"
-}} 
-,
-{ "ligne" : {
    "c1" : "01485"
  , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#1485"
  , "c2" : "BLOCKER"
@@ -202,24 +181,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01489"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#1489"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01489] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "01856"
  , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#1856"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01856] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01857"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#1857"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01857] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__dest,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -237,13 +202,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03084"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#3084"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03084] Suspicious mix of Bitwise and Literal expressions in (size_t )__n&gt;__builtin_object_size(__s,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "03109"
  , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#3109"
  , "c2" : "BLOCKER"
@@ -258,13 +216,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03116"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#3116"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03116] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
-}} 
-,
-{ "ligne" : {
    "c1" : "03141"
  , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#3141"
  , "c2" : "BLOCKER"
@@ -276,13 +227,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#3149"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03149] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03149"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#3149"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03149] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
 }} 
 ,
 { "ligne" : {
@@ -318,34 +262,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#7520"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[07520] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07531"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#7531"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[07531] Suspicious mix of Bitwise and Literal expressions in BN_num_bits(rsa-&gt;n)&gt;16384"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07540"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#7540"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[07540] Suspicious mix of Bitwise and Literal expressions in BN_ucmp(rsa-&gt;n,rsa-&gt;e)&lt;=0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07550"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#7550"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[07550] Suspicious mix of Bitwise and Literal expressions in BN_num_bits(rsa-&gt;n)&gt;3072"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07551"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#7551"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[07551] Suspicious mix of Bitwise and Literal expressions in BN_num_bits(rsa-&gt;e)&gt;64"
 }} 
 ,
 { "ligne" : {
@@ -388,13 +304,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#7630"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[07630] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07632"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#7632"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[07632] Suspicious mix of Bitwise and Literal expressions in BN_ucmp(f,rsa-&gt;n)&gt;=0"
 }} 
 ,
 { "ligne" : {
@@ -531,13 +440,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07845"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#7845"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[07845] Suspicious mix of Bitwise and Literal expressions in BN_ucmp(f,rsa-&gt;n)&gt;=0"
-}} 
-,
-{ "ligne" : {
    "c1" : "07852"
  , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#7852"
  , "c2" : "MAJOR"
@@ -671,13 +573,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07969"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#7969"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[07969] Suspicious mix of Bitwise and Literal expressions in BN_cmp(ret,f)&gt;0"
-}} 
-,
-{ "ligne" : {
    "c1" : "07992"
  , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#7992"
  , "c2" : "MAJOR"
@@ -731,13 +626,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#8068"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[08068] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08070"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#8070"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[08070] Suspicious mix of Bitwise and Literal expressions in BN_ucmp(f,rsa-&gt;n)&gt;=0"
 }} 
 ,
 { "ligne" : {
@@ -909,34 +797,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08256"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#8256"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[08256] Suspicious mix of Bitwise and Literal expressions in BN_num_bits(rsa-&gt;n)&gt;16384"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08265"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#8265"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[08265] Suspicious mix of Bitwise and Literal expressions in BN_ucmp(rsa-&gt;n,rsa-&gt;e)&lt;=0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08275"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#8275"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[08275] Suspicious mix of Bitwise and Literal expressions in BN_num_bits(rsa-&gt;n)&gt;3072"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08276"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#8276"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[08276] Suspicious mix of Bitwise and Literal expressions in BN_num_bits(rsa-&gt;e)&gt;64"
-}} 
-,
-{ "ligne" : {
    "c1" : "08286"
  , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#8286"
  , "c2" : "MAJOR"
@@ -969,13 +829,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#8332"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[08332] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08334"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#8334"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[08334] Suspicious mix of Bitwise and Literal expressions in BN_ucmp(f,rsa-&gt;n)&gt;=0"
 }} 
 ,
 { "ligne" : {

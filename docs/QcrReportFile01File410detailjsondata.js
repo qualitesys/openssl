@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ess/ess_lib.c.html" 
- , "texte" : "File crypto/ess/ess_lib.c 93 rule violations " 
+ , "texte" : "File crypto/ess/ess_lib.c 85 rule violations " 
  , "fic2"  : "./qc/crypto/ess/ess_lib.c.xml" 
  , "fic3"  : "" 
 }
@@ -53,13 +53,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000018"
- , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "8"
-}}
-,
-{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000007"
  , "c3" : "goto statement"
@@ -90,13 +83,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "00384"
- , "c1link" : "./qc/crypto/ess/ess_lib.c.html#384"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[00384] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__dest,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "01561"
  , "c1link" : "./qc/crypto/ess/ess_lib.c.html#1561"
  , "c2" : "BLOCKER"
@@ -108,13 +94,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ess/ess_lib.c.html#1566"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01566] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01566"
- , "c1link" : "./qc/crypto/ess/ess_lib.c.html#1566"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01566] Suspicious mix of Bitwise and Literal expressions in (size_t )__n&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -132,13 +111,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01598"
- , "c1link" : "./qc/crypto/ess/ess_lib.c.html#1598"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01598] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
-}} 
-,
-{ "ligne" : {
    "c1" : "01623"
  , "c1link" : "./qc/crypto/ess/ess_lib.c.html#1623"
  , "c2" : "BLOCKER"
@@ -150,13 +122,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ess/ess_lib.c.html#1631"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01631] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01631"
- , "c1link" : "./qc/crypto/ess/ess_lib.c.html#1631"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01631] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
 }} 
 ,
 { "ligne" : {
@@ -195,13 +160,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02879"
- , "c1link" : "./qc/crypto/ess/ess_lib.c.html#2879"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02879] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "02901"
  , "c1link" : "./qc/crypto/ess/ess_lib.c.html#2901"
  , "c2" : "BLOCKER"
@@ -213,13 +171,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ess/ess_lib.c.html#2901"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02901] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02901"
- , "c1link" : "./qc/crypto/ess/ess_lib.c.html#2901"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02901] Suspicious mix of Bitwise and Literal expressions in 16&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -244,13 +195,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02931"
- , "c1link" : "./qc/crypto/ess/ess_lib.c.html#2931"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02931] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  )"
-}} 
-,
-{ "ligne" : {
    "c1" : "02956"
  , "c1link" : "./qc/crypto/ess/ess_lib.c.html#2956"
  , "c2" : "BLOCKER"
@@ -269,13 +213,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ess/ess_lib.c.html#2960"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02960] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02960"
- , "c1link" : "./qc/crypto/ess/ess_lib.c.html#2960"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02960] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)"
 }} 
 ,
 { "ligne" : {

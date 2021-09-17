@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/punycode.c.html" 
- , "texte" : "File crypto/punycode.c 22 rule violations " 
+ , "texte" : "File crypto/punycode.c 16 rule violations " 
  , "fic2"  : "./qc/crypto/punycode.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "9"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -66,13 +66,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/punycode.c.html#395"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00395] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00396"
- , "c1link" : "./qc/crypto/punycode.c.html#396"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[00396] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__dest,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -90,13 +83,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01356"
- , "c1link" : "./qc/crypto/punycode.c.html#1356"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01356] Suspicious mix of Bitwise and Literal expressions in (size_t )__n&gt;__builtin_object_size(__s,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "01381"
  , "c1link" : "./qc/crypto/punycode.c.html#1381"
  , "c2" : "BLOCKER"
@@ -111,13 +97,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01388"
- , "c1link" : "./qc/crypto/punycode.c.html#1388"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01388] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
-}} 
-,
-{ "ligne" : {
    "c1" : "01413"
  , "c1link" : "./qc/crypto/punycode.c.html#1413"
  , "c2" : "BLOCKER"
@@ -129,13 +108,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/punycode.c.html#1421"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01421] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01421"
- , "c1link" : "./qc/crypto/punycode.c.html#1421"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01421] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
 }} 
 ,
 { "ligne" : {
@@ -199,20 +171,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/punycode.c.html#1868"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01868] The expression 4 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01882"
- , "c1link" : "./qc/crypto/punycode.c.html#1882"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01882] Suspicious mix of Bitwise and Literal expressions in ossl_punycode_decode(inptr+4,delta-4,buf, &amp; bufsize)&lt;=0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01932"
- , "c1link" : "./qc/crypto/punycode.c.html#1932"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01932] Suspicious mix of Bitwise and Literal expressions in ossl_a2ulabel(a,a_ulabel, &amp; a_size)&lt;=0"
 }} 
 ]
 };

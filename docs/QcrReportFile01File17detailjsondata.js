@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/fipsinstall.c.html" 
- , "texte" : "File apps/fipsinstall.c 198 rule violations " 
+ , "texte" : "File apps/fipsinstall.c 170 rule violations " 
  , "fic2"  : "./qc/apps/fipsinstall.c.xml" 
  , "fic3"  : "" 
 }
@@ -63,7 +63,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "30"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -111,13 +111,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "00384"
- , "c1link" : "./qc/apps/fipsinstall.c.html#384"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[00384] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__dest,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "01368"
  , "c1link" : "./qc/apps/fipsinstall.c.html#1368"
  , "c2" : "BLOCKER"
@@ -129,13 +122,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/fipsinstall.c.html#1373"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01373] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01373"
- , "c1link" : "./qc/apps/fipsinstall.c.html#1373"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01373] Suspicious mix of Bitwise and Literal expressions in (size_t )__n&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -153,13 +139,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01405"
- , "c1link" : "./qc/apps/fipsinstall.c.html#1405"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01405] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
-}} 
-,
-{ "ligne" : {
    "c1" : "01430"
  , "c1link" : "./qc/apps/fipsinstall.c.html#1430"
  , "c2" : "BLOCKER"
@@ -171,13 +150,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/fipsinstall.c.html#1438"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01438] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01438"
- , "c1link" : "./qc/apps/fipsinstall.c.html#1438"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01438] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
 }} 
 ,
 { "ligne" : {
@@ -202,13 +174,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03784"
- , "c1link" : "./qc/apps/fipsinstall.c.html#3784"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03784] Suspicious mix of Bitwise and Literal expressions in __builtin_object_size(__resolved,2&gt;1)&lt;4096"
-}} 
-,
-{ "ligne" : {
    "c1" : "03808"
  , "c1link" : "./qc/apps/fipsinstall.c.html#3808"
  , "c2" : "BLOCKER"
@@ -230,13 +195,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03812"
- , "c1link" : "./qc/apps/fipsinstall.c.html#3812"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03812] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "03834"
  , "c1link" : "./qc/apps/fipsinstall.c.html#3834"
  , "c2" : "BLOCKER"
@@ -248,13 +206,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/fipsinstall.c.html#3834"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03834] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03834"
- , "c1link" : "./qc/apps/fipsinstall.c.html#3834"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03834] Suspicious mix of Bitwise and Literal expressions in 16&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -279,13 +230,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03864"
- , "c1link" : "./qc/apps/fipsinstall.c.html#3864"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03864] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  )"
-}} 
-,
-{ "ligne" : {
    "c1" : "03889"
  , "c1link" : "./qc/apps/fipsinstall.c.html#3889"
  , "c2" : "BLOCKER"
@@ -304,13 +248,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/fipsinstall.c.html#3893"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03893] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03893"
- , "c1link" : "./qc/apps/fipsinstall.c.html#3893"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03893] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -335,13 +272,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09696"
- , "c1link" : "./qc/apps/fipsinstall.c.html#9696"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[09696] Suspicious mix of Bitwise and Literal expressions in __nbytes&gt;__builtin_object_size(__buf,0)"
-}} 
-,
-{ "ligne" : {
    "c1" : "09721"
  , "c1link" : "./qc/apps/fipsinstall.c.html#9721"
  , "c2" : "BLOCKER"
@@ -360,13 +290,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/fipsinstall.c.html#9726"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[09726] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09726"
- , "c1link" : "./qc/apps/fipsinstall.c.html#9726"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[09726] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__buf,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -391,13 +314,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09760"
- , "c1link" : "./qc/apps/fipsinstall.c.html#9760"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[09760] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__buf,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "09781"
  , "c1link" : "./qc/apps/fipsinstall.c.html#9781"
  , "c2" : "BLOCKER"
@@ -416,13 +332,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/fipsinstall.c.html#9786"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[09786] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09786"
- , "c1link" : "./qc/apps/fipsinstall.c.html#9786"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[09786] Suspicious mix of Bitwise and Literal expressions in __size&gt;__builtin_object_size(__buf,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -451,13 +360,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/fipsinstall.c.html#9826"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[09826] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09826"
- , "c1link" : "./qc/apps/fipsinstall.c.html#9826"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[09826] Suspicious mix of Bitwise and Literal expressions in __builtin_object_size(__buf,2&gt;1)&lt;__len"
 }} 
 ,
 { "ligne" : {
@@ -503,13 +405,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09877"
- , "c1link" : "./qc/apps/fipsinstall.c.html#9877"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[09877] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "09898"
  , "c1link" : "./qc/apps/fipsinstall.c.html#9898"
  , "c2" : "BLOCKER"
@@ -528,13 +423,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/fipsinstall.c.html#9903"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[09903] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09903"
- , "c1link" : "./qc/apps/fipsinstall.c.html#9903"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[09903] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -559,13 +447,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09930"
- , "c1link" : "./qc/apps/fipsinstall.c.html#9930"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[09930] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "09954"
  , "c1link" : "./qc/apps/fipsinstall.c.html#9954"
  , "c2" : "BLOCKER"
@@ -584,13 +465,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/fipsinstall.c.html#9959"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[09959] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09959"
- , "c1link" : "./qc/apps/fipsinstall.c.html#9959"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[09959] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -622,13 +496,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11269"
- , "c1link" : "./qc/apps/fipsinstall.c.html#11269"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[11269] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__buf,0)"
-}} 
-,
-{ "ligne" : {
    "c1" : "11295"
  , "c1link" : "./qc/apps/fipsinstall.c.html#11295"
  , "c2" : "BLOCKER"
@@ -647,13 +514,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/fipsinstall.c.html#11300"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[11300] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11300"
- , "c1link" : "./qc/apps/fipsinstall.c.html#11300"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[11300] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__buf,0)"
 }} 
 ,
 { "ligne" : {
@@ -689,13 +549,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/fipsinstall.c.html#19008"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19008] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19009"
- , "c1link" : "./qc/apps/fipsinstall.c.html#19009"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[19009] Suspicious mix of Bitwise and Literal expressions in EVP_MAC_CTX_get_mac_size(ctx)&gt;outsz"
 }} 
 ,
 { "ligne" : {
@@ -839,41 +692,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19093"
- , "c1link" : "./qc/apps/fipsinstall.c.html#19093"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[19093] Suspicious mix of Bitwise and Literal expressions in BIO_printf(out,'[%s]\n', section )&lt;=0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19094"
- , "c1link" : "./qc/apps/fipsinstall.c.html#19094"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[19094] Suspicious mix of Bitwise and Literal expressions in BIO_printf(out,'activate = 1\n')&lt;=0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19095"
- , "c1link" : "./qc/apps/fipsinstall.c.html#19095"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[19095] Suspicious mix of Bitwise and Literal expressions in BIO_printf(out,'%s = %s\n','install-version','1')&lt;=0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19097"
- , "c1link" : "./qc/apps/fipsinstall.c.html#19097"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[19097] Suspicious mix of Bitwise and Literal expressions in BIO_printf(out,'%s = %s\n','conditional-errors',conditional_errors?'1' : '0')&lt;=0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19099"
- , "c1link" : "./qc/apps/fipsinstall.c.html#19099"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[19099] Suspicious mix of Bitwise and Literal expressions in BIO_printf(out,'%s = %s\n','security-checks',security_checks?'1' : '0')&lt;=0"
-}} 
-,
-{ "ligne" : {
    "c1" : "19103"
  , "c1link" : "./qc/apps/fipsinstall.c.html#19103"
  , "c2" : "MAJOR"
@@ -909,13 +727,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19112"
- , "c1link" : "./qc/apps/fipsinstall.c.html#19112"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[19112] Suspicious mix of Bitwise and Literal expressions in BIO_printf(out,'%s = %s\n','install-status','INSTALL_SELF_TEST_KATS_RUN')&lt;=0"
-}} 
-,
-{ "ligne" : {
    "c1" : "19114"
  , "c1link" : "./qc/apps/fipsinstall.c.html#19114"
  , "c2" : "MAJOR"
@@ -948,13 +759,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/fipsinstall.c.html#19174"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[19174] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19170"
- , "c1link" : "./qc/apps/fipsinstall.c.html#19170"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[19170] Suspicious mix of Bitwise and Literal expressions in CONF_modules_load(conf,(( void  *)0),0)&lt;=0"
 }} 
 ,
 { "ligne" : {

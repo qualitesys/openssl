@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/ec_oct.c.html" 
- , "texte" : "File crypto/ec/ec_oct.c 34 rule violations " 
+ , "texte" : "File crypto/ec/ec_oct.c 26 rule violations " 
  , "fic2"  : "./qc/crypto/ec/ec_oct.c.xml" 
  , "fic3"  : "" 
 }
@@ -60,13 +60,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000018"
- , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "8"
-}}
-,
-{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPPCWE481"
  , "c3" : "Assigning instead of comparing"
@@ -90,13 +83,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "00411"
- , "c1link" : "./qc/crypto/ec/ec_oct.c.html#411"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[00411] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__dest,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "01563"
  , "c1link" : "./qc/crypto/ec/ec_oct.c.html#1563"
  , "c2" : "BLOCKER"
@@ -108,13 +94,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ec_oct.c.html#1568"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01568] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01568"
- , "c1link" : "./qc/crypto/ec/ec_oct.c.html#1568"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01568] Suspicious mix of Bitwise and Literal expressions in (size_t )__n&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -132,13 +111,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01600"
- , "c1link" : "./qc/crypto/ec/ec_oct.c.html#1600"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01600] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
-}} 
-,
-{ "ligne" : {
    "c1" : "01625"
  , "c1link" : "./qc/crypto/ec/ec_oct.c.html#1625"
  , "c2" : "BLOCKER"
@@ -150,13 +122,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ec_oct.c.html#1633"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01633] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01633"
- , "c1link" : "./qc/crypto/ec/ec_oct.c.html#1633"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01633] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
 }} 
 ,
 { "ligne" : {
@@ -195,13 +160,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02868"
- , "c1link" : "./qc/crypto/ec/ec_oct.c.html#2868"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02868] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "02890"
  , "c1link" : "./qc/crypto/ec/ec_oct.c.html#2890"
  , "c2" : "BLOCKER"
@@ -213,13 +171,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ec_oct.c.html#2890"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02890] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02890"
- , "c1link" : "./qc/crypto/ec/ec_oct.c.html#2890"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02890] Suspicious mix of Bitwise and Literal expressions in 16&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -244,13 +195,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02920"
- , "c1link" : "./qc/crypto/ec/ec_oct.c.html#2920"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02920] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  )"
-}} 
-,
-{ "ligne" : {
    "c1" : "02945"
  , "c1link" : "./qc/crypto/ec/ec_oct.c.html#2945"
  , "c2" : "BLOCKER"
@@ -269,13 +213,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ec_oct.c.html#2949"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02949] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02949"
- , "c1link" : "./qc/crypto/ec/ec_oct.c.html#2949"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02949] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)"
 }} 
 ,
 { "ligne" : {
