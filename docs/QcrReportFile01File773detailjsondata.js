@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/nullprov.c.html" 
- , "texte" : "File providers/nullprov.c 25 rule violations " 
+ , "texte" : "File providers/nullprov.c 34 rule violations " 
  , "fic2"  : "./qc/providers/nullprov.c.xml" 
  , "fic3"  : "" 
 }
@@ -53,6 +53,13 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "9"
+}}
+,
+{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
@@ -66,6 +73,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/nullprov.c.html#383"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00383] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00384"
+ , "c1link" : "./qc/providers/nullprov.c.html#384"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[00384] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__dest,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -83,6 +97,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01344"
+ , "c1link" : "./qc/providers/nullprov.c.html#1344"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01344] Suspicious mix of Bitwise and Literal expressions in (size_t )__n&gt;__builtin_object_size(__s,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "01369"
  , "c1link" : "./qc/providers/nullprov.c.html#1369"
  , "c2" : "BLOCKER"
@@ -97,6 +118,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01376"
+ , "c1link" : "./qc/providers/nullprov.c.html#1376"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01376] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
+}} 
+,
+{ "ligne" : {
    "c1" : "01401"
  , "c1link" : "./qc/providers/nullprov.c.html#1401"
  , "c2" : "BLOCKER"
@@ -108,6 +136,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/nullprov.c.html#1409"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01409] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01409"
+ , "c1link" : "./qc/providers/nullprov.c.html#1409"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01409] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
 }} 
 ,
 { "ligne" : {
@@ -132,6 +167,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03775"
+ , "c1link" : "./qc/providers/nullprov.c.html#3775"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03775] Suspicious mix of Bitwise and Literal expressions in __builtin_object_size(__resolved,2&gt;1)&lt;4096"
+}} 
+,
+{ "ligne" : {
    "c1" : "03799"
  , "c1link" : "./qc/providers/nullprov.c.html#3799"
  , "c2" : "BLOCKER"
@@ -153,6 +195,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03803"
+ , "c1link" : "./qc/providers/nullprov.c.html#3803"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03803] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "03825"
  , "c1link" : "./qc/providers/nullprov.c.html#3825"
  , "c2" : "BLOCKER"
@@ -164,6 +213,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/nullprov.c.html#3825"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03825] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03825"
+ , "c1link" : "./qc/providers/nullprov.c.html#3825"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03825] Suspicious mix of Bitwise and Literal expressions in 16&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -188,6 +244,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03855"
+ , "c1link" : "./qc/providers/nullprov.c.html#3855"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03855] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  )"
+}} 
+,
+{ "ligne" : {
    "c1" : "03880"
  , "c1link" : "./qc/providers/nullprov.c.html#3880"
  , "c2" : "BLOCKER"
@@ -206,6 +269,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/nullprov.c.html#3884"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03884] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03884"
+ , "c1link" : "./qc/providers/nullprov.c.html#3884"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03884] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)"
 }} 
 ,
 { "ligne" : {

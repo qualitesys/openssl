@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/camellia/camellia.c.html" 
- , "texte" : "File crypto/camellia/camellia.c 148 rule violations " 
+ , "texte" : "File crypto/camellia/camellia.c 153 rule violations " 
  , "fic2"  : "./qc/crypto/camellia/camellia.c.xml" 
  , "fic3"  : "" 
 }
@@ -60,6 +60,13 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "5"
+}}
+,
+{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPPCWE481"
  , "c3" : "Assigning instead of comparing"
@@ -80,6 +87,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#516"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00516] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00517"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#517"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[00517] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__dest,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -118,6 +132,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01888"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#1888"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01888] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "01910"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#1910"
  , "c2" : "BLOCKER"
@@ -129,6 +150,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#1910"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01910] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01910"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#1910"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01910] Suspicious mix of Bitwise and Literal expressions in 16&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -153,6 +181,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01940"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#1940"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01940] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  )"
+}} 
+,
+{ "ligne" : {
    "c1" : "01965"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#1965"
  , "c2" : "BLOCKER"
@@ -171,6 +206,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#1969"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01969] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01969"
+ , "c1link" : "./qc/crypto/camellia/camellia.c.html#1969"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01969] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)"
 }} 
 ,
 { "ligne" : {

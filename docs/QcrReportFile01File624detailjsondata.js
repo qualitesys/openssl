@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/rsa/rsa_pmeth.c.html" 
- , "texte" : "File crypto/rsa/rsa_pmeth.c 86 rule violations " 
+ , "texte" : "File crypto/rsa/rsa_pmeth.c 97 rule violations " 
  , "fic2"  : "./qc/crypto/rsa/rsa_pmeth.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,6 +57,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "37"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : {
@@ -118,6 +125,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01408"
+ , "c1link" : "./qc/crypto/rsa/rsa_pmeth.c.html#1408"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01408] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "01430"
  , "c1link" : "./qc/crypto/rsa/rsa_pmeth.c.html#1430"
  , "c2" : "BLOCKER"
@@ -129,6 +143,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rsa/rsa_pmeth.c.html#1430"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01430] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01430"
+ , "c1link" : "./qc/crypto/rsa/rsa_pmeth.c.html#1430"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01430] Suspicious mix of Bitwise and Literal expressions in 16&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -153,6 +174,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01460"
+ , "c1link" : "./qc/crypto/rsa/rsa_pmeth.c.html#1460"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01460] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  )"
+}} 
+,
+{ "ligne" : {
    "c1" : "01485"
  , "c1link" : "./qc/crypto/rsa/rsa_pmeth.c.html#1485"
  , "c2" : "BLOCKER"
@@ -174,10 +202,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01489"
+ , "c1link" : "./qc/crypto/rsa/rsa_pmeth.c.html#1489"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01489] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "01856"
  , "c1link" : "./qc/crypto/rsa/rsa_pmeth.c.html#1856"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01856] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01857"
+ , "c1link" : "./qc/crypto/rsa/rsa_pmeth.c.html#1857"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01857] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__dest,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -209,6 +251,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03203"
+ , "c1link" : "./qc/crypto/rsa/rsa_pmeth.c.html#3203"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03203] Suspicious mix of Bitwise and Literal expressions in (size_t )__n&gt;__builtin_object_size(__s,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "03228"
  , "c1link" : "./qc/crypto/rsa/rsa_pmeth.c.html#3228"
  , "c2" : "BLOCKER"
@@ -223,6 +272,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03235"
+ , "c1link" : "./qc/crypto/rsa/rsa_pmeth.c.html#3235"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03235] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
+}} 
+,
+{ "ligne" : {
    "c1" : "03260"
  , "c1link" : "./qc/crypto/rsa/rsa_pmeth.c.html#3260"
  , "c2" : "BLOCKER"
@@ -234,6 +290,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rsa/rsa_pmeth.c.html#3268"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03268] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03268"
+ , "c1link" : "./qc/crypto/rsa/rsa_pmeth.c.html#3268"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03268] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
 }} 
 ,
 { "ligne" : {
@@ -307,6 +370,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "15264"
+ , "c1link" : "./qc/crypto/rsa/rsa_pmeth.c.html#15264"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[15264] Suspicious mix of Bitwise and Literal expressions in (size_t )RSA_size(rsa)&lt;tbslen+1"
+}} 
+,
+{ "ligne" : {
    "c1" : "15272"
  , "c1link" : "./qc/crypto/rsa/rsa_pmeth.c.html#15272"
  , "c2" : "BLOCKER"
@@ -353,6 +423,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rsa/rsa_pmeth.c.html#15390"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[15390] The expression rctx-&gt;md applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15403"
+ , "c1link" : "./qc/crypto/rsa/rsa_pmeth.c.html#15403"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[15403] Suspicious mix of Bitwise and Literal expressions in pkey_rsa_verifyrecover(ctx,(( void  *)0), &amp; rslen,sig,siglen)&lt;=0"
 }} 
 ,
 { "ligne" : {
@@ -437,6 +514,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rsa/rsa_pmeth.c.html#15591"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[15591] The expression  ! rctx-&gt;md applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15635"
+ , "c1link" : "./qc/crypto/rsa/rsa_pmeth.c.html#15635"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[15635] Suspicious mix of Bitwise and Literal expressions in rctx-&gt;min_saltlen&gt;EVP_MD_get_size(rctx-&gt;md)"
 }} 
 ,
 { "ligne" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/poly1305/poly1305.c.html" 
- , "texte" : "File crypto/poly1305/poly1305.c 59 rule violations " 
+ , "texte" : "File crypto/poly1305/poly1305.c 67 rule violations " 
  , "fic2"  : "./qc/crypto/poly1305/poly1305.c.xml" 
  , "fic3"  : "" 
 }
@@ -50,6 +50,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "16"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : {
@@ -104,6 +111,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01377"
+ , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#1377"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01377] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "01399"
  , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#1399"
  , "c2" : "BLOCKER"
@@ -115,6 +129,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#1399"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01399] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01399"
+ , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#1399"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01399] Suspicious mix of Bitwise and Literal expressions in 16&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -139,6 +160,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01429"
+ , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#1429"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01429] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  )"
+}} 
+,
+{ "ligne" : {
    "c1" : "01454"
  , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#1454"
  , "c2" : "BLOCKER"
@@ -160,10 +188,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01458"
+ , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#1458"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01458] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "01825"
  , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#1825"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01825] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01826"
+ , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#1826"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01826] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__dest,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -181,6 +223,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03069"
+ , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#3069"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03069] Suspicious mix of Bitwise and Literal expressions in (size_t )__n&gt;__builtin_object_size(__s,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "03094"
  , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#3094"
  , "c2" : "BLOCKER"
@@ -195,6 +244,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03101"
+ , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#3101"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03101] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
+}} 
+,
+{ "ligne" : {
    "c1" : "03126"
  , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#3126"
  , "c2" : "BLOCKER"
@@ -206,6 +262,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#3134"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03134] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03134"
+ , "c1link" : "./qc/crypto/poly1305/poly1305.c.html#3134"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03134] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
 }} 
 ,
 { "ligne" : {

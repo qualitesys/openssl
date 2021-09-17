@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/evp_utils.c.html" 
- , "texte" : "File crypto/evp/evp_utils.c 20 rule violations " 
+ , "texte" : "File crypto/evp/evp_utils.c 28 rule violations " 
  , "fic2"  : "./qc/crypto/evp/evp_utils.c.xml" 
  , "fic3"  : "" 
 }
@@ -53,6 +53,13 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "8"
+}}
+,
+{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
@@ -76,6 +83,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01553"
+ , "c1link" : "./qc/crypto/evp/evp_utils.c.html#1553"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01553] Suspicious mix of Bitwise and Literal expressions in (size_t )__n&gt;__builtin_object_size(__s,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "01578"
  , "c1link" : "./qc/crypto/evp/evp_utils.c.html#1578"
  , "c2" : "BLOCKER"
@@ -90,6 +104,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01585"
+ , "c1link" : "./qc/crypto/evp/evp_utils.c.html#1585"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01585] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
+}} 
+,
+{ "ligne" : {
    "c1" : "01610"
  , "c1link" : "./qc/crypto/evp/evp_utils.c.html#1610"
  , "c2" : "BLOCKER"
@@ -101,6 +122,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/evp_utils.c.html#1618"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01618] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01618"
+ , "c1link" : "./qc/crypto/evp/evp_utils.c.html#1618"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01618] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
 }} 
 ,
 { "ligne" : {
@@ -125,6 +153,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03408"
+ , "c1link" : "./qc/crypto/evp/evp_utils.c.html#3408"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03408] Suspicious mix of Bitwise and Literal expressions in __builtin_object_size(__resolved,2&gt;1)&lt;4096"
+}} 
+,
+{ "ligne" : {
    "c1" : "03432"
  , "c1link" : "./qc/crypto/evp/evp_utils.c.html#3432"
  , "c2" : "BLOCKER"
@@ -146,6 +181,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03436"
+ , "c1link" : "./qc/crypto/evp/evp_utils.c.html#3436"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03436] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "03458"
  , "c1link" : "./qc/crypto/evp/evp_utils.c.html#3458"
  , "c2" : "BLOCKER"
@@ -157,6 +199,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/evp_utils.c.html#3458"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03458] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03458"
+ , "c1link" : "./qc/crypto/evp/evp_utils.c.html#3458"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03458] Suspicious mix of Bitwise and Literal expressions in 16&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -181,6 +230,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03488"
+ , "c1link" : "./qc/crypto/evp/evp_utils.c.html#3488"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03488] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  )"
+}} 
+,
+{ "ligne" : {
    "c1" : "03513"
  , "c1link" : "./qc/crypto/evp/evp_utils.c.html#3513"
  , "c2" : "BLOCKER"
@@ -199,6 +255,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/evp_utils.c.html#3517"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03517] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03517"
+ , "c1link" : "./qc/crypto/evp/evp_utils.c.html#3517"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03517] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)"
 }} 
 ]
 };

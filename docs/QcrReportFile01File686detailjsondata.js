@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/whrlpool/wp_dgst.c.html" 
- , "texte" : "File crypto/whrlpool/wp_dgst.c 36 rule violations " 
+ , "texte" : "File crypto/whrlpool/wp_dgst.c 47 rule violations " 
  , "fic2"  : "./qc/crypto/whrlpool/wp_dgst.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,6 +57,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "17"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : {
@@ -118,6 +125,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01413"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#1413"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01413] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "01435"
  , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#1435"
  , "c2" : "BLOCKER"
@@ -129,6 +143,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#1435"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01435] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01435"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#1435"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01435] Suspicious mix of Bitwise and Literal expressions in 16&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -153,6 +174,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01465"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#1465"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01465] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  )"
+}} 
+,
+{ "ligne" : {
    "c1" : "01490"
  , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#1490"
  , "c2" : "BLOCKER"
@@ -174,6 +202,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01494"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#1494"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01494] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "02723"
  , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#2723"
  , "c2" : "BLOCKER"
@@ -185,6 +220,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#2728"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02728] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02728"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#2728"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02728] Suspicious mix of Bitwise and Literal expressions in (size_t )__n&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -202,6 +244,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "02760"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#2760"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02760] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
+}} 
+,
+{ "ligne" : {
    "c1" : "02785"
  , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#2785"
  , "c2" : "BLOCKER"
@@ -216,10 +265,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "02793"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#2793"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02793] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
+}} 
+,
+{ "ligne" : {
    "c1" : "04605"
  , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4605"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[04605] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04606"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4606"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[04606] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__dest,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -248,6 +311,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4674"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[04674] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04674"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4674"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[04674] Suspicious mix of Bitwise and Literal expressions in c-&gt;bitlen[0]&lt;bits"
 }} 
 ,
 { "ligne" : {
@@ -325,6 +395,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4779"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[04779] The expression bitoff applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "04786"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4786"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[04786] Suspicious mix of Bitwise and Literal expressions in byteoff&gt;(512/8-(256/8))"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04792"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4792"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[04792] Suspicious mix of Bitwise and Literal expressions in byteoff&lt;(512/8-(256/8))"
 }} 
 ,
 { "ligne" : {

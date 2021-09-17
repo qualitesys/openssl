@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/rsa/rsa_schemes.c.html" 
- , "texte" : "File crypto/rsa/rsa_schemes.c 21 rule violations " 
+ , "texte" : "File crypto/rsa/rsa_schemes.c 29 rule violations " 
  , "fic2"  : "./qc/crypto/rsa/rsa_schemes.c.xml" 
  , "fic3"  : "" 
 }
@@ -53,6 +53,13 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "8"
+}}
+,
+{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
@@ -76,6 +83,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01557"
+ , "c1link" : "./qc/crypto/rsa/rsa_schemes.c.html#1557"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01557] Suspicious mix of Bitwise and Literal expressions in (size_t )__n&gt;__builtin_object_size(__s,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "01582"
  , "c1link" : "./qc/crypto/rsa/rsa_schemes.c.html#1582"
  , "c2" : "BLOCKER"
@@ -90,6 +104,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01589"
+ , "c1link" : "./qc/crypto/rsa/rsa_schemes.c.html#1589"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01589] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
+}} 
+,
+{ "ligne" : {
    "c1" : "01614"
  , "c1link" : "./qc/crypto/rsa/rsa_schemes.c.html#1614"
  , "c2" : "BLOCKER"
@@ -101,6 +122,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rsa/rsa_schemes.c.html#1622"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01622] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01622"
+ , "c1link" : "./qc/crypto/rsa/rsa_schemes.c.html#1622"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01622] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
 }} 
 ,
 { "ligne" : {
@@ -125,6 +153,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03412"
+ , "c1link" : "./qc/crypto/rsa/rsa_schemes.c.html#3412"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03412] Suspicious mix of Bitwise and Literal expressions in __builtin_object_size(__resolved,2&gt;1)&lt;4096"
+}} 
+,
+{ "ligne" : {
    "c1" : "03436"
  , "c1link" : "./qc/crypto/rsa/rsa_schemes.c.html#3436"
  , "c2" : "BLOCKER"
@@ -146,6 +181,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03440"
+ , "c1link" : "./qc/crypto/rsa/rsa_schemes.c.html#3440"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03440] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "03462"
  , "c1link" : "./qc/crypto/rsa/rsa_schemes.c.html#3462"
  , "c2" : "BLOCKER"
@@ -157,6 +199,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rsa/rsa_schemes.c.html#3462"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03462] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03462"
+ , "c1link" : "./qc/crypto/rsa/rsa_schemes.c.html#3462"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03462] Suspicious mix of Bitwise and Literal expressions in 16&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -181,6 +230,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03492"
+ , "c1link" : "./qc/crypto/rsa/rsa_schemes.c.html#3492"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03492] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  )"
+}} 
+,
+{ "ligne" : {
    "c1" : "03517"
  , "c1link" : "./qc/crypto/rsa/rsa_schemes.c.html#3517"
  , "c2" : "BLOCKER"
@@ -199,6 +255,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rsa/rsa_schemes.c.html#3521"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03521] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03521"
+ , "c1link" : "./qc/crypto/rsa/rsa_schemes.c.html#3521"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03521] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)"
 }} 
 ,
 { "ligne" : {

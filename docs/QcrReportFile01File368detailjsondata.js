@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/ecdh_kdf.c.html" 
- , "texte" : "File crypto/ec/ecdh_kdf.c 22 rule violations " 
+ , "texte" : "File crypto/ec/ecdh_kdf.c 31 rule violations " 
  , "fic2"  : "./qc/crypto/ec/ecdh_kdf.c.xml" 
  , "fic3"  : "" 
 }
@@ -53,6 +53,13 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "9"
+}}
+,
+{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPPCWE481"
  , "c3" : "Assigning instead of comparing"
@@ -76,6 +83,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00411"
+ , "c1link" : "./qc/crypto/ec/ecdh_kdf.c.html#411"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[00411] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__dest,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "02177"
  , "c1link" : "./qc/crypto/ec/ecdh_kdf.c.html#2177"
  , "c2" : "BLOCKER"
@@ -87,6 +101,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ecdh_kdf.c.html#2182"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02182] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02182"
+ , "c1link" : "./qc/crypto/ec/ecdh_kdf.c.html#2182"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02182] Suspicious mix of Bitwise and Literal expressions in (size_t )__n&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -104,6 +125,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "02214"
+ , "c1link" : "./qc/crypto/ec/ecdh_kdf.c.html#2214"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02214] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
+}} 
+,
+{ "ligne" : {
    "c1" : "02239"
  , "c1link" : "./qc/crypto/ec/ecdh_kdf.c.html#2239"
  , "c2" : "BLOCKER"
@@ -115,6 +143,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ecdh_kdf.c.html#2247"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02247] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02247"
+ , "c1link" : "./qc/crypto/ec/ecdh_kdf.c.html#2247"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02247] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
 }} 
 ,
 { "ligne" : {
@@ -139,6 +174,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03403"
+ , "c1link" : "./qc/crypto/ec/ecdh_kdf.c.html#3403"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03403] Suspicious mix of Bitwise and Literal expressions in __builtin_object_size(__resolved,2&gt;1)&lt;4096"
+}} 
+,
+{ "ligne" : {
    "c1" : "03427"
  , "c1link" : "./qc/crypto/ec/ecdh_kdf.c.html#3427"
  , "c2" : "BLOCKER"
@@ -160,6 +202,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03431"
+ , "c1link" : "./qc/crypto/ec/ecdh_kdf.c.html#3431"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03431] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "03453"
  , "c1link" : "./qc/crypto/ec/ecdh_kdf.c.html#3453"
  , "c2" : "BLOCKER"
@@ -171,6 +220,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ecdh_kdf.c.html#3453"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03453] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03453"
+ , "c1link" : "./qc/crypto/ec/ecdh_kdf.c.html#3453"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03453] Suspicious mix of Bitwise and Literal expressions in 16&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -195,6 +251,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03483"
+ , "c1link" : "./qc/crypto/ec/ecdh_kdf.c.html#3483"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03483] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  )"
+}} 
+,
+{ "ligne" : {
    "c1" : "03508"
  , "c1link" : "./qc/crypto/ec/ecdh_kdf.c.html#3508"
  , "c2" : "BLOCKER"
@@ -213,6 +276,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ecdh_kdf.c.html#3512"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03512] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03512"
+ , "c1link" : "./qc/crypto/ec/ecdh_kdf.c.html#3512"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03512] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)"
 }} 
 ,
 { "ligne" : {

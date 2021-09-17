@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/pkcs12.c.html" 
- , "texte" : "File apps/pkcs12.c 232 rule violations " 
+ , "texte" : "File apps/pkcs12.c 255 rule violations " 
  , "fic2"  : "./qc/apps/pkcs12.c.xml" 
  , "fic3"  : "" 
 }
@@ -53,6 +53,13 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "23"
+}}
+,
+{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000007"
  , "c3" : "goto statement"
@@ -97,6 +104,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00984"
+ , "c1link" : "./qc/apps/pkcs12.c.html#984"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[00984] Suspicious mix of Bitwise and Literal expressions in (size_t )__n&gt;__builtin_object_size(__s,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "01009"
  , "c1link" : "./qc/apps/pkcs12.c.html#1009"
  , "c2" : "BLOCKER"
@@ -111,6 +125,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01016"
+ , "c1link" : "./qc/apps/pkcs12.c.html#1016"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01016] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
+}} 
+,
+{ "ligne" : {
    "c1" : "01041"
  , "c1link" : "./qc/apps/pkcs12.c.html#1041"
  , "c2" : "BLOCKER"
@@ -122,6 +143,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/pkcs12.c.html#1049"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01049] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01049"
+ , "c1link" : "./qc/apps/pkcs12.c.html#1049"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01049] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
 }} 
 ,
 { "ligne" : {
@@ -160,6 +188,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "02290"
+ , "c1link" : "./qc/apps/pkcs12.c.html#2290"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02290] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "02312"
  , "c1link" : "./qc/apps/pkcs12.c.html#2312"
  , "c2" : "BLOCKER"
@@ -171,6 +206,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/pkcs12.c.html#2312"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02312] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02312"
+ , "c1link" : "./qc/apps/pkcs12.c.html#2312"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02312] Suspicious mix of Bitwise and Literal expressions in 16&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -195,6 +237,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "02342"
+ , "c1link" : "./qc/apps/pkcs12.c.html#2342"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02342] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  )"
+}} 
+,
+{ "ligne" : {
    "c1" : "02367"
  , "c1link" : "./qc/apps/pkcs12.c.html#2367"
  , "c2" : "BLOCKER"
@@ -216,10 +265,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "02371"
+ , "c1link" : "./qc/apps/pkcs12.c.html#2371"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02371] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "02738"
  , "c1link" : "./qc/apps/pkcs12.c.html#2738"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02738] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02739"
+ , "c1link" : "./qc/apps/pkcs12.c.html#2739"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02739] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__dest,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -244,6 +307,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "05916"
+ , "c1link" : "./qc/apps/pkcs12.c.html#5916"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[05916] Suspicious mix of Bitwise and Literal expressions in __nbytes&gt;__builtin_object_size(__buf,0)"
+}} 
+,
+{ "ligne" : {
    "c1" : "05941"
  , "c1link" : "./qc/apps/pkcs12.c.html#5941"
  , "c2" : "BLOCKER"
@@ -262,6 +332,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/pkcs12.c.html#5946"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[05946] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05946"
+ , "c1link" : "./qc/apps/pkcs12.c.html#5946"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[05946] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__buf,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -286,6 +363,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "05980"
+ , "c1link" : "./qc/apps/pkcs12.c.html#5980"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[05980] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__buf,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "06001"
  , "c1link" : "./qc/apps/pkcs12.c.html#6001"
  , "c2" : "BLOCKER"
@@ -304,6 +388,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/pkcs12.c.html#6006"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06006] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06006"
+ , "c1link" : "./qc/apps/pkcs12.c.html#6006"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[06006] Suspicious mix of Bitwise and Literal expressions in __size&gt;__builtin_object_size(__buf,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -335,6 +426,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "06046"
+ , "c1link" : "./qc/apps/pkcs12.c.html#6046"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[06046] Suspicious mix of Bitwise and Literal expressions in __builtin_object_size(__buf,2&gt;1)&lt;__len"
+}} 
+,
+{ "ligne" : {
    "c1" : "06066"
  , "c1link" : "./qc/apps/pkcs12.c.html#6066"
  , "c2" : "BLOCKER"
@@ -346,6 +444,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/pkcs12.c.html#6071"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06071] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06071"
+ , "c1link" : "./qc/apps/pkcs12.c.html#6071"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[06071] Suspicious mix of Bitwise and Literal expressions in __size *  sizeof (__gid_t)&gt;__builtin_object_size(__list,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -370,6 +475,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "06097"
+ , "c1link" : "./qc/apps/pkcs12.c.html#6097"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[06097] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "06118"
  , "c1link" : "./qc/apps/pkcs12.c.html#6118"
  , "c2" : "BLOCKER"
@@ -388,6 +500,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/pkcs12.c.html#6123"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06123] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06123"
+ , "c1link" : "./qc/apps/pkcs12.c.html#6123"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[06123] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -412,6 +531,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "06150"
+ , "c1link" : "./qc/apps/pkcs12.c.html#6150"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[06150] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "06174"
  , "c1link" : "./qc/apps/pkcs12.c.html#6174"
  , "c2" : "BLOCKER"
@@ -430,6 +556,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/pkcs12.c.html#6179"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06179] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06179"
+ , "c1link" : "./qc/apps/pkcs12.c.html#6179"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[06179] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07185"
+ , "c1link" : "./qc/apps/pkcs12.c.html#7185"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[07185] Suspicious mix of Bitwise and Literal expressions in ( unsigned  char  *)__cmsg+(((__cmsg-&gt;cmsg_len)+ sizeof (size_t)-1)&amp;(size_t ) ~ ( sizeof (size_t)-1))&gt;(( unsigned  char  *)__mhdr-&gt;msg_control+__mhdr-&gt;msg_controllen)"
 }} 
 ,
 { "ligne" : {
@@ -454,6 +594,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "07489"
+ , "c1link" : "./qc/apps/pkcs12.c.html#7489"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[07489] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__buf,0)"
+}} 
+,
+{ "ligne" : {
    "c1" : "07515"
  , "c1link" : "./qc/apps/pkcs12.c.html#7515"
  , "c2" : "BLOCKER"
@@ -472,6 +619,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/pkcs12.c.html#7520"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[07520] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07520"
+ , "c1link" : "./qc/apps/pkcs12.c.html#7520"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[07520] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__buf,0)"
 }} 
 ,
 { "ligne" : {
@@ -892,6 +1046,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/pkcs12.c.html#19987"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19987] goto statement jump to export_end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19988"
+ , "c1link" : "./qc/apps/pkcs12.c.html#19988"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[19988] Suspicious mix of Bitwise and Literal expressions in OPENSSL_sk_num(ossl_check_const_X509_sk_type(certs))&lt;1"
 }} 
 ,
 { "ligne" : {
@@ -1564,6 +1725,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/pkcs12.c.html#20650"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[20650] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20654"
+ , "c1link" : "./qc/apps/pkcs12.c.html#20654"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[20654] Suspicious mix of Bitwise and Literal expressions in X509_verify_cert(store_ctx)&gt;0"
 }} 
 ,
 { "ligne" : {

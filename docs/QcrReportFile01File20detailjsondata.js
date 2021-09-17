@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/genrsa.c.html" 
- , "texte" : "File apps/genrsa.c 100 rule violations " 
+ , "texte" : "File apps/genrsa.c 125 rule violations " 
  , "fic2"  : "./qc/apps/genrsa.c.xml" 
  , "fic3"  : "" 
 }
@@ -53,6 +53,13 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "25"
+}}
+,
+{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000007"
  , "c3" : "goto statement"
@@ -97,6 +104,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00984"
+ , "c1link" : "./qc/apps/genrsa.c.html#984"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[00984] Suspicious mix of Bitwise and Literal expressions in (size_t )__n&gt;__builtin_object_size(__s,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "01009"
  , "c1link" : "./qc/apps/genrsa.c.html#1009"
  , "c2" : "BLOCKER"
@@ -108,6 +122,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/genrsa.c.html#1016"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01016] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01016"
+ , "c1link" : "./qc/apps/genrsa.c.html#1016"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01016] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
 }} 
 ,
 { "ligne" : {
@@ -125,10 +146,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01049"
+ , "c1link" : "./qc/apps/genrsa.c.html#1049"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01049] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
+}} 
+,
+{ "ligne" : {
    "c1" : "01439"
  , "c1link" : "./qc/apps/genrsa.c.html#1439"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01439] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01440"
+ , "c1link" : "./qc/apps/genrsa.c.html#1440"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01440] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__dest,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -153,6 +188,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03075"
+ , "c1link" : "./qc/apps/genrsa.c.html#3075"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03075] Suspicious mix of Bitwise and Literal expressions in __builtin_object_size(__resolved,2&gt;1)&lt;4096"
+}} 
+,
+{ "ligne" : {
    "c1" : "03099"
  , "c1link" : "./qc/apps/genrsa.c.html#3099"
  , "c2" : "BLOCKER"
@@ -174,6 +216,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03103"
+ , "c1link" : "./qc/apps/genrsa.c.html#3103"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03103] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "03125"
  , "c1link" : "./qc/apps/genrsa.c.html#3125"
  , "c2" : "BLOCKER"
@@ -185,6 +234,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/genrsa.c.html#3125"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03125] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03125"
+ , "c1link" : "./qc/apps/genrsa.c.html#3125"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03125] Suspicious mix of Bitwise and Literal expressions in 16&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -209,6 +265,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03155"
+ , "c1link" : "./qc/apps/genrsa.c.html#3155"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03155] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  )"
+}} 
+,
+{ "ligne" : {
    "c1" : "03180"
  , "c1link" : "./qc/apps/genrsa.c.html#3180"
  , "c2" : "BLOCKER"
@@ -227,6 +290,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/genrsa.c.html#3184"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03184] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03184"
+ , "c1link" : "./qc/apps/genrsa.c.html#3184"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03184] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -251,6 +321,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "06118"
+ , "c1link" : "./qc/apps/genrsa.c.html#6118"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[06118] Suspicious mix of Bitwise and Literal expressions in __nbytes&gt;__builtin_object_size(__buf,0)"
+}} 
+,
+{ "ligne" : {
    "c1" : "06143"
  , "c1link" : "./qc/apps/genrsa.c.html#6143"
  , "c2" : "BLOCKER"
@@ -269,6 +346,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/genrsa.c.html#6148"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06148] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06148"
+ , "c1link" : "./qc/apps/genrsa.c.html#6148"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[06148] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__buf,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -293,6 +377,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "06182"
+ , "c1link" : "./qc/apps/genrsa.c.html#6182"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[06182] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__buf,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "06203"
  , "c1link" : "./qc/apps/genrsa.c.html#6203"
  , "c2" : "BLOCKER"
@@ -311,6 +402,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/genrsa.c.html#6208"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06208] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06208"
+ , "c1link" : "./qc/apps/genrsa.c.html#6208"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[06208] Suspicious mix of Bitwise and Literal expressions in __size&gt;__builtin_object_size(__buf,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -342,6 +440,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "06248"
+ , "c1link" : "./qc/apps/genrsa.c.html#6248"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[06248] Suspicious mix of Bitwise and Literal expressions in __builtin_object_size(__buf,2&gt;1)&lt;__len"
+}} 
+,
+{ "ligne" : {
    "c1" : "06268"
  , "c1link" : "./qc/apps/genrsa.c.html#6268"
  , "c2" : "BLOCKER"
@@ -353,6 +458,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/genrsa.c.html#6273"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06273] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06273"
+ , "c1link" : "./qc/apps/genrsa.c.html#6273"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[06273] Suspicious mix of Bitwise and Literal expressions in __size *  sizeof (__gid_t)&gt;__builtin_object_size(__list,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -377,6 +489,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "06299"
+ , "c1link" : "./qc/apps/genrsa.c.html#6299"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[06299] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "06320"
  , "c1link" : "./qc/apps/genrsa.c.html#6320"
  , "c2" : "BLOCKER"
@@ -395,6 +514,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/genrsa.c.html#6325"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06325] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06325"
+ , "c1link" : "./qc/apps/genrsa.c.html#6325"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[06325] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -419,6 +545,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "06352"
+ , "c1link" : "./qc/apps/genrsa.c.html#6352"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[06352] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "06376"
  , "c1link" : "./qc/apps/genrsa.c.html#6376"
  , "c2" : "BLOCKER"
@@ -437,6 +570,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/genrsa.c.html#6381"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06381] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06381"
+ , "c1link" : "./qc/apps/genrsa.c.html#6381"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[06381] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07387"
+ , "c1link" : "./qc/apps/genrsa.c.html#7387"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[07387] Suspicious mix of Bitwise and Literal expressions in ( unsigned  char  *)__cmsg+(((__cmsg-&gt;cmsg_len)+ sizeof (size_t)-1)&amp;(size_t ) ~ ( sizeof (size_t)-1))&gt;(( unsigned  char  *)__mhdr-&gt;msg_control+__mhdr-&gt;msg_controllen)"
 }} 
 ,
 { "ligne" : {
@@ -461,6 +608,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "07691"
+ , "c1link" : "./qc/apps/genrsa.c.html#7691"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[07691] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__buf,0)"
+}} 
+,
+{ "ligne" : {
    "c1" : "07717"
  , "c1link" : "./qc/apps/genrsa.c.html#7717"
  , "c2" : "BLOCKER"
@@ -479,6 +633,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/genrsa.c.html#7722"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[07722] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07722"
+ , "c1link" : "./qc/apps/genrsa.c.html#7722"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[07722] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__buf,0)"
 }} 
 ,
 { "ligne" : {
@@ -678,6 +839,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19076"
+ , "c1link" : "./qc/apps/genrsa.c.html#19076"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[19076] Suspicious mix of Bitwise and Literal expressions in EVP_PKEY_CTX_set_rsa_keygen_bits(ctx,num)&lt;=0"
+}} 
+,
+{ "ligne" : {
    "c1" : "19078"
  , "c1link" : "./qc/apps/genrsa.c.html#19078"
  , "c2" : "MAJOR"
@@ -699,10 +867,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "19084"
+ , "c1link" : "./qc/apps/genrsa.c.html#19084"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[19084] Suspicious mix of Bitwise and Literal expressions in EVP_PKEY_CTX_set1_rsa_keygen_pubexp(ctx,bn)&lt;=0"
+}} 
+,
+{ "ligne" : {
    "c1" : "19086"
  , "c1link" : "./qc/apps/genrsa.c.html#19086"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19086] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19088"
+ , "c1link" : "./qc/apps/genrsa.c.html#19088"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[19088] Suspicious mix of Bitwise and Literal expressions in EVP_PKEY_CTX_set_rsa_keygen_primes(ctx,primes)&lt;=0"
 }} 
 ,
 { "ligne" : {

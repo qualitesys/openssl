@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ex_data.c.html" 
- , "texte" : "File crypto/ex_data.c 53 rule violations " 
+ , "texte" : "File crypto/ex_data.c 66 rule violations " 
  , "fic2"  : "./qc/crypto/ex_data.c.xml" 
  , "fic3"  : "" 
 }
@@ -50,6 +50,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "16"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "13"
 }}
 ,
 { "ligne" : {
@@ -111,6 +118,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01377"
+ , "c1link" : "./qc/crypto/ex_data.c.html#1377"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01377] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "01399"
  , "c1link" : "./qc/crypto/ex_data.c.html#1399"
  , "c2" : "BLOCKER"
@@ -122,6 +136,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ex_data.c.html#1399"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01399] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01399"
+ , "c1link" : "./qc/crypto/ex_data.c.html#1399"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01399] Suspicious mix of Bitwise and Literal expressions in 16&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -146,6 +167,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01429"
+ , "c1link" : "./qc/crypto/ex_data.c.html#1429"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01429] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  )"
+}} 
+,
+{ "ligne" : {
    "c1" : "01454"
  , "c1link" : "./qc/crypto/ex_data.c.html#1454"
  , "c2" : "BLOCKER"
@@ -167,10 +195,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01458"
+ , "c1link" : "./qc/crypto/ex_data.c.html#1458"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01458] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "02403"
  , "c1link" : "./qc/crypto/ex_data.c.html#2403"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02403] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02404"
+ , "c1link" : "./qc/crypto/ex_data.c.html#2404"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02404] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__dest,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -188,6 +230,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03453"
+ , "c1link" : "./qc/crypto/ex_data.c.html#3453"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03453] Suspicious mix of Bitwise and Literal expressions in (size_t )__n&gt;__builtin_object_size(__s,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "03478"
  , "c1link" : "./qc/crypto/ex_data.c.html#3478"
  , "c2" : "BLOCKER"
@@ -202,6 +251,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03485"
+ , "c1link" : "./qc/crypto/ex_data.c.html#3485"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03485] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
+}} 
+,
+{ "ligne" : {
    "c1" : "03510"
  , "c1link" : "./qc/crypto/ex_data.c.html#3510"
  , "c2" : "BLOCKER"
@@ -213,6 +269,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ex_data.c.html#3518"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03518] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03518"
+ , "c1link" : "./qc/crypto/ex_data.c.html#3518"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03518] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
 }} 
 ,
 { "ligne" : {
@@ -241,6 +304,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ex_data.c.html#6299"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[06299] The pointer a is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06318"
+ , "c1link" : "./qc/crypto/ex_data.c.html#6318"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[06318] Suspicious mix of Bitwise and Literal expressions in idx&gt;=sk_EX_CALLBACK_num(ip-&gt;meth)"
 }} 
 ,
 { "ligne" : {
@@ -314,6 +384,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "06492"
+ , "c1link" : "./qc/crypto/ex_data.c.html#6492"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[06492] Suspicious mix of Bitwise and Literal expressions in mx&lt;( int  )( sizeof (stack)/ sizeof ((stack)[0]))"
+}} 
+,
+{ "ligne" : {
    "c1" : "06555"
  , "c1link" : "./qc/crypto/ex_data.c.html#6555"
  , "c2" : "MAJOR"
@@ -332,6 +409,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ex_data.c.html#6564"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[06564] The pointer global is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06596"
+ , "c1link" : "./qc/crypto/ex_data.c.html#6596"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[06596] Suspicious mix of Bitwise and Literal expressions in mx&lt;( int  )( sizeof (stack)/ sizeof ((stack)[0]))"
 }} 
 ,
 { "ligne" : {
@@ -398,6 +482,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "06722"
+ , "c1link" : "./qc/crypto/ex_data.c.html#6722"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[06722] Suspicious mix of Bitwise and Literal expressions in mx&lt;( int  )( sizeof (stack)/ sizeof ((stack)[0]))"
+}} 
+,
+{ "ligne" : {
    "c1" : "06786"
  , "c1link" : "./qc/crypto/ex_data.c.html#6786"
  , "c2" : "MAJOR"
@@ -444,6 +535,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ex_data.c.html#6886"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[06886] The expression ( void  *)OPENSSL_sk_set(ossl_check_void_sk_type(ad-&gt;sk),(idx),ossl_check_void_type(val)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06908"
+ , "c1link" : "./qc/crypto/ex_data.c.html#6908"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[06908] Suspicious mix of Bitwise and Literal expressions in idx&gt;=OPENSSL_sk_num(ossl_check_const_void_sk_type(ad-&gt;sk))"
 }} 
 ]
 };

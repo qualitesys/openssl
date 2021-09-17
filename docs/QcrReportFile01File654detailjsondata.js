@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/srp/srp_vfy.c.html" 
- , "texte" : "File crypto/srp/srp_vfy.c 132 rule violations " 
+ , "texte" : "File crypto/srp/srp_vfy.c 153 rule violations " 
  , "fic2"  : "./qc/crypto/srp/srp_vfy.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,6 +57,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "38"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "21"
 }}
 ,
 { "ligne" : {
@@ -118,6 +125,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01381"
+ , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#1381"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01381] Suspicious mix of Bitwise and Literal expressions in __buflen&gt;__builtin_object_size(__buf,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "01403"
  , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#1403"
  , "c2" : "BLOCKER"
@@ -129,6 +143,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#1403"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01403] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01403"
+ , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#1403"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01403] Suspicious mix of Bitwise and Literal expressions in 16&gt;__builtin_object_size(__s,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -153,6 +174,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01433"
+ , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#1433"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01433] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)/ sizeof ( wchar_t  )"
+}} 
+,
+{ "ligne" : {
    "c1" : "01458"
  , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#1458"
  , "c2" : "BLOCKER"
@@ -174,10 +202,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01462"
+ , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#1462"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01462] Suspicious mix of Bitwise and Literal expressions in __len&gt;__builtin_object_size(__dst,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "01829"
  , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#1829"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01829] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01830"
+ , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#1830"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01830] Suspicious mix of Bitwise and Literal expressions in __n&gt;__builtin_object_size(__dest,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -195,6 +237,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03074"
+ , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#3074"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03074] Suspicious mix of Bitwise and Literal expressions in (size_t )__n&gt;__builtin_object_size(__s,2&gt;1)"
+}} 
+,
+{ "ligne" : {
    "c1" : "03099"
  , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#3099"
  , "c2" : "BLOCKER"
@@ -206,6 +255,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#3106"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03106] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03106"
+ , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#3106"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03106] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
 }} 
 ,
 { "ligne" : {
@@ -223,6 +279,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03139"
+ , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#3139"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03139] Suspicious mix of Bitwise and Literal expressions in __size * __n&gt;__builtin_object_size(__ptr,0)"
+}} 
+,
+{ "ligne" : {
    "c1" : "09651"
  , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#9651"
  , "c2" : "MAJOR"
@@ -237,6 +300,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "09663"
+ , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#9663"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[09663] Suspicious mix of Bitwise and Literal expressions in ((size+padsize)/4) * 3&gt;alen"
+}} 
+,
+{ "ligne" : {
    "c1" : "09676"
  , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#9676"
  , "c2" : "MAJOR"
@@ -244,10 +314,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "09686"
+ , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#9686"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[09686] Suspicious mix of Bitwise and Literal expressions in EVP_DecodeUpdate(ctx,a, &amp; outl,pad,padsize)&lt;0"
+}} 
+,
+{ "ligne" : {
    "c1" : "09688"
  , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#9688"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[09688] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09690"
+ , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#9690"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[09690] Suspicious mix of Bitwise and Literal expressions in EVP_DecodeUpdate(ctx,a, &amp; outl2,( const  unsigned  char  *)src,size)&lt;0"
 }} 
 ,
 { "ligne" : {
@@ -405,6 +489,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "10158"
+ , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#10158"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[10158] Suspicious mix of Bitwise and Literal expressions in OPENSSL_sk_insert(ossl_check_SRP_gN_cache_sk_type(gN_cache),ossl_check_SRP_gN_cache_type(newgN),(0))&gt;0"
+}} 
+,
+{ "ligne" : {
    "c1" : "10180"
  , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#10180"
  , "c2" : "MAJOR"
@@ -430,6 +521,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#10206"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[10206] The expression 0x02 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10206"
+ , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#10206"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[10206] Suspicious mix of Bitwise and Literal expressions in ( int  )BIO_ctrl(in,108,0x01|0x02,( char  *)(verifier_file))&lt;=0"
 }} 
 ,
 { "ligne" : {
@@ -657,6 +755,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "10394"
+ , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#10394"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[10394] Suspicious mix of Bitwise and Literal expressions in OPENSSL_sk_push(ossl_check_SRP_user_pwd_sk_type(vb-&gt;users_pwd),ossl_check_SRP_user_pwd_type(user_pwd))&lt;=0"
+}} 
+,
+{ "ligne" : {
    "c1" : "10411"
  , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#10411"
  , "c2" : "MAJOR"
@@ -696,6 +801,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#10485"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[10485] The expression 20 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10485"
+ , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#10485"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[10485] Suspicious mix of Bitwise and Literal expressions in RAND_priv_bytes(digv,20)&lt;=0"
 }} 
 ,
 { "ligne" : {
@@ -762,6 +874,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "10630"
+ , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#10630"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[10630] Suspicious mix of Bitwise and Literal expressions in (len=t_fromb64(tmp, sizeof (tmp),N))&lt;=0"
+}} 
+,
+{ "ligne" : {
    "c1" : "10631"
  , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#10631"
  , "c2" : "MAJOR"
@@ -780,6 +899,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#10644"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[10644] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10644"
+ , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#10644"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[10644] Suspicious mix of Bitwise and Literal expressions in (len=t_fromb64(tmp, sizeof (tmp),g))&lt;=0"
 }} 
 ,
 { "ligne" : {
@@ -818,6 +944,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "10677"
+ , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#10677"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[10677] Suspicious mix of Bitwise and Literal expressions in RAND_bytes_ex(libctx,tmp2,20,0)&lt;=0"
+}} 
+,
+{ "ligne" : {
    "c1" : "10678"
  , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#10678"
  , "c2" : "MAJOR"
@@ -829,6 +962,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#10686"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[10686] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10686"
+ , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#10686"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[10686] Suspicious mix of Bitwise and Literal expressions in (len=t_fromb64(tmp2, sizeof (tmp2), * salt))&lt;=0"
 }} 
 ,
 { "ligne" : {
@@ -857,6 +997,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#10703"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[10703] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10705"
+ , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#10705"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[10705] Suspicious mix of Bitwise and Literal expressions in BN_bn2bin(v,tmp)&lt;0"
 }} 
 ,
 { "ligne" : {
@@ -962,6 +1109,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#10827"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[10827] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10827"
+ , "c1link" : "./qc/crypto/srp/srp_vfy.c.html#10827"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[10827] Suspicious mix of Bitwise and Literal expressions in RAND_bytes_ex(libctx,tmp2,20,0)&lt;=0"
 }} 
 ,
 { "ligne" : {
