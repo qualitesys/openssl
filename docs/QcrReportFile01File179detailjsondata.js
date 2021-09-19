@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bn/bn_asm.c.html" 
- , "texte" : "File crypto/bn/bn_asm.c 309 rule violations " 
+ , "texte" : "File crypto/bn/bn_asm.c 302 rule violations " 
  , "fic2"  : "./qc/crypto/bn/bn_asm.c.xml" 
  , "fic3"  : "" 
 }
@@ -63,7 +63,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "11"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -188,6 +188,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "02749"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#2749"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02749] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "02752"
  , "c1link" : "./qc/crypto/bn/bn_asm.c.html#2752"
  , "c2" : "BLOCKER"
@@ -202,6 +209,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "02781"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#2781"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02781] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "02785"
  , "c1link" : "./qc/crypto/bn/bn_asm.c.html#2785"
  , "c2" : "BLOCKER"
@@ -209,17 +223,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "02793"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#2793"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02793] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "04569"
  , "c1link" : "./qc/crypto/bn/bn_asm.c.html#4569"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[04569] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06336"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#6336"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06336] Suspicious mix of Bitwise and Literal expressions in bits&gt;(0x7fffffff-(8 * 8)+1)"
 }} 
 ,
 { "ligne" : {
@@ -240,24 +254,10 @@ var maDataBlocs = {
    "c1" : "06372"
  , "c1link" : "./qc/crypto/bn/bn_asm.c.html#6372"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06372] Suspicious mix of Bitwise and Literal expressions in l&lt;(c)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06372"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#6372"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[06372] The expression c applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06372"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#6372"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06372] Suspicious mix of Bitwise and Literal expressions in l&lt;(c)"
-}} 
-,
-{ "ligne" : {
    "c1" : "06373"
  , "c1link" : "./qc/crypto/bn/bn_asm.c.html#6373"
  , "c2" : "BLOCKER"
@@ -268,21 +268,7 @@ var maDataBlocs = {
    "c1" : "06373"
  , "c1link" : "./qc/crypto/bn/bn_asm.c.html#6373"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06373] Suspicious mix of Bitwise and Literal expressions in l&lt;(c)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06373"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#6373"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[06373] The expression c applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "06373"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#6373"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06373] Suspicious mix of Bitwise and Literal expressions in l&lt;(c)"
 }} 
 ,
 { "ligne" : {
@@ -296,24 +282,10 @@ var maDataBlocs = {
    "c1" : "06374"
  , "c1link" : "./qc/crypto/bn/bn_asm.c.html#6374"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06374] Suspicious mix of Bitwise and Literal expressions in l&lt;(c)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06374"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#6374"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[06374] The expression c applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06374"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#6374"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06374] Suspicious mix of Bitwise and Literal expressions in l&lt;(c)"
-}} 
-,
-{ "ligne" : {
    "c1" : "06375"
  , "c1link" : "./qc/crypto/bn/bn_asm.c.html#6375"
  , "c2" : "BLOCKER"
@@ -324,21 +296,7 @@ var maDataBlocs = {
    "c1" : "06375"
  , "c1link" : "./qc/crypto/bn/bn_asm.c.html#6375"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06375] Suspicious mix of Bitwise and Literal expressions in l&lt;(c)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06375"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#6375"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[06375] The expression c applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "06375"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#6375"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06375] Suspicious mix of Bitwise and Literal expressions in l&lt;(c)"
 }} 
 ,
 { "ligne" : {
@@ -359,21 +317,7 @@ var maDataBlocs = {
    "c1" : "06382"
  , "c1link" : "./qc/crypto/bn/bn_asm.c.html#6382"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06382] Suspicious mix of Bitwise and Literal expressions in l&lt;(c)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06382"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#6382"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[06382] The expression c applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "06382"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#6382"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06382] Suspicious mix of Bitwise and Literal expressions in l&lt;(c)"
 }} 
 ,
 { "ligne" : {
@@ -458,6 +402,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_asm.c.html#6489"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[06489] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06492"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#6492"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[06492] Suspicious mix of Bitwise and Literal expressions in (tl)&lt;=((t&lt;&lt;32)|((l&amp;(0xffffffff00000000L))&gt;&gt;32))"
 }} 
 ,
 { "ligne" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/dsa_ctrl.c.html" 
- , "texte" : "File crypto/evp/dsa_ctrl.c 31 rule violations " 
+ , "texte" : "File crypto/evp/dsa_ctrl.c 28 rule violations " 
  , "fic2"  : "./qc/crypto/evp/dsa_ctrl.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "6"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -188,6 +188,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "02509"
+ , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#2509"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02509] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "02512"
  , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#2512"
  , "c2" : "BLOCKER"
@@ -202,10 +209,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "02541"
+ , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#2541"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02541] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "02545"
  , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#2545"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02545] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02553"
+ , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#2553"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02553] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -216,24 +237,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09201"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#9201"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[09201] Suspicious mix of Bitwise and Literal expressions in (ret=dsa_paramgen_check(ctx))&lt;=0"
-}} 
-,
-{ "ligne" : {
    "c1" : "09216"
  , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#9216"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[09216] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09216"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#9216"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[09216] Suspicious mix of Bitwise and Literal expressions in (ret=dsa_paramgen_check(ctx))&lt;=0"
 }} 
 ,
 { "ligne" : {
@@ -244,24 +251,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09232"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#9232"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[09232] Suspicious mix of Bitwise and Literal expressions in (ret=dsa_paramgen_check(ctx))&lt;=0"
-}} 
-,
-{ "ligne" : {
    "c1" : "09248"
  , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#9248"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[09248] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09248"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#9248"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[09248] Suspicious mix of Bitwise and Literal expressions in (ret=dsa_paramgen_check(ctx))&lt;=0"
 }} 
 ,
 { "ligne" : {
@@ -272,24 +265,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09263"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#9263"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[09263] Suspicious mix of Bitwise and Literal expressions in (ret=dsa_paramgen_check(ctx))&lt;=0"
-}} 
-,
-{ "ligne" : {
    "c1" : "09279"
  , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#9279"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[09279] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09279"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#9279"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[09279] Suspicious mix of Bitwise and Literal expressions in (ret=dsa_paramgen_check(ctx))&lt;=0"
 }} 
 ]
 };

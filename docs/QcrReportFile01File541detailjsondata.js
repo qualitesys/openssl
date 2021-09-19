@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ocsp/ocsp_vfy.c.html" 
- , "texte" : "File crypto/ocsp/ocsp_vfy.c 86 rule violations " 
+ , "texte" : "File crypto/ocsp/ocsp_vfy.c 87 rule violations " 
  , "fic2"  : "./qc/crypto/ocsp/ocsp_vfy.c.xml" 
  , "fic3"  : "" 
 }
@@ -63,7 +63,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -118,6 +118,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01602"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_vfy.c.html#1602"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01602] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01605"
  , "c1link" : "./qc/crypto/ocsp/ocsp_vfy.c.html#1605"
  , "c2" : "BLOCKER"
@@ -132,10 +139,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01634"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_vfy.c.html#1634"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01634] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01638"
  , "c1link" : "./qc/crypto/ocsp/ocsp_vfy.c.html#1638"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01638] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01646"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_vfy.c.html#1646"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01646] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -332,13 +353,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ocsp/ocsp_vfy.c.html#13789"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[13789] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13789"
- , "c1link" : "./qc/crypto/ocsp/ocsp_vfy.c.html#13789"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[13789] Suspicious mix of Bitwise and Literal expressions in (ret=ocsp_verify((( void  *)0),bs,signer,flags))&lt;=0"
 }} 
 ,
 { "ligne" : {
@@ -668,13 +682,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ocsp/ocsp_vfy.c.html#14200"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[14200] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14200"
- , "c1link" : "./qc/crypto/ocsp/ocsp_vfy.c.html#14200"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[14200] Suspicious mix of Bitwise and Literal expressions in (ret=ocsp_verify(req,(( void  *)0),signer,flags))&lt;=0"
 }} 
 ,
 { "ligne" : {

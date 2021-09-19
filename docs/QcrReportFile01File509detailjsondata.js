@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/md5/md5_dgst.c.html" 
- , "texte" : "File crypto/md5/md5_dgst.c 122 rule violations " 
+ , "texte" : "File crypto/md5/md5_dgst.c 124 rule violations " 
  , "fic2"  : "./qc/crypto/md5/md5_dgst.c.xml" 
  , "fic3"  : "" 
 }
@@ -70,7 +70,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "1"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -111,6 +111,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01020"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#1020"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01020] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01023"
  , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#1023"
  , "c2" : "BLOCKER"
@@ -125,10 +132,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01052"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#1052"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01052] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01056"
  , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#1056"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01056] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01064"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#1064"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01064] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -255,13 +276,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4680"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[04680] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04686"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4686"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[04686] Suspicious mix of Bitwise and Literal expressions in n&gt;(64-8)"
 }} 
 ,
 { "ligne" : {

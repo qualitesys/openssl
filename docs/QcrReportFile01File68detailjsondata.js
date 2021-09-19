@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/storeutl.c.html" 
- , "texte" : "File apps/storeutl.c 127 rule violations " 
+ , "texte" : "File apps/storeutl.c 128 rule violations " 
  , "fic2"  : "./qc/apps/storeutl.c.xml" 
  , "fic3"  : "" 
 }
@@ -70,7 +70,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -223,6 +223,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "02793"
+ , "c1link" : "./qc/apps/storeutl.c.html#2793"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02793] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "02796"
  , "c1link" : "./qc/apps/storeutl.c.html#2796"
  , "c2" : "BLOCKER"
@@ -237,10 +244,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "02825"
+ , "c1link" : "./qc/apps/storeutl.c.html#2825"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02825] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "02829"
  , "c1link" : "./qc/apps/storeutl.c.html#2829"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02829] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02837"
+ , "c1link" : "./qc/apps/storeutl.c.html#2837"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02837] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -370,13 +391,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05725"
- , "c1link" : "./qc/apps/storeutl.c.html#5725"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[05725] Suspicious mix of Bitwise and Literal expressions in __size *  sizeof (__gid_t)&gt;__builtin_object_size(__list,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "05746"
  , "c1link" : "./qc/apps/storeutl.c.html#5746"
  , "c2" : "BLOCKER"
@@ -458,13 +472,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/storeutl.c.html#5833"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[05833] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06930"
- , "c1link" : "./qc/apps/storeutl.c.html#6930"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06930] Suspicious mix of Bitwise and Literal expressions in ( unsigned  char  *)__cmsg+(((__cmsg-&gt;cmsg_len)+ sizeof (size_t)-1)&amp;(size_t ) ~ ( sizeof (size_t)-1))&gt;(( unsigned  char  *)__mhdr-&gt;msg_control+__mhdr-&gt;msg_controllen)"
 }} 
 ,
 { "ligne" : {

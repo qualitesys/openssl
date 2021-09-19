@@ -111,6 +111,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00993"
+ , "c1link" : "./qc/crypto/evp/bio_enc.c.html#993"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[00993] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "00996"
  , "c1link" : "./qc/crypto/evp/bio_enc.c.html#996"
  , "c2" : "BLOCKER"
@@ -125,10 +132,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01025"
+ , "c1link" : "./qc/crypto/evp/bio_enc.c.html#1025"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01025] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01029"
  , "c1link" : "./qc/crypto/evp/bio_enc.c.html#1029"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01029] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01037"
+ , "c1link" : "./qc/crypto/evp/bio_enc.c.html#1037"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01037] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -293,13 +314,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08697"
- , "c1link" : "./qc/crypto/evp/bio_enc.c.html#8697"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[08697] Suspicious mix of Bitwise and Literal expressions in outl&gt;(256)"
-}} 
-,
-{ "ligne" : {
    "c1" : "08705"
  , "c1link" : "./qc/crypto/evp/bio_enc.c.html#8705"
  , "c2" : "BLOCKER"
@@ -311,20 +325,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/bio_enc.c.html#8715"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[08715] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08715"
- , "c1link" : "./qc/crypto/evp/bio_enc.c.html#8715"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[08715] Suspicious mix of Bitwise and Literal expressions in (i-=j)&lt;=0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08721"
- , "c1link" : "./qc/crypto/evp/bio_enc.c.html#8721"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[08721] Suspicious mix of Bitwise and Literal expressions in i&gt;(256)"
 }} 
 ,
 { "ligne" : {

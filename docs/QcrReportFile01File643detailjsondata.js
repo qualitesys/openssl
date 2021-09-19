@@ -111,6 +111,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01020"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#1020"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01020] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01023"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#1023"
  , "c2" : "BLOCKER"
@@ -125,10 +132,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01052"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#1052"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01052] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01056"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#1056"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01056] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01064"
+ , "c1link" : "./qc/crypto/sha/sha512.c.html#1064"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01064] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -237,13 +258,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06312"
- , "c1link" : "./qc/crypto/sha/sha512.c.html#6312"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06312] Suspicious mix of Bitwise and Literal expressions in n&gt;( sizeof (c-&gt;u)-16)"
-}} 
-,
-{ "ligne" : {
    "c1" : "06432"
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6432"
  , "c2" : "BLOCKER"
@@ -255,20 +269,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha512.c.html#6433"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[06433] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06441"
- , "c1link" : "./qc/crypto/sha/sha512.c.html#6441"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06441] Suspicious mix of Bitwise and Literal expressions in  sizeof (len)&gt;=8"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06458"
- , "c1link" : "./qc/crypto/sha/sha512.c.html#6458"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06458] Suspicious mix of Bitwise and Literal expressions in len&gt;= sizeof (c-&gt;u)"
 }} 
 ,
 { "ligne" : {

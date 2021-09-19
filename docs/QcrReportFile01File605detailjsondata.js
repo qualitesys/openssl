@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/rc4/rc4_skey.c.html" 
- , "texte" : "File crypto/rc4/rc4_skey.c 23 rule violations " 
+ , "texte" : "File crypto/rc4/rc4_skey.c 26 rule violations " 
  , "fic2"  : "./qc/crypto/rc4/rc4_skey.c.xml" 
  , "fic3"  : "" 
 }
@@ -50,6 +50,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "17"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -188,6 +195,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03151"
+ , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#3151"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03151] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03154"
  , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#3154"
  , "c2" : "BLOCKER"
@@ -202,10 +216,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03183"
+ , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#3183"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03183] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03187"
  , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#3187"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03187] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03195"
+ , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#3195"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03195] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {

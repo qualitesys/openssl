@@ -209,6 +209,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "02757"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#2757"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02757] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "02760"
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#2760"
  , "c2" : "BLOCKER"
@@ -223,10 +230,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "02789"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#2789"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02789] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "02793"
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#2793"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02793] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02801"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#2801"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02801] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -258,31 +279,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08216"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8216"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[08216] Suspicious mix of Bitwise and Literal expressions in len&gt;=(16 * 4)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08216"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8216"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[08216] Suspicious mix of Bitwise and Literal expressions in len+n&gt;=(16 * 4)"
-}} 
-,
-{ "ligne" : {
    "c1" : "08260"
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8260"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[08260] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08266"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8266"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[08266] Suspicious mix of Bitwise and Literal expressions in n&gt;((16 * 4)-8)"
 }} 
 ,
 { "ligne" : {

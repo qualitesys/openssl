@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/des/str2key.c.html" 
- , "texte" : "File crypto/des/str2key.c 24 rule violations " 
+ , "texte" : "File crypto/des/str2key.c 23 rule violations " 
  , "fic2"  : "./qc/crypto/des/str2key.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "4"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -181,6 +181,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "02757"
+ , "c1link" : "./qc/crypto/des/str2key.c.html#2757"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02757] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "02760"
  , "c1link" : "./qc/crypto/des/str2key.c.html#2760"
  , "c2" : "BLOCKER"
@@ -195,6 +202,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "02789"
+ , "c1link" : "./qc/crypto/des/str2key.c.html#2789"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02789] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "02793"
  , "c1link" : "./qc/crypto/des/str2key.c.html#2793"
  , "c2" : "BLOCKER"
@@ -202,38 +216,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "02801"
+ , "c1link" : "./qc/crypto/des/str2key.c.html#2801"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02801] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "04574"
  , "c1link" : "./qc/crypto/des/str2key.c.html#4574"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[04574] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04755"
- , "c1link" : "./qc/crypto/des/str2key.c.html#4755"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[04755] Suspicious mix of Bitwise and Literal expressions in (i%16)&lt;8"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04783"
- , "c1link" : "./qc/crypto/des/str2key.c.html#4783"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[04783] Suspicious mix of Bitwise and Literal expressions in (i%32)&lt;16"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04784"
- , "c1link" : "./qc/crypto/des/str2key.c.html#4784"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[04784] Suspicious mix of Bitwise and Literal expressions in (i%16)&lt;8"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04792"
- , "c1link" : "./qc/crypto/des/str2key.c.html#4792"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[04792] Suspicious mix of Bitwise and Literal expressions in (i%16)&lt;8"
 }} 
 ]
 };

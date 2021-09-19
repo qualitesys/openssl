@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/sparse_array.c.html" 
- , "texte" : "File crypto/sparse_array.c 24 rule violations " 
+ , "texte" : "File crypto/sparse_array.c 26 rule violations " 
  , "fic2"  : "./qc/crypto/sparse_array.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "1"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -188,6 +188,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "02747"
+ , "c1link" : "./qc/crypto/sparse_array.c.html#2747"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02747] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "02750"
  , "c1link" : "./qc/crypto/sparse_array.c.html#2750"
  , "c2" : "BLOCKER"
@@ -202,6 +209,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "02779"
+ , "c1link" : "./qc/crypto/sparse_array.c.html#2779"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02779] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "02783"
  , "c1link" : "./qc/crypto/sparse_array.c.html#2783"
  , "c2" : "BLOCKER"
@@ -209,10 +223,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "04660"
- , "c1link" : "./qc/crypto/sparse_array.c.html#4660"
+   "c1" : "02791"
+ , "c1link" : "./qc/crypto/sparse_array.c.html#2791"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[04660] Suspicious mix of Bitwise and Literal expressions in n&gt;=(1&lt;&lt;12)"
+ , "c3" : "QC-CPP000018[02791] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/modes/wrap128.c.html" 
- , "texte" : "File crypto/modes/wrap128.c 36 rule violations " 
+ , "texte" : "File crypto/modes/wrap128.c 34 rule violations " 
  , "fic2"  : "./qc/crypto/modes/wrap128.c.xml" 
  , "fic3"  : "" 
 }
@@ -63,7 +63,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "5"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -195,6 +195,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03103"
+ , "c1link" : "./qc/crypto/modes/wrap128.c.html#3103"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03103] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03106"
  , "c1link" : "./qc/crypto/modes/wrap128.c.html#3106"
  , "c2" : "BLOCKER"
@@ -209,10 +216,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03135"
+ , "c1link" : "./qc/crypto/modes/wrap128.c.html#3135"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03135] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03139"
  , "c1link" : "./qc/crypto/modes/wrap128.c.html#3139"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03139] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03147"
+ , "c1link" : "./qc/crypto/modes/wrap128.c.html#3147"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03147] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -234,13 +255,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/modes/wrap128.c.html#6353"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[06353] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06355"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#6355"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06355] Suspicious mix of Bitwise and Literal expressions in inlen&gt;(1UL&lt;&lt;31)"
 }} 
 ,
 { "ligne" : {
@@ -272,13 +286,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06391"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#6391"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06391] Suspicious mix of Bitwise and Literal expressions in inlen&gt;(1UL&lt;&lt;31)"
-}} 
-,
-{ "ligne" : {
    "c1" : "06426"
  , "c1link" : "./qc/crypto/modes/wrap128.c.html#6426"
  , "c2" : "BLOCKER"
@@ -300,31 +307,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06454"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#6454"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06454] Suspicious mix of Bitwise and Literal expressions in inlen&gt;=(1UL&lt;&lt;31)"
-}} 
-,
-{ "ligne" : {
    "c1" : "06458"
  , "c1link" : "./qc/crypto/modes/wrap128.c.html#6458"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[06458] The expression  ! icv applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "06504"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#6504"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06504] Suspicious mix of Bitwise and Literal expressions in inlen&gt;=(1UL&lt;&lt;31)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06551"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#6551"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06551] Suspicious mix of Bitwise and Literal expressions in 8 * (n-1)&gt;=ptext_len"
 }} 
 ]
 };

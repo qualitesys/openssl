@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/rsa/rsa_mp.c.html" 
- , "texte" : "File crypto/rsa/rsa_mp.c 39 rule violations " 
+ , "texte" : "File crypto/rsa/rsa_mp.c 41 rule violations " 
  , "fic2"  : "./qc/crypto/rsa/rsa_mp.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "1"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -104,6 +104,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01205"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#1205"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01205] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01208"
  , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#1208"
  , "c2" : "BLOCKER"
@@ -118,10 +125,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01237"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#1237"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01237] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01241"
  , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#1241"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01241] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01249"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#1249"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01249] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -304,13 +325,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6589"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[06589] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06589"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6589"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06589] Suspicious mix of Bitwise and Literal expressions in (ex_primes=sk_RSA_PRIME_INFO_num(rsa-&gt;prime_infos))&lt;=0"
 }} 
 ,
 { "ligne" : {

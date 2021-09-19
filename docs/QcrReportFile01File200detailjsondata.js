@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bn/bn_prime.c.html" 
- , "texte" : "File crypto/bn/bn_prime.c 140 rule violations " 
+ , "texte" : "File crypto/bn/bn_prime.c 136 rule violations " 
  , "fic2"  : "./qc/crypto/bn/bn_prime.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "7"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -104,6 +104,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00993"
+ , "c1link" : "./qc/crypto/bn/bn_prime.c.html#993"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[00993] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "00996"
  , "c1link" : "./qc/crypto/bn/bn_prime.c.html#996"
  , "c2" : "BLOCKER"
@@ -118,10 +125,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01025"
+ , "c1link" : "./qc/crypto/bn/bn_prime.c.html#1025"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01025] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01029"
  , "c1link" : "./qc/crypto/bn/bn_prime.c.html#1029"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01029] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01037"
+ , "c1link" : "./qc/crypto/bn/bn_prime.c.html#1037"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01037] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -220,13 +241,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_prime.c.html#2948"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02948] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06329"
- , "c1link" : "./qc/crypto/bn/bn_prime.c.html#6329"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06329] Suspicious mix of Bitwise and Literal expressions in bits&gt;(0x7fffffff-(8 * 8)+1)"
 }} 
 ,
 { "ligne" : {
@@ -804,24 +818,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07118"
- , "c1link" : "./qc/crypto/bn/bn_prime.c.html#7118"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[07118] Suspicious mix of Bitwise and Literal expressions in (( unsigned  long  )(primes [i])  *  ( unsigned  long  )(primes[i]))&gt;BN_get_word(rnd)+delta"
-}} 
-,
-{ "ligne" : {
    "c1" : "07120"
  , "c1link" : "./qc/crypto/bn/bn_prime.c.html#7120"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[07120] The expression safe applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07120"
- , "c1link" : "./qc/crypto/bn/bn_prime.c.html#7120"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[07120] Suspicious mix of Bitwise and Literal expressions in (mods[i]+delta)%primes[i]&lt;=1"
 }} 
 ,
 { "ligne" : {
@@ -871,13 +871,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_prime.c.html#7152"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[07152] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07154"
- , "c1link" : "./qc/crypto/bn/bn_prime.c.html#7154"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[07154] Suspicious mix of Bitwise and Literal expressions in maxdelta&gt;(0xffffffffffffffffL)-BN_get_word(add)"
 }} 
 ,
 { "ligne" : {
@@ -986,13 +979,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07184"
- , "c1link" : "./qc/crypto/bn/bn_prime.c.html#7184"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[07184] Suspicious mix of Bitwise and Literal expressions in BN_get_word(rnd)&lt;(safe?5u : 3u)"
-}} 
-,
-{ "ligne" : {
    "c1" : "07185"
  , "c1link" : "./qc/crypto/bn/bn_prime.c.html#7185"
  , "c2" : "BLOCKER"
@@ -1014,24 +1000,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07201"
- , "c1link" : "./qc/crypto/bn/bn_prime.c.html#7201"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[07201] Suspicious mix of Bitwise and Literal expressions in (( unsigned  long  )(primes [i])  *  ( unsigned  long  )(primes[i]))&gt;BN_get_word(rnd)+delta"
-}} 
-,
-{ "ligne" : {
    "c1" : "07204"
  , "c1link" : "./qc/crypto/bn/bn_prime.c.html#7204"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[07204] The expression safe applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07204"
- , "c1link" : "./qc/crypto/bn/bn_prime.c.html#7204"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[07204] Suspicious mix of Bitwise and Literal expressions in (mods[i]+delta)%primes[i]&lt;=1"
 }} 
 ,
 { "ligne" : {

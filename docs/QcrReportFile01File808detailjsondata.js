@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/statem/extensions_clnt.c.html" 
- , "texte" : "File ssl/statem/extensions_clnt.c 267 rule violations " 
+ , "texte" : "File ssl/statem/extensions_clnt.c 264 rule violations " 
  , "fic2"  : "./qc/ssl/statem/extensions_clnt.c.xml" 
  , "fic3"  : "" 
 }
@@ -63,7 +63,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "6"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -111,6 +111,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01222"
+ , "c1link" : "./qc/ssl/statem/extensions_clnt.c.html#1222"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01222] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01225"
  , "c1link" : "./qc/ssl/statem/extensions_clnt.c.html#1225"
  , "c2" : "BLOCKER"
@@ -125,10 +132,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01254"
+ , "c1link" : "./qc/ssl/statem/extensions_clnt.c.html#1254"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01254] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01258"
  , "c1link" : "./qc/ssl/statem/extensions_clnt.c.html#1258"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01258] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01266"
+ , "c1link" : "./qc/ssl/statem/extensions_clnt.c.html#1266"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01266] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -349,13 +370,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13929"
- , "c1link" : "./qc/ssl/statem/extensions_clnt.c.html#13929"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[13929] Suspicious mix of Bitwise and Literal expressions in __size *  sizeof (__gid_t)&gt;__builtin_object_size(__list,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "13950"
  , "c1link" : "./qc/ssl/statem/extensions_clnt.c.html#13950"
  , "c2" : "BLOCKER"
@@ -444,13 +458,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/extensions_clnt.c.html#14399"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[14399] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16903"
- , "c1link" : "./qc/ssl/statem/extensions_clnt.c.html#16903"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[16903] Suspicious mix of Bitwise and Literal expressions in len&gt;(size_t )((18446744073709551615UL)/2)"
 }} 
 ,
 { "ligne" : {
@@ -1735,20 +1742,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "22156"
- , "c1link" : "./qc/ssl/statem/extensions_clnt.c.html#22156"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[22156] Suspicious mix of Bitwise and Literal expressions in (value)&gt;=1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22156"
- , "c1link" : "./qc/ssl/statem/extensions_clnt.c.html#22156"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[22156] Suspicious mix of Bitwise and Literal expressions in (value)&lt;=4"
-}} 
-,
-{ "ligne" : {
    "c1" : "22216"
  , "c1link" : "./qc/ssl/statem/extensions_clnt.c.html#22216"
  , "c2" : "BLOCKER"
@@ -1781,20 +1774,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/statem/extensions_clnt.c.html#22325"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[22325] The expression  ! tls_use_ticket(s) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "22368"
- , "c1link" : "./qc/ssl/statem/extensions_clnt.c.html#22368"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[22368] Suspicious mix of Bitwise and Literal expressions in (s)-&gt;method-&gt;version&gt;=0x0304"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22377"
- , "c1link" : "./qc/ssl/statem/extensions_clnt.c.html#22377"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[22377] Suspicious mix of Bitwise and Literal expressions in (s)-&gt;method-&gt;version&gt;=0x0304"
 }} 
 ,
 { "ligne" : {

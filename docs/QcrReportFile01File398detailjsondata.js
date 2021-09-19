@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/engine/tb_dsa.c.html" 
- , "texte" : "File crypto/engine/tb_dsa.c 24 rule violations " 
+ , "texte" : "File crypto/engine/tb_dsa.c 27 rule violations " 
  , "fic2"  : "./qc/crypto/engine/tb_dsa.c.xml" 
  , "fic3"  : "" 
 }
@@ -53,6 +53,13 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
@@ -83,6 +90,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01214"
+ , "c1link" : "./qc/crypto/engine/tb_dsa.c.html#1214"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01214] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01217"
  , "c1link" : "./qc/crypto/engine/tb_dsa.c.html#1217"
  , "c2" : "BLOCKER"
@@ -97,10 +111,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01246"
+ , "c1link" : "./qc/crypto/engine/tb_dsa.c.html#1246"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01246] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01250"
  , "c1link" : "./qc/crypto/engine/tb_dsa.c.html#1250"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01250] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01258"
+ , "c1link" : "./qc/crypto/engine/tb_dsa.c.html#1258"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01258] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {

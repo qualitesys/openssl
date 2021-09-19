@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/evp_fetch.c.html" 
- , "texte" : "File crypto/evp/evp_fetch.c 48 rule violations " 
+ , "texte" : "File crypto/evp/evp_fetch.c 49 rule violations " 
  , "fic2"  : "./qc/crypto/evp/evp_fetch.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -97,6 +97,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01505"
+ , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#1505"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01505] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01508"
  , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#1508"
  , "c2" : "BLOCKER"
@@ -111,10 +118,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01537"
+ , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#1537"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01537] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01541"
  , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#1541"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01541] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01549"
+ , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#1549"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01549] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -220,20 +241,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#8062"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[08062] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10045"
- , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#10045"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[10045] Suspicious mix of Bitwise and Literal expressions in name_id&lt;=((1&lt;&lt;23)-1)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10046"
- , "c1link" : "./qc/crypto/evp/evp_fetch.c.html#10046"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[10046] Suspicious mix of Bitwise and Literal expressions in operation_id&lt;=((1&lt;&lt;8)-1)"
 }} 
 ,
 { "ligne" : {

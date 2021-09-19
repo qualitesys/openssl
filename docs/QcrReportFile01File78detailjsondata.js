@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/aes/aes_misc.c.html" 
- , "texte" : "File crypto/aes/aes_misc.c 20 rule violations " 
+ , "texte" : "File crypto/aes/aes_misc.c 23 rule violations " 
  , "fic2"  : "./qc/crypto/aes/aes_misc.c.xml" 
  , "fic3"  : "" 
 }
@@ -53,6 +53,13 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
@@ -83,6 +90,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01288"
+ , "c1link" : "./qc/crypto/aes/aes_misc.c.html#1288"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01288] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01291"
  , "c1link" : "./qc/crypto/aes/aes_misc.c.html#1291"
  , "c2" : "BLOCKER"
@@ -97,10 +111,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01320"
+ , "c1link" : "./qc/crypto/aes/aes_misc.c.html#1320"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01320] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01324"
  , "c1link" : "./qc/crypto/aes/aes_misc.c.html#1324"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01324] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01332"
+ , "c1link" : "./qc/crypto/aes/aes_misc.c.html#1332"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01332] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/rsa/rsa_mp_names.c.html" 
- , "texte" : "File crypto/rsa/rsa_mp_names.c 20 rule violations " 
+ , "texte" : "File crypto/rsa/rsa_mp_names.c 23 rule violations " 
  , "fic2"  : "./qc/crypto/rsa/rsa_mp_names.c.xml" 
  , "fic3"  : "" 
 }
@@ -53,6 +53,13 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
@@ -83,6 +90,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01909"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp_names.c.html#1909"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01909] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01912"
  , "c1link" : "./qc/crypto/rsa/rsa_mp_names.c.html#1912"
  , "c2" : "BLOCKER"
@@ -97,10 +111,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01941"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp_names.c.html#1941"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01941] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01945"
  , "c1link" : "./qc/crypto/rsa/rsa_mp_names.c.html#1945"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01945] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01953"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp_names.c.html#1953"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01953] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/provider_conf.c.html" 
- , "texte" : "File crypto/provider_conf.c 46 rule violations " 
+ , "texte" : "File crypto/provider_conf.c 48 rule violations " 
  , "fic2"  : "./qc/crypto/provider_conf.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "1"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -97,6 +97,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01592"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#1592"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01592] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01595"
  , "c1link" : "./qc/crypto/provider_conf.c.html#1595"
  , "c2" : "BLOCKER"
@@ -111,10 +118,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01624"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#1624"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01624] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01628"
  , "c1link" : "./qc/crypto/provider_conf.c.html#1628"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01628] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01636"
+ , "c1link" : "./qc/crypto/provider_conf.c.html#1636"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01636] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -213,13 +234,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/provider_conf.c.html#7174"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[07174] The pointer sect is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07202"
- , "c1link" : "./qc/crypto/provider_conf.c.html#7202"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[07202] Suspicious mix of Bitwise and Literal expressions in buffer_len+strlen(sectconf-&gt;name)&gt;= sizeof (buffer)"
 }} 
 ,
 { "ligne" : {

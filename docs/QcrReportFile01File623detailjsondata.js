@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/rsa/rsa_pk1.c.html" 
- , "texte" : "File crypto/rsa/rsa_pk1.c 36 rule violations " 
+ , "texte" : "File crypto/rsa/rsa_pk1.c 37 rule violations " 
  , "fic2"  : "./qc/crypto/rsa/rsa_pk1.c.xml" 
  , "fic3"  : "" 
 }
@@ -63,7 +63,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -209,6 +209,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03232"
+ , "c1link" : "./qc/crypto/rsa/rsa_pk1.c.html#3232"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03232] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03235"
  , "c1link" : "./qc/crypto/rsa/rsa_pk1.c.html#3235"
  , "c2" : "BLOCKER"
@@ -223,10 +230,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03264"
+ , "c1link" : "./qc/crypto/rsa/rsa_pk1.c.html#3264"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03264] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03268"
  , "c1link" : "./qc/crypto/rsa/rsa_pk1.c.html#3268"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03268] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03276"
+ , "c1link" : "./qc/crypto/rsa/rsa_pk1.c.html#3276"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03276] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -241,13 +262,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rsa/rsa_pk1.c.html#9802"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[09802] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09804"
- , "c1link" : "./qc/crypto/rsa/rsa_pk1.c.html#9804"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[09804] Suspicious mix of Bitwise and Literal expressions in flen&gt;(tlen-11)"
 }} 
 ,
 { "ligne" : {
@@ -283,13 +297,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rsa/rsa_pk1.c.html#9917"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[09917] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09919"
- , "c1link" : "./qc/crypto/rsa/rsa_pk1.c.html#9919"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[09919] Suspicious mix of Bitwise and Literal expressions in flen&gt;(tlen-11)"
 }} 
 ,
 { "ligne" : {

@@ -118,6 +118,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00993"
+ , "c1link" : "./qc/crypto/pem/pem_lib.c.html#993"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[00993] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "00996"
  , "c1link" : "./qc/crypto/pem/pem_lib.c.html#996"
  , "c2" : "BLOCKER"
@@ -132,10 +139,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01025"
+ , "c1link" : "./qc/crypto/pem/pem_lib.c.html#1025"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01025] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01029"
  , "c1link" : "./qc/crypto/pem/pem_lib.c.html#1029"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01029] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01037"
+ , "c1link" : "./qc/crypto/pem/pem_lib.c.html#1037"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01037] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -552,20 +573,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14700"
- , "c1link" : "./qc/crypto/pem/pem_lib.c.html#14700"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[14700] Suspicious mix of Bitwise and Literal expressions in EVP_CIPHER_get_iv_length(enc)&gt;( int  ) sizeof (iv)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14705"
- , "c1link" : "./qc/crypto/pem/pem_lib.c.html#14705"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[14705] Suspicious mix of Bitwise and Literal expressions in strlen(objstr)+23+2 * EVP_CIPHER_get_iv_length(enc)+13&gt; sizeof (buf)"
-}} 
-,
-{ "ligne" : {
    "c1" : "14712"
  , "c1link" : "./qc/crypto/pem/pem_lib.c.html#14712"
  , "c2" : "MAJOR"
@@ -577,13 +584,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/pem/pem_lib.c.html#14716"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[14716] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14716"
- , "c1link" : "./qc/crypto/pem/pem_lib.c.html#14716"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[14716] Suspicious mix of Bitwise and Literal expressions in (dsize=i2d(x,(( void  *)0)))&lt;=0"
 }} 
 ,
 { "ligne" : {

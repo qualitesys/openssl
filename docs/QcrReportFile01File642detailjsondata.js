@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/sha/sha3.c.html" 
- , "texte" : "File crypto/sha/sha3.c 6 rule violations " 
+ , "texte" : "File crypto/sha/sha3.c 5 rule violations " 
  , "fic2"  : "./qc/crypto/sha/sha3.c.xml" 
  , "fic3"  : "" 
 }
@@ -60,13 +60,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000018"
- , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPPCWE481"
  , "c3" : "Assigning instead of comparing"
@@ -80,13 +73,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha3.c.html#383"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00383] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00809"
- , "c1link" : "./qc/crypto/sha/sha3.c.html#809"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[00809] Suspicious mix of Bitwise and Literal expressions in bsz&lt;= sizeof (ctx-&gt;buf)"
 }} 
 ,
 { "ligne" : {

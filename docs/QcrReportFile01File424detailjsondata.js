@@ -209,6 +209,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03113"
+ , "c1link" : "./qc/crypto/evp/e_aria.c.html#3113"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03113] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03116"
  , "c1link" : "./qc/crypto/evp/e_aria.c.html#3116"
  , "c2" : "BLOCKER"
@@ -223,10 +230,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03145"
+ , "c1link" : "./qc/crypto/evp/e_aria.c.html#3145"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03145] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03149"
  , "c1link" : "./qc/crypto/evp/e_aria.c.html#3149"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03149] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03157"
+ , "c1link" : "./qc/crypto/evp/e_aria.c.html#3157"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03157] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -384,13 +405,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10691"
- , "c1link" : "./qc/crypto/evp/e_aria.c.html#10691"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[10691] Suspicious mix of Bitwise and Literal expressions in (gctx-&gt;ivlen-arg)&lt;8"
-}} 
-,
-{ "ligne" : {
    "c1" : "10693"
  , "c1link" : "./qc/crypto/evp/e_aria.c.html#10693"
  , "c2" : "BLOCKER"
@@ -416,13 +430,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/e_aria.c.html#10763"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[10763] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10794"
- , "c1link" : "./qc/crypto/evp/e_aria.c.html#10794"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[10794] Suspicious mix of Bitwise and Literal expressions in len&lt;(8+16)"
 }} 
 ,
 { "ligne" : {
@@ -626,13 +633,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/e_aria.c.html#11024"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[11024] The expression cctx-&gt;ccm.key applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "11044"
- , "c1link" : "./qc/crypto/evp/e_aria.c.html#11044"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[11044] Suspicious mix of Bitwise and Literal expressions in len&lt;(8+(size_t )cctx-&gt;M)"
 }} 
 ,
 { "ligne" : {

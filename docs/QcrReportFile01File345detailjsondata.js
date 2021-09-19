@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/dso/dso_openssl.c.html" 
- , "texte" : "File crypto/dso/dso_openssl.c 20 rule violations " 
+ , "texte" : "File crypto/dso/dso_openssl.c 23 rule violations " 
  , "fic2"  : "./qc/crypto/dso/dso_openssl.c.xml" 
  , "fic3"  : "" 
 }
@@ -53,6 +53,13 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
@@ -83,6 +90,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00995"
+ , "c1link" : "./qc/crypto/dso/dso_openssl.c.html#995"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[00995] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "00998"
  , "c1link" : "./qc/crypto/dso/dso_openssl.c.html#998"
  , "c2" : "BLOCKER"
@@ -97,10 +111,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01027"
+ , "c1link" : "./qc/crypto/dso/dso_openssl.c.html#1027"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01027] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01031"
  , "c1link" : "./qc/crypto/dso/dso_openssl.c.html#1031"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01031] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01039"
+ , "c1link" : "./qc/crypto/dso/dso_openssl.c.html#1039"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01039] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {

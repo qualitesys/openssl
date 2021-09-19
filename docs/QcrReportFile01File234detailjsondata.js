@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/cmp/cmp_msg.c.html" 
- , "texte" : "File crypto/cmp/cmp_msg.c 205 rule violations " 
+ , "texte" : "File crypto/cmp/cmp_msg.c 206 rule violations " 
  , "fic2"  : "./qc/crypto/cmp/cmp_msg.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -202,6 +202,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03105"
+ , "c1link" : "./qc/crypto/cmp/cmp_msg.c.html#3105"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03105] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03108"
  , "c1link" : "./qc/crypto/cmp/cmp_msg.c.html#3108"
  , "c2" : "BLOCKER"
@@ -216,10 +223,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03137"
+ , "c1link" : "./qc/crypto/cmp/cmp_msg.c.html#3137"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03137] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03141"
  , "c1link" : "./qc/crypto/cmp/cmp_msg.c.html#3141"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03141] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03149"
+ , "c1link" : "./qc/crypto/cmp/cmp_msg.c.html#3149"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03149] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -1105,13 +1126,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "16261"
- , "c1link" : "./qc/crypto/cmp/cmp_msg.c.html#16261"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[16261] Suspicious mix of Bitwise and Literal expressions in (uint64_t )errorCode&lt;((uint64_t )(( unsigned  int  )0x7fffffff+1)&lt;&lt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "16278"
  , "c1link" : "./qc/crypto/cmp/cmp_msg.c.html#16278"
  , "c2" : "MAJOR"
@@ -1179,13 +1193,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/cmp/cmp_msg.c.html#16363"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[16363] The pointer sinfo is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16380"
- , "c1link" : "./qc/crypto/cmp/cmp_msg.c.html#16380"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[16380] Suspicious mix of Bitwise and Literal expressions in ( unsigned  )fail_info&gt;((1&lt;&lt;(26+1))-1)"
 }} 
 ,
 { "ligne" : {

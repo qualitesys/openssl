@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/pbe_scrypt.c.html" 
- , "texte" : "File crypto/evp/pbe_scrypt.c 24 rule violations " 
+ , "texte" : "File crypto/evp/pbe_scrypt.c 25 rule violations " 
  , "fic2"  : "./qc/crypto/evp/pbe_scrypt.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -90,6 +90,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01022"
+ , "c1link" : "./qc/crypto/evp/pbe_scrypt.c.html#1022"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01022] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01025"
  , "c1link" : "./qc/crypto/evp/pbe_scrypt.c.html#1025"
  , "c2" : "BLOCKER"
@@ -104,10 +111,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01054"
+ , "c1link" : "./qc/crypto/evp/pbe_scrypt.c.html#1054"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01054] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01058"
  , "c1link" : "./qc/crypto/evp/pbe_scrypt.c.html#1058"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01058] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01066"
+ , "c1link" : "./qc/crypto/evp/pbe_scrypt.c.html#1066"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01066] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -220,20 +241,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/pbe_scrypt.c.html#8051"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[08051] The pointer kctx is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08054"
- , "c1link" : "./qc/crypto/evp/pbe_scrypt.c.html#8054"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[08054] Suspicious mix of Bitwise and Literal expressions in r&gt;(4294967295U)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08058"
- , "c1link" : "./qc/crypto/evp/pbe_scrypt.c.html#8058"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[08058] Suspicious mix of Bitwise and Literal expressions in p&gt;(4294967295U)"
 }} 
 ]
 };

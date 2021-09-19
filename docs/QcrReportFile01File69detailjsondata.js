@@ -118,6 +118,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01012"
+ , "c1link" : "./qc/apps/ts.c.html#1012"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01012] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01015"
  , "c1link" : "./qc/apps/ts.c.html#1015"
  , "c2" : "BLOCKER"
@@ -132,10 +139,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01044"
+ , "c1link" : "./qc/apps/ts.c.html#1044"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01044] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01048"
  , "c1link" : "./qc/apps/ts.c.html#1048"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01048] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01056"
+ , "c1link" : "./qc/apps/ts.c.html#1056"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01056] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -363,13 +384,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06070"
- , "c1link" : "./qc/apps/ts.c.html#6070"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06070] Suspicious mix of Bitwise and Literal expressions in __size *  sizeof (__gid_t)&gt;__builtin_object_size(__list,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "06091"
  , "c1link" : "./qc/apps/ts.c.html#6091"
  , "c2" : "BLOCKER"
@@ -451,13 +465,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/ts.c.html#6178"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06178] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07184"
- , "c1link" : "./qc/apps/ts.c.html#7184"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[07184] Suspicious mix of Bitwise and Literal expressions in ( unsigned  char  *)__cmsg+(((__cmsg-&gt;cmsg_len)+ sizeof (size_t)-1)&amp;(size_t ) ~ ( sizeof (size_t)-1))&gt;(( unsigned  char  *)__mhdr-&gt;msg_control+__mhdr-&gt;msg_controllen)"
 }} 
 ,
 { "ligne" : {
@@ -1158,13 +1165,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/ts.c.html#20083"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[20083] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20122"
- , "c1link" : "./qc/apps/ts.c.html#20122"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[20122] Suspicious mix of Bitwise and Literal expressions in len&gt;( int  ) sizeof (buf)"
 }} 
 ,
 { "ligne" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bn/bn_mul.c.html" 
- , "texte" : "File crypto/bn/bn_mul.c 67 rule violations " 
+ , "texte" : "File crypto/bn/bn_mul.c 62 rule violations " 
  , "fic2"  : "./qc/crypto/bn/bn_mul.c.xml" 
  , "fic3"  : "" 
 }
@@ -70,7 +70,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "8"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -216,6 +216,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03105"
+ , "c1link" : "./qc/crypto/bn/bn_mul.c.html#3105"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03105] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03108"
  , "c1link" : "./qc/crypto/bn/bn_mul.c.html#3108"
  , "c2" : "BLOCKER"
@@ -230,6 +237,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03137"
+ , "c1link" : "./qc/crypto/bn/bn_mul.c.html#3137"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03137] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03141"
  , "c1link" : "./qc/crypto/bn/bn_mul.c.html#3141"
  , "c2" : "BLOCKER"
@@ -237,10 +251,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06324"
- , "c1link" : "./qc/crypto/bn/bn_mul.c.html#6324"
+   "c1" : "03149"
+ , "c1link" : "./qc/crypto/bn/bn_mul.c.html#3149"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06324] Suspicious mix of Bitwise and Literal expressions in bits&gt;(0x7fffffff-(8 * 8)+1)"
+ , "c3" : "QC-CPP000018[03149] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -293,20 +307,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06488"
- , "c1link" : "./qc/crypto/bn/bn_mul.c.html#6488"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06488] Suspicious mix of Bitwise and Literal expressions in n2&lt;(16)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06490"
- , "c1link" : "./qc/crypto/bn/bn_mul.c.html#6490"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06490] Suspicious mix of Bitwise and Literal expressions in (dna+dnb)&lt;0"
-}} 
-,
-{ "ligne" : {
    "c1" : "06498"
  , "c1link" : "./qc/crypto/bn/bn_mul.c.html#6498"
  , "c2" : "MAJOR"
@@ -356,20 +356,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06681"
- , "c1link" : "./qc/crypto/bn/bn_mul.c.html#6681"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06681] Suspicious mix of Bitwise and Literal expressions in tna&lt;(16)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06682"
- , "c1link" : "./qc/crypto/bn/bn_mul.c.html#6682"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06682] Suspicious mix of Bitwise and Literal expressions in tnb&lt;(16)"
-}} 
-,
-{ "ligne" : {
    "c1" : "06685"
  , "c1link" : "./qc/crypto/bn/bn_mul.c.html#6685"
  , "c2" : "BLOCKER"
@@ -395,13 +381,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_mul.c.html#6729"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[06729] The expression c1 applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "06760"
- , "c1link" : "./qc/crypto/bn/bn_mul.c.html#6760"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06760] Suspicious mix of Bitwise and Literal expressions in n&gt;=(32)"
 }} 
 ,
 { "ligne" : {
@@ -444,20 +423,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_mul.c.html#6840"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[06840] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06845"
- , "c1link" : "./qc/crypto/bn/bn_mul.c.html#6845"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06845] Suspicious mix of Bitwise and Literal expressions in al&gt;=(16)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06845"
- , "c1link" : "./qc/crypto/bn/bn_mul.c.html#6845"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06845] Suspicious mix of Bitwise and Literal expressions in bl&gt;=(16)"
 }} 
 ,
 { "ligne" : {

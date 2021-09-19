@@ -111,6 +111,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01018"
+ , "c1link" : "./qc/apps/ocsp.c.html#1018"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01018] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01021"
  , "c1link" : "./qc/apps/ocsp.c.html#1021"
  , "c2" : "BLOCKER"
@@ -125,10 +132,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01050"
+ , "c1link" : "./qc/apps/ocsp.c.html#1050"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01050] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01054"
  , "c1link" : "./qc/apps/ocsp.c.html#1054"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01054] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01062"
+ , "c1link" : "./qc/apps/ocsp.c.html#1062"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01062] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -356,13 +377,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06160"
- , "c1link" : "./qc/apps/ocsp.c.html#6160"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06160] Suspicious mix of Bitwise and Literal expressions in __size *  sizeof (__gid_t)&gt;__builtin_object_size(__list,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "06181"
  , "c1link" : "./qc/apps/ocsp.c.html#6181"
  , "c2" : "BLOCKER"
@@ -444,13 +458,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/ocsp.c.html#6268"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06268] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07274"
- , "c1link" : "./qc/apps/ocsp.c.html#7274"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[07274] Suspicious mix of Bitwise and Literal expressions in ( unsigned  char  *)__cmsg+(((__cmsg-&gt;cmsg_len)+ sizeof (size_t)-1)&amp;(size_t ) ~ ( sizeof (size_t)-1))&gt;(( unsigned  char  *)__mhdr-&gt;msg_control+__mhdr-&gt;msg_controllen)"
 }} 
 ,
 { "ligne" : {
@@ -1242,13 +1249,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/ocsp.c.html#22218"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[22218] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22218"
- , "c1link" : "./qc/apps/ocsp.c.html#22218"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[22218] Suspicious mix of Bitwise and Literal expressions in (i=OCSP_check_nonce(req,bs))&lt;=0"
 }} 
 ,
 { "ligne" : {

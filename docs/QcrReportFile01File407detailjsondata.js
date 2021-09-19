@@ -97,6 +97,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "00993"
+ , "c1link" : "./qc/crypto/err/err_prn.c.html#993"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[00993] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "00996"
  , "c1link" : "./qc/crypto/err/err_prn.c.html#996"
  , "c2" : "BLOCKER"
@@ -111,10 +118,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01025"
+ , "c1link" : "./qc/crypto/err/err_prn.c.html#1025"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01025] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01029"
  , "c1link" : "./qc/crypto/err/err_prn.c.html#1029"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01029] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01037"
+ , "c1link" : "./qc/crypto/err/err_prn.c.html#1037"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01037] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -269,27 +290,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/err/err_prn.c.html#6340"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[06340] The pointer tmp is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06350"
- , "c1link" : "./qc/crypto/err/err_prn.c.html#6350"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06350] Suspicious mix of Bitwise and Literal expressions in data_len&gt;=(4096-100)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06351"
- , "c1link" : "./qc/crypto/err/err_prn.c.html#6351"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06351] Suspicious mix of Bitwise and Literal expressions in strlen(separator)&gt;=(size_t )((4096-100)-data_len)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06386"
- , "c1link" : "./qc/crypto/err/err_prn.c.html#6386"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06386] Suspicious mix of Bitwise and Literal expressions in (size_t )(next-txt)&lt;=available_len"
 }} 
 ,
 { "ligne" : {

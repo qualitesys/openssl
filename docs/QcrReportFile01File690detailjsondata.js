@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/x509/pcy_cache.c.html" 
- , "texte" : "File crypto/x509/pcy_cache.c 51 rule violations " 
+ , "texte" : "File crypto/x509/pcy_cache.c 53 rule violations " 
  , "fic2"  : "./qc/crypto/x509/pcy_cache.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "1"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -202,6 +202,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03103"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#3103"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03103] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03106"
  , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#3106"
  , "c2" : "BLOCKER"
@@ -216,10 +223,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03135"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#3135"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03135] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03139"
  , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#3139"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03139] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03147"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#3147"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03147] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -234,13 +255,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#13756"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[13756] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13756"
- , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#13756"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[13756] Suspicious mix of Bitwise and Literal expressions in (num=OPENSSL_sk_num(ossl_check_const_POLICYINFO_sk_type(policies)))&lt;=0"
 }} 
 ,
 { "ligne" : {

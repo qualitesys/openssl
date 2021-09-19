@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/cmac/cmac.c.html" 
- , "texte" : "File crypto/cmac/cmac.c 44 rule violations " 
+ , "texte" : "File crypto/cmac/cmac.c 43 rule violations " 
  , "fic2"  : "./qc/crypto/cmac/cmac.c.xml" 
  , "fic3"  : "" 
 }
@@ -63,7 +63,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "4"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -104,6 +104,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01020"
+ , "c1link" : "./qc/crypto/cmac/cmac.c.html#1020"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01020] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01023"
  , "c1link" : "./qc/crypto/cmac/cmac.c.html#1023"
  , "c2" : "BLOCKER"
@@ -118,10 +125,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01052"
+ , "c1link" : "./qc/crypto/cmac/cmac.c.html#1052"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01052] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01056"
  , "c1link" : "./qc/crypto/cmac/cmac.c.html#1056"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01056] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01064"
+ , "c1link" : "./qc/crypto/cmac/cmac.c.html#1064"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01064] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -272,13 +293,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08588"
- , "c1link" : "./qc/crypto/cmac/cmac.c.html#8588"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[08588] Suspicious mix of Bitwise and Literal expressions in (bl=EVP_CIPHER_CTX_get_block_size(in-&gt;cctx))&lt;0"
-}} 
-,
-{ "ligne" : {
    "c1" : "08590"
  , "c1link" : "./qc/crypto/cmac/cmac.c.html#8590"
  , "c2" : "BLOCKER"
@@ -328,13 +342,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08671"
- , "c1link" : "./qc/crypto/cmac/cmac.c.html#8671"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[08671] Suspicious mix of Bitwise and Literal expressions in (bl=EVP_CIPHER_CTX_get_block_size(ctx-&gt;cctx))&lt;0"
-}} 
-,
-{ "ligne" : {
    "c1" : "08679"
  , "c1link" : "./qc/crypto/cmac/cmac.c.html#8679"
  , "c2" : "BLOCKER"
@@ -356,24 +363,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08709"
- , "c1link" : "./qc/crypto/cmac/cmac.c.html#8709"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[08709] Suspicious mix of Bitwise and Literal expressions in (bl=EVP_CIPHER_CTX_get_block_size(ctx-&gt;cctx))&lt;0"
-}} 
-,
-{ "ligne" : {
    "c1" : "08749"
  , "c1link" : "./qc/crypto/cmac/cmac.c.html#8749"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[08749] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08749"
- , "c1link" : "./qc/crypto/cmac/cmac.c.html#8749"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[08749] Suspicious mix of Bitwise and Literal expressions in (bl=EVP_CIPHER_CTX_get_block_size(ctx-&gt;cctx))&lt;0"
 }} 
 ,
 { "ligne" : {

@@ -202,6 +202,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "02792"
+ , "c1link" : "./qc/ssl/tls13_enc.c.html#2792"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02792] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "02795"
  , "c1link" : "./qc/ssl/tls13_enc.c.html#2795"
  , "c2" : "BLOCKER"
@@ -216,10 +223,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "02824"
+ , "c1link" : "./qc/ssl/tls13_enc.c.html#2824"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02824] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "02828"
  , "c1link" : "./qc/ssl/tls13_enc.c.html#2828"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02828] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02836"
+ , "c1link" : "./qc/ssl/tls13_enc.c.html#2836"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02836] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -349,13 +370,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05724"
- , "c1link" : "./qc/ssl/tls13_enc.c.html#5724"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[05724] Suspicious mix of Bitwise and Literal expressions in __size *  sizeof (__gid_t)&gt;__builtin_object_size(__list,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "05745"
  , "c1link" : "./qc/ssl/tls13_enc.c.html#5745"
  , "c2" : "BLOCKER"
@@ -444,13 +458,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/tls13_enc.c.html#6194"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06194] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16914"
- , "c1link" : "./qc/ssl/tls13_enc.c.html#16914"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[16914] Suspicious mix of Bitwise and Literal expressions in len&gt;(size_t )((18446744073709551615UL)/2)"
 }} 
 ,
 { "ligne" : {
@@ -633,13 +640,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/tls13_enc.c.html#20212"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[20212] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20212"
- , "c1link" : "./qc/ssl/tls13_enc.c.html#20212"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[20212] Suspicious mix of Bitwise and Literal expressions in (ret=EVP_MD_get_size(md))&lt;=0"
 }} 
 ,
 { "ligne" : {

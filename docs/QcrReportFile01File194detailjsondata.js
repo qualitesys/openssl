@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bn/bn_lib.c.html" 
- , "texte" : "File crypto/bn/bn_lib.c 69 rule violations " 
+ , "texte" : "File crypto/bn/bn_lib.c 66 rule violations " 
  , "fic2"  : "./qc/crypto/bn/bn_lib.c.xml" 
  , "fic3"  : "" 
 }
@@ -70,7 +70,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "6"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -216,6 +216,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03141"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#3141"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03141] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03144"
  , "c1link" : "./qc/crypto/bn/bn_lib.c.html#3144"
  , "c2" : "BLOCKER"
@@ -230,6 +237,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03173"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#3173"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03173] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03177"
  , "c1link" : "./qc/crypto/bn/bn_lib.c.html#3177"
  , "c2" : "BLOCKER"
@@ -237,10 +251,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06330"
- , "c1link" : "./qc/crypto/bn/bn_lib.c.html#6330"
+   "c1" : "03185"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#3185"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06330] Suspicious mix of Bitwise and Literal expressions in bits&gt;(0x7fffffff-(8 * 8)+1)"
+ , "c3" : "QC-CPP000018[03185] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -262,34 +276,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_lib.c.html#6674"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[06674] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06706"
- , "c1link" : "./qc/crypto/bn/bn_lib.c.html#6706"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06706] Suspicious mix of Bitwise and Literal expressions in mult&gt;( int  )( sizeof ( int  ) * 8)-1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06712"
- , "c1link" : "./qc/crypto/bn/bn_lib.c.html#6712"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06712] Suspicious mix of Bitwise and Literal expressions in high&gt;( int  )( sizeof ( int  ) * 8)-1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06718"
- , "c1link" : "./qc/crypto/bn/bn_lib.c.html#6718"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06718] Suspicious mix of Bitwise and Literal expressions in low&gt;( int  )( sizeof ( int  ) * 8)-1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06724"
- , "c1link" : "./qc/crypto/bn/bn_lib.c.html#6724"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06724] Suspicious mix of Bitwise and Literal expressions in mont&gt;( int  )( sizeof ( int  ) * 8)-1"
 }} 
 ,
 { "ligne" : {
@@ -360,13 +346,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_lib.c.html#6899"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[06899] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06942"
- , "c1link" : "./qc/crypto/bn/bn_lib.c.html#6942"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06942] Suspicious mix of Bitwise and Literal expressions in words&gt;(0x7fffffff/(4 * (8 * 8)))"
 }} 
 ,
 { "ligne" : {

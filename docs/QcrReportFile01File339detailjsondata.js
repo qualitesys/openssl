@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/dsa/dsa_sign.c.html" 
- , "texte" : "File crypto/dsa/dsa_sign.c 60 rule violations " 
+ , "texte" : "File crypto/dsa/dsa_sign.c 62 rule violations " 
  , "fic2"  : "./qc/crypto/dsa/dsa_sign.c.xml" 
  , "fic3"  : "" 
 }
@@ -63,7 +63,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "1"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -111,6 +111,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01215"
+ , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#1215"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01215] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01218"
  , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#1218"
  , "c2" : "BLOCKER"
@@ -125,10 +132,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01247"
+ , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#1247"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01247] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01251"
  , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#1251"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01251] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01259"
+ , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#1259"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01259] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -234,13 +255,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#4972"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[04972] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09336"
- , "c1link" : "./qc/crypto/dsa/dsa_sign.c.html#9336"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[09336] Suspicious mix of Bitwise and Literal expressions in len&gt;(size_t )((18446744073709551615UL)/2)"
 }} 
 ,
 { "ligne" : {

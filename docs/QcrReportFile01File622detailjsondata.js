@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/rsa/rsa_ossl.c.html" 
- , "texte" : "File crypto/rsa/rsa_ossl.c 202 rule violations " 
+ , "texte" : "File crypto/rsa/rsa_ossl.c 204 rule violations " 
  , "fic2"  : "./qc/crypto/rsa/rsa_ossl.c.xml" 
  , "fic3"  : "" 
 }
@@ -63,7 +63,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "1"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -209,6 +209,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03113"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#3113"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03113] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03116"
  , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#3116"
  , "c2" : "BLOCKER"
@@ -223,10 +230,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03145"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#3145"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03145] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03149"
  , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#3149"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03149] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03157"
+ , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#3157"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03157] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -955,13 +976,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#8419"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[08419] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08419"
- , "c1link" : "./qc/crypto/rsa/rsa_ossl.c.html#8419"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[08419] Suspicious mix of Bitwise and Literal expressions in (ex_primes=sk_RSA_PRIME_INFO_num(rsa-&gt;prime_infos))&lt;=0"
 }} 
 ,
 { "ligne" : {

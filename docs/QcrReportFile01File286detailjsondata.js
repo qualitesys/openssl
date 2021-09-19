@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ct/ct_sct_ctx.c.html" 
- , "texte" : "File crypto/ct/ct_sct_ctx.c 41 rule violations " 
+ , "texte" : "File crypto/ct/ct_sct_ctx.c 44 rule violations " 
  , "fic2"  : "./qc/crypto/ct/ct_sct_ctx.c.xml" 
  , "fic3"  : "" 
 }
@@ -60,6 +60,13 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000007"
  , "c3" : "goto statement"
@@ -104,6 +111,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01599"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#1599"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01599] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01602"
  , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#1602"
  , "c2" : "BLOCKER"
@@ -118,10 +132,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01631"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#1631"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01631] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01635"
  , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#1635"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01635] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01643"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#1643"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01643] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {

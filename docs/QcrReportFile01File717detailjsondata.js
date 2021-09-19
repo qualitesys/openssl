@@ -223,6 +223,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03103"
+ , "c1link" : "./qc/crypto/x509/v3_ncons.c.html#3103"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03103] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03106"
  , "c1link" : "./qc/crypto/x509/v3_ncons.c.html#3106"
  , "c2" : "BLOCKER"
@@ -237,10 +244,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03135"
+ , "c1link" : "./qc/crypto/x509/v3_ncons.c.html#3135"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03135] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03139"
  , "c1link" : "./qc/crypto/x509/v3_ncons.c.html#3139"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03139] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03147"
+ , "c1link" : "./qc/crypto/x509/v3_ncons.c.html#3147"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03147] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -356,13 +377,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14337"
- , "c1link" : "./qc/crypto/x509/v3_ncons.c.html#14337"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[14337] Suspicious mix of Bitwise and Literal expressions in constraint_count&gt;(1&lt;&lt;20)/name_count"
-}} 
-,
-{ "ligne" : {
    "c1" : "14354"
  , "c1link" : "./qc/crypto/x509/v3_ncons.c.html#14354"
  , "c2" : "BLOCKER"
@@ -402,13 +416,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/v3_ncons.c.html#14399"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[14399] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14399"
- , "c1link" : "./qc/crypto/x509/v3_ncons.c.html#14399"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[14399] Suspicious mix of Bitwise and Literal expressions in (utf8_length=ASN1_STRING_to_UTF8( &amp; utf8_value,cn))&lt;0"
 }} 
 ,
 { "ligne" : {
@@ -654,13 +661,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/v3_ncons.c.html#14836"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[14836] The expression 2 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14834"
- , "c1link" : "./qc/crypto/x509/v3_ncons.c.html#14834"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[14834] Suspicious mix of Bitwise and Literal expressions in ((uri)-&gt;length-(( unsigned  char  *)(p ) - (uri)-&gt;data))&lt;3"
 }} 
 ,
 { "ligne" : {

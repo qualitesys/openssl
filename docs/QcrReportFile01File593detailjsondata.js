@@ -90,6 +90,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01385"
+ , "c1link" : "./qc/crypto/punycode.c.html#1385"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01385] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01388"
  , "c1link" : "./qc/crypto/punycode.c.html#1388"
  , "c2" : "BLOCKER"
@@ -104,10 +111,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01417"
+ , "c1link" : "./qc/crypto/punycode.c.html#1417"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01417] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01421"
  , "c1link" : "./qc/crypto/punycode.c.html#1421"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01421] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01429"
+ , "c1link" : "./qc/crypto/punycode.c.html#1429"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01429] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -122,27 +143,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/punycode.c.html#1757"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[01757] The condition of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01766"
- , "c1link" : "./qc/crypto/punycode.c.html#1766"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01766] Suspicious mix of Bitwise and Literal expressions in ( unsigned  int  )digit&gt;(maxint-i)/w"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01775"
- , "c1link" : "./qc/crypto/punycode.c.html#1775"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01775] Suspicious mix of Bitwise and Literal expressions in w&gt;maxint/(base-t)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01781"
- , "c1link" : "./qc/crypto/punycode.c.html#1781"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01781] Suspicious mix of Bitwise and Literal expressions in i/(written_out+1)&gt;maxint-n"
 }} 
 ,
 { "ligne" : {

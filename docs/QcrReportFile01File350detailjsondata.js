@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/curve448/eddsa.c.html" 
- , "texte" : "File crypto/ec/curve448/eddsa.c 43 rule violations " 
+ , "texte" : "File crypto/ec/curve448/eddsa.c 45 rule violations " 
  , "fic2"  : "./qc/crypto/ec/curve448/eddsa.c.xml" 
  , "fic3"  : "" 
 }
@@ -63,7 +63,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "1"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -202,6 +202,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03097"
+ , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#3097"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03097] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03100"
  , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#3100"
  , "c2" : "BLOCKER"
@@ -216,10 +223,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03129"
+ , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#3129"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03129] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03133"
  , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#3133"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03133] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03141"
+ , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#3141"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03141] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -262,13 +283,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9232"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[09232] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09268"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9268"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[09268] Suspicious mix of Bitwise and Literal expressions in context_len&gt;(255)"
 }} 
 ,
 { "ligne" : {

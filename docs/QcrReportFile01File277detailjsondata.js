@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/crmf/crmf_pbm.c.html" 
- , "texte" : "File crypto/crmf/crmf_pbm.c 70 rule violations " 
+ , "texte" : "File crypto/crmf/crmf_pbm.c 73 rule violations " 
  , "fic2"  : "./qc/crypto/crmf/crmf_pbm.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,6 +57,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "24"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -202,6 +209,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03243"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#3243"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03243] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03246"
  , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#3246"
  , "c2" : "BLOCKER"
@@ -216,10 +230,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03275"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#3275"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03275] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03279"
  , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#3279"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03279] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03287"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#3287"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03287] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {

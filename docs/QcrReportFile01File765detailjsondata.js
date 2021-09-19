@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/engines/e_dasync.c.html" 
- , "texte" : "File engines/e_dasync.c 98 rule violations " 
+ , "texte" : "File engines/e_dasync.c 100 rule violations " 
  , "fic2"  : "./qc/engines/e_dasync.c.xml" 
  , "fic3"  : "" 
 }
@@ -63,7 +63,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "2"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -111,6 +111,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01025"
+ , "c1link" : "./qc/engines/e_dasync.c.html#1025"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01025] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01028"
  , "c1link" : "./qc/engines/e_dasync.c.html#1028"
  , "c2" : "BLOCKER"
@@ -125,10 +132,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01057"
+ , "c1link" : "./qc/engines/e_dasync.c.html#1057"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01057] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01061"
  , "c1link" : "./qc/engines/e_dasync.c.html#1061"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01061] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01069"
+ , "c1link" : "./qc/engines/e_dasync.c.html#1069"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01069] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -360,13 +381,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/engines/e_dasync.c.html#17097"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[17097] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17097"
- , "c1link" : "./qc/engines/e_dasync.c.html#17097"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[17097] Suspicious mix of Bitwise and Literal expressions in __size *  sizeof (__gid_t)&gt;__builtin_object_size(__list,2&gt;1)"
 }} 
 ,
 { "ligne" : {

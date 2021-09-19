@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/sm2/sm2_sign.c.html" 
- , "texte" : "File crypto/sm2/sm2_sign.c 79 rule violations " 
+ , "texte" : "File crypto/sm2/sm2_sign.c 81 rule violations " 
  , "fic2"  : "./qc/crypto/sm2/sm2_sign.c.xml" 
  , "fic3"  : "" 
 }
@@ -70,7 +70,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "1"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -111,6 +111,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01869"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#1869"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01869] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01872"
  , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#1872"
  , "c2" : "BLOCKER"
@@ -125,10 +132,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01901"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#1901"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01901] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01905"
  , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#1905"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01905] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01913"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#1913"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01913] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -262,13 +283,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9534"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[09534] goto statement jump to done"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09539"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9539"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[09539] Suspicious mix of Bitwise and Literal expressions in id_len&gt;=((65535)/8)"
 }} 
 ,
 { "ligne" : {

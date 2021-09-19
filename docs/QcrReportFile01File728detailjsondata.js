@@ -202,6 +202,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "02789"
+ , "c1link" : "./qc/crypto/x509/v3_tlsf.c.html#2789"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02789] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "02792"
  , "c1link" : "./qc/crypto/x509/v3_tlsf.c.html#2792"
  , "c2" : "BLOCKER"
@@ -216,10 +223,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "02821"
+ , "c1link" : "./qc/crypto/x509/v3_tlsf.c.html#2821"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02821] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "02825"
  , "c1link" : "./qc/crypto/x509/v3_tlsf.c.html#2825"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02825] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02833"
+ , "c1link" : "./qc/crypto/x509/v3_tlsf.c.html#2833"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02833] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -349,13 +370,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05721"
- , "c1link" : "./qc/crypto/x509/v3_tlsf.c.html#5721"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[05721] Suspicious mix of Bitwise and Literal expressions in __size *  sizeof (__gid_t)&gt;__builtin_object_size(__list,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "05742"
  , "c1link" : "./qc/crypto/x509/v3_tlsf.c.html#5742"
  , "c2" : "BLOCKER"
@@ -454,13 +468,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15329"
- , "c1link" : "./qc/crypto/x509/v3_tlsf.c.html#15329"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[15329] Suspicious mix of Bitwise and Literal expressions in j&lt;( sizeof (tls_feature_tbl)/ sizeof ((tls_feature_tbl)[0]))"
-}} 
-,
-{ "ligne" : {
    "c1" : "15353"
  , "c1link" : "./qc/crypto/x509/v3_tlsf.c.html#15353"
  , "c2" : "MAJOR"
@@ -500,13 +507,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/v3_tlsf.c.html#15384"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[15384] The expression val-&gt;value applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15392"
- , "c1link" : "./qc/crypto/x509/v3_tlsf.c.html#15392"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[15392] Suspicious mix of Bitwise and Literal expressions in j&lt;( sizeof (tls_feature_tbl)/ sizeof ((tls_feature_tbl)[0]))"
 }} 
 ,
 { "ligne" : {

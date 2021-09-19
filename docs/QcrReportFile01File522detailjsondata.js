@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/modes/gcm128.c.html" 
- , "texte" : "File crypto/modes/gcm128.c 207 rule violations " 
+ , "texte" : "File crypto/modes/gcm128.c 204 rule violations " 
  , "fic2"  : "./qc/crypto/modes/gcm128.c.xml" 
  , "fic3"  : "" 
 }
@@ -63,7 +63,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "6"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -202,6 +202,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03097"
+ , "c1link" : "./qc/crypto/modes/gcm128.c.html#3097"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03097] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03100"
  , "c1link" : "./qc/crypto/modes/gcm128.c.html#3100"
  , "c2" : "BLOCKER"
@@ -216,10 +223,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03129"
+ , "c1link" : "./qc/crypto/modes/gcm128.c.html#3129"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03129] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03133"
  , "c1link" : "./qc/crypto/modes/gcm128.c.html#3133"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03133] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03141"
+ , "c1link" : "./qc/crypto/modes/gcm128.c.html#3141"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03141] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -622,13 +643,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06776"
- , "c1link" : "./qc/crypto/modes/gcm128.c.html#6776"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06776] Suspicious mix of Bitwise and Literal expressions in alen&gt;(1ULL&lt;&lt;61)"
-}} 
-,
-{ "ligne" : {
    "c1" : "06781"
  , "c1link" : "./qc/crypto/modes/gcm128.c.html#6781"
  , "c2" : "BLOCKER"
@@ -647,13 +661,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/modes/gcm128.c.html#6801"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[06801] The expression len applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "06823"
- , "c1link" : "./qc/crypto/modes/gcm128.c.html#6823"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06823] Suspicious mix of Bitwise and Literal expressions in mlen&gt;((1ULL&lt;&lt;36)-32)"
 }} 
 ,
 { "ligne" : {
@@ -878,13 +885,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/modes/gcm128.c.html#6983"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[06983] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07013"
- , "c1link" : "./qc/crypto/modes/gcm128.c.html#7013"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[07013] Suspicious mix of Bitwise and Literal expressions in mlen&gt;((1ULL&lt;&lt;36)-32)"
 }} 
 ,
 { "ligne" : {
@@ -1140,13 +1140,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07193"
- , "c1link" : "./qc/crypto/modes/gcm128.c.html#7193"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[07193] Suspicious mix of Bitwise and Literal expressions in mlen&gt;((1ULL&lt;&lt;36)-32)"
-}} 
-,
-{ "ligne" : {
    "c1" : "07199"
  , "c1link" : "./qc/crypto/modes/gcm128.c.html#7199"
  , "c2" : "BLOCKER"
@@ -1305,13 +1298,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/modes/gcm128.c.html#7300"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[07300] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07327"
- , "c1link" : "./qc/crypto/modes/gcm128.c.html#7327"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[07327] Suspicious mix of Bitwise and Literal expressions in mlen&gt;((1ULL&lt;&lt;36)-32)"
 }} 
 ,
 { "ligne" : {
@@ -1508,13 +1494,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/modes/gcm128.c.html#7476"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[07476] The expression (ossl_is_little_endian) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07506"
- , "c1link" : "./qc/crypto/modes/gcm128.c.html#7506"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[07506] Suspicious mix of Bitwise and Literal expressions in len&lt;= sizeof (ctx-&gt;Xi)"
 }} 
 ,
 { "ligne" : {

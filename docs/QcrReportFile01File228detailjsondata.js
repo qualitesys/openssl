@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/cmp/cmp_asn.c.html" 
- , "texte" : "File crypto/cmp/cmp_asn.c 30 rule violations " 
+ , "texte" : "File crypto/cmp/cmp_asn.c 32 rule violations " 
  , "fic2"  : "./qc/crypto/cmp/cmp_asn.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "1"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -104,6 +104,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01543"
+ , "c1link" : "./qc/crypto/cmp/cmp_asn.c.html#1543"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01543] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01546"
  , "c1link" : "./qc/crypto/cmp/cmp_asn.c.html#1546"
  , "c2" : "BLOCKER"
@@ -118,10 +125,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01575"
+ , "c1link" : "./qc/crypto/cmp/cmp_asn.c.html#1575"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01575] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01579"
  , "c1link" : "./qc/crypto/cmp/cmp_asn.c.html#1579"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01579] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01587"
+ , "c1link" : "./qc/crypto/cmp/cmp_asn.c.html#1587"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01587] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -276,13 +297,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/cmp/cmp_asn.c.html#15454"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[15454] The expression  ! ASN1_INTEGER_get_int64( &amp; res,a) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15462"
- , "c1link" : "./qc/crypto/cmp/cmp_asn.c.html#15462"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[15462] Suspicious mix of Bitwise and Literal expressions in res&lt;( - 0x7fffffff-1)"
 }} 
 ,
 { "ligne" : {

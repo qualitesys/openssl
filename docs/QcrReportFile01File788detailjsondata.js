@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/s3_cbc.c.html" 
- , "texte" : "File ssl/s3_cbc.c 94 rule violations " 
+ , "texte" : "File ssl/s3_cbc.c 95 rule violations " 
  , "fic2"  : "./qc/ssl/s3_cbc.c.xml" 
  , "fic3"  : "" 
 }
@@ -63,7 +63,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -223,6 +223,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03460"
+ , "c1link" : "./qc/ssl/s3_cbc.c.html#3460"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03460] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03463"
  , "c1link" : "./qc/ssl/s3_cbc.c.html#3463"
  , "c2" : "BLOCKER"
@@ -237,10 +244,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03492"
+ , "c1link" : "./qc/ssl/s3_cbc.c.html#3492"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03492] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03496"
  , "c1link" : "./qc/ssl/s3_cbc.c.html#3496"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03496] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03504"
+ , "c1link" : "./qc/ssl/s3_cbc.c.html#3504"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03504] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -678,24 +699,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09150"
- , "c1link" : "./qc/ssl/s3_cbc.c.html#9150"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[09150] Suspicious mix of Bitwise and Literal expressions in num_blocks&gt;variance_blocks+(is_sslv3?1 : 0)"
-}} 
-,
-{ "ligne" : {
    "c1" : "09156"
  , "c1link" : "./qc/ssl/s3_cbc.c.html#9156"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[09156] The expression  ! is_sslv3 applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09164"
- , "c1link" : "./qc/ssl/s3_cbc.c.html#9164"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[09164] Suspicious mix of Bitwise and Literal expressions in mac_secret_length&lt;= sizeof (hmac_pad)"
 }} 
 ,
 { "ligne" : {

@@ -202,6 +202,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03103"
+ , "c1link" : "./qc/crypto/packet.c.html#3103"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03103] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03106"
  , "c1link" : "./qc/crypto/packet.c.html#3106"
  , "c2" : "BLOCKER"
@@ -216,6 +223,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03135"
+ , "c1link" : "./qc/crypto/packet.c.html#3135"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03135] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03139"
  , "c1link" : "./qc/crypto/packet.c.html#3139"
  , "c2" : "BLOCKER"
@@ -223,10 +237,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06205"
- , "c1link" : "./qc/crypto/packet.c.html#6205"
+   "c1" : "03147"
+ , "c1link" : "./qc/crypto/packet.c.html#3147"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06205] Suspicious mix of Bitwise and Literal expressions in len&gt;(size_t )((18446744073709551615UL)/2)"
+ , "c3" : "QC-CPP000018[03147] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -398,24 +412,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06933"
- , "c1link" : "./qc/crypto/packet.c.html#6933"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06933] Suspicious mix of Bitwise and Literal expressions in reflen&gt;(18446744073709551615UL)/2"
-}} 
-,
-{ "ligne" : {
    "c1" : "06974"
  , "c1link" : "./qc/crypto/packet.c.html#6974"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[06974] The expression  ! WPACKET_reserve_bytes(pkt,lenbytes+len,allocbytes) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "06989"
- , "c1link" : "./qc/crypto/packet.c.html#6989"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06989] Suspicious mix of Bitwise and Literal expressions in lenbytes&gt;= sizeof (size_t)"
 }} 
 ,
 { "ligne" : {

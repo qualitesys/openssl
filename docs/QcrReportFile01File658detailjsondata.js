@@ -202,6 +202,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03146"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#3146"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03146] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03149"
  , "c1link" : "./qc/crypto/store/store_lib.c.html#3149"
  , "c2" : "BLOCKER"
@@ -216,10 +223,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03178"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#3178"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03178] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03182"
  , "c1link" : "./qc/crypto/store/store_lib.c.html#3182"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03182] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03190"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#3190"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03190] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -346,13 +367,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/store/store_lib.c.html#6078"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06078] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06078"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#6078"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06078] Suspicious mix of Bitwise and Literal expressions in __size *  sizeof (__gid_t)&gt;__builtin_object_size(__list,2&gt;1)"
 }} 
 ,
 { "ligne" : {
@@ -615,13 +629,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "16977"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#16977"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[16977] Suspicious mix of Bitwise and Literal expressions in (name_der_sz=i2d_X509_NAME(search-&gt;name,( unsigned  char  **) &amp; name_der))&gt;0"
-}} 
-,
-{ "ligne" : {
    "c1" : "16985"
  , "c1link" : "./qc/crypto/store/store_lib.c.html#16985"
  , "c2" : "MAJOR"
@@ -647,13 +654,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/store/store_lib.c.html#16999"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[16999] The expression 'serial' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16985"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#16985"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[16985] Suspicious mix of Bitwise and Literal expressions in (name_der_sz=i2d_X509_NAME(search-&gt;name,( unsigned  char  **) &amp; name_der))&gt;0"
 }} 
 ,
 { "ligne" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/ec_mult.c.html" 
- , "texte" : "File crypto/ec/ec_mult.c 156 rule violations " 
+ , "texte" : "File crypto/ec/ec_mult.c 158 rule violations " 
  , "fic2"  : "./qc/crypto/ec/ec_mult.c.xml" 
  , "fic3"  : "" 
 }
@@ -63,7 +63,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "1"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -118,6 +118,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01596"
+ , "c1link" : "./qc/crypto/ec/ec_mult.c.html#1596"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01596] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01599"
  , "c1link" : "./qc/crypto/ec/ec_mult.c.html#1599"
  , "c2" : "BLOCKER"
@@ -132,10 +139,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01628"
+ , "c1link" : "./qc/crypto/ec/ec_mult.c.html#1628"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01628] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01632"
  , "c1link" : "./qc/crypto/ec/ec_mult.c.html#1632"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01632] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01640"
+ , "c1link" : "./qc/crypto/ec/ec_mult.c.html#1640"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01640] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -1011,13 +1032,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ec_mult.c.html#11438"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[11438] The expression bits applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "11438"
- , "c1link" : "./qc/crypto/ec/ec_mult.c.html#11438"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[11438] Suspicious mix of Bitwise and Literal expressions in ((size_t )((bits)&gt;=2000?6 : (bits)&gt;=800?5 : (bits)&gt;=300?4 : (bits)&gt;=70?3 : (bits)&gt;=20?2 : 1))&gt;w"
 }} 
 ,
 { "ligne" : {

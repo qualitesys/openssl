@@ -104,6 +104,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "02189"
+ , "c1link" : "./qc/crypto/provider_core.c.html#2189"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02189] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "02192"
  , "c1link" : "./qc/crypto/provider_core.c.html#2192"
  , "c2" : "BLOCKER"
@@ -118,10 +125,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "02221"
+ , "c1link" : "./qc/crypto/provider_core.c.html#2221"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02221] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "02225"
  , "c1link" : "./qc/crypto/provider_core.c.html#2225"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02225] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02233"
+ , "c1link" : "./qc/crypto/provider_core.c.html#2233"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02233] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -720,13 +741,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11188"
- , "c1link" : "./qc/crypto/provider_core.c.html#11188"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[11188] Suspicious mix of Bitwise and Literal expressions in (count=--prov-&gt;activatecnt)&lt;1"
-}} 
-,
-{ "ligne" : {
    "c1" : "11198"
  , "c1link" : "./qc/crypto/provider_core.c.html#11198"
  , "c2" : "BLOCKER"
@@ -832,24 +846,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11328"
- , "c1link" : "./qc/crypto/provider_core.c.html#11328"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[11328] Suspicious mix of Bitwise and Literal expressions in (count=provider_activate(prov,1,upcalls))&gt;0"
-}} 
-,
-{ "ligne" : {
    "c1" : "11342"
  , "c1link" : "./qc/crypto/provider_core.c.html#11342"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[11342] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11342"
- , "c1link" : "./qc/crypto/provider_core.c.html#11342"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[11342] Suspicious mix of Bitwise and Literal expressions in (count=provider_deactivate(prov,1))&lt;0"
 }} 
 ,
 { "ligne" : {

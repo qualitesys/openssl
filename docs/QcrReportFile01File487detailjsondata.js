@@ -202,6 +202,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03482"
+ , "c1link" : "./qc/crypto/ex_data.c.html#3482"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03482] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03485"
  , "c1link" : "./qc/crypto/ex_data.c.html#3485"
  , "c2" : "BLOCKER"
@@ -216,10 +223,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "03514"
+ , "c1link" : "./qc/crypto/ex_data.c.html#3514"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03514] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "03518"
  , "c1link" : "./qc/crypto/ex_data.c.html#3518"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03518] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03526"
+ , "c1link" : "./qc/crypto/ex_data.c.html#3526"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03526] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -321,13 +342,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06492"
- , "c1link" : "./qc/crypto/ex_data.c.html#6492"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06492] Suspicious mix of Bitwise and Literal expressions in mx&lt;( int  )( sizeof (stack)/ sizeof ((stack)[0]))"
-}} 
-,
-{ "ligne" : {
    "c1" : "06555"
  , "c1link" : "./qc/crypto/ex_data.c.html#6555"
  , "c2" : "MAJOR"
@@ -346,13 +360,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ex_data.c.html#6564"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[06564] The pointer global is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06596"
- , "c1link" : "./qc/crypto/ex_data.c.html#6596"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06596] Suspicious mix of Bitwise and Literal expressions in mx&lt;( int  )( sizeof (stack)/ sizeof ((stack)[0]))"
 }} 
 ,
 { "ligne" : {
@@ -416,13 +423,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ex_data.c.html#6718"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[06718] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06722"
- , "c1link" : "./qc/crypto/ex_data.c.html#6722"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06722] Suspicious mix of Bitwise and Literal expressions in mx&lt;( int  )( sizeof (stack)/ sizeof ((stack)[0]))"
 }} 
 ,
 { "ligne" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/p_legacy.c.html" 
- , "texte" : "File crypto/evp/p_legacy.c 24 rule violations " 
+ , "texte" : "File crypto/evp/p_legacy.c 27 rule violations " 
  , "fic2"  : "./qc/crypto/evp/p_legacy.c.xml" 
  , "fic3"  : "" 
 }
@@ -53,6 +53,13 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
@@ -83,6 +90,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01501"
+ , "c1link" : "./qc/crypto/evp/p_legacy.c.html#1501"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01501] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01504"
  , "c1link" : "./qc/crypto/evp/p_legacy.c.html#1504"
  , "c2" : "BLOCKER"
@@ -97,10 +111,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01533"
+ , "c1link" : "./qc/crypto/evp/p_legacy.c.html#1533"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01533] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01537"
  , "c1link" : "./qc/crypto/evp/p_legacy.c.html#1537"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01537] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01545"
+ , "c1link" : "./qc/crypto/evp/p_legacy.c.html#1545"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01545] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {

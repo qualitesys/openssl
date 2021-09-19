@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/fipsinstall.c.html" 
- , "texte" : "File apps/fipsinstall.c 170 rule violations " 
+ , "texte" : "File apps/fipsinstall.c 171 rule violations " 
  , "fic2"  : "./qc/apps/fipsinstall.c.xml" 
  , "fic3"  : "" 
 }
@@ -63,7 +63,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -132,6 +132,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01402"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#1402"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01402] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01405"
  , "c1link" : "./qc/apps/fipsinstall.c.html#1405"
  , "c2" : "BLOCKER"
@@ -146,10 +153,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01434"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#1434"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01434] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01438"
  , "c1link" : "./qc/apps/fipsinstall.c.html#1438"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01438] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01446"
+ , "c1link" : "./qc/apps/fipsinstall.c.html#1446"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01446] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -377,13 +398,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09851"
- , "c1link" : "./qc/apps/fipsinstall.c.html#9851"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[09851] Suspicious mix of Bitwise and Literal expressions in __size *  sizeof (__gid_t)&gt;__builtin_object_size(__list,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "09872"
  , "c1link" : "./qc/apps/fipsinstall.c.html#9872"
  , "c2" : "BLOCKER"
@@ -465,13 +479,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/fipsinstall.c.html#9959"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[09959] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10965"
- , "c1link" : "./qc/apps/fipsinstall.c.html#10965"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[10965] Suspicious mix of Bitwise and Literal expressions in ( unsigned  char  *)__cmsg+(((__cmsg-&gt;cmsg_len)+ sizeof (size_t)-1)&amp;(size_t ) ~ ( sizeof (size_t)-1))&gt;(( unsigned  char  *)__mhdr-&gt;msg_control+__mhdr-&gt;msg_controllen)"
 }} 
 ,
 { "ligne" : {

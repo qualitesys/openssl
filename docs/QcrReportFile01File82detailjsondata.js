@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/asn1/a_bitstr.c.html" 
- , "texte" : "File crypto/asn1/a_bitstr.c 41 rule violations " 
+ , "texte" : "File crypto/asn1/a_bitstr.c 42 rule violations " 
  , "fic2"  : "./qc/crypto/asn1/a_bitstr.c.xml" 
  , "fic3"  : "" 
 }
@@ -70,7 +70,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -118,6 +118,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01029"
+ , "c1link" : "./qc/crypto/asn1/a_bitstr.c.html#1029"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01029] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01032"
  , "c1link" : "./qc/crypto/asn1/a_bitstr.c.html#1032"
  , "c2" : "BLOCKER"
@@ -132,10 +139,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "01061"
+ , "c1link" : "./qc/crypto/asn1/a_bitstr.c.html#1061"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01061] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "01065"
  , "c1link" : "./qc/crypto/asn1/a_bitstr.c.html#1065"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01065] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01073"
+ , "c1link" : "./qc/crypto/asn1/a_bitstr.c.html#1073"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01073] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -363,24 +384,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06415"
- , "c1link" : "./qc/crypto/asn1/a_bitstr.c.html#6415"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06415] Suspicious mix of Bitwise and Literal expressions in a-&gt;length&lt;(w+1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "06420"
  , "c1link" : "./qc/crypto/asn1/a_bitstr.c.html#6420"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[06420] The expression  ! value applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "06456"
- , "c1link" : "./qc/crypto/asn1/a_bitstr.c.html#6456"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[06456] Suspicious mix of Bitwise and Literal expressions in a-&gt;length&lt;(w+1)"
 }} 
 ]
 };

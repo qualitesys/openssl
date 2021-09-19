@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/record/dtls1_bitmap.c.html" 
- , "texte" : "File ssl/record/dtls1_bitmap.c 97 rule violations " 
+ , "texte" : "File ssl/record/dtls1_bitmap.c 95 rule violations " 
  , "fic2"  : "./qc/ssl/record/dtls1_bitmap.c.xml" 
  , "fic3"  : "" 
 }
@@ -63,7 +63,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "5"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -202,6 +202,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "02791"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#2791"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02791] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "02794"
  , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#2794"
  , "c2" : "BLOCKER"
@@ -216,10 +223,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "02823"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#2823"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02823] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
    "c1" : "02827"
  , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#2827"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02827] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02835"
+ , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#2835"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02835] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
@@ -349,13 +370,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05723"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#5723"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[05723] Suspicious mix of Bitwise and Literal expressions in __size *  sizeof (__gid_t)&gt;__builtin_object_size(__list,2&gt;1)"
-}} 
-,
-{ "ligne" : {
    "c1" : "05744"
  , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#5744"
  , "c2" : "BLOCKER"
@@ -444,13 +458,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#6193"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06193] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16913"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#16913"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[16913] Suspicious mix of Bitwise and Literal expressions in len&gt;(size_t )((18446744073709551615UL)/2)"
 }} 
 ,
 { "ligne" : {
@@ -734,31 +741,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19963"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#19963"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[19963] Suspicious mix of Bitwise and Literal expressions in shift&gt;= sizeof (bitmap-&gt;map) * 8"
-}} 
-,
-{ "ligne" : {
    "c1" : "19976"
  , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#19976"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[19976] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19981"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#19981"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[19981] Suspicious mix of Bitwise and Literal expressions in shift&lt; sizeof (bitmap-&gt;map) * 8"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19988"
- , "c1link" : "./qc/ssl/record/dtls1_bitmap.c.html#19988"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[19988] Suspicious mix of Bitwise and Literal expressions in shift&lt; sizeof (bitmap-&gt;map) * 8"
 }} 
 ]
 };
