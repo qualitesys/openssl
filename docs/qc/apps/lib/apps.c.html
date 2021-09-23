@@ -21248,7 +21248,7 @@
 <a name="21248">21248&nbsp;&nbsp;&nbsp;</a><br/>
 <a name="21249">21249&nbsp;&nbsp;&nbsp;unsigned&nbsp;long&nbsp;get_nameopt(void)</a><br/>
 <a name="21250">21250&nbsp;&nbsp;&nbsp;{</a><br/>
-<a name="21251">21251&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;(nmflag_set)&nbsp;?&nbsp;nmflag&nbsp;:&nbsp;((1&nbsp;|&nbsp;2&nbsp;|&nbsp;4&nbsp;|&nbsp;0x10&nbsp;|&nbsp;0x100&nbsp;|&nbsp;0x200)&nbsp;|&nbsp;8&nbsp;|&nbsp;(2&nbsp;&lt;&lt;&nbsp;16)&nbsp;|&nbsp;(1&nbsp;&lt;&lt;&nbsp;23)&nbsp;|&nbsp;0);</a><br/>
+<a name="21251">21251&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;(nmflag_set)&nbsp;?&nbsp;nmflag&nbsp;:&nbsp;(2&nbsp;&lt;&lt;&nbsp;16)&nbsp;|&nbsp;0x10;</a><br/>
 <a name="21252">21252&nbsp;&nbsp;&nbsp;}</a><br/>
 <a name="21253">21253&nbsp;&nbsp;&nbsp;</a><br/>
 <a name="21254">21254&nbsp;&nbsp;&nbsp;void&nbsp;dump_cert_text(BIO&nbsp;*out,&nbsp;X509&nbsp;*x)</a><br/>

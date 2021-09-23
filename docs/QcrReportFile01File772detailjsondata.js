@@ -244,45 +244,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06542"
- , "c1link" : "./qc/providers/legacyprov.c.html#6542"
+   "c1" : "06546"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6546"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06542] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[06546] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06549"
- , "c1link" : "./qc/providers/legacyprov.c.html#6549"
+   "c1" : "06553"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6553"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06549] The expression 'OpenSSL Legacy Provider' is invariable"
+ , "c3" : "QC-CPP000012[06553] The expression 'OpenSSL Legacy Provider' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06556"
- , "c1link" : "./qc/providers/legacyprov.c.html#6556"
+   "c1" : "06560"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6560"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06556] The expression '3.1.0' is invariable"
+ , "c3" : "QC-CPP000012[06560] The expression '3.1.0' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06563"
- , "c1link" : "./qc/providers/legacyprov.c.html#6563"
+   "c1" : "06567"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6567"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06563] The expression '3.1.0-dev' is invariable"
+ , "c3" : "QC-CPP000012[06567] The expression '3.1.0-dev' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06734"
- , "c1link" : "./qc/providers/legacyprov.c.html#6734"
+   "c1" : "06738"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6738"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[06734] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[06738] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06739"
- , "c1link" : "./qc/providers/legacyprov.c.html#6739"
+   "c1" : "06743"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6743"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[06739] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[06743] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };
