@@ -237,31 +237,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06218"
- , "c1link" : "./qc/providers/nullprov.c.html#6218"
+   "c1" : "06221"
+ , "c1link" : "./qc/providers/nullprov.c.html#6221"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06218] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[06221] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06225"
- , "c1link" : "./qc/providers/nullprov.c.html#6225"
+   "c1" : "06228"
+ , "c1link" : "./qc/providers/nullprov.c.html#6228"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06225] The expression 'OpenSSL Null Provider' is invariable"
+ , "c3" : "QC-CPP000012[06228] The expression 'OpenSSL Null Provider' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06232"
- , "c1link" : "./qc/providers/nullprov.c.html#6232"
+   "c1" : "06235"
+ , "c1link" : "./qc/providers/nullprov.c.html#6235"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06232] The expression '3.1.0' is invariable"
+ , "c3" : "QC-CPP000012[06235] The expression '3.1.0' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06239"
- , "c1link" : "./qc/providers/nullprov.c.html#6239"
+   "c1" : "06242"
+ , "c1link" : "./qc/providers/nullprov.c.html#6242"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06239] The expression '3.1.0-dev' is invariable"
+ , "c3" : "QC-CPP000012[06242] The expression '3.1.0-dev' is invariable"
 }} 
 ]
 };

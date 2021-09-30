@@ -3087,9 +3087,9 @@
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>crypto/pem/pvkfmt.c</file><nberror>58</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000012</rule><file>crypto/pem/pvkfmt.c</file><nberror>28</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000018</rule><file>crypto/pem/pvkfmt.c</file><nberror>3</nberror></occ>
-<occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>crypto/pem/pvkfmt.c</file><nberror>59</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>crypto/pem/pvkfmt.c</file><nberror>57</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>crypto/pem/pvkfmt.c</file><nberror>15</nberror></occ>
-<occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>crypto/pem/pvkfmt.c</file><nberror>20</nberror></occ>
+<occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>crypto/pem/pvkfmt.c</file><nberror>22</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>crypto/pkcs12/p12_add.c</file><nberror>8</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000012</rule><file>crypto/pkcs12/p12_add.c</file><nberror>17</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000018</rule><file>crypto/pkcs12/p12_add.c</file><nberror>3</nberror></occ>
