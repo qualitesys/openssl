@@ -260,21 +260,21 @@ static char *app_get_pass(const char *arg, int keepbio)
     int i;
 
     /* PASS_SOURCE_SIZE_MAX = max number of chars before ':' in below strings */
-    if (strncmp(arg, "pass:", 5) == 0)
-        return OPENSSL_strdup(arg + 5);
-    if (strncmp(arg, "env:", 4) == 0) {
-        tmp = getenv(arg + 4);
+    if (CHECK_AND_SKIP_PREFIX(arg, "pass:"))
+        return OPENSSL_strdup(arg);
+    if (CHECK_AND_SKIP_PREFIX(arg, "env:")) {
+        tmp = getenv(arg);
         if (tmp == NULL) {
-            BIO_printf(bio_err, "No environment variable %s\n", arg + 4);
+            BIO_printf(bio_err, "No environment variable %s\n", arg);
             return NULL;
         }
         return OPENSSL_strdup(tmp);
     }
     if (!keepbio || pwdbio == NULL) {
-        if (strncmp(arg, "file:", 5) == 0) {
-            pwdbio = BIO_new_file(arg + 5, "r");
+        if (CHECK_AND_SKIP_PREFIX(arg, "file:")) {
+            pwdbio = BIO_new_file(arg, "r");
             if (pwdbio == NULL) {
-                BIO_printf(bio_err, "Can't open file %s\n", arg + 5);
+                BIO_printf(bio_err, "Can't open file %s\n", arg);
                 return NULL;
             }
 #if !defined(_WIN32)
@@ -286,13 +286,13 @@ static char *app_get_pass(const char *arg, int keepbio)
              * on real Windows descriptors, such as those obtained
              * with CreateFile.
              */
-        } else if (strncmp(arg, "fd:", 3) == 0) {
+        } else if (CHECK_AND_SKIP_PREFIX(arg, "fd:")) {
             BIO *btmp;
-            i = atoi(arg + 3);
+            i = atoi(arg);
             if (i >= 0)
                 pwdbio = BIO_new_fd(i, BIO_NOCLOSE);
             if ((i < 0) || !pwdbio) {
-                BIO_printf(bio_err, "Can't access file descriptor %s\n", arg + 3);
+                BIO_printf(bio_err, "Can't access file descriptor %s\n", arg);
                 return NULL;
             }
             /*
@@ -450,10 +450,8 @@ CONF *app_load_config_modules(const char *configfile)
     return conf;
 }
 
-#define IS_HTTP(uri) ((uri) != NULL \
-        && strncmp(uri, OSSL_HTTP_PREFIX, strlen(OSSL_HTTP_PREFIX)) == 0)
-#define IS_HTTPS(uri) ((uri) != NULL \
-        && strncmp(uri, OSSL_HTTPS_PREFIX, strlen(OSSL_HTTPS_PREFIX)) == 0)
+#define IS_HTTP(uri) ((uri) != NULL  && HAS_PREFIX(uri, OSSL_HTTP_PREFIX))
+#define IS_HTTPS(uri) ((uri) != NULL && HAS_PREFIX(uri, OSSL_HTTPS_PREFIX))
 
 X509 *load_cert_pass(const char *uri, int format, int maybe_stdin,
                      const char *pass, const char *desc)
@@ -682,8 +680,8 @@ int load_cert_certs(const char *uri,
     int ret = 0;
     char *pass_string;
 
-    if (exclude_http && (strncasecmp(uri, "http://", 7) == 0
-                         || strncasecmp(uri, "https://", 8) == 0)) {
+    if (exclude_http && (HAS_CASE_PREFIX(uri, "http://")
+                         || HAS_CASE_PREFIX(uri, "https://"))) {
         BIO_printf(bio_err, "error: HTTP retrieval not allowed for %s\n", desc);
         return ret;
     }
@@ -823,7 +821,7 @@ int load_crls(const char *uri, STACK_OF(X509_CRL) **crls,
 
 static const char *format2string(int format)
 {
-    switch(format) {
+    switch (format) {
     case FORMAT_PEM:
         return "PEM";
     case FORMAT_ASN1:
@@ -1942,7 +1940,7 @@ X509_NAME *parse_name(const char *cp, int chtype, int canmulti,
             ERR_print_errors(bio_err);
             BIO_printf(bio_err,
                        "%s: Error adding %s name attribute \"/%s=%s\"\n",
-                       opt_getprog(), desc, typestr ,valstr);
+                       opt_getprog(), desc, typestr, valstr);
             goto err;
         }
     }
@@ -2224,8 +2222,8 @@ static int adapt_keyid_ext(X509 *cert, X509V3_CTX *ext_ctx,
     idx = X509v3_get_ext_by_OBJ(exts, X509_EXTENSION_get_object(new_ext), -1);
     if (idx >= 0) {
         X509_EXTENSION *found_ext = X509v3_get_ext(exts, idx);
-        ASN1_OCTET_STRING *data = X509_EXTENSION_get_data(found_ext);
-        int disabled = ASN1_STRING_length(data) <= 2; /* config said "none" */
+        ASN1_OCTET_STRING *encoded = X509_EXTENSION_get_data(found_ext);
+        int disabled = ASN1_STRING_length(encoded) <= 2; /* indicating "none" */
 
         if (disabled) {
             X509_delete_ext(cert, idx);
@@ -2237,6 +2235,16 @@ static int adapt_keyid_ext(X509 *cert, X509V3_CTX *ext_ctx,
     }
     X509_EXTENSION_free(new_ext);
     return rv;
+}
+
+int cert_matches_key(const X509 *cert, const EVP_PKEY *pkey)
+{
+    int match;
+
+    ERR_set_mark();
+    match = X509_check_private_key(cert, pkey);
+    ERR_pop_to_mark();
+    return match;
 }
 
 /* Ensure RFC 5280 compliance, adapt keyIDs as needed, and sign the cert info */
@@ -2254,16 +2262,14 @@ int do_X509_sign(X509 *cert, EVP_PKEY *pkey, const char *md,
             goto end;
 
         /*
-         * Add default SKID before such that default AKID can make use of it
+         * Add default SKID before AKID such that AKID can make use of it
          * in case the certificate is self-signed
          */
         /* Prevent X509_V_ERR_MISSING_SUBJECT_KEY_IDENTIFIER */
         if (!adapt_keyid_ext(cert, ext_ctx, "subjectKeyIdentifier", "hash", 1))
             goto end;
         /* Prevent X509_V_ERR_MISSING_AUTHORITY_KEY_IDENTIFIER */
-        ERR_set_mark();
-        self_sign = X509_check_private_key(cert, pkey);
-        ERR_pop_to_mark();
+        self_sign = cert_matches_key(cert, pkey);
         if (!adapt_keyid_ext(cert, ext_ctx, "authorityKeyIdentifier",
                              "keyid, issuer", !self_sign))
             goto end;
@@ -2845,9 +2851,9 @@ int raw_write_stdout(const void *buf, int siz)
 #   include <floss.h(floss_write)>
 #  endif
 # endif
-int raw_write_stdout(const void *buf,int siz)
+int raw_write_stdout(const void *buf, int siz)
 {
-	return write(fileno(stdout),(void*)buf,siz);
+	return write(fileno(stdout), (void*)buf, siz);
 }
 #else
 # if defined(__TANDEM)

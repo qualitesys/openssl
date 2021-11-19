@@ -124,7 +124,7 @@ static int rsa_check_padding(const PROV_RSA_CTX *prsactx,
                              const char *mdname, const char *mgf1_mdname,
                              int mdnid)
 {
-    switch(prsactx->pad_mode) {
+    switch (prsactx->pad_mode) {
         case RSA_NO_PADDING:
             if (mdname != NULL || mdnid != NID_undef) {
                 ERR_raise(ERR_LIB_PROV, PROV_R_INVALID_PADDING_MODE);
@@ -196,7 +196,7 @@ static void *rsa_newctx(void *provctx, const char *propq)
 static int rsa_pss_compute_saltlen(PROV_RSA_CTX *ctx)
 {
     int saltlen = ctx->saltlen;
- 
+
     if (saltlen == RSA_PSS_SALTLEN_DIGEST) {
         saltlen = EVP_MD_get_size(ctx->md);
     } else if (saltlen == RSA_PSS_SALTLEN_AUTO || saltlen == RSA_PSS_SALTLEN_MAX) {
@@ -232,7 +232,7 @@ static unsigned char *rsa_generate_signature_aid(PROV_RSA_CTX *ctx,
         return NULL;
     }
 
-    switch(ctx->pad_mode) {
+    switch (ctx->pad_mode) {
     case RSA_PKCS1_PADDING:
         ret = ossl_DER_w_algorithmIdentifier_MDWithRSAEncryption(&pkt, -1,
                                                                  ctx->mdnid);
@@ -386,19 +386,24 @@ static int rsa_signverify_init(void *vprsactx, void *vrsa,
 {
     PROV_RSA_CTX *prsactx = (PROV_RSA_CTX *)vprsactx;
 
-    if (!ossl_prov_is_running())
+    if (!ossl_prov_is_running() || prsactx == NULL)
         return 0;
 
-    if (prsactx == NULL || vrsa == NULL)
+    if (vrsa == NULL && prsactx->rsa == NULL) {
+        ERR_raise(ERR_LIB_PROV, PROV_R_NO_KEY_SET);
         return 0;
+    }
 
-    if (!ossl_rsa_check_key(prsactx->libctx, vrsa, operation))
-        return 0;
+    if (vrsa != NULL) {
+        if (!ossl_rsa_check_key(prsactx->libctx, vrsa, operation))
+            return 0;
 
-    if (!RSA_up_ref(vrsa))
-        return 0;
-    RSA_free(prsactx->rsa);
-    prsactx->rsa = vrsa;
+        if (!RSA_up_ref(vrsa))
+            return 0;
+        RSA_free(prsactx->rsa);
+        prsactx->rsa = vrsa;
+    }
+
     prsactx->operation = operation;
 
     if (!rsa_set_ctx_params(prsactx, params))
@@ -842,6 +847,7 @@ static int rsa_digest_signverify_init(void *vprsactx, const char *mdname,
 
     if (!rsa_signverify_init(vprsactx, vrsa, params, operation))
         return 0;
+
     if (mdname != NULL
         /* was rsa_setup_md already called in rsa_signverify_init()? */
         && (mdname[0] == '\0' || strcasecmp(prsactx->mdname, mdname) != 0)
@@ -849,10 +855,11 @@ static int rsa_digest_signverify_init(void *vprsactx, const char *mdname,
         return 0;
 
     prsactx->flag_allow_md = 0;
-    prsactx->mdctx = EVP_MD_CTX_new();
+
     if (prsactx->mdctx == NULL) {
-        ERR_raise(ERR_LIB_PROV, ERR_R_MALLOC_FAILURE);
-        goto error;
+        prsactx->mdctx = EVP_MD_CTX_new();
+        if (prsactx->mdctx == NULL)
+            goto error;
     }
 
     if (!EVP_DigestInit_ex2(prsactx->mdctx, prsactx->md, params))
@@ -862,9 +869,7 @@ static int rsa_digest_signverify_init(void *vprsactx, const char *mdname,
 
  error:
     EVP_MD_CTX_free(prsactx->mdctx);
-    EVP_MD_free(prsactx->md);
     prsactx->mdctx = NULL;
-    prsactx->md = NULL;
     return 0;
 }
 

@@ -338,13 +338,13 @@ int ssl3_get_record(SSL *s)
                         /* Go back to start of packet, look at the five bytes
                          * that we have. */
                         p = RECORD_LAYER_get_packet(&s->rlayer);
-                        if (strncmp((char *)p, "GET ", 4) == 0 ||
-                            strncmp((char *)p, "POST ", 5) == 0 ||
-                            strncmp((char *)p, "HEAD ", 5) == 0 ||
-                            strncmp((char *)p, "PUT ", 4) == 0) {
+                        if (HAS_PREFIX((char *)p, "GET ") ||
+                            HAS_PREFIX((char *)p, "POST ") ||
+                            HAS_PREFIX((char *)p, "HEAD ") ||
+                            HAS_PREFIX((char *)p, "PUT ")) {
                             SSLfatal(s, SSL_AD_NO_ALERT, SSL_R_HTTP_REQUEST);
                             return -1;
-                        } else if (strncmp((char *)p, "CONNE", 5) == 0) {
+                        } else if (HAS_PREFIX((char *)p, "CONNE")) {
                             SSLfatal(s, SSL_AD_NO_ALERT,
                                      SSL_R_HTTPS_PROXY_REQUEST);
                             return -1;
@@ -1218,23 +1218,17 @@ int tls1_enc(SSL *s, SSL3_RECORD *recs, size_t n_recs, int sending,
             }
 
             if (!sending) {
-                /* Adjust the record to remove the explicit IV/MAC/Tag */
-                if (EVP_CIPHER_get_mode(enc) == EVP_CIPH_GCM_MODE) {
-                    for (ctr = 0; ctr < n_recs; ctr++) {
+                for (ctr = 0; ctr < n_recs; ctr++) {
+                    /* Adjust the record to remove the explicit IV/MAC/Tag */
+                    if (EVP_CIPHER_get_mode(enc) == EVP_CIPH_GCM_MODE) {
                         recs[ctr].data += EVP_GCM_TLS_EXPLICIT_IV_LEN;
                         recs[ctr].input += EVP_GCM_TLS_EXPLICIT_IV_LEN;
                         recs[ctr].length -= EVP_GCM_TLS_EXPLICIT_IV_LEN;
-                    }
-                } else if (EVP_CIPHER_get_mode(enc) == EVP_CIPH_CCM_MODE) {
-                    for (ctr = 0; ctr < n_recs; ctr++) {
+                    } else if (EVP_CIPHER_get_mode(enc) == EVP_CIPH_CCM_MODE) {
                         recs[ctr].data += EVP_CCM_TLS_EXPLICIT_IV_LEN;
                         recs[ctr].input += EVP_CCM_TLS_EXPLICIT_IV_LEN;
                         recs[ctr].length -= EVP_CCM_TLS_EXPLICIT_IV_LEN;
-                    }
-                }
-
-                for (ctr = 0; ctr < n_recs; ctr++) {
-                    if (bs != 1 && SSL_USE_EXPLICIT_IV(s)) {
+                    } else if (bs != 1 && SSL_USE_EXPLICIT_IV(s)) {
                         if (recs[ctr].length < bs)
                             return 0;
                         recs[ctr].data += bs;
@@ -1254,16 +1248,11 @@ int tls1_enc(SSL *s, SSL3_RECORD *recs, size_t n_recs, int sending,
                                          (macs != NULL) ? &macs[ctr].alloced
                                                         : NULL,
                                          bs,
-                                         macsize,
+                                         pad ? (size_t)pad : macsize,
                                          (EVP_CIPHER_get_flags(enc)
                                          & EVP_CIPH_FLAG_AEAD_CIPHER) != 0,
                                          s->ctx->libctx))
                         return 0;
-                }
-                if (pad) {
-                    for (ctr = 0; ctr < n_recs; ctr++) {
-                        recs[ctr].length -= pad;
-                    }
                 }
             }
         }

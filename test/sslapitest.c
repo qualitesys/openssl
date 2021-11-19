@@ -1337,7 +1337,7 @@ static int execute_test_ktls_sendfile(int tls_version, const char *cipher)
         goto end;
     }
 
-    if (!TEST_true(RAND_bytes_ex(libctx, buf, SENDFILE_SZ, 0)))
+    if (!TEST_int_gt(RAND_bytes_ex(libctx, buf, SENDFILE_SZ, 0), 0))
         goto end;
 
     out = BIO_new_file(tmpfilename, "wb");
@@ -5560,6 +5560,11 @@ static int sni_cb(SSL *s, int *al, void *arg)
     return SSL_TLSEXT_ERR_OK;
 }
 
+static int verify_cb(int preverify_ok, X509_STORE_CTX *x509_ctx)
+{
+    return 1;
+}
+
 /*
  * Custom call back tests.
  * Test 0: Old style callbacks in TLSv1.2
@@ -5567,6 +5572,7 @@ static int sni_cb(SSL *s, int *al, void *arg)
  * Test 2: New style callbacks in TLSv1.2 with SNI
  * Test 3: New style callbacks in TLSv1.3. Extensions in CH and EE
  * Test 4: New style callbacks in TLSv1.3. Extensions in CH, SH, EE, Cert + NST
+ * Test 5: New style callbacks in TLSv1.3. Extensions in CR + Client Cert
  */
 static int test_custom_exts(int tst)
 {
@@ -5608,7 +5614,19 @@ static int test_custom_exts(int tst)
             SSL_CTX_set_options(sctx2, SSL_OP_NO_TLSv1_3);
     }
 
-    if (tst == 4) {
+    if (tst == 5) {
+        context = SSL_EXT_TLS1_3_CERTIFICATE_REQUEST
+                  | SSL_EXT_TLS1_3_CERTIFICATE;
+        SSL_CTX_set_verify(sctx,
+                           SSL_VERIFY_PEER | SSL_VERIFY_FAIL_IF_NO_PEER_CERT,
+                           verify_cb);
+        if (!TEST_int_eq(SSL_CTX_use_certificate_file(cctx, cert,
+                                                      SSL_FILETYPE_PEM), 1)
+                || !TEST_int_eq(SSL_CTX_use_PrivateKey_file(cctx, privkey,
+                                                            SSL_FILETYPE_PEM), 1)
+                || !TEST_int_eq(SSL_CTX_check_private_key(cctx), 1))
+            goto end;
+    } else if (tst == 4) {
         context = SSL_EXT_CLIENT_HELLO
                   | SSL_EXT_TLS1_2_SERVER_HELLO
                   | SSL_EXT_TLS1_3_SERVER_HELLO
@@ -5704,6 +5722,12 @@ static int test_custom_exts(int tst)
                 || (tst != 2 && snicb != 0)
                 || (tst == 2 && snicb != 1))
             goto end;
+    } else if (tst == 5) {
+        if (clntaddnewcb != 1
+                || clntparsenewcb != 1
+                || srvaddnewcb != 1
+                || srvparsenewcb != 1)
+            goto end;
     } else {
         /* In this case there 2 NewSessionTicket messages created */
         if (clntaddnewcb != 1
@@ -5720,8 +5744,8 @@ static int test_custom_exts(int tst)
     SSL_free(clientssl);
     serverssl = clientssl = NULL;
 
-    if (tst == 3) {
-        /* We don't bother with the resumption aspects for this test */
+    if (tst == 3 || tst == 5) {
+        /* We don't bother with the resumption aspects for these tests */
         testresult = 1;
         goto end;
     }
@@ -6540,7 +6564,7 @@ static int get_MFL_from_client_hello(BIO *bio, int *mfl_codemfl_code)
     PACKET pkt, pkt2, pkt3;
     unsigned int MFL_code = 0, type = 0;
 
-    if (!TEST_uint_gt( len = BIO_get_mem_data( bio, (char **) &data ), 0 ) )
+    if (!TEST_uint_gt(len = BIO_get_mem_data(bio, (char **) &data), 0))
         goto end;
 
     memset(&pkt, 0, sizeof(pkt));
@@ -6548,7 +6572,7 @@ static int get_MFL_from_client_hello(BIO *bio, int *mfl_codemfl_code)
     memset(&pkt3, 0, sizeof(pkt3));
 
     if (!TEST_long_gt(len, 0)
-            || !TEST_true( PACKET_buf_init( &pkt, data, len ) )
+            || !TEST_true(PACKET_buf_init(&pkt, data, len))
                /* Skip the record header */
             || !PACKET_forward(&pkt, SSL3_RT_HEADER_LENGTH)
                /* Skip the handshake message header */
@@ -7970,7 +7994,7 @@ static int cert_cb(SSL *s, void *arg)
         if (!TEST_ptr(chain))
             goto out;
         if (!TEST_ptr(in = BIO_new(BIO_s_file()))
-                || !TEST_int_ge(BIO_read_filename(in, rootfile), 0)
+                || !TEST_int_gt(BIO_read_filename(in, rootfile), 0)
                 || !TEST_ptr(rootx = X509_new_ex(libctx, NULL))
                 || !TEST_ptr(PEM_read_bio_X509(in, &rootx, NULL, NULL))
                 || !TEST_true(sk_X509_push(chain, rootx)))
@@ -7978,13 +8002,13 @@ static int cert_cb(SSL *s, void *arg)
         rootx = NULL;
         BIO_free(in);
         if (!TEST_ptr(in = BIO_new(BIO_s_file()))
-                || !TEST_int_ge(BIO_read_filename(in, ecdsacert), 0)
+                || !TEST_int_gt(BIO_read_filename(in, ecdsacert), 0)
                 || !TEST_ptr(x509 = X509_new_ex(libctx, NULL))
                 || !TEST_ptr(PEM_read_bio_X509(in, &x509, NULL, NULL)))
             goto out;
         BIO_free(in);
         if (!TEST_ptr(in = BIO_new(BIO_s_file()))
-                || !TEST_int_ge(BIO_read_filename(in, ecdsakey), 0)
+                || !TEST_int_gt(BIO_read_filename(in, ecdsakey), 0)
                 || !TEST_ptr(pkey = PEM_read_bio_PrivateKey_ex(in, NULL,
                                                                NULL, NULL,
                                                                libctx, NULL)))
@@ -8148,11 +8172,6 @@ err:
     BIO_free(in);
     BIO_free(priv_in);
     return 0;
-}
-
-static int verify_cb(int preverify_ok, X509_STORE_CTX *x509_ctx)
-{
-    return 1;
 }
 
 static int test_client_cert_cb(int tst)
@@ -9011,7 +9030,7 @@ static EVP_PKEY *get_tmp_dh_params(void)
 
         pctx = EVP_PKEY_CTX_new_from_name(libctx, "DH", NULL);
         if (!TEST_ptr(pctx)
-                || !TEST_true(EVP_PKEY_fromdata_init(pctx)))
+                || !TEST_int_eq(EVP_PKEY_fromdata_init(pctx), 1))
             goto end;
 
         tmpl = OSSL_PARAM_BLD_new();
@@ -9026,8 +9045,9 @@ static EVP_PKEY *get_tmp_dh_params(void)
 
         params = OSSL_PARAM_BLD_to_param(tmpl);
         if (!TEST_ptr(params)
-                || !TEST_true(EVP_PKEY_fromdata(pctx, &dhpkey,
-                                                EVP_PKEY_KEY_PARAMETERS, params)))
+                || !TEST_int_eq(EVP_PKEY_fromdata(pctx, &dhpkey,
+                                                  EVP_PKEY_KEY_PARAMETERS,
+                                                  params), 1))
             goto end;
 
         tmp_dh_params = dhpkey;
@@ -9196,7 +9216,8 @@ static int test_set_tmp_dh(int idx)
  */
 static int test_dh_auto(int idx)
 {
-    SSL_CTX *cctx = NULL, *sctx = NULL;
+    SSL_CTX *cctx = SSL_CTX_new_ex(libctx, NULL, TLS_client_method());
+    SSL_CTX *sctx = SSL_CTX_new_ex(libctx, NULL, TLS_server_method());
     SSL *clientssl = NULL, *serverssl = NULL;
     int testresult = 0;
     EVP_PKEY *tmpkey = NULL;
@@ -9204,14 +9225,21 @@ static int test_dh_auto(int idx)
     size_t expdhsize = 0;
     const char *ciphersuite = "DHE-RSA-AES128-SHA";
 
+    if (!TEST_ptr(sctx) || !TEST_ptr(cctx))
+        goto end;
+
     switch (idx) {
     case 0:
         /* The FIPS provider doesn't support this DH size - so we ignore it */
-        if (is_fips)
-            return 1;
+        if (is_fips) {
+            testresult = 1;
+            goto end;
+        }
         thiscert = cert1024;
         thiskey = privkey1024;
         expdhsize = 1024;
+        SSL_CTX_set_security_level(sctx, 1);
+        SSL_CTX_set_security_level(cctx, 1);
         break;
     case 1:
         /* 2048 bit prime */
@@ -9237,8 +9265,10 @@ static int test_dh_auto(int idx)
     /* No certificate cases */
     case 5:
         /* The FIPS provider doesn't support this DH size - so we ignore it */
-        if (is_fips)
-            return 1;
+        if (is_fips) {
+            testresult = 1;
+            goto end;
+        }
         ciphersuite = "ADH-AES128-SHA256:@SECLEVEL=0";
         expdhsize = 1024;
         break;
@@ -9251,8 +9281,8 @@ static int test_dh_auto(int idx)
         goto end;
     }
 
-    if (!TEST_true(create_ssl_ctx_pair(libctx, TLS_server_method(),
-                                       TLS_client_method(),
+    if (!TEST_true(create_ssl_ctx_pair(libctx, NULL,
+                                       NULL,
                                        0,
                                        0,
                                        &sctx, &cctx, thiscert, thiskey)))
@@ -9675,7 +9705,7 @@ int setup_tests(void)
     /* Test with only TLSv1.3 versions */
     ADD_ALL_TESTS(test_key_exchange, 12);
 # endif
-    ADD_ALL_TESTS(test_custom_exts, 5);
+    ADD_ALL_TESTS(test_custom_exts, 6);
     ADD_TEST(test_stateless);
     ADD_TEST(test_pha_key_update);
 #else
