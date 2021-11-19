@@ -447,24 +447,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06199"
- , "c1link" : "./qc/crypto/cpuid.c.html#6199"
+   "c1" : "06203"
+ , "c1link" : "./qc/crypto/cpuid.c.html#6203"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06199] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06203] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07808"
- , "c1link" : "./qc/crypto/cpuid.c.html#7808"
+   "c1" : "07816"
+ , "c1link" : "./qc/crypto/cpuid.c.html#7816"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07808] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07816] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07809"
- , "c1link" : "./qc/crypto/cpuid.c.html#7809"
+   "c1" : "07817"
+ , "c1link" : "./qc/crypto/cpuid.c.html#7817"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07809] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07817] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

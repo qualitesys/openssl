@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/passphrase.c.html" 
- , "texte" : "File crypto/passphrase.c 33 rule violations " 
+ , "texte" : "File crypto/passphrase.c 63 rule violations " 
  , "fic2"  : "./qc/crypto/passphrase.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,14 +42,14 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "5"
+ , "c4" : "14"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "37"
 }}
 ,
 { "ligne" : {
@@ -237,80 +237,290 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13304"
- , "c1link" : "./qc/crypto/passphrase.c.html#13304"
+   "c1" : "13308"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13308"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13304] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13308] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13742"
- , "c1link" : "./qc/crypto/passphrase.c.html#13742"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13742] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13781"
- , "c1link" : "./qc/crypto/passphrase.c.html#13781"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13781] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13793"
- , "c1link" : "./qc/crypto/passphrase.c.html#13793"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13793] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13796"
- , "c1link" : "./qc/crypto/passphrase.c.html#13796"
+   "c1" : "14665"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14665"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13796] The expression verify applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[14665] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13809"
- , "c1link" : "./qc/crypto/passphrase.c.html#13809"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13809] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13821"
- , "c1link" : "./qc/crypto/passphrase.c.html#13821"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13821] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13924"
- , "c1link" : "./qc/crypto/passphrase.c.html#13924"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13924] goto statement jump to do_cache"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13929"
- , "c1link" : "./qc/crypto/passphrase.c.html#13929"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13929] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13947"
- , "c1link" : "./qc/crypto/passphrase.c.html#13947"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13947] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14040"
- , "c1link" : "./qc/crypto/passphrase.c.html#14040"
+   "c1" : "14667"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14667"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14040] The expression ossl_pw_get_passphrase(buf,(size_t )size, &amp; password_len,params,rwflag,userdata) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14667] The expression  ! __builtin_constant_p(__nbytes) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14670"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14670"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14670] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14695"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14695"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14695] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14697"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14697"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14697] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14700"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14700"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14700] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14729"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14729"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14729] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14731"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14731"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14731] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14734"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14734"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14734] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14755"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14755"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14755] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14757"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14757"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14757] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14760"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14760"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14760] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14776"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14776"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14776] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14795"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14795"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14795] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14797"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14797"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14797] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14800"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14800"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14800] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14820"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14820"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14820] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14825"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14825"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14825] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14846"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14846"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14846] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14848"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14848"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14848] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14851"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14851"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14851] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14872"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14872"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14872] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14874"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14874"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14874] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14877"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14877"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14877] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14899"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14899"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14899] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14901"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14901"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14901] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14904"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14904"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14904] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14928"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14928"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14928] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14930"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14930"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14930] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14933"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14933"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14933] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15369"
+ , "c1link" : "./qc/crypto/passphrase.c.html#15369"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15369] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15408"
+ , "c1link" : "./qc/crypto/passphrase.c.html#15408"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15408] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15420"
+ , "c1link" : "./qc/crypto/passphrase.c.html#15420"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15420] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15423"
+ , "c1link" : "./qc/crypto/passphrase.c.html#15423"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15423] The expression verify applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15436"
+ , "c1link" : "./qc/crypto/passphrase.c.html#15436"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15436] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15448"
+ , "c1link" : "./qc/crypto/passphrase.c.html#15448"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15448] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15551"
+ , "c1link" : "./qc/crypto/passphrase.c.html#15551"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15551] goto statement jump to do_cache"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15556"
+ , "c1link" : "./qc/crypto/passphrase.c.html#15556"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15556] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15574"
+ , "c1link" : "./qc/crypto/passphrase.c.html#15574"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15574] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15667"
+ , "c1link" : "./qc/crypto/passphrase.c.html#15667"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15667] The expression ossl_pw_get_passphrase(buf,(size_t )size, &amp; password_len,params,rwflag,userdata) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -461,129 +461,129 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07227"
- , "c1link" : "./qc/apps/info.c.html#7227"
+   "c1" : "06196"
+ , "c1link" : "./qc/apps/info.c.html#6196"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07227] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[06196] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07229"
- , "c1link" : "./qc/apps/info.c.html#7229"
+   "c1" : "07528"
+ , "c1link" : "./qc/apps/info.c.html#7528"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07229] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[07528] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07232"
- , "c1link" : "./qc/apps/info.c.html#7232"
+   "c1" : "07530"
+ , "c1link" : "./qc/apps/info.c.html#7530"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07232] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[07530] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07258"
- , "c1link" : "./qc/apps/info.c.html#7258"
+   "c1" : "07533"
+ , "c1link" : "./qc/apps/info.c.html#7533"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07258] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07533] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07260"
- , "c1link" : "./qc/apps/info.c.html#7260"
+   "c1" : "07559"
+ , "c1link" : "./qc/apps/info.c.html#7559"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07260] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[07559] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07263"
- , "c1link" : "./qc/apps/info.c.html#7263"
+   "c1" : "07561"
+ , "c1link" : "./qc/apps/info.c.html#7561"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07263] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[07561] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08279"
- , "c1link" : "./qc/apps/info.c.html#8279"
+   "c1" : "07564"
+ , "c1link" : "./qc/apps/info.c.html#7564"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08279] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07564] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08940"
- , "c1link" : "./qc/apps/info.c.html#8940"
+   "c1" : "08964"
+ , "c1link" : "./qc/apps/info.c.html#8964"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08940] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08964] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08973"
- , "c1link" : "./qc/apps/info.c.html#8973"
+   "c1" : "08997"
+ , "c1link" : "./qc/apps/info.c.html#8997"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08973] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08997] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18906"
- , "c1link" : "./qc/apps/info.c.html#18906"
+   "c1" : "18931"
+ , "c1link" : "./qc/apps/info.c.html#18931"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18906] The pointer prog is declared but not initialized"
+ , "c3" : "QC-CPP000014[18931] The pointer prog is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18910"
- , "c1link" : "./qc/apps/info.c.html#18910"
+   "c1" : "18935"
+ , "c1link" : "./qc/apps/info.c.html#18935"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18910] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18935] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18912"
- , "c1link" : "./qc/apps/info.c.html#18912"
+   "c1" : "18937"
+ , "c1link" : "./qc/apps/info.c.html#18937"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000003[18912] The default case should be in last position"
+ , "c3" : "QC-CPP000003[18937] The default case should be in last position"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18913"
- , "c1link" : "./qc/apps/info.c.html#18913"
+   "c1" : "18938"
+ , "c1link" : "./qc/apps/info.c.html#18938"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[18913] The switch case refers to the jump label opthelp"
+ , "c3" : "QC-CPP000010[18938] The switch case refers to the jump label opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18915"
- , "c1link" : "./qc/apps/info.c.html#18915"
+   "c1" : "18940"
+ , "c1link" : "./qc/apps/info.c.html#18940"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18915] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18940] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18919"
- , "c1link" : "./qc/apps/info.c.html#18919"
+   "c1" : "18944"
+ , "c1link" : "./qc/apps/info.c.html#18944"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18919] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18944] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18955"
- , "c1link" : "./qc/apps/info.c.html#18955"
+   "c1" : "18980"
+ , "c1link" : "./qc/apps/info.c.html#18980"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18955] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18980] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18958"
- , "c1link" : "./qc/apps/info.c.html#18958"
+   "c1" : "18983"
+ , "c1link" : "./qc/apps/info.c.html#18983"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18958] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18983] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18962"
- , "c1link" : "./qc/apps/info.c.html#18962"
+   "c1" : "18987"
+ , "c1link" : "./qc/apps/info.c.html#18987"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18962] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[18987] goto statement jump to opthelp"
 }} 
 ]
 };

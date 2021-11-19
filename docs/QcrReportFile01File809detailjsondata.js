@@ -447,276 +447,276 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14766"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#14766"
+   "c1" : "14800"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#14800"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14766] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16981"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#16981"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16981] The expression  ! PACKET_peek_sub_packet(pkt,subpkt,len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[14800] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "17009"
  , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17009"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17009] The expression  ! PACKET_peek_net_2(pkt,data) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17009] The expression  ! PACKET_peek_sub_packet(pkt,subpkt,len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17023"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17023"
+   "c1" : "17037"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17037"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17023] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17037] The expression  ! PACKET_peek_net_2(pkt,data) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17050"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17050"
+   "c1" : "17051"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17051"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17050] The expression  ! PACKET_peek_net_3(pkt,data) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17051] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17064"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17064"
+   "c1" : "17078"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17078"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17064] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17078] The expression  ! PACKET_peek_net_3(pkt,data) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "17092"
  , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17092"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17092] The expression  ! PACKET_peek_net_4(pkt,data) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17092] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17106"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17106"
+   "c1" : "17120"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17120"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17106] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17120] The expression  ! PACKET_peek_net_4(pkt,data) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17116"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17116"
+   "c1" : "17134"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17134"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17116] The expression  ! PACKET_remaining(pkt) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17134] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17127"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17127"
+   "c1" : "17144"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17144"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17127] The expression  ! PACKET_peek_1(pkt,data) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17144] The expression  ! PACKET_remaining(pkt) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17141"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17141"
+   "c1" : "17155"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17155"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17141] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17155] The expression  ! PACKET_peek_1(pkt,data) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17172"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17172"
+   "c1" : "17169"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17169"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17172] The expression  ! PACKET_peek_4(pkt,data) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17169] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17208"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17208"
+   "c1" : "17200"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17200"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17208] The expression  ! PACKET_peek_bytes(pkt,data,len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17200] The expression  ! PACKET_peek_4(pkt,data) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "17236"
  , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17236"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17236] The expression  ! PACKET_peek_copy_bytes(pkt,data,len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17236] The expression  ! PACKET_peek_bytes(pkt,data,len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17325"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17325"
+   "c1" : "17264"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17264"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17264] The expression  ! PACKET_peek_copy_bytes(pkt,data,len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17353"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17353"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17325] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[17353] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17325"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17325"
+   "c1" : "17353"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17353"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17325] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17353] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17347"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17347"
+   "c1" : "17375"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17375"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17347] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[17375] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17347"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17347"
+   "c1" : "17375"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17375"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17347] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17375] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17366"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17366"
+   "c1" : "17394"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17394"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17366] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[17394] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17366"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17366"
+   "c1" : "17394"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17394"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17366] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17394] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17389"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17389"
+   "c1" : "17417"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17417"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17389] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[17417] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17389"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17389"
+   "c1" : "17417"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17417"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17389] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17417] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17409"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17409"
+   "c1" : "17437"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17437"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17409] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[17437] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17409"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17409"
+   "c1" : "17437"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#17437"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17409] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17437] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20527"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20527"
+   "c1" : "20535"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20535"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20527] The pointer meth is declared but not initialized"
+ , "c3" : "QC-CPP000014[20535] The pointer meth is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20539"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20539"
+   "c1" : "20547"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20547"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20539] The expression  ! meth applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20547] The expression  ! meth applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20543"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20543"
+   "c1" : "20551"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20551"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20543] The expression  ! extension_is_relevant(s,meth-&gt;context,context) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20551] The expression  ! extension_is_relevant(s,meth-&gt;context,context) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20572"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20572"
+   "c1" : "20581"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20581"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20572] The expression  ! meth-&gt;parse_cb applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20581] The expression  ! meth-&gt;parse_cb applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20596"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20596"
+   "c1" : "20605"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20605"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20596] The pointer meth is declared but not initialized"
+ , "c3" : "QC-CPP000014[20605] The pointer meth is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20610"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20610"
+   "c1" : "20619"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20619"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20610] The expression  ! should_add_extension(s,meth-&gt;context,context,maxversion) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20619] The expression  ! should_add_extension(s,meth-&gt;context,context,maxversion) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20654"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20654"
+   "c1" : "20663"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20663"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[20654] The expression 2 is invariable"
+ , "c3" : "QC-CPP000012[20663] The expression 2 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20655"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20655"
+   "c1" : "20664"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20664"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[20655] The expression 2 is invariable"
+ , "c3" : "QC-CPP000012[20664] The expression 2 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20752"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20752"
+   "c1" : "20761"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20761"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20752] The expression err applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20761] The expression err applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20784"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20784"
+   "c1" : "20793"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20793"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20784] The expression err applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20793] The expression err applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20795"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20795"
+   "c1" : "20804"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20804"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20795] The pointer meth is declared but not initialized"
+ , "c3" : "QC-CPP000014[20804] The pointer meth is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20833"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20833"
+   "c1" : "20842"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20842"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20833] The pointer meth is declared but not initialized"
+ , "c3" : "QC-CPP000014[20842] The pointer meth is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20833"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20833"
+   "c1" : "20842"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20842"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20833] The pointer tmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[20842] The pointer tmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20874"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20874"
+   "c1" : "20883"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20883"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20874] The expression custom_ext_find(exts,role,ext_type,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20883] The expression custom_ext_find(exts,role,ext_type,(( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20946"
- , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20946"
+   "c1" : "20955"
+ , "c1link" : "./qc/ssl/statem/extensions_cust.c.html#20955"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20946] The expression  ! ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20955] The expression  ! ret applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

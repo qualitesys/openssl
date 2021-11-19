@@ -468,304 +468,304 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07229"
- , "c1link" : "./qc/apps/rsautl.c.html#7229"
+   "c1" : "06198"
+ , "c1link" : "./qc/apps/rsautl.c.html#6198"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07229] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[06198] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07231"
- , "c1link" : "./qc/apps/rsautl.c.html#7231"
+   "c1" : "07530"
+ , "c1link" : "./qc/apps/rsautl.c.html#7530"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07231] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[07530] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07234"
- , "c1link" : "./qc/apps/rsautl.c.html#7234"
+   "c1" : "07532"
+ , "c1link" : "./qc/apps/rsautl.c.html#7532"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07234] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[07532] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07260"
- , "c1link" : "./qc/apps/rsautl.c.html#7260"
+   "c1" : "07535"
+ , "c1link" : "./qc/apps/rsautl.c.html#7535"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07260] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07535] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07262"
- , "c1link" : "./qc/apps/rsautl.c.html#7262"
+   "c1" : "07561"
+ , "c1link" : "./qc/apps/rsautl.c.html#7561"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07262] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[07561] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07265"
- , "c1link" : "./qc/apps/rsautl.c.html#7265"
+   "c1" : "07563"
+ , "c1link" : "./qc/apps/rsautl.c.html#7563"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07265] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[07563] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08281"
- , "c1link" : "./qc/apps/rsautl.c.html#8281"
+   "c1" : "07566"
+ , "c1link" : "./qc/apps/rsautl.c.html#7566"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08281] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07566] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08942"
- , "c1link" : "./qc/apps/rsautl.c.html#8942"
+   "c1" : "08966"
+ , "c1link" : "./qc/apps/rsautl.c.html#8966"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08942] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08966] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08975"
- , "c1link" : "./qc/apps/rsautl.c.html#8975"
+   "c1" : "08999"
+ , "c1link" : "./qc/apps/rsautl.c.html#8999"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08975] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08999] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18951"
- , "c1link" : "./qc/apps/rsautl.c.html#18951"
+   "c1" : "18976"
+ , "c1link" : "./qc/apps/rsautl.c.html#18976"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18951] The pointer x is declared but not initialized"
+ , "c3" : "QC-CPP000014[18976] The pointer x is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18973"
- , "c1link" : "./qc/apps/rsautl.c.html#18973"
+   "c1" : "18998"
+ , "c1link" : "./qc/apps/rsautl.c.html#18998"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18973] The pointer prog is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18975"
- , "c1link" : "./qc/apps/rsautl.c.html#18975"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18975] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18990"
- , "c1link" : "./qc/apps/rsautl.c.html#18990"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18990] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18994"
- , "c1link" : "./qc/apps/rsautl.c.html#18994"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[18994] The switch case refers to the jump label opthelp"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18996"
- , "c1link" : "./qc/apps/rsautl.c.html#18996"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18996] goto statement jump to end"
+ , "c3" : "QC-CPP000014[18998] The pointer prog is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "19000"
  , "c1link" : "./qc/apps/rsautl.c.html#19000"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19000] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19002"
- , "c1link" : "./qc/apps/rsautl.c.html#19002"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19002] The expression  ! opt_format(opt_arg(),((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)|(1L&lt;&lt;4)|(1L&lt;&lt;5)|(1L&lt;&lt;7)|(1L&lt;&lt;8)|(1L&lt;&lt;9)|(1L&lt;&lt;10)), &amp; keyformat) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[19000] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19002"
- , "c1link" : "./qc/apps/rsautl.c.html#19002"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19002] The expression ((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)|(1L&lt;&lt;4)|(1L&lt;&lt;5)|(1L&lt;&lt;7)|(1L&lt;&lt;8)|(1L&lt;&lt;9)|(1L&lt;&lt;10)) is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19003"
- , "c1link" : "./qc/apps/rsautl.c.html#19003"
+   "c1" : "19015"
+ , "c1link" : "./qc/apps/rsautl.c.html#19015"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19003] goto statement jump to opthelp"
+ , "c3" : "QC-CPPCWE481[19015] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19062"
- , "c1link" : "./qc/apps/rsautl.c.html#19062"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19062] The expression  ! opt_rand(o) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19063"
- , "c1link" : "./qc/apps/rsautl.c.html#19063"
+   "c1" : "19019"
+ , "c1link" : "./qc/apps/rsautl.c.html#19019"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19063] goto statement jump to end"
+ , "c3" : "QC-CPP000010[19019] The switch case refers to the jump label opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19066"
- , "c1link" : "./qc/apps/rsautl.c.html#19066"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19066] The expression  ! opt_provider(o) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19067"
- , "c1link" : "./qc/apps/rsautl.c.html#19067"
+   "c1" : "19021"
+ , "c1link" : "./qc/apps/rsautl.c.html#19021"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19067] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19021] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19075"
- , "c1link" : "./qc/apps/rsautl.c.html#19075"
+   "c1" : "19025"
+ , "c1link" : "./qc/apps/rsautl.c.html#19025"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19075] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19025] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19077"
- , "c1link" : "./qc/apps/rsautl.c.html#19077"
+   "c1" : "19027"
+ , "c1link" : "./qc/apps/rsautl.c.html#19027"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19077] The expression  ! app_RAND_load() applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19027] The expression  ! opt_format(opt_arg(),((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)|(1L&lt;&lt;4)|(1L&lt;&lt;5)|(1L&lt;&lt;7)|(1L&lt;&lt;8)|(1L&lt;&lt;9)|(1L&lt;&lt;10)), &amp; keyformat) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19078"
- , "c1link" : "./qc/apps/rsautl.c.html#19078"
+   "c1" : "19027"
+ , "c1link" : "./qc/apps/rsautl.c.html#19027"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19027] The expression ((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)|(1L&lt;&lt;4)|(1L&lt;&lt;5)|(1L&lt;&lt;7)|(1L&lt;&lt;8)|(1L&lt;&lt;9)|(1L&lt;&lt;10)) is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19028"
+ , "c1link" : "./qc/apps/rsautl.c.html#19028"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19078] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19028] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19082"
- , "c1link" : "./qc/apps/rsautl.c.html#19082"
+   "c1" : "19087"
+ , "c1link" : "./qc/apps/rsautl.c.html#19087"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19087] The expression  ! opt_rand(o) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19088"
+ , "c1link" : "./qc/apps/rsautl.c.html#19088"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19082] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19088] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19085"
- , "c1link" : "./qc/apps/rsautl.c.html#19085"
+   "c1" : "19091"
+ , "c1link" : "./qc/apps/rsautl.c.html#19091"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19085] The expression  ! app_passwd(passinarg,(( void  *)0), &amp; passin,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19091] The expression  ! opt_provider(o) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19095"
- , "c1link" : "./qc/apps/rsautl.c.html#19095"
+   "c1" : "19092"
+ , "c1link" : "./qc/apps/rsautl.c.html#19092"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19095] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19092] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19117"
- , "c1link" : "./qc/apps/rsautl.c.html#19117"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19117] The expression x applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19137"
- , "c1link" : "./qc/apps/rsautl.c.html#19137"
+   "c1" : "19100"
+ , "c1link" : "./qc/apps/rsautl.c.html#19100"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19137] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19100] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19144"
- , "c1link" : "./qc/apps/rsautl.c.html#19144"
+   "c1" : "19102"
+ , "c1link" : "./qc/apps/rsautl.c.html#19102"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19102] The expression  ! app_RAND_load() applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19103"
+ , "c1link" : "./qc/apps/rsautl.c.html#19103"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19144] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19103] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19156"
- , "c1link" : "./qc/apps/rsautl.c.html#19156"
+   "c1" : "19107"
+ , "c1link" : "./qc/apps/rsautl.c.html#19107"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19156] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19107] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19159"
- , "c1link" : "./qc/apps/rsautl.c.html#19159"
+   "c1" : "19110"
+ , "c1link" : "./qc/apps/rsautl.c.html#19110"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19159] The expression rev applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19110] The expression  ! app_passwd(passinarg,(( void  *)0), &amp; passin,(( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19170"
- , "c1link" : "./qc/apps/rsautl.c.html#19170"
+   "c1" : "19120"
+ , "c1link" : "./qc/apps/rsautl.c.html#19120"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19170] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[19120] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19183"
- , "c1link" : "./qc/apps/rsautl.c.html#19183"
+   "c1" : "19142"
+ , "c1link" : "./qc/apps/rsautl.c.html#19142"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19142] The expression x applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19162"
+ , "c1link" : "./qc/apps/rsautl.c.html#19162"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19183] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19162] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19209"
- , "c1link" : "./qc/apps/rsautl.c.html#19209"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19209] The expression  ! rv applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19212"
- , "c1link" : "./qc/apps/rsautl.c.html#19212"
+   "c1" : "19169"
+ , "c1link" : "./qc/apps/rsautl.c.html#19169"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19212] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19169] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19215"
- , "c1link" : "./qc/apps/rsautl.c.html#19215"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19215] The expression asn1parse applies to a single value or variable, might be ambiguous."
+   "c1" : "19181"
+ , "c1link" : "./qc/apps/rsautl.c.html#19181"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19181] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19216"
- , "c1link" : "./qc/apps/rsautl.c.html#19216"
+   "c1" : "19184"
+ , "c1link" : "./qc/apps/rsautl.c.html#19184"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19216] The expression  ! ASN1_parse_dump(out,rsa_out,rsa_outlen,1, - 1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19184] The expression rev applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19216"
- , "c1link" : "./qc/apps/rsautl.c.html#19216"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19216] The expression 1 is invariable, always true"
+   "c1" : "19195"
+ , "c1link" : "./qc/apps/rsautl.c.html#19195"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[19195] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19216"
- , "c1link" : "./qc/apps/rsautl.c.html#19216"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19216] The expression  - 1 is invariable"
+   "c1" : "19208"
+ , "c1link" : "./qc/apps/rsautl.c.html#19208"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19208] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19219"
- , "c1link" : "./qc/apps/rsautl.c.html#19219"
+   "c1" : "19234"
+ , "c1link" : "./qc/apps/rsautl.c.html#19234"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19219] The expression hexdump applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19234] The expression  ! rv applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19237"
+ , "c1link" : "./qc/apps/rsautl.c.html#19237"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19237] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19240"
+ , "c1link" : "./qc/apps/rsautl.c.html#19240"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19240] The expression asn1parse applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19241"
+ , "c1link" : "./qc/apps/rsautl.c.html#19241"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19241] The expression  ! ASN1_parse_dump(out,rsa_out,rsa_outlen,1, - 1) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19241"
+ , "c1link" : "./qc/apps/rsautl.c.html#19241"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19241] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19241"
+ , "c1link" : "./qc/apps/rsautl.c.html#19241"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19241] The expression  - 1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19244"
+ , "c1link" : "./qc/apps/rsautl.c.html#19244"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19244] The expression hexdump applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

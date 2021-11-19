@@ -475,122 +475,101 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07487"
- , "c1link" : "./qc/apps/passwd.c.html#7487"
+   "c1" : "07516"
+ , "c1link" : "./qc/apps/passwd.c.html#7516"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07487] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07489"
- , "c1link" : "./qc/apps/passwd.c.html#7489"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07489] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07492"
- , "c1link" : "./qc/apps/passwd.c.html#7492"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07492] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07516] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "07518"
  , "c1link" : "./qc/apps/passwd.c.html#7518"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07518] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[07518] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07520"
- , "c1link" : "./qc/apps/passwd.c.html#7520"
+   "c1" : "07521"
+ , "c1link" : "./qc/apps/passwd.c.html#7521"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07520] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[07521] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07523"
- , "c1link" : "./qc/apps/passwd.c.html#7523"
+   "c1" : "07547"
+ , "c1link" : "./qc/apps/passwd.c.html#7547"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07523] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07547] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08923"
- , "c1link" : "./qc/apps/passwd.c.html#8923"
+   "c1" : "07549"
+ , "c1link" : "./qc/apps/passwd.c.html#7549"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08923] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07549] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08956"
- , "c1link" : "./qc/apps/passwd.c.html#8956"
+   "c1" : "07552"
+ , "c1link" : "./qc/apps/passwd.c.html#7552"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08956] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[07552] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19127"
- , "c1link" : "./qc/apps/passwd.c.html#19127"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19127] The pointer prog is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19141"
- , "c1link" : "./qc/apps/passwd.c.html#19141"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19141] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19145"
- , "c1link" : "./qc/apps/passwd.c.html#19145"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[19145] The switch case refers to the jump label opthelp"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19147"
- , "c1link" : "./qc/apps/passwd.c.html#19147"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19147] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19151"
- , "c1link" : "./qc/apps/passwd.c.html#19151"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19151] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19153"
- , "c1link" : "./qc/apps/passwd.c.html#19153"
+   "c1" : "08952"
+ , "c1link" : "./qc/apps/passwd.c.html#8952"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19153] The expression pw_source_defined applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08952] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19154"
- , "c1link" : "./qc/apps/passwd.c.html#19154"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19154] goto statement jump to opthelp"
+   "c1" : "08985"
+ , "c1link" : "./qc/apps/passwd.c.html#8985"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08985] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19174"
- , "c1link" : "./qc/apps/passwd.c.html#19174"
+   "c1" : "19157"
+ , "c1link" : "./qc/apps/passwd.c.html#19157"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19174] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000014[19157] The pointer prog is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19179"
- , "c1link" : "./qc/apps/passwd.c.html#19179"
+   "c1" : "19171"
+ , "c1link" : "./qc/apps/passwd.c.html#19171"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19179] goto statement jump to opthelp"
+ , "c3" : "QC-CPPCWE481[19171] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19175"
+ , "c1link" : "./qc/apps/passwd.c.html#19175"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000010[19175] The switch case refers to the jump label opthelp"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19177"
+ , "c1link" : "./qc/apps/passwd.c.html#19177"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19177] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19181"
+ , "c1link" : "./qc/apps/passwd.c.html#19181"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19181] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19183"
+ , "c1link" : "./qc/apps/passwd.c.html#19183"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19183] The expression pw_source_defined applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -601,143 +580,143 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19189"
- , "c1link" : "./qc/apps/passwd.c.html#19189"
+   "c1" : "19204"
+ , "c1link" : "./qc/apps/passwd.c.html#19204"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19189] goto statement jump to opthelp"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19194"
- , "c1link" : "./qc/apps/passwd.c.html#19194"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19194] goto statement jump to opthelp"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19202"
- , "c1link" : "./qc/apps/passwd.c.html#19202"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19202] The expression pw_source_defined applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19203"
- , "c1link" : "./qc/apps/passwd.c.html#19203"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19203] goto statement jump to opthelp"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19208"
- , "c1link" : "./qc/apps/passwd.c.html#19208"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19208] The expression  ! opt_rand(o) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000007[19204] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
    "c1" : "19209"
  , "c1link" : "./qc/apps/passwd.c.html#19209"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19209] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19209] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19212"
- , "c1link" : "./qc/apps/passwd.c.html#19212"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19212] The expression  ! opt_provider(o) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19213"
- , "c1link" : "./qc/apps/passwd.c.html#19213"
+   "c1" : "19214"
+ , "c1link" : "./qc/apps/passwd.c.html#19214"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19213] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19214] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19226"
- , "c1link" : "./qc/apps/passwd.c.html#19226"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19226] The expression pw_source_defined applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19227"
- , "c1link" : "./qc/apps/passwd.c.html#19227"
+   "c1" : "19219"
+ , "c1link" : "./qc/apps/passwd.c.html#19219"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19227] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19219] goto statement jump to opthelp"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19224"
+ , "c1link" : "./qc/apps/passwd.c.html#19224"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19224] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
    "c1" : "19232"
  , "c1link" : "./qc/apps/passwd.c.html#19232"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19232] The expression  ! app_RAND_load() applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19232] The expression pw_source_defined applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "19233"
  , "c1link" : "./qc/apps/passwd.c.html#19233"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19233] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19233] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19246"
- , "c1link" : "./qc/apps/passwd.c.html#19246"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19246] goto statement jump to end"
+   "c1" : "19238"
+ , "c1link" : "./qc/apps/passwd.c.html#19238"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19238] The expression  ! opt_rand(o) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19264"
- , "c1link" : "./qc/apps/passwd.c.html#19264"
+   "c1" : "19239"
+ , "c1link" : "./qc/apps/passwd.c.html#19239"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19264] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19239] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19242"
+ , "c1link" : "./qc/apps/passwd.c.html#19242"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19242] The expression  ! opt_provider(o) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19243"
+ , "c1link" : "./qc/apps/passwd.c.html#19243"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19243] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19256"
+ , "c1link" : "./qc/apps/passwd.c.html#19256"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19256] The expression pw_source_defined applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19257"
+ , "c1link" : "./qc/apps/passwd.c.html#19257"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19257] goto statement jump to opthelp"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19262"
+ , "c1link" : "./qc/apps/passwd.c.html#19262"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19262] The expression  ! app_RAND_load() applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19263"
+ , "c1link" : "./qc/apps/passwd.c.html#19263"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19263] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
    "c1" : "19276"
  , "c1link" : "./qc/apps/passwd.c.html#19276"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19276] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[19276] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
    "c1" : "19294"
  , "c1link" : "./qc/apps/passwd.c.html#19294"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19294] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19314"
- , "c1link" : "./qc/apps/passwd.c.html#19314"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19314] The expression 'Password: ' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19316"
- , "c1link" : "./qc/apps/passwd.c.html#19316"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19316] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19294] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19322"
- , "c1link" : "./qc/apps/passwd.c.html#19322"
+   "c1" : "19306"
+ , "c1link" : "./qc/apps/passwd.c.html#19306"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19322] goto statement jump to end"
+ , "c3" : "QC-CPPCWE481[19306] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19324"
+ , "c1link" : "./qc/apps/passwd.c.html#19324"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19324] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
    "c1" : "19344"
  , "c1link" : "./qc/apps/passwd.c.html#19344"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19344] The expression  ! do_passwd(passed_salt, &amp; salt, &amp; salt_malloc,passwd,bio_out,quiet,table,reverse,pw_maxlen, mode ) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[19344] The expression 'Password: ' is invariable"
 }} 
 ,
 { "ligne" : {
@@ -748,52 +727,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19383"
- , "c1link" : "./qc/apps/passwd.c.html#19383"
+   "c1" : "19352"
+ , "c1link" : "./qc/apps/passwd.c.html#19352"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19352] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19374"
+ , "c1link" : "./qc/apps/passwd.c.html#19374"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19383] The expression  ! do_passwd(passed_salt, &amp; salt, &amp; salt_malloc,passwd,bio_out,quiet,table,reverse,pw_maxlen, mode ) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19374] The expression  ! do_passwd(passed_salt, &amp; salt, &amp; salt_malloc,passwd,bio_out,quiet,table,reverse,pw_maxlen, mode ) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19386"
- , "c1link" : "./qc/apps/passwd.c.html#19386"
+   "c1" : "19376"
+ , "c1link" : "./qc/apps/passwd.c.html#19376"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19386] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19376] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19389"
- , "c1link" : "./qc/apps/passwd.c.html#19389"
+   "c1" : "19413"
+ , "c1link" : "./qc/apps/passwd.c.html#19413"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19389] The expression  ! done applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19413] The expression  ! do_passwd(passed_salt, &amp; salt, &amp; salt_malloc,passwd,bio_out,quiet,table,reverse,pw_maxlen, mode ) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19415"
- , "c1link" : "./qc/apps/passwd.c.html#19415"
+   "c1" : "19416"
+ , "c1link" : "./qc/apps/passwd.c.html#19416"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19415] The pointer salt_out is declared but not initialized"
+ , "c3" : "QC-CPP000007[19416] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19447"
- , "c1link" : "./qc/apps/passwd.c.html#19447"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19447] goto statement jump to err"
+   "c1" : "19419"
+ , "c1link" : "./qc/apps/passwd.c.html#19419"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19419] The expression  ! done applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19456"
- , "c1link" : "./qc/apps/passwd.c.html#19456"
+   "c1" : "19445"
+ , "c1link" : "./qc/apps/passwd.c.html#19445"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19456] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19463"
- , "c1link" : "./qc/apps/passwd.c.html#19463"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19463] goto statement jump to err"
+ , "c3" : "QC-CPP000014[19445] The pointer salt_out is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -804,38 +783,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19480"
- , "c1link" : "./qc/apps/passwd.c.html#19480"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19480] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19482"
- , "c1link" : "./qc/apps/passwd.c.html#19482"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19482] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19483"
- , "c1link" : "./qc/apps/passwd.c.html#19483"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19483] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19485"
- , "c1link" : "./qc/apps/passwd.c.html#19485"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19485] The expression  ! EVP_DigestUpdate(md,ascii_salt,salt_len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "19486"
  , "c1link" : "./qc/apps/passwd.c.html#19486"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19486] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19493"
+ , "c1link" : "./qc/apps/passwd.c.html#19493"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19493] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
@@ -849,259 +807,245 @@ var maDataBlocs = {
    "c1" : "19510"
  , "c1link" : "./qc/apps/passwd.c.html#19510"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19510] The expression  ! EVP_DigestUpdate(md,buf, sizeof (buf)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[19510] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19511"
- , "c1link" : "./qc/apps/passwd.c.html#19511"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19511] goto statement jump to err"
+   "c1" : "19512"
+ , "c1link" : "./qc/apps/passwd.c.html#19512"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19512] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
    "c1" : "19513"
  , "c1link" : "./qc/apps/passwd.c.html#19513"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19513] The expression  ! EVP_DigestUpdate(md,buf,i) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19514"
- , "c1link" : "./qc/apps/passwd.c.html#19514"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19514] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19513] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19517"
- , "c1link" : "./qc/apps/passwd.c.html#19517"
+   "c1" : "19515"
+ , "c1link" : "./qc/apps/passwd.c.html#19515"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19517] The expression n applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19515] The expression  ! EVP_DigestUpdate(md,ascii_salt,salt_len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19518"
- , "c1link" : "./qc/apps/passwd.c.html#19518"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19518] The expression  ! EVP_DigestUpdate(md,(n&amp;1)?'\0' : passwd,1) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19518"
- , "c1link" : "./qc/apps/passwd.c.html#19518"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19518] The expression '\0' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19518"
- , "c1link" : "./qc/apps/passwd.c.html#19518"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19518] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19519"
- , "c1link" : "./qc/apps/passwd.c.html#19519"
+   "c1" : "19516"
+ , "c1link" : "./qc/apps/passwd.c.html#19516"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19519] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19516] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19522"
- , "c1link" : "./qc/apps/passwd.c.html#19522"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19522] The expression  ! EVP_DigestFinal_ex(md,buf,(( void  *)0)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19534"
- , "c1link" : "./qc/apps/passwd.c.html#19534"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19534] The expression  ! EVP_DigestInit_ex(md2,EVP_md5(),(( void  *)0)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19539"
- , "c1link" : "./qc/apps/passwd.c.html#19539"
+   "c1" : "19537"
+ , "c1link" : "./qc/apps/passwd.c.html#19537"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19539] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19537] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "19540"
  , "c1link" : "./qc/apps/passwd.c.html#19540"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19540] The expression  ! EVP_DigestUpdate(md2,(i&amp;1)?( const  unsigned  char  *)passwd : buf,(i&amp;1)?passwd_len :  sizeof (buf)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19540] The expression  ! EVP_DigestUpdate(md,buf, sizeof (buf)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19541"
+ , "c1link" : "./qc/apps/passwd.c.html#19541"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19541] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "19543"
  , "c1link" : "./qc/apps/passwd.c.html#19543"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19543] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19545"
- , "c1link" : "./qc/apps/passwd.c.html#19545"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19545] The expression  ! EVP_DigestUpdate(md2,ascii_salt,salt_len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19543] The expression  ! EVP_DigestUpdate(md,buf,i) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19546"
- , "c1link" : "./qc/apps/passwd.c.html#19546"
+   "c1" : "19544"
+ , "c1link" : "./qc/apps/passwd.c.html#19544"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19546] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19544] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19547"
+ , "c1link" : "./qc/apps/passwd.c.html#19547"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19547] The expression n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19548"
+ , "c1link" : "./qc/apps/passwd.c.html#19548"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19548] The expression  ! EVP_DigestUpdate(md,(n&amp;1)?'\0' : passwd,1) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19548"
+ , "c1link" : "./qc/apps/passwd.c.html#19548"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19548] The expression '\0' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19548"
+ , "c1link" : "./qc/apps/passwd.c.html#19548"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19548] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
    "c1" : "19549"
  , "c1link" : "./qc/apps/passwd.c.html#19549"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19549] The expression  ! EVP_DigestUpdate(md2,passwd,passwd_len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19550"
- , "c1link" : "./qc/apps/passwd.c.html#19550"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19550] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19549] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "19552"
  , "c1link" : "./qc/apps/passwd.c.html#19552"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19552] The expression  ! EVP_DigestUpdate(md2,(i&amp;1)?buf : ( const  unsigned  char  *)passwd,(i&amp;1)? sizeof (buf) : passwd_len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19552] The expression  ! EVP_DigestFinal_ex(md,buf,(( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19555"
- , "c1link" : "./qc/apps/passwd.c.html#19555"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19555] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19556"
- , "c1link" : "./qc/apps/passwd.c.html#19556"
+   "c1" : "19564"
+ , "c1link" : "./qc/apps/passwd.c.html#19564"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19556] The expression  ! EVP_DigestFinal_ex(md2,buf,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19564] The expression  ! EVP_DigestInit_ex(md2,EVP_md5(),(( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19561"
- , "c1link" : "./qc/apps/passwd.c.html#19561"
+   "c1" : "19569"
+ , "c1link" : "./qc/apps/passwd.c.html#19569"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19561] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19569] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19570"
+ , "c1link" : "./qc/apps/passwd.c.html#19570"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19570] The expression  ! EVP_DigestUpdate(md2,(i&amp;1)?( const  unsigned  char  *)passwd : buf,(i&amp;1)?passwd_len :  sizeof (buf)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19573"
+ , "c1link" : "./qc/apps/passwd.c.html#19573"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19573] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19575"
+ , "c1link" : "./qc/apps/passwd.c.html#19575"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19575] The expression  ! EVP_DigestUpdate(md2,ascii_salt,salt_len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19576"
+ , "c1link" : "./qc/apps/passwd.c.html#19576"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19576] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19579"
+ , "c1link" : "./qc/apps/passwd.c.html#19579"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19579] The expression  ! EVP_DigestUpdate(md2,passwd,passwd_len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "19580"
  , "c1link" : "./qc/apps/passwd.c.html#19580"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19580] The pointer output is declared but not initialized"
+ , "c3" : "QC-CPP000007[19580] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19730"
- , "c1link" : "./qc/apps/passwd.c.html#19730"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19730] The pointer endp is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19764"
- , "c1link" : "./qc/apps/passwd.c.html#19764"
+   "c1" : "19582"
+ , "c1link" : "./qc/apps/passwd.c.html#19582"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19764] The expression rounds_custom applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19582] The expression  ! EVP_DigestUpdate(md2,(i&amp;1)?buf : ( const  unsigned  char  *)passwd,(i&amp;1)? sizeof (buf) : passwd_len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19779"
- , "c1link" : "./qc/apps/passwd.c.html#19779"
+   "c1" : "19585"
+ , "c1link" : "./qc/apps/passwd.c.html#19585"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19779] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19585] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19586"
+ , "c1link" : "./qc/apps/passwd.c.html#19586"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19586] The expression  ! EVP_DigestFinal_ex(md2,buf,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19591"
+ , "c1link" : "./qc/apps/passwd.c.html#19591"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19591] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19610"
+ , "c1link" : "./qc/apps/passwd.c.html#19610"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[19610] The pointer output is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19760"
+ , "c1link" : "./qc/apps/passwd.c.html#19760"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[19760] The pointer endp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "19794"
  , "c1link" : "./qc/apps/passwd.c.html#19794"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19794] The expression rounds_custom applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19809"
+ , "c1link" : "./qc/apps/passwd.c.html#19809"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19794] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19809] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19815"
- , "c1link" : "./qc/apps/passwd.c.html#19815"
+   "c1" : "19824"
+ , "c1link" : "./qc/apps/passwd.c.html#19824"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19815] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19824] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19818"
- , "c1link" : "./qc/apps/passwd.c.html#19818"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19818] The expression  ! EVP_DigestUpdate(md,buf,buf_size) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19819"
- , "c1link" : "./qc/apps/passwd.c.html#19819"
+   "c1" : "19845"
+ , "c1link" : "./qc/apps/passwd.c.html#19845"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19819] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19845] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19821"
- , "c1link" : "./qc/apps/passwd.c.html#19821"
+   "c1" : "19848"
+ , "c1link" : "./qc/apps/passwd.c.html#19848"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19821] The expression  ! EVP_DigestUpdate(md,buf,n) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19822"
- , "c1link" : "./qc/apps/passwd.c.html#19822"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19822] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19825"
- , "c1link" : "./qc/apps/passwd.c.html#19825"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19825] The expression n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19826"
- , "c1link" : "./qc/apps/passwd.c.html#19826"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19826] The expression  ! EVP_DigestUpdate(md,(n&amp;1)?buf : ( const  unsigned  char  *)passwd,(n&amp;1)?buf_size : passwd_len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19829"
- , "c1link" : "./qc/apps/passwd.c.html#19829"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19829] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19832"
- , "c1link" : "./qc/apps/passwd.c.html#19832"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19832] The expression  ! EVP_DigestFinal_ex(md,buf,(( void  *)0)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19844"
- , "c1link" : "./qc/apps/passwd.c.html#19844"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19844] The expression  ! EVP_DigestInit_ex(md2,sha,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19848] The expression  ! EVP_DigestUpdate(md,buf,buf_size) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1112,563 +1056,227 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19852"
- , "c1link" : "./qc/apps/passwd.c.html#19852"
+   "c1" : "19851"
+ , "c1link" : "./qc/apps/passwd.c.html#19851"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19852] The expression  ! EVP_DigestUpdate(md2,passwd,passwd_len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19851] The expression  ! EVP_DigestUpdate(md,buf,n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19853"
- , "c1link" : "./qc/apps/passwd.c.html#19853"
+   "c1" : "19852"
+ , "c1link" : "./qc/apps/passwd.c.html#19852"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19853] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19852] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "19855"
  , "c1link" : "./qc/apps/passwd.c.html#19855"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19855] The expression  ! EVP_DigestFinal_ex(md2,temp_buf,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19855] The expression n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19866"
- , "c1link" : "./qc/apps/passwd.c.html#19866"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19866] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19871"
- , "c1link" : "./qc/apps/passwd.c.html#19871"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19871] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19877"
- , "c1link" : "./qc/apps/passwd.c.html#19877"
+   "c1" : "19856"
+ , "c1link" : "./qc/apps/passwd.c.html#19856"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19877] The expression  ! EVP_DigestInit_ex(md2,sha,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19856] The expression  ! EVP_DigestUpdate(md,(n&amp;1)?buf : ( const  unsigned  char  *)passwd,(n&amp;1)?buf_size : passwd_len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19859"
+ , "c1link" : "./qc/apps/passwd.c.html#19859"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19859] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19862"
+ , "c1link" : "./qc/apps/passwd.c.html#19862"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19862] The expression  ! EVP_DigestFinal_ex(md,buf,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19874"
+ , "c1link" : "./qc/apps/passwd.c.html#19874"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19874] The expression  ! EVP_DigestInit_ex(md2,sha,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19879"
+ , "c1link" : "./qc/apps/passwd.c.html#19879"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19879] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "19882"
  , "c1link" : "./qc/apps/passwd.c.html#19882"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19882] The expression  ! EVP_DigestUpdate(md2,passwd,passwd_len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19883"
+ , "c1link" : "./qc/apps/passwd.c.html#19883"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19882] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19883] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "19885"
  , "c1link" : "./qc/apps/passwd.c.html#19885"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19885] The expression  ! EVP_DigestUpdate(md2,ascii_salt,salt_len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19885] The expression  ! EVP_DigestFinal_ex(md2,temp_buf,(( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19886"
- , "c1link" : "./qc/apps/passwd.c.html#19886"
+   "c1" : "19896"
+ , "c1link" : "./qc/apps/passwd.c.html#19896"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19886] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[19896] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19888"
- , "c1link" : "./qc/apps/passwd.c.html#19888"
+   "c1" : "19901"
+ , "c1link" : "./qc/apps/passwd.c.html#19901"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19901] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19907"
+ , "c1link" : "./qc/apps/passwd.c.html#19907"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19888] The expression  ! EVP_DigestFinal_ex(md2,temp_buf,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19907] The expression  ! EVP_DigestInit_ex(md2,sha,(( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19899"
- , "c1link" : "./qc/apps/passwd.c.html#19899"
+   "c1" : "19912"
+ , "c1link" : "./qc/apps/passwd.c.html#19912"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19899] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19904"
- , "c1link" : "./qc/apps/passwd.c.html#19904"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19904] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19910"
- , "c1link" : "./qc/apps/passwd.c.html#19910"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19910] The expression  ! EVP_DigestInit_ex(md2,sha,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000007[19912] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "19915"
  , "c1link" : "./qc/apps/passwd.c.html#19915"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19915] goto statement jump to err"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19915] The expression  ! EVP_DigestUpdate(md2,ascii_salt,salt_len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "19916"
  , "c1link" : "./qc/apps/passwd.c.html#19916"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19916] The expression  ! EVP_DigestUpdate(md2,(n&amp;1)?( const  unsigned  char  *)p_bytes : buf,(n&amp;1)?passwd_len : buf_size) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19919"
- , "c1link" : "./qc/apps/passwd.c.html#19919"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19919] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19916] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19921"
- , "c1link" : "./qc/apps/passwd.c.html#19921"
+   "c1" : "19918"
+ , "c1link" : "./qc/apps/passwd.c.html#19918"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19921] The expression  ! EVP_DigestUpdate(md2,s_bytes,salt_len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19918] The expression  ! EVP_DigestFinal_ex(md2,temp_buf,(( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19922"
- , "c1link" : "./qc/apps/passwd.c.html#19922"
+   "c1" : "19929"
+ , "c1link" : "./qc/apps/passwd.c.html#19929"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19922] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[19929] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19925"
- , "c1link" : "./qc/apps/passwd.c.html#19925"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19925] The expression  ! EVP_DigestUpdate(md2,p_bytes,passwd_len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19926"
- , "c1link" : "./qc/apps/passwd.c.html#19926"
+   "c1" : "19934"
+ , "c1link" : "./qc/apps/passwd.c.html#19934"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19926] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19934] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19928"
- , "c1link" : "./qc/apps/passwd.c.html#19928"
+   "c1" : "19940"
+ , "c1link" : "./qc/apps/passwd.c.html#19940"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19928] The expression  ! EVP_DigestUpdate(md2,(n&amp;1)?buf : ( const  unsigned  char  *)p_bytes,(n&amp;1)?buf_size : passwd_len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19940] The expression  ! EVP_DigestInit_ex(md2,sha,(( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19931"
- , "c1link" : "./qc/apps/passwd.c.html#19931"
+   "c1" : "19945"
+ , "c1link" : "./qc/apps/passwd.c.html#19945"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19931] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19945] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19932"
- , "c1link" : "./qc/apps/passwd.c.html#19932"
+   "c1" : "19946"
+ , "c1link" : "./qc/apps/passwd.c.html#19946"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19932] The expression  ! EVP_DigestFinal_ex(md2,buf,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19946] The expression  ! EVP_DigestUpdate(md2,(n&amp;1)?( const  unsigned  char  *)p_bytes : buf,(n&amp;1)?passwd_len : buf_size) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19937"
- , "c1link" : "./qc/apps/passwd.c.html#19937"
+   "c1" : "19949"
+ , "c1link" : "./qc/apps/passwd.c.html#19949"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19937] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19949] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19969"
- , "c1link" : "./qc/apps/passwd.c.html#19969"
+   "c1" : "19951"
+ , "c1link" : "./qc/apps/passwd.c.html#19951"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19969] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000011[19951] The expression  ! EVP_DigestUpdate(md2,s_bytes,salt_len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19969"
- , "c1link" : "./qc/apps/passwd.c.html#19969"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19969] The expression 0 is invariable, always false"
+   "c1" : "19952"
+ , "c1link" : "./qc/apps/passwd.c.html#19952"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19952] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19970"
- , "c1link" : "./qc/apps/passwd.c.html#19970"
+   "c1" : "19955"
+ , "c1link" : "./qc/apps/passwd.c.html#19955"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19970] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000011[19955] The expression  ! EVP_DigestUpdate(md2,p_bytes,passwd_len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19970"
- , "c1link" : "./qc/apps/passwd.c.html#19970"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19970] The expression 0 is invariable, always false"
+   "c1" : "19956"
+ , "c1link" : "./qc/apps/passwd.c.html#19956"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19956] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19971"
- , "c1link" : "./qc/apps/passwd.c.html#19971"
+   "c1" : "19958"
+ , "c1link" : "./qc/apps/passwd.c.html#19958"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19971] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000011[19958] The expression  ! EVP_DigestUpdate(md2,(n&amp;1)?buf : ( const  unsigned  char  *)p_bytes,(n&amp;1)?buf_size : passwd_len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19971"
- , "c1link" : "./qc/apps/passwd.c.html#19971"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19971] The expression 0 is invariable, always false"
+   "c1" : "19961"
+ , "c1link" : "./qc/apps/passwd.c.html#19961"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19961] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19972"
- , "c1link" : "./qc/apps/passwd.c.html#19972"
+   "c1" : "19962"
+ , "c1link" : "./qc/apps/passwd.c.html#19962"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19972] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000011[19962] The expression  ! EVP_DigestFinal_ex(md2,buf,(( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19972"
- , "c1link" : "./qc/apps/passwd.c.html#19972"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19972] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19973"
- , "c1link" : "./qc/apps/passwd.c.html#19973"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19973] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19973"
- , "c1link" : "./qc/apps/passwd.c.html#19973"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19973] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19974"
- , "c1link" : "./qc/apps/passwd.c.html#19974"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19974] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19974"
- , "c1link" : "./qc/apps/passwd.c.html#19974"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19974] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19975"
- , "c1link" : "./qc/apps/passwd.c.html#19975"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19975] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19975"
- , "c1link" : "./qc/apps/passwd.c.html#19975"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19975] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19976"
- , "c1link" : "./qc/apps/passwd.c.html#19976"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19976] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19976"
- , "c1link" : "./qc/apps/passwd.c.html#19976"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19976] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19977"
- , "c1link" : "./qc/apps/passwd.c.html#19977"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19977] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19977"
- , "c1link" : "./qc/apps/passwd.c.html#19977"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19977] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19978"
- , "c1link" : "./qc/apps/passwd.c.html#19978"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19978] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19978"
- , "c1link" : "./qc/apps/passwd.c.html#19978"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19978] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19979"
- , "c1link" : "./qc/apps/passwd.c.html#19979"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19979] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19979"
- , "c1link" : "./qc/apps/passwd.c.html#19979"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19979] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19982"
- , "c1link" : "./qc/apps/passwd.c.html#19982"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19982] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19982"
- , "c1link" : "./qc/apps/passwd.c.html#19982"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19982] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19983"
- , "c1link" : "./qc/apps/passwd.c.html#19983"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19983] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19983"
- , "c1link" : "./qc/apps/passwd.c.html#19983"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19983] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19984"
- , "c1link" : "./qc/apps/passwd.c.html#19984"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19984] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19984"
- , "c1link" : "./qc/apps/passwd.c.html#19984"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19984] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19985"
- , "c1link" : "./qc/apps/passwd.c.html#19985"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19985] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19985"
- , "c1link" : "./qc/apps/passwd.c.html#19985"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19985] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19986"
- , "c1link" : "./qc/apps/passwd.c.html#19986"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19986] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19986"
- , "c1link" : "./qc/apps/passwd.c.html#19986"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19986] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19987"
- , "c1link" : "./qc/apps/passwd.c.html#19987"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19987] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19987"
- , "c1link" : "./qc/apps/passwd.c.html#19987"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19987] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19988"
- , "c1link" : "./qc/apps/passwd.c.html#19988"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19988] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19988"
- , "c1link" : "./qc/apps/passwd.c.html#19988"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19988] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19989"
- , "c1link" : "./qc/apps/passwd.c.html#19989"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19989] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19989"
- , "c1link" : "./qc/apps/passwd.c.html#19989"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19989] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19990"
- , "c1link" : "./qc/apps/passwd.c.html#19990"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19990] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19990"
- , "c1link" : "./qc/apps/passwd.c.html#19990"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19990] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19991"
- , "c1link" : "./qc/apps/passwd.c.html#19991"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19991] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19991"
- , "c1link" : "./qc/apps/passwd.c.html#19991"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19991] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19992"
- , "c1link" : "./qc/apps/passwd.c.html#19992"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19992] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19992"
- , "c1link" : "./qc/apps/passwd.c.html#19992"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19992] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19993"
- , "c1link" : "./qc/apps/passwd.c.html#19993"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19993] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19993"
- , "c1link" : "./qc/apps/passwd.c.html#19993"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19993] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19994"
- , "c1link" : "./qc/apps/passwd.c.html#19994"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19994] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19994"
- , "c1link" : "./qc/apps/passwd.c.html#19994"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19994] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19995"
- , "c1link" : "./qc/apps/passwd.c.html#19995"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19995] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19995"
- , "c1link" : "./qc/apps/passwd.c.html#19995"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19995] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19996"
- , "c1link" : "./qc/apps/passwd.c.html#19996"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19996] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19996"
- , "c1link" : "./qc/apps/passwd.c.html#19996"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19996] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19997"
- , "c1link" : "./qc/apps/passwd.c.html#19997"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19997] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19997"
- , "c1link" : "./qc/apps/passwd.c.html#19997"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19997] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19998"
- , "c1link" : "./qc/apps/passwd.c.html#19998"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19998] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19998"
- , "c1link" : "./qc/apps/passwd.c.html#19998"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19998] The expression 0 is invariable, always false"
+   "c1" : "19967"
+ , "c1link" : "./qc/apps/passwd.c.html#19967"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19967] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
@@ -1742,38 +1350,430 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "20004"
+ , "c1link" : "./qc/apps/passwd.c.html#20004"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20004] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20004"
+ , "c1link" : "./qc/apps/passwd.c.html#20004"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20004] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20005"
+ , "c1link" : "./qc/apps/passwd.c.html#20005"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20005] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20005"
+ , "c1link" : "./qc/apps/passwd.c.html#20005"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20005] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "20006"
  , "c1link" : "./qc/apps/passwd.c.html#20006"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20006] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20050"
- , "c1link" : "./qc/apps/passwd.c.html#20050"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20050] The expression  ! passed_salt applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000006[20006] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20071"
- , "c1link" : "./qc/apps/passwd.c.html#20071"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20071] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20073"
- , "c1link" : "./qc/apps/passwd.c.html#20073"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20073] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20092"
- , "c1link" : "./qc/apps/passwd.c.html#20092"
+   "c1" : "20006"
+ , "c1link" : "./qc/apps/passwd.c.html#20006"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20092] The expression  ! quiet applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[20006] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20007"
+ , "c1link" : "./qc/apps/passwd.c.html#20007"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20007] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20007"
+ , "c1link" : "./qc/apps/passwd.c.html#20007"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20007] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20008"
+ , "c1link" : "./qc/apps/passwd.c.html#20008"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20008] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20008"
+ , "c1link" : "./qc/apps/passwd.c.html#20008"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20008] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20009"
+ , "c1link" : "./qc/apps/passwd.c.html#20009"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20009] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20009"
+ , "c1link" : "./qc/apps/passwd.c.html#20009"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20009] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20012"
+ , "c1link" : "./qc/apps/passwd.c.html#20012"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20012] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20012"
+ , "c1link" : "./qc/apps/passwd.c.html#20012"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20012] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20013"
+ , "c1link" : "./qc/apps/passwd.c.html#20013"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20013] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20013"
+ , "c1link" : "./qc/apps/passwd.c.html#20013"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20013] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20014"
+ , "c1link" : "./qc/apps/passwd.c.html#20014"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20014] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20014"
+ , "c1link" : "./qc/apps/passwd.c.html#20014"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20014] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20015"
+ , "c1link" : "./qc/apps/passwd.c.html#20015"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20015] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20015"
+ , "c1link" : "./qc/apps/passwd.c.html#20015"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20015] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20016"
+ , "c1link" : "./qc/apps/passwd.c.html#20016"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20016] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20016"
+ , "c1link" : "./qc/apps/passwd.c.html#20016"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20016] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20017"
+ , "c1link" : "./qc/apps/passwd.c.html#20017"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20017] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20017"
+ , "c1link" : "./qc/apps/passwd.c.html#20017"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20017] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20018"
+ , "c1link" : "./qc/apps/passwd.c.html#20018"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20018] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20018"
+ , "c1link" : "./qc/apps/passwd.c.html#20018"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20018] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20019"
+ , "c1link" : "./qc/apps/passwd.c.html#20019"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20019] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20019"
+ , "c1link" : "./qc/apps/passwd.c.html#20019"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20019] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20020"
+ , "c1link" : "./qc/apps/passwd.c.html#20020"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20020] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20020"
+ , "c1link" : "./qc/apps/passwd.c.html#20020"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20020] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20021"
+ , "c1link" : "./qc/apps/passwd.c.html#20021"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20021] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20021"
+ , "c1link" : "./qc/apps/passwd.c.html#20021"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20021] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20022"
+ , "c1link" : "./qc/apps/passwd.c.html#20022"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20022] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20022"
+ , "c1link" : "./qc/apps/passwd.c.html#20022"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20022] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20023"
+ , "c1link" : "./qc/apps/passwd.c.html#20023"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20023] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20023"
+ , "c1link" : "./qc/apps/passwd.c.html#20023"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20023] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20024"
+ , "c1link" : "./qc/apps/passwd.c.html#20024"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20024] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20024"
+ , "c1link" : "./qc/apps/passwd.c.html#20024"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20024] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20025"
+ , "c1link" : "./qc/apps/passwd.c.html#20025"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20025] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20025"
+ , "c1link" : "./qc/apps/passwd.c.html#20025"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20025] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20026"
+ , "c1link" : "./qc/apps/passwd.c.html#20026"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20026] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20026"
+ , "c1link" : "./qc/apps/passwd.c.html#20026"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20026] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20027"
+ , "c1link" : "./qc/apps/passwd.c.html#20027"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20027] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20027"
+ , "c1link" : "./qc/apps/passwd.c.html#20027"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20027] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20028"
+ , "c1link" : "./qc/apps/passwd.c.html#20028"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20028] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20028"
+ , "c1link" : "./qc/apps/passwd.c.html#20028"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20028] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20029"
+ , "c1link" : "./qc/apps/passwd.c.html#20029"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20029] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20029"
+ , "c1link" : "./qc/apps/passwd.c.html#20029"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20029] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20030"
+ , "c1link" : "./qc/apps/passwd.c.html#20030"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20030] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20030"
+ , "c1link" : "./qc/apps/passwd.c.html#20030"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20030] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20031"
+ , "c1link" : "./qc/apps/passwd.c.html#20031"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20031] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20031"
+ , "c1link" : "./qc/apps/passwd.c.html#20031"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20031] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20032"
+ , "c1link" : "./qc/apps/passwd.c.html#20032"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20032] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20032"
+ , "c1link" : "./qc/apps/passwd.c.html#20032"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20032] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20033"
+ , "c1link" : "./qc/apps/passwd.c.html#20033"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[20033] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20033"
+ , "c1link" : "./qc/apps/passwd.c.html#20033"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20033] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20036"
+ , "c1link" : "./qc/apps/passwd.c.html#20036"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20036] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20080"
+ , "c1link" : "./qc/apps/passwd.c.html#20080"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20080] The expression  ! passed_salt applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20101"
+ , "c1link" : "./qc/apps/passwd.c.html#20101"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[20101] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20103"
+ , "c1link" : "./qc/apps/passwd.c.html#20103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20103] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20122"
+ , "c1link" : "./qc/apps/passwd.c.html#20122"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20122] The expression  ! quiet applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

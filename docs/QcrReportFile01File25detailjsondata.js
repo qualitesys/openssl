@@ -440,73 +440,73 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07227"
- , "c1link" : "./qc/apps/lib/app_provider.c.html#7227"
+   "c1" : "06196"
+ , "c1link" : "./qc/apps/lib/app_provider.c.html#6196"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07227] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[06196] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07229"
- , "c1link" : "./qc/apps/lib/app_provider.c.html#7229"
+   "c1" : "07528"
+ , "c1link" : "./qc/apps/lib/app_provider.c.html#7528"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07229] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[07528] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07232"
- , "c1link" : "./qc/apps/lib/app_provider.c.html#7232"
+   "c1" : "07530"
+ , "c1link" : "./qc/apps/lib/app_provider.c.html#7530"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07232] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[07530] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07258"
- , "c1link" : "./qc/apps/lib/app_provider.c.html#7258"
+   "c1" : "07533"
+ , "c1link" : "./qc/apps/lib/app_provider.c.html#7533"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07258] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07533] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07260"
- , "c1link" : "./qc/apps/lib/app_provider.c.html#7260"
+   "c1" : "07559"
+ , "c1link" : "./qc/apps/lib/app_provider.c.html#7559"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07260] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[07559] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07263"
- , "c1link" : "./qc/apps/lib/app_provider.c.html#7263"
+   "c1" : "07561"
+ , "c1link" : "./qc/apps/lib/app_provider.c.html#7561"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07263] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[07561] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08279"
- , "c1link" : "./qc/apps/lib/app_provider.c.html#8279"
+   "c1" : "07564"
+ , "c1link" : "./qc/apps/lib/app_provider.c.html#7564"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08279] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07564] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08940"
- , "c1link" : "./qc/apps/lib/app_provider.c.html#8940"
+   "c1" : "08964"
+ , "c1link" : "./qc/apps/lib/app_provider.c.html#8964"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08940] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08964] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08973"
- , "c1link" : "./qc/apps/lib/app_provider.c.html#8973"
+   "c1" : "08997"
+ , "c1link" : "./qc/apps/lib/app_provider.c.html#8997"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08973] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08997] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18799"
- , "c1link" : "./qc/apps/lib/app_provider.c.html#18799"
+   "c1" : "18824"
+ , "c1link" : "./qc/apps/lib/app_provider.c.html#18824"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18799] The pointer prov is declared but not initialized"
+ , "c3" : "QC-CPP000014[18824] The pointer prov is declared but not initialized"
 }} 
 ]
 };

@@ -496,24 +496,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10638"
- , "c1link" : "./qc/crypto/bio/bss_log.c.html#10638"
+   "c1" : "10649"
+ , "c1link" : "./qc/crypto/bio/bss_log.c.html#10649"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10638] The pointer buf is declared but not initialized"
+ , "c3" : "QC-CPP000014[10649] The pointer buf is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10639"
- , "c1link" : "./qc/crypto/bio/bss_log.c.html#10639"
+   "c1" : "10650"
+ , "c1link" : "./qc/crypto/bio/bss_log.c.html#10650"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10639] The pointer pp is declared but not initialized"
+ , "c3" : "QC-CPP000014[10650] The pointer pp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10791"
- , "c1link" : "./qc/crypto/bio/bss_log.c.html#10791"
+   "c1" : "10802"
+ , "c1link" : "./qc/crypto/bio/bss_log.c.html#10802"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10791] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10802] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

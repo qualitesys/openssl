@@ -230,45 +230,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09201"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#9201"
+   "c1" : "09204"
+ , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#9204"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09201] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[09204] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09216"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#9216"
+   "c1" : "09219"
+ , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#9219"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09216] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[09219] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09232"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#9232"
+   "c1" : "09235"
+ , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#9235"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09232] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[09235] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09248"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#9248"
+   "c1" : "09251"
+ , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#9251"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09248] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[09251] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09263"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#9263"
+   "c1" : "09266"
+ , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#9266"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09263] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[09266] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09279"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#9279"
+   "c1" : "09282"
+ , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#9282"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09279] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[09282] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

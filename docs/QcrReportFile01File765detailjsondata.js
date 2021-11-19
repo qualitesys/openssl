@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/engines/e_dasync.c.html" 
- , "texte" : "File engines/e_dasync.c 100 rule violations " 
+ , "texte" : "File engines/e_dasync.c 102 rule violations " 
  , "fic2"  : "./qc/engines/e_dasync.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "56"
+ , "c4" : "58"
 }}
 ,
 { "ligne" : {
@@ -531,262 +531,276 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17517"
- , "c1link" : "./qc/engines/e_dasync.c.html#17517"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17517] The expression 20 is invariable"
-}} 
-,
-{ "ligne" : {
    "c1" : "17518"
  , "c1link" : "./qc/engines/e_dasync.c.html#17518"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17518] The expression (16 * 4) is invariable"
+ , "c3" : "QC-CPP000012[17518] The expression 20 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17521"
- , "c1link" : "./qc/engines/e_dasync.c.html#17521"
+   "c1" : "17519"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17519"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17521] The expression 0x0008 is invariable"
+ , "c3" : "QC-CPP000012[17519] The expression (16 * 4) is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17543"
- , "c1link" : "./qc/engines/e_dasync.c.html#17543"
+   "c1" : "17522"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17522"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[17543] Suspicious bitwise operation with value 0, result is a|0 = a"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17541"
- , "c1link" : "./qc/engines/e_dasync.c.html#17541"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17541] The expression 16 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17543"
- , "c1link" : "./qc/engines/e_dasync.c.html#17543"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17543] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[17522] The expression 0x0008 is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "17544"
  , "c1link" : "./qc/engines/e_dasync.c.html#17544"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17544] The expression 0x2 is invariable"
+ , "c3" : "QC-CPP000008[17544] Suspicious bitwise operation with value 0, result is a|0 = a"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17542"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17542"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[17542] The expression 16 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17544"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17544"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[17544] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "17545"
  , "c1link" : "./qc/engines/e_dasync.c.html#17545"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17545] The expression 0X800000 is invariable"
+ , "c3" : "QC-CPP000012[17545] The expression 0x2 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17575"
- , "c1link" : "./qc/engines/e_dasync.c.html#17575"
+   "c1" : "17546"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17546"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[17575] Suspicious bitwise operation with value 0, result is a|0 = a"
+ , "c3" : "QC-CPP000012[17546] The expression 0X800000 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17573"
- , "c1link" : "./qc/engines/e_dasync.c.html#17573"
+   "c1" : "17547"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17547"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17573] The expression 16 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17575"
- , "c1link" : "./qc/engines/e_dasync.c.html#17575"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17575] The expression 0x2 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17576"
- , "c1link" : "./qc/engines/e_dasync.c.html#17576"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17576] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[17547] The expression 0x400 is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "17577"
  , "c1link" : "./qc/engines/e_dasync.c.html#17577"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17577] The expression 0x200000 is invariable"
+ , "c3" : "QC-CPP000008[17577] Suspicious bitwise operation with value 0, result is a|0 = a"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17575"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17575"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[17575] The expression 16 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17577"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17577"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[17577] The expression 0x2 is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "17578"
  , "c1link" : "./qc/engines/e_dasync.c.html#17578"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17578] The expression 0X800000 is invariable"
+ , "c3" : "QC-CPP000012[17578] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17620"
- , "c1link" : "./qc/engines/e_dasync.c.html#17620"
+   "c1" : "17579"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17579"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17620] The expression  ! bind_dasync(e) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[17579] The expression 0x200000 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17580"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17580"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[17580] The expression 0X800000 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17581"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17581"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[17581] The expression 0x400 is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "17626"
  , "c1link" : "./qc/engines/e_dasync.c.html#17626"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17626] The expression  ! bind_dasync(e) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17632"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17632"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17626] goto statement jump to skip_cbs"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17626"
- , "c1link" : "./qc/engines/e_dasync.c.html#17626"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17626] The expression  ! bind_helper(e,id) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000007[17632] goto statement jump to skip_cbs"
 }} 
 ,
 { "ligne" : {
    "c1" : "17632"
  , "c1link" : "./qc/engines/e_dasync.c.html#17632"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17632] The expression  ! ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17632] The expression  ! bind_helper(e,id) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "17638"
  , "c1link" : "./qc/engines/e_dasync.c.html#17638"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17638] The expression  ! bind_dasync(ret) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17638] The expression  ! ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17652"
- , "c1link" : "./qc/engines/e_dasync.c.html#17652"
+   "c1" : "17644"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17644"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17652] The expression  ! toadd applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17644] The expression  ! bind_dasync(ret) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17721"
- , "c1link" : "./qc/engines/e_dasync.c.html#17721"
+   "c1" : "17658"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17658"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17721] The expression  ! digest applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17658] The expression  ! toadd applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17793"
- , "c1link" : "./qc/engines/e_dasync.c.html#17793"
+   "c1" : "17727"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17727"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17727] The expression  ! digest applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17799"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17799"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17793] The pointer job is declared but not initialized"
+ , "c3" : "QC-CPP000014[17799] The pointer job is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17794"
- , "c1link" : "./qc/engines/e_dasync.c.html#17794"
+   "c1" : "17800"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17800"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17794] The pointer waitctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[17800] The pointer waitctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17796"
- , "c1link" : "./qc/engines/e_dasync.c.html#17796"
+   "c1" : "17802"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17802"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17796] The pointer callback_arg is declared but not initialized"
+ , "c3" : "QC-CPP000014[17802] The pointer callback_arg is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17798"
- , "c1link" : "./qc/engines/e_dasync.c.html#17798"
+   "c1" : "17804"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17804"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17798] The pointer writefd is declared but not initialized"
+ , "c3" : "QC-CPP000014[17804] The pointer writefd is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17806"
- , "c1link" : "./qc/engines/e_dasync.c.html#17806"
+   "c1" : "17812"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17812"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17806] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17812] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17831"
- , "c1link" : "./qc/engines/e_dasync.c.html#17831"
+   "c1" : "17837"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17837"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17831] The expression ASYNC_WAIT_CTX_get_fd(waitctx,engine_dasync_id, &amp; pipefds[0],( void  **) &amp; writefd) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17837] The expression ASYNC_WAIT_CTX_get_fd(waitctx,engine_dasync_id, &amp; pipefds[0],( void  **) &amp; writefd) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17831"
- , "c1link" : "./qc/engines/e_dasync.c.html#17831"
+   "c1" : "17837"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17837"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17831] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[17837] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17855"
- , "c1link" : "./qc/engines/e_dasync.c.html#17855"
+   "c1" : "17861"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17861"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17855] The expression  ! ASYNC_WAIT_CTX_set_wait_fd(waitctx,engine_dasync_id,pipefds[0],writefd,wait_cleanup) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17861] The expression  ! ASYNC_WAIT_CTX_set_wait_fd(waitctx,engine_dasync_id,pipefds[0],writefd,wait_cleanup) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17855"
- , "c1link" : "./qc/engines/e_dasync.c.html#17855"
+   "c1" : "17861"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17861"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17855] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[17861] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17862"
- , "c1link" : "./qc/engines/e_dasync.c.html#17862"
+   "c1" : "17868"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17868"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17862] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[17868] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17862"
- , "c1link" : "./qc/engines/e_dasync.c.html#17862"
+   "c1" : "17868"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17868"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17862] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[17868] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17873"
- , "c1link" : "./qc/engines/e_dasync.c.html#17873"
+   "c1" : "17879"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17879"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17873] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[17879] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17873"
- , "c1link" : "./qc/engines/e_dasync.c.html#17873"
+   "c1" : "17879"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17879"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17873] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[17879] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17937"
- , "c1link" : "./qc/engines/e_dasync.c.html#17937"
+   "c1" : "17960"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17960"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17937] The expression  ! aeadcapable applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17960] The expression  ! aeadcapable applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17962"
- , "c1link" : "./qc/engines/e_dasync.c.html#17962"
+   "c1" : "17985"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17985"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17962] The expression EVP_CIPHER_CTX_is_encrypting(ctx) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17985] The expression EVP_CIPHER_CTX_is_encrypting(ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17963"
- , "c1link" : "./qc/engines/e_dasync.c.html#17963"
+   "c1" : "17986"
+ , "c1link" : "./qc/engines/e_dasync.c.html#17986"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[17963] Suspicious mix of Bitwise and Literal expressions in (p[arg-4]&lt;&lt;8|p[arg-3])&gt;=0x0302"
+ , "c3" : "QC-CPP000018[17986] Suspicious mix of Bitwise and Literal expressions in (p[arg-4]&lt;&lt;8|p[arg-3])&gt;=0x0302"
 }} 
 ]
 };

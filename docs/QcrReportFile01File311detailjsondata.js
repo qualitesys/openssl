@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/dh/dh_ameth.c.html" 
- , "texte" : "File crypto/dh/dh_ameth.c 98 rule violations " 
+ , "texte" : "File crypto/dh/dh_ameth.c 128 rule violations " 
  , "fic2"  : "./qc/crypto/dh/dh_ameth.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,14 +49,14 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "18"
+ , "c4" : "27"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "32"
+ , "c4" : "53"
 }}
 ,
 { "ligne" : {
@@ -251,528 +251,738 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12974"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#12974"
+   "c1" : "12978"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#12978"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12974] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[12978] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14410"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14410"
+   "c1" : "14335"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14335"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14410] The expression is_dhx applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[14335] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14440"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14440"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14440] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14440"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14440"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14440] The pointer pm is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14440"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14440"
+   "c1" : "14337"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14337"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14440] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[14337] The expression  ! __builtin_constant_p(__nbytes) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14443"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14443"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14443] The pointer pval is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14444"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14444"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14444] The pointer pstr is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14445"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14445"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14445] The pointer palg is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14458"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14458"
+   "c1" : "14340"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14340"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14458] The expression  ! X509_PUBKEY_get0_param((( void  *)0), &amp; p, &amp; pklen, &amp; palg,pubkey) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[14340] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14476"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14476"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14476] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14483"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14483"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14483] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14493"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14493"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14493] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14496"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14496"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14496] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14510"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14510"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14510] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14514"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14514"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14514] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14528"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14528"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14528] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14543"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14543"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14543] The pointer dh is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14545"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14545"
+   "c1" : "14365"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14365"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14545] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[14365] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14551"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14551"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14551] The pointer str is declared but not initialized"
+   "c1" : "14367"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14367"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14367] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14370"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14370"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14370] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14399"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14399"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14399] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14401"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14401"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14401] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14404"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14404"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14404] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14425"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14425"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14425] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14427"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14427"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14427] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14430"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14430"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14430] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14446"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14446"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14446] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14465"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14465"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14465] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14467"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14467"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14467] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14470"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14470"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14470] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14490"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14490"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14490] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14495"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14495"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14495] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14516"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14516"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14516] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14518"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14518"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14518] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14521"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14521"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14521] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14542"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14542"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14542] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14544"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14544"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14544] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14547"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14547"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14547] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14569"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14569"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14569] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "14571"
  , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14571"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14571] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14574"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14574"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14574] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14598"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14598"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14598] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14600"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14600"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14600] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14603"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14603"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14603] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16043"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16043"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16043] The expression is_dhx applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16073"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16073"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14571] goto statement jump to err"
+ , "c3" : "QC-CPP000014[16073] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14580"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14580"
+   "c1" : "16073"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16073"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14580] goto statement jump to err"
+ , "c3" : "QC-CPP000014[16073] The pointer pm is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14594"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14594"
+   "c1" : "16073"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16073"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[16073] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16076"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16076"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14594] goto statement jump to err"
+ , "c3" : "QC-CPP000014[16076] The pointer pval is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14606"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14606"
+   "c1" : "16077"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16077"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14606] goto statement jump to err"
+ , "c3" : "QC-CPP000014[16077] The pointer pstr is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14609"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14609"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14609] The expression X509_PUBKEY_set0_param(pk,OBJ_nid2obj(pkey-&gt;ameth-&gt;pkey_id),ptype,str,penc,penclen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14663"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14663"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14663] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14682"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14682"
+   "c1" : "16078"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16078"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14682] goto statement jump to err"
+ , "c3" : "QC-CPP000014[16078] The pointer palg is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14692"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14692"
+   "c1" : "16091"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16091"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16091] The expression  ! X509_PUBKEY_get0_param((( void  *)0), &amp; p, &amp; pklen, &amp; palg,pubkey) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16109"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16109"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14692] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16109] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14713"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14713"
+   "c1" : "16116"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16116"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14713] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[16116] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14725"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14725"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14725] The expression  ! PKCS8_pkey_set0(p8,OBJ_nid2obj(pkey-&gt;ameth-&gt;pkey_id),0,16,params,dp,dplen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14725"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14725"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14725] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14726"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14726"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14726] The expression 16 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14727"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14727"
+   "c1" : "16126"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16126"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14727] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16126] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14741"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14741"
+   "c1" : "16129"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16129"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14741] The pointer dh is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[16129] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14743"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14743"
+   "c1" : "16143"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16143"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14743] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[16143] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14767"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14767"
+   "c1" : "16147"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16147"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14767] The pointer priv_key is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[16147] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14767"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14767"
+   "c1" : "16161"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16161"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14767] The pointer pub_key is declared but not initialized"
+ , "c3" : "QC-CPP000007[16161] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14802"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14802"
+   "c1" : "16176"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16176"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14802] goto statement jump to err"
+ , "c3" : "QC-CPP000014[16176] The pointer dh is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14812"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14812"
+   "c1" : "16178"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16178"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14812] The expression 128 is invariable"
+ , "c3" : "QC-CPP000005[16178] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14813"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14813"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14813] The expression '%s: (%d bit)\n' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14814"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14814"
+   "c1" : "16184"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16184"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14814] goto statement jump to err"
+ , "c3" : "QC-CPP000014[16184] The pointer str is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14817"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14817"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14817] The expression  ! ASN1_bn_print(bp,'private-key:',priv_key,(( void  *)0),indent) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14817"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14817"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14817] The expression 'private-key:' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14822"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14822"
+   "c1" : "16204"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16204"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14822] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16204] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14823"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14823"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14823] The expression  ! ASN1_bn_print(bp,'public-key:',pub_key,(( void  *)0),indent) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14823"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14823"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14823] The expression 'public-key:' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14828"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14828"
+   "c1" : "16213"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16213"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14828] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16213] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14830"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14830"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14830] The expression  ! ossl_ffc_params_print(bp, &amp; x-&gt;params,indent) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14831"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14831"
+   "c1" : "16227"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16227"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14831] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16227] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14834"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14834"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14834] The expression 128 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14835"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14835"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14835] The expression 'recommended-private-length: %d bits\n' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14837"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14837"
+   "c1" : "16239"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16239"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14837] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16239] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14880"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14880"
+   "c1" : "16242"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16242"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14880] The expression  ! ossl_ffc_params_copy( &amp; to-&gt;params, &amp; from-&gt;params) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16242] The expression X509_PUBKEY_set0_param(pk,OBJ_nid2obj(pkey-&gt;ameth-&gt;pkey_id),ptype,str,penc,penclen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14882"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14882"
+   "c1" : "16296"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16296"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14882] The expression  ! is_x942 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[16296] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14890"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14890"
+   "c1" : "16315"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16315"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14890] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000007[16315] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14902"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14902"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14902] The expression  ! int_dh_param_copy(ret,dh, - 1) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14902"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#14902"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14902] The expression  - 1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15049"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#15049"
+   "c1" : "16325"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16325"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15049] The pointer tmpl is declared but not initialized"
+ , "c3" : "QC-CPP000007[16325] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15080"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#15080"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15080] The expression 'p' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15081"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#15081"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15081] The expression 'g' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15082"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#15082"
+   "c1" : "16346"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16346"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15082] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16346] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15088"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#15088"
+   "c1" : "16358"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16358"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15088] The expression  ! OSSL_PARAM_BLD_push_BN(tmpl,'q',q) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16358] The expression  ! PKCS8_pkey_set0(p8,OBJ_nid2obj(pkey-&gt;ameth-&gt;pkey_id),0,16,params,dp,dplen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15088"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#15088"
+   "c1" : "16358"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16358"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15088] The expression 'q' is invariable"
+ , "c3" : "QC-CPP000012[16358] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15089"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#15089"
+   "c1" : "16359"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16359"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16359] The expression 16 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16360"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16360"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15089] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16360] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15093"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#15093"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15093] The expression  ! OSSL_PARAM_BLD_push_long(tmpl,'priv_len',l) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15093"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#15093"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15093] The expression 'priv_len' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15094"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#15094"
+   "c1" : "16374"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16374"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15094] goto statement jump to err"
+ , "c3" : "QC-CPP000014[16374] The pointer dh is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15102"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#15102"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15102] The expression  ! OSSL_PARAM_BLD_push_BN(tmpl,'pub',pub_key) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15102"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#15102"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15102] The expression 'pub' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15103"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#15103"
+   "c1" : "16376"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16376"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15103] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[16376] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15111"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#15111"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15111] The expression  ! OSSL_PARAM_BLD_push_BN(tmpl,'priv',priv_key) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15111"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#15111"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15111] The expression 'priv' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15113"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#15113"
+   "c1" : "16400"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16400"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15113] goto statement jump to err"
+ , "c3" : "QC-CPP000014[16400] The pointer priv_key is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15117"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#15117"
+   "c1" : "16400"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16400"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15117] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[16400] The pointer pub_key is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15122"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#15122"
+   "c1" : "16435"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16435"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15122] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16435] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15199"
- , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#15199"
+   "c1" : "16445"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16445"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15199] The expression  ! ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[16445] The expression 128 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16446"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16446"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16446] The expression '%s: (%d bit)\n' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16447"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16447"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16447] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16450"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16450"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16450] The expression  ! ASN1_bn_print(bp,'private-key:',priv_key,(( void  *)0),indent) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16450"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16450"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16450] The expression 'private-key:' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16455"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16455"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16455] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16456"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16456"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16456] The expression  ! ASN1_bn_print(bp,'public-key:',pub_key,(( void  *)0),indent) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16456"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16456"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16456] The expression 'public-key:' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16461"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16461"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16461] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16463"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16463"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16463] The expression  ! ossl_ffc_params_print(bp, &amp; x-&gt;params,indent) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16464"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16464"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16464] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16467"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16467"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16467] The expression 128 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16468"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16468"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16468] The expression 'recommended-private-length: %d bits\n' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16470"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16470"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16470] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16513"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16513"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16513] The expression  ! ossl_ffc_params_copy( &amp; to-&gt;params, &amp; from-&gt;params) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16515"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16515"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16515] The expression  ! is_x942 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16523"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16523"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[16523] The pointer ret is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16535"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16535"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16535] The expression  ! int_dh_param_copy(ret,dh, - 1) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16535"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16535"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16535] The expression  - 1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16682"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16682"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[16682] The pointer tmpl is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16713"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16713"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16713] The expression 'p' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16714"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16714"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16714] The expression 'g' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16715"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16715"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16715] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16721"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16721"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16721] The expression  ! OSSL_PARAM_BLD_push_BN(tmpl,'q',q) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16721"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16721"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16721] The expression 'q' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16722"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16722"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16722] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16726"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16726"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16726] The expression  ! OSSL_PARAM_BLD_push_long(tmpl,'priv_len',l) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16726"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16726"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16726] The expression 'priv_len' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16727"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16727"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16727] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16735"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16735"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16735] The expression  ! OSSL_PARAM_BLD_push_BN(tmpl,'pub',pub_key) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16735"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16735"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16735] The expression 'pub' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16736"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16736"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16736] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16744"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16744"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16744] The expression  ! OSSL_PARAM_BLD_push_BN(tmpl,'priv',priv_key) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16744"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16744"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16744] The expression 'priv' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16746"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16746"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16746] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16750"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16750"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[16750] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16755"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16755"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16755] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16832"
+ , "c1link" : "./qc/crypto/dh/dh_ameth.c.html#16832"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16832] The expression  ! ret applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

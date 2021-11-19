@@ -461,115 +461,115 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17763"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#17763"
+   "c1" : "17792"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#17792"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17763] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17765"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#17765"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17765] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "17768"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#17768"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17768] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[17792] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "17794"
  , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#17794"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17794] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[17794] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17796"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#17796"
+   "c1" : "17797"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#17797"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17796] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[17797] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17799"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#17799"
+   "c1" : "17823"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#17823"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17799] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[17823] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19198"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#19198"
+   "c1" : "17825"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#17825"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19198] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17825] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19231"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#19231"
+   "c1" : "17828"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#17828"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19231] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[17828] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20762"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20762"
+   "c1" : "19227"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#19227"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19227] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19260"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#19260"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19260] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20793"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20793"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20762] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20793] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20766"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20766"
+   "c1" : "20797"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20797"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20766] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20781"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20781"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20781] The expression SRP_check_known_gN_param(g,N) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "20785"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20785"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20785] The expression srp_arg-&gt;debug applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPPCWE481[20797] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "20812"
  , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20812"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20812] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20812] The expression SRP_check_known_gN_param(g,N) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20879"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20879"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20879] goto statement jump to err"
+   "c1" : "20816"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20816"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20816] The expression srp_arg-&gt;debug applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20886"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20886"
+   "c1" : "20843"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20843"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20886] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[20843] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20933"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20933"
+   "c1" : "20910"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20910"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20933] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[20910] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20917"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20917"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20917] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20964"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20964"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[20964] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

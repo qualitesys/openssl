@@ -489,52 +489,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10525"
- , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10525"
+   "c1" : "10536"
+ , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10536"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10525] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[10536] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10564"
- , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10564"
+   "c1" : "10575"
+ , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10575"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10564] The expression a-&gt;shutdown applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10575] The expression a-&gt;shutdown applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10565"
- , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10565"
+   "c1" : "10576"
+ , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10576"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10565] The expression a-&gt;init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10576] The expression a-&gt;init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10596"
- , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10596"
+   "c1" : "10607"
+ , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10607"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10596] The expression BIO_sock_should_retry(ret) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10607] The expression BIO_sock_should_retry(ret) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10618"
- , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10618"
+   "c1" : "10629"
+ , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10629"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10618] The expression BIO_sock_should_retry(ret) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10629] The expression BIO_sock_should_retry(ret) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10627"
- , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10627"
+   "c1" : "10638"
+ , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10638"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10627] The pointer ip is declared but not initialized"
+ , "c3" : "QC-CPP000014[10638] The pointer ip is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10640"
- , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10640"
+   "c1" : "10651"
+ , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10651"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10640] The expression b-&gt;init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10651] The expression b-&gt;init applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

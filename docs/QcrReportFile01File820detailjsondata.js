@@ -447,206 +447,206 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15303"
- , "c1link" : "./qc/ssl/tls_depr.c.html#15303"
+   "c1" : "15309"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#15309"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15303] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17515"
- , "c1link" : "./qc/ssl/tls_depr.c.html#17515"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17515] The expression  ! PACKET_peek_sub_packet(pkt,subpkt,len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[15309] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "17543"
  , "c1link" : "./qc/ssl/tls_depr.c.html#17543"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17543] The expression  ! PACKET_peek_net_2(pkt,data) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17543] The expression  ! PACKET_peek_sub_packet(pkt,subpkt,len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17557"
- , "c1link" : "./qc/ssl/tls_depr.c.html#17557"
+   "c1" : "17571"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#17571"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17557] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17571] The expression  ! PACKET_peek_net_2(pkt,data) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17584"
- , "c1link" : "./qc/ssl/tls_depr.c.html#17584"
+   "c1" : "17585"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#17585"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17584] The expression  ! PACKET_peek_net_3(pkt,data) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17585] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17598"
- , "c1link" : "./qc/ssl/tls_depr.c.html#17598"
+   "c1" : "17612"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#17612"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17598] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17612] The expression  ! PACKET_peek_net_3(pkt,data) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "17626"
  , "c1link" : "./qc/ssl/tls_depr.c.html#17626"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17626] The expression  ! PACKET_peek_net_4(pkt,data) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17626] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17640"
- , "c1link" : "./qc/ssl/tls_depr.c.html#17640"
+   "c1" : "17654"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#17654"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17640] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17654] The expression  ! PACKET_peek_net_4(pkt,data) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17650"
- , "c1link" : "./qc/ssl/tls_depr.c.html#17650"
+   "c1" : "17668"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#17668"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17650] The expression  ! PACKET_remaining(pkt) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17668] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17661"
- , "c1link" : "./qc/ssl/tls_depr.c.html#17661"
+   "c1" : "17678"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#17678"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17661] The expression  ! PACKET_peek_1(pkt,data) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17678] The expression  ! PACKET_remaining(pkt) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17675"
- , "c1link" : "./qc/ssl/tls_depr.c.html#17675"
+   "c1" : "17689"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#17689"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17675] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17689] The expression  ! PACKET_peek_1(pkt,data) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17706"
- , "c1link" : "./qc/ssl/tls_depr.c.html#17706"
+   "c1" : "17703"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#17703"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17706] The expression  ! PACKET_peek_4(pkt,data) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17703] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17742"
- , "c1link" : "./qc/ssl/tls_depr.c.html#17742"
+   "c1" : "17734"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#17734"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17742] The expression  ! PACKET_peek_bytes(pkt,data,len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17734] The expression  ! PACKET_peek_4(pkt,data) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "17770"
  , "c1link" : "./qc/ssl/tls_depr.c.html#17770"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17770] The expression  ! PACKET_peek_copy_bytes(pkt,data,len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17770] The expression  ! PACKET_peek_bytes(pkt,data,len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17859"
- , "c1link" : "./qc/ssl/tls_depr.c.html#17859"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17859] The pointer data is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17859"
- , "c1link" : "./qc/ssl/tls_depr.c.html#17859"
+   "c1" : "17798"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#17798"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17859] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[17798] The expression  ! PACKET_peek_copy_bytes(pkt,data,len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17881"
- , "c1link" : "./qc/ssl/tls_depr.c.html#17881"
+   "c1" : "17887"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#17887"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17881] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[17887] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17881"
- , "c1link" : "./qc/ssl/tls_depr.c.html#17881"
+   "c1" : "17887"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#17887"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17881] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17887] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17900"
- , "c1link" : "./qc/ssl/tls_depr.c.html#17900"
+   "c1" : "17909"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#17909"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17900] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[17909] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17900"
- , "c1link" : "./qc/ssl/tls_depr.c.html#17900"
+   "c1" : "17909"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#17909"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17900] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17909] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17923"
- , "c1link" : "./qc/ssl/tls_depr.c.html#17923"
+   "c1" : "17928"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#17928"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17923] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[17928] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17923"
- , "c1link" : "./qc/ssl/tls_depr.c.html#17923"
+   "c1" : "17928"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#17928"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17923] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17928] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17943"
- , "c1link" : "./qc/ssl/tls_depr.c.html#17943"
+   "c1" : "17951"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#17951"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17943] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[17951] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17943"
- , "c1link" : "./qc/ssl/tls_depr.c.html#17943"
+   "c1" : "17951"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#17951"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17943] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17951] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20435"
- , "c1link" : "./qc/ssl/tls_depr.c.html#20435"
+   "c1" : "17971"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#17971"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20435] The pointer eng is declared but not initialized"
+ , "c3" : "QC-CPP000014[17971] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20461"
- , "c1link" : "./qc/ssl/tls_depr.c.html#20461"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20461] The pointer eng is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20508"
- , "c1link" : "./qc/ssl/tls_depr.c.html#20508"
+   "c1" : "17971"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#17971"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20508] The expression  ! ENGINE_init(e) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[17971] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20516"
- , "c1link" : "./qc/ssl/tls_depr.c.html#20516"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20516] The expression  ! ENGINE_get_ssl_client_cert_function(e) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "20592"
- , "c1link" : "./qc/ssl/tls_depr.c.html#20592"
+   "c1" : "20468"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#20468"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20592] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[20468] The pointer eng is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20495"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#20495"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[20495] The pointer eng is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20538"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#20538"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20538] The expression  ! ENGINE_init(e) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20546"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#20546"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20546] The expression  ! ENGINE_get_ssl_client_cert_function(e) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20622"
+ , "c1link" : "./qc/ssl/tls_depr.c.html#20622"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[20622] The pointer ret is declared but not initialized"
 }} 
 ]
 };

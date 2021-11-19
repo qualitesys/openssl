@@ -986,94 +986,94 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19086"
- , "c1link" : "./qc/engines/e_afalg.c.html#19086"
+   "c1" : "19083"
+ , "c1link" : "./qc/engines/e_afalg.c.html#19083"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19086] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19083] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19097"
- , "c1link" : "./qc/engines/e_afalg.c.html#19097"
+   "c1" : "19094"
+ , "c1link" : "./qc/engines/e_afalg.c.html#19094"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[19097] Suspicious bitwise operation with value 0, result is a|0 = a"
+ , "c3" : "QC-CPP000008[19094] Suspicious bitwise operation with value 0, result is a|0 = a"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19137"
- , "c1link" : "./qc/engines/e_afalg.c.html#19137"
+   "c1" : "19134"
+ , "c1link" : "./qc/engines/e_afalg.c.html#19134"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[19137] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[19134] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19179"
- , "c1link" : "./qc/engines/e_afalg.c.html#19179"
+   "c1" : "19176"
+ , "c1link" : "./qc/engines/e_afalg.c.html#19176"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19179] The expression  ! ENGINE_set_ciphers(e,afalg_ciphers) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19176] The expression  ! ENGINE_set_ciphers(e,afalg_ciphers) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19190"
+ , "c1link" : "./qc/engines/e_afalg.c.html#19190"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19190] The expression  ! afalg_chk_platform() applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "19193"
  , "c1link" : "./qc/engines/e_afalg.c.html#19193"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19193] The expression  ! afalg_chk_platform() applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19193] The expression  ! bind_afalg(e) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19196"
- , "c1link" : "./qc/engines/e_afalg.c.html#19196"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19196] The expression  ! bind_afalg(e) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19202"
- , "c1link" : "./qc/engines/e_afalg.c.html#19202"
+   "c1" : "19199"
+ , "c1link" : "./qc/engines/e_afalg.c.html#19199"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19202] goto statement jump to skip_cbs"
+ , "c3" : "QC-CPP000007[19199] goto statement jump to skip_cbs"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19202"
- , "c1link" : "./qc/engines/e_afalg.c.html#19202"
+   "c1" : "19199"
+ , "c1link" : "./qc/engines/e_afalg.c.html#19199"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19202] The expression  ! bind_helper(e,id) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19199] The expression  ! bind_helper(e,id) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19211"
- , "c1link" : "./qc/engines/e_afalg.c.html#19211"
+   "c1" : "19208"
+ , "c1link" : "./qc/engines/e_afalg.c.html#19208"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19211] The pointer str is declared but not initialized"
+ , "c3" : "QC-CPP000014[19208] The pointer str is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19239"
- , "c1link" : "./qc/engines/e_afalg.c.html#19239"
+   "c1" : "19236"
+ , "c1link" : "./qc/engines/e_afalg.c.html#19236"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19239] The expression kver[0] applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19236] The expression kver[0] applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19243"
- , "c1link" : "./qc/engines/e_afalg.c.html#19243"
+   "c1" : "19240"
+ , "c1link" : "./qc/engines/e_afalg.c.html#19240"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19243] The expression kver[1] applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19240] The expression kver[1] applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19247"
- , "c1link" : "./qc/engines/e_afalg.c.html#19247"
+   "c1" : "19244"
+ , "c1link" : "./qc/engines/e_afalg.c.html#19244"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19247] The expression kver[2] applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19244] The expression kver[2] applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19249"
- , "c1link" : "./qc/engines/e_afalg.c.html#19249"
+   "c1" : "19246"
+ , "c1link" : "./qc/engines/e_afalg.c.html#19246"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19249] The expression (kver[2]) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19246] The expression (kver[2]) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/ecx_backend.c.html" 
- , "texte" : "File crypto/ec/ecx_backend.c 44 rule violations " 
+ , "texte" : "File crypto/ec/ecx_backend.c 45 rule violations " 
  , "fic2"  : "./qc/crypto/ec/ecx_backend.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "8"
+ , "c4" : "9"
 }}
 ,
 { "ligne" : {
@@ -293,101 +293,108 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13496"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13496"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13496] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13513"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13513"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13513] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13544"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13544"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13544] The pointer privkey is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13544"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13544"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13544] The pointer pubkey is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13544"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13544"
+   "c1" : "13404"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13404"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13544] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[13404] The expression  ! OSSL_PARAM_get_octet_string(param_priv_key,( void  **) &amp; ecx-&gt;privkey,ecx-&gt;keylen, &amp; privkeylen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13627"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13627"
+   "c1" : "13507"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13507"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13627] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13507] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13631"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13631"
+   "c1" : "13524"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13524"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13524] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13555"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13555"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13555] The pointer privkey is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13555"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13555"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13555] The pointer pubkey is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13555"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13555"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13631] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000005[13555] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13632"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13632"
+   "c1" : "13638"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13638"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13632] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13638] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13645"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13645"
+   "c1" : "13642"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13642"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13645] The expression  ! ossl_ecx_public_from_private(key) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13642] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13651"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13651"
+   "c1" : "13643"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13643"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13651] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13643] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13673"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13673"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13673] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13673"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13673"
+   "c1" : "13656"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13656"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13673] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[13656] The expression  ! ossl_ecx_public_from_private(key) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13680"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13680"
+   "c1" : "13662"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13662"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13680] The pointer palg is declared but not initialized"
+ , "c3" : "QC-CPP000007[13662] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13682"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13682"
+   "c1" : "13684"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13684"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13684] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13684"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13684"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13682] The expression  ! PKCS8_pkey_get0((( void  *)0), &amp; p, &amp; plen, &amp; palg,p8inf) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[13684] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13691"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13691"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13691] The pointer palg is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13693"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13693"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13693] The expression  ! PKCS8_pkey_get0((( void  *)0), &amp; p, &amp; plen, &amp; palg,p8inf) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

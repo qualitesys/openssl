@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/ec_deprecated.c.html" 
- , "texte" : "File crypto/ec/ec_deprecated.c 32 rule violations " 
+ , "texte" : "File crypto/ec/ec_deprecated.c 31 rule violations " 
  , "fic2"  : "./qc/crypto/ec/ec_deprecated.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "5"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -283,13 +283,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#6671"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[06671] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06688"
- , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#6688"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06688] The expression  ! BN_bn2binpad(bn,buf,buf_len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

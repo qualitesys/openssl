@@ -496,10 +496,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10584"
- , "c1link" : "./qc/crypto/bio/bf_null.c.html#10584"
+   "c1" : "10595"
+ , "c1link" : "./qc/crypto/bio/bf_null.c.html#10595"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[10584] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[10595] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ]
 };

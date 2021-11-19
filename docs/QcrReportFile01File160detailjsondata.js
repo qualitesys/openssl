@@ -496,17 +496,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10500"
- , "c1link" : "./qc/crypto/bio/bio_dump.c.html#10500"
+   "c1" : "10511"
+ , "c1link" : "./qc/crypto/bio/bio_dump.c.html#10511"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10500] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10520"
- , "c1link" : "./qc/crypto/bio/bio_dump.c.html#10520"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10520] The expression n applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[10511] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -517,31 +510,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10538"
- , "c1link" : "./qc/crypto/bio/bio_dump.c.html#10538"
+   "c1" : "10542"
+ , "c1link" : "./qc/crypto/bio/bio_dump.c.html#10542"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10538] The expression n applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10542] The expression n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10550"
- , "c1link" : "./qc/crypto/bio/bio_dump.c.html#10550"
+   "c1" : "10549"
+ , "c1link" : "./qc/crypto/bio/bio_dump.c.html#10549"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10550] The expression n applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10549] The expression n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10601"
- , "c1link" : "./qc/crypto/bio/bio_dump.c.html#10601"
+   "c1" : "10561"
+ , "c1link" : "./qc/crypto/bio/bio_dump.c.html#10561"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10601] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[10561] The expression n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10614"
- , "c1link" : "./qc/crypto/bio/bio_dump.c.html#10614"
+   "c1" : "10612"
+ , "c1link" : "./qc/crypto/bio/bio_dump.c.html#10612"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10614] The expression  ! j applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[10612] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10625"
+ , "c1link" : "./qc/crypto/bio/bio_dump.c.html#10625"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10625] The expression  ! j applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

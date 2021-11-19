@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bn/bn_rsa_fips186_4.c.html" 
- , "texte" : "File crypto/bn/bn_rsa_fips186_4.c 72 rule violations " 
+ , "texte" : "File crypto/bn/bn_rsa_fips186_4.c 104 rule violations " 
  , "fic2"  : "./qc/crypto/bn/bn_rsa_fips186_4.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,14 +49,14 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "9"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "26"
+ , "c4" : "47"
 }}
 ,
 { "ligne" : {
@@ -70,7 +70,7 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000007"
  , "c3" : "goto statement"
- , "c4" : "20"
+ , "c4" : "22"
 }}
 ,
 { "ligne" : {
@@ -244,346 +244,570 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05048"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#5048"
+   "c1" : "05052"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#5052"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05048] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06341"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6341"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06341] The expression a applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "06402"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6402"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[06402] The condition of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06402"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6402"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[06402] The end expression of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06406"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6406"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06406] The expression BN_check_prime(p1,ctx,cb) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[05052] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "06409"
  , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6409"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06409] The expression  ! BN_add_word(p1,2) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[06409] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06409"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6409"
+   "c1" : "06411"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6411"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06409] The expression 2 is invariable"
+ , "c3" : "QC-CPP000011[06411] The expression  ! __builtin_constant_p(__nbytes) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06410"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6410"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06410] goto statement jump to err"
+   "c1" : "06414"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6414"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06414] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06495"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6495"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06495] goto statement jump to err"
+   "c1" : "06439"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6439"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06439] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06441"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6441"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06441] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06444"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6444"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06444] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06473"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6473"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06473] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06475"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6475"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06475] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06478"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6478"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06478] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "06499"
  , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6499"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06499] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06508"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6508"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06508] The expression  ! BN_priv_rand_ex(Xp1i,bitlen,0,1,0,ctx) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[06499] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06508"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6508"
+   "c1" : "06501"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6501"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06508] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[06501] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06508"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6508"
+   "c1" : "06504"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6504"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06508] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06509"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6509"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06509] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06510"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6510"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06510] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06519"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6519"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06519] The expression  ! BN_priv_rand_ex(Xp2i,bitlen,0,1,0,ctx) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "06519"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6519"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06519] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06519"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6519"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06519] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[06504] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "06520"
  , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6520"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06520] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[06520] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06521"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6521"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06521] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06527"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6527"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06527] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06531"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6531"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06531] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06533"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6533"
+   "c1" : "06539"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6539"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06533] The expression  ! ossl_bn_rsa_fips186_4_derive_prime(p,Xpout,Xp,p1i,p2i,nlen,e,ctx,cb) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[06539] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06535"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6535"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06535] goto statement jump to err"
+   "c1" : "06541"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6541"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06541] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06575"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6575"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06575] The pointer tmp is declared but not initialized"
+   "c1" : "06544"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6544"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06544] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06575"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6575"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06575] The pointer R is declared but not initialized"
+   "c1" : "06564"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6564"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06564] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06575"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6575"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06575] The pointer r1r2x2 is declared but not initialized"
+   "c1" : "06569"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6569"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06569] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06575"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6575"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06575] The pointer y1 is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06575"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6575"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06575] The pointer r1x2 is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06576"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6576"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06576] The pointer base is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06576"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6576"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06576] The pointer range is declared but not initialized"
+   "c1" : "06590"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6590"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06590] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "06592"
  , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6592"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06592] goto statement jump to err"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06592] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06603"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6603"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06603] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06611"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6611"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06611] goto statement jump to err"
+   "c1" : "06595"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6595"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06595] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "06616"
  , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6616"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06616] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06631"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6631"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06631] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06634"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6634"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06634] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06637"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6637"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[06637] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000012[06616] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06637"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6637"
+   "c1" : "06618"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6618"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[06637] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000011[06618] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06647"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6647"
+   "c1" : "06621"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6621"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06647] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[06621] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06643"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6643"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06643] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06645"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6645"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06645] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "06648"
  , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6648"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06648] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06652"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6652"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06652] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06655"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6655"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[06655] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000012[06648] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06655"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6655"
+   "c1" : "06672"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6672"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[06655] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000012[06672] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06665"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6665"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06665] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06675"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6675"
+   "c1" : "06674"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6674"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06675] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000011[06674] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "06677"
  , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6677"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06677] goto statement jump to err"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06677] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06679"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6679"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06679] goto statement jump to end"
+   "c1" : "07964"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#7964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07964] The expression a applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06682"
- , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#6682"
+   "c1" : "08026"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8026"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08026] The condition of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08026"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8026"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08026] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08034"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8034"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06682] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08034] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08036"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8036"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08036] The expression  ! BN_add_word(p1,2) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08036"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8036"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08036] The expression 2 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08037"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8037"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08037] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08122"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8122"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08122] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08126"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8126"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08126] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08135"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8135"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08135] The expression  ! BN_priv_rand_ex(Xp1i,bitlen,0,1,0,ctx) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08135"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8135"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08135] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08135"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8135"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08135] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08136"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8136"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08136] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08137"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8137"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08137] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08146"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8146"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08146] The expression  ! BN_priv_rand_ex(Xp2i,bitlen,0,1,0,ctx) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08146"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8146"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08146] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08146"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8146"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08146] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08147"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8147"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08147] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08148"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8148"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08148] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08154"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8154"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08154] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08158"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8158"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08158] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08160"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8160"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08160] The expression  ! ossl_bn_rsa_fips186_4_derive_prime(p,Xpout,Xp,p1i,p2i,nlen,e,ctx,cb) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08162"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8162"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08162] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08202"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8202"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08202] The pointer tmp is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08202"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8202"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08202] The pointer R is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08202"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8202"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08202] The pointer r1r2x2 is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08202"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8202"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08202] The pointer y1 is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08202"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8202"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08202] The pointer r1x2 is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08203"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8203"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08203] The pointer base is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08203"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8203"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08203] The pointer range is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08219"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8219"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08219] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08230"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8230"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08230] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08238"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8238"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08238] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08243"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8243"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08243] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08258"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8258"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08258] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08261"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8261"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08261] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08264"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8264"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08264] The condition of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08264"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8264"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08264] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08274"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8274"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08274] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08275"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8275"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08275] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08279"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8279"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08279] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08282"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8282"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08282] The condition of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08282"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8282"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08282] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08292"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8292"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08292] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08302"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8302"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08302] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08304"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8304"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08304] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08305"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8305"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08305] The expression BN_is_one(tmp) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08309"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8309"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08309] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08311"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8311"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08311] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08315"
+ , "c1link" : "./qc/crypto/bn/bn_rsa_fips186_4.c.html#8315"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08315] goto statement jump to err"
 }} 
 ]
 };

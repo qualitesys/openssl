@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/http/http_client.c.html" 
- , "texte" : "File crypto/http/http_client.c 225 rule violations " 
+ , "texte" : "File crypto/http/http_client.c 226 rule violations " 
  , "fic2"  : "./qc/crypto/http/http_client.c.xml" 
  , "fic3"  : "" 
 }
@@ -112,7 +112,7 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-CPPCWE481"
  , "c3" : "Assigning instead of comparing"
- , "c4" : "11"
+ , "c4" : "12"
 }}
 ,
 { "ligne" : {
@@ -545,129 +545,171 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12806"
- , "c1link" : "./qc/crypto/http/http_client.c.html#12806"
+   "c1" : "12698"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#12698"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12806] The pointer rctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[12698] The pointer rctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12829"
- , "c1link" : "./qc/crypto/http/http_client.c.html#12829"
+   "c1" : "12721"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#12721"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12829] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12721] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12839"
- , "c1link" : "./qc/crypto/http/http_client.c.html#12839"
+   "c1" : "12731"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#12731"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[12839] Suspicious bitwise operation with value 0, result is a|0 = a"
+ , "c3" : "QC-CPP000008[12731] Suspicious bitwise operation with value 0, result is a|0 = a"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12839"
- , "c1link" : "./qc/crypto/http/http_client.c.html#12839"
+   "c1" : "12731"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#12731"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[12839] Suspicious bitwise operation with value 0, result is a|0 = a"
+ , "c3" : "QC-CPP000008[12731] Suspicious bitwise operation with value 0, result is a|0 = a"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12839"
- , "c1link" : "./qc/crypto/http/http_client.c.html#12839"
+   "c1" : "12731"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#12731"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[12839] Suspicious bitwise operation with value 0, result is a|0 = a"
+ , "c3" : "QC-CPP000008[12731] Suspicious bitwise operation with value 0, result is a|0 = a"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12874"
- , "c1link" : "./qc/crypto/http/http_client.c.html#12874"
+   "c1" : "12766"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#12766"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12874] The expression rctx-&gt;free_wbio applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[12766] The expression rctx-&gt;free_wbio applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12964"
- , "c1link" : "./qc/crypto/http/http_client.c.html#12964"
+   "c1" : "12856"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#12856"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12964] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12856] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12972"
- , "c1link" : "./qc/crypto/http/http_client.c.html#12972"
+   "c1" : "12864"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#12864"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12972] The expression '%s ' is invariable"
+ , "c3" : "QC-CPP000012[12864] The expression '%s ' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12972"
- , "c1link" : "./qc/crypto/http/http_client.c.html#12972"
+   "c1" : "12864"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#12864"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12972] The expression 'POST' is invariable"
+ , "c3" : "QC-CPP000012[12864] The expression 'POST' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12972"
- , "c1link" : "./qc/crypto/http/http_client.c.html#12972"
+   "c1" : "12864"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#12864"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12972] The expression 'GET' is invariable"
+ , "c3" : "QC-CPP000012[12864] The expression 'GET' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12984"
- , "c1link" : "./qc/crypto/http/http_client.c.html#12984"
+   "c1" : "12876"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#12876"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12984] The expression 'http''://''%s' is invariable"
+ , "c3" : "QC-CPP000012[12876] The expression 'http''://''%s' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12990"
- , "c1link" : "./qc/crypto/http/http_client.c.html#12990"
+   "c1" : "12882"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#12882"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12990] The expression ':%s' is invariable"
+ , "c3" : "QC-CPP000012[12882] The expression ':%s' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13001"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13001"
+   "c1" : "12893"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#12893"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13001] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[12893] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13001"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13001"
+   "c1" : "12893"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#12893"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13001] The expression '/' is invariable"
+ , "c3" : "QC-CPP000012[12893] The expression '/' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13007"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13007"
+   "c1" : "12899"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#12899"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13007] The expression '%s ''HTTP/''''1.''0''\r\n' is invariable"
+ , "c3" : "QC-CPP000012[12899] The expression '%s ''HTTP/''''1.''0''\r\n' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12946"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#12946"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[12946] The expression ': ' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12946"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#12946"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[12946] The expression 2 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12971"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#12971"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000008[12971] Suspicious bitwise operation with value 0, result is a|0 = a"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12992"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#12992"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[12992] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13039"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13039"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13039] The expression 'Connection' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13039"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13039"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13039] The expression 'keep-alive' is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13054"
  , "c1link" : "./qc/crypto/http/http_client.c.html#13054"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13054] The expression ': ' is invariable"
+ , "c3" : "QC-CPP000011[13054] The expression  ! rctx-&gt;method_POST applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13054"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13054"
+   "c1" : "13068"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13068"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13054] The expression 2 is invariable"
+ , "c3" : "QC-CPP000012[13068] The expression 'Content-Type: %s\r\n' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13079"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13079"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[13079] Suspicious bitwise operation with value 0, result is a|0 = a"
+   "c1" : "13072"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13072"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[13072] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -678,1025 +720,990 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13147"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13147"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13147] The expression 'Connection' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13147"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13147"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13147] The expression 'keep-alive' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13162"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13162"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13162] The expression  ! rctx-&gt;method_POST applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "13176"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13176"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13176] The expression 'Content-Type: %s\r\n' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13180"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13180"
+   "c1" : "13100"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13100"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13180] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[13100] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13208"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13208"
+   "c1" : "13119"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13119"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13208] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[13119] The pointer hdr is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13208"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13208"
+   "c1" : "13123"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13123"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13123] The expression 'host' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13125"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13125"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13125] The expression  ! OSSL_HTTP_REQ_CTX_add1_header(rctx,hdr-&gt;name,hdr-&gt;value) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13129"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13129"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13129] The expression 'Host' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13163"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13163"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13208] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[13163] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13168"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13168"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13168] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13174"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13174"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[13174] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13179"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13179"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13179] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13185"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13185"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[13185] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13190"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13190"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13190] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13216"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13216"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13216] The pointer code is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13216"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13216"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13216] The pointer reason is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13216"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13216"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13216] The pointer end is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13218"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13218"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[13218] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13219"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13219"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13219] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "13227"
  , "c1link" : "./qc/crypto/http/http_client.c.html#13227"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13227] The pointer hdr is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13231"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13231"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13231] The expression 'host' is invariable"
+ , "c3" : "QC-CPP000007[13227] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "13233"
  , "c1link" : "./qc/crypto/http/http_client.c.html#13233"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13233] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13240"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13240"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13240] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13248"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13248"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13248] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13261"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13261"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13233] The expression  ! OSSL_HTTP_REQ_CTX_add1_header(rctx,hdr-&gt;name,hdr-&gt;value) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13261] The expression (ossl_ctype_check(( * end),0x8)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13237"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13237"
+   "c1" : "13314"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13314"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13314] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13314"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13314"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13237] The expression 'Host' is invariable"
+ , "c3" : "QC-CPP000005[13314] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13271"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13271"
+   "c1" : "13315"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13315"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13271] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[13315] The pointer key is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13276"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13276"
+   "c1" : "13315"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13315"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13276] goto statement jump to err"
+ , "c3" : "QC-CPP000014[13315] The pointer value is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13282"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13282"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13282] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13287"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13287"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13287] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13293"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13293"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13293] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13298"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13298"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13298] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13324"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13324"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13324] The pointer code is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13324"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13324"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13324] The pointer reason is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13324"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13324"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13324] The pointer end is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13327"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13327"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13327] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13335"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13335"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13335] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13341"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13341"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13341] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13348"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13348"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13348] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13356"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13356"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13356] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13369"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13369"
+   "c1" : "13361"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13361"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13369] The expression (ossl_ctype_check(( * end),0x8)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13361] The expression rctx-&gt;expect_asn1 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13422"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13422"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13422] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13422"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13422"
+   "c1" : "13366"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13366"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13422] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[13366] The expression BIO_test_flags(rctx-&gt;rbio,0x08) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13423"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13423"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13423] The pointer key is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13423"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13423"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13423] The pointer value is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13469"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13469"
+   "c1" : "13366"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13366"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13469] The expression rctx-&gt;expect_asn1 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13366] The expression 0x08 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13474"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13474"
+   "c1" : "13384"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13384"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13474] The expression BIO_test_flags(rctx-&gt;rbio,0x08) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13384] The expression '\r\n' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13474"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13474"
+   "c1" : "13384"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13384"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13474] The expression 0x08 is invariable"
+ , "c3" : "QC-CPP000012[13384] The expression 2 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13492"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13492"
+   "c1" : "13385"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13385"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13492] The expression '\r\n' is invariable"
+ , "c3" : "QC-CPP000008[13385] Suspicious bitwise operation with value 0, result is a|0 = a"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13492"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13492"
+   "c1" : "13385"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13385"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13492] The expression 2 is invariable"
+ , "c3" : "QC-CPP000008[13385] Suspicious bitwise operation with value 0, result is a|0 = a"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13493"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13493"
+   "c1" : "13385"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13385"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[13493] Suspicious bitwise operation with value 0, result is a|0 = a"
+ , "c3" : "QC-CPP000008[13385] Suspicious bitwise operation with value 0, result is a|0 = a"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13493"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13493"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[13493] Suspicious bitwise operation with value 0, result is a|0 = a"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13493"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13493"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[13493] Suspicious bitwise operation with value 0, result is a|0 = a"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13499"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13499"
+   "c1" : "13391"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13391"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[13499] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[13391] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13512"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13512"
+   "c1" : "13404"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13404"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13512] The expression BIO_test_flags(rctx-&gt;wbio,0x08) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13404] The expression BIO_test_flags(rctx-&gt;wbio,0x08) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13512"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13512"
+   "c1" : "13404"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13404"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13512] The expression 0x08 is invariable"
+ , "c3" : "QC-CPP000012[13404] The expression 0x08 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13406"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13406"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000008[13406] Suspicious bitwise operation with value 0, result is a|0 = a"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13406"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13406"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000008[13406] Suspicious bitwise operation with value 0, result is a|0 = a"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13406"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13406"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000008[13406] Suspicious bitwise operation with value 0, result is a|0 = a"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13411"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13411"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13411] goto statement jump to next_io"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13425"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13425"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13425] The expression 2 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13425"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13425"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13425] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13432"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13432"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13432] The expression BIO_test_flags(rctx-&gt;rbio,0x08) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13432"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13432"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13432] The expression 0x08 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13443"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13443"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13443] goto statement jump to next_io"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13458"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13458"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13458] goto statement jump to next_io"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13461"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13461"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13461] The expression BIO_test_flags(rctx-&gt;wbio,0x08) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13461"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13461"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13461] The expression 0x08 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13464"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13464"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000008[13464] Suspicious bitwise operation with value 0, result is a|0 = a"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13464"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13464"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000008[13464] Suspicious bitwise operation with value 0, result is a|0 = a"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13464"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13464"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000008[13464] Suspicious bitwise operation with value 0, result is a|0 = a"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13475"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13475"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000010[13475] The switch case refers to the jump label next_line"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13482"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13482"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13482] The expression '\n' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13484"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13484"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000008[13484] Suspicious bitwise operation with value 0, result is a|0 = a"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13484"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13484"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000008[13484] Suspicious bitwise operation with value 0, result is a|0 = a"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13484"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13484"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000008[13484] Suspicious bitwise operation with value 0, result is a|0 = a"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13487"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13487"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13487] goto statement jump to next_io"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13492"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13492"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13492] The expression BIO_test_flags(rctx-&gt;mem,0x08) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13492"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13492"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13492] The expression 0x08 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13493"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13493"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13493] goto statement jump to next_io"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13494"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13494"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000008[13494] Suspicious bitwise operation with value 0, result is a|0 = a"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13494"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13494"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000008[13494] Suspicious bitwise operation with value 0, result is a|0 = a"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13494"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13494"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000008[13494] Suspicious bitwise operation with value 0, result is a|0 = a"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13505"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13505"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000008[13505] Suspicious bitwise operation with value 0, result is a|0 = a"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13505"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13505"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000008[13505] Suspicious bitwise operation with value 0, result is a|0 = a"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13505"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13505"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000008[13505] Suspicious bitwise operation with value 0, result is a|0 = a"
 }} 
 ,
 { "ligne" : {
    "c1" : "13514"
  , "c1link" : "./qc/crypto/http/http_client.c.html#13514"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[13514] Suspicious bitwise operation with value 0, result is a|0 = a"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13514] goto statement jump to next_line"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13514"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13514"
+   "c1" : "13517"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13517"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[13514] Suspicious bitwise operation with value 0, result is a|0 = a"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13514"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13514"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[13514] Suspicious bitwise operation with value 0, result is a|0 = a"
+ , "c3" : "QC-CPP000011[13517] The expression  ! rctx-&gt;method_POST applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "13519"
  , "c1link" : "./qc/crypto/http/http_client.c.html#13519"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13519] goto statement jump to next_io"
+ , "c3" : "QC-CPP000007[13519] goto statement jump to next_line"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13533"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13533"
+   "c1" : "13529"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13529"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13533] The expression 2 is invariable"
+ , "c3" : "QC-CPP000008[13529] Suspicious bitwise operation with value 0, result is a|0 = a"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13533"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13533"
+   "c1" : "13529"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13529"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13533] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000008[13529] Suspicious bitwise operation with value 0, result is a|0 = a"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13540"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13540"
+   "c1" : "13529"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13529"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13540] The expression BIO_test_flags(rctx-&gt;rbio,0x08) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000008[13529] Suspicious bitwise operation with value 0, result is a|0 = a"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13540"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13540"
+   "c1" : "13541"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13541"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13540] The expression 0x08 is invariable"
+ , "c3" : "QC-CPP000011[13541] The expression (ossl_ctype_check(( * value),0x8)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13551"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13551"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13551] goto statement jump to next_io"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13566"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13566"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13566] goto statement jump to next_io"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13569"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13569"
+   "c1" : "13567"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13567"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13569] The expression BIO_test_flags(rctx-&gt;wbio,0x08) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13567] The expression 'Location' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13569"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13569"
+   "c1" : "13576"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13576"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13569] The expression 0x08 is invariable"
+ , "c3" : "QC-CPP000012[13576] The expression 'Content-Type' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13572"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13572"
+   "c1" : "13587"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13587"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[13572] Suspicious bitwise operation with value 0, result is a|0 = a"
+ , "c3" : "QC-CPP000012[13587] The expression 'Connection' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13572"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13572"
+   "c1" : "13588"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13588"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[13572] Suspicious bitwise operation with value 0, result is a|0 = a"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13572"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13572"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[13572] Suspicious bitwise operation with value 0, result is a|0 = a"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13583"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13583"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[13583] The switch case refers to the jump label next_line"
+ , "c3" : "QC-CPP000012[13588] The expression 'keep-alive' is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13590"
  , "c1link" : "./qc/crypto/http/http_client.c.html#13590"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13590] The expression '\n' is invariable"
+ , "c3" : "QC-CPP000012[13590] The expression 'close' is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13592"
  , "c1link" : "./qc/crypto/http/http_client.c.html#13592"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[13592] Suspicious bitwise operation with value 0, result is a|0 = a"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13592"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13592"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[13592] Suspicious bitwise operation with value 0, result is a|0 = a"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13592"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13592"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[13592] Suspicious bitwise operation with value 0, result is a|0 = a"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13595"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13595"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13595] goto statement jump to next_io"
+ , "c3" : "QC-CPP000012[13592] The expression 'Content-Length' is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13600"
  , "c1link" : "./qc/crypto/http/http_client.c.html#13600"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13600] The expression BIO_test_flags(rctx-&gt;mem,0x08) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13600] The expression  ! check_set_resp_len(rctx,resp_len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13600"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13600"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13600] The expression 0x08 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13601"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13601"
+   "c1" : "13611"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13611"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13601] goto statement jump to next_io"
+ , "c3" : "QC-CPP000007[13611] goto statement jump to next_line"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13602"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13602"
+   "c1" : "13646"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13646"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[13602] Suspicious bitwise operation with value 0, result is a|0 = a"
+ , "c3" : "QC-CPP000011[13646] The expression  ! rctx-&gt;expect_asn1 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13602"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13602"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[13602] Suspicious bitwise operation with value 0, result is a|0 = a"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13602"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13602"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[13602] Suspicious bitwise operation with value 0, result is a|0 = a"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13613"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13613"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[13613] Suspicious bitwise operation with value 0, result is a|0 = a"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13613"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13613"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[13613] Suspicious bitwise operation with value 0, result is a|0 = a"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13613"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13613"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[13613] Suspicious bitwise operation with value 0, result is a|0 = a"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13622"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13622"
+   "c1" : "13662"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13662"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13622] goto statement jump to next_line"
+ , "c3" : "QC-CPP000007[13662] goto statement jump to next_io"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13625"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13625"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13625] The expression  ! rctx-&gt;method_POST applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "13627"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13627"
+   "c1" : "13681"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13681"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13627] goto statement jump to next_line"
+ , "c3" : "QC-CPP000007[13681] goto statement jump to next_io"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13637"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13637"
+   "c1" : "13702"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13702"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[13637] Suspicious bitwise operation with value 0, result is a|0 = a"
+ , "c3" : "QC-CPP000011[13702] The expression  ! check_set_resp_len(rctx,resp_len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13637"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13637"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[13637] Suspicious bitwise operation with value 0, result is a|0 = a"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13637"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13637"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[13637] Suspicious bitwise operation with value 0, result is a|0 = a"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13649"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13649"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13649] The expression (ossl_ctype_check(( * value),0x8)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "13675"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13675"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13675] The expression 'Location' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13684"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13684"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13684] The expression 'Content-Type' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13695"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13695"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13695] The expression 'Connection' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13696"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13696"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13696] The expression 'keep-alive' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13698"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13698"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13698] The expression 'close' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13700"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13700"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13700] The expression 'Content-Length' is invariable"
+   "c1" : "13716"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13716"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13716] goto statement jump to next_io"
 }} 
 ,
 { "ligne" : {
    "c1" : "13708"
  , "c1link" : "./qc/crypto/http/http_client.c.html#13708"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000002[13708] Avoid multiple switch labels with default case in switch case"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13726"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13726"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13726] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13726"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13726"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13708] The expression  ! check_set_resp_len(rctx,resp_len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[13726] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13719"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13719"
+   "c1" : "13734"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13734"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13719] goto statement jump to next_line"
+ , "c3" : "QC-CPPCWE481[13734] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13754"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13754"
+   "c1" : "13760"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13760"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13760] The pointer cbio is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13786"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13786"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13754] The expression  ! rctx-&gt;expect_asn1 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13786] The expression ':' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13770"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13770"
+   "c1" : "13799"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13799"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13770] goto statement jump to next_io"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13789"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13789"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13789] goto statement jump to next_io"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13810"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13810"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13810] The expression  ! check_set_resp_len(rctx,resp_len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "13824"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13824"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13824] goto statement jump to next_io"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13816"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13816"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000002[13816] Avoid multiple switch labels with default case in switch case"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13834"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13834"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13834] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000007[13799] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
    "c1" : "13834"
  , "c1link" : "./qc/crypto/http/http_client.c.html#13834"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13834] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000006[13834] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13842"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13842"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13842] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "13834"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13834"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[13834] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13868"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13868"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13868] The pointer cbio is declared but not initialized"
+   "c1" : "13840"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#13840"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13840] The expression 100 is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "13894"
  , "c1link" : "./qc/crypto/http/http_client.c.html#13894"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13894] The expression ':' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13907"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13907"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13907] goto statement jump to end"
+ , "c3" : "QC-CPP000014[13894] The pointer cbio is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13942"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13942"
+   "c1" : "14010"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14010"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[13942] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000012[14010] The expression ':' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13942"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13942"
+   "c1" : "14078"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14078"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[13942] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000012[14078] The expression  - 1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13948"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13948"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13948] The expression 100 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14002"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14002"
+   "c1" : "14085"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14085"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14002] The pointer cbio is declared but not initialized"
+ , "c3" : "QC-CPP000007[14085] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14118"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14118"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14118] The expression ':' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14186"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14186"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14186] The expression  - 1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14193"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14193"
+   "c1" : "14109"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14109"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14193] goto statement jump to end"
+ , "c3" : "QC-CPP000007[14109] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14217"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14217"
+   "c1" : "14206"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14206"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14217] goto statement jump to end"
+ , "c3" : "QC-CPP000014[14206] The pointer resp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14314"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14314"
+   "c1" : "14354"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14354"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14314] The pointer resp is declared but not initialized"
+ , "c3" : "QC-CPP000014[14354] The pointer current_url is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14462"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14462"
+   "c1" : "14360"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14360"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14462] The pointer current_url is declared but not initialized"
+ , "c3" : "QC-CPP000014[14360] The pointer host is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14468"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14468"
+   "c1" : "14361"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14361"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14468] The pointer host is declared but not initialized"
+ , "c3" : "QC-CPP000014[14361] The pointer port is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14469"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14469"
+   "c1" : "14362"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14362"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14469] The pointer port is declared but not initialized"
+ , "c3" : "QC-CPP000014[14362] The pointer path is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14470"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14470"
+   "c1" : "14364"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14364"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14470] The pointer path is declared but not initialized"
+ , "c3" : "QC-CPP000014[14364] The pointer rctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14472"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14472"
+   "c1" : "14387"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14387"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14472] The pointer rctx is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[14387] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14495"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14495"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14495] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14506"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14506"
+   "c1" : "14398"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14398"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[14506] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[14398] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14506"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14506"
+   "c1" : "14398"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14398"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[14506] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[14398] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14507"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14507"
+   "c1" : "14399"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14399"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14507] The expression  ! OSSL_HTTP_parse_url(current_url, &amp; use_ssl,(( void  *)0), &amp; host, &amp; port,(( void  *)0), &amp; path,(( void  *)0),(( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14399] The expression  ! OSSL_HTTP_parse_url(current_url, &amp; use_ssl,(( void  *)0), &amp; host, &amp; port,(( void  *)0), &amp; path,(( void  *)0),(( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14536"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14536"
+   "c1" : "14428"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14428"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14536] The expression  ! OSSL_HTTP_set1_request(rctx,path,headers,(( void  *)0),(( void  *)0),expected_ct,expect_asn1,max_resp_len, - 1,0) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14428] The expression  ! OSSL_HTTP_set1_request(rctx,path,headers,(( void  *)0),(( void  *)0),expected_ct,expect_asn1,max_resp_len, - 1,0) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14548"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14548"
+   "c1" : "14440"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14440"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14548] The expression  - 1 is invariable"
+ , "c3" : "QC-CPP000012[14440] The expression  - 1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14549"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14549"
+   "c1" : "14441"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14441"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14549] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[14441] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14564"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14564"
+   "c1" : "14456"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14456"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14564] The expression redirection_ok(++n_redirs,current_url,redirection_url) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14456] The expression redirection_ok(++n_redirs,current_url,redirection_url) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14574"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14574"
+   "c1" : "14466"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14466"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14574] goto statement jump to new_rpath"
+ , "c3" : "QC-CPP000007[14466] goto statement jump to new_rpath"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14586"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14586"
+   "c1" : "14478"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14478"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14586] The expression  ! OSSL_HTTP_close(rctx,resp!=(( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14478] The expression  ! OSSL_HTTP_close(rctx,resp!=(( void  *)0)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14538"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14538"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14538] The expression OSSL_HTTP_set1_request(rctx,path,headers,content_type,req,expected_ct,expect_asn1,max_resp_len,timeout,keep_alive) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14551"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14551"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14551] The expression  ! OSSL_HTTP_close(rctx,resp!=(( void  *)0)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14607"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14607"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14607] The pointer out is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "14646"
  , "c1link" : "./qc/crypto/http/http_client.c.html#14646"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14646] The expression OSSL_HTTP_set1_request(rctx,path,headers,content_type,req,expected_ct,expect_asn1,max_resp_len,timeout,keep_alive) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14659"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14659"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14659] The expression  ! OSSL_HTTP_close(rctx,resp!=(( void  *)0)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14715"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14715"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14715] The pointer out is declared but not initialized"
+ , "c3" : "QC-CPP000014[14646] The pointer mbufp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14754"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14754"
+   "c1" : "14680"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14680"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14754] The pointer mbufp is declared but not initialized"
+ , "c3" : "QC-CPP000007[14680] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14788"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14788"
+   "c1" : "14699"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14699"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14788] goto statement jump to end"
+ , "c3" : "QC-CPP000007[14699] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14807"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14807"
+   "c1" : "14718"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14718"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14807] goto statement jump to end"
+ , "c3" : "QC-CPP000014[14718] The pointer proxyauth is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14826"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14826"
+   "c1" : "14736"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14736"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14826] The pointer proxyauth is declared but not initialized"
+ , "c3" : "QC-CPP000007[14736] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14844"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14844"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14844] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14845"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14845"
+   "c1" : "14737"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14737"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14845] The expression '%s:%s' is invariable"
+ , "c3" : "QC-CPP000012[14737] The expression '%s:%s' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14850"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14850"
+   "c1" : "14742"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14742"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14850] The expression '' is invariable"
+ , "c3" : "QC-CPP000012[14742] The expression '' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14851"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14851"
+   "c1" : "14743"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14743"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14851] goto statement jump to proxy_end"
+ , "c3" : "QC-CPP000007[14743] goto statement jump to proxy_end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14868"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14868"
+   "c1" : "14760"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14760"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14868] goto statement jump to end"
+ , "c3" : "QC-CPP000007[14760] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14874"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14874"
+   "c1" : "14766"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14766"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[14874] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[14766] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14874"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14874"
+   "c1" : "14766"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14766"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[14874] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[14766] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14875"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14875"
+   "c1" : "14767"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14767"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14875] The expression 11 is invariable"
+ , "c3" : "QC-CPP000012[14767] The expression 11 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14875"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14875"
+   "c1" : "14767"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14767"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14875] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[14767] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14882"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14882"
+   "c1" : "14774"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14774"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14882] The expression  ! BIO_test_flags(fbio,0x08) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14774] The expression  ! BIO_test_flags(fbio,0x08) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14882"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14882"
+   "c1" : "14774"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14774"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14882] The expression 0x08 is invariable"
+ , "c3" : "QC-CPP000012[14774] The expression 0x08 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14886"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14886"
+   "c1" : "14778"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14778"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[14886] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[14778] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14886"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14886"
+   "c1" : "14778"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14778"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[14886] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[14778] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14892"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14892"
+   "c1" : "14784"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14784"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14892] goto statement jump to end"
+ , "c3" : "QC-CPP000007[14784] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14915"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14915"
+   "c1" : "14808"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14808"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14915] goto statement jump to end"
+ , "c3" : "QC-CPP000007[14808] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14927"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14927"
+   "c1" : "14819"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14819"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14927] goto statement jump to end"
+ , "c3" : "QC-CPP000007[14819] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14941"
- , "c1link" : "./qc/crypto/http/http_client.c.html#14941"
+   "c1" : "14833"
+ , "c1link" : "./qc/crypto/http/http_client.c.html#14833"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14941] goto statement jump to end"
+ , "c3" : "QC-CPP000007[14833] goto statement jump to end"
 }} 
 ]
 };

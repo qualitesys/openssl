@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/rsa/rsa_oaep.c.html" 
- , "texte" : "File crypto/rsa/rsa_oaep.c 56 rule violations " 
+ , "texte" : "File crypto/rsa/rsa_oaep.c 86 rule violations " 
  , "fic2"  : "./qc/crypto/rsa/rsa_oaep.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,14 +49,14 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "9"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "18"
+ , "c4" : "39"
 }}
 ,
 { "ligne" : {
@@ -258,220 +258,430 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09892"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#9892"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09892] The pointer db is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09892"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#9892"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09892] The pointer seed is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09892"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#9892"
+   "c1" : "06281"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6281"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09892] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[06281] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09893"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#9893"
+   "c1" : "06283"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6283"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09893] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[06283] The expression  ! __builtin_constant_p(__nbytes) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09955"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#9955"
+   "c1" : "06286"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6286"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09955] The expression  ! EVP_Digest(( void  *)param,plen,db,(( void  *)0),md,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[06286] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09964"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#9964"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09964] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09971"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#9971"
+   "c1" : "06311"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6311"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09971] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[06311] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09972"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#9972"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09972] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09986"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#9986"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09986] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09991"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#9991"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09991] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09998"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#9998"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09998] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10047"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10047"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10047] The pointer maskedseed is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10047"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10047"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10047] The pointer maskeddb is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10047"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10047"
+   "c1" : "06313"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6313"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10047] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[06313] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10052"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10052"
+   "c1" : "06316"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6316"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10052] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[06316] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10110"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10110"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10110] goto statement jump to cleanup"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10124"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10124"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10124] goto statement jump to cleanup"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10150"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10150"
+   "c1" : "06345"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6345"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10150] The expression PKCS1_MGF1(seed,mdlen,maskeddb,dblen,mgf1md) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[06345] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10151"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10151"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10151] goto statement jump to cleanup"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10155"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10155"
+   "c1" : "06347"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6347"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10155] The expression PKCS1_MGF1(db,dblen,seed,mdlen,mgf1md) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06347] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10156"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10156"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10156] goto statement jump to cleanup"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10160"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10160"
+   "c1" : "06350"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6350"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10160] The expression  ! EVP_Digest(( void  *)param,plen,phash,(( void  *)0),md,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[06350] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10169"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10169"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10169] goto statement jump to cleanup"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10243"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10243"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10243] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10246"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10246"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10246] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10261"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10261"
+   "c1" : "06371"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6371"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10261] The expression 4 is invariable"
+ , "c3" : "QC-CPP000012[06371] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10262"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10262"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10262] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10264"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10264"
+   "c1" : "06373"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6373"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10264] The expression  ! EVP_DigestFinal_ex(c,mask+outlen,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06373] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10269"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10269"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10269] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10272"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10272"
+   "c1" : "06376"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6376"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10272] The expression  ! EVP_DigestFinal_ex(c,md,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[06376] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10277"
- , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#10277"
+   "c1" : "06392"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6392"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06392] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06411"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6411"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06411] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06413"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6413"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06413] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06416"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6416"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06416] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06436"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6436"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06436] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06441"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6441"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06441] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06462"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6462"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06462] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06464"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6464"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06464] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06467"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6467"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06467] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06488"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6488"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06488] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06490"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6490"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06490] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06493"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6493"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06493] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06515"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6515"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06515] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06517"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6517"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06517] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06520"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6520"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06520] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06544"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6544"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06544] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06546"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6546"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06546] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06549"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#6549"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06549] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11521"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11521"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10277] goto statement jump to err"
+ , "c3" : "QC-CPP000014[11521] The pointer db is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11521"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11521"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[11521] The pointer seed is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11521"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11521"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[11521] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11522"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11522"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[11522] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11584"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11584"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[11584] The expression  ! EVP_Digest(( void  *)param,plen,db,(( void  *)0),md,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "11593"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11593"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11593] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11600"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11600"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[11600] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11601"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11601"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11601] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11615"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11615"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11615] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11620"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11620"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11620] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11627"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11627"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11627] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11676"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11676"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[11676] The pointer maskedseed is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11676"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11676"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[11676] The pointer maskeddb is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11676"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11676"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[11676] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11681"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11681"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[11681] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11739"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11739"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11739] goto statement jump to cleanup"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11753"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11753"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11753] goto statement jump to cleanup"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11779"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11779"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[11779] The expression PKCS1_MGF1(seed,mdlen,maskeddb,dblen,mgf1md) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "11780"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11780"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11780] goto statement jump to cleanup"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11784"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11784"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[11784] The expression PKCS1_MGF1(db,dblen,seed,mdlen,mgf1md) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "11785"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11785"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11785] goto statement jump to cleanup"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11789"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11789"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[11789] The expression  ! EVP_Digest(( void  *)param,plen,phash,(( void  *)0),md,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "11798"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11798"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11798] goto statement jump to cleanup"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11872"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11872"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11872] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11875"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11875"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11875] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11890"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11890"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[11890] The expression 4 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11891"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11891"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11891] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11893"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11893"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[11893] The expression  ! EVP_DigestFinal_ex(c,mask+outlen,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "11898"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11898"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11898] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11901"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11901"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[11901] The expression  ! EVP_DigestFinal_ex(c,md,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "11906"
+ , "c1link" : "./qc/crypto/rsa/rsa_oaep.c.html#11906"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11906] goto statement jump to err"
 }} 
 ]
 };

@@ -440,38 +440,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06194"
- , "c1link" : "./qc/crypto/mem.c.html#6194"
+   "c1" : "06198"
+ , "c1link" : "./qc/crypto/mem.c.html#6198"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06194] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06198] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07807"
- , "c1link" : "./qc/crypto/mem.c.html#7807"
+   "c1" : "07815"
+ , "c1link" : "./qc/crypto/mem.c.html#7815"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07807] The expression  ! allow_customize applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07815] The expression  ! allow_customize applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07868"
- , "c1link" : "./qc/crypto/mem.c.html#7868"
+   "c1" : "07876"
+ , "c1link" : "./qc/crypto/mem.c.html#7876"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07868] The expression allow_customize applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07876] The expression allow_customize applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07882"
- , "c1link" : "./qc/crypto/mem.c.html#7882"
+   "c1" : "07890"
+ , "c1link" : "./qc/crypto/mem.c.html#7890"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07882] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[07890] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07984"
- , "c1link" : "./qc/crypto/mem.c.html#7984"
+   "c1" : "07992"
+ , "c1link" : "./qc/crypto/mem.c.html#7992"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07984] The expression num applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07992] The expression num applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

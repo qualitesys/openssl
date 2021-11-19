@@ -496,38 +496,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12937"
- , "c1link" : "./qc/crypto/bio/bf_nbio.c.html#12937"
+   "c1" : "12948"
+ , "c1link" : "./qc/crypto/bio/bf_nbio.c.html#12948"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12937] The pointer nt is declared but not initialized"
+ , "c3" : "QC-CPP000014[12948] The pointer nt is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12939"
- , "c1link" : "./qc/crypto/bio/bf_nbio.c.html#12939"
+   "c1" : "12950"
+ , "c1link" : "./qc/crypto/bio/bf_nbio.c.html#12950"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12939] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12950] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12997"
- , "c1link" : "./qc/crypto/bio/bf_nbio.c.html#12997"
+   "c1" : "13008"
+ , "c1link" : "./qc/crypto/bio/bf_nbio.c.html#13008"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12997] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[13008] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13017"
- , "c1link" : "./qc/crypto/bio/bf_nbio.c.html#13017"
+   "c1" : "13028"
+ , "c1link" : "./qc/crypto/bio/bf_nbio.c.html#13028"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13017] The pointer nt is declared but not initialized"
+ , "c3" : "QC-CPP000014[13028] The pointer nt is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13042"
- , "c1link" : "./qc/crypto/bio/bf_nbio.c.html#13042"
+   "c1" : "13053"
+ , "c1link" : "./qc/crypto/bio/bf_nbio.c.html#13053"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13042] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[13053] The expression 1 is invariable, always true"
 }} 
 ]
 };

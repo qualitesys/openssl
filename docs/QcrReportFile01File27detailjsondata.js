@@ -454,101 +454,101 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07486"
- , "c1link" : "./qc/apps/lib/app_x509.c.html#7486"
+   "c1" : "07515"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#7515"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07486] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07488"
- , "c1link" : "./qc/apps/lib/app_x509.c.html#7488"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07488] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07491"
- , "c1link" : "./qc/apps/lib/app_x509.c.html#7491"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07491] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07515] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "07517"
  , "c1link" : "./qc/apps/lib/app_x509.c.html#7517"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07517] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[07517] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07519"
- , "c1link" : "./qc/apps/lib/app_x509.c.html#7519"
+   "c1" : "07520"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#7520"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07519] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[07520] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07522"
- , "c1link" : "./qc/apps/lib/app_x509.c.html#7522"
+   "c1" : "07546"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#7546"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07522] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07546] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08922"
- , "c1link" : "./qc/apps/lib/app_x509.c.html#8922"
+   "c1" : "07548"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#7548"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08922] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07548] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08955"
- , "c1link" : "./qc/apps/lib/app_x509.c.html#8955"
+   "c1" : "07551"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#7551"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08955] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[07551] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18726"
- , "c1link" : "./qc/apps/lib/app_x509.c.html#18726"
+   "c1" : "08951"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#8951"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18726] The expression  ! ASN1_OCTET_STRING_set(v,value,( int  )value_n) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08951] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18799"
- , "c1link" : "./qc/apps/lib/app_x509.c.html#18799"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18799] The pointer stmp is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18825"
- , "c1link" : "./qc/apps/lib/app_x509.c.html#18825"
+   "c1" : "08984"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#8984"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18825] The expression 'distid' is invariable"
+ , "c3" : "QC-CPP000011[08984] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "18756"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#18756"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[18756] The expression  ! ASN1_OCTET_STRING_set(v,value,( int  )value_n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "18829"
  , "c1link" : "./qc/apps/lib/app_x509.c.html#18829"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[18829] The pointer stmp is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18855"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#18855"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18829] The expression 'hexdistid' is invariable"
+ , "c3" : "QC-CPP000012[18855] The expression 'distid' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18835"
- , "c1link" : "./qc/apps/lib/app_x509.c.html#18835"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18835] The pointer hexid is declared but not initialized"
+   "c1" : "18859"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#18859"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[18859] The expression 'hexdistid' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18840"
- , "c1link" : "./qc/apps/lib/app_x509.c.html#18840"
+   "c1" : "18865"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#18865"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18840] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[18865] The pointer hexid is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18870"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#18870"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[18870] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };
