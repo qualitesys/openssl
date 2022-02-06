@@ -345,12 +345,13 @@ static int dh_set_ctx_params(void *vpdhctx, const OSSL_PARAM params[])
 
         EVP_MD_free(pdhctx->kdf_md);
         pdhctx->kdf_md = EVP_MD_fetch(pdhctx->libctx, name, mdprops);
+        if (pdhctx->kdf_md == NULL)
+            return 0;
         if (!ossl_digest_is_allowed(pdhctx->libctx, pdhctx->kdf_md)) {
             EVP_MD_free(pdhctx->kdf_md);
             pdhctx->kdf_md = NULL;
-        }
-        if (pdhctx->kdf_md == NULL)
             return 0;
+        }
     }
 
     p = OSSL_PARAM_locate_const(params, OSSL_EXCHANGE_PARAM_KDF_OUTLEN);
@@ -414,12 +415,12 @@ static const OSSL_PARAM *dh_settable_ctx_params(ossl_unused void *vpdhctx,
 }
 
 static const OSSL_PARAM known_gettable_ctx_params[] = {
-    OSSL_PARAM_int(OSSL_EXCHANGE_PARAM_EC_ECDH_COFACTOR_MODE, NULL),
     OSSL_PARAM_utf8_string(OSSL_EXCHANGE_PARAM_KDF_TYPE, NULL, 0),
     OSSL_PARAM_utf8_string(OSSL_EXCHANGE_PARAM_KDF_DIGEST, NULL, 0),
     OSSL_PARAM_size_t(OSSL_EXCHANGE_PARAM_KDF_OUTLEN, NULL),
     OSSL_PARAM_DEFN(OSSL_EXCHANGE_PARAM_KDF_UKM, OSSL_PARAM_OCTET_PTR,
                     NULL, 0),
+    OSSL_PARAM_utf8_string(OSSL_KDF_PARAM_CEK_ALG, NULL, 0),
     OSSL_PARAM_END
 };
 

@@ -375,7 +375,7 @@ static OSSL_STORE_INFO *try_decode_PKCS12(const char *pem_name,
                 }
                 EVP_PKEY_free(pkey);
                 X509_free(cert);
-                sk_X509_pop_free(chain, X509_free);
+                OSSL_STACK_OF_X509_free(chain);
                 store_info_free(osi_pkey);
                 store_info_free(osi_cert);
                 store_info_free(osi_ca);
@@ -1347,8 +1347,8 @@ static OSSL_STORE_INFO *file_try_read_msblob(BIO *bp, int *matchcount)
 
         if (BIO_buffer_peek(bp, peekbuf, sizeof(peekbuf)) <= 0)
             return 0;
-        if (!ossl_do_blob_header(&p, sizeof(peekbuf), &magic, &bitlen,
-                                 &isdss, &ispub))
+        if (ossl_do_blob_header(&p, sizeof(peekbuf), &magic, &bitlen,
+                                 &isdss, &ispub) <= 0)
             return 0;
     }
 

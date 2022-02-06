@@ -218,7 +218,7 @@ static int get_ecdsa_sig_rs_bytes(const unsigned char *sig, size_t sig_len,
     r1 = ECDSA_SIG_get0_r(sign);
     s1 = ECDSA_SIG_get0_s(sign);
     if (r1 == NULL || s1 == NULL)
-        return 0;
+        goto err;
 
     r1_len = BN_num_bytes(r1);
     s1_len = BN_num_bytes(s1);
@@ -560,7 +560,7 @@ static int get_dsa_sig_rs_bytes(const unsigned char *sig, size_t sig_len,
         return 0;
     DSA_SIG_get0(sign, &r1, &s1);
     if (r1 == NULL || s1 == NULL)
-        return 0;
+        goto err;
 
     r1_len = BN_num_bytes(r1);
     s1_len = BN_num_bytes(s1);
@@ -1261,7 +1261,7 @@ static int rsa_decryption_primitive_test(int id)
 
     test_output_memory("n", n, n_len);
     test_output_memory("e", e, e_len);
-    if (!EVP_PKEY_decrypt(ctx, pt, &pt_len, tst->ct, tst->ct_len))
+    if (EVP_PKEY_decrypt(ctx, pt, &pt_len, tst->ct, tst->ct_len) <= 0)
         TEST_note("Decryption Failed");
     else
         test_output_memory("pt", pt, pt_len);

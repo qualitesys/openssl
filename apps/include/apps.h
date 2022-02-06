@@ -94,6 +94,9 @@ typedef struct args_st {
 /* We need both wrap and the "real" function because libcrypto uses both. */
 int wrap_password_callback(char *buf, int bufsiz, int verify, void *cb_data);
 
+/* progress callback for dsaparam, dhparam, req, genpkey, etc. */
+int progress_cb(EVP_PKEY_CTX *ctx);
+
 int chopup_args(ARGS *arg, char *buf);
 void dump_cert_text(BIO *out, X509 *x);
 void print_name(BIO *out, const char *title, const X509_NAME *nm);
@@ -264,9 +267,9 @@ extern char *psk_key;
 
 unsigned char *next_protos_parse(size_t *outlen, const char *in);
 
-void print_cert_checks(BIO *bio, X509 *x,
+int check_cert_attributes(BIO *bio, X509 *x,
                        const char *checkhost,
-                       const char *checkemail, const char *checkip);
+                       const char *checkemail, const char *checkip, int print);
 
 void store_setup_crl_download(X509_STORE *st);
 

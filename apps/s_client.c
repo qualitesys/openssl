@@ -847,6 +847,7 @@ int s_client_main(int argc, char **argv)
     struct timeval tv;
 #endif
     const char *servername = NULL;
+    char *sname_alloc = NULL;
     int noservername = 0;
     const char *alpn_in = NULL;
     tlsextctx tlsextcbp = { NULL, 0 };
@@ -1473,8 +1474,7 @@ int s_client_main(int argc, char **argv)
     }
 
     /* Optional argument is connect string if -connect not used. */
-    argc = opt_num_rest();
-    if (argc == 1) {
+    if (opt_num_rest() == 1) {
         /* Don't allow -connect and a separate argument. */
         if (connectstr != NULL) {
             BIO_printf(bio_err,
@@ -1484,7 +1484,7 @@ int s_client_main(int argc, char **argv)
         }
         connect_type = use_inet;
         freeandcopy(&connectstr, *opt_rest());
-    } else if (argc != 0) {
+    } else if (!opt_check_rest_arg(NULL)) {
         goto opthelp;
     }
     if (!app_RAND_load())
@@ -1540,6 +1540,14 @@ int s_client_main(int argc, char **argv)
         if (host == NULL || port == NULL) {
             BIO_printf(bio_err, "%s: -proxy requires use of -connect or target parameter\n", prog);
             goto opthelp;
+        }
+
+        if (servername == NULL && !noservername) {
+            servername = sname_alloc = OPENSSL_strdup(host);
+            if (sname_alloc == NULL) {
+                BIO_printf(bio_err, "%s: out of memory\n", prog);
+                goto end;
+            }
         }
 
         /* Retain the original target host:port for use in the HTTP proxy connect string */
@@ -3049,11 +3057,12 @@ int s_client_main(int argc, char **argv)
     X509_free(cert);
     sk_X509_CRL_pop_free(crls, X509_CRL_free);
     EVP_PKEY_free(key);
-    sk_X509_pop_free(chain, X509_free);
+    OSSL_STACK_OF_X509_free(chain);
     OPENSSL_free(pass);
 #ifndef OPENSSL_NO_SRP
     OPENSSL_free(srp_arg.srppassin);
 #endif
+    OPENSSL_free(sname_alloc);
     OPENSSL_free(connectstr);
     OPENSSL_free(bindstr);
     OPENSSL_free(bindhost);
@@ -3295,11 +3304,11 @@ static void print_stuff(BIO *bio, SSL *s, int full)
         BIO_printf(bio, "    Label: '%s'\n", keymatexportlabel);
         BIO_printf(bio, "    Length: %i bytes\n", keymatexportlen);
         exportedkeymat = app_malloc(keymatexportlen, "export key");
-        if (!SSL_export_keying_material(s, exportedkeymat,
+        if (SSL_export_keying_material(s, exportedkeymat,
                                         keymatexportlen,
                                         keymatexportlabel,
                                         strlen(keymatexportlabel),
-                                        NULL, 0, 0)) {
+                                        NULL, 0, 0) <= 0) {
             BIO_printf(bio, "    Error\n");
         } else {
             BIO_printf(bio, "    Keying material: ");
