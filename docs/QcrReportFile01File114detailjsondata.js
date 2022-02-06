@@ -461,80 +461,73 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "16610"
- , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16610"
+   "c1" : "16620"
+ , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16620"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16610] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16620] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16634"
- , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16634"
+   "c1" : "16644"
+ , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16644"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16634] The expression ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16640"
- , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16640"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16640] The expression 0x01 is invariable"
+ , "c3" : "QC-CPP000011[16644] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "16650"
  , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16650"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16650] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16668"
- , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16668"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16668] The pointer ret is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16669"
- , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16669"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16669] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[16650] The expression 0x01 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16680"
- , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16680"
+   "c1" : "16660"
+ , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16660"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16680] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[16660] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16708"
- , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16708"
+   "c1" : "16678"
+ , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16678"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[16678] The pointer ret is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16679"
+ , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16679"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16708] The expression  ! EVP_PKEY_set_type(ret,keytype) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[16679] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16714"
- , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16714"
+   "c1" : "16690"
+ , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16690"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16714] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[16690] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16730"
- , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16730"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16730] The pointer tmp is declared but not initialized"
+   "c1" : "16718"
+ , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16718"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16718] The expression  ! EVP_PKEY_set_type(ret,keytype) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16747"
- , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16747"
+   "c1" : "16724"
+ , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16724"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16747] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16724] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16740"
+ , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16740"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[16740] The pointer tmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -545,59 +538,66 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "16763"
- , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16763"
+   "c1" : "16767"
+ , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16767"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16763] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16767] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16771"
- , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16771"
+   "c1" : "16773"
+ , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16773"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16771] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16773] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16802"
- , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16802"
+   "c1" : "16781"
+ , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16781"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16802] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000007[16781] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16835"
- , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16835"
+   "c1" : "16812"
+ , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16812"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16835] The pointer inkey is declared but not initialized"
+ , "c3" : "QC-CPP000014[16812] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16836"
- , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16836"
+   "c1" : "16845"
+ , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16845"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16836] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[16845] The pointer inkey is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16836"
- , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16836"
+   "c1" : "16846"
+ , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16846"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[16846] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16846"
+ , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16846"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16836] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16846] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16866"
- , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16866"
+   "c1" : "16876"
+ , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16876"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16866] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[16876] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16921"
- , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16921"
+   "c1" : "16931"
+ , "c1link" : "./qc/crypto/asn1/d2i_pr.c.html#16931"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16921] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[16931] The pointer ret is declared but not initialized"
 }} 
 ]
 };

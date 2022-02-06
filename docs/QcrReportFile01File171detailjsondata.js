@@ -496,73 +496,73 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10529"
- , "c1link" : "./qc/crypto/bio/bss_fd.c.html#10529"
+   "c1" : "10535"
+ , "c1link" : "./qc/crypto/bio/bss_fd.c.html#10535"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10529] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[10535] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10566"
- , "c1link" : "./qc/crypto/bio/bss_fd.c.html#10566"
+   "c1" : "10572"
+ , "c1link" : "./qc/crypto/bio/bss_fd.c.html#10572"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10566] The expression a-&gt;shutdown applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10572] The expression a-&gt;shutdown applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10567"
- , "c1link" : "./qc/crypto/bio/bss_fd.c.html#10567"
+   "c1" : "10573"
+ , "c1link" : "./qc/crypto/bio/bss_fd.c.html#10573"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10567] The expression a-&gt;init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10573] The expression a-&gt;init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10593"
- , "c1link" : "./qc/crypto/bio/bss_fd.c.html#10593"
+   "c1" : "10599"
+ , "c1link" : "./qc/crypto/bio/bss_fd.c.html#10599"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10593] The expression BIO_fd_should_retry(ret) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10599] The expression BIO_fd_should_retry(ret) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10613"
- , "c1link" : "./qc/crypto/bio/bss_fd.c.html#10613"
+   "c1" : "10619"
+ , "c1link" : "./qc/crypto/bio/bss_fd.c.html#10619"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10613] The expression BIO_fd_should_retry(ret) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10619] The expression BIO_fd_should_retry(ret) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10622"
- , "c1link" : "./qc/crypto/bio/bss_fd.c.html#10622"
+   "c1" : "10628"
+ , "c1link" : "./qc/crypto/bio/bss_fd.c.html#10628"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10622] The pointer ip is declared but not initialized"
+ , "c3" : "QC-CPP000014[10628] The pointer ip is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10625"
- , "c1link" : "./qc/crypto/bio/bss_fd.c.html#10625"
+   "c1" : "10631"
+ , "c1link" : "./qc/crypto/bio/bss_fd.c.html#10631"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[10625] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[10631] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10642"
- , "c1link" : "./qc/crypto/bio/bss_fd.c.html#10642"
+   "c1" : "10648"
+ , "c1link" : "./qc/crypto/bio/bss_fd.c.html#10648"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10642] The expression b-&gt;init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10648] The expression b-&gt;init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10693"
- , "c1link" : "./qc/crypto/bio/bss_fd.c.html#10693"
+   "c1" : "10699"
+ , "c1link" : "./qc/crypto/bio/bss_fd.c.html#10699"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10693] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[10699] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10700"
- , "c1link" : "./qc/crypto/bio/bss_fd.c.html#10700"
+   "c1" : "10706"
+ , "c1link" : "./qc/crypto/bio/bss_fd.c.html#10706"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10700] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10706] The expression 0 is invariable, always false"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/asn1/d2i_pu.c.html" 
- , "texte" : "File crypto/asn1/d2i_pu.c 63 rule violations " 
+ , "texte" : "File crypto/asn1/d2i_pu.c 65 rule violations " 
  , "fic2"  : "./qc/crypto/asn1/d2i_pu.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "14"
+ , "c4" : "15"
 }}
 ,
 { "ligne" : {
@@ -63,7 +63,7 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000007"
  , "c3" : "goto statement"
- , "c4" : "5"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : {
@@ -454,45 +454,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12677"
- , "c1link" : "./qc/crypto/asn1/d2i_pu.c.html#12677"
+   "c1" : "12685"
+ , "c1link" : "./qc/crypto/asn1/d2i_pu.c.html#12685"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12677] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[12685] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12688"
- , "c1link" : "./qc/crypto/asn1/d2i_pu.c.html#12688"
+   "c1" : "12701"
+ , "c1link" : "./qc/crypto/asn1/d2i_pu.c.html#12701"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12688] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12701] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12713"
- , "c1link" : "./qc/crypto/asn1/d2i_pu.c.html#12713"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12713] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12718"
- , "c1link" : "./qc/crypto/asn1/d2i_pu.c.html#12718"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12718] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12732"
- , "c1link" : "./qc/crypto/asn1/d2i_pu.c.html#12732"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12732] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12738"
- , "c1link" : "./qc/crypto/asn1/d2i_pu.c.html#12738"
+   "c1" : "12727"
+ , "c1link" : "./qc/crypto/asn1/d2i_pu.c.html#12727"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12738] The expression  ! d2i_DSAPublicKey( &amp; ret-&gt;pkey.dsa,pp,length) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[12727] The expression  ! evp_pkey_copy_downgraded( &amp; copy,ret) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "12728"
+ , "c1link" : "./qc/crypto/asn1/d2i_pu.c.html#12728"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12728] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
@@ -503,24 +489,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12750"
- , "c1link" : "./qc/crypto/asn1/d2i_pu.c.html#12750"
+   "c1" : "12749"
+ , "c1link" : "./qc/crypto/asn1/d2i_pu.c.html#12749"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[12749] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12763"
+ , "c1link" : "./qc/crypto/asn1/d2i_pu.c.html#12763"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12763] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12768"
+ , "c1link" : "./qc/crypto/asn1/d2i_pu.c.html#12768"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12750] The expression  ! o2i_ECPublicKey( &amp; ret-&gt;pkey.ec,pp,length) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[12768] The expression  ! d2i_DSAPublicKey( &amp; ret-&gt;pkey.dsa,pp,length) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12756"
- , "c1link" : "./qc/crypto/asn1/d2i_pu.c.html#12756"
+   "c1" : "12774"
+ , "c1link" : "./qc/crypto/asn1/d2i_pu.c.html#12774"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12756] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12774] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12766"
- , "c1link" : "./qc/crypto/asn1/d2i_pu.c.html#12766"
+   "c1" : "12793"
+ , "c1link" : "./qc/crypto/asn1/d2i_pu.c.html#12793"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12793] The expression  ! o2i_ECPublicKey( &amp; ret-&gt;pkey.ec,pp,length) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "12799"
+ , "c1link" : "./qc/crypto/asn1/d2i_pu.c.html#12799"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12766] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12799] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12809"
+ , "c1link" : "./qc/crypto/asn1/d2i_pu.c.html#12809"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12809] goto statement jump to err"
 }} 
 ]
 };

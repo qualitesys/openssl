@@ -461,108 +461,108 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07956"
- , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#7956"
+   "c1" : "07965"
+ , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#7965"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07956] The expression a applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07965] The expression a applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07984"
- , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#7984"
+   "c1" : "07993"
+ , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#7993"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07984] The pointer tmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[07993] The pointer tmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07984"
- , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#7984"
+   "c1" : "07993"
+ , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#7993"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07984] The pointer rr is declared but not initialized"
+ , "c3" : "QC-CPP000014[07993] The pointer rr is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08007"
- , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#8007"
+   "c1" : "08016"
+ , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#8016"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08007] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08016] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08015"
- , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#8015"
+   "c1" : "08024"
+ , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#8024"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08015] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08024] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08048"
- , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#8048"
+   "c1" : "08057"
+ , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#8057"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08048] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08057] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08056"
- , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#8056"
+   "c1" : "08065"
+ , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#8065"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08056] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08065] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08069"
- , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#8069"
+   "c1" : "08078"
+ , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#8078"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000009[08069] Suspicious bitwise assignment with value 0, result is aa |=0 = aa"
+ , "c3" : "QC-CPP000009[08078] Suspicious bitwise assignment with value 0, result is aa |=0 = aa"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08075"
- , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#8075"
+   "c1" : "08084"
+ , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#8084"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08075] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08084] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08089"
- , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#8089"
+   "c1" : "08098"
+ , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#8098"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08089] The pointer ap is declared but not initialized"
+ , "c3" : "QC-CPP000014[08098] The pointer ap is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08090"
- , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#8090"
+   "c1" : "08099"
+ , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#8099"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08090] The pointer rp is declared but not initialized"
+ , "c3" : "QC-CPP000014[08099] The pointer rp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08095"
- , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#8095"
+   "c1" : "08104"
+ , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#8104"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08095] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08104] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08125"
- , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#8125"
+   "c1" : "08134"
+ , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#8134"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08125] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[08134] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08159"
- , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#8159"
+   "c1" : "08168"
+ , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#8168"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08159] The expression  ! zero applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08168] The expression  ! zero applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08184"
- , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#8184"
+   "c1" : "08193"
+ , "c1link" : "./qc/crypto/bn/bn_sqr.c.html#8193"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08184] The expression c1 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08193] The expression c1 applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

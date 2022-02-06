@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/err/err.c.html" 
- , "texte" : "File crypto/err/err.c 110 rule violations " 
+ , "texte" : "File crypto/err/err.c 107 rule violations " 
  , "fic2"  : "./qc/crypto/err/err.c.xml" 
  , "fic3"  : "" 
 }
@@ -77,7 +77,7 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "16"
+ , "c4" : "13"
 }}
  ] 
 ,
@@ -461,395 +461,374 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08130"
- , "c1link" : "./qc/crypto/err/err.c.html#8130"
+   "c1" : "08136"
+ , "c1link" : "./qc/crypto/err/err.c.html#8136"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08130] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08136] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08131"
- , "c1link" : "./qc/crypto/err/err.c.html#8131"
+   "c1" : "08137"
+ , "c1link" : "./qc/crypto/err/err.c.html#8137"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08131] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08137] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08164"
- , "c1link" : "./qc/crypto/err/err.c.html#8164"
+   "c1" : "08170"
+ , "c1link" : "./qc/crypto/err/err.c.html#8170"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08164] The expression deall applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08170] The expression deall applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08214"
- , "c1link" : "./qc/crypto/err/err.c.html#8214"
+   "c1" : "08220"
+ , "c1link" : "./qc/crypto/err/err.c.html#8220"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08214] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08220] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08228"
- , "c1link" : "./qc/crypto/err/err.c.html#8228"
+   "c1" : "08234"
+ , "c1link" : "./qc/crypto/err/err.c.html#8234"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08228] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08234] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08402"
- , "c1link" : "./qc/crypto/err/err.c.html#8402"
+   "c1" : "08412"
+ , "c1link" : "./qc/crypto/err/err.c.html#8412"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08402] The pointer err_string_lock is declared but not initialized"
+ , "c3" : "QC-CPP000014[08412] The pointer err_string_lock is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08451"
- , "c1link" : "./qc/crypto/err/err.c.html#8451"
+   "c1" : "08461"
+ , "c1link" : "./qc/crypto/err/err.c.html#8461"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08451] The expression  ! CRYPTO_THREAD_read_lock(err_string_lock) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08461] The expression  ! CRYPTO_THREAD_read_lock(err_string_lock) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08481"
- , "c1link" : "./qc/crypto/err/err.c.html#8481"
+   "c1" : "08491"
+ , "c1link" : "./qc/crypto/err/err.c.html#8491"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08481] The expression  ! OPENSSL_init_crypto(0x00040000L,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08491] The expression  ! OPENSSL_init_crypto(0x00040000L,(( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08481"
- , "c1link" : "./qc/crypto/err/err.c.html#8481"
+   "c1" : "08491"
+ , "c1link" : "./qc/crypto/err/err.c.html#8491"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08481] The expression 0x00040000L is invariable"
+ , "c3" : "QC-CPP000012[08491] The expression 0x00040000L is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08546"
- , "c1link" : "./qc/crypto/err/err.c.html#8546"
+   "c1" : "08556"
+ , "c1link" : "./qc/crypto/err/err.c.html#8556"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08546] The expression  ! CRYPTO_THREAD_write_lock(err_string_lock) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08548"
- , "c1link" : "./qc/crypto/err/err.c.html#8548"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08548] The expression str-&gt; error  applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08556] The expression  ! CRYPTO_THREAD_write_lock(err_string_lock) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "08558"
  , "c1link" : "./qc/crypto/err/err.c.html#8558"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08558] The expression CRYPTO_THREAD_run_once( &amp; err_string_init,do_err_strings_init_ossl_) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08558] The expression str-&gt; error  applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08558"
- , "c1link" : "./qc/crypto/err/err.c.html#8558"
+   "c1" : "08568"
+ , "c1link" : "./qc/crypto/err/err.c.html#8568"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08558] The expression do_err_strings_init_ossl_ret_ applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08568] The expression CRYPTO_THREAD_run_once( &amp; err_string_init,do_err_strings_init_ossl_) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08587"
- , "c1link" : "./qc/crypto/err/err.c.html#8587"
+   "c1" : "08568"
+ , "c1link" : "./qc/crypto/err/err.c.html#8568"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08587] The expression CRYPTO_THREAD_run_once( &amp; err_string_init,do_err_strings_init_ossl_) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08568] The expression do_err_strings_init_ossl_ret_ applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08587"
- , "c1link" : "./qc/crypto/err/err.c.html#8587"
+   "c1" : "08597"
+ , "c1link" : "./qc/crypto/err/err.c.html#8597"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08587] The expression do_err_strings_init_ossl_ret_ applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08597] The expression CRYPTO_THREAD_run_once( &amp; err_string_init,do_err_strings_init_ossl_) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08590"
- , "c1link" : "./qc/crypto/err/err.c.html#8590"
+   "c1" : "08597"
+ , "c1link" : "./qc/crypto/err/err.c.html#8597"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08590] The expression  ! CRYPTO_THREAD_write_lock(err_string_lock) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08597] The expression do_err_strings_init_ossl_ret_ applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08596"
- , "c1link" : "./qc/crypto/err/err.c.html#8596"
+   "c1" : "08600"
+ , "c1link" : "./qc/crypto/err/err.c.html#8600"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08596] The expression str-&gt; error  applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08600] The expression  ! CRYPTO_THREAD_write_lock(err_string_lock) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08605"
- , "c1link" : "./qc/crypto/err/err.c.html#8605"
+   "c1" : "08606"
+ , "c1link" : "./qc/crypto/err/err.c.html#8606"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08605] The expression CRYPTO_THREAD_run_once( &amp; err_string_init,do_err_strings_init_ossl_) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08606] The expression str-&gt; error  applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08605"
- , "c1link" : "./qc/crypto/err/err.c.html#8605"
+   "c1" : "08615"
+ , "c1link" : "./qc/crypto/err/err.c.html#8615"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08605] The expression do_err_strings_init_ossl_ret_ applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08615] The expression CRYPTO_THREAD_run_once( &amp; err_string_init,do_err_strings_init_ossl_) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08614"
- , "c1link" : "./qc/crypto/err/err.c.html#8614"
+   "c1" : "08615"
+ , "c1link" : "./qc/crypto/err/err.c.html#8615"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08615] The expression do_err_strings_init_ossl_ret_ applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08624"
+ , "c1link" : "./qc/crypto/err/err.c.html#8624"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08614] The pointer es is declared but not initialized"
+ , "c3" : "QC-CPP000014[08624] The pointer es is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08627"
- , "c1link" : "./qc/crypto/err/err.c.html#8627"
+   "c1" : "08637"
+ , "c1link" : "./qc/crypto/err/err.c.html#8637"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08627] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08637] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08895"
- , "c1link" : "./qc/crypto/err/err.c.html#8895"
+   "c1" : "08905"
+ , "c1link" : "./qc/crypto/err/err.c.html#8905"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08895] The pointer es is declared but not initialized"
+ , "c3" : "QC-CPP000014[08905] The pointer es is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09010"
- , "c1link" : "./qc/crypto/err/err.c.html#9010"
+   "c1" : "09020"
+ , "c1link" : "./qc/crypto/err/err.c.html#9020"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09010] The pointer ls is declared but not initialized"
+ , "c3" : "QC-CPP000014[09020] The pointer ls is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09040"
- , "c1link" : "./qc/crypto/err/err.c.html#9040"
+   "c1" : "09050"
+ , "c1link" : "./qc/crypto/err/err.c.html#9050"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09040] The expression openssl_strerror_r(r,rsbuf, sizeof (rsbuf)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09050] The expression openssl_strerror_r(r,rsbuf, sizeof (rsbuf)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09088"
- , "c1link" : "./qc/crypto/err/err.c.html#9088"
+   "c1" : "09099"
+ , "c1link" : "./qc/crypto/err/err.c.html#9099"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09088] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[09099] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09091"
- , "c1link" : "./qc/crypto/err/err.c.html#9091"
+   "c1" : "09102"
+ , "c1link" : "./qc/crypto/err/err.c.html#9102"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09091] The expression CRYPTO_THREAD_run_once( &amp; err_string_init,do_err_strings_init_ossl_) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09102] The expression CRYPTO_THREAD_run_once( &amp; err_string_init,do_err_strings_init_ossl_) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09091"
- , "c1link" : "./qc/crypto/err/err.c.html#9091"
+   "c1" : "09102"
+ , "c1link" : "./qc/crypto/err/err.c.html#9102"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09091] The expression do_err_strings_init_ossl_ret_ applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09102] The expression do_err_strings_init_ossl_ret_ applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09133"
- , "c1link" : "./qc/crypto/err/err.c.html#9133"
+   "c1" : "09144"
+ , "c1link" : "./qc/crypto/err/err.c.html#9144"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09133] The expression CRYPTO_THREAD_run_once( &amp; err_string_init,do_err_strings_init_ossl_) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09144] The expression CRYPTO_THREAD_run_once( &amp; err_string_init,do_err_strings_init_ossl_) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09133"
- , "c1link" : "./qc/crypto/err/err.c.html#9133"
+   "c1" : "09144"
+ , "c1link" : "./qc/crypto/err/err.c.html#9144"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09133] The expression do_err_strings_init_ossl_ret_ applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09144] The expression do_err_strings_init_ossl_ret_ applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09218"
- , "c1link" : "./qc/crypto/err/err.c.html#9218"
+   "c1" : "09229"
+ , "c1link" : "./qc/crypto/err/err.c.html#9229"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09218] The pointer state is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09225"
- , "c1link" : "./qc/crypto/err/err.c.html#9225"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09225] The expression  ! OPENSSL_init_crypto(0x00040000L,(( void  *)0)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09225"
- , "c1link" : "./qc/crypto/err/err.c.html#9225"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09225] The expression 0x00040000L is invariable"
+ , "c3" : "QC-CPP000014[09229] The pointer state is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "09236"
  , "c1link" : "./qc/crypto/err/err.c.html#9236"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09236] The expression CRYPTO_THREAD_run_once( &amp; err_init,err_do_init_ossl_) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09236] The expression  ! OPENSSL_init_crypto(0x00040000L,(( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "09236"
  , "c1link" : "./qc/crypto/err/err.c.html#9236"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09236] The expression err_do_init_ossl_ret_ applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[09236] The expression 0x00040000L is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09256"
- , "c1link" : "./qc/crypto/err/err.c.html#9256"
+   "c1" : "09247"
+ , "c1link" : "./qc/crypto/err/err.c.html#9247"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09256] The expression  ! CRYPTO_THREAD_set_local( &amp; err_thread_local,(ERR_STATE *) - 1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09247] The expression CRYPTO_THREAD_run_once( &amp; err_init,err_do_init_ossl_) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09263"
- , "c1link" : "./qc/crypto/err/err.c.html#9263"
+   "c1" : "09247"
+ , "c1link" : "./qc/crypto/err/err.c.html#9247"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09247] The expression err_do_init_ossl_ret_ applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09267"
+ , "c1link" : "./qc/crypto/err/err.c.html#9267"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09267] The expression  ! CRYPTO_THREAD_set_local( &amp; err_thread_local,(ERR_STATE *) - 1) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09274"
+ , "c1link" : "./qc/crypto/err/err.c.html#9274"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09263] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09339"
- , "c1link" : "./qc/crypto/err/err.c.html#9339"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09339] The expression  ! OPENSSL_init_crypto(0x00040000L,(( void  *)0)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09339"
- , "c1link" : "./qc/crypto/err/err.c.html#9339"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09339] The expression 0x00040000L is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09346"
- , "c1link" : "./qc/crypto/err/err.c.html#9346"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09346] The expression CRYPTO_THREAD_run_once( &amp; err_init,err_do_init_ossl_) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09346"
- , "c1link" : "./qc/crypto/err/err.c.html#9346"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09346] The expression err_do_init_ossl_ret_ applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPPCWE481[09274] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "09350"
  , "c1link" : "./qc/crypto/err/err.c.html#9350"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09350] The expression  ! CRYPTO_THREAD_set_local( &amp; err_thread_local,(ERR_STATE *) - 1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09350] The expression  ! OPENSSL_init_crypto(0x00040000L,(( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09375"
- , "c1link" : "./qc/crypto/err/err.c.html#9375"
+   "c1" : "09350"
+ , "c1link" : "./qc/crypto/err/err.c.html#9350"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09375] The expression CRYPTO_THREAD_run_once( &amp; err_string_init,do_err_strings_init_ossl_) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[09350] The expression 0x00040000L is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09375"
- , "c1link" : "./qc/crypto/err/err.c.html#9375"
+   "c1" : "09357"
+ , "c1link" : "./qc/crypto/err/err.c.html#9357"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09375] The expression do_err_strings_init_ossl_ret_ applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09357] The expression CRYPTO_THREAD_run_once( &amp; err_init,err_do_init_ossl_) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09378"
- , "c1link" : "./qc/crypto/err/err.c.html#9378"
+   "c1" : "09357"
+ , "c1link" : "./qc/crypto/err/err.c.html#9357"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09378] The expression  ! CRYPTO_THREAD_write_lock(err_string_lock) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09357] The expression err_do_init_ossl_ret_ applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09388"
- , "c1link" : "./qc/crypto/err/err.c.html#9388"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09388] The pointer es is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09442"
- , "c1link" : "./qc/crypto/err/err.c.html#9442"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09442] The pointer str is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09442"
- , "c1link" : "./qc/crypto/err/err.c.html#9442"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09442] The pointer arg is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09443"
- , "c1link" : "./qc/crypto/err/err.c.html#9443"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09443] The pointer es is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09469"
- , "c1link" : "./qc/crypto/err/err.c.html#9469"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09469] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09502"
- , "c1link" : "./qc/crypto/err/err.c.html#9502"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09502] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09518"
- , "c1link" : "./qc/crypto/err/err.c.html#9518"
+   "c1" : "09361"
+ , "c1link" : "./qc/crypto/err/err.c.html#9361"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09518] The expression  ! err_set_error_data_int(str,size,flags,0) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09361] The expression  ! CRYPTO_THREAD_set_local( &amp; err_thread_local,(ERR_STATE *) - 1) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09518"
- , "c1link" : "./qc/crypto/err/err.c.html#9518"
+   "c1" : "09386"
+ , "c1link" : "./qc/crypto/err/err.c.html#9386"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09518] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[09386] The expression CRYPTO_THREAD_run_once( &amp; err_string_init,do_err_strings_init_ossl_) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09524"
- , "c1link" : "./qc/crypto/err/err.c.html#9524"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09524] The pointer es is declared but not initialized"
+   "c1" : "09386"
+ , "c1link" : "./qc/crypto/err/err.c.html#9386"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09386] The expression do_err_strings_init_ossl_ret_ applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09542"
- , "c1link" : "./qc/crypto/err/err.c.html#9542"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09542] The pointer es is declared but not initialized"
+   "c1" : "09389"
+ , "c1link" : "./qc/crypto/err/err.c.html#9389"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09389] The expression  ! CRYPTO_THREAD_write_lock(err_string_lock) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09566"
- , "c1link" : "./qc/crypto/err/err.c.html#9566"
+   "c1" : "09399"
+ , "c1link" : "./qc/crypto/err/err.c.html#9399"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09566] The pointer es is declared but not initialized"
+ , "c3" : "QC-CPP000014[09399] The pointer es is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09591"
- , "c1link" : "./qc/crypto/err/err.c.html#9591"
+   "c1" : "09453"
+ , "c1link" : "./qc/crypto/err/err.c.html#9453"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09591] The pointer es is declared but not initialized"
+ , "c3" : "QC-CPP000014[09453] The pointer str is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09453"
+ , "c1link" : "./qc/crypto/err/err.c.html#9453"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09453] The pointer arg is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09454"
+ , "c1link" : "./qc/crypto/err/err.c.html#9454"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09454] The pointer es is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09480"
+ , "c1link" : "./qc/crypto/err/err.c.html#9480"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09480] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09513"
+ , "c1link" : "./qc/crypto/err/err.c.html#9513"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09513] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09529"
+ , "c1link" : "./qc/crypto/err/err.c.html#9529"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09529] The expression  ! err_set_error_data_int(str,size,flags,0) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09529"
+ , "c1link" : "./qc/crypto/err/err.c.html#9529"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09529] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09535"
+ , "c1link" : "./qc/crypto/err/err.c.html#9535"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09535] The pointer es is declared but not initialized"
 }} 
 ]
 };

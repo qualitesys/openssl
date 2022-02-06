@@ -510,17 +510,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18776"
- , "c1link" : "./qc/apps/lib/columns.c.html#18776"
+   "c1" : "18792"
+ , "c1link" : "./qc/apps/lib/columns.c.html#18792"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18776] The pointer f is declared but not initialized"
+ , "c3" : "QC-CPP000014[18792] The pointer f is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18785"
- , "c1link" : "./qc/apps/lib/columns.c.html#18785"
+   "c1" : "18801"
+ , "c1link" : "./qc/apps/lib/columns.c.html#18801"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18785] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18801] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

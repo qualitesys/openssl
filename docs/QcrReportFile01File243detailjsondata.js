@@ -447,52 +447,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15903"
- , "c1link" : "./qc/crypto/cms/cms_dd.c.html#15903"
+   "c1" : "15912"
+ , "c1link" : "./qc/crypto/cms/cms_dd.c.html#15912"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15903] The pointer cms is declared but not initialized"
+ , "c3" : "QC-CPP000014[15912] The pointer cms is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15904"
- , "c1link" : "./qc/crypto/cms/cms_dd.c.html#15904"
+   "c1" : "15913"
+ , "c1link" : "./qc/crypto/cms/cms_dd.c.html#15913"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15904] The pointer dd is declared but not initialized"
+ , "c3" : "QC-CPP000014[15913] The pointer dd is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15925"
- , "c1link" : "./qc/crypto/cms/cms_dd.c.html#15925"
+   "c1" : "15934"
+ , "c1link" : "./qc/crypto/cms/cms_dd.c.html#15934"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15925] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15934] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15961"
- , "c1link" : "./qc/crypto/cms/cms_dd.c.html#15961"
+   "c1" : "15970"
+ , "c1link" : "./qc/crypto/cms/cms_dd.c.html#15970"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15961] The pointer dd is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15973"
- , "c1link" : "./qc/crypto/cms/cms_dd.c.html#15973"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15973] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15978"
- , "c1link" : "./qc/crypto/cms/cms_dd.c.html#15978"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15978] The expression  ! ossl_cms_DigestAlgorithm_find_ctx(mctx,chain,dd-&gt;digestAlgorithm) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15979"
- , "c1link" : "./qc/crypto/cms/cms_dd.c.html#15979"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15979] goto statement jump to err"
+ , "c3" : "QC-CPP000014[15970] The pointer dd is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -503,10 +482,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15984"
- , "c1link" : "./qc/crypto/cms/cms_dd.c.html#15984"
+   "c1" : "15987"
+ , "c1link" : "./qc/crypto/cms/cms_dd.c.html#15987"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15984] The expression verify applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15987] The expression  ! ossl_cms_DigestAlgorithm_find_ctx(mctx,chain,dd-&gt;digestAlgorithm) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15988"
+ , "c1link" : "./qc/crypto/cms/cms_dd.c.html#15988"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15988] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
@@ -517,24 +503,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15994"
- , "c1link" : "./qc/crypto/cms/cms_dd.c.html#15994"
+   "c1" : "15993"
+ , "c1link" : "./qc/crypto/cms/cms_dd.c.html#15993"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15994] The expression memcmp(md,dd-&gt;digest-&gt;data,mdlen) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15993] The expression verify applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16000"
+ , "c1link" : "./qc/crypto/cms/cms_dd.c.html#16000"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16000] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "16003"
  , "c1link" : "./qc/crypto/cms/cms_dd.c.html#16003"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16003] The expression  ! ASN1_STRING_set(dd-&gt;digest,md,mdlen) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16003] The expression memcmp(md,dd-&gt;digest-&gt;data,mdlen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16004"
- , "c1link" : "./qc/crypto/cms/cms_dd.c.html#16004"
+   "c1" : "16012"
+ , "c1link" : "./qc/crypto/cms/cms_dd.c.html#16012"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16012] The expression  ! ASN1_STRING_set(dd-&gt;digest,md,mdlen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16013"
+ , "c1link" : "./qc/crypto/cms/cms_dd.c.html#16013"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16004] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16013] goto statement jump to err"
 }} 
 ]
 };

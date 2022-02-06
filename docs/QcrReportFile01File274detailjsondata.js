@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/crmf/crmf_asn.c.html" 
- , "texte" : "File crypto/crmf/crmf_asn.c 22 rule violations " 
+ , "texte" : "File crypto/crmf/crmf_asn.c 23 rule violations " 
  , "fic2"  : "./qc/crypto/crmf/crmf_asn.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "15"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : {
@@ -220,6 +220,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/crmf/crmf_asn.c.html#2842"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02842] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08316"
+ , "c1link" : "./qc/crypto/crmf/crmf_asn.c.html#8316"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08316] The expression 2&gt;1 is invariable"
 }} 
 ]
 };

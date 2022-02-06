@@ -454,52 +454,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08626"
- , "c1link" : "./qc/crypto/core_algorithm.c.html#8626"
+   "c1" : "08632"
+ , "c1link" : "./qc/crypto/core_algorithm.c.html#8632"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08626] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08647"
- , "c1link" : "./qc/crypto/core_algorithm.c.html#8647"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08647] The expression  ! data-&gt;pre(provider,cur_operation,data-&gt;data, &amp; ret) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPPCWE481[08632] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "08653"
  , "c1link" : "./qc/crypto/core_algorithm.c.html#8653"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08653] The expression  ! ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08653] The expression  ! data-&gt;pre(provider,cur_operation,data-&gt;data, &amp; ret) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08663"
- , "c1link" : "./qc/crypto/core_algorithm.c.html#8663"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08663] The pointer thismap is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08683"
- , "c1link" : "./qc/crypto/core_algorithm.c.html#8683"
+   "c1" : "08659"
+ , "c1link" : "./qc/crypto/core_algorithm.c.html#8659"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08683] The expression  ! data-&gt;post(provider,cur_operation,no_store,data-&gt;data, &amp; ret) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08659] The expression  ! ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08690"
- , "c1link" : "./qc/crypto/core_algorithm.c.html#8690"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08690] The expression  ! ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08748"
- , "c1link" : "./qc/crypto/core_algorithm.c.html#8748"
+   "c1" : "08669"
+ , "c1link" : "./qc/crypto/core_algorithm.c.html#8669"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08748] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[08669] The pointer thismap is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08689"
+ , "c1link" : "./qc/crypto/core_algorithm.c.html#8689"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08689] The expression  ! data-&gt;post(provider,cur_operation,no_store,data-&gt;data, &amp; ret) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08696"
+ , "c1link" : "./qc/crypto/core_algorithm.c.html#8696"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08696] The expression  ! ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08754"
+ , "c1link" : "./qc/crypto/core_algorithm.c.html#8754"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08754] The pointer ret is declared but not initialized"
 }} 
 ]
 };

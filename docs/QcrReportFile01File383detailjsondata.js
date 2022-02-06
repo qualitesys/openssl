@@ -447,122 +447,122 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15790"
- , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#15790"
+   "c1" : "15808"
+ , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#15808"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15790] The expression int_ctrl_cmd_is_null(defn) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15808] The expression int_ctrl_cmd_is_null(defn) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15818"
- , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#15818"
+   "c1" : "15836"
+ , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#15836"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15818] The pointer cdp is declared but not initialized"
+ , "c3" : "QC-CPP000014[15836] The pointer cdp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15854"
- , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#15854"
+   "c1" : "15872"
+ , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#15872"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15854] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15872] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15873"
- , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#15873"
+   "c1" : "15891"
+ , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#15891"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15873] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15891] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15932"
- , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#15932"
+   "c1" : "15950"
+ , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#15950"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15932] The expression  ! CRYPTO_THREAD_write_lock(global_engine_lock) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15950] The expression  ! CRYPTO_THREAD_write_lock(global_engine_lock) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15941"
- , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#15941"
+   "c1" : "15959"
+ , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#15959"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15941] The expression  ! ref_exists applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15959] The expression  ! ref_exists applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15966"
- , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#15966"
+   "c1" : "15984"
+ , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#15984"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15966] The expression  ! ctrl_exists applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15984] The expression  ! ctrl_exists applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15983"
- , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#15983"
+   "c1" : "16001"
+ , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#16001"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15983] The expression  ! ctrl_exists applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16001] The expression  ! ctrl_exists applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15997"
- , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#15997"
+   "c1" : "16015"
+ , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#16015"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15997] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16015] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16047"
- , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#16047"
+   "c1" : "16065"
+ , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#16065"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16047] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16065] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16054"
- , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#16054"
+   "c1" : "16072"
+ , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#16072"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16054] The expression cmd_optional applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16072] The expression cmd_optional applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16079"
- , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#16079"
+   "c1" : "16097"
+ , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#16097"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16079] The pointer ptr is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16102"
- , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#16102"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16102] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16109"
- , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#16109"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16109] The expression cmd_optional applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000014[16097] The pointer ptr is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "16120"
  , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#16120"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16120] The expression  ! ENGINE_cmd_is_executable(e,num) applies to a single value or variable, might be ambiguous."
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[16120] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16172"
- , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#16172"
+   "c1" : "16127"
+ , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#16127"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16172] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[16127] The expression cmd_optional applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16196"
- , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#16196"
+   "c1" : "16138"
+ , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#16138"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16196] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[16138] The expression  ! ENGINE_cmd_is_executable(e,num) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16190"
+ , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#16190"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16190] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16214"
+ , "c1link" : "./qc/crypto/engine/eng_ctrl.c.html#16214"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16214] The expression 0 is invariable, always false"
 }} 
 ]
 };

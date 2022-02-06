@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/ec_print.c.html" 
- , "texte" : "File crypto/ec/ec_print.c 32 rule violations " 
+ , "texte" : "File crypto/ec/ec_print.c 33 rule violations " 
  , "fic2"  : "./qc/crypto/ec/ec_print.c.xml" 
  , "fic3"  : "" 
 }
@@ -70,7 +70,7 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000007"
  , "c3" : "goto statement"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -244,52 +244,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09830"
- , "c1link" : "./qc/crypto/ec/ec_print.c.html#9830"
+   "c1" : "09838"
+ , "c1link" : "./qc/crypto/ec/ec_print.c.html#9838"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09830] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[09838] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09830"
- , "c1link" : "./qc/crypto/ec/ec_print.c.html#9830"
+   "c1" : "09838"
+ , "c1link" : "./qc/crypto/ec/ec_print.c.html#9838"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09830] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[09838] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09836"
- , "c1link" : "./qc/crypto/ec/ec_print.c.html#9836"
+   "c1" : "09844"
+ , "c1link" : "./qc/crypto/ec/ec_print.c.html#9844"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09836] The pointer pbuf is declared but not initialized"
+ , "c3" : "QC-CPP000014[09844] The pointer pbuf is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09832"
- , "c1link" : "./qc/crypto/ec/ec_print.c.html#9832"
+   "c1" : "09840"
+ , "c1link" : "./qc/crypto/ec/ec_print.c.html#9840"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09832] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09840] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09878"
- , "c1link" : "./qc/crypto/ec/ec_print.c.html#9878"
+   "c1" : "09886"
+ , "c1link" : "./qc/crypto/ec/ec_print.c.html#9886"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09878] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09886] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09916"
- , "c1link" : "./qc/crypto/ec/ec_print.c.html#9916"
+   "c1" : "09924"
+ , "c1link" : "./qc/crypto/ec/ec_print.c.html#9924"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09916] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09934"
- , "c1link" : "./qc/crypto/ec/ec_print.c.html#9934"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09934] The expression '\0' is invariable"
+ , "c3" : "QC-CPP000007[09924] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
@@ -300,10 +293,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "09938"
+ , "c1link" : "./qc/crypto/ec/ec_print.c.html#9938"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09938] The expression '\0' is invariable"
+}} 
+,
+{ "ligne" : {
    "c1" : "09940"
  , "c1link" : "./qc/crypto/ec/ec_print.c.html#9940"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09940] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09944"
+ , "c1link" : "./qc/crypto/ec/ec_print.c.html#9944"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09940] The expression  ! ok applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09944] The expression  ! ok applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

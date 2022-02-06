@@ -503,94 +503,94 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09418"
- , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9418"
+   "c1" : "09424"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9424"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09418] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09424] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09440"
- , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9440"
+   "c1" : "09446"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9446"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09440] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09451"
- , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9451"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09451] The expression  ! OPENSSL_sk_push(ossl_check_void_sk_type(dso-&gt;meth_data),ossl_check_void_type(( char  *)ptr)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000007[09446] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "09457"
  , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9457"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09457] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09476"
- , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9476"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09476] The pointer ptr is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09515"
- , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9515"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09515] The pointer ptr is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09590"
- , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9590"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09590] The pointer merged is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09634"
- , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9634"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09634] The expression  ! filespec1 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09457] The expression  ! OPENSSL_sk_push(ossl_check_void_sk_type(dso-&gt;meth_data),ossl_check_void_type(( char  *)ptr)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09695"
- , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9695"
+   "c1" : "09463"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9463"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09695] The pointer translated is declared but not initialized"
+ , "c3" : "QC-CPP000007[09463] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09705"
- , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9705"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09705] The expression transform applies to a single value or variable, might be ambiguous."
+   "c1" : "09482"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9482"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09482] The pointer ptr is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09728"
- , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9728"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09728] The expression transform applies to a single value or variable, might be ambiguous."
+   "c1" : "09521"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9521"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09521] The pointer ptr is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09758"
- , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9758"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09758] The expression dladdr(addr, &amp; dli) applies to a single value or variable, might be ambiguous."
+   "c1" : "09596"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9596"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09596] The pointer merged is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09797"
- , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9797"
+   "c1" : "09640"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9640"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09797] The expression handle applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09640] The expression  ! filespec1 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09701"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9701"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09701] The pointer translated is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09711"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9711"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09711] The expression transform applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09734"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9734"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09734] The expression transform applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09764"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9764"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09764] The expression dladdr(addr, &amp; dli) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09803"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9803"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09803] The expression handle applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

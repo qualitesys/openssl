@@ -251,87 +251,80 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13634"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13634"
+   "c1" : "13643"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13643"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13634] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13643] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13640"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13640"
+   "c1" : "13649"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13649"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13640] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[13649] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13645"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13645"
+   "c1" : "13654"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13654"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13645] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13654] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13652"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13652"
+   "c1" : "13661"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13661"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13652] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13657"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13657"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13657] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13658"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13658"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13658] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13664"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13664"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13664] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[13661] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "13666"
  , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13666"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13666] The expression  ! ASN1_OCTET_STRING_set(pbm-&gt;salt,salt,( int  )slen) applies to a single value or variable, might be ambiguous."
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13666] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "13667"
  , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13667"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13667] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13674"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13674"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13674] The expression  ! X509_ALGOR_set0(pbm-&gt;owf,OBJ_nid2obj(owfnid), - 1,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13667] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13674"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13674"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13674] The expression  - 1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13684"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13684"
+   "c1" : "13673"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13673"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13684] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13673] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13675"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13675"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13675] The expression  ! ASN1_OCTET_STRING_set(pbm-&gt;salt,salt,( int  )slen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13676"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13676"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13676] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13683"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13683"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13683] The expression  ! X509_ALGOR_set0(pbm-&gt;owf,OBJ_nid2obj(owfnid), - 1,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13683"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13683"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13683] The expression  - 1 is invariable"
 }} 
 ,
 { "ligne" : {
@@ -342,17 +335,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13701"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13701"
+   "c1" : "13702"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13702"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13701] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13704"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13704"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13704] The expression  ! ASN1_INTEGER_set(pbm-&gt;iterationCount,itercnt) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000007[13702] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
@@ -363,136 +349,143 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13718"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13718"
+   "c1" : "13713"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13713"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13718] The expression  ! X509_ALGOR_set0(pbm-&gt;mac,OBJ_nid2obj(macnid), - 1,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13713] The expression  ! ASN1_INTEGER_set(pbm-&gt;iterationCount,itercnt) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13718"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13718"
+   "c1" : "13719"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13719"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13719] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13727"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13727"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13718] The expression  - 1 is invariable"
+ , "c3" : "QC-CPP000011[13727] The expression  ! X509_ALGOR_set0(pbm-&gt;mac,OBJ_nid2obj(macnid), - 1,(( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13728"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13728"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13728] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13765"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13765"
+   "c1" : "13727"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13727"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13765] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[13727] The expression  - 1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13799"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13799"
+   "c1" : "13737"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13737"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13799] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13737] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13801"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13801"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13801] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13806"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13806"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13806] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13814"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13814"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13814] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13824"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13824"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13824] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13827"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13827"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13827] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13832"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13832"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13832] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13835"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13835"
+   "c1" : "13774"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13774"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13835] The expression  ! EVP_DigestInit_ex(ctx,owf,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[13774] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13840"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13840"
+   "c1" : "13808"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13808"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13840] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13808] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13842"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13842"
+   "c1" : "13810"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13810"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[13810] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13815"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13815"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13815] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13823"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13823"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[13823] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13833"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13833"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13833] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13836"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13836"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[13836] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13841"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13841"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13841] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13844"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13844"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13842] The expression  ! EVP_DigestUpdate(ctx,sec,seclen) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13844] The expression  ! EVP_DigestInit_ex(ctx,owf,(( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13843"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13843"
+   "c1" : "13849"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13849"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13843] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13849] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13845"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13845"
+   "c1" : "13851"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13851"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13845] The expression  ! EVP_DigestUpdate(ctx,pbmp-&gt;salt-&gt;data,pbmp-&gt;salt-&gt;length) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13851] The expression  ! EVP_DigestUpdate(ctx,sec,seclen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13846"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13846"
+   "c1" : "13852"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13852"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13846] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13852] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13847"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13847"
+   "c1" : "13854"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13854"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13847] The expression  ! EVP_DigestFinal_ex(ctx,basekey, &amp; bklen) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13854] The expression  ! EVP_DigestUpdate(ctx,pbmp-&gt;salt-&gt;data,pbmp-&gt;salt-&gt;length) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13848"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13848"
+   "c1" : "13855"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13855"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13848] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13855] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13856"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13856"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13856] The expression  ! EVP_DigestFinal_ex(ctx,basekey, &amp; bklen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -503,101 +496,108 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13862"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13862"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13862] The expression  ! EVP_DigestInit_ex(ctx,owf,(( void  *)0)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "13867"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13867"
+   "c1" : "13866"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13866"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13867] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13868"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13868"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13868] The expression  ! EVP_DigestUpdate(ctx,basekey,bklen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "13869"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13869"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13869] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13870"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13870"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13870] The expression  ! EVP_DigestFinal_ex(ctx,basekey, &amp; bklen) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000007[13866] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "13871"
  , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13871"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13871] The expression  ! EVP_DigestInit_ex(ctx,owf,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13876"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13876"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13871] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13876] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13881"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13881"
+   "c1" : "13877"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13877"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13881] The expression 0x1 is invariable"
+ , "c3" : "QC-CPP000011[13877] The expression  ! EVP_DigestUpdate(ctx,basekey,bklen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13891"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13891"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13891] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13897"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13897"
+   "c1" : "13878"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13878"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13897] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13878] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13899"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13899"
+   "c1" : "13879"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13879"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13899] The expression 'HMAC' is invariable"
+ , "c3" : "QC-CPP000011[13879] The expression  ! EVP_DigestFinal_ex(ctx,basekey, &amp; bklen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13904"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13904"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13904] The expression 64 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13909"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13909"
+   "c1" : "13880"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13880"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13909] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13880] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13936"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13936"
+   "c1" : "13890"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13890"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13936] The expression OBJ_obj2txt(buf, sizeof (buf),pbmp-&gt;mac-&gt;algorithm,0) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[13890] The expression 0x1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13936"
- , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13936"
+   "c1" : "13900"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13900"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13936] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[13900] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13906"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13906"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13906] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13908"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13908"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13908] The expression 'HMAC' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13913"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13913"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13913] The expression 64 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13918"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13918"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13918] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13945"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13945"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13945] The expression OBJ_obj2txt(buf, sizeof (buf),pbmp-&gt;mac-&gt;algorithm,0) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13945"
+ , "c1link" : "./qc/crypto/crmf/crmf_pbm.c.html#13945"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13945] The expression 0 is invariable, always false"
 }} 
 ]
 };

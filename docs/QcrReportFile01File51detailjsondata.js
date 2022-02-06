@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/pkeyparam.c.html" 
- , "texte" : "File apps/pkeyparam.c 77 rule violations " 
+ , "texte" : "File apps/pkeyparam.c 78 rule violations " 
  , "fic2"  : "./qc/apps/pkeyparam.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "20"
+ , "c4" : "21"
 }}
 ,
 { "ligne" : {
@@ -517,59 +517,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18957"
- , "c1link" : "./qc/apps/pkeyparam.c.html#18957"
+   "c1" : "18973"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#18973"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18957] The pointer prog is declared but not initialized"
+ , "c3" : "QC-CPP000014[18973] The pointer prog is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18960"
- , "c1link" : "./qc/apps/pkeyparam.c.html#18960"
+   "c1" : "18976"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#18976"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18960] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18976] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18964"
- , "c1link" : "./qc/apps/pkeyparam.c.html#18964"
+   "c1" : "18980"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#18980"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[18964] The switch case refers to the jump label opthelp"
+ , "c3" : "QC-CPP000010[18980] The switch case refers to the jump label opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18966"
- , "c1link" : "./qc/apps/pkeyparam.c.html#18966"
+   "c1" : "18982"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#18982"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18966] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18982] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18970"
- , "c1link" : "./qc/apps/pkeyparam.c.html#18970"
+   "c1" : "18986"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#18986"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18970] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18986] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18990"
- , "c1link" : "./qc/apps/pkeyparam.c.html#18990"
+   "c1" : "19006"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#19006"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18990] The expression  ! opt_provider(o) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "18991"
- , "c1link" : "./qc/apps/pkeyparam.c.html#18991"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18991] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18999"
- , "c1link" : "./qc/apps/pkeyparam.c.html#18999"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18999] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000011[19006] The expression  ! opt_provider(o) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -580,52 +566,73 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19014"
- , "c1link" : "./qc/apps/pkeyparam.c.html#19014"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19014] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19027"
- , "c1link" : "./qc/apps/pkeyparam.c.html#19027"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19027] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19030"
- , "c1link" : "./qc/apps/pkeyparam.c.html#19030"
+   "c1" : "19013"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#19013"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19030] The expression check applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19013] The expression  ! opt_check_rest_arg((( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19038"
- , "c1link" : "./qc/apps/pkeyparam.c.html#19038"
+   "c1" : "19018"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#19018"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19038] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19018] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19052"
- , "c1link" : "./qc/apps/pkeyparam.c.html#19052"
+   "c1" : "19026"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#19026"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19052] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19026] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19056"
- , "c1link" : "./qc/apps/pkeyparam.c.html#19056"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19056] The expression  ! noout applies to a single value or variable, might be ambiguous."
+   "c1" : "19033"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#19033"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19033] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19059"
- , "c1link" : "./qc/apps/pkeyparam.c.html#19059"
+   "c1" : "19046"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#19046"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19046] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19049"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#19049"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19059] The expression text applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19049] The expression check applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19057"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#19057"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19057] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19071"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#19071"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19071] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19075"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#19075"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19075] The expression  ! noout applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19078"
+ , "c1link" : "./qc/apps/pkeyparam.c.html#19078"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19078] The expression text applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

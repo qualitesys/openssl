@@ -496,73 +496,73 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10554"
- , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10554"
+   "c1" : "10560"
+ , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10560"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10554] The pointer b is declared but not initialized"
+ , "c3" : "QC-CPP000014[10560] The pointer b is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10577"
- , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10577"
+   "c1" : "10583"
+ , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10583"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10577] The pointer tmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[10583] The pointer tmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10601"
- , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10601"
+   "c1" : "10607"
+ , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10607"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10601] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[10607] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10623"
- , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10623"
+   "c1" : "10629"
+ , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10629"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[10623] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[10629] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10623"
- , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10623"
+   "c1" : "10629"
+ , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10629"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[10623] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[10629] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10641"
- , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10641"
+   "c1" : "10647"
+ , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10647"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10641] The expression  ! readbuffer_resize(ctx,outl) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10647] The expression  ! readbuffer_resize(ctx,outl) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10668"
- , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10668"
+   "c1" : "10674"
+ , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10674"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10668] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[10674] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10736"
- , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10736"
+   "c1" : "10742"
+ , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10742"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10736] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[10742] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10738"
- , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10738"
+   "c1" : "10744"
+ , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10744"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10738] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[10744] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10776"
- , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10776"
+   "c1" : "10782"
+ , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10782"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10776] The expression  ! readbuffer_resize(ctx,1+size) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10782] The expression  ! readbuffer_resize(ctx,1+size) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

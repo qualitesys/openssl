@@ -454,73 +454,73 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08045"
- , "c1link" : "./qc/crypto/asn1/x_int64.c.html#8045"
+   "c1" : "08051"
+ , "c1link" : "./qc/crypto/asn1/x_int64.c.html#8051"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08045] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08051] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08103"
- , "c1link" : "./qc/crypto/asn1/x_int64.c.html#8103"
+   "c1" : "08109"
+ , "c1link" : "./qc/crypto/asn1/x_int64.c.html#8109"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08103] The pointer cp is declared but not initialized"
+ , "c3" : "QC-CPP000014[08109] The pointer cp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08122"
- , "c1link" : "./qc/crypto/asn1/x_int64.c.html#8122"
+   "c1" : "08128"
+ , "c1link" : "./qc/crypto/asn1/x_int64.c.html#8128"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08122] goto statement jump to long_compat"
+ , "c3" : "QC-CPP000007[08128] goto statement jump to long_compat"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08124"
- , "c1link" : "./qc/crypto/asn1/x_int64.c.html#8124"
+   "c1" : "08130"
+ , "c1link" : "./qc/crypto/asn1/x_int64.c.html#8130"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08124] The expression  ! ossl_c2i_uint64_int( &amp; utmp, &amp; neg, &amp; cont,len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08130] The expression  ! ossl_c2i_uint64_int( &amp; utmp, &amp; neg, &amp; cont,len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08147"
- , "c1link" : "./qc/crypto/asn1/x_int64.c.html#8147"
+   "c1" : "08153"
+ , "c1link" : "./qc/crypto/asn1/x_int64.c.html#8153"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08147] The expression neg applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08153] The expression neg applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08168"
- , "c1link" : "./qc/crypto/asn1/x_int64.c.html#8168"
+   "c1" : "08174"
+ , "c1link" : "./qc/crypto/asn1/x_int64.c.html#8174"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08168] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08174] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08227"
- , "c1link" : "./qc/crypto/asn1/x_int64.c.html#8227"
+   "c1" : "08233"
+ , "c1link" : "./qc/crypto/asn1/x_int64.c.html#8233"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08227] The pointer cp is declared but not initialized"
+ , "c3" : "QC-CPP000014[08233] The pointer cp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08246"
- , "c1link" : "./qc/crypto/asn1/x_int64.c.html#8246"
+   "c1" : "08252"
+ , "c1link" : "./qc/crypto/asn1/x_int64.c.html#8252"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08246] goto statement jump to long_compat"
+ , "c3" : "QC-CPP000007[08252] goto statement jump to long_compat"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08248"
- , "c1link" : "./qc/crypto/asn1/x_int64.c.html#8248"
+   "c1" : "08254"
+ , "c1link" : "./qc/crypto/asn1/x_int64.c.html#8254"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08248] The expression  ! ossl_c2i_uint64_int( &amp; utmp, &amp; neg, &amp; cont,len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08254] The expression  ! ossl_c2i_uint64_int( &amp; utmp, &amp; neg, &amp; cont,len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08258"
- , "c1link" : "./qc/crypto/asn1/x_int64.c.html#8258"
+   "c1" : "08264"
+ , "c1link" : "./qc/crypto/asn1/x_int64.c.html#8264"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08258] The expression neg applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08264] The expression neg applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -440,17 +440,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15792"
- , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#15792"
+   "c1" : "15810"
+ , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#15810"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15792] The pointer e is declared but not initialized"
+ , "c3" : "QC-CPP000014[15810] The pointer e is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15794"
- , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#15794"
+   "c1" : "15812"
+ , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#15812"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15794] The expression e applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15812] The expression e applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

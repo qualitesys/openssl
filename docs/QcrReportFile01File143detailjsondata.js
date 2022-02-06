@@ -440,20 +440,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15478"
- , "c1link" : "./qc/crypto/asn1/x_sig.c.html#15478"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15478] The expression palg applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15480"
- , "c1link" : "./qc/crypto/asn1/x_sig.c.html#15480"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15480] The expression pdigest applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "15487"
  , "c1link" : "./qc/crypto/asn1/x_sig.c.html#15487"
  , "c2" : "BLOCKER"
@@ -465,6 +451,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/asn1/x_sig.c.html#15489"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[15489] The expression pdigest applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15496"
+ , "c1link" : "./qc/crypto/asn1/x_sig.c.html#15496"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15496] The expression palg applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15498"
+ , "c1link" : "./qc/crypto/asn1/x_sig.c.html#15498"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15498] The expression pdigest applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

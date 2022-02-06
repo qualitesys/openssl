@@ -461,136 +461,136 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08312"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8312"
+   "c1" : "08318"
+ , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8318"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08312] The pointer sel is declared but not initialized"
+ , "c3" : "QC-CPP000014[08318] The pointer sel is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08322"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8322"
+   "c1" : "08328"
+ , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8328"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08322] The pointer aux is declared but not initialized"
+ , "c3" : "QC-CPP000014[08328] The pointer aux is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08323"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8323"
+   "c1" : "08329"
+ , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8329"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08323] The pointer lck is declared but not initialized"
+ , "c3" : "QC-CPP000014[08329] The pointer lck is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08324"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8324"
+   "c1" : "08330"
+ , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8330"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08324] The pointer lock is declared but not initialized"
+ , "c3" : "QC-CPP000014[08330] The pointer lock is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08342"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8342"
+   "c1" : "08348"
+ , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8348"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08342] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08348] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08358"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8358"
+   "c1" : "08364"
+ , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8364"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08358] The expression  ! CRYPTO_UP_REF(lck, &amp; ret, * lock) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08364] The expression  ! CRYPTO_UP_REF(lck, &amp; ret, * lock) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08362"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8362"
+   "c1" : "08368"
+ , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8368"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08362] The expression  ! CRYPTO_DOWN_REF(lck, &amp; ret, * lock) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08368] The expression  ! CRYPTO_DOWN_REF(lck, &amp; ret, * lock) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08382"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8382"
+   "c1" : "08388"
+ , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8388"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08382] The pointer aux is declared but not initialized"
+ , "c3" : "QC-CPP000014[08388] The pointer aux is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08415"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8415"
+   "c1" : "08421"
+ , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8421"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08415] The pointer aux is declared but not initialized"
+ , "c3" : "QC-CPP000014[08421] The pointer aux is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08499"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8499"
+   "c1" : "08505"
+ , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8505"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08499] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08505] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08529"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8529"
+   "c1" : "08535"
+ , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8535"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08529] The expression out applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08535] The expression out applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08570"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8570"
+   "c1" : "08576"
+ , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8576"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08570] The pointer adb is declared but not initialized"
+ , "c3" : "QC-CPP000014[08576] The pointer adb is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08571"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8571"
+   "c1" : "08577"
+ , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8577"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08571] The pointer atbl is declared but not initialized"
+ , "c3" : "QC-CPP000014[08577] The pointer atbl is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08573"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8573"
+   "c1" : "08579"
+ , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8579"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08573] The pointer sfld is declared but not initialized"
+ , "c3" : "QC-CPP000014[08579] The pointer sfld is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08583"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8583"
+   "c1" : "08589"
+ , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8589"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000001[08583] The unary operator + should be avoided, confusing"
+ , "c3" : "QC-CPP000001[08589] The unary operator + should be avoided, confusing"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08596"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8596"
+   "c1" : "08602"
+ , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8602"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08596] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08634"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8634"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08634] The expression  ! adb-&gt;default_tt applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08635"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8635"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08635] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08602] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "08640"
  , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8640"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08640] The expression nullerr applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08640] The expression  ! adb-&gt;default_tt applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08641"
+ , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8641"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08641] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08646"
+ , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8646"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08646] The expression nullerr applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

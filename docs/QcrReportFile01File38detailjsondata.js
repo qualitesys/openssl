@@ -524,850 +524,850 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20732"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#20732"
+   "c1" : "20751"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#20751"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20732] The expression list-&gt;name applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20751] The expression list-&gt;name applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20740"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#20740"
+   "c1" : "20759"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#20759"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20740] The pointer err_cert is declared but not initialized"
+ , "c3" : "QC-CPP000014[20759] The pointer err_cert is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20762"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#20762"
+   "c1" : "20781"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#20781"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20762] The expression  ! ok applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20781] The expression  ! ok applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20766"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#20766"
+   "c1" : "20785"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#20785"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20766] The expression  ! verify_args.return_error applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "20794"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#20794"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20794] The expression  ! verify_args.quiet applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20785] The expression  ! verify_args.return_error applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "20813"
  , "c1link" : "./qc/apps/lib/s_cb.c.html#20813"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[20813] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20825"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#20825"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[20825] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000011[20813] The expression  ! verify_args.quiet applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "20832"
  , "c1link" : "./qc/apps/lib/s_cb.c.html#20832"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20832] The expression  ! SSL_CTX_check_private_key(ctx) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[20832] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20866"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#20866"
+   "c1" : "20844"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#20844"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20866] The expression  ! SSL_CTX_check_private_key(ctx) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[20844] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20871"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#20871"
+   "c1" : "20851"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#20851"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[20871] The expression 88 is invariable"
+ , "c3" : "QC-CPP000011[20851] The expression  ! SSL_CTX_check_private_key(ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20871"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#20871"
+   "c1" : "20886"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#20886"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[20871] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000011[20886] The expression  ! SSL_CTX_check_private_key(ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20876"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#20876"
+   "c1" : "20891"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#20891"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[20876] The expression 105 is invariable"
+ , "c3" : "QC-CPP000012[20891] The expression 88 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20907"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#20907"
+   "c1" : "20891"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#20891"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20891] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20896"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#20896"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20896] The expression 105 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20927"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#20927"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20907] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[20927] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20907"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#20907"
+   "c1" : "20927"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#20927"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[20907] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[20927] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20910"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#20910"
+   "c1" : "20931"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#20931"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20910] The expression  ! cert_type_num applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20931] The expression  ! cert_type_num applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20921"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#20921"
+   "c1" : "20942"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#20942"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20921] The expression i applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20942] The expression i applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20978"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#20978"
+   "c1" : "21000"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21000"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20978] The expression  shared  applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21000] The expression  shared  applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21025"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21025"
+   "c1" : "21047"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21047"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21025] The expression  shared  applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21047] The expression  shared  applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21028"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21028"
+   "c1" : "21050"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21050"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21028] The expression client applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21050] The expression client applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21039"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21039"
+   "c1" : "21061"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21061"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21039] The expression  shared  applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21061] The expression  shared  applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21052"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21052"
+   "c1" : "21074"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21074"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21052] The expression i applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21074] The expression i applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21055"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21055"
+   "c1" : "21077"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21077"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21055] The expression sstr applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21077] The expression sstr applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21075"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21075"
+   "c1" : "21098"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21098"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21075] The expression  ! SSL_is_server(s) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21098] The expression  ! SSL_is_server(s) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21079"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21079"
+   "c1" : "21102"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21102"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21079] The expression 108 is invariable"
+ , "c3" : "QC-CPP000012[21102] The expression 108 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21079"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21079"
+   "c1" : "21102"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21102"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21079] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[21102] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21081"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21081"
+   "c1" : "21104"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21104"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21081] The expression SSL_get_peer_signature_type_nid(s, &amp; nid) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21104] The expression SSL_get_peer_signature_type_nid(s, &amp; nid) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21090"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21090"
+   "c1" : "21113"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21113"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21090] The pointer pformats is declared but not initialized"
+ , "c3" : "QC-CPP000014[21113] The pointer pformats is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21096"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21096"
+   "c1" : "21120"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21120"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21096] The expression i applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21120] The expression i applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21123"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21123"
+   "c1" : "21147"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21147"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21123] The pointer groups is declared but not initialized"
+ , "c3" : "QC-CPP000014[21147] The pointer groups is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21137"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21137"
+   "c1" : "21161"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21161"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21137] The expression i applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21161] The expression i applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21143"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21143"
+   "c1" : "21167"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21167"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21143] The expression noshared applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21167] The expression noshared applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21154"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21154"
+   "c1" : "21178"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21178"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21154] The expression i applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21178] The expression i applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21172"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21172"
+   "c1" : "21196"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21196"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21172] The pointer key is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21174"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21174"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21174] The expression  ! SSL_ctrl(s,109,0, &amp; key) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "21174"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21174"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21174] The expression 109 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21174"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21174"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21174] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21191"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21191"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21191] The expression  ! EVP_PKEY_get_utf8_string_param(key,'group',name, sizeof (name), &amp; name_len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "21191"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21191"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21191] The expression 'group' is invariable"
+ , "c3" : "QC-CPP000014[21196] The pointer key is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "21198"
  , "c1link" : "./qc/apps/lib/s_cb.c.html#21198"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21198] The expression  ! SSL_ctrl(s,109,0, &amp; key) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21198"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21198"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[21198] The expression 109 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21198"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21198"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[21198] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21215"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21215"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21215] The expression  ! EVP_PKEY_get_utf8_string_param(key,'group',name, sizeof (name), &amp; name_len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21215"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21215"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[21215] The expression 'group' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21222"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21222"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[21198] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[21222] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21209"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21209"
+   "c1" : "21233"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21233"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21209] The pointer out is declared but not initialized"
+ , "c3" : "QC-CPP000014[21233] The pointer out is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21251"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21251"
+   "c1" : "21275"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21275"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21251] The pointer str is declared but not initialized"
+ , "c3" : "QC-CPP000014[21275] The pointer str is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21373"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21373"
+   "c1" : "21397"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21397"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21373] The pointer str_version is declared but not initialized"
+ , "c3" : "QC-CPP000014[21397] The pointer str_version is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21423"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21423"
+   "c1" : "21447"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21447"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[21423] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[21447] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21582"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21582"
+   "c1" : "21606"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21606"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[21582] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[21606] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21601"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21601"
+   "c1" : "21625"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21625"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21601] The expression  ! cookie_initialized applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21625] The expression  ! cookie_initialized applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21602"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21602"
+   "c1" : "21626"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21626"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21602] The expression 16 is invariable"
+ , "c3" : "QC-CPP000012[21626] The expression 16 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21609"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21609"
+   "c1" : "21633"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21633"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21609] The expression SSL_is_dtls(ssl) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21633] The expression SSL_is_dtls(ssl) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21610"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21610"
+   "c1" : "21634"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21634"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[21610] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[21634] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21627"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21627"
+   "c1" : "21651"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21651"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21627] The expression  ! BIO_ADDR_rawaddress(peer,(( void  *)0), &amp; length) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21651] The expression  ! BIO_ADDR_rawaddress(peer,(( void  *)0), &amp; length) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21652"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21652"
+   "c1" : "21676"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21676"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21652] The expression 'HMAC' is invariable"
+ , "c3" : "QC-CPP000012[21676] The expression 'HMAC' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21656"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21656"
+   "c1" : "21680"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21680"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21656] The expression 'SHA1' is invariable"
+ , "c3" : "QC-CPP000012[21680] The expression 'SHA1' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21661"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21661"
+   "c1" : "21685"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21685"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21661] The expression 16 is invariable"
+ , "c3" : "QC-CPP000012[21685] The expression 16 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21662"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21662"
+   "c1" : "21686"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21686"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21662] The expression 255 is invariable"
+ , "c3" : "QC-CPP000012[21686] The expression 255 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21669"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21669"
+   "c1" : "21693"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21693"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21669] goto statement jump to end"
+ , "c3" : "QC-CPP000007[21693] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21745"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21745"
+   "c1" : "21769"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21769"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21745] The pointer pp is declared but not initialized"
+ , "c3" : "QC-CPP000014[21769] The pointer pp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21747"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21747"
+   "c1" : "21771"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21771"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21747] The expression pp-&gt;name applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21771] The expression pp-&gt;name applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21752"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21752"
+   "c1" : "21776"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21776"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21752] The expression 99 is invariable"
+ , "c3" : "QC-CPP000012[21776] The expression 99 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21752"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21752"
+   "c1" : "21776"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21776"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21752] The expression (0) is invariable"
+ , "c3" : "QC-CPP000012[21776] The expression (0) is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21815"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21815"
+   "c1" : "21839"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21839"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21815] The expression exc-&gt;build_chain applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21839] The expression exc-&gt;build_chain applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21816"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21816"
+   "c1" : "21840"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21840"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21816] The expression  ! SSL_ctrl(ssl,105,0,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21840] The expression  ! SSL_ctrl(ssl,105,0,(( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21816"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21816"
+   "c1" : "21840"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21840"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21816] The expression 105 is invariable"
+ , "c3" : "QC-CPP000012[21840] The expression 105 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21816"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21816"
+   "c1" : "21840"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21840"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21816] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[21840] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21827"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21827"
+   "c1" : "21851"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21851"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21827] The expression  ! SSL_ctrl(ssl,88,1,( char  *)(exc-&gt;chain)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21851] The expression  ! SSL_ctrl(ssl,88,1,( char  *)(exc-&gt;chain)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21827"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21827"
+   "c1" : "21851"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21851"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21827] The expression 88 is invariable"
+ , "c3" : "QC-CPP000012[21851] The expression 88 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21827"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21827"
+   "c1" : "21851"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21851"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21827] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[21851] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21850"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21850"
+   "c1" : "21874"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21874"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21850] The expression exc-&gt;next applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21874] The expression exc-&gt;next applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21864"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21864"
+   "c1" : "21888"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21888"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21864] The pointer curr is declared but not initialized"
+ , "c3" : "QC-CPP000014[21888] The pointer curr is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21872"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21872"
+   "c1" : "21896"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21896"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21872] The expression exc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21896] The expression exc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21909"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21909"
+   "c1" : "21934"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21934"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21909] The expression exc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21934] The expression exc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21968"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21968"
+   "c1" : "21993"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21993"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21968] The expression  ! load_certs(exc-&gt;chainfile,0, &amp; exc-&gt;chain,(( void  *)0),'server chain') applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21993] The expression  ! load_certs(exc-&gt;chainfile,0, &amp; exc-&gt;chain,(( void  *)0),'server chain') applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21968"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21968"
+   "c1" : "21993"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21993"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21968] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[21993] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21972"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#21972"
+   "c1" : "21997"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#21997"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21972] The expression 'server chain' is invariable"
+ , "c3" : "QC-CPP000012[21997] The expression 'server chain' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22001"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22001"
+   "c1" : "22026"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22026"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22001] The expression  ! ssl_excert_prepend( &amp; exc) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[22026] The expression  ! ssl_excert_prepend( &amp; exc) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "22004"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22004"
+   "c1" : "22029"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22029"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22004] goto statement jump to err"
+ , "c3" : "QC-CPP000007[22029] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22020"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22020"
+   "c1" : "22045"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22045"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22020] goto statement jump to err"
+ , "c3" : "QC-CPP000007[22045] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22032"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22032"
+   "c1" : "22057"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22057"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22032] goto statement jump to err"
+ , "c3" : "QC-CPP000007[22057] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22044"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22044"
+   "c1" : "22069"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22069"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22044] goto statement jump to err"
+ , "c3" : "QC-CPP000007[22069] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22052"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22052"
+   "c1" : "22077"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22077"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22052] The expression  ! opt_format(opt_arg(),((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)|(1L&lt;&lt;4)|(1L&lt;&lt;5)|(1L&lt;&lt;7)|(1L&lt;&lt;8)|(1L&lt;&lt;9)|(1L&lt;&lt;10)), &amp; exc-&gt;certform) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[22077] The expression  ! opt_format(opt_arg(),((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)|(1L&lt;&lt;4)|(1L&lt;&lt;5)|(1L&lt;&lt;7)|(1L&lt;&lt;8)|(1L&lt;&lt;9)|(1L&lt;&lt;10)), &amp; exc-&gt;certform) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "22052"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22052"
+   "c1" : "22077"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22077"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[22052] The expression ((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)|(1L&lt;&lt;4)|(1L&lt;&lt;5)|(1L&lt;&lt;7)|(1L&lt;&lt;8)|(1L&lt;&lt;9)|(1L&lt;&lt;10)) is invariable"
+ , "c3" : "QC-CPP000012[22077] The expression ((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)|(1L&lt;&lt;4)|(1L&lt;&lt;5)|(1L&lt;&lt;7)|(1L&lt;&lt;8)|(1L&lt;&lt;9)|(1L&lt;&lt;10)) is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22056"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22056"
+   "c1" : "22081"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22081"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22056] The expression  ! opt_format(opt_arg(),((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)|(1L&lt;&lt;4)|(1L&lt;&lt;5)|(1L&lt;&lt;7)|(1L&lt;&lt;8)|(1L&lt;&lt;9)|(1L&lt;&lt;10)), &amp; exc-&gt;keyform) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[22081] The expression  ! opt_format(opt_arg(),((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)|(1L&lt;&lt;4)|(1L&lt;&lt;5)|(1L&lt;&lt;7)|(1L&lt;&lt;8)|(1L&lt;&lt;9)|(1L&lt;&lt;10)), &amp; exc-&gt;keyform) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "22056"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22056"
+   "c1" : "22081"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22081"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[22056] The expression ((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)|(1L&lt;&lt;4)|(1L&lt;&lt;5)|(1L&lt;&lt;7)|(1L&lt;&lt;8)|(1L&lt;&lt;9)|(1L&lt;&lt;10)) is invariable"
+ , "c3" : "QC-CPP000012[22081] The expression ((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)|(1L&lt;&lt;4)|(1L&lt;&lt;5)|(1L&lt;&lt;7)|(1L&lt;&lt;8)|(1L&lt;&lt;9)|(1L&lt;&lt;10)) is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22075"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22075"
+   "c1" : "22100"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22100"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[22075] The pointer rlist is declared but not initialized"
+ , "c3" : "QC-CPP000014[22100] The pointer rlist is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22075"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22075"
+   "c1" : "22100"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22100"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[22075] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[22100] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22078"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22078"
+   "c1" : "22104"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22104"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22078] The expression  ! SSL_is_server(s) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "22090"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22090"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22090] The expression i applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[22104] The expression  ! SSL_is_server(s) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "22116"
  , "c1link" : "./qc/apps/lib/s_cb.c.html#22116"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[22116] The pointer out is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22117"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22117"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[22117] The pointer cp is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22126"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22126"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[22126] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22139"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22139"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[22139] The pointer mspki is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22158"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22158"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[22158] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22170"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22170"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[22170] The pointer hexdata is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22194"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22194"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[22194] The pointer c is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22195"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22195"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[22195] The pointer peer is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22214"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22214"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22214] The expression SSL_ctrl(s,108,0, &amp; nid) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[22116] The expression i applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "22214"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22214"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[22214] The expression 108 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22214"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22214"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[22214] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22216"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22216"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22216] The expression SSL_get_peer_signature_type_nid(s, &amp; nid) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "22224"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22224"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22224] The expression SSL_is_server(s) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "22255"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22255"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22255] The expression  ! SSL_CONF_CTX_finish(cctx) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "22265"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22265"
+   "c1" : "22142"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22142"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[22265] The pointer crl is declared but not initialized"
+ , "c3" : "QC-CPP000014[22142] The pointer out is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22270"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22270"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22270] The expression  ! X509_STORE_add_crl(st,crl) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "22278"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22278"
+   "c1" : "22143"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22143"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[22278] The pointer st is declared but not initialized"
+ , "c3" : "QC-CPP000014[22143] The pointer cp is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22152"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22152"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[22152] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22165"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22165"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[22165] The pointer mspki is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22184"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22184"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[22184] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22196"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22196"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[22196] The pointer hexdata is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22220"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22220"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[22220] The pointer c is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22221"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22221"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[22221] The pointer peer is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22240"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22240"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[22240] The expression SSL_ctrl(s,108,0, &amp; nid) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "22240"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22240"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[22240] The expression 108 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22240"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22240"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[22240] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22242"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22242"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[22242] The expression SSL_get_peer_signature_type_nid(s, &amp; nid) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "22250"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22250"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[22250] The expression SSL_is_server(s) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "22281"
  , "c1link" : "./qc/apps/lib/s_cb.c.html#22281"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22281] The expression crl_download applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[22281] The expression  ! SSL_CONF_CTX_finish(cctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "22322"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22322"
+   "c1" : "22291"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22291"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22322] goto statement jump to err"
+ , "c3" : "QC-CPP000014[22291] The pointer crl is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22328"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22328"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22328] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22334"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22334"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22334] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22340"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22340"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22340] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22343"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22343"
+   "c1" : "22296"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22296"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22343] The expression crl_download applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[22296] The expression  ! X509_STORE_add_crl(st,crl) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "22365"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22365"
+   "c1" : "22304"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22304"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22365] goto statement jump to err"
+ , "c3" : "QC-CPP000014[22304] The pointer st is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22308"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22308"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[22308] The expression crl_download applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "22350"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22350"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[22350] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22356"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22356"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[22356] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22362"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22362"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[22362] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22368"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22368"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[22368] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "22371"
  , "c1link" : "./qc/apps/lib/s_cb.c.html#22371"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22371] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22377"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22377"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22377] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22383"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22383"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[22383] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22437"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22437"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[22437] The pointer nm is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22476"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22476"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22476] The expression show_nm applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[22371] The expression crl_download applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "22488"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22488"
+   "c1" : "22393"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22393"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[22488] The pointer cname is declared but not initialized"
+ , "c3" : "QC-CPP000007[22393] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22502"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22502"
+   "c1" : "22399"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22399"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[22399] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22405"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22405"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[22405] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22411"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22411"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[22411] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22465"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22465"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[22465] The pointer nm is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22505"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22505"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22502] The expression cert_md applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[22505] The expression show_nm applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "22517"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22517"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[22517] The pointer cname is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "22531"
  , "c1link" : "./qc/apps/lib/s_cb.c.html#22531"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[22531] The expression cert_md applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "22571"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22571"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[22531] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[22571] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22593"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22593"
+   "c1" : "22633"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22633"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22593] The expression show_bits applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[22633] The expression show_bits applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "22672"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22672"
+   "c1" : "22712"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22712"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[22672] The expression 133 is invariable"
+ , "c3" : "QC-CPP000012[22712] The expression 133 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22672"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22672"
+   "c1" : "22712"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22712"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[22672] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[22712] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "22700"
- , "c1link" : "./qc/apps/lib/s_cb.c.html#22700"
+   "c1" : "22740"
+ , "c1link" : "./qc/apps/lib/s_cb.c.html#22740"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[22700] The expression  ! SSL_is_server(s) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[22740] The expression  ! SSL_is_server(s) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

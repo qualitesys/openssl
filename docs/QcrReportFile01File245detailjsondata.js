@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/cms/cms_ec.c.html" 
- , "texte" : "File crypto/cms/cms_ec.c 107 rule violations " 
+ , "texte" : "File crypto/cms/cms_ec.c 110 rule violations " 
  , "fic2"  : "./qc/crypto/cms/cms_ec.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,14 +49,14 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "20"
+ , "c4" : "22"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "19"
+ , "c4" : "20"
 }}
 ,
 { "ligne" : {
@@ -244,514 +244,108 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14462"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14462"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14462] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14464"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14464"
+   "c1" : "08137"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#8137"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14464] The expression  ! OSSL_DECODER_from_data(ctx, &amp; pm, &amp; pmlen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14470"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14470"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14470] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14485"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14485"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14485] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14486"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14486"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14486] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14493"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14493"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14493] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14496"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14496"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14496] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14526"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14526"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14526] The pointer aoid is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14528"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14528"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14528] The pointer aval is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14535"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14535"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14535] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14535"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14535"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14535] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14540"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14540"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14540] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14544"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14544"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14544] The pointer pk is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14552"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14552"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14552] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14560"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14560"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14560] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14561"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14561"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14561] The expression  ! EVP_PKEY_copy_parameters(pkpeer,pk) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14562"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14562"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14562] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14572"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14572"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14572] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14582"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14582"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14582] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14584"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14584"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14584] The expression  ! EVP_PKEY_set1_encoded_public_key(pkpeer,p,plen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14585"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14585"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14585] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14598"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14598"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14598] The pointer kdf_md is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14604"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14604"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14604] The expression  ! OBJ_find_sigid_algs(eckdf_nid, &amp; kdfmd_nid, &amp; kdf_nid) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14617"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14617"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14617] The expression 2 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14621"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14621"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14621] The expression  ! kdf_md applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14632"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14632"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14632] The pointer alg is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14637"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14637"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14637] The pointer ukm is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14638"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14638"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14638] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14638"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14638"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14638] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14639"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14639"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14639] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14650"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14650"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14650] The pointer kekctx is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14653"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14653"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14653] The expression  ! CMS_RecipientInfo_kari_get0_alg(ri, &amp; alg, &amp; ukm) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14656"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14656"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14656] The expression  ! ecdh_cms_set_kdf_param(pctx,OBJ_obj2nid(alg-&gt;algorithm)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14680"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14680"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14680] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14687"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14687"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14687] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14695"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14695"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14695] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14696"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14696"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14696] The expression  ! EVP_EncryptInit_ex(kekctx,kekcipher,(( void  *)0),(( void  *)0),(( void  *)0)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14709"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14709"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14709] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14711"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14711"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14711] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14715"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14715"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14715] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14720"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14720"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14720] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14723"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14723"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14723] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14740"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14740"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14740] The pointer pctx is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14750"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14750"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14750] The expression  ! EVP_PKEY_CTX_get0_peerkey(pctx) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14751"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14751"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14751] The pointer alg is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14752"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14752"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14752] The pointer pubkey is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14754"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14754"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14754] The expression  ! CMS_RecipientInfo_kari_get0_orig_id(ri, &amp; alg, &amp; pubkey,(( void  *)0),(( void  *)0),(( void  *)0)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14779"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14779"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14779] The expression  ! ecdh_cms_set_peerkey(pctx,alg,pubkey) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14789"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14789"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14789] The expression  ! ecdh_cms_set_shared_info(pctx,ri) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14802"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14802"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14802] The pointer pctx is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14803"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14803"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14803] The pointer pkey is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14804"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14804"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14804] The pointer ctx is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14806"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14806"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14806] The pointer talg is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14811"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14811"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14811] The pointer aoid is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14812"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14812"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14812] The pointer pubkey is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14813"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14813"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14813] The pointer wrap_str is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14814"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14814"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14814] The pointer ukm is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14815"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14815"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14815] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14823"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14823"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14823] The pointer kdf_md is declared but not initialized"
+ , "c3" : "QC-CPP000012[08137] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "14834"
  , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14834"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14834] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14836"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14836"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14834] The expression  ! CMS_RecipientInfo_kari_get0_orig_id(ri, &amp; talg, &amp; pubkey,(( void  *)0),(( void  *)0),(( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14836] The expression  ! OSSL_DECODER_from_data(ctx, &amp; pm, &amp; pmlen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14848"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14848"
+   "c1" : "14842"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14842"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14848] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14842] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14859"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14859"
+   "c1" : "14857"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14857"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14857] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14858"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14858"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14859] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[14858] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14883"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14883"
+   "c1" : "14865"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14865"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14883] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14865] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14884"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14884"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14884] The expression  ! EVP_PKEY_CTX_get_ecdh_kdf_md(pctx, &amp; kdf_md) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14885"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14885"
+   "c1" : "14868"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14868"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14885] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14868] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14888"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14888"
+   "c1" : "14898"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14898"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14888] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14897"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14897"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14897] goto statement jump to err"
+ , "c3" : "QC-CPP000014[14898] The pointer aoid is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "14900"
  , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14900"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14900] goto statement jump to err"
+ , "c3" : "QC-CPP000014[14900] The pointer aval is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14909"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14909"
+   "c1" : "14907"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14907"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14909] goto statement jump to err"
+ , "c3" : "QC-CPP000014[14907] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14907"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14907"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[14907] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "14912"
  , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14912"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14912] The expression  ! CMS_RecipientInfo_kari_get0_alg(ri, &amp; talg, &amp; ukm) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14913"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14913"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14913] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14912] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14917"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14917"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14917] The expression  ! OBJ_find_sigid_by_algs( &amp; kdf_nid,EVP_MD_get_type(kdf_md),ecdh_nid) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14918"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14918"
+   "c1" : "14916"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14916"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14918] goto statement jump to err"
+ , "c3" : "QC-CPP000014[14916] The pointer pk is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14924"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14924"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14924] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
@@ -762,73 +356,500 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14940"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14940"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14940] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14942"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14942"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14942] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14953"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14953"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14953] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14958"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14958"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14958] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14961"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14961"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14961] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14978"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14978"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14978] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14985"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14985"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14985] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15035"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15035"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15035] The pointer alg1 is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15035"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15035"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15035] The pointer alg2 is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15060"
- , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15060"
+   "c1" : "14933"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14933"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15060] The expression  ! OBJ_find_sigid_by_algs( &amp; snid,hnid,EVP_PKEY_get_id(pkey)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14933] The expression  ! EVP_PKEY_copy_parameters(pkpeer,pk) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14934"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14934"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14934] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14944"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14944"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14944] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14954"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14954"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14954] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14956"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14956"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14956] The expression  ! EVP_PKEY_set1_encoded_public_key(pkpeer,p,plen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14957"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14957"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14957] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14970"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14970"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14970] The pointer kdf_md is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14976"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14976"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14976] The expression  ! OBJ_find_sigid_algs(eckdf_nid, &amp; kdfmd_nid, &amp; kdf_nid) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14989"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14989"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14989] The expression 2 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14993"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#14993"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14993] The expression  ! kdf_md applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15004"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15004"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15004] The pointer alg is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15009"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15009"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15009] The pointer ukm is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15010"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15010"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15010] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15010"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15010"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15010] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15011"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15011"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15011] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15022"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15022"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15022] The pointer kekctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15025"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15025"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15025] The expression  ! CMS_RecipientInfo_kari_get0_alg(ri, &amp; alg, &amp; ukm) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15028"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15028"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15028] The expression  ! ecdh_cms_set_kdf_param(pctx,OBJ_obj2nid(alg-&gt;algorithm)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15052"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15052"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15052] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15059"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15059"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15059] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15067"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15067"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15067] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15068"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15068"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15068] The expression  ! EVP_EncryptInit_ex(kekctx,kekcipher,(( void  *)0),(( void  *)0),(( void  *)0)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15081"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15081"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15081] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15083"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15083"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15083] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15087"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15087"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15087] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15092"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15092"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15092] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15095"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15095"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15095] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15112"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15112"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15112] The pointer pctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15122"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15122"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15122] The expression  ! EVP_PKEY_CTX_get0_peerkey(pctx) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15123"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15123"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15123] The pointer alg is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15124"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15124"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15124] The pointer pubkey is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15126"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15126"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15126] The expression  ! CMS_RecipientInfo_kari_get0_orig_id(ri, &amp; alg, &amp; pubkey,(( void  *)0),(( void  *)0),(( void  *)0)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15151"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15151"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15151] The expression  ! ecdh_cms_set_peerkey(pctx,alg,pubkey) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15161"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15161"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15161] The expression  ! ecdh_cms_set_shared_info(pctx,ri) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15174"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15174"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15174] The pointer pctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15175"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15175"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15175] The pointer pkey is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15176"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15176"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15176] The pointer ctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15178"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15178"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15178] The pointer talg is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15183"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15183"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15183] The pointer aoid is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15184"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15184"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15184] The pointer pubkey is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15185"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15185"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15185] The pointer wrap_str is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15186"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15186"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15186] The pointer ukm is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15187"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15187"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15187] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15195"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15195"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15195] The pointer kdf_md is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15206"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15206"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15206] The expression  ! CMS_RecipientInfo_kari_get0_orig_id(ri, &amp; talg, &amp; pubkey,(( void  *)0),(( void  *)0),(( void  *)0)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15220"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15220"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15220] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15231"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15231"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15231] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15255"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15255"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15255] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15256"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15256"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15256] The expression  ! EVP_PKEY_CTX_get_ecdh_kdf_md(pctx, &amp; kdf_md) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15257"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15257"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15257] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15260"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15260"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15260] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15269"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15269"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15269] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15272"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15272"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15272] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15281"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15281"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15281] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15284"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15284"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15284] The expression  ! CMS_RecipientInfo_kari_get0_alg(ri, &amp; talg, &amp; ukm) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15285"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15285"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15285] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15289"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15289"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15289] The expression  ! OBJ_find_sigid_by_algs( &amp; kdf_nid,EVP_MD_get_type(kdf_md),ecdh_nid) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15290"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15290"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15290] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15304"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15304"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15304] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15312"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15312"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15312] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15314"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15314"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15314] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15325"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15325"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15325] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15330"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15330"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15330] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15333"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15333"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15333] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15350"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15350"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15350] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15357"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15357"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15357] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15365"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15365"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15365] The expression  ! rv applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15405"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15405"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15405] The expression  ! verify applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15407"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15407"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15407] The pointer alg1 is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15407"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15407"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15407] The pointer alg2 is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15432"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15432"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15432] The expression  ! OBJ_find_sigid_by_algs( &amp; snid,hnid,EVP_PKEY_get_id(pkey)) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

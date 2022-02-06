@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/cms/cms_att.c.html" 
- , "texte" : "File crypto/cms/cms_att.c 33 rule violations " 
+ , "texte" : "File crypto/cms/cms_att.c 34 rule violations " 
  , "fic2"  : "./qc/crypto/cms/cms_att.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "17"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : {
@@ -223,80 +223,87 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13843"
- , "c1link" : "./qc/crypto/cms/cms_att.c.html#13843"
+   "c1" : "08302"
+ , "c1link" : "./qc/crypto/cms/cms_att.c.html#8302"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13843] The expression X509at_add1_attr( &amp; si-&gt;signedAttrs,attr) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[08302] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13852"
- , "c1link" : "./qc/crypto/cms/cms_att.c.html#13852"
+   "c1" : "14215"
+ , "c1link" : "./qc/crypto/cms/cms_att.c.html#14215"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13852] The expression X509at_add1_attr_by_OBJ( &amp; si-&gt;signedAttrs,obj,type,bytes,len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14215] The expression X509at_add1_attr( &amp; si-&gt;signedAttrs,attr) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13860"
- , "c1link" : "./qc/crypto/cms/cms_att.c.html#13860"
+   "c1" : "14224"
+ , "c1link" : "./qc/crypto/cms/cms_att.c.html#14224"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13860] The expression X509at_add1_attr_by_NID( &amp; si-&gt;signedAttrs,nid,type,bytes,len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14224] The expression X509at_add1_attr_by_OBJ( &amp; si-&gt;signedAttrs,obj,type,bytes,len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13869"
- , "c1link" : "./qc/crypto/cms/cms_att.c.html#13869"
+   "c1" : "14232"
+ , "c1link" : "./qc/crypto/cms/cms_att.c.html#14232"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13869] The expression X509at_add1_attr_by_txt( &amp; si-&gt;signedAttrs,attrname,type,bytes,len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14232] The expression X509at_add1_attr_by_NID( &amp; si-&gt;signedAttrs,nid,type,bytes,len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13910"
- , "c1link" : "./qc/crypto/cms/cms_att.c.html#13910"
+   "c1" : "14241"
+ , "c1link" : "./qc/crypto/cms/cms_att.c.html#14241"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13910] The expression X509at_add1_attr( &amp; si-&gt;unsignedAttrs,attr) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14241] The expression X509at_add1_attr_by_txt( &amp; si-&gt;signedAttrs,attrname,type,bytes,len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13919"
- , "c1link" : "./qc/crypto/cms/cms_att.c.html#13919"
+   "c1" : "14282"
+ , "c1link" : "./qc/crypto/cms/cms_att.c.html#14282"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13919] The expression X509at_add1_attr_by_OBJ( &amp; si-&gt;unsignedAttrs,obj,type,bytes,len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14282] The expression X509at_add1_attr( &amp; si-&gt;unsignedAttrs,attr) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13928"
- , "c1link" : "./qc/crypto/cms/cms_att.c.html#13928"
+   "c1" : "14291"
+ , "c1link" : "./qc/crypto/cms/cms_att.c.html#14291"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13928] The expression X509at_add1_attr_by_NID( &amp; si-&gt;unsignedAttrs,nid,type,bytes,len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14291] The expression X509at_add1_attr_by_OBJ( &amp; si-&gt;unsignedAttrs,obj,type,bytes,len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13937"
- , "c1link" : "./qc/crypto/cms/cms_att.c.html#13937"
+   "c1" : "14300"
+ , "c1link" : "./qc/crypto/cms/cms_att.c.html#14300"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13937] The expression X509at_add1_attr_by_txt( &amp; si-&gt;unsignedAttrs,attrname,type,bytes,len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14300] The expression X509at_add1_attr_by_NID( &amp; si-&gt;unsignedAttrs,nid,type,bytes,len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13959"
- , "c1link" : "./qc/crypto/cms/cms_att.c.html#13959"
+   "c1" : "14309"
+ , "c1link" : "./qc/crypto/cms/cms_att.c.html#14309"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14309] The expression X509at_add1_attr_by_txt( &amp; si-&gt;unsignedAttrs,attrname,type,bytes,len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14331"
+ , "c1link" : "./qc/crypto/cms/cms_att.c.html#14331"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13959] The pointer at is declared but not initialized"
+ , "c3" : "QC-CPP000014[14331] The pointer at is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14024"
- , "c1link" : "./qc/crypto/cms/cms_att.c.html#14024"
+   "c1" : "14396"
+ , "c1link" : "./qc/crypto/cms/cms_att.c.html#14396"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14024] The expression 0x01 is invariable"
+ , "c3" : "QC-CPP000012[14396] The expression 0x01 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14026"
- , "c1link" : "./qc/crypto/cms/cms_att.c.html#14026"
+   "c1" : "14398"
+ , "c1link" : "./qc/crypto/cms/cms_att.c.html#14398"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14026] The expression 0x02 is invariable"
+ , "c3" : "QC-CPP000012[14398] The expression 0x02 is invariable"
 }} 
 ]
 };

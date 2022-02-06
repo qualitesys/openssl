@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/ec_deprecated.c.html" 
- , "texte" : "File crypto/ec/ec_deprecated.c 31 rule violations " 
+ , "texte" : "File crypto/ec/ec_deprecated.c 32 rule violations " 
  , "fic2"  : "./qc/crypto/ec/ec_deprecated.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "15"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : {
@@ -237,66 +237,73 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06644"
- , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#6644"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06644] The pointer buf is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06644"
- , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#6644"
+   "c1" : "05092"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#5092"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06644] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[05092] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06666"
- , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#6666"
+   "c1" : "07013"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7013"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06666] The pointer buf is declared but not initialized"
+ , "c3" : "QC-CPP000014[07013] The pointer buf is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06666"
- , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#6666"
+   "c1" : "07013"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7013"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[06666] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07013] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06667"
- , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#6667"
+   "c1" : "07035"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7035"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06667] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[07035] The pointer buf is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06669"
- , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#6669"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[06669] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06671"
- , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#6671"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[06671] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06702"
- , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#6702"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[06702] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06717"
- , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#6717"
+   "c1" : "07035"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7035"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06717] The expression  ! EC_POINT_oct2point(group,ret,buf,buf_len,ctx) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[07035] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07036"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7036"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[07036] The pointer ret is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07038"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7038"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07038] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07040"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7040"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07040] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07071"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7071"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07071] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07086"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7086"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07086] The expression  ! EC_POINT_oct2point(group,ret,buf,buf_len,ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

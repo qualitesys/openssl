@@ -461,122 +461,115 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15767"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15767"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15767] The pointer values is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15768"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15768"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15768] The pointer vl is declared but not initialized"
-}} 
-,
-{ "ligne" : {
    "c1" : "15776"
  , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15776"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15776] The expression  ! cnf applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15779"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15779"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15779] The expression conf_diagnostics(cnf) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15786"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15786"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15786] The expression appname applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15800"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15800"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15800] The expression  ! vsection applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15869"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15869"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15869] goto statement jump to err"
+ , "c3" : "QC-CPP000014[15776] The pointer values is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15885"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15885"
+   "c1" : "15777"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15777"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15885] goto statement jump to err"
+ , "c3" : "QC-CPP000014[15777] The pointer vl is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15896"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15896"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15896] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15945"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15945"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15945] The pointer md is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15948"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15948"
+   "c1" : "15785"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15785"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15948] The expression CRYPTO_THREAD_run_once( &amp; load_builtin_modules,do_load_builtin_modules_ossl_) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15785] The expression  ! cnf applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15948"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15948"
+   "c1" : "15788"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15788"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15948] The expression do_load_builtin_modules_ossl_ret_ applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15788] The expression conf_diagnostics(cnf) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15795"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15795"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15795] The expression appname applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15809"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15809"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15809] The expression  ! vsection applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15878"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15878"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15878] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15894"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15894"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15894] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15905"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15905"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15905] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15954"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15954"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15954] The pointer md is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "15957"
  , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15957"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15957] The expression  ! md applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15957] The expression CRYPTO_THREAD_run_once( &amp; load_builtin_modules,do_load_builtin_modules_ossl_) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15986"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15986"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15986] The pointer ifunc is declared but not initialized"
+   "c1" : "15957"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15957"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15957] The expression do_load_builtin_modules_ossl_ret_ applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15987"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15987"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15987] The pointer ffunc is declared but not initialized"
+   "c1" : "15966"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15966"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15966] The expression  ! md applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15994"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15994"
+   "c1" : "15995"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15995"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15994] The pointer md is declared but not initialized"
+ , "c3" : "QC-CPP000014[15995] The pointer ifunc is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16020"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16020"
+   "c1" : "15996"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#15996"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16020] goto statement jump to err"
+ , "c3" : "QC-CPP000014[15996] The pointer ffunc is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16003"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16003"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[16003] The pointer md is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -587,220 +580,227 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "16040"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16040"
+   "c1" : "16038"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16038"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16040] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16038] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16079"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16079"
+   "c1" : "16049"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16049"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16079] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[16049] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16113"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16113"
+   "c1" : "16088"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16088"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[16088] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16122"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16122"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16113] The expression  ! sk_CONF_MODULE_push(supported_modules,tmod) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16122] The expression  ! sk_CONF_MODULE_push(supported_modules,tmod) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16134"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16134"
+   "c1" : "16143"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16143"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16134] The pointer tmod is declared but not initialized"
+ , "c3" : "QC-CPP000014[16143] The pointer tmod is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16136"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16136"
+   "c1" : "16145"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16145"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16136] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[16145] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16139"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16139"
+   "c1" : "16148"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16148"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16139] The expression p applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16148] The expression p applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16177"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16177"
+   "c1" : "16186"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16186"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16177] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16186] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16189"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16189"
+   "c1" : "16198"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16198"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16189] goto statement jump to memerr"
+ , "c3" : "QC-CPP000007[16198] goto statement jump to memerr"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16192"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16192"
+   "c1" : "16201"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16201"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16192] The expression pmod-&gt;init applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16197"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16197"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16197] goto statement jump to err"
+ , "c3" : "QC-CPP000011[16201] The expression pmod-&gt;init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "16206"
  , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16206"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16206] The expression  ! initialized_modules applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16212"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16212"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16212] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16206] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16216"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16216"
+   "c1" : "16215"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16215"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16216] The expression  ! sk_CONF_IMODULE_push(initialized_modules,imod) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16215] The expression  ! initialized_modules applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16222"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16222"
+   "c1" : "16221"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16221"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16222] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16221] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16236"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16236"
+   "c1" : "16225"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16225"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16236] The expression imod applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16225] The expression  ! sk_CONF_IMODULE_push(initialized_modules,imod) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16255"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16255"
+   "c1" : "16231"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16231"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16255] The pointer md is declared but not initialized"
+ , "c3" : "QC-CPP000007[16231] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16289"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16289"
+   "c1" : "16245"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16245"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16245] The expression imod applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16264"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16264"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16289] The pointer imod is declared but not initialized"
+ , "c3" : "QC-CPP000014[16264] The pointer md is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16306"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16306"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16306] The expression  ! imod applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16308"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16308"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16308] The expression imod-&gt;pmod-&gt;finish applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16321"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16321"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16321] The expression module_add((( void  *)0),name,ifunc,ffunc) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16387"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16387"
+   "c1" : "16298"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16298"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16387] The pointer t is declared but not initialized"
+ , "c3" : "QC-CPP000014[16298] The pointer imod is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16388"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16388"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16388] The pointer file is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16391"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16391"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16391] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16425"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16425"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16425] The pointer lstart is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16425"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16425"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16425] The pointer tmpend is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16425"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16425"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16425] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16441"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16441"
+   "c1" : "16315"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16315"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16441] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000011[16315] The expression  ! imod applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16441"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16441"
+   "c1" : "16317"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16317"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16441] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000011[16317] The expression imod-&gt;pmod-&gt;finish applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16442"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16442"
+   "c1" : "16330"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16330"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16442] The expression nospc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16330] The expression module_add((( void  *)0),name,ifunc,ffunc) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16462"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16462"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16462] The expression p applies to a single value or variable, might be ambiguous."
+   "c1" : "16396"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16396"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[16396] The pointer t is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16466"
- , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16466"
+   "c1" : "16397"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16397"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[16397] The pointer file is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16400"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16400"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[16400] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16434"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16434"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[16434] The pointer lstart is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16434"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16434"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[16434] The pointer tmpend is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16434"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16434"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[16434] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16450"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16450"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16466] The expression nospc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000006[16450] The condition of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16450"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16450"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[16450] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16451"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16451"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16451] The expression nospc applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16471"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16471"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16471] The expression p applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16475"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16475"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16475] The expression nospc applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

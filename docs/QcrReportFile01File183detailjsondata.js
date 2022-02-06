@@ -461,374 +461,374 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07994"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#7994"
+   "c1" : "08003"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8003"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07994] The expression a applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08003] The expression a applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08091"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8091"
+   "c1" : "08100"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8100"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08091] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[08100] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08093"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8093"
+   "c1" : "08102"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8102"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08093] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08102] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08164"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8164"
+   "c1" : "08173"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8173"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08164] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08173] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08164"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8164"
+   "c1" : "08173"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8173"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[08164] The condition is always false. Dead code"
+ , "c3" : "QC-CPP000017[08173] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08170"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8170"
+   "c1" : "08179"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8179"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08170] The expression pool applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08179] The expression pool applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08160"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8160"
+   "c1" : "08169"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8169"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08160] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08177"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8177"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08177] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08190"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8190"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08190] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08190"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8190"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[08190] The condition is always false. Dead code"
+ , "c3" : "QC-CPP000006[08169] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
    "c1" : "08186"
  , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8186"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08186] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000012[08186] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08190"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8190"
+   "c1" : "08199"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8199"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08190] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08199] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08199"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8199"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[08199] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
    "c1" : "08195"
  , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8195"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08195] The expression  ! BN_STACK_push( &amp; ctx-&gt;stack,ctx-&gt; used ) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000006[08195] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08207"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8207"
+   "c1" : "08199"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8199"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08207] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08199] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08207"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8207"
+   "c1" : "08204"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8204"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[08207] The condition is always false. Dead code"
+ , "c3" : "QC-CPP000011[08204] The expression  ! BN_STACK_push( &amp; ctx-&gt;stack,ctx-&gt; used ) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08203"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8203"
+   "c1" : "08216"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8216"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08203] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000012[08216] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08207"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8207"
+   "c1" : "08216"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8216"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08207] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000017[08216] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08222"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8222"
+   "c1" : "08212"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8212"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08222] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000006[08212] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08222"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8222"
+   "c1" : "08216"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8216"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[08222] The condition is always false. Dead code"
+ , "c3" : "QC-CPP000012[08216] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08218"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8218"
+   "c1" : "08231"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8231"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08218] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000012[08231] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08222"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8222"
+   "c1" : "08231"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8231"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08222] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000017[08231] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08223"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8223"
+   "c1" : "08227"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8227"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08223] The expression ctx-&gt;err_stack applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000006[08227] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08238"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8238"
+   "c1" : "08231"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8231"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08238] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08231] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08238"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8238"
+   "c1" : "08232"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8232"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[08238] The condition is always false. Dead code"
+ , "c3" : "QC-CPP000011[08232] The expression ctx-&gt;err_stack applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08234"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8234"
+   "c1" : "08247"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8247"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08234] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000012[08247] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08238"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8238"
+   "c1" : "08247"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8247"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08238] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000017[08247] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
    "c1" : "08243"
  , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8243"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08243] The pointer ret is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08249"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8249"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08249] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000006[08243] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08249"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8249"
+   "c1" : "08247"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8247"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[08249] The condition is always false. Dead code"
+ , "c3" : "QC-CPP000012[08247] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08245"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8245"
+   "c1" : "08252"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8252"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08252] The pointer ret is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08258"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8258"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08245] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000012[08258] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08249"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8249"
+   "c1" : "08258"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8258"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08249] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000017[08258] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08256"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8256"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08256] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08286"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8286"
+   "c1" : "08254"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8254"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08286] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000006[08254] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08286"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8286"
+   "c1" : "08258"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8258"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[08286] The condition is always false. Dead code"
+ , "c3" : "QC-CPP000012[08258] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08282"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8282"
+   "c1" : "08265"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8265"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08265] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08295"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8295"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08282] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000012[08295] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08286"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8286"
+   "c1" : "08295"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8295"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08286] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000017[08295] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08316"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8316"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08316] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08336"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8336"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08336] The pointer newitems is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08338"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8338"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08338] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08350"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8350"
+   "c1" : "08291"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8291"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08350] The expression st-&gt;depth applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000006[08291] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08371"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8371"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08371] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08371"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8371"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08371] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08376"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8376"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08376] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08382"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8382"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08382] The pointer bn is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08384"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8384"
+   "c1" : "08295"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8295"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08384] The expression p-&gt;head applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[08295] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08386"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8386"
+   "c1" : "08325"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8325"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08325] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08345"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8345"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08345] The pointer newitems is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08347"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8347"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08347] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08359"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8359"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08386] The expression bn-&gt;d applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08359] The expression st-&gt;depth applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08397"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8397"
+   "c1" : "08380"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8380"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08397] The pointer bn is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[08380] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08402"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8402"
+   "c1" : "08380"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8380"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08402] The pointer item is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[08380] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08404"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8404"
+   "c1" : "08385"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8385"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08404] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08385] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08437"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8437"
+   "c1" : "08391"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8391"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08437] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[08391] The pointer bn is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08437"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8437"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08437] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08449"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8449"
+   "c1" : "08393"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8393"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08449] The expression  ! p-&gt; used  applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08393] The expression p-&gt;head applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08461"
- , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8461"
+   "c1" : "08395"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8395"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08461] The expression num-- applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08395] The expression bn-&gt;d applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08406"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8406"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08406] The pointer bn is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08411"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8411"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08411] The pointer item is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08413"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8413"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08413] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08446"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8446"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08446] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08446"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8446"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08446] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08458"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8458"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08458] The expression  ! p-&gt; used  applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08470"
+ , "c1link" : "./qc/crypto/bn/bn_ctx.c.html#8470"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08470] The expression num-- applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

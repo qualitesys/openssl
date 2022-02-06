@@ -454,17 +454,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07816"
- , "c1link" : "./qc/crypto/cpuid.c.html#7816"
+   "c1" : "07822"
+ , "c1link" : "./qc/crypto/cpuid.c.html#7822"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07816] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07822] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07817"
- , "c1link" : "./qc/crypto/cpuid.c.html#7817"
+   "c1" : "07823"
+ , "c1link" : "./qc/crypto/cpuid.c.html#7823"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07817] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07823] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

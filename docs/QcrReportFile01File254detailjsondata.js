@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/cms/cms_rsa.c.html" 
- , "texte" : "File crypto/cms/cms_rsa.c 64 rule violations " 
+ , "texte" : "File crypto/cms/cms_rsa.c 71 rule violations " 
  , "fic2"  : "./qc/crypto/cms/cms_rsa.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,14 +49,14 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "10"
+ , "c4" : "12"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "18"
+ , "c4" : "23"
 }}
 ,
 { "ligne" : {
@@ -70,14 +70,14 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000007"
  , "c3" : "goto statement"
- , "c4" : "19"
+ , "c4" : "20"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "12"
+ , "c4" : "11"
 }}
  ] 
 ,
@@ -244,290 +244,339 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13677"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13677"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13677] The pointer oaep is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13717"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13717"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13717] The pointer pkctx is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13718"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13718"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13718] The pointer cmsalg is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13721"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13721"
+   "c1" : "08137"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#8137"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13721] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[08137] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13736"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13736"
+   "c1" : "14051"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14051"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13736] The pointer oaep is declared but not initialized"
+ , "c3" : "QC-CPP000014[14051] The pointer oaep is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13745"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13745"
+   "c1" : "14091"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14091"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14091] The pointer pkctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14092"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14092"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14092] The pointer cmsalg is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14095"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14095"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13745] The expression  ! CMS_RecipientInfo_ktri_get0_algs(ri,(( void  *)0),(( void  *)0), &amp; cmsalg) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[14095] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13779"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13779"
+   "c1" : "14110"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14110"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13779] goto statement jump to err"
+ , "c3" : "QC-CPP000014[14110] The pointer oaep is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13788"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13788"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13788] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13795"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13795"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13795] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13810"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13810"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13810] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13818"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13818"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13818] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13831"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13831"
+   "c1" : "14119"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14119"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13831] The expression 4 is invariable"
+ , "c3" : "QC-CPP000011[14119] The expression  ! CMS_RecipientInfo_ktri_get0_algs(ri,(( void  *)0),(( void  *)0), &amp; cmsalg) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13832"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13832"
+   "c1" : "14153"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14153"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13832] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14153] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13834"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13834"
+   "c1" : "14162"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14162"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13834] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14162] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13836"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13836"
+   "c1" : "14169"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14169"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13836] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14169] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13843"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13843"
+   "c1" : "14184"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14184"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13843] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14184] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13854"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13854"
+   "c1" : "14192"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14192"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13854] The pointer md is declared but not initialized"
+ , "c3" : "QC-CPP000007[14192] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13854"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13854"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13854] The pointer mgf1md is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13865"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13865"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13865] The pointer alg is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13868"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13868"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13868] The pointer label is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13868"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13868"
+   "c1" : "14205"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14205"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13868] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[14205] The expression 4 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13896"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13896"
+   "c1" : "14206"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14206"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13896] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14206] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13898"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13898"
+   "c1" : "14208"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14208"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13898] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14208] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13901"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13901"
+   "c1" : "14210"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14210"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13901] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14210] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13908"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13908"
+   "c1" : "14217"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14217"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13908] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14217] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13909"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13909"
+   "c1" : "14228"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14228"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14228] The pointer md is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14228"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14228"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14228] The pointer mgf1md is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14239"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14239"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14239] The pointer alg is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14242"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14242"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14242] The pointer label is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14242"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14242"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13909] The expression  ! ossl_x509_algor_new_from_md( &amp; oaep-&gt;hashFunc,md) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[14242] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13910"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13910"
+   "c1" : "14274"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14274"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13910] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14274] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13911"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13911"
+   "c1" : "14276"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14276"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14276] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14279"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14279"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14279] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14286"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14286"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14286] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14287"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14287"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13911] The expression  ! ossl_x509_algor_md_to_mgf1( &amp; oaep-&gt;maskGenFunc,mgf1md) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14287] The expression  ! ossl_x509_algor_new_from_md( &amp; oaep-&gt;hashFunc,md) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13912"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13912"
+   "c1" : "14288"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14288"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13912] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14288] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13914"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13914"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13914] The pointer los is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13922"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13922"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13922] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13929"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13929"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13929] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13930"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13930"
+   "c1" : "14289"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14289"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13930] The expression  ! ASN1_OCTET_STRING_set(los,label,labellen) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14289] The expression  ! ossl_x509_algor_md_to_mgf1( &amp; oaep-&gt;maskGenFunc,mgf1md) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13932"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13932"
+   "c1" : "14290"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14290"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13932] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14290] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13938"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13938"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13938] The expression  ! ASN1_item_pack(oaep,(RSA_OAEP_PARAMS_it()), &amp; os) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "13939"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13939"
+   "c1" : "14299"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14299"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13939] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14299] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13978"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#13978"
+   "c1" : "14300"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14300"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14300] The expression  ! ASN1_OCTET_STRING_set(los,label,labellen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14302"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14302"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13978] The pointer alg is declared but not initialized"
+ , "c3" : "QC-CPP000007[14302] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14028"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14028"
+   "c1" : "14311"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14311"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14028] The pointer alg is declared but not initialized"
+ , "c3" : "QC-CPP000007[14311] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14057"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14057"
+   "c1" : "14314"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14314"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14057] The expression EVP_PKEY_is_a(pkey,'RSA-PSS') applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14314] The expression  ! ASN1_item_pack(oaep,(RSA_OAEP_PARAMS_it()), &amp; os) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14057"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14057"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14057] The expression 'RSA-PSS' is invariable"
+   "c1" : "14315"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14315"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14315] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14068"
- , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14068"
+   "c1" : "14316"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14316"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14068] The expression OBJ_find_sigid_algs(nid,(( void  *)0), &amp; nid2) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14316] The expression  ! X509_ALGOR_set0(alg,OBJ_nid2obj(919),16,os) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14316"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14316"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14316] The expression 919 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14316"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14316"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14316] The expression 16 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14317"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14317"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14317] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14355"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14355"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14355] The pointer alg is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14402"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14402"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14402] The expression X509_ALGOR_set0(alg,OBJ_nid2obj(912),16,os) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14402"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14402"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14402] The expression 912 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14403"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14403"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14403] The expression 16 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14412"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14412"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14412] The pointer alg is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14441"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14441"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14441] The expression EVP_PKEY_is_a(pkey,'RSA-PSS') applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14441"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14441"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14441] The expression 'RSA-PSS' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14452"
+ , "c1link" : "./qc/crypto/cms/cms_rsa.c.html#14452"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14452] The expression OBJ_find_sigid_algs(nid,(( void  *)0), &amp; nid2) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

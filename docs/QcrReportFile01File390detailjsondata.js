@@ -447,192 +447,192 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15583"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15583"
+   "c1" : "15592"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15592"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15583] The expression  ! bind_helper(ret) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15592] The expression  ! bind_helper(ret) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15597"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15597"
+   "c1" : "15606"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15606"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15597] The expression  ! toadd applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15606] The expression  ! toadd applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15686"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15686"
+   "c1" : "15695"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15695"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15686] The pointer cipher is declared but not initialized"
+ , "c3" : "QC-CPP000014[15695] The pointer cipher is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15688"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15688"
+   "c1" : "15697"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15697"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15688] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15697] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15693"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15693"
+   "c1" : "15702"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15702"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15693] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[15702] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15694"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15694"
+   "c1" : "15703"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15703"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15694] The expression 0x8 is invariable"
+ , "c3" : "QC-CPP000012[15703] The expression 0x8 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15731"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15731"
+   "c1" : "15740"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15740"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15731] The pointer cipher is declared but not initialized"
+ , "c3" : "QC-CPP000014[15740] The pointer cipher is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15733"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15733"
+   "c1" : "15742"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15742"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15733] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15742] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15738"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15738"
+   "c1" : "15747"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15747"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15738] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[15747] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15739"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15739"
+   "c1" : "15748"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15748"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15739] The expression 0x8 is invariable"
+ , "c3" : "QC-CPP000012[15748] The expression 0x8 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15769"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15769"
+   "c1" : "15778"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15778"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15769] The expression  ! init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15778] The expression  ! init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15770"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15770"
+   "c1" : "15779"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15779"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15770] The pointer cipher is declared but not initialized"
+ , "c3" : "QC-CPP000014[15779] The pointer cipher is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15771"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15771"
+   "c1" : "15780"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15780"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15771] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15780] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15777"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15777"
+   "c1" : "15786"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15786"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15777] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15786] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15793"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15793"
+   "c1" : "15802"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15802"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15793] The expression  ! cipher applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15802] The expression  ! cipher applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15858"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15858"
+   "c1" : "15867"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15867"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15858] The pointer md is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15860"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15860"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15860] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15865"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15865"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15865] The expression 20 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15866"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15866"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15866] The expression (16 * 4) is invariable"
+ , "c3" : "QC-CPP000014[15867] The pointer md is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "15869"
  , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15869"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15869] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15874"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15874"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15869] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[15874] The expression 20 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15899"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15899"
+   "c1" : "15875"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15875"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15899] The expression  ! init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[15875] The expression (16 * 4) is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15900"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15900"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15900] The pointer md is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15901"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15901"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15901] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15917"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15917"
+   "c1" : "15878"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15878"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15917] The expression  ! digest applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[15878] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15945"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15945"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15945] The pointer in is declared but not initialized"
+   "c1" : "15908"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15908"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15908] The expression  ! init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15946"
- , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15946"
+   "c1" : "15909"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15909"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15946] The pointer key is declared but not initialized"
+ , "c3" : "QC-CPP000014[15909] The pointer md is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15910"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15910"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15910] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15926"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15926"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15926] The expression  ! digest applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "15954"
  , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15954"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15954] The pointer in is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15955"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15955"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15955] The pointer key is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15963"
+ , "c1link" : "./qc/crypto/engine/eng_openssl.c.html#15963"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15954] The expression  ! in applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15963] The expression  ! in applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ct/ct_prn.c.html" 
- , "texte" : "File crypto/ct/ct_prn.c 23 rule violations " 
+ , "texte" : "File crypto/ct/ct_prn.c 24 rule violations " 
  , "fic2"  : "./qc/crypto/ct/ct_prn.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "15"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : {
@@ -223,10 +223,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12948"
- , "c1link" : "./qc/crypto/ct/ct_prn.c.html#12948"
+   "c1" : "08123"
+ , "c1link" : "./qc/crypto/ct/ct_prn.c.html#8123"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12948] The expression ASN1_GENERALIZEDTIME_set_string(gen,genstr) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[08123] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13320"
+ , "c1link" : "./qc/crypto/ct/ct_prn.c.html#13320"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13320] The expression ASN1_GENERALIZEDTIME_set_string(gen,genstr) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

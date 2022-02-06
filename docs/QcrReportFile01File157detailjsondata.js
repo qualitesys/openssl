@@ -496,38 +496,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10598"
- , "c1link" : "./qc/crypto/bio/bf_prefix.c.html#10598"
+   "c1" : "10604"
+ , "c1link" : "./qc/crypto/bio/bf_prefix.c.html#10604"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10598] The expression ctx-&gt;linestart applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10604] The expression ctx-&gt;linestart applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10614"
- , "c1link" : "./qc/crypto/bio/bf_prefix.c.html#10614"
+   "c1" : "10620"
+ , "c1link" : "./qc/crypto/bio/bf_prefix.c.html#10620"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10614] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10620] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10623"
- , "c1link" : "./qc/crypto/bio/bf_prefix.c.html#10623"
+   "c1" : "10629"
+ , "c1link" : "./qc/crypto/bio/bf_prefix.c.html#10629"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10623] The expression  ! BIO_write_ex(BIO_next(b),out,i, &amp; num) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "10642"
- , "c1link" : "./qc/crypto/bio/bf_prefix.c.html#10642"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10642] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000011[10629] The expression  ! BIO_write_ex(BIO_next(b),out,i, &amp; num) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "10648"
  , "c1link" : "./qc/crypto/bio/bf_prefix.c.html#10648"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10648] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[10648] The pointer ctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10654"
+ , "c1link" : "./qc/crypto/bio/bf_prefix.c.html#10654"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10654] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

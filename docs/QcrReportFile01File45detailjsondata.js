@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/openssl.c.html" 
- , "texte" : "File apps/openssl.c 88 rule violations " 
+ , "texte" : "File apps/openssl.c 89 rule violations " 
  , "fic2"  : "./qc/apps/openssl.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "22"
+ , "c4" : "23"
 }}
 ,
 { "ligne" : {
@@ -454,248 +454,255 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18360"
- , "c1link" : "./qc/apps/openssl.c.html#18360"
+   "c1" : "18371"
+ , "c1link" : "./qc/apps/openssl.c.html#18371"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18360] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[18371] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18362"
- , "c1link" : "./qc/apps/openssl.c.html#18362"
+   "c1" : "18373"
+ , "c1link" : "./qc/apps/openssl.c.html#18373"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18362] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18373] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18365"
- , "c1link" : "./qc/apps/openssl.c.html#18365"
+   "c1" : "18376"
+ , "c1link" : "./qc/apps/openssl.c.html#18376"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18365] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[18376] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18391"
- , "c1link" : "./qc/apps/openssl.c.html#18391"
+   "c1" : "18402"
+ , "c1link" : "./qc/apps/openssl.c.html#18402"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18391] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[18402] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18393"
- , "c1link" : "./qc/apps/openssl.c.html#18393"
+   "c1" : "18404"
+ , "c1link" : "./qc/apps/openssl.c.html#18404"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18393] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18404] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18396"
- , "c1link" : "./qc/apps/openssl.c.html#18396"
+   "c1" : "18407"
+ , "c1link" : "./qc/apps/openssl.c.html#18407"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18396] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[18407] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19795"
- , "c1link" : "./qc/apps/openssl.c.html#19795"
+   "c1" : "19806"
+ , "c1link" : "./qc/apps/openssl.c.html#19806"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19795] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19806] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19828"
- , "c1link" : "./qc/apps/openssl.c.html#19828"
+   "c1" : "19839"
+ , "c1link" : "./qc/apps/openssl.c.html#19839"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19828] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19839] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20677"
- , "c1link" : "./qc/apps/openssl.c.html#20677"
+   "c1" : "20695"
+ , "c1link" : "./qc/apps/openssl.c.html#20695"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[20677] The expression 'unknown' is invariable"
+ , "c3" : "QC-CPP000012[20695] The expression 'unknown' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20702"
- , "c1link" : "./qc/apps/openssl.c.html#20702"
+   "c1" : "20720"
+ , "c1link" : "./qc/apps/openssl.c.html#20720"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20702] The expression  ! OPENSSL_init_ssl((0x00000200L|0x00000400L|0x00001000L|0x00002000L|0x00004000L)|0x00000040L,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20720] The expression  ! OPENSSL_init_ssl((0x00000200L|0x00000400L|0x00001000L|0x00002000L|0x00004000L)|0x00000040L,(( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20702"
- , "c1link" : "./qc/apps/openssl.c.html#20702"
+   "c1" : "20720"
+ , "c1link" : "./qc/apps/openssl.c.html#20720"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[20702] The expression (0x00000200L|0x00000400L|0x00001000L|0x00002000L|0x00004000L) is invariable"
+ , "c3" : "QC-CPP000012[20720] The expression (0x00000200L|0x00000400L|0x00001000L|0x00002000L|0x00004000L) is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20703"
- , "c1link" : "./qc/apps/openssl.c.html#20703"
+   "c1" : "20721"
+ , "c1link" : "./qc/apps/openssl.c.html#20721"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[20703] The expression 0x00000040L is invariable"
+ , "c3" : "QC-CPP000012[20721] The expression 0x00000040L is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20724"
- , "c1link" : "./qc/apps/openssl.c.html#20724"
+   "c1" : "20742"
+ , "c1link" : "./qc/apps/openssl.c.html#20742"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[20724] The expression '1' is invariable"
+ , "c3" : "QC-CPP000012[20742] The expression '1' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20753"
- , "c1link" : "./qc/apps/openssl.c.html#20753"
+   "c1" : "20771"
+ , "c1link" : "./qc/apps/openssl.c.html#20771"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20753] The pointer fp is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20759"
- , "c1link" : "./qc/apps/openssl.c.html#20759"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20759] The pointer pname is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20760"
- , "c1link" : "./qc/apps/openssl.c.html#20760"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20760] The pointer fname is declared but not initialized"
+ , "c3" : "QC-CPP000014[20771] The pointer fp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "20777"
  , "c1link" : "./qc/apps/openssl.c.html#20777"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20777] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[20777] The pointer pname is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "20778"
  , "c1link" : "./qc/apps/openssl.c.html#20778"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20778] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[20778] The pointer fname is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20778"
- , "c1link" : "./qc/apps/openssl.c.html#20778"
+   "c1" : "20795"
+ , "c1link" : "./qc/apps/openssl.c.html#20795"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20778] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20795] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20788"
- , "c1link" : "./qc/apps/openssl.c.html#20788"
+   "c1" : "20796"
+ , "c1link" : "./qc/apps/openssl.c.html#20796"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20788] goto statement jump to end"
+ , "c3" : "QC-CPPCWE481[20796] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20828"
- , "c1link" : "./qc/apps/openssl.c.html#20828"
+   "c1" : "20796"
+ , "c1link" : "./qc/apps/openssl.c.html#20796"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[20796] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20806"
+ , "c1link" : "./qc/apps/openssl.c.html#20806"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[20806] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20846"
+ , "c1link" : "./qc/apps/openssl.c.html#20846"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20828] The expression  ! app_RAND_write() applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20846] The expression  ! app_RAND_write() applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20864"
- , "c1link" : "./qc/apps/openssl.c.html#20864"
+   "c1" : "20882"
+ , "c1link" : "./qc/apps/openssl.c.html#20882"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20864] The pointer fp is declared but not initialized"
+ , "c3" : "QC-CPP000014[20882] The pointer fp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20867"
- , "c1link" : "./qc/apps/openssl.c.html#20867"
+   "c1" : "20885"
+ , "c1link" : "./qc/apps/openssl.c.html#20885"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20867] The pointer prog is declared but not initialized"
+ , "c3" : "QC-CPP000014[20885] The pointer prog is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20873"
- , "c1link" : "./qc/apps/openssl.c.html#20873"
+   "c1" : "20891"
+ , "c1link" : "./qc/apps/openssl.c.html#20891"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20873] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20891] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20917"
- , "c1link" : "./qc/apps/openssl.c.html#20917"
+   "c1" : "20914"
+ , "c1link" : "./qc/apps/openssl.c.html#20914"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20917] The expression  ! nl applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "20937"
- , "c1link" : "./qc/apps/openssl.c.html#20937"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20937] The pointer fp is declared but not initialized"
+ , "c3" : "QC-CPP000011[20914] The expression  ! opt_check_rest_arg((( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "20939"
  , "c1link" : "./qc/apps/openssl.c.html#20939"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[20939] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[20939] The expression  ! nl applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20953"
- , "c1link" : "./qc/apps/openssl.c.html#20953"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20953] The expression EVP_get_digestbyname(argv[0]) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "20953"
- , "c1link" : "./qc/apps/openssl.c.html#20953"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[20953] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20957"
- , "c1link" : "./qc/apps/openssl.c.html#20957"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20957] The expression EVP_get_cipherbyname(argv[0]) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "20957"
- , "c1link" : "./qc/apps/openssl.c.html#20957"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[20957] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20977"
- , "c1link" : "./qc/apps/openssl.c.html#20977"
+   "c1" : "20959"
+ , "c1link" : "./qc/apps/openssl.c.html#20959"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20977] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[20959] The pointer fp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21027"
- , "c1link" : "./qc/apps/openssl.c.html#21027"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21027] The pointer f is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21030"
- , "c1link" : "./qc/apps/openssl.c.html#21030"
+   "c1" : "20961"
+ , "c1link" : "./qc/apps/openssl.c.html#20961"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21030] The expression prog_inited applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[20961] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21044"
- , "c1link" : "./qc/apps/openssl.c.html#21044"
+   "c1" : "20975"
+ , "c1link" : "./qc/apps/openssl.c.html#20975"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20975] The expression EVP_get_digestbyname(argv[0]) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20975"
+ , "c1link" : "./qc/apps/openssl.c.html#20975"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20975] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20979"
+ , "c1link" : "./qc/apps/openssl.c.html#20979"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20979] The expression EVP_get_cipherbyname(argv[0]) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "20979"
+ , "c1link" : "./qc/apps/openssl.c.html#20979"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[20979] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20999"
+ , "c1link" : "./qc/apps/openssl.c.html#20999"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[21044] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20999] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21049"
+ , "c1link" : "./qc/apps/openssl.c.html#21049"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[21049] The pointer f is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21052"
+ , "c1link" : "./qc/apps/openssl.c.html#21052"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[21052] The expression prog_inited applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21066"
+ , "c1link" : "./qc/apps/openssl.c.html#21066"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[21066] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

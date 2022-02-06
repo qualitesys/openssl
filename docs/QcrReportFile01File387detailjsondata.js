@@ -447,73 +447,66 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15777"
- , "c1link" : "./qc/crypto/engine/eng_init.c.html#15777"
+   "c1" : "15795"
+ , "c1link" : "./qc/crypto/engine/eng_init.c.html#15795"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15777] The expression to_return applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15795] The expression to_return applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15801"
- , "c1link" : "./qc/crypto/engine/eng_init.c.html#15801"
+   "c1" : "15819"
+ , "c1link" : "./qc/crypto/engine/eng_init.c.html#15819"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15801] The expression unlock_for_handlers applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15819] The expression unlock_for_handlers applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15804"
- , "c1link" : "./qc/crypto/engine/eng_init.c.html#15804"
+   "c1" : "15822"
+ , "c1link" : "./qc/crypto/engine/eng_init.c.html#15822"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15804] The expression unlock_for_handlers applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15822] The expression unlock_for_handlers applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15805"
- , "c1link" : "./qc/crypto/engine/eng_init.c.html#15805"
+   "c1" : "15823"
+ , "c1link" : "./qc/crypto/engine/eng_init.c.html#15823"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15805] The expression  ! CRYPTO_THREAD_write_lock(global_engine_lock) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15823] The expression  ! CRYPTO_THREAD_write_lock(global_engine_lock) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15807"
- , "c1link" : "./qc/crypto/engine/eng_init.c.html#15807"
+   "c1" : "15825"
+ , "c1link" : "./qc/crypto/engine/eng_init.c.html#15825"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15807] The expression  ! to_return applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15825] The expression  ! to_return applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15812"
- , "c1link" : "./qc/crypto/engine/eng_init.c.html#15812"
+   "c1" : "15830"
+ , "c1link" : "./qc/crypto/engine/eng_init.c.html#15830"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15812] The expression  ! engine_free_util(e,0) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15830] The expression  ! engine_free_util(e,0) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15812"
- , "c1link" : "./qc/crypto/engine/eng_init.c.html#15812"
+   "c1" : "15830"
+ , "c1link" : "./qc/crypto/engine/eng_init.c.html#15830"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15812] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[15830] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15839"
- , "c1link" : "./qc/crypto/engine/eng_init.c.html#15839"
+   "c1" : "15857"
+ , "c1link" : "./qc/crypto/engine/eng_init.c.html#15857"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15839] The expression CRYPTO_THREAD_run_once( &amp; engine_lock_init,do_engine_lock_init_ossl_) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15857] The expression CRYPTO_THREAD_run_once( &amp; engine_lock_init,do_engine_lock_init_ossl_) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15839"
- , "c1link" : "./qc/crypto/engine/eng_init.c.html#15839"
+   "c1" : "15857"
+ , "c1link" : "./qc/crypto/engine/eng_init.c.html#15857"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15839] The expression do_engine_lock_init_ossl_ret_ applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15847"
- , "c1link" : "./qc/crypto/engine/eng_init.c.html#15847"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15847] The expression  ! CRYPTO_THREAD_write_lock(global_engine_lock) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15857] The expression do_engine_lock_init_ossl_ret_ applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -524,10 +517,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15869"
- , "c1link" : "./qc/crypto/engine/eng_init.c.html#15869"
+   "c1" : "15883"
+ , "c1link" : "./qc/crypto/engine/eng_init.c.html#15883"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15869] The expression  ! to_return applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15883] The expression  ! CRYPTO_THREAD_write_lock(global_engine_lock) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15887"
+ , "c1link" : "./qc/crypto/engine/eng_init.c.html#15887"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15887] The expression  ! to_return applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

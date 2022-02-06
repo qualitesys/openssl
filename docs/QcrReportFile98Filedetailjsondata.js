@@ -2846,6 +2846,13 @@ var maDataBlocs = {
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
+  "fic"  : "crypto/err/err_mark.c" 
+  , "Fic1"  : "qc/crypto/err/err_mark.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/err/err_mark.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
   "fic"  : "crypto/err/err_prn.c" 
   , "Fic1"  : "qc/crypto/err/err_prn.c.qre.nonreg.html" 
   , "OKKO1"  : "" 

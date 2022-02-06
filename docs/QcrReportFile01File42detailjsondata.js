@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/mac.c.html" 
- , "texte" : "File apps/mac.c 104 rule violations " 
+ , "texte" : "File apps/mac.c 106 rule violations " 
  , "fic2"  : "./qc/apps/mac.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,14 +49,14 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "25"
+ , "c4" : "26"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "50"
+ , "c4" : "51"
 }}
 ,
 { "ligne" : {
@@ -538,297 +538,311 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18939"
- , "c1link" : "./qc/apps/mac.c.html#18939"
+   "c1" : "18955"
+ , "c1link" : "./qc/apps/mac.c.html#18955"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18939] The pointer res is declared but not initialized"
+ , "c3" : "QC-CPP000014[18955] The pointer res is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18960"
- , "c1link" : "./qc/apps/mac.c.html#18960"
+   "c1" : "18976"
+ , "c1link" : "./qc/apps/mac.c.html#18976"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18960] The expression OPENSSL_sk_push(ossl_check_OPENSSL_STRING_sk_type( * optp),ossl_check_OPENSSL_STRING_type(res)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18976] The expression OPENSSL_sk_push(ossl_check_OPENSSL_STRING_sk_type( * optp),ossl_check_OPENSSL_STRING_type(res)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18973"
- , "c1link" : "./qc/apps/mac.c.html#18973"
+   "c1" : "18989"
+ , "c1link" : "./qc/apps/mac.c.html#18989"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18973] The pointer prog is declared but not initialized"
+ , "c3" : "QC-CPP000014[18989] The pointer prog is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18990"
- , "c1link" : "./qc/apps/mac.c.html#18990"
+   "c1" : "19006"
+ , "c1link" : "./qc/apps/mac.c.html#19006"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18990] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[19006] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19035"
- , "c1link" : "./qc/apps/mac.c.html#19035"
+   "c1" : "19051"
+ , "c1link" : "./qc/apps/mac.c.html#19051"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19035] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19051] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19037"
- , "c1link" : "./qc/apps/mac.c.html#19037"
+   "c1" : "19053"
+ , "c1link" : "./qc/apps/mac.c.html#19053"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000003[19037] The default case should be in last position"
+ , "c3" : "QC-CPP000003[19053] The default case should be in last position"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19038"
- , "c1link" : "./qc/apps/mac.c.html#19038"
+   "c1" : "19054"
+ , "c1link" : "./qc/apps/mac.c.html#19054"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[19038] The switch case refers to the jump label opthelp"
+ , "c3" : "QC-CPP000010[19054] The switch case refers to the jump label opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19040"
- , "c1link" : "./qc/apps/mac.c.html#19040"
+   "c1" : "19056"
+ , "c1link" : "./qc/apps/mac.c.html#19056"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19040] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19056] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19044"
- , "c1link" : "./qc/apps/mac.c.html#19044"
+   "c1" : "19060"
+ , "c1link" : "./qc/apps/mac.c.html#19060"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19044] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19060] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19066"
- , "c1link" : "./qc/apps/mac.c.html#19066"
+   "c1" : "19082"
+ , "c1link" : "./qc/apps/mac.c.html#19082"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19066] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19082] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19076"
- , "c1link" : "./qc/apps/mac.c.html#19076"
+   "c1" : "19092"
+ , "c1link" : "./qc/apps/mac.c.html#19092"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19076] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19092] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19086"
- , "c1link" : "./qc/apps/mac.c.html#19086"
+   "c1" : "19102"
+ , "c1link" : "./qc/apps/mac.c.html#19102"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19086] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19102] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19089"
- , "c1link" : "./qc/apps/mac.c.html#19089"
+   "c1" : "19105"
+ , "c1link" : "./qc/apps/mac.c.html#19105"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19089] The expression  ! opt_provider(o) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19105] The expression  ! opt_provider(o) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19090"
- , "c1link" : "./qc/apps/mac.c.html#19090"
+   "c1" : "19106"
+ , "c1link" : "./qc/apps/mac.c.html#19106"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19090] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19106] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19099"
- , "c1link" : "./qc/apps/mac.c.html#19099"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19099] goto statement jump to opthelp"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19108"
- , "c1link" : "./qc/apps/mac.c.html#19108"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19108] goto statement jump to opthelp"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19117"
- , "c1link" : "./qc/apps/mac.c.html#19117"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19117] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19133"
- , "c1link" : "./qc/apps/mac.c.html#19133"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19133] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19135"
- , "c1link" : "./qc/apps/mac.c.html#19135"
+   "c1" : "19112"
+ , "c1link" : "./qc/apps/mac.c.html#19112"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19135] The expression  ! EVP_MAC_CTX_set_params(ctx,params) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19112] The expression  ! opt_check_rest_arg('MAC name') applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19141"
- , "c1link" : "./qc/apps/mac.c.html#19141"
+   "c1" : "19112"
+ , "c1link" : "./qc/apps/mac.c.html#19112"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19141] The expression  ! ok applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[19112] The expression 'MAC name' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19142"
- , "c1link" : "./qc/apps/mac.c.html#19142"
+   "c1" : "19113"
+ , "c1link" : "./qc/apps/mac.c.html#19113"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19142] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19113] goto statement jump to opthelp"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19123"
+ , "c1link" : "./qc/apps/mac.c.html#19123"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19123] goto statement jump to opthelp"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19132"
+ , "c1link" : "./qc/apps/mac.c.html#19132"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19132] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19148"
+ , "c1link" : "./qc/apps/mac.c.html#19148"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19148] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "19150"
  , "c1link" : "./qc/apps/mac.c.html#19150"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19150] The expression '-' is invariable"
+ , "c3" : "QC-CPP000011[19150] The expression  ! EVP_MAC_CTX_set_params(ctx,params) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19158"
- , "c1link" : "./qc/apps/mac.c.html#19158"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19158] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19166"
- , "c1link" : "./qc/apps/mac.c.html#19166"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19166] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19168"
- , "c1link" : "./qc/apps/mac.c.html#19168"
+   "c1" : "19156"
+ , "c1link" : "./qc/apps/mac.c.html#19156"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19168] The expression  ! EVP_MAC_init(ctx,(( void  *)0),0,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19156] The expression  ! ok applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19172"
- , "c1link" : "./qc/apps/mac.c.html#19172"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19172] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19178"
- , "c1link" : "./qc/apps/mac.c.html#19178"
+   "c1" : "19157"
+ , "c1link" : "./qc/apps/mac.c.html#19157"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19178] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19157] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19165"
+ , "c1link" : "./qc/apps/mac.c.html#19165"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19165] The expression '-' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19173"
+ , "c1link" : "./qc/apps/mac.c.html#19173"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19173] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "19181"
  , "c1link" : "./qc/apps/mac.c.html#19181"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19181] The expression 10 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19181"
- , "c1link" : "./qc/apps/mac.c.html#19181"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19181] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19185"
- , "c1link" : "./qc/apps/mac.c.html#19185"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19185] The expression 2 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19185"
- , "c1link" : "./qc/apps/mac.c.html#19185"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19185] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19194"
- , "c1link" : "./qc/apps/mac.c.html#19194"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19194] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19181] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19198"
- , "c1link" : "./qc/apps/mac.c.html#19198"
+   "c1" : "19183"
+ , "c1link" : "./qc/apps/mac.c.html#19183"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19198] The expression  ! EVP_MAC_update(ctx,buf,i) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19183] The expression  ! EVP_MAC_init(ctx,(( void  *)0),0,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19187"
+ , "c1link" : "./qc/apps/mac.c.html#19187"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19187] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19193"
+ , "c1link" : "./qc/apps/mac.c.html#19193"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19193] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19196"
+ , "c1link" : "./qc/apps/mac.c.html#19196"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19196] The expression 10 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19196"
+ , "c1link" : "./qc/apps/mac.c.html#19196"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19196] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "19200"
  , "c1link" : "./qc/apps/mac.c.html#19200"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19200] The expression 2 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19200"
+ , "c1link" : "./qc/apps/mac.c.html#19200"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19200] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19209"
+ , "c1link" : "./qc/apps/mac.c.html#19209"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19200] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19209] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19204"
- , "c1link" : "./qc/apps/mac.c.html#19204"
+   "c1" : "19213"
+ , "c1link" : "./qc/apps/mac.c.html#19213"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19204] The expression  ! EVP_MAC_final(ctx,(( void  *)0), &amp; len,0) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19213] The expression  ! EVP_MAC_update(ctx,buf,i) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19208"
- , "c1link" : "./qc/apps/mac.c.html#19208"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19208] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19210"
- , "c1link" : "./qc/apps/mac.c.html#19210"
+   "c1" : "19215"
+ , "c1link" : "./qc/apps/mac.c.html#19215"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19210] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19214"
- , "c1link" : "./qc/apps/mac.c.html#19214"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19214] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19217"
- , "c1link" : "./qc/apps/mac.c.html#19217"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19217] The expression  ! EVP_MAC_final(ctx,buf, &amp; len,1024 * 8) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19217"
- , "c1link" : "./qc/apps/mac.c.html#19217"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19217] The expression 1024 * 8 is invariable"
+ , "c3" : "QC-CPP000007[19215] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "19219"
  , "c1link" : "./qc/apps/mac.c.html#19219"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19219] goto statement jump to err"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19219] The expression  ! EVP_MAC_final(ctx,(( void  *)0), &amp; len,0) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19222"
- , "c1link" : "./qc/apps/mac.c.html#19222"
+   "c1" : "19223"
+ , "c1link" : "./qc/apps/mac.c.html#19223"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19222] The expression out_bin applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[19223] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19225"
+ , "c1link" : "./qc/apps/mac.c.html#19225"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19225] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19229"
+ , "c1link" : "./qc/apps/mac.c.html#19229"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19229] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19232"
+ , "c1link" : "./qc/apps/mac.c.html#19232"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19232] The expression  ! EVP_MAC_final(ctx,buf, &amp; len,1024 * 8) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19232"
+ , "c1link" : "./qc/apps/mac.c.html#19232"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19232] The expression 1024 * 8 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19234"
+ , "c1link" : "./qc/apps/mac.c.html#19234"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19234] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19237"
+ , "c1link" : "./qc/apps/mac.c.html#19237"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19237] The expression out_bin applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

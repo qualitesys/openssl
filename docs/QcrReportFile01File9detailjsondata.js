@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/dhparam.c.html" 
- , "texte" : "File apps/dhparam.c 128 rule violations " 
+ , "texte" : "File apps/dhparam.c 130 rule violations " 
  , "fic2"  : "./qc/apps/dhparam.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "34"
+ , "c4" : "36"
 }}
 ,
 { "ligne" : {
@@ -517,472 +517,486 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19254"
- , "c1link" : "./qc/apps/dhparam.c.html#19254"
+   "c1" : "19273"
+ , "c1link" : "./qc/apps/dhparam.c.html#19273"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19254] The pointer prog is declared but not initialized"
+ , "c3" : "QC-CPP000014[19273] The pointer prog is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19266"
- , "c1link" : "./qc/apps/dhparam.c.html#19266"
+   "c1" : "19285"
+ , "c1link" : "./qc/apps/dhparam.c.html#19285"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19266] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19285] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19270"
- , "c1link" : "./qc/apps/dhparam.c.html#19270"
+   "c1" : "19289"
+ , "c1link" : "./qc/apps/dhparam.c.html#19289"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[19270] The switch case refers to the jump label opthelp"
+ , "c3" : "QC-CPP000010[19289] The switch case refers to the jump label opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19272"
- , "c1link" : "./qc/apps/dhparam.c.html#19272"
+   "c1" : "19291"
+ , "c1link" : "./qc/apps/dhparam.c.html#19291"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19272] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19291] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19276"
- , "c1link" : "./qc/apps/dhparam.c.html#19276"
+   "c1" : "19295"
+ , "c1link" : "./qc/apps/dhparam.c.html#19295"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19276] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19295] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19278"
- , "c1link" : "./qc/apps/dhparam.c.html#19278"
+   "c1" : "19297"
+ , "c1link" : "./qc/apps/dhparam.c.html#19297"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19278] The expression  ! opt_format(opt_arg(),(1L&lt;&lt;1), &amp; informat) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19297] The expression  ! opt_format(opt_arg(),(1L&lt;&lt;1), &amp; informat) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19278"
- , "c1link" : "./qc/apps/dhparam.c.html#19278"
+   "c1" : "19297"
+ , "c1link" : "./qc/apps/dhparam.c.html#19297"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19278] The expression (1L&lt;&lt;1) is invariable"
+ , "c3" : "QC-CPP000012[19297] The expression (1L&lt;&lt;1) is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19279"
- , "c1link" : "./qc/apps/dhparam.c.html#19279"
+   "c1" : "19298"
+ , "c1link" : "./qc/apps/dhparam.c.html#19298"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19279] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19298] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19282"
- , "c1link" : "./qc/apps/dhparam.c.html#19282"
+   "c1" : "19301"
+ , "c1link" : "./qc/apps/dhparam.c.html#19301"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19282] The expression  ! opt_format(opt_arg(),(1L&lt;&lt;1), &amp; outformat) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19301] The expression  ! opt_format(opt_arg(),(1L&lt;&lt;1), &amp; outformat) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19282"
- , "c1link" : "./qc/apps/dhparam.c.html#19282"
+   "c1" : "19301"
+ , "c1link" : "./qc/apps/dhparam.c.html#19301"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19282] The expression (1L&lt;&lt;1) is invariable"
+ , "c3" : "QC-CPP000012[19301] The expression (1L&lt;&lt;1) is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19283"
- , "c1link" : "./qc/apps/dhparam.c.html#19283"
+   "c1" : "19302"
+ , "c1link" : "./qc/apps/dhparam.c.html#19302"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19283] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19302] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19316"
- , "c1link" : "./qc/apps/dhparam.c.html#19316"
+   "c1" : "19341"
+ , "c1link" : "./qc/apps/dhparam.c.html#19341"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19316] The expression  ! opt_rand(o) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19341] The expression  ! opt_rand(o) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19317"
- , "c1link" : "./qc/apps/dhparam.c.html#19317"
+   "c1" : "19342"
+ , "c1link" : "./qc/apps/dhparam.c.html#19342"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19317] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19342] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19320"
- , "c1link" : "./qc/apps/dhparam.c.html#19320"
+   "c1" : "19345"
+ , "c1link" : "./qc/apps/dhparam.c.html#19345"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19320] The expression  ! opt_provider(o) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19345] The expression  ! opt_provider(o) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19321"
- , "c1link" : "./qc/apps/dhparam.c.html#19321"
+   "c1" : "19346"
+ , "c1link" : "./qc/apps/dhparam.c.html#19346"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19321] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19346] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19330"
- , "c1link" : "./qc/apps/dhparam.c.html#19330"
+   "c1" : "19355"
+ , "c1link" : "./qc/apps/dhparam.c.html#19355"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19330] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[19355] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19331"
- , "c1link" : "./qc/apps/dhparam.c.html#19331"
+   "c1" : "19356"
+ , "c1link" : "./qc/apps/dhparam.c.html#19356"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19331] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19356] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19333"
- , "c1link" : "./qc/apps/dhparam.c.html#19333"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19333] goto statement jump to opthelp"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19335"
- , "c1link" : "./qc/apps/dhparam.c.html#19335"
+   "c1" : "19357"
+ , "c1link" : "./qc/apps/dhparam.c.html#19357"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19335] The expression  ! app_RAND_load() applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19357] The expression  ! opt_check_rest_arg((( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19336"
- , "c1link" : "./qc/apps/dhparam.c.html#19336"
+   "c1" : "19362"
+ , "c1link" : "./qc/apps/dhparam.c.html#19362"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19336] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19362] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19344"
- , "c1link" : "./qc/apps/dhparam.c.html#19344"
+   "c1" : "19364"
+ , "c1link" : "./qc/apps/dhparam.c.html#19364"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19364] The expression  ! app_RAND_load() applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19365"
+ , "c1link" : "./qc/apps/dhparam.c.html#19365"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19344] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19365] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19353"
- , "c1link" : "./qc/apps/dhparam.c.html#19353"
+   "c1" : "19373"
+ , "c1link" : "./qc/apps/dhparam.c.html#19373"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19353] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19373] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19359"
- , "c1link" : "./qc/apps/dhparam.c.html#19359"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19359] The expression num applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19379"
- , "c1link" : "./qc/apps/dhparam.c.html#19379"
+   "c1" : "19382"
+ , "c1link" : "./qc/apps/dhparam.c.html#19382"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19379] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19382] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19391"
- , "c1link" : "./qc/apps/dhparam.c.html#19391"
+   "c1" : "19388"
+ , "c1link" : "./qc/apps/dhparam.c.html#19388"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19388] The expression num applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19408"
+ , "c1link" : "./qc/apps/dhparam.c.html#19408"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19391] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19408] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19394"
- , "c1link" : "./qc/apps/dhparam.c.html#19394"
+   "c1" : "19411"
+ , "c1link" : "./qc/apps/dhparam.c.html#19411"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19394] The expression dsaparam applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19411] The expression verbose applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19395"
- , "c1link" : "./qc/apps/dhparam.c.html#19395"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19395] The expression  ! EVP_PKEY_CTX_set_dsa_paramgen_bits(ctx,num) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19397"
- , "c1link" : "./qc/apps/dhparam.c.html#19397"
+   "c1" : "19422"
+ , "c1link" : "./qc/apps/dhparam.c.html#19422"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19397] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19422] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19400"
- , "c1link" : "./qc/apps/dhparam.c.html#19400"
+   "c1" : "19425"
+ , "c1link" : "./qc/apps/dhparam.c.html#19425"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19400] The expression  ! EVP_PKEY_CTX_set_dh_paramgen_prime_len(ctx,num) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19425] The expression dsaparam applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19402"
- , "c1link" : "./qc/apps/dhparam.c.html#19402"
+   "c1" : "19426"
+ , "c1link" : "./qc/apps/dhparam.c.html#19426"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19426] The expression  ! EVP_PKEY_CTX_set_dsa_paramgen_bits(ctx,num) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19428"
+ , "c1link" : "./qc/apps/dhparam.c.html#19428"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19402] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19428] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19404"
- , "c1link" : "./qc/apps/dhparam.c.html#19404"
+   "c1" : "19431"
+ , "c1link" : "./qc/apps/dhparam.c.html#19431"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19404] The expression  ! EVP_PKEY_CTX_set_dh_paramgen_generator(ctx,g) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19431] The expression  ! EVP_PKEY_CTX_set_dh_paramgen_prime_len(ctx,num) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19406"
- , "c1link" : "./qc/apps/dhparam.c.html#19406"
+   "c1" : "19433"
+ , "c1link" : "./qc/apps/dhparam.c.html#19433"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19406] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19433] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19417"
- , "c1link" : "./qc/apps/dhparam.c.html#19417"
+   "c1" : "19435"
+ , "c1link" : "./qc/apps/dhparam.c.html#19435"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19417] The expression dsaparam applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19435] The expression  ! EVP_PKEY_CTX_set_dh_paramgen_generator(ctx,g) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19424"
- , "c1link" : "./qc/apps/dhparam.c.html#19424"
+   "c1" : "19437"
+ , "c1link" : "./qc/apps/dhparam.c.html#19437"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19424] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19437] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19449"
- , "c1link" : "./qc/apps/dhparam.c.html#19449"
+   "c1" : "19448"
+ , "c1link" : "./qc/apps/dhparam.c.html#19448"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19448] The expression dsaparam applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19455"
+ , "c1link" : "./qc/apps/dhparam.c.html#19455"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19449] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19455] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19495"
- , "c1link" : "./qc/apps/dhparam.c.html#19495"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19495] The expression 'DH' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19502"
- , "c1link" : "./qc/apps/dhparam.c.html#19502"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19502] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19502"
- , "c1link" : "./qc/apps/dhparam.c.html#19502"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19502] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19510"
- , "c1link" : "./qc/apps/dhparam.c.html#19510"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19510] The expression  ! done applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19517"
- , "c1link" : "./qc/apps/dhparam.c.html#19517"
+   "c1" : "19480"
+ , "c1link" : "./qc/apps/dhparam.c.html#19480"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19517] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19480] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19520"
- , "c1link" : "./qc/apps/dhparam.c.html#19520"
+   "c1" : "19526"
+ , "c1link" : "./qc/apps/dhparam.c.html#19526"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19520] The expression dsaparam applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19521"
- , "c1link" : "./qc/apps/dhparam.c.html#19521"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19521] The expression  ! EVP_PKEY_is_a(tmppkey,'DSA') applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19521"
- , "c1link" : "./qc/apps/dhparam.c.html#19521"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19521] The expression 'DSA' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19523"
- , "c1link" : "./qc/apps/dhparam.c.html#19523"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19523] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19531"
- , "c1link" : "./qc/apps/dhparam.c.html#19531"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19531] goto statement jump to end"
+ , "c3" : "QC-CPP000012[19526] The expression 'DH' is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "19533"
  , "c1link" : "./qc/apps/dhparam.c.html#19533"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19533] The expression 'DH' is invariable"
+ , "c3" : "QC-CPP000012[19533] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19534"
- , "c1link" : "./qc/apps/dhparam.c.html#19534"
+   "c1" : "19533"
+ , "c1link" : "./qc/apps/dhparam.c.html#19533"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19534] The expression 'DHX' is invariable"
+ , "c3" : "QC-CPP000012[19533] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19536"
- , "c1link" : "./qc/apps/dhparam.c.html#19536"
+   "c1" : "19541"
+ , "c1link" : "./qc/apps/dhparam.c.html#19541"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19541] The expression  ! done applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19548"
+ , "c1link" : "./qc/apps/dhparam.c.html#19548"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19536] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19548] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19547"
- , "c1link" : "./qc/apps/dhparam.c.html#19547"
+   "c1" : "19551"
+ , "c1link" : "./qc/apps/dhparam.c.html#19551"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19547] The expression text applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19551] The expression dsaparam applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19552"
+ , "c1link" : "./qc/apps/dhparam.c.html#19552"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19552] The expression  ! EVP_PKEY_is_a(tmppkey,'DSA') applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19552"
+ , "c1link" : "./qc/apps/dhparam.c.html#19552"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19552] The expression 'DSA' is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "19554"
  , "c1link" : "./qc/apps/dhparam.c.html#19554"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19554] The expression check applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19570"
- , "c1link" : "./qc/apps/dhparam.c.html#19570"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19570] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19554] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19572"
- , "c1link" : "./qc/apps/dhparam.c.html#19572"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19572] The expression  ! EVP_PKEY_param_check(ctx) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19574"
- , "c1link" : "./qc/apps/dhparam.c.html#19574"
+   "c1" : "19562"
+ , "c1link" : "./qc/apps/dhparam.c.html#19562"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19574] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19562] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19579"
- , "c1link" : "./qc/apps/dhparam.c.html#19579"
+   "c1" : "19564"
+ , "c1link" : "./qc/apps/dhparam.c.html#19564"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19579] The expression  ! noout applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[19564] The expression 'DH' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19602"
- , "c1link" : "./qc/apps/dhparam.c.html#19602"
+   "c1" : "19565"
+ , "c1link" : "./qc/apps/dhparam.c.html#19565"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19565] The expression 'DHX' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19567"
+ , "c1link" : "./qc/apps/dhparam.c.html#19567"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19602] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19567] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19660"
- , "c1link" : "./qc/apps/dhparam.c.html#19660"
+   "c1" : "19578"
+ , "c1link" : "./qc/apps/dhparam.c.html#19578"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19660] The expression 'p' is invariable"
+ , "c3" : "QC-CPP000011[19578] The expression text applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19661"
- , "c1link" : "./qc/apps/dhparam.c.html#19661"
+   "c1" : "19585"
+ , "c1link" : "./qc/apps/dhparam.c.html#19585"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19661] The expression 'q' is invariable"
+ , "c3" : "QC-CPP000011[19585] The expression check applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19662"
- , "c1link" : "./qc/apps/dhparam.c.html#19662"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19662] The expression 'g' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19664"
- , "c1link" : "./qc/apps/dhparam.c.html#19664"
+   "c1" : "19601"
+ , "c1link" : "./qc/apps/dhparam.c.html#19601"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19664] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19601] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19667"
- , "c1link" : "./qc/apps/dhparam.c.html#19667"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19667] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19678"
- , "c1link" : "./qc/apps/dhparam.c.html#19678"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19678] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19672"
- , "c1link" : "./qc/apps/dhparam.c.html#19672"
+   "c1" : "19603"
+ , "c1link" : "./qc/apps/dhparam.c.html#19603"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19672] The expression 'p' is invariable"
+ , "c3" : "QC-CPP000011[19603] The expression  ! EVP_PKEY_param_check(ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19674"
- , "c1link" : "./qc/apps/dhparam.c.html#19674"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19674] The expression 'q' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19676"
- , "c1link" : "./qc/apps/dhparam.c.html#19676"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19676] The expression 'g' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19684"
- , "c1link" : "./qc/apps/dhparam.c.html#19684"
+   "c1" : "19605"
+ , "c1link" : "./qc/apps/dhparam.c.html#19605"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19684] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19605] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19702"
- , "c1link" : "./qc/apps/dhparam.c.html#19702"
+   "c1" : "19610"
+ , "c1link" : "./qc/apps/dhparam.c.html#19610"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19702] The expression ((0x04|0x80)) is invariable"
+ , "c3" : "QC-CPP000011[19610] The expression  ! noout applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19704"
- , "c1link" : "./qc/apps/dhparam.c.html#19704"
+   "c1" : "19633"
+ , "c1link" : "./qc/apps/dhparam.c.html#19633"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19704] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19633] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19691"
+ , "c1link" : "./qc/apps/dhparam.c.html#19691"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19691] The expression 'p' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19692"
+ , "c1link" : "./qc/apps/dhparam.c.html#19692"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19692] The expression 'q' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19693"
+ , "c1link" : "./qc/apps/dhparam.c.html#19693"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19693] The expression 'g' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19695"
+ , "c1link" : "./qc/apps/dhparam.c.html#19695"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19695] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19698"
+ , "c1link" : "./qc/apps/dhparam.c.html#19698"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[19698] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19709"
+ , "c1link" : "./qc/apps/dhparam.c.html#19709"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[19709] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19703"
+ , "c1link" : "./qc/apps/dhparam.c.html#19703"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19703] The expression 'p' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19705"
+ , "c1link" : "./qc/apps/dhparam.c.html#19705"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19705] The expression 'q' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19707"
+ , "c1link" : "./qc/apps/dhparam.c.html#19707"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19707] The expression 'g' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19715"
+ , "c1link" : "./qc/apps/dhparam.c.html#19715"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19715] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19733"
+ , "c1link" : "./qc/apps/dhparam.c.html#19733"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19733] The expression ((0x04|0x80)) is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19735"
+ , "c1link" : "./qc/apps/dhparam.c.html#19735"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19735] goto statement jump to err"
 }} 
 ]
 };

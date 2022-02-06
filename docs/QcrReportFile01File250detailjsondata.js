@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/cms/cms_io.c.html" 
- , "texte" : "File crypto/cms/cms_io.c 26 rule violations " 
+ , "texte" : "File crypto/cms/cms_io.c 27 rule violations " 
  , "fic2"  : "./qc/crypto/cms/cms_io.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "15"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : {
@@ -223,31 +223,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13781"
- , "c1link" : "./qc/crypto/cms/cms_io.c.html#13781"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13781] The pointer pos is declared but not initialized"
+   "c1" : "08297"
+ , "c1link" : "./qc/crypto/cms/cms_io.c.html#8297"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08297] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13815"
- , "c1link" : "./qc/crypto/cms/cms_io.c.html#13815"
+   "c1" : "14153"
+ , "c1link" : "./qc/crypto/cms/cms_io.c.html#14153"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13815] The pointer ci is declared but not initialized"
+ , "c3" : "QC-CPP000014[14153] The pointer pos is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13900"
- , "c1link" : "./qc/crypto/cms/cms_io.c.html#13900"
+   "c1" : "14187"
+ , "c1link" : "./qc/crypto/cms/cms_io.c.html#14187"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13900] The pointer mdalgs is declared but not initialized"
+ , "c3" : "QC-CPP000014[14187] The pointer ci is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13924"
- , "c1link" : "./qc/crypto/cms/cms_io.c.html#13924"
+   "c1" : "14272"
+ , "c1link" : "./qc/crypto/cms/cms_io.c.html#14272"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13924] The pointer ci is declared but not initialized"
+ , "c3" : "QC-CPP000014[14272] The pointer mdalgs is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14296"
+ , "c1link" : "./qc/crypto/cms/cms_io.c.html#14296"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14296] The pointer ci is declared but not initialized"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/dh/dh_kdf.c.html" 
- , "texte" : "File crypto/dh/dh_kdf.c 57 rule violations " 
+ , "texte" : "File crypto/dh/dh_kdf.c 56 rule violations " 
  , "fic2"  : "./qc/crypto/dh/dh_kdf.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "13"
+ , "c4" : "12"
 }}
 ,
 { "ligne" : {
@@ -454,24 +454,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10406"
- , "c1link" : "./qc/crypto/dh/dh_kdf.c.html#10406"
+   "c1" : "10415"
+ , "c1link" : "./qc/crypto/dh/dh_kdf.c.html#10415"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10406] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10415] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10439"
- , "c1link" : "./qc/crypto/dh/dh_kdf.c.html#10439"
+   "c1" : "10448"
+ , "c1link" : "./qc/crypto/dh/dh_kdf.c.html#10448"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10439] The expression  ! OBJ_obj2txt(key_alg, sizeof (key_alg),key_oid,0) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "10439"
- , "c1link" : "./qc/crypto/dh/dh_kdf.c.html#10439"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10439] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10448] The expression 0 is invariable, always false"
 }} 
 ]
 };

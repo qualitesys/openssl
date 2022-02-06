@@ -237,17 +237,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06090"
- , "c1link" : "./qc/crypto/comp/comp_lib.c.html#6090"
+   "c1" : "06096"
+ , "c1link" : "./qc/crypto/comp/comp_lib.c.html#6096"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06090] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[06096] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06092"
- , "c1link" : "./qc/crypto/comp/comp_lib.c.html#6092"
+   "c1" : "06098"
+ , "c1link" : "./qc/crypto/comp/comp_lib.c.html#6098"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[06092] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[06098] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

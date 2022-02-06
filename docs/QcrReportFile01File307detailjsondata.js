@@ -223,10 +223,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07969"
- , "c1link" : "./qc/crypto/des/rand_key.c.html#7969"
+   "c1" : "07977"
+ , "c1link" : "./qc/crypto/des/rand_key.c.html#7977"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07969] The expression DES_is_weak_key(ret) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07977] The expression DES_is_weak_key(ret) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

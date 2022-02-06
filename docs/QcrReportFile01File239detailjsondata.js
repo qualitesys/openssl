@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/cmp/cmp_vfy.c.html" 
- , "texte" : "File crypto/cmp/cmp_vfy.c 122 rule violations " 
+ , "texte" : "File crypto/cmp/cmp_vfy.c 128 rule violations " 
  , "fic2"  : "./qc/crypto/cmp/cmp_vfy.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,14 +42,14 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "42"
+ , "c4" : "44"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "56"
+ , "c4" : "58"
 }}
 ,
 { "ligne" : {
@@ -77,7 +77,7 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "9"
+ , "c4" : "11"
 }}
  ] 
 ,
@@ -454,486 +454,528 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "16446"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16446"
+   "c1" : "16457"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16457"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16446] The pointer bio is declared but not initialized"
+ , "c3" : "QC-CPP000014[16457] The pointer bio is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16474"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16474"
+   "c1" : "16490"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16490"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16474] goto statement jump to sig_err"
+ , "c3" : "QC-CPP000007[16490] goto statement jump to sig_err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16488"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16488"
+   "c1" : "16504"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16504"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16488] goto statement jump to sig_err"
+ , "c3" : "QC-CPP000007[16504] goto statement jump to sig_err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16503"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16503"
+   "c1" : "16519"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16519"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16503] goto statement jump to end"
+ , "c3" : "QC-CPP000007[16519] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16513"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16513"
+   "c1" : "16529"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16529"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16513] The expression res applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16529] The expression res applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16535"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16535"
+   "c1" : "16551"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16551"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16535] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16551] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16552"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16552"
+   "c1" : "16568"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16568"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16552] The expression  ! valid applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16568] The expression  ! valid applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16603"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16603"
+   "c1" : "16619"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16619"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16603] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16619] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16610"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16610"
+   "c1" : "16626"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16626"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16610] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16626] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16635"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16635"
+   "c1" : "16651"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16651"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16635] The pointer str is declared but not initialized"
+ , "c3" : "QC-CPP000014[16651] The pointer str is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16677"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16677"
+   "c1" : "16693"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16693"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16677] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16693] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16696"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16696"
+   "c1" : "16712"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16712"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16696] The pointer str is declared but not initialized"
+ , "c3" : "QC-CPP000014[16712] The pointer str is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16733"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16733"
+   "c1" : "16753"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16753"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16733] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16753] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16762"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16762"
+   "c1" : "16786"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16786"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16762] The pointer str is declared but not initialized"
+ , "c3" : "QC-CPP000014[16786] The pointer str is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16776"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16776"
+   "c1" : "16800"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16800"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16776] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16800] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16787"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16787"
+   "c1" : "16811"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16811"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16787] The expression  ! self_issued applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16816"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16816"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16816] The expression  ! check_name(ctx,1,'cert subject',X509_get_subject_name(cert),'sender field',msg-&gt;header-&gt;sender-&gt;d.directoryName) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16816"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16816"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16816] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16817"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16817"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16817] The expression 'cert subject' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16818"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16818"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16818] The expression 'sender field' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16821"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16821"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16821] The expression  ! check_kid(ctx,X509_get0_subject_key_id(cert),msg-&gt;header-&gt;senderKID) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16824"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16824"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16824] The expression  ! ossl_x509v3_cache_extensions(cert) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16828"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16828"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16828] The expression  ! verify_signature(ctx,msg,cert) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16811] The expression  ! self_issued applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "16840"
  , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16840"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16840] The expression OSSL_CMP_validate_cert_path(ctx,store,scrt) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16840] The expression  ! check_name(ctx,1,'cert subject',X509_get_subject_name(cert),'sender field',msg-&gt;header-&gt;sender-&gt;d.directoryName) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16840"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16840"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16840] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16841"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16841"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16841] The expression 'cert subject' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16842"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16842"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16842] The expression 'sender field' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16845"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16845"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16845] The expression  ! check_kid(ctx,X509_get0_subject_key_id(cert),msg-&gt;header-&gt;senderKID) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16848"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16848"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16848] The expression  ! ossl_x509v3_cache_extensions(cert) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "16852"
  , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16852"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16852] The pointer store is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16854"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16854"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16854] The expression  ! ctx-&gt;permitTAInExtraCertsForIR applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16857"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16857"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16857] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16863"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16863"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16863] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000011[16852] The expression  ! verify_signature(ctx,msg,cert) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "16864"
  , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16864"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16864] The expression OSSL_CMP_validate_cert_path(ctx,store,scrt) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16876"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16876"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16864] goto statement jump to err"
+ , "c3" : "QC-CPP000014[16876] The pointer store is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16868"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16868"
+   "c1" : "16878"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16878"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16868] The expression  ! valid applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16878] The expression  ! ctx-&gt;permitTAInExtraCertsForIR applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16944"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16944"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16944] The expression  ! cert_acceptable(ctx,'cert from',desc,cert,already_checked1,already_checked2,msg) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16944"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16944"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16944] The expression 'cert from' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16948"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16948"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16948] The expression mode_3gpp applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16948"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16948"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16948] The expression check_cert_path_3gpp(ctx,msg,cert) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16949"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16949"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16949] The expression check_cert_path(ctx,ctx-&gt;trusted,cert) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16951"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16951"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16951] The expression  ! X509_up_ref(cert) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16953"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16953"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16953] The expression  ! ossl_cmp_ctx_set0_validatedSrvCert(ctx,cert) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16983"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16983"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16983] The expression check_msg_with_certs(ctx,msg-&gt;extraCerts,'extraCerts',(( void  *)0),(( void  *)0),msg,mode_3gpp) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16983"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16983"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16983] The expression 'extraCerts' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16994"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16994"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16994] The expression check_msg_with_certs(ctx,ctx-&gt;untrusted,'untrusted certs',msg-&gt;extraCerts,(( void  *)0),msg,mode_3gpp) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16994"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16994"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16994] The expression 'untrusted certs' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17084"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17084"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17084] The expression check_msg_given_cert(ctx,scrt,msg) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "17104"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17104"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17104] The expression res applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "17107"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17107"
+   "c1" : "16881"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16881"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17107] goto statement jump to end"
+ , "c3" : "QC-CPPCWE481[16881] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17194"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17194"
+   "c1" : "16887"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16887"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16887] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16888"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16888"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17194] The pointer scrt is declared but not initialized"
+ , "c3" : "QC-CPP000007[16888] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17256"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17256"
+   "c1" : "16892"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16892"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17256] The expression verify_PBMAC(ctx,msg) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16892] The expression  ! valid applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17278"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17278"
+   "c1" : "16968"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16968"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17278] The expression  ! ossl_cmp_X509_STORE_add1_certs(ctx-&gt;trusted,certs,0) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16968] The expression  ! cert_acceptable(ctx,'cert from',desc,cert,already_checked1,already_checked2,msg) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17278"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17278"
+   "c1" : "16968"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16968"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17278] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[16968] The expression 'cert from' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17323"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17323"
+   "c1" : "16972"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16972"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17323] The expression check_msg_find_cert(ctx,msg) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16972] The expression mode_3gpp applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17327"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17327"
+   "c1" : "16972"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16972"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17327] The expression verify_signature(ctx,msg,scrt) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16972] The expression check_cert_path_3gpp(ctx,msg,cert) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17348"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17348"
+   "c1" : "16973"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16973"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16973] The expression check_cert_path(ctx,ctx-&gt;trusted,cert) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16975"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16975"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16975] The expression  ! X509_up_ref(cert) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16977"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16977"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16977] The expression  ! ossl_cmp_ctx_set0_validatedSrvCert(ctx,cert) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17007"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17007"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17007] The expression check_msg_with_certs(ctx,msg-&gt;extraCerts,'extraCerts',(( void  *)0),(( void  *)0),msg,mode_3gpp) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17007"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17007"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[17007] The expression 'extraCerts' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17018"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17018"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17018] The expression check_msg_with_certs(ctx,ctx-&gt;untrusted,'untrusted certs',msg-&gt;extraCerts,(( void  *)0),msg,mode_3gpp) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17018"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17018"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[17018] The expression 'untrusted certs' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17108"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17108"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17108] The expression check_msg_given_cert(ctx,scrt,msg) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17128"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17128"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17128] The expression res applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17131"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17131"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17348] The pointer hdr is declared but not initialized"
+ , "c3" : "QC-CPP000007[17131] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17349"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17349"
+   "c1" : "17221"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17221"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17349] The pointer expected_sender is declared but not initialized"
+ , "c3" : "QC-CPP000014[17221] The pointer scrt is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17392"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17392"
+   "c1" : "17283"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17283"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17392] The expression  ! check_name(ctx,0,'sender DN field',hdr-&gt;sender-&gt;d.directoryName,'expected sender',expected_sender) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17283] The expression verify_PBMAC(ctx,msg) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17392"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17392"
+   "c1" : "17305"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17305"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17392] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[17305] The expression  ! ossl_cmp_X509_STORE_add1_certs(ctx-&gt;trusted,certs,0) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17392"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17392"
+   "c1" : "17305"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17305"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17392] The expression 'sender DN field' is invariable"
+ , "c3" : "QC-CPP000012[17305] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17393"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17393"
+   "c1" : "17350"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17350"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17393] The expression 'expected sender' is invariable"
+ , "c3" : "QC-CPP000011[17350] The expression check_msg_find_cert(ctx,msg) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17401"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17401"
+   "c1" : "17354"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17354"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17401] The expression  ! X509_add_certs(ctx-&gt;untrusted,msg-&gt;extraCerts,0x1|0x4|0x2) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17354] The expression verify_signature(ctx,msg,scrt) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17403"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17403"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17403] The expression 0x1 is invariable"
+   "c1" : "17386"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17386"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[17386] The pointer expected_str is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17403"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17403"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17403] The expression 0x4 is invariable"
+   "c1" : "17386"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17386"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[17386] The pointer actual_str is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17404"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17404"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17404] The expression 0x2 is invariable"
+   "c1" : "17426"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17426"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[17426] The pointer hdr is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17521"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17521"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17521] The expression  ! ossl_cmp_ctx_set1_recipNonce(ctx,hdr-&gt;senderNonce) applies to a single value or variable, might be ambiguous."
+   "c1" : "17427"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17427"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[17427] The pointer expected_sender is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17539"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17539"
+   "c1" : "17470"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17470"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17539] The expression  ! X509_add_certs(ctx-&gt;untrusted,msg-&gt;extraCerts,0x1|0x4|0x2) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17470] The expression  ! check_name(ctx,0,'sender DN field',hdr-&gt;sender-&gt;d.directoryName,'expected sender',expected_sender) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17541"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17541"
+   "c1" : "17470"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17470"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17541] The expression 0x1 is invariable"
+ , "c3" : "QC-CPP000012[17470] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17541"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17541"
+   "c1" : "17470"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17470"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17541] The expression 0x4 is invariable"
+ , "c3" : "QC-CPP000012[17470] The expression 'sender DN field' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17542"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17542"
+   "c1" : "17471"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17471"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17542] The expression 0x2 is invariable"
+ , "c3" : "QC-CPP000012[17471] The expression 'expected sender' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17565"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17565"
+   "c1" : "17479"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17479"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17565] The expression  ! ossl_cmp_X509_STORE_add1_certs(ctx-&gt;trusted,certs,0) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17479] The expression  ! X509_add_certs(ctx-&gt;untrusted,msg-&gt;extraCerts,0x1|0x4|0x2) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17565"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17565"
+   "c1" : "17481"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17481"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17565] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[17481] The expression 0x1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17611"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17611"
+   "c1" : "17481"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17481"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17611] The expression  ! OSSL_CRMF_MSGS_verify_popo(msg-&gt;body-&gt;value.ir,0,acceptRAVerified,ctx-&gt;libctx,ctx-&gt;propq) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[17481] The expression 0x4 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17611"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17611"
+   "c1" : "17482"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17482"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17611] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[17482] The expression 0x2 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17549"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17549"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17549] The expression  ! check_transactionID_or_nonce(ctx-&gt;transactionID,hdr-&gt;transactionID,152) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17550"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17550"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[17550] The expression 152 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17554"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17554"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17554] The expression  ! check_transactionID_or_nonce(ctx-&gt;senderNonce,hdr-&gt;recipNonce,148) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17555"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17555"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[17555] The expression 148 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17563"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17563"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17563] The expression  ! ossl_cmp_ctx_set1_recipNonce(ctx,hdr-&gt;senderNonce) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17581"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17581"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17581] The expression  ! X509_add_certs(ctx-&gt;untrusted,msg-&gt;extraCerts,0x1|0x4|0x2) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17583"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17583"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[17583] The expression 0x1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17583"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17583"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[17583] The expression 0x4 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17584"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17584"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[17584] The expression 0x2 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17607"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17607"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17607] The expression  ! ossl_cmp_X509_STORE_add1_certs(ctx-&gt;trusted,certs,0) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17607"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17607"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[17607] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17653"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17653"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[17653] The expression  ! OSSL_CRMF_MSGS_verify_popo(msg-&gt;body-&gt;value.ir,0,acceptRAVerified,ctx-&gt;libctx,ctx-&gt;propq) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17653"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17653"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[17653] The expression 0 is invariable, always false"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/asn1/nsseq.c.html" 
- , "texte" : "File crypto/asn1/nsseq.c 23 rule violations " 
+ , "texte" : "File crypto/asn1/nsseq.c 24 rule violations " 
  , "fic2"  : "./qc/crypto/asn1/nsseq.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "15"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : {
@@ -223,10 +223,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12616"
- , "c1link" : "./qc/crypto/asn1/nsseq.c.html#12616"
+   "c1" : "08283"
+ , "c1link" : "./qc/crypto/asn1/nsseq.c.html#8283"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08283] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12988"
+ , "c1link" : "./qc/crypto/asn1/nsseq.c.html#12988"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12616] The pointer nsseq is declared but not initialized"
+ , "c3" : "QC-CPP000014[12988] The pointer nsseq is declared but not initialized"
 }} 
 ]
 };

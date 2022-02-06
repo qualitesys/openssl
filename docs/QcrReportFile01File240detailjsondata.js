@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/cms/cms_asn1.c.html" 
- , "texte" : "File crypto/cms/cms_asn1.c 24 rule violations " 
+ , "texte" : "File crypto/cms/cms_asn1.c 25 rule violations " 
  , "fic2"  : "./qc/crypto/cms/cms_asn1.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "15"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : {
@@ -223,17 +223,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15509"
- , "c1link" : "./qc/crypto/cms/cms_asn1.c.html#15509"
+   "c1" : "08302"
+ , "c1link" : "./qc/crypto/cms/cms_asn1.c.html#8302"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15509] The expression pval applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[08302] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15521"
- , "c1link" : "./qc/crypto/cms/cms_asn1.c.html#15521"
+   "c1" : "15881"
+ , "c1link" : "./qc/crypto/cms/cms_asn1.c.html#15881"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15521] The expression  ! sarg-&gt;ndef_bio applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15881] The expression pval applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15893"
+ , "c1link" : "./qc/crypto/cms/cms_asn1.c.html#15893"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15893] The expression  ! sarg-&gt;ndef_bio applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

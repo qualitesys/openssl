@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/rsa.c.html" 
- , "texte" : "File apps/rsa.c 104 rule violations " 
+ , "texte" : "File apps/rsa.c 105 rule violations " 
  , "fic2"  : "./qc/apps/rsa.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "31"
+ , "c4" : "32"
 }}
 ,
 { "ligne" : {
@@ -517,248 +517,241 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19095"
- , "c1link" : "./qc/apps/rsa.c.html#19095"
+   "c1" : "19111"
+ , "c1link" : "./qc/apps/rsa.c.html#19111"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19095] The pointer pctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[19111] The pointer pctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19113"
- , "c1link" : "./qc/apps/rsa.c.html#19113"
+   "c1" : "19129"
+ , "c1link" : "./qc/apps/rsa.c.html#19129"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19113] The pointer prog is declared but not initialized"
+ , "c3" : "QC-CPP000014[19129] The pointer prog is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19155"
- , "c1link" : "./qc/apps/rsa.c.html#19155"
+   "c1" : "19172"
+ , "c1link" : "./qc/apps/rsa.c.html#19172"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19155] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19172] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19159"
- , "c1link" : "./qc/apps/rsa.c.html#19159"
+   "c1" : "19176"
+ , "c1link" : "./qc/apps/rsa.c.html#19176"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[19159] The switch case refers to the jump label opthelp"
+ , "c3" : "QC-CPP000010[19176] The switch case refers to the jump label opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19161"
- , "c1link" : "./qc/apps/rsa.c.html#19161"
+   "c1" : "19178"
+ , "c1link" : "./qc/apps/rsa.c.html#19178"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19161] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19178] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19165"
- , "c1link" : "./qc/apps/rsa.c.html#19165"
+   "c1" : "19182"
+ , "c1link" : "./qc/apps/rsa.c.html#19182"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19165] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19182] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19167"
- , "c1link" : "./qc/apps/rsa.c.html#19167"
+   "c1" : "19184"
+ , "c1link" : "./qc/apps/rsa.c.html#19184"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19167] The expression  ! opt_format(opt_arg(),((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)|(1L&lt;&lt;4)|(1L&lt;&lt;5)|(1L&lt;&lt;7)|(1L&lt;&lt;8)|(1L&lt;&lt;9)|(1L&lt;&lt;10)), &amp; informat) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19184] The expression  ! opt_format(opt_arg(),((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)|(1L&lt;&lt;4)|(1L&lt;&lt;5)|(1L&lt;&lt;7)|(1L&lt;&lt;8)|(1L&lt;&lt;9)|(1L&lt;&lt;10)), &amp; informat) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19167"
- , "c1link" : "./qc/apps/rsa.c.html#19167"
+   "c1" : "19184"
+ , "c1link" : "./qc/apps/rsa.c.html#19184"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19167] The expression ((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)|(1L&lt;&lt;4)|(1L&lt;&lt;5)|(1L&lt;&lt;7)|(1L&lt;&lt;8)|(1L&lt;&lt;9)|(1L&lt;&lt;10)) is invariable"
+ , "c3" : "QC-CPP000012[19184] The expression ((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)|(1L&lt;&lt;4)|(1L&lt;&lt;5)|(1L&lt;&lt;7)|(1L&lt;&lt;8)|(1L&lt;&lt;9)|(1L&lt;&lt;10)) is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19168"
- , "c1link" : "./qc/apps/rsa.c.html#19168"
+   "c1" : "19185"
+ , "c1link" : "./qc/apps/rsa.c.html#19185"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19168] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19185] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19174"
- , "c1link" : "./qc/apps/rsa.c.html#19174"
+   "c1" : "19191"
+ , "c1link" : "./qc/apps/rsa.c.html#19191"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19174] The expression  ! opt_format(opt_arg(),((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)|(1L&lt;&lt;4)|(1L&lt;&lt;5)|(1L&lt;&lt;7)|(1L&lt;&lt;8)|(1L&lt;&lt;9)|(1L&lt;&lt;10)), &amp; outformat) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19191] The expression  ! opt_format(opt_arg(),((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)|(1L&lt;&lt;4)|(1L&lt;&lt;5)|(1L&lt;&lt;7)|(1L&lt;&lt;8)|(1L&lt;&lt;9)|(1L&lt;&lt;10)), &amp; outformat) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19174"
- , "c1link" : "./qc/apps/rsa.c.html#19174"
+   "c1" : "19191"
+ , "c1link" : "./qc/apps/rsa.c.html#19191"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19174] The expression ((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)|(1L&lt;&lt;4)|(1L&lt;&lt;5)|(1L&lt;&lt;7)|(1L&lt;&lt;8)|(1L&lt;&lt;9)|(1L&lt;&lt;10)) is invariable"
+ , "c3" : "QC-CPP000012[19191] The expression ((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)|(1L&lt;&lt;4)|(1L&lt;&lt;5)|(1L&lt;&lt;7)|(1L&lt;&lt;8)|(1L&lt;&lt;9)|(1L&lt;&lt;10)) is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19175"
- , "c1link" : "./qc/apps/rsa.c.html#19175"
+   "c1" : "19192"
+ , "c1link" : "./qc/apps/rsa.c.html#19192"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19175] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19192] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19222"
- , "c1link" : "./qc/apps/rsa.c.html#19222"
+   "c1" : "19239"
+ , "c1link" : "./qc/apps/rsa.c.html#19239"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19222] The expression  ! opt_provider(o) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19239] The expression  ! opt_provider(o) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19223"
- , "c1link" : "./qc/apps/rsa.c.html#19223"
+   "c1" : "19240"
+ , "c1link" : "./qc/apps/rsa.c.html#19240"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19223] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19240] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19234"
- , "c1link" : "./qc/apps/rsa.c.html#19234"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19234] goto statement jump to opthelp"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19241"
- , "c1link" : "./qc/apps/rsa.c.html#19241"
+   "c1" : "19249"
+ , "c1link" : "./qc/apps/rsa.c.html#19249"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19241] The expression  ! opt_cipher(ciphername, &amp; enc) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19249] The expression  ! opt_check_rest_arg((( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19242"
- , "c1link" : "./qc/apps/rsa.c.html#19242"
+   "c1" : "19254"
+ , "c1link" : "./qc/apps/rsa.c.html#19254"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19242] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19254] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19246"
- , "c1link" : "./qc/apps/rsa.c.html#19246"
+   "c1" : "19256"
+ , "c1link" : "./qc/apps/rsa.c.html#19256"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19246] The expression  ! app_passwd(passinarg,passoutarg, &amp; passin, &amp; passout) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19256] The expression  ! opt_cipher(ciphername, &amp; enc) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19248"
- , "c1link" : "./qc/apps/rsa.c.html#19248"
+   "c1" : "19257"
+ , "c1link" : "./qc/apps/rsa.c.html#19257"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19248] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19257] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19252"
- , "c1link" : "./qc/apps/rsa.c.html#19252"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19252] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19255"
- , "c1link" : "./qc/apps/rsa.c.html#19255"
+   "c1" : "19260"
+ , "c1link" : "./qc/apps/rsa.c.html#19260"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19255] The expression pubin applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19260] The expression  ! app_passwd(passinarg,passoutarg, &amp; passin, &amp; passout) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19278"
- , "c1link" : "./qc/apps/rsa.c.html#19278"
+   "c1" : "19262"
+ , "c1link" : "./qc/apps/rsa.c.html#19262"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19278] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19262] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19280"
- , "c1link" : "./qc/apps/rsa.c.html#19280"
+   "c1" : "19266"
+ , "c1link" : "./qc/apps/rsa.c.html#19266"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19266] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19269"
+ , "c1link" : "./qc/apps/rsa.c.html#19269"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19280] The expression  ! EVP_PKEY_is_a(pkey,'RSA') applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19269] The expression pubin applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19280"
- , "c1link" : "./qc/apps/rsa.c.html#19280"
+   "c1" : "19292"
+ , "c1link" : "./qc/apps/rsa.c.html#19292"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19292] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19294"
+ , "c1link" : "./qc/apps/rsa.c.html#19294"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19280] The expression 'RSA' is invariable"
+ , "c3" : "QC-CPP000011[19294] The expression  ! EVP_PKEY_is_a(pkey,'RSA') applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19282"
- , "c1link" : "./qc/apps/rsa.c.html#19282"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19282] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19291"
- , "c1link" : "./qc/apps/rsa.c.html#19291"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19291] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19293"
- , "c1link" : "./qc/apps/rsa.c.html#19293"
+   "c1" : "19294"
+ , "c1link" : "./qc/apps/rsa.c.html#19294"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19293] The expression text applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[19294] The expression 'RSA' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19311"
- , "c1link" : "./qc/apps/rsa.c.html#19311"
+   "c1" : "19296"
+ , "c1link" : "./qc/apps/rsa.c.html#19296"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19311] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19296] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19315"
- , "c1link" : "./qc/apps/rsa.c.html#19315"
+   "c1" : "19305"
+ , "c1link" : "./qc/apps/rsa.c.html#19305"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19305] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19307"
+ , "c1link" : "./qc/apps/rsa.c.html#19307"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19315] The expression modulus applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19307] The expression text applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19330"
- , "c1link" : "./qc/apps/rsa.c.html#19330"
+   "c1" : "19325"
+ , "c1link" : "./qc/apps/rsa.c.html#19325"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19325] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19329"
+ , "c1link" : "./qc/apps/rsa.c.html#19329"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19330] The expression check applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19329] The expression modulus applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19349"
- , "c1link" : "./qc/apps/rsa.c.html#19349"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19349] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19361"
- , "c1link" : "./qc/apps/rsa.c.html#19361"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19361] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19365"
- , "c1link" : "./qc/apps/rsa.c.html#19365"
+   "c1" : "19344"
+ , "c1link" : "./qc/apps/rsa.c.html#19344"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19365] The expression noout applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19344] The expression check applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19367"
- , "c1link" : "./qc/apps/rsa.c.html#19367"
+   "c1" : "19363"
+ , "c1link" : "./qc/apps/rsa.c.html#19363"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19367] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19363] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19375"
+ , "c1link" : "./qc/apps/rsa.c.html#19375"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19375] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
    "c1" : "19379"
  , "c1link" : "./qc/apps/rsa.c.html#19379"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19379] The expression pubin applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19379] The expression noout applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -769,52 +762,66 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19386"
- , "c1link" : "./qc/apps/rsa.c.html#19386"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19386] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19415"
- , "c1link" : "./qc/apps/rsa.c.html#19415"
+   "c1" : "19393"
+ , "c1link" : "./qc/apps/rsa.c.html#19393"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19415] The expression traditional applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19393] The expression pubin applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19436"
- , "c1link" : "./qc/apps/rsa.c.html#19436"
+   "c1" : "19395"
+ , "c1link" : "./qc/apps/rsa.c.html#19395"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19436] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19395] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19494"
- , "c1link" : "./qc/apps/rsa.c.html#19494"
+   "c1" : "19400"
+ , "c1link" : "./qc/apps/rsa.c.html#19400"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19400] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19429"
+ , "c1link" : "./qc/apps/rsa.c.html#19429"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19494] The expression  ! OSSL_ENCODER_CTX_set_params(ectx,params) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19429] The expression traditional applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19496"
- , "c1link" : "./qc/apps/rsa.c.html#19496"
+   "c1" : "19450"
+ , "c1link" : "./qc/apps/rsa.c.html#19450"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19496] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19450] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19500"
- , "c1link" : "./qc/apps/rsa.c.html#19500"
+   "c1" : "19508"
+ , "c1link" : "./qc/apps/rsa.c.html#19508"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19500] The expression  ! OSSL_ENCODER_to_bio(ectx,out) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19508] The expression  ! OSSL_ENCODER_CTX_set_params(ectx,params) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19503"
- , "c1link" : "./qc/apps/rsa.c.html#19503"
+   "c1" : "19510"
+ , "c1link" : "./qc/apps/rsa.c.html#19510"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19503] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19510] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19514"
+ , "c1link" : "./qc/apps/rsa.c.html#19514"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19514] The expression  ! OSSL_ENCODER_to_bio(ectx,out) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19517"
+ , "c1link" : "./qc/apps/rsa.c.html#19517"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19517] goto statement jump to end"
 }} 
 ]
 };

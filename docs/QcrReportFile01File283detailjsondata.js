@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ct/ct_policy.c.html" 
- , "texte" : "File crypto/ct/ct_policy.c 25 rule violations " 
+ , "texte" : "File crypto/ct/ct_policy.c 26 rule violations " 
  , "fic2"  : "./qc/crypto/ct/ct_policy.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "17"
 }}
 ,
 { "ligne" : {
@@ -230,17 +230,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13208"
- , "c1link" : "./qc/crypto/ct/ct_policy.c.html#13208"
+   "c1" : "08130"
+ , "c1link" : "./qc/crypto/ct/ct_policy.c.html#8130"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13208] The expression  ! X509_up_ref(cert) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[08130] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13216"
- , "c1link" : "./qc/crypto/ct/ct_policy.c.html#13216"
+   "c1" : "13580"
+ , "c1link" : "./qc/crypto/ct/ct_policy.c.html#13580"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13216] The expression  ! X509_up_ref(issuer) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13580] The expression  ! X509_up_ref(cert) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "13588"
+ , "c1link" : "./qc/crypto/ct/ct_policy.c.html#13588"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13588] The expression  ! X509_up_ref(issuer) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

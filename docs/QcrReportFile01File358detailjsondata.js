@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/ec_cvt.c.html" 
- , "texte" : "File crypto/ec/ec_cvt.c 29 rule violations " 
+ , "texte" : "File crypto/ec/ec_cvt.c 30 rule violations " 
  , "fic2"  : "./qc/crypto/ec/ec_cvt.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "15"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : {
@@ -223,52 +223,59 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09790"
- , "c1link" : "./qc/crypto/ec/ec_cvt.c.html#9790"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09790] The pointer meth is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09791"
- , "c1link" : "./qc/crypto/ec/ec_cvt.c.html#9791"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09791] The pointer ret is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09793"
- , "c1link" : "./qc/crypto/ec/ec_cvt.c.html#9793"
+   "c1" : "05590"
+ , "c1link" : "./qc/crypto/ec/ec_cvt.c.html#5590"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09793] The expression BN_nist_mod_func(p) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[05590] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09815"
- , "c1link" : "./qc/crypto/ec/ec_cvt.c.html#9815"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09815] The expression  ! EC_GROUP_set_curve(ret,p,a,b,ctx) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09831"
- , "c1link" : "./qc/crypto/ec/ec_cvt.c.html#9831"
+   "c1" : "10161"
+ , "c1link" : "./qc/crypto/ec/ec_cvt.c.html#10161"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09831] The pointer meth is declared but not initialized"
+ , "c3" : "QC-CPP000014[10161] The pointer meth is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09832"
- , "c1link" : "./qc/crypto/ec/ec_cvt.c.html#9832"
+   "c1" : "10162"
+ , "c1link" : "./qc/crypto/ec/ec_cvt.c.html#10162"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09832] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[10162] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09852"
- , "c1link" : "./qc/crypto/ec/ec_cvt.c.html#9852"
+   "c1" : "10164"
+ , "c1link" : "./qc/crypto/ec/ec_cvt.c.html#10164"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09852] The expression  ! EC_GROUP_set_curve(ret,p,a,b,ctx) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10164] The expression BN_nist_mod_func(p) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10186"
+ , "c1link" : "./qc/crypto/ec/ec_cvt.c.html#10186"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10186] The expression  ! EC_GROUP_set_curve(ret,p,a,b,ctx) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10202"
+ , "c1link" : "./qc/crypto/ec/ec_cvt.c.html#10202"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10202] The pointer meth is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10203"
+ , "c1link" : "./qc/crypto/ec/ec_cvt.c.html#10203"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10203] The pointer ret is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10223"
+ , "c1link" : "./qc/crypto/ec/ec_cvt.c.html#10223"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10223] The expression  ! EC_GROUP_set_curve(ret,p,a,b,ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

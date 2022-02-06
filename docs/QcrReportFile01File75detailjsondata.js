@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/aes/aes_core.c.html" 
- , "texte" : "File crypto/aes/aes_core.c 32 rule violations " 
+ , "texte" : "File crypto/aes/aes_core.c 38 rule violations " 
  , "fic2"  : "./qc/crypto/aes/aes_core.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,23 +40,23 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "3"
+ , "c2" : "QC-CPP000006"
+ , "c3" : "Risk of infinite while loop"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "3"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "19"
 }}
 ,
 { "ligne" : {
@@ -70,7 +70,7 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "7"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -237,66 +237,108 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05011"
- , "c1link" : "./qc/crypto/aes/aes_core.c.html#5011"
+   "c1" : "05268"
+ , "c1link" : "./qc/crypto/aes/aes_core.c.html#5268"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05011] The pointer s0 is declared but not initialized"
+ , "c3" : "QC-CPP000014[05268] The pointer rk is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05011"
- , "c1link" : "./qc/crypto/aes/aes_core.c.html#5011"
+   "c1" : "05291"
+ , "c1link" : "./qc/crypto/aes/aes_core.c.html#5291"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05011] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000006[05291] The condition of do while loop is always true, infinite loop risk while (1) do{} 1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05030"
- , "c1link" : "./qc/crypto/aes/aes_core.c.html#5030"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05030] The pointer s0 is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05030"
- , "c1link" : "./qc/crypto/aes/aes_core.c.html#5030"
+   "c1" : "05291"
+ , "c1link" : "./qc/crypto/aes/aes_core.c.html#5291"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05030] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[05291] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05171"
- , "c1link" : "./qc/crypto/aes/aes_core.c.html#5171"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05171] The pointer w0 is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05171"
- , "c1link" : "./qc/crypto/aes/aes_core.c.html#5171"
+   "c1" : "05311"
+ , "c1link" : "./qc/crypto/aes/aes_core.c.html#5311"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05171] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000006[05311] The condition of do while loop is always true, infinite loop risk while (1) do{} 1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05217"
- , "c1link" : "./qc/crypto/aes/aes_core.c.html#5217"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05217] The pointer rk is declared but not initialized"
+   "c1" : "05311"
+ , "c1link" : "./qc/crypto/aes/aes_core.c.html#5311"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05311] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05253"
- , "c1link" : "./qc/crypto/aes/aes_core.c.html#5253"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05253] The pointer rk is declared but not initialized"
+   "c1" : "05333"
+ , "c1link" : "./qc/crypto/aes/aes_core.c.html#5333"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[05333] The condition of do while loop is always true, infinite loop risk while (1) do{} 1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05272"
- , "c1link" : "./qc/crypto/aes/aes_core.c.html#5272"
+   "c1" : "05333"
+ , "c1link" : "./qc/crypto/aes/aes_core.c.html#5333"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05333] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05370"
+ , "c1link" : "./qc/crypto/aes/aes_core.c.html#5370"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05272] The pointer rk is declared but not initialized"
+ , "c3" : "QC-CPP000014[05370] The pointer rk is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05389"
+ , "c1link" : "./qc/crypto/aes/aes_core.c.html#5389"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05389] The expression key-&gt;rounds applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05422"
+ , "c1link" : "./qc/crypto/aes/aes_core.c.html#5422"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05422] The pointer rk is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05445"
+ , "c1link" : "./qc/crypto/aes/aes_core.c.html#5445"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[05445] The condition of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05445"
+ , "c1link" : "./qc/crypto/aes/aes_core.c.html#5445"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[05445] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05544"
+ , "c1link" : "./qc/crypto/aes/aes_core.c.html#5544"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05544] The pointer rk is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05567"
+ , "c1link" : "./qc/crypto/aes/aes_core.c.html#5567"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[05567] The condition of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05567"
+ , "c1link" : "./qc/crypto/aes/aes_core.c.html#5567"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[05567] The end expression of for loop is empty, infinite loop risk"
 }} 
 ]
 };

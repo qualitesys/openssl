@@ -461,59 +461,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08902"
- , "c1link" : "./qc/crypto/context.c.html#8902"
+   "c1" : "08908"
+ , "c1link" : "./qc/crypto/context.c.html#8908"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08902] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08908] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08912"
- , "c1link" : "./qc/crypto/context.c.html#8912"
+   "c1" : "08918"
+ , "c1link" : "./qc/crypto/context.c.html#8918"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08912] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08918] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08916"
- , "c1link" : "./qc/crypto/context.c.html#8916"
+   "c1" : "08922"
+ , "c1link" : "./qc/crypto/context.c.html#8922"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08916] The expression  ! ossl_do_ex_data_init(ctx) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08922] The expression  ! ossl_do_ex_data_init(ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08917"
- , "c1link" : "./qc/crypto/context.c.html#8917"
+   "c1" : "08923"
+ , "c1link" : "./qc/crypto/context.c.html#8923"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08917] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08923] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08920"
- , "c1link" : "./qc/crypto/context.c.html#8920"
+   "c1" : "08926"
+ , "c1link" : "./qc/crypto/context.c.html#8926"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08920] The expression  ! ossl_crypto_new_ex_data_ex(ctx,16,(( void  *)0), &amp; ctx-&gt;data) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08926] The expression  ! ossl_crypto_new_ex_data_ex(ctx,16,(( void  *)0), &amp; ctx-&gt;data) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08920"
- , "c1link" : "./qc/crypto/context.c.html#8920"
+   "c1" : "08926"
+ , "c1link" : "./qc/crypto/context.c.html#8926"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08920] The expression 16 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08927"
- , "c1link" : "./qc/crypto/context.c.html#8927"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08927] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08931"
- , "c1link" : "./qc/crypto/context.c.html#8931"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08931] The expression  ! ossl_property_parse_init(ctx) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[08926] The expression 16 is invariable"
 }} 
 ,
 { "ligne" : {
@@ -524,220 +510,234 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "08935"
+ , "c1link" : "./qc/crypto/context.c.html#8935"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08935] The expression  ! ossl_property_parse_init(ctx) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "08936"
  , "c1link" : "./qc/crypto/context.c.html#8936"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08936] The expression exdata_done applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08950"
- , "c1link" : "./qc/crypto/context.c.html#8950"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08950] The pointer tmp is declared but not initialized"
+ , "c3" : "QC-CPP000007[08936] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08950"
- , "c1link" : "./qc/crypto/context.c.html#8950"
+   "c1" : "08940"
+ , "c1link" : "./qc/crypto/context.c.html#8940"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08940] The expression exdata_done applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08952"
+ , "c1link" : "./qc/crypto/context.c.html#8952"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08950] The pointer onfree is declared but not initialized"
+ , "c3" : "QC-CPP000014[08952] The pointer tmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09020"
- , "c1link" : "./qc/crypto/context.c.html#9020"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09020] The expression CRYPTO_THREAD_run_once( &amp; default_context_init,default_context_do_init_ossl_) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09020"
- , "c1link" : "./qc/crypto/context.c.html#9020"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09020] The expression default_context_do_init_ossl_ret_ applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09092"
- , "c1link" : "./qc/crypto/context.c.html#9092"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09092] The expression  ! ossl_bio_init_core(ctx,in) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09120"
- , "c1link" : "./qc/crypto/context.c.html#9120"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09120] The expression  ! ossl_provider_init_as_child(ctx,handle,in) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09145"
- , "c1link" : "./qc/crypto/context.c.html#9145"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09145] The expression ossl_lib_ctx_is_default(ctx) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09149"
- , "c1link" : "./qc/crypto/context.c.html#9149"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09149] The expression ctx-&gt;ischild applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09159"
- , "c1link" : "./qc/crypto/context.c.html#9159"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09159] The expression CRYPTO_THREAD_run_once( &amp; default_context_init,default_context_do_init_ossl_) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09159"
- , "c1link" : "./qc/crypto/context.c.html#9159"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09159] The expression default_context_do_init_ossl_ret_ applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09171"
- , "c1link" : "./qc/crypto/context.c.html#9171"
+   "c1" : "08952"
+ , "c1link" : "./qc/crypto/context.c.html#8952"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09171] The pointer current_defctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[08952] The pointer onfree is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09173"
- , "c1link" : "./qc/crypto/context.c.html#9173"
+   "c1" : "09023"
+ , "c1link" : "./qc/crypto/context.c.html#9023"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09023] The expression CRYPTO_THREAD_run_once( &amp; default_context_init,default_context_do_init_ossl_) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09023"
+ , "c1link" : "./qc/crypto/context.c.html#9023"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09023] The expression default_context_do_init_ossl_ret_ applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09095"
+ , "c1link" : "./qc/crypto/context.c.html#9095"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09095] The expression  ! ossl_bio_init_core(ctx,in) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09123"
+ , "c1link" : "./qc/crypto/context.c.html#9123"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09123] The expression  ! ossl_provider_init_as_child(ctx,handle,in) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09148"
+ , "c1link" : "./qc/crypto/context.c.html#9148"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09148] The expression ossl_lib_ctx_is_default(ctx) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09152"
+ , "c1link" : "./qc/crypto/context.c.html#9152"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09152] The expression ctx-&gt;ischild applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09162"
+ , "c1link" : "./qc/crypto/context.c.html#9162"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09162] The expression CRYPTO_THREAD_run_once( &amp; default_context_init,default_context_do_init_ossl_) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09162"
+ , "c1link" : "./qc/crypto/context.c.html#9162"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09162] The expression default_context_do_init_ossl_ret_ applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09174"
+ , "c1link" : "./qc/crypto/context.c.html#9174"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09173] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[09174] The pointer current_defctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09243"
- , "c1link" : "./qc/crypto/context.c.html#9243"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09243] The expression  ! CRYPTO_THREAD_write_lock(ctx-&gt;lock) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09313"
- , "c1link" : "./qc/crypto/context.c.html#9313"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09313] The expression  ! CRYPTO_THREAD_read_lock(ctx-&gt;lock) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09323"
- , "c1link" : "./qc/crypto/context.c.html#9323"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09323] The expression  ! CRYPTO_THREAD_read_lock(ctx-&gt;index_locks[index]) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09329"
- , "c1link" : "./qc/crypto/context.c.html#9329"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09329] The expression  ! CRYPTO_THREAD_read_lock(ctx-&gt;lock) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09343"
- , "c1link" : "./qc/crypto/context.c.html#9343"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09343] The expression  ! CRYPTO_THREAD_write_lock(ctx-&gt;index_locks[index]) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09349"
- , "c1link" : "./qc/crypto/context.c.html#9349"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09349] The expression  ! CRYPTO_THREAD_write_lock(ctx-&gt;lock) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09366"
- , "c1link" : "./qc/crypto/context.c.html#9366"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09366] The expression  ! ossl_lib_ctx_init_index(ctx,index,meth) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09378"
- , "c1link" : "./qc/crypto/context.c.html#9378"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09378] The expression ossl_crypto_alloc_ex_data_intern(16,(( void  *)0), &amp; ctx-&gt;data,ctx-&gt;dyn_indexes[index]) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09378"
- , "c1link" : "./qc/crypto/context.c.html#9378"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09378] The expression 16 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09384"
- , "c1link" : "./qc/crypto/context.c.html#9384"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09384] The expression  ! CRYPTO_THREAD_read_lock(ctx-&gt;lock) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09385"
- , "c1link" : "./qc/crypto/context.c.html#9385"
+   "c1" : "09176"
+ , "c1link" : "./qc/crypto/context.c.html#9176"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09385] goto statement jump to end"
+ , "c3" : "QC-CPPCWE481[09176] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09424"
- , "c1link" : "./qc/crypto/context.c.html#9424"
+   "c1" : "09246"
+ , "c1link" : "./qc/crypto/context.c.html#9246"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09424] The expression  ! CRYPTO_THREAD_read_lock(ctx-&gt;oncelock) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09246] The expression  ! CRYPTO_THREAD_write_lock(ctx-&gt;lock) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09316"
+ , "c1link" : "./qc/crypto/context.c.html#9316"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09316] The expression  ! CRYPTO_THREAD_read_lock(ctx-&gt;lock) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09326"
+ , "c1link" : "./qc/crypto/context.c.html#9326"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09326] The expression  ! CRYPTO_THREAD_read_lock(ctx-&gt;index_locks[index]) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09332"
+ , "c1link" : "./qc/crypto/context.c.html#9332"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09332] The expression  ! CRYPTO_THREAD_read_lock(ctx-&gt;lock) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09346"
+ , "c1link" : "./qc/crypto/context.c.html#9346"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09346] The expression  ! CRYPTO_THREAD_write_lock(ctx-&gt;index_locks[index]) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09352"
+ , "c1link" : "./qc/crypto/context.c.html#9352"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09352] The expression  ! CRYPTO_THREAD_write_lock(ctx-&gt;lock) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09369"
+ , "c1link" : "./qc/crypto/context.c.html#9369"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09369] The expression  ! ossl_lib_ctx_init_index(ctx,index,meth) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09381"
+ , "c1link" : "./qc/crypto/context.c.html#9381"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09381] The expression ossl_crypto_alloc_ex_data_intern(16,(( void  *)0), &amp; ctx-&gt;data,ctx-&gt;dyn_indexes[index]) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09381"
+ , "c1link" : "./qc/crypto/context.c.html#9381"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09381] The expression 16 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09387"
+ , "c1link" : "./qc/crypto/context.c.html#9387"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09387] The expression  ! CRYPTO_THREAD_read_lock(ctx-&gt;lock) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09388"
+ , "c1link" : "./qc/crypto/context.c.html#9388"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09388] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
    "c1" : "09427"
  , "c1link" : "./qc/crypto/context.c.html#9427"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09427] The expression done applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09427] The expression  ! CRYPTO_THREAD_read_lock(ctx-&gt;oncelock) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09431"
- , "c1link" : "./qc/crypto/context.c.html#9431"
+   "c1" : "09430"
+ , "c1link" : "./qc/crypto/context.c.html#9430"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09431] The expression done applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09430] The expression done applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "09434"
  , "c1link" : "./qc/crypto/context.c.html#9434"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09434] The expression  ! CRYPTO_THREAD_write_lock(ctx-&gt;oncelock) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09434] The expression done applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09436"
- , "c1link" : "./qc/crypto/context.c.html#9436"
+   "c1" : "09437"
+ , "c1link" : "./qc/crypto/context.c.html#9437"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09436] The expression ctx-&gt;run_once_done[idx] applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09437] The expression  ! CRYPTO_THREAD_write_lock(ctx-&gt;oncelock) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09474"
- , "c1link" : "./qc/crypto/context.c.html#9474"
+   "c1" : "09439"
+ , "c1link" : "./qc/crypto/context.c.html#9439"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09474] The expression ossl_lib_ctx_is_global_default(libctx) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09439] The expression ctx-&gt;run_once_done[idx] applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09476"
- , "c1link" : "./qc/crypto/context.c.html#9476"
+   "c1" : "09477"
+ , "c1link" : "./qc/crypto/context.c.html#9477"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09476] The expression ossl_lib_ctx_is_default(libctx) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09477] The expression ossl_lib_ctx_is_global_default(libctx) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "09479"
+ , "c1link" : "./qc/crypto/context.c.html#9479"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09479] The expression ossl_lib_ctx_is_default(libctx) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -454,150 +454,150 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11008"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11008"
+   "c1" : "11017"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11017"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11008] The expression  ! BN_mod_exp(pub_key,dsa-&gt;params.g,prk,dsa-&gt;params.p,ctx) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11017] The expression  ! BN_mod_exp(pub_key,dsa-&gt;params.g,prk,dsa-&gt;params.p,ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11009"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11009"
+   "c1" : "11018"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11018"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11009] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11018] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11034"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11034"
+   "c1" : "11043"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11043"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11034] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11043] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11039"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11039"
+   "c1" : "11048"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11048"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11039] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11048] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11046"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11046"
+   "c1" : "11055"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11055"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11046] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11055] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11051"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11051"
+   "c1" : "11060"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11060"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11051] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11060] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11057"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11057"
+   "c1" : "11066"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11066"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11057] The expression  ! ossl_ffc_params_simple_validate(dsa-&gt;libctx, &amp; dsa-&gt;params,0,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11066] The expression  ! ossl_ffc_params_simple_validate(dsa-&gt;libctx, &amp; dsa-&gt;params,0,(( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11058"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11058"
+   "c1" : "11067"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11067"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11058] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11063"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11063"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11063] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11070"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11070"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11070] The expression  ! ossl_ffc_generate_private_key(ctx, &amp; dsa-&gt;params,BN_num_bits(dsa-&gt;params.q),80,priv_key) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[11067] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "11072"
  , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11072"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11072] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11079"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11079"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11072] The expression 80 is invariable"
+ , "c3" : "QC-CPP000011[11079] The expression  ! ossl_ffc_generate_private_key(ctx, &amp; dsa-&gt;params,BN_num_bits(dsa-&gt;params.q),80,priv_key) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11073"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11073"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11073] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11080"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11080"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11080] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11085"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11085"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11085] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11090"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11090"
+   "c1" : "11081"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11081"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11090] The expression  ! ossl_dsa_generate_public_key(ctx,dsa,priv_key,pub_key) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[11081] The expression 80 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11091"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11091"
+   "c1" : "11082"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11082"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11091] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11082] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11101"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11101"
+   "c1" : "11089"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11089"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[11089] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11094"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11094"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11094] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11099"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11099"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11101] The expression pairwise_test applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11099] The expression  ! ossl_dsa_generate_public_key(ctx,dsa,priv_key,pub_key) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11115"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11115"
+   "c1" : "11100"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11100"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11100] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11110"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11110"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11115] The expression  ! ok applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11110] The expression pairwise_test applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11171"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11171"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11171] goto statement jump to err"
+   "c1" : "11124"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11124"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[11124] The expression  ! ok applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11182"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11182"
+   "c1" : "11180"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11180"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11182] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11180] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11187"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11187"
+   "c1" : "11191"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11191"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11187] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11191] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11196"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11196"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11196] goto statement jump to err"
 }} 
 ]
 };

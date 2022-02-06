@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ct/ct_x509v3.c.html" 
- , "texte" : "File crypto/ct/ct_x509v3.c 23 rule violations " 
+ , "texte" : "File crypto/ct/ct_x509v3.c 24 rule violations " 
  , "fic2"  : "./qc/crypto/ct/ct_x509v3.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "17"
 }}
 ,
 { "ligne" : {
@@ -227,6 +227,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ct/ct_x509v3.c.html#3113"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[03113] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08130"
+ , "c1link" : "./qc/crypto/ct/ct_x509v3.c.html#8130"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08130] The expression 2&gt;1 is invariable"
 }} 
 ]
 };

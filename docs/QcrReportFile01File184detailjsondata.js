@@ -454,38 +454,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07951"
- , "c1link" : "./qc/crypto/bn/bn_depr.c.html#7951"
+   "c1" : "07960"
+ , "c1link" : "./qc/crypto/bn/bn_depr.c.html#7960"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07951] The expression a applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07979"
- , "c1link" : "./qc/crypto/bn/bn_depr.c.html#7979"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07979] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07984"
- , "c1link" : "./qc/crypto/bn/bn_depr.c.html#7984"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07984] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07987"
- , "c1link" : "./qc/crypto/bn/bn_depr.c.html#7987"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07987] The expression  ! BN_generate_prime_ex(rnd,bits,safe,add,rem, &amp; cb) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07960] The expression a applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "07988"
  , "c1link" : "./qc/crypto/bn/bn_depr.c.html#7988"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07988] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[07988] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07993"
+ , "c1link" : "./qc/crypto/bn/bn_depr.c.html#7993"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07993] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07996"
+ , "c1link" : "./qc/crypto/bn/bn_depr.c.html#7996"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07996] The expression  ! BN_generate_prime_ex(rnd,bits,safe,add,rem, &amp; cb) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "07997"
+ , "c1link" : "./qc/crypto/bn/bn_depr.c.html#7997"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07997] goto statement jump to err"
 }} 
 ]
 };
