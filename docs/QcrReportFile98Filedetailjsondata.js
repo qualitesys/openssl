@@ -200,6 +200,13 @@ var maDataBlocs = {
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
+  "fic"  : "apps/lib/apps_opt_printf.c" 
+  , "Fic1"  : "qc/apps/lib/apps_opt_printf.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/apps/lib/apps_opt_printf.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
   "fic"  : "apps/lib/apps_ui.c" 
   , "Fic1"  : "qc/apps/lib/apps_ui.c.qre.nonreg.html" 
   , "OKKO1"  : "" 

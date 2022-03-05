@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/camellia/camellia.c.html" 
- , "texte" : "File crypto/camellia/camellia.c 148 rule violations " 
- , "fic2"  : "./qc/crypto/camellia/camellia.c.xml" 
+   "fic1"  : "./qc/crypto/buffer/buffer.c.html" 
+ , "texte" : "File crypto/buffer/buffer.c 60 rule violations " 
+ , "fic2"  : "./qc/crypto/buffer/buffer.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,1075 +40,452 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-CPP000006"
- , "c3" : "Risk of infinite while loop"
- , "c4" : "46"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "3"
+ , "c4" : "13"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "56"
+ , "c4" : "37"
 }}
 ,
 { "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-CPPCWE481"
- , "c3" : "Assigning instead of comparing"
- , "c4" : "42"
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "7"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00516"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#516"
+   "c1" : "00959"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#959"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00516] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[00959] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01694"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#1694"
+   "c1" : "00964"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00964] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00989"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#989"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00989] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00993"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#993"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[00993] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00996"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#996"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00996] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01021"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#1021"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01021] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01025"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#1025"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01025] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01029"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#1029"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01029] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01037"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#1037"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01037] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02084"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#2084"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01694] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[02084] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01857"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#1857"
+   "c1" : "02247"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#2247"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01857] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02247] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01884"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#1884"
+   "c1" : "02274"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#2274"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01884] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02274] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01886"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#1886"
+   "c1" : "02276"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#2276"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01886] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02276] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "01888"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#1888"
+   "c1" : "02278"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#2278"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01888] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02278] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01910"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#1910"
+   "c1" : "02300"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#2300"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01910] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02300] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01910"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#1910"
+   "c1" : "02300"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#2300"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01910] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02300] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01934"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#1934"
+   "c1" : "02324"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#2324"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01934] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02324] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01936"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#1936"
+   "c1" : "02326"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#2326"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01936] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02326] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "01940"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#1940"
+   "c1" : "02330"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#2330"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01940] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02330] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01965"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#1965"
+   "c1" : "02355"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#2355"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01965] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02355] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01967"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#1967"
+   "c1" : "02357"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#2357"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01967] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[02357] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "01969"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#1969"
+   "c1" : "02359"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#2359"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01969] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02359] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02170"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2170"
+   "c1" : "02726"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#2726"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02726] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05915"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#5915"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05915] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05917"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#5917"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05917] The expression  ! __builtin_constant_p(__nbytes) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05920"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#5920"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05920] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05945"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#5945"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05945] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05947"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#5947"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05947] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05950"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#5950"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05950] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05979"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#5979"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05979] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05981"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#5981"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05981] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05984"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#5984"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05984] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06005"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#6005"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06005] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06007"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#6007"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06007] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06010"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#6010"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06010] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06026"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#6026"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06026] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06045"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#6045"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06045] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06047"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#6047"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06047] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06050"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#6050"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06050] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06070"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#6070"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06070] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06075"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#6075"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06075] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06096"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#6096"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06096] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06098"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#6098"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06098] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06101"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#6101"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06101] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06122"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#6122"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06122] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06124"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#6124"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06124] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06127"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#6127"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06127] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06149"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#6149"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06149] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06151"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#6151"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06151] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06154"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#6154"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06154] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06178"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#6178"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06178] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06180"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#6180"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06180] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "06183"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#6183"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06183] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07763"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#7763"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02170] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[07763] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02171"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2171"
+   "c1" : "07777"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#7777"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02171] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[07777] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02172"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2172"
+   "c1" : "07824"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#7824"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02172] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[07824] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02173"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2173"
+   "c1" : "07851"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#7851"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02173] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[07851] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02176"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2176"
+   "c1" : "07904"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#7904"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02176] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[07904] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02177"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2177"
+   "c1" : "07959"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#7959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07959] The expression in applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "07964"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#7964"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02177] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02179"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2179"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02179] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02180"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2180"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02180] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02182"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2182"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02182] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02183"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2183"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02183] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02189"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2189"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02189] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02189"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2189"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02189] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02190"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2190"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02190] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02190"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2190"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02190] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02193"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2193"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02193] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02193"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2193"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02193] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02194"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2194"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02194] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02194"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2194"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02194] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02199"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2199"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02199] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02199"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2199"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02199] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02201"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2201"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02201] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02201"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2201"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02201] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02203"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2203"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02203] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02203"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2203"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02203] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02205"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2205"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02205] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02205"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2205"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02205] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02207"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2207"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02207] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02207"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2207"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02207] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02209"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2209"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02209] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02209"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2209"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02209] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02213"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2213"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02213] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02213"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2213"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02213] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02215"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2215"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02215] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02215"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2215"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02215] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02217"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2217"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02217] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02217"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2217"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02217] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02219"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2219"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02219] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02219"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2219"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02219] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02221"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2221"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02221] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02221"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2221"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02221] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02223"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2223"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02223] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02223"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2223"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02223] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02230"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2230"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02230] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02230"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2230"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02230] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02231"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2231"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02231] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02231"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2231"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02231] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02234"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2234"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02234] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02234"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2234"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02234] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02236"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2236"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02236] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02236"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2236"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02236] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02238"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2238"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02238] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02238"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2238"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02238] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02242"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2242"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02242] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02242"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2242"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02242] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02244"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2244"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02244] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02244"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2244"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02244] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02246"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2246"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02246] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02246"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2246"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02246] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02248"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2248"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02248] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02248"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2248"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02248] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02252"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2252"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02252] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02252"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2252"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02252] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02254"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2254"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02254] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02254"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2254"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02254] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02258"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2258"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02258] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02258"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2258"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02258] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02262"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2262"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02262] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02262"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2262"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02262] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02264"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2264"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02264] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02264"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2264"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02264] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02266"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2266"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02266] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02266"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2266"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02266] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02268"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2268"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02268] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02268"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2268"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02268] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02289"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2289"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02289] The condition of do while loop is always true, infinite loop risk while (1) do{} 1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02289"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2289"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02289] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02291"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2291"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02291] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02291"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2291"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02291] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02292"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2292"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02292] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02292"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2292"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02292] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02293"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2293"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02293] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02293"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2293"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02293] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02294"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2294"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02294] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02294"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2294"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02294] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02295"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2295"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02295] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02295"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2295"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02295] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02296"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2296"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02296] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02296"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2296"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02296] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02316"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2316"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02316] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02316"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2316"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02316] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02316"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2316"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02316] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02316"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2316"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02316] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02317"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2317"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02317] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02317"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2317"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02317] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02317"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2317"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02317] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02317"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2317"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02317] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02318"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2318"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02318] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02318"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2318"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02318] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02318"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2318"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02318] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02318"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2318"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02318] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02319"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2319"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02319] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02319"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2319"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02319] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02319"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2319"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02319] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02319"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2319"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02319] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02341"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2341"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02341] The condition of do while loop is always true, infinite loop risk while (1) do{} 1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02341"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2341"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02341] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02344"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2344"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02344] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02344"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2344"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02344] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02345"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2345"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02345] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02345"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2345"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02345] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02346"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2346"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02346] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02346"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2346"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02346] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02347"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2347"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02347] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02347"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2347"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02347] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02348"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2348"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02348] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02348"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2348"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02348] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02349"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2349"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[02349] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02349"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2349"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02349] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02369"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2369"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02369] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02369"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2369"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02369] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02369"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2369"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02369] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02369"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2369"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02369] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02370"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2370"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02370] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02370"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2370"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02370] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02370"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2370"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02370] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02370"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2370"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02370] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02371"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2371"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02371] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02371"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2371"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02371] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02371"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2371"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02371] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02371"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2371"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02371] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02372"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2372"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02372] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02372"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2372"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02372] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02372"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2372"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02372] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02372"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2372"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[02372] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[07964] The pointer q is declared but not initialized"
 }} 
 ]
 };

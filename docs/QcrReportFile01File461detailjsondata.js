@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/evp/legacy_md4.c.html" 
- , "texte" : "File crypto/evp/legacy_md4.c 23 rule violations " 
- , "fic2"  : "./qc/crypto/evp/legacy_md4.c.xml" 
+   "fic1"  : "./qc/crypto/evp/legacy_blake2.c.html" 
+ , "texte" : "File crypto/evp/legacy_blake2.c 23 rule violations " 
+ , "fic2"  : "./qc/crypto/evp/legacy_blake2.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -69,164 +69,164 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "01223"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#1223"
+   "c1" : "00992"
+ , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#992"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01223] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[00992] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01228"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#1228"
+   "c1" : "00997"
+ , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#997"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01228] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[00997] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01253"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#1253"
+   "c1" : "01022"
+ , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#1022"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01253] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[01022] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01257"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#1257"
+   "c1" : "01026"
+ , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#1026"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01257] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[01026] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01260"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#1260"
+   "c1" : "01029"
+ , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#1029"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01260] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[01029] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01285"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#1285"
+   "c1" : "01054"
+ , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#1054"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01285] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[01054] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01289"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#1289"
+   "c1" : "01058"
+ , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#1058"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01289] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[01058] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01293"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#1293"
+   "c1" : "01062"
+ , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#1062"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01293] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[01062] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01301"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#1301"
+   "c1" : "01070"
+ , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#1070"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01301] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[01070] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03279"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#3279"
+   "c1" : "03242"
+ , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#3242"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[03279] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[03242] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03442"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#3442"
+   "c1" : "03405"
+ , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#3405"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03442] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03405] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03445"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#3445"
+   "c1" : "03408"
+ , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#3408"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03445] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03408] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03469"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#3469"
+   "c1" : "03432"
+ , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#3432"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03469] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03432] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03471"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#3471"
+   "c1" : "03434"
+ , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#3434"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03471] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03434] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "03473"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#3473"
+   "c1" : "03436"
+ , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#3436"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03473] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03436] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03495"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#3495"
+   "c1" : "03458"
+ , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#3458"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03495] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03458] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03495"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#3495"
+   "c1" : "03458"
+ , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#3458"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03495] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03458] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03519"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#3519"
+   "c1" : "03482"
+ , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#3482"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03519] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03482] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03521"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#3521"
+   "c1" : "03484"
+ , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#3484"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03521] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03484] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "03525"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#3525"
+   "c1" : "03488"
+ , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#3488"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03525] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03488] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03550"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#3550"
+   "c1" : "03513"
+ , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#3513"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03550] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03513] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03552"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#3552"
+   "c1" : "03515"
+ , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#3515"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03552] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[03515] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "03554"
- , "c1link" : "./qc/crypto/evp/legacy_md4.c.html#3554"
+   "c1" : "03517"
+ , "c1link" : "./qc/crypto/evp/legacy_blake2.c.html#3517"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03554] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03517] The expression 2&gt;1 is invariable"
 }} 
 ]
 };

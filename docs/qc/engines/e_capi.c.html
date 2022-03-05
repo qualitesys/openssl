@@ -3293,7 +3293,7 @@
 <a name="3293">3293&nbsp;&nbsp;&nbsp;size_t&nbsp;OPENSSL_strlcpy(char&nbsp;*dst,&nbsp;const&nbsp;char&nbsp;*src,&nbsp;size_t&nbsp;siz);</a><br/>
 <a name="3294">3294&nbsp;&nbsp;&nbsp;size_t&nbsp;OPENSSL_strlcat(char&nbsp;*dst,&nbsp;const&nbsp;char&nbsp;*src,&nbsp;size_t&nbsp;siz);</a><br/>
 <a name="3295">3295&nbsp;&nbsp;&nbsp;size_t&nbsp;OPENSSL_strnlen(const&nbsp;char&nbsp;*str,&nbsp;size_t&nbsp;maxlen);</a><br/>
-<a name="3296">3296&nbsp;&nbsp;&nbsp;int&nbsp;OPENSSL_buf2hexstr_ex(char&nbsp;*str,&nbsp;size_t&nbsp;str_n,&nbsp;size_t&nbsp;*strlen,</a><br/>
+<a name="3296">3296&nbsp;&nbsp;&nbsp;int&nbsp;OPENSSL_buf2hexstr_ex(char&nbsp;*str,&nbsp;size_t&nbsp;str_n,&nbsp;size_t&nbsp;*strlength,</a><br/>
 <a name="3297">3297&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const&nbsp;unsigned&nbsp;char&nbsp;*buf,&nbsp;size_t&nbsp;buflen,</a><br/>
 <a name="3298">3298&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const&nbsp;char&nbsp;sep);</a><br/>
 <a name="3299">3299&nbsp;&nbsp;&nbsp;char&nbsp;*OPENSSL_buf2hexstr(const&nbsp;unsigned&nbsp;char&nbsp;*buf,&nbsp;long&nbsp;buflen);</a><br/>
@@ -13704,7 +13704,7 @@
 <a name="13704">13704&nbsp;&nbsp;&nbsp;#&nbsp;793&nbsp;"include/openssl/engine.h"</a><br/>
 <a name="13705">13705&nbsp;&nbsp;&nbsp;typedef&nbsp;int&nbsp;(*dynamic_bind_engine)&nbsp;(ENGINE&nbsp;*e,&nbsp;const&nbsp;char&nbsp;*id,</a><br/>
 <a name="13706">13706&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const&nbsp;dynamic_fns&nbsp;*fns);</a><br/>
-<a name="13707">13707&nbsp;&nbsp;&nbsp;#&nbsp;819&nbsp;"include/openssl/engine.h"</a><br/>
+<a name="13707">13707&nbsp;&nbsp;&nbsp;#&nbsp;820&nbsp;"include/openssl/engine.h"</a><br/>
 <a name="13708">13708&nbsp;&nbsp;&nbsp;void&nbsp;*ENGINE_get_static_state(void);</a><br/>
 <a name="13709">13709&nbsp;&nbsp;&nbsp;#&nbsp;1911&nbsp;"engines/e_capi.c"&nbsp;2</a><br/>
 <a name="13710">13710&nbsp;&nbsp;&nbsp;</a><br/>

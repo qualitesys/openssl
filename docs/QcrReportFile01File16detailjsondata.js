@@ -454,6 +454,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "07506"
+ , "c1link" : "./qc/apps/errstr.c.html#7506"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07506] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07508"
+ , "c1link" : "./qc/apps/errstr.c.html#7508"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07508] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "07511"
  , "c1link" : "./qc/apps/errstr.c.html#7511"
  , "c2" : "BLOCKER"
@@ -461,17 +475,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07513"
- , "c1link" : "./qc/apps/errstr.c.html#7513"
+   "c1" : "07537"
+ , "c1link" : "./qc/apps/errstr.c.html#7537"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07513] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[07537] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07516"
- , "c1link" : "./qc/apps/errstr.c.html#7516"
+   "c1" : "07539"
+ , "c1link" : "./qc/apps/errstr.c.html#7539"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07516] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[07539] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -482,66 +496,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07544"
- , "c1link" : "./qc/apps/errstr.c.html#7544"
+   "c1" : "08942"
+ , "c1link" : "./qc/apps/errstr.c.html#8942"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07544] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08942] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07547"
- , "c1link" : "./qc/apps/errstr.c.html#7547"
+   "c1" : "08975"
+ , "c1link" : "./qc/apps/errstr.c.html#8975"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07547] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[08975] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08947"
- , "c1link" : "./qc/apps/errstr.c.html#8947"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08947] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08980"
- , "c1link" : "./qc/apps/errstr.c.html#8980"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08980] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "20647"
- , "c1link" : "./qc/apps/errstr.c.html#20647"
+   "c1" : "20644"
+ , "c1link" : "./qc/apps/errstr.c.html#20644"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20647] The pointer prog is declared but not initialized"
+ , "c3" : "QC-CPP000014[20644] The pointer prog is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20652"
- , "c1link" : "./qc/apps/errstr.c.html#20652"
+   "c1" : "20649"
+ , "c1link" : "./qc/apps/errstr.c.html#20649"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20652] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20649] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20657"
- , "c1link" : "./qc/apps/errstr.c.html#20657"
+   "c1" : "20654"
+ , "c1link" : "./qc/apps/errstr.c.html#20654"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20657] goto statement jump to end"
+ , "c3" : "QC-CPP000007[20654] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20661"
- , "c1link" : "./qc/apps/errstr.c.html#20661"
+   "c1" : "20658"
+ , "c1link" : "./qc/apps/errstr.c.html#20658"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20661] goto statement jump to end"
+ , "c3" : "QC-CPP000007[20658] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20683"
- , "c1link" : "./qc/apps/errstr.c.html#20683"
+   "c1" : "20680"
+ , "c1link" : "./qc/apps/errstr.c.html#20680"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[20683] The expression '%lx' is invariable"
+ , "c3" : "QC-CPP000012[20680] The expression '%lx' is invariable"
 }} 
 ]
 };
