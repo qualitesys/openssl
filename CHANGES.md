@@ -24,6 +24,12 @@ OpenSSL 3.1
 
 ### Changes between 3.0 and 3.1 [xx XXX xxxx]
 
+ * Add ciphersuites based on DHE_PSK (RFC 4279) and ECDHE_PSK (RFC 5489)
+   to the list of ciphersuites providing Perfect Forward Secrecy as
+   required by SECLEVEL >= 3.
+
+   *Dmitry Belyavskiy, Nicola Tuveri*
+
  * Add new SSL APIs to aid in efficiently implementing TLS/SSL fingerprinting.  The
    SSL_CTRL_GET_IANA_GROUPS control code, exposed as the SSL_get0_iana_groups()
    function-like macro, retrieves the list of supported groups sent by the peer,
@@ -49,6 +55,10 @@ OpenSSL 3.1
    renegotiation but the peer lacks support for it.
 
    *Felipe Gasper*
+
+ * AES-GCM enabled with AVX512 vAES and vPCLMULQDQ.
+
+   *Tomasz Kantecki, Andrey Matyukov*
 
  * The default SSL/TLS security level has been changed from 1 to 2. RSA,
    DSA and DH keys of 1024 bits and above and less than 2048 bits and ECC keys
@@ -1607,7 +1617,9 @@ breaking changes, and mappings for the large list of deprecated functions.
 OpenSSL 1.1.1
 -------------
 
-### Changes between 1.1.1l and 1.1.1m [xx XXX xxxx]
+### Changes between 1.1.1m and 1.1.1n [xx XXX xxxx]
+
+### Changes between 1.1.1l and 1.1.1m [14 Dec 2021]
 
  * Avoid loading of a dynamic engine twice.
 

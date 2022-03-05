@@ -12,7 +12,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <ctype.h>
-#include "../e_os.h" /* strcasecmp and strncasecmp */
+#include "internal/e_os.h" /* strcasecmp and strncasecmp */
 #include <openssl/evp.h>
 #include <openssl/pem.h>
 #include <openssl/err.h>
@@ -1201,9 +1201,18 @@ static int mac_test_init(EVP_TEST *t, const char *alg)
         return 0;
 
     mdat->type = type;
-    mdat->mac_name = OPENSSL_strdup(alg);
+    if (!TEST_ptr(mdat->mac_name = OPENSSL_strdup(alg))) {
+        OPENSSL_free(mdat);
+        return 0;
+    }
+
     mdat->mac = mac;
-    mdat->controls = sk_OPENSSL_STRING_new_null();
+    if (!TEST_ptr(mdat->controls = sk_OPENSSL_STRING_new_null())) {
+        OPENSSL_free(mdat->mac_name);
+        OPENSSL_free(mdat);
+        return 0;
+    }
+
     mdat->output_size = mdat->block_size = -1;
     t->data = mdat;
     return 1;
@@ -2642,6 +2651,13 @@ static int kdf_test_ctrl(EVP_TEST *t, EVP_KDF_CTX *kctx,
     if (p != NULL)
         *p++ = '\0';
 
+    if (strcmp(name, "r") == 0
+        && OSSL_PARAM_locate_const(defs, name) == NULL) {
+        TEST_info("skipping, setting 'r' is unsupported");
+        t->skip = 1;
+        goto end;
+    }
+
     rv = OSSL_PARAM_allocate_from_text(kdata->p, defs, name, p,
                                        p != NULL ? strlen(p) : 0, NULL);
     *++kdata->p = OSSL_PARAM_construct_end();
@@ -2655,6 +2671,7 @@ static int kdf_test_ctrl(EVP_TEST *t, EVP_KDF_CTX *kctx,
             TEST_info("skipping, '%s' is disabled", p);
             t->skip = 1;
         }
+        goto end;
     }
     if (p != NULL
         && (strcmp(name, "cipher") == 0
@@ -2662,6 +2679,7 @@ static int kdf_test_ctrl(EVP_TEST *t, EVP_KDF_CTX *kctx,
         && is_cipher_disabled(p)) {
         TEST_info("skipping, '%s' is disabled", p);
         t->skip = 1;
+        goto end;
     }
     if (p != NULL
         && (strcmp(name, "mac") == 0)
@@ -2669,6 +2687,7 @@ static int kdf_test_ctrl(EVP_TEST *t, EVP_KDF_CTX *kctx,
         TEST_info("skipping, '%s' is disabled", p);
         t->skip = 1;
     }
+ end:
     OPENSSL_free(name);
     return 1;
 }
