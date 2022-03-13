@@ -72,6 +72,10 @@
         <groupId>com.qualitesys.maven.plugins</groupId>  
         <artifactId>qcr-maven-plugin</artifactId> 
       </plugin>  
+      <!-- 
+      voir bug https://stackoverflow.com/questions/51103120/why-does-maven-site-plugin-always-use-version-3-3 
+      deplace dans 
+      -->
       <plugin>
 	<groupId>org.apache.maven.plugins</groupId>
 	<artifactId>maven-site-plugin</artifactId>
@@ -81,15 +85,14 @@
   </build> 
   <reporting>
     <plugins>
-    <plugin>
-	<groupId>org.apache.maven.plugins</groupId>
-	<artifactId>maven-site-plugin</artifactId>
-	<version>3.11.0</version>
-    </plugin>
+    <!-- 
+    voir bug https://stackoverflow.com/questions/51103120/why-does-maven-site-plugin-always-use-version-3-3 
+    supprime de project / reporting 
+    -->
     <plugin>
 	<groupId>org.apache.maven.plugins</groupId>
 	<artifactId>maven-project-info-reports-plugin</artifactId>
-	<version>2.9</version>
+	<version>3.2.2</version>
     </plugin>
     <plugin>
 	<groupId>com.qualitesys.maven.plugins</groupId> 
