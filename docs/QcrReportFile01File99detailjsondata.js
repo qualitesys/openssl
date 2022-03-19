@@ -440,38 +440,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08067"
- , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#8067"
+   "c1" : "08062"
+ , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#8062"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08067] The expression  ! ASN1_UTCTIME_check( &amp; t) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08062] The expression  ! ASN1_UTCTIME_check( &amp; t) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08088"
- , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#8088"
+   "c1" : "08083"
+ , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#8083"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08088] The pointer ts is declared but not initialized"
+ , "c3" : "QC-CPP000014[08083] The pointer ts is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08104"
- , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#8104"
+   "c1" : "08099"
+ , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#8099"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08104] The expression  ! OPENSSL_gmtime_adj(ts,offset_day,offset_sec) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08099] The expression  ! OPENSSL_gmtime_adj(ts,offset_day,offset_sec) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08120"
- , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#8120"
+   "c1" : "08115"
+ , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#8115"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08120] The expression  ! ossl_asn1_utctime_to_tm( &amp; stm,s) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08115] The expression  ! ossl_asn1_utctime_to_tm( &amp; stm,s) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08130"
- , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#8130"
+   "c1" : "08125"
+ , "c1link" : "./qc/crypto/asn1/a_utctm.c.html#8125"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08130] The expression  ! OPENSSL_gmtime_diff( &amp; day, &amp; sec, &amp; ttm, &amp; stm) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08125] The expression  ! OPENSSL_gmtime_diff( &amp; day, &amp; sec, &amp; ttm, &amp; stm) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

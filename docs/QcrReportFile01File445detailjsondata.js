@@ -447,87 +447,87 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15603"
- , "c1link" : "./qc/crypto/evp/evp_cnf.c.html#15603"
+   "c1" : "15598"
+ , "c1link" : "./qc/crypto/evp/evp_cnf.c.html#15598"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15603] The pointer oid_section is declared but not initialized"
+ , "c3" : "QC-CPP000014[15598] The pointer oid_section is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15604"
- , "c1link" : "./qc/crypto/evp/evp_cnf.c.html#15604"
+   "c1" : "15599"
+ , "c1link" : "./qc/crypto/evp/evp_cnf.c.html#15599"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15604] The pointer sktmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[15599] The pointer sktmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15605"
- , "c1link" : "./qc/crypto/evp/evp_cnf.c.html#15605"
+   "c1" : "15600"
+ , "c1link" : "./qc/crypto/evp/evp_cnf.c.html#15600"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15605] The pointer oval is declared but not initialized"
+ , "c3" : "QC-CPP000014[15600] The pointer oval is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15611"
- , "c1link" : "./qc/crypto/evp/evp_cnf.c.html#15611"
+   "c1" : "15606"
+ , "c1link" : "./qc/crypto/evp/evp_cnf.c.html#15606"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15611] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15606] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15625"
- , "c1link" : "./qc/crypto/evp/evp_cnf.c.html#15625"
+   "c1" : "15620"
+ , "c1link" : "./qc/crypto/evp/evp_cnf.c.html#15620"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15625] The expression 'fips_mode' is invariable"
+ , "c3" : "QC-CPP000012[15620] The expression 'fips_mode' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15629"
- , "c1link" : "./qc/crypto/evp/evp_cnf.c.html#15629"
+   "c1" : "15624"
+ , "c1link" : "./qc/crypto/evp/evp_cnf.c.html#15624"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15629] The expression  ! X509V3_get_value_bool(oval, &amp; m) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15624] The expression  ! X509V3_get_value_bool(oval, &amp; m) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15636"
- , "c1link" : "./qc/crypto/evp/evp_cnf.c.html#15636"
+   "c1" : "15631"
+ , "c1link" : "./qc/crypto/evp/evp_cnf.c.html#15631"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15636] The expression  ! evp_default_properties_enable_fips_int(NCONF_get0_libctx((CONF *)cnf),m&gt;0,0) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15631] The expression  ! evp_default_properties_enable_fips_int(NCONF_get0_libctx((CONF *)cnf),m&gt;0,0) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15637"
- , "c1link" : "./qc/crypto/evp/evp_cnf.c.html#15637"
+   "c1" : "15632"
+ , "c1link" : "./qc/crypto/evp/evp_cnf.c.html#15632"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15637] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[15632] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15645"
- , "c1link" : "./qc/crypto/evp/evp_cnf.c.html#15645"
+   "c1" : "15640"
+ , "c1link" : "./qc/crypto/evp/evp_cnf.c.html#15640"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15645] The expression 'default_properties' is invariable"
+ , "c3" : "QC-CPP000012[15640] The expression 'default_properties' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15646"
- , "c1link" : "./qc/crypto/evp/evp_cnf.c.html#15646"
+   "c1" : "15641"
+ , "c1link" : "./qc/crypto/evp/evp_cnf.c.html#15641"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15646] The expression  ! evp_set_default_properties_int(NCONF_get0_libctx((CONF *)cnf),oval-&gt;value,0,0) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15641] The expression  ! evp_set_default_properties_int(NCONF_get0_libctx((CONF *)cnf),oval-&gt;value,0,0) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15647"
- , "c1link" : "./qc/crypto/evp/evp_cnf.c.html#15647"
+   "c1" : "15642"
+ , "c1link" : "./qc/crypto/evp/evp_cnf.c.html#15642"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15647] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[15642] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15647"
- , "c1link" : "./qc/crypto/evp/evp_cnf.c.html#15647"
+   "c1" : "15642"
+ , "c1link" : "./qc/crypto/evp/evp_cnf.c.html#15642"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15647] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[15642] The expression 0 is invariable, always false"
 }} 
 ]
 };

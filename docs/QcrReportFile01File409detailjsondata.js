@@ -447,87 +447,87 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07775"
- , "c1link" : "./qc/crypto/err/err_prn.c.html#7775"
+   "c1" : "07770"
+ , "c1link" : "./qc/crypto/err/err_prn.c.html#7770"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07775] The expression deall applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07770] The expression deall applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07825"
- , "c1link" : "./qc/crypto/err/err_prn.c.html#7825"
+   "c1" : "07820"
+ , "c1link" : "./qc/crypto/err/err_prn.c.html#7820"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07825] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07820] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07839"
- , "c1link" : "./qc/crypto/err/err_prn.c.html#7839"
+   "c1" : "07834"
+ , "c1link" : "./qc/crypto/err/err_prn.c.html#7834"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07839] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07834] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07891"
- , "c1link" : "./qc/crypto/err/err_prn.c.html#7891"
+   "c1" : "07886"
+ , "c1link" : "./qc/crypto/err/err_prn.c.html#7886"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07891] The pointer file is declared but not initialized"
+ , "c3" : "QC-CPP000014[07886] The pointer file is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07891"
- , "c1link" : "./qc/crypto/err/err_prn.c.html#7891"
+   "c1" : "07886"
+ , "c1link" : "./qc/crypto/err/err_prn.c.html#7886"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07891] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[07886] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07891"
- , "c1link" : "./qc/crypto/err/err_prn.c.html#7891"
+   "c1" : "07886"
+ , "c1link" : "./qc/crypto/err/err_prn.c.html#7886"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07891] The pointer func is declared but not initialized"
+ , "c3" : "QC-CPP000014[07886] The pointer func is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07894"
- , "c1link" : "./qc/crypto/err/err_prn.c.html#7894"
+   "c1" : "07889"
+ , "c1link" : "./qc/crypto/err/err_prn.c.html#7889"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07894] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07889] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07977"
- , "c1link" : "./qc/crypto/err/err_prn.c.html#7977"
+   "c1" : "07972"
+ , "c1link" : "./qc/crypto/err/err_prn.c.html#7972"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07977] The pointer tmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[07972] The pointer tmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08050"
- , "c1link" : "./qc/crypto/err/err_prn.c.html#8050"
+   "c1" : "08045"
+ , "c1link" : "./qc/crypto/err/err_prn.c.html#8045"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08050] The expression trailing_separator applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08045] The expression trailing_separator applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08071"
+ , "c1link" : "./qc/crypto/err/err_prn.c.html#8071"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08071] The pointer str is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "08076"
  , "c1link" : "./qc/crypto/err/err_prn.c.html#8076"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08076] The pointer str is declared but not initialized"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08076] The expression '' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08081"
- , "c1link" : "./qc/crypto/err/err_prn.c.html#8081"
+   "c1" : "08076"
+ , "c1link" : "./qc/crypto/err/err_prn.c.html#8076"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08081] The expression '' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08081"
- , "c1link" : "./qc/crypto/err/err_prn.c.html#8081"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08081] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[08076] The expression 1 is invariable, always true"
 }} 
 ]
 };

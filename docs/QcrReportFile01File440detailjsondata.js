@@ -440,24 +440,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11572"
- , "c1link" : "./qc/crypto/evp/e_sm4.c.html#11572"
+   "c1" : "11567"
+ , "c1link" : "./qc/crypto/evp/e_sm4.c.html#11567"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11572] The expression dat-&gt;stream.cbc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11567] The expression dat-&gt;stream.cbc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11575"
- , "c1link" : "./qc/crypto/evp/e_sm4.c.html#11575"
+   "c1" : "11570"
+ , "c1link" : "./qc/crypto/evp/e_sm4.c.html#11570"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11575] The expression EVP_CIPHER_CTX_is_encrypting(ctx) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11570] The expression EVP_CIPHER_CTX_is_encrypting(ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11644"
- , "c1link" : "./qc/crypto/evp/e_sm4.c.html#11644"
+   "c1" : "11639"
+ , "c1link" : "./qc/crypto/evp/e_sm4.c.html#11639"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11644] The expression dat-&gt;stream.ctr applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11639] The expression dat-&gt;stream.ctr applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

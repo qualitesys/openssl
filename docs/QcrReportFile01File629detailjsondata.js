@@ -454,52 +454,59 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14756"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#14756"
+   "c1" : "14751"
+ , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#14751"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14756] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[14751] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14756"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#14756"
+   "c1" : "14751"
+ , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#14751"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14756] The pointer s is declared but not initialized"
+ , "c3" : "QC-CPP000014[14751] The pointer s is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14756"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#14756"
+   "c1" : "14751"
+ , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#14751"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14756] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14751] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14807"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#14807"
+   "c1" : "14802"
+ , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#14802"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14807] The pointer s is declared but not initialized"
+ , "c3" : "QC-CPP000014[14802] The pointer s is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14807"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#14807"
+   "c1" : "14802"
+ , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#14802"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14807] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14802] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14808"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#14808"
+   "c1" : "14803"
+ , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#14803"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14808] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[14803] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14808"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#14808"
+   "c1" : "14803"
+ , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#14803"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14808] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14803] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14830"
+ , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#14830"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14830] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
@@ -510,17 +517,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14840"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#14840"
+   "c1" : "14848"
+ , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#14848"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14840] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14853"
- , "c1link" : "./qc/crypto/rsa/rsa_saos.c.html#14853"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14853] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14848] goto statement jump to err"
 }} 
 ]
 };

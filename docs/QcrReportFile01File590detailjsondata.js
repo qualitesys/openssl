@@ -237,10 +237,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05904"
- , "c1link" : "./qc/crypto/provider.c.html#5904"
+   "c1" : "05899"
+ , "c1link" : "./qc/crypto/provider.c.html#5899"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05904] The pointer actual is declared but not initialized"
+ , "c3" : "QC-CPP000014[05899] The pointer actual is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05903"
+ , "c1link" : "./qc/crypto/provider.c.html#5903"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[05903] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -251,80 +258,73 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05913"
- , "c1link" : "./qc/crypto/provider.c.html#5913"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05913] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "05925"
+ , "c1link" : "./qc/crypto/provider.c.html#5925"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05925] The expression  ! ossl_provider_activate(prov,1,0) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "05930"
- , "c1link" : "./qc/crypto/provider.c.html#5930"
+   "c1" : "05925"
+ , "c1link" : "./qc/crypto/provider.c.html#5925"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05930] The expression  ! ossl_provider_activate(prov,1,0) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[05925] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05930"
- , "c1link" : "./qc/crypto/provider.c.html#5930"
+   "c1" : "05925"
+ , "c1link" : "./qc/crypto/provider.c.html#5925"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05930] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[05925] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05930"
- , "c1link" : "./qc/crypto/provider.c.html#5930"
+   "c1" : "05945"
+ , "c1link" : "./qc/crypto/provider.c.html#5945"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05930] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[05945] The expression  ! ossl_provider_activate(actual,1,0) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "05950"
- , "c1link" : "./qc/crypto/provider.c.html#5950"
+   "c1" : "05945"
+ , "c1link" : "./qc/crypto/provider.c.html#5945"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05950] The expression  ! ossl_provider_activate(actual,1,0) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[05945] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05950"
- , "c1link" : "./qc/crypto/provider.c.html#5950"
+   "c1" : "05945"
+ , "c1link" : "./qc/crypto/provider.c.html#5945"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05950] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[05945] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05950"
- , "c1link" : "./qc/crypto/provider.c.html#5950"
+   "c1" : "05961"
+ , "c1link" : "./qc/crypto/provider.c.html#5961"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05950] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[05961] The expression ossl_provider_disable_fallback_loading(libctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "05966"
- , "c1link" : "./qc/crypto/provider.c.html#5966"
+   "c1" : "05972"
+ , "c1link" : "./qc/crypto/provider.c.html#5972"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05966] The expression ossl_provider_disable_fallback_loading(libctx) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[05972] The expression  ! ossl_provider_deactivate(prov,1) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "05977"
- , "c1link" : "./qc/crypto/provider.c.html#5977"
+   "c1" : "05972"
+ , "c1link" : "./qc/crypto/provider.c.html#5972"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05977] The expression  ! ossl_provider_deactivate(prov,1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[05972] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05977"
- , "c1link" : "./qc/crypto/provider.c.html#5977"
+   "c1" : "06061"
+ , "c1link" : "./qc/crypto/provider.c.html#6061"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05977] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06066"
- , "c1link" : "./qc/crypto/provider.c.html#6066"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06066] The expression  ! ossl_provider_info_add_to_store(libctx, &amp; entry) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06061] The expression  ! ossl_provider_info_add_to_store(libctx, &amp; entry) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

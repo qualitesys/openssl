@@ -454,115 +454,115 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15399"
- , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15399"
+   "c1" : "15394"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15394"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15399] The expression OSSL_ENCODER_CTX_set_cipher(ctx,EVP_CIPHER_get0_name(enc),(( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15394] The expression OSSL_ENCODER_CTX_set_cipher(ctx,EVP_CIPHER_get0_name(enc),(( void  *)0)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15427"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15427"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15427] The pointer p8 is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15428"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15428"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15428] The pointer p8inf is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "15432"
  , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15432"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15432] The pointer p8 is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[15432] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15433"
- , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15433"
+   "c1" : "15442"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15442"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15433] The pointer p8inf is declared but not initialized"
+ , "c3" : "QC-CPP000007[15442] goto statement jump to legacy_end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15437"
- , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15437"
+   "c1" : "15457"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15457"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15437] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[15457] goto statement jump to legacy_end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15447"
- , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15447"
+   "c1" : "15474"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15474"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15447] goto statement jump to legacy_end"
+ , "c3" : "QC-CPP000007[15474] goto statement jump to legacy_end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15462"
- , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15462"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15462] goto statement jump to legacy_end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15479"
- , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15479"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15479] goto statement jump to legacy_end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15480"
- , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15480"
+   "c1" : "15475"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15475"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15480] The expression isder applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15475] The expression isder applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15486"
- , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15486"
+   "c1" : "15481"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15481"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15486] The expression isder applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15481] The expression isder applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15512"
- , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15512"
+   "c1" : "15507"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15507"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15512] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[15507] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15566"
- , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15566"
+   "c1" : "15561"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15561"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15566] The expression  ! ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15561] The expression  ! ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15641"
- , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15641"
+   "c1" : "15636"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15636"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15641] The pointer bp is declared but not initialized"
+ , "c3" : "QC-CPP000014[15636] The pointer bp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15644"
- , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15644"
+   "c1" : "15639"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15639"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15644] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15639] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15664"
- , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15664"
+   "c1" : "15659"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15659"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15664] The pointer bp is declared but not initialized"
+ , "c3" : "QC-CPP000014[15659] The pointer bp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15665"
- , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15665"
+   "c1" : "15660"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15660"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15665] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[15660] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15667"
- , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15667"
+   "c1" : "15662"
+ , "c1link" : "./qc/crypto/pem/pem_pk8.c.html#15662"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15667] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15662] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

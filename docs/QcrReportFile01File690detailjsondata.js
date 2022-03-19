@@ -454,129 +454,143 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15287"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15287"
+   "c1" : "15282"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15282"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15287] The pointer file is declared but not initialized"
+ , "c3" : "QC-CPP000014[15282] The pointer file is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15293"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15293"
+   "c1" : "15288"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15288"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15293] The expression file applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15288] The expression file applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15302"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15302"
+   "c1" : "15297"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15297"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15302] The expression  ! ok applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15297] The expression  ! ok applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15364"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15364"
+   "c1" : "15359"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15359"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15364] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15359] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15373"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15373"
+   "c1" : "15368"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15368"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15373] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15368] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15386"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15386"
+   "c1" : "15381"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15381"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15386] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15381] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15390"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15390"
+   "c1" : "15385"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15385"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[15390] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[15385] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15390"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15390"
+   "c1" : "15385"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15385"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[15390] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[15385] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15396"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15396"
+   "c1" : "15391"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15391"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15396] The expression '' is invariable"
+ , "c3" : "QC-CPP000012[15391] The expression '' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15402"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15402"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15402] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "15407"
  , "c1link" : "./qc/crypto/x509/by_file.c.html#15407"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15407] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15412"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15412"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15412] The expression  ! i applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15407] The expression  ! i applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15413"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15413"
+   "c1" : "15408"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15408"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15413] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15408] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15434"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15434"
+   "c1" : "15429"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15429"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15434] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15429] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15437"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15437"
+   "c1" : "15432"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15432"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15437] The expression  ! i applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15432] The expression  ! i applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15438"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15438"
+   "c1" : "15433"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15433"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15438] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15433] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15493"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15493"
+   "c1" : "15488"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15488"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15493] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15488] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15497"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15497"
+   "c1" : "15492"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15492"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[15497] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[15492] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15497"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15497"
+   "c1" : "15492"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15492"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[15497] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[15492] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15517"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15517"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15517] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15521"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15521"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15521] The expression  ! i applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -587,94 +601,101 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15526"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15526"
+   "c1" : "15548"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15548"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15548] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15551"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15551"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15526] The expression  ! i applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15551] The expression  ! i applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15527"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15527"
+   "c1" : "15552"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15552"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15527] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15552] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15553"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15553"
+   "c1" : "15560"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15560"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15553] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15560] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15556"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15556"
+   "c1" : "15577"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15577"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15577] The pointer inf is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15578"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15578"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15578] The pointer itmp is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15579"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15579"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15579] The pointer in is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15585"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15585"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15556] The expression  ! i applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15585] The expression  ! in applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15557"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15557"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15557] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15565"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15565"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15565] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15582"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15582"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15582] The pointer inf is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15583"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15583"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15583] The pointer itmp is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15584"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15584"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15584] The pointer in is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15590"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15590"
+   "c1" : "15603"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15603"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15590] The expression  ! in applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15603] The expression  ! inf applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15608"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15608"
+   "c1" : "15613"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15613"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15608] The expression  ! inf applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15613] The expression itmp-&gt;x509 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15614"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15614"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15614] The expression  ! X509_STORE_add_cert(ctx-&gt;store_ctx,itmp-&gt;x509) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15615"
+ , "c1link" : "./qc/crypto/x509/by_file.c.html#15615"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15615] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "15618"
  , "c1link" : "./qc/crypto/x509/by_file.c.html#15618"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15618] The expression itmp-&gt;x509 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15618] The expression itmp-&gt;crl applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "15619"
  , "c1link" : "./qc/crypto/x509/by_file.c.html#15619"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15619] The expression  ! X509_STORE_add_cert(ctx-&gt;store_ctx,itmp-&gt;x509) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15619] The expression  ! X509_STORE_add_crl(ctx-&gt;store_ctx,itmp-&gt;crl) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -682,27 +703,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/by_file.c.html#15620"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[15620] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15623"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15623"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15623] The expression itmp-&gt;crl applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15624"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15624"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15624] The expression  ! X509_STORE_add_crl(ctx-&gt;store_ctx,itmp-&gt;crl) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15625"
- , "c1link" : "./qc/crypto/x509/by_file.c.html#15625"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15625] goto statement jump to err"
 }} 
 ]
 };

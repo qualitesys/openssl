@@ -237,17 +237,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08130"
- , "c1link" : "./qc/crypto/ct/ct_sct.c.html#8130"
+   "c1" : "08125"
+ , "c1link" : "./qc/crypto/ct/ct_sct.c.html#8125"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08130] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[08125] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13922"
- , "c1link" : "./qc/crypto/ct/ct_sct.c.html#13922"
+   "c1" : "13917"
+ , "c1link" : "./qc/crypto/ct/ct_sct.c.html#13917"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13922] The pointer log is declared but not initialized"
+ , "c3" : "QC-CPP000014[13917] The pointer log is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13947"
+ , "c1link" : "./qc/crypto/ct/ct_sct.c.html#13947"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13947] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13950"
+ , "c1link" : "./qc/crypto/ct/ct_sct.c.html#13950"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13950] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
@@ -261,42 +275,28 @@ var maDataBlocs = {
    "c1" : "13955"
  , "c1link" : "./qc/crypto/ct/ct_sct.c.html#13955"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13955] goto statement jump to err"
+ , "c3" : "QC-CPP000014[13955] The pointer issuer_pkey is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13957"
- , "c1link" : "./qc/crypto/ct/ct_sct.c.html#13957"
+   "c1" : "13963"
+ , "c1link" : "./qc/crypto/ct/ct_sct.c.html#13963"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13957] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13963] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13960"
- , "c1link" : "./qc/crypto/ct/ct_sct.c.html#13960"
+   "c1" : "13969"
+ , "c1link" : "./qc/crypto/ct/ct_sct.c.html#13969"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13960] The pointer issuer_pkey is declared but not initialized"
+ , "c3" : "QC-CPP000007[13969] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13968"
- , "c1link" : "./qc/crypto/ct/ct_sct.c.html#13968"
+   "c1" : "13971"
+ , "c1link" : "./qc/crypto/ct/ct_sct.c.html#13971"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13968] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13974"
- , "c1link" : "./qc/crypto/ct/ct_sct.c.html#13974"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13974] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13976"
- , "c1link" : "./qc/crypto/ct/ct_sct.c.html#13976"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13976] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13971] goto statement jump to err"
 }} 
 ]
 };

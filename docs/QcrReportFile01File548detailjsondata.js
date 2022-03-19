@@ -244,24 +244,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05678"
- , "c1link" : "./qc/crypto/params.c.html#5678"
+   "c1" : "05673"
+ , "c1link" : "./qc/crypto/params.c.html#5673"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05678] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05673] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05707"
- , "c1link" : "./qc/crypto/params.c.html#5707"
+   "c1" : "05702"
+ , "c1link" : "./qc/crypto/params.c.html#5702"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05707] The expression ( ! ossl_is_little_endian) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[05702] The expression ( ! ossl_is_little_endian) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "05774"
- , "c1link" : "./qc/crypto/params.c.html#5774"
+   "c1" : "05769"
+ , "c1link" : "./qc/crypto/params.c.html#5769"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05774] The expression is_negative(src,src_len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[05769] The expression is_negative(src,src_len) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

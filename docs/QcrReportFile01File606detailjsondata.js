@@ -454,31 +454,66 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07805"
- , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7805"
+   "c1" : "07800"
+ , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7800"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07805] The pointer d is declared but not initialized"
+ , "c3" : "QC-CPP000014[07800] The pointer d is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07809"
+ , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7809"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07809] The expression i applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "07810"
+ , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7810"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[07810] The condition of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07810"
+ , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7810"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[07810] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07811"
+ , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7811"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07811] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07812"
+ , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7812"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07812] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07813"
+ , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7813"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07813] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "07814"
  , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7814"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07814] The expression i applies to a single value or variable, might be ambiguous."
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07814] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "07815"
  , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7815"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[07815] The condition of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07815"
- , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7815"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[07815] The end expression of for loop is empty, infinite loop risk"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07815] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -503,108 +538,73 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07819"
- , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7819"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07819] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "07826"
+ , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7826"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07826] The expression i applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07820"
- , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7820"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07820] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "07827"
+ , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7827"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[07827] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07821"
- , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7821"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07821] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "07827"
+ , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7827"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[07827] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07822"
- , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7822"
+   "c1" : "07828"
+ , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7828"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07822] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07823"
- , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7823"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07823] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07828] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "07831"
  , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7831"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07831] The expression i applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07832"
- , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7832"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[07832] The condition of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07832"
- , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7832"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[07832] The end expression of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07833"
- , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7833"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07833] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07831] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07836"
- , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7836"
+   "c1" : "07834"
+ , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7834"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07836] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07834] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07839"
- , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7839"
+   "c1" : "07837"
+ , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7837"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07839] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07837] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07842"
- , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7842"
+   "c1" : "07840"
+ , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7840"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07842] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07840] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07845"
- , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7845"
+   "c1" : "07843"
+ , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7843"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07845] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07843] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07848"
- , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7848"
+   "c1" : "07846"
+ , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7846"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07848] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07851"
- , "c1link" : "./qc/crypto/rc4/rc4_enc.c.html#7851"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07851] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07846] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

@@ -447,66 +447,66 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07784"
- , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7784"
+   "c1" : "07779"
+ , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7779"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07784] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[07779] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07784"
- , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7784"
+   "c1" : "07779"
+ , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7779"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07784] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07779] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07816"
- , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7816"
+   "c1" : "07811"
+ , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7811"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07816] The expression is_unicode_surrogate(value) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07811] The expression is_unicode_surrogate(value) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "07836"
+ , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7836"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07836] The expression  ! str applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "07841"
  , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7841"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07841] The expression  ! str applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07841] The expression str applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07846"
- , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7846"
+   "c1" : "07848"
+ , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7848"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07846] The expression str applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07848] The expression str applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07853"
- , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7853"
+   "c1" : "07855"
+ , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7855"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07853] The expression str applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07855] The expression is_unicode_surrogate(value) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07860"
- , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7860"
+   "c1" : "07859"
+ , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7859"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07860] The expression is_unicode_surrogate(value) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07859] The expression str applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07864"
- , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7864"
+   "c1" : "07869"
+ , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7869"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07864] The expression str applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07874"
- , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7874"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07874] The expression str applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07869] The expression str applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

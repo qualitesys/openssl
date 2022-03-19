@@ -230,6 +230,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "09340"
+ , "c1link" : "./qc/crypto/evp/keymgmt_meth.c.html#9340"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09340] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
    "c1" : "09345"
  , "c1link" : "./qc/crypto/evp/keymgmt_meth.c.html#9345"
  , "c2" : "MAJOR"
@@ -237,31 +244,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09350"
- , "c1link" : "./qc/crypto/evp/keymgmt_meth.c.html#9350"
+   "c1" : "09382"
+ , "c1link" : "./qc/crypto/evp/keymgmt_meth.c.html#9382"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09350] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[09382] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09387"
- , "c1link" : "./qc/crypto/evp/keymgmt_meth.c.html#9387"
+   "c1" : "09394"
+ , "c1link" : "./qc/crypto/evp/keymgmt_meth.c.html#9394"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09387] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[09394] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09399"
- , "c1link" : "./qc/crypto/evp/keymgmt_meth.c.html#9399"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09399] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09942"
- , "c1link" : "./qc/crypto/evp/keymgmt_meth.c.html#9942"
+   "c1" : "09937"
+ , "c1link" : "./qc/crypto/evp/keymgmt_meth.c.html#9937"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09942] The expression evp_keymgmt_has_load(keymgmt) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09937] The expression evp_keymgmt_has_load(keymgmt) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

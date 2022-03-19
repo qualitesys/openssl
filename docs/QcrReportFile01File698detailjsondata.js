@@ -447,52 +447,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14744"
- , "c1link" : "./qc/crypto/x509/t_crl.c.html#14744"
+   "c1" : "14739"
+ , "c1link" : "./qc/crypto/x509/t_crl.c.html#14739"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14744] The pointer b is declared but not initialized"
+ , "c3" : "QC-CPP000014[14739] The pointer b is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14747"
- , "c1link" : "./qc/crypto/x509/t_crl.c.html#14747"
+   "c1" : "14742"
+ , "c1link" : "./qc/crypto/x509/t_crl.c.html#14742"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14747] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14742] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14773"
- , "c1link" : "./qc/crypto/x509/t_crl.c.html#14773"
+   "c1" : "14768"
+ , "c1link" : "./qc/crypto/x509/t_crl.c.html#14768"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14773] The pointer rev is declared but not initialized"
+ , "c3" : "QC-CPP000014[14768] The pointer rev is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14774"
- , "c1link" : "./qc/crypto/x509/t_crl.c.html#14774"
+   "c1" : "14769"
+ , "c1link" : "./qc/crypto/x509/t_crl.c.html#14769"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14774] The pointer r is declared but not initialized"
+ , "c3" : "QC-CPP000014[14769] The pointer r is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14775"
- , "c1link" : "./qc/crypto/x509/t_crl.c.html#14775"
+   "c1" : "14770"
+ , "c1link" : "./qc/crypto/x509/t_crl.c.html#14770"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14775] The pointer sig_alg is declared but not initialized"
+ , "c3" : "QC-CPP000014[14770] The pointer sig_alg is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14776"
- , "c1link" : "./qc/crypto/x509/t_crl.c.html#14776"
+   "c1" : "14771"
+ , "c1link" : "./qc/crypto/x509/t_crl.c.html#14771"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14776] The pointer sig is declared but not initialized"
+ , "c3" : "QC-CPP000014[14771] The pointer sig is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14799"
- , "c1link" : "./qc/crypto/x509/t_crl.c.html#14799"
+   "c1" : "14794"
+ , "c1link" : "./qc/crypto/x509/t_crl.c.html#14794"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14799] The expression X509_CRL_get0_nextUpdate(x) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14794] The expression X509_CRL_get0_nextUpdate(x) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

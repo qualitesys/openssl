@@ -447,52 +447,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15006"
- , "c1link" : "./qc/crypto/x509/v3_extku.c.html#15006"
+   "c1" : "15001"
+ , "c1link" : "./qc/crypto/x509/v3_extku.c.html#15001"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15006] The pointer obj is declared but not initialized"
+ , "c3" : "QC-CPP000014[15001] The pointer obj is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15024"
- , "c1link" : "./qc/crypto/x509/v3_extku.c.html#15024"
+   "c1" : "15019"
+ , "c1link" : "./qc/crypto/x509/v3_extku.c.html#15019"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15024] The pointer extku is declared but not initialized"
+ , "c3" : "QC-CPP000014[15019] The pointer extku is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15025"
- , "c1link" : "./qc/crypto/x509/v3_extku.c.html#15025"
+   "c1" : "15020"
+ , "c1link" : "./qc/crypto/x509/v3_extku.c.html#15020"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15025] The pointer extval is declared but not initialized"
+ , "c3" : "QC-CPP000014[15020] The pointer extval is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15026"
- , "c1link" : "./qc/crypto/x509/v3_extku.c.html#15026"
+   "c1" : "15021"
+ , "c1link" : "./qc/crypto/x509/v3_extku.c.html#15021"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15026] The pointer objtmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[15021] The pointer objtmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15027"
- , "c1link" : "./qc/crypto/x509/v3_extku.c.html#15027"
+   "c1" : "15022"
+ , "c1link" : "./qc/crypto/x509/v3_extku.c.html#15022"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15027] The pointer val is declared but not initialized"
+ , "c3" : "QC-CPP000014[15022] The pointer val is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15056"
- , "c1link" : "./qc/crypto/x509/v3_extku.c.html#15056"
+   "c1" : "15051"
+ , "c1link" : "./qc/crypto/x509/v3_extku.c.html#15051"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15056] The expression val-&gt;value applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15051] The expression val-&gt;value applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15060"
- , "c1link" : "./qc/crypto/x509/v3_extku.c.html#15060"
+   "c1" : "15055"
+ , "c1link" : "./qc/crypto/x509/v3_extku.c.html#15055"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15060] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15055] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

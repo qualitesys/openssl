@@ -440,66 +440,66 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "16090"
- , "c1link" : "./qc/crypto/dsa/dsa_pmeth.c.html#16090"
+   "c1" : "16085"
+ , "c1link" : "./qc/crypto/dsa/dsa_pmeth.c.html#16085"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16090] The pointer dctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[16085] The pointer dctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16090"
- , "c1link" : "./qc/crypto/dsa/dsa_pmeth.c.html#16090"
+   "c1" : "16085"
+ , "c1link" : "./qc/crypto/dsa/dsa_pmeth.c.html#16085"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16090] The pointer sctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[16085] The pointer sctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16092"
- , "c1link" : "./qc/crypto/dsa/dsa_pmeth.c.html#16092"
+   "c1" : "16087"
+ , "c1link" : "./qc/crypto/dsa/dsa_pmeth.c.html#16087"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16092] The expression  ! pkey_dsa_init(dst) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16087] The expression  ! pkey_dsa_init(dst) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16236"
+ , "c1link" : "./qc/crypto/dsa/dsa_pmeth.c.html#16236"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16236] The expression 'dsa_paramgen_bits' is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "16241"
  , "c1link" : "./qc/crypto/dsa/dsa_pmeth.c.html#16241"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16241] The expression 'dsa_paramgen_bits' is invariable"
+ , "c3" : "QC-CPP000012[16241] The expression 'dsa_paramgen_q_bits' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16246"
- , "c1link" : "./qc/crypto/dsa/dsa_pmeth.c.html#16246"
+   "c1" : "16245"
+ , "c1link" : "./qc/crypto/dsa/dsa_pmeth.c.html#16245"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16246] The expression 'dsa_paramgen_q_bits' is invariable"
+ , "c3" : "QC-CPP000012[16245] The expression 'dsa_paramgen_md' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16250"
- , "c1link" : "./qc/crypto/dsa/dsa_pmeth.c.html#16250"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16250] The expression 'dsa_paramgen_md' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16278"
- , "c1link" : "./qc/crypto/dsa/dsa_pmeth.c.html#16278"
+   "c1" : "16273"
+ , "c1link" : "./qc/crypto/dsa/dsa_pmeth.c.html#16273"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16278] The pointer pcb is declared but not initialized"
+ , "c3" : "QC-CPP000014[16273] The pointer pcb is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16281"
- , "c1link" : "./qc/crypto/dsa/dsa_pmeth.c.html#16281"
+   "c1" : "16276"
+ , "c1link" : "./qc/crypto/dsa/dsa_pmeth.c.html#16276"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16281] The expression ctx-&gt;pkey_gencb applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16276] The expression ctx-&gt;pkey_gencb applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16360"
- , "c1link" : "./qc/crypto/dsa/dsa_pmeth.c.html#16360"
+   "c1" : "16355"
+ , "c1link" : "./qc/crypto/dsa/dsa_pmeth.c.html#16355"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16360] The expression  ! EVP_PKEY_copy_parameters(pkey,ctx-&gt;pkey) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16355] The expression  ! EVP_PKEY_copy_parameters(pkey,ctx-&gt;pkey) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

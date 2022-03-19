@@ -454,52 +454,80 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10229"
- , "c1link" : "./qc/crypto/hmac/hmac.c.html#10229"
+   "c1" : "10224"
+ , "c1link" : "./qc/crypto/hmac/hmac.c.html#10224"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10229] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10224] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10236"
- , "c1link" : "./qc/crypto/hmac/hmac.c.html#10236"
+   "c1" : "10231"
+ , "c1link" : "./qc/crypto/hmac/hmac.c.html#10231"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10236] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10231] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10238"
- , "c1link" : "./qc/crypto/hmac/hmac.c.html#10238"
+   "c1" : "10233"
+ , "c1link" : "./qc/crypto/hmac/hmac.c.html#10233"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10238] The expression  ! EVP_MD_CTX_copy_ex(ctx-&gt;md_ctx,ctx-&gt;i_ctx) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10233] The expression  ! EVP_MD_CTX_copy_ex(ctx-&gt;md_ctx,ctx-&gt;i_ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10239"
- , "c1link" : "./qc/crypto/hmac/hmac.c.html#10239"
+   "c1" : "10234"
+ , "c1link" : "./qc/crypto/hmac/hmac.c.html#10234"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10239] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10234] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10242"
- , "c1link" : "./qc/crypto/hmac/hmac.c.html#10242"
+   "c1" : "10237"
+ , "c1link" : "./qc/crypto/hmac/hmac.c.html#10237"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10242] The expression reset applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10237] The expression reset applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10264"
- , "c1link" : "./qc/crypto/hmac/hmac.c.html#10264"
+   "c1" : "10259"
+ , "c1link" : "./qc/crypto/hmac/hmac.c.html#10259"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10264] The expression  ! ctx-&gt;md applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10259] The expression  ! ctx-&gt;md applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10269"
+ , "c1link" : "./qc/crypto/hmac/hmac.c.html#10269"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10269] The expression  ! ctx-&gt;md applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10270"
+ , "c1link" : "./qc/crypto/hmac/hmac.c.html#10270"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10270] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10272"
+ , "c1link" : "./qc/crypto/hmac/hmac.c.html#10272"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10272] The expression  ! EVP_DigestFinal_ex(ctx-&gt;md_ctx,buf, &amp; i) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10273"
+ , "c1link" : "./qc/crypto/hmac/hmac.c.html#10273"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10273] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "10274"
  , "c1link" : "./qc/crypto/hmac/hmac.c.html#10274"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10274] The expression  ! ctx-&gt;md applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10274] The expression  ! EVP_MD_CTX_copy_ex(ctx-&gt;md_ctx,ctx-&gt;o_ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -510,136 +538,108 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "10276"
+ , "c1link" : "./qc/crypto/hmac/hmac.c.html#10276"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10276] The expression  ! EVP_DigestUpdate(ctx-&gt;md_ctx,buf,i) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "10277"
  , "c1link" : "./qc/crypto/hmac/hmac.c.html#10277"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10277] The expression  ! EVP_DigestFinal_ex(ctx-&gt;md_ctx,buf, &amp; i) applies to a single value or variable, might be ambiguous."
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10277] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "10278"
  , "c1link" : "./qc/crypto/hmac/hmac.c.html#10278"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10278] goto statement jump to err"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10278] The expression  ! EVP_DigestFinal_ex(ctx-&gt;md_ctx,md,len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "10279"
  , "c1link" : "./qc/crypto/hmac/hmac.c.html#10279"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10279] The expression  ! EVP_MD_CTX_copy_ex(ctx-&gt;md_ctx,ctx-&gt;o_ctx) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "10280"
- , "c1link" : "./qc/crypto/hmac/hmac.c.html#10280"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10280] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10279] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10281"
- , "c1link" : "./qc/crypto/hmac/hmac.c.html#10281"
+   "c1" : "10301"
+ , "c1link" : "./qc/crypto/hmac/hmac.c.html#10301"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10281] The expression  ! EVP_DigestUpdate(ctx-&gt;md_ctx,buf,i) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10301] The expression  ! HMAC_CTX_reset(ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10282"
- , "c1link" : "./qc/crypto/hmac/hmac.c.html#10282"
+   "c1" : "10384"
+ , "c1link" : "./qc/crypto/hmac/hmac.c.html#10384"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10384] The expression  ! hmac_ctx_alloc_mds(ctx) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10393"
+ , "c1link" : "./qc/crypto/hmac/hmac.c.html#10393"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10393] The expression  ! hmac_ctx_alloc_mds(dctx) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10394"
+ , "c1link" : "./qc/crypto/hmac/hmac.c.html#10394"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10282] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10394] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10283"
- , "c1link" : "./qc/crypto/hmac/hmac.c.html#10283"
+   "c1" : "10395"
+ , "c1link" : "./qc/crypto/hmac/hmac.c.html#10395"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10283] The expression  ! EVP_DigestFinal_ex(ctx-&gt;md_ctx,md,len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10395] The expression  ! EVP_MD_CTX_copy_ex(dctx-&gt;i_ctx,sctx-&gt;i_ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10284"
- , "c1link" : "./qc/crypto/hmac/hmac.c.html#10284"
+   "c1" : "10396"
+ , "c1link" : "./qc/crypto/hmac/hmac.c.html#10396"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10284] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10396] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10306"
- , "c1link" : "./qc/crypto/hmac/hmac.c.html#10306"
+   "c1" : "10397"
+ , "c1link" : "./qc/crypto/hmac/hmac.c.html#10397"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10306] The expression  ! HMAC_CTX_reset(ctx) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "10389"
- , "c1link" : "./qc/crypto/hmac/hmac.c.html#10389"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10389] The expression  ! hmac_ctx_alloc_mds(ctx) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10397] The expression  ! EVP_MD_CTX_copy_ex(dctx-&gt;o_ctx,sctx-&gt;o_ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "10398"
  , "c1link" : "./qc/crypto/hmac/hmac.c.html#10398"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10398] The expression  ! hmac_ctx_alloc_mds(dctx) applies to a single value or variable, might be ambiguous."
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10398] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "10399"
  , "c1link" : "./qc/crypto/hmac/hmac.c.html#10399"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10399] goto statement jump to err"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10399] The expression  ! EVP_MD_CTX_copy_ex(dctx-&gt;md_ctx,sctx-&gt;md_ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "10400"
  , "c1link" : "./qc/crypto/hmac/hmac.c.html#10400"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10400] The expression  ! EVP_MD_CTX_copy_ex(dctx-&gt;i_ctx,sctx-&gt;i_ctx) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "10401"
- , "c1link" : "./qc/crypto/hmac/hmac.c.html#10401"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10401] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10400] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10402"
- , "c1link" : "./qc/crypto/hmac/hmac.c.html#10402"
+   "c1" : "10415"
+ , "c1link" : "./qc/crypto/hmac/hmac.c.html#10415"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10402] The expression  ! EVP_MD_CTX_copy_ex(dctx-&gt;o_ctx,sctx-&gt;o_ctx) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "10403"
- , "c1link" : "./qc/crypto/hmac/hmac.c.html#10403"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10403] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10404"
- , "c1link" : "./qc/crypto/hmac/hmac.c.html#10404"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10404] The expression  ! EVP_MD_CTX_copy_ex(dctx-&gt;md_ctx,sctx-&gt;md_ctx) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "10405"
- , "c1link" : "./qc/crypto/hmac/hmac.c.html#10405"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10405] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10420"
- , "c1link" : "./qc/crypto/hmac/hmac.c.html#10420"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10420] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10415] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

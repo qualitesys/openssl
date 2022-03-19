@@ -237,6 +237,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "09464"
+ , "c1link" : "./qc/crypto/evp/kdf_meth.c.html#9464"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09464] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
    "c1" : "09469"
  , "c1link" : "./qc/crypto/evp/kdf_meth.c.html#9469"
  , "c2" : "MAJOR"
@@ -244,52 +251,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09474"
- , "c1link" : "./qc/crypto/evp/kdf_meth.c.html#9474"
+   "c1" : "09497"
+ , "c1link" : "./qc/crypto/evp/kdf_meth.c.html#9497"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09474] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[09497] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09502"
- , "c1link" : "./qc/crypto/evp/kdf_meth.c.html#9502"
+   "c1" : "09514"
+ , "c1link" : "./qc/crypto/evp/kdf_meth.c.html#9514"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09502] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[09514] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09519"
- , "c1link" : "./qc/crypto/evp/kdf_meth.c.html#9519"
+   "c1" : "09701"
+ , "c1link" : "./qc/crypto/evp/kdf_meth.c.html#9701"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09519] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[09701] The pointer alg is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09706"
- , "c1link" : "./qc/crypto/evp/kdf_meth.c.html#9706"
+   "c1" : "09723"
+ , "c1link" : "./qc/crypto/evp/kdf_meth.c.html#9723"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09706] The pointer alg is declared but not initialized"
+ , "c3" : "QC-CPP000014[09723] The pointer alg is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09728"
- , "c1link" : "./qc/crypto/evp/kdf_meth.c.html#9728"
+   "c1" : "09745"
+ , "c1link" : "./qc/crypto/evp/kdf_meth.c.html#9745"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09728] The pointer alg is declared but not initialized"
+ , "c3" : "QC-CPP000014[09745] The pointer alg is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09750"
- , "c1link" : "./qc/crypto/evp/kdf_meth.c.html#9750"
+   "c1" : "09763"
+ , "c1link" : "./qc/crypto/evp/kdf_meth.c.html#9763"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09750] The pointer alg is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09768"
- , "c1link" : "./qc/crypto/evp/kdf_meth.c.html#9768"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09768] The pointer alg is declared but not initialized"
+ , "c3" : "QC-CPP000014[09763] The pointer alg is declared but not initialized"
 }} 
 ]
 };

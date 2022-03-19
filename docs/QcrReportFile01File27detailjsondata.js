@@ -510,45 +510,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18769"
- , "c1link" : "./qc/apps/lib/app_x509.c.html#18769"
+   "c1" : "18764"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#18764"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18769] The expression  ! ASN1_OCTET_STRING_set(v,value,( int  )value_n) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18764] The expression  ! ASN1_OCTET_STRING_set(v,value,( int  )value_n) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18842"
- , "c1link" : "./qc/apps/lib/app_x509.c.html#18842"
+   "c1" : "18837"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#18837"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18842] The pointer stmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[18837] The pointer stmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18868"
- , "c1link" : "./qc/apps/lib/app_x509.c.html#18868"
+   "c1" : "18863"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#18863"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18868] The expression 'distid' is invariable"
+ , "c3" : "QC-CPP000012[18863] The expression 'distid' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18872"
- , "c1link" : "./qc/apps/lib/app_x509.c.html#18872"
+   "c1" : "18867"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#18867"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18872] The expression 'hexdistid' is invariable"
+ , "c3" : "QC-CPP000012[18867] The expression 'hexdistid' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18873"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#18873"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[18873] The pointer hexid is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "18878"
  , "c1link" : "./qc/apps/lib/app_x509.c.html#18878"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18878] The pointer hexid is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18883"
- , "c1link" : "./qc/apps/lib/app_x509.c.html#18883"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18883] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18878] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

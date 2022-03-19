@@ -454,31 +454,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08638"
- , "c1link" : "./qc/crypto/core_fetch.c.html#8638"
+   "c1" : "08633"
+ , "c1link" : "./qc/crypto/core_fetch.c.html#8633"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08638] The expression  ! ossl_provider_test_operation_bit(provider,operation_id,result) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08633] The expression  ! ossl_provider_test_operation_bit(provider,operation_id,result) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08684"
- , "c1link" : "./qc/crypto/core_fetch.c.html#8684"
+   "c1" : "08679"
+ , "c1link" : "./qc/crypto/core_fetch.c.html#8679"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08684] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08679] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08707"
- , "c1link" : "./qc/crypto/core_fetch.c.html#8707"
+   "c1" : "08702"
+ , "c1link" : "./qc/crypto/core_fetch.c.html#8702"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08707] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08702] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08732"
- , "c1link" : "./qc/crypto/core_fetch.c.html#8732"
+   "c1" : "08727"
+ , "c1link" : "./qc/crypto/core_fetch.c.html#8727"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08732] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08727] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

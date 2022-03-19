@@ -454,80 +454,80 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10481"
- , "c1link" : "./qc/crypto/rand/randfile.c.html#10481"
+   "c1" : "10476"
+ , "c1link" : "./qc/crypto/rand/randfile.c.html#10476"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10481] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10476] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10514"
- , "c1link" : "./qc/crypto/rand/randfile.c.html#10514"
+   "c1" : "10509"
+ , "c1link" : "./qc/crypto/rand/randfile.c.html#10509"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10514] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10509] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10541"
+ , "c1link" : "./qc/crypto/rand/randfile.c.html#10541"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10541] The pointer in is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "10546"
  , "c1link" : "./qc/crypto/rand/randfile.c.html#10546"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10546] The pointer in is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[10546] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10551"
- , "c1link" : "./qc/crypto/rand/randfile.c.html#10551"
+   "c1" : "10588"
+ , "c1link" : "./qc/crypto/rand/randfile.c.html#10588"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[10588] The condition of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10588"
+ , "c1link" : "./qc/crypto/rand/randfile.c.html#10588"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[10588] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10616"
+ , "c1link" : "./qc/crypto/rand/randfile.c.html#10616"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10551] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10616] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10593"
- , "c1link" : "./qc/crypto/rand/randfile.c.html#10593"
+   "c1" : "10622"
+ , "c1link" : "./qc/crypto/rand/randfile.c.html#10622"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[10593] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000011[10622] The expression  ! RAND_status() applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10593"
- , "c1link" : "./qc/crypto/rand/randfile.c.html#10593"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[10593] The end expression of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10621"
- , "c1link" : "./qc/crypto/rand/randfile.c.html#10621"
+   "c1" : "10723"
+ , "c1link" : "./qc/crypto/rand/randfile.c.html#10723"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10621] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10723] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10627"
- , "c1link" : "./qc/crypto/rand/randfile.c.html#10627"
+   "c1" : "10749"
+ , "c1link" : "./qc/crypto/rand/randfile.c.html#10749"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10627] The expression  ! RAND_status() applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10749] The expression use_randfile applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10728"
- , "c1link" : "./qc/crypto/rand/randfile.c.html#10728"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10728] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10754"
- , "c1link" : "./qc/crypto/rand/randfile.c.html#10754"
+   "c1" : "10758"
+ , "c1link" : "./qc/crypto/rand/randfile.c.html#10758"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10754] The expression use_randfile applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "10763"
- , "c1link" : "./qc/crypto/rand/randfile.c.html#10763"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10763] The expression '.rnd' is invariable"
+ , "c3" : "QC-CPP000012[10758] The expression '.rnd' is invariable"
 }} 
 ]
 };

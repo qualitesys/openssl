@@ -440,10 +440,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07936"
- , "c1link" : "./qc/crypto/mdc2/mdc2_one.c.html#7936"
+   "c1" : "07931"
+ , "c1link" : "./qc/crypto/mdc2/mdc2_one.c.html#7931"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07936] The expression  ! MDC2_Init( &amp; c) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07931] The expression  ! MDC2_Init( &amp; c) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -230,24 +230,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08130"
- , "c1link" : "./qc/crypto/ct/ct_policy.c.html#8130"
+   "c1" : "08125"
+ , "c1link" : "./qc/crypto/ct/ct_policy.c.html#8125"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08130] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[08125] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13580"
- , "c1link" : "./qc/crypto/ct/ct_policy.c.html#13580"
+   "c1" : "13575"
+ , "c1link" : "./qc/crypto/ct/ct_policy.c.html#13575"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13580] The expression  ! X509_up_ref(cert) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13575] The expression  ! X509_up_ref(cert) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13588"
- , "c1link" : "./qc/crypto/ct/ct_policy.c.html#13588"
+   "c1" : "13583"
+ , "c1link" : "./qc/crypto/ct/ct_policy.c.html#13583"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13588] The expression  ! X509_up_ref(issuer) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13583] The expression  ! X509_up_ref(issuer) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -454,185 +454,185 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07778"
- , "c1link" : "./qc/crypto/stack/stack.c.html#7778"
+   "c1" : "07773"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#7773"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07778] The expression  ! __builtin_add_overflow(a,b, &amp; r) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07773] The expression  ! __builtin_add_overflow(a,b, &amp; r) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07778"
- , "c1link" : "./qc/crypto/stack/stack.c.html#7778"
+   "c1" : "07773"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#7773"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07778] The expression  ! __builtin_sub_overflow(a,b, &amp; r) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07773] The expression  ! __builtin_sub_overflow(a,b, &amp; r) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07778"
- , "c1link" : "./qc/crypto/stack/stack.c.html#7778"
+   "c1" : "07773"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#7773"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07778] The expression  ! __builtin_mul_overflow(a,b, &amp; r) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07773] The expression  ! __builtin_mul_overflow(a,b, &amp; r) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07778"
- , "c1link" : "./qc/crypto/stack/stack.c.html#7778"
+   "c1" : "07773"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#7773"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07778] The expression  ! e2 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07773] The expression  ! e2 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07817"
- , "c1link" : "./qc/crypto/stack/stack.c.html#7817"
+   "c1" : "07812"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#7812"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07817] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[07812] The pointer ret is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07814"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#7814"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07814] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "07819"
  , "c1link" : "./qc/crypto/stack/stack.c.html#7819"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07819] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[07819] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07824"
- , "c1link" : "./qc/crypto/stack/stack.c.html#7824"
+   "c1" : "07854"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#7854"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07824] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[07854] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "07859"
  , "c1link" : "./qc/crypto/stack/stack.c.html#7859"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07859] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[07859] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07864"
- , "c1link" : "./qc/crypto/stack/stack.c.html#7864"
+   "c1" : "07881"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#7881"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07864] goto statement jump to err"
+ , "c3" : "QC-CPP000014[07881] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07886"
- , "c1link" : "./qc/crypto/stack/stack.c.html#7886"
+   "c1" : "07884"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#7884"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07886] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[07884] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "07889"
  , "c1link" : "./qc/crypto/stack/stack.c.html#7889"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07889] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[07889] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07894"
- , "c1link" : "./qc/crypto/stack/stack.c.html#7894"
+   "c1" : "07930"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#7930"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07894] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07930] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07935"
- , "c1link" : "./qc/crypto/stack/stack.c.html#7935"
+   "c1" : "07939"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#7939"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07935] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[07939] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07944"
- , "c1link" : "./qc/crypto/stack/stack.c.html#7944"
+   "c1" : "07951"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#7951"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07944] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[07951] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07956"
- , "c1link" : "./qc/crypto/stack/stack.c.html#7956"
+   "c1" : "07993"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#7993"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07993] The expression err applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08004"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#8004"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07956] goto statement jump to err"
+ , "c3" : "QC-CPP000014[08004] The pointer tmpdata is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07998"
- , "c1link" : "./qc/crypto/stack/stack.c.html#7998"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07998] The expression err applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08009"
- , "c1link" : "./qc/crypto/stack/stack.c.html#8009"
+   "c1" : "08026"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#8026"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08009] The pointer tmpdata is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[08026] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08031"
- , "c1link" : "./qc/crypto/stack/stack.c.html#8031"
+   "c1" : "08042"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#8042"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08042] The expression  ! exact applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08085"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#8085"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08085] The expression  ! sk_reserve(st,n,1) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08085"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#8085"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08085] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08120"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#8120"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08120] The expression  ! sk_reserve(st,1,0) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08120"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#8120"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08120] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08120"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#8120"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08120] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08180"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#8180"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08031] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[08180] The pointer r is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08047"
- , "c1link" : "./qc/crypto/stack/stack.c.html#8047"
+   "c1" : "08214"
+ , "c1link" : "./qc/crypto/stack/stack.c.html#8214"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08047] The expression  ! exact applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08090"
- , "c1link" : "./qc/crypto/stack/stack.c.html#8090"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08090] The expression  ! sk_reserve(st,n,1) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08090"
- , "c1link" : "./qc/crypto/stack/stack.c.html#8090"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08090] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08125"
- , "c1link" : "./qc/crypto/stack/stack.c.html#8125"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08125] The expression  ! sk_reserve(st,1,0) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08125"
- , "c1link" : "./qc/crypto/stack/stack.c.html#8125"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08125] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08125"
- , "c1link" : "./qc/crypto/stack/stack.c.html#8125"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08125] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08185"
- , "c1link" : "./qc/crypto/stack/stack.c.html#8185"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08185] The pointer r is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08219"
- , "c1link" : "./qc/crypto/stack/stack.c.html#8219"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08219] The expression  ! st-&gt;sorted applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08214] The expression  ! st-&gt;sorted applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

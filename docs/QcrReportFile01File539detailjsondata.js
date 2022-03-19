@@ -230,94 +230,94 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08393"
- , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#8393"
+   "c1" : "08388"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#8388"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08393] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[08388] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12826"
- , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#12826"
+   "c1" : "12821"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#12821"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12826] The expression  ! OSSL_HTTP_REQ_CTX_set_request_line(rctx,1,(( void  *)0),(( void  *)0),path) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[12821] The expression  ! OSSL_HTTP_REQ_CTX_set_request_line(rctx,1,(( void  *)0),(( void  *)0),path) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12826"
- , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#12826"
+   "c1" : "12821"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#12821"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12826] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[12821] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12836"
- , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#12836"
+   "c1" : "12831"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#12831"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12836] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12831] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12833"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#12833"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12833] The expression  ! OSSL_HTTP_REQ_CTX_set_expected(rctx,(( void  *)0),1,0,0) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "12838"
  , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#12838"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12838] The expression  ! OSSL_HTTP_REQ_CTX_set_expected(rctx,(( void  *)0),1,0,0) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12838] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12843"
- , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#12843"
+   "c1" : "12839"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#12839"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12843] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[12839] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12844"
- , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#12844"
+   "c1" : "12839"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#12839"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12844] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[12839] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12844"
- , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#12844"
+   "c1" : "12840"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#12840"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12840] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12846"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#12846"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12844] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[12846] The expression 'application/ocsp-request' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12845"
- , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#12845"
+   "c1" : "12849"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#12849"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12845] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12849] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12851"
- , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#12851"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12851] The expression 'application/ocsp-request' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12854"
- , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#12854"
+   "c1" : "12868"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#12868"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12854] goto statement jump to err"
+ , "c3" : "QC-CPP000014[12868] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12873"
- , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#12873"
+   "c1" : "12869"
+ , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#12869"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12873] The pointer ctx is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12874"
- , "c1link" : "./qc/crypto/ocsp/ocsp_http.c.html#12874"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12874] The pointer mem is declared but not initialized"
+ , "c3" : "QC-CPP000014[12869] The pointer mem is declared but not initialized"
 }} 
 ]
 };

@@ -524,171 +524,171 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18980"
- , "c1link" : "./qc/apps/gendsa.c.html#18980"
+   "c1" : "18975"
+ , "c1link" : "./qc/apps/gendsa.c.html#18975"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18980] The pointer prog is declared but not initialized"
+ , "c3" : "QC-CPP000014[18975] The pointer prog is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18986"
- , "c1link" : "./qc/apps/gendsa.c.html#18986"
+   "c1" : "18981"
+ , "c1link" : "./qc/apps/gendsa.c.html#18981"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18986] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18981] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18990"
- , "c1link" : "./qc/apps/gendsa.c.html#18990"
+   "c1" : "18985"
+ , "c1link" : "./qc/apps/gendsa.c.html#18985"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[18990] The switch case refers to the jump label opthelp"
+ , "c3" : "QC-CPP000010[18985] The switch case refers to the jump label opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18992"
- , "c1link" : "./qc/apps/gendsa.c.html#18992"
+   "c1" : "18987"
+ , "c1link" : "./qc/apps/gendsa.c.html#18987"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18992] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18987] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18996"
- , "c1link" : "./qc/apps/gendsa.c.html#18996"
+   "c1" : "18991"
+ , "c1link" : "./qc/apps/gendsa.c.html#18991"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18996] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18991] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19002"
+ , "c1link" : "./qc/apps/gendsa.c.html#19002"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19002] The expression  ! opt_rand(o) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19003"
+ , "c1link" : "./qc/apps/gendsa.c.html#19003"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19003] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19006"
+ , "c1link" : "./qc/apps/gendsa.c.html#19006"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19006] The expression  ! opt_provider(o) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "19007"
  , "c1link" : "./qc/apps/gendsa.c.html#19007"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19007] The expression  ! opt_rand(o) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19008"
- , "c1link" : "./qc/apps/gendsa.c.html#19008"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19008] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19007] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19011"
- , "c1link" : "./qc/apps/gendsa.c.html#19011"
+   "c1" : "19022"
+ , "c1link" : "./qc/apps/gendsa.c.html#19022"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19011] The expression  ! opt_provider(o) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19022] The expression  ! opt_check_rest_arg('params file') applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19012"
- , "c1link" : "./qc/apps/gendsa.c.html#19012"
+   "c1" : "19022"
+ , "c1link" : "./qc/apps/gendsa.c.html#19022"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[19022] The expression 'params file' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19023"
+ , "c1link" : "./qc/apps/gendsa.c.html#19023"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19012] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19023] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
    "c1" : "19027"
  , "c1link" : "./qc/apps/gendsa.c.html#19027"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19027] The expression  ! opt_check_rest_arg('params file') applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19027"
- , "c1link" : "./qc/apps/gendsa.c.html#19027"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19027] The expression 'params file' is invariable"
+ , "c3" : "QC-CPP000011[19027] The expression  ! app_RAND_load() applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "19028"
  , "c1link" : "./qc/apps/gendsa.c.html#19028"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19028] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19028] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19032"
- , "c1link" : "./qc/apps/gendsa.c.html#19032"
+   "c1" : "19030"
+ , "c1link" : "./qc/apps/gendsa.c.html#19030"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19032] The expression  ! app_RAND_load() applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19030] The expression  ! opt_cipher(ciphername, &amp; enc) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19033"
- , "c1link" : "./qc/apps/gendsa.c.html#19033"
+   "c1" : "19031"
+ , "c1link" : "./qc/apps/gendsa.c.html#19031"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19033] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19031] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19035"
- , "c1link" : "./qc/apps/gendsa.c.html#19035"
+   "c1" : "19034"
+ , "c1link" : "./qc/apps/gendsa.c.html#19034"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19035] The expression  ! opt_cipher(ciphername, &amp; enc) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19034] The expression  ! app_passwd((( void  *)0),passoutarg,(( void  *)0), &amp; passout) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19036"
- , "c1link" : "./qc/apps/gendsa.c.html#19036"
+   "c1" : "19044"
+ , "c1link" : "./qc/apps/gendsa.c.html#19044"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19036] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19044] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19039"
- , "c1link" : "./qc/apps/gendsa.c.html#19039"
+   "c1" : "19055"
+ , "c1link" : "./qc/apps/gendsa.c.html#19055"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19055] goto statement jump to end2"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19075"
+ , "c1link" : "./qc/apps/gendsa.c.html#19075"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19075] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19085"
+ , "c1link" : "./qc/apps/gendsa.c.html#19085"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19085] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19094"
+ , "c1link" : "./qc/apps/gendsa.c.html#19094"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19039] The expression  ! app_passwd((( void  *)0),passoutarg,(( void  *)0), &amp; passout) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19094] The expression  ! PEM_write_bio_PrivateKey(out,pkey,enc,(( void  *)0),0,(( void  *)0),passout) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19049"
- , "c1link" : "./qc/apps/gendsa.c.html#19049"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19049] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19060"
- , "c1link" : "./qc/apps/gendsa.c.html#19060"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19060] goto statement jump to end2"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19080"
- , "c1link" : "./qc/apps/gendsa.c.html#19080"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19080] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19090"
- , "c1link" : "./qc/apps/gendsa.c.html#19090"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19090] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19099"
- , "c1link" : "./qc/apps/gendsa.c.html#19099"
+   "c1" : "19098"
+ , "c1link" : "./qc/apps/gendsa.c.html#19098"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19099] The expression  ! PEM_write_bio_PrivateKey(out,pkey,enc,(( void  *)0),0,(( void  *)0),passout) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[19098] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19103"
- , "c1link" : "./qc/apps/gendsa.c.html#19103"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19103] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19109"
- , "c1link" : "./qc/apps/gendsa.c.html#19109"
+   "c1" : "19104"
+ , "c1link" : "./qc/apps/gendsa.c.html#19104"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19109] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19104] goto statement jump to end"
 }} 
 ]
 };

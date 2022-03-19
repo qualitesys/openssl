@@ -454,24 +454,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14979"
- , "c1link" : "./qc/crypto/evp/p_seal.c.html#14979"
+   "c1" : "14974"
+ , "c1link" : "./qc/crypto/evp/p_seal.c.html#14974"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14979] The pointer prov is declared but not initialized"
+ , "c3" : "QC-CPP000014[14974] The pointer prov is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14990"
- , "c1link" : "./qc/crypto/evp/p_seal.c.html#14990"
+   "c1" : "14985"
+ , "c1link" : "./qc/crypto/evp/p_seal.c.html#14985"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14990] The pointer cipher is declared but not initialized"
+ , "c3" : "QC-CPP000014[14985] The pointer cipher is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15000"
- , "c1link" : "./qc/crypto/evp/p_seal.c.html#15000"
+   "c1" : "14995"
+ , "c1link" : "./qc/crypto/evp/p_seal.c.html#14995"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15000] The expression  ! EVP_EncryptInit_ex(ctx,type,(( void  *)0),(( void  *)0),(( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14995] The expression  ! EVP_EncryptInit_ex(ctx,type,(( void  *)0),(( void  *)0),(( void  *)0)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15010"
+ , "c1link" : "./qc/crypto/evp/p_seal.c.html#15010"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15010] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -482,45 +489,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15020"
- , "c1link" : "./qc/crypto/evp/p_seal.c.html#15020"
+   "c1" : "15028"
+ , "c1link" : "./qc/crypto/evp/p_seal.c.html#15028"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15028] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15029"
+ , "c1link" : "./qc/crypto/evp/p_seal.c.html#15029"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15020] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[15029] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "15033"
  , "c1link" : "./qc/crypto/evp/p_seal.c.html#15033"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15033] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15035"
+ , "c1link" : "./qc/crypto/evp/p_seal.c.html#15035"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15033] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[15035] The expression  ! EVP_EncryptInit_ex(ctx,(( void  *)0),(( void  *)0),key,iv) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15034"
- , "c1link" : "./qc/crypto/evp/p_seal.c.html#15034"
+   "c1" : "15044"
+ , "c1link" : "./qc/crypto/evp/p_seal.c.html#15044"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15034] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15044] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15038"
- , "c1link" : "./qc/crypto/evp/p_seal.c.html#15038"
+   "c1" : "15064"
+ , "c1link" : "./qc/crypto/evp/p_seal.c.html#15064"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15038] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15040"
- , "c1link" : "./qc/crypto/evp/p_seal.c.html#15040"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15040] The expression  ! EVP_EncryptInit_ex(ctx,(( void  *)0),(( void  *)0),key,iv) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15049"
- , "c1link" : "./qc/crypto/evp/p_seal.c.html#15049"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15049] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15064] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
@@ -531,17 +538,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15074"
- , "c1link" : "./qc/crypto/evp/p_seal.c.html#15074"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15074] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15094"
- , "c1link" : "./qc/crypto/evp/p_seal.c.html#15094"
+   "c1" : "15089"
+ , "c1link" : "./qc/crypto/evp/p_seal.c.html#15089"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15094] The expression i applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15089] The expression i applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

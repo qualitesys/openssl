@@ -244,45 +244,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06702"
- , "c1link" : "./qc/providers/baseprov.c.html#6702"
+   "c1" : "06697"
+ , "c1link" : "./qc/providers/baseprov.c.html#6697"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06702] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[06697] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06710"
- , "c1link" : "./qc/providers/baseprov.c.html#6710"
+   "c1" : "06705"
+ , "c1link" : "./qc/providers/baseprov.c.html#6705"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06710] The expression 'OpenSSL Base Provider' is invariable"
+ , "c3" : "QC-CPP000012[06705] The expression 'OpenSSL Base Provider' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06717"
- , "c1link" : "./qc/providers/baseprov.c.html#6717"
+   "c1" : "06712"
+ , "c1link" : "./qc/providers/baseprov.c.html#6712"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06717] The expression '3.1.0' is invariable"
+ , "c3" : "QC-CPP000012[06712] The expression '3.1.0' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06724"
- , "c1link" : "./qc/providers/baseprov.c.html#6724"
+   "c1" : "06719"
+ , "c1link" : "./qc/providers/baseprov.c.html#6719"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06724] The expression '3.1.0-dev' is invariable"
+ , "c3" : "QC-CPP000012[06719] The expression '3.1.0-dev' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07078"
- , "c1link" : "./qc/providers/baseprov.c.html#7078"
+   "c1" : "07073"
+ , "c1link" : "./qc/providers/baseprov.c.html#7073"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07078] The pointer corebiometh is declared but not initialized"
+ , "c3" : "QC-CPP000014[07073] The pointer corebiometh is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07080"
- , "c1link" : "./qc/providers/baseprov.c.html#7080"
+   "c1" : "07075"
+ , "c1link" : "./qc/providers/baseprov.c.html#7075"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07080] The expression  ! ossl_prov_bio_from_dispatch(in) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07075] The expression  ! ossl_prov_bio_from_dispatch(in) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "07101"
+ , "c1link" : "./qc/providers/baseprov.c.html#7101"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07101] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -290,13 +297,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/baseprov.c.html#7106"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[07106] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07111"
- , "c1link" : "./qc/providers/baseprov.c.html#7111"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07111] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

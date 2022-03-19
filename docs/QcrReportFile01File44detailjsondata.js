@@ -524,150 +524,150 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18953"
- , "c1link" : "./qc/apps/nseq.c.html#18953"
+   "c1" : "18948"
+ , "c1link" : "./qc/apps/nseq.c.html#18948"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18953] The pointer prog is declared but not initialized"
+ , "c3" : "QC-CPP000014[18948] The pointer prog is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18956"
- , "c1link" : "./qc/apps/nseq.c.html#18956"
+   "c1" : "18951"
+ , "c1link" : "./qc/apps/nseq.c.html#18951"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18956] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18951] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18960"
- , "c1link" : "./qc/apps/nseq.c.html#18960"
+   "c1" : "18955"
+ , "c1link" : "./qc/apps/nseq.c.html#18955"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[18960] The switch case refers to the jump label opthelp"
+ , "c3" : "QC-CPP000010[18955] The switch case refers to the jump label opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18962"
- , "c1link" : "./qc/apps/nseq.c.html#18962"
+   "c1" : "18957"
+ , "c1link" : "./qc/apps/nseq.c.html#18957"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18962] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18957] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18966"
- , "c1link" : "./qc/apps/nseq.c.html#18966"
+   "c1" : "18961"
+ , "c1link" : "./qc/apps/nseq.c.html#18961"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18966] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18961] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18977"
- , "c1link" : "./qc/apps/nseq.c.html#18977"
+   "c1" : "18972"
+ , "c1link" : "./qc/apps/nseq.c.html#18972"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18977] The expression  ! opt_provider(o) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18972] The expression  ! opt_provider(o) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18978"
- , "c1link" : "./qc/apps/nseq.c.html#18978"
+   "c1" : "18973"
+ , "c1link" : "./qc/apps/nseq.c.html#18973"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18978] goto statement jump to end"
+ , "c3" : "QC-CPP000007[18973] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18979"
+ , "c1link" : "./qc/apps/nseq.c.html#18979"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[18979] The expression  ! opt_check_rest_arg((( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "18984"
  , "c1link" : "./qc/apps/nseq.c.html#18984"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18984] goto statement jump to opthelp"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18992"
+ , "c1link" : "./qc/apps/nseq.c.html#18992"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18992] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18999"
+ , "c1link" : "./qc/apps/nseq.c.html#18999"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[18999] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19001"
+ , "c1link" : "./qc/apps/nseq.c.html#19001"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18984] The expression  ! opt_check_rest_arg((( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19001] The expression toseq applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18989"
- , "c1link" : "./qc/apps/nseq.c.html#18989"
+   "c1" : "19008"
+ , "c1link" : "./qc/apps/nseq.c.html#19008"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18989] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19008] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18997"
- , "c1link" : "./qc/apps/nseq.c.html#18997"
+   "c1" : "19015"
+ , "c1link" : "./qc/apps/nseq.c.html#19015"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18997] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19015] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19004"
- , "c1link" : "./qc/apps/nseq.c.html#19004"
+   "c1" : "19016"
+ , "c1link" : "./qc/apps/nseq.c.html#19016"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19004] goto statement jump to end"
+ , "c3" : "QC-CPPCWE481[19016] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19006"
- , "c1link" : "./qc/apps/nseq.c.html#19006"
+   "c1" : "19029"
+ , "c1link" : "./qc/apps/nseq.c.html#19029"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19006] The expression toseq applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19029] The expression  ! OPENSSL_sk_push(ossl_check_X509_sk_type(seq-&gt;certs),ossl_check_X509_type(x509)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19013"
- , "c1link" : "./qc/apps/nseq.c.html#19013"
+   "c1" : "19030"
+ , "c1link" : "./qc/apps/nseq.c.html#19030"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19013] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19030] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19020"
- , "c1link" : "./qc/apps/nseq.c.html#19020"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19020] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19021"
- , "c1link" : "./qc/apps/nseq.c.html#19021"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19021] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19034"
- , "c1link" : "./qc/apps/nseq.c.html#19034"
+   "c1" : "19033"
+ , "c1link" : "./qc/apps/nseq.c.html#19033"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19034] The expression  ! OPENSSL_sk_push(ossl_check_X509_sk_type(seq-&gt;certs),ossl_check_X509_type(x509)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19033] The expression  ! OPENSSL_sk_num(ossl_check_const_X509_sk_type(seq-&gt;certs)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19035"
- , "c1link" : "./qc/apps/nseq.c.html#19035"
+   "c1" : "19037"
+ , "c1link" : "./qc/apps/nseq.c.html#19037"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19035] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19037] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19038"
- , "c1link" : "./qc/apps/nseq.c.html#19038"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19038] The expression  ! OPENSSL_sk_num(ossl_check_const_X509_sk_type(seq-&gt;certs)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19042"
- , "c1link" : "./qc/apps/nseq.c.html#19042"
+   "c1" : "19041"
+ , "c1link" : "./qc/apps/nseq.c.html#19041"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19042] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19041] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19046"
- , "c1link" : "./qc/apps/nseq.c.html#19046"
+   "c1" : "19065"
+ , "c1link" : "./qc/apps/nseq.c.html#19065"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19046] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19070"
- , "c1link" : "./qc/apps/nseq.c.html#19070"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19070] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19065] goto statement jump to end"
 }} 
 ]
 };

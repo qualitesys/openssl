@@ -496,17 +496,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10528"
- , "c1link" : "./qc/crypto/bio/ossl_core_bio.c.html#10528"
+   "c1" : "10523"
+ , "c1link" : "./qc/crypto/bio/ossl_core_bio.c.html#10523"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10528] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10523] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10608"
- , "c1link" : "./qc/crypto/bio/ossl_core_bio.c.html#10608"
+   "c1" : "10603"
+ , "c1link" : "./qc/crypto/bio/ossl_core_bio.c.html#10603"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10608] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10603] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

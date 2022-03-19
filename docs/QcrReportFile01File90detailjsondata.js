@@ -454,185 +454,185 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07822"
- , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#7822"
+   "c1" : "07817"
+ , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#7817"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07822] The pointer dest is declared but not initialized"
+ , "c3" : "QC-CPP000014[07817] The pointer dest is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07823"
- , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#7823"
+   "c1" : "07818"
+ , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#7818"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07823] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[07818] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07823"
- , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#7823"
+   "c1" : "07818"
+ , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#7818"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07823] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07818] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07832"
- , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#7832"
+   "c1" : "07827"
+ , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#7827"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07832] The expression  ! mask applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07827] The expression  ! mask applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07933"
- , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#7933"
+   "c1" : "07928"
+ , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#7928"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07933] The expression  ! out applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07928] The expression  ! out applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07935"
- , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#7935"
+   "c1" : "07930"
+ , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#7930"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07935] The expression  * out applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07930] The expression  * out applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07965"
- , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#7965"
+   "c1" : "07960"
+ , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#7960"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07965] The expression  ! ASN1_STRING_set(dest,in,len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07960] The expression  ! ASN1_STRING_set(dest,in,len) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "07994"
+ , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#7994"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07994] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "07999"
  , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#7999"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07999] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08004"
- , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8004"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08004] The expression free_out applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07999] The expression free_out applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08031"
- , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8031"
+   "c1" : "08026"
+ , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8026"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08031] The expression len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08026] The expression len applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08052"
- , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8052"
+   "c1" : "08047"
+ , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8047"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08052] The expression rfunc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08047] The expression rfunc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08067"
- , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8067"
+   "c1" : "08062"
+ , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8062"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08067] The pointer nchar is declared but not initialized"
+ , "c3" : "QC-CPP000014[08062] The pointer nchar is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08069"
- , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8069"
+   "c1" : "08064"
+ , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8064"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08069] The expression  ! is_unicode_valid(value) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08064] The expression  ! is_unicode_valid(value) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08080"
- , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8080"
+   "c1" : "08075"
+ , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8075"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08080] The pointer outlen is declared but not initialized"
+ , "c3" : "QC-CPP000014[08075] The pointer outlen is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08117"
- , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8117"
+   "c1" : "08112"
+ , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8112"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08117] The expression  ! types applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08112] The expression  ! types applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08127"
- , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8127"
+   "c1" : "08122"
+ , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8122"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08127] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[08122] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08127"
- , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8127"
+   "c1" : "08122"
+ , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8122"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08127] The pointer q is declared but not initialized"
+ , "c3" : "QC-CPP000014[08122] The pointer q is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08127"
- , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8127"
+   "c1" : "08122"
+ , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8122"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08127] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08122] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08139"
- , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8139"
+   "c1" : "08134"
+ , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8134"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08139] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[08134] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08139"
- , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8139"
+   "c1" : "08134"
+ , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8134"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08139] The pointer q is declared but not initialized"
+ , "c3" : "QC-CPP000014[08134] The pointer q is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08139"
- , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8139"
+   "c1" : "08134"
+ , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8134"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08139] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08134] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08152"
- , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8152"
+   "c1" : "08147"
+ , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8147"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08152] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[08147] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08152"
- , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8152"
+   "c1" : "08147"
+ , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8147"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08152] The pointer q is declared but not initialized"
+ , "c3" : "QC-CPP000014[08147] The pointer q is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08152"
- , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8152"
+   "c1" : "08147"
+ , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8147"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08152] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08147] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08167"
- , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8167"
+   "c1" : "08162"
+ , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8162"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08167] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[08162] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08167"
- , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8167"
+   "c1" : "08162"
+ , "c1link" : "./qc/crypto/asn1/a_mbstr.c.html#8162"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08167] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08162] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

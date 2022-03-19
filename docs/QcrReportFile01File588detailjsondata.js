@@ -237,6 +237,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "06461"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6461"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06461] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06463"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6463"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06463] The expression  ! __builtin_constant_p(__nbytes) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "06466"
  , "c1link" : "./qc/crypto/property/defn_cache.c.html#6466"
  , "c2" : "BLOCKER"
@@ -244,17 +258,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06468"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#6468"
+   "c1" : "06491"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6491"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06468] The expression  ! __builtin_constant_p(__nbytes) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[06491] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06471"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#6471"
+   "c1" : "06493"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6493"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06471] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[06493] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -265,17 +279,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06498"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#6498"
+   "c1" : "06525"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6525"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06498] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[06525] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06501"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#6501"
+   "c1" : "06527"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6527"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06501] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000011[06527] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -286,17 +300,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06532"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#6532"
+   "c1" : "06551"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6551"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06532] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[06551] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06535"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#6535"
+   "c1" : "06553"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6553"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06535] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000011[06553] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -307,24 +321,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06558"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#6558"
+   "c1" : "06572"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6572"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06558] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[06572] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06561"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#6561"
+   "c1" : "06591"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6591"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06561] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06591] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06577"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#6577"
+   "c1" : "06593"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6593"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06577] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000011[06593] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -335,17 +349,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06598"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#6598"
+   "c1" : "06616"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6616"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06598] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "06601"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#6601"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06601] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06616] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
@@ -356,10 +363,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06626"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#6626"
+   "c1" : "06642"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6642"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06626] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06642] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06644"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6644"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06644] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -370,17 +384,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06649"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#6649"
+   "c1" : "06668"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6668"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06649] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[06668] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06652"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#6652"
+   "c1" : "06670"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6670"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06652] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000011[06670] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -391,17 +405,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06675"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#6675"
+   "c1" : "06695"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6695"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06675] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[06695] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06678"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#6678"
+   "c1" : "06697"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6697"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06678] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000011[06697] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -412,17 +426,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06702"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#6702"
+   "c1" : "06724"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6724"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06702] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[06724] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06705"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#6705"
+   "c1" : "06726"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6726"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06705] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000011[06726] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -433,80 +447,66 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06731"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#6731"
+   "c1" : "08003"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#8003"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08003] The pointer r is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08004"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#8004"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08004] The pointer property_defns is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08037"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#8037"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08037] The pointer old is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08043"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#8043"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08043] The pointer property_defns is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08063"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#8063"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06731] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08063] The expression  ! ossl_lib_ctx_write_lock(ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06734"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#6734"
+   "c1" : "08072"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#8072"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08072] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08091"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#8091"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08091] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08093"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#8093"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06734] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000011[08093] The expression  ! lh_PROPERTY_DEFN_ELEM_error(property_defns) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08008"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#8008"
+   "c1" : "08094"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#8094"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08008] The pointer r is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08009"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#8009"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08009] The pointer property_defns is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08042"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#8042"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08042] The pointer old is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08048"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#8048"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08048] The pointer property_defns is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08068"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#8068"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08068] The expression  ! ossl_lib_ctx_write_lock(ctx) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08077"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#8077"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08077] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08096"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#8096"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08096] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08098"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#8098"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08098] The expression  ! lh_PROPERTY_DEFN_ELEM_error(property_defns) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08099"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#8099"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08099] goto statement jump to end"
+ , "c3" : "QC-CPP000007[08094] goto statement jump to end"
 }} 
 ]
 };

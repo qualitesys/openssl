@@ -454,45 +454,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15390"
- , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15390"
+   "c1" : "15385"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15385"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15390] The pointer policy is declared but not initialized"
+ , "c3" : "QC-CPP000014[15385] The pointer policy is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15392"
- , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15392"
+   "c1" : "15387"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15387"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15392] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15387] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15393"
- , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15393"
+   "c1" : "15388"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15388"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15393] goto statement jump to bad_policy"
+ , "c3" : "QC-CPP000007[15388] goto statement jump to bad_policy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15405"
- , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15405"
+   "c1" : "15400"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15400"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15405] goto statement jump to just_cleanup"
+ , "c3" : "QC-CPP000007[15400] goto statement jump to just_cleanup"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15424"
- , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15424"
+   "c1" : "15419"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15419"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15424] goto statement jump to just_cleanup"
+ , "c3" : "QC-CPP000007[15419] goto statement jump to just_cleanup"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15430"
- , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15430"
+   "c1" : "15425"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15425"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15430] The expression cache-&gt;anyPolicy applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15425] The expression cache-&gt;anyPolicy applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15427"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15427"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15427] goto statement jump to bad_policy"
 }} 
 ,
 { "ligne" : {
@@ -503,164 +510,157 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15437"
- , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15437"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15437] goto statement jump to bad_policy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15438"
- , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15438"
+   "c1" : "15433"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15433"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15438] The expression  ! sk_X509_POLICY_DATA_push(cache-&gt;data,data) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15433] The expression  ! sk_X509_POLICY_DATA_push(cache-&gt;data,data) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15444"
- , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15444"
+   "c1" : "15439"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15439"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15444] goto statement jump to bad_policy"
+ , "c3" : "QC-CPP000007[15439] goto statement jump to bad_policy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15473"
- , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15473"
+   "c1" : "15468"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15468"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15473] The pointer cache is declared but not initialized"
+ , "c3" : "QC-CPP000014[15468] The pointer cache is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15541"
- , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15541"
+   "c1" : "15536"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15536"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15541] The expression  ! ext_pcons applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15536] The expression  ! ext_pcons applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15538"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15538"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15538] goto statement jump to bad_cache"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15542"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15542"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15542] goto statement jump to bad_cache"
 }} 
 ,
 { "ligne" : {
    "c1" : "15543"
  , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15543"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15543] goto statement jump to bad_cache"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15543] The expression  ! policy_cache_set_int( &amp; cache-&gt;explicit_skip,ext_pcons-&gt;requireExplicitPolicy) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15547"
- , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15547"
+   "c1" : "15545"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15545"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15547] goto statement jump to bad_cache"
+ , "c3" : "QC-CPP000007[15545] goto statement jump to bad_cache"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15546"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15546"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15546] The expression  ! policy_cache_set_int( &amp; cache-&gt;map_skip,ext_pcons-&gt;inhibitPolicyMapping) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "15548"
  , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15548"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15548] goto statement jump to bad_cache"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15562"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15562"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15548] The expression  ! policy_cache_set_int( &amp; cache-&gt;explicit_skip,ext_pcons-&gt;requireExplicitPolicy) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15562] The expression  ! ext_cpols applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15550"
- , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15550"
+   "c1" : "15565"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15565"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15550] goto statement jump to bad_cache"
+ , "c3" : "QC-CPP000007[15565] goto statement jump to bad_cache"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15551"
- , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15551"
+   "c1" : "15582"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15582"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15551] The expression  ! policy_cache_set_int( &amp; cache-&gt;map_skip,ext_pcons-&gt;inhibitPolicyMapping) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15582] The expression  ! ext_pmaps applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15553"
- , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15553"
+   "c1" : "15585"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15585"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15553] goto statement jump to bad_cache"
+ , "c3" : "QC-CPP000007[15585] goto statement jump to bad_cache"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15567"
- , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15567"
+   "c1" : "15589"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15589"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15589] goto statement jump to bad_cache"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15598"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15598"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15567] The expression  ! ext_cpols applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15598] The expression  ! ext_any applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15570"
- , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15570"
+   "c1" : "15600"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15600"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15570] goto statement jump to bad_cache"
+ , "c3" : "QC-CPP000007[15600] goto statement jump to bad_cache"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15587"
- , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15587"
+   "c1" : "15601"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15601"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15587] The expression  ! ext_pmaps applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15601] The expression  ! policy_cache_set_int( &amp; cache-&gt;any_skip,ext_any) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15590"
- , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15590"
+   "c1" : "15602"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15602"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15590] goto statement jump to bad_cache"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15594"
- , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15594"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15594] goto statement jump to bad_cache"
+ , "c3" : "QC-CPP000007[15602] goto statement jump to bad_cache"
 }} 
 ,
 { "ligne" : {
    "c1" : "15603"
  , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15603"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15603] The expression  ! ext_any applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15605"
- , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15605"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15605] goto statement jump to bad_cache"
+ , "c3" : "QC-CPP000007[15603] goto statement jump to just_cleanup"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15606"
- , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15606"
+   "c1" : "15617"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15617"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15606] The expression  ! policy_cache_set_int( &amp; cache-&gt;any_skip,ext_any) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15617] The expression  ! cache applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15607"
- , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15607"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15607] goto statement jump to bad_cache"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15608"
- , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15608"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15608] goto statement jump to just_cleanup"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15622"
- , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15622"
+   "c1" : "15632"
+ , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15632"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15622] The expression  ! cache applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15637"
- , "c1link" : "./qc/crypto/x509/pcy_cache.c.html#15637"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15637] The expression  ! CRYPTO_THREAD_write_lock(x-&gt;lock) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15632] The expression  ! CRYPTO_THREAD_write_lock(x-&gt;lock) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

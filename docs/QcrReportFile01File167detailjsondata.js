@@ -482,31 +482,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10539"
- , "c1link" : "./qc/crypto/bio/bio_sock2.c.html#10539"
+   "c1" : "10536"
+ , "c1link" : "./qc/crypto/bio/bio_sock2.c.html#10536"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10539] The expression  ! BIO_socket_nbio(sock,(options&amp;0x08)!=0) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10536] The expression  ! BIO_socket_nbio(sock,(options&amp;0x08)!=0) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10545"
- , "c1link" : "./qc/crypto/bio/bio_sock2.c.html#10545"
+   "c1" : "10542"
+ , "c1link" : "./qc/crypto/bio/bio_sock2.c.html#10542"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10545] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[10542] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10549"
- , "c1link" : "./qc/crypto/bio/bio_sock2.c.html#10549"
+   "c1" : "10546"
+ , "c1link" : "./qc/crypto/bio/bio_sock2.c.html#10546"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10549] The expression 9 is invariable"
+ , "c3" : "QC-CPP000012[10546] The expression 9 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10575"
- , "c1link" : "./qc/crypto/bio/bio_sock2.c.html#10575"
+   "c1" : "10572"
+ , "c1link" : "./qc/crypto/bio/bio_sock2.c.html#10572"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10575] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[10572] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {

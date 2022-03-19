@@ -440,59 +440,59 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14738"
+ , "c1link" : "./qc/crypto/asn1/t_bitst.c.html#14738"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14738] The pointer bnam is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14741"
+ , "c1link" : "./qc/crypto/asn1/t_bitst.c.html#14741"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14741] The expression bnam-&gt;lname applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14742"
+ , "c1link" : "./qc/crypto/asn1/t_bitst.c.html#14742"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14742] The expression ASN1_BIT_STRING_get_bit(bs,bnam-&gt;bitnum) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "14743"
  , "c1link" : "./qc/crypto/asn1/t_bitst.c.html#14743"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14743] The expression  ! first applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14760"
+ , "c1link" : "./qc/crypto/asn1/t_bitst.c.html#14760"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14760] The expression bs applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14761"
+ , "c1link" : "./qc/crypto/asn1/t_bitst.c.html#14761"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14761] The expression  ! ASN1_BIT_STRING_set_bit(bs,bitnum,value) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "14769"
+ , "c1link" : "./qc/crypto/asn1/t_bitst.c.html#14769"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14743] The pointer bnam is declared but not initialized"
+ , "c3" : "QC-CPP000014[14769] The pointer bnam is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14746"
- , "c1link" : "./qc/crypto/asn1/t_bitst.c.html#14746"
+   "c1" : "14770"
+ , "c1link" : "./qc/crypto/asn1/t_bitst.c.html#14770"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14746] The expression bnam-&gt;lname applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14747"
- , "c1link" : "./qc/crypto/asn1/t_bitst.c.html#14747"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14747] The expression ASN1_BIT_STRING_get_bit(bs,bnam-&gt;bitnum) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14748"
- , "c1link" : "./qc/crypto/asn1/t_bitst.c.html#14748"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14748] The expression  ! first applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14765"
- , "c1link" : "./qc/crypto/asn1/t_bitst.c.html#14765"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14765] The expression bs applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14766"
- , "c1link" : "./qc/crypto/asn1/t_bitst.c.html#14766"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14766] The expression  ! ASN1_BIT_STRING_set_bit(bs,bitnum,value) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14774"
- , "c1link" : "./qc/crypto/asn1/t_bitst.c.html#14774"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14774] The pointer bnam is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14775"
- , "c1link" : "./qc/crypto/asn1/t_bitst.c.html#14775"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14775] The expression bnam-&gt;lname applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14770] The expression bnam-&gt;lname applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

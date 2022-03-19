@@ -454,192 +454,192 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09960"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#9960"
+   "c1" : "09955"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#9955"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09960] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09955] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16133"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16133"
+   "c1" : "16128"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16128"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16133] The pointer tty_in is declared but not initialized"
+ , "c3" : "QC-CPP000014[16128] The pointer tty_in is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16133"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16133"
+   "c1" : "16128"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16128"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16133] The pointer tty_out is declared but not initialized"
+ , "c3" : "QC-CPP000014[16128] The pointer tty_out is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16198"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16198"
+   "c1" : "16193"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16193"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16198] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16193] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16224"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16224"
+   "c1" : "16219"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16219"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16224] The expression  ! fgets(buf,4,in) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16219] The expression  ! fgets(buf,4,in) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16224"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16224"
+   "c1" : "16219"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16219"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16224] The expression 4 is invariable"
+ , "c3" : "QC-CPP000012[16219] The expression 4 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16226"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16226"
+   "c1" : "16221"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16221"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16226] The expression '\n' is invariable"
+ , "c3" : "QC-CPP000012[16221] The expression '\n' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16267"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16267"
+   "c1" : "16262"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16262"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16267] goto statement jump to error"
+ , "c3" : "QC-CPP000007[16262] goto statement jump to error"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16273"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16273"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16273] goto statement jump to error"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16274"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16274"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16274] The expression feof(tty_in) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16275"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16275"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16275] goto statement jump to error"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16276"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16276"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16276] The expression ferror(tty_in) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16277"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16277"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16277] goto statement jump to error"
 }} 
 ,
 { "ligne" : {
    "c1" : "16278"
  , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16278"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16278] goto statement jump to error"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16279"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16279"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16279] The expression feof(tty_in) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16280"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16280"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16280] goto statement jump to error"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16281"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16281"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16281] The expression ferror(tty_in) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16282"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16282"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16282] goto statement jump to error"
+ , "c3" : "QC-CPPCWE481[16278] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "16283"
  , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16283"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16283] The expression strip_nl applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16285"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16285"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16285] The expression  ! read_till_nl(tty_in) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16286"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16286"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16283] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[16286] goto statement jump to error"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16288"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16288"
+   "c1" : "16297"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16297"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16288] The expression strip_nl applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16297] The expression echo_eol applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16290"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16290"
+   "c1" : "16319"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16319"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16290] The expression  ! read_till_nl(tty_in) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16319] The expression  ! CRYPTO_THREAD_write_lock(ui-&gt;lock) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16291"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16291"
+   "c1" : "16323"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16323"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16291] goto statement jump to error"
+ , "c3" : "QC-CPPCWE481[16323] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16302"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16302"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16302] The expression echo_eol applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16324"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16324"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16324] The expression  ! CRYPTO_THREAD_write_lock(ui-&gt;lock) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16328"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16328"
+   "c1" : "16333"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16333"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16328] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16333] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16338"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16338"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16338] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16355"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16355"
+   "c1" : "16350"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16350"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16355] The expression  * __errno_location() applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16350] The expression  * __errno_location() applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16372"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16372"
+   "c1" : "16367"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16367"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16372] The expression  * __errno_location() applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16367] The expression  * __errno_location() applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16389"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16389"
+   "c1" : "16384"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16384"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16389] The expression  * __errno_location() applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16384] The expression  * __errno_location() applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16406"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16406"
+   "c1" : "16401"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16401"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16406] The expression  * __errno_location() applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16401] The expression  * __errno_location() applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16424"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16424"
+   "c1" : "16419"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16419"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16424] The expression  * __errno_location() applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16419] The expression  * __errno_location() applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16441"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16441"
+   "c1" : "16436"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16436"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16441] The expression  * __errno_location() applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16436] The expression  * __errno_location() applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

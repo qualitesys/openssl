@@ -454,87 +454,87 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15352"
- , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15352"
+   "c1" : "15347"
+ , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15347"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15352] The pointer pt is declared but not initialized"
+ , "c3" : "QC-CPP000014[15347] The pointer pt is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15368"
- , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15368"
+   "c1" : "15363"
+ , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15363"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15368] The expression  ! trtable applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15363] The expression  ! trtable applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15424"
- , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15424"
+   "c1" : "15419"
+ , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15419"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15424] The pointer trtmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[15419] The pointer trtmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15435"
- , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15435"
+   "c1" : "15430"
+ , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15430"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15435] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15430] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15455"
- , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15455"
+   "c1" : "15450"
+ , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15450"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15455] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15450] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15465"
- , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15465"
+   "c1" : "15460"
+ , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15460"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15465] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15460] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15484"
- , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15484"
+   "c1" : "15479"
+ , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15479"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15484] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15479] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15494"
- , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15494"
+   "c1" : "15489"
+ , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15489"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15494] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15489] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15496"
- , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15496"
+   "c1" : "15491"
+ , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15491"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15496] The expression  ! OPENSSL_sk_push(ossl_check_X509_TRUST_sk_type(trtable),ossl_check_X509_TRUST_type(trtmp)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15491] The expression  ! OPENSSL_sk_push(ossl_check_X509_TRUST_sk_type(trtable),ossl_check_X509_TRUST_type(trtmp)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15502"
- , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15502"
+   "c1" : "15497"
+ , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15497"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15502] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15497] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15580"
- , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15580"
+   "c1" : "15575"
+ , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15575"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15580] The expression  - 1 is invariable"
+ , "c3" : "QC-CPP000012[15575] The expression  - 1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15580"
- , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15580"
+   "c1" : "15575"
+ , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15575"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15580] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[15575] The expression 0 is invariable, always false"
 }} 
 ]
 };

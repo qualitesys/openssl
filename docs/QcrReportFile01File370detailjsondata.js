@@ -468,136 +468,136 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11898"
- , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#11898"
+   "c1" : "11893"
+ , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#11893"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11898] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[11893] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11909"
- , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#11909"
+   "c1" : "11904"
+ , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#11904"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11909] The pointer priv_key is declared but not initialized"
+ , "c3" : "QC-CPP000014[11904] The pointer priv_key is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11910"
- , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#11910"
+   "c1" : "11905"
+ , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#11905"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11910] The pointer group is declared but not initialized"
+ , "c3" : "QC-CPP000014[11905] The pointer group is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11913"
- , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#11913"
+   "c1" : "11908"
+ , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#11908"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11913] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11908] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11914"
+ , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#11914"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[11914] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "11919"
  , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#11919"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11919] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[11919] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11924"
- , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#11924"
+   "c1" : "11932"
+ , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#11932"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11924] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11932] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11937"
- , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#11937"
+   "c1" : "11946"
+ , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#11946"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11937] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11946] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11951"
- , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#11951"
+   "c1" : "11967"
+ , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#11967"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11951] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11967] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "11972"
  , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#11972"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11972] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[11972] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11977"
- , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#11977"
+   "c1" : "11982"
+ , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#11982"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11977] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[11982] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11987"
- , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#11987"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11987] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11990"
- , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#11990"
+   "c1" : "11985"
+ , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#11985"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11990] The expression  ! EC_POINT_mul(group,tmp,(( void  *)0),pub_key,priv_key,ctx) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11985] The expression  ! EC_POINT_mul(group,tmp,(( void  *)0),pub_key,priv_key,ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12000"
- , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#12000"
+   "c1" : "11995"
+ , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#11995"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12000] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11995] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12008"
- , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#12008"
+   "c1" : "12003"
+ , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#12003"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12008] The expression  ! EC_POINT_get_affine_coordinates(group,tmp,x,(( void  *)0),ctx) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[12003] The expression  ! EC_POINT_get_affine_coordinates(group,tmp,x,(( void  *)0),ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12018"
- , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#12018"
+   "c1" : "12013"
+ , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#12013"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12018] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12013] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12033"
- , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#12033"
+   "c1" : "12028"
+ , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#12028"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12033] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12028] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12035"
- , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#12035"
+   "c1" : "12030"
+ , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#12030"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12035] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12030] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12045"
- , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#12045"
+   "c1" : "12040"
+ , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#12040"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12045] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12040] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12055"
- , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#12055"
+   "c1" : "12050"
+ , "c1link" : "./qc/crypto/ec/ecdh_ossl.c.html#12050"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12055] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12050] goto statement jump to err"
 }} 
 ]
 };

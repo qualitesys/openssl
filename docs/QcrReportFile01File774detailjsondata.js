@@ -244,80 +244,87 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "06734"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6734"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06734] The pointer c_new_error is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06735"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6735"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06735] The pointer c_set_error_debug is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06736"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6736"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06736] The pointer c_vset_error is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06737"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6737"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06737] The pointer c_set_error_mark is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06738"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6738"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06738] The pointer c_clear_last_error_mark is declared but not initialized"
+}} 
+,
+{ "ligne" : {
    "c1" : "06739"
  , "c1link" : "./qc/providers/legacyprov.c.html#6739"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06739] The pointer c_new_error is declared but not initialized"
+ , "c3" : "QC-CPP000014[06739] The pointer c_pop_error_to_mark is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06740"
- , "c1link" : "./qc/providers/legacyprov.c.html#6740"
+   "c1" : "06782"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6782"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06740] The pointer c_set_error_debug is declared but not initialized"
+ , "c3" : "QC-CPP000014[06782] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06741"
- , "c1link" : "./qc/providers/legacyprov.c.html#6741"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06741] The pointer c_vset_error is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06742"
- , "c1link" : "./qc/providers/legacyprov.c.html#6742"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06742] The pointer c_set_error_mark is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06743"
- , "c1link" : "./qc/providers/legacyprov.c.html#6743"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06743] The pointer c_clear_last_error_mark is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06744"
- , "c1link" : "./qc/providers/legacyprov.c.html#6744"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06744] The pointer c_pop_error_to_mark is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06787"
- , "c1link" : "./qc/providers/legacyprov.c.html#6787"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06787] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06794"
- , "c1link" : "./qc/providers/legacyprov.c.html#6794"
+   "c1" : "06789"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6789"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06794] The expression 'OpenSSL Legacy Provider' is invariable"
+ , "c3" : "QC-CPP000012[06789] The expression 'OpenSSL Legacy Provider' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06801"
- , "c1link" : "./qc/providers/legacyprov.c.html#6801"
+   "c1" : "06796"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6796"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06801] The expression '3.1.0' is invariable"
+ , "c3" : "QC-CPP000012[06796] The expression '3.1.0' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06808"
- , "c1link" : "./qc/providers/legacyprov.c.html#6808"
+   "c1" : "06803"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6803"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06808] The expression '3.1.0-dev' is invariable"
+ , "c3" : "QC-CPP000012[06803] The expression '3.1.0-dev' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06980"
- , "c1link" : "./qc/providers/legacyprov.c.html#6980"
+   "c1" : "06975"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6975"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06980] The pointer tmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[06975] The pointer tmp is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07034"
+ , "c1link" : "./qc/providers/legacyprov.c.html#7034"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07034] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -325,13 +332,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/legacyprov.c.html#7039"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[07039] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07044"
- , "c1link" : "./qc/providers/legacyprov.c.html#7044"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07044] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

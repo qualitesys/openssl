@@ -237,24 +237,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08159"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#8159"
+   "c1" : "08154"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#8154"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08159] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[08154] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08510"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#8510"
+   "c1" : "08505"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#8505"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08510] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08505] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08511"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#8511"
+   "c1" : "08506"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#8506"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08511] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08506] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09868"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#9868"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09868] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09870"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#9870"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09870] The expression  ! __builtin_constant_p(__nbytes) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -265,17 +279,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09875"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#9875"
+   "c1" : "09898"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#9898"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09875] The expression  ! __builtin_constant_p(__nbytes) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[09898] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09878"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#9878"
+   "c1" : "09900"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#9900"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09878] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[09900] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -286,17 +300,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09905"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#9905"
+   "c1" : "09932"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#9932"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09905] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[09932] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09908"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#9908"
+   "c1" : "09934"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#9934"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09908] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000011[09934] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -307,17 +321,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09939"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#9939"
+   "c1" : "09958"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#9958"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09939] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[09958] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09942"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#9942"
+   "c1" : "09960"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#9960"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09942] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000011[09960] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -328,24 +342,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09965"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#9965"
+   "c1" : "09979"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#9979"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09965] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[09979] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09968"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#9968"
+   "c1" : "09998"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#9998"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09968] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09998] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09984"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#9984"
+   "c1" : "10000"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#10000"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09984] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000011[10000] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -356,17 +370,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10005"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#10005"
+   "c1" : "10023"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#10023"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10005] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "10008"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#10008"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10008] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10023] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
@@ -377,10 +384,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10033"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#10033"
+   "c1" : "10049"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#10049"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10033] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10049] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10051"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#10051"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10051] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -391,17 +405,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10056"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#10056"
+   "c1" : "10075"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#10075"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10056] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[10075] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10059"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#10059"
+   "c1" : "10077"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#10077"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10059] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000011[10077] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -412,17 +426,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10082"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#10082"
+   "c1" : "10102"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#10102"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10082] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[10102] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10085"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#10085"
+   "c1" : "10104"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#10104"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10085] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000011[10104] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -433,17 +447,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10109"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#10109"
+   "c1" : "10131"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#10131"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10109] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[10131] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10112"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#10112"
+   "c1" : "10133"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#10133"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10112] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000011[10133] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -454,31 +468,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10138"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#10138"
+   "c1" : "10633"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#10633"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10138] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10633] The expression aead applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10141"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#10141"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10141] The expression 2&gt;1 is invariable"
+   "c1" : "10679"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#10679"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10679] The pointer rotated_mac is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10638"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#10638"
+   "c1" : "10679"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#10679"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10638] The expression aead applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[10679] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "10684"
  , "c1link" : "./qc/ssl/record/tls_pad.c.html#10684"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10684] The pointer rotated_mac is declared but not initialized"
+ , "c3" : "QC-CPP000014[10684] The pointer out is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -489,31 +503,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10689"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#10689"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10689] The pointer out is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10689"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#10689"
+   "c1" : "10732"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#10732"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10689] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[10732] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10737"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#10737"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10737] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10750"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#10750"
+   "c1" : "10745"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#10745"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10750] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10745] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

@@ -2372,10 +2372,10 @@
 <a name="2372">2372&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;((plaintext&nbsp;+&nbsp;12)[0]&nbsp;=&nbsp;(u8)((s1)&nbsp;&gt;&gt;&nbsp;24),&nbsp;(plaintext&nbsp;+&nbsp;12)[1]&nbsp;=&nbsp;(u8)((s1)&nbsp;&gt;&gt;&nbsp;16),&nbsp;(plaintext&nbsp;+&nbsp;12)[2]&nbsp;=&nbsp;(u8)((s1)&nbsp;&gt;&gt;&nbsp;8),&nbsp;(plaintext&nbsp;+&nbsp;12)[3]&nbsp;=&nbsp;(u8)(s1));</a><br/>
 <a name="2373">2373&nbsp;&nbsp;&nbsp;}</a><br/>
 <a name="2374">2374&nbsp;&nbsp;&nbsp;</a><br/>
-<a name="2375">2375&nbsp;&nbsp;&nbsp;void&nbsp;Camellia_DecryptBlock(int&nbsp;keyBitLength,&nbsp;const&nbsp;u8&nbsp;plaintext[],</a><br/>
-<a name="2376">2376&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const&nbsp;KEY_TABLE_TYPE&nbsp;keyTable,&nbsp;u8&nbsp;ciphertext[])</a><br/>
+<a name="2375">2375&nbsp;&nbsp;&nbsp;void&nbsp;Camellia_DecryptBlock(int&nbsp;keyBitLength,&nbsp;const&nbsp;u8&nbsp;ciphertext[],</a><br/>
+<a name="2376">2376&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const&nbsp;KEY_TABLE_TYPE&nbsp;keyTable,&nbsp;u8&nbsp;plaintext[])</a><br/>
 <a name="2377">2377&nbsp;&nbsp;&nbsp;{</a><br/>
 <a name="2378">2378&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Camellia_DecryptBlock_Rounds(keyBitLength&nbsp;==&nbsp;128&nbsp;?&nbsp;3&nbsp;:&nbsp;4,</a><br/>
-<a name="2379">2379&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;plaintext,&nbsp;keyTable,&nbsp;ciphertext);</a><br/>
+<a name="2379">2379&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ciphertext,&nbsp;keyTable,&nbsp;plaintext);</a><br/>
 <a name="2380">2380&nbsp;&nbsp;&nbsp;}</a><br/>
 <a name="2381">2381&nbsp;&nbsp;&nbsp;</a><br/></FONT</body></html>

@@ -454,24 +454,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08743"
- , "c1link" : "./qc/providers/common/bio_prov.c.html#8743"
+   "c1" : "08738"
+ , "c1link" : "./qc/providers/common/bio_prov.c.html#8738"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08743] The pointer outbio is declared but not initialized"
+ , "c3" : "QC-CPP000014[08738] The pointer outbio is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08757"
- , "c1link" : "./qc/providers/common/bio_prov.c.html#8757"
+   "c1" : "08752"
+ , "c1link" : "./qc/providers/common/bio_prov.c.html#8752"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08757] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08752] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08767"
- , "c1link" : "./qc/providers/common/bio_prov.c.html#8767"
+   "c1" : "08762"
+ , "c1link" : "./qc/providers/common/bio_prov.c.html#8762"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08767] The expression  ! ossl_prov_bio_up_ref(corebio) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08762] The expression  ! ossl_prov_bio_up_ref(corebio) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

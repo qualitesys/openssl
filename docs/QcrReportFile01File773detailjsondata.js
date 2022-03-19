@@ -244,38 +244,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08999"
- , "c1link" : "./qc/providers/defltprov.c.html#8999"
+   "c1" : "08994"
+ , "c1link" : "./qc/providers/defltprov.c.html#8994"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08999] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[08994] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09006"
- , "c1link" : "./qc/providers/defltprov.c.html#9006"
+   "c1" : "09001"
+ , "c1link" : "./qc/providers/defltprov.c.html#9001"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09006] The expression 'OpenSSL Default Provider' is invariable"
+ , "c3" : "QC-CPP000012[09001] The expression 'OpenSSL Default Provider' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09013"
- , "c1link" : "./qc/providers/defltprov.c.html#9013"
+   "c1" : "09008"
+ , "c1link" : "./qc/providers/defltprov.c.html#9008"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09013] The expression '3.1.0' is invariable"
+ , "c3" : "QC-CPP000012[09008] The expression '3.1.0' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09020"
- , "c1link" : "./qc/providers/defltprov.c.html#9020"
+   "c1" : "09015"
+ , "c1link" : "./qc/providers/defltprov.c.html#9015"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09020] The expression '3.1.0-dev' is invariable"
+ , "c3" : "QC-CPP000012[09015] The expression '3.1.0-dev' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10366"
- , "c1link" : "./qc/providers/defltprov.c.html#10366"
+   "c1" : "10361"
+ , "c1link" : "./qc/providers/defltprov.c.html#10361"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10366] The pointer corebiometh is declared but not initialized"
+ , "c3" : "QC-CPP000014[10361] The pointer corebiometh is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10390"
+ , "c1link" : "./qc/providers/defltprov.c.html#10390"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10390] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -283,13 +290,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/defltprov.c.html#10395"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[10395] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10400"
- , "c1link" : "./qc/providers/defltprov.c.html#10400"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10400] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

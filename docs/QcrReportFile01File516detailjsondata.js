@@ -447,31 +447,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07819"
- , "c1link" : "./qc/crypto/mem.c.html#7819"
+   "c1" : "07814"
+ , "c1link" : "./qc/crypto/mem.c.html#7814"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07819] The expression  ! allow_customize applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07814] The expression  ! allow_customize applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07880"
- , "c1link" : "./qc/crypto/mem.c.html#7880"
+   "c1" : "07875"
+ , "c1link" : "./qc/crypto/mem.c.html#7875"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07880] The expression allow_customize applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07875] The expression allow_customize applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07894"
- , "c1link" : "./qc/crypto/mem.c.html#7894"
+   "c1" : "07889"
+ , "c1link" : "./qc/crypto/mem.c.html#7889"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07894] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[07889] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07996"
- , "c1link" : "./qc/crypto/mem.c.html#7996"
+   "c1" : "07991"
+ , "c1link" : "./qc/crypto/mem.c.html#7991"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07996] The expression num applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07991] The expression num applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

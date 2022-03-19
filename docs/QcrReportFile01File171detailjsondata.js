@@ -496,24 +496,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11244"
- , "c1link" : "./qc/crypto/bio/bss_core.c.html#11244"
+   "c1" : "11239"
+ , "c1link" : "./qc/crypto/bio/bss_core.c.html#11239"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11244] The pointer outbio is declared but not initialized"
+ , "c3" : "QC-CPP000014[11239] The pointer outbio is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11267"
- , "c1link" : "./qc/crypto/bio/bss_core.c.html#11267"
+   "c1" : "11262"
+ , "c1link" : "./qc/crypto/bio/bss_core.c.html#11262"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11267] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11262] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11278"
- , "c1link" : "./qc/crypto/bio/bss_core.c.html#11278"
+   "c1" : "11273"
+ , "c1link" : "./qc/crypto/bio/bss_core.c.html#11273"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11278] The expression  ! bcgbl-&gt;c_bio_up_ref(corebio) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11273] The expression  ! bcgbl-&gt;c_bio_up_ref(corebio) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

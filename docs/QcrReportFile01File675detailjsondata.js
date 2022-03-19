@@ -447,24 +447,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15395"
- , "c1link" : "./qc/crypto/ts/ts_rsp_print.c.html#15395"
+   "c1" : "15390"
+ , "c1link" : "./qc/crypto/ts/ts_rsp_print.c.html#15390"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15395] The expression ASN1_BIT_STRING_get_bit(v,a-&gt;bit) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15390] The expression ASN1_BIT_STRING_get_bit(v,a-&gt;bit) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15471"
- , "c1link" : "./qc/crypto/ts/ts_rsp_print.c.html#15471"
+   "c1" : "15466"
+ , "c1link" : "./qc/crypto/ts/ts_rsp_print.c.html#15466"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15471] The pointer nval is declared but not initialized"
+ , "c3" : "QC-CPP000014[15466] The pointer nval is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15472"
- , "c1link" : "./qc/crypto/ts/ts_rsp_print.c.html#15472"
+   "c1" : "15467"
+ , "c1link" : "./qc/crypto/ts/ts_rsp_print.c.html#15467"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15472] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15467] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

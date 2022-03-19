@@ -447,24 +447,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08078"
- , "c1link" : "./qc/crypto/param_build_set.c.html#8078"
+   "c1" : "08073"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#8073"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08078] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[08073] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08091"
- , "c1link" : "./qc/crypto/param_build_set.c.html#8091"
+   "c1" : "08086"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#8086"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08091] The expression  ! OSSL_PARAM_BLD_push_BN(bld,names[i],sk_BIGNUM_const_value(stk,i)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08086] The expression  ! OSSL_PARAM_BLD_push_BN(bld,names[i],sk_BIGNUM_const_value(stk,i)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08109"
- , "c1link" : "./qc/crypto/param_build_set.c.html#8109"
+   "c1" : "08104"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#8104"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08109] The expression  ! OSSL_PARAM_set_BN(p,sk_BIGNUM_const_value(stk,i)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08104] The expression  ! OSSL_PARAM_set_BN(p,sk_BIGNUM_const_value(stk,i)) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

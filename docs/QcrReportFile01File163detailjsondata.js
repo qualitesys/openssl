@@ -503,297 +503,297 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10564"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#10564"
+   "c1" : "10559"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#10559"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10564] The expression  ! CRYPTO_new_ex_data(12,bio, &amp; bio-&gt;ex_data) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10559] The expression  ! CRYPTO_new_ex_data(12,bio, &amp; bio-&gt;ex_data) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10564"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#10564"
+   "c1" : "10559"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#10559"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10564] The expression 12 is invariable"
+ , "c3" : "QC-CPP000012[10559] The expression 12 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10565"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#10565"
+   "c1" : "10560"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#10560"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10565] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10560] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10579"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#10579"
+   "c1" : "10574"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#10574"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10579] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10574] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10594"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#10594"
+   "c1" : "10589"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#10589"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10594] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10589] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10836"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#10836"
+   "c1" : "10831"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#10831"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10836] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10831] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10844"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#10844"
+   "c1" : "10839"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#10839"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10844] The expression  ! b-&gt;init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10839] The expression  ! b-&gt;init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10955"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#10955"
+   "c1" : "10950"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#10950"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10955] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10950] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10963"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#10963"
+   "c1" : "10958"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#10958"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10963] The expression  ! b-&gt;init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10958] The expression  ! b-&gt;init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11078"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11078"
+   "c1" : "11073"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11073"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11078] The expression  ! b-&gt;init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11073] The expression  ! b-&gt;init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11184"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11184"
+   "c1" : "11179"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11179"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11184] The expression  ! b-&gt;init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11179] The expression  ! b-&gt;init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11262"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11262"
+   "c1" : "11257"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11257"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11262] The expression  ! bio-&gt;init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11257] The expression  ! bio-&gt;init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11271"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11271"
+   "c1" : "11266"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11266"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11271] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11266] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11288"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11288"
+   "c1" : "11283"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11283"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11288] The expression indent-- applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11283] The expression indent-- applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11289"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11289"
+   "c1" : "11284"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11284"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11289] The expression ' ' is invariable"
+ , "c3" : "QC-CPP000012[11284] The expression ' ' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11480"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11480"
+   "c1" : "11475"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11475"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11480] The pointer lb is declared but not initialized"
+ , "c3" : "QC-CPP000014[11475] The pointer lb is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11510"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11510"
+   "c1" : "11505"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11505"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11510] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[11505] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11554"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11554"
+   "c1" : "11549"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11549"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11554] The pointer b is declared but not initialized"
+ , "c3" : "QC-CPP000014[11549] The pointer b is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11554"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11554"
+   "c1" : "11549"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11549"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11554] The pointer last is declared but not initialized"
+ , "c3" : "QC-CPP000014[11549] The pointer last is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11556"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11556"
+   "c1" : "11551"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11551"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11556] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11551] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11557"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11557"
+   "c1" : "11552"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11552"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[11557] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[11552] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11557"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11557"
+   "c1" : "11552"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11552"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[11557] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[11552] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11558"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11558"
+   "c1" : "11553"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11553"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11558] The expression  ! BIO_test_flags(b,0x08) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11553] The expression  ! BIO_test_flags(b,0x08) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11558"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11558"
+   "c1" : "11553"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11553"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11558] The expression 0x08 is invariable"
+ , "c3" : "QC-CPP000012[11553] The expression 0x08 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11617"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11617"
+   "c1" : "11612"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11612"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11617] The expression  ! mask applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11612] The expression  ! mask applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11659"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11659"
+   "c1" : "11654"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11654"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11659] The pointer b is declared but not initialized"
+ , "c3" : "QC-CPP000014[11654] The pointer b is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11687"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11687"
+   "c1" : "11682"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11682"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11687] The pointer bio is declared but not initialized"
+ , "c3" : "QC-CPP000014[11682] The pointer bio is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11687"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11687"
+   "c1" : "11682"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11682"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11687] The pointer new_bio is declared but not initialized"
+ , "c3" : "QC-CPP000014[11682] The pointer new_bio is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11689"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11689"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[11689] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "11694"
  , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11694"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11694] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[11694] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11699"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11699"
+   "c1" : "11707"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11707"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[11707] The expression  ! BIO_ctrl(bio,12,0,( char  *)(( char  *)new_bio)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "11707"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11707"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[11707] The expression 12 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11707"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11707"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[11707] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11709"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11709"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11699] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11709] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11712"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11712"
+   "c1" : "11713"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11713"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11712] The expression  ! BIO_ctrl(bio,12,0,( char  *)(( char  *)new_bio)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11713] The expression  ! CRYPTO_dup_ex_data(12, &amp; new_bio-&gt;ex_data, &amp; bio-&gt;ex_data) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11712"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11712"
+   "c1" : "11713"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11713"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11712] The expression 12 is invariable"
+ , "c3" : "QC-CPP000012[11713] The expression 12 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11712"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11712"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11712] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11714"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11714"
+   "c1" : "11716"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11716"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11714] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11716] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11718"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11718"
+   "c1" : "11760"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11760"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11718] The expression  ! CRYPTO_dup_ex_data(12, &amp; new_bio-&gt;ex_data, &amp; bio-&gt;ex_data) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11760] The expression bio applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11718"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11718"
+   "c1" : "11767"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11767"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11718] The expression 12 is invariable"
+ , "c3" : "QC-CPP000011[11767] The expression bio applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11721"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11721"
+   "c1" : "11808"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11808"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[11808] The expression 105 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11808"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11808"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[11808] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11923"
+ , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11923"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11721] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11765"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11765"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11765] The expression bio applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "11772"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11772"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11772] The expression bio applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "11813"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11813"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11813] The expression 105 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11813"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11813"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11813] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11928"
- , "c1link" : "./qc/crypto/bio/bio_lib.c.html#11928"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11928] goto statement jump to retry"
+ , "c3" : "QC-CPP000007[11923] goto statement jump to retry"
 }} 
 ]
 };

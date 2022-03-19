@@ -503,192 +503,192 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10565"
- , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10565"
+   "c1" : "10560"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10560"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10565] The pointer b is declared but not initialized"
+ , "c3" : "QC-CPP000014[10560] The pointer b is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10590"
- , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10590"
+   "c1" : "10585"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10585"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10590] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[10585] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10636"
- , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10636"
+   "c1" : "10631"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10631"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[10636] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[10631] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10636"
- , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10636"
+   "c1" : "10631"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10631"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[10636] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[10631] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10667"
- , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10667"
+   "c1" : "10662"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10662"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10667] goto statement jump to start"
+ , "c3" : "QC-CPP000007[10662] goto statement jump to start"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10673"
- , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10673"
+   "c1" : "10668"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10668"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10673] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[10668] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10713"
- , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10713"
+   "c1" : "10708"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10708"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[10713] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[10708] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10713"
- , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10713"
+   "c1" : "10708"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10708"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[10713] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[10708] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10751"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10751"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10751] goto statement jump to start"
 }} 
 ,
 { "ligne" : {
    "c1" : "10756"
  , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10756"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10756] goto statement jump to start"
+ , "c3" : "QC-CPP000014[10756] The pointer dbio is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10761"
- , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10761"
+   "c1" : "10757"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10757"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10761] The pointer dbio is declared but not initialized"
+ , "c3" : "QC-CPP000014[10757] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10762"
- , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10762"
+   "c1" : "10759"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10759"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10762] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[10759] The pointer p1 is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10764"
- , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10764"
+   "c1" : "10759"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10759"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10764] The pointer p1 is declared but not initialized"
+ , "c3" : "QC-CPP000014[10759] The pointer p2 is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10764"
- , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10764"
+   "c1" : "10760"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10760"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10764] The pointer p2 is declared but not initialized"
+ , "c3" : "QC-CPP000014[10760] The pointer ip is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10765"
- , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10765"
+   "c1" : "10829"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10829"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10765] The pointer ip is declared but not initialized"
+ , "c3" : "QC-CPP000007[10829] goto statement jump to malloc_error"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10834"
- , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10834"
+   "c1" : "10868"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10868"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10834] goto statement jump to malloc_error"
+ , "c3" : "QC-CPP000007[10868] goto statement jump to malloc_error"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10873"
- , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10873"
+   "c1" : "10879"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10879"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10873] goto statement jump to malloc_error"
+ , "c3" : "QC-CPP000007[10879] goto statement jump to malloc_error"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10884"
- , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10884"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10884] goto statement jump to malloc_error"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10926"
- , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10926"
+   "c1" : "10921"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10921"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[10926] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[10921] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10926"
- , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10926"
+   "c1" : "10921"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10921"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[10926] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[10921] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10946"
- , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10946"
+   "c1" : "10941"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10941"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10946] The expression 117 is invariable"
+ , "c3" : "QC-CPP000012[10941] The expression 117 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10946"
- , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10946"
+   "c1" : "10941"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10941"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10946] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10941] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10947"
- , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10947"
+   "c1" : "10942"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10942"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10947] The expression 117 is invariable"
+ , "c3" : "QC-CPP000012[10942] The expression 117 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10947"
- , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10947"
+   "c1" : "10942"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10942"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10947] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[10942] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10994"
- , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10994"
+   "c1" : "10989"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10989"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10994] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[10989] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10996"
- , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10996"
+   "c1" : "10991"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10991"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10996] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[10991] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11002"
- , "c1link" : "./qc/crypto/bio/bf_buff.c.html#11002"
+   "c1" : "10997"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10997"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[11002] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[10997] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11002"
- , "c1link" : "./qc/crypto/bio/bf_buff.c.html#11002"
+   "c1" : "10997"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10997"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[11002] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[10997] The end expression of for loop is empty, infinite loop risk"
 }} 
 ]
 };

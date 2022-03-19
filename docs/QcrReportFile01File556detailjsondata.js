@@ -447,6 +447,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14911"
+ , "c1link" : "./qc/crypto/pem/pem_oth.c.html#14911"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[14911] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
    "c1" : "14916"
  , "c1link" : "./qc/crypto/pem/pem_oth.c.html#14916"
  , "c2" : "BLOCKER"
@@ -454,17 +461,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14921"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#14921"
+   "c1" : "14928"
+ , "c1link" : "./qc/crypto/pem/pem_oth.c.html#14928"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14921] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14933"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#14933"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14933] The expression  ! PEM_bytes_read_bio( &amp; data, &amp; len,(( void  *)0),name,bp,cb,u) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14928] The expression  ! PEM_bytes_read_bio( &amp; data, &amp; len,(( void  *)0),name,bp,cb,u) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

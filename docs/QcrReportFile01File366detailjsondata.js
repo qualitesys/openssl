@@ -244,45 +244,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10087"
- , "c1link" : "./qc/crypto/ec/ec_oct.c.html#10087"
+   "c1" : "10082"
+ , "c1link" : "./qc/crypto/ec/ec_oct.c.html#10082"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10087] The expression  ! ec_point_is_compat(point,group) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10082] The expression  ! ec_point_is_compat(point,group) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10145"
- , "c1link" : "./qc/crypto/ec/ec_oct.c.html#10145"
+   "c1" : "10140"
+ , "c1link" : "./qc/crypto/ec/ec_oct.c.html#10140"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10145] The expression  ! ec_point_is_compat(point,group) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10140] The expression  ! ec_point_is_compat(point,group) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10184"
- , "c1link" : "./qc/crypto/ec/ec_oct.c.html#10184"
+   "c1" : "10179"
+ , "c1link" : "./qc/crypto/ec/ec_oct.c.html#10179"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10184] The expression  ! ec_point_is_compat(point,group) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10179] The expression  ! ec_point_is_compat(point,group) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10213"
- , "c1link" : "./qc/crypto/ec/ec_oct.c.html#10213"
+   "c1" : "10208"
+ , "c1link" : "./qc/crypto/ec/ec_oct.c.html#10208"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10213] The pointer buf is declared but not initialized"
+ , "c3" : "QC-CPP000014[10208] The pointer buf is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10213"
- , "c1link" : "./qc/crypto/ec/ec_oct.c.html#10213"
+   "c1" : "10208"
+ , "c1link" : "./qc/crypto/ec/ec_oct.c.html#10208"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10213] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10208] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10226"
- , "c1link" : "./qc/crypto/ec/ec_oct.c.html#10226"
+   "c1" : "10221"
+ , "c1link" : "./qc/crypto/ec/ec_oct.c.html#10221"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10226] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10221] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

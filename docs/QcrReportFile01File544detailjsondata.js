@@ -447,241 +447,255 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "15539"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15539"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15539] The expression a-&gt;crlUrl applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15540"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15540"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15540] The expression '%*scrlUrl: ' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15540"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15540"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15540] The expression '' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15541"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15541"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15541] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15542"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15542"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15542] The expression  ! ASN1_STRING_print(bp,(ASN1_STRING *)a-&gt;crlUrl) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15543"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15543"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15543] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
    "c1" : "15544"
  , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15544"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15544] The expression a-&gt;crlUrl applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[15544] The expression '\n' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15544"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15544"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15544] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
    "c1" : "15545"
  , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15545"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15545] The expression '%*scrlUrl: ' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15545"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15545"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15545] The expression '' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15546"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15546"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15546] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15545] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "15547"
  , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15547"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15547] The expression  ! ASN1_STRING_print(bp,(ASN1_STRING *)a-&gt;crlUrl) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15547] The expression a-&gt;crlNum applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "15548"
  , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15548"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15548] goto statement jump to err"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15548] The expression '%*scrlNum: ' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15548"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15548"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15548] The expression '' is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "15549"
  , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15549"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15549] The expression '\n' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15549"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15549"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15549] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15550"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15550"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15550] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15549] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15551"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15551"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15551] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "15552"
  , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15552"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15552] The expression a-&gt;crlNum applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[15552] The expression '\n' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15552"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15552"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15552] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
    "c1" : "15553"
  , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15553"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15553] The expression '%*scrlNum: ' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15553"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15553"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15553] The expression '' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15554"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15554"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15554] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15553] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15555"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15555"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15555] The expression a-&gt;crlTime applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "15556"
  , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15556"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15556] The expression '%*scrlTime: ' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15556"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15556"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15556] The expression '' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15557"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15557"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15556] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15557"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15557"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15557] The expression '\n' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15557"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15557"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15557] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000007[15557] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "15558"
  , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15558"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15558] The expression  ! ASN1_GENERALIZEDTIME_print(bp,a-&gt;crlTime) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15559"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15559"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15558] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15559] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "15560"
  , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15560"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15560] The expression a-&gt;crlTime applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[15560] The expression '\n' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15560"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15560"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15560] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
    "c1" : "15561"
  , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15561"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15561] The expression '%*scrlTime: ' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15561"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15561"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15561] The expression '' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15562"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15562"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15562] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15561] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15563"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15563"
+   "c1" : "15571"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15571"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15563] The expression  ! ASN1_GENERALIZEDTIME_print(bp,a-&gt;crlTime) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[15571] The expression '%*s' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15564"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15564"
+   "c1" : "15571"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15571"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15571] The expression '' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15573"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15573"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15573] The expression  ! ASN1_GENERALIZEDTIME_print(bp,cutoff) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15581"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15581"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15581] The expression '%*s' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15581"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15581"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15581] The expression '' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15601"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15601"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15601] The expression pp applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15610"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15610"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15564] goto statement jump to err"
+ , "c3" : "QC-CPP000014[15610] The pointer os is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15565"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15565"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15565] The expression '\n' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15565"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15565"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15565] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15566"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15566"
+   "c1" : "15610"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15610"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15566] goto statement jump to err"
+ , "c3" : "QC-CPP000014[15610] The pointer pos is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15576"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15576"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15576] The expression '%*s' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15576"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15576"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15576] The expression '' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15578"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15578"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15578] The expression  ! ASN1_GENERALIZEDTIME_print(bp,cutoff) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15586"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15586"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15586] The expression '%*s' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15586"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15586"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15586] The expression '' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15606"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15606"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15606] The expression pp applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15615"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15615"
+   "c1" : "15627"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15627"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15615] The pointer os is declared but not initialized"
+ , "c3" : "QC-CPP000007[15627] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15615"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15615"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15615] The pointer pos is declared but not initialized"
+   "c1" : "15631"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15631"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15631] The expression  ! ASN1_OCTET_STRING_set(os, * pp,length) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -695,140 +709,126 @@ var maDataBlocs = {
    "c1" : "15636"
  , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15636"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15636] The expression  ! ASN1_OCTET_STRING_set(os, * pp,length) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15636] The expression pos applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15637"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15637"
+   "c1" : "15667"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15667"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15667] The expression '%*s' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15667"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15667"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15667] The expression '' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15669"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15669"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15669] The expression 4 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15693"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15693"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15637] goto statement jump to err"
+ , "c3" : "QC-CPP000014[15693] The pointer ad is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15641"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15641"
+   "c1" : "15695"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15695"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15641] The expression pos applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[15695] The expression '%*sIssuer: ' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15672"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15672"
+   "c1" : "15695"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15695"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15672] The expression '%*s' is invariable"
+ , "c3" : "QC-CPP000012[15695] The expression '' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15672"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15672"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15672] The expression '' is invariable"
+   "c1" : "15696"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15696"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15696] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15674"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15674"
+   "c1" : "15697"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15697"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15674] The expression 4 is invariable"
+ , "c3" : "QC-CPP000012[15697] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15697"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15697"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15697] The expression ((1|2|4|0x10|0x100|0x200)|8|(2&lt;&lt;16)|(1&lt;&lt;23)|0) is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "15698"
  , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15698"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15698] The pointer ad is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15700"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15700"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15700] The expression '%*sIssuer: ' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15700"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15700"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15700] The expression '' is invariable"
+ , "c3" : "QC-CPP000007[15698] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "15701"
  , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15701"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15701] goto statement jump to err"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15701] The expression '\n%*s' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15701"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15701"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15701] The expression '' is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "15702"
  , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15702"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15702] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15702"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15702"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15702] The expression ((1|2|4|0x10|0x100|0x200)|8|(2&lt;&lt;16)|(1&lt;&lt;23)|0) is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15703"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15703"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15703] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15702] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15704"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15704"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15704] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15705"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15705"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15705] The expression ' - ' is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "15706"
  , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15706"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15706] The expression '\n%*s' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15706"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15706"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15706] The expression '' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15707"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15707"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15707] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15706] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15709"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15709"
+   "c1" : "15708"
+ , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15708"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15709] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15710"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15710"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15710] The expression ' - ' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15711"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15711"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15711] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15713"
- , "c1link" : "./qc/crypto/ocsp/v3_ocsp.c.html#15713"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15713] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15708] goto statement jump to err"
 }} 
 ]
 };

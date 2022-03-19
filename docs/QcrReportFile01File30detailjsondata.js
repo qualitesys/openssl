@@ -237,52 +237,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13565"
- , "c1link" : "./qc/apps/lib/apps_ui.c.html#13565"
+   "c1" : "13560"
+ , "c1link" : "./qc/apps/lib/apps_ui.c.html#13560"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13565] The pointer ui is declared but not initialized"
+ , "c3" : "QC-CPP000014[13560] The pointer ui is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13578"
- , "c1link" : "./qc/apps/lib/apps_ui.c.html#13578"
+   "c1" : "13573"
+ , "c1link" : "./qc/apps/lib/apps_ui.c.html#13573"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13578] The pointer prompt is declared but not initialized"
+ , "c3" : "QC-CPP000014[13573] The pointer prompt is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13580"
- , "c1link" : "./qc/apps/lib/apps_ui.c.html#13580"
+   "c1" : "13575"
+ , "c1link" : "./qc/apps/lib/apps_ui.c.html#13575"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13580] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[13575] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13625"
- , "c1link" : "./qc/apps/lib/apps_ui.c.html#13625"
+   "c1" : "13620"
+ , "c1link" : "./qc/apps/lib/apps_ui.c.html#13620"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13625] The expression 2 is invariable"
+ , "c3" : "QC-CPP000012[13620] The expression 2 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13625"
- , "c1link" : "./qc/apps/lib/apps_ui.c.html#13625"
+   "c1" : "13620"
+ , "c1link" : "./qc/apps/lib/apps_ui.c.html#13620"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13625] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[13620] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13625"
- , "c1link" : "./qc/apps/lib/apps_ui.c.html#13625"
+   "c1" : "13620"
+ , "c1link" : "./qc/apps/lib/apps_ui.c.html#13620"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13625] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[13620] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13625"
- , "c1link" : "./qc/apps/lib/apps_ui.c.html#13625"
+   "c1" : "13620"
+ , "c1link" : "./qc/apps/lib/apps_ui.c.html#13620"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13625] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[13620] The expression 0 is invariable, always false"
 }} 
 ]
 };

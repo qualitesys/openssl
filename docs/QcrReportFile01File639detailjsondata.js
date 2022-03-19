@@ -447,17 +447,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07902"
- , "c1link" : "./qc/crypto/self_test_core.c.html#7902"
+   "c1" : "07897"
+ , "c1link" : "./qc/crypto/self_test_core.c.html#7897"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07902] The pointer stcb is declared but not initialized"
+ , "c3" : "QC-CPP000014[07897] The pointer stcb is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08087"
- , "c1link" : "./qc/crypto/self_test_core.c.html#8087"
+   "c1" : "08082"
+ , "c1link" : "./qc/crypto/self_test_core.c.html#8082"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08087] The expression  ! st-&gt;cb(st-&gt;params,st-&gt;cb_arg) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08082] The expression  ! st-&gt;cb(st-&gt;params,st-&gt;cb_arg) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

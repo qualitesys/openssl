@@ -244,129 +244,136 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08460"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8460"
+   "c1" : "08455"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8455"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08460] The expression (ossl_is_little_endian) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08455] The expression (ossl_is_little_endian) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08469"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8469"
+   "c1" : "08464"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8464"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08469] The expression (ossl_is_little_endian) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08464] The expression (ossl_is_little_endian) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08508"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8508"
+   "c1" : "08503"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8503"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08508] The pointer mac_ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[08503] The pointer mac_ctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08515"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8515"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08515] The expression  ! EVP_MAC_update(mac_ctx,in,len-16) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08516"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8516"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08516] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08519"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8519"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08519] The expression  ! EVP_MAC_update(mac_ctx,t.byte,16) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08519"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8519"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08519] The expression 16 is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "08520"
  , "c1link" : "./qc/crypto/modes/siv128.c.html#8520"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08520] The expression  ! EVP_MAC_update(mac_ctx,in,len-16) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08521"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8521"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08521] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08520] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08524"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8524"
+   "c1" : "08527"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8527"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08524] The expression  ! EVP_MAC_update(mac_ctx,t.byte,16) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08527] The expression  ! EVP_MAC_update(mac_ctx,t.byte,16) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08524"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8524"
+   "c1" : "08527"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8527"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08524] The expression 16 is invariable"
+ , "c3" : "QC-CPP000012[08527] The expression 16 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08525"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8525"
+   "c1" : "08528"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8528"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08525] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08528] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "08532"
  , "c1link" : "./qc/crypto/modes/siv128.c.html#8532"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08532] The expression  ! EVP_MAC_update(mac_ctx,t.byte,16) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08532"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8532"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08532] The expression 16 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08533"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8533"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08533] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08532] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08537"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8537"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08537] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08553"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8553"
+   "c1" : "08548"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8548"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08553] The expression  ! EVP_CipherInit_ex(ctx,(( void  *)0),(( void  *)0),(( void  *)0),icv-&gt;byte,1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08548] The expression  ! EVP_CipherInit_ex(ctx,(( void  *)0),(( void  *)0),(( void  *)0),icv-&gt;byte,1) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08565"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8565"
+   "c1" : "08560"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8560"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08565] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[08560] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08577"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8577"
+   "c1" : "08572"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8572"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08577] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[08572] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08580"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8580"
+   "c1" : "08575"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8575"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08580] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08575] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08586"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8586"
+   "c1" : "08581"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8581"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08586] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08581] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08613"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8613"
+   "c1" : "08608"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8608"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08613] The pointer cbc_name is declared but not initialized"
+ , "c3" : "QC-CPP000014[08608] The pointer cbc_name is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08659"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8659"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08659] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -377,66 +384,59 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08669"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8669"
+   "c1" : "08670"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8670"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08669] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08670] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08675"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8675"
+   "c1" : "08685"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8685"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08675] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08685] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08690"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8690"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08690] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08731"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8731"
+   "c1" : "08726"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8726"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08731] The expression  ! EVP_CIPHER_CTX_copy(dest-&gt;cipher_ctx,src-&gt;cipher_ctx) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08726] The expression  ! EVP_CIPHER_CTX_copy(dest-&gt;cipher_ctx,src-&gt;cipher_ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08761"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8761"
+   "c1" : "08756"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8756"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08761] The pointer mac_ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[08756] The pointer mac_ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08765"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8765"
+   "c1" : "08760"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8760"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08765] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08760] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08798"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8798"
+   "c1" : "08793"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8793"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08798] The expression  ! siv128_do_s2v_p(ctx, &amp; q,in,len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08793] The expression  ! siv128_do_s2v_p(ctx, &amp; q,in,len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08805"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8805"
+   "c1" : "08800"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8800"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08805] The expression  ! siv128_do_encrypt(ctx-&gt;cipher_ctx,out,in,len, &amp; q) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08800] The expression  ! siv128_do_encrypt(ctx-&gt;cipher_ctx,out,in,len, &amp; q) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08818"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8818"
+   "c1" : "08813"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8813"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08818] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[08813] The pointer p is declared but not initialized"
 }} 
 ]
 };

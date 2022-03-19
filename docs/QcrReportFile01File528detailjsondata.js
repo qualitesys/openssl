@@ -447,80 +447,80 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07986"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#7986"
+   "c1" : "07981"
+ , "c1link" : "./qc/crypto/modes/wrap128.c.html#7981"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07986] The pointer A is declared but not initialized"
+ , "c3" : "QC-CPP000014[07981] The pointer A is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07986"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#7986"
+   "c1" : "07981"
+ , "c1link" : "./qc/crypto/modes/wrap128.c.html#7981"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07986] The pointer R is declared but not initialized"
+ , "c3" : "QC-CPP000014[07981] The pointer R is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07986"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#7986"
+   "c1" : "07981"
+ , "c1link" : "./qc/crypto/modes/wrap128.c.html#7981"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07986] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07981] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07993"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#7993"
+   "c1" : "07988"
+ , "c1link" : "./qc/crypto/modes/wrap128.c.html#7988"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07993] The expression  ! iv applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07988] The expression  ! iv applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08021"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#8021"
+   "c1" : "08016"
+ , "c1link" : "./qc/crypto/modes/wrap128.c.html#8016"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08021] The pointer A is declared but not initialized"
+ , "c3" : "QC-CPP000014[08016] The pointer A is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08021"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#8021"
+   "c1" : "08016"
+ , "c1link" : "./qc/crypto/modes/wrap128.c.html#8016"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08021] The pointer R is declared but not initialized"
+ , "c3" : "QC-CPP000014[08016] The pointer R is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08021"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#8021"
+   "c1" : "08016"
+ , "c1link" : "./qc/crypto/modes/wrap128.c.html#8016"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08021] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08016] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08059"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#8059"
+   "c1" : "08054"
+ , "c1link" : "./qc/crypto/modes/wrap128.c.html#8054"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08059] The expression  ! iv applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08054] The expression  ! iv applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08061"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#8061"
+   "c1" : "08056"
+ , "c1link" : "./qc/crypto/modes/wrap128.c.html#8056"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08061] The expression CRYPTO_memcmp(got_iv,iv,8) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08056] The expression CRYPTO_memcmp(got_iv,iv,8) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08061"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#8061"
+   "c1" : "08056"
+ , "c1link" : "./qc/crypto/modes/wrap128.c.html#8056"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08061] The expression 8 is invariable"
+ , "c3" : "QC-CPP000012[08056] The expression 8 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08091"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#8091"
+   "c1" : "08086"
+ , "c1link" : "./qc/crypto/modes/wrap128.c.html#8086"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08091] The expression  ! icv applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08086] The expression  ! icv applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

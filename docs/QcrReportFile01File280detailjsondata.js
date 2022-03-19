@@ -251,80 +251,87 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13483"
- , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13483"
+   "c1" : "13478"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13478"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13483] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13478] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13510"
- , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13510"
+   "c1" : "13505"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13505"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13510] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13505] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13520"
- , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13520"
+   "c1" : "13515"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13515"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13520] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13515] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13528"
- , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13528"
+   "c1" : "13523"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13523"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13528] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13523] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13544"
- , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13544"
+   "c1" : "13539"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13539"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13544] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13539] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13577"
- , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13577"
+   "c1" : "13572"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13572"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13577] The expression  ! SCT_set_version(sct,version) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13572] The expression  ! SCT_set_version(sct,version) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13583"
- , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13583"
+   "c1" : "13578"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13578"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13583] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13578] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13593"
- , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13593"
+   "c1" : "13588"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13588"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13593] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13588] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13595"
- , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13595"
+   "c1" : "13590"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13590"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13595] The expression  ! SCT_set0_log_id(sct,dec,declen) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13590] The expression  ! SCT_set0_log_id(sct,dec,declen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13596"
- , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13596"
+   "c1" : "13591"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13591"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13596] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13591] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13610"
- , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13610"
+   "c1" : "13605"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13605"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13610] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13605] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13621"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13621"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13621] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
@@ -335,45 +342,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13631"
- , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13631"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13631] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13641"
- , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13641"
+   "c1" : "13636"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13636"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13641] The expression  ! SCT_set_log_entry_type(sct,entry_type) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13636] The expression  ! SCT_set_log_entry_type(sct,entry_type) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13642"
- , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13642"
+   "c1" : "13637"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13637"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13642] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13637] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13666"
- , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13666"
+   "c1" : "13661"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13661"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13666] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13661] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13672"
- , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13672"
+   "c1" : "13667"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13667"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13672] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[13667] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13672"
- , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13672"
+   "c1" : "13667"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13667"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13672] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13667] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

@@ -454,87 +454,94 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "16446"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#16446"
+   "c1" : "16441"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16441"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16446] The expression  ! loader-&gt;p_set_ctx_params(loader_ctx,params) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16441] The expression  ! loader-&gt;p_set_ctx_params(loader_ctx,params) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16458"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#16458"
+   "c1" : "16453"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16453"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16458] The expression 'properties' is invariable"
+ , "c3" : "QC-CPP000012[16453] The expression 'properties' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16470"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#16470"
+   "c1" : "16465"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16465"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16470] The expression  ! loader-&gt;p_set_ctx_params(loader_ctx,propp) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16465] The expression  ! loader-&gt;p_set_ctx_params(loader_ctx,propp) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16509"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#16509"
+   "c1" : "16504"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16504"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16509] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[16504] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16525"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#16525"
+   "c1" : "16520"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16520"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16525] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16520] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16531"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#16531"
+   "c1" : "16526"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16526"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16531] The expression 'file' is invariable"
+ , "c3" : "QC-CPP000012[16526] The expression 'file' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16549"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#16549"
+   "c1" : "16544"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16544"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16549] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16544] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16574"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#16574"
+   "c1" : "16569"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16569"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16574] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16569] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16597"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#16597"
+   "c1" : "16592"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16592"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16597] The expression  ! loader_set_params(fetched_loader,loader_ctx,params,propq) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16592] The expression  ! loader_set_params(fetched_loader,loader_ctx,params,propq) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16606"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16606"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16606] The expression no_loader_found applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "16611"
  , "c1link" : "./qc/crypto/store/store_lib.c.html#16611"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16611] The expression no_loader_found applies to a single value or variable, might be ambiguous."
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16611] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16616"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#16616"
+   "c1" : "16624"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16624"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16616] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16624] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16629"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#16629"
+   "c1" : "16632"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16632"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16629] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[16632] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -545,220 +552,213 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "16642"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#16642"
+   "c1" : "16647"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16647"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16642] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[16647] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16652"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#16652"
+   "c1" : "16662"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16662"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16652] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16662] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16667"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#16667"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16667] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16867"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#16867"
+   "c1" : "16862"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16862"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16867] The expression ctx-&gt;loading applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16862] The expression ctx-&gt;loading applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16930"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#16930"
+   "c1" : "16925"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16925"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16930] The expression ctx-&gt;loading applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16925] The expression ctx-&gt;loading applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16956"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#16956"
+   "c1" : "16951"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16951"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16956] The pointer bld is declared but not initialized"
+ , "c3" : "QC-CPP000014[16951] The pointer bld is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16957"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#16957"
+   "c1" : "16952"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16952"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16957] The pointer params is declared but not initialized"
+ , "c3" : "QC-CPP000014[16952] The pointer params is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16985"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#16985"
+   "c1" : "16980"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16980"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16985] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16980] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17002"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#17002"
+   "c1" : "16997"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#16997"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17002] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16997] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17000"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#17000"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[17000] The expression 'subject' is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "17005"
  , "c1link" : "./qc/crypto/store/store_lib.c.html#17005"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17005] The expression 'subject' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17010"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#17010"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17010] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17005] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17012"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#17012"
+   "c1" : "17007"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#17007"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17012] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17007] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17022"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#17022"
+   "c1" : "17017"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#17017"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17022] The expression 'name' is invariable"
+ , "c3" : "QC-CPP000012[17017] The expression 'name' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17019"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#17019"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[17019] The expression 'serial' is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "17024"
  , "c1link" : "./qc/crypto/store/store_lib.c.html#17024"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17024] The expression 'serial' is invariable"
+ , "c3" : "QC-CPP000012[17024] The expression 'digest' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17029"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#17029"
+   "c1" : "17026"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#17026"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17029] The expression 'digest' is invariable"
+ , "c3" : "QC-CPP000012[17026] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17031"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#17031"
+   "c1" : "17028"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#17028"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17031] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[17028] The expression 'fingerprint' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17033"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#17033"
+   "c1" : "17034"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#17034"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17033] The expression 'fingerprint' is invariable"
+ , "c3" : "QC-CPP000011[17034] The expression OSSL_PARAM_BLD_push_utf8_string(bld,'alias',( char  *)search-&gt;string,search-&gt;stringlength) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17039"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#17039"
+   "c1" : "17034"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#17034"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17039] The expression OSSL_PARAM_BLD_push_utf8_string(bld,'alias',( char  *)search-&gt;string,search-&gt;stringlength) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[17034] The expression 'alias' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17039"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#17039"
+   "c1" : "17040"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#17040"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17039] The expression 'alias' is invariable"
+ , "c3" : "QC-CPP000011[17040] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17045"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#17045"
+   "c1" : "17081"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#17081"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17045] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17081] The expression OSSL_STORE_eof(ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17086"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#17086"
+   "c1" : "17130"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#17130"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17086] The expression OSSL_STORE_eof(ctx) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17130] The expression  ! ctx-&gt;fetched_loader-&gt;p_load(ctx-&gt;loader_ctx,ossl_store_handle_load_result, &amp; load_data,ossl_pw_passphrase_callback_dec, &amp; ctx-&gt;pwdata) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "17135"
  , "c1link" : "./qc/crypto/store/store_lib.c.html#17135"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17135] The expression  ! ctx-&gt;fetched_loader-&gt;p_load(ctx-&gt;loader_ctx,ossl_store_handle_load_result, &amp; load_data,ossl_pw_passphrase_callback_dec, &amp; ctx-&gt;pwdata) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17135] The expression  ! OSSL_STORE_eof(ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17140"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#17140"
+   "c1" : "17177"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#17177"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17177] goto statement jump to again"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17193"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#17193"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17193] goto statement jump to again"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17739"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#17739"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[17739] The pointer params is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18048"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#18048"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[18048] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18061"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#18061"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[18061] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18077"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#18077"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[18077] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18088"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#18088"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17140] The expression  ! OSSL_STORE_eof(ctx) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18088] The expression  ! loader_set_params(fetched_loader,loader_ctx,params,propq) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17182"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#17182"
+   "c1" : "18115"
+ , "c1link" : "./qc/crypto/store/store_lib.c.html#18115"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17182] goto statement jump to again"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17198"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#17198"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17198] goto statement jump to again"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17744"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#17744"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17744] The pointer params is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18053"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#18053"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18053] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18066"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#18066"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18066] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18082"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#18082"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18082] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18093"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#18093"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18093] The expression  ! loader_set_params(fetched_loader,loader_ctx,params,propq) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "18120"
- , "c1link" : "./qc/crypto/store/store_lib.c.html#18120"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18120] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18115] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

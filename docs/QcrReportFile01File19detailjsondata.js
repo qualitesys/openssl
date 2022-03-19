@@ -524,311 +524,311 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18987"
- , "c1link" : "./qc/apps/genpkey.c.html#18987"
+   "c1" : "18982"
+ , "c1link" : "./qc/apps/genpkey.c.html#18982"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18987] The pointer prog is declared but not initialized"
+ , "c3" : "QC-CPP000014[18982] The pointer prog is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18987"
- , "c1link" : "./qc/apps/genpkey.c.html#18987"
+   "c1" : "18982"
+ , "c1link" : "./qc/apps/genpkey.c.html#18982"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18987] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[18982] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19019"
+ , "c1link" : "./qc/apps/genpkey.c.html#19019"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19019] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19020"
+ , "c1link" : "./qc/apps/genpkey.c.html#19020"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[19020] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "19024"
  , "c1link" : "./qc/apps/genpkey.c.html#19024"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19024] goto statement jump to end"
+ , "c3" : "QC-CPP000010[19024] The switch case refers to the jump label opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19025"
- , "c1link" : "./qc/apps/genpkey.c.html#19025"
+   "c1" : "19026"
+ , "c1link" : "./qc/apps/genpkey.c.html#19026"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19025] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[19026] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19029"
- , "c1link" : "./qc/apps/genpkey.c.html#19029"
+   "c1" : "19030"
+ , "c1link" : "./qc/apps/genpkey.c.html#19030"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[19029] The switch case refers to the jump label opthelp"
+ , "c3" : "QC-CPP000007[19030] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19031"
- , "c1link" : "./qc/apps/genpkey.c.html#19031"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19031] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19035"
- , "c1link" : "./qc/apps/genpkey.c.html#19035"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19035] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19037"
- , "c1link" : "./qc/apps/genpkey.c.html#19037"
+   "c1" : "19032"
+ , "c1link" : "./qc/apps/genpkey.c.html#19032"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19037] The expression  ! opt_format(opt_arg(),(1L&lt;&lt;1), &amp; outformat) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19032] The expression  ! opt_format(opt_arg(),(1L&lt;&lt;1), &amp; outformat) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19037"
- , "c1link" : "./qc/apps/genpkey.c.html#19037"
+   "c1" : "19032"
+ , "c1link" : "./qc/apps/genpkey.c.html#19032"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19037] The expression (1L&lt;&lt;1) is invariable"
+ , "c3" : "QC-CPP000012[19032] The expression (1L&lt;&lt;1) is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19038"
- , "c1link" : "./qc/apps/genpkey.c.html#19038"
+   "c1" : "19033"
+ , "c1link" : "./qc/apps/genpkey.c.html#19033"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19038] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19033] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19051"
- , "c1link" : "./qc/apps/genpkey.c.html#19051"
+   "c1" : "19046"
+ , "c1link" : "./qc/apps/genpkey.c.html#19046"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19051] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19046] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19058"
- , "c1link" : "./qc/apps/genpkey.c.html#19058"
+   "c1" : "19053"
+ , "c1link" : "./qc/apps/genpkey.c.html#19053"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19058] The expression  ! OPENSSL_sk_push(ossl_check_OPENSSL_STRING_sk_type(keyopt),ossl_check_OPENSSL_STRING_type(opt_arg())) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19053] The expression  ! OPENSSL_sk_push(ossl_check_OPENSSL_STRING_sk_type(keyopt),ossl_check_OPENSSL_STRING_type(opt_arg())) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19059"
- , "c1link" : "./qc/apps/genpkey.c.html#19059"
+   "c1" : "19054"
+ , "c1link" : "./qc/apps/genpkey.c.html#19054"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19059] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19054] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19083"
- , "c1link" : "./qc/apps/genpkey.c.html#19083"
+   "c1" : "19078"
+ , "c1link" : "./qc/apps/genpkey.c.html#19078"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19083] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19078] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19086"
- , "c1link" : "./qc/apps/genpkey.c.html#19086"
+   "c1" : "19081"
+ , "c1link" : "./qc/apps/genpkey.c.html#19081"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19086] The expression  ! opt_provider(o) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19081] The expression  ! opt_provider(o) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19087"
- , "c1link" : "./qc/apps/genpkey.c.html#19087"
+   "c1" : "19082"
+ , "c1link" : "./qc/apps/genpkey.c.html#19082"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19087] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19082] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19088"
+ , "c1link" : "./qc/apps/genpkey.c.html#19088"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19088] The expression  ! opt_check_rest_arg((( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "19093"
  , "c1link" : "./qc/apps/genpkey.c.html#19093"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19093] goto statement jump to opthelp"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19101"
+ , "c1link" : "./qc/apps/genpkey.c.html#19101"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19093] The expression  ! opt_check_rest_arg((( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19101] The expression  ! init_keygen_file( &amp; ctx,paramfile,e,libctx,app_get0_propq()) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19098"
- , "c1link" : "./qc/apps/genpkey.c.html#19098"
+   "c1" : "19102"
+ , "c1link" : "./qc/apps/genpkey.c.html#19102"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19098] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19102] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19106"
- , "c1link" : "./qc/apps/genpkey.c.html#19106"
+   "c1" : "19109"
+ , "c1link" : "./qc/apps/genpkey.c.html#19109"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19106] The expression  ! init_keygen_file( &amp; ctx,paramfile,e,libctx,app_get0_propq()) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19109] The expression  ! init_gen_str( &amp; ctx,algname,e,do_param,libctx,app_get0_propq()) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19107"
- , "c1link" : "./qc/apps/genpkey.c.html#19107"
+   "c1" : "19110"
+ , "c1link" : "./qc/apps/genpkey.c.html#19110"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19107] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19110] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19114"
- , "c1link" : "./qc/apps/genpkey.c.html#19114"
+   "c1" : "19117"
+ , "c1link" : "./qc/apps/genpkey.c.html#19117"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19117] goto statement jump to opthelp"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19124"
+ , "c1link" : "./qc/apps/genpkey.c.html#19124"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19124] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19127"
+ , "c1link" : "./qc/apps/genpkey.c.html#19127"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19114] The expression  ! init_gen_str( &amp; ctx,algname,e,do_param,libctx,app_get0_propq()) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19127] The expression  ! opt_cipher(ciphername, &amp; cipher) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19115"
- , "c1link" : "./qc/apps/genpkey.c.html#19115"
+   "c1" : "19128"
+ , "c1link" : "./qc/apps/genpkey.c.html#19128"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19115] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19128] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19122"
- , "c1link" : "./qc/apps/genpkey.c.html#19122"
+   "c1" : "19135"
+ , "c1link" : "./qc/apps/genpkey.c.html#19135"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19122] goto statement jump to opthelp"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19129"
- , "c1link" : "./qc/apps/genpkey.c.html#19129"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19129] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19132"
- , "c1link" : "./qc/apps/genpkey.c.html#19132"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19132] The expression  ! opt_cipher(ciphername, &amp; cipher) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19133"
- , "c1link" : "./qc/apps/genpkey.c.html#19133"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19133] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19135] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
    "c1" : "19140"
  , "c1link" : "./qc/apps/genpkey.c.html#19140"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19140] goto statement jump to opthelp"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19145"
- , "c1link" : "./qc/apps/genpkey.c.html#19145"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19145] The expression  ! app_passwd(passarg,(( void  *)0), &amp; pass,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19140] The expression  ! app_passwd(passarg,(( void  *)0), &amp; pass,(( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19155"
- , "c1link" : "./qc/apps/genpkey.c.html#19155"
+   "c1" : "19150"
+ , "c1link" : "./qc/apps/genpkey.c.html#19150"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19155] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19150] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19164"
- , "c1link" : "./qc/apps/genpkey.c.html#19164"
+   "c1" : "19159"
+ , "c1link" : "./qc/apps/genpkey.c.html#19159"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19164] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19159] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19166"
- , "c1link" : "./qc/apps/genpkey.c.html#19166"
+   "c1" : "19161"
+ , "c1link" : "./qc/apps/genpkey.c.html#19161"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19166] The expression verbose applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19161] The expression verbose applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19173"
- , "c1link" : "./qc/apps/genpkey.c.html#19173"
+   "c1" : "19168"
+ , "c1link" : "./qc/apps/genpkey.c.html#19168"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19173] The expression do_param applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19168] The expression do_param applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19199"
- , "c1link" : "./qc/apps/genpkey.c.html#19199"
+   "c1" : "19194"
+ , "c1link" : "./qc/apps/genpkey.c.html#19194"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19199] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19194] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19209"
- , "c1link" : "./qc/apps/genpkey.c.html#19209"
+   "c1" : "19204"
+ , "c1link" : "./qc/apps/genpkey.c.html#19204"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19209] The expression text applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19204] The expression text applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19210"
- , "c1link" : "./qc/apps/genpkey.c.html#19210"
+   "c1" : "19205"
+ , "c1link" : "./qc/apps/genpkey.c.html#19205"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19210] The expression do_param applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19205] The expression do_param applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19247"
- , "c1link" : "./qc/apps/genpkey.c.html#19247"
+   "c1" : "19242"
+ , "c1link" : "./qc/apps/genpkey.c.html#19242"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19247] The pointer pbio is declared but not initialized"
+ , "c3" : "QC-CPP000014[19242] The pointer pbio is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19258"
- , "c1link" : "./qc/apps/genpkey.c.html#19258"
+   "c1" : "19253"
+ , "c1link" : "./qc/apps/genpkey.c.html#19253"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19258] The expression  * pctx applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19253] The expression  * pctx applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19302"
- , "c1link" : "./qc/apps/genpkey.c.html#19302"
+   "c1" : "19297"
+ , "c1link" : "./qc/apps/genpkey.c.html#19297"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19302] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19297] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19304"
- , "c1link" : "./qc/apps/genpkey.c.html#19304"
+   "c1" : "19299"
+ , "c1link" : "./qc/apps/genpkey.c.html#19299"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19304] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19299] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19329"
- , "c1link" : "./qc/apps/genpkey.c.html#19329"
+   "c1" : "19324"
+ , "c1link" : "./qc/apps/genpkey.c.html#19324"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19329] The expression  * pctx applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19324] The expression  * pctx applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19345"
- , "c1link" : "./qc/apps/genpkey.c.html#19345"
+   "c1" : "19340"
+ , "c1link" : "./qc/apps/genpkey.c.html#19340"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19345] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19340] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19341"
+ , "c1link" : "./qc/apps/genpkey.c.html#19341"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19341] The expression do_param applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19343"
+ , "c1link" : "./qc/apps/genpkey.c.html#19343"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19343] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "19346"
  , "c1link" : "./qc/apps/genpkey.c.html#19346"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19346] The expression do_param applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19348"
- , "c1link" : "./qc/apps/genpkey.c.html#19348"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19348] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19351"
- , "c1link" : "./qc/apps/genpkey.c.html#19351"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19351] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19346] goto statement jump to err"
 }} 
 ]
 };

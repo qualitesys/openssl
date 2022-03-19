@@ -496,31 +496,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10533"
- , "c1link" : "./qc/crypto/bio/bio_meth.c.html#10533"
+   "c1" : "10528"
+ , "c1link" : "./qc/crypto/bio/bio_meth.c.html#10528"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10533] The expression CRYPTO_THREAD_run_once( &amp; bio_type_init,do_bio_type_init_ossl_) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10528] The expression CRYPTO_THREAD_run_once( &amp; bio_type_init,do_bio_type_init_ossl_) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10533"
- , "c1link" : "./qc/crypto/bio/bio_meth.c.html#10533"
+   "c1" : "10528"
+ , "c1link" : "./qc/crypto/bio/bio_meth.c.html#10528"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10533] The expression do_bio_type_init_ossl_ret_ applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10528] The expression do_bio_type_init_ossl_ret_ applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10541"
- , "c1link" : "./qc/crypto/bio/bio_meth.c.html#10541"
+   "c1" : "10536"
+ , "c1link" : "./qc/crypto/bio/bio_meth.c.html#10536"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10541] The expression  ! CRYPTO_UP_REF( &amp; bio_count, &amp; newval,bio_type_lock) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10536] The expression  ! CRYPTO_UP_REF( &amp; bio_count, &amp; newval,bio_type_lock) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10555"
- , "c1link" : "./qc/crypto/bio/bio_meth.c.html#10555"
+   "c1" : "10550"
+ , "c1link" : "./qc/crypto/bio/bio_meth.c.html#10550"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10555] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10550] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

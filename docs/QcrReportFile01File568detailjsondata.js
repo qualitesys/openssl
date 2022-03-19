@@ -475,157 +475,171 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15026"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15026"
+   "c1" : "15021"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15021"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15026] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15021] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15045"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15045"
+   "c1" : "15040"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15040"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15045] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15040] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15049"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15049"
+   "c1" : "15044"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15044"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15049] The expression  ! EVP_PBE_CipherInit_ex(algor-&gt;algorithm,pass,passlen,algor-&gt;parameter,ctx,en_de,libctx,propq) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15044] The expression  ! EVP_PBE_CipherInit_ex(algor-&gt;algorithm,pass,passlen,algor-&gt;parameter,ctx,en_de,libctx,propq) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15051"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15051"
+   "c1" : "15046"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15046"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15051] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15046] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15062"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15062"
+   "c1" : "15057"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15057"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15062] The expression 0x16 is invariable"
+ , "c3" : "QC-CPP000012[15057] The expression 0x16 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15062"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15062"
+   "c1" : "15057"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15057"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15062] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[15057] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15068"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15068"
+   "c1" : "15063"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15063"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15068] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15063] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15071"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15071"
+   "c1" : "15066"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15066"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15071] The expression EVP_CIPHER_CTX_is_encrypting(ctx) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15066] The expression EVP_CIPHER_CTX_is_encrypting(ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15080"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15080"
+   "c1" : "15075"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15075"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15080] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15075] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15083"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15083"
+   "c1" : "15078"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15078"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15083] The expression 0x11 is invariable"
+ , "c3" : "QC-CPP000012[15078] The expression 0x11 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15085"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15085"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15085] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "15090"
  , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15090"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15090] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[15090] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15095"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15095"
+   "c1" : "15100"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15100"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15095] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[15100] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15105"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15105"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15105] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15108"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15108"
+   "c1" : "15103"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15103"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15108] The expression  ! EVP_CipherUpdate(ctx,out, &amp; i,in,inlen) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15103] The expression  ! EVP_CipherUpdate(ctx,out, &amp; i,in,inlen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15120"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15120"
+   "c1" : "15115"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15115"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15120] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15115] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15124"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15124"
+   "c1" : "15119"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15119"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15124] The expression  ! EVP_CipherFinal_ex(ctx,out+i, &amp; i) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15119] The expression  ! EVP_CipherFinal_ex(ctx,out+i, &amp; i) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15129"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15129"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15129] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "15134"
  , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15134"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15134] The expression EVP_CIPHER_CTX_is_encrypting(ctx) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15135"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15135"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15135] The expression 0x10 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15142"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15142"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15134] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15139"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15139"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15139] The expression EVP_CIPHER_CTX_is_encrypting(ctx) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15140"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15140"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15140] The expression 0x10 is invariable"
+ , "c3" : "QC-CPP000007[15142] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "15147"
  , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15147"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15147] The expression datalen applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15149"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15149"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15149] The expression data applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15185"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15185"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15185] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15190"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15190"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15147] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15152"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15152"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15152] The expression datalen applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15154"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15154"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15154] The expression data applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000014[15190] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -636,143 +650,129 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "15191"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15191"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15191] The pointer ret is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15194"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15194"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15194] The expression  ! PKCS12_pbe_crypt_ex(algor,pass,passlen,oct-&gt;data,oct-&gt;length, &amp; out, &amp; outlen,0,libctx,propq) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "15195"
  , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15195"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15195] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15206"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15206"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15206] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15206"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15206"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[15206] The condition is always false. Dead code"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15202"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15202"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[15202] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15210"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15210"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15210] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15216"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15216"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15216] The expression zbuf applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15218"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15218"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15218] The expression  ! ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15261"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15261"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[15261] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15268"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15268"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15195] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[15268] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15195"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15195"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15195] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15196"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15196"
+   "c1" : "15278"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15278"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15196] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000007[15278] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15199"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15199"
+   "c1" : "15281"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15281"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15199] The expression  ! PKCS12_pbe_crypt_ex(algor,pass,passlen,oct-&gt;data,oct-&gt;length, &amp; out, &amp; outlen,0,libctx,propq) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15281] The expression  ! in applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15200"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15200"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15200] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15211"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15211"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15211] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15211"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15211"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[15211] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15207"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15207"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[15207] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15215"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15215"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15215] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15221"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15221"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15221] The expression zbuf applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15223"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15223"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15223] The expression  ! ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15266"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15266"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15266] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15273"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15273"
+   "c1" : "15287"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15287"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15273] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[15287] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15283"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15283"
+   "c1" : "15289"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15289"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15289] The expression  ! PKCS12_pbe_crypt_ex(algor,pass,passlen,in,inlen, &amp; oct-&gt;data, &amp; oct-&gt;length,1,ctx,propq) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15290"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15290"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15290] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15297"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15297"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15283] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15297] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15286"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15286"
+   "c1" : "15299"
+ , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15299"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15286] The expression  ! in applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15292"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15292"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15292] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15294"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15294"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15294] The expression  ! PKCS12_pbe_crypt_ex(algor,pass,passlen,in,inlen, &amp; oct-&gt;data, &amp; oct-&gt;length,1,ctx,propq) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15295"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15295"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15295] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15302"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15302"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15302] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15304"
- , "c1link" : "./qc/crypto/pkcs12/p12_decr.c.html#15304"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15304] The expression zbuf applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15299] The expression zbuf applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

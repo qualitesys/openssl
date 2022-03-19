@@ -237,73 +237,73 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05092"
- , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#5092"
+   "c1" : "05087"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#5087"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05092] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05087] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07013"
- , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7013"
+   "c1" : "07008"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7008"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07013] The pointer buf is declared but not initialized"
+ , "c3" : "QC-CPP000014[07008] The pointer buf is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07013"
- , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7013"
+   "c1" : "07008"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7008"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07013] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07008] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07030"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7030"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[07030] The pointer buf is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07030"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7030"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[07030] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07031"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7031"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[07031] The pointer ret is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07033"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7033"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07033] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "07035"
  , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7035"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07035] The pointer buf is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[07035] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07035"
- , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7035"
+   "c1" : "07066"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7066"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07066] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07081"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7081"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07035] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07036"
- , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7036"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07036] The pointer ret is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07038"
- , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7038"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07038] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07040"
- , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7040"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07040] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07071"
- , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7071"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07071] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07086"
- , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7086"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07086] The expression  ! EC_POINT_oct2point(group,ret,buf,buf_len,ctx) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07081] The expression  ! EC_POINT_oct2point(group,ret,buf,buf_len,ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -454,115 +454,115 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08094"
- , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8094"
+   "c1" : "08089"
+ , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8089"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08094] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[08089] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08270"
- , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8270"
+   "c1" : "08265"
+ , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8265"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08270] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[08265] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08289"
- , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8289"
+   "c1" : "08284"
+ , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8284"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08289] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08284] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08293"
- , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8293"
+   "c1" : "08288"
+ , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8288"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08293] The expression 2 is invariable"
+ , "c3" : "QC-CPP000012[08288] The expression 2 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08303"
- , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8303"
+   "c1" : "08298"
+ , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8298"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08303] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08298] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08318"
- , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8318"
+   "c1" : "08313"
+ , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8313"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08318] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08313] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08329"
- , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8329"
+   "c1" : "08324"
+ , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8324"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08329] The expression  ! DSO_set_filename(ret,filename) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08324] The expression  ! DSO_set_filename(ret,filename) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08335"
- , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8335"
+   "c1" : "08330"
+ , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8330"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08335] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08330] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08348"
- , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8348"
+   "c1" : "08343"
+ , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8343"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08348] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08343] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08360"
- , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8360"
+   "c1" : "08355"
+ , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8355"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08360] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08355] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08362"
- , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8362"
+   "c1" : "08357"
+ , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8357"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08362] The expression  ! ret-&gt;meth-&gt;dso_load(ret) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08357] The expression  ! ret-&gt;meth-&gt;dso_load(ret) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08363"
+ , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8363"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08363] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "08368"
  , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8368"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08368] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08373"
- , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8373"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08373] The expression allocated applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08368] The expression allocated applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08426"
- , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8426"
+   "c1" : "08421"
+ , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8421"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08426] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08421] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08518"
- , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8518"
+   "c1" : "08513"
+ , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8513"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08518] The pointer copied is declared but not initialized"
+ , "c3" : "QC-CPP000014[08513] The pointer copied is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08536"
- , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8536"
+   "c1" : "08531"
+ , "c1link" : "./qc/crypto/dso/dso_lib.c.html#8531"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08536] The expression dso-&gt;loaded_filename applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08531] The expression dso-&gt;loaded_filename applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

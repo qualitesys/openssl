@@ -454,38 +454,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07960"
- , "c1link" : "./qc/crypto/bn/bn_depr.c.html#7960"
+   "c1" : "07955"
+ , "c1link" : "./qc/crypto/bn/bn_depr.c.html#7955"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07960] The expression a applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07955] The expression a applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "07983"
+ , "c1link" : "./qc/crypto/bn/bn_depr.c.html#7983"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07983] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "07988"
  , "c1link" : "./qc/crypto/bn/bn_depr.c.html#7988"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07988] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[07988] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07993"
- , "c1link" : "./qc/crypto/bn/bn_depr.c.html#7993"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07993] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07996"
- , "c1link" : "./qc/crypto/bn/bn_depr.c.html#7996"
+   "c1" : "07991"
+ , "c1link" : "./qc/crypto/bn/bn_depr.c.html#7991"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07996] The expression  ! BN_generate_prime_ex(rnd,bits,safe,add,rem, &amp; cb) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07991] The expression  ! BN_generate_prime_ex(rnd,bits,safe,add,rem, &amp; cb) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07997"
- , "c1link" : "./qc/crypto/bn/bn_depr.c.html#7997"
+   "c1" : "07992"
+ , "c1link" : "./qc/crypto/bn/bn_depr.c.html#7992"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07997] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07992] goto statement jump to err"
 }} 
 ]
 };

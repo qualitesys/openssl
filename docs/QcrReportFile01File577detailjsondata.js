@@ -461,122 +461,122 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14998"
- , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#14998"
+   "c1" : "14993"
+ , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#14993"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14998] The pointer unitmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[14993] The pointer unitmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14998"
- , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#14998"
+   "c1" : "14993"
+ , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#14993"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14998] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14993] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15009"
- , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15009"
+   "c1" : "15004"
+ , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15004"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15009] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15004] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15032"
- , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15032"
+   "c1" : "15027"
+ , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15027"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15032] The expression unilen applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15027] The expression unilen applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15034"
- , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15034"
+   "c1" : "15029"
+ , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15029"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15034] The expression uni applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15029] The expression uni applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15042"
- , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15042"
+   "c1" : "15037"
+ , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15037"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15042] The pointer asctmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[15037] The pointer asctmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15062"
- , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15062"
+   "c1" : "15057"
+ , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15057"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15062] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15057] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15088"
- , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15088"
+   "c1" : "15083"
+ , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15083"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15088] The pointer unitmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[15083] The pointer unitmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15088"
- , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15088"
+   "c1" : "15083"
+ , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15083"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15088] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[15083] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15088"
- , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15088"
+   "c1" : "15083"
+ , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15083"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15088] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15083] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15115"
- , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15115"
+   "c1" : "15110"
+ , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15110"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15115] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15110] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15152"
- , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15152"
+   "c1" : "15147"
+ , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15147"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15152] The expression unilen applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15147] The expression unilen applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15154"
- , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15154"
+   "c1" : "15149"
+ , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15149"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15154] The expression uni applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15149] The expression uni applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15189"
- , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15189"
+   "c1" : "15184"
+ , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15184"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15189] The pointer asctmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[15184] The pointer asctmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15199"
- , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15199"
+   "c1" : "15194"
+ , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15194"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[15199] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[15194] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15220"
- , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15220"
+   "c1" : "15215"
+ , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15215"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15220] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15215] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15238"
- , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15238"
+   "c1" : "15233"
+ , "c1link" : "./qc/crypto/pkcs12/p12_utl.c.html#15233"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[15238] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[15233] The end expression of for loop is empty, infinite loop risk"
 }} 
 ]
 };

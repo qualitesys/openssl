@@ -258,129 +258,143 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09502"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9502"
+   "c1" : "09497"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9497"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09502] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09497] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09523"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9523"
+   "c1" : "09518"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9518"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09523] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09518] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09526"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9526"
+   "c1" : "09521"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9521"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09526] The expression  ! EVP_DigestInit(hash,digest) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09521] The expression  ! EVP_DigestInit(hash,digest) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09532"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9532"
+   "c1" : "09527"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9527"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09532] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09527] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09548"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9548"
+   "c1" : "09543"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9543"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09548] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09543] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09554"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9554"
+   "c1" : "09549"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9549"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09554] The expression  ! EVP_DigestUpdate(hash, &amp; e_byte,1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09549] The expression  ! EVP_DigestUpdate(hash, &amp; e_byte,1) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09554"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9554"
+   "c1" : "09549"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9549"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09554] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[09549] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09560"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9560"
+   "c1" : "09555"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9555"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09560] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09555] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09563"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9563"
+   "c1" : "09558"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9558"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09563] The expression  ! EVP_DigestUpdate(hash, &amp; e_byte,1) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09558] The expression  ! EVP_DigestUpdate(hash, &amp; e_byte,1) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09563"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9563"
+   "c1" : "09558"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9558"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09563] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[09558] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09569"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9569"
+   "c1" : "09564"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9564"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09569] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09564] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09578"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9578"
+   "c1" : "09573"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9573"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09578] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09573] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09581"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9581"
+   "c1" : "09576"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9576"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09581] The expression  ! EC_GROUP_get_curve(group,p,a,b,ctx) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09576] The expression  ! EC_GROUP_get_curve(group,p,a,b,ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09587"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9587"
+   "c1" : "09582"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9582"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09587] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09582] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09602"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9602"
+   "c1" : "09597"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9597"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09602] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09597] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09633"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9633"
+   "c1" : "09628"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9628"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09633] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09628] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09677"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9677"
+   "c1" : "09672"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9672"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09677] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09672] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09695"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9695"
+   "c1" : "09690"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9690"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09695] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09690] goto statement jump to done"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09704"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9704"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09704] goto statement jump to done"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09707"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9707"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09707] The expression  ! ossl_sm2_compute_z_digest(z,fetched_digest,id,id_len,key) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -391,276 +405,262 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09712"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9712"
+   "c1" : "09726"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9726"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09726] goto statement jump to done"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09820"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9820"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09820] goto statement jump to done"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09838"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9838"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09838] goto statement jump to done"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09862"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9862"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09862] goto statement jump to done"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09865"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9865"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09712] The expression  ! ossl_sm2_compute_z_digest(z,fetched_digest,id,id_len,key) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000006[09865] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09714"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9714"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09714] goto statement jump to done"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09731"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9731"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09731] goto statement jump to done"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09825"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9825"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09825] goto statement jump to done"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09843"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9843"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09843] goto statement jump to done"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09867"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9867"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09867] goto statement jump to done"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09870"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9870"
+   "c1" : "09865"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9865"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[09870] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[09865] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09870"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9870"
+   "c1" : "09866"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9866"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[09870] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000011[09866] The expression  ! BN_priv_rand_range_ex(k,order,0,ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09871"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9871"
+   "c1" : "09866"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9866"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09871] The expression  ! BN_priv_rand_range_ex(k,order,0,ctx) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[09866] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09871"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9871"
+   "c1" : "09872"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9872"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09872] goto statement jump to done"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09896"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9896"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09896] goto statement jump to done"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09900"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9900"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09871] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[09900] The expression BN_is_zero(r) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09877"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9877"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09877] goto statement jump to done"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09901"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9901"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09901] goto statement jump to done"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09905"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9905"
+   "c1" : "09903"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9903"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09905] The expression BN_is_zero(r) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09903] The expression  ! BN_add(rk,r,k) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09908"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9908"
+   "c1" : "09909"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9909"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09909] goto statement jump to done"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09925"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9925"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09925] goto statement jump to done"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09929"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9929"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09908] The expression  ! BN_add(rk,r,k) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09929] The expression BN_is_zero(s) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09914"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9914"
+   "c1" : "09943"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9943"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09914] goto statement jump to done"
+ , "c3" : "QC-CPP000007[09943] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09930"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9930"
+   "c1" : "10020"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10020"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09930] goto statement jump to done"
+ , "c3" : "QC-CPP000007[10020] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09934"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9934"
+   "c1" : "10036"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10036"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10036] goto statement jump to done"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10050"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10050"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10050] goto statement jump to done"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10053"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10053"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09934] The expression BN_is_zero(s) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10053] The expression  ! BN_mod_add(t,r,s,order,ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09948"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#9948"
+   "c1" : "10059"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10059"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09948] goto statement jump to done"
+ , "c3" : "QC-CPP000007[10059] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10025"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10025"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10025] goto statement jump to done"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10041"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10041"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10041] goto statement jump to done"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10055"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10055"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10055] goto statement jump to done"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10058"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10058"
+   "c1" : "10062"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10062"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10058] The expression  ! BN_mod_add(t,r,s,order,ctx) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10062] The expression BN_is_zero(t) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10064"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10064"
+   "c1" : "10068"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10068"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10064] goto statement jump to done"
+ , "c3" : "QC-CPP000007[10068] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10067"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10067"
+   "c1" : "10082"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10082"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10082] goto statement jump to done"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10085"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10085"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10067] The expression BN_is_zero(t) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10085] The expression  ! BN_mod_add(t,e,x1,order,ctx) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10073"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10073"
+   "c1" : "10091"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10091"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10073] goto statement jump to done"
+ , "c3" : "QC-CPP000007[10091] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10087"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10087"
+   "c1" : "10127"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10127"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10087] goto statement jump to done"
+ , "c3" : "QC-CPP000007[10127] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10090"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10090"
+   "c1" : "10158"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10158"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10158] goto statement jump to done"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10200"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10200"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10200] goto statement jump to done"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10214"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10214"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10214] goto statement jump to done"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10224"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10224"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10224] goto statement jump to done"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10250"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10250"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10090] The expression  ! BN_mod_add(t,e,x1,order,ctx) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[10250] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10096"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10096"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10096] goto statement jump to done"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10132"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10132"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10132] goto statement jump to done"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10163"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10163"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10163] goto statement jump to done"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10205"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10205"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10205] goto statement jump to done"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10219"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10219"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10219] goto statement jump to done"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10229"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10229"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10229] goto statement jump to done"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10255"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10255"
+   "c1" : "10251"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10251"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10255] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10251] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10256"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10256"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10256] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10275"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10275"
+   "c1" : "10270"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10270"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10275] goto statement jump to done"
+ , "c3" : "QC-CPP000007[10270] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10287"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10287"
+   "c1" : "10282"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10282"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10287] goto statement jump to done"
+ , "c3" : "QC-CPP000007[10282] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10297"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10297"
+   "c1" : "10292"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10292"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10297] goto statement jump to done"
+ , "c3" : "QC-CPP000007[10292] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10315"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10315"
+   "c1" : "10310"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#10310"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10315] goto statement jump to done"
+ , "c3" : "QC-CPP000007[10310] goto statement jump to done"
 }} 
 ]
 };

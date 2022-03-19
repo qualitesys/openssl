@@ -447,38 +447,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15456"
- , "c1link" : "./qc/crypto/x509/x_req.c.html#15456"
+   "c1" : "15451"
+ , "c1link" : "./qc/crypto/x509/x_req.c.html#15451"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15456] The expression  ! rinf-&gt;attributes applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15451] The expression  ! rinf-&gt;attributes applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15468"
- , "c1link" : "./qc/crypto/x509/x_req.c.html#15468"
+   "c1" : "15463"
+ , "c1link" : "./qc/crypto/x509/x_req.c.html#15463"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[15468] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[15463] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15487"
- , "c1link" : "./qc/crypto/x509/x_req.c.html#15487"
+   "c1" : "15482"
+ , "c1link" : "./qc/crypto/x509/x_req.c.html#15482"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15487] The expression  ! ossl_x509_req_set0_libctx(ret,old-&gt;libctx,old-&gt;propq) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15482] The expression  ! ossl_x509_req_set0_libctx(ret,old-&gt;libctx,old-&gt;propq) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15514"
- , "c1link" : "./qc/crypto/x509/x_req.c.html#15514"
+   "c1" : "15509"
+ , "c1link" : "./qc/crypto/x509/x_req.c.html#15509"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15514] The expression  ! X509_PUBKEY_set( &amp; ret-&gt;req_info.pubkey,pkey) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15509] The expression  ! X509_PUBKEY_set( &amp; ret-&gt;req_info.pubkey,pkey) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15762"
- , "c1link" : "./qc/crypto/x509/x_req.c.html#15762"
+   "c1" : "15757"
+ , "c1link" : "./qc/crypto/x509/x_req.c.html#15757"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15762] The expression  ! ossl_x509_req_set0_libctx(req,libctx,propq) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15757] The expression  ! ossl_x509_req_set0_libctx(req,libctx,propq) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

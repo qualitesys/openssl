@@ -454,164 +454,164 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15414"
- , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15414"
+   "c1" : "15409"
+ , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15409"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15414] The pointer copy is declared but not initialized"
+ , "c3" : "QC-CPP000014[15409] The pointer copy is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15426"
- , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15426"
+   "c1" : "15421"
+ , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15421"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15426] The expression '\0' is invariable"
+ , "c3" : "QC-CPP000012[15421] The expression '\0' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15459"
- , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15459"
+   "c1" : "15454"
+ , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15454"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15459] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15454] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15468"
- , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15468"
+   "c1" : "15463"
+ , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15463"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15468] The expression  ! OPENSSL_sk_push(ossl_check_OPENSSL_STRING_sk_type(vpm-&gt;hosts),ossl_check_OPENSSL_STRING_type(copy)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15463] The expression  ! OPENSSL_sk_push(ossl_check_OPENSSL_STRING_sk_type(vpm-&gt;hosts),ossl_check_OPENSSL_STRING_type(copy)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15487"
- , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15487"
+   "c1" : "15482"
+ , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15482"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15487] The pointer param is declared but not initialized"
+ , "c3" : "QC-CPP000014[15482] The pointer param is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15534"
- , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15534"
+   "c1" : "15529"
+ , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15529"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15534] The expression  ! src applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15529] The expression  ! src applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15581"
- , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15581"
+   "c1" : "15576"
+ , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15576"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15581] The expression  ! X509_VERIFY_PARAM_set1_policies(dest,src-&gt;policies) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15576] The expression  ! X509_VERIFY_PARAM_set1_policies(dest,src-&gt;policies) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15602"
- , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15602"
+   "c1" : "15597"
+ , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15597"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15602] The expression src-&gt;hosts applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15597] The expression src-&gt;hosts applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15623"
- , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15623"
+   "c1" : "15618"
+ , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15618"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15623] The expression  ! X509_VERIFY_PARAM_set1_email(dest,src-&gt;email,src-&gt;emaillen) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15618] The expression  ! X509_VERIFY_PARAM_set1_email(dest,src-&gt;email,src-&gt;emaillen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15636"
- , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15636"
+   "c1" : "15631"
+ , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15631"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15636] The expression  ! X509_VERIFY_PARAM_set1_ip(dest,src-&gt;ip,src-&gt;iplen) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15631] The expression  ! X509_VERIFY_PARAM_set1_ip(dest,src-&gt;ip,src-&gt;iplen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15657"
- , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15657"
+   "c1" : "15652"
+ , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15652"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15657] The pointer tmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[15652] The pointer tmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15658"
- , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15658"
+   "c1" : "15653"
+ , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15653"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15658] The expression src applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15653] The expression src applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15694"
- , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15694"
+   "c1" : "15689"
+ , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15689"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15694] The expression param-&gt;name applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15689] The expression param-&gt;name applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15777"
- , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15777"
+   "c1" : "15772"
+ , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15772"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15777] The expression  ! OPENSSL_sk_push(ossl_check_ASN1_OBJECT_sk_type(param-&gt;policies),ossl_check_ASN1_OBJECT_type(policy)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15772] The expression  ! OPENSSL_sk_push(ossl_check_ASN1_OBJECT_sk_type(param-&gt;policies),ossl_check_ASN1_OBJECT_type(policy)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15786"
- , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15786"
+   "c1" : "15781"
+ , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15781"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15786] The pointer oid is declared but not initialized"
+ , "c3" : "QC-CPP000014[15781] The pointer oid is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15786"
- , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15786"
+   "c1" : "15781"
+ , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15781"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15786] The pointer doid is declared but not initialized"
+ , "c3" : "QC-CPP000014[15781] The pointer doid is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15820"
- , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15820"
+   "c1" : "15815"
+ , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15815"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15820] The expression  ! doid applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15815] The expression  ! doid applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15822"
- , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15822"
+   "c1" : "15817"
+ , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15817"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15822] The expression  ! OPENSSL_sk_push(ossl_check_ASN1_OBJECT_sk_type(param-&gt;policies),ossl_check_ASN1_OBJECT_type(doid)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15817] The expression  ! OPENSSL_sk_push(ossl_check_ASN1_OBJECT_sk_type(param-&gt;policies),ossl_check_ASN1_OBJECT_type(doid)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15886"
- , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15886"
+   "c1" : "15881"
+ , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15881"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15886] The expression from applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15881] The expression from applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15935"
- , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15935"
+   "c1" : "15930"
+ , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#15930"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15935] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15930] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16164"
- , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#16164"
+   "c1" : "16159"
+ , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#16159"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16164] The pointer ptmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[16159] The pointer ptmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16184"
- , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#16184"
+   "c1" : "16179"
+ , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#16179"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16184] The expression  ! OPENSSL_sk_push(ossl_check_X509_VERIFY_PARAM_sk_type(param_table),ossl_check_X509_VERIFY_PARAM_type(param)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16179] The expression  ! OPENSSL_sk_push(ossl_check_X509_VERIFY_PARAM_sk_type(param_table),ossl_check_X509_VERIFY_PARAM_type(param)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16192"
- , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#16192"
+   "c1" : "16187"
+ , "c1link" : "./qc/crypto/x509/x509_vpm.c.html#16187"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16192] The expression param_table applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16187] The expression param_table applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

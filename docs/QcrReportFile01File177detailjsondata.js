@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bio/bss_sock.c.html" 
- , "texte" : "File crypto/bio/bss_sock.c 67 rule violations " 
+ , "texte" : "File crypto/bio/bss_sock.c 70 rule violations " 
  , "fic2"  : "./qc/crypto/bio/bss_sock.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "19"
+ , "c4" : "22"
 }}
 ,
 { "ligne" : {
@@ -489,52 +489,73 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10537"
- , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10537"
+   "c1" : "10542"
+ , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10542"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10537] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[10542] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10576"
- , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10576"
+   "c1" : "10583"
+ , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10583"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10576] The expression a-&gt;shutdown applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10583] The expression a-&gt;shutdown applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10577"
- , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10577"
+   "c1" : "10584"
+ , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10584"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10577] The expression a-&gt;init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10584] The expression a-&gt;init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10608"
- , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10608"
+   "c1" : "10621"
+ , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10621"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10608] The expression BIO_sock_should_retry(ret) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10621] The expression BIO_sock_should_retry(ret) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10630"
- , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10630"
+   "c1" : "10646"
+ , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10646"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10630] The expression BIO_sock_should_retry(ret) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10646] The expression BIO_sock_should_retry(ret) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10639"
- , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10639"
+   "c1" : "10655"
+ , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10655"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10639] The pointer ip is declared but not initialized"
+ , "c3" : "QC-CPP000014[10655] The pointer ip is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10652"
- , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10652"
+   "c1" : "10664"
+ , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10664"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10652] The expression b-&gt;init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10664] The expression b-&gt;shutdown applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10665"
+ , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10665"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10665] The expression b-&gt;init applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10676"
+ , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10676"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10676] The expression b-&gt;init applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10723"
+ , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10723"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10723] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

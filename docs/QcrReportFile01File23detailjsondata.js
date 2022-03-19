@@ -503,17 +503,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18826"
- , "c1link" : "./qc/apps/lib/app_libctx.c.html#18826"
+   "c1" : "18821"
+ , "c1link" : "./qc/apps/lib/app_libctx.c.html#18821"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18826] The expression  ! app_provider_load((( void  *)0),'null') applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18821] The expression  ! app_provider_load((( void  *)0),'null') applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18830"
- , "c1link" : "./qc/apps/lib/app_libctx.c.html#18830"
+   "c1" : "18825"
+ , "c1link" : "./qc/apps/lib/app_libctx.c.html#18825"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18830] The expression 'null' is invariable"
+ , "c3" : "QC-CPP000012[18825] The expression 'null' is invariable"
 }} 
 ]
 };

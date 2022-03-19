@@ -454,31 +454,59 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11221"
- , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11221"
+   "c1" : "11216"
+ , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11216"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11221] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11216] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11237"
- , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11237"
+   "c1" : "11232"
+ , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11232"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11237] The pointer r0 is declared but not initialized"
+ , "c3" : "QC-CPP000014[11232] The pointer r0 is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11237"
- , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11237"
+   "c1" : "11232"
+ , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11232"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11237] The pointer r1 is declared but not initialized"
+ , "c3" : "QC-CPP000014[11232] The pointer r1 is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11237"
- , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11237"
+   "c1" : "11232"
+ , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11232"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11237] The pointer r2 is declared but not initialized"
+ , "c3" : "QC-CPP000014[11232] The pointer r2 is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11262"
+ , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11262"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11262] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11264"
+ , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11264"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[11264] The expression  ! BN_sub(r1,p,BN_value_one()) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "11265"
+ , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11265"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11265] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11266"
+ , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11266"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[11266] The expression  ! BN_sub(r2,q,BN_value_one()) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -489,94 +517,66 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "11268"
+ , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11268"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[11268] The expression  ! BN_mul(r0,r1,r2,ctx) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "11269"
  , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11269"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11269] The expression  ! BN_sub(r1,p,BN_value_one()) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "11270"
- , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11270"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11270] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11269] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11271"
- , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11271"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11271] The expression  ! BN_sub(r2,q,BN_value_one()) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "11272"
- , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11272"
+   "c1" : "11283"
+ , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11283"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11272] goto statement jump to err"
+ , "c3" : "QC-CPP000014[11283] The pointer e is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11273"
- , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11273"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11273] The expression  ! BN_mul(r0,r1,r2,ctx) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "11274"
- , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11274"
+   "c1" : "11284"
+ , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11284"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11274] goto statement jump to err"
+ , "c3" : "QC-CPP000014[11284] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11288"
- , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11288"
+   "c1" : "11296"
+ , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11296"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11288] The pointer e is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[11296] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11289"
- , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11289"
+   "c1" : "11318"
+ , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11318"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11289] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000007[11318] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11301"
- , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11301"
+   "c1" : "11337"
+ , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11337"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11301] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[11337] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11323"
- , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11323"
+   "c1" : "11356"
+ , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11356"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11323] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11356] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11342"
- , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11342"
+   "c1" : "11379"
+ , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11379"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11342] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11361"
- , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11361"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11361] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11384"
- , "c1link" : "./qc/crypto/rsa/rsa_crpt.c.html#11384"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11384] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11379] goto statement jump to err"
 }} 
 ]
 };

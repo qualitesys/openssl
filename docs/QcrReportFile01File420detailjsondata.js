@@ -244,10 +244,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09480"
- , "c1link" : "./qc/crypto/evp/cmeth_lib.c.html#9480"
+   "c1" : "09475"
+ , "c1link" : "./qc/crypto/evp/cmeth_lib.c.html#9475"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09480] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[09475] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

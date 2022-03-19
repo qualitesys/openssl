@@ -510,66 +510,73 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10572"
- , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10572"
+   "c1" : "10567"
+ , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10567"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10572] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[10567] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10573"
- , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10573"
+   "c1" : "10568"
+ , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10568"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10573] The pointer b is declared but not initialized"
+ , "c3" : "QC-CPP000014[10568] The pointer b is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10574"
- , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10574"
+   "c1" : "10569"
+ , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10569"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10574] The pointer bb is declared but not initialized"
+ , "c3" : "QC-CPP000014[10569] The pointer bb is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10594"
- , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10594"
+   "c1" : "10589"
+ , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10589"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10594] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10589] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10627"
- , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10627"
+   "c1" : "10622"
+ , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10622"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10627] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10622] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10635"
- , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10635"
+   "c1" : "10630"
+ , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10630"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10635] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10630] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10664"
- , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10664"
+   "c1" : "10659"
+ , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10659"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10664] The pointer bb is declared but not initialized"
+ , "c3" : "QC-CPP000014[10659] The pointer bb is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10674"
- , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10674"
+   "c1" : "10669"
+ , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10669"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10674] The expression  ! mem_buf_free(a) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10669] The expression  ! mem_buf_free(a) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10774"
- , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10774"
+   "c1" : "10769"
+ , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10769"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10774] goto statement jump to end"
+ , "c3" : "QC-CPP000007[10769] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10784"
+ , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10784"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10784] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
@@ -580,45 +587,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10794"
- , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10794"
+   "c1" : "10800"
+ , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10800"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10794] goto statement jump to end"
+ , "c3" : "QC-CPP000014[10800] The pointer pptr is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10805"
- , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10805"
+   "c1" : "10802"
+ , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10802"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10805] The pointer pptr is declared but not initialized"
+ , "c3" : "QC-CPP000014[10802] The pointer bm is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10807"
- , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10807"
+   "c1" : "10802"
+ , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10802"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10807] The pointer bm is declared but not initialized"
+ , "c3" : "QC-CPP000014[10802] The pointer bo is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10807"
- , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10807"
+   "c1" : "10899"
+ , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10899"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10807] The pointer bo is declared but not initialized"
+ , "c3" : "QC-CPP000002[10899] Avoid multiple switch labels with default case in switch case"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10904"
- , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10904"
+   "c1" : "10912"
+ , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10912"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000002[10904] Avoid multiple switch labels with default case in switch case"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10917"
- , "c1link" : "./qc/crypto/bio/bss_mem.c.html#10917"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10917] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[10912] The pointer p is declared but not initialized"
 }} 
 ]
 };

@@ -440,52 +440,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07763"
- , "c1link" : "./qc/crypto/buffer/buffer.c.html#7763"
+   "c1" : "07758"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#7758"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07763] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[07758] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07777"
- , "c1link" : "./qc/crypto/buffer/buffer.c.html#7777"
+   "c1" : "07772"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#7772"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07777] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[07772] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07824"
- , "c1link" : "./qc/crypto/buffer/buffer.c.html#7824"
+   "c1" : "07819"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#7819"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07824] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[07819] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07851"
- , "c1link" : "./qc/crypto/buffer/buffer.c.html#7851"
+   "c1" : "07846"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#7846"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07851] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[07846] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07904"
- , "c1link" : "./qc/crypto/buffer/buffer.c.html#7904"
+   "c1" : "07899"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#7899"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07904] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[07899] The pointer ret is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07954"
+ , "c1link" : "./qc/crypto/buffer/buffer.c.html#7954"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07954] The expression in applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "07959"
  , "c1link" : "./qc/crypto/buffer/buffer.c.html#7959"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07959] The expression in applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07964"
- , "c1link" : "./qc/crypto/buffer/buffer.c.html#7964"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07964] The pointer q is declared but not initialized"
+ , "c3" : "QC-CPP000014[07959] The pointer q is declared but not initialized"
 }} 
 ]
 };

@@ -454,199 +454,199 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15543"
- , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15543"
+   "c1" : "15538"
+ , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15538"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15543] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15538] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15558"
- , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15558"
+   "c1" : "15553"
+ , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15553"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15558] The pointer aux is declared but not initialized"
+ , "c3" : "QC-CPP000014[15553] The pointer aux is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15559"
- , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15559"
+   "c1" : "15554"
+ , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15554"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15559] The expression  ! name applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15554] The expression  ! name applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15570"
- , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15570"
+   "c1" : "15565"
+ , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15565"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15570] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15565] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15580"
- , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15580"
+   "c1" : "15575"
+ , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15575"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15580] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15575] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15591"
- , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15591"
+   "c1" : "15586"
+ , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15586"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15591] The pointer aux is declared but not initialized"
+ , "c3" : "QC-CPP000014[15586] The pointer aux is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15592"
- , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15592"
+   "c1" : "15587"
+ , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15587"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15592] The expression  ! id applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15587] The expression  ! id applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15603"
- , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15603"
+   "c1" : "15598"
+ , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15598"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15603] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15598] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15614"
- , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15614"
+   "c1" : "15609"
+ , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15609"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15614] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15609] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15631"
- , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15631"
+   "c1" : "15626"
+ , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15626"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15631] The expression len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15626] The expression len applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15644"
- , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15644"
+   "c1" : "15639"
+ , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15639"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15644] The expression len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15639] The expression len applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15651"
- , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15651"
+   "c1" : "15646"
+ , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15646"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15651] The pointer aux is declared but not initialized"
+ , "c3" : "QC-CPP000014[15646] The pointer aux is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15652"
+ , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15652"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15652] The expression obj applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15654"
+ , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15654"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15654] The expression  ! objtmp applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "15657"
  , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15657"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15657] The expression obj applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15659"
- , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15659"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15659] The expression  ! objtmp applies to a single value or variable, might be ambiguous."
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15657] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "15662"
  , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15662"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15662] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[15662] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15667"
- , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15667"
+   "c1" : "15668"
+ , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15668"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15667] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[15668] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "15673"
  , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15673"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15673] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[15673] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15678"
- , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15678"
+   "c1" : "15683"
+ , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15683"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15678] goto statement jump to err"
+ , "c3" : "QC-CPP000014[15683] The pointer aux is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15688"
- , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15688"
+   "c1" : "15684"
+ , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15684"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15688] The pointer aux is declared but not initialized"
+ , "c3" : "QC-CPP000014[15684] The pointer objtmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15689"
- , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15689"
+   "c1" : "15687"
+ , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15687"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15689] The pointer objtmp is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[15687] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15692"
- , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15692"
+   "c1" : "15693"
+ , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15693"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15692] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15693] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "15698"
  , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15698"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15698] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[15698] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15703"
- , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15703"
+   "c1" : "15704"
+ , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15704"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15703] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[15704] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "15709"
  , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15709"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15709] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[15709] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "15714"
  , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15714"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15714] goto statement jump to err"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15714] The expression  ! res applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15719"
- , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15719"
+   "c1" : "15721"
+ , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15721"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15719] The expression  ! res applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15721] The expression x-&gt;aux applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15726"
- , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15726"
+   "c1" : "15733"
+ , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15733"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15726] The expression x-&gt;aux applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15738"
- , "c1link" : "./qc/crypto/x509/x_x509a.c.html#15738"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15738] The expression x-&gt;aux applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15733] The expression x-&gt;aux applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

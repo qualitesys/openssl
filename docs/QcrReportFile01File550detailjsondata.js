@@ -454,129 +454,129 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07257"
- , "c1link" : "./qc/crypto/params_from_text.c.html#7257"
+   "c1" : "07252"
+ , "c1link" : "./qc/crypto/params_from_text.c.html#7252"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07257] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[07252] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07265"
- , "c1link" : "./qc/crypto/params_from_text.c.html#7265"
+   "c1" : "07260"
+ , "c1link" : "./qc/crypto/params_from_text.c.html#7260"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07265] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07260] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07265"
- , "c1link" : "./qc/crypto/params_from_text.c.html#7265"
+   "c1" : "07260"
+ , "c1link" : "./qc/crypto/params_from_text.c.html#7260"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07265] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07260] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07265"
- , "c1link" : "./qc/crypto/params_from_text.c.html#7265"
+   "c1" : "07260"
+ , "c1link" : "./qc/crypto/params_from_text.c.html#7260"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07265] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07260] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07267"
- , "c1link" : "./qc/crypto/params_from_text.c.html#7267"
+   "c1" : "07262"
+ , "c1link" : "./qc/crypto/params_from_text.c.html#7262"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07267] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07262] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07288"
- , "c1link" : "./qc/crypto/params_from_text.c.html#7288"
+   "c1" : "07283"
+ , "c1link" : "./qc/crypto/params_from_text.c.html#7283"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07288] The expression  * ishex applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07283] The expression  * ishex applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07311"
- , "c1link" : "./qc/crypto/params_from_text.c.html#7311"
+   "c1" : "07306"
+ , "c1link" : "./qc/crypto/params_from_text.c.html#7306"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07311] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[07306] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07341"
- , "c1link" : "./qc/crypto/params_from_text.c.html#7341"
+   "c1" : "07336"
+ , "c1link" : "./qc/crypto/params_from_text.c.html#7336"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07341] The expression  * ishex applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07336] The expression  * ishex applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07352"
- , "c1link" : "./qc/crypto/params_from_text.c.html#7352"
+   "c1" : "07347"
+ , "c1link" : "./qc/crypto/params_from_text.c.html#7347"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07352] The expression  * ishex applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07347] The expression  * ishex applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07389"
- , "c1link" : "./qc/crypto/params_from_text.c.html#7389"
+   "c1" : "07384"
+ , "c1link" : "./qc/crypto/params_from_text.c.html#7384"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07389] The pointer cp is declared but not initialized"
+ , "c3" : "QC-CPP000014[07384] The pointer cp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07406"
- , "c1link" : "./qc/crypto/params_from_text.c.html#7406"
+   "c1" : "07401"
+ , "c1link" : "./qc/crypto/params_from_text.c.html#7401"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07406] The expression ishex applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07401] The expression ishex applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07409"
- , "c1link" : "./qc/crypto/params_from_text.c.html#7409"
+   "c1" : "07404"
+ , "c1link" : "./qc/crypto/params_from_text.c.html#7404"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07409] The expression  ! OPENSSL_hexstr2buf_ex(buf,buf_n, &amp; l,value,':') applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07404] The expression  ! OPENSSL_hexstr2buf_ex(buf,buf_n, &amp; l,value,':') applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07409"
- , "c1link" : "./qc/crypto/params_from_text.c.html#7409"
+   "c1" : "07404"
+ , "c1link" : "./qc/crypto/params_from_text.c.html#7404"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07409] The expression ':' is invariable"
+ , "c3" : "QC-CPP000012[07404] The expression ':' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07461"
- , "c1link" : "./qc/crypto/params_from_text.c.html#7461"
+   "c1" : "07456"
+ , "c1link" : "./qc/crypto/params_from_text.c.html#7456"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07461] The expression  ! prepare_from_text(paramdefs,key,value,value_n, &amp; paramdef, &amp; ishex, &amp; buf_n, &amp; tmpbn,found) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07456] The expression  ! prepare_from_text(paramdefs,key,value,value_n, &amp; paramdef, &amp; ishex, &amp; buf_n, &amp; tmpbn,found) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07463"
- , "c1link" : "./qc/crypto/params_from_text.c.html#7463"
+   "c1" : "07458"
+ , "c1link" : "./qc/crypto/params_from_text.c.html#7458"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07463] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07458] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07465"
- , "c1link" : "./qc/crypto/params_from_text.c.html#7465"
+   "c1" : "07460"
+ , "c1link" : "./qc/crypto/params_from_text.c.html#7460"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07465] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07460] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07475"
- , "c1link" : "./qc/crypto/params_from_text.c.html#7475"
+   "c1" : "07470"
+ , "c1link" : "./qc/crypto/params_from_text.c.html#7470"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07475] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07470] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07481"
- , "c1link" : "./qc/crypto/params_from_text.c.html#7481"
+   "c1" : "07476"
+ , "c1link" : "./qc/crypto/params_from_text.c.html#7476"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07481] The expression  ! ok applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07476] The expression  ! ok applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

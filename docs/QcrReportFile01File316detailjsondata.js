@@ -447,24 +447,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07946"
- , "c1link" : "./qc/crypto/dh/dh_depr.c.html#7946"
+   "c1" : "07941"
+ , "c1link" : "./qc/crypto/dh/dh_depr.c.html#7941"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07946] The pointer cb is declared but not initialized"
+ , "c3" : "QC-CPP000014[07941] The pointer cb is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07953"
- , "c1link" : "./qc/crypto/dh/dh_depr.c.html#7953"
+   "c1" : "07948"
+ , "c1link" : "./qc/crypto/dh/dh_depr.c.html#7948"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07953] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07948] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07979"
- , "c1link" : "./qc/crypto/dh/dh_depr.c.html#7979"
+   "c1" : "07974"
+ , "c1link" : "./qc/crypto/dh/dh_depr.c.html#7974"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07979] The expression DH_generate_parameters_ex(ret,prime_len,generator,cb) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07974] The expression DH_generate_parameters_ex(ret,prime_len,generator,cb) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -244,157 +244,157 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08740"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#8740"
+   "c1" : "08735"
+ , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#8735"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08740] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08735] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08741"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#8741"
+   "c1" : "08736"
+ , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#8736"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08741] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08736] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08912"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#8912"
+   "c1" : "08907"
+ , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#8907"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08912] The expression n applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08907] The expression n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08925"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#8925"
+   "c1" : "08920"
+ , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#8920"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08925] The expression 9999&lt;3 is invariable"
+ , "c3" : "QC-CPP000012[08920] The expression 9999&lt;3 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09231"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9231"
+   "c1" : "09226"
+ , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9226"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09231] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09226] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09240"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9240"
+   "c1" : "09235"
+ , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9235"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09240] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09235] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09338"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9338"
+   "c1" : "09333"
+ , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9333"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09338] The expression  ! oneshot_hash(ctx,secret_scalar_ser, sizeof (secret_scalar_ser),privkey,57,propq) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09333] The expression  ! oneshot_hash(ctx,secret_scalar_ser, sizeof (secret_scalar_ser),privkey,57,propq) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09340"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9340"
+   "c1" : "09335"
+ , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9335"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09340] The expression 57 is invariable"
+ , "c3" : "QC-CPP000012[09335] The expression 57 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09396"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9396"
+   "c1" : "09391"
+ , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9391"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09396] The expression  ! oneshot_hash(ctx,expanded, sizeof (expanded),privkey,57,propq) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09391] The expression  ! oneshot_hash(ctx,expanded, sizeof (expanded),privkey,57,propq) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09397"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9397"
+   "c1" : "09392"
+ , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9392"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09397] The expression 57 is invariable"
+ , "c3" : "QC-CPP000012[09392] The expression 57 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09398"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9398"
+   "c1" : "09393"
+ , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9393"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09398] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09393] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09404"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9404"
+   "c1" : "09399"
+ , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9399"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09404] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09399] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09408"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9408"
+   "c1" : "09403"
+ , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9403"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09408] The expression 57 is invariable"
+ , "c3" : "QC-CPP000012[09403] The expression 57 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09411"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9411"
+   "c1" : "09406"
+ , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9406"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09411] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09406] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09420"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9420"
+   "c1" : "09415"
+ , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9415"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09420] The expression  ! EVP_DigestFinalXOF(hashctx,nonce, sizeof (nonce)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09415] The expression  ! EVP_DigestFinalXOF(hashctx,nonce, sizeof (nonce)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09421"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9421"
+   "c1" : "09416"
+ , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9416"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09421] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09416] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09446"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9446"
+   "c1" : "09441"
+ , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9441"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09446] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09441] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09449"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9449"
+   "c1" : "09444"
+ , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9444"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09449] The expression 57 is invariable"
+ , "c3" : "QC-CPP000012[09444] The expression 57 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09452"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9452"
+   "c1" : "09447"
+ , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9447"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09452] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09447] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09549"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9549"
+   "c1" : "09544"
+ , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9544"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09549] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09544] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09551"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9551"
+   "c1" : "09546"
+ , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9546"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09551] The expression 57 is invariable"
+ , "c3" : "QC-CPP000012[09546] The expression 57 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09552"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9552"
+   "c1" : "09547"
+ , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9547"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09552] The expression 57 is invariable"
+ , "c3" : "QC-CPP000012[09547] The expression 57 is invariable"
 }} 
 ]
 };

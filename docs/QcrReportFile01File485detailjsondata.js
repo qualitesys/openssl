@@ -454,94 +454,94 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11509"
- , "c1link" : "./qc/crypto/evp/pmeth_check.c.html#11509"
+   "c1" : "11504"
+ , "c1link" : "./qc/crypto/evp/pmeth_check.c.html#11504"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11509] The pointer keymgmt is declared but not initialized"
+ , "c3" : "QC-CPP000014[11504] The pointer keymgmt is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11510"
- , "c1link" : "./qc/crypto/evp/pmeth_check.c.html#11510"
+   "c1" : "11505"
+ , "c1link" : "./qc/crypto/evp/pmeth_check.c.html#11505"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11510] The pointer keydata is declared but not initialized"
+ , "c3" : "QC-CPP000014[11505] The pointer keydata is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11512"
- , "c1link" : "./qc/crypto/evp/pmeth_check.c.html#11512"
+   "c1" : "11507"
+ , "c1link" : "./qc/crypto/evp/pmeth_check.c.html#11507"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11512] The expression ctx applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11507] The expression ctx applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "11551"
+ , "c1link" : "./qc/crypto/evp/pmeth_check.c.html#11551"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[11551] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "11556"
  , "c1link" : "./qc/crypto/evp/pmeth_check.c.html#11556"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11556] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[11556] goto statement jump to not_supported"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11561"
- , "c1link" : "./qc/crypto/evp/pmeth_check.c.html#11561"
+   "c1" : "11578"
+ , "c1link" : "./qc/crypto/evp/pmeth_check.c.html#11578"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11561] goto statement jump to not_supported"
+ , "c3" : "QC-CPP000007[11578] goto statement jump to not_supported"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11583"
- , "c1link" : "./qc/crypto/evp/pmeth_check.c.html#11583"
+   "c1" : "11619"
+ , "c1link" : "./qc/crypto/evp/pmeth_check.c.html#11619"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11583] goto statement jump to not_supported"
+ , "c3" : "QC-CPPCWE481[11619] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11624"
- , "c1link" : "./qc/crypto/evp/pmeth_check.c.html#11624"
+   "c1" : "11625"
+ , "c1link" : "./qc/crypto/evp/pmeth_check.c.html#11625"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11624] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[11625] goto statement jump to not_supported"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11630"
- , "c1link" : "./qc/crypto/evp/pmeth_check.c.html#11630"
+   "c1" : "11647"
+ , "c1link" : "./qc/crypto/evp/pmeth_check.c.html#11647"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11630] goto statement jump to not_supported"
+ , "c3" : "QC-CPP000007[11647] goto statement jump to not_supported"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11652"
- , "c1link" : "./qc/crypto/evp/pmeth_check.c.html#11652"
+   "c1" : "11688"
+ , "c1link" : "./qc/crypto/evp/pmeth_check.c.html#11688"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11652] goto statement jump to not_supported"
+ , "c3" : "QC-CPPCWE481[11688] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11693"
- , "c1link" : "./qc/crypto/evp/pmeth_check.c.html#11693"
+   "c1" : "11724"
+ , "c1link" : "./qc/crypto/evp/pmeth_check.c.html#11724"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11693] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11724] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "11729"
  , "c1link" : "./qc/crypto/evp/pmeth_check.c.html#11729"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11729] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[11729] goto statement jump to not_supported"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11734"
- , "c1link" : "./qc/crypto/evp/pmeth_check.c.html#11734"
+   "c1" : "11751"
+ , "c1link" : "./qc/crypto/evp/pmeth_check.c.html#11751"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11734] goto statement jump to not_supported"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11756"
- , "c1link" : "./qc/crypto/evp/pmeth_check.c.html#11756"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11756] goto statement jump to not_supported"
+ , "c3" : "QC-CPP000007[11751] goto statement jump to not_supported"
 }} 
 ]
 };

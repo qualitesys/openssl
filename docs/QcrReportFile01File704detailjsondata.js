@@ -454,234 +454,241 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15505"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15505"
+   "c1" : "15500"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15500"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15505] The pointer tmpextlist is declared but not initialized"
+ , "c3" : "QC-CPP000014[15500] The pointer tmpextlist is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15507"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15507"
+   "c1" : "15502"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15502"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15507] The expression akeyid-&gt;keyid applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15502] The expression akeyid-&gt;keyid applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15529"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15529"
+   "c1" : "15524"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15524"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15529] The expression  ! X509V3_add_value((akeyid-&gt;issuer||akeyid-&gt;serial)?'keyid' : (( void  *)0),tmp, &amp; extlist) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15524] The expression  ! X509V3_add_value((akeyid-&gt;issuer||akeyid-&gt;serial)?'keyid' : (( void  *)0),tmp, &amp; extlist) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15529"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15529"
+   "c1" : "15524"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15524"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15529] The expression 'keyid' is invariable"
+ , "c3" : "QC-CPP000012[15524] The expression 'keyid' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15541"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15541"
+   "c1" : "15536"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15536"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15541] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15536] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15545"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15545"
+   "c1" : "15540"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15540"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15545] The expression akeyid-&gt;issuer applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15540] The expression akeyid-&gt;issuer applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15561"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15561"
+   "c1" : "15556"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15556"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15561] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15556] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15565"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15565"
+   "c1" : "15560"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15560"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15565] The expression akeyid-&gt;serial applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15560] The expression akeyid-&gt;serial applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15581"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15581"
+   "c1" : "15576"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15576"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15581] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15576] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15583"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15583"
+   "c1" : "15578"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15578"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15583] The expression  ! X509V3_add_value('serial',tmp, &amp; extlist) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15578] The expression  ! X509V3_add_value('serial',tmp, &amp; extlist) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15583"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15583"
+   "c1" : "15578"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15578"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15583] The expression 'serial' is invariable"
+ , "c3" : "QC-CPP000012[15578] The expression 'serial' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15585"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15585"
+   "c1" : "15580"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15580"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15585] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15580] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15610"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15610"
+   "c1" : "15605"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15605"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15610] The pointer cnf is declared but not initialized"
+ , "c3" : "QC-CPP000014[15605] The pointer cnf is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15636"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15636"
+   "c1" : "15631"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15631"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15636] The pointer ext is declared but not initialized"
+ , "c3" : "QC-CPP000014[15631] The pointer ext is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15637"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15637"
+   "c1" : "15632"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15632"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15637] The pointer issuer_cert is declared but not initialized"
+ , "c3" : "QC-CPP000014[15632] The pointer issuer_cert is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15646"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15646"
+   "c1" : "15641"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15641"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15646] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15641] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15648"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15648"
+   "c1" : "15643"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15643"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15648] The expression 'none' is invariable"
+ , "c3" : "QC-CPP000012[15643] The expression 'none' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15653"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15653"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15653] The expression 'always' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15656"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15656"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15656] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "15658"
  , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15658"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15658] The expression 'always' is invariable"
+ , "c3" : "QC-CPP000012[15658] The expression 'keyid' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15661"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15661"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15661] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15663"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15663"
+   "c1" : "15666"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15666"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15663] The expression 'keyid' is invariable"
+ , "c3" : "QC-CPP000012[15666] The expression 'issuer' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15671"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15671"
+   "c1" : "15674"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15674"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15671] The expression 'issuer' is invariable"
+ , "c3" : "QC-CPP000012[15674] The expression 'none' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15675"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15675"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15675] The expression 'keyid' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15676"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15676"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15676] The expression 'issuer' is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "15679"
  , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15679"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15679] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15683"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15683"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15683] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15704"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15704"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15704] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15706"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15706"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15706] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15716"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15716"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15716] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15737"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15737"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15737] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15769"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15769"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15679] The expression 'none' is invariable"
+ , "c3" : "QC-CPP000011[15769] The expression X509_PUBKEY_set( &amp; pubkey,ctx-&gt;issuer_pkey) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15680"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15680"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15680] The expression 'keyid' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15681"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15681"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15681] The expression 'issuer' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15684"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15684"
+   "c1" : "15783"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15783"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15684] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15783] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15688"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15688"
+   "c1" : "15808"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15808"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15688] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15808] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15709"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15709"
+   "c1" : "15817"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15817"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15709] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15711"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15711"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15711] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15721"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15721"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15721] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15742"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15742"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15742] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15774"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15774"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15774] The expression X509_PUBKEY_set( &amp; pubkey,ctx-&gt;issuer_pkey) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15788"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15788"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15788] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15813"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15813"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15813] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[15817] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -692,17 +699,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15827"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15827"
+   "c1" : "15833"
+ , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15833"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15827] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15838"
- , "c1link" : "./qc/crypto/x509/v3_akid.c.html#15838"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15838] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15833] goto statement jump to err"
 }} 
 ]
 };

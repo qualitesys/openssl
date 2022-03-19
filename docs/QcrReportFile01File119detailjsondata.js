@@ -461,66 +461,80 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07791"
- , "c1link" : "./qc/crypto/asn1/f_string.c.html#7791"
+   "c1" : "07786"
+ , "c1link" : "./qc/crypto/asn1/f_string.c.html#7786"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07791] The expression '0' is invariable"
+ , "c3" : "QC-CPP000012[07786] The expression '0' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07791"
- , "c1link" : "./qc/crypto/asn1/f_string.c.html#7791"
+   "c1" : "07786"
+ , "c1link" : "./qc/crypto/asn1/f_string.c.html#7786"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07791] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[07786] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07787"
+ , "c1link" : "./qc/crypto/asn1/f_string.c.html#7787"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07787] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "07792"
  , "c1link" : "./qc/crypto/asn1/f_string.c.html#7792"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07792] The expression '\\\n' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07792"
+ , "c1link" : "./qc/crypto/asn1/f_string.c.html#7792"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07792] The expression 2 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07793"
+ , "c1link" : "./qc/crypto/asn1/f_string.c.html#7793"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07792] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07797"
- , "c1link" : "./qc/crypto/asn1/f_string.c.html#7797"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07797] The expression '\\\n' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07797"
- , "c1link" : "./qc/crypto/asn1/f_string.c.html#7797"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07797] The expression 2 is invariable"
+ , "c3" : "QC-CPP000007[07793] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "07798"
  , "c1link" : "./qc/crypto/asn1/f_string.c.html#7798"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07798] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07803"
- , "c1link" : "./qc/crypto/asn1/f_string.c.html#7803"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07803] The expression 2 is invariable"
+ , "c3" : "QC-CPP000012[07798] The expression 2 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07804"
- , "c1link" : "./qc/crypto/asn1/f_string.c.html#7804"
+   "c1" : "07799"
+ , "c1link" : "./qc/crypto/asn1/f_string.c.html#7799"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07804] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07799] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07820"
- , "c1link" : "./qc/crypto/asn1/f_string.c.html#7820"
+   "c1" : "07815"
+ , "c1link" : "./qc/crypto/asn1/f_string.c.html#7815"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07820] The pointer sp is declared but not initialized"
+ , "c3" : "QC-CPP000014[07815] The pointer sp is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07811"
+ , "c1link" : "./qc/crypto/asn1/f_string.c.html#7811"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[07811] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07816"
+ , "c1link" : "./qc/crypto/asn1/f_string.c.html#7816"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[07816] The pointer bufp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -531,80 +545,66 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07821"
- , "c1link" : "./qc/crypto/asn1/f_string.c.html#7821"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07821] The pointer bufp is declared but not initialized"
+   "c1" : "07820"
+ , "c1link" : "./qc/crypto/asn1/f_string.c.html#7820"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[07820] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07821"
- , "c1link" : "./qc/crypto/asn1/f_string.c.html#7821"
+   "c1" : "07820"
+ , "c1link" : "./qc/crypto/asn1/f_string.c.html#7820"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07821] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000006[07820] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07822"
+ , "c1link" : "./qc/crypto/asn1/f_string.c.html#7822"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07822] The expression first applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "07825"
  , "c1link" : "./qc/crypto/asn1/f_string.c.html#7825"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[07825] The condition of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07825"
- , "c1link" : "./qc/crypto/asn1/f_string.c.html#7825"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[07825] The end expression of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07827"
- , "c1link" : "./qc/crypto/asn1/f_string.c.html#7827"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07827] The expression first applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07830"
- , "c1link" : "./qc/crypto/asn1/f_string.c.html#7830"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07830] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07825] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07838"
- , "c1link" : "./qc/crypto/asn1/f_string.c.html#7838"
+   "c1" : "07833"
+ , "c1link" : "./qc/crypto/asn1/f_string.c.html#7833"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07838] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07833] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07842"
- , "c1link" : "./qc/crypto/asn1/f_string.c.html#7842"
+   "c1" : "07837"
+ , "c1link" : "./qc/crypto/asn1/f_string.c.html#7837"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07842] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07837] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07846"
- , "c1link" : "./qc/crypto/asn1/f_string.c.html#7846"
+   "c1" : "07841"
+ , "c1link" : "./qc/crypto/asn1/f_string.c.html#7841"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07846] The expression  ! (ossl_ctype_check((buf[j]),0x10)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07841] The expression  ! (ossl_ctype_check((buf[j]),0x10)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07856"
- , "c1link" : "./qc/crypto/asn1/f_string.c.html#7856"
+   "c1" : "07851"
+ , "c1link" : "./qc/crypto/asn1/f_string.c.html#7851"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07856] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07851] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07907"
- , "c1link" : "./qc/crypto/asn1/f_string.c.html#7907"
+   "c1" : "07902"
+ , "c1link" : "./qc/crypto/asn1/f_string.c.html#7902"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07907] The expression again applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07902] The expression again applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

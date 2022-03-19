@@ -244,199 +244,199 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08077"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8077"
+   "c1" : "08072"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8072"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08077] The pointer prm is declared but not initialized"
+ , "c3" : "QC-CPP000014[08072] The pointer prm is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08078"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8078"
+   "c1" : "08073"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8073"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08078] The pointer param_p is declared but not initialized"
+ , "c3" : "QC-CPP000014[08073] The pointer param_p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08078"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8078"
+   "c1" : "08073"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8073"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08078] The pointer param_q is declared but not initialized"
+ , "c3" : "QC-CPP000014[08073] The pointer param_q is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08078"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8078"
+   "c1" : "08073"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8073"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08078] The pointer param_g is declared but not initialized"
+ , "c3" : "QC-CPP000014[08073] The pointer param_g is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08128"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8128"
+   "c1" : "08123"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8123"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08128] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08123] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08135"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8135"
+   "c1" : "08130"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8130"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08135] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08130] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08157"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8157"
+   "c1" : "08152"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8152"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08157] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08152] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08165"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8165"
+   "c1" : "08160"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8160"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08165] The expression  ! OSSL_PARAM_get_int(prm, &amp; i) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08160] The expression  ! OSSL_PARAM_get_int(prm, &amp; i) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08166"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8166"
+   "c1" : "08161"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8161"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08166] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08161] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08175"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8175"
+   "c1" : "08170"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8170"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08175] The expression  ! OSSL_PARAM_get_int(prm, &amp; i) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08170] The expression  ! OSSL_PARAM_get_int(prm, &amp; i) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08176"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8176"
+   "c1" : "08171"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8171"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08176] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08171] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08185"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8185"
+   "c1" : "08180"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8180"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08185] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08180] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08192"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8192"
+   "c1" : "08187"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8187"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08192] The expression  ! OSSL_PARAM_get_int(prm, &amp; i) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08187] The expression  ! OSSL_PARAM_get_int(prm, &amp; i) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08193"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8193"
+   "c1" : "08188"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8188"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08193] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08188] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08203"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8203"
+   "c1" : "08198"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8198"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08203] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08198] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08204"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8204"
+   "c1" : "08199"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8199"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08204] The expression  ! ossl_ffc_params_set_seed(ffc,prm-&gt;data,prm-&gt;data_size) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08199] The expression  ! ossl_ffc_params_set_seed(ffc,prm-&gt;data,prm-&gt;data_size) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08205"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8205"
+   "c1" : "08200"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8200"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08205] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08200] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08213"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8213"
+   "c1" : "08208"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8208"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08213] The expression  ! OSSL_PARAM_get_int(prm, &amp; i) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08208] The expression  ! OSSL_PARAM_get_int(prm, &amp; i) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08214"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8214"
+   "c1" : "08209"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8209"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08214] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08209] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08223"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8223"
+   "c1" : "08218"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8218"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08223] The expression  ! OSSL_PARAM_get_int(prm, &amp; i) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08218] The expression  ! OSSL_PARAM_get_int(prm, &amp; i) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08224"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8224"
+   "c1" : "08219"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8219"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08224] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08219] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08233"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8233"
+   "c1" : "08228"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8228"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08233] The expression  ! OSSL_PARAM_get_int(prm, &amp; i) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08228] The expression  ! OSSL_PARAM_get_int(prm, &amp; i) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08234"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8234"
+   "c1" : "08229"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8229"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08234] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08229] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08244"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8244"
+   "c1" : "08239"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8239"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08244] The pointer p1 is declared but not initialized"
+ , "c3" : "QC-CPP000014[08239] The pointer p1 is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08252"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8252"
+   "c1" : "08247"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8247"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08252] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08247] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08260"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8260"
+   "c1" : "08255"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8255"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08260] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08255] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08262"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8262"
+   "c1" : "08257"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8257"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08262] The expression  ! ossl_ffc_set_digest(ffc,prm-&gt;data,props) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08257] The expression  ! ossl_ffc_set_digest(ffc,prm-&gt;data,props) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08263"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8263"
+   "c1" : "08258"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8258"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08263] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08258] goto statement jump to err"
 }} 
 ]
 };

@@ -454,73 +454,108 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15105"
- , "c1link" : "./qc/crypto/evp/evp_key.c.html#15105"
+   "c1" : "15100"
+ , "c1link" : "./qc/crypto/evp/evp_key.c.html#15100"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15105] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[15100] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15134"
- , "c1link" : "./qc/crypto/evp/evp_key.c.html#15134"
+   "c1" : "15129"
+ , "c1link" : "./qc/crypto/evp/evp_key.c.html#15129"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15134] The pointer ui is declared but not initialized"
+ , "c3" : "QC-CPP000014[15129] The pointer ui is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15149"
- , "c1link" : "./qc/crypto/evp/evp_key.c.html#15149"
+   "c1" : "15144"
+ , "c1link" : "./qc/crypto/evp/evp_key.c.html#15144"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15149] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[15144] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15156"
- , "c1link" : "./qc/crypto/evp/evp_key.c.html#15156"
+   "c1" : "15151"
+ , "c1link" : "./qc/crypto/evp/evp_key.c.html#15151"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15156] The expression 8192-1 is invariable"
+ , "c3" : "QC-CPP000012[15151] The expression 8192-1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15171"
- , "c1link" : "./qc/crypto/evp/evp_key.c.html#15171"
+   "c1" : "15166"
+ , "c1link" : "./qc/crypto/evp/evp_key.c.html#15166"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15171] goto statement jump to end"
+ , "c3" : "QC-CPP000007[15166] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15188"
- , "c1link" : "./qc/crypto/evp/evp_key.c.html#15188"
+   "c1" : "15183"
+ , "c1link" : "./qc/crypto/evp/evp_key.c.html#15183"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15188] The pointer c is declared but not initialized"
+ , "c3" : "QC-CPP000014[15183] The pointer c is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15211"
- , "c1link" : "./qc/crypto/evp/evp_key.c.html#15211"
+   "c1" : "15206"
+ , "c1link" : "./qc/crypto/evp/evp_key.c.html#15206"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15211] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15206] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15212"
- , "c1link" : "./qc/crypto/evp/evp_key.c.html#15212"
+   "c1" : "15207"
+ , "c1link" : "./qc/crypto/evp/evp_key.c.html#15207"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[15212] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[15207] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15212"
- , "c1link" : "./qc/crypto/evp/evp_key.c.html#15212"
+   "c1" : "15207"
+ , "c1link" : "./qc/crypto/evp/evp_key.c.html#15207"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[15212] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[15207] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15208"
+ , "c1link" : "./qc/crypto/evp/evp_key.c.html#15208"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15208] The expression  ! EVP_DigestInit_ex(c,md,(( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "15213"
  , "c1link" : "./qc/crypto/evp/evp_key.c.html#15213"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15213] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15214"
+ , "c1link" : "./qc/crypto/evp/evp_key.c.html#15214"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15213] The expression  ! EVP_DigestInit_ex(c,md,(( void  *)0)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15214] The expression addmd++ applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15215"
+ , "c1link" : "./qc/crypto/evp/evp_key.c.html#15215"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15215] The expression  ! EVP_DigestUpdate(c, &amp; (md_buf[0]),mds) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15216"
+ , "c1link" : "./qc/crypto/evp/evp_key.c.html#15216"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15216] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15217"
+ , "c1link" : "./qc/crypto/evp/evp_key.c.html#15217"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15217] The expression  ! EVP_DigestUpdate(c,data,datal) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -531,150 +566,115 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15219"
- , "c1link" : "./qc/crypto/evp/evp_key.c.html#15219"
+   "c1" : "15224"
+ , "c1link" : "./qc/crypto/evp/evp_key.c.html#15224"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15219] The expression addmd++ applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15224] The expression  ! EVP_DigestUpdate(c,salt,8) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15220"
- , "c1link" : "./qc/crypto/evp/evp_key.c.html#15220"
+   "c1" : "15224"
+ , "c1link" : "./qc/crypto/evp/evp_key.c.html#15224"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15220] The expression  ! EVP_DigestUpdate(c, &amp; (md_buf[0]),mds) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[15224] The expression 8 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15221"
- , "c1link" : "./qc/crypto/evp/evp_key.c.html#15221"
+   "c1" : "15225"
+ , "c1link" : "./qc/crypto/evp/evp_key.c.html#15225"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15221] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15225] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15222"
- , "c1link" : "./qc/crypto/evp/evp_key.c.html#15222"
+   "c1" : "15226"
+ , "c1link" : "./qc/crypto/evp/evp_key.c.html#15226"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15222] The expression  ! EVP_DigestUpdate(c,data,datal) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15226] The expression  ! EVP_DigestFinal_ex(c, &amp; (md_buf[0]), &amp; mds) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15223"
- , "c1link" : "./qc/crypto/evp/evp_key.c.html#15223"
+   "c1" : "15227"
+ , "c1link" : "./qc/crypto/evp/evp_key.c.html#15227"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15223] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15229"
- , "c1link" : "./qc/crypto/evp/evp_key.c.html#15229"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15229] The expression  ! EVP_DigestUpdate(c,salt,8) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15229"
- , "c1link" : "./qc/crypto/evp/evp_key.c.html#15229"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15229] The expression 8 is invariable"
+ , "c3" : "QC-CPP000007[15227] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "15230"
  , "c1link" : "./qc/crypto/evp/evp_key.c.html#15230"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15230] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15231"
- , "c1link" : "./qc/crypto/evp/evp_key.c.html#15231"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15231] The expression  ! EVP_DigestFinal_ex(c, &amp; (md_buf[0]), &amp; mds) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15232"
- , "c1link" : "./qc/crypto/evp/evp_key.c.html#15232"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15232] goto statement jump to err"
+ , "c3" : "QC-CPP000011[15230] The expression  ! EVP_DigestInit_ex(c,md,(( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "15235"
  , "c1link" : "./qc/crypto/evp/evp_key.c.html#15235"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15235] The expression  ! EVP_DigestInit_ex(c,md,(( void  *)0)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15240"
- , "c1link" : "./qc/crypto/evp/evp_key.c.html#15240"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15240] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15235] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15241"
- , "c1link" : "./qc/crypto/evp/evp_key.c.html#15241"
+   "c1" : "15236"
+ , "c1link" : "./qc/crypto/evp/evp_key.c.html#15236"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15241] The expression  ! EVP_DigestUpdate(c, &amp; (md_buf[0]),mds) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15236] The expression  ! EVP_DigestUpdate(c, &amp; (md_buf[0]),mds) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15237"
+ , "c1link" : "./qc/crypto/evp/evp_key.c.html#15237"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15237] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15238"
+ , "c1link" : "./qc/crypto/evp/evp_key.c.html#15238"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15238] The expression  ! EVP_DigestFinal_ex(c, &amp; (md_buf[0]), &amp; mds) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15239"
+ , "c1link" : "./qc/crypto/evp/evp_key.c.html#15239"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15239] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "15242"
  , "c1link" : "./qc/crypto/evp/evp_key.c.html#15242"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15242] goto statement jump to err"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15242] The expression nkey applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "15243"
  , "c1link" : "./qc/crypto/evp/evp_key.c.html#15243"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15243] The expression  ! EVP_DigestFinal_ex(c, &amp; (md_buf[0]), &amp; mds) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000006[15243] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15244"
- , "c1link" : "./qc/crypto/evp/evp_key.c.html#15244"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15244] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15247"
- , "c1link" : "./qc/crypto/evp/evp_key.c.html#15247"
+   "c1" : "15243"
+ , "c1link" : "./qc/crypto/evp/evp_key.c.html#15243"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15247] The expression nkey applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000006[15243] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15248"
- , "c1link" : "./qc/crypto/evp/evp_key.c.html#15248"
+   "c1" : "15259"
+ , "c1link" : "./qc/crypto/evp/evp_key.c.html#15259"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[15248] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[15259] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15248"
- , "c1link" : "./qc/crypto/evp/evp_key.c.html#15248"
+   "c1" : "15259"
+ , "c1link" : "./qc/crypto/evp/evp_key.c.html#15259"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[15248] The end expression of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15264"
- , "c1link" : "./qc/crypto/evp/evp_key.c.html#15264"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[15264] The condition of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15264"
- , "c1link" : "./qc/crypto/evp/evp_key.c.html#15264"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[15264] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[15259] The end expression of for loop is empty, infinite loop risk"
 }} 
 ]
 };

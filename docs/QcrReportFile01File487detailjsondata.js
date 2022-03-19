@@ -244,10 +244,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06525"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#6525"
+   "c1" : "06520"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#6520"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06525] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06520] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15153"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15153"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15153] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15155"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15155"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15155] The expression  ! __builtin_constant_p(__nbytes) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -258,17 +272,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15160"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15160"
+   "c1" : "15183"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15183"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15160] The expression  ! __builtin_constant_p(__nbytes) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[15183] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15163"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15163"
+   "c1" : "15185"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15185"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15163] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[15185] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -279,17 +293,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15190"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15190"
+   "c1" : "15217"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15217"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15190] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[15217] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15193"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15193"
+   "c1" : "15219"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15219"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15193] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000011[15219] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -300,17 +314,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15224"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15224"
+   "c1" : "15243"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15243"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15224] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[15243] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15227"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15227"
+   "c1" : "15245"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15245"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15227] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000011[15245] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -321,24 +335,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15250"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15250"
+   "c1" : "15264"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15264"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15250] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[15264] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15253"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15253"
+   "c1" : "15283"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15283"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15253] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[15283] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15269"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15269"
+   "c1" : "15285"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15285"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15269] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000011[15285] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -349,17 +363,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15290"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15290"
+   "c1" : "15308"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15308"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15290] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15293"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15293"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15293] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[15308] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
@@ -370,10 +377,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15318"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15318"
+   "c1" : "15334"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15334"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15318] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[15334] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15336"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15336"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15336] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -384,17 +398,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15341"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15341"
+   "c1" : "15360"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15360"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15341] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[15360] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15344"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15344"
+   "c1" : "15362"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15362"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15344] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000011[15362] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -405,17 +419,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15367"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15367"
+   "c1" : "15387"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15387"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15367] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[15387] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15370"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15370"
+   "c1" : "15389"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15389"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15370] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000011[15389] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -426,17 +440,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15394"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15394"
+   "c1" : "15416"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15416"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15394] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[15416] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15397"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15397"
+   "c1" : "15418"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15418"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15397] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000011[15418] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -447,605 +461,591 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15423"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15423"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15423] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15426"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#15426"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15426] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17462"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#17462"
+   "c1" : "17457"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#17457"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17462] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[17457] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17464"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#17464"
+   "c1" : "17459"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#17459"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17464] The pointer t is declared but not initialized"
+ , "c3" : "QC-CPP000014[17459] The pointer t is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17466"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#17466"
+   "c1" : "17461"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#17461"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17466] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17461] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17496"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#17496"
+   "c1" : "17491"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#17491"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17496] The pointer pmeth is declared but not initialized"
+ , "c3" : "QC-CPP000014[17491] The pointer pmeth is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17662"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#17662"
+   "c1" : "17657"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#17657"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17662] goto statement jump to common"
+ , "c3" : "QC-CPP000007[17657] goto statement jump to common"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17707"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#17707"
+   "c1" : "17702"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#17702"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17707] The expression  ! ENGINE_init(e) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17702] The expression  ! ENGINE_init(e) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17741"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#17741"
+   "c1" : "17736"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#17736"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17741] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17736] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17778"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#17778"
+   "c1" : "17773"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#17773"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17778] The expression  ! EVP_KEYMGMT_up_ref(pkey-&gt;keymgmt) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17773] The expression  ! EVP_KEYMGMT_up_ref(pkey-&gt;keymgmt) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18008"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18008"
+   "c1" : "18003"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18003"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18008] The expression ctx applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18003] The expression ctx applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18121"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18121"
+   "c1" : "18116"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18116"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18121] The expression ppkey_id applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18116] The expression ppkey_id applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18123"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18123"
+   "c1" : "18118"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18118"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18123] The expression pflags applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18118] The expression pflags applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18185"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18185"
+   "c1" : "18180"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18180"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18185] The pointer rctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[18180] The pointer rctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18242"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18242"
+   "c1" : "18237"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18237"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18242] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18237] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18246"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18246"
+   "c1" : "18241"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18241"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18246] The expression pctx applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18241] The expression pctx applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18253"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18253"
+   "c1" : "18248"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18248"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18253] The expression  ! EVP_KEYEXCH_up_ref(rctx-&gt;op.kex.exchange) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18248] The expression  ! EVP_KEYEXCH_up_ref(rctx-&gt;op.kex.exchange) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18254"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18254"
+   "c1" : "18249"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18249"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18254] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18249] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18266"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18266"
+   "c1" : "18261"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18261"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18266] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18261] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18280"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18280"
+   "c1" : "18275"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18275"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18280] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18275] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18291"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18291"
+   "c1" : "18286"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18286"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18291] The expression  ! EVP_SIGNATURE_up_ref(rctx-&gt;op.sig.signature) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18286] The expression  ! EVP_SIGNATURE_up_ref(rctx-&gt;op.sig.signature) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18292"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18292"
+   "c1" : "18287"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18287"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18292] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18287] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18304"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18304"
+   "c1" : "18299"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18299"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18304] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18299] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18318"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18318"
+   "c1" : "18313"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18313"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18318] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18313] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18329"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18329"
+   "c1" : "18324"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18324"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18329] The expression  ! EVP_ASYM_CIPHER_up_ref(rctx-&gt;op.ciph.cipher) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18324] The expression  ! EVP_ASYM_CIPHER_up_ref(rctx-&gt;op.ciph.cipher) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18330"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18330"
+   "c1" : "18325"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18325"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18330] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18325] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18342"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18342"
+   "c1" : "18337"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18337"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18342] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18337] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18356"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18356"
+   "c1" : "18351"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18351"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18356] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18351] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18367"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18367"
+   "c1" : "18362"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18362"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18367] The expression  ! EVP_KEM_up_ref(rctx-&gt;op.encap.kem) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18362] The expression  ! EVP_KEM_up_ref(rctx-&gt;op.encap.kem) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18368"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18368"
+   "c1" : "18363"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18363"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18368] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18363] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18380"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18380"
+   "c1" : "18375"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18375"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18380] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18375] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18394"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18394"
+   "c1" : "18389"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18389"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18394] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18389] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18400"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18400"
+   "c1" : "18395"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18395"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18400] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18395] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18423"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18423"
+   "c1" : "18418"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18418"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18423] The pointer provkey is declared but not initialized"
+ , "c3" : "QC-CPP000014[18418] The pointer provkey is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18432"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18432"
+   "c1" : "18427"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18427"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18432] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18427] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18433"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18433"
+   "c1" : "18428"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18428"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18433] The expression  ! EVP_KEYMGMT_up_ref(tmp_keymgmt) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18428] The expression  ! EVP_KEYMGMT_up_ref(tmp_keymgmt) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18434"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18434"
+   "c1" : "18429"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18429"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18434] goto statement jump to err"
+ , "c3" : "QC-CPP000007[18429] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18477"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18477"
+   "c1" : "18472"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18472"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18477] The expression  ! sk_EVP_PKEY_METHOD_push(app_pkey_methods,pmeth) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18472] The expression  ! sk_EVP_PKEY_METHOD_push(app_pkey_methods,pmeth) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18501"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18501"
+   "c1" : "18496"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18496"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18501] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[18496] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18516"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18516"
+   "c1" : "18511"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18511"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18516] The expression app_pkey_methods applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18511] The expression app_pkey_methods applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18549"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18549"
+   "c1" : "18544"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18544"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18549] The expression ctx applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18544] The expression ctx applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18716"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18716"
+   "c1" : "18711"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18711"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18716] The pointer provctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[18711] The pointer provctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18789"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18789"
+   "c1" : "18784"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18784"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18789] The pointer provctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[18784] The pointer provctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18894"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18894"
+   "c1" : "18889"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18889"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18894] The expression ctx applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18889] The expression ctx applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18900"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18900"
+   "c1" : "18895"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18895"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18900] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[18895] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18939"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18939"
+   "c1" : "18934"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18934"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18939] The expression ctx applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18934] The expression ctx applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18945"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18945"
+   "c1" : "18940"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18940"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18945] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[18940] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18970"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18970"
+   "c1" : "18965"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18965"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18970] The pointer tmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[18965] The pointer tmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18999"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18999"
+   "c1" : "18994"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#18994"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18999] The expression  ! EVP_PKEY_CTX_get_params(ctx,sig_md_params) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18994] The expression  ! EVP_PKEY_CTX_get_params(ctx,sig_md_params) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19020"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#19020"
+   "c1" : "19015"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#19015"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19020] The pointer name is declared but not initialized"
+ , "c3" : "QC-CPP000014[19015] The pointer name is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19036"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#19036"
+   "c1" : "19031"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#19031"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19036] The expression fallback applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19031] The expression fallback applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19104"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#19104"
+   "c1" : "19099"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#19099"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19104] The expression fallback applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19099] The expression fallback applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19680"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#19680"
+   "c1" : "19675"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#19675"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19680] The expression 'digest' is invariable"
+ , "c3" : "QC-CPP000012[19675] The expression 'digest' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19730"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#19730"
+   "c1" : "19725"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#19725"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19730] The expression 'distid' is invariable"
+ , "c3" : "QC-CPP000012[19725] The expression 'distid' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19730"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#19730"
+   "c1" : "19725"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#19725"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19730] The expression 'hexdistid' is invariable"
+ , "c3" : "QC-CPP000012[19725] The expression 'hexdistid' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19747"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#19747"
+   "c1" : "19742"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#19742"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19747] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19742] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19774"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#19774"
+   "c1" : "19769"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#19769"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19774] The expression  ! EVP_KEYMGMT_is_a(ctx-&gt;keymgmt,evp_pkey_type2name(keytype)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19769] The expression  ! EVP_KEYMGMT_is_a(ctx-&gt;keymgmt,evp_pkey_type2name(keytype)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19936"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#19936"
+   "c1" : "19931"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#19931"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19936] The expression ctx applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19931] The expression ctx applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19987"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#19987"
+   "c1" : "19982"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#19982"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19987] The pointer bin is declared but not initialized"
+ , "c3" : "QC-CPP000014[19982] The pointer bin is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19987"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#19987"
+   "c1" : "19982"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#19982"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19987] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[19982] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20007"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20007"
+   "c1" : "20002"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20002"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20007] The pointer m is declared but not initialized"
+ , "c3" : "QC-CPP000014[20002] The pointer m is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20013"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20013"
+   "c1" : "20008"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20008"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20013] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20008] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20278"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20278"
+   "c1" : "20273"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20273"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20278] The expression pparamgen_init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20273] The expression pparamgen_init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20280"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20280"
+   "c1" : "20275"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20275"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20280] The expression pparamgen applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20275] The expression pparamgen applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20289"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20289"
+   "c1" : "20284"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20284"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20289] The expression pkeygen_init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20284] The expression pkeygen_init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20291"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20291"
+   "c1" : "20286"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20286"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20291] The expression pkeygen applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20286] The expression pkeygen applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20302"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20302"
+   "c1" : "20297"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20297"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20302] The expression psign_init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20297] The expression psign_init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20304"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20304"
+   "c1" : "20299"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20299"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20304] The expression psign applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20299] The expression psign applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20316"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20316"
+   "c1" : "20311"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20311"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20316] The expression pverify_init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20311] The expression pverify_init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20318"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20318"
+   "c1" : "20313"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20313"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20318] The expression pverify applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20313] The expression pverify applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20334"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20334"
+   "c1" : "20329"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20329"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20334] The expression pverify_recover_init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20329] The expression pverify_recover_init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20336"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20336"
+   "c1" : "20331"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20331"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20336] The expression pverify_recover applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20331] The expression pverify_recover applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20348"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20348"
+   "c1" : "20343"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20343"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20348] The expression psignctx_init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20343] The expression psignctx_init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20350"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20350"
+   "c1" : "20345"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20345"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20350] The expression psignctx applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20345] The expression psignctx applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20362"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20362"
+   "c1" : "20357"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20357"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20362] The expression pverifyctx_init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20357] The expression pverifyctx_init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20364"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20364"
+   "c1" : "20359"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20359"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20364] The expression pverifyctx applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20359] The expression pverifyctx applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20376"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20376"
+   "c1" : "20371"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20371"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20376] The expression pencrypt_init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20371] The expression pencrypt_init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20378"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20378"
+   "c1" : "20373"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20373"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20378] The expression pencryptfn applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20373] The expression pencryptfn applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20390"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20390"
+   "c1" : "20385"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20385"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20390] The expression pdecrypt_init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20385] The expression pdecrypt_init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20392"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20392"
+   "c1" : "20387"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20387"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20392] The expression pdecrypt applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20387] The expression pdecrypt applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20402"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20402"
+   "c1" : "20397"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20397"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20402] The expression pderive_init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20397] The expression pderive_init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20404"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20404"
+   "c1" : "20399"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20399"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20404] The expression pderive applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20399] The expression pderive applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20415"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20415"
+   "c1" : "20410"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20410"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20415] The expression pctrl applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20410] The expression pctrl applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20417"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20417"
+   "c1" : "20412"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20412"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20417] The expression pctrl_str applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20412] The expression pctrl_str applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20425"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20425"
+   "c1" : "20420"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20420"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20425] The expression digestsign applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20420] The expression digestsign applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20434"
- , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20434"
+   "c1" : "20429"
+ , "c1link" : "./qc/crypto/evp/pmeth_lib.c.html#20429"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20434] The expression digestverify applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20429] The expression digestverify applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -517,52 +517,59 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10514"
- , "c1link" : "./qc/crypto/bio/bss_file.c.html#10514"
+   "c1" : "10509"
+ , "c1link" : "./qc/crypto/bio/bss_file.c.html#10509"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10514] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[10509] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10518"
- , "c1link" : "./qc/crypto/bio/bss_file.c.html#10518"
+   "c1" : "10513"
+ , "c1link" : "./qc/crypto/bio/bss_file.c.html#10513"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10518] The expression 'b' is invariable"
+ , "c3" : "QC-CPP000012[10513] The expression 'b' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10575"
- , "c1link" : "./qc/crypto/bio/bss_file.c.html#10575"
+   "c1" : "10570"
+ , "c1link" : "./qc/crypto/bio/bss_file.c.html#10570"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10575] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10570] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10596"
- , "c1link" : "./qc/crypto/bio/bss_file.c.html#10596"
+   "c1" : "10591"
+ , "c1link" : "./qc/crypto/bio/bss_file.c.html#10591"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10596] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[10591] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10598"
- , "c1link" : "./qc/crypto/bio/bss_file.c.html#10598"
+   "c1" : "10593"
+ , "c1link" : "./qc/crypto/bio/bss_file.c.html#10593"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10598] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10593] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10641"
- , "c1link" : "./qc/crypto/bio/bss_file.c.html#10641"
+   "c1" : "10636"
+ , "c1link" : "./qc/crypto/bio/bss_file.c.html#10636"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10641] The expression a-&gt;shutdown applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10636] The expression a-&gt;shutdown applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10647"
- , "c1link" : "./qc/crypto/bio/bss_file.c.html#10647"
+   "c1" : "10642"
+ , "c1link" : "./qc/crypto/bio/bss_file.c.html#10642"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[10647] Suspicious bitwise operation with value 0, result is a and 0 = 0"
+ , "c3" : "QC-CPP000008[10642] Suspicious bitwise operation with value 0, result is a and 0 = 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10667"
+ , "c1link" : "./qc/crypto/bio/bss_file.c.html#10667"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000008[10667] Suspicious bitwise operation with value 0, result is a and 0 = 0"
 }} 
 ,
 { "ligne" : {
@@ -573,115 +580,108 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10677"
- , "c1link" : "./qc/crypto/bio/bss_file.c.html#10677"
+   "c1" : "10700"
+ , "c1link" : "./qc/crypto/bio/bss_file.c.html#10700"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[10677] Suspicious bitwise operation with value 0, result is a and 0 = 0"
+ , "c3" : "QC-CPP000008[10700] Suspicious bitwise operation with value 0, result is a and 0 = 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10705"
- , "c1link" : "./qc/crypto/bio/bss_file.c.html#10705"
+   "c1" : "10704"
+ , "c1link" : "./qc/crypto/bio/bss_file.c.html#10704"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[10705] Suspicious bitwise operation with value 0, result is a and 0 = 0"
+ , "c3" : "QC-CPP000011[10704] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10709"
- , "c1link" : "./qc/crypto/bio/bss_file.c.html#10709"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10709] The expression ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "10725"
- , "c1link" : "./qc/crypto/bio/bss_file.c.html#10725"
+   "c1" : "10720"
+ , "c1link" : "./qc/crypto/bio/bss_file.c.html#10720"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10725] The pointer fpp is declared but not initialized"
+ , "c3" : "QC-CPP000014[10720] The pointer fpp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10732"
- , "c1link" : "./qc/crypto/bio/bss_file.c.html#10732"
+   "c1" : "10727"
+ , "c1link" : "./qc/crypto/bio/bss_file.c.html#10727"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[10732] Suspicious bitwise operation with value 0, result is a and 0 = 0"
+ , "c3" : "QC-CPP000008[10727] Suspicious bitwise operation with value 0, result is a and 0 = 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10738"
- , "c1link" : "./qc/crypto/bio/bss_file.c.html#10738"
+   "c1" : "10733"
+ , "c1link" : "./qc/crypto/bio/bss_file.c.html#10733"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[10738] Suspicious bitwise operation with value 0, result is a and 0 = 0"
+ , "c3" : "QC-CPP000008[10733] Suspicious bitwise operation with value 0, result is a and 0 = 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10745"
- , "c1link" : "./qc/crypto/bio/bss_file.c.html#10745"
+   "c1" : "10740"
+ , "c1link" : "./qc/crypto/bio/bss_file.c.html#10740"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[10745] Suspicious bitwise operation with value 0, result is a and 0 = 0"
+ , "c3" : "QC-CPP000008[10740] Suspicious bitwise operation with value 0, result is a and 0 = 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10828"
- , "c1link" : "./qc/crypto/bio/bss_file.c.html#10828"
+   "c1" : "10823"
+ , "c1link" : "./qc/crypto/bio/bss_file.c.html#10823"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[10828] Suspicious bitwise operation with value 0, result is a and 0 = 0"
+ , "c3" : "QC-CPP000008[10823] Suspicious bitwise operation with value 0, result is a and 0 = 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10828"
- , "c1link" : "./qc/crypto/bio/bss_file.c.html#10828"
+   "c1" : "10823"
+ , "c1link" : "./qc/crypto/bio/bss_file.c.html#10823"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[10828] Suspicious bitwise operation with value 0, result is a and 0 = 0"
+ , "c3" : "QC-CPP000008[10823] Suspicious bitwise operation with value 0, result is a and 0 = 0"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10853"
- , "c1link" : "./qc/crypto/bio/bss_file.c.html#10853"
+   "c1" : "10848"
+ , "c1link" : "./qc/crypto/bio/bss_file.c.html#10848"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000002[10853] Avoid multiple switch labels with default case in switch case"
+ , "c3" : "QC-CPP000002[10848] Avoid multiple switch labels with default case in switch case"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10864"
+ , "c1link" : "./qc/crypto/bio/bss_file.c.html#10864"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000008[10864] Suspicious bitwise operation with value 0, result is a and 0 = 0"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10865"
+ , "c1link" : "./qc/crypto/bio/bss_file.c.html#10865"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10865] The expression  ! fgets(buf,size,bp-&gt;ptr) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10866"
+ , "c1link" : "./qc/crypto/bio/bss_file.c.html#10866"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10866] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10868"
+ , "c1link" : "./qc/crypto/bio/bss_file.c.html#10868"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10868] The expression  ! fgets(buf,size,(FILE *)bp-&gt;ptr) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "10869"
  , "c1link" : "./qc/crypto/bio/bss_file.c.html#10869"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[10869] Suspicious bitwise operation with value 0, result is a and 0 = 0"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10870"
- , "c1link" : "./qc/crypto/bio/bss_file.c.html#10870"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10870] The expression  ! fgets(buf,size,bp-&gt;ptr) applies to a single value or variable, might be ambiguous."
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10869] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "10871"
  , "c1link" : "./qc/crypto/bio/bss_file.c.html#10871"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10871] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10873"
- , "c1link" : "./qc/crypto/bio/bss_file.c.html#10873"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10873] The expression  ! fgets(buf,size,(FILE *)bp-&gt;ptr) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "10874"
- , "c1link" : "./qc/crypto/bio/bss_file.c.html#10874"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10874] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10876"
- , "c1link" : "./qc/crypto/bio/bss_file.c.html#10876"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10876] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10871] The expression 0 is invariable, always false"
 }} 
 ]
 };

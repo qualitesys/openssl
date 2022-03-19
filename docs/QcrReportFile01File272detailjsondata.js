@@ -468,45 +468,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08066"
- , "c1link" : "./qc/crypto/core_namemap.c.html#8066"
+   "c1" : "08061"
+ , "c1link" : "./qc/crypto/core_namemap.c.html#8061"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08066] The expression  ! CRYPTO_THREAD_read_lock(namemap-&gt;lock) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08061] The expression  ! CRYPTO_THREAD_read_lock(namemap-&gt;lock) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08097"
- , "c1link" : "./qc/crypto/core_namemap.c.html#8097"
+   "c1" : "08092"
+ , "c1link" : "./qc/crypto/core_namemap.c.html#8092"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08097] The pointer namenum_entry is declared but not initialized"
+ , "c3" : "QC-CPP000014[08092] The pointer namenum_entry is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08099"
- , "c1link" : "./qc/crypto/core_namemap.c.html#8099"
+   "c1" : "08094"
+ , "c1link" : "./qc/crypto/core_namemap.c.html#8094"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08099] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08094] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08141"
- , "c1link" : "./qc/crypto/core_namemap.c.html#8141"
+   "c1" : "08136"
+ , "c1link" : "./qc/crypto/core_namemap.c.html#8136"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08141] The expression  ! CRYPTO_THREAD_read_lock(namemap-&gt;lock) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08136] The expression  ! CRYPTO_THREAD_read_lock(namemap-&gt;lock) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08191"
- , "c1link" : "./qc/crypto/core_namemap.c.html#8191"
+   "c1" : "08186"
+ , "c1link" : "./qc/crypto/core_namemap.c.html#8186"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08191] The expression  ! ossl_namemap_doall_names(namemap,number,do_num2name, &amp; data) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08186] The expression  ! ossl_namemap_doall_names(namemap,number,do_num2name, &amp; data) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08211"
- , "c1link" : "./qc/crypto/core_namemap.c.html#8211"
+   "c1" : "08206"
+ , "c1link" : "./qc/crypto/core_namemap.c.html#8206"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08211] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08206] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08209"
+ , "c1link" : "./qc/crypto/core_namemap.c.html#8209"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08209] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -520,140 +527,140 @@ var maDataBlocs = {
    "c1" : "08219"
  , "c1link" : "./qc/crypto/core_namemap.c.html#8219"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08219] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[08219] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08224"
- , "c1link" : "./qc/crypto/core_namemap.c.html#8224"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08224] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08247"
- , "c1link" : "./qc/crypto/core_namemap.c.html#8247"
+   "c1" : "08242"
+ , "c1link" : "./qc/crypto/core_namemap.c.html#8242"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08247] The expression lh_NAMENUM_ENTRY_error(namemap-&gt;namenum) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08242] The expression lh_NAMENUM_ENTRY_error(namemap-&gt;namenum) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08248"
- , "c1link" : "./qc/crypto/core_namemap.c.html#8248"
+   "c1" : "08243"
+ , "c1link" : "./qc/crypto/core_namemap.c.html#8243"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08248] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08243] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08285"
- , "c1link" : "./qc/crypto/core_namemap.c.html#8285"
+   "c1" : "08280"
+ , "c1link" : "./qc/crypto/core_namemap.c.html#8280"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08285] The expression  ! CRYPTO_THREAD_write_lock(namemap-&gt;lock) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08280] The expression  ! CRYPTO_THREAD_write_lock(namemap-&gt;lock) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08307"
- , "c1link" : "./qc/crypto/core_namemap.c.html#8307"
+   "c1" : "08302"
+ , "c1link" : "./qc/crypto/core_namemap.c.html#8302"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08307] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[08302] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08307"
- , "c1link" : "./qc/crypto/core_namemap.c.html#8307"
+   "c1" : "08302"
+ , "c1link" : "./qc/crypto/core_namemap.c.html#8302"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08307] The pointer q is declared but not initialized"
+ , "c3" : "QC-CPP000014[08302] The pointer q is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08324"
- , "c1link" : "./qc/crypto/core_namemap.c.html#8324"
+   "c1" : "08319"
+ , "c1link" : "./qc/crypto/core_namemap.c.html#8319"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08324] The expression  ! CRYPTO_THREAD_write_lock(namemap-&gt;lock) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08319] The expression  ! CRYPTO_THREAD_write_lock(namemap-&gt;lock) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08337"
- , "c1link" : "./qc/crypto/core_namemap.c.html#8337"
+   "c1" : "08332"
+ , "c1link" : "./qc/crypto/core_namemap.c.html#8332"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08337] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08332] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08354"
- , "c1link" : "./qc/crypto/core_namemap.c.html#8354"
+   "c1" : "08349"
+ , "c1link" : "./qc/crypto/core_namemap.c.html#8349"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08354] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08349] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08362"
- , "c1link" : "./qc/crypto/core_namemap.c.html#8362"
+   "c1" : "08357"
+ , "c1link" : "./qc/crypto/core_namemap.c.html#8357"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08362] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08357] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08374"
- , "c1link" : "./qc/crypto/core_namemap.c.html#8374"
+   "c1" : "08369"
+ , "c1link" : "./qc/crypto/core_namemap.c.html#8369"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08374] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08369] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08390"
- , "c1link" : "./qc/crypto/core_namemap.c.html#8390"
+   "c1" : "08385"
+ , "c1link" : "./qc/crypto/core_namemap.c.html#8385"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08390] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08385] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10750"
- , "c1link" : "./qc/crypto/core_namemap.c.html#10750"
+   "c1" : "10745"
+ , "c1link" : "./qc/crypto/core_namemap.c.html#10745"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10750] The pointer obj is declared but not initialized"
+ , "c3" : "QC-CPP000014[10745] The pointer obj is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10760"
- , "c1link" : "./qc/crypto/core_namemap.c.html#10760"
+   "c1" : "10755"
+ , "c1link" : "./qc/crypto/core_namemap.c.html#10755"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10760] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10755] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10767"
- , "c1link" : "./qc/crypto/core_namemap.c.html#10767"
+   "c1" : "10762"
+ , "c1link" : "./qc/crypto/core_namemap.c.html#10762"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10767] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[10762] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10829"
- , "c1link" : "./qc/crypto/core_namemap.c.html#10829"
+   "c1" : "10824"
+ , "c1link" : "./qc/crypto/core_namemap.c.html#10824"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[10829] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[10824] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10833"
- , "c1link" : "./qc/crypto/core_namemap.c.html#10833"
+   "c1" : "10828"
+ , "c1link" : "./qc/crypto/core_namemap.c.html#10828"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[10833] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[10828] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10850"
- , "c1link" : "./qc/crypto/core_namemap.c.html#10850"
+   "c1" : "10845"
+ , "c1link" : "./qc/crypto/core_namemap.c.html#10845"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[10850] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[10845] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10924"
- , "c1link" : "./qc/crypto/core_namemap.c.html#10924"
+   "c1" : "10919"
+ , "c1link" : "./qc/crypto/core_namemap.c.html#10919"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10924] The pointer namemap is declared but not initialized"
+ , "c3" : "QC-CPP000014[10919] The pointer namemap is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10921"
+ , "c1link" : "./qc/crypto/core_namemap.c.html#10921"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10921] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -668,13 +675,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/core_namemap.c.html#10931"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[10931] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10936"
- , "c1link" : "./qc/crypto/core_namemap.c.html#10936"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10936] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

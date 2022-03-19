@@ -461,80 +461,87 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "15030"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15030"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15030] The pointer attr is declared but not initialized"
+}} 
+,
+{ "ligne" : {
    "c1" : "15035"
  , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15035"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15035] The expression  ! X509at_add1_attr( &amp; bag-&gt;attrib,attr) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15074"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15074"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15074] The expression  ! iter applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15076"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15076"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15076] The expression  ! mac_iter applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15105"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15105"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15105] The expression  ! X509_check_private_key(cert,pkey) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15111"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15111"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15111] The expression  ! X509_digest(cert,EVP_sha1(),keyid, &amp; keyidlen) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15119"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15119"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15119] The expression cert applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15121"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15121"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15121] The expression  - 1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15122"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15122"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15035] The pointer attr is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15040"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15040"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15040] The expression  ! X509at_add1_attr( &amp; bag-&gt;attrib,attr) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15079"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15079"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15079] The expression  ! iter applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15081"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15081"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15081] The expression  ! mac_iter applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15110"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15110"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15110] The expression  ! X509_check_private_key(cert,pkey) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15116"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15116"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15116] The expression  ! X509_digest(cert,EVP_sha1(),keyid, &amp; keyidlen) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000007[15122] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "15124"
  , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15124"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15124] The expression cert applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15126"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15126"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15126] The expression  - 1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15127"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15127"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15127] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15124] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "15129"
  , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15129"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15129] goto statement jump to err"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15129] The expression  ! PKCS12_add_cert( &amp; bags,((X509 *)OPENSSL_sk_value(ossl_check_const_X509_sk_type(ca),(i)))) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15134"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15134"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15134] The expression  ! PKCS12_add_cert( &amp; bags,((X509 *)OPENSSL_sk_value(ossl_check_const_X509_sk_type(ca),(i)))) applies to a single value or variable, might be ambiguous."
+   "c1" : "15130"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15130"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15130] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
@@ -545,24 +552,59 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15140"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15140"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15140] goto statement jump to err"
+   "c1" : "15144"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15144"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15144] The expression pkey applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15148"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15148"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15148] The expression  ! bag applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "15149"
  , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15149"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15149] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15151"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15151"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15149] The expression pkey applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15151] The expression  ! copy_bag_attr(bag,pkey,417) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15151"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15151"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15151] The expression 417 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15152"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15152"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15152] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "15153"
  , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15153"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15153] The expression  ! bag applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15153] The expression  ! copy_bag_attr(bag,pkey,856) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15153"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15153"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15153] The expression 856 is invariable"
 }} 
 ,
 { "ligne" : {
@@ -576,14 +618,7 @@ var maDataBlocs = {
    "c1" : "15156"
  , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15156"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15156] The expression  ! copy_bag_attr(bag,pkey,417) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15156"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15156"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15156] The expression 417 is invariable"
+ , "c3" : "QC-CPP000012[15156] The expression  - 1 is invariable"
 }} 
 ,
 { "ligne" : {
@@ -594,20 +629,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15158"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15158"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15158] The expression  ! copy_bag_attr(bag,pkey,856) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15158"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15158"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15158] The expression 856 is invariable"
-}} 
-,
-{ "ligne" : {
    "c1" : "15159"
  , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15159"
  , "c2" : "MAJOR"
@@ -615,108 +636,94 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15161"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15161"
+   "c1" : "15162"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15162"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15161] The expression  - 1 is invariable"
+ , "c3" : "QC-CPP000012[15162] The expression  - 1 is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "15162"
  , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15162"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15162] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15164"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15164"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15164] goto statement jump to err"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15162] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "15167"
  , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15167"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15167] The expression  - 1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15167"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15167"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15167] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15172"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15172"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15172] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15167] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15188"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15188"
+   "c1" : "15183"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15183"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15188] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15183] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15199"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15199"
+   "c1" : "15194"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15194"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15199] The expression  - 1 is invariable"
+ , "c3" : "QC-CPP000012[15194] The expression  - 1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15198"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15198"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15198] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "15203"
  , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15203"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15203] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15242"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15242"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15242] The pointer name is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15244"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15244"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15244] The pointer keyid is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15244"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15244"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15203] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000005[15244] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15208"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15208"
+   "c1" : "15248"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15248"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15208] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15247"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15247"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15247] The pointer name is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15249"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15249"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15249] The pointer keyid is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15249"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15249"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15249] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPPCWE481[15248] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "15253"
  , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15253"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15253] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[15253] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15258"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15258"
+   "c1" : "15262"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15262"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15258] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15262] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
@@ -727,157 +734,150 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15272"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15272"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15272] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15274"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15274"
+   "c1" : "15269"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15269"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15274] The expression  ! pkcs12_add_bag(pbags,bag) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15269] The expression  ! pkcs12_add_bag(pbags,bag) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15275"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15275"
+   "c1" : "15270"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15270"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15275] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15270] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15302"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15302"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15302] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "15307"
  , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15307"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15307] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[15307] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15312"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15312"
+   "c1" : "15309"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15309"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15312] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15309] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15314"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15314"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15314] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15326"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15326"
+   "c1" : "15321"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15321"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15326] The expression  ! bag applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15321] The expression  ! bag applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15327"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15327"
+   "c1" : "15322"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15322"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15327] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15322] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15329"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15329"
+   "c1" : "15324"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15324"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15329] The expression  ! pkcs12_add_bag(pbags,bag) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15324] The expression  ! pkcs12_add_bag(pbags,bag) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15330"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15330"
+   "c1" : "15325"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15325"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15330] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15325] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15365"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15365"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15365] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "15370"
  , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15370"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15370] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[15370] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15375"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15375"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15375] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15377"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15377"
+   "c1" : "15372"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15372"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15377] The expression  ! pkcs12_add_bag(pbags,bag) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15372] The expression  ! pkcs12_add_bag(pbags,bag) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15378"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15378"
+   "c1" : "15373"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15373"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15378] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15373] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15436"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15436"
+   "c1" : "15431"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15431"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15436] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15431] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15438"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15438"
+   "c1" : "15433"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15433"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15438] The expression  ! OPENSSL_sk_push(ossl_check_PKCS7_sk_type( * psafes),ossl_check_PKCS7_type(p7)) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15433] The expression  ! OPENSSL_sk_push(ossl_check_PKCS7_sk_type( * psafes),ossl_check_PKCS7_type(p7)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15434"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15434"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15434] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "15439"
  , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15439"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15439] The expression free_safes applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15491"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15491"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15491] The expression  ! OPENSSL_sk_push(ossl_check_PKCS12_SAFEBAG_sk_type( * pbags),ossl_check_PKCS12_SAFEBAG_type(bag)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15492"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15492"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15492] The expression free_bags applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15510"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15510"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15439] goto statement jump to err"
+ , "c3" : "QC-CPP000014[15510] The pointer p12 is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15444"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15444"
+   "c1" : "15526"
+ , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15526"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15444] The expression free_safes applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15496"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15496"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15496] The expression  ! OPENSSL_sk_push(ossl_check_PKCS12_SAFEBAG_sk_type( * pbags),ossl_check_PKCS12_SAFEBAG_type(bag)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15497"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15497"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15497] The expression free_bags applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15515"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15515"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15515] The pointer p12 is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15531"
- , "c1link" : "./qc/crypto/pkcs12/p12_crt.c.html#15531"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15531] The expression  ! PKCS12_pack_authsafes(p12,safes) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15526] The expression  ! PKCS12_pack_authsafes(p12,safes) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };
