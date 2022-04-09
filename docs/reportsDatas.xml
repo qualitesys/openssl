@@ -537,6 +537,7 @@
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>crypto/aes/aes_wrap.c</file><nberror>1</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000006</rule><file>crypto/aria/aria.c</file><nberror>76</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000012</rule><file>crypto/aria/aria.c</file><nberror>77</nberror></occ>
+<occ><category>BLOCKER</category><rule>QC-CPP000020</rule><file>crypto/aria/aria.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>crypto/aria/aria.c</file><nberror>5</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>crypto/aria/aria.c</file><nberror>5</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000005</rule><file>crypto/asn1/a_bitstr.c</file><nberror>4</nberror></occ>
