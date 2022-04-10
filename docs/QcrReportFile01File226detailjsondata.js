@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/cast/c_skey.c.html" 
- , "texte" : "File crypto/cast/c_skey.c 4 rule violations " 
+ , "texte" : "File crypto/cast/c_skey.c 5 rule violations " 
  , "fic2"  : "./qc/crypto/cast/c_skey.c.xml" 
  , "fic3"  : "" 
 }
@@ -53,6 +53,13 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
@@ -66,6 +73,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/cast/c_skey.c.html#624"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[00624] The pointer K is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00645"
+ , "c1link" : "./qc/crypto/cast/c_skey.c.html#645"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[00645] The variable k is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

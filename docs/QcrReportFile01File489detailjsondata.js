@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ex_data.c.html" 
- , "texte" : "File crypto/ex_data.c 86 rule violations " 
+ , "texte" : "File crypto/ex_data.c 87 rule violations " 
  , "fic2"  : "./qc/crypto/ex_data.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,6 +57,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -598,6 +605,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ex_data.c.html#8274"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[08274] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08309"
+ , "c1link" : "./qc/crypto/ex_data.c.html#8309"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08309] The variable bp is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

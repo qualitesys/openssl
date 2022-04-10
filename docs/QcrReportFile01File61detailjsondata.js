@@ -776,10 +776,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "22263"
- , "c1link" : "./qc/apps/s_client.c.html#22263"
+   "c1" : "22267"
+ , "c1link" : "./qc/apps/s_client.c.html#22267"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[22263] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[22267] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
@@ -797,10 +797,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "22272"
- , "c1link" : "./qc/apps/s_client.c.html#22272"
+   "c1" : "22276"
+ , "c1link" : "./qc/apps/s_client.c.html#22276"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[22272] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[22276] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
@@ -2260,10 +2260,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "24313"
- , "c1link" : "./qc/apps/s_client.c.html#24313"
+   "c1" : "24317"
+ , "c1link" : "./qc/apps/s_client.c.html#24317"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[24313] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[24317] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
@@ -2673,10 +2673,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "24803"
- , "c1link" : "./qc/apps/s_client.c.html#24803"
+   "c1" : "24807"
+ , "c1link" : "./qc/apps/s_client.c.html#24807"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[24803] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[24807] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
@@ -2694,10 +2694,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "24812"
- , "c1link" : "./qc/apps/s_client.c.html#24812"
+   "c1" : "24816"
+ , "c1link" : "./qc/apps/s_client.c.html#24816"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[24812] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[24816] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
@@ -3002,10 +3002,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "25293"
- , "c1link" : "./qc/apps/s_client.c.html#25293"
+   "c1" : "25297"
+ , "c1link" : "./qc/apps/s_client.c.html#25297"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[25293] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[25297] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bn/bn_div.c.html" 
- , "texte" : "File crypto/bn/bn_div.c 80 rule violations " 
+ , "texte" : "File crypto/bn/bn_div.c 82 rule violations " 
  , "fic2"  : "./qc/crypto/bn/bn_div.c.xml" 
  , "fic3"  : "" 
 }
@@ -78,6 +78,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -636,10 +643,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "08156"
+ , "c1link" : "./qc/crypto/bn/bn_div.c.html#8156"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08156] The variable wnumtop is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "08155"
  , "c1link" : "./qc/crypto/bn/bn_div.c.html#8155"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000015[08155] Suspicion use of negative array index -1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08156"
+ , "c1link" : "./qc/crypto/bn/bn_div.c.html#8156"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08156] The variable wnumtop is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

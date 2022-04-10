@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/asn1/a_bitstr.c.html" 
- , "texte" : "File crypto/asn1/a_bitstr.c 72 rule violations " 
+ , "texte" : "File crypto/asn1/a_bitstr.c 78 rule violations " 
  , "fic2"  : "./qc/crypto/asn1/a_bitstr.c.xml" 
  , "fic3"  : "" 
 }
@@ -71,6 +71,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : {
@@ -566,10 +573,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "08011"
+ , "c1link" : "./qc/crypto/asn1/a_bitstr.c.html#8011"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08011] The variable ret is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08011"
+ , "c1link" : "./qc/crypto/asn1/a_bitstr.c.html#8011"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08011] The variable ret is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "07981"
  , "c1link" : "./qc/crypto/asn1/a_bitstr.c.html#7981"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[07981] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08011"
+ , "c1link" : "./qc/crypto/asn1/a_bitstr.c.html#8011"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08011] The variable ret is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08011"
+ , "c1link" : "./qc/crypto/asn1/a_bitstr.c.html#8011"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08011] The variable ret is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08011"
+ , "c1link" : "./qc/crypto/asn1/a_bitstr.c.html#8011"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08011] The variable ret is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -591,6 +633,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/asn1/a_bitstr.c.html#8035"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[08035] The expression  ! value applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08047"
+ , "c1link" : "./qc/crypto/asn1/a_bitstr.c.html#8047"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08047] The variable a is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

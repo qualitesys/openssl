@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/engine.c.html" 
- , "texte" : "File apps/engine.c 130 rule violations " 
+ , "texte" : "File apps/engine.c 132 rule violations " 
  , "fic2"  : "./qc/apps/engine.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,6 +57,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -769,10 +776,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "21116"
+ , "c1link" : "./qc/apps/engine.c.html#21116"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[21116] The variable argv is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "21064"
  , "c1link" : "./qc/apps/engine.c.html#21064"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[21064] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21116"
+ , "c1link" : "./qc/apps/engine.c.html#21116"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[21116] The variable argv is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

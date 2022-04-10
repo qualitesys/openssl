@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/err/err.c.html" 
- , "texte" : "File crypto/err/err.c 107 rule violations " 
+ , "texte" : "File crypto/err/err.c 108 rule violations " 
  , "fic2"  : "./qc/crypto/err/err.c.xml" 
  , "fic3"  : "" 
 }
@@ -64,6 +64,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -472,6 +479,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/err/err.c.html#8132"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[08132] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08157"
+ , "c1link" : "./qc/crypto/err/err.c.html#8157"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08157] The variable es is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

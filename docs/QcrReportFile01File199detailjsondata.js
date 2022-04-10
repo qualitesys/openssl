@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bn/bn_mul.c.html" 
- , "texte" : "File crypto/bn/bn_mul.c 92 rule violations " 
+ , "texte" : "File crypto/bn/bn_mul.c 96 rule violations " 
  , "fic2"  : "./qc/crypto/bn/bn_mul.c.xml" 
  , "fic3"  : "" 
 }
@@ -71,6 +71,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -601,6 +608,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "08446"
+ , "c1link" : "./qc/crypto/bn/bn_mul.c.html#8446"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08446] The variable a is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08446"
+ , "c1link" : "./qc/crypto/bn/bn_mul.c.html#8446"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08446] The variable b is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "08447"
  , "c1link" : "./qc/crypto/bn/bn_mul.c.html#8447"
  , "c2" : "MAJOR"
@@ -685,10 +706,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "08552"
+ , "c1link" : "./qc/crypto/bn/bn_mul.c.html#8552"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08552] The variable rr is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "08551"
  , "c1link" : "./qc/crypto/bn/bn_mul.c.html#8551"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000009[08551] Suspicious bitwise assignment with value 0, result is aa |=0 = aa"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08552"
+ , "c1link" : "./qc/crypto/bn/bn_mul.c.html#8552"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08552] The variable rr is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bn/bn_lib.c.html" 
- , "texte" : "File crypto/bn/bn_lib.c 95 rule violations " 
+ , "texte" : "File crypto/bn/bn_lib.c 105 rule violations " 
  , "fic2"  : "./qc/crypto/bn/bn_lib.c.xml" 
  , "fic3"  : "" 
 }
@@ -71,6 +71,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "10"
 }}
 ,
 { "ligne" : {
@@ -657,6 +664,27 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "08879"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#8879"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08879] The variable len is post decremented and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08884"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#8884"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08884] The variable len is post decremented and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08884"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#8884"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08884] The variable len is post incremented and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "09064"
  , "c1link" : "./qc/crypto/bn/bn_lib.c.html#9064"
  , "c2" : "BLOCKER"
@@ -706,6 +734,48 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "09280"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#9280"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[09280] The variable a is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09282"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#9282"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[09282] The variable a is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09280"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#9280"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[09280] The variable b is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09282"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#9282"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[09282] The variable b is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09285"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#9285"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[09285] The variable a is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09285"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#9285"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[09285] The variable b is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "09332"
  , "c1link" : "./qc/crypto/bn/bn_lib.c.html#9332"
  , "c2" : "BLOCKER"
@@ -752,6 +822,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_lib.c.html#9502"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[09502] The pointer ftl is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09508"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#9508"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[09508] The variable ftl is post decremented and is tested with equility, risk to be always false"
 }} 
 ]
 };

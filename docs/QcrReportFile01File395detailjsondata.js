@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/engine/tb_asnmth.c.html" 
- , "texte" : "File crypto/engine/tb_asnmth.c 74 rule violations " 
+ , "texte" : "File crypto/engine/tb_asnmth.c 75 rule violations " 
  , "fic2"  : "./qc/crypto/engine/tb_asnmth.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,6 +57,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -549,6 +556,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/engine/tb_asnmth.c.html#16091"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[16091] The expression lk-&gt;ameth applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16093"
+ , "c1link" : "./qc/crypto/engine/tb_asnmth.c.html#16093"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[16093] The variable lk is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/s_server.c.html" 
- , "texte" : "File apps/s_server.c 479 rule violations " 
+ , "texte" : "File apps/s_server.c 480 rule violations " 
  , "fic2"  : "./qc/apps/s_server.c.xml" 
  , "fic3"  : "" 
 }
@@ -71,6 +71,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -2344,10 +2351,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "24480"
- , "c1link" : "./qc/apps/s_server.c.html#24480"
+   "c1" : "24484"
+ , "c1link" : "./qc/apps/s_server.c.html#24484"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[24480] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[24484] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
@@ -2932,10 +2939,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "25304"
- , "c1link" : "./qc/apps/s_server.c.html#25304"
+   "c1" : "25308"
+ , "c1link" : "./qc/apps/s_server.c.html#25308"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[25304] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[25308] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
@@ -3384,6 +3391,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/s_server.c.html#25870"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[25870] The expression  ! sess-&gt;id applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "25880"
+ , "c1link" : "./qc/apps/s_server.c.html#25880"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[25880] The variable sess is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

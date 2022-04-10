@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/bio_b64.c.html" 
- , "texte" : "File crypto/evp/bio_b64.c 81 rule violations " 
+ , "texte" : "File crypto/evp/bio_b64.c 89 rule violations " 
  , "fic2"  : "./qc/crypto/evp/bio_b64.c.xml" 
  , "fic3"  : "" 
 }
@@ -64,6 +64,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : {
@@ -531,6 +538,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "10303"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10303"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[10303] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10472"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10472"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[10472] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "10326"
  , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10326"
  , "c2" : "BLOCKER"
@@ -542,6 +563,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10326"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[10326] The expression 0x08 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10472"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10472"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[10472] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10472"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10472"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[10472] The variable ctx is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -591,6 +626,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10418"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[10418] The expression  ~ (0x0) is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10472"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10472"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[10472] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10472"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10472"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[10472] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10472"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10472"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[10472] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10472"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10472"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[10472] The variable ctx is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

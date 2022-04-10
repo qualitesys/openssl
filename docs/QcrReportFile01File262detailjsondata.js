@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/conf/conf_def.c.html" 
- , "texte" : "File crypto/conf/conf_def.c 215 rule violations " 
+ , "texte" : "File crypto/conf/conf_def.c 227 rule violations " 
  , "fic2"  : "./qc/crypto/conf/conf_def.c.xml" 
  , "fic3"  : "" 
 }
@@ -71,6 +71,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "12"
 }}
 ,
 { "ligne" : {
@@ -650,6 +657,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "08642"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#8642"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08642] The variable p is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "08535"
  , "c1link" : "./qc/crypto/conf/conf_def.c.html#8535"
  , "c2" : "MAJOR"
@@ -713,6 +727,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "08604"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#8604"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08604] The variable i is post decremented and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "08628"
  , "c1link" : "./qc/crypto/conf/conf_def.c.html#8628"
  , "c2" : "BLOCKER"
@@ -752,6 +773,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/conf/conf_def.c.html#8643"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[08643] The pointer ss is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08651"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#8651"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08651] The variable s is post incremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -983,6 +1011,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/conf/conf_def.c.html#8899"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[08899] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08922"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#8922"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08922] The variable v is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -1269,6 +1304,20 @@ var maDataBlocs = {
    "c1" : "09078"
  , "c1link" : "./qc/crypto/conf/conf_def.c.html#9078"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[09078] The variable from is post incremented and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09086"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#9086"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[09086] The variable from is post incremented and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09078"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#9078"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[09078] The expression 8 is invariable"
 }} 
 ,
@@ -1312,6 +1361,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/conf/conf_def.c.html#9088"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[09088] The expression 1024 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09091"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#9091"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[09091] The variable from is post incremented and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09101"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#9101"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[09101] The variable from is post incremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -1560,6 +1623,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "09424"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#9424"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[09424] The variable p is post incremented and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09432"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#9432"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[09432] The variable p is post incremented and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "09425"
  , "c1link" : "./qc/crypto/conf/conf_def.c.html#9425"
  , "c2" : "BLOCKER"
@@ -1585,6 +1662,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/conf/conf_def.c.html#9427"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[09427] The expression 8 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09442"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#9442"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[09442] The variable p is post incremented and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09452"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#9452"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[09452] The variable p is post incremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

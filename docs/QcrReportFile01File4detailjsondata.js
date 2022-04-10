@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/cmp.c.html" 
- , "texte" : "File apps/cmp.c 355 rule violations " 
+ , "texte" : "File apps/cmp.c 357 rule violations " 
  , "fic2"  : "./qc/apps/cmp.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,6 +57,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -1578,6 +1585,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/cmp.c.html#24549"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[24549] The pointer endstr is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24569"
+ , "c1link" : "./qc/apps/cmp.c.html#24569"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[24569] The variable valptr is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "24569"
+ , "c1link" : "./qc/apps/cmp.c.html#24569"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[24569] The variable valptr is post incremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

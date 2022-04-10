@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bn/bn_gf2m.c.html" 
- , "texte" : "File crypto/bn/bn_gf2m.c 223 rule violations " 
+ , "texte" : "File crypto/bn/bn_gf2m.c 227 rule violations " 
  , "fic2"  : "./qc/crypto/bn/bn_gf2m.c.xml" 
  , "fic3"  : "" 
 }
@@ -64,6 +64,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -531,6 +538,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "08183"
+ , "c1link" : "./qc/crypto/bn/bn_gf2m.c.html#8183"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08183] The variable z is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "08188"
  , "c1link" : "./qc/crypto/bn/bn_gf2m.c.html#8188"
  , "c2" : "BLOCKER"
@@ -577,6 +591,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_gf2m.c.html#8266"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[08266] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08274"
+ , "c1link" : "./qc/crypto/bn/bn_gf2m.c.html#8274"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08274] The variable b is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08277"
+ , "c1link" : "./qc/crypto/bn/bn_gf2m.c.html#8277"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08277] The variable a is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -794,6 +822,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_gf2m.c.html#8481"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[08481] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08490"
+ , "c1link" : "./qc/crypto/bn/bn_gf2m.c.html#8490"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08490] The variable v is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

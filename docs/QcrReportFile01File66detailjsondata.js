@@ -1091,10 +1091,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "23650"
- , "c1link" : "./qc/apps/speed.c.html#23650"
+   "c1" : "23654"
+ , "c1link" : "./qc/apps/speed.c.html#23654"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[23650] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[23654] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/evp_enc.c.html" 
- , "texte" : "File crypto/evp/evp_enc.c 128 rule violations " 
+ , "texte" : "File crypto/evp/evp_enc.c 134 rule violations " 
  , "fic2"  : "./qc/crypto/evp/evp_enc.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,6 +57,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : {
@@ -510,10 +517,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "17178"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#17178"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[17178] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "17166"
  , "c1link" : "./qc/crypto/evp/evp_enc.c.html#17166"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[17166] The expression  ! EVP_CIPHER_up_ref((EVP_CIPHER *)cipher) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17178"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#17178"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[17178] The variable ctx is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -976,6 +997,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/evp_enc.c.html#19104"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[19104] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19154"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#19154"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[19154] The variable cipher is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19292"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#19292"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[19292] The variable cipher is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19154"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#19154"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[19154] The variable cipher is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19292"
+ , "c1link" : "./qc/crypto/evp/evp_enc.c.html#19292"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[19292] The variable cipher is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

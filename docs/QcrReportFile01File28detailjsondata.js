@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/lib/apps.c.html" 
- , "texte" : "File apps/lib/apps.c 364 rule violations " 
+ , "texte" : "File apps/lib/apps.c 371 rule violations " 
  , "fic2"  : "./qc/apps/lib/apps.c.xml" 
  , "fic3"  : "" 
 }
@@ -71,6 +71,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : {
@@ -552,6 +559,34 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "21166"
+ , "c1link" : "./qc/apps/lib/apps.c.html#21166"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[21166] The variable p is post incremented and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21170"
+ , "c1link" : "./qc/apps/lib/apps.c.html#21170"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[21170] The variable p is post incremented and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21183"
+ , "c1link" : "./qc/apps/lib/apps.c.html#21183"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[21183] The variable p is post incremented and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21189"
+ , "c1link" : "./qc/apps/lib/apps.c.html#21189"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[21189] The variable p is post incremented and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "21171"
  , "c1link" : "./qc/apps/lib/apps.c.html#21171"
  , "c2" : "MAJOR"
@@ -563,6 +598,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/lib/apps.c.html#21184"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[21184] The expression quoted applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "21189"
+ , "c1link" : "./qc/apps/lib/apps.c.html#21189"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[21189] The variable p is post incremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -766,6 +808,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/lib/apps.c.html#22135"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[22135] The expression suppress_decode_errors applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "22263"
+ , "c1link" : "./qc/apps/lib/apps.c.html#22263"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[22263] The variable opt is post incremented and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "22278"
+ , "c1link" : "./qc/apps/lib/apps.c.html#22278"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[22278] The variable opt is post incremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -2372,10 +2428,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "25676"
- , "c1link" : "./qc/apps/lib/apps.c.html#25676"
+   "c1" : "25680"
+ , "c1link" : "./qc/apps/lib/apps.c.html#25680"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[25676] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[25680] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {

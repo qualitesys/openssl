@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/cms/cms_ec.c.html" 
- , "texte" : "File crypto/cms/cms_ec.c 106 rule violations " 
+ , "texte" : "File crypto/cms/cms_ec.c 109 rule violations " 
  , "fic2"  : "./qc/crypto/cms/cms_ec.c.xml" 
  , "fic3"  : "" 
 }
@@ -63,6 +63,13 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
  , "c4" : "3"
 }}
 ,
@@ -479,6 +486,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15022"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[15022] The expression  ! ecdh_cms_set_kdf_param(pctx,OBJ_obj2nid(alg-&gt;algorithm)) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15041"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15041"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[15041] The variable alg is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15041"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15041"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[15041] The variable alg is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15041"
+ , "c1link" : "./qc/crypto/cms/cms_ec.c.html#15041"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[15041] The variable alg is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

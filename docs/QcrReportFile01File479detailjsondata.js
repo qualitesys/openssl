@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/p_lib.c.html" 
- , "texte" : "File crypto/evp/p_lib.c 202 rule violations " 
+ , "texte" : "File crypto/evp/p_lib.c 210 rule violations " 
  , "fic2"  : "./qc/crypto/evp/p_lib.c.xml" 
  , "fic3"  : "" 
 }
@@ -64,6 +64,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : {
@@ -552,6 +559,34 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "18264"
+ , "c1link" : "./qc/crypto/evp/p_lib.c.html#18264"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[18264] The variable a is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18292"
+ , "c1link" : "./qc/crypto/evp/p_lib.c.html#18292"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[18292] The variable a is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18264"
+ , "c1link" : "./qc/crypto/evp/p_lib.c.html#18264"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[18264] The variable a is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18292"
+ , "c1link" : "./qc/crypto/evp/p_lib.c.html#18292"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[18292] The variable a is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "18544"
  , "c1link" : "./qc/crypto/evp/p_lib.c.html#18544"
  , "c2" : "MAJOR"
@@ -916,6 +951,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "20268"
+ , "c1link" : "./qc/crypto/evp/p_lib.c.html#20268"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[20268] The variable pkey is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20268"
+ , "c1link" : "./qc/crypto/evp/p_lib.c.html#20268"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[20268] The variable pkey is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "20261"
  , "c1link" : "./qc/crypto/evp/p_lib.c.html#20261"
  , "c2" : "BLOCKER"
@@ -1095,6 +1144,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/p_lib.c.html#20615"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[20615] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20959"
+ , "c1link" : "./qc/crypto/evp/p_lib.c.html#20959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[20959] The variable pk is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20959"
+ , "c1link" : "./qc/crypto/evp/p_lib.c.html#20959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[20959] The variable pk is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

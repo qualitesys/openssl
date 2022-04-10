@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/asn1/a_d2i_fp.c.html" 
- , "texte" : "File crypto/asn1/a_d2i_fp.c 85 rule violations " 
+ , "texte" : "File crypto/asn1/a_d2i_fp.c 86 rule violations " 
  , "fic2"  : "./qc/crypto/asn1/a_d2i_fp.c.xml" 
  , "fic3"  : "" 
 }
@@ -71,6 +71,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -647,6 +654,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/asn1/a_d2i_fp.c.html#8717"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[08717] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08724"
+ , "c1link" : "./qc/crypto/asn1/a_d2i_fp.c.html#8724"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08724] The variable eos is post decremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

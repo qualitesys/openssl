@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/asn1/tasn_dec.c.html" 
- , "texte" : "File crypto/asn1/tasn_dec.c 206 rule violations " 
+ , "texte" : "File crypto/asn1/tasn_dec.c 208 rule violations " 
  , "fic2"  : "./qc/crypto/asn1/tasn_dec.c.xml" 
  , "fic3"  : "" 
 }
@@ -71,6 +71,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -339,6 +346,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/asn1/tasn_dec.c.html#6540"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[06540] The pointer pchptr is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06581"
+ , "c1link" : "./qc/crypto/asn1/tasn_dec.c.html#6581"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[06581] The variable it is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -993,10 +1007,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07406"
- , "c1link" : "./qc/crypto/asn1/tasn_dec.c.html#7406"
+   "c1" : "07410"
+ , "c1link" : "./qc/crypto/asn1/tasn_dec.c.html#7410"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[07406] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[07410] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
@@ -1294,6 +1308,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "07707"
+ , "c1link" : "./qc/crypto/asn1/tasn_dec.c.html#7707"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[07707] The variable expected_eoc is post decremented and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "07714"
  , "c1link" : "./qc/crypto/asn1/tasn_dec.c.html#7714"
  , "c2" : "BLOCKER"
@@ -1504,10 +1525,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07974"
- , "c1link" : "./qc/crypto/asn1/tasn_dec.c.html#7974"
+   "c1" : "07978"
+ , "c1link" : "./qc/crypto/asn1/tasn_dec.c.html#7978"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[07974] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[07978] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
@@ -1525,10 +1546,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08023"
- , "c1link" : "./qc/crypto/asn1/tasn_dec.c.html#8023"
+   "c1" : "08027"
+ , "c1link" : "./qc/crypto/asn1/tasn_dec.c.html#8027"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08023] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[08027] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {

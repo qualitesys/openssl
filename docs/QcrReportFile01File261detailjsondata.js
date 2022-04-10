@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/conf/conf_api.c.html" 
- , "texte" : "File crypto/conf/conf_api.c 70 rule violations " 
+ , "texte" : "File crypto/conf/conf_api.c 74 rule violations " 
  , "fic2"  : "./qc/crypto/conf/conf_api.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,6 +57,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -563,6 +570,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/conf/conf_api.c.html#8272"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[08272] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08283"
+ , "c1link" : "./qc/crypto/conf/conf_api.c.html#8283"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08283] The variable v is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08293"
+ , "c1link" : "./qc/crypto/conf/conf_api.c.html#8293"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08293] The variable v is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08283"
+ , "c1link" : "./qc/crypto/conf/conf_api.c.html#8283"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08283] The variable v is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08293"
+ , "c1link" : "./qc/crypto/conf/conf_api.c.html#8293"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08293] The variable v is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

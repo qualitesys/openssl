@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/digest.c.html" 
- , "texte" : "File crypto/evp/digest.c 98 rule violations " 
+ , "texte" : "File crypto/evp/digest.c 111 rule violations " 
  , "fic2"  : "./qc/crypto/evp/digest.c.xml" 
  , "fic3"  : "" 
 }
@@ -64,6 +64,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "13"
 }}
 ,
 { "ligne" : {
@@ -545,6 +552,34 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "17221"
+ , "c1link" : "./qc/crypto/evp/digest.c.html#17221"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[17221] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17298"
+ , "c1link" : "./qc/crypto/evp/digest.c.html#17298"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[17298] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17336"
+ , "c1link" : "./qc/crypto/evp/digest.c.html#17336"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[17336] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17451"
+ , "c1link" : "./qc/crypto/evp/digest.c.html#17451"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[17451] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "17254"
  , "c1link" : "./qc/crypto/evp/digest.c.html#17254"
  , "c2" : "MAJOR"
@@ -556,6 +591,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/digest.c.html#17324"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[17324] The expression  ! EVP_MD_up_ref((EVP_MD *)type) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "17336"
+ , "c1link" : "./qc/crypto/evp/digest.c.html#17336"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[17336] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17451"
+ , "c1link" : "./qc/crypto/evp/digest.c.html#17451"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[17451] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17451"
+ , "c1link" : "./qc/crypto/evp/digest.c.html#17451"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[17451] The variable ctx is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -636,6 +692,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "17819"
+ , "c1link" : "./qc/crypto/evp/digest.c.html#17819"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[17819] The variable in is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17908"
+ , "c1link" : "./qc/crypto/evp/digest.c.html#17908"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[17908] The variable in is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "17939"
  , "c1link" : "./qc/crypto/evp/digest.c.html#17939"
  , "c2" : "BLOCKER"
@@ -664,6 +734,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "18068"
+ , "c1link" : "./qc/crypto/evp/digest.c.html#18068"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[18068] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "18104"
  , "c1link" : "./qc/crypto/evp/digest.c.html#18104"
  , "c2" : "MAJOR"
@@ -685,6 +762,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "18147"
+ , "c1link" : "./qc/crypto/evp/digest.c.html#18147"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[18147] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18192"
+ , "c1link" : "./qc/crypto/evp/digest.c.html#18192"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[18192] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "18228"
  , "c1link" : "./qc/crypto/evp/digest.c.html#18228"
  , "c2" : "MAJOR"
@@ -703,6 +794,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/digest.c.html#18256"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[18256] The pointer provctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18271"
+ , "c1link" : "./qc/crypto/evp/digest.c.html#18271"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[18271] The variable ctx is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

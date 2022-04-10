@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/lib/http_server.c.html" 
- , "texte" : "File apps/lib/http_server.c 130 rule violations " 
+ , "texte" : "File apps/lib/http_server.c 133 rule violations " 
  , "fic2"  : "./qc/apps/lib/http_server.c.xml" 
  , "fic3"  : "" 
 }
@@ -77,6 +77,13 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
  , "c4" : "3"
 }}
 ,
@@ -815,6 +822,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/lib/http_server.c.html#21538"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000015[21538] Suspicion use of negative array index -1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21539"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21539"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[21539] The variable url is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21541"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21541"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[21541] The variable url is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21541"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21541"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[21541] The variable url is post incremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

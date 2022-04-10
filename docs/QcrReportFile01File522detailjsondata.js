@@ -286,10 +286,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "04955"
- , "c1link" : "./qc/crypto/modes/ctr128.c.html#4955"
+   "c1" : "04989"
+ , "c1link" : "./qc/crypto/modes/ctr128.c.html#4989"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04955] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[04989] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {

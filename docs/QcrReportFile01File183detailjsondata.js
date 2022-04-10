@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bn/bn_conv.c.html" 
- , "texte" : "File crypto/bn/bn_conv.c 86 rule violations " 
+ , "texte" : "File crypto/bn/bn_conv.c 90 rule violations " 
  , "fic2"  : "./qc/crypto/bn/bn_conv.c.xml" 
  , "fic3"  : "" 
 }
@@ -64,6 +64,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -573,6 +580,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "08122"
+ , "c1link" : "./qc/crypto/bn/bn_conv.c.html#8122"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08122] The variable lp is post decremented and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "08120"
  , "c1link" : "./qc/crypto/bn/bn_conv.c.html#8120"
  , "c2" : "MAJOR"
@@ -591,6 +605,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_conv.c.html#8134"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[08134] The expression ok applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08171"
+ , "c1link" : "./qc/crypto/bn/bn_conv.c.html#8171"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08171] The variable i is post incremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -636,6 +657,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "08279"
+ , "c1link" : "./qc/crypto/bn/bn_conv.c.html#8279"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08279] The variable i is post incremented and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "08280"
  , "c1link" : "./qc/crypto/bn/bn_conv.c.html#8280"
  , "c2" : "MAJOR"
@@ -668,6 +696,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_conv.c.html#8329"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[08329] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08367"
+ , "c1link" : "./qc/crypto/bn/bn_conv.c.html#8367"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08367] The variable p is post incremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

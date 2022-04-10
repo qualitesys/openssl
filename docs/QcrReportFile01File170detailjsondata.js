@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bio/bss_conn.c.html" 
- , "texte" : "File crypto/bio/bss_conn.c 105 rule violations " 
+ , "texte" : "File crypto/bio/bss_conn.c 107 rule violations " 
  , "fic2"  : "./qc/crypto/bio/bss_conn.c.xml" 
  , "fic3"  : "" 
 }
@@ -64,6 +64,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -731,6 +738,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bio/bss_conn.c.html#10968"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[10968] The pointer data is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11066"
+ , "c1link" : "./qc/crypto/bio/bss_conn.c.html#11066"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[11066] The variable data is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11066"
+ , "c1link" : "./qc/crypto/bio/bss_conn.c.html#11066"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[11066] The variable data is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/kem.c.html" 
- , "texte" : "File crypto/evp/kem.c 70 rule violations " 
+ , "texte" : "File crypto/evp/kem.c 73 rule violations " 
  , "fic2"  : "./qc/crypto/evp/kem.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,6 +56,13 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
  , "c4" : "3"
 }}
 ,
@@ -454,6 +461,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "11569"
+ , "c1link" : "./qc/crypto/evp/kem.c.html#11569"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[11569] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11692"
+ , "c1link" : "./qc/crypto/evp/kem.c.html#11692"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[11692] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "11563"
  , "c1link" : "./qc/crypto/evp/kem.c.html#11563"
  , "c2" : "MAJOR"
@@ -493,6 +514,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/kem.c.html#11687"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[11687] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11692"
+ , "c1link" : "./qc/crypto/evp/kem.c.html#11692"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[11692] The variable ctx is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

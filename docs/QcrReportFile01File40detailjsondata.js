@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/lib/s_socket.c.html" 
- , "texte" : "File apps/lib/s_socket.c 88 rule violations " 
+ , "texte" : "File apps/lib/s_socket.c 89 rule violations " 
  , "fic2"  : "./qc/apps/lib/s_socket.c.xml" 
  , "fic3"  : "" 
 }
@@ -64,6 +64,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -685,10 +692,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "21246"
- , "c1link" : "./qc/apps/lib/s_socket.c.html#21246"
+   "c1" : "21250"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#21250"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[21246] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[21250] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
@@ -710,6 +717,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/lib/s_socket.c.html#21255"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[21255] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21288"
+ , "c1link" : "./qc/apps/lib/s_socket.c.html#21288"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[21288] The variable naccept is post decremented and is tested with equility, risk to be always false"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bn/bn_nist.c.html" 
- , "texte" : "File crypto/bn/bn_nist.c 393 rule violations " 
+ , "texte" : "File crypto/bn/bn_nist.c 413 rule violations " 
  , "fic2"  : "./qc/crypto/bn/bn_nist.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,6 +57,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "20"
 }}
 ,
 { "ligne" : {
@@ -461,10 +468,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "08179"
+ , "c1link" : "./qc/crypto/bn/bn_nist.c.html#8179"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08179] The variable a is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08189"
+ , "c1link" : "./qc/crypto/bn/bn_nist.c.html#8189"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08189] The variable a is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "08158"
  , "c1link" : "./qc/crypto/bn/bn_nist.c.html#8158"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[08158] The pointer r_d is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08179"
+ , "c1link" : "./qc/crypto/bn/bn_nist.c.html#8179"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08179] The variable a is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08189"
+ , "c1link" : "./qc/crypto/bn/bn_nist.c.html#8189"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08189] The variable a is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -489,10 +524,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "08306"
+ , "c1link" : "./qc/crypto/bn/bn_nist.c.html#8306"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08306] The variable a is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08316"
+ , "c1link" : "./qc/crypto/bn/bn_nist.c.html#8316"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08316] The variable a is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "08281"
  , "c1link" : "./qc/crypto/bn/bn_nist.c.html#8281"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[08281] The pointer r_d is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08306"
+ , "c1link" : "./qc/crypto/bn/bn_nist.c.html#8306"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08306] The variable a is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08316"
+ , "c1link" : "./qc/crypto/bn/bn_nist.c.html#8316"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08316] The variable a is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -2722,10 +2785,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "08419"
+ , "c1link" : "./qc/crypto/bn/bn_nist.c.html#8419"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08419] The variable a is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08429"
+ , "c1link" : "./qc/crypto/bn/bn_nist.c.html#8429"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08429] The variable a is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "08394"
  , "c1link" : "./qc/crypto/bn/bn_nist.c.html#8394"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[08394] The pointer r_d is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08419"
+ , "c1link" : "./qc/crypto/bn/bn_nist.c.html#8419"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08419] The variable a is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08429"
+ , "c1link" : "./qc/crypto/bn/bn_nist.c.html#8429"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08429] The variable a is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -2750,10 +2841,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "08593"
+ , "c1link" : "./qc/crypto/bn/bn_nist.c.html#8593"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08593] The variable a is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08603"
+ , "c1link" : "./qc/crypto/bn/bn_nist.c.html#8603"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08603] The variable a is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "08568"
  , "c1link" : "./qc/crypto/bn/bn_nist.c.html#8568"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[08568] The pointer r_d is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08593"
+ , "c1link" : "./qc/crypto/bn/bn_nist.c.html#8593"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08593] The variable a is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08603"
+ , "c1link" : "./qc/crypto/bn/bn_nist.c.html#8603"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08603] The variable a is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -2778,6 +2897,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "08787"
+ , "c1link" : "./qc/crypto/bn/bn_nist.c.html#8787"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08787] The variable a is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08797"
+ , "c1link" : "./qc/crypto/bn/bn_nist.c.html#8797"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08797] The variable a is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "08772"
  , "c1link" : "./qc/crypto/bn/bn_nist.c.html#8772"
  , "c2" : "MAJOR"
@@ -2789,6 +2922,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_nist.c.html#8772"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[08772] The pointer res is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08787"
+ , "c1link" : "./qc/crypto/bn/bn_nist.c.html#8787"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08787] The variable a is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08797"
+ , "c1link" : "./qc/crypto/bn/bn_nist.c.html#8797"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08797] The variable a is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

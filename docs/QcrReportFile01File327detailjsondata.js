@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/dsa/dsa_ameth.c.html" 
- , "texte" : "File crypto/dsa/dsa_ameth.c 145 rule violations " 
+ , "texte" : "File crypto/dsa/dsa_ameth.c 146 rule violations " 
  , "fic2"  : "./qc/crypto/dsa/dsa_ameth.c.xml" 
  , "fic3"  : "" 
 }
@@ -64,6 +64,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -899,6 +906,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/dsa/dsa_ameth.c.html#16653"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[16653] The expression '\n' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16664"
+ , "c1link" : "./qc/crypto/dsa/dsa_ameth.c.html#16664"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[16664] The variable sig is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bio/bf_buff.c.html" 
- , "texte" : "File crypto/bio/bf_buff.c 87 rule violations " 
+ , "texte" : "File crypto/bio/bf_buff.c 92 rule violations " 
  , "fic2"  : "./qc/crypto/bio/bf_buff.c.xml" 
  , "fic3"  : "" 
 }
@@ -64,6 +64,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : {
@@ -608,6 +615,34 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "10859"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10859"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[10859] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10870"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10870"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[10870] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10859"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10859"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[10859] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10870"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10870"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[10870] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "10868"
  , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10868"
  , "c2" : "MAJOR"
@@ -675,6 +710,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10991"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[10991] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10997"
+ , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10997"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[10997] The variable size is post decremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

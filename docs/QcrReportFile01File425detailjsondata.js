@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/e_aes.c.html" 
- , "texte" : "File crypto/evp/e_aes.c 187 rule violations " 
+ , "texte" : "File crypto/evp/e_aes.c 188 rule violations " 
  , "fic2"  : "./qc/crypto/evp/e_aes.c.xml" 
  , "fic3"  : "" 
 }
@@ -71,6 +71,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -566,10 +573,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12760"
- , "c1link" : "./qc/crypto/evp/e_aes.c.html#12760"
+   "c1" : "12776"
+ , "c1link" : "./qc/crypto/evp/e_aes.c.html#12776"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[12760] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[12776] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
@@ -846,10 +853,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13078"
- , "c1link" : "./qc/crypto/evp/e_aes.c.html#13078"
+   "c1" : "13126"
+ , "c1link" : "./qc/crypto/evp/e_aes.c.html#13126"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[13078] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[13126] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
@@ -916,10 +923,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13363"
- , "c1link" : "./qc/crypto/evp/e_aes.c.html#13363"
+   "c1" : "13374"
+ , "c1link" : "./qc/crypto/evp/e_aes.c.html#13374"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[13363] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[13374] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
@@ -1217,6 +1224,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "13955"
+ , "c1link" : "./qc/crypto/evp/e_aes.c.html#13955"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[13955] The variable octx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "14015"
  , "c1link" : "./qc/crypto/evp/e_aes.c.html#14015"
  , "c2" : "BLOCKER"
@@ -1224,10 +1238,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14011"
- , "c1link" : "./qc/crypto/evp/e_aes.c.html#14011"
+   "c1" : "14026"
+ , "c1link" : "./qc/crypto/evp/e_aes.c.html#14026"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[14011] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[14026] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {

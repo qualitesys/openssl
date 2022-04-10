@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/conf/conf_mod.c.html" 
- , "texte" : "File crypto/conf/conf_mod.c 102 rule violations " 
+ , "texte" : "File crypto/conf/conf_mod.c 103 rule violations " 
  , "fic2"  : "./qc/crypto/conf/conf_mod.c.xml" 
  , "fic3"  : "" 
 }
@@ -64,6 +64,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -787,6 +794,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16446"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[16446] The expression nospc applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16459"
+ , "c1link" : "./qc/crypto/conf/conf_mod.c.html#16459"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[16459] The variable lstart is post incremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

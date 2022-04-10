@@ -622,10 +622,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10704"
- , "c1link" : "./qc/crypto/ec/ecdsa_ossl.c.html#10704"
+   "c1" : "10795"
+ , "c1link" : "./qc/crypto/ec/ecdsa_ossl.c.html#10795"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[10704] The condition of do while loop is always true, infinite loop risk do{} while (1); 1"
+ , "c3" : "QC-CPP000006[10795] The condition of do while loop is always true, infinite loop risk do{} while (1); 1"
 }} 
 ,
 { "ligne" : {

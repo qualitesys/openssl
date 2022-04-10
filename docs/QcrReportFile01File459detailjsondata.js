@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/keymgmt_lib.c.html" 
- , "texte" : "File crypto/evp/keymgmt_lib.c 82 rule violations " 
+ , "texte" : "File crypto/evp/keymgmt_lib.c 87 rule violations " 
  , "fic2"  : "./qc/crypto/evp/keymgmt_lib.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,6 +57,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : {
@@ -489,10 +496,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "11681"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#11681"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[11681] The variable pk is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11781"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#11781"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[11781] The variable pk is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "11670"
  , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#11670"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[11670] The expression  ! CRYPTO_THREAD_read_lock(pk-&gt;lock) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "11781"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#11781"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[11781] The variable pk is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -577,6 +605,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#12129"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[12129] The expression ok applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "12200"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#12200"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[12200] The variable from is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12200"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#12200"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[12200] The variable from is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

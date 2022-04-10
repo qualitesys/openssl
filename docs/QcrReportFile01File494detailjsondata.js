@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/hmac/hmac.c.html" 
- , "texte" : "File crypto/hmac/hmac.c 80 rule violations " 
+ , "texte" : "File crypto/hmac/hmac.c 86 rule violations " 
  , "fic2"  : "./qc/crypto/hmac/hmac.c.xml" 
  , "fic3"  : "" 
 }
@@ -64,6 +64,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : {
@@ -570,6 +577,48 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/hmac/hmac.c.html#10301"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[10301] The expression  ! HMAC_CTX_reset(ctx) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10354"
+ , "c1link" : "./qc/crypto/hmac/hmac.c.html#10354"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[10354] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10360"
+ , "c1link" : "./qc/crypto/hmac/hmac.c.html#10360"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[10360] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10366"
+ , "c1link" : "./qc/crypto/hmac/hmac.c.html#10366"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[10366] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10372"
+ , "c1link" : "./qc/crypto/hmac/hmac.c.html#10372"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[10372] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10366"
+ , "c1link" : "./qc/crypto/hmac/hmac.c.html#10366"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[10366] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10372"
+ , "c1link" : "./qc/crypto/hmac/hmac.c.html#10372"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[10372] The variable ctx is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

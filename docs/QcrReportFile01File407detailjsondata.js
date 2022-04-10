@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/err/err_blocks.c.html" 
- , "texte" : "File crypto/err/err_blocks.c 31 rule violations " 
+ , "texte" : "File crypto/err/err_blocks.c 34 rule violations " 
  , "fic2"  : "./qc/crypto/err/err_blocks.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,6 +56,13 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
  , "c4" : "3"
 }}
 ,
@@ -237,6 +244,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "05112"
+ , "c1link" : "./qc/crypto/err/err_blocks.c.html#5112"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[05112] The variable es is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "05119"
  , "c1link" : "./qc/crypto/err/err_blocks.c.html#5119"
  , "c2" : "BLOCKER"
@@ -286,10 +300,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "05379"
+ , "c1link" : "./qc/crypto/err/err_blocks.c.html#5379"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[05379] The variable buf is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "05369"
  , "c1link" : "./qc/crypto/err/err_blocks.c.html#5369"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[05369] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05379"
+ , "c1link" : "./qc/crypto/err/err_blocks.c.html#5379"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[05379] The variable buf is post  and is tested with equility, risk to be always false"
 }} 
 ]
 };

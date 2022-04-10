@@ -783,17 +783,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08210"
- , "c1link" : "./qc/crypto/modes/gcm128.c.html#8210"
+   "c1" : "08272"
+ , "c1link" : "./qc/crypto/modes/gcm128.c.html#8272"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000020[08210] Infinite loop risk, the condition must be bounded to upper value"
+ , "c3" : "QC-CPP000020[08272] Infinite loop risk, the condition must be bounded to upper value"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08210"
- , "c1link" : "./qc/crypto/modes/gcm128.c.html#8210"
+   "c1" : "08272"
+ , "c1link" : "./qc/crypto/modes/gcm128.c.html#8272"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000020[08210] Infinite loop risk, the condition must be bounded to lower value"
+ , "c3" : "QC-CPP000020[08272] Infinite loop risk, the condition must be bounded to lower value"
 }} 
 ,
 { "ligne" : {
@@ -1063,10 +1063,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08490"
- , "c1link" : "./qc/crypto/modes/gcm128.c.html#8490"
+   "c1" : "08597"
+ , "c1link" : "./qc/crypto/modes/gcm128.c.html#8597"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08490] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[08597] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
@@ -1301,10 +1301,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08680"
- , "c1link" : "./qc/crypto/modes/gcm128.c.html#8680"
+   "c1" : "08779"
+ , "c1link" : "./qc/crypto/modes/gcm128.c.html#8779"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08680] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[08779] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {

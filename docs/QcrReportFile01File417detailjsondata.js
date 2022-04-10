@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/bio_ok.c.html" 
- , "texte" : "File crypto/evp/bio_ok.c 120 rule violations " 
+ , "texte" : "File crypto/evp/bio_ok.c 125 rule violations " 
  , "fic2"  : "./qc/crypto/evp/bio_ok.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,6 +57,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : {
@@ -496,6 +503,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "11236"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11236"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[11236] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "11268"
  , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11268"
  , "c2" : "BLOCKER"
@@ -535,6 +549,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11327"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[11327] The expression 0x08 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11337"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11337"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[11337] The variable ctx is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -783,6 +804,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "11589"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11589"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[11589] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "11579"
  , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11579"
  , "c2" : "BLOCKER"
@@ -822,6 +850,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11586"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[11586] goto statement jump to berr"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11589"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11589"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[11589] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11591"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11591"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[11591] The variable ctx is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

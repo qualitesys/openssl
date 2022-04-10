@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/asn1/a_object.c.html" 
- , "texte" : "File crypto/asn1/a_object.c 99 rule violations " 
+ , "texte" : "File crypto/asn1/a_object.c 105 rule violations " 
  , "fic2"  : "./qc/crypto/asn1/a_object.c.xml" 
  , "fic3"  : "" 
 }
@@ -78,6 +78,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : {
@@ -776,10 +783,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "09135"
+ , "c1link" : "./qc/crypto/asn1/a_object.c.html#9135"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[09135] The variable ret is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09135"
+ , "c1link" : "./qc/crypto/asn1/a_object.c.html#9135"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[09135] The variable ret is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "09094"
  , "c1link" : "./qc/crypto/asn1/a_object.c.html#9094"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[09094] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09135"
+ , "c1link" : "./qc/crypto/asn1/a_object.c.html#9135"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[09135] The variable ret is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09135"
+ , "c1link" : "./qc/crypto/asn1/a_object.c.html#9135"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[09135] The variable ret is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09135"
+ , "c1link" : "./qc/crypto/asn1/a_object.c.html#9135"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[09135] The variable ret is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09135"
+ , "c1link" : "./qc/crypto/asn1/a_object.c.html#9135"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[09135] The variable ret is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

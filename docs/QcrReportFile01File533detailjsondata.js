@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/o_str.c.html" 
- , "texte" : "File crypto/o_str.c 79 rule violations " 
+ , "texte" : "File crypto/o_str.c 80 rule violations " 
  , "fic2"  : "./qc/crypto/o_str.c.xml" 
  , "fic3"  : "" 
 }
@@ -71,6 +71,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -549,6 +556,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/o_str.c.html#7947"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[07947] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07950"
+ , "c1link" : "./qc/crypto/o_str.c.html#7950"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[07950] The variable p is post incremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

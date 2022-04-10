@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bn/bn_recp.c.html" 
- , "texte" : "File crypto/bn/bn_recp.c 95 rule violations " 
+ , "texte" : "File crypto/bn/bn_recp.c 96 rule violations " 
  , "fic2"  : "./qc/crypto/bn/bn_recp.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,6 +57,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -577,6 +584,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_recp.c.html#8097"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[08097] The expression  ! BN_copy(r,m) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08117"
+ , "c1link" : "./qc/crypto/bn/bn_recp.c.html#8117"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[08117] The variable recp is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

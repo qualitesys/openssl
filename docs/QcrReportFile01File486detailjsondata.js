@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/pmeth_gn.c.html" 
- , "texte" : "File crypto/evp/pmeth_gn.c 80 rule violations " 
+ , "texte" : "File crypto/evp/pmeth_gn.c 86 rule violations " 
  , "fic2"  : "./qc/crypto/evp/pmeth_gn.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,6 +57,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : {
@@ -461,6 +468,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "11582"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#11582"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[11582] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11640"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#11640"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[11640] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "11559"
  , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#11559"
  , "c2" : "MAJOR"
@@ -479,6 +500,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#11617"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[11617] goto statement jump to not_supported"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11640"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#11640"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[11640] The variable ctx is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -622,10 +650,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "12019"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#12019"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[12019] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "12014"
  , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#12014"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[12014] goto statement jump to not_supported"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12019"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#12019"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[12019] The variable ctx is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12019"
+ , "c1link" : "./qc/crypto/evp/pmeth_gn.c.html#12019"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[12019] The variable ctx is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

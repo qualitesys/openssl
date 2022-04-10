@@ -3742,6 +3742,41 @@ var maDataBlocs = {
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
+  "fic"  : "crypto/objects/o_names.c" 
+  , "Fic1"  : "qc/crypto/objects/o_names.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/objects/o_names.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "crypto/objects/obj_dat.c" 
+  , "Fic1"  : "qc/crypto/objects/obj_dat.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/objects/obj_dat.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "crypto/objects/obj_err.c" 
+  , "Fic1"  : "qc/crypto/objects/obj_err.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/objects/obj_err.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "crypto/objects/obj_lib.c" 
+  , "Fic1"  : "qc/crypto/objects/obj_lib.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/objects/obj_lib.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "crypto/objects/obj_xref.c" 
+  , "Fic1"  : "qc/crypto/objects/obj_xref.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/objects/obj_xref.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
   "fic"  : "crypto/ocsp/ocsp_asn.c" 
   , "Fic1"  : "qc/crypto/ocsp/ocsp_asn.c.qre.nonreg.html" 
   , "OKKO1"  : "" 

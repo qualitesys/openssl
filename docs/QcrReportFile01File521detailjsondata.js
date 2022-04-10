@@ -286,10 +286,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "04922"
- , "c1link" : "./qc/crypto/modes/cfb128.c.html#4922"
+   "c1" : "04954"
+ , "c1link" : "./qc/crypto/modes/cfb128.c.html#4954"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04922] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[04954] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
@@ -349,10 +349,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "04970"
- , "c1link" : "./qc/crypto/modes/cfb128.c.html#4970"
+   "c1" : "05007"
+ , "c1link" : "./qc/crypto/modes/cfb128.c.html#5007"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04970] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[05007] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {

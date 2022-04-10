@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bio/bss_bio.c.html" 
- , "texte" : "File crypto/bio/bss_bio.c 101 rule violations " 
+ , "texte" : "File crypto/bio/bss_bio.c 109 rule violations " 
  , "fic2"  : "./qc/crypto/bio/bss_bio.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,6 +57,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : {
@@ -538,6 +545,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "10671"
+ , "c1link" : "./qc/crypto/bio/bss_bio.c.html#10671"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[10671] The variable peer_b is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "10643"
  , "c1link" : "./qc/crypto/bio/bss_bio.c.html#10643"
  , "c2" : "BLOCKER"
@@ -548,7 +562,21 @@ var maDataBlocs = {
    "c1" : "10693"
  , "c1link" : "./qc/crypto/bio/bss_bio.c.html#10693"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[10693] The variable peer_b is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10693"
+ , "c1link" : "./qc/crypto/bio/bss_bio.c.html#10693"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[10693] The expression peer_b-&gt;len applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10700"
+ , "c1link" : "./qc/crypto/bio/bss_bio.c.html#10700"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[10700] The variable peer_b is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -597,7 +625,21 @@ var maDataBlocs = {
    "c1" : "10800"
  , "c1link" : "./qc/crypto/bio/bss_bio.c.html#10800"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[10800] The variable peer_b is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10800"
+ , "c1link" : "./qc/crypto/bio/bss_bio.c.html#10800"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[10800] The expression peer_b-&gt;len applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10807"
+ , "c1link" : "./qc/crypto/bio/bss_bio.c.html#10807"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[10807] The variable peer_b is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -605,6 +647,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bio/bss_bio.c.html#10819"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[10819] The pointer b is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10864"
+ , "c1link" : "./qc/crypto/bio/bss_bio.c.html#10864"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[10864] The variable b is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -633,6 +682,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bio/bss_bio.c.html#10929"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[10929] The expression  ! bio-&gt;init applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10965"
+ , "c1link" : "./qc/crypto/bio/bss_bio.c.html#10965"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[10965] The variable b is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -689,6 +745,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bio/bss_bio.c.html#11268"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[11268] The pointer b2 is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11362"
+ , "c1link" : "./qc/crypto/bio/bss_bio.c.html#11362"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[11362] The variable bio is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

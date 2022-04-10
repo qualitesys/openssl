@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/engine/eng_list.c.html" 
- , "texte" : "File crypto/engine/eng_list.c 102 rule violations " 
+ , "texte" : "File crypto/engine/eng_list.c 111 rule violations " 
  , "fic2"  : "./qc/crypto/engine/eng_list.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,6 +57,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "9"
 }}
 ,
 { "ligne" : {
@@ -475,6 +482,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "15937"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#15937"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[15937] The variable iterator is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "15950"
  , "c1link" : "./qc/crypto/engine/eng_list.c.html#15950"
  , "c2" : "BLOCKER"
@@ -486,6 +500,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/engine/eng_list.c.html#15952"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[15952] The expression e-&gt;prev applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15957"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#15957"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[15957] The variable e is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -521,6 +542,41 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/engine/eng_list.c.html#16063"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[16063] The expression not_locked applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16105"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#16105"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[16105] The variable e is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16107"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#16107"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[16107] The variable e is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16105"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#16105"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[16105] The variable e is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16107"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#16107"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[16107] The variable e is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16107"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#16107"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[16107] The variable e is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -682,6 +738,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/engine/eng_list.c.html#16411"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[16411] The expression  ! CRYPTO_THREAD_write_lock(global_engine_lock) applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16420"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#16420"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[16420] The variable iterator is post  and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16452"
+ , "c1link" : "./qc/crypto/engine/eng_list.c.html#16452"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[16452] The variable iterator is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/openssl.c.html" 
- , "texte" : "File apps/openssl.c 89 rule violations " 
+ , "texte" : "File apps/openssl.c 90 rule violations " 
  , "fic2"  : "./qc/apps/openssl.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,6 +57,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000019"
+ , "c3" : "Risk for an equal test to be always false"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -591,6 +598,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/openssl.c.html#20807"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[20807] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "20833"
+ , "c1link" : "./qc/apps/openssl.c.html#20833"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[20833] The variable argc is post decremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
