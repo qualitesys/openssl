@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/modes/gcm128.c.html" 
- , "texte" : "File crypto/modes/gcm128.c 234 rule violations " 
+ , "texte" : "File crypto/modes/gcm128.c 236 rule violations " 
  , "fic2"  : "./qc/crypto/modes/gcm128.c.xml" 
  , "fic3"  : "" 
 }
@@ -64,6 +64,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000020"
+ , "c3" : "Infinite loop risk, the condition must be bounded"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -773,6 +780,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/modes/gcm128.c.html#8272"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[08272] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08210"
+ , "c1link" : "./qc/crypto/modes/gcm128.c.html#8210"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000020[08210] Infinite loop risk, the condition must be bounded to upper value"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08210"
+ , "c1link" : "./qc/crypto/modes/gcm128.c.html#8210"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000020[08210] Infinite loop risk, the condition must be bounded to lower value"
 }} 
 ,
 { "ligne" : {
