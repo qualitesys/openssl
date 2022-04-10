@@ -27,7 +27,7 @@ jobs:
     - name: ls -l apps pour les noms de fichiers .c avant qcrgoalfileclonecpp
       run: ls -l apps
     - name: Maven and co qcrgoalfileclonecpp
-      run: mvn -U -Dsonar.filecloneignore=fuzz/;test/ qcr:qcrgoalfileclonecpp
+      run: mvn -U -Dsonar.filecloneignore="fuzz/;test/" qcr:qcrgoalfileclonecpp
     - name: ls -l apps pour les noms de fichiers .c apres qcrgoalfileclonecpp
       run: ls -l apps
     - name: Run maven compile sur qcr
