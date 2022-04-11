@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/dsa/dsa_meth.c.html" 
- , "texte" : "File crypto/dsa/dsa_meth.c 24 rule violations " 
+ , "texte" : "File crypto/dsa/dsa_meth.c 21 rule violations " 
  , "fic2"  : "./qc/crypto/dsa/dsa_meth.c.xml" 
  , "fic3"  : "" 
 }
@@ -38,13 +38,6 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "3"
-}}
-,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
@@ -97,13 +90,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01882"
- , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#1882"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01882] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01884"
  , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#1884"
  , "c2" : "BLOCKER"
@@ -132,13 +118,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01932"
- , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#1932"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01932] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01936"
  , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#1936"
  , "c2" : "BLOCKER"
@@ -150,13 +129,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#1961"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01961] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01963"
- , "c1link" : "./qc/crypto/dsa/dsa_meth.c.html#1963"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01963] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

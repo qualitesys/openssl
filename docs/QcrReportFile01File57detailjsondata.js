@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/rehash.c.html" 
- , "texte" : "File apps/rehash.c 119 rule violations " 
+ , "texte" : "File apps/rehash.c 99 rule violations " 
  , "fic2"  : "./qc/apps/rehash.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "33"
+ , "c4" : "13"
 }}
 ,
 { "ligne" : {
@@ -111,13 +111,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01623"
- , "c1link" : "./qc/apps/rehash.c.html#1623"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01623] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01625"
  , "c1link" : "./qc/apps/rehash.c.html#1625"
  , "c2" : "BLOCKER"
@@ -146,13 +139,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01673"
- , "c1link" : "./qc/apps/rehash.c.html#1673"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01673] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01677"
  , "c1link" : "./qc/apps/rehash.c.html#1677"
  , "c2" : "BLOCKER"
@@ -164,13 +150,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/rehash.c.html#1702"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01702] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01704"
- , "c1link" : "./qc/apps/rehash.c.html#1704"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01704] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -251,13 +230,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05565"
- , "c1link" : "./qc/apps/rehash.c.html#5565"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05565] The expression  ! __builtin_constant_p(__nbytes) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "05568"
  , "c1link" : "./qc/apps/rehash.c.html#5568"
  , "c2" : "BLOCKER"
@@ -269,13 +241,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/rehash.c.html#5593"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[05593] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05595"
- , "c1link" : "./qc/apps/rehash.c.html#5595"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05595] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -293,13 +258,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05629"
- , "c1link" : "./qc/apps/rehash.c.html#5629"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05629] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "05632"
  , "c1link" : "./qc/apps/rehash.c.html#5632"
  , "c2" : "BLOCKER"
@@ -311,13 +269,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/rehash.c.html#5653"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[05653] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05655"
- , "c1link" : "./qc/apps/rehash.c.html#5655"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05655] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -339,13 +290,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/rehash.c.html#5693"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[05693] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05695"
- , "c1link" : "./qc/apps/rehash.c.html#5695"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05695] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -377,13 +321,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05746"
- , "c1link" : "./qc/apps/rehash.c.html#5746"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05746] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "05749"
  , "c1link" : "./qc/apps/rehash.c.html#5749"
  , "c2" : "BLOCKER"
@@ -395,13 +332,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/rehash.c.html#5770"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[05770] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05772"
- , "c1link" : "./qc/apps/rehash.c.html#5772"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05772] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -419,13 +349,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05799"
- , "c1link" : "./qc/apps/rehash.c.html#5799"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05799] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "05802"
  , "c1link" : "./qc/apps/rehash.c.html#5802"
  , "c2" : "BLOCKER"
@@ -437,13 +360,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/rehash.c.html#5826"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[05826] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05828"
- , "c1link" : "./qc/apps/rehash.c.html#5828"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05828] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -468,13 +384,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07528"
- , "c1link" : "./qc/apps/rehash.c.html#7528"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07528] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "07531"
  , "c1link" : "./qc/apps/rehash.c.html#7531"
  , "c2" : "BLOCKER"
@@ -489,31 +398,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07559"
- , "c1link" : "./qc/apps/rehash.c.html#7559"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07559] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "07562"
  , "c1link" : "./qc/apps/rehash.c.html#7562"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[07562] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08962"
- , "c1link" : "./qc/apps/rehash.c.html#8962"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08962] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08995"
- , "c1link" : "./qc/apps/rehash.c.html#8995"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08995] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -636,24 +524,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19326"
- , "c1link" : "./qc/apps/rehash.c.html#19326"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19326] The expression  ! X509_digest(x-&gt;x509,evpmd,digest,(( void  *)0)) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "19333"
  , "c1link" : "./qc/apps/rehash.c.html#19333"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19333] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19342"
- , "c1link" : "./qc/apps/rehash.c.html#19342"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19342] The expression  ! X509_CRL_digest(x-&gt;crl,evpmd,digest,(( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -818,13 +692,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19522"
- , "c1link" : "./qc/apps/rehash.c.html#19522"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19522] The expression bit_isset(idmask,nextid) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "19528"
  , "c1link" : "./qc/apps/rehash.c.html#19528"
  , "c2" : "BLOCKER"
@@ -892,13 +759,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/rehash.c.html#19654"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19654] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19668"
- , "c1link" : "./qc/apps/rehash.c.html#19668"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19668] The expression  ! opt_provider(o) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

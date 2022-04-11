@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/fipsinstall.c.html" 
- , "texte" : "File apps/fipsinstall.c 175 rule violations " 
+ , "texte" : "File apps/fipsinstall.c 141 rule violations " 
  , "fic2"  : "./qc/apps/fipsinstall.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "35"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : {
@@ -64,13 +64,6 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000019"
- , "c3" : "Risk for an equal test to be always false"
- , "c4" : "6"
 }}
 ,
 { "ligne" : {
@@ -202,13 +195,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03430"
- , "c1link" : "./qc/apps/fipsinstall.c.html#3430"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03430] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "03432"
  , "c1link" : "./qc/apps/fipsinstall.c.html#3432"
  , "c2" : "BLOCKER"
@@ -237,13 +223,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03480"
- , "c1link" : "./qc/apps/fipsinstall.c.html#3480"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03480] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "03484"
  , "c1link" : "./qc/apps/fipsinstall.c.html#3484"
  , "c2" : "BLOCKER"
@@ -255,13 +234,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/fipsinstall.c.html#3509"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03509] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03511"
- , "c1link" : "./qc/apps/fipsinstall.c.html#3511"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03511] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -279,13 +251,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09346"
- , "c1link" : "./qc/apps/fipsinstall.c.html#9346"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09346] The expression  ! __builtin_constant_p(__nbytes) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "09349"
  , "c1link" : "./qc/apps/fipsinstall.c.html#9349"
  , "c2" : "BLOCKER"
@@ -297,13 +262,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/fipsinstall.c.html#9374"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[09374] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09376"
- , "c1link" : "./qc/apps/fipsinstall.c.html#9376"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09376] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -321,13 +279,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09410"
- , "c1link" : "./qc/apps/fipsinstall.c.html#9410"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09410] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "09413"
  , "c1link" : "./qc/apps/fipsinstall.c.html#9413"
  , "c2" : "BLOCKER"
@@ -339,13 +290,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/fipsinstall.c.html#9434"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[09434] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09436"
- , "c1link" : "./qc/apps/fipsinstall.c.html#9436"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09436] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -367,13 +311,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/fipsinstall.c.html#9474"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[09474] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09476"
- , "c1link" : "./qc/apps/fipsinstall.c.html#9476"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09476] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -405,13 +342,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09527"
- , "c1link" : "./qc/apps/fipsinstall.c.html#9527"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09527] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "09530"
  , "c1link" : "./qc/apps/fipsinstall.c.html#9530"
  , "c2" : "BLOCKER"
@@ -423,13 +353,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/fipsinstall.c.html#9551"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[09551] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09553"
- , "c1link" : "./qc/apps/fipsinstall.c.html#9553"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09553] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -447,13 +370,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09580"
- , "c1link" : "./qc/apps/fipsinstall.c.html#9580"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09580] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "09583"
  , "c1link" : "./qc/apps/fipsinstall.c.html#9583"
  , "c2" : "BLOCKER"
@@ -465,13 +381,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/fipsinstall.c.html#9607"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[09607] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09609"
- , "c1link" : "./qc/apps/fipsinstall.c.html#9609"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09609] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -496,13 +405,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11309"
- , "c1link" : "./qc/apps/fipsinstall.c.html#11309"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11309] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "11312"
  , "c1link" : "./qc/apps/fipsinstall.c.html#11312"
  , "c2" : "BLOCKER"
@@ -517,38 +419,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11340"
- , "c1link" : "./qc/apps/fipsinstall.c.html#11340"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11340] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "11343"
  , "c1link" : "./qc/apps/fipsinstall.c.html#11343"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[11343] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12742"
- , "c1link" : "./qc/apps/fipsinstall.c.html#12742"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12742] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "12775"
- , "c1link" : "./qc/apps/fipsinstall.c.html#12775"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12775] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19053"
- , "c1link" : "./qc/apps/fipsinstall.c.html#19053"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19053] The expression  ! EVP_MAC_init(ctx,(( void  *)0),0,(( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -584,13 +458,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/fipsinstall.c.html#19067"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19067] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19070"
- , "c1link" : "./qc/apps/fipsinstall.c.html#19070"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19070] The expression  ! EVP_MAC_final(ctx,out,out_len,outsz) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -923,24 +790,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19511"
- , "c1link" : "./qc/apps/fipsinstall.c.html#19511"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19511] The expression  ! OPENSSL_sk_push(ossl_check_OPENSSL_STRING_sk_type(opts),ossl_check_OPENSSL_STRING_type(opt_arg())) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "19512"
  , "c1link" : "./qc/apps/fipsinstall.c.html#19512"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19512] goto statement jump to opthelp"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19528"
- , "c1link" : "./qc/apps/fipsinstall.c.html#19528"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19528] The expression  ! opt_check_rest_arg((( void  *)0)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -955,13 +808,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/fipsinstall.c.html#19540"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19540] goto statement jump to opthelp"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19549"
- , "c1link" : "./qc/apps/fipsinstall.c.html#19549"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19549] The expression verify_module_load(parent_config) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -990,13 +836,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/fipsinstall.c.html#19580"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19580] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19582"
- , "c1link" : "./qc/apps/fipsinstall.c.html#19582"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19582] The expression  ! OSSL_PROVIDER_set_default_search_path((( void  *)0),module_path) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1070,13 +909,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19671"
- , "c1link" : "./qc/apps/fipsinstall.c.html#19671"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19671] The expression  ! EVP_MAC_CTX_set_params(ctx,params) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "19677"
  , "c1link" : "./qc/apps/fipsinstall.c.html#19677"
  , "c2" : "BLOCKER"
@@ -1098,13 +930,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19691"
- , "c1link" : "./qc/apps/fipsinstall.c.html#19691"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19691] The expression  ! do_mac(ctx,read_buffer,module_bio,module_mac, &amp; module_mac_len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "19692"
  , "c1link" : "./qc/apps/fipsinstall.c.html#19692"
  , "c2" : "MAJOR"
@@ -1119,13 +944,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19705"
- , "c1link" : "./qc/apps/fipsinstall.c.html#19705"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19705] The expression  ! do_mac(ctx2,read_buffer,mem_bio,install_mac, &amp; install_mac_len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "19706"
  , "c1link" : "./qc/apps/fipsinstall.c.html#19706"
  , "c2" : "MAJOR"
@@ -1137,13 +955,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/fipsinstall.c.html#19711"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[19711] The expression verify applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19712"
- , "c1link" : "./qc/apps/fipsinstall.c.html#19712"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19712] The expression  ! verify_config(in_fname,section_name,module_mac,module_mac_len,install_mac,install_mac_len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1168,13 +979,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19729"
- , "c1link" : "./qc/apps/fipsinstall.c.html#19729"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19729] The expression  ! load_fips_prov_and_run_self_test(prov_name) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "19730"
  , "c1link" : "./qc/apps/fipsinstall.c.html#19730"
  , "c2" : "MAJOR"
@@ -1186,13 +990,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/fipsinstall.c.html#19745"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19745] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19747"
- , "c1link" : "./qc/apps/fipsinstall.c.html#19747"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19747] The expression  ! write_config_fips_section(fout,section_name,module_mac,module_mac_len,enable_conditional_errors,enable_security_checks,install_mac,install_mac_len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -1224,52 +1021,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19811"
- , "c1link" : "./qc/apps/fipsinstall.c.html#19811"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[19811] The variable p is post  and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19820"
- , "c1link" : "./qc/apps/fipsinstall.c.html#19820"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[19820] The variable p is post  and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19811"
- , "c1link" : "./qc/apps/fipsinstall.c.html#19811"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[19811] The variable p is post  and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19820"
- , "c1link" : "./qc/apps/fipsinstall.c.html#19820"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[19820] The variable p is post  and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
    "c1" : "19816"
  , "c1link" : "./qc/apps/fipsinstall.c.html#19816"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19816] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19820"
- , "c1link" : "./qc/apps/fipsinstall.c.html#19820"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[19820] The variable p is post  and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19820"
- , "c1link" : "./qc/apps/fipsinstall.c.html#19820"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[19820] The variable p is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

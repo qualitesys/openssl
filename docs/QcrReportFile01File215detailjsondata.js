@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/camellia/camellia.c.html" 
- , "texte" : "File crypto/camellia/camellia.c 156 rule violations " 
+ , "texte" : "File crypto/camellia/camellia.c 145 rule violations " 
  , "fic2"  : "./qc/crypto/camellia/camellia.c.xml" 
  , "fic3"  : "" 
 }
@@ -47,23 +47,9 @@ var maDataBlocs = {
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "3"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "56"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000019"
- , "c3" : "Risk for an equal test to be always false"
- , "c4" : "8"
 }}
 ,
 { "ligne" : {
@@ -111,13 +97,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01886"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#1886"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01886] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01888"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#1888"
  , "c2" : "BLOCKER"
@@ -146,13 +125,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01936"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#1936"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01936] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01940"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#1940"
  , "c2" : "BLOCKER"
@@ -164,13 +136,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#1965"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01965] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01967"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#1967"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01967] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -702,34 +667,6 @@ var maDataBlocs = {
    "c1" : "02289"
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2289"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[02289] The variable k is post  and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02289"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2289"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[02289] The variable k is post  and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02289"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2289"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[02289] The variable k is post  and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02289"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2289"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[02289] The variable k is post  and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02289"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2289"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[02289] The condition of do while loop is always true, infinite loop risk while (1) do{} 1"
 }} 
 ,
@@ -934,34 +871,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/camellia/camellia.c.html#2319"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[02319] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02341"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2341"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[02341] The variable k is post  and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02341"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2341"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[02341] The variable k is post  and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02341"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2341"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[02341] The variable k is post  and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02341"
- , "c1link" : "./qc/crypto/camellia/camellia.c.html#2341"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[02341] The variable k is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

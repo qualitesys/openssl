@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/asn1/tasn_fre.c.html" 
- , "texte" : "File crypto/asn1/tasn_fre.c 40 rule violations " 
+ , "texte" : "File crypto/asn1/tasn_fre.c 37 rule violations " 
  , "fic2"  : "./qc/crypto/asn1/tasn_fre.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "14"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : {
@@ -153,13 +153,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02753"
- , "c1link" : "./qc/crypto/asn1/tasn_fre.c.html#2753"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02753] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02755"
  , "c1link" : "./qc/crypto/asn1/tasn_fre.c.html#2755"
  , "c2" : "BLOCKER"
@@ -188,13 +181,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02803"
- , "c1link" : "./qc/crypto/asn1/tasn_fre.c.html#2803"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02803] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02807"
  , "c1link" : "./qc/crypto/asn1/tasn_fre.c.html#2807"
  , "c2" : "BLOCKER"
@@ -206,13 +192,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/asn1/tasn_fre.c.html#2832"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02832] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02834"
- , "c1link" : "./qc/crypto/asn1/tasn_fre.c.html#2834"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02834] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

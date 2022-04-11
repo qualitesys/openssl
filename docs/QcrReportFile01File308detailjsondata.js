@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/des/rand_key.c.html" 
- , "texte" : "File crypto/des/rand_key.c 23 rule violations " 
+ , "texte" : "File crypto/des/rand_key.c 19 rule violations " 
  , "fic2"  : "./qc/crypto/des/rand_key.c.xml" 
  , "fic3"  : "" 
 }
@@ -38,13 +38,6 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "4"
-}}
-,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
@@ -90,13 +83,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01727"
- , "c1link" : "./qc/crypto/des/rand_key.c.html#1727"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01727] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01729"
  , "c1link" : "./qc/crypto/des/rand_key.c.html#1729"
  , "c2" : "BLOCKER"
@@ -125,13 +111,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01777"
- , "c1link" : "./qc/crypto/des/rand_key.c.html#1777"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01777] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01781"
  , "c1link" : "./qc/crypto/des/rand_key.c.html#1781"
  , "c2" : "BLOCKER"
@@ -143,13 +122,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/des/rand_key.c.html#1806"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01806] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01808"
- , "c1link" : "./qc/crypto/des/rand_key.c.html#1808"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01808] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -220,13 +192,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/des/rand_key.c.html#3058"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[03058] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07972"
- , "c1link" : "./qc/crypto/des/rand_key.c.html#7972"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07972] The expression DES_is_weak_key(ret) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

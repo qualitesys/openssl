@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/rsa/rsa_backend.c.html" 
- , "texte" : "File crypto/rsa/rsa_backend.c 144 rule violations " 
- , "fic2"  : "./qc/crypto/rsa/rsa_backend.c.xml" 
+   "fic1"  : "./qc/crypto/property/property_parse.c.html" 
+ , "texte" : "File crypto/property/property_parse.c 92 rule violations " 
+ , "fic2"  : "./qc/crypto/property/property_parse.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,23 +40,23 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "1"
+ , "c2" : "QC-CPP000006"
+ , "c3" : "Risk of infinite while loop"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "40"
+ , "c4" : "10"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "42"
+ , "c4" : "48"
 }}
 ,
 { "ligne" : {
@@ -67,1034 +67,677 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
+   "c1" : "CRITICAL"
+ , "c2" : "QC-CPPCWE484"
+ , "c3" : "Omitted Break Statement in Switch"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000007"
  , "c3" : "goto statement"
- , "c4" : "29"
+ , "c4" : "15"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPPCWE481"
  , "c3" : "Assigning instead of comparing"
- , "c4" : "14"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "15"
+ , "c4" : "7"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00410"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#410"
+   "c1" : "00383"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#383"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00410] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[00383] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01936"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#1936"
+   "c1" : "01339"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#1339"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01936] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01339] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01941"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#1941"
+   "c1" : "01344"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#1344"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01941] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01344] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01966"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#1966"
+   "c1" : "01369"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#1369"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01966] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[01369] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01970"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#1970"
+   "c1" : "01373"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#1373"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01970] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[01373] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01973"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#1973"
+   "c1" : "01376"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#1376"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01973] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[01376] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01998"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#1998"
+   "c1" : "01401"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#1401"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01998] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[01401] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02002"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#2002"
+   "c1" : "01405"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#1405"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02002] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[01405] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02006"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#2006"
+   "c1" : "01409"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#1409"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02006] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[01409] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02014"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#2014"
+   "c1" : "01417"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#1417"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02014] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[01417] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03057"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#3057"
+   "c1" : "02666"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#2666"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[03057] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[02666] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03220"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#3220"
+   "c1" : "02829"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#2829"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03220] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02829] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03223"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#3223"
+   "c1" : "02856"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#2856"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03223] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02856] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03247"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#3247"
+   "c1" : "02860"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#2860"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03247] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02860] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03249"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#3249"
+   "c1" : "02882"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#2882"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03249] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[02882] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03251"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#3251"
+   "c1" : "02882"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#2882"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03251] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02882] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03273"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#3273"
+   "c1" : "02906"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#2906"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03273] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02906] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03273"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#3273"
+   "c1" : "02912"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#2912"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03273] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02912] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03297"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#3297"
+   "c1" : "02937"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#2937"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03297] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02937] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03299"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#3299"
+   "c1" : "02941"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#2941"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03299] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[02941] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03303"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#3303"
+   "c1" : "06460"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#6460"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03303] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06460] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03328"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#3328"
+   "c1" : "06465"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#6465"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03328] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06465] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03330"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#3330"
+   "c1" : "06490"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#6490"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03330] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[06490] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03332"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#3332"
+   "c1" : "06495"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#6495"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03332] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06495] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14493"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14493"
+   "c1" : "06524"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#6524"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14493] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[06524] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14495"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14495"
+   "c1" : "06529"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#6529"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14495] The expression  ! __builtin_constant_p(__nbytes) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[06529] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14498"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14498"
+   "c1" : "06550"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#6550"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14498] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[06550] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14523"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14523"
+   "c1" : "06555"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#6555"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14523] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06555] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14525"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14525"
+   "c1" : "06571"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#6571"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14525] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[06571] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14528"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14528"
+   "c1" : "06590"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#6590"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14528] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06590] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14557"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14557"
+   "c1" : "06595"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#6595"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14557] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06595] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14559"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14559"
+   "c1" : "06615"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#6615"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14559] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[06615] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14562"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14562"
+   "c1" : "06620"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#6620"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14562] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06620] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14583"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14583"
+   "c1" : "06641"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#6641"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14583] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06641] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14585"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14585"
+   "c1" : "06646"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#6646"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14585] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[06646] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14588"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14588"
+   "c1" : "06667"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#6667"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14588] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06667] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14604"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14604"
+   "c1" : "06672"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#6672"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14604] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06672] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14623"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14623"
+   "c1" : "06694"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#6694"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14623] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06694] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14625"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14625"
+   "c1" : "06699"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#6699"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14625] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[06699] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14628"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14628"
+   "c1" : "06723"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#6723"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14628] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06723] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14648"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14648"
+   "c1" : "06728"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#6728"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14648] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06728] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14653"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14653"
+   "c1" : "07958"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#7958"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14653] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000006[07958] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14674"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14674"
+   "c1" : "07958"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#7958"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14674] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000006[07958] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14676"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14676"
+   "c1" : "07980"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#7980"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14676] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07980] The expression err applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14679"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14679"
+   "c1" : "08077"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8077"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14679] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000011[08077] The expression err applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14700"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14700"
+   "c1" : "08110"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8110"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14700] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000011[08110] The expression err applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14702"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14702"
+   "c1" : "08136"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8136"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14702] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[08136] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14705"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14705"
+   "c1" : "08146"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8146"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14705] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000011[08146] The expression r applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14727"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14727"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14727] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14729"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14729"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14729] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14732"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14732"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14732] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14756"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14756"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14756] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14758"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14758"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14758] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14761"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#14761"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14761] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15463"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15463"
+   "c1" : "08180"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8180"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15463] The pointer param_n is declared but not initialized"
+ , "c3" : "QC-CPP000014[08180] The pointer r is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15463"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15463"
+   "c1" : "08229"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8229"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15463] The pointer param_e is declared but not initialized"
+ , "c3" : "QC-CPP000014[08229] The pointer sk is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15505"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15505"
+   "c1" : "08237"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8237"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08237] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08250"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8250"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15505] The expression include_private applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08250] The expression  ! done applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15523"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15523"
+   "c1" : "08259"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8259"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15523] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08259] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15531"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15531"
+   "c1" : "08262"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8262"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15531] The expression  ! RSA_set0_key(rsa,n,e,d) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[08262] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15532"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15532"
+   "c1" : "08263"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8263"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15532] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08263] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15533"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15533"
+   "c1" : "08268"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8268"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15533] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[08268] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15533"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15533"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15533] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15539"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15539"
+   "c1" : "08270"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8270"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15539] The expression is_private applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[08270] The expression '=' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15540"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15540"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15540] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15542"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15542"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15542] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15544"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15544"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15544] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15546"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15546"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15546] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15551"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15551"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15551] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15610"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15610"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15610] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15615"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15615"
+   "c1" : "08271"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8271"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15615] The expression 'n' is invariable"
+ , "c3" : "QC-CPP000012[08271] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15616"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15616"
+   "c1" : "08274"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8274"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08274] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08283"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8283"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08283] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08294"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8294"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08294] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08307"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8307"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08307] The pointer sk is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08324"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8324"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08324] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08337"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8337"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15616] The expression 'e' is invariable"
+ , "c3" : "QC-CPP000011[08337] The expression  ! done applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15617"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15617"
+   "c1" : "08344"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8344"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15617] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08344] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15636"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15636"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15636] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15638"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15638"
+   "c1" : "08347"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8347"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15638] The expression 'd' is invariable"
+ , "c3" : "QC-CPP000012[08347] The expression '-' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15648"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15648"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15648] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15667"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15667"
+   "c1" : "08350"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8350"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15667] The expression  ! ossl_rsa_pss_params_30_is_unrestricted(pss) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[08350] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15750"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15750"
+   "c1" : "08351"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8351"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15750] The pointer param_md is declared but not initialized"
+ , "c3" : "QC-CPP000007[08351] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15750"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15750"
+   "c1" : "08352"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8352"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15750] The pointer param_mgf is declared but not initialized"
+ , "c3" : "QC-CPP000007[08352] goto statement jump to skip_value"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15750"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15750"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15750] The pointer param_mgf1md is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15750"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15750"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15750] The pointer param_saltlen is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15751"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15751"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15751] The pointer param_propq is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15818"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15818"
+   "c1" : "08355"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8355"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15818] The expression  ! ossl_rsa_pss_params_30_set_defaults(pss_params) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[08355] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15841"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15841"
+   "c1" : "08356"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8356"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08356] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08358"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8358"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15841] The expression  ! OSSL_PARAM_get_utf8_ptr(param_mgf, &amp; mgfname) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[08358] The expression '=' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15867"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15867"
+   "c1" : "08360"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8360"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15867] The expression  ! OSSL_PARAM_get_utf8_ptr(param_mgf, &amp; mdname) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[08360] The expression '!=' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15868"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15868"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15868] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15870"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15870"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15870] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15877"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15877"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15877] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15893"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15893"
+   "c1" : "08360"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8360"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15893] The expression  ! OSSL_PARAM_get_utf8_ptr(param_mgf, &amp; mgf1mdname) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[08360] The expression  sizeof ('!=')-1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15894"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15894"
+   "c1" : "08367"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8367"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15894] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08367] goto statement jump to skip_value"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15896"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15896"
+   "c1" : "08374"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8374"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15896] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[08374] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15903"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15903"
+   "c1" : "08385"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8385"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15903] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08385] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15913"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15913"
+   "c1" : "08408"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8408"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15913] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[08408] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15943"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15943"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15943] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15964"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15964"
+   "c1" : "08424"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8424"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15964] The expression ossl_rsa_is_foreign(rsa) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08424] The expression  ! q[i].optional applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15971"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15971"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15971] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15984"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15984"
+   "c1" : "08440"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8440"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15984] The expression  ! rsa_bn_dup_check( &amp; dupkey-&gt;n,rsa-&gt;n) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08440] The expression  ! q[i].optional applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15985"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15985"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15985] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15986"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15986"
+   "c1" : "08447"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8447"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15986] The expression  ! rsa_bn_dup_check( &amp; dupkey-&gt;e,rsa-&gt;e) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08447] The expression  ! q[i].optional applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15987"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15987"
+   "c1" : "08471"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8471"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15987] goto statement jump to err"
+ , "c3" : "QC-CPP000014[08471] The pointer copy is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15993"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15993"
+   "c1" : "08472"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8472"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08472] The pointer r is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08490"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8490"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08490] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08490"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8490"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08490] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08524"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8524"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15993] The expression  ! rsa_bn_dup_check( &amp; dupkey-&gt;d,rsa-&gt;d) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[08524] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15994"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15994"
+   "c1" : "08525"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8525"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15994] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08525] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15997"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15997"
+   "c1" : "08534"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8534"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08534] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08560"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8560"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08560] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08619"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8619"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08619] The pointer val is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08640"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8640"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15997] The expression  ! rsa_bn_dup_check( &amp; dupkey-&gt;p,rsa-&gt;p) applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08640] The expression prop-&gt;optional applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15998"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15998"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15998] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15999"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#15999"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15999] The expression  ! rsa_bn_dup_check( &amp; dupkey-&gt;q,rsa-&gt;q) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16000"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16000"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16000] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16001"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16001"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16001] The expression  ! rsa_bn_dup_check( &amp; dupkey-&gt;dmp1,rsa-&gt;dmp1) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16002"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16002"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16002] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16003"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16003"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16003] The expression  ! rsa_bn_dup_check( &amp; dupkey-&gt;dmq1,rsa-&gt;dmq1) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16004"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16004"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16004] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16005"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16005"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16005] The expression  ! rsa_bn_dup_check( &amp; dupkey-&gt;iqmp,rsa-&gt;iqmp) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16006"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16006"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16006] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16017"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16017"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16017] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16028"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16028"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16028] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16041"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16041"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16041] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16051"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16051"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16051] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16057"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16057"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16057] The expression  ! rsa_bn_dup_check( &amp; duppinfo-&gt;r,pinfo-&gt;r) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16058"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16058"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16058] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16059"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16059"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16059] The expression  ! rsa_bn_dup_check( &amp; duppinfo-&gt;d,pinfo-&gt;d) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16060"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16060"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16060] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16061"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16061"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16061] The expression  ! rsa_bn_dup_check( &amp; duppinfo-&gt;t,pinfo-&gt;t) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16062"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16062"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16062] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16064"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16064"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16064] The expression  ! ossl_rsa_multip_calc_product(dupkey) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16065"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16065"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16065] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16090"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16090"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16090] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16093"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16093"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16093] The expression  ! CRYPTO_dup_ex_data(9, &amp; dupkey-&gt;ex_data, &amp; rsa-&gt;ex_data) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16093"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16093"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16093] The expression 9 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16095"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16095"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16095] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16112"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16112"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16112] The pointer pss is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16169"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16169"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16169] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16174"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16174"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16174] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16191"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16191"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16191] The expression  ! ossl_rsa_pss_get_param_unverified(legacy_pss, &amp; md, &amp; mgf1md, &amp; saltlen, &amp; trailerField) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16238"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16238"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16238] The expression pss-&gt;saltLength applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16242"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16242"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16242] The expression pss-&gt;trailerField applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16252"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16252"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16252] The pointer pss is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16253"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16253"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16253] The pointer algoid is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16254"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16254"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16254] The pointer algp is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16270"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16270"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16270] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16279"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16279"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16279] The expression  ! ossl_rsa_sync_to_pss_params_30(rsa) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16287"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16287"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16287] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16287"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16287"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16287] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16288"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16288"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16288] The pointer rsa is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16290"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16290"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16290] The pointer alg is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16292"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16292"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16292] The expression  ! PKCS8_pkey_get0((( void  *)0), &amp; p, &amp; pklen, &amp; alg,p8inf) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16319"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#16319"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16319] The expression  ! ossl_rsa_param_decode(rsa,alg) applies to a single value or variable, might be ambiguous."
+   "c1" : "08655"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#8655"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-CPPCWE484[08655] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ]
 };

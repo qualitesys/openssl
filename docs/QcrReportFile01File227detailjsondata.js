@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/chacha/chacha_enc.c.html" 
- , "texte" : "File crypto/chacha/chacha_enc.c 68 rule violations " 
+ , "texte" : "File crypto/chacha/chacha_enc.c 67 rule violations " 
  , "fic2"  : "./qc/crypto/chacha/chacha_enc.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,13 +42,6 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000006"
  , "c3" : "Risk of infinite while loop"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
  , "c4" : "1"
 }}
 ,
@@ -521,13 +514,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#471"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[00471] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00474"
- , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#474"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00474] The expression (ossl_is_little_endian) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

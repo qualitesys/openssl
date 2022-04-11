@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/gendsa.c.html" 
- , "texte" : "File apps/gendsa.c 86 rule violations " 
+ , "texte" : "File apps/gendsa.c 63 rule violations " 
  , "fic2"  : "./qc/apps/gendsa.c.xml" 
  , "fic3"  : "" 
 }
@@ -38,13 +38,6 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "23"
-}}
-,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
@@ -188,13 +181,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03101"
- , "c1link" : "./qc/apps/gendsa.c.html#3101"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03101] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "03103"
  , "c1link" : "./qc/apps/gendsa.c.html#3103"
  , "c2" : "BLOCKER"
@@ -223,13 +209,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03151"
- , "c1link" : "./qc/apps/gendsa.c.html#3151"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03151] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "03155"
  , "c1link" : "./qc/apps/gendsa.c.html#3155"
  , "c2" : "BLOCKER"
@@ -241,13 +220,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/gendsa.c.html#3180"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03180] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03182"
- , "c1link" : "./qc/apps/gendsa.c.html#3182"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03182] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -265,13 +237,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06115"
- , "c1link" : "./qc/apps/gendsa.c.html#6115"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06115] The expression  ! __builtin_constant_p(__nbytes) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "06118"
  , "c1link" : "./qc/apps/gendsa.c.html#6118"
  , "c2" : "BLOCKER"
@@ -283,13 +248,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/gendsa.c.html#6143"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06143] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06145"
- , "c1link" : "./qc/apps/gendsa.c.html#6145"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06145] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -307,13 +265,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06179"
- , "c1link" : "./qc/apps/gendsa.c.html#6179"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06179] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "06182"
  , "c1link" : "./qc/apps/gendsa.c.html#6182"
  , "c2" : "BLOCKER"
@@ -325,13 +276,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/gendsa.c.html#6203"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06203] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06205"
- , "c1link" : "./qc/apps/gendsa.c.html#6205"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06205] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -353,13 +297,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/gendsa.c.html#6243"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06243] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06245"
- , "c1link" : "./qc/apps/gendsa.c.html#6245"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06245] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -391,13 +328,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06296"
- , "c1link" : "./qc/apps/gendsa.c.html#6296"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06296] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "06299"
  , "c1link" : "./qc/apps/gendsa.c.html#6299"
  , "c2" : "BLOCKER"
@@ -409,13 +339,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/gendsa.c.html#6320"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06320] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06322"
- , "c1link" : "./qc/apps/gendsa.c.html#6322"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06322] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -433,13 +356,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06349"
- , "c1link" : "./qc/apps/gendsa.c.html#6349"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06349] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "06352"
  , "c1link" : "./qc/apps/gendsa.c.html#6352"
  , "c2" : "BLOCKER"
@@ -451,13 +367,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/gendsa.c.html#6376"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06376] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06378"
- , "c1link" : "./qc/apps/gendsa.c.html#6378"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06378] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -475,13 +384,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07712"
- , "c1link" : "./qc/apps/gendsa.c.html#7712"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07712] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "07715"
  , "c1link" : "./qc/apps/gendsa.c.html#7715"
  , "c2" : "BLOCKER"
@@ -496,31 +398,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07743"
- , "c1link" : "./qc/apps/gendsa.c.html#7743"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07743] The expression  ! __builtin_constant_p(__n) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "07746"
  , "c1link" : "./qc/apps/gendsa.c.html#7746"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[07746] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08935"
- , "c1link" : "./qc/apps/gendsa.c.html#8935"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08935] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08968"
- , "c1link" : "./qc/apps/gendsa.c.html#8968"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08968] The expression __builtin_constant_p(__oflag) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -559,13 +440,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19002"
- , "c1link" : "./qc/apps/gendsa.c.html#19002"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19002] The expression  ! opt_rand(o) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "19003"
  , "c1link" : "./qc/apps/gendsa.c.html#19003"
  , "c2" : "MAJOR"
@@ -573,24 +447,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19006"
- , "c1link" : "./qc/apps/gendsa.c.html#19006"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19006] The expression  ! opt_provider(o) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "19007"
  , "c1link" : "./qc/apps/gendsa.c.html#19007"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19007] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19022"
- , "c1link" : "./qc/apps/gendsa.c.html#19022"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19022] The expression  ! opt_check_rest_arg('params file') applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -608,13 +468,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19027"
- , "c1link" : "./qc/apps/gendsa.c.html#19027"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19027] The expression  ! app_RAND_load() applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "19028"
  , "c1link" : "./qc/apps/gendsa.c.html#19028"
  , "c2" : "MAJOR"
@@ -622,24 +475,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19030"
- , "c1link" : "./qc/apps/gendsa.c.html#19030"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19030] The expression  ! opt_cipher(ciphername, &amp; enc) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "19031"
  , "c1link" : "./qc/apps/gendsa.c.html#19031"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19031] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19034"
- , "c1link" : "./qc/apps/gendsa.c.html#19034"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19034] The expression  ! app_passwd((( void  *)0),passoutarg,(( void  *)0), &amp; passout) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -668,13 +507,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/gendsa.c.html#19085"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[19085] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19094"
- , "c1link" : "./qc/apps/gendsa.c.html#19094"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19094] The expression  ! PEM_write_bio_PrivateKey(out,pkey,enc,(( void  *)0),0,(( void  *)0),passout) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

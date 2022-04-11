@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/asn1/bio_ndef.c.html" 
- , "texte" : "File crypto/asn1/bio_ndef.c 38 rule violations " 
+ , "texte" : "File crypto/asn1/bio_ndef.c 34 rule violations " 
  , "fic2"  : "./qc/crypto/asn1/bio_ndef.c.xml" 
  , "fic3"  : "" 
 }
@@ -43,13 +43,6 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
  , "c4" : "2"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -174,13 +167,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02743"
- , "c1link" : "./qc/crypto/asn1/bio_ndef.c.html#2743"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02743] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02745"
  , "c1link" : "./qc/crypto/asn1/bio_ndef.c.html#2745"
  , "c2" : "BLOCKER"
@@ -209,13 +195,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02793"
- , "c1link" : "./qc/crypto/asn1/bio_ndef.c.html#2793"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02793] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02797"
  , "c1link" : "./qc/crypto/asn1/bio_ndef.c.html#2797"
  , "c2" : "BLOCKER"
@@ -227,13 +206,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/asn1/bio_ndef.c.html#2822"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02822] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02824"
- , "c1link" : "./qc/crypto/asn1/bio_ndef.c.html#2824"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02824] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -304,13 +276,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/asn1/bio_ndef.c.html#5975"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[05975] The pointer ndef_aux is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06013"
- , "c1link" : "./qc/crypto/asn1/bio_ndef.c.html#6013"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06013] The expression  ! ndef_prefix_free(b,pbuf,plen,parg) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

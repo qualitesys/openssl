@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/lib/apps_ui.c.html" 
- , "texte" : "File apps/lib/apps_ui.c 30 rule violations " 
+ , "texte" : "File apps/lib/apps_ui.c 27 rule violations " 
  , "fic2"  : "./qc/apps/lib/apps_ui.c.xml" 
  , "fic3"  : "" 
 }
@@ -38,13 +38,6 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "3"
-}}
-,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
@@ -167,13 +160,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02855"
- , "c1link" : "./qc/apps/lib/apps_ui.c.html#2855"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02855] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02857"
  , "c1link" : "./qc/apps/lib/apps_ui.c.html#2857"
  , "c2" : "BLOCKER"
@@ -202,13 +188,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02905"
- , "c1link" : "./qc/apps/lib/apps_ui.c.html#2905"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02905] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02909"
  , "c1link" : "./qc/apps/lib/apps_ui.c.html#2909"
  , "c2" : "BLOCKER"
@@ -220,13 +199,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/lib/apps_ui.c.html#2934"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02934] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02936"
- , "c1link" : "./qc/apps/lib/apps_ui.c.html#2936"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02936] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

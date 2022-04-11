@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/asn1/tasn_utl.c.html" 
- , "texte" : "File crypto/asn1/tasn_utl.c 72 rule violations " 
+ , "texte" : "File crypto/asn1/tasn_utl.c 58 rule violations " 
  , "fic2"  : "./qc/crypto/asn1/tasn_utl.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "17"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
@@ -118,13 +118,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01773"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#1773"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01773] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01775"
  , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#1775"
  , "c2" : "BLOCKER"
@@ -153,13 +146,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01823"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#1823"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01823] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01827"
  , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#1827"
  , "c2" : "BLOCKER"
@@ -171,13 +157,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#1852"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01852] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01854"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#1854"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01854] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -258,13 +237,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05921"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#5921"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05921] The expression  ! __builtin_constant_p(__nbytes) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "05924"
  , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#5924"
  , "c2" : "BLOCKER"
@@ -276,13 +248,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#5949"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[05949] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05951"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#5951"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05951] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -300,13 +265,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05985"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#5985"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05985] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "05988"
  , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#5988"
  , "c2" : "BLOCKER"
@@ -318,13 +276,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#6009"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06009] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06011"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#6011"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06011] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -346,13 +297,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#6049"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06049] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06051"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#6051"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06051] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -384,13 +328,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06102"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#6102"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06102] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "06105"
  , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#6105"
  , "c2" : "BLOCKER"
@@ -402,13 +339,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#6126"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06126] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06128"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#6128"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06128] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -426,13 +356,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06155"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#6155"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06155] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "06158"
  , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#6158"
  , "c2" : "BLOCKER"
@@ -444,13 +367,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#6182"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[06182] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06184"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#6184"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06184] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -493,20 +409,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8343"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[08343] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08359"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8359"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08359] The expression  ! CRYPTO_UP_REF(lck, &amp; ret, * lock) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08363"
- , "c1link" : "./qc/crypto/asn1/tasn_utl.c.html#8363"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08363] The expression  ! CRYPTO_DOWN_REF(lck, &amp; ret, * lock) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

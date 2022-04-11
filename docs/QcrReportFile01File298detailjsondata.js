@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/des/des_enc.c.html" 
- , "texte" : "File crypto/des/des_enc.c 339 rule violations " 
+ , "texte" : "File crypto/des/des_enc.c 336 rule violations " 
  , "fic2"  : "./qc/crypto/des/des_enc.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "7"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -111,13 +111,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01411"
- , "c1link" : "./qc/crypto/des/des_enc.c.html#1411"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01411] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01413"
  , "c1link" : "./qc/crypto/des/des_enc.c.html#1413"
  , "c2" : "BLOCKER"
@@ -146,13 +139,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01461"
- , "c1link" : "./qc/crypto/des/des_enc.c.html#1461"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01461] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01465"
  , "c1link" : "./qc/crypto/des/des_enc.c.html#1465"
  , "c2" : "BLOCKER"
@@ -164,13 +150,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/des/des_enc.c.html#1490"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01490] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01492"
- , "c1link" : "./qc/crypto/des/des_enc.c.html#1492"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01492] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

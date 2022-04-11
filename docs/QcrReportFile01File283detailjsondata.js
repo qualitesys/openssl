@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ct/ct_oct.c.html" 
- , "texte" : "File crypto/ct/ct_oct.c 123 rule violations " 
+ , "texte" : "File crypto/ct/ct_oct.c 115 rule violations " 
  , "fic2"  : "./qc/crypto/ct/ct_oct.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "8"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -64,13 +64,6 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000019"
- , "c3" : "Risk for an equal test to be always false"
- , "c4" : "2"
 }}
 ,
 { "ligne" : {
@@ -195,13 +188,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03124"
- , "c1link" : "./qc/crypto/ct/ct_oct.c.html#3124"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03124] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "03126"
  , "c1link" : "./qc/crypto/ct/ct_oct.c.html#3126"
  , "c2" : "BLOCKER"
@@ -230,13 +216,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03174"
- , "c1link" : "./qc/crypto/ct/ct_oct.c.html#3174"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03174] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "03178"
  , "c1link" : "./qc/crypto/ct/ct_oct.c.html#3178"
  , "c2" : "BLOCKER"
@@ -248,13 +227,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ct/ct_oct.c.html#3203"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03203] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03205"
- , "c1link" : "./qc/crypto/ct/ct_oct.c.html#3205"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[03205] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -332,20 +304,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ct/ct_oct.c.html#13534"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[13534] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13539"
- , "c1link" : "./qc/crypto/ct/ct_oct.c.html#13539"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[13539] The variable sct is post  and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13611"
- , "c1link" : "./qc/crypto/ct/ct_oct.c.html#13611"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[13611] The variable sct is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -475,13 +433,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13643"
- , "c1link" : "./qc/crypto/ct/ct_oct.c.html#13643"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13643] The expression  ! SCT_signature_is_complete(sct) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "13649"
  , "c1link" : "./qc/crypto/ct/ct_oct.c.html#13649"
  , "c2" : "MAJOR"
@@ -549,13 +500,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ct/ct_oct.c.html#13712"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[13712] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13722"
- , "c1link" : "./qc/crypto/ct/ct_oct.c.html#13722"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13722] The expression  ! SCT_is_complete(sct) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -766,13 +710,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ct/ct_oct.c.html#13897"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[13897] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13898"
- , "c1link" : "./qc/crypto/ct/ct_oct.c.html#13898"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13898] The expression  ! OPENSSL_sk_push(ossl_check_SCT_sk_type(sk),ossl_check_SCT_type(sct)) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

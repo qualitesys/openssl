@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/asn1/x_algor.c.html" 
- , "texte" : "File crypto/asn1/x_algor.c 45 rule violations " 
+ , "texte" : "File crypto/asn1/x_algor.c 40 rule violations " 
  , "fic2"  : "./qc/crypto/asn1/x_algor.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "12"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : {
@@ -111,13 +111,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01892"
- , "c1link" : "./qc/crypto/asn1/x_algor.c.html#1892"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01892] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01894"
  , "c1link" : "./qc/crypto/asn1/x_algor.c.html#1894"
  , "c2" : "BLOCKER"
@@ -146,13 +139,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01942"
- , "c1link" : "./qc/crypto/asn1/x_algor.c.html#1942"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01942] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01946"
  , "c1link" : "./qc/crypto/asn1/x_algor.c.html#1946"
  , "c2" : "BLOCKER"
@@ -164,13 +150,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/asn1/x_algor.c.html#1971"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01971] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01973"
- , "c1link" : "./qc/crypto/asn1/x_algor.c.html#1973"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01973] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -272,13 +251,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14280"
- , "c1link" : "./qc/crypto/asn1/x_algor.c.html#14280"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14280] The expression X509_ALGOR_set0(alg,algo,ptype,pval) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "14301"
  , "c1link" : "./qc/crypto/asn1/x_algor.c.html#14301"
  , "c2" : "BLOCKER"
@@ -367,13 +339,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/asn1/x_algor.c.html#14486"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[14486] The expression 'SHA1' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14489"
- , "c1link" : "./qc/crypto/asn1/x_algor.c.html#14489"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14489] The expression  ! ossl_x509_algor_new_from_md( &amp; algtmp,mgf1md) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

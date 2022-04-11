@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ct/ct_prn.c.html" 
- , "texte" : "File crypto/ct/ct_prn.c 24 rule violations " 
+ , "texte" : "File crypto/ct/ct_prn.c 20 rule violations " 
  , "fic2"  : "./qc/crypto/ct/ct_prn.c.xml" 
  , "fic3"  : "" 
 }
@@ -38,13 +38,6 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "4"
-}}
-,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
@@ -153,13 +146,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02743"
- , "c1link" : "./qc/crypto/ct/ct_prn.c.html#2743"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02743] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02745"
  , "c1link" : "./qc/crypto/ct/ct_prn.c.html#2745"
  , "c2" : "BLOCKER"
@@ -188,13 +174,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02793"
- , "c1link" : "./qc/crypto/ct/ct_prn.c.html#2793"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02793] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02797"
  , "c1link" : "./qc/crypto/ct/ct_prn.c.html#2797"
  , "c2" : "BLOCKER"
@@ -209,13 +188,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02824"
- , "c1link" : "./qc/crypto/ct/ct_prn.c.html#2824"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02824] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02826"
  , "c1link" : "./qc/crypto/ct/ct_prn.c.html#2826"
  , "c2" : "BLOCKER"
@@ -227,13 +199,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ct/ct_prn.c.html#8118"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[08118] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13315"
- , "c1link" : "./qc/crypto/ct/ct_prn.c.html#13315"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13315] The expression ASN1_GENERALIZEDTIME_set_string(gen,genstr) applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

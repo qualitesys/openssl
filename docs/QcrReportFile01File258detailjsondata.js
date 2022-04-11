@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/comp/c_zlib.c.html" 
- , "texte" : "File crypto/comp/c_zlib.c 53 rule violations " 
+ , "texte" : "File crypto/comp/c_zlib.c 41 rule violations " 
  , "fic2"  : "./qc/crypto/comp/c_zlib.c.xml" 
  , "fic3"  : "" 
 }
@@ -38,13 +38,6 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "12"
-}}
-,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
@@ -153,13 +146,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02268"
- , "c1link" : "./qc/crypto/comp/c_zlib.c.html#2268"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02268] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02270"
  , "c1link" : "./qc/crypto/comp/c_zlib.c.html#2270"
  , "c2" : "BLOCKER"
@@ -188,13 +174,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02318"
- , "c1link" : "./qc/crypto/comp/c_zlib.c.html#2318"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02318] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02322"
  , "c1link" : "./qc/crypto/comp/c_zlib.c.html#2322"
  , "c2" : "BLOCKER"
@@ -206,13 +185,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/comp/c_zlib.c.html#2347"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02347] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02349"
- , "c1link" : "./qc/crypto/comp/c_zlib.c.html#2349"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02349] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -237,13 +209,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07419"
- , "c1link" : "./qc/crypto/comp/c_zlib.c.html#7419"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07419] The expression  ! __builtin_constant_p(__nbytes) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "07422"
  , "c1link" : "./qc/crypto/comp/c_zlib.c.html#7422"
  , "c2" : "BLOCKER"
@@ -255,13 +220,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/comp/c_zlib.c.html#7447"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[07447] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07449"
- , "c1link" : "./qc/crypto/comp/c_zlib.c.html#7449"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07449] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -279,13 +237,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07483"
- , "c1link" : "./qc/crypto/comp/c_zlib.c.html#7483"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07483] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "07486"
  , "c1link" : "./qc/crypto/comp/c_zlib.c.html#7486"
  , "c2" : "BLOCKER"
@@ -297,13 +248,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/comp/c_zlib.c.html#7507"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[07507] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07509"
- , "c1link" : "./qc/crypto/comp/c_zlib.c.html#7509"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07509] The expression  ! __builtin_constant_p(__size) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -325,13 +269,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/comp/c_zlib.c.html#7547"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[07547] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07549"
- , "c1link" : "./qc/crypto/comp/c_zlib.c.html#7549"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07549] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -363,13 +300,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07600"
- , "c1link" : "./qc/crypto/comp/c_zlib.c.html#7600"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07600] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "07603"
  , "c1link" : "./qc/crypto/comp/c_zlib.c.html#7603"
  , "c2" : "BLOCKER"
@@ -381,13 +311,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/comp/c_zlib.c.html#7624"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[07624] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07626"
- , "c1link" : "./qc/crypto/comp/c_zlib.c.html#7626"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07626] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -405,13 +328,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07653"
- , "c1link" : "./qc/crypto/comp/c_zlib.c.html#7653"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07653] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "07656"
  , "c1link" : "./qc/crypto/comp/c_zlib.c.html#7656"
  , "c2" : "BLOCKER"
@@ -423,13 +339,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/comp/c_zlib.c.html#7680"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[07680] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07682"
- , "c1link" : "./qc/crypto/comp/c_zlib.c.html#7682"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07682] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

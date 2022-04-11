@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/des/set_key.c.html" 
- , "texte" : "File crypto/des/set_key.c 59 rule violations " 
+ , "texte" : "File crypto/des/set_key.c 50 rule violations " 
  , "fic2"  : "./qc/crypto/des/set_key.c.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "10"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -104,13 +104,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01411"
- , "c1link" : "./qc/crypto/des/set_key.c.html#1411"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01411] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01413"
  , "c1link" : "./qc/crypto/des/set_key.c.html#1413"
  , "c2" : "BLOCKER"
@@ -139,13 +132,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01461"
- , "c1link" : "./qc/crypto/des/set_key.c.html#1461"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01461] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "01465"
  , "c1link" : "./qc/crypto/des/set_key.c.html#1465"
  , "c2" : "BLOCKER"
@@ -157,13 +143,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/des/set_key.c.html#1490"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01490] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01492"
- , "c1link" : "./qc/crypto/des/set_key.c.html#1492"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[01492] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -255,48 +234,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/des/set_key.c.html#4929"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[04929] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05129"
- , "c1link" : "./qc/crypto/des/set_key.c.html#5129"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05129] The expression  sizeof (DES_cblock) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "05142"
- , "c1link" : "./qc/crypto/des/set_key.c.html#5142"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05142] The expression  sizeof (DES_cblock) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "05349"
- , "c1link" : "./qc/crypto/des/set_key.c.html#5349"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05349] The expression  ! DES_check_key_parity(key) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "05351"
- , "c1link" : "./qc/crypto/des/set_key.c.html#5351"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05351] The expression DES_is_weak_key(key) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "05364"
- , "c1link" : "./qc/crypto/des/set_key.c.html#5364"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05364] The expression  ! DES_check_key_parity(key) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "05366"
- , "c1link" : "./qc/crypto/des/set_key.c.html#5366"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05366] The expression DES_is_weak_key(key) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

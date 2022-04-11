@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/curve25519.c.html" 
- , "texte" : "File crypto/ec/curve25519.c 69 rule violations " 
+ , "texte" : "File crypto/ec/curve25519.c 64 rule violations " 
  , "fic2"  : "./qc/crypto/ec/curve25519.c.xml" 
  , "fic3"  : "" 
 }
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "9"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
@@ -118,13 +118,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02350"
- , "c1link" : "./qc/crypto/ec/curve25519.c.html#2350"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02350] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02352"
  , "c1link" : "./qc/crypto/ec/curve25519.c.html#2352"
  , "c2" : "BLOCKER"
@@ -153,13 +146,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02400"
- , "c1link" : "./qc/crypto/ec/curve25519.c.html#2400"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02400] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02404"
  , "c1link" : "./qc/crypto/ec/curve25519.c.html#2404"
  , "c2" : "BLOCKER"
@@ -171,13 +157,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/curve25519.c.html#2429"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02429] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02431"
- , "c1link" : "./qc/crypto/ec/curve25519.c.html#2431"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02431] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -402,20 +381,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/curve25519.c.html#10230"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[10230] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11464"
- , "c1link" : "./qc/crypto/ec/curve25519.c.html#11464"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11464] The expression fe_isnonzero(check) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "11466"
- , "c1link" : "./qc/crypto/ec/curve25519.c.html#11466"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11466] The expression fe_isnonzero(check) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {

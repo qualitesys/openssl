@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/cms/cms_att.c.html" 
- , "texte" : "File crypto/cms/cms_att.c 34 rule violations " 
+ , "texte" : "File crypto/cms/cms_att.c 23 rule violations " 
  , "fic2"  : "./qc/crypto/cms/cms_att.c.xml" 
  , "fic3"  : "" 
 }
@@ -38,13 +38,6 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "11"
-}}
-,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
@@ -153,13 +146,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02759"
- , "c1link" : "./qc/crypto/cms/cms_att.c.html#2759"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02759] The expression  ! __builtin_constant_p(__buflen) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02761"
  , "c1link" : "./qc/crypto/cms/cms_att.c.html#2761"
  , "c2" : "BLOCKER"
@@ -188,13 +174,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02809"
- , "c1link" : "./qc/crypto/cms/cms_att.c.html#2809"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02809] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02813"
  , "c1link" : "./qc/crypto/cms/cms_att.c.html#2813"
  , "c2" : "BLOCKER"
@@ -209,13 +188,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02840"
- , "c1link" : "./qc/crypto/cms/cms_att.c.html#2840"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[02840] The expression  ! __builtin_constant_p(__len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "02842"
  , "c1link" : "./qc/crypto/cms/cms_att.c.html#2842"
  , "c2" : "BLOCKER"
@@ -227,62 +199,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/cms/cms_att.c.html#8297"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[08297] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14209"
- , "c1link" : "./qc/crypto/cms/cms_att.c.html#14209"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14209] The expression X509at_add1_attr( &amp; si-&gt;signedAttrs,attr) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14218"
- , "c1link" : "./qc/crypto/cms/cms_att.c.html#14218"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14218] The expression X509at_add1_attr_by_OBJ( &amp; si-&gt;signedAttrs,obj,type,bytes,len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14226"
- , "c1link" : "./qc/crypto/cms/cms_att.c.html#14226"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14226] The expression X509at_add1_attr_by_NID( &amp; si-&gt;signedAttrs,nid,type,bytes,len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14235"
- , "c1link" : "./qc/crypto/cms/cms_att.c.html#14235"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14235] The expression X509at_add1_attr_by_txt( &amp; si-&gt;signedAttrs,attrname,type,bytes,len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14276"
- , "c1link" : "./qc/crypto/cms/cms_att.c.html#14276"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14276] The expression X509at_add1_attr( &amp; si-&gt;unsignedAttrs,attr) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14285"
- , "c1link" : "./qc/crypto/cms/cms_att.c.html#14285"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14285] The expression X509at_add1_attr_by_OBJ( &amp; si-&gt;unsignedAttrs,obj,type,bytes,len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14294"
- , "c1link" : "./qc/crypto/cms/cms_att.c.html#14294"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14294] The expression X509at_add1_attr_by_NID( &amp; si-&gt;unsignedAttrs,nid,type,bytes,len) applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "14303"
- , "c1link" : "./qc/crypto/cms/cms_att.c.html#14303"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14303] The expression X509at_add1_attr_by_txt( &amp; si-&gt;unsignedAttrs,attrname,type,bytes,len) applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
