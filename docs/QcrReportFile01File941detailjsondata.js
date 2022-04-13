@@ -363,136 +363,157 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11792"
- , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#11792"
+   "c1" : "11780"
+ , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#11780"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11792] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[11780] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11801"
- , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#11801"
+   "c1" : "11789"
+ , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#11789"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11801] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11789] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11845"
- , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#11845"
+   "c1" : "11834"
+ , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#11834"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11845] The pointer dest is declared but not initialized"
+ , "c3" : "QC-CPP000014[11834] The pointer dest is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11860"
- , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#11860"
+   "c1" : "11849"
+ , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#11849"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11860] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11849] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11891"
- , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#11891"
+   "c1" : "11880"
+ , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#11880"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11891] The pointer md is declared but not initialized"
+ , "c3" : "QC-CPP000014[11880] The pointer md is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11961"
- , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#11961"
+   "c1" : "11950"
+ , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#11950"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11961] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[11950] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11975"
- , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#11975"
+   "c1" : "11964"
+ , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#11964"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11975] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11964] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11983"
- , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#11983"
+   "c1" : "11972"
+ , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#11972"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11983] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11972] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11992"
- , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#11992"
+   "c1" : "11981"
+ , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#11981"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11992] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11981] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12001"
- , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12001"
+   "c1" : "11990"
+ , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#11990"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11990] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11996"
+ , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#11996"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[11996] The pointer kdftype is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "12007"
  , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12007"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12007] The pointer kdftype is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12018"
- , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12018"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12018] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[12007] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12018"
- , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12018"
+   "c1" : "12007"
+ , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12007"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12018] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[12007] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12080"
- , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12080"
+   "c1" : "12069"
+ , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12069"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12080] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[12069] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12082"
- , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12082"
+   "c1" : "12071"
+ , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12071"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12082] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12071] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12165"
- , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12165"
+   "c1" : "12154"
+ , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12154"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12165] goto statement jump to out"
+ , "c3" : "QC-CPP000007[12154] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12168"
- , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12168"
+   "c1" : "12157"
+ , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12157"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12168] goto statement jump to out"
+ , "c3" : "QC-CPP000007[12157] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12171"
- , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12171"
+   "c1" : "12160"
+ , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12160"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12171] goto statement jump to out"
+ , "c3" : "QC-CPP000007[12160] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12173"
- , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12173"
+   "c1" : "12162"
+ , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12162"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12173] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[12162] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12163"
+ , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12163"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12163] goto statement jump to out"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12166"
+ , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12166"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12166] goto statement jump to out"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12169"
+ , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12169"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12169] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
@@ -503,38 +524,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12177"
- , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12177"
+   "c1" : "12186"
+ , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12186"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12177] goto statement jump to out"
+ , "c3" : "QC-CPP000007[12186] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12180"
- , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12180"
+   "c1" : "12189"
+ , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12189"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12180] goto statement jump to out"
+ , "c3" : "QC-CPP000007[12189] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12185"
- , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12185"
+   "c1" : "12192"
+ , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12192"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12185] goto statement jump to out"
+ , "c3" : "QC-CPP000007[12192] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12197"
- , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12197"
+   "c1" : "12195"
+ , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12195"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12197] goto statement jump to out"
+ , "c3" : "QC-CPP000007[12195] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12200"
- , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12200"
+   "c1" : "12198"
+ , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12198"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12200] goto statement jump to out"
+ , "c3" : "QC-CPP000007[12198] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
@@ -542,27 +563,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12203"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[12203] goto statement jump to out"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12206"
- , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12206"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12206] goto statement jump to out"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12209"
- , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12209"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12209] goto statement jump to out"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12214"
- , "c1link" : "./qc/providers/implementations/kdfs/sshkdf.c.html#12214"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12214] goto statement jump to out"
 }} 
 ]
 };

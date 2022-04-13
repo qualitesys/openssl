@@ -370,143 +370,171 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11138"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11138"
+   "c1" : "11126"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11126"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11138] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[11126] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11140"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11140"
+   "c1" : "11128"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11128"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11140] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11128] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11172"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11172"
+   "c1" : "11160"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11160"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11172] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[11160] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11198"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11198"
+   "c1" : "11186"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11186"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11198] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[11186] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11199"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11199"
+   "c1" : "11187"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11187"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11199] The pointer next is declared but not initialized"
+ , "c3" : "QC-CPP000014[11187] The pointer next is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11225"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11225"
+   "c1" : "11213"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11213"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11225] The expression ctx-&gt;blockout applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11213] The expression ctx-&gt;blockout applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11296"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11296"
+   "c1" : "11284"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11284"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11296] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[11284] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11297"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11297"
+   "c1" : "11285"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11285"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11297] The pointer next is declared but not initialized"
+ , "c3" : "QC-CPP000014[11285] The pointer next is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11327"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11327"
+   "c1" : "11315"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11315"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11327] The expression 0x08 is invariable"
+ , "c3" : "QC-CPP000012[11315] The expression 0x08 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11372"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11372"
+   "c1" : "11360"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11360"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11372] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[11360] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11373"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11373"
+   "c1" : "11361"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11361"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11373] The pointer md is declared but not initialized"
+ , "c3" : "QC-CPP000014[11361] The pointer md is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11374"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11374"
+   "c1" : "11362"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11362"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11374] The pointer ppmd is declared but not initialized"
+ , "c3" : "QC-CPP000014[11362] The pointer ppmd is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11377"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11377"
+   "c1" : "11365"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11365"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11377] The pointer next is declared but not initialized"
+ , "c3" : "QC-CPP000014[11365] The pointer next is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11412"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11412"
+   "c1" : "11400"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11400"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11412] The expression ctx-&gt;blockout applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11400] The expression ctx-&gt;blockout applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11425"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11425"
+   "c1" : "11413"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11413"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11425] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11413] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11465"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11465"
+   "c1" : "11453"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11453"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11465] The pointer next is declared but not initialized"
+ , "c3" : "QC-CPP000014[11453] The pointer next is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11496"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11496"
+   "c1" : "11484"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11484"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11496] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[11484] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11497"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11497"
+   "c1" : "11485"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11485"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11497] The pointer md is declared but not initialized"
+ , "c3" : "QC-CPP000014[11485] The pointer md is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11498"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11498"
+   "c1" : "11486"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11486"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11498] The pointer digest is declared but not initialized"
+ , "c3" : "QC-CPP000014[11486] The pointer digest is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11500"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11500"
+   "c1" : "11488"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11488"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11500] The pointer md_data is declared but not initialized"
+ , "c3" : "QC-CPP000014[11488] The pointer md_data is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11504"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11504"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11504] goto statement jump to berr"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11510"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11510"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11510] goto statement jump to berr"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11515"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11515"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[11515] The expression 'The quick brown fox jumped over the lazy dog's back.' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11515"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11515"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[11515] The expression 'The quick brown fox jumped over the lazy dog's back.' is invariable"
 }} 
 ,
 { "ligne" : {
@@ -524,87 +552,87 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11527"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11527"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11527] The expression 'The quick brown fox jumped over the lazy dog's back.' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11527"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11527"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11527] The expression 'The quick brown fox jumped over the lazy dog's back.' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11528"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11528"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11528] goto statement jump to berr"
-}} 
-,
-{ "ligne" : {
    "c1" : "11534"
  , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11534"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11534] goto statement jump to berr"
+ , "c3" : "QC-CPP000014[11534] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11546"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11546"
+   "c1" : "11535"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11535"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11546] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[11535] The pointer md is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11547"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11547"
+   "c1" : "11538"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11538"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11547] The pointer md is declared but not initialized"
+ , "c3" : "QC-CPP000014[11538] The pointer digest is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11540"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11540"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[11540] The pointer md_data is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11543"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11543"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[11543] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11548"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11548"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11548] goto statement jump to berr"
 }} 
 ,
 { "ligne" : {
    "c1" : "11550"
  , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11550"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11550] The pointer digest is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[11550] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11552"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11552"
+   "c1" : "11551"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11551"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11552] The pointer md_data is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11555"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11555"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11555] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11560"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11560"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11560] goto statement jump to berr"
+ , "c3" : "QC-CPP000007[11551] goto statement jump to berr"
 }} 
 ,
 { "ligne" : {
    "c1" : "11562"
  , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11562"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11562] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[11562] goto statement jump to berr"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11563"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11563"
+   "c1" : "11567"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11567"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[11567] The expression 'The quick brown fox jumped over the lazy dog's back.' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11567"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11567"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[11567] The expression 'The quick brown fox jumped over the lazy dog's back.' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11568"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11568"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11563] goto statement jump to berr"
+ , "c3" : "QC-CPP000007[11568] goto statement jump to berr"
 }} 
 ,
 { "ligne" : {
@@ -615,101 +643,73 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11579"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11579"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11579] The expression 'The quick brown fox jumped over the lazy dog's back.' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11579"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11579"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11579] The expression 'The quick brown fox jumped over the lazy dog's back.' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11580"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11580"
+   "c1" : "11596"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11596"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11580] goto statement jump to berr"
+ , "c3" : "QC-CPP000014[11596] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11586"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11586"
+   "c1" : "11597"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11597"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11586] goto statement jump to berr"
+ , "c3" : "QC-CPP000014[11597] The pointer md is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11608"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11608"
+   "c1" : "11599"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11599"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11608] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[11599] The pointer digest is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11609"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11609"
+   "c1" : "11614"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11614"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11609] The pointer md is declared but not initialized"
+ , "c3" : "QC-CPP000007[11614] goto statement jump to berr"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11611"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11611"
+   "c1" : "11620"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11620"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11611] The pointer digest is declared but not initialized"
+ , "c3" : "QC-CPP000007[11620] goto statement jump to berr"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11626"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11626"
+   "c1" : "11631"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11631"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11626] goto statement jump to berr"
+ , "c3" : "QC-CPP000014[11631] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "11632"
  , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11632"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11632] goto statement jump to berr"
+ , "c3" : "QC-CPP000014[11632] The pointer md is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11643"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11643"
+   "c1" : "11641"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11641"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11643] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000007[11641] goto statement jump to berr"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11644"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11644"
+   "c1" : "11661"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11661"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11644] The pointer md is declared but not initialized"
+ , "c3" : "QC-CPP000007[11661] goto statement jump to berr"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11653"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11653"
+   "c1" : "11667"
+ , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11667"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11653] goto statement jump to berr"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11673"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11673"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11673] goto statement jump to berr"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11679"
- , "c1link" : "./qc/crypto/evp/bio_ok.c.html#11679"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11679] goto statement jump to berr"
+ , "c3" : "QC-CPP000007[11667] goto statement jump to berr"
 }} 
 ]
 };

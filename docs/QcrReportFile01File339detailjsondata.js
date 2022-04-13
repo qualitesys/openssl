@@ -363,59 +363,59 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10451"
- , "c1link" : "./qc/crypto/dsa/dsa_prn.c.html#10451"
+   "c1" : "10439"
+ , "c1link" : "./qc/crypto/dsa/dsa_prn.c.html#10439"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10451] The pointer b is declared but not initialized"
+ , "c3" : "QC-CPP000014[10439] The pointer b is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10454"
- , "c1link" : "./qc/crypto/dsa/dsa_prn.c.html#10454"
+   "c1" : "10442"
+ , "c1link" : "./qc/crypto/dsa/dsa_prn.c.html#10442"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10454] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10442] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10474"
- , "c1link" : "./qc/crypto/dsa/dsa_prn.c.html#10474"
+   "c1" : "10462"
+ , "c1link" : "./qc/crypto/dsa/dsa_prn.c.html#10462"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10474] The pointer b is declared but not initialized"
+ , "c3" : "QC-CPP000014[10462] The pointer b is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10477"
- , "c1link" : "./qc/crypto/dsa/dsa_prn.c.html#10477"
+   "c1" : "10465"
+ , "c1link" : "./qc/crypto/dsa/dsa_prn.c.html#10465"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10477] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10465] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10498"
- , "c1link" : "./qc/crypto/dsa/dsa_prn.c.html#10498"
+   "c1" : "10486"
+ , "c1link" : "./qc/crypto/dsa/dsa_prn.c.html#10486"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10498] The pointer pk is declared but not initialized"
+ , "c3" : "QC-CPP000014[10486] The pointer pk is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10496"
+ , "c1link" : "./qc/crypto/dsa/dsa_prn.c.html#10496"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10496] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "10508"
  , "c1link" : "./qc/crypto/dsa/dsa_prn.c.html#10508"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10508] The expression ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "10520"
- , "c1link" : "./qc/crypto/dsa/dsa_prn.c.html#10520"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10520] The pointer pk is declared but not initialized"
+ , "c3" : "QC-CPP000014[10508] The pointer pk is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10530"
- , "c1link" : "./qc/crypto/dsa/dsa_prn.c.html#10530"
+   "c1" : "10518"
+ , "c1link" : "./qc/crypto/dsa/dsa_prn.c.html#10518"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10530] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10518] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

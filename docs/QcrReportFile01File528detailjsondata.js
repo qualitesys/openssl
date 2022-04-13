@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/lhash/lh_stats.c.html" 
- , "texte" : "File crypto/lhash/lh_stats.c 48 rule violations " 
+ , "texte" : "File crypto/lhash/lh_stats.c 46 rule violations " 
  , "fic2"  : "./qc/crypto/lhash/lh_stats.c.xml" 
  , "fic3"  : "" 
 }
@@ -38,13 +38,6 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "2"
-}}
-,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
@@ -356,52 +349,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07897"
- , "c1link" : "./qc/crypto/lhash/lh_stats.c.html#7897"
+   "c1" : "07869"
+ , "c1link" : "./qc/crypto/lhash/lh_stats.c.html#7869"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07897] The pointer bp is declared but not initialized"
+ , "c3" : "QC-CPP000014[07869] The pointer bp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07913"
- , "c1link" : "./qc/crypto/lhash/lh_stats.c.html#7913"
+   "c1" : "07885"
+ , "c1link" : "./qc/crypto/lhash/lh_stats.c.html#7885"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07913] The pointer bp is declared but not initialized"
+ , "c3" : "QC-CPP000014[07885] The pointer bp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07929"
- , "c1link" : "./qc/crypto/lhash/lh_stats.c.html#7929"
+   "c1" : "07901"
+ , "c1link" : "./qc/crypto/lhash/lh_stats.c.html#7901"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07929] The pointer bp is declared but not initialized"
+ , "c3" : "QC-CPP000014[07901] The pointer bp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07962"
- , "c1link" : "./qc/crypto/lhash/lh_stats.c.html#7962"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07962] The expression  ! omit_tsan applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07970"
- , "c1link" : "./qc/crypto/lhash/lh_stats.c.html#7970"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07970] The expression  ! omit_tsan applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07982"
- , "c1link" : "./qc/crypto/lhash/lh_stats.c.html#7982"
+   "c1" : "07939"
+ , "c1link" : "./qc/crypto/lhash/lh_stats.c.html#7939"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07982] The pointer n is declared but not initialized"
+ , "c3" : "QC-CPP000014[07939] The pointer n is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07998"
- , "c1link" : "./qc/crypto/lhash/lh_stats.c.html#7998"
+   "c1" : "07955"
+ , "c1link" : "./qc/crypto/lhash/lh_stats.c.html#7955"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07998] The pointer n is declared but not initialized"
+ , "c3" : "QC-CPP000014[07955] The pointer n is declared but not initialized"
 }} 
 ]
 };

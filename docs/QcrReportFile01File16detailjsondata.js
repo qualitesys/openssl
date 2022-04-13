@@ -391,38 +391,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "20647"
- , "c1link" : "./qc/apps/errstr.c.html#20647"
+   "c1" : "20639"
+ , "c1link" : "./qc/apps/errstr.c.html#20639"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[20647] The pointer prog is declared but not initialized"
+ , "c3" : "QC-CPP000014[20639] The pointer prog is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20652"
- , "c1link" : "./qc/apps/errstr.c.html#20652"
+   "c1" : "20644"
+ , "c1link" : "./qc/apps/errstr.c.html#20644"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20652] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[20644] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20657"
- , "c1link" : "./qc/apps/errstr.c.html#20657"
+   "c1" : "20649"
+ , "c1link" : "./qc/apps/errstr.c.html#20649"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20657] goto statement jump to end"
+ , "c3" : "QC-CPP000007[20649] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20661"
- , "c1link" : "./qc/apps/errstr.c.html#20661"
+   "c1" : "20653"
+ , "c1link" : "./qc/apps/errstr.c.html#20653"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[20661] goto statement jump to end"
+ , "c3" : "QC-CPP000007[20653] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20683"
- , "c1link" : "./qc/apps/errstr.c.html#20683"
+   "c1" : "20675"
+ , "c1link" : "./qc/apps/errstr.c.html#20675"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[20683] The expression '%lx' is invariable"
+ , "c3" : "QC-CPP000012[20675] The expression '%lx' is invariable"
 }} 
 ]
 };

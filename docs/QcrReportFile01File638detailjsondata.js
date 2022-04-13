@@ -356,24 +356,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07800"
- , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#7800"
+   "c1" : "07788"
+ , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#7788"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07800] The expression  sizeof ( unsigned  int  )==1 is invariable"
+ , "c3" : "QC-CPP000012[07788] The expression  sizeof ( unsigned  int  )==1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07810"
- , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#7810"
+   "c1" : "07798"
+ , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#7798"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07810] The pointer d is declared but not initialized"
+ , "c3" : "QC-CPP000014[07798] The pointer d is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07816"
- , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#7816"
+   "c1" : "07804"
+ , "c1link" : "./qc/crypto/rc4/rc4_skey.c.html#7804"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07816] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07804] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

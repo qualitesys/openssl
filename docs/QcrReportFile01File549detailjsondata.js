@@ -363,73 +363,73 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07981"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#7981"
+   "c1" : "07969"
+ , "c1link" : "./qc/crypto/modes/wrap128.c.html#7969"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07981] The pointer A is declared but not initialized"
+ , "c3" : "QC-CPP000014[07969] The pointer A is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07981"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#7981"
+   "c1" : "07969"
+ , "c1link" : "./qc/crypto/modes/wrap128.c.html#7969"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07981] The pointer R is declared but not initialized"
+ , "c3" : "QC-CPP000014[07969] The pointer R is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07981"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#7981"
+   "c1" : "07969"
+ , "c1link" : "./qc/crypto/modes/wrap128.c.html#7969"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07981] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07969] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07988"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#7988"
+   "c1" : "07976"
+ , "c1link" : "./qc/crypto/modes/wrap128.c.html#7976"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07988] The expression  ! iv applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07976] The expression  ! iv applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08016"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#8016"
+   "c1" : "08004"
+ , "c1link" : "./qc/crypto/modes/wrap128.c.html#8004"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08016] The pointer A is declared but not initialized"
+ , "c3" : "QC-CPP000014[08004] The pointer A is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08016"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#8016"
+   "c1" : "08004"
+ , "c1link" : "./qc/crypto/modes/wrap128.c.html#8004"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08016] The pointer R is declared but not initialized"
+ , "c3" : "QC-CPP000014[08004] The pointer R is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08016"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#8016"
+   "c1" : "08004"
+ , "c1link" : "./qc/crypto/modes/wrap128.c.html#8004"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08016] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08004] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08054"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#8054"
+   "c1" : "08042"
+ , "c1link" : "./qc/crypto/modes/wrap128.c.html#8042"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08054] The expression  ! iv applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08042] The expression  ! iv applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08056"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#8056"
+   "c1" : "08044"
+ , "c1link" : "./qc/crypto/modes/wrap128.c.html#8044"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08056] The expression 8 is invariable"
+ , "c3" : "QC-CPP000012[08044] The expression 8 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08086"
- , "c1link" : "./qc/crypto/modes/wrap128.c.html#8086"
+   "c1" : "08074"
+ , "c1link" : "./qc/crypto/modes/wrap128.c.html#8074"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08086] The expression  ! icv applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08074] The expression  ! icv applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

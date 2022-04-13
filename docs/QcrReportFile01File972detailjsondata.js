@@ -377,199 +377,199 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11480"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#11480"
+   "c1" : "11468"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#11468"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11480] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11468] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11521"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#11521"
+   "c1" : "11509"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#11509"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11521] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11509] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11563"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#11563"
+   "c1" : "11551"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#11551"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11563] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11551] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11598"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#11598"
+   "c1" : "11586"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#11586"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11598] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11586] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11782"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#11782"
+   "c1" : "11770"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#11770"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11782] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[11770] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11782"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#11782"
+   "c1" : "11770"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#11770"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11782] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11770] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11804"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#11804"
+   "c1" : "11792"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#11792"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11804] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[11792] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11804"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#11804"
+   "c1" : "11792"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#11792"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11804] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11792] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11823"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#11823"
+   "c1" : "11811"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#11811"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11823] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[11811] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11823"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#11823"
+   "c1" : "11811"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#11811"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11823] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11811] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11846"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#11846"
+   "c1" : "11834"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#11834"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11846] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[11834] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11846"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#11846"
+   "c1" : "11834"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#11834"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11846] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11834] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11866"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#11866"
+   "c1" : "11854"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#11854"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11866] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[11854] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11866"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#11866"
+   "c1" : "11854"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#11854"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11866] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11854] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12216"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#12216"
+   "c1" : "12204"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#12204"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12216] The pointer pdsactx is declared but not initialized"
+ , "c3" : "QC-CPP000014[12204] The pointer pdsactx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12243"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#12243"
+   "c1" : "12231"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#12231"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12243] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12231] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12307"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#12307"
+   "c1" : "12295"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#12295"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12307] The expression  ! ctx-&gt;flag_allow_md applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[12295] The expression  ! ctx-&gt;flag_allow_md applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12308"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#12308"
+   "c1" : "12296"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#12296"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12308] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[12296] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12323"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#12323"
+   "c1" : "12311"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#12311"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12323] The expression  - 1 is invariable"
+ , "c3" : "QC-CPP000012[12311] The expression  - 1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12490"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#12490"
+   "c1" : "12478"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#12478"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12490] goto statement jump to error"
+ , "c3" : "QC-CPP000007[12478] goto statement jump to error"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12494"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#12494"
+   "c1" : "12482"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#12482"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12494] goto statement jump to error"
+ , "c3" : "QC-CPP000007[12482] goto statement jump to error"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12643"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#12643"
+   "c1" : "12631"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#12631"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12643] The pointer dstctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[12631] The pointer dstctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12691"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#12691"
+   "c1" : "12679"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#12679"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12691] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12679] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12699"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#12699"
+   "c1" : "12687"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#12687"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12699] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12687] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12714"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#12714"
+   "c1" : "12702"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#12702"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12714] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12702] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12727"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#12727"
+   "c1" : "12715"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#12715"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12727] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12715] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12743"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#12743"
+   "c1" : "12731"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#12731"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12743] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[12731] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12803"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#12803"
+   "c1" : "12791"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#12791"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12803] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[12791] The pointer p is declared but not initialized"
 }} 
 ]
 };

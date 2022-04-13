@@ -370,164 +370,164 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11556"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11556"
+   "c1" : "11544"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11544"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11556] goto statement jump to legacy"
+ , "c3" : "QC-CPP000007[11544] goto statement jump to legacy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11569"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11569"
+   "c1" : "11557"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11557"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11569] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11557] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11587"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11587"
+   "c1" : "11575"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11575"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11587] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11575] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11591"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11591"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11591] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "11603"
  , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11603"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11603] goto statement jump to err"
+ , "c3" : "QC-CPP000014[11603] The pointer tmp_keymgmt_tofree is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11615"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11615"
+   "c1" : "11634"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11634"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11615] The pointer tmp_keymgmt_tofree is declared but not initialized"
+ , "c3" : "QC-CPP000007[11634] goto statement jump to legacy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11646"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11646"
+   "c1" : "11644"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11644"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11646] goto statement jump to legacy"
+ , "c3" : "QC-CPPCWE481[11644] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11656"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11656"
+   "c1" : "11669"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11669"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11656] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[11669] goto statement jump to legacy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11681"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11681"
+   "c1" : "11689"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11689"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11681] goto statement jump to legacy"
+ , "c3" : "QC-CPP000007[11689] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11701"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11701"
+   "c1" : "11705"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11705"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11701] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11705] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11717"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11717"
+   "c1" : "11721"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11721"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11717] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11721] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11733"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11733"
+   "c1" : "11731"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11731"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11733] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11731] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11743"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11743"
+   "c1" : "11735"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11735"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11743] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11735] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11747"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11747"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11747] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11799"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11799"
+   "c1" : "11787"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11787"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[11799] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[11787] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11864"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11864"
+   "c1" : "11852"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11852"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11864] goto statement jump to legacy"
+ , "c3" : "QC-CPP000007[11852] goto statement jump to legacy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11954"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11954"
+   "c1" : "11942"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11942"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11954] goto statement jump to legacy"
+ , "c3" : "QC-CPP000007[11942] goto statement jump to legacy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12057"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#12057"
+   "c1" : "12045"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#12045"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12057] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12045] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12067"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#12067"
+   "c1" : "12055"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#12055"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12067] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12055] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12071"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#12071"
+   "c1" : "12059"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#12059"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12071] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12059] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12076"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#12076"
+   "c1" : "12064"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#12064"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12076] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12064] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12208"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#12208"
+   "c1" : "12196"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#12196"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12208] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12196] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12326"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#12326"
+   "c1" : "12314"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#12314"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12326] The pointer provctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[12314] The pointer provctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12353"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#12353"
+   "c1" : "12341"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#12341"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12353] The pointer provctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[12341] The pointer provctx is declared but not initialized"
 }} 
 ]
 };

@@ -391,38 +391,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18837"
- , "c1link" : "./qc/apps/lib/app_x509.c.html#18837"
+   "c1" : "18829"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#18829"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18837] The pointer stmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[18829] The pointer stmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18863"
- , "c1link" : "./qc/apps/lib/app_x509.c.html#18863"
+   "c1" : "18855"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#18855"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18863] The expression 'distid' is invariable"
+ , "c3" : "QC-CPP000012[18855] The expression 'distid' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18867"
- , "c1link" : "./qc/apps/lib/app_x509.c.html#18867"
+   "c1" : "18859"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#18859"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18867] The expression 'hexdistid' is invariable"
+ , "c3" : "QC-CPP000012[18859] The expression 'hexdistid' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18873"
- , "c1link" : "./qc/apps/lib/app_x509.c.html#18873"
+   "c1" : "18865"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#18865"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18873] The pointer hexid is declared but not initialized"
+ , "c3" : "QC-CPP000014[18865] The pointer hexid is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18878"
- , "c1link" : "./qc/apps/lib/app_x509.c.html#18878"
+   "c1" : "18870"
+ , "c1link" : "./qc/apps/lib/app_x509.c.html#18870"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18878] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18870] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

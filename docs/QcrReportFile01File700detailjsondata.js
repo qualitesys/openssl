@@ -356,17 +356,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07779"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7779"
+   "c1" : "07767"
+ , "c1link" : "./qc/crypto/threads_pthread.c.html#7767"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07779] The pointer lock is declared but not initialized"
+ , "c3" : "QC-CPP000014[07767] The pointer lock is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07781"
- , "c1link" : "./qc/crypto/threads_pthread.c.html#7781"
+   "c1" : "07769"
+ , "c1link" : "./qc/crypto/threads_pthread.c.html#7769"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07781] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07769] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

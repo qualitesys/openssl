@@ -370,304 +370,304 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08059"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8059"
+   "c1" : "08047"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8047"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08059] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[08047] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08059"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8059"
+   "c1" : "08047"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8047"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08059] The pointer tmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[08047] The pointer tmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08060"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8060"
+   "c1" : "08048"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8048"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08060] The pointer scheme is declared but not initialized"
+ , "c3" : "QC-CPP000014[08048] The pointer scheme is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08060"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8060"
+   "c1" : "08048"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8048"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08060] The pointer scheme_end is declared but not initialized"
+ , "c3" : "QC-CPP000014[08048] The pointer scheme_end is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08061"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8061"
+   "c1" : "08049"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8049"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08061] The pointer user is declared but not initialized"
+ , "c3" : "QC-CPP000014[08049] The pointer user is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08061"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8061"
+   "c1" : "08049"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8049"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08061] The pointer user_end is declared but not initialized"
+ , "c3" : "QC-CPP000014[08049] The pointer user_end is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08062"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8062"
+   "c1" : "08050"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8050"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08062] The pointer host is declared but not initialized"
+ , "c3" : "QC-CPP000014[08050] The pointer host is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08062"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8062"
+   "c1" : "08050"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8050"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08062] The pointer host_end is declared but not initialized"
+ , "c3" : "QC-CPP000014[08050] The pointer host_end is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08063"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8063"
+   "c1" : "08051"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8051"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08063] The pointer port is declared but not initialized"
+ , "c3" : "QC-CPP000014[08051] The pointer port is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08063"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8063"
+   "c1" : "08051"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8051"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08063] The pointer port_end is declared but not initialized"
+ , "c3" : "QC-CPP000014[08051] The pointer port_end is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08065"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8065"
+   "c1" : "08053"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8053"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08065] The pointer path is declared but not initialized"
+ , "c3" : "QC-CPP000014[08053] The pointer path is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08065"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8065"
+   "c1" : "08053"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8053"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08065] The pointer path_end is declared but not initialized"
+ , "c3" : "QC-CPP000014[08053] The pointer path_end is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08066"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8066"
+   "c1" : "08054"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8054"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08066] The pointer query is declared but not initialized"
+ , "c3" : "QC-CPP000014[08054] The pointer query is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08066"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8066"
+   "c1" : "08054"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8054"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08066] The pointer query_end is declared but not initialized"
+ , "c3" : "QC-CPP000014[08054] The pointer query_end is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08067"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8067"
+   "c1" : "08055"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8055"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08067] The pointer frag is declared but not initialized"
+ , "c3" : "QC-CPP000014[08055] The pointer frag is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08067"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8067"
+   "c1" : "08055"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8055"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08067] The pointer frag_end is declared but not initialized"
+ , "c3" : "QC-CPP000014[08055] The pointer frag_end is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08091"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8091"
+   "c1" : "08079"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8079"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08091] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08079] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08102"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8102"
+   "c1" : "08090"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8090"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08102] goto statement jump to parse_err"
+ , "c3" : "QC-CPP000007[08090] goto statement jump to parse_err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08095"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8095"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08095] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08095"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8095"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08095] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "08107"
  , "c1link" : "./qc/crypto/http/http_lib.c.html#8107"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08107] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08107"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8107"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08107] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08119"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8119"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08119] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08107] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08127"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8127"
+   "c1" : "08115"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8115"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08127] goto statement jump to parse_err"
+ , "c3" : "QC-CPP000007[08115] goto statement jump to parse_err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08165"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8165"
+   "c1" : "08153"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8153"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08165] The expression '%u' is invariable"
+ , "c3" : "QC-CPP000012[08153] The expression '%u' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08167"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8167"
+   "c1" : "08155"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8155"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08167] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08155] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08182"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8182"
+   "c1" : "08170"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8170"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08182] goto statement jump to parse_err"
+ , "c3" : "QC-CPP000007[08170] goto statement jump to parse_err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08184"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8184"
+   "c1" : "08172"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8172"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08184] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08172] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08184"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8184"
+   "c1" : "08172"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8172"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08184] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08172] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08184"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8184"
+   "c1" : "08172"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8172"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08184] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08172] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08184"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8184"
+   "c1" : "08172"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8172"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08184] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08172] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08223"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8223"
+   "c1" : "08211"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8211"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08223] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08211] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08232"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8232"
+   "c1" : "08220"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8220"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08232] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08220] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08240"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8240"
+   "c1" : "08228"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8228"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08240] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08228] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08245"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8245"
+   "c1" : "08233"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8233"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08245] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08233] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08272"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8272"
+   "c1" : "08260"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8260"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08272] The pointer scheme is declared but not initialized"
+ , "c3" : "QC-CPP000014[08260] The pointer scheme is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08272"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8272"
+   "c1" : "08260"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8260"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08272] The pointer port is declared but not initialized"
+ , "c3" : "QC-CPP000014[08260] The pointer port is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08287"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8287"
+   "c1" : "08275"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8275"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08287] The expression 'https' is invariable"
+ , "c3" : "QC-CPP000012[08275] The expression 'https' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08283"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8283"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08283] The expression 'http' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08291"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8291"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08291] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "08295"
  , "c1link" : "./qc/crypto/http/http_lib.c.html#8295"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08295] The expression 'http' is invariable"
+ , "c3" : "QC-CPP000012[08295] The expression '0' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08303"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8303"
+   "c1" : "08300"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8300"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08303] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08300] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08307"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8307"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08307] The expression '0' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08312"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8312"
+   "c1" : "08318"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8318"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08312] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08318] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08330"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8330"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08330] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08399"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8399"
+   "c1" : "08387"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8387"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000015[08399] Suspicion use of negative array index -1"
+ , "c3" : "QC-CPP000015[08387] Suspicion use of negative array index -1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08399"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#8399"
+   "c1" : "08387"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#8387"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000015[08399] Suspicion use of negative array index -1"
+ , "c3" : "QC-CPP000015[08387] Suspicion use of negative array index -1"
 }} 
 ]
 };

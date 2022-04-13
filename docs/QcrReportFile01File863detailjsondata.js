@@ -356,38 +356,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11178"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20.c.html#11178"
+   "c1" : "11166"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20.c.html#11166"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11178] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[11166] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11221"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20.c.html#11221"
+   "c1" : "11209"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20.c.html#11209"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11221] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[11209] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11228"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20.c.html#11228"
+   "c1" : "11216"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20.c.html#11216"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11228] The expression (16) is invariable"
+ , "c3" : "QC-CPP000012[11216] The expression (16) is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11241"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20.c.html#11241"
+   "c1" : "11229"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20.c.html#11229"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11241] The expression (32) is invariable"
+ , "c3" : "QC-CPP000012[11229] The expression (32) is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11282"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20.c.html#11282"
+   "c1" : "11270"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20.c.html#11270"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11282] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[11270] The pointer p is declared but not initialized"
 }} 
 ]
 };

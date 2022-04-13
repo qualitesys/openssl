@@ -370,59 +370,66 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11390"
- , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#11390"
+   "c1" : "11378"
+ , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#11378"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11390] The pointer rsa is declared but not initialized"
+ , "c3" : "QC-CPP000014[11378] The pointer rsa is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11414"
- , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#11414"
+   "c1" : "11402"
+ , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#11402"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11414] The pointer rsa is declared but not initialized"
+ , "c3" : "QC-CPP000014[11402] The pointer rsa is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11569"
- , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#11569"
+   "c1" : "11557"
+ , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#11557"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11569] The pointer tmpl is declared but not initialized"
+ , "c3" : "QC-CPP000014[11557] The pointer tmpl is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11614"
- , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#11614"
+   "c1" : "11602"
+ , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#11602"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11614] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11602] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11619"
- , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#11619"
+   "c1" : "11607"
+ , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#11607"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11619] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11607] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11801"
- , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#11801"
+   "c1" : "11789"
+ , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#11789"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11801] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[11789] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11808"
- , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#11808"
+   "c1" : "11796"
+ , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#11796"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11808] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11796] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11815"
- , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#11815"
+   "c1" : "11803"
+ , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#11803"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11815] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11803] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11810"
+ , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#11810"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[11810] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -433,129 +440,122 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11834"
- , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#11834"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11834] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11841"
- , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#11841"
+   "c1" : "11829"
+ , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#11829"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11841] The expression 'SHA256' is invariable"
+ , "c3" : "QC-CPP000012[11829] The expression 'SHA256' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11849"
- , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#11849"
+   "c1" : "11837"
+ , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#11837"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11849] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11837] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12140"
+ , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#12140"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[12140] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12146"
+ , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#12146"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[12146] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12151"
+ , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#12151"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[12151] The expression 0x10001L is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "12152"
  , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#12152"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12152] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[12152] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "12158"
  , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#12158"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12158] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[12158] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12163"
- , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#12163"
+   "c1" : "12162"
+ , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#12162"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12162] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12200"
+ , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#12200"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[12200] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12209"
+ , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#12209"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[12209] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12225"
+ , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#12225"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[12225] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12232"
+ , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#12232"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[12232] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12368"
+ , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#12368"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12368] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12385"
+ , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#12385"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[12385] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12409"
+ , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#12409"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12409] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12413"
+ , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#12413"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12413] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12461"
+ , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#12461"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12163] The expression 0x10001L is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12164"
- , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#12164"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12164] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12170"
- , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#12170"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12170] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12174"
- , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#12174"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12174] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12212"
- , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#12212"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12212] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12221"
- , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#12221"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12221] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12237"
- , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#12237"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12237] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12244"
- , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#12244"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12244] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12380"
- , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#12380"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12380] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12397"
- , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#12397"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12397] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12421"
- , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#12421"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12421] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12425"
- , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#12425"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12425] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12473"
- , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#12473"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12473] The expression 0xF000 is invariable"
+ , "c3" : "QC-CPP000012[12461] The expression 0xF000 is invariable"
 }} 
 ]
 };

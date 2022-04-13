@@ -377,220 +377,227 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11935"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#11935"
+   "c1" : "11923"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#11923"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11935] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[11923] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11944"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#11944"
+   "c1" : "11932"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#11932"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11944] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11932] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12006"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12006"
+   "c1" : "11994"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#11994"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12006] The pointer dest is declared but not initialized"
+ , "c3" : "QC-CPP000014[11994] The pointer dest is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12019"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12019"
+   "c1" : "12007"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12007"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12019] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12007] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12036"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12036"
+   "c1" : "12024"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12024"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12036] The pointer cipher is declared but not initialized"
+ , "c3" : "QC-CPP000014[12024] The pointer cipher is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12037"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12037"
+   "c1" : "12025"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12025"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12037] The pointer engine is declared but not initialized"
+ , "c3" : "QC-CPP000014[12025] The pointer engine is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12087"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12087"
+   "c1" : "12075"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12075"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12087] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[12075] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12101"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12101"
+   "c1" : "12089"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12089"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12101] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12089] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12109"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12109"
+   "c1" : "12097"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12097"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12109] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12097] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12161"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12161"
+   "c1" : "12149"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12149"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12161] The pointer cipher is declared but not initialized"
+ , "c3" : "QC-CPP000014[12149] The pointer cipher is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12163"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12163"
+   "c1" : "12151"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12151"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12163] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[12151] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12166"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12166"
+   "c1" : "12154"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12154"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12166] The expression cipher applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[12154] The expression cipher applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12171"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12171"
+   "c1" : "12159"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12159"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12171] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12159] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12231"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12231"
+   "c1" : "12219"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12219"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12231] The pointer cblock is declared but not initialized"
+ , "c3" : "QC-CPP000014[12219] The pointer cblock is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12231"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12231"
+   "c1" : "12219"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12219"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12231] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12219] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12244"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12244"
+   "c1" : "12232"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12232"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12244] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[12232] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12244"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12244"
+   "c1" : "12232"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12232"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12244] The expression 8 is invariable"
+ , "c3" : "QC-CPP000012[12232] The expression 8 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12244"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12244"
+   "c1" : "12232"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12232"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12244] The expression 8 is invariable"
+ , "c3" : "QC-CPP000012[12232] The expression 8 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12245"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12245"
+   "c1" : "12233"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12233"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12245] The expression 8 is invariable"
+ , "c3" : "QC-CPP000012[12233] The expression 8 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12245"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12245"
+   "c1" : "12233"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12233"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12245] The expression 16 is invariable"
+ , "c3" : "QC-CPP000012[12233] The expression 16 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12245"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12245"
+   "c1" : "12233"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12233"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12245] The expression 8 is invariable"
+ , "c3" : "QC-CPP000012[12233] The expression 8 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12324"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12324"
+   "c1" : "12312"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12312"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12324] The expression  ! ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[12312] The expression  ! ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "12313"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12313"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12313] goto statement jump to out"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12318"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12318"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12318] The expression  ! ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "12319"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12319"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12319] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
    "c1" : "12325"
  , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12325"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12325] goto statement jump to out"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12330"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12330"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12330] The expression  ! ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[12325] The expression  ! ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12331"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12331"
+   "c1" : "12326"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12326"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12331] goto statement jump to out"
+ , "c3" : "QC-CPP000007[12326] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12337"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12337"
+   "c1" : "12343"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12343"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[12343] The pointer plainblock is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12343"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12343"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[12343] The pointer cipherblock is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12343"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12343"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12337] The expression  ! ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[12343] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12338"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12338"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12338] goto statement jump to out"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12355"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12355"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12355] The pointer plainblock is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12355"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12355"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12355] The pointer cipherblock is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12355"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12355"
+   "c1" : "12381"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12381"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12355] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[12381] The expression  ! ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12393"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12393"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12393] The expression  ! ret applies to a single value or variable, might be ambiguous."
+   "c1" : "12382"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12382"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12382] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
@@ -603,15 +610,29 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "12406"
  , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12406"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12406] goto statement jump to out"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12406] The expression  ! ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12418"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12418"
+   "c1" : "12407"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12407"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12407] goto statement jump to out"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12410"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12410"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12418] The expression  ! ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[12410] The expression  ! ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "12411"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12411"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12411] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
@@ -622,17 +643,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12422"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12422"
+   "c1" : "12430"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12430"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12422] The expression  ! ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "12423"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12423"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12423] goto statement jump to out"
+ , "c3" : "QC-CPP000011[12430] The expression  ! ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -643,45 +657,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12442"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12442"
+   "c1" : "12433"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12433"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12442] The expression  ! ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[12433] The expression  ! ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12443"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12443"
+   "c1" : "12434"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12434"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12443] goto statement jump to out"
+ , "c3" : "QC-CPP000007[12434] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12445"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12445"
+   "c1" : "12450"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12450"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12445] The expression  ! ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[12450] The expression  ! ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12446"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12446"
+   "c1" : "12456"
+ , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12456"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12446] goto statement jump to out"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12462"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12462"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12462] The expression  ! ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "12468"
- , "c1link" : "./qc/providers/implementations/kdfs/krb5kdf.c.html#12468"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12468] goto statement jump to out"
+ , "c3" : "QC-CPP000007[12456] goto statement jump to out"
 }} 
 ]
 };

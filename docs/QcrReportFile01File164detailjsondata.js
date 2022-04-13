@@ -391,10 +391,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10550"
- , "c1link" : "./qc/crypto/bio/bio_meth.c.html#10550"
+   "c1" : "10538"
+ , "c1link" : "./qc/crypto/bio/bio_meth.c.html#10538"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10550] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10538] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

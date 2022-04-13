@@ -384,241 +384,241 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10658"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10658"
+   "c1" : "10646"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10646"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10658] The expression  ! bctx-&gt;enc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10646] The expression  ! bctx-&gt;enc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10683"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10683"
+   "c1" : "10671"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10671"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10683] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10671] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10684"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10684"
+   "c1" : "10672"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10672"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10684] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10672] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10685"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10685"
+   "c1" : "10673"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10673"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10685] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10673] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10701"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10701"
+   "c1" : "10689"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10689"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10701] The expression bctx-&gt;enc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10689] The expression bctx-&gt;enc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10740"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10740"
+   "c1" : "10728"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10728"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10740] The expression bctx-&gt;enc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10728] The expression bctx-&gt;enc applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10769"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10769"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10769] The pointer buf is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10769"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10769"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10769] The pointer tohash is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10769"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10769"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10769] The pointer ctr is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10769"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10769"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[10769] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "10781"
  , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10781"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10781] The pointer buf is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[10781] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "10781"
  , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10781"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10781] The pointer tohash is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[10781] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10781"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10781"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10781] The pointer ctr is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10781"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10781"
+   "c1" : "10790"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10790"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10781] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[10790] The expression bctx-&gt;enc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10793"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10793"
+   "c1" : "10792"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10792"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10793] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10792] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10793"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10793"
+   "c1" : "10813"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10813"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10793] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10813] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10802"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10802"
+   "c1" : "10813"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10813"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10813] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10824"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10824"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10802] The expression bctx-&gt;enc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10824] The expression bctx-&gt;enc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10804"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10804"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10804] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10825"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10825"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10825] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10825"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10825"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10825] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10836"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10836"
+   "c1" : "10867"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10867"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10836] The expression bctx-&gt;enc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10867] The expression bctx-&gt;enc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10879"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10879"
+   "c1" : "10870"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10870"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10879] The expression bctx-&gt;enc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[10870] The expression 16 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10882"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10882"
+   "c1" : "10899"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10899"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10882] The expression 16 is invariable"
+ , "c3" : "QC-CPP000011[10899] The expression  ! ctx-&gt;mac_inited applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10911"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10911"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10911] The expression  ! ctx-&gt;mac_inited applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "10930"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10930"
+   "c1" : "10918"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10918"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10930] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10918] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10940"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10940"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10940] goto statement jump to finish"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10942"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10942"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10942] The expression ctx-&gt;aad applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10943"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10943"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10943] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "10952"
  , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10952"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10952] goto statement jump to finish"
+ , "c3" : "QC-CPP000007[10952] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "10954"
  , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10954"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10954] The expression ctx-&gt;aad applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10954] The expression bctx-&gt;enc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10955"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10955"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10955] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10964"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10964"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10964] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10966"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10966"
+   "c1" : "10978"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10978"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10966] The expression bctx-&gt;enc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10978] The expression ctx-&gt;aad applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10990"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10990"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10990] The expression ctx-&gt;aad applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "10991"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10991"
+   "c1" : "10979"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10979"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10991] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10979] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10996"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10996"
+   "c1" : "10984"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#10984"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10996] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10984] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11029"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#11029"
+   "c1" : "11017"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#11017"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11029] The expression bctx-&gt;enc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11017] The expression bctx-&gt;enc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11032"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#11032"
+   "c1" : "11020"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#11020"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11032] The expression 16 is invariable"
+ , "c3" : "QC-CPP000012[11020] The expression 16 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11034"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#11034"
+   "c1" : "11022"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#11022"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11034] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11022] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11040"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#11040"
+   "c1" : "11028"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#11028"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11040] The expression  ! bctx-&gt;enc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11028] The expression  ! bctx-&gt;enc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11042"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#11042"
+   "c1" : "11030"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305_hw.c.html#11030"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11042] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11030] goto statement jump to err"
 }} 
 ]
 };

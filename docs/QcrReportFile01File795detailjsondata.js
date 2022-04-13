@@ -377,668 +377,668 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17485"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17485"
+   "c1" : "16486"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#16486"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17485] The pointer pubkey is declared but not initialized"
+ , "c3" : "QC-CPP000014[16486] The pointer pubkey is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17491"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17491"
+   "c1" : "16492"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#16492"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17491] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16492] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17539"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17539"
+   "c1" : "16540"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#16540"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17539] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[16540] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17541"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17541"
+   "c1" : "16542"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#16542"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17541] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16542] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17584"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17584"
+   "c1" : "16585"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#16585"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17584] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16585] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17586"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17586"
+   "c1" : "16587"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#16587"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17586] The pointer pubkey is declared but not initialized"
+ , "c3" : "QC-CPP000014[16587] The pointer pubkey is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17593"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17593"
+   "c1" : "16594"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#16594"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17593] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16594] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17619"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17619"
+   "c1" : "16620"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#16620"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17619] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16620] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17653"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17653"
+   "c1" : "16654"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#16654"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17653] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16654] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17656"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17656"
+   "c1" : "16657"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#16657"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17656] goto statement jump to end"
+ , "c3" : "QC-CPP000007[16657] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17661"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17661"
+   "c1" : "16662"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#16662"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17661] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[16662] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17689"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17689"
+   "c1" : "16690"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#16690"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17689] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[16690] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17691"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17691"
+   "c1" : "16692"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#16692"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17691] goto statement jump to end"
+ , "c3" : "QC-CPP000007[16692] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17693"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17693"
+   "c1" : "16694"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#16694"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17693] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16694] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17719"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17719"
+   "c1" : "16720"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#16720"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17719] goto statement jump to end"
+ , "c3" : "QC-CPP000007[16720] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17811"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17811"
+   "c1" : "16812"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#16812"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17811] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16812] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17816"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17816"
+   "c1" : "16817"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#16817"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17816] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16817] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17897"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17897"
+   "c1" : "16898"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#16898"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17897] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16898] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17907"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17907"
+   "c1" : "16908"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#16908"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17907] goto statement jump to error"
+ , "c3" : "QC-CPP000007[16908] goto statement jump to error"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17920"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17920"
+   "c1" : "16921"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#16921"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17920] goto statement jump to error"
+ , "c3" : "QC-CPP000007[16921] goto statement jump to error"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17928"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17928"
+   "c1" : "16929"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#16929"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17928] goto statement jump to error"
+ , "c3" : "QC-CPP000007[16929] goto statement jump to error"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17974"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17974"
+   "c1" : "16975"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#16975"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17974] goto statement jump to error"
+ , "c3" : "QC-CPP000007[16975] goto statement jump to error"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17984"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17984"
+   "c1" : "16985"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#16985"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17984] goto statement jump to error"
+ , "c3" : "QC-CPP000007[16985] goto statement jump to error"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18005"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18005"
+   "c1" : "17006"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17006"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18005] The pointer pkey is declared but not initialized"
+ , "c3" : "QC-CPP000014[17006] The pointer pkey is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18009"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18009"
+   "c1" : "17010"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17010"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18009] The expression  ! key-&gt;flag_force_legacy applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17010] The expression  ! key-&gt;flag_force_legacy applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18050"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18050"
+   "c1" : "17051"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17051"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18050] goto statement jump to error"
+ , "c3" : "QC-CPP000007[17051] goto statement jump to error"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18053"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18053"
+   "c1" : "17054"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17054"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18053] The expression pkey-&gt;ameth-&gt;pub_decode applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17054] The expression pkey-&gt;ameth-&gt;pub_decode applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18060"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18060"
+   "c1" : "17061"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17061"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18060] goto statement jump to error"
+ , "c3" : "QC-CPP000007[17061] goto statement jump to error"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18067"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18067"
+   "c1" : "17068"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17068"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18067] goto statement jump to error"
+ , "c3" : "QC-CPP000007[17068] goto statement jump to error"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18154"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18154"
+   "c1" : "17155"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17155"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18154] The pointer xpk is declared but not initialized"
+ , "c3" : "QC-CPP000014[17155] The pointer xpk is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18168"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18168"
+   "c1" : "17169"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17169"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18168] The pointer q is declared but not initialized"
+ , "c3" : "QC-CPP000014[17169] The pointer q is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18168"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18168"
+   "c1" : "17169"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17169"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18168] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17169] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18204"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18204"
+   "c1" : "17205"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17205"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18204] goto statement jump to end"
+ , "c3" : "QC-CPP000007[17205] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18214"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18214"
+   "c1" : "17215"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17215"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18214] goto statement jump to end"
+ , "c3" : "QC-CPP000007[17215] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18227"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18227"
+   "c1" : "17228"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17228"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18227] goto statement jump to end"
+ , "c3" : "QC-CPP000007[17228] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18297"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18297"
+   "c1" : "17298"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17298"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18297] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17298] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18346"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18346"
+   "c1" : "17347"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17347"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18346] The expression 115 is invariable"
+ , "c3" : "QC-CPP000012[17347] The expression 115 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18346"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18346"
+   "c1" : "17347"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17347"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18346] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[17347] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18384"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18384"
+   "c1" : "17385"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17385"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18384] The pointer pkey is declared but not initialized"
+ , "c3" : "QC-CPP000014[17385] The pointer pkey is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18390"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18390"
+   "c1" : "17391"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17391"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18390] The pointer q is declared but not initialized"
+ , "c3" : "QC-CPP000014[17391] The pointer q is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18390"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18390"
+   "c1" : "17391"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17391"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18390] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17391] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18434"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18434"
+   "c1" : "17435"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17435"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18434] The pointer pktmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[17435] The pointer pktmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18436"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18436"
+   "c1" : "17437"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17437"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18436] The expression  ! a applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17437] The expression  ! a applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18465"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18465"
+   "c1" : "17466"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17466"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18465] The pointer pkey is declared but not initialized"
+ , "c3" : "QC-CPP000014[17466] The pointer pkey is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18471"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18471"
+   "c1" : "17472"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17472"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18471] The pointer q is declared but not initialized"
+ , "c3" : "QC-CPP000014[17472] The pointer q is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18471"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18471"
+   "c1" : "17472"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17472"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18471] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17472] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18516"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18516"
+   "c1" : "17517"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17517"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18516] The pointer pktmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[17517] The pointer pktmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18518"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18518"
+   "c1" : "17519"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17519"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18518] The expression  ! a applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17519] The expression  ! a applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18546"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18546"
+   "c1" : "17547"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17547"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18546] The pointer pkey is declared but not initialized"
+ , "c3" : "QC-CPP000014[17547] The pointer pkey is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18552"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18552"
+   "c1" : "17553"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17553"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18552] The pointer q is declared but not initialized"
+ , "c3" : "QC-CPP000014[17553] The pointer q is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18552"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18552"
+   "c1" : "17553"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17553"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18552] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17553] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18597"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18597"
+   "c1" : "17598"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17598"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18597] The pointer pktmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[17598] The pointer pktmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18599"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18599"
+   "c1" : "17600"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17600"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18599] The expression  ! a applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17600] The expression  ! a applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18629"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18629"
+   "c1" : "17630"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17630"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18629] The pointer pkey is declared but not initialized"
+ , "c3" : "QC-CPP000014[17630] The pointer pkey is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18635"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18635"
+   "c1" : "17636"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17636"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18635] The pointer q is declared but not initialized"
+ , "c3" : "QC-CPP000014[17636] The pointer q is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18635"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18635"
+   "c1" : "17636"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17636"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18635] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17636] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18679"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18679"
+   "c1" : "17680"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17680"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18679] The pointer pktmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[17680] The pointer pktmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18681"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18681"
+   "c1" : "17682"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17682"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18681] The expression  ! a applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17682] The expression  ! a applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18711"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18711"
+   "c1" : "17712"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17712"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18711] The pointer pkey is declared but not initialized"
+ , "c3" : "QC-CPP000014[17712] The pointer pkey is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18717"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18717"
+   "c1" : "17718"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17718"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18717] The pointer q is declared but not initialized"
+ , "c3" : "QC-CPP000014[17718] The pointer q is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18717"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18717"
+   "c1" : "17718"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17718"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18717] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17718] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18764"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18764"
+   "c1" : "17765"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17765"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18764] The pointer pktmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[17765] The pointer pktmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18773"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18773"
+   "c1" : "17774"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17774"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18773] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17774] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18799"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18799"
+   "c1" : "17800"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17800"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18799] The pointer pkey is declared but not initialized"
+ , "c3" : "QC-CPP000014[17800] The pointer pkey is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18805"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18805"
+   "c1" : "17806"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17806"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18805] The pointer q is declared but not initialized"
+ , "c3" : "QC-CPP000014[17806] The pointer q is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18805"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18805"
+   "c1" : "17806"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17806"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18805] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17806] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18849"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18849"
+   "c1" : "17850"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17850"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18849] The pointer pktmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[17850] The pointer pktmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18858"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18858"
+   "c1" : "17859"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17859"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18858] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17859] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18884"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18884"
+   "c1" : "17885"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17885"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18884] The pointer pkey is declared but not initialized"
+ , "c3" : "QC-CPP000014[17885] The pointer pkey is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18890"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18890"
+   "c1" : "17891"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17891"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18890] The pointer q is declared but not initialized"
+ , "c3" : "QC-CPP000014[17891] The pointer q is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18890"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18890"
+   "c1" : "17891"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17891"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18890] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17891] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18935"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18935"
+   "c1" : "17936"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17936"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18935] The pointer pktmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[17936] The pointer pktmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18944"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18944"
+   "c1" : "17945"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17945"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18944] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17945] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18970"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18970"
+   "c1" : "17971"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17971"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18970] The pointer pkey is declared but not initialized"
+ , "c3" : "QC-CPP000014[17971] The pointer pkey is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18976"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18976"
+   "c1" : "17977"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17977"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18976] The pointer q is declared but not initialized"
+ , "c3" : "QC-CPP000014[17977] The pointer q is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18976"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18976"
+   "c1" : "17977"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#17977"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18976] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17977] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19021"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#19021"
+   "c1" : "18022"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18022"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19021] The pointer pktmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[18022] The pointer pktmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19030"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#19030"
+   "c1" : "18031"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18031"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19030] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18031] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19056"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#19056"
+   "c1" : "18057"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18057"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19056] The pointer pkey is declared but not initialized"
+ , "c3" : "QC-CPP000014[18057] The pointer pkey is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19062"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#19062"
+   "c1" : "18063"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18063"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19062] The pointer q is declared but not initialized"
+ , "c3" : "QC-CPP000014[18063] The pointer q is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19062"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#19062"
+   "c1" : "18063"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18063"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19062] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[18063] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19107"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#19107"
+   "c1" : "18108"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18108"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19107] The pointer pktmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[18108] The pointer pktmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19116"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#19116"
+   "c1" : "18117"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18117"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19116] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18117] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19147"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#19147"
+   "c1" : "18148"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18148"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19147] The expression penc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18148] The expression penc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19162"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#19162"
+   "c1" : "18163"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18163"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19162] The expression ppkalg applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18163] The expression ppkalg applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19164"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#19164"
+   "c1" : "18165"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18165"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19164] The expression pk applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18165] The expression pk applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19168"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#19168"
+   "c1" : "18169"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18169"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19168] The expression pa applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18169] The expression pa applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19191"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#19191"
+   "c1" : "18192"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18192"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19191] The pointer algA is declared but not initialized"
+ , "c3" : "QC-CPP000014[18192] The pointer algA is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19191"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#19191"
+   "c1" : "18192"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18192"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19191] The pointer algB is declared but not initialized"
+ , "c3" : "QC-CPP000014[18192] The pointer algB is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19192"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#19192"
+   "c1" : "18193"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18193"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19192] The pointer pA is declared but not initialized"
+ , "c3" : "QC-CPP000014[18193] The pointer pA is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19192"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#19192"
+   "c1" : "18193"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18193"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19192] The pointer pB is declared but not initialized"
+ , "c3" : "QC-CPP000014[18193] The pointer pB is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19243"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#19243"
+   "c1" : "18244"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18244"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19243] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18244] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19248"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#19248"
+   "c1" : "18249"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18249"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19248] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18249] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19260"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#19260"
+   "c1" : "18261"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18261"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19260] The expression plibctx applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18261] The expression plibctx applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19262"
- , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#19262"
+   "c1" : "18263"
+ , "c1link" : "./qc/crypto/x509/x_pubkey.c.html#18263"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19262] The expression ppropq applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[18263] The expression ppropq applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

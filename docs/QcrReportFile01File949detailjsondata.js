@@ -384,192 +384,192 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11362"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11362"
+   "c1" : "11350"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11350"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11362] The expression 'pub' is invariable"
+ , "c3" : "QC-CPP000012[11350] The expression 'pub' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11373"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11373"
+   "c1" : "11361"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11361"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11373] The expression 'priv' is invariable"
+ , "c3" : "QC-CPP000012[11361] The expression 'priv' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11384"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11384"
+   "c1" : "11372"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11372"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11384] The pointer tmpl is declared but not initialized"
+ , "c3" : "QC-CPP000014[11372] The pointer tmpl is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11415"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11415"
+   "c1" : "11403"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11403"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11415] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11403] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11424"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11424"
+   "c1" : "11412"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11412"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11424] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11412] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11472"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11472"
+   "c1" : "11460"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11460"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11472] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[11460] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11474"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11474"
+   "c1" : "11462"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11462"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11474] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11462] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11481"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11481"
+   "c1" : "11469"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11469"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11481] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11469] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11488"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11488"
+   "c1" : "11476"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11476"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11488] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11476] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11495"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11495"
+   "c1" : "11483"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11483"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11495] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11483] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11515"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11515"
+   "c1" : "11503"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11503"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11515] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[11503] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11517"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11517"
+   "c1" : "11505"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11505"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11517] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11505] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11523"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11523"
+   "c1" : "11511"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11511"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11523] The expression '' is invariable"
+ , "c3" : "QC-CPP000012[11511] The expression '' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11689"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11689"
+   "c1" : "11677"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11677"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11689] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[11677] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11827"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11827"
+   "c1" : "11815"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11815"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11827] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11815] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11874"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11874"
+   "c1" : "11862"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11862"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11874] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[11862] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11976"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11976"
+   "c1" : "11964"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11964"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11976] The pointer key is declared but not initialized"
+ , "c3" : "QC-CPP000014[11964] The pointer key is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11965"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11965"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[11965] The pointer privkey is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11965"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11965"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[11965] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "11977"
  , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11977"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11977] The pointer privkey is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[11977] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11977"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11977"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11977] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11989"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11989"
+   "c1" : "11999"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11999"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11989] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11999] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12009"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#12009"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12009] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "12011"
  , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#12011"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12011] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12021"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#12021"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12021] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12023"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#12023"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12023] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[12011] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12024"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#12024"
+   "c1" : "12012"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#12012"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12024] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12012] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12040"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#12040"
+   "c1" : "12028"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#12028"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12040] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12028] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12045"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#12045"
+   "c1" : "12033"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#12033"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12045] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12033] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12196"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#12196"
+   "c1" : "12184"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#12184"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12196] The expression  ! ok applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[12184] The expression  ! ok applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

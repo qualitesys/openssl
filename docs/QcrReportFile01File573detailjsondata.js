@@ -356,10 +356,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08073"
- , "c1link" : "./qc/crypto/param_build_set.c.html#8073"
+   "c1" : "08061"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#8061"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08073] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[08061] The pointer p is declared but not initialized"
 }} 
 ]
 };

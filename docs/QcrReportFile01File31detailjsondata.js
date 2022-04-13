@@ -405,178 +405,178 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19260"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19260"
+   "c1" : "19252"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19252"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19260] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19252] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19262"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19262"
+   "c1" : "19254"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19254"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19262] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19254] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19267"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19267"
+   "c1" : "19259"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19259"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19267] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19259] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19364"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19364"
+   "c1" : "19356"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19356"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19364] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19356] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19401"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19401"
+   "c1" : "19393"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19393"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19401] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19393] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19416"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19416"
+   "c1" : "19408"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19408"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19416] The pointer si is declared but not initialized"
+ , "c3" : "QC-CPP000014[19408] The pointer si is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19430"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19430"
+   "c1" : "19422"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19422"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19430] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19422] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19513"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19513"
+   "c1" : "19505"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19505"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19513] The pointer ref_issuer is declared but not initialized"
+ , "c3" : "QC-CPP000014[19505] The pointer ref_issuer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19514"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19514"
+   "c1" : "19506"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19506"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19514] The pointer ref_serial is declared but not initialized"
+ , "c3" : "QC-CPP000014[19506] The pointer ref_serial is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19585"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19585"
+   "c1" : "19577"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19577"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19585] The expression ctx-&gt;sendError applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19577] The expression ctx-&gt;sendError applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19634"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19634"
+   "c1" : "19626"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19626"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19634] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19626] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19704"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19704"
+   "c1" : "19696"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19696"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19704] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19696] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19709"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19709"
+   "c1" : "19701"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19701"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19709] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19701] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19715"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19715"
+   "c1" : "19707"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19707"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19715] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19707] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19720"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19720"
+   "c1" : "19712"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19712"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19720] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19712] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19726"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19726"
+   "c1" : "19718"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19718"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19726] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19718] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19731"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19731"
+   "c1" : "19723"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19723"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19731] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19723] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19737"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19737"
+   "c1" : "19729"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19729"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19737] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19729] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19742"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19742"
+   "c1" : "19734"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19734"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19742] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19734] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19798"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19798"
+   "c1" : "19790"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19790"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19798] The expression ctx-&gt;sendError applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19790] The expression ctx-&gt;sendError applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19865"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19865"
+   "c1" : "19857"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19857"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19865] The expression ctx-&gt;sendError applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19857] The expression ctx-&gt;sendError applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19890"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19890"
+   "c1" : "19882"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19882"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19890] The pointer sibuf is declared but not initialized"
+ , "c3" : "QC-CPP000014[19882] The pointer sibuf is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19959"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19959"
+   "c1" : "19951"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19951"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19959] The pointer digest is declared but not initialized"
+ , "c3" : "QC-CPP000014[19951] The pointer digest is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20004"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#20004"
+   "c1" : "19996"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19996"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[20004] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19996] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20062"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#20062"
+   "c1" : "20054"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#20054"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20062] The expression ctx-&gt;sendError applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20054] The expression ctx-&gt;sendError applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

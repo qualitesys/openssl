@@ -223,122 +223,122 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13569"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13569"
+   "c1" : "13328"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13328"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13569] The pointer preextdata is declared but not initialized"
+ , "c3" : "QC-CPP000014[13328] The pointer preextdata is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13596"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13596"
+   "c1" : "13355"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13355"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13596] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13355] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13616"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13616"
+   "c1" : "13375"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13375"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13616] The expression poison_ext_is_dup applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13375] The expression poison_ext_is_dup applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13617"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13617"
+   "c1" : "13376"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13376"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13617] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13376] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13627"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13627"
+   "c1" : "13386"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13386"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13627] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13386] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13631"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13631"
+   "c1" : "13390"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13390"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13631] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13390] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13637"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13637"
+   "c1" : "13396"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13396"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13637] The expression sct_ext_is_dup applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[13396] The expression sct_ext_is_dup applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13638"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13638"
+   "c1" : "13397"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13397"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13638] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13397] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13645"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13645"
+   "c1" : "13404"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13404"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13645] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13404] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13666"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13666"
+   "c1" : "13425"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13425"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13666] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13425] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13671"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13671"
+   "c1" : "13430"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13430"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13671] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13430] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13675"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13675"
+   "c1" : "13434"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13434"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13675] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13434] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13700"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13700"
+   "c1" : "13459"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13459"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13700] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13459] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13718"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13718"
+   "c1" : "13477"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13477"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13718] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13477] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13734"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13734"
+   "c1" : "13493"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13493"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13734] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13493] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13740"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13740"
+   "c1" : "13499"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13499"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13740] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13499] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13747"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13747"
+   "c1" : "13506"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13506"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13747] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13506] goto statement jump to err"
 }} 
 ]
 };

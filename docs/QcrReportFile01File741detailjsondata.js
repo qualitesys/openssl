@@ -363,66 +363,66 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14822"
- , "c1link" : "./qc/crypto/x509/v3_bitst.c.html#14822"
+   "c1" : "14568"
+ , "c1link" : "./qc/crypto/x509/v3_bitst.c.html#14568"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14822] The pointer bnam is declared but not initialized"
+ , "c3" : "QC-CPP000014[14568] The pointer bnam is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14823"
- , "c1link" : "./qc/crypto/x509/v3_bitst.c.html#14823"
+   "c1" : "14569"
+ , "c1link" : "./qc/crypto/x509/v3_bitst.c.html#14569"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14823] The expression bnam-&gt;lname applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14569] The expression bnam-&gt;lname applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14838"
- , "c1link" : "./qc/crypto/x509/v3_bitst.c.html#14838"
+   "c1" : "14584"
+ , "c1link" : "./qc/crypto/x509/v3_bitst.c.html#14584"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14838] The pointer val is declared but not initialized"
+ , "c3" : "QC-CPP000014[14584] The pointer val is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14839"
- , "c1link" : "./qc/crypto/x509/v3_bitst.c.html#14839"
+   "c1" : "14585"
+ , "c1link" : "./qc/crypto/x509/v3_bitst.c.html#14585"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14839] The pointer bs is declared but not initialized"
+ , "c3" : "QC-CPP000014[14585] The pointer bs is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14841"
- , "c1link" : "./qc/crypto/x509/v3_bitst.c.html#14841"
+   "c1" : "14587"
+ , "c1link" : "./qc/crypto/x509/v3_bitst.c.html#14587"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14841] The pointer bnam is declared but not initialized"
+ , "c3" : "QC-CPP000014[14587] The pointer bnam is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14842"
- , "c1link" : "./qc/crypto/x509/v3_bitst.c.html#14842"
+   "c1" : "14588"
+ , "c1link" : "./qc/crypto/x509/v3_bitst.c.html#14588"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14842] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14588] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14860"
- , "c1link" : "./qc/crypto/x509/v3_bitst.c.html#14860"
+   "c1" : "14606"
+ , "c1link" : "./qc/crypto/x509/v3_bitst.c.html#14606"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14860] The expression bnam-&gt;lname applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14606] The expression bnam-&gt;lname applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14863"
- , "c1link" : "./qc/crypto/x509/v3_bitst.c.html#14863"
+   "c1" : "14609"
+ , "c1link" : "./qc/crypto/x509/v3_bitst.c.html#14609"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14863] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[14609] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14879"
- , "c1link" : "./qc/crypto/x509/v3_bitst.c.html#14879"
+   "c1" : "14625"
+ , "c1link" : "./qc/crypto/x509/v3_bitst.c.html#14625"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14879] The expression  ! bnam-&gt;lname applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14625] The expression  ! bnam-&gt;lname applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

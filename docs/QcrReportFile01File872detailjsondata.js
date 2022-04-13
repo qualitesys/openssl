@@ -356,10 +356,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11172"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_idea.c.html#11172"
+   "c1" : "11160"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_idea.c.html#11160"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11172] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[11160] The pointer ret is declared but not initialized"
 }} 
 ]
 };

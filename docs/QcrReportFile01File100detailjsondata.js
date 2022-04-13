@@ -363,52 +363,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07779"
- , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7779"
+   "c1" : "07767"
+ , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7767"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07779] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[07767] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07779"
- , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7779"
+   "c1" : "07767"
+ , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7767"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07779] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07767] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07824"
+ , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7824"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07824] The expression  ! str applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "07829"
+ , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7829"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07829] The expression str applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "07836"
  , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7836"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07836] The expression  ! str applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07836] The expression str applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07841"
- , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7841"
+   "c1" : "07847"
+ , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7847"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07841] The expression str applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07847] The expression str applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07848"
- , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7848"
+   "c1" : "07857"
+ , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7857"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07848] The expression str applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07859"
- , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7859"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07859] The expression str applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07869"
- , "c1link" : "./qc/crypto/asn1/a_utf8.c.html#7869"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07869] The expression str applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07857] The expression str applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

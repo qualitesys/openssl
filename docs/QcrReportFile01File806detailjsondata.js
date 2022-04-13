@@ -363,17 +363,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08738"
- , "c1link" : "./qc/providers/common/bio_prov.c.html#8738"
+   "c1" : "08726"
+ , "c1link" : "./qc/providers/common/bio_prov.c.html#8726"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08738] The pointer outbio is declared but not initialized"
+ , "c3" : "QC-CPP000014[08726] The pointer outbio is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08752"
- , "c1link" : "./qc/providers/common/bio_prov.c.html#8752"
+   "c1" : "08740"
+ , "c1link" : "./qc/providers/common/bio_prov.c.html#8740"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08752] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08740] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

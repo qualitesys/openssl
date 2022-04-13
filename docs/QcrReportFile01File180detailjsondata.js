@@ -363,80 +363,164 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08008"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8008"
+   "c1" : "07996"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#7996"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08008] The expression num applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07996] The expression num applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08044"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8044"
+   "c1" : "08032"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8032"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08044] The expression num applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08032] The expression num applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08074"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8074"
+   "c1" : "08062"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8062"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08074] The expression n applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08062] The expression n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08101"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8101"
+   "c1" : "08089"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8089"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08101] The expression i applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08089] The expression i applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08108"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8108"
+   "c1" : "08096"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8096"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08108] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[08096] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08108"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8108"
+   "c1" : "08096"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8096"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08108] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[08096] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08116"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8116"
+   "c1" : "08104"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8104"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08116] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[08104] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08116"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8116"
+   "c1" : "08104"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8104"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08116] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[08104] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08119"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8119"
+   "c1" : "08107"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8107"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[08119] Suspicious mix of Bitwise and Literal expressions in (tl)&lt;=((t&lt;&lt;32)|((l&amp;(0xffffffff00000000L))&gt;&gt;32))"
+ , "c3" : "QC-CPP000018[08107] Suspicious mix of Bitwise and Literal expressions in (tl)&lt;=((t&lt;&lt;32)|((l&amp;(0xffffffff00000000L))&gt;&gt;32))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08195"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8195"
+   "c1" : "08183"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8183"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08195] The expression n applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08183] The expression n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08253"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8253"
+   "c1" : "08241"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8241"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08253] The expression n applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08241] The expression n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "08262"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8262"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08262] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08262"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8262"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08262] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08265"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8265"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08265] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08265"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8265"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08265] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08266"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8266"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08266] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08266"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8266"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08266] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08269"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8269"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08269] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08269"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8269"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08269] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08270"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8270"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08270] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08270"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8270"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08270] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08271"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8271"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08271] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08271"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8271"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08271] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -454,6 +538,34 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "08275"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8275"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08275] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08275"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8275"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08275] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08276"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8276"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08276] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08276"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8276"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08276] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "08277"
  , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8277"
  , "c2" : "BLOCKER"
@@ -468,17 +580,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08278"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8278"
+   "c1" : "08280"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8280"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08278] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[08280] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08278"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8278"
+   "c1" : "08280"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8280"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08278] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08280] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -524,17 +636,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08286"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8286"
+   "c1" : "08284"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8284"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08286] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[08284] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08286"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8286"
+   "c1" : "08284"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8284"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08286] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08284] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -580,6 +692,34 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "08290"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8290"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08290] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08290"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8290"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08290] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08291"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8291"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08291] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08291"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8291"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08291] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "08292"
  , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8292"
  , "c2" : "BLOCKER"
@@ -591,34 +731,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8292"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[08292] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08293"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8293"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08293] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08293"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8293"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08293] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08294"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8294"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08294] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08294"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8294"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08294] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -647,6 +759,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8296"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[08296] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08297"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8297"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08297] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08297"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8297"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08297] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08298"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8298"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08298] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08298"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8298"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08298] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -692,34 +832,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08302"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8302"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08302] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08302"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8302"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08302] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08303"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8303"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08303] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08303"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8303"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08303] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
    "c1" : "08304"
  , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8304"
  , "c2" : "BLOCKER"
@@ -731,6 +843,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8304"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[08304] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08305"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8305"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08305] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08305"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8305"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08305] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08306"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8306"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08306] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08306"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8306"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08306] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -804,31 +944,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08312"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8312"
+   "c1" : "08314"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8314"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08312] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[08314] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08312"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8312"
+   "c1" : "08314"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8314"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08312] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08314] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08313"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8313"
+   "c1" : "08315"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8315"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08313] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[08315] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08313"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8313"
+   "c1" : "08315"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8315"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08313] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08315] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -902,34 +1042,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08321"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8321"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08321] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08321"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8321"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08321] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08322"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8322"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08322] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08322"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8322"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08322] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
    "c1" : "08323"
  , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8323"
  , "c2" : "BLOCKER"
@@ -941,6 +1053,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8323"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[08323] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08324"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8324"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08324] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08324"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8324"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08324] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08325"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8325"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08325] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08325"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8325"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08325] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -986,34 +1126,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08329"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8329"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08329] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08329"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8329"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08329] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08330"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8330"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08330] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08330"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8330"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08330] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
    "c1" : "08331"
  , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8331"
  , "c2" : "BLOCKER"
@@ -1042,6 +1154,34 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "08333"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8333"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08333] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08333"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8333"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08333] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08334"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8334"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08334] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08334"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8334"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08334] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "08335"
  , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8335"
  , "c2" : "BLOCKER"
@@ -1053,34 +1193,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8335"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[08335] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08336"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8336"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08336] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08336"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8336"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08336] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08337"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8337"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08337] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08337"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8337"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08337] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -1126,17 +1238,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08343"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8343"
+   "c1" : "08341"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8341"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08343] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[08341] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08343"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8343"
+   "c1" : "08341"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8341"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08343] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08341] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -1182,17 +1294,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08347"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8347"
+   "c1" : "08349"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8349"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08347] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[08349] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08347"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8347"
+   "c1" : "08349"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8349"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08347] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08349] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -1210,34 +1322,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08351"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8351"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08351] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08351"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8351"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08351] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08352"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8352"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08352] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08352"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8352"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08352] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
    "c1" : "08353"
  , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8353"
  , "c2" : "BLOCKER"
@@ -1249,76 +1333,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8353"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[08353] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08356"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8356"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08356] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08356"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8356"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08356] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08357"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8357"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08357] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08357"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8357"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08357] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08358"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8358"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08358] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08358"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8358"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08358] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08361"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8361"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08361] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08361"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8361"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08361] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08362"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8362"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08362] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08362"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8362"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08362] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -1336,6 +1350,76 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "08368"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8368"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08368] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08368"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8368"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08368] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08369"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8369"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08369] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08369"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8369"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08369] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08372"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8372"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08372] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08372"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8372"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08372] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08373"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8373"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08373] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08373"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8373"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08373] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08374"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8374"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08374] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08374"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8374"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08374] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
    "c1" : "08377"
  , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8377"
  , "c2" : "BLOCKER"
@@ -1347,6 +1431,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8377"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[08377] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08378"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8378"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08378] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08378"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8378"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08378] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08379"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8379"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08379] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08379"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8379"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08379] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -1364,17 +1476,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08381"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8381"
+   "c1" : "08383"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8383"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08381] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[08383] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08381"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8381"
+   "c1" : "08383"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8383"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08381] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08383] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -1406,17 +1518,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08386"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8386"
+   "c1" : "08388"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8388"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08386] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[08388] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08386"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8386"
+   "c1" : "08388"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8388"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08386] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08388] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -1434,34 +1546,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08390"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8390"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08390] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08390"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8390"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08390] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08391"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8391"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08391] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08391"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8391"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08391] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
    "c1" : "08392"
  , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8392"
  , "c2" : "BLOCKER"
@@ -1473,76 +1557,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8392"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[08392] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08395"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8395"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08395] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08395"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8395"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08395] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08396"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8396"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08396] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08396"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8396"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08396] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08397"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8397"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08397] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08397"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8397"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08397] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08400"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8400"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08400] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08400"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8400"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08400] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08401"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8401"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08401] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08401"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8401"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08401] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -1560,17 +1574,87 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08416"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8416"
+   "c1" : "08407"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8407"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08416] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[08407] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08416"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8416"
+   "c1" : "08407"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8407"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08416] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08407] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08410"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8410"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08410] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08410"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8410"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08410] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08411"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8411"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08411] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08411"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8411"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08411] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08414"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8414"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08414] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08414"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8414"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08414] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08415"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8415"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08415] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08415"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8415"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08415] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08418"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8418"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08418] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08418"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8418"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08418] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -1588,17 +1672,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08422"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8422"
+   "c1" : "08420"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8420"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08422] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[08420] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08422"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8422"
+   "c1" : "08420"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8420"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08422] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08420] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -1616,31 +1700,59 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08426"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8426"
+   "c1" : "08424"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8424"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08426] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[08424] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08426"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8426"
+   "c1" : "08424"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8424"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08426] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08424] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08427"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8427"
+   "c1" : "08425"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8425"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08427] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[08425] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08427"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8427"
+   "c1" : "08425"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8425"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08427] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08425] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08428"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8428"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08428] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08428"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8428"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08428] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08429"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8429"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08429] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08429"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8429"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08429] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -1672,17 +1784,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08432"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8432"
+   "c1" : "08434"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8434"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08432] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[08434] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08432"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8432"
+   "c1" : "08434"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8434"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08432] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08434] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -1826,17 +1938,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08449"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8449"
+   "c1" : "08451"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8451"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08449] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[08451] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08449"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8449"
+   "c1" : "08451"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8451"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08449] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08451] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -1868,59 +1980,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08454"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8454"
+   "c1" : "08456"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8456"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08454] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[08456] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08454"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8454"
+   "c1" : "08456"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8456"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08454] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08456] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08455"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8455"
+   "c1" : "08457"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8457"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08455] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[08457] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08455"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8455"
+   "c1" : "08457"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8457"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08455] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08458"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8458"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08458] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08458"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8458"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08458] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08459"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8459"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08459] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08459"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8459"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08459] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08457] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -1938,17 +2022,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08463"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8463"
+   "c1" : "08461"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8461"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08463] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[08461] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08463"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8463"
+   "c1" : "08461"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8461"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08463] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08461] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -1966,87 +2050,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08465"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8465"
+   "c1" : "08467"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8467"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08465] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[08467] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08465"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8465"
+   "c1" : "08467"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8467"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08465] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08468"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8468"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08468] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08468"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8468"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08468] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08469"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8469"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08469] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08469"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8469"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08469] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08472"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8472"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08472] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08472"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8472"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08472] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08473"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8473"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08473] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08473"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8473"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08473] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08476"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8476"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08476] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08476"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8476"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08476] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08467] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -2064,17 +2078,87 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08491"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8491"
+   "c1" : "08482"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8482"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08491] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[08482] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08491"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8491"
+   "c1" : "08482"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8482"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08491] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08482] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08485"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8485"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08485] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08485"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8485"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08485] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08486"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8486"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08486] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08486"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8486"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08486] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08489"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8489"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08489] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08489"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8489"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08489] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08490"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8490"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08490] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08490"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8490"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08490] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08493"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8493"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08493] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08493"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8493"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08493] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -2106,101 +2190,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08498"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8498"
+   "c1" : "08500"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8500"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08498] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[08500] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08498"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8498"
+   "c1" : "08500"
+ , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8500"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08498] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08501"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8501"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08501] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08501"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8501"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08501] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08502"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8502"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08502] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08502"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8502"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08502] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08505"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8505"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08505] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08505"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8505"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08505] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08506"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8506"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08506] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08506"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8506"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08506] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08509"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8509"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08509] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08509"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8509"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08509] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08512"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8512"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08512] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08512"
- , "c1link" : "./qc/crypto/bn/bn_asm.c.html#8512"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08512] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08500] The expression 0 is invariable, always false"
 }} 
 ]
 };

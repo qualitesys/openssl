@@ -370,164 +370,164 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "16638"
- , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16638"
+   "c1" : "16384"
+ , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16384"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16638] The pointer name is declared but not initialized"
+ , "c3" : "QC-CPP000014[16384] The pointer name is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16646"
- , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16646"
+   "c1" : "16392"
+ , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16392"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16646] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16392] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16651"
- , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16651"
+   "c1" : "16397"
+ , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16397"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16651] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16397] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16659"
- , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16659"
+   "c1" : "16405"
+ , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16405"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16659] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16405] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16664"
- , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16664"
+   "c1" : "16410"
+ , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16410"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16664] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16410] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16666"
- , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16666"
+   "c1" : "16412"
+ , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16412"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16666] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16412] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16465"
+ , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16465"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[16465] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16485"
+ , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16485"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[16485] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16492"
+ , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16492"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16492] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16535"
+ , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16535"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[16535] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16563"
+ , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16563"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[16563] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16595"
+ , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16595"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[16595] The pointer itav is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16623"
+ , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16623"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[16623] The pointer itav is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16624"
+ , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16624"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[16624] The pointer asn1null is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16639"
+ , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16639"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[16639] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16645"
+ , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16645"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16645] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16647"
+ , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16647"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16647] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16661"
+ , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16661"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[16661] The pointer itav is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16692"
+ , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16692"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[16692] The pointer tid is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16695"
+ , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16695"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16695] The expression 16 is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "16719"
  , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16719"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16719] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[16719] The pointer sender is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16739"
- , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16739"
+   "c1" : "16738"
+ , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16738"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16739] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[16738] The expression 2 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16746"
- , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16746"
+   "c1" : "16814"
+ , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16814"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16746] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16789"
- , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16789"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16789] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16817"
- , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16817"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16817] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16849"
- , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16849"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16849] The pointer itav is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16877"
- , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16877"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16877] The pointer itav is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16878"
- , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16878"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16878] The pointer asn1null is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16893"
- , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16893"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16893] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16899"
- , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16899"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16899] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16901"
- , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16901"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16901] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16915"
- , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16915"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16915] The pointer itav is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16946"
- , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16946"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16946] The pointer tid is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16949"
- , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16949"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16949] The expression 16 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16973"
- , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16973"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16973] The pointer sender is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16992"
- , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#16992"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16992] The expression 2 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17068"
- , "c1link" : "./qc/crypto/cmp/cmp_hdr.c.html#17068"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17068] The expression 16 is invariable"
+ , "c3" : "QC-CPP000012[16814] The expression 16 is invariable"
 }} 
 ]
 };

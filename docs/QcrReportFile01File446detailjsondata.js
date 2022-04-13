@@ -370,262 +370,262 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11328"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11328"
+   "c1" : "11316"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11316"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11328] The expression user_key applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11316] The expression user_key applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11333"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11333"
+   "c1" : "11321"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11321"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11333] The expression iv applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11321] The expression iv applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11349"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11349"
+   "c1" : "11337"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11337"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11349] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11337] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11362"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11362"
+   "c1" : "11350"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11350"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11362] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[11350] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11401"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11401"
+   "c1" : "11389"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11389"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11401] The expression rem applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11389] The expression rem applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11559"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11559"
+   "c1" : "11547"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11547"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11559] The pointer buf is declared but not initialized"
+ , "c3" : "QC-CPP000014[11547] The pointer buf is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11559"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11559"
+   "c1" : "11547"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11547"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11559] The pointer tohash is declared but not initialized"
+ , "c3" : "QC-CPP000014[11547] The pointer tohash is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11559"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11559"
+   "c1" : "11547"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11547"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11559] The pointer ctr is declared but not initialized"
+ , "c3" : "QC-CPP000014[11547] The pointer ctr is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11559"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11559"
+   "c1" : "11547"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11547"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11559] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11547] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11572"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11572"
+   "c1" : "11560"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11560"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11572] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11560] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11572"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11572"
+   "c1" : "11560"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11560"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11572] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11560] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11581"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11581"
+   "c1" : "11569"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11569"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11581] The expression ctx-&gt;encrypt applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11569] The expression ctx-&gt;encrypt applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11583"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11583"
+   "c1" : "11571"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11571"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11583] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11571] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11604"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11604"
+   "c1" : "11592"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11592"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11604] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11592] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11604"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11604"
+   "c1" : "11592"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11592"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11604] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11592] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11615"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11615"
+   "c1" : "11603"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11603"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11615] The expression ctx-&gt;encrypt applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11603] The expression ctx-&gt;encrypt applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11663"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11663"
+   "c1" : "11651"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11651"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11663] The expression ctx-&gt;encrypt applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11651] The expression ctx-&gt;encrypt applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11666"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11666"
+   "c1" : "11654"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11654"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11666] The expression 16 is invariable"
+ , "c3" : "QC-CPP000012[11654] The expression 16 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11685"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11685"
+   "c1" : "11673"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11673"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11685] The expression  ! actx-&gt;mac_inited applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11673] The expression  ! actx-&gt;mac_inited applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11700"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11700"
+   "c1" : "11688"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11688"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11700] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11688] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11698"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11698"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[11698] The expression in applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "11709"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11709"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[11709] The expression actx-&gt;aad applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "11710"
  , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11710"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11710] The expression in applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "11721"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11721"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11721] The expression actx-&gt;aad applies to a single value or variable, might be ambiguous."
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[11710] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "11722"
  , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11722"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[11722] The expression ctx-&gt;encrypt applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "11746"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11746"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[11746] The expression actx-&gt;aad applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "11747"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11747"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11722] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11747] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11734"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11734"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11734] The expression ctx-&gt;encrypt applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "11758"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11758"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11758] The expression actx-&gt;aad applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "11759"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11759"
+   "c1" : "11753"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11753"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11759] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11753] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11765"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11765"
+   "c1" : "11790"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11790"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[11790] The expression ctx-&gt;encrypt applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "11793"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11793"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[11793] The expression 16 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11799"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11799"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[11799] The expression  ! ctx-&gt;encrypt applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "11810"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11810"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[11810] The expression actx applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "11827"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11827"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11765] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11827] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11802"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11802"
+   "c1" : "11852"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11852"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11802] The expression ctx-&gt;encrypt applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11852] The expression actx applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11805"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11805"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11805] The expression 16 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11811"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11811"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11811] The expression  ! ctx-&gt;encrypt applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "11822"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11822"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11822] The expression actx applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "11839"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11839"
+   "c1" : "11885"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11885"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11839] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11885] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11864"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11864"
+   "c1" : "11887"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11887"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[11887] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11889"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11889"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[11889] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11923"
+ , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11923"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11864] The expression actx applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "11897"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11897"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11897] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11899"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11899"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11899] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11901"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11901"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11901] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11935"
- , "c1link" : "./qc/crypto/evp/e_chacha20_poly1305.c.html#11935"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11935] The expression  ! ctx-&gt;encrypt applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11923] The expression  ! ctx-&gt;encrypt applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

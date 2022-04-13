@@ -377,108 +377,108 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17024"
- , "c1link" : "./qc/crypto/init.c.html#17024"
+   "c1" : "16025"
+ , "c1link" : "./qc/crypto/init.c.html#16025"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17024] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16025] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17029"
- , "c1link" : "./qc/crypto/init.c.html#17029"
+   "c1" : "16030"
+ , "c1link" : "./qc/crypto/init.c.html#16030"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17029] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16030] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17033"
- , "c1link" : "./qc/crypto/init.c.html#17033"
+   "c1" : "16034"
+ , "c1link" : "./qc/crypto/init.c.html#16034"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17033] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16034] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17040"
- , "c1link" : "./qc/crypto/init.c.html#17040"
+   "c1" : "16041"
+ , "c1link" : "./qc/crypto/init.c.html#16041"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17040] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16041] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17265"
- , "c1link" : "./qc/crypto/init.c.html#17265"
+   "c1" : "16266"
+ , "c1link" : "./qc/crypto/init.c.html#16266"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17265] The pointer currhandler is declared but not initialized"
+ , "c3" : "QC-CPP000014[16266] The pointer currhandler is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17265"
- , "c1link" : "./qc/crypto/init.c.html#17265"
+   "c1" : "16266"
+ , "c1link" : "./qc/crypto/init.c.html#16266"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17265] The pointer lasthandler is declared but not initialized"
+ , "c3" : "QC-CPP000014[16266] The pointer lasthandler is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17273"
- , "c1link" : "./qc/crypto/init.c.html#17273"
+   "c1" : "16274"
+ , "c1link" : "./qc/crypto/init.c.html#16274"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17273] The expression  ! base_inited applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16274] The expression  ! base_inited applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17277"
- , "c1link" : "./qc/crypto/init.c.html#17277"
+   "c1" : "16278"
+ , "c1link" : "./qc/crypto/init.c.html#16278"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17277] The expression stopped applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16278] The expression stopped applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17323"
- , "c1link" : "./qc/crypto/init.c.html#17323"
+   "c1" : "16324"
+ , "c1link" : "./qc/crypto/init.c.html#16324"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17323] The expression async_inited applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16324] The expression async_inited applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17328"
- , "c1link" : "./qc/crypto/init.c.html#17328"
+   "c1" : "16329"
+ , "c1link" : "./qc/crypto/init.c.html#16329"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17328] The expression load_crypto_strings_inited applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16329] The expression load_crypto_strings_inited applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17391"
- , "c1link" : "./qc/crypto/init.c.html#17391"
+   "c1" : "16392"
+ , "c1link" : "./qc/crypto/init.c.html#16392"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17391] The expression stopped applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16392] The expression stopped applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17422"
- , "c1link" : "./qc/crypto/init.c.html#17422"
+   "c1" : "16423"
+ , "c1link" : "./qc/crypto/init.c.html#16423"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17422] The expression  ! aloaddone applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16423] The expression  ! aloaddone applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17490"
- , "c1link" : "./qc/crypto/init.c.html#17490"
+   "c1" : "16491"
+ , "c1link" : "./qc/crypto/init.c.html#16491"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17490] The expression  ! loading applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16491] The expression  ! loading applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17552"
- , "c1link" : "./qc/crypto/init.c.html#17552"
+   "c1" : "16553"
+ , "c1link" : "./qc/crypto/init.c.html#16553"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17552] The pointer newhand is declared but not initialized"
+ , "c3" : "QC-CPP000014[16553] The pointer newhand is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17554"
- , "c1link" : "./qc/crypto/init.c.html#17554"
+   "c1" : "16555"
+ , "c1link" : "./qc/crypto/init.c.html#16555"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17554] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16555] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

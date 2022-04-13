@@ -391,458 +391,458 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09431"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9431"
+   "c1" : "09423"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9423"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09431] The pointer b is declared but not initialized"
+ , "c3" : "QC-CPP000014[09423] The pointer b is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09433"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9433"
+   "c1" : "09425"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9425"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09433] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[09425] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09473"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9473"
+   "c1" : "09465"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9465"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09473] The pointer out is declared but not initialized"
+ , "c3" : "QC-CPP000014[09465] The pointer out is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09502"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9502"
+   "c1" : "09494"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9494"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09502] The expression 115 is invariable"
+ , "c3" : "QC-CPP000012[09494] The expression 115 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09502"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9502"
+   "c1" : "09494"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9494"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09502] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09494] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09528"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9528"
+   "c1" : "09520"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9520"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09528] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09520] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09641"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9641"
+   "c1" : "09633"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9633"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09641] The pointer prov is declared but not initialized"
+ , "c3" : "QC-CPP000014[09633] The pointer prov is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09642"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9642"
+   "c1" : "09634"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9634"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09642] The pointer libctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[09634] The pointer libctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09643"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9643"
+   "c1" : "09635"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9635"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09643] The pointer props is declared but not initialized"
+ , "c3" : "QC-CPP000014[09635] The pointer props is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09644"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9644"
+   "c1" : "09636"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9636"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09644] The pointer prop is declared but not initialized"
+ , "c3" : "QC-CPP000014[09636] The pointer prop is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09659"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9659"
+   "c1" : "09651"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9651"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09659] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[09651] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09678"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9678"
+   "c1" : "09670"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9670"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09678] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09670] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09692"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9692"
+   "c1" : "09684"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9684"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09692] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09684] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09708"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9708"
+   "c1" : "09700"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9700"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09708] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09700] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09771"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9771"
+   "c1" : "09763"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9763"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09771] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[09763] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09786"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9786"
+   "c1" : "09778"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9778"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09786] The expression ok applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09778] The expression ok applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09791"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9791"
+   "c1" : "09783"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9783"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09791] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09783] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09791"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9791"
+   "c1" : "09783"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9783"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[09791] The condition is always false. Dead code"
+ , "c3" : "QC-CPP000017[09783] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09798"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9798"
+   "c1" : "09790"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9790"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[09798] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[09790] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09798"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9798"
+   "c1" : "09790"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9790"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09798] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09790] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09846"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9846"
+   "c1" : "09838"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9838"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09846] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[09838] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09851"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9851"
+   "c1" : "09843"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9843"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09851] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[09843] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09857"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9857"
+   "c1" : "09849"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9849"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09857] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09849] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09866"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9866"
+   "c1" : "09858"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#9858"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09866] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09858] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10075"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10075"
+   "c1" : "10067"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10067"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[10075] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[10067] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10081"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10081"
+   "c1" : "10073"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10073"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10081] The pointer current_output_type is declared but not initialized"
+ , "c3" : "QC-CPP000014[10073] The pointer current_output_type is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10082"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10082"
+   "c1" : "10074"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10074"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10082] The pointer current_output_structure is declared but not initialized"
+ , "c3" : "QC-CPP000014[10074] The pointer current_output_structure is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10085"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10085"
+   "c1" : "10077"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10077"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10085] The expression  ! top applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10077] The expression  ! top applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10110"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10110"
+   "c1" : "10102"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10102"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10110] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10102] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10110"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10110"
+   "c1" : "10102"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10102"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[10110] The condition is always false. Dead code"
+ , "c3" : "QC-CPP000017[10102] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10115"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10115"
+   "c1" : "10107"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10107"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[10115] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[10107] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10115"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10115"
+   "c1" : "10107"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10107"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10115] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10107] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10117"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10117"
+   "c1" : "10109"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10109"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10117] The expression top applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10109] The expression top applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10129"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10129"
+   "c1" : "10121"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10121"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10129] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10121] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10129"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10129"
+   "c1" : "10121"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10121"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[10129] The condition is always false. Dead code"
+ , "c3" : "QC-CPP000017[10121] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10134"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10134"
+   "c1" : "10126"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10126"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[10134] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[10126] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10134"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10134"
+   "c1" : "10126"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10126"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10134] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10126] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10143"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10143"
+   "c1" : "10135"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10135"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10143] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10135] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10143"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10143"
+   "c1" : "10135"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10135"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[10143] The condition is always false. Dead code"
+ , "c3" : "QC-CPP000017[10135] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10148"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10148"
+   "c1" : "10140"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10140"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[10148] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[10140] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10148"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10148"
+   "c1" : "10140"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10140"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10148] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10140] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10174"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10174"
+   "c1" : "10166"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10166"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10174] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10166] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10174"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10174"
+   "c1" : "10166"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10166"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[10174] The condition is always false. Dead code"
+ , "c3" : "QC-CPP000017[10166] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10180"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10180"
+   "c1" : "10172"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10172"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[10180] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[10172] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10180"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10180"
+   "c1" : "10172"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10172"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10180] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10172] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10204"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10204"
+   "c1" : "10196"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10196"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10204] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10196] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10204"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10204"
+   "c1" : "10196"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10196"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[10204] The condition is always false. Dead code"
+ , "c3" : "QC-CPP000017[10196] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10208"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10208"
+   "c1" : "10200"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10200"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[10208] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[10200] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10208"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10208"
+   "c1" : "10200"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10200"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10208] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10200] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10222"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10222"
+   "c1" : "10214"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10214"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10222] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10214] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10222"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10222"
+   "c1" : "10214"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10214"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[10222] The condition is always false. Dead code"
+ , "c3" : "QC-CPP000017[10214] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10226"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10226"
+   "c1" : "10218"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10218"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[10226] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[10218] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10226"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10226"
+   "c1" : "10218"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10218"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10226] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10218] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10304"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10304"
+   "c1" : "10296"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10296"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10304] The expression ok applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10296] The expression ok applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10320"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10320"
+   "c1" : "10312"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10312"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10320] The expression top applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10312] The expression top applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10314"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10314"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10314] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "10322"
  , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10322"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10322] The expression ok applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10323"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10323"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10322] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10323] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10330"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10330"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10330] The expression ok applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "10331"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10331"
+   "c1" : "10323"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10323"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10331] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10323] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10331"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10331"
+   "c1" : "10328"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10328"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10328] The expression ok applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10338"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10338"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10338] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10338"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10338"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000017[10338] The condition is always false. Dead code"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10343"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10343"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[10343] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10343"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10343"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10343] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10369"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10369"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10331] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10336"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10336"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10336] The expression ok applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "10346"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10346"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10346] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10346"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10346"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[10346] The condition is always false. Dead code"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10351"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10351"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[10351] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10351"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10351"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10351] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10377"
- , "c1link" : "./qc/crypto/encode_decode/encoder_lib.c.html#10377"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10377] The pointer buf is declared but not initialized"
+ , "c3" : "QC-CPP000014[10369] The pointer buf is declared but not initialized"
 }} 
 ]
 };

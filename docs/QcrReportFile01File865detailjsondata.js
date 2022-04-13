@@ -363,52 +363,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11231"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#11231"
+   "c1" : "11219"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#11219"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11231] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[11219] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11290"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#11290"
+   "c1" : "11278"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#11278"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11290] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[11278] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11312"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#11312"
+   "c1" : "11300"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#11300"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11312] The expression 32 is invariable"
+ , "c3" : "QC-CPP000012[11300] The expression 32 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11361"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#11361"
+   "c1" : "11349"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#11349"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11361] The expression  ! ctx-&gt;base.enc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11349] The expression  ! ctx-&gt;base.enc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11428"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#11428"
+   "c1" : "11416"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#11416"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11428] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[11416] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11516"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#11516"
+   "c1" : "11504"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#11504"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11516] The expression ctx-&gt;base.enc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11504] The expression ctx-&gt;base.enc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11683"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#11683"
+   "c1" : "11671"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#11671"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11683] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[11671] The expression 0 is invariable, always false"
 }} 
 ]
 };

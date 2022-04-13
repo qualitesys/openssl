@@ -237,241 +237,241 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14774"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#14774"
+   "c1" : "13787"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#13787"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14774] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[13787] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14779"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#14779"
+   "c1" : "13792"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#13792"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14779] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[13792] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14804"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#14804"
+   "c1" : "13817"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#13817"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14804] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13817] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14809"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#14809"
+   "c1" : "13822"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#13822"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14809] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13822] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14838"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#14838"
+   "c1" : "13851"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#13851"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14838] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13851] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14843"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#14843"
+   "c1" : "13856"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#13856"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14843] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13856] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14864"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#14864"
+   "c1" : "13877"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#13877"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14864] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13877] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14869"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#14869"
+   "c1" : "13882"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#13882"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14869] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13882] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14885"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#14885"
+   "c1" : "13898"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#13898"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14885] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13898] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14904"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#14904"
+   "c1" : "13917"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#13917"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14904] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13917] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14909"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#14909"
+   "c1" : "13922"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#13922"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14909] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13922] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14929"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#14929"
+   "c1" : "13942"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#13942"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14929] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13942] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14934"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#14934"
+   "c1" : "13947"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#13947"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14934] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13947] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14955"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#14955"
+   "c1" : "13968"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#13968"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14955] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13968] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14960"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#14960"
+   "c1" : "13973"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#13973"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14960] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13973] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14981"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#14981"
+   "c1" : "13994"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#13994"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14981] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13994] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14986"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#14986"
+   "c1" : "13999"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#13999"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14986] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13999] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15008"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#15008"
+   "c1" : "14021"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#14021"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15008] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14021] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15013"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#15013"
+   "c1" : "14026"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#14026"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15013] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14026] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15037"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#15037"
+   "c1" : "14050"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#14050"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15037] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14050] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15042"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#15042"
+   "c1" : "14055"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#14055"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15042] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14055] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17489"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#17489"
+   "c1" : "16490"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#16490"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17489] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16490] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17577"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#17577"
+   "c1" : "16578"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#16578"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17577] The expression check1 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16578] The expression check1 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17590"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#17590"
+   "c1" : "16591"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#16591"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17590] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16591] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17595"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#17595"
+   "c1" : "16596"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#16596"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17595] The pointer derp is declared but not initialized"
+ , "c3" : "QC-CPP000014[16596] The pointer derp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17595"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#17595"
+   "c1" : "16596"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#16596"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17595] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16596] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17618"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#17618"
+   "c1" : "16619"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#16619"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17618] The expression  ! ok applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16619] The expression  ! ok applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17619"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#17619"
+   "c1" : "16620"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#16620"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17619] goto statement jump to next"
+ , "c3" : "QC-CPP000007[16620] goto statement jump to next"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17636"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#17636"
+   "c1" : "16637"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#16637"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17636] The expression ctx-&gt;flag_fatal applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16637] The expression ctx-&gt;flag_fatal applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17638"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#17638"
+   "c1" : "16639"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#16639"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17638] goto statement jump to end"
+ , "c3" : "QC-CPP000007[16639] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17657"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#17657"
+   "c1" : "16658"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#16658"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17657] goto statement jump to next"
+ , "c3" : "QC-CPP000007[16658] goto statement jump to next"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17688"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#17688"
+   "c1" : "16689"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#16689"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17688] goto statement jump to next"
+ , "c3" : "QC-CPP000007[16689] goto statement jump to next"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17713"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#17713"
+   "c1" : "16714"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#16714"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17713] goto statement jump to next"
+ , "c3" : "QC-CPP000007[16714] goto statement jump to next"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17811"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#17811"
+   "c1" : "16812"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_der2key.c.html#16812"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17811] The pointer keydata is declared but not initialized"
+ , "c3" : "QC-CPP000014[16812] The pointer keydata is declared but not initialized"
 }} 
 ]
 };

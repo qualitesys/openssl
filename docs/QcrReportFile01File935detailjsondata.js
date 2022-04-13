@@ -363,10 +363,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11823"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#11823"
+   "c1" : "11811"
+ , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#11811"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11823] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11811] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11826"
+ , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#11826"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11826] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11829"
+ , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#11829"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11829] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11836"
+ , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#11836"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11836] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
@@ -377,115 +398,94 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11841"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#11841"
+   "c1" : "11844"
+ , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#11844"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11841] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11848"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#11848"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11848] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11850"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#11850"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11850] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11844] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "11856"
  , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#11856"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11856] goto statement jump to err"
+ , "c3" : "QC-CPP000014[11856] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11868"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#11868"
+   "c1" : "11920"
+ , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#11920"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11868] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[11920] The pointer dest is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11932"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#11932"
+   "c1" : "11933"
+ , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#11933"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11932] The pointer dest is declared but not initialized"
+ , "c3" : "QC-CPP000007[11933] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11945"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#11945"
+   "c1" : "11959"
+ , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#11959"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11945] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[11959] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11971"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#11971"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11971] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11988"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#11988"
+   "c1" : "11976"
+ , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#11976"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11988] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[11976] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11998"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#11998"
+   "c1" : "11986"
+ , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#11986"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11998] The pointer md is declared but not initialized"
+ , "c3" : "QC-CPP000014[11986] The pointer md is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12036"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#12036"
+   "c1" : "12024"
+ , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#12024"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12036] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[12024] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12043"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#12043"
+   "c1" : "12031"
+ , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#12031"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12043] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12031] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12051"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#12051"
+   "c1" : "12039"
+ , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#12039"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12051] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12039] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12059"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#12059"
+   "c1" : "12047"
+ , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#12047"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12059] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12047] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12113"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#12113"
+   "c1" : "12101"
+ , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#12101"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12113] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[12101] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12115"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#12115"
+   "c1" : "12103"
+ , "c1link" : "./qc/providers/implementations/kdfs/pbkdf1.c.html#12103"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12115] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12103] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

@@ -391,17 +391,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11239"
- , "c1link" : "./qc/crypto/bio/bss_core.c.html#11239"
+   "c1" : "11252"
+ , "c1link" : "./qc/crypto/bio/bss_core.c.html#11252"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11239] The pointer outbio is declared but not initialized"
+ , "c3" : "QC-CPP000014[11252] The pointer outbio is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11262"
- , "c1link" : "./qc/crypto/bio/bss_core.c.html#11262"
+   "c1" : "11275"
+ , "c1link" : "./qc/crypto/bio/bss_core.c.html#11275"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11262] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11275] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

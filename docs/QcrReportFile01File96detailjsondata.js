@@ -363,115 +363,115 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "07852"
+ , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#7852"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[07852] The pointer end is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07854"
+ , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#7854"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07854] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07858"
+ , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#7858"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07858] The expression  * end applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "07860"
+ , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#7860"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07860] The expression 'nombstr' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07862"
+ , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#7862"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07862] The expression 'pkix' is invariable"
+}} 
+,
+{ "ligne" : {
    "c1" : "07864"
  , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#7864"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07864] The pointer end is declared but not initialized"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07864] The expression 'utf8only' is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "07866"
  , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#7866"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07866] The expression 'default' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07884"
+ , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#7884"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07866] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[07884] The pointer tbl is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07870"
- , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#7870"
+   "c1" : "07993"
+ , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#7993"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07870] The expression  * end applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07993] The expression stable applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07872"
- , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#7872"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07872] The expression 'nombstr' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07874"
- , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#7874"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07874] The expression 'pkix' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07876"
- , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#7876"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07876] The expression 'utf8only' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07878"
- , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#7878"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07878] The expression 'default' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07896"
- , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#7896"
+   "c1" : "08008"
+ , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#8008"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07896] The pointer tbl is declared but not initialized"
+ , "c3" : "QC-CPP000014[08008] The pointer tmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08005"
- , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#8005"
+   "c1" : "08008"
+ , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#8008"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08008] The pointer rv is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08035"
+ , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#8035"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08035] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08082"
+ , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#8082"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08082] The pointer tmp is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08101"
+ , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#8101"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08005] The expression stable applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08101] The expression mask applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08020"
- , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#8020"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08020] The pointer tmp is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08020"
- , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#8020"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08020] The pointer rv is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08047"
- , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#8047"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08047] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08094"
- , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#8094"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08094] The pointer tmp is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08113"
- , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#8113"
+   "c1" : "08103"
+ , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#8103"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08113] The expression mask applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08103] The expression flags applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08115"
- , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#8115"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08115] The expression flags applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08122"
- , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#8122"
+   "c1" : "08110"
+ , "c1link" : "./qc/crypto/asn1/a_strnid.c.html#8110"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08122] The pointer tmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[08110] The pointer tmp is declared but not initialized"
 }} 
 ]
 };

@@ -391,164 +391,164 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10191"
- , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10191"
+   "c1" : "10179"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10179"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10191] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[10179] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10193"
- , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10193"
+   "c1" : "10181"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10181"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10193] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10181] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10226"
- , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10226"
+   "c1" : "10214"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10214"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10226] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[10214] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10257"
- , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10257"
+   "c1" : "10245"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10245"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10257] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[10245] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10258"
- , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10258"
+   "c1" : "10246"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10246"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10258] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[10246] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10258"
- , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10258"
+   "c1" : "10246"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10246"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10258] The pointer q is declared but not initialized"
+ , "c3" : "QC-CPP000014[10246] The pointer q is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10258"
- , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10258"
+   "c1" : "10246"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10246"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10258] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10246] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10259"
- , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10259"
+   "c1" : "10247"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10247"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10259] The pointer next is declared but not initialized"
+ , "c3" : "QC-CPP000014[10247] The pointer next is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10326"
- , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10326"
+   "c1" : "10314"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10314"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10326] The expression 0x08 is invariable"
+ , "c3" : "QC-CPP000012[10314] The expression 0x08 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10337"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10337"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10337] The expression ctx-&gt;start applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10338"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10338"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10338] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "10349"
  , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10349"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10349] The expression ctx-&gt;start applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10349] The expression ctx-&gt;tmp_nl applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10350"
- , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10350"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10350] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10361"
- , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10361"
+   "c1" : "10406"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10406"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10361] The expression ctx-&gt;tmp_nl applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[10406] The expression  ~ (0x0) is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10418"
- , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10418"
+   "c1" : "10477"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10477"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10477] The pointer ctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10478"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10478"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10478] The pointer next is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10533"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10533"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10418] The expression  ~ (0x0) is invariable"
+ , "c3" : "QC-CPP000012[10533] The expression  ~ (0x0) is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10489"
- , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10489"
+   "c1" : "10606"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10606"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10489] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[10606] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10490"
- , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10490"
+   "c1" : "10609"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10609"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10490] The pointer next is declared but not initialized"
+ , "c3" : "QC-CPP000014[10609] The pointer next is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10545"
- , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10545"
+   "c1" : "10654"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10654"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000010[10654] The switch case refers to the jump label again"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10664"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10664"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10545] The expression  ~ (0x0) is invariable"
+ , "c3" : "QC-CPP000012[10664] The expression  ~ (0x0) is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10618"
- , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10618"
+   "c1" : "10671"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10671"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10618] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000007[10671] goto statement jump to again"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10621"
- , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10621"
+   "c1" : "10679"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10679"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10621] The pointer next is declared but not initialized"
+ , "c3" : "QC-CPP000007[10679] goto statement jump to again"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10666"
- , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10666"
+   "c1" : "10693"
+ , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10693"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[10666] The switch case refers to the jump label again"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10676"
- , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10676"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10676] The expression  ~ (0x0) is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10683"
- , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10683"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10683] goto statement jump to again"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10691"
- , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10691"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10691] goto statement jump to again"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10705"
- , "c1link" : "./qc/crypto/evp/bio_b64.c.html#10705"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000002[10705] Avoid multiple switch labels with default case in switch case"
+ , "c3" : "QC-CPP000002[10693] Avoid multiple switch labels with default case in switch case"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bn/bn_div.c.html" 
- , "texte" : "File crypto/bn/bn_div.c 62 rule violations " 
+ , "texte" : "File crypto/bn/bn_div.c 63 rule violations " 
  , "fic2"  : "./qc/crypto/bn/bn_div.c.xml" 
  , "fic3"  : "" 
 }
@@ -84,7 +84,7 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000007"
  , "c3" : "goto statement"
- , "c4" : "6"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : {
@@ -398,73 +398,80 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08034"
- , "c1link" : "./qc/crypto/bn/bn_div.c.html#8034"
+   "c1" : "08022"
+ , "c1link" : "./qc/crypto/bn/bn_div.c.html#8022"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08034] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08022] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08056"
- , "c1link" : "./qc/crypto/bn/bn_div.c.html#8056"
+   "c1" : "08044"
+ , "c1link" : "./qc/crypto/bn/bn_div.c.html#8044"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08056] The pointer tmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[08044] The pointer tmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08056"
- , "c1link" : "./qc/crypto/bn/bn_div.c.html#8056"
+   "c1" : "08044"
+ , "c1link" : "./qc/crypto/bn/bn_div.c.html#8044"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08056] The pointer snum is declared but not initialized"
+ , "c3" : "QC-CPP000014[08044] The pointer snum is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08056"
- , "c1link" : "./qc/crypto/bn/bn_div.c.html#8056"
+   "c1" : "08044"
+ , "c1link" : "./qc/crypto/bn/bn_div.c.html#8044"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08056] The pointer sdiv is declared but not initialized"
+ , "c3" : "QC-CPP000014[08044] The pointer sdiv is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08056"
- , "c1link" : "./qc/crypto/bn/bn_div.c.html#8056"
+   "c1" : "08044"
+ , "c1link" : "./qc/crypto/bn/bn_div.c.html#8044"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08056] The pointer res is declared but not initialized"
+ , "c3" : "QC-CPP000014[08044] The pointer res is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08057"
- , "c1link" : "./qc/crypto/bn/bn_div.c.html#8057"
+   "c1" : "08045"
+ , "c1link" : "./qc/crypto/bn/bn_div.c.html#8045"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08057] The pointer resp is declared but not initialized"
+ , "c3" : "QC-CPP000014[08045] The pointer resp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08057"
- , "c1link" : "./qc/crypto/bn/bn_div.c.html#8057"
+   "c1" : "08045"
+ , "c1link" : "./qc/crypto/bn/bn_div.c.html#8045"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08057] The pointer wnum is declared but not initialized"
+ , "c3" : "QC-CPP000014[08045] The pointer wnum is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08057"
- , "c1link" : "./qc/crypto/bn/bn_div.c.html#8057"
+   "c1" : "08045"
+ , "c1link" : "./qc/crypto/bn/bn_div.c.html#8045"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08057] The pointer wnumtop is declared but not initialized"
+ , "c3" : "QC-CPP000014[08045] The pointer wnumtop is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08086"
- , "c1link" : "./qc/crypto/bn/bn_div.c.html#8086"
+   "c1" : "08074"
+ , "c1link" : "./qc/crypto/bn/bn_div.c.html#8074"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08086] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08074] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08090"
- , "c1link" : "./qc/crypto/bn/bn_div.c.html#8090"
+   "c1" : "08078"
+ , "c1link" : "./qc/crypto/bn/bn_div.c.html#8078"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08090] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08078] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08089"
+ , "c1link" : "./qc/crypto/bn/bn_div.c.html#8089"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08089] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
@@ -475,66 +482,66 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08113"
- , "c1link" : "./qc/crypto/bn/bn_div.c.html#8113"
+   "c1" : "08103"
+ , "c1link" : "./qc/crypto/bn/bn_div.c.html#8103"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08113] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[08103] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08115"
- , "c1link" : "./qc/crypto/bn/bn_div.c.html#8115"
+   "c1" : "08120"
+ , "c1link" : "./qc/crypto/bn/bn_div.c.html#8120"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08115] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[08120] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08132"
- , "c1link" : "./qc/crypto/bn/bn_div.c.html#8132"
+   "c1" : "08124"
+ , "c1link" : "./qc/crypto/bn/bn_div.c.html#8124"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000009[08124] Suspicious bitwise assignment with value 0, result is aa |=0 = aa"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08129"
+ , "c1link" : "./qc/crypto/bn/bn_div.c.html#8129"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08132] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08129] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08136"
- , "c1link" : "./qc/crypto/bn/bn_div.c.html#8136"
+   "c1" : "08143"
+ , "c1link" : "./qc/crypto/bn/bn_div.c.html#8143"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000009[08136] Suspicious bitwise assignment with value 0, result is aa |=0 = aa"
+ , "c3" : "QC-CPP000015[08143] Suspicion use of negative array index -1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08141"
- , "c1link" : "./qc/crypto/bn/bn_div.c.html#8141"
+   "c1" : "08165"
+ , "c1link" : "./qc/crypto/bn/bn_div.c.html#8165"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08165] The condition of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08165"
+ , "c1link" : "./qc/crypto/bn/bn_div.c.html#8165"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08165] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08210"
+ , "c1link" : "./qc/crypto/bn/bn_div.c.html#8210"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000009[08210] Suspicious bitwise assignment with value 0, result is aa |=0 = aa"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08217"
+ , "c1link" : "./qc/crypto/bn/bn_div.c.html#8217"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08141] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08155"
- , "c1link" : "./qc/crypto/bn/bn_div.c.html#8155"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000015[08155] Suspicion use of negative array index -1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08177"
- , "c1link" : "./qc/crypto/bn/bn_div.c.html#8177"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08177] The condition of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08177"
- , "c1link" : "./qc/crypto/bn/bn_div.c.html#8177"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08177] The end expression of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08222"
- , "c1link" : "./qc/crypto/bn/bn_div.c.html#8222"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000009[08222] Suspicious bitwise assignment with value 0, result is aa |=0 = aa"
+ , "c3" : "QC-CPP000007[08217] goto statement jump to err"
 }} 
 ]
 };

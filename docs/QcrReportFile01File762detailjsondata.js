@@ -363,94 +363,94 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15304"
- , "c1link" : "./qc/crypto/x509/v3_skid.c.html#15304"
+   "c1" : "15050"
+ , "c1link" : "./qc/crypto/x509/v3_skid.c.html#15050"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15304] The pointer oct is declared but not initialized"
+ , "c3" : "QC-CPP000014[15050] The pointer oct is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15307"
- , "c1link" : "./qc/crypto/x509/v3_skid.c.html#15307"
+   "c1" : "15053"
+ , "c1link" : "./qc/crypto/x509/v3_skid.c.html#15053"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15307] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15053] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15324"
- , "c1link" : "./qc/crypto/x509/v3_skid.c.html#15324"
+   "c1" : "15070"
+ , "c1link" : "./qc/crypto/x509/v3_skid.c.html#15070"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15324] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15070] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15345"
- , "c1link" : "./qc/crypto/x509/v3_skid.c.html#15345"
+   "c1" : "15091"
+ , "c1link" : "./qc/crypto/x509/v3_skid.c.html#15091"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15345] The pointer oct is declared but not initialized"
+ , "c3" : "QC-CPP000014[15091] The pointer oct is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15346"
- , "c1link" : "./qc/crypto/x509/v3_skid.c.html#15346"
+   "c1" : "15092"
+ , "c1link" : "./qc/crypto/x509/v3_skid.c.html#15092"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15346] The pointer pk is declared but not initialized"
+ , "c3" : "QC-CPP000014[15092] The pointer pk is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15346"
- , "c1link" : "./qc/crypto/x509/v3_skid.c.html#15346"
+   "c1" : "15092"
+ , "c1link" : "./qc/crypto/x509/v3_skid.c.html#15092"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15346] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15092] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15350"
- , "c1link" : "./qc/crypto/x509/v3_skid.c.html#15350"
+   "c1" : "15096"
+ , "c1link" : "./qc/crypto/x509/v3_skid.c.html#15096"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15350] The pointer propq is declared but not initialized"
+ , "c3" : "QC-CPP000014[15096] The pointer propq is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15351"
- , "c1link" : "./qc/crypto/x509/v3_skid.c.html#15351"
+   "c1" : "15097"
+ , "c1link" : "./qc/crypto/x509/v3_skid.c.html#15097"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15351] The pointer libctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[15097] The pointer libctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15352"
- , "c1link" : "./qc/crypto/x509/v3_skid.c.html#15352"
+   "c1" : "15098"
+ , "c1link" : "./qc/crypto/x509/v3_skid.c.html#15098"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15352] The pointer md is declared but not initialized"
+ , "c3" : "QC-CPP000014[15098] The pointer md is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15376"
- , "c1link" : "./qc/crypto/x509/v3_skid.c.html#15376"
+   "c1" : "15122"
+ , "c1link" : "./qc/crypto/x509/v3_skid.c.html#15122"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15376] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15122] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15386"
- , "c1link" : "./qc/crypto/x509/v3_skid.c.html#15386"
+   "c1" : "15132"
+ , "c1link" : "./qc/crypto/x509/v3_skid.c.html#15132"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15386] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15132] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15430"
- , "c1link" : "./qc/crypto/x509/v3_skid.c.html#15430"
+   "c1" : "15176"
+ , "c1link" : "./qc/crypto/x509/v3_skid.c.html#15176"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15430] The expression 'none' is invariable"
+ , "c3" : "QC-CPP000012[15176] The expression 'none' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15433"
- , "c1link" : "./qc/crypto/x509/v3_skid.c.html#15433"
+   "c1" : "15179"
+ , "c1link" : "./qc/crypto/x509/v3_skid.c.html#15179"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15433] The expression 'hash' is invariable"
+ , "c3" : "QC-CPP000012[15179] The expression 'hash' is invariable"
 }} 
 ]
 };

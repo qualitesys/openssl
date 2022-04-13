@@ -356,17 +356,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11567"
- , "c1link" : "./qc/crypto/evp/e_sm4.c.html#11567"
+   "c1" : "11555"
+ , "c1link" : "./qc/crypto/evp/e_sm4.c.html#11555"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11567] The expression dat-&gt;stream.cbc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11555] The expression dat-&gt;stream.cbc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11639"
- , "c1link" : "./qc/crypto/evp/e_sm4.c.html#11639"
+   "c1" : "11627"
+ , "c1link" : "./qc/crypto/evp/e_sm4.c.html#11627"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11639] The expression dat-&gt;stream.ctr applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11627] The expression dat-&gt;stream.ctr applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

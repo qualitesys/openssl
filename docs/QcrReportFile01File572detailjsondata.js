@@ -363,94 +363,94 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08003"
- , "c1link" : "./qc/crypto/param_build.c.html#8003"
+   "c1" : "07991"
+ , "c1link" : "./qc/crypto/param_build.c.html#7991"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08003] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07991] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08169"
- , "c1link" : "./qc/crypto/param_build.c.html#8169"
+   "c1" : "08157"
+ , "c1link" : "./qc/crypto/param_build.c.html#8157"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08169] The pointer pd is declared but not initialized"
+ , "c3" : "QC-CPP000014[08157] The pointer pd is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08203"
- , "c1link" : "./qc/crypto/param_build.c.html#8203"
+   "c1" : "08191"
+ , "c1link" : "./qc/crypto/param_build.c.html#8191"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08203] The expression 0x08 is invariable"
+ , "c3" : "QC-CPP000012[08191] The expression 0x08 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08251"
- , "c1link" : "./qc/crypto/param_build.c.html#8251"
+   "c1" : "08239"
+ , "c1link" : "./qc/crypto/param_build.c.html#8239"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08251] The pointer pd is declared but not initialized"
+ , "c3" : "QC-CPP000014[08239] The pointer pd is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08279"
- , "c1link" : "./qc/crypto/param_build.c.html#8279"
+   "c1" : "08267"
+ , "c1link" : "./qc/crypto/param_build.c.html#8267"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08279] The pointer pd is declared but not initialized"
+ , "c3" : "QC-CPP000014[08267] The pointer pd is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08305"
- , "c1link" : "./qc/crypto/param_build.c.html#8305"
+   "c1" : "08293"
+ , "c1link" : "./qc/crypto/param_build.c.html#8293"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08305] The pointer pd is declared but not initialized"
+ , "c3" : "QC-CPP000014[08293] The pointer pd is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08331"
- , "c1link" : "./qc/crypto/param_build.c.html#8331"
+   "c1" : "08319"
+ , "c1link" : "./qc/crypto/param_build.c.html#8319"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08331] The pointer pd is declared but not initialized"
+ , "c3" : "QC-CPP000014[08319] The pointer pd is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08357"
- , "c1link" : "./qc/crypto/param_build.c.html#8357"
+   "c1" : "08345"
+ , "c1link" : "./qc/crypto/param_build.c.html#8345"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08357] The pointer pd is declared but not initialized"
+ , "c3" : "QC-CPP000014[08345] The pointer pd is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08358"
- , "c1link" : "./qc/crypto/param_build.c.html#8358"
+   "c1" : "08346"
+ , "c1link" : "./qc/crypto/param_build.c.html#8346"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08358] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[08346] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08367"
- , "c1link" : "./qc/crypto/param_build.c.html#8367"
+   "c1" : "08355"
+ , "c1link" : "./qc/crypto/param_build.c.html#8355"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08367] The expression pd-&gt;secure applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08355] The expression pd-&gt;secure applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08415"
- , "c1link" : "./qc/crypto/param_build.c.html#8415"
+   "c1" : "08403"
+ , "c1link" : "./qc/crypto/param_build.c.html#8403"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08415] The pointer blk is declared but not initialized"
+ , "c3" : "QC-CPP000014[08403] The pointer blk is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08420"
- , "c1link" : "./qc/crypto/param_build.c.html#8420"
+   "c1" : "08408"
+ , "c1link" : "./qc/crypto/param_build.c.html#8408"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08420] The pointer params is declared but not initialized"
+ , "c3" : "QC-CPP000014[08408] The pointer params is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08420"
- , "c1link" : "./qc/crypto/param_build.c.html#8420"
+   "c1" : "08408"
+ , "c1link" : "./qc/crypto/param_build.c.html#8408"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08420] The pointer last is declared but not initialized"
+ , "c3" : "QC-CPP000014[08408] The pointer last is declared but not initialized"
 }} 
 ]
 };

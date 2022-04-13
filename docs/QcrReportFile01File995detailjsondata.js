@@ -384,52 +384,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10633"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#10633"
+   "c1" : "10621"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#10621"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10633] The expression aead applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10621] The expression aead applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10679"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#10679"
+   "c1" : "10667"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#10667"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10679] The pointer rotated_mac is declared but not initialized"
+ , "c3" : "QC-CPP000014[10667] The pointer rotated_mac is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10679"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#10679"
+   "c1" : "10667"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#10667"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10679] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10667] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10684"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#10684"
+   "c1" : "10672"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#10672"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10684] The pointer out is declared but not initialized"
+ , "c3" : "QC-CPP000014[10672] The pointer out is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10684"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#10684"
+   "c1" : "10672"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#10672"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10684] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10672] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10732"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#10732"
+   "c1" : "10720"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#10720"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10732] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10720] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10745"
- , "c1link" : "./qc/ssl/record/tls_pad.c.html#10745"
+   "c1" : "10733"
+ , "c1link" : "./qc/ssl/record/tls_pad.c.html#10733"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10745] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10733] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

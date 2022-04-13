@@ -405,108 +405,108 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10512"
- , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10512"
+   "c1" : "10500"
+ , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10500"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10512] The expression 2 is invariable"
+ , "c3" : "QC-CPP000012[10500] The expression 2 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10582"
- , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10582"
+   "c1" : "10570"
+ , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10570"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10582] The expression 2 is invariable"
+ , "c3" : "QC-CPP000012[10570] The expression 2 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10708"
+ , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10708"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10708] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10715"
+ , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10715"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10715] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10717"
+ , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10717"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10717] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "10720"
  , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10720"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10720] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10724"
+ , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10724"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10720] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10724] The expression 0x01 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10727"
- , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10727"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10727] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10729"
- , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10729"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10729] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10732"
- , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10732"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10732] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10736"
- , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10736"
+   "c1" : "10724"
+ , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10724"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10736] The expression 0x01 is invariable"
+ , "c3" : "QC-CPP000012[10724] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10736"
- , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10736"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10736] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10758"
- , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10758"
+   "c1" : "10746"
+ , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10746"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10758] goto statement jump to end"
+ , "c3" : "QC-CPP000007[10746] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10771"
- , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10771"
+   "c1" : "10759"
+ , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10759"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10771] goto statement jump to end"
+ , "c3" : "QC-CPP000007[10759] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10945"
- , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10945"
+   "c1" : "10933"
+ , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10933"
  , "c2" : "MINOR"
- , "c3" : "QC-CPP000013[10945] Inline assembly code"
+ , "c3" : "QC-CPP000013[10933] Inline assembly code"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10949"
- , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10949"
+   "c1" : "10937"
+ , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10937"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[10949] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[10937] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10949"
- , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10949"
+   "c1" : "10937"
+ , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10937"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10949] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10937] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10954"
- , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10954"
+   "c1" : "10942"
+ , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10942"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10954] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10942] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10954"
- , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10954"
+   "c1" : "10942"
+ , "c1link" : "./qc/crypto/bio/bio_sock.c.html#10942"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10954] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10942] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

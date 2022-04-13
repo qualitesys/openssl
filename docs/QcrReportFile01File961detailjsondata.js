@@ -391,129 +391,129 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10596"
- , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10596"
+   "c1" : "10616"
+ , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10616"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10596] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[10616] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10596"
- , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10596"
+   "c1" : "10616"
+ , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10616"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10596] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10616] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10639"
- , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10639"
+   "c1" : "10659"
+ , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10659"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10639] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10659] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10652"
- , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10652"
+   "c1" : "10672"
+ , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10672"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10652] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10672] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10681"
- , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10681"
+   "c1" : "10695"
+ , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10695"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10681] The expression  ! res applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10695] The expression  ! res applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10693"
- , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10693"
+   "c1" : "10707"
+ , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10707"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10693] The pointer ent is declared but not initialized"
+ , "c3" : "QC-CPP000014[10707] The pointer ent is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10693"
- , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10693"
+   "c1" : "10707"
+ , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10707"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10693] The pointer entp is declared but not initialized"
+ , "c3" : "QC-CPP000014[10707] The pointer entp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10693"
- , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10693"
+   "c1" : "10707"
+ , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10707"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10693] The pointer entbuf is declared but not initialized"
+ , "c3" : "QC-CPP000014[10707] The pointer entbuf is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10693"
- , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10693"
+   "c1" : "10707"
+ , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10707"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10693] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10707] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10728"
- , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10728"
+   "c1" : "10741"
+ , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10741"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10728] The expression  ! crngt_glob-&gt;preloaded applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10741] The expression  ! crngt_glob-&gt;preloaded applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10736"
- , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10736"
+   "c1" : "10749"
+ , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10749"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10736] goto statement jump to unlock_return"
+ , "c3" : "QC-CPP000007[10749] goto statement jump to unlock_return"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10750"
- , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10750"
+   "c1" : "10763"
+ , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10763"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10750] goto statement jump to unlock_return"
+ , "c3" : "QC-CPP000007[10763] goto statement jump to unlock_return"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10751"
- , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10751"
+   "c1" : "10764"
+ , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10764"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10751] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10764] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10757"
- , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10757"
+   "c1" : "10770"
+ , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10770"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10757] goto statement jump to unlock_return"
+ , "c3" : "QC-CPP000007[10770] goto statement jump to unlock_return"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10771"
- , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10771"
+   "c1" : "10784"
+ , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10784"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10771] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10776"
- , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10776"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[10776] The end expression of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10781"
- , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10781"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10781] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10784] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "10789"
  , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10789"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[10789] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10794"
+ , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10794"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10789] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10794] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10802"
+ , "c1link" : "./qc/providers/implementations/rands/crngt.c.html#10802"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10802] goto statement jump to err"
 }} 
 ]
 };

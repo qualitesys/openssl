@@ -370,150 +370,150 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11571"
- , "c1link" : "./qc/crypto/evp/exchange.c.html#11571"
+   "c1" : "11559"
+ , "c1link" : "./qc/crypto/evp/exchange.c.html#11559"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11571] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11559] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11581"
- , "c1link" : "./qc/crypto/evp/exchange.c.html#11581"
+   "c1" : "11569"
+ , "c1link" : "./qc/crypto/evp/exchange.c.html#11569"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11581] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11569] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11585"
- , "c1link" : "./qc/crypto/evp/exchange.c.html#11585"
+   "c1" : "11573"
+ , "c1link" : "./qc/crypto/evp/exchange.c.html#11573"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11585] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11573] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11590"
- , "c1link" : "./qc/crypto/evp/exchange.c.html#11590"
+   "c1" : "11578"
+ , "c1link" : "./qc/crypto/evp/exchange.c.html#11578"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11590] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11578] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11706"
- , "c1link" : "./qc/crypto/evp/exchange.c.html#11706"
+   "c1" : "11694"
+ , "c1link" : "./qc/crypto/evp/exchange.c.html#11694"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11706] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11694] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11834"
- , "c1link" : "./qc/crypto/evp/exchange.c.html#11834"
+   "c1" : "11822"
+ , "c1link" : "./qc/crypto/evp/exchange.c.html#11822"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11834] goto statement jump to legacy"
+ , "c3" : "QC-CPP000007[11822] goto statement jump to legacy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11841"
+ , "c1link" : "./qc/crypto/evp/exchange.c.html#11841"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[11841] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "11853"
  , "c1link" : "./qc/crypto/evp/exchange.c.html#11853"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11853] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[11853] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11865"
- , "c1link" : "./qc/crypto/evp/exchange.c.html#11865"
+   "c1" : "11873"
+ , "c1link" : "./qc/crypto/evp/exchange.c.html#11873"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11865] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11873] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11885"
- , "c1link" : "./qc/crypto/evp/exchange.c.html#11885"
+   "c1" : "11888"
+ , "c1link" : "./qc/crypto/evp/exchange.c.html#11888"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11885] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11888] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11900"
- , "c1link" : "./qc/crypto/evp/exchange.c.html#11900"
+   "c1" : "11935"
+ , "c1link" : "./qc/crypto/evp/exchange.c.html#11935"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11900] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11935] goto statement jump to legacy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11947"
- , "c1link" : "./qc/crypto/evp/exchange.c.html#11947"
+   "c1" : "11945"
+ , "c1link" : "./qc/crypto/evp/exchange.c.html#11945"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11947] goto statement jump to legacy"
+ , "c3" : "QC-CPPCWE481[11945] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11957"
- , "c1link" : "./qc/crypto/evp/exchange.c.html#11957"
+   "c1" : "11970"
+ , "c1link" : "./qc/crypto/evp/exchange.c.html#11970"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11957] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[11970] goto statement jump to legacy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11982"
- , "c1link" : "./qc/crypto/evp/exchange.c.html#11982"
+   "c1" : "11990"
+ , "c1link" : "./qc/crypto/evp/exchange.c.html#11990"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11982] goto statement jump to legacy"
+ , "c3" : "QC-CPP000007[11990] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12002"
- , "c1link" : "./qc/crypto/evp/exchange.c.html#12002"
+   "c1" : "12085"
+ , "c1link" : "./qc/crypto/evp/exchange.c.html#12085"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12002] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12085] goto statement jump to legacy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12097"
- , "c1link" : "./qc/crypto/evp/exchange.c.html#12097"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12097] goto statement jump to legacy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12112"
- , "c1link" : "./qc/crypto/evp/exchange.c.html#12112"
+   "c1" : "12100"
+ , "c1link" : "./qc/crypto/evp/exchange.c.html#12100"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12112] The expression validate_peer applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[12100] The expression validate_peer applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12126"
- , "c1link" : "./qc/crypto/evp/exchange.c.html#12126"
+   "c1" : "12114"
+ , "c1link" : "./qc/crypto/evp/exchange.c.html#12114"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12126] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12114] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12149"
- , "c1link" : "./qc/crypto/evp/exchange.c.html#12149"
+   "c1" : "12137"
+ , "c1link" : "./qc/crypto/evp/exchange.c.html#12137"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12149] goto statement jump to legacy"
+ , "c3" : "QC-CPP000007[12137] goto statement jump to legacy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12298"
- , "c1link" : "./qc/crypto/evp/exchange.c.html#12298"
+   "c1" : "12286"
+ , "c1link" : "./qc/crypto/evp/exchange.c.html#12286"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12298] goto statement jump to legacy"
+ , "c3" : "QC-CPP000007[12286] goto statement jump to legacy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12393"
- , "c1link" : "./qc/crypto/evp/exchange.c.html#12393"
+   "c1" : "12381"
+ , "c1link" : "./qc/crypto/evp/exchange.c.html#12381"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12393] The pointer provctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[12381] The pointer provctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12420"
- , "c1link" : "./qc/crypto/evp/exchange.c.html#12420"
+   "c1" : "12408"
+ , "c1link" : "./qc/crypto/evp/exchange.c.html#12408"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12420] The pointer provctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[12408] The pointer provctx is declared but not initialized"
 }} 
 ]
 };

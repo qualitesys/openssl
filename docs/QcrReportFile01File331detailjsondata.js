@@ -363,31 +363,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10535"
- , "c1link" : "./qc/crypto/dsa/dsa_depr.c.html#10535"
+   "c1" : "10523"
+ , "c1link" : "./qc/crypto/dsa/dsa_depr.c.html#10523"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10535] The pointer cb is declared but not initialized"
+ , "c3" : "QC-CPP000014[10523] The pointer cb is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10536"
- , "c1link" : "./qc/crypto/dsa/dsa_depr.c.html#10536"
+   "c1" : "10524"
+ , "c1link" : "./qc/crypto/dsa/dsa_depr.c.html#10524"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10536] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[10524] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10538"
- , "c1link" : "./qc/crypto/dsa/dsa_depr.c.html#10538"
+   "c1" : "10526"
+ , "c1link" : "./qc/crypto/dsa/dsa_depr.c.html#10526"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10538] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10526] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10554"
- , "c1link" : "./qc/crypto/dsa/dsa_depr.c.html#10554"
+   "c1" : "10542"
+ , "c1link" : "./qc/crypto/dsa/dsa_depr.c.html#10542"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10554] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10542] goto statement jump to err"
 }} 
 ]
 };

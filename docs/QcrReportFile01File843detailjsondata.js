@@ -370,80 +370,80 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11284"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#11284"
+   "c1" : "11272"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#11272"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11284] The expression ctx-&gt;base.enc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11272] The expression ctx-&gt;base.enc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11398"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#11398"
+   "c1" : "11386"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#11386"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11398] The expression 16 is invariable"
+ , "c3" : "QC-CPP000012[11386] The expression 16 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11437"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#11437"
+   "c1" : "11425"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#11425"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11437] The expression 16 is invariable"
+ , "c3" : "QC-CPP000012[11425] The expression 16 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11472"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#11472"
+   "c1" : "11460"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#11460"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11472] The pointer buf is declared but not initialized"
+ , "c3" : "QC-CPP000014[11460] The pointer buf is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11472"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#11472"
+   "c1" : "11460"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#11460"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11472] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11460] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11473"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#11473"
+   "c1" : "11461"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#11461"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11473] The pointer buflen is declared but not initialized"
+ , "c3" : "QC-CPP000014[11461] The pointer buflen is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11530"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#11530"
+   "c1" : "11518"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#11518"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11530] The expression ctx-&gt;base.enc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11518] The expression ctx-&gt;base.enc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11549"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#11549"
+   "c1" : "11537"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#11537"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11549] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[11537] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11593"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#11593"
+   "c1" : "11581"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#11581"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11593] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[11581] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11634"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#11634"
+   "c1" : "11622"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#11622"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11634] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[11622] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11723"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#11723"
+   "c1" : "11711"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#11711"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11723] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[11711] The pointer p is declared but not initialized"
 }} 
 ]
 };

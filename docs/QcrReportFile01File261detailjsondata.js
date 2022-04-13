@@ -370,108 +370,108 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07996"
- , "c1link" : "./qc/crypto/conf/conf_api.c.html#7996"
+   "c1" : "07984"
+ , "c1link" : "./qc/crypto/conf/conf_api.c.html#7984"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07996] The pointer v is declared but not initialized"
+ , "c3" : "QC-CPP000014[07984] The pointer v is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08019"
- , "c1link" : "./qc/crypto/conf/conf_api.c.html#8019"
+   "c1" : "08007"
+ , "c1link" : "./qc/crypto/conf/conf_api.c.html#8007"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08019] The pointer ts is declared but not initialized"
+ , "c3" : "QC-CPP000014[08007] The pointer ts is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08044"
- , "c1link" : "./qc/crypto/conf/conf_api.c.html#8044"
+   "c1" : "08032"
+ , "c1link" : "./qc/crypto/conf/conf_api.c.html#8032"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08044] The pointer v is declared but not initialized"
+ , "c3" : "QC-CPP000014[08032] The pointer v is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08045"
- , "c1link" : "./qc/crypto/conf/conf_api.c.html#8045"
+   "c1" : "08033"
+ , "c1link" : "./qc/crypto/conf/conf_api.c.html#8033"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08045] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[08033] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08087"
- , "c1link" : "./qc/crypto/conf/conf_api.c.html#8087"
+   "c1" : "08075"
+ , "c1link" : "./qc/crypto/conf/conf_api.c.html#8075"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08087] The expression 'ENV' is invariable"
+ , "c3" : "QC-CPP000012[08075] The expression 'ENV' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08217"
- , "c1link" : "./qc/crypto/conf/conf_api.c.html#8217"
+   "c1" : "08205"
+ , "c1link" : "./qc/crypto/conf/conf_api.c.html#8205"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08217] The pointer vv is declared but not initialized"
+ , "c3" : "QC-CPP000014[08205] The pointer vv is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08218"
- , "c1link" : "./qc/crypto/conf/conf_api.c.html#8218"
+   "c1" : "08206"
+ , "c1link" : "./qc/crypto/conf/conf_api.c.html#8206"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08218] The pointer sk is declared but not initialized"
+ , "c3" : "QC-CPP000014[08206] The pointer sk is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08252"
- , "c1link" : "./qc/crypto/conf/conf_api.c.html#8252"
+   "c1" : "08240"
+ , "c1link" : "./qc/crypto/conf/conf_api.c.html#8240"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08252] The pointer vv is declared but not initialized"
+ , "c3" : "QC-CPP000014[08240] The pointer vv is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08254"
- , "c1link" : "./qc/crypto/conf/conf_api.c.html#8254"
+   "c1" : "08242"
+ , "c1link" : "./qc/crypto/conf/conf_api.c.html#8242"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08254] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08242] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08259"
- , "c1link" : "./qc/crypto/conf/conf_api.c.html#8259"
+   "c1" : "08247"
+ , "c1link" : "./qc/crypto/conf/conf_api.c.html#8247"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08259] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08247] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08248"
+ , "c1link" : "./qc/crypto/conf/conf_api.c.html#8248"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08248] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08253"
+ , "c1link" : "./qc/crypto/conf/conf_api.c.html#8253"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08253] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08255"
+ , "c1link" : "./qc/crypto/conf/conf_api.c.html#8255"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08255] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "08260"
  , "c1link" : "./qc/crypto/conf/conf_api.c.html#8260"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08260] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[08260] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08265"
- , "c1link" : "./qc/crypto/conf/conf_api.c.html#8265"
+   "c1" : "08276"
+ , "c1link" : "./qc/crypto/conf/conf_api.c.html#8276"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08265] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08267"
- , "c1link" : "./qc/crypto/conf/conf_api.c.html#8267"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08267] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08272"
- , "c1link" : "./qc/crypto/conf/conf_api.c.html#8272"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08272] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08288"
- , "c1link" : "./qc/crypto/conf/conf_api.c.html#8288"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08288] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08276] goto statement jump to err"
 }} 
 ]
 };

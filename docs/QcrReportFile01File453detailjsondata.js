@@ -356,10 +356,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11083"
- , "c1link" : "./qc/crypto/evp/e_rc4.c.html#11083"
+   "c1" : "11071"
+ , "c1link" : "./qc/crypto/evp/e_rc4.c.html#11071"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11083] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11071] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

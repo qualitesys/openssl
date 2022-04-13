@@ -230,52 +230,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13875"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#13875"
+   "c1" : "12888"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#12888"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13875] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12888] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13880"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#13880"
+   "c1" : "12893"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#12893"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13880] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12893] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13915"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#13915"
+   "c1" : "12928"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#12928"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13915] The expression  ! ok applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[12928] The expression  ! ok applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13918"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#13918"
+   "c1" : "12931"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#12931"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13918] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12931] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13924"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#13924"
+   "c1" : "12937"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#12937"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13924] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12937] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13950"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#13950"
+   "c1" : "12963"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#12963"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13950] The pointer oct is declared but not initialized"
+ , "c3" : "QC-CPP000014[12963] The pointer oct is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13961"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#13961"
+   "c1" : "12974"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#12974"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13961] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[12974] The expression 0 is invariable, always false"
 }} 
 ]
 };

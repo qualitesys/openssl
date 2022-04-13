@@ -363,24 +363,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07983"
- , "c1link" : "./qc/crypto/bn/bn_depr.c.html#7983"
+   "c1" : "07971"
+ , "c1link" : "./qc/crypto/bn/bn_depr.c.html#7971"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07983] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07971] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07988"
- , "c1link" : "./qc/crypto/bn/bn_depr.c.html#7988"
+   "c1" : "07976"
+ , "c1link" : "./qc/crypto/bn/bn_depr.c.html#7976"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07988] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07976] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07992"
- , "c1link" : "./qc/crypto/bn/bn_depr.c.html#7992"
+   "c1" : "07980"
+ , "c1link" : "./qc/crypto/bn/bn_depr.c.html#7980"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07992] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07980] goto statement jump to err"
 }} 
 ]
 };

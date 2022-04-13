@@ -356,17 +356,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07931"
- , "c1link" : "./qc/crypto/property/property_query.c.html#7931"
+   "c1" : "07919"
+ , "c1link" : "./qc/crypto/property/property_query.c.html#7919"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07931] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07919] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07987"
- , "c1link" : "./qc/crypto/property/property_query.c.html#7987"
+   "c1" : "07975"
+ , "c1link" : "./qc/crypto/property/property_query.c.html#7975"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07987] The pointer prop is declared but not initialized"
+ , "c3" : "QC-CPP000014[07975] The pointer prop is declared but not initialized"
 }} 
 ]
 };

@@ -370,122 +370,122 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07940"
- , "c1link" : "./qc/crypto/der_writer.c.html#7940"
+   "c1" : "07928"
+ , "c1link" : "./qc/crypto/der_writer.c.html#7928"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07940] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07928] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07981"
- , "c1link" : "./qc/crypto/der_writer.c.html#7981"
+   "c1" : "07969"
+ , "c1link" : "./qc/crypto/der_writer.c.html#7969"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07981] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07969] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08023"
- , "c1link" : "./qc/crypto/der_writer.c.html#8023"
+   "c1" : "08011"
+ , "c1link" : "./qc/crypto/der_writer.c.html#8011"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08023] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08011] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08058"
- , "c1link" : "./qc/crypto/der_writer.c.html#8058"
+   "c1" : "08046"
+ , "c1link" : "./qc/crypto/der_writer.c.html#8046"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08058] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08046] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08242"
- , "c1link" : "./qc/crypto/der_writer.c.html#8242"
+   "c1" : "08230"
+ , "c1link" : "./qc/crypto/der_writer.c.html#8230"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08242] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[08230] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08242"
- , "c1link" : "./qc/crypto/der_writer.c.html#8242"
+   "c1" : "08230"
+ , "c1link" : "./qc/crypto/der_writer.c.html#8230"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08242] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08230] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08264"
- , "c1link" : "./qc/crypto/der_writer.c.html#8264"
+   "c1" : "08252"
+ , "c1link" : "./qc/crypto/der_writer.c.html#8252"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08264] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[08252] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08264"
- , "c1link" : "./qc/crypto/der_writer.c.html#8264"
+   "c1" : "08252"
+ , "c1link" : "./qc/crypto/der_writer.c.html#8252"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08264] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08252] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08283"
- , "c1link" : "./qc/crypto/der_writer.c.html#8283"
+   "c1" : "08271"
+ , "c1link" : "./qc/crypto/der_writer.c.html#8271"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08283] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[08271] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08283"
- , "c1link" : "./qc/crypto/der_writer.c.html#8283"
+   "c1" : "08271"
+ , "c1link" : "./qc/crypto/der_writer.c.html#8271"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08283] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08271] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08306"
- , "c1link" : "./qc/crypto/der_writer.c.html#8306"
+   "c1" : "08294"
+ , "c1link" : "./qc/crypto/der_writer.c.html#8294"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08306] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[08294] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08306"
- , "c1link" : "./qc/crypto/der_writer.c.html#8306"
+   "c1" : "08294"
+ , "c1link" : "./qc/crypto/der_writer.c.html#8294"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08306] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08294] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08326"
- , "c1link" : "./qc/crypto/der_writer.c.html#8326"
+   "c1" : "08314"
+ , "c1link" : "./qc/crypto/der_writer.c.html#8314"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08326] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[08314] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08326"
- , "c1link" : "./qc/crypto/der_writer.c.html#8326"
+   "c1" : "08314"
+ , "c1link" : "./qc/crypto/der_writer.c.html#8314"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08326] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08314] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08676"
- , "c1link" : "./qc/crypto/der_writer.c.html#8676"
+   "c1" : "08664"
+ , "c1link" : "./qc/crypto/der_writer.c.html#8664"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08676] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08664] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08713"
- , "c1link" : "./qc/crypto/der_writer.c.html#8713"
+   "c1" : "08701"
+ , "c1link" : "./qc/crypto/der_writer.c.html#8701"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[08713] The variable n is post incremented and is tested with equility, risk to be always false"
+ , "c3" : "QC-CPP000019[08701] The variable n is post incremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08728"
- , "c1link" : "./qc/crypto/der_writer.c.html#8728"
+   "c1" : "08716"
+ , "c1link" : "./qc/crypto/der_writer.c.html#8716"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08728] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08716] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

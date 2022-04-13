@@ -363,73 +363,59 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11209"
- , "c1link" : "./qc/crypto/provider_child.c.html#11209"
+   "c1" : "11223"
+ , "c1link" : "./qc/crypto/provider_child.c.html#11223"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11209] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[11223] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11210"
- , "c1link" : "./qc/crypto/provider_child.c.html#11210"
+   "c1" : "11224"
+ , "c1link" : "./qc/crypto/provider_child.c.html#11224"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11210] The pointer gbl is declared but not initialized"
+ , "c3" : "QC-CPP000014[11224] The pointer gbl is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11255"
- , "c1link" : "./qc/crypto/provider_child.c.html#11255"
+   "c1" : "11268"
+ , "c1link" : "./qc/crypto/provider_child.c.html#11268"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11255] The pointer gbl is declared but not initialized"
+ , "c3" : "QC-CPP000014[11268] The pointer gbl is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11256"
- , "c1link" : "./qc/crypto/provider_child.c.html#11256"
+   "c1" : "11269"
+ , "c1link" : "./qc/crypto/provider_child.c.html#11269"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11256] The pointer provname is declared but not initialized"
+ , "c3" : "QC-CPP000014[11269] The pointer provname is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11257"
- , "c1link" : "./qc/crypto/provider_child.c.html#11257"
+   "c1" : "11270"
+ , "c1link" : "./qc/crypto/provider_child.c.html#11270"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11257] The pointer cprov is declared but not initialized"
+ , "c3" : "QC-CPP000014[11270] The pointer cprov is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11280"
- , "c1link" : "./qc/crypto/provider_child.c.html#11280"
+   "c1" : "11292"
+ , "c1link" : "./qc/crypto/provider_child.c.html#11292"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11280] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11292] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11296"
- , "c1link" : "./qc/crypto/provider_child.c.html#11296"
+   "c1" : "11308"
+ , "c1link" : "./qc/crypto/provider_child.c.html#11308"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11296] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[11308] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11296"
- , "c1link" : "./qc/crypto/provider_child.c.html#11296"
+   "c1" : "11308"
+ , "c1link" : "./qc/crypto/provider_child.c.html#11308"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11296] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11297"
- , "c1link" : "./qc/crypto/provider_child.c.html#11297"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11297] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11303"
- , "c1link" : "./qc/crypto/provider_child.c.html#11303"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11303] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000012[11308] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
@@ -440,87 +426,101 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11311"
- , "c1link" : "./qc/crypto/provider_child.c.html#11311"
+   "c1" : "11315"
+ , "c1link" : "./qc/crypto/provider_child.c.html#11315"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[11315] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11321"
+ , "c1link" : "./qc/crypto/provider_child.c.html#11321"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11321] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11323"
+ , "c1link" : "./qc/crypto/provider_child.c.html#11323"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11311] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[11323] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11311"
- , "c1link" : "./qc/crypto/provider_child.c.html#11311"
+   "c1" : "11323"
+ , "c1link" : "./qc/crypto/provider_child.c.html#11323"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11311] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[11323] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11312"
- , "c1link" : "./qc/crypto/provider_child.c.html#11312"
+   "c1" : "11324"
+ , "c1link" : "./qc/crypto/provider_child.c.html#11324"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11312] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11324] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11319"
- , "c1link" : "./qc/crypto/provider_child.c.html#11319"
+   "c1" : "11331"
+ , "c1link" : "./qc/crypto/provider_child.c.html#11331"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11319] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[11331] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11322"
- , "c1link" : "./qc/crypto/provider_child.c.html#11322"
+   "c1" : "11334"
+ , "c1link" : "./qc/crypto/provider_child.c.html#11334"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11322] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11334] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11335"
- , "c1link" : "./qc/crypto/provider_child.c.html#11335"
+   "c1" : "11347"
+ , "c1link" : "./qc/crypto/provider_child.c.html#11347"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11335] The pointer gbl is declared but not initialized"
+ , "c3" : "QC-CPP000014[11347] The pointer gbl is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11336"
- , "c1link" : "./qc/crypto/provider_child.c.html#11336"
+   "c1" : "11348"
+ , "c1link" : "./qc/crypto/provider_child.c.html#11348"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11336] The pointer provname is declared but not initialized"
+ , "c3" : "QC-CPP000014[11348] The pointer provname is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11337"
- , "c1link" : "./qc/crypto/provider_child.c.html#11337"
+   "c1" : "11349"
+ , "c1link" : "./qc/crypto/provider_child.c.html#11349"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11337] The pointer cprov is declared but not initialized"
+ , "c3" : "QC-CPP000014[11349] The pointer cprov is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11362"
- , "c1link" : "./qc/crypto/provider_child.c.html#11362"
+   "c1" : "11373"
+ , "c1link" : "./qc/crypto/provider_child.c.html#11373"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11362] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[11373] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11379"
- , "c1link" : "./qc/crypto/provider_child.c.html#11379"
+   "c1" : "11390"
+ , "c1link" : "./qc/crypto/provider_child.c.html#11390"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11379] The pointer gbl is declared but not initialized"
+ , "c3" : "QC-CPP000014[11390] The pointer gbl is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11506"
- , "c1link" : "./qc/crypto/provider_child.c.html#11506"
+   "c1" : "11515"
+ , "c1link" : "./qc/crypto/provider_child.c.html#11515"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11506] The pointer gbl is declared but not initialized"
+ , "c3" : "QC-CPP000014[11515] The pointer gbl is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11523"
- , "c1link" : "./qc/crypto/provider_child.c.html#11523"
+   "c1" : "11531"
+ , "c1link" : "./qc/crypto/provider_child.c.html#11531"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11523] The pointer gbl is declared but not initialized"
+ , "c3" : "QC-CPP000014[11531] The pointer gbl is declared but not initialized"
 }} 
 ]
 };

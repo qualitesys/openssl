@@ -370,150 +370,150 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15317"
- , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15317"
+   "c1" : "15061"
+ , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15061"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15317] The expression  ! ctx applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15061] The expression  ! ctx applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15366"
- , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15366"
+   "c1" : "15110"
+ , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15110"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15366] The expression  ! ctx applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15110] The expression  ! ctx applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15389"
- , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15389"
+   "c1" : "15133"
+ , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15133"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15389] The pointer policy is declared but not initialized"
+ , "c3" : "QC-CPP000014[15133] The pointer policy is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15390"
- , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15390"
+   "c1" : "15134"
+ , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15134"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15390] The pointer imprint is declared but not initialized"
+ , "c3" : "QC-CPP000014[15134] The pointer imprint is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15391"
- , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15391"
+   "c1" : "15135"
+ , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15135"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15391] The pointer md_alg is declared but not initialized"
+ , "c3" : "QC-CPP000014[15135] The pointer md_alg is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15392"
- , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15392"
+   "c1" : "15136"
+ , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15136"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15392] The pointer msg is declared but not initialized"
+ , "c3" : "QC-CPP000014[15136] The pointer msg is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15393"
- , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15393"
+   "c1" : "15137"
+ , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15137"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15393] The pointer nonce is declared but not initialized"
+ , "c3" : "QC-CPP000014[15137] The pointer nonce is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15400"
- , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15400"
+   "c1" : "15144"
+ , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15144"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15400] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15144] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15402"
- , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15402"
+   "c1" : "15146"
+ , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15146"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15402] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15146] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15415"
- , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15415"
+   "c1" : "15159"
+ , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15159"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15415] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15159] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15420"
- , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15420"
+   "c1" : "15164"
+ , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15164"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15420] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15164] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15425"
- , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15425"
+   "c1" : "15169"
+ , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15169"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15425] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15169] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15431"
- , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15431"
+   "c1" : "15175"
+ , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15175"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15431] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15175] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15436"
- , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15436"
+   "c1" : "15180"
+ , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15180"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15436] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15180] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15440"
- , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15440"
+   "c1" : "15184"
+ , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15184"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15440] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15184] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15441"
- , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15441"
+   "c1" : "15185"
+ , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15185"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15441] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15185] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15446"
- , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15446"
+   "c1" : "15190"
+ , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15190"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15446] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15190] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15449"
- , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15449"
+   "c1" : "15193"
+ , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15193"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15449] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15193] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15454"
- , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15454"
+   "c1" : "15198"
+ , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15198"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15454] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15198] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15459"
- , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15459"
+   "c1" : "15203"
+ , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15203"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15459] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15203] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15465"
- , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15465"
+   "c1" : "15209"
+ , "c1link" : "./qc/crypto/ts/ts_verify_ctx.c.html#15209"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15465] The expression ctx applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15209] The expression ctx applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

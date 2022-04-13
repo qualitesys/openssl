@@ -370,80 +370,80 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15347"
- , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15347"
+   "c1" : "15093"
+ , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15093"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15347] The pointer pt is declared but not initialized"
+ , "c3" : "QC-CPP000014[15093] The pointer pt is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15363"
- , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15363"
+   "c1" : "15109"
+ , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15109"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15363] The expression  ! trtable applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15109] The expression  ! trtable applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15419"
- , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15419"
+   "c1" : "15165"
+ , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15165"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15419] The pointer trtmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[15165] The pointer trtmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15430"
- , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15430"
+   "c1" : "15176"
+ , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15176"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15430] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15176] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15450"
- , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15450"
+   "c1" : "15196"
+ , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15196"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15450] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15196] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15460"
- , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15460"
+   "c1" : "15206"
+ , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15206"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15460] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15206] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15479"
- , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15479"
+   "c1" : "15225"
+ , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15225"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15479] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15225] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15489"
- , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15489"
+   "c1" : "15235"
+ , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15235"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15489] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15235] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15497"
- , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15497"
+   "c1" : "15243"
+ , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15243"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15497] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15243] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15575"
- , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15575"
+   "c1" : "15321"
+ , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15321"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15575] The expression  - 1 is invariable"
+ , "c3" : "QC-CPP000012[15321] The expression  - 1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15575"
- , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15575"
+   "c1" : "15321"
+ , "c1link" : "./qc/crypto/x509/x509_trust.c.html#15321"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15575] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[15321] The expression 0 is invariable, always false"
 }} 
 ]
 };

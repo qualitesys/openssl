@@ -370,171 +370,171 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15261"
- , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15261"
+   "c1" : "15005"
+ , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15005"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15261] The pointer ai is declared but not initialized"
+ , "c3" : "QC-CPP000014[15005] The pointer ai is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15261"
- , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15261"
+   "c1" : "15005"
+ , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15005"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15261] The pointer bi is declared but not initialized"
+ , "c3" : "QC-CPP000014[15005] The pointer bi is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15293"
- , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15293"
+   "c1" : "15037"
+ , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15037"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15293] The pointer f is declared but not initialized"
+ , "c3" : "QC-CPP000014[15037] The pointer f is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15305"
- , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15305"
+   "c1" : "15049"
+ , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15049"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15305] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15049] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15316"
- , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15316"
+   "c1" : "15060"
+ , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15060"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15316] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15060] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15323"
- , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15323"
+   "c1" : "15067"
+ , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15067"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15323] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15067] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15330"
- , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15330"
+   "c1" : "15074"
+ , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15074"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15330] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15074] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15332"
- , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15332"
+   "c1" : "15076"
+ , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15076"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15332] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15076] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15337"
- , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15337"
+   "c1" : "15081"
+ , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15081"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15337] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15081] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15343"
- , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15343"
+   "c1" : "15087"
+ , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15087"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15343] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15087] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15484"
- , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15484"
+   "c1" : "15228"
+ , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15228"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15484] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15228] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15723"
- , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15723"
+   "c1" : "15467"
+ , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15467"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15723] goto statement jump to end"
+ , "c3" : "QC-CPP000007[15467] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15765"
- , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15765"
+   "c1" : "15509"
+ , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15509"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15765] The expression  ! sk applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15509] The expression  ! sk applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15789"
- , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15789"
+   "c1" : "15533"
+ , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15533"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15789] The pointer x509 is declared but not initialized"
+ , "c3" : "QC-CPP000014[15533] The pointer x509 is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15836"
- , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15836"
+   "c1" : "15580"
+ , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15580"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15836] The pointer xk is declared but not initialized"
+ , "c3" : "QC-CPP000014[15580] The pointer xk is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15853"
- , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15853"
+   "c1" : "15597"
+ , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15597"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15853] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15597] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15890"
- , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15890"
+   "c1" : "15634"
+ , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15634"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15890] The expression 'EC' is invariable"
+ , "c3" : "QC-CPP000012[15634] The expression 'EC' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15924"
- , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15924"
+   "c1" : "15668"
+ , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15668"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15924] The pointer pk is declared but not initialized"
+ , "c3" : "QC-CPP000014[15668] The pointer pk is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15960"
- , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15960"
+   "c1" : "15704"
+ , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15704"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15960] goto statement jump to end"
+ , "c3" : "QC-CPP000007[15704] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15968"
- , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15968"
+   "c1" : "15712"
+ , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15712"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15968] goto statement jump to end"
+ , "c3" : "QC-CPP000007[15712] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15975"
- , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15975"
+   "c1" : "15719"
+ , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15719"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15975] goto statement jump to end"
+ , "c3" : "QC-CPP000007[15719] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15980"
- , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15980"
+   "c1" : "15724"
+ , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15724"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15980] goto statement jump to end"
+ , "c3" : "QC-CPP000007[15724] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15997"
- , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15997"
+   "c1" : "15741"
+ , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15741"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15997] The expression perror_depth applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15741] The expression perror_depth applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16031"
- , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#16031"
+   "c1" : "15775"
+ , "c1link" : "./qc/crypto/x509/x509_cmp.c.html#15775"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16031] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15775] goto statement jump to err"
 }} 
 ]
 };

@@ -356,10 +356,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07897"
- , "c1link" : "./qc/crypto/self_test_core.c.html#7897"
+   "c1" : "07917"
+ , "c1link" : "./qc/crypto/self_test_core.c.html#7917"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07897] The pointer stcb is declared but not initialized"
+ , "c3" : "QC-CPP000014[07917] The pointer stcb is declared but not initialized"
 }} 
 ]
 };

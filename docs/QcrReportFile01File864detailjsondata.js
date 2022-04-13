@@ -363,17 +363,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10595"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_hw.c.html#10595"
+   "c1" : "10583"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_hw.c.html#10583"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10595] The expression bctx-&gt;iv_set applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10583] The expression bctx-&gt;iv_set applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10623"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_hw.c.html#10623"
+   "c1" : "10611"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_hw.c.html#10611"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10623] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10611] The expression 0 is invariable, always false"
 }} 
 ]
 };

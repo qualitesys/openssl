@@ -279,31 +279,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06615"
- , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#6615"
+   "c1" : "06622"
+ , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#6622"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06615] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[06622] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06618"
- , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#6618"
+   "c1" : "06625"
+ , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#6625"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06618] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[06625] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06637"
- , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#6637"
+   "c1" : "06644"
+ , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#6644"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06637] The expression cv applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06644] The expression cv applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06655"
- , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#6655"
+   "c1" : "06662"
+ , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#6662"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06655] The expression cp applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06662] The expression cp applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

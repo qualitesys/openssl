@@ -377,129 +377,129 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11459"
- , "c1link" : "./qc/crypto/evp/encode.c.html#11459"
+   "c1" : "11447"
+ , "c1link" : "./qc/crypto/evp/encode.c.html#11447"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11459] The pointer table is declared but not initialized"
+ , "c3" : "QC-CPP000014[11447] The pointer table is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11459"
- , "c1link" : "./qc/crypto/evp/encode.c.html#11459"
+   "c1" : "11447"
+ , "c1link" : "./qc/crypto/evp/encode.c.html#11447"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11459] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11447] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11518"
- , "c1link" : "./qc/crypto/evp/encode.c.html#11518"
+   "c1" : "11506"
+ , "c1link" : "./qc/crypto/evp/encode.c.html#11506"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11518] The pointer d is declared but not initialized"
+ , "c3" : "QC-CPP000014[11506] The pointer d is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11518"
- , "c1link" : "./qc/crypto/evp/encode.c.html#11518"
+   "c1" : "11506"
+ , "c1link" : "./qc/crypto/evp/encode.c.html#11506"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11518] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11506] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11519"
- , "c1link" : "./qc/crypto/evp/encode.c.html#11519"
+   "c1" : "11507"
+ , "c1link" : "./qc/crypto/evp/encode.c.html#11507"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11519] The pointer table is declared but not initialized"
+ , "c3" : "QC-CPP000014[11507] The pointer table is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11519"
- , "c1link" : "./qc/crypto/evp/encode.c.html#11519"
+   "c1" : "11507"
+ , "c1link" : "./qc/crypto/evp/encode.c.html#11507"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11519] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11507] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11533"
- , "c1link" : "./qc/crypto/evp/encode.c.html#11533"
+   "c1" : "11521"
+ , "c1link" : "./qc/crypto/evp/encode.c.html#11521"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11533] goto statement jump to end"
+ , "c3" : "QC-CPP000007[11521] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11546"
- , "c1link" : "./qc/crypto/evp/encode.c.html#11546"
+   "c1" : "11534"
+ , "c1link" : "./qc/crypto/evp/encode.c.html#11534"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11546] goto statement jump to end"
+ , "c3" : "QC-CPP000007[11534] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11554"
- , "c1link" : "./qc/crypto/evp/encode.c.html#11554"
+   "c1" : "11542"
+ , "c1link" : "./qc/crypto/evp/encode.c.html#11542"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11554] goto statement jump to end"
+ , "c3" : "QC-CPP000007[11542] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11559"
- , "c1link" : "./qc/crypto/evp/encode.c.html#11559"
+   "c1" : "11547"
+ , "c1link" : "./qc/crypto/evp/encode.c.html#11547"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11559] goto statement jump to end"
+ , "c3" : "QC-CPP000007[11547] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11552"
+ , "c1link" : "./qc/crypto/evp/encode.c.html#11552"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11552] goto statement jump to tail"
 }} 
 ,
 { "ligne" : {
    "c1" : "11564"
  , "c1link" : "./qc/crypto/evp/encode.c.html#11564"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11564] goto statement jump to tail"
+ , "c3" : "QC-CPP000007[11564] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11576"
- , "c1link" : "./qc/crypto/evp/encode.c.html#11576"
+   "c1" : "11575"
+ , "c1link" : "./qc/crypto/evp/encode.c.html#11575"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11576] goto statement jump to end"
+ , "c3" : "QC-CPP000007[11575] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11587"
- , "c1link" : "./qc/crypto/evp/encode.c.html#11587"
+   "c1" : "11594"
+ , "c1link" : "./qc/crypto/evp/encode.c.html#11594"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11587] goto statement jump to end"
+ , "c3" : "QC-CPP000007[11594] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11606"
- , "c1link" : "./qc/crypto/evp/encode.c.html#11606"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11606] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11609"
- , "c1link" : "./qc/crypto/evp/encode.c.html#11609"
+   "c1" : "11597"
+ , "c1link" : "./qc/crypto/evp/encode.c.html#11597"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11609] The expression seof applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11597] The expression seof applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11612"
- , "c1link" : "./qc/crypto/evp/encode.c.html#11612"
+   "c1" : "11600"
+ , "c1link" : "./qc/crypto/evp/encode.c.html#11600"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11612] goto statement jump to end"
+ , "c3" : "QC-CPP000007[11600] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11629"
- , "c1link" : "./qc/crypto/evp/encode.c.html#11629"
+   "c1" : "11617"
+ , "c1link" : "./qc/crypto/evp/encode.c.html#11617"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11629] The pointer table is declared but not initialized"
+ , "c3" : "QC-CPP000014[11617] The pointer table is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11629"
- , "c1link" : "./qc/crypto/evp/encode.c.html#11629"
+   "c1" : "11617"
+ , "c1link" : "./qc/crypto/evp/encode.c.html#11617"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11629] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11617] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

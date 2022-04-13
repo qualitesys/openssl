@@ -356,31 +356,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10325"
- , "c1link" : "./qc/crypto/info.c.html#10325"
+   "c1" : "10313"
+ , "c1link" : "./qc/crypto/info.c.html#10313"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10325] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10313] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10325"
- , "c1link" : "./qc/crypto/info.c.html#10325"
+   "c1" : "10313"
+ , "c1link" : "./qc/crypto/info.c.html#10313"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[10325] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[10313] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10325"
- , "c1link" : "./qc/crypto/info.c.html#10325"
+   "c1" : "10313"
+ , "c1link" : "./qc/crypto/info.c.html#10313"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10325] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10313] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10371"
- , "c1link" : "./qc/crypto/info.c.html#10371"
+   "c1" : "10359"
+ , "c1link" : "./qc/crypto/info.c.html#10359"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10371] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10359] The expression 0 is invariable, always false"
 }} 
 ]
 };

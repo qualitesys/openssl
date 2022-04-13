@@ -237,836 +237,836 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13831"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13831"
+   "c1" : "13589"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13589"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13831] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13589] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13832"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13832"
+   "c1" : "13590"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13590"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13832] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13590] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13893"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13893"
+   "c1" : "13651"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13651"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13893] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13651] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13897"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13897"
+   "c1" : "13655"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13655"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13897] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13655] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13901"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13901"
+   "c1" : "13659"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13659"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13901] The expression  new !=0 is invariable"
+ , "c3" : "QC-CPP000012[13659] The expression  new !=0 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13913"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13913"
+   "c1" : "13671"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13671"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13913] The pointer controls is declared but not initialized"
+ , "c3" : "QC-CPP000014[13671] The pointer controls is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13945"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13945"
+   "c1" : "13703"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13703"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13945] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13703] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13945"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13945"
+   "c1" : "13703"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13703"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13945] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[13703] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13949"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13949"
+   "c1" : "13707"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13707"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13949] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13707] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13949"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13949"
+   "c1" : "13707"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13707"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13949] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[13707] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13953"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13953"
+   "c1" : "13711"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13711"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13953] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13711] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13953"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13953"
+   "c1" : "13711"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13711"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13953] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[13711] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13957"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13957"
+   "c1" : "13715"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13715"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13957] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13715] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13957"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13957"
+   "c1" : "13715"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13715"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13957] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13715] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13961"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13961"
+   "c1" : "13719"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13719"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13961] The pointer controls is declared but not initialized"
+ , "c3" : "QC-CPP000014[13719] The pointer controls is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13993"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13993"
+   "c1" : "13751"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13751"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13993] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13751] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13993"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13993"
+   "c1" : "13751"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13751"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13993] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[13751] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13997"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13997"
+   "c1" : "13755"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13755"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13997] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13755] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13997"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13997"
+   "c1" : "13755"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13755"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13997] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[13755] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14001"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14001"
+   "c1" : "13759"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13759"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14001] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13759] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14001"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14001"
+   "c1" : "13759"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13759"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[13759] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13763"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13763"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13763] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13763"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13763"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13763] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13848"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13848"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13848] The pointer controls is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13880"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13880"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13880] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13880"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13880"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[13880] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13884"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13884"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13884] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13884"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13884"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[13884] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13888"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13888"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13888] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13888"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13888"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[13888] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13892"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13892"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13892] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13892"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13892"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13892] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13896"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13896"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13896] The pointer controls is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13928"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13928"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13928] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13928"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13928"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[13928] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13932"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13932"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13932] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13932"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13932"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[13932] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13936"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13936"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13936] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13936"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13936"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[13936] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13940"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13940"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13940] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13940"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13940"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13940] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13972"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13972"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[13972] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13977"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13977"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13977] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13980"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13980"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13980] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13984"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13984"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[13984] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13989"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#13989"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13989] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "14005"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14005"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14005] goto statement jump to err"
+ , "c3" : "QC-CPP000014[14005] The pointer controls is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14005"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14005"
+   "c1" : "14037"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14037"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14005] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14037] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14090"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14090"
+   "c1" : "14037"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14037"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14090] The pointer controls is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[14037] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14122"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14122"
+   "c1" : "14041"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14041"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14122] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14041] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14122"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14122"
+   "c1" : "14041"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14041"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14122] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14041] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14126"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14126"
+   "c1" : "14045"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14045"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14126] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14045] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14126"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14126"
+   "c1" : "14045"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14045"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14126] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14045] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14130"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14130"
+   "c1" : "14049"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14049"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14130] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14049] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14130"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14130"
+   "c1" : "14049"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14049"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14130] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[14049] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14134"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14134"
+   "c1" : "14087"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14087"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14134] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[14087] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14134"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14134"
+   "c1" : "14093"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14093"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14134] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14093] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14138"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14138"
+   "c1" : "14095"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14095"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14138] The pointer controls is declared but not initialized"
+ , "c3" : "QC-CPP000007[14095] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14170"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14170"
+   "c1" : "14114"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14114"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14170] goto statement jump to err"
+ , "c3" : "QC-CPP000014[14114] The pointer controls is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14170"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14170"
+   "c1" : "14146"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14146"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14170] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[14146] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14174"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14174"
+   "c1" : "14146"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14146"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14174] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[14146] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14174"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14174"
+   "c1" : "14150"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14150"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14174] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[14150] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14178"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14178"
+   "c1" : "14150"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14150"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14178] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[14150] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14178"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14178"
+   "c1" : "14154"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14154"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14178] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[14154] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14182"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14182"
+   "c1" : "14154"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14154"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14182] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[14154] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14182"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14182"
+   "c1" : "14158"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14158"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14182] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14158] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14214"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14214"
+   "c1" : "14158"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14158"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14214] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[14158] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14219"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14219"
+   "c1" : "14161"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14161"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14219] goto statement jump to err"
+ , "c3" : "QC-CPP000014[14161] The pointer controls is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14222"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14222"
+   "c1" : "14193"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14193"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14222] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14193] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14226"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14226"
+   "c1" : "14193"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14193"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14226] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14193] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14231"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14231"
+   "c1" : "14197"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14197"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14231] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14197] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14247"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14247"
+   "c1" : "14197"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14197"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14247] The pointer controls is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[14197] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14279"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14279"
+   "c1" : "14201"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14201"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14279] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14201] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14279"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14279"
+   "c1" : "14201"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14201"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14279] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14201] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14283"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14283"
+   "c1" : "14205"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14205"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14283] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14205] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14283"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14283"
+   "c1" : "14205"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14205"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14283] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[14205] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14287"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14287"
+   "c1" : "14238"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14238"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14287] goto statement jump to err"
+ , "c3" : "QC-CPP000014[14238] The pointer vld is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14287"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14287"
+   "c1" : "14254"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14254"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14287] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14254] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14291"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14291"
+   "c1" : "14412"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14412"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14291] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[14412] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14291"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14291"
+   "c1" : "14417"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14417"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14291] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14417] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14329"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14329"
+   "c1" : "14422"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14422"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14329] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[14422] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14335"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14335"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14335] goto statement jump to err"
+   "c1" : "14425"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14425"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14425] The expression  new !=0 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14337"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14337"
+   "c1" : "14522"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14522"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14337] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14522] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14356"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14356"
+   "c1" : "14523"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14523"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14356] The pointer controls is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[14523] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14388"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14388"
+   "c1" : "14528"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14528"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14388] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14528] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14388"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14388"
+   "c1" : "14533"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14533"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14388] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14533] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14392"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14392"
+   "c1" : "14538"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14538"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14392] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14538] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14392"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14392"
+   "c1" : "14550"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14550"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14392] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[14550] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14396"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14396"
+   "c1" : "14554"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14554"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14396] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14554] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14396"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14396"
+   "c1" : "14561"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14561"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14396] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14561] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14400"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14400"
+   "c1" : "14566"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14566"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14400] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14566] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14400"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14400"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14400] goto statement jump to err"
+   "c1" : "14576"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14576"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14576] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14403"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14403"
+   "c1" : "14577"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14577"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14403] The pointer controls is declared but not initialized"
+ , "c3" : "QC-CPP000007[14577] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14435"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14435"
+   "c1" : "14586"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14586"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14435] goto statement jump to err"
+ , "c3" : "QC-CPP000007[14586] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14435"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14435"
+   "c1" : "14619"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14619"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14435] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[14619] The pointer it is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14439"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14439"
+   "c1" : "14620"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14620"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14439] goto statement jump to err"
+ , "c3" : "QC-CPP000014[14620] The pointer asn is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14439"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14439"
+   "c1" : "14626"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14626"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14439] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14443"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14443"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14443] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14443"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14443"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14443] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14447"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14447"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14447] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14447"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14447"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14447] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14480"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14480"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14480] The pointer vld is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14496"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14496"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14496] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14626] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "14654"
  , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14654"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14654] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14659"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14659"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14659] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14664"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14664"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14664] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14667"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14667"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14667] The expression  new !=0 is invariable"
+ , "c3" : "QC-CPP000011[14654] The expression  ! acceptRAVerified applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14764"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14764"
+   "c1" : "14735"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14735"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14764] goto statement jump to end"
+ , "c3" : "QC-CPP000002[14735] Avoid multiple switch labels with default case in switch case"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14765"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14765"
+   "c1" : "14875"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14875"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14765] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14875] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14770"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14770"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14770] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14775"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14775"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14775] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14780"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14780"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14780] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14792"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14792"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14792] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14796"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14796"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14796] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14803"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14803"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14803] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14808"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14808"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14808] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14818"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14818"
+   "c1" : "14906"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14906"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14818] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000005[14906] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14819"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14819"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14819] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14828"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14828"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14828] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14861"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14861"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14861] The pointer it is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14862"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14862"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14862] The pointer asn is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14868"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14868"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14868] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14896"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14896"
+   "c1" : "14918"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14918"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14896] The expression  ! acceptRAVerified applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[14918] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14977"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14977"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000002[14977] Avoid multiple switch labels with default case in switch case"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15117"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15117"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15117] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15148"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15148"
+   "c1" : "14923"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14923"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15148] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14923] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15160"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15160"
+   "c1" : "14928"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#14928"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15160] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14928] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15165"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15165"
+   "c1" : "15007"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15007"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15007] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15029"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15029"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15029] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15034"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15034"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15034] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15041"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15041"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15165] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[15041] The expression failure applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15170"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15170"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[15170] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15249"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15249"
+   "c1" : "15047"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15047"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15249] goto statement jump to end"
+ , "c3" : "QC-CPP000007[15047] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15271"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15271"
+   "c1" : "15050"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15050"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15271] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[15050] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15276"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15276"
+   "c1" : "15052"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15052"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15276] goto statement jump to end"
+ , "c3" : "QC-CPPCWE481[15052] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15283"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15283"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15283] The expression failure applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15289"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15289"
+   "c1" : "15057"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15057"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15289] goto statement jump to end"
+ , "c3" : "QC-CPP000007[15057] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15292"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15292"
+   "c1" : "15066"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15066"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15292] goto statement jump to end"
+ , "c3" : "QC-CPP000007[15066] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15294"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15294"
+   "c1" : "15073"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15073"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15294] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15073] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15299"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15299"
+   "c1" : "15079"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15079"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15299] goto statement jump to end"
+ , "c3" : "QC-CPPCWE481[15079] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15308"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15308"
+   "c1" : "15084"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15084"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15308] goto statement jump to end"
+ , "c3" : "QC-CPP000007[15084] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15315"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15315"
+   "c1" : "15097"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15097"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15315] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[15097] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15321"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15321"
+   "c1" : "15102"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15102"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15321] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15102] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15326"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15326"
+   "c1" : "15107"
+ , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15107"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15326] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15339"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15339"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15339] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15344"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15344"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15344] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15349"
- , "c1link" : "./qc/crypto/crmf/crmf_lib.c.html#15349"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15349] goto statement jump to end"
+ , "c3" : "QC-CPP000007[15107] goto statement jump to end"
 }} 
 ]
 };

@@ -363,10 +363,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10756"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_sm4_gcm_hw.c.html#10756"
+   "c1" : "10744"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_sm4_gcm_hw.c.html#10744"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10756] The expression ctx-&gt;enc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10744] The expression ctx-&gt;enc applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -384,59 +384,87 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07801"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7801"
+   "c1" : "07789"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7789"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07801] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[07789] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07801"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7801"
+   "c1" : "07789"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7789"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07801] The pointer f is declared but not initialized"
+ , "c3" : "QC-CPP000014[07789] The pointer f is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07790"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7790"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[07790] The pointer pp is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07797"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7797"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07797] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "07802"
  , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7802"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07802] The pointer pp is declared but not initialized"
+ , "c3" : "QC-CPP000007[07802] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07809"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7809"
+   "c1" : "07804"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7804"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07809] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[07804] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07814"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7814"
+   "c1" : "07806"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7806"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07814] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[07806] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07816"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7816"
+   "c1" : "07811"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7811"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07816] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07818"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7818"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07818] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[07811] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "07823"
  , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7823"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07823] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[07823] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07828"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7828"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07828] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07829"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7829"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07829] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07834"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7834"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07834] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
@@ -454,262 +482,234 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07841"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7841"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07841] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07846"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7846"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07846] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07847"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7847"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07847] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07852"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7852"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07852] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07869"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7869"
+   "c1" : "07857"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7857"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[07869] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[07857] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07869"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7869"
+   "c1" : "07857"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7857"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[07869] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[07857] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07873"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7873"
+   "c1" : "07861"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7861"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07873] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07861] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07888"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7888"
+   "c1" : "07876"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7876"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07888] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07876] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07893"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7893"
+   "c1" : "07881"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7881"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07893] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07881] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07904"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7904"
+   "c1" : "07892"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7892"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[07904] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[07892] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07904"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7904"
+   "c1" : "07892"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7892"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[07904] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[07892] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07908"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7908"
+   "c1" : "07896"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7896"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07908] The expression esc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07896] The expression esc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07926"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7926"
+   "c1" : "07914"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7914"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07926] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07914] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07931"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7931"
+   "c1" : "07919"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7919"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[07931] goto statement jump to err"
+ , "c3" : "QC-CPP000007[07919] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07958"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7958"
+   "c1" : "07946"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7946"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07958] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[07946] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07959"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7959"
+   "c1" : "07947"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7947"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07959] The pointer lh is declared but not initialized"
+ , "c3" : "QC-CPP000014[07947] The pointer lh is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07990"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7990"
+   "c1" : "07978"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7978"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07990] The pointer idx is declared but not initialized"
+ , "c3" : "QC-CPP000014[07978] The pointer idx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07991"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7991"
+   "c1" : "07979"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7979"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07991] The pointer r is declared but not initialized"
+ , "c3" : "QC-CPP000014[07979] The pointer r is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07991"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7991"
+   "c1" : "07979"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7979"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07991] The pointer k is declared but not initialized"
+ , "c3" : "QC-CPP000014[07979] The pointer k is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07999"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7999"
+   "c1" : "07987"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#7987"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07999] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07987] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08016"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8016"
+   "c1" : "08004"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8004"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08016] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08004] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08046"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8046"
+   "c1" : "08034"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8034"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08046] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[08034] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08046"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8046"
+   "c1" : "08034"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8034"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08046] The pointer pp is declared but not initialized"
+ , "c3" : "QC-CPP000014[08034] The pointer pp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08046"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8046"
+   "c1" : "08034"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8034"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08046] The pointer f is declared but not initialized"
+ , "c3" : "QC-CPP000014[08034] The pointer f is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08054"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8054"
+   "c1" : "08042"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8042"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08054] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08042] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08059"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8059"
+   "c1" : "08047"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8047"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08059] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08047] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08075"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8075"
+   "c1" : "08063"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8063"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08075] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08063] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08073"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8073"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08073] The condition of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08073"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8073"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08073] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08082"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8082"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000015[08082] Suspicion use of negative array index -1"
 }} 
 ,
 { "ligne" : {
    "c1" : "08085"
  , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8085"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08085] The condition of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08085"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8085"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08085] The end expression of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08094"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8094"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000015[08094] Suspicion use of negative array index -1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08085] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "08097"
  , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8097"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08097] goto statement jump to err"
+ , "c3" : "QC-CPP000014[08097] The pointer r is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08109"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8109"
+   "c1" : "08120"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8120"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08109] The pointer r is declared but not initialized"
+ , "c3" : "QC-CPP000007[08120] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08132"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8132"
+   "c1" : "08143"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8143"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08132] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08143] goto statement jump to err1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08155"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8155"
+   "c1" : "08147"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8147"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08155] goto statement jump to err1"
+ , "c3" : "QC-CPP000007[08147] goto statement jump to err1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08159"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8159"
+   "c1" : "08174"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8174"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08159] goto statement jump to err1"
+ , "c3" : "QC-CPP000014[08174] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08186"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8186"
+   "c1" : "08174"
+ , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8174"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08186] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08186"
- , "c1link" : "./qc/crypto/txt_db/txt_db.c.html#8186"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08186] The pointer max is declared but not initialized"
+ , "c3" : "QC-CPP000014[08174] The pointer max is declared but not initialized"
 }} 
 ]
 };

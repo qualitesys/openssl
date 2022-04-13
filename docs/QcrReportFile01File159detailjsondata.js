@@ -391,59 +391,59 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10550"
- , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10550"
+   "c1" : "10538"
+ , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10538"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10550] The pointer b is declared but not initialized"
+ , "c3" : "QC-CPP000014[10538] The pointer b is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10573"
- , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10573"
+   "c1" : "10561"
+ , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10561"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10573] The pointer tmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[10561] The pointer tmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10597"
- , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10597"
+   "c1" : "10585"
+ , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10585"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10597] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[10585] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10619"
- , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10619"
+   "c1" : "10607"
+ , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10607"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[10619] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[10607] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10619"
- , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10619"
+   "c1" : "10607"
+ , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10607"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[10619] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[10607] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10664"
- , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10664"
+   "c1" : "10652"
+ , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10652"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10664] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[10652] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10732"
- , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10732"
+   "c1" : "10720"
+ , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10720"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10732] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[10720] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10734"
- , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10734"
+   "c1" : "10722"
+ , "c1link" : "./qc/crypto/bio/bf_readbuff.c.html#10722"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10734] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[10722] The pointer p is declared but not initialized"
 }} 
 ]
 };

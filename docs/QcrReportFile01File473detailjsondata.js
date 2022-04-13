@@ -356,17 +356,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11576"
- , "c1link" : "./qc/crypto/evp/kdf_lib.c.html#11576"
+   "c1" : "11564"
+ , "c1link" : "./qc/crypto/evp/kdf_lib.c.html#11564"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11576] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11564] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11625"
- , "c1link" : "./qc/crypto/evp/kdf_lib.c.html#11625"
+   "c1" : "11613"
+ , "c1link" : "./qc/crypto/evp/kdf_lib.c.html#11613"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11625] The pointer dst is declared but not initialized"
+ , "c3" : "QC-CPP000014[11613] The pointer dst is declared but not initialized"
 }} 
 ]
 };

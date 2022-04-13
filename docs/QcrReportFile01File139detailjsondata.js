@@ -356,52 +356,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08052"
- , "c1link" : "./qc/crypto/asn1/x_bignum.c.html#8052"
+   "c1" : "08040"
+ , "c1link" : "./qc/crypto/asn1/x_bignum.c.html#8040"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08052] The pointer bn is declared but not initialized"
+ , "c3" : "QC-CPP000014[08040] The pointer bn is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08066"
- , "c1link" : "./qc/crypto/asn1/x_bignum.c.html#8066"
+   "c1" : "08054"
+ , "c1link" : "./qc/crypto/asn1/x_bignum.c.html#8054"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08066] The expression cont applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08054] The expression cont applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08067"
- , "c1link" : "./qc/crypto/asn1/x_bignum.c.html#8067"
+   "c1" : "08055"
+ , "c1link" : "./qc/crypto/asn1/x_bignum.c.html#8055"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08067] The expression pad applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08055] The expression pad applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08077"
- , "c1link" : "./qc/crypto/asn1/x_bignum.c.html#8077"
+   "c1" : "08065"
+ , "c1link" : "./qc/crypto/asn1/x_bignum.c.html#8065"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08077] The pointer bn is declared but not initialized"
+ , "c3" : "QC-CPP000014[08065] The pointer bn is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08097"
- , "c1link" : "./qc/crypto/asn1/x_bignum.c.html#8097"
+   "c1" : "08085"
+ , "c1link" : "./qc/crypto/asn1/x_bignum.c.html#8085"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08097] The pointer bn is declared but not initialized"
+ , "c3" : "QC-CPP000014[08085] The pointer bn is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08107"
- , "c1link" : "./qc/crypto/asn1/x_bignum.c.html#8107"
+   "c1" : "08095"
+ , "c1link" : "./qc/crypto/asn1/x_bignum.c.html#8095"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08107] The expression  ! ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08095] The expression  ! ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08121"
- , "c1link" : "./qc/crypto/asn1/x_bignum.c.html#8121"
+   "c1" : "08109"
+ , "c1link" : "./qc/crypto/asn1/x_bignum.c.html#8109"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08121] The expression '\n' is invariable"
+ , "c3" : "QC-CPP000012[08109] The expression '\n' is invariable"
 }} 
 ]
 };

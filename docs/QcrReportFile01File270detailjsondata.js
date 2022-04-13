@@ -370,38 +370,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08627"
- , "c1link" : "./qc/crypto/core_algorithm.c.html#8627"
+   "c1" : "08615"
+ , "c1link" : "./qc/crypto/core_algorithm.c.html#8615"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08627] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08615] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08654"
- , "c1link" : "./qc/crypto/core_algorithm.c.html#8654"
+   "c1" : "08642"
+ , "c1link" : "./qc/crypto/core_algorithm.c.html#8642"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08654] The expression  ! ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08642] The expression  ! ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08664"
- , "c1link" : "./qc/crypto/core_algorithm.c.html#8664"
+   "c1" : "08652"
+ , "c1link" : "./qc/crypto/core_algorithm.c.html#8652"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08664] The pointer thismap is declared but not initialized"
+ , "c3" : "QC-CPP000014[08652] The pointer thismap is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08691"
- , "c1link" : "./qc/crypto/core_algorithm.c.html#8691"
+   "c1" : "08679"
+ , "c1link" : "./qc/crypto/core_algorithm.c.html#8679"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08691] The expression  ! ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08679] The expression  ! ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08749"
- , "c1link" : "./qc/crypto/core_algorithm.c.html#8749"
+   "c1" : "08737"
+ , "c1link" : "./qc/crypto/core_algorithm.c.html#8737"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08749] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[08737] The pointer ret is declared but not initialized"
 }} 
 ]
 };

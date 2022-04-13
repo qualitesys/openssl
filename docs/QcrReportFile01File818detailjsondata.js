@@ -363,115 +363,115 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08490"
- , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#8490"
+   "c1" : "08478"
+ , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#8478"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08490] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08478] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08531"
- , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#8531"
+   "c1" : "08519"
+ , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#8519"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08531] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08519] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08573"
- , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#8573"
+   "c1" : "08561"
+ , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#8561"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08573] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08561] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08608"
- , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#8608"
+   "c1" : "08596"
+ , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#8596"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08608] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08596] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08792"
- , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#8792"
+   "c1" : "08780"
+ , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#8780"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08792] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[08780] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08792"
- , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#8792"
+   "c1" : "08780"
+ , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#8780"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08792] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08780] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08814"
- , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#8814"
+   "c1" : "08802"
+ , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#8802"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08814] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[08802] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08814"
- , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#8814"
+   "c1" : "08802"
+ , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#8802"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08814] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08802] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08833"
- , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#8833"
+   "c1" : "08821"
+ , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#8821"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08833] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[08821] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08833"
- , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#8833"
+   "c1" : "08821"
+ , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#8821"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08833] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08821] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08856"
- , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#8856"
+   "c1" : "08844"
+ , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#8844"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08856] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[08844] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08856"
- , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#8856"
+   "c1" : "08844"
+ , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#8844"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08856] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08844] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08876"
- , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#8876"
+   "c1" : "08864"
+ , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#8864"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08876] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[08864] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08876"
- , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#8876"
+   "c1" : "08864"
+ , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#8864"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08876] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08864] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09550"
- , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#9550"
+   "c1" : "09538"
+ , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#9538"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09550] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09538] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09613"
- , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#9613"
+   "c1" : "09601"
+ , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#9601"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09613] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09601] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

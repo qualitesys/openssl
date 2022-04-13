@@ -363,73 +363,73 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10699"
- , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon.c.html#10699"
+   "c1" : "10687"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon.c.html#10687"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10699] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[10687] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10906"
- , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon.c.html#10906"
+   "c1" : "10894"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon.c.html#10894"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10906] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[10894] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11189"
- , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon.c.html#11189"
+   "c1" : "11177"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon.c.html#11177"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11189] The expression ctx-&gt;enc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11177] The expression ctx-&gt;enc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11247"
- , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon.c.html#11247"
+   "c1" : "11235"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon.c.html#11235"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11247] The expression ctx-&gt;alloced applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11235] The expression ctx-&gt;alloced applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11263"
- , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon.c.html#11263"
+   "c1" : "11251"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon.c.html#11251"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11263] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[11251] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11369"
- , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon.c.html#11369"
+   "c1" : "11357"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon.c.html#11357"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11369] The expression ctx-&gt;enc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11357] The expression ctx-&gt;enc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11370"
- , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon.c.html#11370"
+   "c1" : "11358"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon.c.html#11358"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11370] The expression ctx-&gt;pad applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11358] The expression ctx-&gt;pad applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11482"
- , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon.c.html#11482"
+   "c1" : "11470"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon.c.html#11470"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11482] The expression ctx-&gt;removetlspad applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11470] The expression ctx-&gt;removetlspad applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11556"
- , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon.c.html#11556"
+   "c1" : "11544"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon.c.html#11544"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11556] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[11544] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11660"
- , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon.c.html#11660"
+   "c1" : "11648"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon.c.html#11648"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11660] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[11648] The pointer p is declared but not initialized"
 }} 
 ]
 };

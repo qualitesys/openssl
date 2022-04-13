@@ -356,31 +356,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14768"
- , "c1link" : "./qc/crypto/x509/v3_utf8.c.html#14768"
+   "c1" : "14514"
+ , "c1link" : "./qc/crypto/x509/v3_utf8.c.html#14514"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14768] The pointer tmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[14514] The pointer tmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14786"
- , "c1link" : "./qc/crypto/x509/v3_utf8.c.html#14786"
+   "c1" : "14532"
+ , "c1link" : "./qc/crypto/x509/v3_utf8.c.html#14532"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14786] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14532] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14810"
- , "c1link" : "./qc/crypto/x509/v3_utf8.c.html#14810"
+   "c1" : "14556"
+ , "c1link" : "./qc/crypto/x509/v3_utf8.c.html#14556"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14810] The pointer utf8 is declared but not initialized"
+ , "c3" : "QC-CPP000014[14556] The pointer utf8 is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14827"
- , "c1link" : "./qc/crypto/x509/v3_utf8.c.html#14827"
+   "c1" : "14573"
+ , "c1link" : "./qc/crypto/x509/v3_utf8.c.html#14573"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14827] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14573] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

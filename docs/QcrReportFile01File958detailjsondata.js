@@ -363,115 +363,115 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10869"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10869"
+   "c1" : "10857"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10857"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10869] The pointer kctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[10857] The pointer kctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10878"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10878"
+   "c1" : "10866"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10866"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10878] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10866] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10883"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10883"
+   "c1" : "10871"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10871"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10883] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10871] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10958"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10958"
+   "c1" : "10946"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10946"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10958] The pointer dst is declared but not initialized"
+ , "c3" : "QC-CPP000014[10946] The pointer dst is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11037"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11037"
+   "c1" : "11025"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11025"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11037] The pointer out is declared but not initialized"
+ , "c3" : "QC-CPP000014[11025] The pointer out is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11037"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11037"
+   "c1" : "11025"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11025"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11037] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11025] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11194"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11194"
+   "c1" : "11182"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11182"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11194] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[11182] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11197"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11197"
+   "c1" : "11185"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11185"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11197] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11185] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11205"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11205"
+   "c1" : "11193"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11193"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11205] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11193] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11258"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11258"
+   "c1" : "11246"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11246"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11258] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[11246] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11267"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11267"
+   "c1" : "11255"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11255"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11267] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11255] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11274"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11274"
+   "c1" : "11262"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11262"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11274] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11262] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11293"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11293"
+   "c1" : "11281"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11281"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11293] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11281] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11300"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11300"
+   "c1" : "11288"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11288"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11300] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11288] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11407"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11407"
+   "c1" : "11395"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11395"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11407] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11395] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11488"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11488"
+   "c1" : "11476"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11476"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11488] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[11476] The expression 0 is invariable, always false"
 }} 
 ]
 };

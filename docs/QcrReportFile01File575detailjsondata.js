@@ -370,10 +370,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07980"
- , "c1link" : "./qc/crypto/params_dup.c.html#7980"
+   "c1" : "07968"
+ , "c1link" : "./qc/crypto/params_dup.c.html#7968"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07980] The pointer in is declared but not initialized"
+ , "c3" : "QC-CPP000014[07968] The pointer in is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07983"
+ , "c1link" : "./qc/crypto/params_dup.c.html#7983"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07983] The expression has_dst applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "07991"
+ , "c1link" : "./qc/crypto/params_dup.c.html#7991"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07991] The expression has_dst applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -384,129 +398,115 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08003"
- , "c1link" : "./qc/crypto/params_dup.c.html#8003"
+   "c1" : "08002"
+ , "c1link" : "./qc/crypto/params_dup.c.html#8002"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08003] The expression has_dst applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08002] The expression has_dst applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08007"
- , "c1link" : "./qc/crypto/params_dup.c.html#8007"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08007] The expression has_dst applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08014"
- , "c1link" : "./qc/crypto/params_dup.c.html#8014"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08014] The expression has_dst applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08034"
- , "c1link" : "./qc/crypto/params_dup.c.html#8034"
+   "c1" : "08022"
+ , "c1link" : "./qc/crypto/params_dup.c.html#8022"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08034] The pointer last is declared but not initialized"
+ , "c3" : "QC-CPP000014[08022] The pointer last is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08034"
- , "c1link" : "./qc/crypto/params_dup.c.html#8034"
+   "c1" : "08022"
+ , "c1link" : "./qc/crypto/params_dup.c.html#8022"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08034] The pointer dst is declared but not initialized"
+ , "c3" : "QC-CPP000014[08022] The pointer dst is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08068"
- , "c1link" : "./qc/crypto/params_dup.c.html#8068"
+   "c1" : "08056"
+ , "c1link" : "./qc/crypto/params_dup.c.html#8056"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08068] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08056] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08068"
- , "c1link" : "./qc/crypto/params_dup.c.html#8068"
+   "c1" : "08056"
+ , "c1link" : "./qc/crypto/params_dup.c.html#8056"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08068] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08056] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08076"
- , "c1link" : "./qc/crypto/params_dup.c.html#8076"
+   "c1" : "08064"
+ , "c1link" : "./qc/crypto/params_dup.c.html#8064"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08076] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[08064] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08077"
- , "c1link" : "./qc/crypto/params_dup.c.html#8077"
+   "c1" : "08065"
+ , "c1link" : "./qc/crypto/params_dup.c.html#8065"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08077] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[08065] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08077"
- , "c1link" : "./qc/crypto/params_dup.c.html#8077"
+   "c1" : "08065"
+ , "c1link" : "./qc/crypto/params_dup.c.html#8065"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08077] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08065] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08077"
- , "c1link" : "./qc/crypto/params_dup.c.html#8077"
+   "c1" : "08065"
+ , "c1link" : "./qc/crypto/params_dup.c.html#8065"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08077] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[08065] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08115"
- , "c1link" : "./qc/crypto/params_dup.c.html#8115"
+   "c1" : "08103"
+ , "c1link" : "./qc/crypto/params_dup.c.html#8103"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08115] The pointer p1cur is declared but not initialized"
+ , "c3" : "QC-CPP000014[08103] The pointer p1cur is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08115"
- , "c1link" : "./qc/crypto/params_dup.c.html#8115"
+   "c1" : "08103"
+ , "c1link" : "./qc/crypto/params_dup.c.html#8103"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08115] The pointer p2cur is declared but not initialized"
+ , "c3" : "QC-CPP000014[08103] The pointer p2cur is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08116"
- , "c1link" : "./qc/crypto/params_dup.c.html#8116"
+   "c1" : "08104"
+ , "c1link" : "./qc/crypto/params_dup.c.html#8104"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08116] The pointer params is declared but not initialized"
+ , "c3" : "QC-CPP000014[08104] The pointer params is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08116"
- , "c1link" : "./qc/crypto/params_dup.c.html#8116"
+   "c1" : "08104"
+ , "c1link" : "./qc/crypto/params_dup.c.html#8104"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08116] The pointer dst is declared but not initialized"
+ , "c3" : "QC-CPP000014[08104] The pointer dst is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08216"
- , "c1link" : "./qc/crypto/params_dup.c.html#8216"
+   "c1" : "08204"
+ , "c1link" : "./qc/crypto/params_dup.c.html#8204"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08216] The condition of do while loop is always true, infinite loop risk while (1) do{} 1"
+ , "c3" : "QC-CPP000006[08204] The condition of do while loop is always true, infinite loop risk while (1) do{} 1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08216"
- , "c1link" : "./qc/crypto/params_dup.c.html#8216"
+   "c1" : "08204"
+ , "c1link" : "./qc/crypto/params_dup.c.html#8204"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08216] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[08204] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08274"
- , "c1link" : "./qc/crypto/params_dup.c.html#8274"
+   "c1" : "08262"
+ , "c1link" : "./qc/crypto/params_dup.c.html#8262"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08274] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[08262] The pointer p is declared but not initialized"
 }} 
 ]
 };

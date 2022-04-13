@@ -370,556 +370,556 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15637"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15637"
+   "c1" : "15383"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15383"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15637] The pointer gnsect is declared but not initialized"
+ , "c3" : "QC-CPP000014[15383] The pointer gnsect is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15638"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15638"
+   "c1" : "15384"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15384"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15638] The pointer gens is declared but not initialized"
+ , "c3" : "QC-CPP000014[15384] The pointer gens is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15389"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15389"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15389] The expression  ! gnsect applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15429"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15429"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15429] The expression  ! fnm applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15430"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15430"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15430] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15431"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15431"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15431] The expression 'relativename' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15433"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15433"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15433] The pointer dnsect is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15434"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15434"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15434] The pointer nm is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15443"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15443"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15443] The expression  ! dnsect applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15462"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15462"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15462] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15473"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15473"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15473] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15478"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15478"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15478] The expression  * pdp applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15484"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15484"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15484] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15493"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15493"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15493] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15494"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15494"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15494] The expression fnm applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15538"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15538"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15538] The pointer pbn is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15539"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15539"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15539] The pointer bnam is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15553"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15553"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15553] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15567"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15567"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15567] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15569"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15569"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15569] The expression pbn-&gt;lname applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15571"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15571"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15571] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15572"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15572"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15572] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15581"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15581"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15581] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15594"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15594"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15594] The pointer pbn is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15596"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15596"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15596] The expression pbn-&gt;lname applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15598"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15598"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15598] The expression first applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15605"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15605"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15605] The expression first applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15616"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15616"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15616] The pointer cnf is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15624"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15624"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15624] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15632"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15632"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15632] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15633"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15633"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15633] The expression 'reasons' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15635"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15635"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15635] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15636"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15636"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15636] The expression 'CRLissuer' is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "15643"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15643"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15643] The expression  ! gnsect applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15683"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15683"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15683] The expression  ! fnm applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15684"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15684"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15684] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15643] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15685"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15685"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15685] The expression 'relativename' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15687"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15687"
+   "c1" : "15661"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15661"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15687] The pointer dnsect is declared but not initialized"
+ , "c3" : "QC-CPP000014[15661] The pointer crld is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15672"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15672"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15672] The pointer cnf is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15686"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15686"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15686] goto statement jump to merr"
 }} 
 ,
 { "ligne" : {
    "c1" : "15688"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15688"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15688] The pointer nm is declared but not initialized"
+ , "c3" : "QC-CPP000014[15688] The pointer point is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15697"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15697"
+   "c1" : "15696"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15696"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15696] The pointer dpsect is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15698"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15698"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15697] The expression  ! dnsect applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15698] The expression  ! dpsect applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15699"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15699"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15699] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15707"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15707"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15707] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15710"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15710"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15710] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15715"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15715"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15715] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "15716"
  , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15716"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15716] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[15716] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15727"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15727"
+   "c1" : "15721"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15721"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15727] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15721] goto statement jump to merr"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15732"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15732"
+   "c1" : "15723"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15723"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15723] goto statement jump to merr"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15729"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15729"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15729] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15734"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15734"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15734] goto statement jump to merr"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15736"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15736"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15736] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15741"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15741"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15741] goto statement jump to merr"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16017"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16017"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[16017] The pointer cnf is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16018"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16018"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[16018] The pointer name is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16018"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16018"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[16018] The pointer val is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16026"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16026"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16026] goto statement jump to merr"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16035"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16035"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16035] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16036"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16036"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15732] The expression  * pdp applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[16036] The expression 'onlyuser' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15738"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15738"
+   "c1" : "16038"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16038"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15738] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16038] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15747"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15747"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15747] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15748"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15748"
+   "c1" : "16039"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16039"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15748] The expression fnm applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[16039] The expression 'onlyCA' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15792"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15792"
+   "c1" : "16041"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16041"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15792] The pointer pbn is declared but not initialized"
+ , "c3" : "QC-CPP000007[16041] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15793"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15793"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15793] The pointer bnam is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15807"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15807"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15807] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15821"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15821"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15821] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15823"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15823"
+   "c1" : "16042"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16042"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15823] The expression pbn-&gt;lname applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[16042] The expression 'onlyAA' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15825"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15825"
+   "c1" : "16044"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16044"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16044] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16045"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16045"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15825] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[16045] The expression 'indirectCRL' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15826"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15826"
+   "c1" : "16047"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16047"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15826] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16047] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15835"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15835"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15835] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15848"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15848"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15848] The pointer pbn is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15850"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15850"
+   "c1" : "16048"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16048"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15850] The expression pbn-&gt;lname applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[16048] The expression 'onlysomereasons' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15852"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15852"
+   "c1" : "16050"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16050"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16050] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16058"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16058"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16058] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16109"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16109"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15852] The expression first applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16109] The expression idp-&gt;distpoint applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15859"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15859"
+   "c1" : "16117"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16117"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15859] The expression first applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16117] The expression idp-&gt;onlysomereasons applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15870"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15870"
+   "c1" : "16133"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16133"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15870] The pointer cnf is declared but not initialized"
+ , "c3" : "QC-CPP000014[16133] The pointer point is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15878"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15878"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15878] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15886"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15886"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15886] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15887"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15887"
+   "c1" : "16139"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16139"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15887] The expression 'reasons' is invariable"
+ , "c3" : "QC-CPP000011[16139] The expression point-&gt;distpoint applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15889"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15889"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15889] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15890"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15890"
+   "c1" : "16141"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16141"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15890] The expression 'CRLissuer' is invariable"
+ , "c3" : "QC-CPP000011[16141] The expression point-&gt;reasons applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15897"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15897"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15897] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15915"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15915"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15915] The pointer crld is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15926"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15926"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15926] The pointer cnf is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15940"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15940"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15940] goto statement jump to merr"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15942"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15942"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15942] The pointer point is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15950"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15950"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15950] The pointer dpsect is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15952"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15952"
+   "c1" : "16143"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16143"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15952] The expression  ! dpsect applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16143] The expression point-&gt;CRLissuer applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15953"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15953"
+   "c1" : "16155"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16155"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15953] goto statement jump to err"
+ , "c3" : "QC-CPP000014[16155] The pointer frag is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15961"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15961"
+   "c1" : "16156"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16156"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15961] goto statement jump to err"
+ , "c3" : "QC-CPP000014[16156] The pointer ne is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15964"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15964"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15964] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15969"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15969"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15969] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15970"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15970"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15970] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15975"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15975"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15975] goto statement jump to merr"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15977"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15977"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15977] goto statement jump to merr"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15983"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15983"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15983] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15988"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15988"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15988] goto statement jump to merr"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15990"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15990"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15990] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15995"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#15995"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15995] goto statement jump to merr"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16271"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16271"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16271] The pointer cnf is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16272"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16272"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16272] The pointer name is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16272"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16272"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16272] The pointer val is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16280"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16280"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16280] goto statement jump to merr"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16289"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16289"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16289] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16290"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16290"
+   "c1" : "16175"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16175"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16290] The expression 'onlyuser' is invariable"
+ , "c3" : "QC-CPP000012[16175] The expression  - 1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16292"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16292"
+   "c1" : "16175"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16175"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16175] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16175"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16175"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16175] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16176"
+ , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16176"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16292] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16293"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16293"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16293] The expression 'onlyCA' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16295"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16295"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16295] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16296"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16296"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16296] The expression 'onlyAA' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16298"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16298"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16298] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16299"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16299"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16299] The expression 'indirectCRL' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16301"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16301"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16301] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16302"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16302"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16302] The expression 'onlysomereasons' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16304"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16304"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16304] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16312"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16312"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16312] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16363"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16363"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16363] The expression idp-&gt;distpoint applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16371"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16371"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16371] The expression idp-&gt;onlysomereasons applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16387"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16387"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16387] The pointer point is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16393"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16393"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16393] The expression point-&gt;distpoint applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16395"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16395"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16395] The expression point-&gt;reasons applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16397"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16397"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16397] The expression point-&gt;CRLissuer applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16409"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16409"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16409] The pointer frag is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16410"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16410"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16410] The pointer ne is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16429"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16429"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16429] The expression  - 1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16429"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16429"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16429] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16429"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16429"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16429] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16430"
- , "c1link" : "./qc/crypto/x509/v3_crld.c.html#16430"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16430] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16176] goto statement jump to err"
 }} 
 ]
 };

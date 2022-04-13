@@ -370,136 +370,136 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17072"
- , "c1link" : "./qc/ssl/ssl_init.c.html#17072"
+   "c1" : "16085"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#16085"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17072] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16085] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17113"
- , "c1link" : "./qc/ssl/ssl_init.c.html#17113"
+   "c1" : "16126"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#16126"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17113] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16126] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17155"
- , "c1link" : "./qc/ssl/ssl_init.c.html#17155"
+   "c1" : "16168"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#16168"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17155] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16168] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17190"
- , "c1link" : "./qc/ssl/ssl_init.c.html#17190"
+   "c1" : "16203"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#16203"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17190] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16203] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17374"
- , "c1link" : "./qc/ssl/ssl_init.c.html#17374"
+   "c1" : "16387"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#16387"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17374] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[16387] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17374"
- , "c1link" : "./qc/ssl/ssl_init.c.html#17374"
+   "c1" : "16387"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#16387"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17374] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16387] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17396"
- , "c1link" : "./qc/ssl/ssl_init.c.html#17396"
+   "c1" : "16409"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#16409"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17396] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[16409] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17396"
- , "c1link" : "./qc/ssl/ssl_init.c.html#17396"
+   "c1" : "16409"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#16409"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17396] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16409] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17415"
- , "c1link" : "./qc/ssl/ssl_init.c.html#17415"
+   "c1" : "16428"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#16428"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17415] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[16428] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17415"
- , "c1link" : "./qc/ssl/ssl_init.c.html#17415"
+   "c1" : "16428"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#16428"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17415] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16428] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17438"
- , "c1link" : "./qc/ssl/ssl_init.c.html#17438"
+   "c1" : "16451"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#16451"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17438] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[16451] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17438"
- , "c1link" : "./qc/ssl/ssl_init.c.html#17438"
+   "c1" : "16451"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#16451"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17438] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16451] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17458"
- , "c1link" : "./qc/ssl/ssl_init.c.html#17458"
+   "c1" : "16471"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#16471"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17458] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[16471] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17458"
- , "c1link" : "./qc/ssl/ssl_init.c.html#17458"
+   "c1" : "16471"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#16471"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17458] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16471] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20035"
- , "c1link" : "./qc/ssl/ssl_init.c.html#20035"
+   "c1" : "19049"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#19049"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20035] The expression stopped applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19049] The expression stopped applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20039"
- , "c1link" : "./qc/ssl/ssl_init.c.html#20039"
+   "c1" : "19053"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#19053"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20039] The expression ssl_base_inited applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19053] The expression ssl_base_inited applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20047"
- , "c1link" : "./qc/ssl/ssl_init.c.html#20047"
+   "c1" : "19061"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#19061"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20047] The expression ssl_strings_inited applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19061] The expression ssl_strings_inited applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20068"
- , "c1link" : "./qc/ssl/ssl_init.c.html#20068"
+   "c1" : "19082"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#19082"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20068] The expression stopped applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19082] The expression stopped applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "20069"
- , "c1link" : "./qc/ssl/ssl_init.c.html#20069"
+   "c1" : "19083"
+ , "c1link" : "./qc/ssl/ssl_init.c.html#19083"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20069] The expression  ! stoperrset applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19083] The expression  ! stoperrset applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

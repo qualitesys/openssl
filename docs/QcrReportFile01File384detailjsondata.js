@@ -230,115 +230,115 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13377"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13377"
+   "c1" : "12390"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#12390"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13377] The pointer param_pub_key is declared but not initialized"
+ , "c3" : "QC-CPP000014[12390] The pointer param_pub_key is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13378"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13378"
+   "c1" : "12391"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#12391"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13378] The pointer pubkey is declared but not initialized"
+ , "c3" : "QC-CPP000014[12391] The pointer pubkey is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13378"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13378"
+   "c1" : "12391"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#12391"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13378] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12391] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13388"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13388"
+   "c1" : "12401"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#12401"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13388] The expression include_private applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[12401] The expression include_private applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13511"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13511"
+   "c1" : "12524"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#12524"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13511] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12524] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13528"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13528"
+   "c1" : "12541"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#12541"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13528] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12541] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13559"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13559"
+   "c1" : "12572"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#12572"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13559] The pointer privkey is declared but not initialized"
+ , "c3" : "QC-CPP000014[12572] The pointer privkey is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13559"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13559"
+   "c1" : "12572"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#12572"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13559] The pointer pubkey is declared but not initialized"
+ , "c3" : "QC-CPP000014[12572] The pointer pubkey is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13559"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13559"
+   "c1" : "12572"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#12572"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13559] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12572] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13642"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13642"
+   "c1" : "12655"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#12655"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13642] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12655] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13646"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13646"
+   "c1" : "12659"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#12659"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13646] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[12659] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13647"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13647"
+   "c1" : "12660"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#12660"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13647] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12660] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13666"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13666"
+   "c1" : "12679"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#12679"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13666] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12679] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13688"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13688"
+   "c1" : "12701"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#12701"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13688] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[12701] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13688"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13688"
+   "c1" : "12701"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#12701"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13688] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[12701] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13695"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#13695"
+   "c1" : "12708"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#12708"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13695] The pointer palg is declared but not initialized"
+ , "c3" : "QC-CPP000014[12708] The pointer palg is declared but not initialized"
 }} 
 ]
 };

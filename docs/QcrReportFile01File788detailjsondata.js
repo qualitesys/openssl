@@ -363,73 +363,73 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14772"
- , "c1link" : "./qc/crypto/x509/x509spki.c.html#14772"
+   "c1" : "13773"
+ , "c1link" : "./qc/crypto/x509/x509spki.c.html#13773"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14772] The pointer spki_der is declared but not initialized"
+ , "c3" : "QC-CPP000014[13773] The pointer spki_der is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14772"
- , "c1link" : "./qc/crypto/x509/x509spki.c.html#14772"
+   "c1" : "13773"
+ , "c1link" : "./qc/crypto/x509/x509spki.c.html#13773"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14772] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13773] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14773"
- , "c1link" : "./qc/crypto/x509/x509spki.c.html#14773"
+   "c1" : "13774"
+ , "c1link" : "./qc/crypto/x509/x509spki.c.html#13774"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14773] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[13774] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14773"
- , "c1link" : "./qc/crypto/x509/x509spki.c.html#14773"
+   "c1" : "13774"
+ , "c1link" : "./qc/crypto/x509/x509spki.c.html#13774"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14773] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13774] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14775"
- , "c1link" : "./qc/crypto/x509/x509spki.c.html#14775"
+   "c1" : "13776"
+ , "c1link" : "./qc/crypto/x509/x509spki.c.html#13776"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14775] The pointer spki is declared but not initialized"
+ , "c3" : "QC-CPP000014[13776] The pointer spki is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14778"
- , "c1link" : "./qc/crypto/x509/x509spki.c.html#14778"
+   "c1" : "13779"
+ , "c1link" : "./qc/crypto/x509/x509spki.c.html#13779"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14778] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[13779] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14822"
- , "c1link" : "./qc/crypto/x509/x509spki.c.html#14822"
+   "c1" : "13823"
+ , "c1link" : "./qc/crypto/x509/x509spki.c.html#13823"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14822] The pointer der_spki is declared but not initialized"
+ , "c3" : "QC-CPP000014[13823] The pointer der_spki is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14822"
- , "c1link" : "./qc/crypto/x509/x509spki.c.html#14822"
+   "c1" : "13823"
+ , "c1link" : "./qc/crypto/x509/x509spki.c.html#13823"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14822] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[13823] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14822"
- , "c1link" : "./qc/crypto/x509/x509spki.c.html#14822"
+   "c1" : "13823"
+ , "c1link" : "./qc/crypto/x509/x509spki.c.html#13823"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14822] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13823] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14823"
- , "c1link" : "./qc/crypto/x509/x509spki.c.html#14823"
+   "c1" : "13824"
+ , "c1link" : "./qc/crypto/x509/x509spki.c.html#13824"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14823] The pointer b64_str is declared but not initialized"
+ , "c3" : "QC-CPP000014[13824] The pointer b64_str is declared but not initialized"
 }} 
 ]
 };

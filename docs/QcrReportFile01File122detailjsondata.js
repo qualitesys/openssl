@@ -202,10 +202,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12983"
- , "c1link" : "./qc/crypto/asn1/nsseq.c.html#12983"
+   "c1" : "11996"
+ , "c1link" : "./qc/crypto/asn1/nsseq.c.html#11996"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12983] The pointer nsseq is declared but not initialized"
+ , "c3" : "QC-CPP000014[11996] The pointer nsseq is declared but not initialized"
 }} 
 ]
 };

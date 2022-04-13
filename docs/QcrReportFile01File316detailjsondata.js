@@ -356,17 +356,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07941"
- , "c1link" : "./qc/crypto/dh/dh_depr.c.html#7941"
+   "c1" : "07929"
+ , "c1link" : "./qc/crypto/dh/dh_depr.c.html#7929"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07941] The pointer cb is declared but not initialized"
+ , "c3" : "QC-CPP000014[07929] The pointer cb is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07948"
- , "c1link" : "./qc/crypto/dh/dh_depr.c.html#7948"
+   "c1" : "07936"
+ , "c1link" : "./qc/crypto/dh/dh_depr.c.html#7936"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07948] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07936] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

@@ -391,59 +391,59 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10542"
- , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10542"
+   "c1" : "10530"
+ , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10530"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10542] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[10530] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10583"
- , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10583"
+   "c1" : "10571"
+ , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10571"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10583] The expression a-&gt;shutdown applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10571] The expression a-&gt;shutdown applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10584"
- , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10584"
+   "c1" : "10572"
+ , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10572"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10584] The expression a-&gt;init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10572] The expression a-&gt;init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10655"
- , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10655"
+   "c1" : "10643"
+ , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10643"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10655] The pointer ip is declared but not initialized"
+ , "c3" : "QC-CPP000014[10643] The pointer ip is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10652"
+ , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10652"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10652] The expression b-&gt;shutdown applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "10653"
+ , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10653"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10653] The expression b-&gt;init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "10664"
  , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10664"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10664] The expression b-&gt;shutdown applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10664] The expression b-&gt;init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10665"
- , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10665"
+   "c1" : "10711"
+ , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10711"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10665] The expression b-&gt;init applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "10676"
- , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10676"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10676] The expression b-&gt;init applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "10723"
- , "c1link" : "./qc/crypto/bio/bss_sock.c.html#10723"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10723] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10711] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

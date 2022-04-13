@@ -391,171 +391,171 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07783"
- , "c1link" : "./qc/crypto/o_str.c.html#7783"
+   "c1" : "07771"
+ , "c1link" : "./qc/crypto/o_str.c.html#7771"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07783] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[07771] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07808"
- , "c1link" : "./qc/crypto/o_str.c.html#7808"
+   "c1" : "07796"
+ , "c1link" : "./qc/crypto/o_str.c.html#7796"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07808] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[07796] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07824"
- , "c1link" : "./qc/crypto/o_str.c.html#7824"
+   "c1" : "07812"
+ , "c1link" : "./qc/crypto/o_str.c.html#7812"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07824] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07812] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "07833"
- , "c1link" : "./qc/crypto/o_str.c.html#7833"
+   "c1" : "07821"
+ , "c1link" : "./qc/crypto/o_str.c.html#7821"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07833] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[07821] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07868"
- , "c1link" : "./qc/crypto/o_str.c.html#7868"
+   "c1" : "07856"
+ , "c1link" : "./qc/crypto/o_str.c.html#7856"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07868] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[07856] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07882"
- , "c1link" : "./qc/crypto/o_str.c.html#7882"
+   "c1" : "07870"
+ , "c1link" : "./qc/crypto/o_str.c.html#7870"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07882] The expression size applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[07870] The expression size applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "07929"
+ , "c1link" : "./qc/crypto/o_str.c.html#7929"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[07929] The pointer q is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07929"
+ , "c1link" : "./qc/crypto/o_str.c.html#7929"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[07929] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07932"
+ , "c1link" : "./qc/crypto/o_str.c.html#7932"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[07932] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07932"
+ , "c1link" : "./qc/crypto/o_str.c.html#7932"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[07932] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07935"
+ , "c1link" : "./qc/crypto/o_str.c.html#7935"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07935] The expression  * p applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "07935"
+ , "c1link" : "./qc/crypto/o_str.c.html#7935"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[07935] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07938"
+ , "c1link" : "./qc/crypto/o_str.c.html#7938"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[07938] The variable p is post incremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "07941"
  , "c1link" : "./qc/crypto/o_str.c.html#7941"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07941] The expression  ! cl applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "07998"
+ , "c1link" : "./qc/crypto/o_str.c.html#7998"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07941] The pointer q is declared but not initialized"
+ , "c3" : "QC-CPP000014[07998] The pointer buf is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07941"
- , "c1link" : "./qc/crypto/o_str.c.html#7941"
+   "c1" : "07998"
+ , "c1link" : "./qc/crypto/o_str.c.html#7998"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07941] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[07998] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07944"
- , "c1link" : "./qc/crypto/o_str.c.html#7944"
+   "c1" : "08015"
+ , "c1link" : "./qc/crypto/o_str.c.html#8015"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07944] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[08015] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07944"
- , "c1link" : "./qc/crypto/o_str.c.html#7944"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07944] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07947"
- , "c1link" : "./qc/crypto/o_str.c.html#7947"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07947] The expression  * p applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "07947"
- , "c1link" : "./qc/crypto/o_str.c.html#7947"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[07947] The end expression of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07950"
- , "c1link" : "./qc/crypto/o_str.c.html#7950"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[07950] The variable p is post incremented and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07953"
- , "c1link" : "./qc/crypto/o_str.c.html#7953"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[07953] The expression  ! cl applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08010"
- , "c1link" : "./qc/crypto/o_str.c.html#8010"
+   "c1" : "08066"
+ , "c1link" : "./qc/crypto/o_str.c.html#8066"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08010] The pointer buf is declared but not initialized"
+ , "c3" : "QC-CPP000014[08066] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08010"
- , "c1link" : "./qc/crypto/o_str.c.html#8010"
+   "c1" : "08066"
+ , "c1link" : "./qc/crypto/o_str.c.html#8066"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08010] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08066] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08027"
- , "c1link" : "./qc/crypto/o_str.c.html#8027"
+   "c1" : "08067"
+ , "c1link" : "./qc/crypto/o_str.c.html#8067"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08027] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[08067] The pointer q is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08078"
- , "c1link" : "./qc/crypto/o_str.c.html#8078"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08078] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08078"
- , "c1link" : "./qc/crypto/o_str.c.html#8078"
+   "c1" : "08098"
+ , "c1link" : "./qc/crypto/o_str.c.html#8098"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08078] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[08098] The expression has_sep applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08079"
- , "c1link" : "./qc/crypto/o_str.c.html#8079"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08079] The pointer q is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08110"
- , "c1link" : "./qc/crypto/o_str.c.html#8110"
+   "c1" : "08101"
+ , "c1link" : "./qc/crypto/o_str.c.html#8101"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08110] The expression has_sep applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08101] The expression has_sep applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08113"
- , "c1link" : "./qc/crypto/o_str.c.html#8113"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08113] The expression has_sep applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08132"
- , "c1link" : "./qc/crypto/o_str.c.html#8132"
+   "c1" : "08120"
+ , "c1link" : "./qc/crypto/o_str.c.html#8120"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08132] The pointer tmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[08120] The pointer tmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08139"
- , "c1link" : "./qc/crypto/o_str.c.html#8139"
+   "c1" : "08127"
+ , "c1link" : "./qc/crypto/o_str.c.html#8127"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08139] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08127] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

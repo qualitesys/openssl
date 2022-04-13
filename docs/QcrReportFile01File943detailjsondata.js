@@ -377,255 +377,255 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11784"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11784"
+   "c1" : "11772"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11772"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11784] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[11772] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11793"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11793"
+   "c1" : "11781"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11781"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11793] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11781] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11837"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11837"
+   "c1" : "11825"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11825"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11837] The pointer dest is declared but not initialized"
+ , "c3" : "QC-CPP000014[11825] The pointer dest is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11850"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11850"
+   "c1" : "11838"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11838"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11850] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11838] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11855"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11855"
+   "c1" : "11843"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11843"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11855] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11843] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11861"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11861"
+   "c1" : "11849"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11849"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11861] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11849] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11866"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11866"
+   "c1" : "11854"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11854"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11866] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11854] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11868"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11868"
+   "c1" : "11856"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11856"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11868] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11856] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11940"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11940"
+   "c1" : "11928"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11928"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11940] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[11928] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11939"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11939"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[11939] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11944"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11944"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[11944] The expression 'MD5-SHA1' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11946"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11946"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[11946] The expression 'HMAC' is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "11951"
  , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11951"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11951] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[11951] The expression 'MD5' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11956"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11956"
+   "c1" : "11953"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11953"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11956] The expression 'MD5-SHA1' is invariable"
+ , "c3" : "QC-CPP000012[11953] The expression 'HMAC' is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "11958"
  , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11958"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11958] The expression 'HMAC' is invariable"
+ , "c3" : "QC-CPP000012[11958] The expression 'SHA1' is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "11963"
  , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11963"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11963] The expression 'MD5' is invariable"
+ , "c3" : "QC-CPP000012[11963] The expression 'HMAC' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11965"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11965"
+   "c1" : "11977"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11977"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[11977] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11988"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11988"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11965] The expression 'HMAC' is invariable"
+ , "c3" : "QC-CPP000012[11988] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11970"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11970"
+   "c1" : "11992"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11992"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[11992] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12061"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12061"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[12061] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12063"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12063"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[12063] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12143"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12143"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12143] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12146"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12146"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12146] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12154"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12154"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12154] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12160"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12160"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12160] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12162"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12162"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11970] The expression 'SHA1' is invariable"
+ , "c3" : "QC-CPP000006[12162] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11975"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11975"
+   "c1" : "12162"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12162"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11975] The expression 'HMAC' is invariable"
+ , "c3" : "QC-CPP000006[12162] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11989"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#11989"
+   "c1" : "12165"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12165"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11989] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[12165] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12000"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12000"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12000] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12004"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12004"
+   "c1" : "12180"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12180"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12004] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[12180] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12073"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12073"
+   "c1" : "12182"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12182"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12073] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000007[12182] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12075"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12075"
+   "c1" : "12191"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12191"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12075] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[12191] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12155"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12155"
+   "c1" : "12198"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12198"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12155] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12198] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12158"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12158"
+   "c1" : "12202"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12202"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12158] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12202] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12166"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12166"
+   "c1" : "12211"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12211"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12166] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12211] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12172"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12172"
+   "c1" : "12241"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12241"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12172] goto statement jump to err"
+ , "c3" : "QC-CPP000014[12241] The pointer tmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12174"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12174"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[12174] The condition of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12174"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12174"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[12174] The end expression of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12177"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12177"
+   "c1" : "12250"
+ , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12250"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12177] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12192"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12192"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12192] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12194"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12194"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12194] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12203"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12203"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12203] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12210"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12210"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12210] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12214"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12214"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12214] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12223"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12223"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12223] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12253"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12253"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12253] The pointer tmp is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12262"
- , "c1link" : "./qc/providers/implementations/kdfs/tls1_prf.c.html#12262"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12262] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12250] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

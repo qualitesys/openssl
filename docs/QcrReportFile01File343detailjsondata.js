@@ -405,80 +405,80 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09411"
- , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9411"
+   "c1" : "09399"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9399"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09411] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09399] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09433"
- , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9433"
+   "c1" : "09421"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9421"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09433] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09421] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09450"
- , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9450"
+   "c1" : "09438"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9438"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09450] goto statement jump to err"
+ , "c3" : "QC-CPP000007[09438] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09469"
- , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9469"
+   "c1" : "09457"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9457"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09469] The pointer ptr is declared but not initialized"
+ , "c3" : "QC-CPP000014[09457] The pointer ptr is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09508"
- , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9508"
+   "c1" : "09496"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9496"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09508] The pointer ptr is declared but not initialized"
+ , "c3" : "QC-CPP000014[09496] The pointer ptr is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09583"
- , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9583"
+   "c1" : "09571"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9571"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09583] The pointer merged is declared but not initialized"
+ , "c3" : "QC-CPP000014[09571] The pointer merged is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09627"
- , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9627"
+   "c1" : "09615"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9615"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09627] The expression  ! filespec1 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09615] The expression  ! filespec1 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09688"
- , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9688"
+   "c1" : "09676"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9676"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09688] The pointer translated is declared but not initialized"
+ , "c3" : "QC-CPP000014[09676] The pointer translated is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09698"
- , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9698"
+   "c1" : "09686"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9686"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09698] The expression transform applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09686] The expression transform applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09721"
- , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9721"
+   "c1" : "09709"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9709"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09721] The expression transform applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09709] The expression transform applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09790"
- , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9790"
+   "c1" : "09778"
+ , "c1link" : "./qc/crypto/dso/dso_dlfcn.c.html#9778"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09790] The expression handle applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09778] The expression handle applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

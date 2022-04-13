@@ -412,80 +412,80 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "18774"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#18774"
+   "c1" : "18766"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#18766"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18774] The pointer save_rand_file is declared but not initialized"
+ , "c3" : "QC-CPP000014[18766] The pointer save_rand_file is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18775"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#18775"
+   "c1" : "18767"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#18767"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18775] The pointer randfiles is declared but not initialized"
+ , "c3" : "QC-CPP000014[18767] The pointer randfiles is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18789"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#18789"
+   "c1" : "18781"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#18781"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18789] The expression  - 1 is invariable"
+ , "c3" : "QC-CPP000012[18781] The expression  - 1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18813"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#18813"
+   "c1" : "18805"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#18805"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18813] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[18805] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18816"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#18816"
+   "c1" : "18808"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#18808"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[18816] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[18808] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18816"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#18816"
+   "c1" : "18808"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#18808"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[18816] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[18808] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18812"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#18812"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000019[18812] The variable p is post incremented and is tested with equility, risk to be always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18815"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#18815"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[18815] The expression  - 1 is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "18820"
  , "c1link" : "./qc/apps/lib/app_rand.c.html#18820"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[18820] The variable p is post incremented and is tested with equility, risk to be always false"
+ , "c3" : "QC-CPP000011[18820] The expression last applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18823"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#18823"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18823] The expression  - 1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18828"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#18828"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18828] The expression last applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "18839"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#18839"
+   "c1" : "18831"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#18831"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18839] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[18831] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18893"
- , "c1link" : "./qc/apps/lib/app_rand.c.html#18893"
+   "c1" : "18885"
+ , "c1link" : "./qc/apps/lib/app_rand.c.html#18885"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18893] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18885] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

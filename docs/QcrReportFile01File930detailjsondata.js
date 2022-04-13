@@ -349,17 +349,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09291"
- , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#9291"
+   "c1" : "09279"
+ , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#9279"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09291] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[09279] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09500"
- , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#9500"
+   "c1" : "09488"
+ , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#9488"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09500] The pointer dstctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[09488] The pointer dstctx is declared but not initialized"
 }} 
 ]
 };

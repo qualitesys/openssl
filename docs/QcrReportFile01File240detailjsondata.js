@@ -370,353 +370,353 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "16452"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16452"
+   "c1" : "16198"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16198"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16452] The pointer bio is declared but not initialized"
+ , "c3" : "QC-CPP000014[16198] The pointer bio is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16485"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16485"
+   "c1" : "16231"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16231"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16485] goto statement jump to sig_err"
+ , "c3" : "QC-CPP000007[16231] goto statement jump to sig_err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16499"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16499"
+   "c1" : "16245"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16245"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16499] goto statement jump to sig_err"
+ , "c3" : "QC-CPP000007[16245] goto statement jump to sig_err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16514"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16514"
+   "c1" : "16260"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16260"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16514] goto statement jump to end"
+ , "c3" : "QC-CPP000007[16260] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16524"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16524"
+   "c1" : "16270"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16270"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16524] The expression res applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16270] The expression res applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16546"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16546"
+   "c1" : "16292"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16292"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16546] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16292] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16563"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16563"
+   "c1" : "16309"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16309"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16563] The expression  ! valid applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16309] The expression  ! valid applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16614"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16614"
+   "c1" : "16360"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16360"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16614] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16360] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16621"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16621"
+   "c1" : "16367"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16367"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16621] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16367] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16646"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16646"
+   "c1" : "16392"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16392"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16646] The pointer str is declared but not initialized"
+ , "c3" : "QC-CPP000014[16392] The pointer str is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16688"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16688"
+   "c1" : "16434"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16434"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16688] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16434] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16707"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16707"
+   "c1" : "16453"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16453"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16707] The pointer str is declared but not initialized"
+ , "c3" : "QC-CPP000014[16453] The pointer str is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16494"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16494"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[16494] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16527"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16527"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[16527] The pointer str is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16541"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16541"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[16541] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16552"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16552"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16552] The expression  ! self_issued applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16581"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16581"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16581] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16582"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16582"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16582] The expression 'cert subject' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16583"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16583"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16583] The expression 'sender field' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16617"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16617"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[16617] The pointer store is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16619"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16619"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16619] The expression  ! ctx-&gt;permitTAInExtraCertsForIR applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16622"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16622"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[16622] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16628"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16628"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16628] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16629"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16629"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16629] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16633"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16633"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16633] The expression  ! valid applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16709"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16709"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16709] The expression 'cert from' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16713"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16713"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16713] The expression mode_3gpp applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "16748"
  , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16748"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16748] The expression 'extraCerts' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16759"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16759"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16759] The expression 'untrusted certs' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16869"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16869"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16869] The expression res applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16872"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16872"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16748] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[16872] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16781"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16781"
+   "c1" : "16962"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16962"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16781] The pointer str is declared but not initialized"
+ , "c3" : "QC-CPP000014[16962] The pointer scrt is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16795"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16795"
+   "c1" : "17046"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17046"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[17046] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17127"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17127"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16795] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[17127] The pointer expected_str is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16806"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16806"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16806] The expression  ! self_issued applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16835"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16835"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16835] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16836"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16836"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16836] The expression 'cert subject' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16837"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16837"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16837] The expression 'sender field' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16871"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16871"
+   "c1" : "17127"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17127"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16871] The pointer store is declared but not initialized"
+ , "c3" : "QC-CPP000014[17127] The pointer actual_str is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16873"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16873"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16873] The expression  ! ctx-&gt;permitTAInExtraCertsForIR applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16876"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16876"
+   "c1" : "17167"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17167"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16876] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[17167] The pointer hdr is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16882"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16882"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16882] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16883"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16883"
+   "c1" : "17168"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17168"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16883] goto statement jump to err"
+ , "c3" : "QC-CPP000014[17168] The pointer expected_sender is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16887"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16887"
+   "c1" : "17211"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17211"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16887] The expression  ! valid applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[17211] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16963"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16963"
+   "c1" : "17211"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17211"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16963] The expression 'cert from' is invariable"
+ , "c3" : "QC-CPP000012[17211] The expression 'sender DN field' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16967"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#16967"
+   "c1" : "17212"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17212"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16967] The expression mode_3gpp applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[17212] The expression 'expected sender' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17002"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17002"
+   "c1" : "17222"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17222"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17002] The expression 'extraCerts' is invariable"
+ , "c3" : "QC-CPP000012[17222] The expression 0x1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17013"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17013"
+   "c1" : "17222"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17222"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17013] The expression 'untrusted certs' is invariable"
+ , "c3" : "QC-CPP000012[17222] The expression 0x4 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17123"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17123"
+   "c1" : "17223"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17223"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17123] The expression res applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[17223] The expression 0x2 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17126"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17126"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17126] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17216"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17216"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17216] The pointer scrt is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17300"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17300"
+   "c1" : "17291"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17291"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17300] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[17291] The expression 152 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17381"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17381"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17381] The pointer expected_str is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17381"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17381"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17381] The pointer actual_str is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17421"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17421"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17421] The pointer hdr is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17422"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17422"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17422] The pointer expected_sender is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17465"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17465"
+   "c1" : "17296"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17296"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17465] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[17296] The expression 148 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17465"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17465"
+   "c1" : "17324"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17324"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17465] The expression 'sender DN field' is invariable"
+ , "c3" : "QC-CPP000012[17324] The expression 0x1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17466"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17466"
+   "c1" : "17324"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17324"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17466] The expression 'expected sender' is invariable"
+ , "c3" : "QC-CPP000012[17324] The expression 0x4 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17476"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17476"
+   "c1" : "17325"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17325"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17476] The expression 0x1 is invariable"
+ , "c3" : "QC-CPP000012[17325] The expression 0x2 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17476"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17476"
+   "c1" : "17348"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17348"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17476] The expression 0x4 is invariable"
+ , "c3" : "QC-CPP000012[17348] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17477"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17477"
+   "c1" : "17394"
+ , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17394"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17477] The expression 0x2 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17545"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17545"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17545] The expression 152 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17550"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17550"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17550] The expression 148 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17578"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17578"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17578] The expression 0x1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17578"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17578"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17578] The expression 0x4 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17579"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17579"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17579] The expression 0x2 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17602"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17602"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17602] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17648"
- , "c1link" : "./qc/crypto/cmp/cmp_vfy.c.html#17648"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17648] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[17394] The expression 0 is invariable, always false"
 }} 
 ]
 };

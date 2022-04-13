@@ -363,164 +363,164 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "14797"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#14797"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14797] The pointer tmp is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14798"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#14798"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14798] The pointer id is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14835"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#14835"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14835] The pointer cnf is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14844"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#14844"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14844] The expression  - 1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14862"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#14862"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14862] The pointer izone is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14864"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#14864"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[14864] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14888"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#14888"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14888] The pointer izone is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14890"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#14890"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[14890] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14962"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#14962"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[14962] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14967"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#14967"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14967] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14968"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#14968"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14968] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14969"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#14969"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14969] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14987"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#14987"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[14987] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14992"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#14992"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14992] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14995"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#14995"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14995] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14997"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#14997"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14997] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15020"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15020"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15020] The pointer izone is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15021"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15021"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15021] The pointer oct is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15023"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15023"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15023] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15050"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15050"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15050] The pointer izone is declared but not initialized"
+}} 
+,
+{ "ligne" : {
    "c1" : "15051"
  , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15051"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15051] The pointer tmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[15051] The pointer oct is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15052"
- , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15052"
+   "c1" : "15053"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15053"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15052] The pointer id is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[15053] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15089"
- , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15089"
+   "c1" : "15078"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15078"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15089] The pointer cnf is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15098"
- , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15098"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15098] The expression  - 1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15116"
- , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15116"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15116] The pointer izone is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15118"
- , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15118"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15118] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15142"
- , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15142"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15142] The pointer izone is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15144"
- , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15144"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15144] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15216"
- , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15216"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15216] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15221"
- , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15221"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15221] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15222"
- , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15222"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15222] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15223"
- , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15223"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15223] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15241"
- , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15241"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15241] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15246"
- , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15246"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15246] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15249"
- , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15249"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15249] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15251"
- , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15251"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15251] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15274"
- , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15274"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15274] The pointer izone is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15275"
- , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15275"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15275] The pointer oct is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15277"
- , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15277"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15277] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15304"
- , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15304"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15304] The pointer izone is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15305"
- , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15305"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15305] The pointer oct is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15307"
- , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15307"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15307] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15332"
- , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15332"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15332] The pointer id is declared but not initialized"
+ , "c3" : "QC-CPP000014[15078] The pointer id is declared but not initialized"
 }} 
 ]
 };

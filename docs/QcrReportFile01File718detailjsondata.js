@@ -377,108 +377,108 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "16128"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16128"
+   "c1" : "15129"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15129"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16128] The pointer tty_in is declared but not initialized"
+ , "c3" : "QC-CPP000014[15129] The pointer tty_in is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16128"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16128"
+   "c1" : "15129"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15129"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16128] The pointer tty_out is declared but not initialized"
+ , "c3" : "QC-CPP000014[15129] The pointer tty_out is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16193"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16193"
+   "c1" : "15194"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15194"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16193] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15194] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16219"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16219"
+   "c1" : "15220"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15220"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16219] The expression 4 is invariable"
+ , "c3" : "QC-CPP000012[15220] The expression 4 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16221"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16221"
+   "c1" : "15222"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15222"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16221] The expression '\n' is invariable"
+ , "c3" : "QC-CPP000012[15222] The expression '\n' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16262"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16262"
+   "c1" : "15263"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15263"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16262] goto statement jump to error"
+ , "c3" : "QC-CPP000007[15263] goto statement jump to error"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16273"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16273"
+   "c1" : "15274"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15274"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16273] goto statement jump to error"
+ , "c3" : "QC-CPP000007[15274] goto statement jump to error"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16275"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16275"
+   "c1" : "15276"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15276"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16275] goto statement jump to error"
+ , "c3" : "QC-CPP000007[15276] goto statement jump to error"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16277"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16277"
+   "c1" : "15278"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15278"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16277] goto statement jump to error"
+ , "c3" : "QC-CPP000007[15278] goto statement jump to error"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16278"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16278"
+   "c1" : "15279"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15279"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16278] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15279] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16283"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16283"
+   "c1" : "15284"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15284"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16283] The expression strip_nl applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15284] The expression strip_nl applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16286"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16286"
+   "c1" : "15287"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15287"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16286] goto statement jump to error"
+ , "c3" : "QC-CPP000007[15287] goto statement jump to error"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16297"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16297"
+   "c1" : "15298"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15298"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16297] The expression echo_eol applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15298] The expression echo_eol applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16323"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16323"
+   "c1" : "15324"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15324"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16323] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15324] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16333"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#16333"
+   "c1" : "15334"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15334"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16333] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15334] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

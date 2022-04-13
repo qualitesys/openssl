@@ -237,514 +237,514 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14857"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#14857"
+   "c1" : "13870"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#13870"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14857] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[13870] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14862"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#14862"
+   "c1" : "13875"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#13875"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14862] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[13875] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14887"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#14887"
+   "c1" : "13900"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#13900"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14887] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13900] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14892"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#14892"
+   "c1" : "13905"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#13905"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14892] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13905] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14921"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#14921"
+   "c1" : "13934"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#13934"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14921] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13934] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14926"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#14926"
+   "c1" : "13939"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#13939"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14926] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13939] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14947"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#14947"
+   "c1" : "13960"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#13960"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14947] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13960] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14952"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#14952"
+   "c1" : "13965"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#13965"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14952] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13965] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14968"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#14968"
+   "c1" : "13981"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#13981"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14968] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13981] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14987"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#14987"
+   "c1" : "14000"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#14000"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14987] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14000] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14992"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#14992"
+   "c1" : "14005"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#14005"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14992] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14005] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15012"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#15012"
+   "c1" : "14025"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#14025"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15012] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14025] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15017"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#15017"
+   "c1" : "14030"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#14030"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15017] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14030] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15038"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#15038"
+   "c1" : "14051"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#14051"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15038] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14051] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15043"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#15043"
+   "c1" : "14056"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#14056"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15043] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14056] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15064"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#15064"
+   "c1" : "14077"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#14077"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15064] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14077] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15069"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#15069"
+   "c1" : "14082"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#14082"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15069] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14082] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15091"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#15091"
+   "c1" : "14104"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#14104"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15091] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14104] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15096"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#15096"
+   "c1" : "14109"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#14109"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15096] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14109] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15120"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#15120"
+   "c1" : "14133"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#14133"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15120] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14133] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15125"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#15125"
+   "c1" : "14138"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#14138"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15125] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14138] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16403"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16403"
+   "c1" : "15404"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#15404"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16403] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15404] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16444"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16444"
+   "c1" : "15445"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#15445"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16444] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15445] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16486"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16486"
+   "c1" : "15487"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#15487"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16486] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15487] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16521"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16521"
+   "c1" : "15522"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#15522"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16521] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15522] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16705"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16705"
+   "c1" : "15706"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#15706"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16705] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[15706] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16705"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16705"
+   "c1" : "15706"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#15706"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16705] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15706] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16727"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16727"
+   "c1" : "15728"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#15728"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16727] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[15728] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16727"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16727"
+   "c1" : "15728"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#15728"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16727] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15728] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16746"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16746"
+   "c1" : "15747"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#15747"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16746] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[15747] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16746"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16746"
+   "c1" : "15747"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#15747"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16746] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15747] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16769"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16769"
+   "c1" : "15770"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#15770"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16769] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[15770] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16769"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16769"
+   "c1" : "15770"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#15770"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16769] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15770] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16789"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16789"
+   "c1" : "15790"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#15790"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16789] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[15790] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16789"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16789"
+   "c1" : "15790"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#15790"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16789] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[15790] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17213"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17213"
+   "c1" : "16214"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16214"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17213] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16214] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17226"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17226"
+   "c1" : "16227"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16227"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17226] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16227] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17231"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17231"
+   "c1" : "16232"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16232"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17231] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16232] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17232"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17232"
+   "c1" : "16233"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16233"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17232] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[16233] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17278"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17278"
+   "c1" : "16279"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16279"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17278] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[16279] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17335"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17335"
+   "c1" : "16336"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16336"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17335] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16336] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17349"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17349"
+   "c1" : "16350"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16350"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17349] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16350] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17354"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17354"
+   "c1" : "16355"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16355"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17354] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16355] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17388"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17388"
+   "c1" : "16389"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16389"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17388] The pointer p8 is declared but not initialized"
+ , "c3" : "QC-CPP000014[16389] The pointer p8 is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17390"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17390"
+   "c1" : "16391"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16391"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17390] The expression  ! ctx-&gt;cipher_intent applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16391] The expression  ! ctx-&gt;cipher_intent applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17428"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17428"
+   "c1" : "16429"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16429"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17428] The pointer p8 is declared but not initialized"
+ , "c3" : "QC-CPP000014[16429] The pointer p8 is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17430"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17430"
+   "c1" : "16431"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16431"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17430] The expression  ! ctx-&gt;cipher_intent applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16431] The expression  ! ctx-&gt;cipher_intent applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17468"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17468"
+   "c1" : "16469"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16469"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17468] The pointer p8info is declared but not initialized"
+ , "c3" : "QC-CPP000014[16469] The pointer p8info is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17470"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17470"
+   "c1" : "16471"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16471"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17470] The expression ctx-&gt;cipher_intent applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16471] The expression ctx-&gt;cipher_intent applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17512"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17512"
+   "c1" : "16513"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16513"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17512] The pointer p8info is declared but not initialized"
+ , "c3" : "QC-CPP000014[16513] The pointer p8info is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17514"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17514"
+   "c1" : "16515"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16515"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17514] The expression ctx-&gt;cipher_intent applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16515] The expression ctx-&gt;cipher_intent applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17635"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17635"
+   "c1" : "16636"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16636"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[17635] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16636] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17643"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17643"
+   "c1" : "16644"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16644"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17643] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16644] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17781"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17781"
+   "c1" : "16782"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16782"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17781] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16782] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17793"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17793"
+   "c1" : "16794"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16794"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17793] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16794] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17830"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17830"
+   "c1" : "16831"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16831"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17830] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16831] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17842"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17842"
+   "c1" : "16843"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16843"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17842] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16843] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17869"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17869"
+   "c1" : "16870"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16870"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17869] The expression 0x1000 is invariable"
+ , "c3" : "QC-CPP000012[16870] The expression 0x1000 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17962"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17962"
+   "c1" : "16963"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16963"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17962] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16963] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17974"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17974"
+   "c1" : "16975"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#16975"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17974] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16975] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18011"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#18011"
+   "c1" : "17012"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17012"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18011] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17012] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18023"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#18023"
+   "c1" : "17024"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17024"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18023] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17024] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18167"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#18167"
+   "c1" : "17168"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17168"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18167] The pointer keyblob is declared but not initialized"
+ , "c3" : "QC-CPP000014[17168] The pointer keyblob is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18167"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#18167"
+   "c1" : "17168"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17168"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[18167] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[17168] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18279"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#18279"
+   "c1" : "17280"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17280"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18279] goto statement jump to err"
+ , "c3" : "QC-CPP000007[17280] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18282"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#18282"
+   "c1" : "17283"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17283"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18282] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17283] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18288"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#18288"
+   "c1" : "17289"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17289"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18288] goto statement jump to err"
+ , "c3" : "QC-CPP000007[17289] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18292"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#18292"
+   "c1" : "17293"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17293"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18292] The expression  - 1 is invariable"
+ , "c3" : "QC-CPP000012[17293] The expression  - 1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18295"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#18295"
+   "c1" : "17296"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17296"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18295] goto statement jump to err"
+ , "c3" : "QC-CPP000007[17296] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18308"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#18308"
+   "c1" : "17309"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17309"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18308] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17309] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18313"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#18313"
+   "c1" : "17314"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17314"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18313] goto statement jump to err"
+ , "c3" : "QC-CPP000007[17314] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18449"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#18449"
+   "c1" : "17450"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17450"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18449] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17450] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18494"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#18494"
+   "c1" : "17495"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2any.c.html#17495"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18494] The expression check1 applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17495] The expression check1 applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

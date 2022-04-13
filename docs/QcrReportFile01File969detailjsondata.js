@@ -426,150 +426,150 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12606"
- , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12606"
+   "c1" : "12594"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12594"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12606] The pointer shm_addr is declared but not initialized"
+ , "c3" : "QC-CPP000014[12594] The pointer shm_addr is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12625"
- , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12625"
+   "c1" : "12613"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12613"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12625] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[12613] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12617"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12617"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[12617] The expression  ! seeded applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "12619"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12619"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[12619] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "12629"
  , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12629"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12629] The expression  ! seeded applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[12629] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12631"
- , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12631"
+   "c1" : "12629"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12629"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[12629] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12636"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12636"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12631] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12636] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "12641"
  , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12641"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12641] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12641"
- , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12641"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12641] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[12641] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
    "c1" : "12648"
  , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12648"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12648] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12653"
- , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12653"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12653] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12660"
- , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12660"
  , "c2" : "MINOR"
- , "c3" : "QC-CPP000013[12660] Inline assembly code"
+ , "c3" : "QC-CPP000013[12648] Inline assembly code"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12664"
- , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12664"
+   "c1" : "12652"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12652"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[12664] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[12652] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12664"
- , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12664"
+   "c1" : "12652"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12652"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12664] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[12652] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12669"
- , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12669"
+   "c1" : "12657"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12657"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12669] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12657] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12669"
- , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12669"
+   "c1" : "12657"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12657"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12669] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12657] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12684"
- , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12684"
+   "c1" : "12672"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12672"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12684] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12672] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12707"
- , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12707"
+   "c1" : "12695"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12695"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12707] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12695] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12801"
- , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12801"
+   "c1" : "12789"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12789"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12801] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12789] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12854"
- , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12854"
+   "c1" : "12842"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12842"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12854] The expression  ! keep applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[12842] The expression  ! keep applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12872"
- , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12872"
+   "c1" : "12860"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12860"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12872] The pointer buffer is declared but not initialized"
+ , "c3" : "QC-CPP000014[12860] The pointer buffer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12904"
- , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12904"
+   "c1" : "12892"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12892"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12904] The pointer buffer is declared but not initialized"
+ , "c3" : "QC-CPP000014[12892] The pointer buffer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13011"
- , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#13011"
+   "c1" : "12999"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#12999"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13011] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[12999] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13049"
- , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#13049"
+   "c1" : "13037"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#13037"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13049] The expression 7 is invariable"
+ , "c3" : "QC-CPP000012[13037] The expression 7 is invariable"
 }} 
 ]
 };

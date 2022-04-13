@@ -363,10 +363,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10672"
- , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_ccm_hw.c.html#10672"
+   "c1" : "10660"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_ccm_hw.c.html#10660"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10672] The expression rv applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10660] The expression rv applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

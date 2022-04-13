@@ -377,10 +377,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11013"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11013"
+   "c1" : "11001"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11001"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11013] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11026"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11026"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[11026] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11031"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11031"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11031] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
@@ -400,8 +414,8 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "11050"
  , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11050"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11050] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[11050] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -412,24 +426,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11062"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11062"
+   "c1" : "11064"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11064"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11062] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[11064] The expression 80 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11067"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11067"
+   "c1" : "11065"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11065"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11067] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11065] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11076"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11076"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11076] The expression 80 is invariable"
+   "c1" : "11072"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11072"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[11072] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -440,73 +454,59 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11084"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11084"
+   "c1" : "11083"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11083"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11084] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[11083] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11089"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11089"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11089] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11095"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11095"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11095] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11105"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11105"
+   "c1" : "11093"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11093"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11105] The expression pairwise_test applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11093] The expression pairwise_test applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11119"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11119"
+   "c1" : "11107"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11107"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11119] The expression  ! ok applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11107] The expression  ! ok applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11139"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11139"
+   "c1" : "11127"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11127"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[11139] The variable dsa is post  and is tested with equility, risk to be always false"
+ , "c3" : "QC-CPP000019[11127] The variable dsa is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11142"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11142"
+   "c1" : "11130"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11130"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[11142] The variable dsa is post  and is tested with equility, risk to be always false"
+ , "c3" : "QC-CPP000019[11130] The variable dsa is post  and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11175"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11175"
+   "c1" : "11163"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11163"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11175] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11163] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11186"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11186"
+   "c1" : "11174"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11174"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11186] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11174] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11191"
- , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11191"
+   "c1" : "11179"
+ , "c1link" : "./qc/crypto/dsa/dsa_key.c.html#11179"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11191] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11179] goto statement jump to err"
 }} 
 ]
 };

@@ -356,10 +356,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "11214"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_sm4_ccm.c.html#11214"
+   "c1" : "11202"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_sm4_ccm.c.html#11202"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11214] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[11202] The pointer ctx is declared but not initialized"
 }} 
 ]
 };

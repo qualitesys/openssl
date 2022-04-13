@@ -370,6 +370,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "10698"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_gcm_hw.c.html#10698"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10698] The expression ctx-&gt;enc applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
    "c1" : "10710"
  , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_gcm_hw.c.html#10710"
  , "c2" : "BLOCKER"
@@ -377,31 +384,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10722"
- , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_gcm_hw.c.html#10722"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10722] The expression ctx-&gt;enc applies to a single value or variable, might be ambiguous."
+   "c1" : "10728"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_gcm_hw.c.html#10728"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10728] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10740"
- , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_gcm_hw.c.html#10740"
+   "c1" : "10730"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_gcm_hw.c.html#10730"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10740] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10730] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10742"
- , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_gcm_hw.c.html#10742"
+   "c1" : "10733"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_gcm_hw.c.html#10733"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10742] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10745"
- , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_gcm_hw.c.html#10745"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10745] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10733] goto statement jump to err"
 }} 
 ]
 };
