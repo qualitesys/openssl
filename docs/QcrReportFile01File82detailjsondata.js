@@ -198,7 +198,7 @@ var maDataBlocs = {
    "c1" : "01092"
  , "c1link" : "./qc/crypto/aria/aria.c.html#1092"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000020[01092] Infinite loop risk, the condition must be bounded to lower value"
+ , "c3" : "QC-CPP000020[01092] Infinite loop risk, the assignement condition must be bounded to lower value"
 }} 
 ,
 { "ligne" : {

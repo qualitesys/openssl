@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/modes/gcm128.c.html" 
- , "texte" : "File crypto/modes/gcm128.c 199 rule violations " 
+ , "texte" : "File crypto/modes/gcm128.c 198 rule violations " 
  , "fic2"  : "./qc/crypto/modes/gcm128.c.xml" 
  , "fic3"  : "" 
 }
@@ -70,7 +70,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000020"
  , "c3" : "Infinite loop risk, the condition must be bounded"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -689,13 +689,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/modes/gcm128.c.html#8272"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000020[08272] Infinite loop risk, the condition must be bounded to upper value"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08272"
- , "c1link" : "./qc/crypto/modes/gcm128.c.html#8272"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000020[08272] Infinite loop risk, the condition must be bounded to lower value"
 }} 
 ,
 { "ligne" : {
