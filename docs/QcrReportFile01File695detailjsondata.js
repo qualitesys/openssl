@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/store/store_register.c.html" 
- , "texte" : "File crypto/store/store_register.c 25 rule violations " 
+ , "texte" : "File crypto/store/store_register.c 24 rule violations " 
  , "fic2"  : "./qc/crypto/store/store_register.c.xml" 
  , "fic3"  : "" 
 }
@@ -50,13 +50,6 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000019"
- , "c3" : "Risk for an equal test to be always false"
- , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -227,13 +220,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/store/store_register.c.html#13435"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[13435] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13601"
- , "c1link" : "./qc/crypto/store/store_register.c.html#13601"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[13601] The variable scheme is post incremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

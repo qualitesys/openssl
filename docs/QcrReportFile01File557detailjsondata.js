@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/objects/obj_dat.c.html" 
- , "texte" : "File crypto/objects/obj_dat.c 119 rule violations " 
+ , "texte" : "File crypto/objects/obj_dat.c 115 rule violations " 
  , "fic2"  : "./qc/crypto/objects/obj_dat.c.xml" 
  , "fic3"  : "" 
 }
@@ -77,7 +77,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000019"
  , "c3" : "Risk for an equal test to be always false"
- , "c4" : "5"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -885,34 +885,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/objects/obj_dat.c.html#15662"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[15662] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15665"
- , "c1link" : "./qc/crypto/objects/obj_dat.c.html#15665"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[15665] The variable s is post incremented and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15669"
- , "c1link" : "./qc/crypto/objects/obj_dat.c.html#15669"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[15669] The variable s is post incremented and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15679"
- , "c1link" : "./qc/crypto/objects/obj_dat.c.html#15679"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[15679] The variable l is post incremented and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15683"
- , "c1link" : "./qc/crypto/objects/obj_dat.c.html#15683"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[15683] The variable l is post incremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/engines/e_loader_attic.c.html" 
- , "texte" : "File engines/e_loader_attic.c 139 rule violations " 
+ , "texte" : "File engines/e_loader_attic.c 138 rule violations " 
  , "fic2"  : "./qc/engines/e_loader_attic.c.xml" 
  , "fic3"  : "" 
 }
@@ -64,13 +64,6 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000019"
- , "c3" : "Risk for an equal test to be always false"
- , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -969,13 +962,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/engines/e_loader_attic.c.html#17724"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[17724] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17778"
- , "c1link" : "./qc/engines/e_loader_attic.c.html#17778"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[17778] The variable p is post incremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

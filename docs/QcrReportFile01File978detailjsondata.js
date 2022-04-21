@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/storemgmt/file_store.c.html" 
- , "texte" : "File providers/implementations/storemgmt/file_store.c 85 rule violations " 
+ , "texte" : "File providers/implementations/storemgmt/file_store.c 84 rule violations " 
  , "fic2"  : "./qc/providers/implementations/storemgmt/file_store.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,13 +57,6 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000019"
- , "c3" : "Risk for an equal test to be always false"
- , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -654,13 +647,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#16002"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[16002] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16056"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#16056"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[16056] The variable p is post incremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

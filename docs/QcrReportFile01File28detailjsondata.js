@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/lib/apps.c.html" 
- , "texte" : "File apps/lib/apps.c 320 rule violations " 
+ , "texte" : "File apps/lib/apps.c 314 rule violations " 
  , "fic2"  : "./qc/apps/lib/apps.c.xml" 
  , "fic3"  : "" 
 }
@@ -77,7 +77,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000019"
  , "c3" : "Risk for an equal test to be always false"
- , "c4" : "7"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -447,31 +447,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "21156"
- , "c1link" : "./qc/apps/lib/apps.c.html#21156"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[21156] The variable p is post incremented and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
    "c1" : "21160"
  , "c1link" : "./qc/apps/lib/apps.c.html#21160"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000019[21160] The variable p is post incremented and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21173"
- , "c1link" : "./qc/apps/lib/apps.c.html#21173"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[21173] The variable p is post incremented and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21179"
- , "c1link" : "./qc/apps/lib/apps.c.html#21179"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[21179] The variable p is post incremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -486,13 +465,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/lib/apps.c.html#21174"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[21174] The expression quoted applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "21179"
- , "c1link" : "./qc/apps/lib/apps.c.html#21179"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[21179] The variable p is post incremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -689,20 +661,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/lib/apps.c.html#22125"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[22125] The expression suppress_decode_errors applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "22253"
- , "c1link" : "./qc/apps/lib/apps.c.html#22253"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[22253] The variable opt is post incremented and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "22268"
- , "c1link" : "./qc/apps/lib/apps.c.html#22268"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[22268] The variable opt is post incremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

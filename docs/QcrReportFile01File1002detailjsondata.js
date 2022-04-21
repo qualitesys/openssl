@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/ssl_ciph.c.html" 
- , "texte" : "File ssl/ssl_ciph.c 153 rule violations " 
+ , "texte" : "File ssl/ssl_ciph.c 151 rule violations " 
  , "fic2"  : "./qc/ssl/ssl_ciph.c.xml" 
  , "fic3"  : "" 
 }
@@ -84,7 +84,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000019"
  , "c3" : "Risk for an equal test to be always false"
- , "c4" : "3"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -815,20 +815,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/ssl_ciph.c.html#21222"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000006[21222] The end expression of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21432"
- , "c1link" : "./qc/ssl/ssl_ciph.c.html#21432"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[21432] The variable l is post incremented and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21474"
- , "c1link" : "./qc/ssl/ssl_ciph.c.html#21474"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[21474] The variable l is post incremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

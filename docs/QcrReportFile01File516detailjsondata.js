@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/http/http_client.c.html" 
- , "texte" : "File crypto/http/http_client.c 214 rule violations " 
+ , "texte" : "File crypto/http/http_client.c 201 rule violations " 
  , "fic2"  : "./qc/crypto/http/http_client.c.xml" 
  , "fic3"  : "" 
 }
@@ -78,13 +78,6 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000019"
- , "c3" : "Risk for an equal test to be always false"
- , "c4" : "13"
 }}
 ,
 { "ligne" : {
@@ -734,38 +727,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13225"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13225"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[13225] The variable code is post incremented and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13229"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13229"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[13229] The variable code is post incremented and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13231"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13231"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[13231] The variable code is post incremented and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
    "c1" : "13226"
  , "c1link" : "./qc/crypto/http/http_client.c.html#13226"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[13226] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13231"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13231"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[13231] The variable code is post incremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
@@ -776,34 +741,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13238"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13238"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[13238] The variable reason is post incremented and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13250"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13250"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[13250] The variable reason is post incremented and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13253"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13253"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[13253] The variable reason is post incremented and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13264"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13264"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[13264] The variable reason is post incremented and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
    "c1" : "13239"
  , "c1link" : "./qc/crypto/http/http_client.c.html#13239"
  , "c2" : "MAJOR"
@@ -811,45 +748,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13250"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13250"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[13250] The variable reason is post incremented and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13253"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13253"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[13253] The variable reason is post incremented and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13264"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13264"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[13264] The variable reason is post incremented and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
    "c1" : "13247"
  , "c1link" : "./qc/crypto/http/http_client.c.html#13247"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[13247] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13253"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13253"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[13253] The variable reason is post incremented and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13264"
- , "c1link" : "./qc/crypto/http/http_client.c.html#13264"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[13264] The variable reason is post incremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

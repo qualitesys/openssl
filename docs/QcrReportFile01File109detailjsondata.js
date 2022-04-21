@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/asn1/asn_moid.c.html" 
- , "texte" : "File crypto/asn1/asn_moid.c 51 rule violations " 
+ , "texte" : "File crypto/asn1/asn_moid.c 50 rule violations " 
  , "fic2"  : "./qc/crypto/asn1/asn_moid.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000019"
  , "c3" : "Risk for an equal test to be always false"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -416,13 +416,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/asn1/asn_moid.c.html#13958"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000019[13958] The variable ln is post incremented and is tested with equility, risk to be always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13958"
- , "c1link" : "./qc/crypto/asn1/asn_moid.c.html#13958"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[13958] The variable p is post decremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

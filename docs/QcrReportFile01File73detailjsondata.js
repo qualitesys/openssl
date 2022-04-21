@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/x509.c.html" 
- , "texte" : "File apps/x509.c 208 rule violations " 
+ , "texte" : "File apps/x509.c 207 rule violations " 
  , "fic2"  : "./qc/apps/x509.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,13 +57,6 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000019"
- , "c3" : "Risk for an equal test to be always false"
- , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -1438,13 +1431,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/x509.c.html#20646"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[20646] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "20654"
- , "c1link" : "./qc/apps/x509.c.html#20654"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[20654] The variable q is post incremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {
