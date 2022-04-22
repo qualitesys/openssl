@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bio/bf_buff.c.html" 
- , "texte" : "File crypto/bio/bf_buff.c 74 rule violations " 
+ , "texte" : "File crypto/bio/bf_buff.c 73 rule violations " 
  , "fic2"  : "./qc/crypto/bio/bf_buff.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,13 +57,6 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000019"
- , "c3" : "Risk for an equal test to be always false"
- , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -577,13 +570,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10979"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[10979] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10985"
- , "c1link" : "./qc/crypto/bio/bf_buff.c.html#10985"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000019[10985] The variable size is post decremented and is tested with equility, risk to be always false"
 }} 
 ,
 { "ligne" : {

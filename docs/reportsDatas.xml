@@ -906,7 +906,6 @@
 <occ><category>BLOCKER</category><rule>QC-CPP000006</rule><file>crypto/bio/bf_buff.c</file><nberror>8</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000012</rule><file>crypto/bio/bf_buff.c</file><nberror>46</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000018</rule><file>crypto/bio/bf_buff.c</file><nberror>3</nberror></occ>
-<occ><category>BLOCKER</category><rule>QC-CPP000019</rule><file>crypto/bio/bf_buff.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>crypto/bio/bf_buff.c</file><nberror>5</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>crypto/bio/bf_buff.c</file><nberror>11</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000006</rule><file>crypto/bio/bf_lbuf.c</file><nberror>2</nberror></occ>
@@ -1053,7 +1052,7 @@
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>crypto/bn/bn_conv.c</file><nberror>2</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000012</rule><file>crypto/bn/bn_conv.c</file><nberror>40</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000018</rule><file>crypto/bn/bn_conv.c</file><nberror>3</nberror></occ>
-<occ><category>BLOCKER</category><rule>QC-CPP000019</rule><file>crypto/bn/bn_conv.c</file><nberror>3</nberror></occ>
+<occ><category>BLOCKER</category><rule>QC-CPP000019</rule><file>crypto/bn/bn_conv.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>crypto/bn/bn_conv.c</file><nberror>11</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>crypto/bn/bn_conv.c</file><nberror>3</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>crypto/bn/bn_conv.c</file><nberror>5</nberror></occ>
@@ -1740,7 +1739,6 @@
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>crypto/dh/dh_key.c</file><nberror>4</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000012</rule><file>crypto/dh/dh_key.c</file><nberror>46</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000018</rule><file>crypto/dh/dh_key.c</file><nberror>3</nberror></occ>
-<occ><category>BLOCKER</category><rule>QC-CPP000019</rule><file>crypto/dh/dh_key.c</file><nberror>2</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>crypto/dh/dh_key.c</file><nberror>24</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>crypto/dh/dh_key.c</file><nberror>2</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>crypto/dh/dh_key.c</file><nberror>5</nberror></occ>
@@ -1803,7 +1801,6 @@
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>crypto/dsa/dsa_key.c</file><nberror>2</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000012</rule><file>crypto/dsa/dsa_key.c</file><nberror>39</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000018</rule><file>crypto/dsa/dsa_key.c</file><nberror>3</nberror></occ>
-<occ><category>BLOCKER</category><rule>QC-CPP000019</rule><file>crypto/dsa/dsa_key.c</file><nberror>2</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>crypto/dsa/dsa_key.c</file><nberror>10</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>crypto/dsa/dsa_key.c</file><nberror>3</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>crypto/dsa/dsa_key.c</file><nberror>1</nberror></occ>
@@ -1922,7 +1919,6 @@
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>crypto/ec/ec_asn1.c</file><nberror>19</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000012</rule><file>crypto/ec/ec_asn1.c</file><nberror>24</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000018</rule><file>crypto/ec/ec_asn1.c</file><nberror>3</nberror></occ>
-<occ><category>BLOCKER</category><rule>QC-CPP000019</rule><file>crypto/ec/ec_asn1.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>crypto/ec/ec_asn1.c</file><nberror>83</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>crypto/ec/ec_asn1.c</file><nberror>39</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>crypto/ec/ec_asn1.c</file><nberror>16</nberror></occ>
@@ -1960,7 +1956,6 @@
 <occ><category>BLOCKER</category><rule>QC-CPP000011</rule><file>crypto/ec/ec_key.c</file><nberror>3</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000012</rule><file>crypto/ec/ec_key.c</file><nberror>39</nberror></occ>
 <occ><category>BLOCKER</category><rule>QC-CPP000018</rule><file>crypto/ec/ec_key.c</file><nberror>3</nberror></occ>
-<occ><category>BLOCKER</category><rule>QC-CPP000019</rule><file>crypto/ec/ec_key.c</file><nberror>1</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000007</rule><file>crypto/ec/ec_key.c</file><nberror>29</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPPCWE481</rule><file>crypto/ec/ec_key.c</file><nberror>2</nberror></occ>
 <occ><category>MAJOR</category><rule>QC-CPP000014</rule><file>crypto/ec/ec_key.c</file><nberror>6</nberror></occ>
