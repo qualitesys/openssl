@@ -1,5 +1,5 @@
 /*
- * Copyright 2015-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2015-2022 The OpenSSL Project Authors. All Rights Reserved.
  *
  * Licensed under the Apache License 2.0 (the "License").  You may not use
  * this file except in compliance with the License.  You can obtain a copy
@@ -12,7 +12,6 @@
 #include <string.h>
 #include <stdlib.h>
 #include <ctype.h>
-#include "internal/e_os.h" /* strcasecmp and strncasecmp */
 #include <openssl/evp.h>
 #include <openssl/pem.h>
 #include <openssl/err.h>
@@ -1153,6 +1152,8 @@ typedef struct mac_data_st {
     size_t salt_len;
     /* XOF mode? */
     int xof;
+    /* Reinitialization fails */
+    int no_reinit;
     /* Collection of controls */
     STACK_OF(OPENSSL_STRING) *controls;
     /* Output size */
@@ -1265,6 +1266,8 @@ static int mac_test_parse(EVP_TEST *t,
         return parse_bin(value, &mdata->output, &mdata->output_len);
     if (strcmp(keyword, "XOF") == 0)
         return mdata->xof = 1;
+    if (strcmp(keyword, "NoReinit") == 0)
+        return mdata->no_reinit = 1;
     if (strcmp(keyword, "Ctrl") == 0)
         return sk_OPENSSL_STRING_push(mdata->controls,
                                       OPENSSL_strdup(value)) != 0;
@@ -1428,6 +1431,7 @@ static int mac_test_run_mac(EVP_TEST *t)
     const OSSL_PARAM *defined_params =
         EVP_MAC_settable_ctx_params(expected->mac);
     int xof;
+    int reinit = 1;
 
     if (expected->alg == NULL)
         TEST_info("Trying the EVP_MAC %s test", expected->mac_name);
@@ -1538,6 +1542,7 @@ static int mac_test_run_mac(EVP_TEST *t)
             goto err;
         }
     }
+ retry:
     if (!EVP_MAC_update(ctx, expected->input, expected->input_len)) {
         t->err = "MAC_UPDATE_ERROR";
         goto err;
@@ -1571,6 +1576,39 @@ static int mac_test_run_mac(EVP_TEST *t)
             t->err = "TEST_MAC_ERR";
             goto err;
         }
+    }
+    if (reinit--) {
+        OSSL_PARAM ivparams[2] = { OSSL_PARAM_END, OSSL_PARAM_END };
+        int ret;
+
+        /* If the MAC uses IV, we have to set it again */
+        if (expected->iv != NULL) {
+            ivparams[0] =
+                OSSL_PARAM_construct_octet_string(OSSL_MAC_PARAM_IV,
+                                                  expected->iv,
+                                                  expected->iv_len);
+            ivparams[1] = OSSL_PARAM_construct_end();
+        }
+        ERR_set_mark();
+        ret = EVP_MAC_init(ctx, NULL, 0, ivparams);
+        if (expected->no_reinit) {
+            if (ret) {
+                ERR_clear_last_mark();
+                t->err = "MAC_REINIT_SHOULD_FAIL";
+                goto err;
+            }
+        } else if (ret) {
+            ERR_clear_last_mark();
+            OPENSSL_free(got);
+            got = NULL;
+            goto retry;
+        } else {
+            ERR_clear_last_mark();
+            t->err = "MAC_REINIT_ERROR";
+            goto err;
+        }
+        /* If reinitialization fails, it is unsupported by the algorithm */
+        ERR_pop_to_mark();
     }
     t->err = NULL;
 
@@ -3928,31 +3966,31 @@ static int is_digest_disabled(const char *name)
         return 1;
 #endif
 #ifdef OPENSSL_NO_MD2
-    if (strcasecmp(name, "MD2") == 0)
+    if (OPENSSL_strcasecmp(name, "MD2") == 0)
         return 1;
 #endif
 #ifdef OPENSSL_NO_MDC2
-    if (strcasecmp(name, "MDC2") == 0)
+    if (OPENSSL_strcasecmp(name, "MDC2") == 0)
         return 1;
 #endif
 #ifdef OPENSSL_NO_MD4
-    if (strcasecmp(name, "MD4") == 0)
+    if (OPENSSL_strcasecmp(name, "MD4") == 0)
         return 1;
 #endif
 #ifdef OPENSSL_NO_MD5
-    if (strcasecmp(name, "MD5") == 0)
+    if (OPENSSL_strcasecmp(name, "MD5") == 0)
         return 1;
 #endif
 #ifdef OPENSSL_NO_RMD160
-    if (strcasecmp(name, "RIPEMD160") == 0)
+    if (OPENSSL_strcasecmp(name, "RIPEMD160") == 0)
         return 1;
 #endif
 #ifdef OPENSSL_NO_SM3
-    if (strcasecmp(name, "SM3") == 0)
+    if (OPENSSL_strcasecmp(name, "SM3") == 0)
         return 1;
 #endif
 #ifdef OPENSSL_NO_WHIRLPOOL
-    if (strcasecmp(name, "WHIRLPOOL") == 0)
+    if (OPENSSL_strcasecmp(name, "WHIRLPOOL") == 0)
         return 1;
 #endif
     return 0;

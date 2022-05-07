@@ -1,5 +1,5 @@
 /*
- * Copyright 2006-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2006-2022 The OpenSSL Project Authors. All Rights Reserved.
  *
  * Licensed under the Apache License 2.0 (the "License").  You may not use
  * this file except in compliance with the License.  You can obtain a copy
@@ -23,7 +23,7 @@
 #include <openssl/dh.h>
 #include <openssl/rsa.h>
 #include <openssl/kdf.h>
-#include "internal/cryptlib.h"
+#include "crypto/cryptlib.h"
 #ifndef FIPS_MODULE
 # include "crypto/asn1.h"
 #endif
@@ -199,6 +199,7 @@ static EVP_PKEY_CTX *int_ctx_new(OSSL_LIB_CTX *libctx,
             }
 #ifndef FIPS_MODULE
             if (keytype != NULL) {
+                OPENSSL_init_crypto(OPENSSL_INIT_BASE_ONLY, NULL);
                 id = evp_pkey_name2type(keytype);
                 if (id == NID_undef)
                     id = -1;

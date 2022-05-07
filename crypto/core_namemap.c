@@ -1,5 +1,5 @@
 /*
- * Copyright 2019-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2019-2022 The OpenSSL Project Authors. All Rights Reserved.
  *
  * Licensed under the Apache License 2.0 (the "License").  You may not use
  * this file except in compliance with the License.  You can obtain a copy
@@ -7,7 +7,6 @@
  * https://www.openssl.org/source/license.html
  */
 
-#include "internal/e_os.h"                /* strcasecmp */
 #include "internal/namemap.h"
 #include <openssl/lhash.h>
 #include "crypto/lhash.h"      /* ossl_lh_strcasehash */
@@ -50,7 +49,7 @@ static unsigned long namenum_hash(const NAMENUM_ENTRY *n)
 
 static int namenum_cmp(const NAMENUM_ENTRY *a, const NAMENUM_ENTRY *b)
 {
-    return strcasecmp(a->name, b->name);
+    return OPENSSL_strcasecmp(a->name, b->name);
 }
 
 static void namenum_free(NAMENUM_ENTRY *n)

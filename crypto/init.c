@@ -1,5 +1,5 @@
 /*
- * Copyright 2016-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2016-2022 The OpenSSL Project Authors. All Rights Reserved.
  *
  * Licensed under the Apache License 2.0 (the "License").  You may not use
  * this file except in compliance with the License.  You can obtain a copy
@@ -32,6 +32,7 @@
 #include "crypto/store.h"
 #include <openssl/cmp_util.h> /* for OSSL_CMP_log_close() */
 #include <openssl/trace.h>
+#include "crypto/ctype.h"
 
 static int stopped = 0;
 static uint64_t optsdone = 0;
@@ -270,6 +271,15 @@ DEFINE_RUN_ONCE_STATIC(ossl_init_async)
     return 1;
 }
 
+static CRYPTO_ONCE casecmp = CRYPTO_ONCE_STATIC_INIT;
+static int casecmp_inited = 0;
+DEFINE_RUN_ONCE_STATIC(ossl_init_casecmp)
+{
+    int ret = ossl_init_casecmp_int();
+
+    casecmp_inited = 1;
+    return ret;
+}
 #ifndef OPENSSL_NO_ENGINE
 static CRYPTO_ONCE engine_openssl = CRYPTO_ONCE_STATIC_INIT;
 DEFINE_RUN_ONCE_STATIC(ossl_init_engine_openssl)
@@ -447,6 +457,11 @@ void OPENSSL_cleanup(void)
     OSSL_TRACE(INIT, "OPENSSL_cleanup: ossl_trace_cleanup()\n");
     ossl_trace_cleanup();
 
+    if (casecmp_inited) {
+        OSSL_TRACE(INIT, "OPENSSL_cleanup: ossl_deinit_casecmp()\n");
+        ossl_deinit_casecmp();
+    }
+
     base_inited = 0;
 }
 
@@ -459,6 +474,9 @@ int OPENSSL_init_crypto(uint64_t opts, const OPENSSL_INIT_SETTINGS *settings)
 {
     uint64_t tmp;
     int aloaddone = 0;
+    if (!RUN_ONCE(&casecmp, ossl_init_casecmp))
+        return 0;
+
 
    /* Applications depend on 0 being returned when cleanup was already done */
     if (stopped) {

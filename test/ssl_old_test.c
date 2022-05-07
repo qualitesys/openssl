@@ -1,5 +1,5 @@
 /*
- * Copyright 1995-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 1995-2022 The OpenSSL Project Authors. All Rights Reserved.
  * Copyright (c) 2002, Oracle and/or its affiliates. All rights reserved
  * Copyright 2005 Nokia. All rights reserved.
  *
@@ -216,7 +216,7 @@ static int servername_cb(SSL *s, int *ad, void *arg)
 
     if (servername) {
         if (s_ctx2 != NULL && sn_server2 != NULL &&
-            !strcasecmp(servername, sn_server2)) {
+            !OPENSSL_strcasecmp(servername, sn_server2)) {
             BIO_printf(bio_stdout, "Switching server context.\n");
             SSL_set_SSL_CTX(s, s_ctx2);
         }

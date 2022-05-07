@@ -1,5 +1,5 @@
 /*
- * Copyright 2015-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2015-2022 The OpenSSL Project Authors. All Rights Reserved.
  *
  * Licensed under the Apache License 2.0 (the "License").  You may not use
  * this file except in compliance with the License.  You can obtain a copy
@@ -35,7 +35,6 @@
 #include "internal/nelem.h"
 #include "internal/sizes.h"
 #include "crypto/evp.h"
-#include "internal/e_os.h" /* strcasecmp */
 
 static OSSL_LIB_CTX *testctx = NULL;
 static char *testpropq = NULL;
@@ -1739,7 +1738,7 @@ static int ec_export_get_encoding_cb(const OSSL_PARAM params[], void *arg)
         return 0;
 
     for (i = 0; i < OSSL_NELEM(ec_encodings); i++) {
-        if (strcasecmp(enc_name, ec_encodings[i].encoding_name) == 0) {
+        if (OPENSSL_strcasecmp(enc_name, ec_encodings[i].encoding_name) == 0) {
             *enc = ec_encodings[i].encoding;
             break;
         }

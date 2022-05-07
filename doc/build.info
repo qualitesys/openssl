@@ -1531,6 +1531,10 @@ DEPEND[html/man3/OPENSSL_secure_malloc.html]=man3/OPENSSL_secure_malloc.pod
 GENERATE[html/man3/OPENSSL_secure_malloc.html]=man3/OPENSSL_secure_malloc.pod
 DEPEND[man/man3/OPENSSL_secure_malloc.3]=man3/OPENSSL_secure_malloc.pod
 GENERATE[man/man3/OPENSSL_secure_malloc.3]=man3/OPENSSL_secure_malloc.pod
+DEPEND[html/man3/OPENSSL_strcasecmp.html]=man3/OPENSSL_strcasecmp.pod
+GENERATE[html/man3/OPENSSL_strcasecmp.html]=man3/OPENSSL_strcasecmp.pod
+DEPEND[man/man3/OPENSSL_strcasecmp.3]=man3/OPENSSL_strcasecmp.pod
+GENERATE[man/man3/OPENSSL_strcasecmp.3]=man3/OPENSSL_strcasecmp.pod
 DEPEND[html/man3/OSSL_CMP_CTX_new.html]=man3/OSSL_CMP_CTX_new.pod
 GENERATE[html/man3/OSSL_CMP_CTX_new.html]=man3/OSSL_CMP_CTX_new.pod
 DEPEND[man/man3/OSSL_CMP_CTX_new.3]=man3/OSSL_CMP_CTX_new.pod
@@ -2667,6 +2671,10 @@ DEPEND[html/man3/X509_SIG_get0.html]=man3/X509_SIG_get0.pod
 GENERATE[html/man3/X509_SIG_get0.html]=man3/X509_SIG_get0.pod
 DEPEND[man/man3/X509_SIG_get0.3]=man3/X509_SIG_get0.pod
 GENERATE[man/man3/X509_SIG_get0.3]=man3/X509_SIG_get0.pod
+DEPEND[html/man3/X509_STORE_CTX_get_by_subject.html]=man3/X509_STORE_CTX_get_by_subject.pod
+GENERATE[html/man3/X509_STORE_CTX_get_by_subject.html]=man3/X509_STORE_CTX_get_by_subject.pod
+DEPEND[man/man3/X509_STORE_CTX_get_by_subject.3]=man3/X509_STORE_CTX_get_by_subject.pod
+GENERATE[man/man3/X509_STORE_CTX_get_by_subject.3]=man3/X509_STORE_CTX_get_by_subject.pod
 DEPEND[html/man3/X509_STORE_CTX_get_error.html]=man3/X509_STORE_CTX_get_error.pod
 GENERATE[html/man3/X509_STORE_CTX_get_error.html]=man3/X509_STORE_CTX_get_error.pod
 DEPEND[man/man3/X509_STORE_CTX_get_error.3]=man3/X509_STORE_CTX_get_error.pod
@@ -3110,6 +3118,7 @@ html/man3/OPENSSL_load_builtin_modules.html \
 html/man3/OPENSSL_malloc.html \
 html/man3/OPENSSL_s390xcap.html \
 html/man3/OPENSSL_secure_malloc.html \
+html/man3/OPENSSL_strcasecmp.html \
 html/man3/OSSL_CMP_CTX_new.html \
 html/man3/OSSL_CMP_HDR_get0_transactionID.html \
 html/man3/OSSL_CMP_ITAV_set0.html \
@@ -3394,6 +3403,7 @@ html/man3/X509_NAME_get_index_by_NID.html \
 html/man3/X509_NAME_print_ex.html \
 html/man3/X509_PUBKEY_new.html \
 html/man3/X509_SIG_get0.html \
+html/man3/X509_STORE_CTX_get_by_subject.html \
 html/man3/X509_STORE_CTX_get_error.html \
 html/man3/X509_STORE_CTX_new.html \
 html/man3/X509_STORE_CTX_set_verify_cb.html \
@@ -3704,6 +3714,7 @@ man/man3/OPENSSL_load_builtin_modules.3 \
 man/man3/OPENSSL_malloc.3 \
 man/man3/OPENSSL_s390xcap.3 \
 man/man3/OPENSSL_secure_malloc.3 \
+man/man3/OPENSSL_strcasecmp.3 \
 man/man3/OSSL_CMP_CTX_new.3 \
 man/man3/OSSL_CMP_HDR_get0_transactionID.3 \
 man/man3/OSSL_CMP_ITAV_set0.3 \
@@ -3988,6 +3999,7 @@ man/man3/X509_NAME_get_index_by_NID.3 \
 man/man3/X509_NAME_print_ex.3 \
 man/man3/X509_PUBKEY_new.3 \
 man/man3/X509_SIG_get0.3 \
+man/man3/X509_STORE_CTX_get_by_subject.3 \
 man/man3/X509_STORE_CTX_get_error.3 \
 man/man3/X509_STORE_CTX_new.3 \
 man/man3/X509_STORE_CTX_set_verify_cb.3 \
