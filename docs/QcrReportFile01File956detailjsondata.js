@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/macs/gmac_prov.c.html" 
- , "texte" : "File providers/implementations/macs/gmac_prov.c 30 rule violations " 
+ , "texte" : "File providers/implementations/macs/gmac_prov.c 31 rule violations " 
  , "fic2"  : "./qc/providers/implementations/macs/gmac_prov.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-CPPCWE481"
  , "c3" : "Assigning instead of comparing"
- , "c4" : "5"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : {
@@ -202,80 +202,87 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08678"
- , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#8678"
+   "c1" : "08680"
+ , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#8680"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08678] The pointer macctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[08680] The pointer macctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08687"
- , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#8687"
+   "c1" : "08689"
+ , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#8689"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08687] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08689] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08692"
- , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#8692"
+   "c1" : "08694"
+ , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#8694"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08692] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08694] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08712"
- , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#8712"
+   "c1" : "08714"
+ , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#8714"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08712] The pointer dst is declared but not initialized"
+ , "c3" : "QC-CPP000014[08714] The pointer dst is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08811"
- , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#8811"
+   "c1" : "08829"
+ , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#8829"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08811] The expression 0x7fffffff is invariable"
+ , "c3" : "QC-CPP000012[08829] The expression 0x7fffffff is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08885"
- , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#8885"
+   "c1" : "08903"
+ , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#8903"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08885] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[08903] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08887"
- , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#8887"
+   "c1" : "08905"
+ , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#8905"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08887] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08905] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08942"
- , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#8942"
+   "c1" : "08960"
+ , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#8960"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08942] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[08960] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08980"
- , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#8980"
+   "c1" : "08975"
+ , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#8975"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08980] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08975] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08989"
- , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#8989"
+   "c1" : "09005"
+ , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#9005"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08989] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[09005] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08997"
- , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#8997"
+   "c1" : "09014"
+ , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#9014"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09014] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09022"
+ , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#9022"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08997] The expression 0x9 is invariable"
+ , "c3" : "QC-CPP000012[09022] The expression 0x9 is invariable"
 }} 
 ]
 };

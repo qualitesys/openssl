@@ -209,24 +209,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08508"
- , "c1link" : "./qc/crypto/ffc/ffc_params_validate.c.html#8508"
+   "c1" : "08510"
+ , "c1link" : "./qc/crypto/ffc/ffc_params_validate.c.html#8510"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08508] The expression ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08509"
- , "c1link" : "./qc/crypto/ffc/ffc_params_validate.c.html#8509"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08509] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000011[08510] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "08511"
  , "c1link" : "./qc/crypto/ffc/ffc_params_validate.c.html#8511"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08511] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[08511] The pointer ctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08513"
+ , "c1link" : "./qc/crypto/ffc/ffc_params_validate.c.html#8513"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08513] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

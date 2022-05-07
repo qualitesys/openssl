@@ -223,290 +223,290 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14033"
- , "c1link" : "./qc/apps/lib/engine.c.html#14033"
+   "c1" : "14035"
+ , "c1link" : "./qc/apps/lib/engine.c.html#14035"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14033] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[14035] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14038"
- , "c1link" : "./qc/apps/lib/engine.c.html#14038"
+   "c1" : "14040"
+ , "c1link" : "./qc/apps/lib/engine.c.html#14040"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14038] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[14040] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14063"
- , "c1link" : "./qc/apps/lib/engine.c.html#14063"
+   "c1" : "14065"
+ , "c1link" : "./qc/apps/lib/engine.c.html#14065"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14063] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14065] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14068"
- , "c1link" : "./qc/apps/lib/engine.c.html#14068"
+   "c1" : "14070"
+ , "c1link" : "./qc/apps/lib/engine.c.html#14070"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14068] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14070] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14097"
- , "c1link" : "./qc/apps/lib/engine.c.html#14097"
+   "c1" : "14099"
+ , "c1link" : "./qc/apps/lib/engine.c.html#14099"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14097] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14099] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14102"
- , "c1link" : "./qc/apps/lib/engine.c.html#14102"
+   "c1" : "14104"
+ , "c1link" : "./qc/apps/lib/engine.c.html#14104"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14102] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14104] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14123"
- , "c1link" : "./qc/apps/lib/engine.c.html#14123"
+   "c1" : "14125"
+ , "c1link" : "./qc/apps/lib/engine.c.html#14125"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14123] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14125] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14128"
- , "c1link" : "./qc/apps/lib/engine.c.html#14128"
+   "c1" : "14130"
+ , "c1link" : "./qc/apps/lib/engine.c.html#14130"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14128] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14130] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14144"
- , "c1link" : "./qc/apps/lib/engine.c.html#14144"
+   "c1" : "14146"
+ , "c1link" : "./qc/apps/lib/engine.c.html#14146"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14144] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14146] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14163"
- , "c1link" : "./qc/apps/lib/engine.c.html#14163"
+   "c1" : "14165"
+ , "c1link" : "./qc/apps/lib/engine.c.html#14165"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14163] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14165] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14168"
- , "c1link" : "./qc/apps/lib/engine.c.html#14168"
+   "c1" : "14170"
+ , "c1link" : "./qc/apps/lib/engine.c.html#14170"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14168] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14170] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14188"
- , "c1link" : "./qc/apps/lib/engine.c.html#14188"
+   "c1" : "14190"
+ , "c1link" : "./qc/apps/lib/engine.c.html#14190"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14188] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14190] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14193"
- , "c1link" : "./qc/apps/lib/engine.c.html#14193"
+   "c1" : "14195"
+ , "c1link" : "./qc/apps/lib/engine.c.html#14195"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14193] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14195] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14214"
- , "c1link" : "./qc/apps/lib/engine.c.html#14214"
+   "c1" : "14216"
+ , "c1link" : "./qc/apps/lib/engine.c.html#14216"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14214] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14216] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14219"
- , "c1link" : "./qc/apps/lib/engine.c.html#14219"
+   "c1" : "14221"
+ , "c1link" : "./qc/apps/lib/engine.c.html#14221"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14219] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14221] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14240"
- , "c1link" : "./qc/apps/lib/engine.c.html#14240"
+   "c1" : "14242"
+ , "c1link" : "./qc/apps/lib/engine.c.html#14242"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14240] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14242] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14245"
- , "c1link" : "./qc/apps/lib/engine.c.html#14245"
+   "c1" : "14247"
+ , "c1link" : "./qc/apps/lib/engine.c.html#14247"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14245] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14247] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14267"
- , "c1link" : "./qc/apps/lib/engine.c.html#14267"
+   "c1" : "14269"
+ , "c1link" : "./qc/apps/lib/engine.c.html#14269"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14267] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14269] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14272"
- , "c1link" : "./qc/apps/lib/engine.c.html#14272"
+   "c1" : "14274"
+ , "c1link" : "./qc/apps/lib/engine.c.html#14274"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14272] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14274] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14296"
- , "c1link" : "./qc/apps/lib/engine.c.html#14296"
+   "c1" : "14298"
+ , "c1link" : "./qc/apps/lib/engine.c.html#14298"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14296] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14298] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14301"
- , "c1link" : "./qc/apps/lib/engine.c.html#14301"
+   "c1" : "14303"
+ , "c1link" : "./qc/apps/lib/engine.c.html#14303"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14301] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14303] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15630"
- , "c1link" : "./qc/apps/lib/engine.c.html#15630"
+   "c1" : "15632"
+ , "c1link" : "./qc/apps/lib/engine.c.html#15632"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15630] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[15632] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15635"
- , "c1link" : "./qc/apps/lib/engine.c.html#15635"
+   "c1" : "15637"
+ , "c1link" : "./qc/apps/lib/engine.c.html#15637"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15635] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[15637] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15661"
- , "c1link" : "./qc/apps/lib/engine.c.html#15661"
+   "c1" : "15663"
+ , "c1link" : "./qc/apps/lib/engine.c.html#15663"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15661] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[15663] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15666"
- , "c1link" : "./qc/apps/lib/engine.c.html#15666"
+   "c1" : "15668"
+ , "c1link" : "./qc/apps/lib/engine.c.html#15668"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15666] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[15668] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18763"
- , "c1link" : "./qc/apps/lib/engine.c.html#18763"
+   "c1" : "18765"
+ , "c1link" : "./qc/apps/lib/engine.c.html#18765"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18763] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18765] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18768"
- , "c1link" : "./qc/apps/lib/engine.c.html#18768"
+   "c1" : "18770"
+ , "c1link" : "./qc/apps/lib/engine.c.html#18770"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18768] The expression 'SO_PATH' is invariable"
+ , "c3" : "QC-CPP000012[18770] The expression 'SO_PATH' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18768"
- , "c1link" : "./qc/apps/lib/engine.c.html#18768"
+   "c1" : "18770"
+ , "c1link" : "./qc/apps/lib/engine.c.html#18770"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18768] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[18770] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18769"
- , "c1link" : "./qc/apps/lib/engine.c.html#18769"
+   "c1" : "18771"
+ , "c1link" : "./qc/apps/lib/engine.c.html#18771"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18769] The expression 'LOAD' is invariable"
+ , "c3" : "QC-CPP000012[18771] The expression 'LOAD' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18773"
- , "c1link" : "./qc/apps/lib/engine.c.html#18773"
+   "c1" : "18775"
+ , "c1link" : "./qc/apps/lib/engine.c.html#18775"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18773] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[18775] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18800"
- , "c1link" : "./qc/apps/lib/engine.c.html#18800"
+   "c1" : "18802"
+ , "c1link" : "./qc/apps/lib/engine.c.html#18802"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18800] The expression 'auto' is invariable"
+ , "c3" : "QC-CPP000012[18802] The expression 'auto' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18809"
- , "c1link" : "./qc/apps/lib/engine.c.html#18809"
+   "c1" : "18811"
+ , "c1link" : "./qc/apps/lib/engine.c.html#18811"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18809] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[18811] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18814"
- , "c1link" : "./qc/apps/lib/engine.c.html#18814"
+   "c1" : "18816"
+ , "c1link" : "./qc/apps/lib/engine.c.html#18816"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18814] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18827"
- , "c1link" : "./qc/apps/lib/engine.c.html#18827"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[18827] The expression debug applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPPCWE481[18816] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "18829"
  , "c1link" : "./qc/apps/lib/engine.c.html#18829"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18829] The expression 'SET_USER_INTERFACE' is invariable"
+ , "c3" : "QC-CPP000011[18829] The expression debug applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "18829"
- , "c1link" : "./qc/apps/lib/engine.c.html#18829"
+   "c1" : "18831"
+ , "c1link" : "./qc/apps/lib/engine.c.html#18831"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18829] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[18831] The expression 'SET_USER_INTERFACE' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18830"
- , "c1link" : "./qc/apps/lib/engine.c.html#18830"
+   "c1" : "18831"
+ , "c1link" : "./qc/apps/lib/engine.c.html#18831"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18830] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[18831] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18830"
- , "c1link" : "./qc/apps/lib/engine.c.html#18830"
+   "c1" : "18832"
+ , "c1link" : "./qc/apps/lib/engine.c.html#18832"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[18830] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[18832] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18927"
- , "c1link" : "./qc/apps/lib/engine.c.html#18927"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18927] The pointer ameth is declared but not initialized"
+   "c1" : "18832"
+ , "c1link" : "./qc/apps/lib/engine.c.html#18832"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[18832] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18997"
- , "c1link" : "./qc/apps/lib/engine.c.html#18997"
+   "c1" : "18929"
+ , "c1link" : "./qc/apps/lib/engine.c.html#18929"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18997] The pointer eng is declared but not initialized"
+ , "c3" : "QC-CPP000014[18929] The pointer ameth is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19019"
- , "c1link" : "./qc/apps/lib/engine.c.html#19019"
+   "c1" : "18999"
+ , "c1link" : "./qc/apps/lib/engine.c.html#18999"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19019] The pointer eng is declared but not initialized"
+ , "c3" : "QC-CPP000014[18999] The pointer eng is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19021"
+ , "c1link" : "./qc/apps/lib/engine.c.html#19021"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[19021] The pointer eng is declared but not initialized"
 }} 
 ]
 };

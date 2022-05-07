@@ -209,20 +209,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "04645"
- , "c1link" : "./qc/crypto/o_time.c.html#4645"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04645] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04645"
- , "c1link" : "./qc/crypto/o_time.c.html#4645"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04645] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
    "c1" : "04647"
  , "c1link" : "./qc/crypto/o_time.c.html#4647"
  , "c2" : "BLOCKER"
@@ -237,17 +223,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "04661"
- , "c1link" : "./qc/crypto/o_time.c.html#4661"
+   "c1" : "04649"
+ , "c1link" : "./qc/crypto/o_time.c.html#4649"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04661] The expression pday applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[04649] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04649"
+ , "c1link" : "./qc/crypto/o_time.c.html#4649"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04649] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "04663"
  , "c1link" : "./qc/crypto/o_time.c.html#4663"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04663] The expression psec applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[04663] The expression pday applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "04665"
+ , "c1link" : "./qc/crypto/o_time.c.html#4665"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[04665] The expression psec applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

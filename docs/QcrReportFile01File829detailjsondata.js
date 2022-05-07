@@ -202,31 +202,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06520"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#6520"
+   "c1" : "06522"
+ , "c1link" : "./qc/providers/common/securitycheck.c.html#6522"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06520] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06522] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10093"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#10093"
+   "c1" : "10095"
+ , "c1link" : "./qc/providers/common/securitycheck.c.html#10095"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[10093] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[10095] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10098"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#10098"
+   "c1" : "10100"
+ , "c1link" : "./qc/providers/common/securitycheck.c.html#10100"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[10098] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[10100] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10106"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#10106"
+   "c1" : "10108"
+ , "c1link" : "./qc/providers/common/securitycheck.c.html#10108"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10106] The expression 0xF000 is invariable"
+ , "c3" : "QC-CPP000012[10108] The expression 0xF000 is invariable"
 }} 
 ]
 };

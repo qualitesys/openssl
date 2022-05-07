@@ -216,227 +216,227 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08335"
- , "c1link" : "./qc/crypto/passphrase.c.html#8335"
+   "c1" : "08337"
+ , "c1link" : "./qc/crypto/passphrase.c.html#8337"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08335] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[08337] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13688"
- , "c1link" : "./qc/crypto/passphrase.c.html#13688"
+   "c1" : "13691"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13691"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13688] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[13691] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13693"
- , "c1link" : "./qc/crypto/passphrase.c.html#13693"
+   "c1" : "13696"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13696"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13693] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[13696] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13718"
- , "c1link" : "./qc/crypto/passphrase.c.html#13718"
+   "c1" : "13721"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13721"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13718] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13721] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13723"
- , "c1link" : "./qc/crypto/passphrase.c.html#13723"
+   "c1" : "13726"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13726"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13723] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13726] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13752"
- , "c1link" : "./qc/crypto/passphrase.c.html#13752"
+   "c1" : "13755"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13755"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13752] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13755] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13757"
- , "c1link" : "./qc/crypto/passphrase.c.html#13757"
+   "c1" : "13760"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13760"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13757] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13760] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13778"
- , "c1link" : "./qc/crypto/passphrase.c.html#13778"
+   "c1" : "13781"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13781"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13778] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13781] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13783"
- , "c1link" : "./qc/crypto/passphrase.c.html#13783"
+   "c1" : "13786"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13786"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13783] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13786] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13799"
- , "c1link" : "./qc/crypto/passphrase.c.html#13799"
+   "c1" : "13802"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13802"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13799] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13802] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13818"
- , "c1link" : "./qc/crypto/passphrase.c.html#13818"
+   "c1" : "13821"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13821"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13818] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13821] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13823"
- , "c1link" : "./qc/crypto/passphrase.c.html#13823"
+   "c1" : "13826"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13826"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13823] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13826] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13843"
- , "c1link" : "./qc/crypto/passphrase.c.html#13843"
+   "c1" : "13846"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13846"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13843] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13846] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13848"
- , "c1link" : "./qc/crypto/passphrase.c.html#13848"
+   "c1" : "13851"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13851"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13848] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13851] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13869"
- , "c1link" : "./qc/crypto/passphrase.c.html#13869"
+   "c1" : "13872"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13872"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13869] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13872] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13874"
- , "c1link" : "./qc/crypto/passphrase.c.html#13874"
+   "c1" : "13877"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13877"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13874] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13877] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13895"
- , "c1link" : "./qc/crypto/passphrase.c.html#13895"
+   "c1" : "13898"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13898"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13895] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13898] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13900"
- , "c1link" : "./qc/crypto/passphrase.c.html#13900"
+   "c1" : "13903"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13903"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13900] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13903] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13922"
- , "c1link" : "./qc/crypto/passphrase.c.html#13922"
+   "c1" : "13925"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13925"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13922] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13925] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13927"
- , "c1link" : "./qc/crypto/passphrase.c.html#13927"
+   "c1" : "13930"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13930"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13927] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13930] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13951"
- , "c1link" : "./qc/crypto/passphrase.c.html#13951"
+   "c1" : "13954"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13954"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13951] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13954] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13956"
- , "c1link" : "./qc/crypto/passphrase.c.html#13956"
+   "c1" : "13959"
+ , "c1link" : "./qc/crypto/passphrase.c.html#13959"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13956] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[13959] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14386"
- , "c1link" : "./qc/crypto/passphrase.c.html#14386"
+   "c1" : "14389"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14389"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14386] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14389] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14425"
- , "c1link" : "./qc/crypto/passphrase.c.html#14425"
+   "c1" : "14428"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14428"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14425] goto statement jump to end"
+ , "c3" : "QC-CPP000007[14428] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14440"
- , "c1link" : "./qc/crypto/passphrase.c.html#14440"
+   "c1" : "14443"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14443"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14440] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14452"
- , "c1link" : "./qc/crypto/passphrase.c.html#14452"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14452] goto statement jump to end"
+ , "c3" : "QC-CPP000007[14443] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
    "c1" : "14455"
  , "c1link" : "./qc/crypto/passphrase.c.html#14455"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[14455] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14458"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14458"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[14455] The expression verify applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[14458] The expression verify applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "14468"
- , "c1link" : "./qc/crypto/passphrase.c.html#14468"
+   "c1" : "14471"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14471"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14468] goto statement jump to end"
+ , "c3" : "QC-CPP000007[14471] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14480"
- , "c1link" : "./qc/crypto/passphrase.c.html#14480"
+   "c1" : "14483"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14483"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14480] goto statement jump to end"
+ , "c3" : "QC-CPP000007[14483] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14594"
- , "c1link" : "./qc/crypto/passphrase.c.html#14594"
+   "c1" : "14597"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14597"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14594] goto statement jump to do_cache"
+ , "c3" : "QC-CPP000007[14597] goto statement jump to do_cache"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14599"
- , "c1link" : "./qc/crypto/passphrase.c.html#14599"
+   "c1" : "14602"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14602"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14599] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14602] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14617"
- , "c1link" : "./qc/crypto/passphrase.c.html#14617"
+   "c1" : "14620"
+ , "c1link" : "./qc/crypto/passphrase.c.html#14620"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14617] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14620] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

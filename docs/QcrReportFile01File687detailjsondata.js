@@ -202,31 +202,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "04796"
- , "c1link" : "./qc/crypto/sparse_array.c.html#4796"
+   "c1" : "04798"
+ , "c1link" : "./qc/crypto/sparse_array.c.html#4798"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[04796] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[04798] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04844"
- , "c1link" : "./qc/crypto/sparse_array.c.html#4844"
+   "c1" : "04846"
+ , "c1link" : "./qc/crypto/sparse_array.c.html#4846"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[04844] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[04846] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04854"
- , "c1link" : "./qc/crypto/sparse_array.c.html#4854"
+   "c1" : "04856"
+ , "c1link" : "./qc/crypto/sparse_array.c.html#4856"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04854] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04856] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04878"
- , "c1link" : "./qc/crypto/sparse_array.c.html#4878"
+   "c1" : "04880"
+ , "c1link" : "./qc/crypto/sparse_array.c.html#4880"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04878] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04880] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

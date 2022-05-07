@@ -209,206 +209,206 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08128"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#8128"
+   "c1" : "08130"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#8130"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08128] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[08130] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09485"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9485"
+   "c1" : "09488"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9488"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09485] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09488] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09490"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9490"
+   "c1" : "09493"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9493"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09490] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09493] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09515"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9515"
+   "c1" : "09518"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9518"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09515] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09518] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09520"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9520"
+   "c1" : "09523"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9523"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09520] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09523] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09549"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9549"
+   "c1" : "09552"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9552"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09549] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09552] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09554"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9554"
+   "c1" : "09557"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9557"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09554] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09557] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09575"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9575"
+   "c1" : "09578"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9578"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09575] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09578] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09580"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9580"
+   "c1" : "09583"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9583"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09580] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09583] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09596"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9596"
+   "c1" : "09599"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9599"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09596] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09599] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09615"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9615"
+   "c1" : "09618"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9618"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09615] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09618] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09620"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9620"
+   "c1" : "09623"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9623"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09620] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09623] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09640"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9640"
+   "c1" : "09643"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9643"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09640] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09643] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09645"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9645"
+   "c1" : "09648"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9648"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09645] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09648] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09666"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9666"
+   "c1" : "09669"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9669"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09666] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09669] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09671"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9671"
+   "c1" : "09674"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9674"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09671] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09674] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09692"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9692"
+   "c1" : "09695"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9695"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09692] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09695] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09697"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9697"
+   "c1" : "09700"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9700"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09697] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09700] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09719"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9719"
+   "c1" : "09722"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9722"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09719] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09722] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09724"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9724"
+   "c1" : "09727"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9727"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09724] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09727] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09748"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9748"
+   "c1" : "09751"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9751"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09748] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09751] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09753"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9753"
+   "c1" : "09756"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#9756"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09753] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09756] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11219"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#11219"
+   "c1" : "11222"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#11222"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11219] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[11222] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11278"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#11278"
+   "c1" : "11281"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#11281"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11278] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[11281] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11300"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#11300"
+   "c1" : "11303"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#11303"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11300] The expression 32 is invariable"
+ , "c3" : "QC-CPP000012[11303] The expression 32 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11349"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#11349"
+   "c1" : "11352"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#11352"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11349] The expression  ! ctx-&gt;base.enc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11352] The expression  ! ctx-&gt;base.enc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11416"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#11416"
+   "c1" : "11419"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#11419"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11416] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[11419] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11504"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#11504"
+   "c1" : "11507"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#11507"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11504] The expression ctx-&gt;base.enc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11507] The expression ctx-&gt;base.enc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11671"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#11671"
+   "c1" : "11674"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#11674"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11671] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[11674] The expression 0 is invariable, always false"
 }} 
 ]
 };

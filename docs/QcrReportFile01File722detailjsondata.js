@@ -223,122 +223,122 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "04605"
- , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4605"
+   "c1" : "04607"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4607"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04605] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[04607] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04648"
- , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4648"
+   "c1" : "04650"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4650"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[04648] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[04650] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04655"
- , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4655"
+   "c1" : "04657"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4657"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04655] The expression bytes applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[04657] The expression bytes applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "04666"
- , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4666"
+   "c1" : "04668"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4668"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[04666] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[04668] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04674"
- , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4674"
+   "c1" : "04676"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4676"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04674] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[04676] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04684"
- , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4684"
+   "c1" : "04686"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4686"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04684] The expression bits applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[04686] The expression bits applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "04685"
- , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4685"
+   "c1" : "04687"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4687"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04685] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04687] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04712"
- , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4712"
+   "c1" : "04714"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4714"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04712] The expression bits applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[04714] The expression bits applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "04730"
- , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4730"
+   "c1" : "04732"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4732"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[04730] goto statement jump to reconsider"
+ , "c3" : "QC-CPP000007[04732] goto statement jump to reconsider"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04736"
- , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4736"
+   "c1" : "04738"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4738"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04736] The expression bitrem applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[04738] The expression bitrem applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "04748"
- , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4748"
+   "c1" : "04750"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4750"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04748] The expression bitrem applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[04750] The expression bitrem applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "04753"
- , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4753"
+   "c1" : "04755"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4755"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04753] The expression bitrem applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[04755] The expression bitrem applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "04763"
- , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4763"
+   "c1" : "04765"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4765"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04763] The expression bitrem applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[04765] The expression bitrem applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "04776"
- , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4776"
+   "c1" : "04778"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4778"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[04776] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[04778] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04776"
- , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4776"
+   "c1" : "04778"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4778"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[04776] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[04778] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04779"
- , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4779"
+   "c1" : "04781"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4781"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04779] The expression bitoff applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[04781] The expression bitoff applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "04803"
- , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4803"
+   "c1" : "04805"
+ , "c1link" : "./qc/crypto/whrlpool/wp_dgst.c.html#4805"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04803] The expression md applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[04805] The expression md applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -223,535 +223,528 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05563"
- , "c1link" : "./qc/apps/rehash.c.html#5563"
+   "c1" : "05565"
+ , "c1link" : "./qc/apps/rehash.c.html#5565"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05563] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[05565] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05568"
- , "c1link" : "./qc/apps/rehash.c.html#5568"
+   "c1" : "05570"
+ , "c1link" : "./qc/apps/rehash.c.html#5570"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05568] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[05570] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05593"
- , "c1link" : "./qc/apps/rehash.c.html#5593"
+   "c1" : "05595"
+ , "c1link" : "./qc/apps/rehash.c.html#5595"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05593] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05595] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05598"
- , "c1link" : "./qc/apps/rehash.c.html#5598"
+   "c1" : "05600"
+ , "c1link" : "./qc/apps/rehash.c.html#5600"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05598] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05600] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05627"
- , "c1link" : "./qc/apps/rehash.c.html#5627"
+   "c1" : "05629"
+ , "c1link" : "./qc/apps/rehash.c.html#5629"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05627] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05629] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05632"
- , "c1link" : "./qc/apps/rehash.c.html#5632"
+   "c1" : "05634"
+ , "c1link" : "./qc/apps/rehash.c.html#5634"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05632] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05634] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05653"
- , "c1link" : "./qc/apps/rehash.c.html#5653"
+   "c1" : "05655"
+ , "c1link" : "./qc/apps/rehash.c.html#5655"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05653] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05655] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05658"
- , "c1link" : "./qc/apps/rehash.c.html#5658"
+   "c1" : "05660"
+ , "c1link" : "./qc/apps/rehash.c.html#5660"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05658] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05660] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05674"
- , "c1link" : "./qc/apps/rehash.c.html#5674"
+   "c1" : "05676"
+ , "c1link" : "./qc/apps/rehash.c.html#5676"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05674] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05676] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05693"
- , "c1link" : "./qc/apps/rehash.c.html#5693"
+   "c1" : "05695"
+ , "c1link" : "./qc/apps/rehash.c.html#5695"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05693] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05695] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05698"
- , "c1link" : "./qc/apps/rehash.c.html#5698"
+   "c1" : "05700"
+ , "c1link" : "./qc/apps/rehash.c.html#5700"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05698] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05700] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05718"
- , "c1link" : "./qc/apps/rehash.c.html#5718"
+   "c1" : "05720"
+ , "c1link" : "./qc/apps/rehash.c.html#5720"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05718] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05720] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05723"
- , "c1link" : "./qc/apps/rehash.c.html#5723"
+   "c1" : "05725"
+ , "c1link" : "./qc/apps/rehash.c.html#5725"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05723] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05725] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05744"
- , "c1link" : "./qc/apps/rehash.c.html#5744"
+   "c1" : "05746"
+ , "c1link" : "./qc/apps/rehash.c.html#5746"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05744] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05746] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05749"
- , "c1link" : "./qc/apps/rehash.c.html#5749"
+   "c1" : "05751"
+ , "c1link" : "./qc/apps/rehash.c.html#5751"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05749] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05751] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05770"
- , "c1link" : "./qc/apps/rehash.c.html#5770"
+   "c1" : "05772"
+ , "c1link" : "./qc/apps/rehash.c.html#5772"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05770] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05772] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05775"
- , "c1link" : "./qc/apps/rehash.c.html#5775"
+   "c1" : "05777"
+ , "c1link" : "./qc/apps/rehash.c.html#5777"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05775] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05777] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05797"
- , "c1link" : "./qc/apps/rehash.c.html#5797"
+   "c1" : "05799"
+ , "c1link" : "./qc/apps/rehash.c.html#5799"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05797] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05799] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05802"
- , "c1link" : "./qc/apps/rehash.c.html#5802"
+   "c1" : "05804"
+ , "c1link" : "./qc/apps/rehash.c.html#5804"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05802] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05804] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05826"
- , "c1link" : "./qc/apps/rehash.c.html#5826"
+   "c1" : "05828"
+ , "c1link" : "./qc/apps/rehash.c.html#5828"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05826] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05828] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05831"
- , "c1link" : "./qc/apps/rehash.c.html#5831"
+   "c1" : "05833"
+ , "c1link" : "./qc/apps/rehash.c.html#5833"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05831] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05833] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06196"
- , "c1link" : "./qc/apps/rehash.c.html#6196"
+   "c1" : "06198"
+ , "c1link" : "./qc/apps/rehash.c.html#6198"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06196] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06198] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07526"
- , "c1link" : "./qc/apps/rehash.c.html#7526"
+   "c1" : "07528"
+ , "c1link" : "./qc/apps/rehash.c.html#7528"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07526] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07528] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07531"
- , "c1link" : "./qc/apps/rehash.c.html#7531"
+   "c1" : "07533"
+ , "c1link" : "./qc/apps/rehash.c.html#7533"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07531] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07533] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07557"
- , "c1link" : "./qc/apps/rehash.c.html#7557"
+   "c1" : "07559"
+ , "c1link" : "./qc/apps/rehash.c.html#7559"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07557] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07559] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07562"
- , "c1link" : "./qc/apps/rehash.c.html#7562"
+   "c1" : "07564"
+ , "c1link" : "./qc/apps/rehash.c.html#7564"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07562] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07564] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19057"
- , "c1link" : "./qc/apps/rehash.c.html#19057"
+   "c1" : "19059"
+ , "c1link" : "./qc/apps/rehash.c.html#19059"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19057] The pointer evpmd is declared but not initialized"
+ , "c3" : "QC-CPP000014[19059] The pointer evpmd is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19086"
- , "c1link" : "./qc/apps/rehash.c.html#19086"
+   "c1" : "19088"
+ , "c1link" : "./qc/apps/rehash.c.html#19088"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19086] The pointer bp is declared but not initialized"
+ , "c3" : "QC-CPP000014[19088] The pointer bp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19087"
- , "c1link" : "./qc/apps/rehash.c.html#19087"
+   "c1" : "19089"
+ , "c1link" : "./qc/apps/rehash.c.html#19089"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19087] The pointer ep is declared but not initialized"
+ , "c3" : "QC-CPP000014[19089] The pointer ep is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19094"
- , "c1link" : "./qc/apps/rehash.c.html#19094"
+   "c1" : "19096"
+ , "c1link" : "./qc/apps/rehash.c.html#19096"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19094] The expression bp applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19096] The expression bp applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19110"
- , "c1link" : "./qc/apps/rehash.c.html#19110"
+   "c1" : "19112"
+ , "c1link" : "./qc/apps/rehash.c.html#19112"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19110] The expression ep applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19112] The expression ep applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19158"
- , "c1link" : "./qc/apps/rehash.c.html#19158"
+   "c1" : "19160"
+ , "c1link" : "./qc/apps/rehash.c.html#19160"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19158] The expression bp-&gt;last_entry applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19160] The expression bp-&gt;last_entry applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19192"
- , "c1link" : "./qc/apps/rehash.c.html#19192"
+   "c1" : "19194"
+ , "c1link" : "./qc/apps/rehash.c.html#19194"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19192] The pointer endptr is declared but not initialized"
+ , "c3" : "QC-CPP000014[19194] The pointer endptr is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19244"
- , "c1link" : "./qc/apps/rehash.c.html#19244"
+   "c1" : "19247"
+ , "c1link" : "./qc/apps/rehash.c.html#19247"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19244] The pointer x is declared but not initialized"
+ , "c3" : "QC-CPP000014[19247] The pointer x is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19250"
- , "c1link" : "./qc/apps/rehash.c.html#19250"
+   "c1" : "19253"
+ , "c1link" : "./qc/apps/rehash.c.html#19253"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19250] The pointer b is declared but not initialized"
+ , "c3" : "QC-CPP000014[19253] The pointer b is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19251"
- , "c1link" : "./qc/apps/rehash.c.html#19251"
+   "c1" : "19254"
+ , "c1link" : "./qc/apps/rehash.c.html#19254"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19251] The pointer ext is declared but not initialized"
+ , "c3" : "QC-CPP000014[19254] The pointer ext is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19257"
- , "c1link" : "./qc/apps/rehash.c.html#19257"
+   "c1" : "19260"
+ , "c1link" : "./qc/apps/rehash.c.html#19260"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19257] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19260] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19262"
- , "c1link" : "./qc/apps/rehash.c.html#19262"
+   "c1" : "19265"
+ , "c1link" : "./qc/apps/rehash.c.html#19265"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19262] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19268"
- , "c1link" : "./qc/apps/rehash.c.html#19268"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19268] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19265] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
    "c1" : "19271"
  , "c1link" : "./qc/apps/rehash.c.html#19271"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19271] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[19271] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19279"
- , "c1link" : "./qc/apps/rehash.c.html#19279"
+   "c1" : "19274"
+ , "c1link" : "./qc/apps/rehash.c.html#19274"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19279] goto statement jump to end"
+ , "c3" : "QC-CPPCWE481[19274] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19300"
- , "c1link" : "./qc/apps/rehash.c.html#19300"
+   "c1" : "19282"
+ , "c1link" : "./qc/apps/rehash.c.html#19282"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19300] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19282] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19308"
- , "c1link" : "./qc/apps/rehash.c.html#19308"
+   "c1" : "19303"
+ , "c1link" : "./qc/apps/rehash.c.html#19303"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19308] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19303] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19325"
- , "c1link" : "./qc/apps/rehash.c.html#19325"
+   "c1" : "19311"
+ , "c1link" : "./qc/apps/rehash.c.html#19311"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19325] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19311] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19341"
- , "c1link" : "./qc/apps/rehash.c.html#19341"
+   "c1" : "19328"
+ , "c1link" : "./qc/apps/rehash.c.html#19328"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19341] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19328] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19345"
- , "c1link" : "./qc/apps/rehash.c.html#19345"
+   "c1" : "19344"
+ , "c1link" : "./qc/apps/rehash.c.html#19344"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19345] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19344] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19358"
- , "c1link" : "./qc/apps/rehash.c.html#19358"
+   "c1" : "19348"
+ , "c1link" : "./qc/apps/rehash.c.html#19348"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19348] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19361"
+ , "c1link" : "./qc/apps/rehash.c.html#19361"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19358] The expression ok applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19361] The expression ok applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19400"
- , "c1link" : "./qc/apps/rehash.c.html#19400"
+   "c1" : "19403"
+ , "c1link" : "./qc/apps/rehash.c.html#19403"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19400] The pointer bp is declared but not initialized"
+ , "c3" : "QC-CPP000014[19403] The pointer bp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19400"
- , "c1link" : "./qc/apps/rehash.c.html#19400"
+   "c1" : "19403"
+ , "c1link" : "./qc/apps/rehash.c.html#19403"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19400] The pointer nextbp is declared but not initialized"
+ , "c3" : "QC-CPP000014[19403] The pointer nextbp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19401"
- , "c1link" : "./qc/apps/rehash.c.html#19401"
+   "c1" : "19404"
+ , "c1link" : "./qc/apps/rehash.c.html#19404"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19401] The pointer ep is declared but not initialized"
+ , "c3" : "QC-CPP000014[19404] The pointer ep is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19401"
- , "c1link" : "./qc/apps/rehash.c.html#19401"
+   "c1" : "19404"
+ , "c1link" : "./qc/apps/rehash.c.html#19404"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19401] The pointer nextep is declared but not initialized"
+ , "c3" : "QC-CPP000014[19404] The pointer nextep is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19411"
- , "c1link" : "./qc/apps/rehash.c.html#19411"
+   "c1" : "19414"
+ , "c1link" : "./qc/apps/rehash.c.html#19414"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19411] The pointer pathsep is declared but not initialized"
+ , "c3" : "QC-CPP000014[19414] The pointer pathsep is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19412"
- , "c1link" : "./qc/apps/rehash.c.html#19412"
+   "c1" : "19415"
+ , "c1link" : "./qc/apps/rehash.c.html#19415"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19412] The pointer filename is declared but not initialized"
+ , "c3" : "QC-CPP000014[19415] The pointer filename is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19413"
- , "c1link" : "./qc/apps/rehash.c.html#19413"
+   "c1" : "19416"
+ , "c1link" : "./qc/apps/rehash.c.html#19416"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19413] The pointer buf is declared but not initialized"
+ , "c3" : "QC-CPP000014[19416] The pointer buf is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19426"
- , "c1link" : "./qc/apps/rehash.c.html#19426"
+   "c1" : "19429"
+ , "c1link" : "./qc/apps/rehash.c.html#19429"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19426] The expression 2 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19441"
- , "c1link" : "./qc/apps/rehash.c.html#19441"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19441] The expression verbose applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[19429] The expression 2 is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "19444"
  , "c1link" : "./qc/apps/rehash.c.html#19444"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19444] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19451"
- , "c1link" : "./qc/apps/rehash.c.html#19451"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19451] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19453"
- , "c1link" : "./qc/apps/rehash.c.html#19453"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19453] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19458"
- , "c1link" : "./qc/apps/rehash.c.html#19458"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19458] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19467"
- , "c1link" : "./qc/apps/rehash.c.html#19467"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19467] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19476"
- , "c1link" : "./qc/apps/rehash.c.html#19476"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19476] The expression '%s%s%s' is invariable"
+ , "c3" : "QC-CPP000011[19444] The expression verbose applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19495"
- , "c1link" : "./qc/apps/rehash.c.html#19495"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19495] The expression bp applies to a single value or variable, might be ambiguous."
+   "c1" : "19447"
+ , "c1link" : "./qc/apps/rehash.c.html#19447"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[19447] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19499"
- , "c1link" : "./qc/apps/rehash.c.html#19499"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19499] The expression ep applies to a single value or variable, might be ambiguous."
+   "c1" : "19454"
+ , "c1link" : "./qc/apps/rehash.c.html#19454"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19454] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19503"
- , "c1link" : "./qc/apps/rehash.c.html#19503"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19503] The expression ep applies to a single value or variable, might be ambiguous."
+   "c1" : "19456"
+ , "c1link" : "./qc/apps/rehash.c.html#19456"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[19456] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19509"
- , "c1link" : "./qc/apps/rehash.c.html#19509"
+   "c1" : "19461"
+ , "c1link" : "./qc/apps/rehash.c.html#19461"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[19461] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19470"
+ , "c1link" : "./qc/apps/rehash.c.html#19470"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19470] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19479"
+ , "c1link" : "./qc/apps/rehash.c.html#19479"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19509] The expression verbose applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[19479] The expression '%s%s%s' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19498"
+ , "c1link" : "./qc/apps/rehash.c.html#19498"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19498] The expression bp applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19502"
+ , "c1link" : "./qc/apps/rehash.c.html#19502"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19502] The expression ep applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19506"
+ , "c1link" : "./qc/apps/rehash.c.html#19506"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19506] The expression ep applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "19512"
  , "c1link" : "./qc/apps/rehash.c.html#19512"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19512] The expression ep-&gt;need_symlink applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19512] The expression verbose applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19520"
- , "c1link" : "./qc/apps/rehash.c.html#19520"
+   "c1" : "19515"
+ , "c1link" : "./qc/apps/rehash.c.html#19515"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19520] The expression verbose applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19515] The expression ep-&gt;need_symlink applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19553"
- , "c1link" : "./qc/apps/rehash.c.html#19553"
+   "c1" : "19523"
+ , "c1link" : "./qc/apps/rehash.c.html#19523"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19553] The expression remove_links applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19523] The expression verbose applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19558"
- , "c1link" : "./qc/apps/rehash.c.html#19558"
+   "c1" : "19556"
+ , "c1link" : "./qc/apps/rehash.c.html#19556"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19558] The expression verbose applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19556] The expression remove_links applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19631"
- , "c1link" : "./qc/apps/rehash.c.html#19631"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19631] The pointer env is declared but not initialized"
+   "c1" : "19561"
+ , "c1link" : "./qc/apps/rehash.c.html#19561"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19561] The expression verbose applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19631"
- , "c1link" : "./qc/apps/rehash.c.html#19631"
+   "c1" : "19634"
+ , "c1link" : "./qc/apps/rehash.c.html#19634"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19631] The pointer prog is declared but not initialized"
+ , "c3" : "QC-CPP000014[19634] The pointer env is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19632"
- , "c1link" : "./qc/apps/rehash.c.html#19632"
+   "c1" : "19634"
+ , "c1link" : "./qc/apps/rehash.c.html#19634"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19632] The pointer e is declared but not initialized"
+ , "c3" : "QC-CPP000014[19634] The pointer prog is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19632"
- , "c1link" : "./qc/apps/rehash.c.html#19632"
+   "c1" : "19635"
+ , "c1link" : "./qc/apps/rehash.c.html#19635"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19632] The pointer m is declared but not initialized"
+ , "c3" : "QC-CPP000014[19635] The pointer e is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19638"
- , "c1link" : "./qc/apps/rehash.c.html#19638"
+   "c1" : "19635"
+ , "c1link" : "./qc/apps/rehash.c.html#19635"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19638] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[19635] The pointer m is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19643"
- , "c1link" : "./qc/apps/rehash.c.html#19643"
+   "c1" : "19641"
+ , "c1link" : "./qc/apps/rehash.c.html#19641"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19643] goto statement jump to end"
+ , "c3" : "QC-CPPCWE481[19641] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -762,17 +755,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "19661"
- , "c1link" : "./qc/apps/rehash.c.html#19661"
+   "c1" : "19649"
+ , "c1link" : "./qc/apps/rehash.c.html#19649"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19661] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19649] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19684"
- , "c1link" : "./qc/apps/rehash.c.html#19684"
+   "c1" : "19664"
+ , "c1link" : "./qc/apps/rehash.c.html#19664"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19684] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[19664] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19687"
+ , "c1link" : "./qc/apps/rehash.c.html#19687"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[19687] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

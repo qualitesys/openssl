@@ -216,52 +216,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08070"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#8070"
+   "c1" : "08072"
+ , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#8072"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08070] The pointer m is declared but not initialized"
+ , "c3" : "QC-CPP000014[08072] The pointer m is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08093"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#8093"
+   "c1" : "08095"
+ , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#8095"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08093] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08100"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#8100"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08100] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08101"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#8101"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08101] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000007[08095] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "08102"
  , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#8102"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08102] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08103"
+ , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#8103"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08103] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08104"
+ , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#8104"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08102] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08104] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08106"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#8106"
+   "c1" : "08108"
+ , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#8108"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08106] The condition of do while loop is always true, infinite loop risk do{} while (1); 1"
+ , "c3" : "QC-CPP000006[08108] The condition of do while loop is always true, infinite loop risk do{} while (1); 1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08106"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#8106"
+   "c1" : "08108"
+ , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#8108"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08106] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[08108] The expression 1 is invariable, always true"
 }} 
 ]
 };

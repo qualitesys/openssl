@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "17"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : {
@@ -77,7 +77,7 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "22"
+ , "c4" : "21"
 }}
  ] 
 ,
@@ -223,885 +223,885 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05668"
- , "c1link" : "./qc/crypto/provider_core.c.html#5668"
+   "c1" : "05670"
+ , "c1link" : "./qc/crypto/provider_core.c.html#5670"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05668] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05670] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07025"
- , "c1link" : "./qc/crypto/provider_core.c.html#7025"
+   "c1" : "07028"
+ , "c1link" : "./qc/crypto/provider_core.c.html#7028"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07025] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07028] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07030"
- , "c1link" : "./qc/crypto/provider_core.c.html#7030"
+   "c1" : "07033"
+ , "c1link" : "./qc/crypto/provider_core.c.html#7033"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07030] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07033] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07055"
- , "c1link" : "./qc/crypto/provider_core.c.html#7055"
+   "c1" : "07058"
+ , "c1link" : "./qc/crypto/provider_core.c.html#7058"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07055] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07058] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07060"
- , "c1link" : "./qc/crypto/provider_core.c.html#7060"
+   "c1" : "07063"
+ , "c1link" : "./qc/crypto/provider_core.c.html#7063"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07060] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07063] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07089"
- , "c1link" : "./qc/crypto/provider_core.c.html#7089"
+   "c1" : "07092"
+ , "c1link" : "./qc/crypto/provider_core.c.html#7092"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07089] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07092] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07094"
- , "c1link" : "./qc/crypto/provider_core.c.html#7094"
+   "c1" : "07097"
+ , "c1link" : "./qc/crypto/provider_core.c.html#7097"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07094] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07097] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07115"
- , "c1link" : "./qc/crypto/provider_core.c.html#7115"
+   "c1" : "07118"
+ , "c1link" : "./qc/crypto/provider_core.c.html#7118"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07115] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07118] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07120"
- , "c1link" : "./qc/crypto/provider_core.c.html#7120"
+   "c1" : "07123"
+ , "c1link" : "./qc/crypto/provider_core.c.html#7123"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07120] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07123] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07136"
- , "c1link" : "./qc/crypto/provider_core.c.html#7136"
+   "c1" : "07139"
+ , "c1link" : "./qc/crypto/provider_core.c.html#7139"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07136] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07139] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07155"
- , "c1link" : "./qc/crypto/provider_core.c.html#7155"
+   "c1" : "07158"
+ , "c1link" : "./qc/crypto/provider_core.c.html#7158"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07155] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07158] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07160"
- , "c1link" : "./qc/crypto/provider_core.c.html#7160"
+   "c1" : "07163"
+ , "c1link" : "./qc/crypto/provider_core.c.html#7163"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07160] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07163] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07180"
- , "c1link" : "./qc/crypto/provider_core.c.html#7180"
+   "c1" : "07183"
+ , "c1link" : "./qc/crypto/provider_core.c.html#7183"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07180] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07183] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07185"
- , "c1link" : "./qc/crypto/provider_core.c.html#7185"
+   "c1" : "07188"
+ , "c1link" : "./qc/crypto/provider_core.c.html#7188"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07185] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07188] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07206"
- , "c1link" : "./qc/crypto/provider_core.c.html#7206"
+   "c1" : "07209"
+ , "c1link" : "./qc/crypto/provider_core.c.html#7209"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07206] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07209] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07211"
- , "c1link" : "./qc/crypto/provider_core.c.html#7211"
+   "c1" : "07214"
+ , "c1link" : "./qc/crypto/provider_core.c.html#7214"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07211] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07214] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07232"
- , "c1link" : "./qc/crypto/provider_core.c.html#7232"
+   "c1" : "07235"
+ , "c1link" : "./qc/crypto/provider_core.c.html#7235"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07232] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07235] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07237"
- , "c1link" : "./qc/crypto/provider_core.c.html#7237"
+   "c1" : "07240"
+ , "c1link" : "./qc/crypto/provider_core.c.html#7240"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07237] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07240] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07259"
- , "c1link" : "./qc/crypto/provider_core.c.html#7259"
+   "c1" : "07262"
+ , "c1link" : "./qc/crypto/provider_core.c.html#7262"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07259] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07262] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07264"
- , "c1link" : "./qc/crypto/provider_core.c.html#7264"
+   "c1" : "07267"
+ , "c1link" : "./qc/crypto/provider_core.c.html#7267"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07264] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07267] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07288"
- , "c1link" : "./qc/crypto/provider_core.c.html#7288"
+   "c1" : "07291"
+ , "c1link" : "./qc/crypto/provider_core.c.html#7291"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07288] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07291] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07293"
- , "c1link" : "./qc/crypto/provider_core.c.html#7293"
+   "c1" : "07296"
+ , "c1link" : "./qc/crypto/provider_core.c.html#7296"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07293] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07296] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11615"
- , "c1link" : "./qc/crypto/provider_core.c.html#11615"
+   "c1" : "16033"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16033"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11615] The expression prov-&gt;flag_activated applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16033] The expression prov-&gt;flag_activated applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11659"
- , "c1link" : "./qc/crypto/provider_core.c.html#11659"
+   "c1" : "16077"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16077"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11659] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16077] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11672"
- , "c1link" : "./qc/crypto/provider_core.c.html#11672"
+   "c1" : "16090"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16090"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11672] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16090] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11727"
- , "c1link" : "./qc/crypto/provider_core.c.html#11727"
+   "c1" : "16145"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16145"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11727] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16145] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11732"
- , "c1link" : "./qc/crypto/provider_core.c.html#11732"
+   "c1" : "16150"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16150"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11732] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16150] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11738"
- , "c1link" : "./qc/crypto/provider_core.c.html#11738"
+   "c1" : "16156"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16156"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11738] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16156] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11744"
- , "c1link" : "./qc/crypto/provider_core.c.html#11744"
+   "c1" : "16162"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16162"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11744] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16162] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11786"
- , "c1link" : "./qc/crypto/provider_core.c.html#11786"
+   "c1" : "16204"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16204"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11786] The pointer store is declared but not initialized"
+ , "c3" : "QC-CPP000014[16204] The pointer store is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11788"
- , "c1link" : "./qc/crypto/provider_core.c.html#11788"
+   "c1" : "16206"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16206"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11788] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16206] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11851"
- , "c1link" : "./qc/crypto/provider_core.c.html#11851"
+   "c1" : "16269"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16269"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11851] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16269] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11855"
- , "c1link" : "./qc/crypto/provider_core.c.html#11855"
+   "c1" : "16273"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16273"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11855] The pointer tmpbuiltins is declared but not initialized"
+ , "c3" : "QC-CPP000014[16273] The pointer tmpbuiltins is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11870"
- , "c1link" : "./qc/crypto/provider_core.c.html#11870"
+   "c1" : "16288"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16288"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11870] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16288] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11898"
- , "c1link" : "./qc/crypto/provider_core.c.html#11898"
+   "c1" : "16316"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16316"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11898] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16316] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11911"
- , "c1link" : "./qc/crypto/provider_core.c.html#11911"
+   "c1" : "16329"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16329"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11911] The expression  ! noconfig applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16329] The expression  ! noconfig applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11932"
- , "c1link" : "./qc/crypto/provider_core.c.html#11932"
+   "c1" : "16350"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16350"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11932] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16350] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11965"
- , "c1link" : "./qc/crypto/provider_core.c.html#11965"
+   "c1" : "16383"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16383"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11965] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16383] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11973"
- , "c1link" : "./qc/crypto/provider_core.c.html#11973"
+   "c1" : "16391"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16391"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11973] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16391] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11978"
- , "c1link" : "./qc/crypto/provider_core.c.html#11978"
+   "c1" : "16396"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16396"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11978] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16396] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11983"
- , "c1link" : "./qc/crypto/provider_core.c.html#11983"
+   "c1" : "16401"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16401"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11983] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16401] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11988"
- , "c1link" : "./qc/crypto/provider_core.c.html#11988"
+   "c1" : "16406"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16406"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11988] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16406] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12022"
- , "c1link" : "./qc/crypto/provider_core.c.html#12022"
+   "c1" : "16440"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16440"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12022] The expression prov-&gt;ischild applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16440] The expression prov-&gt;ischild applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12023"
- , "c1link" : "./qc/crypto/provider_core.c.html#12023"
+   "c1" : "16441"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16441"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12023] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[16441] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12036"
- , "c1link" : "./qc/crypto/provider_core.c.html#12036"
+   "c1" : "16454"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16454"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12036] The expression activate applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16454] The expression activate applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12044"
- , "c1link" : "./qc/crypto/provider_core.c.html#12044"
+   "c1" : "16462"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16462"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12044] The expression deactivate applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16462] The expression deactivate applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12073"
- , "c1link" : "./qc/crypto/provider_core.c.html#12073"
+   "c1" : "16491"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16491"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12073] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16491] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12090"
- , "c1link" : "./qc/crypto/provider_core.c.html#12090"
+   "c1" : "16508"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16508"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12090] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[16508] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12129"
- , "c1link" : "./qc/crypto/provider_core.c.html#12129"
+   "c1" : "16547"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16547"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12129] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16547] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12153"
- , "c1link" : "./qc/crypto/provider_core.c.html#12153"
+   "c1" : "16571"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16571"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12153] The pointer child_cb is declared but not initialized"
+ , "c3" : "QC-CPP000014[16571] The pointer child_cb is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12173"
- , "c1link" : "./qc/crypto/provider_core.c.html#12173"
+   "c1" : "16591"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16591"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12173] The pointer store is declared but not initialized"
+ , "c3" : "QC-CPP000014[16591] The pointer store is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12193"
- , "c1link" : "./qc/crypto/provider_core.c.html#12193"
+   "c1" : "16611"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16611"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12193] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16611] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12212"
- , "c1link" : "./qc/crypto/provider_core.c.html#12212"
+   "c1" : "16630"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16630"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12212] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16630] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12216"
- , "c1link" : "./qc/crypto/provider_core.c.html#12216"
+   "c1" : "16634"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16634"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12216] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16634] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12218"
- , "c1link" : "./qc/crypto/provider_core.c.html#12218"
+   "c1" : "16636"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16636"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12218] The expression  ! retain_fallbacks applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16636] The expression  ! retain_fallbacks applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12240"
- , "c1link" : "./qc/crypto/provider_core.c.html#12240"
+   "c1" : "16658"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16658"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12240] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16658] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12276"
- , "c1link" : "./qc/crypto/provider_core.c.html#12276"
+   "c1" : "16694"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16694"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12276] The expression prov-&gt;flag_initialized applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16694] The expression prov-&gt;flag_initialized applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12325"
- , "c1link" : "./qc/crypto/provider_core.c.html#12325"
+   "c1" : "16743"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16743"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12325] The expression prov-&gt;ischild applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16743] The expression prov-&gt;ischild applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12347"
- , "c1link" : "./qc/crypto/provider_core.c.html#12347"
+   "c1" : "16765"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16765"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12347] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16765] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12370"
- , "c1link" : "./qc/crypto/provider_core.c.html#12370"
+   "c1" : "16788"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16788"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12370] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16788] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12380"
- , "c1link" : "./qc/crypto/provider_core.c.html#12380"
+   "c1" : "16798"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16798"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12380] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16798] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12385"
- , "c1link" : "./qc/crypto/provider_core.c.html#12385"
+   "c1" : "16803"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16803"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12385] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16803] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12390"
- , "c1link" : "./qc/crypto/provider_core.c.html#12390"
+   "c1" : "16808"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16808"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12390] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16808] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12428"
- , "c1link" : "./qc/crypto/provider_core.c.html#12428"
+   "c1" : "16846"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16846"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12428] The pointer core_dispatch is declared but not initialized"
+ , "c3" : "QC-CPP000014[16846] The pointer core_dispatch is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12433"
- , "c1link" : "./qc/crypto/provider_core.c.html#12433"
+   "c1" : "16851"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16851"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12433] The pointer store is declared but not initialized"
+ , "c3" : "QC-CPP000014[16851] The pointer store is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12459"
- , "c1link" : "./qc/crypto/provider_core.c.html#12459"
+   "c1" : "16877"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16877"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12459] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16877] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12508"
- , "c1link" : "./qc/crypto/provider_core.c.html#12508"
+   "c1" : "16926"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16926"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12508] goto statement jump to end"
+ , "c3" : "QC-CPP000007[16926] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12553"
- , "c1link" : "./qc/crypto/provider_core.c.html#12553"
+   "c1" : "16971"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16971"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12553] The pointer store is declared but not initialized"
+ , "c3" : "QC-CPP000014[16971] The pointer store is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12555"
- , "c1link" : "./qc/crypto/provider_core.c.html#12555"
+   "c1" : "16973"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16973"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12555] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16973] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12561"
- , "c1link" : "./qc/crypto/provider_core.c.html#12561"
+   "c1" : "16979"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16979"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12561] goto statement jump to end"
+ , "c3" : "QC-CPP000007[16979] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12564"
- , "c1link" : "./qc/crypto/provider_core.c.html#12564"
+   "c1" : "16982"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16982"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12564] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16982] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12570"
- , "c1link" : "./qc/crypto/provider_core.c.html#12570"
+   "c1" : "16988"
+ , "c1link" : "./qc/crypto/provider_core.c.html#16988"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12570] goto statement jump to end"
+ , "c3" : "QC-CPP000007[16988] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12589"
- , "c1link" : "./qc/crypto/provider_core.c.html#12589"
+   "c1" : "17007"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17007"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12589] goto statement jump to end"
+ , "c3" : "QC-CPP000007[17007] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12623"
- , "c1link" : "./qc/crypto/provider_core.c.html#12623"
+   "c1" : "17041"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17041"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12623] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17041] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12679"
- , "c1link" : "./qc/crypto/provider_core.c.html#12679"
+   "c1" : "17097"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17097"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12679] goto statement jump to end"
+ , "c3" : "QC-CPP000007[17097] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12738"
- , "c1link" : "./qc/crypto/provider_core.c.html#12738"
+   "c1" : "17156"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17156"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12738] goto statement jump to end"
+ , "c3" : "QC-CPP000007[17156] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12751"
- , "c1link" : "./qc/crypto/provider_core.c.html#12751"
+   "c1" : "17169"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17169"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12751] goto statement jump to end"
+ , "c3" : "QC-CPP000007[17169] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12790"
- , "c1link" : "./qc/crypto/provider_core.c.html#12790"
+   "c1" : "17208"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17208"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12790] The pointer store is declared but not initialized"
+ , "c3" : "QC-CPP000014[17208] The pointer store is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12834"
- , "c1link" : "./qc/crypto/provider_core.c.html#12834"
+   "c1" : "17252"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17252"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12834] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17252] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12848"
- , "c1link" : "./qc/crypto/provider_core.c.html#12848"
+   "c1" : "17266"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17266"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12848] The pointer child_cb is declared but not initialized"
+ , "c3" : "QC-CPP000014[17266] The pointer child_cb is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12856"
- , "c1link" : "./qc/crypto/provider_core.c.html#12856"
+   "c1" : "17274"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17274"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12856] The expression lock applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17274] The expression lock applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12861"
- , "c1link" : "./qc/crypto/provider_core.c.html#12861"
+   "c1" : "17279"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17279"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12861] The expression freeparent applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17279] The expression freeparent applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12876"
- , "c1link" : "./qc/crypto/provider_core.c.html#12876"
+   "c1" : "17294"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17294"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12876] The pointer store is declared but not initialized"
+ , "c3" : "QC-CPP000014[17294] The pointer store is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12895"
- , "c1link" : "./qc/crypto/provider_core.c.html#12895"
+   "c1" : "17313"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17313"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12895] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[17313] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12926"
- , "c1link" : "./qc/crypto/provider_core.c.html#12926"
+   "c1" : "17344"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17344"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12926] The expression lock applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17344] The expression lock applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12931"
- , "c1link" : "./qc/crypto/provider_core.c.html#12931"
+   "c1" : "17349"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17349"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12931] The expression  ! ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17349] The expression  ! ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12939"
- , "c1link" : "./qc/crypto/provider_core.c.html#12939"
+   "c1" : "17357"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17357"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12939] The pointer store is declared but not initialized"
+ , "c3" : "QC-CPP000014[17357] The pointer store is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12942"
- , "c1link" : "./qc/crypto/provider_core.c.html#12942"
+   "c1" : "17360"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17360"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12942] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17360] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12954"
- , "c1link" : "./qc/crypto/provider_core.c.html#12954"
+   "c1" : "17372"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17372"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12954] The expression  ! freeing applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17372] The expression  ! freeing applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12977"
- , "c1link" : "./qc/crypto/provider_core.c.html#12977"
+   "c1" : "17393"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17393"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12977] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[17393] The pointer store is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12992"
- , "c1link" : "./qc/crypto/provider_core.c.html#12992"
+   "c1" : "17396"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17396"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12992] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17396] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13012"
- , "c1link" : "./qc/crypto/provider_core.c.html#13012"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13012] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13018"
- , "c1link" : "./qc/crypto/provider_core.c.html#13018"
+   "c1" : "17408"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17408"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13018] The expression  ! use_fallbacks applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17408] The expression  ! freeing applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13025"
- , "c1link" : "./qc/crypto/provider_core.c.html#13025"
+   "c1" : "17457"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17457"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[17457] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17472"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17472"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[17472] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17492"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17492"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[17492] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17498"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17498"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13025] The expression  ! use_fallbacks applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17498] The expression  ! use_fallbacks applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13041"
- , "c1link" : "./qc/crypto/provider_core.c.html#13041"
+   "c1" : "17505"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17505"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13041] The expression  ! p-&gt;is_fallback applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17505] The expression  ! use_fallbacks applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13057"
- , "c1link" : "./qc/crypto/provider_core.c.html#13057"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13057] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13062"
- , "c1link" : "./qc/crypto/provider_core.c.html#13062"
+   "c1" : "17521"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17521"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13062] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[17521] The expression  ! p-&gt;is_fallback applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13062"
- , "c1link" : "./qc/crypto/provider_core.c.html#13062"
+   "c1" : "17537"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17537"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17537] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17542"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17542"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13062] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[17542] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13064"
- , "c1link" : "./qc/crypto/provider_core.c.html#13064"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13064] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13069"
- , "c1link" : "./qc/crypto/provider_core.c.html#13069"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13069] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13142"
- , "c1link" : "./qc/crypto/provider_core.c.html#13142"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13142] goto statement jump to err_unlock"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13143"
- , "c1link" : "./qc/crypto/provider_core.c.html#13143"
+   "c1" : "17542"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17542"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13143] The expression prov-&gt;flag_activated applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[17542] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13151"
- , "c1link" : "./qc/crypto/provider_core.c.html#13151"
+   "c1" : "17544"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17544"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13151] goto statement jump to err_unlock"
+ , "c3" : "QC-CPP000007[17544] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13154"
- , "c1link" : "./qc/crypto/provider_core.c.html#13154"
+   "c1" : "17549"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17549"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17549] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17622"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17622"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17622] goto statement jump to err_unlock"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17623"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17623"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13154] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[17623] The expression prov-&gt;flag_activated applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "13154"
- , "c1link" : "./qc/crypto/provider_core.c.html#13154"
+   "c1" : "17631"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17631"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17631] goto statement jump to err_unlock"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17634"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17634"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13154] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[17634] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13157"
- , "c1link" : "./qc/crypto/provider_core.c.html#13157"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13157] goto statement jump to err_unlock"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13174"
- , "c1link" : "./qc/crypto/provider_core.c.html#13174"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13174] goto statement jump to finish"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13179"
- , "c1link" : "./qc/crypto/provider_core.c.html#13179"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13179] goto statement jump to finish"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13392"
- , "c1link" : "./qc/crypto/provider_core.c.html#13392"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13392] The pointer res is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13427"
- , "c1link" : "./qc/crypto/provider_core.c.html#13427"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13427] The pointer store is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13428"
- , "c1link" : "./qc/crypto/provider_core.c.html#13428"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13428] The pointer provider is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13431"
- , "c1link" : "./qc/crypto/provider_core.c.html#13431"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13431] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13550"
- , "c1link" : "./qc/crypto/provider_core.c.html#13550"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13550] The pointer child_cb is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13552"
- , "c1link" : "./qc/crypto/provider_core.c.html#13552"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13552] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13590"
- , "c1link" : "./qc/crypto/provider_core.c.html#13590"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13590] The pointer prov is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13598"
- , "c1link" : "./qc/crypto/provider_core.c.html#13598"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13598] The pointer child_cb is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13605"
- , "c1link" : "./qc/crypto/provider_core.c.html#13605"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13605] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13685"
- , "c1link" : "./qc/crypto/provider_core.c.html#13685"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13685] The pointer child_cb is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13687"
- , "c1link" : "./qc/crypto/provider_core.c.html#13687"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13687] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13768"
- , "c1link" : "./qc/crypto/provider_core.c.html#13768"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13768] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13775"
- , "c1link" : "./qc/crypto/provider_core.c.html#13775"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13775] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13781"
- , "c1link" : "./qc/crypto/provider_core.c.html#13781"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13781] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13789"
- , "c1link" : "./qc/crypto/provider_core.c.html#13789"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13789] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13808"
- , "c1link" : "./qc/crypto/provider_core.c.html#13808"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13808] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13913"
- , "c1link" : "./qc/crypto/provider_core.c.html#13913"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13913] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13912"
- , "c1link" : "./qc/crypto/provider_core.c.html#13912"
+   "c1" : "17634"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17634"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13912] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[17634] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17637"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17637"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17637] goto statement jump to err_unlock"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17654"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17654"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17654] goto statement jump to finish"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17659"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17659"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17659] goto statement jump to finish"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17872"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17872"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[17872] The pointer res is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17995"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17995"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[17995] The pointer child_cb is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17997"
+ , "c1link" : "./qc/crypto/provider_core.c.html#17997"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[17997] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18035"
+ , "c1link" : "./qc/crypto/provider_core.c.html#18035"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[18035] The pointer prov is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18043"
+ , "c1link" : "./qc/crypto/provider_core.c.html#18043"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[18043] The pointer child_cb is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18050"
+ , "c1link" : "./qc/crypto/provider_core.c.html#18050"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[18050] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18130"
+ , "c1link" : "./qc/crypto/provider_core.c.html#18130"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[18130] The pointer child_cb is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18132"
+ , "c1link" : "./qc/crypto/provider_core.c.html#18132"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[18132] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18213"
+ , "c1link" : "./qc/crypto/provider_core.c.html#18213"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[18213] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18220"
+ , "c1link" : "./qc/crypto/provider_core.c.html#18220"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[18220] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18226"
+ , "c1link" : "./qc/crypto/provider_core.c.html#18226"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[18226] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18234"
+ , "c1link" : "./qc/crypto/provider_core.c.html#18234"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[18234] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18253"
+ , "c1link" : "./qc/crypto/provider_core.c.html#18253"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[18253] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18358"
+ , "c1link" : "./qc/crypto/provider_core.c.html#18358"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[18358] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18357"
+ , "c1link" : "./qc/crypto/provider_core.c.html#18357"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[18357] The expression 0 is invariable, always false"
 }} 
 ]
 };

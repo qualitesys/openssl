@@ -216,17 +216,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05280"
- , "c1link" : "./qc/providers/implementations/encode_decode/endecoder_common.c.html#5280"
+   "c1" : "05282"
+ , "c1link" : "./qc/providers/implementations/encode_decode/endecoder_common.c.html#5282"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05280] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[05282] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05327"
- , "c1link" : "./qc/providers/implementations/encode_decode/endecoder_common.c.html#5327"
+   "c1" : "05329"
+ , "c1link" : "./qc/providers/implementations/encode_decode/endecoder_common.c.html#5329"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05327] The expression ok applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[05329] The expression ok applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -230,444 +230,444 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09768"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9768"
+   "c1" : "09771"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9771"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09768] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09771] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09773"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9773"
+   "c1" : "09776"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9776"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09773] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09776] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09798"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9798"
+   "c1" : "09801"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9801"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09798] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09801] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09803"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9803"
+   "c1" : "09806"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9806"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09803] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09806] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09832"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9832"
+   "c1" : "09835"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9835"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09832] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09835] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09837"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9837"
+   "c1" : "09840"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9840"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09837] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09840] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09858"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9858"
+   "c1" : "09861"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9861"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09858] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09861] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09863"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9863"
+   "c1" : "09866"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9866"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09863] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09866] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09879"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9879"
+   "c1" : "09882"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9882"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09879] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09882] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09898"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9898"
+   "c1" : "09901"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9901"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09898] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09901] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09903"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9903"
+   "c1" : "09906"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9906"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09903] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09906] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09923"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9923"
+   "c1" : "09926"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9926"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09923] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09926] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09928"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9928"
+   "c1" : "09931"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9931"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09928] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09931] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09949"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9949"
+   "c1" : "09952"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9952"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09949] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09952] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09954"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9954"
+   "c1" : "09957"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9957"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09954] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09957] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09975"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9975"
+   "c1" : "09978"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9978"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09975] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09978] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09980"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9980"
+   "c1" : "09983"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#9983"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09980] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09983] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10002"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10002"
+   "c1" : "10005"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10005"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10002] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10005] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10007"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10007"
+   "c1" : "10010"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10010"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10007] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10010] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10031"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10031"
+   "c1" : "10034"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10034"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10031] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10034] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10036"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10036"
+   "c1" : "10039"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10039"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10036] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10039] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10635"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10635"
+   "c1" : "10637"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10637"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10635] The expression enable applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10637] The expression enable applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10684"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10684"
+   "c1" : "10686"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10686"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10684] The pointer a is declared but not initialized"
+ , "c3" : "QC-CPP000014[10686] The pointer a is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10700"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10700"
+   "c1" : "10702"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10702"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10700] The expression 0x02 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10701"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10701"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10701] The expression 0x01 is invariable"
+ , "c3" : "QC-CPP000012[10702] The expression 0x02 is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "10703"
  , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10703"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10703] The expression 0x01 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10705"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10705"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10703] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10705] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10775"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10775"
+   "c1" : "10777"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10777"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10775] The expression 'p' is invariable"
+ , "c3" : "QC-CPP000012[10777] The expression 'p' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10782"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10782"
+   "c1" : "10784"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10784"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10782] The expression 'q' is invariable"
+ , "c3" : "QC-CPP000012[10784] The expression 'q' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10789"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10789"
+   "c1" : "10791"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10791"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10789] The expression 'g' is invariable"
+ , "c3" : "QC-CPP000012[10791] The expression 'g' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10796"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10796"
+   "c1" : "10798"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10798"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10796] The expression 'j' is invariable"
+ , "c3" : "QC-CPP000012[10798] The expression 'j' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10799"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10799"
+   "c1" : "10801"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10801"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10799] The expression 'gindex' is invariable"
+ , "c3" : "QC-CPP000012[10801] The expression 'gindex' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10802"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10802"
+   "c1" : "10804"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10804"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10802] The expression 'pcounter' is invariable"
+ , "c3" : "QC-CPP000012[10804] The expression 'pcounter' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10805"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10805"
+   "c1" : "10807"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10807"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10805] The expression 'hindex' is invariable"
+ , "c3" : "QC-CPP000012[10807] The expression 'hindex' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10813"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10813"
+   "c1" : "10815"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10815"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10813] The expression 'seed' is invariable"
+ , "c3" : "QC-CPP000012[10815] The expression 'seed' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10826"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10826"
+   "c1" : "10828"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10828"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10826] The expression 'group' is invariable"
+ , "c3" : "QC-CPP000012[10828] The expression 'group' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10832"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10832"
+   "c1" : "10834"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10834"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10832] The expression 'validate-pq' is invariable"
+ , "c3" : "QC-CPP000012[10834] The expression 'validate-pq' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10836"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10836"
+   "c1" : "10838"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10838"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10836] The expression 'validate-g' is invariable"
+ , "c3" : "QC-CPP000012[10838] The expression 'validate-g' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10840"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10840"
+   "c1" : "10842"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10842"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10840] The expression 'validate-legacy' is invariable"
+ , "c3" : "QC-CPP000012[10842] The expression 'validate-legacy' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10850"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10850"
+   "c1" : "10852"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10852"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10850] The expression 'digest' is invariable"
+ , "c3" : "QC-CPP000012[10852] The expression 'digest' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10859"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10859"
+   "c1" : "10861"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10861"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10859] The expression 'properties' is invariable"
+ , "c3" : "QC-CPP000012[10861] The expression 'properties' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10868"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10868"
+   "c1" : "10870"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10870"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10868] The expression 'prime P:' is invariable"
+ , "c3" : "QC-CPP000012[10870] The expression 'prime P:' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10873"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10873"
+   "c1" : "10875"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10875"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10873] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10875] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10874"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10874"
+   "c1" : "10876"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10876"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10874] The expression 'generator G:' is invariable"
+ , "c3" : "QC-CPP000012[10876] The expression 'generator G:' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10879"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10879"
+   "c1" : "10881"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10881"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10879] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10881] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10885"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10885"
+   "c1" : "10887"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10887"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10885] The expression 'subgroup order Q:' is invariable"
+ , "c3" : "QC-CPP000012[10887] The expression 'subgroup order Q:' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10890"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10890"
+   "c1" : "10892"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10892"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10890] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10892] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10896"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10896"
+   "c1" : "10898"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10898"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10896] The expression 'subgroup factor:' is invariable"
+ , "c3" : "QC-CPP000012[10898] The expression 'subgroup factor:' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10901"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10901"
+   "c1" : "10903"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10903"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10901] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10909"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10909"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10909] The expression 128 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10910"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10910"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10910] The expression 'seed:' is invariable"
+ , "c3" : "QC-CPP000007[10903] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "10911"
  , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10911"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10911] The expression 128 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10912"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10912"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10912] The expression 'seed:' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10913"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10913"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10911] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10914"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10914"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10914] The expression '\n' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10915"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10915"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10915] The expression 128 is invariable"
+ , "c3" : "QC-CPP000007[10913] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "10916"
  , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10916"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10916] goto statement jump to err"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10916] The expression '\n' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10917"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10917"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10917] The expression 128 is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "10918"
  , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10918"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10918] The expression '%02x%s' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10919"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10919"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10919] The expression '' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10919"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10919"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10919] The expression ':' is invariable"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10918] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "10920"
  , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10920"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10920] The expression '%02x%s' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10921"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10921"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10921] The expression '' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10921"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10921"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10921] The expression ':' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10922"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10922"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10920] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10922] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10922"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10922"
+   "c1" : "10924"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10924"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10922] The expression '\n' is invariable"
+ , "c3" : "QC-CPP000012[10924] The expression '\n' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10922"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10922"
+   "c1" : "10924"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10924"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10922] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10926"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10926"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10926] The expression 128 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10927"
- , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10927"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10927] The expression 'counter: %d\n' is invariable"
+ , "c3" : "QC-CPP000012[10924] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
    "c1" : "10928"
  , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10928"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10928] The expression 128 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10929"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10929"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10929] The expression 'counter: %d\n' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10930"
+ , "c1link" : "./qc/crypto/ffc/ffc_params.c.html#10930"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10928] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10930] goto statement jump to err"
 }} 
 ]
 };

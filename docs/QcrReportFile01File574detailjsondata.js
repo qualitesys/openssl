@@ -216,10 +216,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05673"
- , "c1link" : "./qc/crypto/params.c.html#5673"
+   "c1" : "05675"
+ , "c1link" : "./qc/crypto/params.c.html#5675"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05673] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05675] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

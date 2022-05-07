@@ -223,115 +223,115 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09353"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9353"
+   "c1" : "09355"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9355"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09353] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[09355] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09398"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9398"
+   "c1" : "09400"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9400"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09398] The expression 0x00 is invariable"
+ , "c3" : "QC-CPP000012[09400] The expression 0x00 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09478"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9478"
+   "c1" : "09480"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9480"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09478] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09480] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09491"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9491"
+   "c1" : "09493"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9493"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09491] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09493] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09495"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9495"
+   "c1" : "09497"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9497"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09495] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09497] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09498"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9498"
+   "c1" : "09500"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9500"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[09498] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[09500] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09498"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9498"
+   "c1" : "09500"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9500"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[09498] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[09500] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09533"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9533"
+   "c1" : "09535"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9535"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09533] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09535] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09537"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9537"
+   "c1" : "09539"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9539"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09537] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09539] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09579"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9579"
+   "c1" : "09581"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9581"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09579] The pointer hmac is declared but not initialized"
+ , "c3" : "QC-CPP000014[09581] The pointer hmac is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09634"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9634"
+   "c1" : "09636"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9636"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09634] The pointer hmac is declared but not initialized"
+ , "c3" : "QC-CPP000014[09636] The pointer hmac is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09640"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9640"
+   "c1" : "09642"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9642"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09640] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09656"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9656"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09656] The pointer name is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09657"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9657"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09657] The pointer md is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[09642] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "09658"
  , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9658"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09658] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[09658] The pointer name is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09780"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9780"
+   "c1" : "09659"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9659"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09780] The pointer md is declared but not initialized"
+ , "c3" : "QC-CPP000014[09659] The pointer md is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09660"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9660"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09660] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09782"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9782"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09782] The pointer md is declared but not initialized"
 }} 
 ]
 };

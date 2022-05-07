@@ -202,38 +202,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06458"
- , "c1link" : "./qc/providers/implementations/exchange/kdf_exch.c.html#6458"
+   "c1" : "06460"
+ , "c1link" : "./qc/providers/implementations/exchange/kdf_exch.c.html#6460"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06458] The pointer kdfctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[06460] The pointer kdfctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06496"
- , "c1link" : "./qc/providers/implementations/exchange/kdf_exch.c.html#6496"
+   "c1" : "06498"
+ , "c1link" : "./qc/providers/implementations/exchange/kdf_exch.c.html#6498"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06496] goto statement jump to err"
+ , "c3" : "QC-CPP000007[06498] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06505"
- , "c1link" : "./qc/providers/implementations/exchange/kdf_exch.c.html#6505"
+   "c1" : "06507"
+ , "c1link" : "./qc/providers/implementations/exchange/kdf_exch.c.html#6507"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[06505] goto statement jump to err"
+ , "c3" : "QC-CPP000007[06507] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06586"
- , "c1link" : "./qc/providers/implementations/exchange/kdf_exch.c.html#6586"
+   "c1" : "06588"
+ , "c1link" : "./qc/providers/implementations/exchange/kdf_exch.c.html#6588"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06586] The pointer dstctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[06588] The pointer dstctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06652"
- , "c1link" : "./qc/providers/implementations/exchange/kdf_exch.c.html#6652"
+   "c1" : "06654"
+ , "c1link" : "./qc/providers/implementations/exchange/kdf_exch.c.html#6654"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06652] The pointer params is declared but not initialized"
+ , "c3" : "QC-CPP000014[06654] The pointer params is declared but not initialized"
 }} 
 ]
 };

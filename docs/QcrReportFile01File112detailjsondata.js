@@ -244,290 +244,290 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07115"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7115"
+   "c1" : "07118"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7118"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07115] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07118] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07120"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7120"
+   "c1" : "07123"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7123"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07120] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07123] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07145"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7145"
+   "c1" : "07148"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7148"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07145] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07148] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07150"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7150"
+   "c1" : "07153"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7153"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07150] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07153] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07179"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7179"
+   "c1" : "07182"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7182"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07179] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07182] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07184"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7184"
+   "c1" : "07187"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7187"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07184] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07187] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07205"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7205"
+   "c1" : "07208"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7208"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07205] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07208] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07210"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7210"
+   "c1" : "07213"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7213"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07210] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07213] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07226"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7226"
+   "c1" : "07229"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7229"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07226] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07229] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07245"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7245"
+   "c1" : "07248"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7248"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07245] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07248] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07250"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7250"
+   "c1" : "07253"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7253"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07250] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07253] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07270"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7270"
+   "c1" : "07273"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7273"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07270] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07273] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07275"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7275"
+   "c1" : "07278"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7278"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07275] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07278] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07296"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7296"
+   "c1" : "07299"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7299"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07296] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07299] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07301"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7301"
+   "c1" : "07304"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7304"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07301] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07304] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07322"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7322"
+   "c1" : "07325"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7325"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07322] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07325] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07327"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7327"
+   "c1" : "07330"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7330"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07327] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07330] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07349"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7349"
+   "c1" : "07352"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7352"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07349] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07352] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07354"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7354"
+   "c1" : "07357"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7357"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07354] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07357] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07378"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7378"
+   "c1" : "07381"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7381"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07378] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07381] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07383"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7383"
+   "c1" : "07386"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7386"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07383] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07386] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07882"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7882"
+   "c1" : "07885"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7885"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07882] The expression 20 is invariable"
+ , "c3" : "QC-CPP000012[07885] The expression 20 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07894"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7894"
+   "c1" : "07897"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7897"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07894] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07897] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07915"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7915"
+   "c1" : "07918"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7918"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07915] The pointer ctx is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07959"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7959"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07959] The pointer ctx is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07961"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7961"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07961] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07961"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7961"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07961] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000014[07918] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "07962"
  , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7962"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07962] The pointer next is declared but not initialized"
+ , "c3" : "QC-CPP000014[07962] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07984"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7984"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[07984] The condition of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07984"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7984"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[07984] The end expression of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08000"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#8000"
+   "c1" : "07964"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7964"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08000] goto statement jump to done"
+ , "c3" : "QC-CPP000014[07964] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08018"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#8018"
+   "c1" : "07964"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[07964] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07965"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7965"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08018] goto statement jump to done"
+ , "c3" : "QC-CPP000014[07965] The pointer next is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07987"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7987"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[07987] The condition of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07987"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#7987"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[07987] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08003"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#8003"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08003] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
    "c1" : "08021"
  , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#8021"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08021] The expression ctx-&gt;buflen applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08038"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#8038"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08038] goto statement jump to done"
+ , "c3" : "QC-CPP000007[08021] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08048"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#8048"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08048] goto statement jump to done"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08076"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#8076"
+   "c1" : "08024"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#8024"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08076] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000011[08024] The expression ctx-&gt;buflen applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08076"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#8076"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08076] The end expression of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08084"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#8084"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08084] The expression  cleanup  applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08153"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#8153"
+   "c1" : "08041"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#8041"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08153] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000007[08041] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08154"
- , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#8154"
+   "c1" : "08051"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#8051"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08154] The pointer ex_func is declared but not initialized"
+ , "c3" : "QC-CPP000007[08051] goto statement jump to done"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08079"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#8079"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08079] The condition of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08079"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#8079"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08079] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08087"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#8087"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08087] The expression  cleanup  applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "08156"
  , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#8156"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08156] The pointer next is declared but not initialized"
+ , "c3" : "QC-CPP000014[08156] The pointer ctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08157"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#8157"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08157] The pointer ex_func is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08159"
+ , "c1link" : "./qc/crypto/asn1/bio_asn1.c.html#8159"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08159] The pointer next is declared but not initialized"
 }} 
 ]
 };

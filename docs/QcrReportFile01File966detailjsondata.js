@@ -209,59 +209,59 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09038"
- , "c1link" : "./qc/providers/implementations/rands/seed_src.c.html#9038"
+   "c1" : "09040"
+ , "c1link" : "./qc/providers/implementations/rands/seed_src.c.html#9040"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09038] The pointer s is declared but not initialized"
+ , "c3" : "QC-CPP000014[09040] The pointer s is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09112"
- , "c1link" : "./qc/providers/implementations/rands/seed_src.c.html#9112"
+   "c1" : "09114"
+ , "c1link" : "./qc/providers/implementations/rands/seed_src.c.html#9114"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09112] The pointer pool is declared but not initialized"
+ , "c3" : "QC-CPP000014[09114] The pointer pool is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09174"
- , "c1link" : "./qc/providers/implementations/rands/seed_src.c.html#9174"
+   "c1" : "09176"
+ , "c1link" : "./qc/providers/implementations/rands/seed_src.c.html#9176"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09174] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[09176] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09189"
- , "c1link" : "./qc/providers/implementations/rands/seed_src.c.html#9189"
+   "c1" : "09191"
+ , "c1link" : "./qc/providers/implementations/rands/seed_src.c.html#9191"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09189] The expression 1024 is invariable"
+ , "c3" : "QC-CPP000012[09191] The expression 1024 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09197"
- , "c1link" : "./qc/providers/implementations/rands/seed_src.c.html#9197"
+   "c1" : "09199"
+ , "c1link" : "./qc/providers/implementations/rands/seed_src.c.html#9199"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09197] The expression 128 is invariable"
+ , "c3" : "QC-CPP000012[09199] The expression 128 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09245"
- , "c1link" : "./qc/providers/implementations/rands/seed_src.c.html#9245"
+   "c1" : "09247"
+ , "c1link" : "./qc/providers/implementations/rands/seed_src.c.html#9247"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09245] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[09247] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09245"
- , "c1link" : "./qc/providers/implementations/rands/seed_src.c.html#9245"
+   "c1" : "09247"
+ , "c1link" : "./qc/providers/implementations/rands/seed_src.c.html#9247"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09245] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09247] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09278"
- , "c1link" : "./qc/providers/implementations/rands/seed_src.c.html#9278"
+   "c1" : "09280"
+ , "c1link" : "./qc/providers/implementations/rands/seed_src.c.html#9280"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09278] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09280] The expression 0 is invariable, always false"
 }} 
 ]
 };

@@ -223,115 +223,115 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09432"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9432"
+   "c1" : "09434"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9434"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09432] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09434] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09455"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9455"
+   "c1" : "09457"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9457"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[09455] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[09457] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09455"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9455"
+   "c1" : "09457"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9457"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[09455] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[09457] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09534"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9534"
+   "c1" : "09536"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9536"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09534] The pointer add is declared but not initialized"
+ , "c3" : "QC-CPP000014[09536] The pointer add is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09534"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9534"
+   "c1" : "09536"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9536"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09534] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09536] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09535"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9535"
+   "c1" : "09537"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9537"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09535] The pointer d is declared but not initialized"
+ , "c3" : "QC-CPP000014[09537] The pointer d is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09535"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9535"
+   "c1" : "09537"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9537"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09535] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09537] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09598"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9598"
+   "c1" : "09600"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9600"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[09598] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[09600] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09598"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9598"
+   "c1" : "09600"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9600"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[09598] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[09600] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09678"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9678"
+   "c1" : "09680"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9680"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09678] The expression 0x01 is invariable"
+ , "c3" : "QC-CPP000012[09680] The expression 0x01 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09775"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9775"
+   "c1" : "09777"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9777"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09775] The pointer hash is declared but not initialized"
+ , "c3" : "QC-CPP000014[09777] The pointer hash is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09830"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9830"
+   "c1" : "09832"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9832"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09830] The pointer hash is declared but not initialized"
+ , "c3" : "QC-CPP000014[09832] The pointer hash is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09836"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9836"
+   "c1" : "09838"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9838"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09836] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[09838] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09852"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9852"
+   "c1" : "09854"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9854"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09852] The pointer md is declared but not initialized"
+ , "c3" : "QC-CPP000014[09854] The pointer md is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09853"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9853"
+   "c1" : "09855"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9855"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09853] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[09855] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09953"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9953"
+   "c1" : "09955"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9955"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09953] The pointer md is declared but not initialized"
+ , "c3" : "QC-CPP000014[09955] The pointer md is declared but not initialized"
 }} 
 ]
 };

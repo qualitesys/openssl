@@ -230,192 +230,192 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09974"
- , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#9974"
+   "c1" : "09976"
+ , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#9976"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09974] The pointer pectx is declared but not initialized"
+ , "c3" : "QC-CPP000014[09976] The pointer pectx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10064"
- , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10064"
+   "c1" : "10066"
+ , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10066"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10064] The expression  ! ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10066] The expression  ! ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10091"
- , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10091"
+   "c1" : "10093"
+ , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10093"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10091] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[10093] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10118"
- , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10118"
+   "c1" : "10120"
+ , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10120"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10118] The pointer dstctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[10120] The pointer dstctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10171"
- , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10171"
+   "c1" : "10173"
+ , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10173"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10171] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10173] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10180"
- , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10180"
+   "c1" : "10182"
+ , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10182"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10180] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10182] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10189"
- , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10189"
+   "c1" : "10191"
+ , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10191"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10189] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10191] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10206"
- , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10206"
+   "c1" : "10208"
+ , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10208"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10206] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10208] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10230"
- , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10230"
+   "c1" : "10232"
+ , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10232"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10230] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10272"
- , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10272"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10272] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000014[10232] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "10274"
  , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10274"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10274] The expression 'X963KDF' is invariable"
+ , "c3" : "QC-CPP000012[10274] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10350"
- , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10350"
+   "c1" : "10276"
+ , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10276"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10350] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10276] The expression 'X963KDF' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10413"
- , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10413"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10413] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10477"
- , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10477"
+   "c1" : "10352"
+ , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10352"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10477] The expression '' is invariable"
+ , "c3" : "QC-CPP000012[10352] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10551"
- , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10551"
+   "c1" : "10415"
+ , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10415"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10551] The pointer group is declared but not initialized"
+ , "c3" : "QC-CPP000014[10415] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10558"
- , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10558"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10558] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10587"
- , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10587"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10587] The pointer group is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10588"
- , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10588"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10588] The pointer cofactor is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10618"
- , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10618"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10618] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10623"
- , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10623"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10623] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10641"
- , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10641"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10641] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10665"
- , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10665"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10665] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10681"
- , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10681"
+   "c1" : "10479"
+ , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10479"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10681] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[10479] The expression '' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10710"
- , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10710"
+   "c1" : "10553"
+ , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10553"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10553] The pointer group is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10560"
+ , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10560"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10560] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10589"
+ , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10589"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10589] The pointer group is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10590"
+ , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10590"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10590] The pointer cofactor is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10620"
+ , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10620"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10620] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10625"
+ , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10625"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10625] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10643"
+ , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10643"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10643] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10667"
+ , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10667"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10667] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10683"
+ , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10683"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10710] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000005[10683] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "10712"
  , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10712"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10712] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10712] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10725"
- , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10725"
+   "c1" : "10714"
+ , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10714"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10725] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[10714] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10738"
- , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10738"
+   "c1" : "10727"
+ , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10727"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10738] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10727] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10740"
+ , "c1link" : "./qc/providers/implementations/exchange/ecdh_exch.c.html#10740"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10740] goto statement jump to err"
 }} 
 ]
 };

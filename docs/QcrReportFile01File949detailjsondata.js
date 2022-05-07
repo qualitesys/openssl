@@ -97,479 +97,479 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "01812"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#1812"
+   "c1" : "02492"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#2492"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02492] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02497"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#2497"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02497] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02522"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#2522"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02522] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02526"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#2526"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02526] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02529"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#2529"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02529] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02554"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#2554"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02554] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02558"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#2558"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02558] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02562"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#2562"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02562] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02570"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#2570"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02570] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03613"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#3613"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01812] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[03613] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01975"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#1975"
+   "c1" : "03776"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#3776"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01975] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03776] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01978"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#1978"
+   "c1" : "03779"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#3779"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01978] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03779] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02002"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#2002"
+   "c1" : "03803"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#3803"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02002] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03803] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02006"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#2006"
+   "c1" : "03807"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#3807"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02006] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03807] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02028"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#2028"
+   "c1" : "03829"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#3829"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02028] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03829] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02028"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#2028"
+   "c1" : "03829"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#3829"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02028] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03829] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02052"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#2052"
+   "c1" : "03853"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#3853"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02052] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03853] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02058"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#2058"
+   "c1" : "03859"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#3859"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02058] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03859] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02083"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#2083"
+   "c1" : "03884"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#3884"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02083] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03884] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02087"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#2087"
+   "c1" : "03888"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#3888"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02087] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03888] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03108"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#3108"
+   "c1" : "09764"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#9764"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03108] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09764] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03113"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#3113"
+   "c1" : "09769"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#9769"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03113] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09769] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03138"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#3138"
+   "c1" : "09794"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#9794"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03138] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09794] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03142"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#3142"
+   "c1" : "09799"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#9799"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03142] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000012[09799] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03145"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#3145"
+   "c1" : "09828"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#9828"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03145] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09828] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03170"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#3170"
+   "c1" : "09833"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#9833"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03170] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09833] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03174"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#3174"
+   "c1" : "09854"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#9854"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03174] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000012[09854] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03178"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#3178"
+   "c1" : "09859"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#9859"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03178] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09859] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03186"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#3186"
+   "c1" : "09875"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#9875"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03186] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000012[09875] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05914"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#5914"
+   "c1" : "09894"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#9894"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05914] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09894] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05919"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#5919"
+   "c1" : "09899"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#9899"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05919] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09899] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05944"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#5944"
+   "c1" : "09919"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#9919"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05944] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09919] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05949"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#5949"
+   "c1" : "09924"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#9924"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05949] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09924] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05978"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#5978"
+   "c1" : "09945"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#9945"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05978] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09945] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05983"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#5983"
+   "c1" : "09950"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#9950"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05983] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09950] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06004"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#6004"
+   "c1" : "09971"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#9971"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06004] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09971] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06009"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#6009"
+   "c1" : "09976"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#9976"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06009] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09976] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06025"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#6025"
+   "c1" : "09998"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#9998"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06025] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09998] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06044"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#6044"
+   "c1" : "10003"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#10003"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06044] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10003] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06049"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#6049"
+   "c1" : "10027"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#10027"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06049] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10027] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06069"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#6069"
+   "c1" : "10032"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#10032"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06069] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10032] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06074"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#6074"
+   "c1" : "11349"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11349"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06074] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[11349] The expression 'pub' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06095"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#6095"
+   "c1" : "11360"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11360"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06095] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[11360] The expression 'priv' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06100"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#6100"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06100] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06121"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#6121"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06121] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06126"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#6126"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06126] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06148"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#6148"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06148] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06153"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#6153"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06153] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06177"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#6177"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06177] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06182"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#6182"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06182] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11350"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11350"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11350] The expression 'pub' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11361"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11361"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11361] The expression 'priv' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11372"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11372"
+   "c1" : "11371"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11371"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11372] The pointer tmpl is declared but not initialized"
+ , "c3" : "QC-CPP000014[11371] The pointer tmpl is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11403"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11403"
+   "c1" : "11402"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11402"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11403] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11402] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11412"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11412"
+   "c1" : "11411"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11411"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11412] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11411] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11460"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11460"
+   "c1" : "11459"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11459"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11460] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[11459] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11462"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11462"
+   "c1" : "11461"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11461"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11462] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11461] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11469"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11469"
+   "c1" : "11468"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11468"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11469] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11468] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11476"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11476"
+   "c1" : "11475"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11475"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11476] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11475] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11483"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11483"
+   "c1" : "11482"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11482"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11483] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11482] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11503"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11503"
+   "c1" : "11502"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11502"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11503] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[11502] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11505"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11505"
+   "c1" : "11504"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11504"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11505] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11504] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11511"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11511"
+   "c1" : "11510"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11510"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11511] The expression '' is invariable"
+ , "c3" : "QC-CPP000012[11510] The expression '' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11677"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11677"
+   "c1" : "11676"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11676"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11677] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[11676] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11815"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11815"
+   "c1" : "11814"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11814"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11815] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11814] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11862"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11862"
+   "c1" : "11861"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11861"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11862] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[11861] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11963"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11963"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[11963] The pointer key is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "11964"
  , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11964"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11964] The pointer key is declared but not initialized"
+ , "c3" : "QC-CPP000014[11964] The pointer privkey is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11965"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11965"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11965] The pointer privkey is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11965"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11965"
+   "c1" : "11964"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11964"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11965] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11964] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11977"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11977"
+   "c1" : "11976"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11976"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11977] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11976] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11999"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11999"
+   "c1" : "11998"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#11998"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11999] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11998] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12009"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#12009"
+   "c1" : "12008"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#12008"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12009] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12008] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12010"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#12010"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[12010] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "12011"
  , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#12011"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12011] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12027"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#12027"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12027] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12032"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#12032"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12032] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12183"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#12183"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12011] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12012"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#12012"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12012] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12028"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#12028"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12028] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12033"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#12033"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12033] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12184"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#12184"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12184] The expression  ! ok applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[12183] The expression  ! ok applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

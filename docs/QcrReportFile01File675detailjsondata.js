@@ -223,276 +223,269 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08155"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8155"
+   "c1" : "08157"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8157"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08155] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[08157] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08202"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8202"
+   "c1" : "08204"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8204"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08202] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08204] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08203"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8203"
+   "c1" : "08205"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8205"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08203] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[08205] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08203"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8203"
+   "c1" : "08205"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8205"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08203] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08205] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08265"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8265"
+   "c1" : "08267"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8267"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08265] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08267] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08280"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8280"
+   "c1" : "08282"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8282"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08280] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08282] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08280"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8280"
+   "c1" : "08282"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8282"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08280] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08282] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08280"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8280"
+   "c1" : "08282"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8282"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08280] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08282] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08280"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8280"
+   "c1" : "08282"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8282"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08280] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08282] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08281"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8281"
+   "c1" : "08283"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8283"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08281] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08283] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08281"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8281"
+   "c1" : "08283"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8283"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08281] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08283] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08281"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8281"
+   "c1" : "08283"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8283"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08281] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08283] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08281"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8281"
+   "c1" : "08283"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8283"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08281] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08283] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08294"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8294"
+   "c1" : "08296"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8296"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08294] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08296] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08294"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8294"
+   "c1" : "08296"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8296"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08294] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08296] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08294"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8294"
+   "c1" : "08296"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8296"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08294] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08296] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08294"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8294"
+   "c1" : "08296"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8296"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08294] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08296] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08294"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8294"
+   "c1" : "08296"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8296"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08294] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08296] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08294"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8294"
+   "c1" : "08296"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8296"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08294] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08296] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08294"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8294"
+   "c1" : "08296"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8296"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08294] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08296] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08294"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8294"
+   "c1" : "08296"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8296"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08294] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08296] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08294"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8294"
+   "c1" : "08296"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8296"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08294] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08296] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08294"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8294"
+   "c1" : "08296"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8296"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08294] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08296] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08294"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8294"
+   "c1" : "08296"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8296"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08294] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08296] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08294"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8294"
+   "c1" : "08296"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8296"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08294] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08296] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08294"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8294"
+   "c1" : "08296"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8296"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08294] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08296] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08294"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8294"
+   "c1" : "08296"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8296"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08294] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08296] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08294"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8294"
+   "c1" : "08296"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8296"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08294] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08296] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08294"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8294"
+   "c1" : "08296"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8296"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08294] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08296] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08294"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8294"
+   "c1" : "08296"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8296"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08294] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08296] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08294"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8294"
+   "c1" : "08296"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8296"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08294] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08296] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08294"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8294"
+   "c1" : "08296"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8296"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08294] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08296] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08294"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8294"
+   "c1" : "08296"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8296"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08294] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08296] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08294"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8294"
+   "c1" : "08296"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8296"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08294] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[08296] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08294"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8294"
+   "c1" : "08296"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8296"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08294] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[08296] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08320"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8320"
+   "c1" : "08322"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8322"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08320] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[08322] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08335"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8335"
+   "c1" : "08337"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8337"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08335] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[08337] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08335"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8335"
+   "c1" : "08337"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8337"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08335] The end expression of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08344"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8344"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000001[08344] The unary operator + should be avoided, confusing"
+ , "c3" : "QC-CPP000006[08337] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
@@ -594,38 +587,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08373"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8373"
+   "c1" : "08374"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8374"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000001[08373] The unary operator + should be avoided, confusing"
+ , "c3" : "QC-CPP000001[08374] The unary operator + should be avoided, confusing"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08377"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8377"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08377] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08377"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8377"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08377] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08377"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8377"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08377] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08377"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8377"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08377] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "08375"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8375"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000001[08375] The unary operator + should be avoided, confusing"
 }} 
 ,
 { "ligne" : {
@@ -659,561 +631,533 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "08381"
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8381"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08381] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08381"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8381"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08381] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08381"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8381"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08381] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08381"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8381"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08381] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08383"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8383"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000001[08381] The unary operator + should be avoided, confusing"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08382"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8382"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08382] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08382"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8382"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08382] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08382"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8382"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08382] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08382"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8382"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08382] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000001[08383] The unary operator + should be avoided, confusing"
 }} 
 ,
 { "ligne" : {
    "c1" : "08384"
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8384"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08384] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08384"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8384"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08384] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08384"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8384"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08384] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08384"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8384"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08384] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08386"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8386"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000001[08384] The unary operator + should be avoided, confusing"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08385"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8385"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08385] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08385"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8385"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08385] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08385"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8385"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08385] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08385"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8385"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08385] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000001[08386] The unary operator + should be avoided, confusing"
 }} 
 ,
 { "ligne" : {
    "c1" : "08387"
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8387"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08387] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08387"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8387"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08387] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08387"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8387"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08387] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08387"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8387"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08387] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08389"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8389"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000001[08387] The unary operator + should be avoided, confusing"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08388"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8388"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08388] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08388"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8388"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08388] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08388"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8388"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08388] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08388"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8388"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08388] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000001[08389] The unary operator + should be avoided, confusing"
 }} 
 ,
 { "ligne" : {
    "c1" : "08390"
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8390"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08390] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08390"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8390"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08390] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08390"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8390"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08390] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08390"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8390"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08390] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08392"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8392"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000001[08390] The unary operator + should be avoided, confusing"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08391"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8391"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08391] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08391"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8391"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08391] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08391"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8391"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08391] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08391"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8391"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08391] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000001[08392] The unary operator + should be avoided, confusing"
 }} 
 ,
 { "ligne" : {
    "c1" : "08393"
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8393"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08393] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08393"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8393"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08393] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08393"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8393"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08393] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08393"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8393"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08393] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08395"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8395"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000001[08393] The unary operator + should be avoided, confusing"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08394"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8394"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08394] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08394"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8394"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08394] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08394"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8394"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08394] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08394"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8394"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08394] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000001[08395] The unary operator + should be avoided, confusing"
 }} 
 ,
 { "ligne" : {
    "c1" : "08396"
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8396"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08396] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08396"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8396"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08396] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08396"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8396"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08396] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08396"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8396"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08396] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08398"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8398"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000001[08396] The unary operator + should be avoided, confusing"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08397"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8397"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08397] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08397"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8397"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08397] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08397"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8397"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08397] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08397"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8397"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08397] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000001[08398] The unary operator + should be avoided, confusing"
 }} 
 ,
 { "ligne" : {
    "c1" : "08399"
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8399"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08399] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08399"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8399"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08399] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08399"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8399"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08399] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08399"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8399"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08399] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08401"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8401"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000001[08399] The unary operator + should be avoided, confusing"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08400"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8400"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08400] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08400"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8400"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08400] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08400"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8400"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08400] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08400"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8400"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08400] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000001[08401] The unary operator + should be avoided, confusing"
 }} 
 ,
 { "ligne" : {
    "c1" : "08402"
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8402"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08402] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08402"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8402"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08402] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08402"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8402"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08402] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08402"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8402"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08402] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08404"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8404"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000001[08402] The unary operator + should be avoided, confusing"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08403"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8403"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08403] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08403"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8403"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08403] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08403"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8403"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08403] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08403"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8403"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08403] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000001[08404] The unary operator + should be avoided, confusing"
 }} 
 ,
 { "ligne" : {
    "c1" : "08405"
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8405"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08405] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08405"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8405"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08405] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08405"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8405"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08405] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08405"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8405"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08405] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08407"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8407"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000001[08405] The unary operator + should be avoided, confusing"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08406"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8406"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08406] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08406"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8406"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08406] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08406"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8406"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08406] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08406"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8406"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08406] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000001[08407] The unary operator + should be avoided, confusing"
 }} 
 ,
 { "ligne" : {
    "c1" : "08408"
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8408"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08408] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08408"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8408"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08408] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08408"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8408"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08408] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08408"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8408"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08408] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08410"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8410"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000001[08408] The unary operator + should be avoided, confusing"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08409"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8409"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08409] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08409"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8409"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08409] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08409"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8409"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08409] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08409"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8409"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08409] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000001[08410] The unary operator + should be avoided, confusing"
 }} 
 ,
 { "ligne" : {
    "c1" : "08411"
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8411"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08411] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08411"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8411"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08411] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08411"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8411"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08411] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08411"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8411"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08411] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08413"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8413"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000001[08411] The unary operator + should be avoided, confusing"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08412"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8412"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08412] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08412"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8412"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08412] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08412"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8412"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08412] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08412"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8412"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08412] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000001[08413] The unary operator + should be avoided, confusing"
 }} 
 ,
 { "ligne" : {
    "c1" : "08414"
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8414"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08414] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08414"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8414"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08414] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08414"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8414"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08414] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08414"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8414"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08414] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08416"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8416"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000001[08414] The unary operator + should be avoided, confusing"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08415"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8415"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08415] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08415"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8415"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08415] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08415"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8415"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08415] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08415"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8415"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08415] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000001[08416] The unary operator + should be avoided, confusing"
 }} 
 ,
 { "ligne" : {
    "c1" : "08417"
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8417"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08417] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08417"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8417"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08417] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08417"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8417"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08417] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08417"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8417"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08417] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08419"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8419"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000001[08417] The unary operator + should be avoided, confusing"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08418"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8418"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08418] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08418"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8418"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08418] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08418"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8418"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08418] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08418"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8418"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08418] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000001[08419] The unary operator + should be avoided, confusing"
 }} 
 ,
 { "ligne" : {
    "c1" : "08420"
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8420"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08420] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08420"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8420"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08420] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08420"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8420"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08420] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08420"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8420"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08420] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08422"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8422"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000001[08420] The unary operator + should be avoided, confusing"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08421"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8421"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08421] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08421"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8421"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08421] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08421"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8421"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08421] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08421"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8421"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08421] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000001[08422] The unary operator + should be avoided, confusing"
 }} 
 ,
 { "ligne" : {
    "c1" : "08423"
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8423"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08423] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08423"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8423"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08423] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08423"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8423"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08423] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08423"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8423"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08423] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08425"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8425"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000001[08423] The unary operator + should be avoided, confusing"
+ , "c3" : "QC-CPP000001[08425] The unary operator + should be avoided, confusing"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08424"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8424"
+   "c1" : "08426"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8426"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000001[08424] The unary operator + should be avoided, confusing"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08427"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8427"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08427] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08427"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8427"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08427] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08427"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8427"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08427] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08427"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8427"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000001[08427] The unary operator + should be avoided, confusing"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08428"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8428"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08428] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08428"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8428"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08428] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08428"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8428"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08428] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08428"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8428"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000001[08428] The unary operator + should be avoided, confusing"
+ , "c3" : "QC-CPP000001[08426] The unary operator + should be avoided, confusing"
 }} 
 ,
 { "ligne" : {
@@ -1273,6 +1217,34 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "08431"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8431"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08431] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08431"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8431"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08431] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08431"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8431"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08431] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08431"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8431"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000001[08431] The unary operator + should be avoided, confusing"
+}} 
+,
+{ "ligne" : {
    "c1" : "08432"
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8432"
  , "c2" : "MAJOR"
@@ -1298,34 +1270,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8432"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000001[08432] The unary operator + should be avoided, confusing"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08433"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8433"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08433] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08433"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8433"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08433] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08433"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8433"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08433] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08433"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8433"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000001[08433] The unary operator + should be avoided, confusing"
 }} 
 ,
 { "ligne" : {
@@ -1609,6 +1553,34 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "08444"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8444"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08444] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08444"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8444"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08444] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08444"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8444"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08444] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08444"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8444"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000001[08444] The unary operator + should be avoided, confusing"
+}} 
+,
+{ "ligne" : {
    "c1" : "08445"
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8445"
  , "c2" : "MAJOR"
@@ -1634,34 +1606,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8445"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000001[08445] The unary operator + should be avoided, confusing"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08446"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8446"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08446] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08446"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8446"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08446] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08446"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8446"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08446] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08446"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8446"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000001[08446] The unary operator + should be avoided, confusing"
 }} 
 ,
 { "ligne" : {
@@ -1833,6 +1777,34 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "08453"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8453"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08453] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08453"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8453"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08453] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08453"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8453"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08453] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08453"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8453"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000001[08453] The unary operator + should be avoided, confusing"
+}} 
+,
+{ "ligne" : {
    "c1" : "08454"
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8454"
  , "c2" : "MAJOR"
@@ -1858,34 +1830,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8454"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000001[08454] The unary operator + should be avoided, confusing"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08455"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8455"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08455] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08455"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8455"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08455] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08455"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8455"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08455] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08455"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8455"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000001[08455] The unary operator + should be avoided, confusing"
 }} 
 ,
 { "ligne" : {
@@ -2393,6 +2337,34 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
+   "c1" : "08474"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8474"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08474] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08474"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8474"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08474] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08474"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8474"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08474] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08474"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8474"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000001[08474] The unary operator + should be avoided, confusing"
+}} 
+,
+{ "ligne" : {
    "c1" : "08475"
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8475"
  , "c2" : "MAJOR"
@@ -2418,34 +2390,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8475"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000001[08475] The unary operator + should be avoided, confusing"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08476"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8476"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08476] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08476"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8476"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08476] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08476"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8476"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08476] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08476"
- , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8476"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000001[08476] The unary operator + should be avoided, confusing"
 }} 
 ,
 { "ligne" : {
@@ -2950,6 +2894,62 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8494"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000001[08494] The unary operator + should be avoided, confusing"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08495"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8495"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08495] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08495"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8495"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08495] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08495"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8495"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08495] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08495"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8495"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000001[08495] The unary operator + should be avoided, confusing"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08496"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8496"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08496] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08496"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8496"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08496] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08496"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8496"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08496] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08496"
+ , "c1link" : "./qc/crypto/sha/sha1dgst.c.html#8496"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000001[08496] The unary operator + should be avoided, confusing"
 }} 
 ]
 };

@@ -195,10 +195,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06568"
- , "c1link" : "./qc/providers/implementations/digests/mdc2_prov.c.html#6568"
+   "c1" : "06570"
+ , "c1link" : "./qc/providers/implementations/digests/mdc2_prov.c.html#6570"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06568] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[06570] The pointer p is declared but not initialized"
 }} 
 ]
 };

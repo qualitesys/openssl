@@ -237,45 +237,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09664"
- , "c1link" : "./qc/crypto/evp/mac_lib.c.html#9664"
+   "c1" : "09666"
+ , "c1link" : "./qc/crypto/evp/mac_lib.c.html#9666"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09664] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[09666] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09714"
- , "c1link" : "./qc/crypto/evp/mac_lib.c.html#9714"
+   "c1" : "09716"
+ , "c1link" : "./qc/crypto/evp/mac_lib.c.html#9716"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09714] The pointer dst is declared but not initialized"
+ , "c3" : "QC-CPP000014[09716] The pointer dst is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09920"
- , "c1link" : "./qc/crypto/evp/mac_lib.c.html#9920"
+   "c1" : "09922"
+ , "c1link" : "./qc/crypto/evp/mac_lib.c.html#9922"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09920] The expression xof applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09922] The expression xof applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10066"
- , "c1link" : "./qc/crypto/evp/mac_lib.c.html#10066"
+   "c1" : "10068"
+ , "c1link" : "./qc/crypto/evp/mac_lib.c.html#10068"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10066] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10068] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10117"
- , "c1link" : "./qc/crypto/evp/mac_lib.c.html#10117"
+   "c1" : "10119"
+ , "c1link" : "./qc/crypto/evp/mac_lib.c.html#10119"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10117] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10119] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10130"
- , "c1link" : "./qc/crypto/evp/mac_lib.c.html#10130"
+   "c1" : "10132"
+ , "c1link" : "./qc/crypto/evp/mac_lib.c.html#10132"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10130] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10132] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

@@ -83,591 +83,591 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "01429"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#1429"
+   "c1" : "00383"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#383"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00383] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02885"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#2885"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02885] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02890"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#2890"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02890] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02915"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#2915"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02915] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02919"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#2919"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02919] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02922"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#2922"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02922] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02947"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#2947"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02947] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02951"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#2951"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02951] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02955"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#2955"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02955] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02963"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#2963"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02963] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03954"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#3954"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01429] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[03954] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01592"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#1592"
+   "c1" : "04117"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#4117"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01592] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[04117] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01595"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#1595"
+   "c1" : "04120"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#4120"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01595] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[04120] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01619"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#1619"
+   "c1" : "04144"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#4144"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01619] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[04144] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01623"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#1623"
+   "c1" : "04148"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#4148"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01623] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[04148] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01645"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#1645"
+   "c1" : "04170"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#4170"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01645] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[04170] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01645"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#1645"
+   "c1" : "04170"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#4170"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01645] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[04170] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01669"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#1669"
+   "c1" : "04194"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#4194"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01669] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[04194] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01675"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#1675"
+   "c1" : "04200"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#4200"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01675] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[04200] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01700"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#1700"
+   "c1" : "04225"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#4225"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01700] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[04225] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01704"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#1704"
+   "c1" : "04229"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#4229"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01704] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[04229] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02755"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#2755"
+   "c1" : "14211"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#14211"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02755] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14211] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02760"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#2760"
+   "c1" : "14216"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#14216"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02760] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14216] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02785"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#2785"
+   "c1" : "14241"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#14241"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02785] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[14241] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02789"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#2789"
+   "c1" : "14246"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#14246"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02789] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000012[14246] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02792"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#2792"
+   "c1" : "14275"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#14275"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02792] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[14275] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02817"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#2817"
+   "c1" : "14280"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#14280"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02817] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[14280] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02821"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#2821"
+   "c1" : "14301"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#14301"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02821] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000012[14301] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02825"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#2825"
+   "c1" : "14306"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#14306"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02825] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[14306] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02833"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#2833"
+   "c1" : "14322"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#14322"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02833] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000012[14322] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05561"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#5561"
+   "c1" : "14341"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#14341"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05561] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[14341] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05566"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#5566"
+   "c1" : "14346"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#14346"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05566] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[14346] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05591"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#5591"
+   "c1" : "14366"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#14366"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05591] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14366] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05596"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#5596"
+   "c1" : "14371"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#14371"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05596] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14371] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05625"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#5625"
+   "c1" : "14392"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#14392"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05625] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14392] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05630"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#5630"
+   "c1" : "14397"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#14397"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05630] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14397] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05651"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#5651"
+   "c1" : "14418"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#14418"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05651] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14418] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05656"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#5656"
+   "c1" : "14423"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#14423"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05656] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14423] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05672"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#5672"
+   "c1" : "14445"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#14445"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05672] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14445] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05691"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#5691"
+   "c1" : "14450"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#14450"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05691] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14450] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05696"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#5696"
+   "c1" : "14474"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#14474"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05696] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14474] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05716"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#5716"
+   "c1" : "14479"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#14479"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05716] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14479] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05721"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#5721"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05721] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05742"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#5742"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05742] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05747"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#5747"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05747] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05768"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#5768"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05768] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05773"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#5773"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05773] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05795"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#5795"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05795] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05800"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#5800"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05800] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05824"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#5824"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05824] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05829"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#5829"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05829] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06190"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#6190"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06190] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15305"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15305"
+   "c1" : "15313"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15313"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15305] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15313] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15314"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15314"
+   "c1" : "15322"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15322"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15314] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15322] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15337"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15337"
+   "c1" : "15345"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15345"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15337] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[15345] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15339"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15339"
+   "c1" : "15347"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15347"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15339] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15347] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15349"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15349"
+   "c1" : "15357"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15357"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15349] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15357] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15366"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15366"
+   "c1" : "15374"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15374"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15366] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[15374] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15368"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15368"
+   "c1" : "15376"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15376"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15368] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15376] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15399"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15399"
+   "c1" : "15407"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15407"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15399] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15407] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15426"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15426"
+   "c1" : "15434"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15434"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15426] The pointer path is declared but not initialized"
+ , "c3" : "QC-CPP000014[15434] The pointer path is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15426"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15426"
+   "c1" : "15434"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15434"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15426] The pointer q is declared but not initialized"
+ , "c3" : "QC-CPP000014[15434] The pointer q is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15427"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15427"
+   "c1" : "15435"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15435"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15427] The pointer bio is declared but not initialized"
+ , "c3" : "QC-CPP000014[15435] The pointer bio is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15443"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15443"
+   "c1" : "15451"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15451"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15443] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15451] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15445"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15445"
+   "c1" : "15453"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15453"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15445] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15453] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15447"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15447"
+   "c1" : "15455"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15455"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15447] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15455] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15448"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15448"
+   "c1" : "15456"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15456"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15448] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15456] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15484"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15484"
+   "c1" : "15492"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15492"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15484] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[15492] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15533"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15533"
+   "c1" : "15541"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15541"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15533] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15541] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15538"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15538"
+   "c1" : "15546"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15546"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15538] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15546] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15550"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15550"
+   "c1" : "15558"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15558"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15550] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[15558] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15622"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15622"
+   "c1" : "15630"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15630"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15622] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[15630] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15645"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15645"
+   "c1" : "15653"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15653"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15645] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[15653] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15660"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15660"
+   "c1" : "15668"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15668"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15660] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[15668] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15683"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15683"
+   "c1" : "15691"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15691"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15683] The pointer x509_name is declared but not initialized"
+ , "c3" : "QC-CPP000014[15691] The pointer x509_name is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15698"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15698"
+   "c1" : "15706"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15706"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15698] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15706] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15763"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15763"
+   "c1" : "15771"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15771"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15763] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15771] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15773"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15773"
+   "c1" : "15781"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15781"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15773] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15781] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15784"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15784"
+   "c1" : "15792"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15792"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15784] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15792] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15796"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15796"
+   "c1" : "15804"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15804"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15796] The expression 'Certificate' is invariable"
+ , "c3" : "QC-CPP000012[15804] The expression 'Certificate' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15802"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15802"
+   "c1" : "15810"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15810"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15802] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15810] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15807"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15807"
+   "c1" : "15815"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15815"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15807] The expression 'CertificateList' is invariable"
+ , "c3" : "QC-CPP000012[15815] The expression 'CertificateList' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15813"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15813"
+   "c1" : "15821"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15821"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15813] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15821] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15861"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15861"
+   "c1" : "15869"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15869"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15861] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15869] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15871"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15871"
+   "c1" : "15879"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15879"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15871] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15879] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15882"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15882"
+   "c1" : "15890"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15890"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15882] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15890] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15898"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15898"
+   "c1" : "15906"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15906"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15898] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15906] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15935"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15935"
+   "c1" : "15943"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15943"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[15935] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[15943] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15930"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15930"
+   "c1" : "15938"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15938"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15930] The expression 2 is invariable"
+ , "c3" : "QC-CPP000012[15938] The expression 2 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15930"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15930"
+   "c1" : "15938"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#15938"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15930] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[15938] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16002"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#16002"
+   "c1" : "16010"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#16010"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16002] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[16010] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16096"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#16096"
+   "c1" : "16105"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#16105"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16096] The expression  ! ctx-&gt;_.dir.end_reached applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16105] The expression  ! ctx-&gt;_.dir.end_reached applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16113"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#16113"
+   "c1" : "16122"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#16122"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16113] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[16122] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16117"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#16117"
+   "c1" : "16126"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store.c.html#16126"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16117] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16126] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

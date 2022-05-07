@@ -69,174 +69,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "00464"
- , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#464"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00464] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00464"
- , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#464"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00464] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00464"
- , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#464"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00464] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00464"
- , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#464"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00464] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00464"
- , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#464"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00464] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00464"
- , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#464"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00464] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00464"
- , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#464"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00464] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00464"
- , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#464"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00464] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00465"
- , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#465"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00465] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00465"
- , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#465"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00465] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00465"
- , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#465"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00465] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00465"
- , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#465"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00465] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00465"
- , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#465"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00465] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00465"
- , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#465"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00465] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00465"
- , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#465"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00465] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00465"
- , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#465"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00465] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00466"
- , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#466"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00466] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00466"
- , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#466"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00466] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00466"
- , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#466"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00466] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00466"
- , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#466"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00466] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00466"
- , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#466"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00466] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00466"
- , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#466"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00466] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00466"
- , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#466"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00466] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00466"
- , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#466"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00466] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
    "c1" : "00467"
  , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#467"
  , "c2" : "MAJOR"
@@ -517,17 +349,185 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "00479"
- , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#479"
+   "c1" : "00472"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#472"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00472] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00472"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#472"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00472] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00472"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#472"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00472] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00472"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#472"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00472] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00472"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#472"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00472] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00472"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#472"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00472] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00472"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#472"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00472] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00472"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#472"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00472] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00473"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#473"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00473] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00473"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#473"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00473] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00473"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#473"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00473] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00473"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#473"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00473] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00473"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#473"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00473] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00473"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#473"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00473] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00473"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#473"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00473] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00473"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#473"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00473] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00474"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#474"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00474] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00474"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#474"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00474] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00474"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#474"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00474] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00474"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#474"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00474] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00474"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#474"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00474] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00474"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#474"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00474] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00474"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#474"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00474] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00474"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#474"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00474] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00482"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#482"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00479] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[00482] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00479"
- , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#479"
+   "c1" : "00482"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#482"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00479] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[00482] The expression 0 is invariable, always false"
 }} 
 ]
 };

@@ -244,710 +244,710 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05563"
- , "c1link" : "./qc/apps/pkeyutl.c.html#5563"
+   "c1" : "05565"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#5565"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05563] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[05565] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05568"
- , "c1link" : "./qc/apps/pkeyutl.c.html#5568"
+   "c1" : "05570"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#5570"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05568] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[05570] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05593"
- , "c1link" : "./qc/apps/pkeyutl.c.html#5593"
+   "c1" : "05595"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#5595"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05593] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05595] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05598"
- , "c1link" : "./qc/apps/pkeyutl.c.html#5598"
+   "c1" : "05600"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#5600"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05598] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05600] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05627"
- , "c1link" : "./qc/apps/pkeyutl.c.html#5627"
+   "c1" : "05629"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#5629"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05627] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05629] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05632"
- , "c1link" : "./qc/apps/pkeyutl.c.html#5632"
+   "c1" : "05634"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#5634"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05632] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05634] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05653"
- , "c1link" : "./qc/apps/pkeyutl.c.html#5653"
+   "c1" : "05655"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#5655"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05653] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05655] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05658"
- , "c1link" : "./qc/apps/pkeyutl.c.html#5658"
+   "c1" : "05660"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#5660"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05658] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05660] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05674"
- , "c1link" : "./qc/apps/pkeyutl.c.html#5674"
+   "c1" : "05676"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#5676"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05674] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05676] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05693"
- , "c1link" : "./qc/apps/pkeyutl.c.html#5693"
+   "c1" : "05695"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#5695"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05693] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05695] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05698"
- , "c1link" : "./qc/apps/pkeyutl.c.html#5698"
+   "c1" : "05700"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#5700"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05698] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05700] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05718"
- , "c1link" : "./qc/apps/pkeyutl.c.html#5718"
+   "c1" : "05720"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#5720"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05718] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05720] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05723"
- , "c1link" : "./qc/apps/pkeyutl.c.html#5723"
+   "c1" : "05725"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#5725"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05723] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05725] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05744"
- , "c1link" : "./qc/apps/pkeyutl.c.html#5744"
+   "c1" : "05746"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#5746"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05744] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05746] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05749"
- , "c1link" : "./qc/apps/pkeyutl.c.html#5749"
+   "c1" : "05751"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#5751"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05749] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05751] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05770"
- , "c1link" : "./qc/apps/pkeyutl.c.html#5770"
+   "c1" : "05772"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#5772"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05770] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05772] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05775"
- , "c1link" : "./qc/apps/pkeyutl.c.html#5775"
+   "c1" : "05777"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#5777"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05775] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05777] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05797"
- , "c1link" : "./qc/apps/pkeyutl.c.html#5797"
+   "c1" : "05799"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#5799"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05797] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05799] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05802"
- , "c1link" : "./qc/apps/pkeyutl.c.html#5802"
+   "c1" : "05804"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#5804"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05802] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05804] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05826"
- , "c1link" : "./qc/apps/pkeyutl.c.html#5826"
+   "c1" : "05828"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#5828"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05826] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05828] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05831"
- , "c1link" : "./qc/apps/pkeyutl.c.html#5831"
+   "c1" : "05833"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#5833"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05831] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05833] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06196"
- , "c1link" : "./qc/apps/pkeyutl.c.html#6196"
+   "c1" : "06198"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#6198"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06196] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06198] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07526"
- , "c1link" : "./qc/apps/pkeyutl.c.html#7526"
+   "c1" : "07528"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#7528"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07526] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07528] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07531"
- , "c1link" : "./qc/apps/pkeyutl.c.html#7531"
+   "c1" : "07533"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#7533"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07531] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07533] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07557"
- , "c1link" : "./qc/apps/pkeyutl.c.html#7557"
+   "c1" : "07559"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#7559"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07557] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07559] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07562"
- , "c1link" : "./qc/apps/pkeyutl.c.html#7562"
+   "c1" : "07564"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#7564"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07562] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07564] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19035"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19035"
+   "c1" : "19037"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19037"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19035] The pointer prog is declared but not initialized"
+ , "c3" : "QC-CPP000014[19037] The pointer prog is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19036"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19036"
+   "c1" : "19038"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19038"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19036] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[19038] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19101"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19101"
+   "c1" : "19103"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19103"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19101] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19105"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19105"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000010[19105] The switch case refers to the jump label opthelp"
+ , "c3" : "QC-CPPCWE481[19103] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "19107"
  , "c1link" : "./qc/apps/pkeyutl.c.html#19107"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19107] goto statement jump to end"
+ , "c3" : "QC-CPP000010[19107] The switch case refers to the jump label opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19111"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19111"
+   "c1" : "19109"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19109"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19111] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19109] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19134"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19134"
+   "c1" : "19113"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19113"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19113] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19136"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19136"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19134] The expression ((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)|(1L&lt;&lt;4)|(1L&lt;&lt;5)|(1L&lt;&lt;7)|(1L&lt;&lt;8)|(1L&lt;&lt;9)|(1L&lt;&lt;10)) is invariable"
+ , "c3" : "QC-CPP000012[19136] The expression ((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)|(1L&lt;&lt;4)|(1L&lt;&lt;5)|(1L&lt;&lt;7)|(1L&lt;&lt;8)|(1L&lt;&lt;9)|(1L&lt;&lt;10)) is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19135"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19135"
+   "c1" : "19137"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19137"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19135] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19137] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19138"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19138"
+   "c1" : "19140"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19140"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19138] The expression ((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)|(1L&lt;&lt;4)|(1L&lt;&lt;5)|(1L&lt;&lt;7)|(1L&lt;&lt;8)|(1L&lt;&lt;9)|(1L&lt;&lt;10)) is invariable"
+ , "c3" : "QC-CPP000012[19140] The expression ((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)|(1L&lt;&lt;4)|(1L&lt;&lt;5)|(1L&lt;&lt;7)|(1L&lt;&lt;8)|(1L&lt;&lt;9)|(1L&lt;&lt;10)) is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19139"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19139"
+   "c1" : "19141"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19141"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19139] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19141] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19143"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19143"
+   "c1" : "19145"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19145"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19143] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19145] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19152"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19152"
+   "c1" : "19154"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19154"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19152] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19154] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19156"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19156"
+   "c1" : "19158"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19158"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19156] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19158] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19208"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19208"
+   "c1" : "19210"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19210"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19208] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19210] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19215"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19215"
+   "c1" : "19217"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19217"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19215] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19217] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19224"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19224"
+   "c1" : "19226"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19226"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19224] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19226] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19231"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19231"
+   "c1" : "19233"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19233"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19231] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19233] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19249"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19249"
+   "c1" : "19251"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19251"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19249] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19251] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19252"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19252"
+   "c1" : "19254"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19254"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19252] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19254] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19258"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19258"
+   "c1" : "19260"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19260"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19258] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19260] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19269"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19269"
+   "c1" : "19271"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19271"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19269] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19271] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19275"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19275"
+   "c1" : "19277"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19277"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19275] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19277] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19286"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19286"
+   "c1" : "19288"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19288"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19286] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19288] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19295"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19295"
+   "c1" : "19297"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19297"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19295] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19297] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19303"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19303"
+   "c1" : "19305"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19305"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19303] goto statement jump to opthelp"
+ , "c3" : "QC-CPP000007[19305] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19306"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19306"
+   "c1" : "19308"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19308"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19306] The expression rawin applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19308] The expression rawin applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19307"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19307"
+   "c1" : "19309"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19309"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19307] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19309] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19313"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19313"
+   "c1" : "19315"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19315"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19313] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19315] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19325"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19325"
+   "c1" : "19327"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19327"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19325] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19327] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19333"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19333"
+   "c1" : "19335"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19335"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19333] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19335] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19349"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19349"
+   "c1" : "19351"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19351"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19349] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19351] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19364"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19364"
+   "c1" : "19366"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19366"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19364] The pointer passwd is declared but not initialized"
+ , "c3" : "QC-CPP000014[19366] The pointer passwd is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19383"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19383"
+   "c1" : "19385"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19385"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19383] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19385] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19392"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19392"
+   "c1" : "19394"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19394"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19392] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19394] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19409"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19409"
+   "c1" : "19411"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19411"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19409] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19411] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19416"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19416"
+   "c1" : "19418"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19418"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19416] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19418] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19429"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19429"
+   "c1" : "19431"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19431"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19429] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19431] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19439"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19439"
+   "c1" : "19441"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19441"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19439] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19441] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19459"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19459"
+   "c1" : "19461"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19461"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19459] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19461] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19467"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19467"
+   "c1" : "19469"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19469"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19467] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19469] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19482"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19482"
+   "c1" : "19484"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19484"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19482] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19484] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19488"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19488"
+   "c1" : "19490"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19490"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19488] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19502"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19502"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19502] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19490] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
    "c1" : "19504"
  , "c1link" : "./qc/apps/pkeyutl.c.html#19504"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19504] The expression rev applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19523"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19523"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19523] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19504] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19527"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19527"
+   "c1" : "19506"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19506"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19527] The expression rawin applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19506] The expression rev applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19544"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19544"
+   "c1" : "19525"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19525"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19544] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19525] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19529"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19529"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19529] The expression rawin applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "19546"
  , "c1link" : "./qc/apps/pkeyutl.c.html#19546"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19546] The expression rawin applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19579"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19579"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19579] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19546] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19583"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19583"
+   "c1" : "19548"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19548"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19583] The expression asn1parse applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19548] The expression rawin applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19584"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19584"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19584] The expression 1 is invariable, always true"
+   "c1" : "19581"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19581"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19581] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19584"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19584"
+   "c1" : "19585"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19585"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[19584] The expression  - 1 is invariable"
+ , "c3" : "QC-CPP000011[19585] The expression asn1parse applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "19586"
  , "c1link" : "./qc/apps/pkeyutl.c.html#19586"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19586] The expression hexdump applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[19586] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19638"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19638"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19638] The pointer x is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19648"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19648"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19648] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19660"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19660"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19660] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19681"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19681"
+   "c1" : "19586"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19586"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19681] The expression x applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[19586] The expression  - 1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19693"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19693"
+   "c1" : "19588"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19588"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19693] The expression engine_impl applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19588] The expression hexdump applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19709"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19709"
+   "c1" : "19640"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19640"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19709] goto statement jump to end"
+ , "c3" : "QC-CPP000014[19640] The pointer x is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19726"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19726"
+   "c1" : "19650"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19650"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19726] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19650] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19751"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19751"
+   "c1" : "19662"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19662"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19751] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19662] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19683"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19683"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19683] The expression x applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19695"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19695"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[19695] The expression engine_impl applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "19711"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19711"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19711] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19728"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19728"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19728] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
    "c1" : "19753"
  , "c1link" : "./qc/apps/pkeyutl.c.html#19753"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[19753] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19755"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19755"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19753] The expression rawin applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19755] The expression rawin applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19903"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19903"
+   "c1" : "19905"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19905"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[19903] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[19905] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19916"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19916"
+   "c1" : "19918"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19918"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19916] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19918] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19924"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19924"
+   "c1" : "19926"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19926"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19924] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19926] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19932"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19932"
+   "c1" : "19934"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19934"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19932] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19934] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19949"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19949"
+   "c1" : "19951"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19951"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19949] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19951] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19954"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19954"
+   "c1" : "19956"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19956"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19954] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[19956] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19954"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19954"
+   "c1" : "19956"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19956"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19954] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[19956] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19960"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19960"
+   "c1" : "19962"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19962"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19960] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19962] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19965"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19965"
+   "c1" : "19967"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19967"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19965] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19967] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19971"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19971"
+   "c1" : "19973"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19973"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19971] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[19973] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19971"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19971"
+   "c1" : "19973"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19973"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[19971] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[19973] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19977"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19977"
+   "c1" : "19979"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19979"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19977] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19979] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19982"
- , "c1link" : "./qc/apps/pkeyutl.c.html#19982"
+   "c1" : "19984"
+ , "c1link" : "./qc/apps/pkeyutl.c.html#19984"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19982] goto statement jump to end"
+ , "c3" : "QC-CPP000007[19984] goto statement jump to end"
 }} 
 ]
 };

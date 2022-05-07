@@ -195,171 +195,171 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06144"
- , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#6144"
+   "c1" : "06146"
+ , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#6146"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06144] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06146] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07501"
- , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7501"
+   "c1" : "07504"
+ , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7504"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07501] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07504] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07506"
- , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7506"
+   "c1" : "07509"
+ , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7509"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07506] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07509] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07531"
- , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7531"
+   "c1" : "07534"
+ , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7534"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07531] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07534] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07536"
- , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7536"
+   "c1" : "07539"
+ , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7539"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07536] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07539] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07565"
- , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7565"
+   "c1" : "07568"
+ , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7568"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07565] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07568] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07570"
- , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7570"
+   "c1" : "07573"
+ , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7573"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07570] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07573] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07591"
- , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7591"
+   "c1" : "07594"
+ , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7594"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07591] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07594] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07596"
- , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7596"
+   "c1" : "07599"
+ , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7599"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07596] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07599] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07612"
- , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7612"
+   "c1" : "07615"
+ , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7615"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07612] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07615] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07631"
- , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7631"
+   "c1" : "07634"
+ , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7634"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07631] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07634] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07636"
- , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7636"
+   "c1" : "07639"
+ , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7639"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07636] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07639] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07656"
- , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7656"
+   "c1" : "07659"
+ , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7659"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07656] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07659] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07661"
- , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7661"
+   "c1" : "07664"
+ , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7664"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07661] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07664] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07682"
- , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7682"
+   "c1" : "07685"
+ , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7685"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07682] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07685] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07687"
- , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7687"
+   "c1" : "07690"
+ , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7690"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07687] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07690] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07708"
- , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7708"
+   "c1" : "07711"
+ , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7711"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07708] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07711] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07713"
- , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7713"
+   "c1" : "07716"
+ , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7716"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07713] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07716] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07735"
- , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7735"
+   "c1" : "07738"
+ , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7738"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07735] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07738] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07740"
- , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7740"
+   "c1" : "07743"
+ , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7743"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07740] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07743] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07764"
- , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7764"
+   "c1" : "07767"
+ , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7767"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07764] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07767] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07769"
- , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7769"
+   "c1" : "07772"
+ , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#7772"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07769] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07772] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09279"
- , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#9279"
+   "c1" : "09282"
+ , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#9282"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09279] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[09282] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09488"
- , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#9488"
+   "c1" : "09491"
+ , "c1link" : "./qc/providers/implementations/exchange/ecx_exch.c.html#9491"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09488] The pointer dstctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[09491] The pointer dstctx is declared but not initialized"
 }} 
 ]
 };

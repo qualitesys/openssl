@@ -216,52 +216,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06697"
- , "c1link" : "./qc/providers/baseprov.c.html#6697"
+   "c1" : "06699"
+ , "c1link" : "./qc/providers/baseprov.c.html#6699"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06697] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[06699] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06705"
- , "c1link" : "./qc/providers/baseprov.c.html#6705"
+   "c1" : "06707"
+ , "c1link" : "./qc/providers/baseprov.c.html#6707"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06705] The expression 'OpenSSL Base Provider' is invariable"
+ , "c3" : "QC-CPP000012[06707] The expression 'OpenSSL Base Provider' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06712"
- , "c1link" : "./qc/providers/baseprov.c.html#6712"
+   "c1" : "06714"
+ , "c1link" : "./qc/providers/baseprov.c.html#6714"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06712] The expression '3.1.0' is invariable"
+ , "c3" : "QC-CPP000012[06714] The expression '3.1.0' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06719"
- , "c1link" : "./qc/providers/baseprov.c.html#6719"
+   "c1" : "06721"
+ , "c1link" : "./qc/providers/baseprov.c.html#6721"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06719] The expression '3.1.0-dev' is invariable"
+ , "c3" : "QC-CPP000012[06721] The expression '3.1.0-dev' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07073"
- , "c1link" : "./qc/providers/baseprov.c.html#7073"
+   "c1" : "07075"
+ , "c1link" : "./qc/providers/baseprov.c.html#7075"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07073] The pointer corebiometh is declared but not initialized"
+ , "c3" : "QC-CPP000014[07075] The pointer corebiometh is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07101"
- , "c1link" : "./qc/providers/baseprov.c.html#7101"
+   "c1" : "07103"
+ , "c1link" : "./qc/providers/baseprov.c.html#7103"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07101] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07103] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07106"
- , "c1link" : "./qc/providers/baseprov.c.html#7106"
+   "c1" : "07108"
+ , "c1link" : "./qc/providers/baseprov.c.html#7108"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07106] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07108] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

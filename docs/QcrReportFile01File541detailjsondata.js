@@ -216,59 +216,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "04991"
- , "c1link" : "./qc/crypto/modes/ccm128.c.html#4991"
+   "c1" : "04993"
+ , "c1link" : "./qc/crypto/modes/ccm128.c.html#4993"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04991] The expression alen applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "05011"
- , "c1link" : "./qc/crypto/modes/ccm128.c.html#5011"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05011] The expression c applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[04993] The expression alen applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
    "c1" : "05013"
  , "c1link" : "./qc/crypto/modes/ccm128.c.html#5013"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05013] The expression n applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[05013] The expression c applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "05033"
- , "c1link" : "./qc/crypto/modes/ccm128.c.html#5033"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05033] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05070"
- , "c1link" : "./qc/crypto/modes/ccm128.c.html#5070"
+   "c1" : "05015"
+ , "c1link" : "./qc/crypto/modes/ccm128.c.html#5015"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05070] The expression len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[05015] The expression n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "05108"
- , "c1link" : "./qc/crypto/modes/ccm128.c.html#5108"
+   "c1" : "05035"
+ , "c1link" : "./qc/crypto/modes/ccm128.c.html#5035"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05108] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[05035] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05135"
- , "c1link" : "./qc/crypto/modes/ccm128.c.html#5135"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05135] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "05072"
+ , "c1link" : "./qc/crypto/modes/ccm128.c.html#5072"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05072] The expression len applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "05135"
- , "c1link" : "./qc/crypto/modes/ccm128.c.html#5135"
+   "c1" : "05110"
+ , "c1link" : "./qc/crypto/modes/ccm128.c.html#5110"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05135] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[05110] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -286,94 +272,108 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05147"
- , "c1link" : "./qc/crypto/modes/ccm128.c.html#5147"
+   "c1" : "05139"
+ , "c1link" : "./qc/crypto/modes/ccm128.c.html#5139"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[05139] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05139"
+ , "c1link" : "./qc/crypto/modes/ccm128.c.html#5139"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[05139] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05149"
+ , "c1link" : "./qc/crypto/modes/ccm128.c.html#5149"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05147] The expression len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[05149] The expression len applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "05150"
- , "c1link" : "./qc/crypto/modes/ccm128.c.html#5150"
+   "c1" : "05152"
+ , "c1link" : "./qc/crypto/modes/ccm128.c.html#5152"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05150] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[05152] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05150"
- , "c1link" : "./qc/crypto/modes/ccm128.c.html#5150"
+   "c1" : "05152"
+ , "c1link" : "./qc/crypto/modes/ccm128.c.html#5152"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05150] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[05152] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05197"
- , "c1link" : "./qc/crypto/modes/ccm128.c.html#5197"
+   "c1" : "05199"
+ , "c1link" : "./qc/crypto/modes/ccm128.c.html#5199"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05197] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[05199] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05213"
- , "c1link" : "./qc/crypto/modes/ccm128.c.html#5213"
+   "c1" : "05215"
+ , "c1link" : "./qc/crypto/modes/ccm128.c.html#5215"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05213] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[05215] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05219"
- , "c1link" : "./qc/crypto/modes/ccm128.c.html#5219"
+   "c1" : "05221"
+ , "c1link" : "./qc/crypto/modes/ccm128.c.html#5221"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05219] The expression len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[05221] The expression len applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "05223"
- , "c1link" : "./qc/crypto/modes/ccm128.c.html#5223"
+   "c1" : "05225"
+ , "c1link" : "./qc/crypto/modes/ccm128.c.html#5225"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05223] The expression len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[05225] The expression len applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "05261"
- , "c1link" : "./qc/crypto/modes/ccm128.c.html#5261"
+   "c1" : "05263"
+ , "c1link" : "./qc/crypto/modes/ccm128.c.html#5263"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05261] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[05263] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05273"
- , "c1link" : "./qc/crypto/modes/ccm128.c.html#5273"
+   "c1" : "05275"
+ , "c1link" : "./qc/crypto/modes/ccm128.c.html#5275"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05273] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[05275] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05279"
- , "c1link" : "./qc/crypto/modes/ccm128.c.html#5279"
+   "c1" : "05281"
+ , "c1link" : "./qc/crypto/modes/ccm128.c.html#5281"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05279] The expression len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[05281] The expression len applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "05283"
- , "c1link" : "./qc/crypto/modes/ccm128.c.html#5283"
+   "c1" : "05285"
+ , "c1link" : "./qc/crypto/modes/ccm128.c.html#5285"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05283] The expression len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[05285] The expression len applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "05286"
- , "c1link" : "./qc/crypto/modes/ccm128.c.html#5286"
+   "c1" : "05288"
+ , "c1link" : "./qc/crypto/modes/ccm128.c.html#5288"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05286] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[05288] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05286"
- , "c1link" : "./qc/crypto/modes/ccm128.c.html#5286"
+   "c1" : "05288"
+ , "c1link" : "./qc/crypto/modes/ccm128.c.html#5288"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05286] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[05288] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

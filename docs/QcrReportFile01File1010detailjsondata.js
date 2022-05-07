@@ -216,220 +216,220 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08792"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#8792"
+   "c1" : "08794"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#8794"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08792] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[08794] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13923"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#13923"
+   "c1" : "13925"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#13925"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13923] The pointer pkey is declared but not initialized"
+ , "c3" : "QC-CPP000014[13925] The pointer pkey is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13938"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#13938"
+   "c1" : "13940"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#13940"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13938] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[13940] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13952"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#13952"
+   "c1" : "13954"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#13954"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13952] The expression 6 is invariable"
+ , "c3" : "QC-CPP000012[13954] The expression 6 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13966"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#13966"
+   "c1" : "13968"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#13968"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13966] The pointer in is declared but not initialized"
+ , "c3" : "QC-CPP000014[13968] The pointer in is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13984"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#13984"
+   "c1" : "13986"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#13986"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13984] goto statement jump to end"
+ , "c3" : "QC-CPP000007[13986] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13987"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#13987"
+   "c1" : "13989"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#13989"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13987] The expression 108 is invariable"
+ , "c3" : "QC-CPP000012[13989] The expression 108 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13987"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#13987"
+   "c1" : "13989"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#13989"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13987] The expression 0x01 is invariable"
+ , "c3" : "QC-CPP000012[13989] The expression 0x01 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13987"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#13987"
+   "c1" : "13989"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#13989"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13987] The expression 0x02 is invariable"
+ , "c3" : "QC-CPP000012[13989] The expression 0x02 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13993"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#13993"
+   "c1" : "13995"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#13995"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13993] goto statement jump to end"
+ , "c3" : "QC-CPP000007[13995] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14017"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14017"
+   "c1" : "14019"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14019"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14017] goto statement jump to end"
+ , "c3" : "QC-CPP000007[14019] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14029"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14029"
+   "c1" : "14031"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14031"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14029] goto statement jump to end"
+ , "c3" : "QC-CPP000007[14031] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14041"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14041"
+   "c1" : "14043"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14043"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14041] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[14043] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14041"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14041"
+   "c1" : "14043"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14043"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14041] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14043] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14042"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14042"
+   "c1" : "14044"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14044"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14042] The pointer rsa is declared but not initialized"
+ , "c3" : "QC-CPP000014[14044] The pointer rsa is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14045"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14045"
+   "c1" : "14047"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14047"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14045] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14047] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14070"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14070"
+   "c1" : "14072"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14072"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14070] The pointer pkey is declared but not initialized"
+ , "c3" : "QC-CPP000014[14072] The pointer pkey is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14084"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14084"
+   "c1" : "14086"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14086"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14084] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14086] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14098"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14098"
+   "c1" : "14100"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14100"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14098] The expression 6 is invariable"
+ , "c3" : "QC-CPP000012[14100] The expression 6 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14112"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14112"
+   "c1" : "14114"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14114"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14112] The pointer in is declared but not initialized"
+ , "c3" : "QC-CPP000014[14114] The pointer in is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14130"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14130"
+   "c1" : "14132"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14132"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14130] goto statement jump to end"
+ , "c3" : "QC-CPP000007[14132] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14133"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14133"
+   "c1" : "14135"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14135"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14133] The expression 108 is invariable"
+ , "c3" : "QC-CPP000012[14135] The expression 108 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14133"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14133"
+   "c1" : "14135"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14135"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14133] The expression 0x01 is invariable"
+ , "c3" : "QC-CPP000012[14135] The expression 0x01 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14133"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14133"
+   "c1" : "14135"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14135"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14133] The expression 0x02 is invariable"
+ , "c3" : "QC-CPP000012[14135] The expression 0x02 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14139"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14139"
+   "c1" : "14141"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14141"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14139] goto statement jump to end"
+ , "c3" : "QC-CPP000007[14141] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14163"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14163"
+   "c1" : "14165"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14165"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14163] goto statement jump to end"
+ , "c3" : "QC-CPP000007[14165] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14175"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14175"
+   "c1" : "14177"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14177"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[14175] goto statement jump to end"
+ , "c3" : "QC-CPP000007[14177] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14188"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14188"
+   "c1" : "14190"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14190"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14188] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[14190] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14188"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14188"
+   "c1" : "14190"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14190"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[14188] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[14190] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14189"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14189"
+   "c1" : "14191"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14191"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14189] The pointer rsa is declared but not initialized"
+ , "c3" : "QC-CPP000014[14191] The pointer rsa is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14192"
- , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14192"
+   "c1" : "14194"
+ , "c1link" : "./qc/ssl/ssl_rsa_legacy.c.html#14194"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14192] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14194] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

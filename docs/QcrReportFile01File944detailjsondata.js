@@ -237,472 +237,472 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05561"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5561"
+   "c1" : "05563"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5563"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05561] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[05563] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05566"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5566"
+   "c1" : "05568"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5568"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05566] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[05568] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05591"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5591"
+   "c1" : "05593"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5593"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05591] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05593] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05596"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5596"
+   "c1" : "05598"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5598"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05596] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05598] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05625"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5625"
+   "c1" : "05627"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5627"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05625] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05627] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05630"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5630"
+   "c1" : "05632"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5632"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05630] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05632] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05651"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5651"
+   "c1" : "05653"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5653"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05651] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05653] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05656"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5656"
+   "c1" : "05658"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5658"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05656] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05658] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05672"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5672"
+   "c1" : "05674"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5674"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05672] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05674] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05691"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5691"
+   "c1" : "05693"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5693"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05691] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05693] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05696"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5696"
+   "c1" : "05698"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5698"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05696] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05698] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05716"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5716"
+   "c1" : "05718"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5718"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05716] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05718] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05721"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5721"
+   "c1" : "05723"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5723"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05721] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05723] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05742"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5742"
+   "c1" : "05744"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5744"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05742] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05744] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05747"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5747"
+   "c1" : "05749"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5749"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05747] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05749] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05768"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5768"
+   "c1" : "05770"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5770"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05768] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05770] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05773"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5773"
+   "c1" : "05775"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5775"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05773] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05775] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05795"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5795"
+   "c1" : "05797"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5797"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05795] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05797] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05800"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5800"
+   "c1" : "05802"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5802"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05800] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05802] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05824"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5824"
+   "c1" : "05826"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5826"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05824] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05826] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05829"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5829"
+   "c1" : "05831"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#5831"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05829] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05831] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09911"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#9911"
+   "c1" : "09913"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#9913"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09911] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09913] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10139"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#10139"
+   "c1" : "10141"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#10141"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10139] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10141] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10180"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#10180"
+   "c1" : "10182"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#10182"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10180] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10182] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10222"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#10222"
+   "c1" : "10224"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#10224"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10222] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10224] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10257"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#10257"
+   "c1" : "10259"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#10259"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10257] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10259] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10441"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#10441"
+   "c1" : "10443"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#10443"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10441] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[10443] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10441"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#10441"
+   "c1" : "10443"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#10443"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10441] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10443] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10463"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#10463"
+   "c1" : "10465"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#10465"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10463] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[10465] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10463"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#10463"
+   "c1" : "10465"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#10465"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10463] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10465] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10482"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#10482"
+   "c1" : "10484"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#10484"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10482] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[10484] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10482"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#10482"
+   "c1" : "10484"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#10484"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10482] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10484] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10505"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#10505"
+   "c1" : "10507"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#10507"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10505] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[10507] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10505"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#10505"
+   "c1" : "10507"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#10507"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10505] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10507] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10525"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#10525"
+   "c1" : "10527"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#10527"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10525] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[10527] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10525"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#10525"
+   "c1" : "10527"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#10527"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10525] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10527] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11506"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11506"
+   "c1" : "11508"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11508"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11506] The pointer cipher is declared but not initialized"
+ , "c3" : "QC-CPP000014[11508] The pointer cipher is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11517"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11517"
+   "c1" : "11519"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11519"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11517] goto statement jump to end"
+ , "c3" : "QC-CPP000007[11519] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11616"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11616"
+   "c1" : "11618"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11618"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11616] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11618] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11639"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11639"
+   "c1" : "11641"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11641"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11639] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[11641] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11649"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11649"
+   "c1" : "11651"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11651"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11649] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11651] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11658"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11658"
+   "c1" : "11660"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11660"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11658] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11660] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11665"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11665"
+   "c1" : "11667"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11667"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11665] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11667] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11671"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11671"
+   "c1" : "11673"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11673"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11671] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11684"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11684"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11684] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11685"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11685"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11685] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000007[11673] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "11686"
  , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11686"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11686] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11705"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11705"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11705] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[11686] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11744"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11744"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11744] goto statement jump to end"
+   "c1" : "11687"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11687"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[11687] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11747"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11747"
+   "c1" : "11688"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11688"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11747] goto statement jump to end"
+ , "c3" : "QC-CPP000007[11688] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11707"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11707"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[11707] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11746"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11746"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11746] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
    "c1" : "11749"
  , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11749"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11749] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11751"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11751"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[11749] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[11751] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11759"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11759"
+   "c1" : "11761"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11761"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11759] goto statement jump to end"
+ , "c3" : "QC-CPP000007[11761] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11766"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11766"
+   "c1" : "11768"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11768"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11766] goto statement jump to end"
+ , "c3" : "QC-CPP000007[11768] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11777"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11777"
+   "c1" : "11779"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11779"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11777] goto statement jump to end"
+ , "c3" : "QC-CPP000007[11779] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11792"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11792"
+   "c1" : "11794"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11794"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11792] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[11794] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11797"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11797"
+   "c1" : "11799"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11799"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11797] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11799] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11846"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11846"
+   "c1" : "11848"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11848"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11846] The pointer dest is declared but not initialized"
+ , "c3" : "QC-CPP000014[11848] The pointer dest is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11869"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11869"
+   "c1" : "11871"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11871"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11869] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11930"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11930"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11930] The pointer md is declared but not initialized"
+ , "c3" : "QC-CPP000007[11871] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "11932"
  , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11932"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11932] The pointer ctr is declared but not initialized"
+ , "c3" : "QC-CPP000014[11932] The pointer md is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11932"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11932"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11932] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11933"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11933"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11933] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12049"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#12049"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12049] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12072"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#12072"
+   "c1" : "11934"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11934"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12072] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[11934] The pointer ctr is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12072"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#12072"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12072] The pointer pq is declared but not initialized"
+   "c1" : "11934"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11934"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[11934] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12274"
- , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#12274"
+   "c1" : "11935"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#11935"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[11935] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12051"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#12051"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[12051] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12074"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#12074"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12274] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[12074] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12074"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#12074"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[12074] The pointer pq is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "12276"
  , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#12276"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12276] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[12276] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12278"
+ , "c1link" : "./qc/providers/implementations/kdfs/x942kdf.c.html#12278"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[12278] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

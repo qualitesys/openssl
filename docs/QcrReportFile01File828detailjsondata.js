@@ -209,150 +209,150 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09063"
- , "c1link" : "./qc/providers/common/provider_util.c.html#9063"
+   "c1" : "09065"
+ , "c1link" : "./qc/providers/common/provider_util.c.html#9065"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09063] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09065] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13778"
- , "c1link" : "./qc/providers/common/provider_util.c.html#13778"
+   "c1" : "13784"
+ , "c1link" : "./qc/providers/common/provider_util.c.html#13784"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13778] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[13784] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13843"
- , "c1link" : "./qc/providers/common/provider_util.c.html#13843"
+   "c1" : "13849"
+ , "c1link" : "./qc/providers/common/provider_util.c.html#13849"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13843] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[13849] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13844"
- , "c1link" : "./qc/providers/common/provider_util.c.html#13844"
+   "c1" : "13850"
+ , "c1link" : "./qc/providers/common/provider_util.c.html#13850"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13844] The pointer propquery is declared but not initialized"
+ , "c3" : "QC-CPP000014[13850] The pointer propquery is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13868"
- , "c1link" : "./qc/providers/common/provider_util.c.html#13868"
+   "c1" : "13874"
+ , "c1link" : "./qc/providers/common/provider_util.c.html#13874"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13868] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[13874] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13875"
- , "c1link" : "./qc/providers/common/provider_util.c.html#13875"
+   "c1" : "13881"
+ , "c1link" : "./qc/providers/common/provider_util.c.html#13881"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13875] The pointer cipher is declared but not initialized"
+ , "c3" : "QC-CPP000014[13881] The pointer cipher is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13963"
- , "c1link" : "./qc/providers/common/provider_util.c.html#13963"
+   "c1" : "13969"
+ , "c1link" : "./qc/providers/common/provider_util.c.html#13969"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13963] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[13969] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13972"
- , "c1link" : "./qc/providers/common/provider_util.c.html#13972"
+   "c1" : "13978"
+ , "c1link" : "./qc/providers/common/provider_util.c.html#13978"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13972] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[13978] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13973"
- , "c1link" : "./qc/providers/common/provider_util.c.html#13973"
+   "c1" : "13979"
+ , "c1link" : "./qc/providers/common/provider_util.c.html#13979"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13973] The pointer propquery is declared but not initialized"
+ , "c3" : "QC-CPP000014[13979] The pointer propquery is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14003"
- , "c1link" : "./qc/providers/common/provider_util.c.html#14003"
+   "c1" : "14009"
+ , "c1link" : "./qc/providers/common/provider_util.c.html#14009"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14003] The pointer md is declared but not initialized"
+ , "c3" : "QC-CPP000014[14009] The pointer md is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14049"
- , "c1link" : "./qc/providers/common/provider_util.c.html#14049"
+   "c1" : "14055"
+ , "c1link" : "./qc/providers/common/provider_util.c.html#14055"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14049] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[14055] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14062"
- , "c1link" : "./qc/providers/common/provider_util.c.html#14062"
+   "c1" : "14068"
+ , "c1link" : "./qc/providers/common/provider_util.c.html#14068"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14062] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14068] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14078"
- , "c1link" : "./qc/providers/common/provider_util.c.html#14078"
+   "c1" : "14084"
+ , "c1link" : "./qc/providers/common/provider_util.c.html#14084"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14078] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14084] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14094"
- , "c1link" : "./qc/providers/common/provider_util.c.html#14094"
+   "c1" : "14100"
+ , "c1link" : "./qc/providers/common/provider_util.c.html#14100"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14094] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14100] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14161"
- , "c1link" : "./qc/providers/common/provider_util.c.html#14161"
+   "c1" : "14167"
+ , "c1link" : "./qc/providers/common/provider_util.c.html#14167"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[14161] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[14167] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14173"
- , "c1link" : "./qc/providers/common/provider_util.c.html#14173"
+   "c1" : "14179"
+ , "c1link" : "./qc/providers/common/provider_util.c.html#14179"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14173] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14179] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14182"
- , "c1link" : "./qc/providers/common/provider_util.c.html#14182"
+   "c1" : "14188"
+ , "c1link" : "./qc/providers/common/provider_util.c.html#14188"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14182] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14188] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14241"
- , "c1link" : "./qc/providers/common/provider_util.c.html#14241"
+   "c1" : "14247"
+ , "c1link" : "./qc/providers/common/provider_util.c.html#14247"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14241] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[14247] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14258"
- , "c1link" : "./qc/providers/common/provider_util.c.html#14258"
+   "c1" : "14264"
+ , "c1link" : "./qc/providers/common/provider_util.c.html#14264"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14258] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[14264] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14263"
- , "c1link" : "./qc/providers/common/provider_util.c.html#14263"
+   "c1" : "14269"
+ , "c1link" : "./qc/providers/common/provider_util.c.html#14269"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14263] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14269] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14288"
- , "c1link" : "./qc/providers/common/provider_util.c.html#14288"
+   "c1" : "14294"
+ , "c1link" : "./qc/providers/common/provider_util.c.html#14294"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[14288] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[14294] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

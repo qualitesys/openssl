@@ -223,360 +223,360 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05563"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5563"
+   "c1" : "05565"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5565"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05563] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[05565] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05568"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5568"
+   "c1" : "05570"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5570"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05568] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[05570] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05593"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5593"
+   "c1" : "05595"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5595"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05593] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05595] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05598"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5598"
+   "c1" : "05600"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5600"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05598] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05600] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05627"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5627"
+   "c1" : "05629"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5629"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05627] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05629] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05632"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5632"
+   "c1" : "05634"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5634"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05632] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05634] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05653"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5653"
+   "c1" : "05655"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5655"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05653] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05655] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05658"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5658"
+   "c1" : "05660"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5660"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05658] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05660] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05674"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5674"
+   "c1" : "05676"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5676"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05674] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05676] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05693"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5693"
+   "c1" : "05695"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5695"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05693] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05695] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05698"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5698"
+   "c1" : "05700"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5700"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05698] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05700] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05718"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5718"
+   "c1" : "05720"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5720"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05718] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05720] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05723"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5723"
+   "c1" : "05725"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5725"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05723] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05725] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05744"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5744"
+   "c1" : "05746"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5746"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05744] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05746] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05749"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5749"
+   "c1" : "05751"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5751"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05749] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05751] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05770"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5770"
+   "c1" : "05772"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5772"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05770] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05772] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05775"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5775"
+   "c1" : "05777"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5777"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05775] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05777] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05797"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5797"
+   "c1" : "05799"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5799"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05797] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05799] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05802"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5802"
+   "c1" : "05804"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5804"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05802] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05804] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05826"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5826"
+   "c1" : "05828"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5828"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05826] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05828] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05831"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5831"
+   "c1" : "05833"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#5833"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05831] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05833] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06196"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#6196"
+   "c1" : "06198"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#6198"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06196] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06198] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07526"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#7526"
+   "c1" : "07528"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#7528"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07526] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07528] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07531"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#7531"
+   "c1" : "07533"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#7533"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07531] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07533] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07557"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#7557"
+   "c1" : "07559"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#7559"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07557] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07559] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07562"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#7562"
+   "c1" : "07564"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#7564"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07562] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19252"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19252"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19252] goto statement jump to err"
+ , "c3" : "QC-CPP000012[07564] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "19254"
  , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19254"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19254] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[19254] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19259"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19259"
+   "c1" : "19256"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19256"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19259] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[19256] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19356"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19356"
+   "c1" : "19261"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19261"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19356] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[19261] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19393"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19393"
+   "c1" : "19358"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19358"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19393] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19358] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19408"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19408"
+   "c1" : "19395"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19395"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19408] The pointer si is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[19395] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19422"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19422"
+   "c1" : "19410"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19410"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19422] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[19410] The pointer si is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19505"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19505"
+   "c1" : "19424"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19424"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19505] The pointer ref_issuer is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[19424] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19506"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19506"
+   "c1" : "19507"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19507"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19506] The pointer ref_serial is declared but not initialized"
+ , "c3" : "QC-CPP000014[19507] The pointer ref_issuer is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19577"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19577"
+   "c1" : "19508"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19508"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[19508] The pointer ref_serial is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19579"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19579"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19577] The expression ctx-&gt;sendError applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19579] The expression ctx-&gt;sendError applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19626"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19626"
+   "c1" : "19628"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19628"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19626] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19628] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19696"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19696"
+   "c1" : "19698"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19698"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19696] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19698] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19701"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19701"
+   "c1" : "19703"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19703"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19701] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19703] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19707"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19707"
+   "c1" : "19709"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19709"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19707] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19709] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19712"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19712"
+   "c1" : "19714"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19714"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19712] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19714] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19718"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19718"
+   "c1" : "19720"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19720"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19718] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19720] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19723"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19723"
+   "c1" : "19725"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19725"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19723] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19725] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19729"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19729"
+   "c1" : "19731"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19731"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19729] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19731] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19734"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19734"
+   "c1" : "19736"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19736"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19734] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19736] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19790"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19790"
+   "c1" : "19792"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19792"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19790] The expression ctx-&gt;sendError applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19792] The expression ctx-&gt;sendError applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19857"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19857"
+   "c1" : "19859"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19859"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19857] The expression ctx-&gt;sendError applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19859] The expression ctx-&gt;sendError applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19882"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19882"
+   "c1" : "19884"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19884"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19882] The pointer sibuf is declared but not initialized"
+ , "c3" : "QC-CPP000014[19884] The pointer sibuf is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19951"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19951"
+   "c1" : "19953"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19953"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19951] The pointer digest is declared but not initialized"
+ , "c3" : "QC-CPP000014[19953] The pointer digest is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19996"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19996"
+   "c1" : "19998"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#19998"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19996] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19998] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "20054"
- , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#20054"
+   "c1" : "20056"
+ , "c1link" : "./qc/apps/lib/cmp_mock_srv.c.html#20056"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[20054] The expression ctx-&gt;sendError applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[20056] The expression ctx-&gt;sendError applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

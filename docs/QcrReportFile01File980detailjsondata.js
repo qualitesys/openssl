@@ -216,94 +216,94 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06734"
- , "c1link" : "./qc/providers/legacyprov.c.html#6734"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06734] The pointer c_new_error is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06735"
- , "c1link" : "./qc/providers/legacyprov.c.html#6735"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06735] The pointer c_set_error_debug is declared but not initialized"
-}} 
-,
-{ "ligne" : {
    "c1" : "06736"
  , "c1link" : "./qc/providers/legacyprov.c.html#6736"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06736] The pointer c_vset_error is declared but not initialized"
+ , "c3" : "QC-CPP000014[06736] The pointer c_new_error is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "06737"
  , "c1link" : "./qc/providers/legacyprov.c.html#6737"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06737] The pointer c_set_error_mark is declared but not initialized"
+ , "c3" : "QC-CPP000014[06737] The pointer c_set_error_debug is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "06738"
  , "c1link" : "./qc/providers/legacyprov.c.html#6738"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06738] The pointer c_clear_last_error_mark is declared but not initialized"
+ , "c3" : "QC-CPP000014[06738] The pointer c_vset_error is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "06739"
  , "c1link" : "./qc/providers/legacyprov.c.html#6739"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06739] The pointer c_pop_error_to_mark is declared but not initialized"
+ , "c3" : "QC-CPP000014[06739] The pointer c_set_error_mark is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06782"
- , "c1link" : "./qc/providers/legacyprov.c.html#6782"
+   "c1" : "06740"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6740"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06782] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[06740] The pointer c_clear_last_error_mark is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06789"
- , "c1link" : "./qc/providers/legacyprov.c.html#6789"
+   "c1" : "06741"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6741"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06741] The pointer c_pop_error_to_mark is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06784"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6784"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06784] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06791"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6791"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06789] The expression 'OpenSSL Legacy Provider' is invariable"
+ , "c3" : "QC-CPP000012[06791] The expression 'OpenSSL Legacy Provider' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06796"
- , "c1link" : "./qc/providers/legacyprov.c.html#6796"
+   "c1" : "06798"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6798"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06796] The expression '3.1.0' is invariable"
+ , "c3" : "QC-CPP000012[06798] The expression '3.1.0' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06803"
- , "c1link" : "./qc/providers/legacyprov.c.html#6803"
+   "c1" : "06805"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6805"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06803] The expression '3.1.0-dev' is invariable"
+ , "c3" : "QC-CPP000012[06805] The expression '3.1.0-dev' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06975"
- , "c1link" : "./qc/providers/legacyprov.c.html#6975"
+   "c1" : "06977"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6977"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06975] The pointer tmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[06977] The pointer tmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07034"
- , "c1link" : "./qc/providers/legacyprov.c.html#7034"
+   "c1" : "07036"
+ , "c1link" : "./qc/providers/legacyprov.c.html#7036"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07034] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07036] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07039"
- , "c1link" : "./qc/providers/legacyprov.c.html#7039"
+   "c1" : "07041"
+ , "c1link" : "./qc/providers/legacyprov.c.html#7041"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07039] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07041] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

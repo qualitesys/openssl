@@ -216,52 +216,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "13180"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.html#13180"
+   "c1" : "13182"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.html#13182"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13180] The pointer der is declared but not initialized"
+ , "c3" : "QC-CPP000014[13182] The pointer der is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13180"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.html#13180"
+   "c1" : "13182"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.html#13182"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13180] The pointer derp is declared but not initialized"
+ , "c3" : "QC-CPP000014[13182] The pointer derp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13180"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.html#13180"
+   "c1" : "13182"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.html#13182"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13180] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13182] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13216"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.html#13216"
+   "c1" : "13218"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.html#13218"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13216] goto statement jump to end"
+ , "c3" : "QC-CPP000007[13218] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13232"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.html#13232"
+   "c1" : "13234"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.html#13234"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13232] goto statement jump to end"
+ , "c3" : "QC-CPP000007[13234] goto statement jump to end"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13250"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.html#13250"
+   "c1" : "13252"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.html#13252"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13250] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[13252] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13251"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.html#13251"
+   "c1" : "13253"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.html#13253"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13251] goto statement jump to end"
+ , "c3" : "QC-CPP000007[13253] goto statement jump to end"
 }} 
 ]
 };

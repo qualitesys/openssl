@@ -230,199 +230,199 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05237"
- , "c1link" : "./qc/crypto/lhash/lhash.c.html#5237"
+   "c1" : "05242"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5242"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05237] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[05242] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05239"
- , "c1link" : "./qc/crypto/lhash/lhash.c.html#5239"
+   "c1" : "05244"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5244"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05239] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05255"
- , "c1link" : "./qc/crypto/lhash/lhash.c.html#5255"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05255] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[05244] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "05260"
  , "c1link" : "./qc/crypto/lhash/lhash.c.html#5260"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[05260] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[05260] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05305"
- , "c1link" : "./qc/crypto/lhash/lhash.c.html#5305"
+   "c1" : "05265"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5265"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05305] The pointer n is declared but not initialized"
+ , "c3" : "QC-CPP000007[05265] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05305"
- , "c1link" : "./qc/crypto/lhash/lhash.c.html#5305"
+   "c1" : "05310"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5310"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05305] The pointer nn is declared but not initialized"
+ , "c3" : "QC-CPP000014[05310] The pointer n is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05336"
- , "c1link" : "./qc/crypto/lhash/lhash.c.html#5336"
+   "c1" : "05310"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5310"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05336] The pointer nn is declared but not initialized"
+ , "c3" : "QC-CPP000014[05310] The pointer nn is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05336"
- , "c1link" : "./qc/crypto/lhash/lhash.c.html#5336"
+   "c1" : "05343"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5343"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05336] The pointer rn is declared but not initialized"
+ , "c3" : "QC-CPP000014[05343] The pointer nn is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05337"
- , "c1link" : "./qc/crypto/lhash/lhash.c.html#5337"
+   "c1" : "05343"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5343"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05337] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[05343] The pointer rn is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05354"
- , "c1link" : "./qc/crypto/lhash/lhash.c.html#5354"
+   "c1" : "05344"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5344"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05354] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[05344] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05390"
- , "c1link" : "./qc/crypto/lhash/lhash.c.html#5390"
+   "c1" : "05361"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5361"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05390] The pointer nn is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[05361] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05390"
- , "c1link" : "./qc/crypto/lhash/lhash.c.html#5390"
+   "c1" : "05397"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5397"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05390] The pointer rn is declared but not initialized"
+ , "c3" : "QC-CPP000014[05397] The pointer nn is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05391"
- , "c1link" : "./qc/crypto/lhash/lhash.c.html#5391"
+   "c1" : "05397"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5397"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05391] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[05397] The pointer rn is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05424"
- , "c1link" : "./qc/crypto/lhash/lhash.c.html#5424"
+   "c1" : "05398"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5398"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05424] The pointer rn is declared but not initialized"
+ , "c3" : "QC-CPP000014[05398] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05447"
- , "c1link" : "./qc/crypto/lhash/lhash.c.html#5447"
+   "c1" : "05431"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5431"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05447] The pointer a is declared but not initialized"
+ , "c3" : "QC-CPP000014[05431] The pointer rn is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05447"
- , "c1link" : "./qc/crypto/lhash/lhash.c.html#5447"
+   "c1" : "05454"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5454"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05447] The pointer n is declared but not initialized"
+ , "c3" : "QC-CPP000014[05454] The pointer a is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05468"
- , "c1link" : "./qc/crypto/lhash/lhash.c.html#5468"
+   "c1" : "05454"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5454"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05454] The pointer n is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05475"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5475"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05468] The expression use_arg applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[05475] The expression use_arg applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "05493"
- , "c1link" : "./qc/crypto/lhash/lhash.c.html#5493"
+   "c1" : "05500"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5500"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05493] The pointer n is declared but not initialized"
+ , "c3" : "QC-CPP000014[05500] The pointer n is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05493"
- , "c1link" : "./qc/crypto/lhash/lhash.c.html#5493"
+   "c1" : "05500"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5500"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05493] The pointer n1 is declared but not initialized"
+ , "c3" : "QC-CPP000014[05500] The pointer n1 is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05493"
- , "c1link" : "./qc/crypto/lhash/lhash.c.html#5493"
+   "c1" : "05500"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5500"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05493] The pointer n2 is declared but not initialized"
+ , "c3" : "QC-CPP000014[05500] The pointer n2 is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05493"
- , "c1link" : "./qc/crypto/lhash/lhash.c.html#5493"
+   "c1" : "05500"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5500"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05493] The pointer np is declared but not initialized"
+ , "c3" : "QC-CPP000014[05500] The pointer np is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05529"
- , "c1link" : "./qc/crypto/lhash/lhash.c.html#5529"
+   "c1" : "05536"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5536"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[05529] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[05536] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05549"
- , "c1link" : "./qc/crypto/lhash/lhash.c.html#5549"
+   "c1" : "05556"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5556"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05549] The pointer n is declared but not initialized"
+ , "c3" : "QC-CPP000014[05556] The pointer n is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05549"
- , "c1link" : "./qc/crypto/lhash/lhash.c.html#5549"
+   "c1" : "05556"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5556"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05549] The pointer n1 is declared but not initialized"
+ , "c3" : "QC-CPP000014[05556] The pointer n1 is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05549"
- , "c1link" : "./qc/crypto/lhash/lhash.c.html#5549"
+   "c1" : "05556"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5556"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05549] The pointer np is declared but not initialized"
+ , "c3" : "QC-CPP000014[05556] The pointer np is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05599"
- , "c1link" : "./qc/crypto/lhash/lhash.c.html#5599"
+   "c1" : "05606"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5606"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05599] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[05606] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05599"
- , "c1link" : "./qc/crypto/lhash/lhash.c.html#5599"
+   "c1" : "05606"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5606"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05599] The pointer n1 is declared but not initialized"
+ , "c3" : "QC-CPP000014[05606] The pointer n1 is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05648"
- , "c1link" : "./qc/crypto/lhash/lhash.c.html#5648"
+   "c1" : "05655"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#5655"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05648] The expression  * c applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[05655] The expression  * c applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

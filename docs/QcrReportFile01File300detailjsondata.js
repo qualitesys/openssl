@@ -223,52 +223,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05042"
- , "c1link" : "./qc/crypto/des/ecb_enc.c.html#5042"
+   "c1" : "05044"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#5044"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05042] The expression init applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[05044] The expression init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "05057"
- , "c1link" : "./qc/crypto/des/ecb_enc.c.html#5057"
+   "c1" : "05059"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#5059"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05057] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[05059] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05058"
- , "c1link" : "./qc/crypto/des/ecb_enc.c.html#5058"
+   "c1" : "05060"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#5060"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[05058] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05060"
- , "c1link" : "./qc/crypto/des/ecb_enc.c.html#5060"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05060] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05060"
- , "c1link" : "./qc/crypto/des/ecb_enc.c.html#5060"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05060] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05060"
- , "c1link" : "./qc/crypto/des/ecb_enc.c.html#5060"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05060] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05060"
- , "c1link" : "./qc/crypto/des/ecb_enc.c.html#5060"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05060] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000005[05060] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -300,38 +272,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05066"
- , "c1link" : "./qc/crypto/des/ecb_enc.c.html#5066"
+   "c1" : "05064"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#5064"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05066] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[05064] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05066"
- , "c1link" : "./qc/crypto/des/ecb_enc.c.html#5066"
+   "c1" : "05064"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#5064"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05066] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[05064] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05066"
- , "c1link" : "./qc/crypto/des/ecb_enc.c.html#5066"
+   "c1" : "05064"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#5064"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05066] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[05064] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05066"
- , "c1link" : "./qc/crypto/des/ecb_enc.c.html#5066"
+   "c1" : "05064"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#5064"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05066] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05068"
- , "c1link" : "./qc/crypto/des/ecb_enc.c.html#5068"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05068] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[05064] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -356,17 +321,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05069"
- , "c1link" : "./qc/crypto/des/ecb_enc.c.html#5069"
+   "c1" : "05068"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#5068"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05069] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[05068] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05069"
- , "c1link" : "./qc/crypto/des/ecb_enc.c.html#5069"
+   "c1" : "05070"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#5070"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[05069] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[05070] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05070"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#5070"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[05070] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05070"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#5070"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[05070] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05070"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#5070"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[05070] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05071"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#5071"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[05071] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05071"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#5071"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[05071] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

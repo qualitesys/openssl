@@ -216,262 +216,262 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10329"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10329"
+   "c1" : "10332"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10332"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10329] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10332] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10334"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10334"
+   "c1" : "10337"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10337"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10334] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10337] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10359"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10359"
+   "c1" : "10362"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10362"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10359] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10362] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10364"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10364"
+   "c1" : "10367"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10367"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10364] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10367] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10393"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10393"
+   "c1" : "10396"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10396"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10393] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10396] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10398"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10398"
+   "c1" : "10401"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10401"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10398] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10401] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10419"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10419"
+   "c1" : "10422"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10422"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10419] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10422] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10424"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10424"
+   "c1" : "10427"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10427"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10424] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10427] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10440"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10440"
+   "c1" : "10443"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10443"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10440] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10443] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10459"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10459"
+   "c1" : "10462"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10462"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10459] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10462] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10464"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10464"
+   "c1" : "10467"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10467"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10464] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10467] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10484"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10484"
+   "c1" : "10487"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10487"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10484] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10487] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10489"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10489"
+   "c1" : "10492"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10492"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10489] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10492] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10510"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10510"
+   "c1" : "10513"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10513"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10510] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10513] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10515"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10515"
+   "c1" : "10518"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10518"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10515] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10518] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10536"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10536"
+   "c1" : "10539"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10539"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10536] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10539] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10541"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10541"
+   "c1" : "10544"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10544"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10541] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10544] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10563"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10563"
+   "c1" : "10566"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10566"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10563] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10566] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10568"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10568"
+   "c1" : "10571"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10571"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10568] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10571] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10592"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10592"
+   "c1" : "10595"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10595"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10592] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10595] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10597"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10597"
+   "c1" : "10600"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10600"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10597] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10600] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10857"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10857"
+   "c1" : "10860"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10860"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10857] The pointer kctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[10860] The pointer kctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10866"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10866"
+   "c1" : "10869"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10869"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10866] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10869] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10871"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10871"
+   "c1" : "10874"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10874"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10871] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10874] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10946"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10946"
+   "c1" : "10949"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#10949"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10946] The pointer dst is declared but not initialized"
+ , "c3" : "QC-CPP000014[10949] The pointer dst is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11025"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11025"
+   "c1" : "11028"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11028"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11025] The pointer out is declared but not initialized"
+ , "c3" : "QC-CPP000014[11028] The pointer out is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11025"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11025"
+   "c1" : "11028"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11028"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11025] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11182"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11182"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11182] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000005[11028] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "11185"
  , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11185"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11185] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[11185] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11193"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11193"
+   "c1" : "11188"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11188"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11193] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11188] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11246"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11246"
+   "c1" : "11196"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11196"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11246] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[11196] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11255"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11255"
+   "c1" : "11249"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11249"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11255] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[11249] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11262"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11262"
+   "c1" : "11258"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11258"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11262] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11258] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11281"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11281"
+   "c1" : "11265"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11265"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11281] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11265] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11288"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11288"
+   "c1" : "11284"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11284"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11288] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11284] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11395"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11395"
+   "c1" : "11291"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11291"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[11291] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11398"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11398"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[11395] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[11398] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11476"
- , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11476"
+   "c1" : "11479"
+ , "c1link" : "./qc/providers/implementations/macs/kmac_prov.c.html#11479"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11476] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[11479] The expression 0 is invariable, always false"
 }} 
 ]
 };

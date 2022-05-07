@@ -230,220 +230,199 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "04728"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4728"
+   "c1" : "04730"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4730"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[04728] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[04730] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04729"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4729"
+   "c1" : "04731"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4731"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[04729] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[04731] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04729"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4729"
+   "c1" : "04731"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4731"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[04729] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[04731] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04791"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4791"
+   "c1" : "04793"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4793"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[04791] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[04793] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04806"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4806"
+   "c1" : "04808"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4808"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04806] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04808] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04806"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4806"
+   "c1" : "04808"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4808"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04806] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04808] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04806"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4806"
+   "c1" : "04808"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4808"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04806] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04808] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04806"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4806"
+   "c1" : "04808"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4808"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04806] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04808] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04807"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4807"
+   "c1" : "04809"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4809"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04807] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04809] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04807"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4807"
+   "c1" : "04809"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4809"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04807] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04809] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04807"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4807"
+   "c1" : "04809"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4809"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04807] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04809] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04807"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4807"
+   "c1" : "04809"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4809"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04807] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04809] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04820"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4820"
+   "c1" : "04822"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4822"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04820] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04822] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04820"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4820"
+   "c1" : "04822"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4822"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04820] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04822] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04820"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4820"
+   "c1" : "04822"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4822"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04820] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04822] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04820"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4820"
+   "c1" : "04822"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4822"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04820] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04822] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04820"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4820"
+   "c1" : "04822"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4822"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04820] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04822] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04820"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4820"
+   "c1" : "04822"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4822"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04820] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04822] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04820"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4820"
+   "c1" : "04822"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4822"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04820] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04822] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04820"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4820"
+   "c1" : "04822"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4822"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04820] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04822] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04820"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4820"
+   "c1" : "04822"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4822"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04820] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04822] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04820"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4820"
+   "c1" : "04822"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4822"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04820] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04822] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04820"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4820"
+   "c1" : "04822"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4822"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04820] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04822] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04820"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4820"
+   "c1" : "04822"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4822"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04820] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04822] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04820"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4820"
+   "c1" : "04822"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4822"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04820] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[04822] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04820"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4820"
+   "c1" : "04822"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4822"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04820] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[04822] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04853"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4853"
+   "c1" : "04855"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4855"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[04853] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[04855] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04856"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4856"
+   "c1" : "04858"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4858"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04856] The expression num-- applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "04871"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4871"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04871] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04872"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4872"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04872] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04872"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4872"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04872] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000011[04858] The expression num-- applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -762,73 +741,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "04908"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4908"
+   "c1" : "04903"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4903"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04908] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04903] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04908"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4908"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04908] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "04904"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4904"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04904] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04908"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4908"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04908] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04908"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4908"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04908] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04909"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4909"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04909] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "04904"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4904"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04904] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "04910"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4910"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04910] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04910] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "04910"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4910"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04910] The expression 0 is invariable, always false"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04910] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04911"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4911"
+   "c1" : "04910"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4910"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04911] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04910] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04911"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4911"
+   "c1" : "04910"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4910"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04911] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04911"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4911"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04911] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04910] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -841,43 +799,43 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "04912"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4912"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04912] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04912] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04912"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4912"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04912] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "04913"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4913"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04913] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04913] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "04913"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4913"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04913] The expression 0 is invariable, always false"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04913] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04914"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4914"
+   "c1" : "04913"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4913"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04914] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04913] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04914"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4914"
+   "c1" : "04913"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4913"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04914] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04914"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4914"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04914] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04913] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -890,43 +848,43 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "04915"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4915"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04915] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04915] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04915"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4915"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04915] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "04916"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4916"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04916] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04916] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "04916"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4916"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04916] The expression 0 is invariable, always false"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04916] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04917"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4917"
+   "c1" : "04916"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4916"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04917] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04916] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04917"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4917"
+   "c1" : "04916"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4916"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04917] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04917"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4917"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04917] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04916] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -939,43 +897,43 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "04918"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4918"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04918] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04918] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04918"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4918"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04918] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "04919"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4919"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04919] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04919] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "04919"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4919"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04919] The expression 0 is invariable, always false"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04919] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04920"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4920"
+   "c1" : "04919"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4919"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04920] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04919] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04920"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4920"
+   "c1" : "04919"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4919"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04920] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04920"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4920"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04920] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04919] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -988,43 +946,43 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "04921"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4921"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04921] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04921] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04921"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4921"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04921] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "04922"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4922"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04922] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04922] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "04922"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4922"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04922] The expression 0 is invariable, always false"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04922] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04923"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4923"
+   "c1" : "04922"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4922"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04923] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04922] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04923"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4923"
+   "c1" : "04922"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4922"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04923] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04923"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4923"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04923] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04922] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -1037,43 +995,43 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "04924"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4924"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04924] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04924] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04924"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4924"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04924] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "04925"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4925"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04925] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04925] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "04925"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4925"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04925] The expression 0 is invariable, always false"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04925] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04926"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4926"
+   "c1" : "04925"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4925"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04926] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04925] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04926"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4926"
+   "c1" : "04925"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4925"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04926] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04926"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4926"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04926] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04925] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -1086,43 +1044,43 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "04927"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4927"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04927] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04927] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04927"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4927"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04927] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "04928"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4928"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04928] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04928] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "04928"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4928"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04928] The expression 0 is invariable, always false"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04928] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04929"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4929"
+   "c1" : "04928"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4928"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04929] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04928] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04929"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4929"
+   "c1" : "04928"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4928"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04929] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04929"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4929"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04929] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04928] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -1135,43 +1093,43 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "04930"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4930"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04930] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04930] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04930"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4930"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04930] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "04931"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4931"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04931] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04931] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "04931"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4931"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04931] The expression 0 is invariable, always false"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04931] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04932"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4932"
+   "c1" : "04931"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4931"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04932] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04931] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04932"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4932"
+   "c1" : "04931"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4931"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04932] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04932"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4932"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04932] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04931] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -1184,43 +1142,43 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "04933"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4933"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04933] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04933] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04933"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4933"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04933] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "04934"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4934"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04934] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04934] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "04934"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4934"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04934] The expression 0 is invariable, always false"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04934] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04935"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4935"
+   "c1" : "04934"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4934"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04935] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04934] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04935"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4935"
+   "c1" : "04934"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4934"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04935] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04935"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4935"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04935] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04934] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -1233,43 +1191,43 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "04936"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4936"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04936] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04936] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04936"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4936"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04936] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "04937"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4937"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04937] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04937] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "04937"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4937"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04937] The expression 0 is invariable, always false"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04937] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04938"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4938"
+   "c1" : "04937"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4937"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04938] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04937] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04938"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4938"
+   "c1" : "04937"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4937"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04938] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04938"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4938"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04938] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04937] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -1282,43 +1240,43 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "04939"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4939"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04939] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04939] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04939"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4939"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04939] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "04940"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4940"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04940] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04940] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "04940"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4940"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04940] The expression 0 is invariable, always false"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04940] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04941"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4941"
+   "c1" : "04940"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4940"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04941] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04940] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04941"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4941"
+   "c1" : "04940"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4940"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04941] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04941"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4941"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04941] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04940] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -1331,43 +1289,43 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "04942"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4942"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04942] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04942] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04942"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4942"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04942] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "04943"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4943"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04943] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04943] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "04943"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4943"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04943] The expression 0 is invariable, always false"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04943] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04944"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4944"
+   "c1" : "04943"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4943"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04944] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04943] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04944"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4944"
+   "c1" : "04943"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4943"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04944] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04944"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4944"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04944] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04943] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -1380,43 +1338,43 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "04945"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4945"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04945] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04945] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04945"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4945"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04945] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "04946"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4946"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04946] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04946] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "04946"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4946"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04946] The expression 0 is invariable, always false"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04946] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04947"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4947"
+   "c1" : "04946"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4946"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04947] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04946] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04947"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4947"
+   "c1" : "04946"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4946"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04947] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04947"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4947"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04947] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04946] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -1429,43 +1387,43 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "04948"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4948"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04948] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04948] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04948"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4948"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04948] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "04949"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4949"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04949] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04949] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "04949"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4949"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04949] The expression 0 is invariable, always false"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04949] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04950"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4950"
+   "c1" : "04949"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4949"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04950] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04949] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04950"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4950"
+   "c1" : "04949"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4949"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04950] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04950"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4950"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04950] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04949] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -1478,43 +1436,43 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "04951"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4951"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04951] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04951] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04951"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4951"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04951] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "04952"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4952"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04952] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04952] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "04952"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4952"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04952] The expression 0 is invariable, always false"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04952] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04953"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4953"
+   "c1" : "04952"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4952"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04953] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04952] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04953"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4953"
+   "c1" : "04952"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4952"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04953] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04953"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4953"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04953] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04952] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -1527,92 +1485,64 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "04954"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4954"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04954] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04954] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04954"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4954"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04954] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "04955"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4955"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04955] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04955] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "04955"
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4955"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04955] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04959"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4959"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04959] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04955] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04959"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4959"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04959] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04959"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4959"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04959] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04959"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4959"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04959] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04959"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4959"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04959] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04960"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4960"
+   "c1" : "04955"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4955"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04960] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04955] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04960"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4960"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04960] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+   "c1" : "04955"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4955"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04955] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04960"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4960"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04960] The expression 0 is invariable, always false"
+   "c1" : "04956"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4956"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04956] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04960"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4960"
+   "c1" : "04957"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4957"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04960] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[04957] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04960"
- , "c1link" : "./qc/crypto/sha/sha256.c.html#4960"
+   "c1" : "04957"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4957"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04960] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[04957] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
@@ -1823,6 +1753,76 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sha/sha256.c.html#4966"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[04966] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04967"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4967"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04967] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04967"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4967"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04967] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04967"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4967"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04967] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04967"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4967"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04967] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04967"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4967"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04967] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04968"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4968"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04968] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04968"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4968"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04968] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04968"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4968"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04968] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04968"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4968"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04968] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04968"
+ , "c1link" : "./qc/crypto/sha/sha256.c.html#4968"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04968] The expression 0 is invariable, always false"
 }} 
 ]
 };

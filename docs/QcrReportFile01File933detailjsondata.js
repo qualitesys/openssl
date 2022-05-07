@@ -216,206 +216,199 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09552"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9552"
+   "c1" : "09555"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9555"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09552] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09555] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09557"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9557"
+   "c1" : "09560"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9560"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09557] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09560] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09582"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9582"
+   "c1" : "09585"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9585"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09582] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09585] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09587"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9587"
+   "c1" : "09590"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9590"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09587] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09590] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09616"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9616"
+   "c1" : "09619"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9619"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09616] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09619] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09621"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9621"
+   "c1" : "09624"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9624"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09621] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09624] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09642"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9642"
+   "c1" : "09645"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9645"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09642] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09645] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09647"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9647"
+   "c1" : "09650"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9650"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09647] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09650] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09663"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9663"
+   "c1" : "09666"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9666"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09663] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09666] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09682"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9682"
+   "c1" : "09685"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9685"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09682] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09685] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09687"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9687"
+   "c1" : "09690"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9690"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09687] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09690] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09707"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9707"
+   "c1" : "09710"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9710"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09707] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09710] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09712"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9712"
+   "c1" : "09715"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9715"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09712] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09715] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09733"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9733"
+   "c1" : "09736"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9736"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09733] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09736] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09738"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9738"
+   "c1" : "09741"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9741"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09738] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09741] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09759"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9759"
+   "c1" : "09762"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9762"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09759] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09762] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09764"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9764"
+   "c1" : "09767"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9767"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09764] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09767] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09786"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9786"
+   "c1" : "09789"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9789"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09786] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09789] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09791"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9791"
+   "c1" : "09794"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9794"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09791] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09794] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09815"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9815"
+   "c1" : "09818"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9818"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09815] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09818] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09820"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9820"
+   "c1" : "09823"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#9823"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09820] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09823] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11851"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#11851"
+   "c1" : "11858"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#11858"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11851] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[11858] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11915"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#11915"
+   "c1" : "11922"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#11922"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11915] The pointer dest is declared but not initialized"
+ , "c3" : "QC-CPP000014[11922] The pointer dest is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11937"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#11937"
+   "c1" : "11944"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#11944"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11937] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11944] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11986"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#11986"
+   "c1" : "11993"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#11993"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11986] goto statement jump to done"
+ , "c3" : "QC-CPP000007[11993] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11990"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#11990"
+   "c1" : "11997"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#11997"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11990] goto statement jump to done"
+ , "c3" : "QC-CPP000007[11997] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12002"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#12002"
+   "c1" : "12009"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#12009"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12002] goto statement jump to done"
+ , "c3" : "QC-CPP000007[12009] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12028"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#12028"
+   "c1" : "12035"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#12035"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12028] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12081"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#12081"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12081] goto statement jump to done"
+ , "c3" : "QC-CPP000005[12035] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
@@ -426,59 +419,66 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12100"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#12100"
+   "c1" : "12095"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#12095"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12100] goto statement jump to done"
+ , "c3" : "QC-CPP000007[12095] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12113"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#12113"
+   "c1" : "12107"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#12107"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12113] goto statement jump to done"
+ , "c3" : "QC-CPP000007[12107] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12148"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#12148"
+   "c1" : "12120"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#12120"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12148] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000007[12120] goto statement jump to done"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12178"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#12178"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12178] The expression 'HMAC' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12180"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#12180"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12180] The expression 'CMAC' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12194"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#12194"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12194] The expression 'counter' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12201"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#12201"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12201] The expression 'feedback' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12373"
- , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#12373"
+   "c1" : "12155"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#12155"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12373] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[12155] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12185"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#12185"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[12185] The expression 'HMAC' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12187"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#12187"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[12187] The expression 'CMAC' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12202"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#12202"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[12202] The expression 'counter' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12209"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#12209"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[12209] The expression 'feedback' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12381"
+ , "c1link" : "./qc/providers/implementations/kdfs/kbkdf.c.html#12381"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[12381] The pointer p is declared but not initialized"
 }} 
 ]
 };

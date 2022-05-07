@@ -209,38 +209,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08286"
- , "c1link" : "./qc/crypto/evp/e_camellia.c.html#8286"
+   "c1" : "08288"
+ , "c1link" : "./qc/crypto/evp/e_camellia.c.html#8288"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08286] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[08288] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09971"
- , "c1link" : "./qc/crypto/evp/e_camellia.c.html#9971"
+   "c1" : "09970"
+ , "c1link" : "./qc/crypto/evp/e_camellia.c.html#9970"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09971] The expression dat-&gt;stream.cbc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09970] The expression dat-&gt;stream.cbc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10038"
- , "c1link" : "./qc/crypto/evp/e_camellia.c.html#10038"
+   "c1" : "10037"
+ , "c1link" : "./qc/crypto/evp/e_camellia.c.html#10037"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10038] The expression 0x2000 is invariable"
+ , "c3" : "QC-CPP000012[10037] The expression 0x2000 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10058"
- , "c1link" : "./qc/crypto/evp/e_camellia.c.html#10058"
+   "c1" : "10057"
+ , "c1link" : "./qc/crypto/evp/e_camellia.c.html#10057"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10058] The expression len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10057] The expression len applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10080"
- , "c1link" : "./qc/crypto/evp/e_camellia.c.html#10080"
+   "c1" : "10079"
+ , "c1link" : "./qc/crypto/evp/e_camellia.c.html#10079"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10080] The expression dat-&gt;stream.ctr applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10079] The expression dat-&gt;stream.ctr applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -244,500 +244,500 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "06467"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#6467"
+   "c1" : "06469"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#6469"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06467] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[06469] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06472"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#6472"
+   "c1" : "06474"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#6474"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06472] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[06474] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06497"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#6497"
+   "c1" : "06499"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#6499"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06497] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06499] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06502"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#6502"
+   "c1" : "06504"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#6504"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06502] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06504] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06531"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#6531"
+   "c1" : "06533"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#6533"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06531] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06533] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06536"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#6536"
+   "c1" : "06538"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#6538"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06536] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06538] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06557"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#6557"
+   "c1" : "06559"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#6559"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06557] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06559] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06562"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#6562"
+   "c1" : "06564"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#6564"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06562] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06564] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06578"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#6578"
+   "c1" : "06580"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#6580"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06578] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06580] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06597"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#6597"
+   "c1" : "06599"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#6599"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06597] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06599] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06602"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#6602"
+   "c1" : "06604"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#6604"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06602] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06604] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06622"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#6622"
+   "c1" : "06624"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#6624"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06622] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06624] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06627"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#6627"
+   "c1" : "06629"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#6629"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06627] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06629] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06648"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#6648"
+   "c1" : "06650"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#6650"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06648] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06650] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06653"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#6653"
+   "c1" : "06655"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#6655"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06653] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06655] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06674"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#6674"
+   "c1" : "06676"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#6676"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06674] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06676] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06679"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#6679"
+   "c1" : "06681"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#6681"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06679] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06681] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06701"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#6701"
+   "c1" : "06703"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#6703"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06701] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06703] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06706"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#6706"
+   "c1" : "06708"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#6708"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06706] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06708] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06730"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#6730"
+   "c1" : "06732"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#6732"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06730] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06732] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06735"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#6735"
+   "c1" : "06737"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#6737"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06735] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06737] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16090"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#16090"
+   "c1" : "16092"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#16092"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16090] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16092] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16131"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#16131"
+   "c1" : "16133"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#16133"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16131] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16133] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16173"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#16173"
+   "c1" : "16175"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#16175"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16173] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16175] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16208"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#16208"
+   "c1" : "16210"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#16210"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16208] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16210] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16392"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#16392"
+   "c1" : "16394"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#16394"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16392] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[16394] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16392"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#16392"
+   "c1" : "16394"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#16394"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16392] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16394] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16414"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#16414"
+   "c1" : "16416"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#16416"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16414] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[16416] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16414"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#16414"
+   "c1" : "16416"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#16416"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16414] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16416] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16433"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#16433"
+   "c1" : "16435"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#16435"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16433] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[16435] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16433"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#16433"
+   "c1" : "16435"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#16435"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16433] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16435] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16456"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#16456"
+   "c1" : "16458"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#16458"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16456] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[16458] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16456"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#16456"
+   "c1" : "16458"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#16458"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16456] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16458] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16476"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#16476"
+   "c1" : "16478"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#16478"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16476] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[16478] The pointer data is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16476"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#16476"
+   "c1" : "16478"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#16478"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16476] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[16478] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19035"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19035"
+   "c1" : "19037"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19037"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19035] The pointer bs is declared but not initialized"
+ , "c3" : "QC-CPP000014[19037] The pointer bs is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19063"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19063"
+   "c1" : "19065"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19065"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19063] The pointer sb is declared but not initialized"
+ , "c3" : "QC-CPP000014[19065] The pointer sb is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19064"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19064"
+   "c1" : "19066"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19066"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19064] The pointer ssl is declared but not initialized"
+ , "c3" : "QC-CPP000014[19066] The pointer ssl is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19126"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19126"
+   "c1" : "19128"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19128"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000002[19126] Avoid multiple switch labels with default case in switch case"
+ , "c3" : "QC-CPP000002[19128] Avoid multiple switch labels with default case in switch case"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19142"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19142"
+   "c1" : "19144"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19144"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19142] The pointer ssl is declared but not initialized"
+ , "c3" : "QC-CPP000014[19144] The pointer ssl is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19143"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19143"
+   "c1" : "19145"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19145"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19143] The pointer bs is declared but not initialized"
+ , "c3" : "QC-CPP000014[19145] The pointer bs is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19194"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19194"
+   "c1" : "19196"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19196"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[19194] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[19196] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19197"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19197"
+   "c1" : "19199"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19199"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000002[19197] Avoid multiple switch labels with default case in switch case"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19210"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19210"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19210] The pointer sslp is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19210"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19210"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19210] The pointer ssl is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19211"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19211"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19211] The pointer bs is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19211"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19211"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19211] The pointer dbs is declared but not initialized"
+ , "c3" : "QC-CPP000002[19199] Avoid multiple switch labels with default case in switch case"
 }} 
 ,
 { "ligne" : {
    "c1" : "19212"
  , "c1link" : "./qc/ssl/bio_ssl.c.html#19212"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19212] The pointer dbio is declared but not initialized"
+ , "c3" : "QC-CPP000014[19212] The pointer sslp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "19212"
  , "c1link" : "./qc/ssl/bio_ssl.c.html#19212"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19212] The pointer bio is declared but not initialized"
+ , "c3" : "QC-CPP000014[19212] The pointer ssl is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19213"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19213"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[19213] The pointer bs is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19213"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19213"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[19213] The pointer dbs is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "19214"
  , "c1link" : "./qc/ssl/bio_ssl.c.html#19214"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19214] The pointer next is declared but not initialized"
+ , "c3" : "QC-CPP000014[19214] The pointer dbio is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19258"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19258"
+   "c1" : "19214"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19214"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[19214] The pointer bio is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19216"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19216"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[19216] The pointer next is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19260"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19260"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19258] The expression num applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19260] The expression num applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19432"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19432"
+   "c1" : "19434"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19434"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19432] The pointer ssl is declared but not initialized"
+ , "c3" : "QC-CPP000014[19434] The pointer ssl is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19433"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19433"
+   "c1" : "19435"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19435"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19433] The pointer bs is declared but not initialized"
+ , "c3" : "QC-CPP000014[19435] The pointer bs is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19475"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19475"
+   "c1" : "19477"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19477"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19475] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19477] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19485"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19485"
+   "c1" : "19487"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19487"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19485] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19487] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19490"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19490"
+   "c1" : "19492"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19492"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19490] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19492] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19491"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19491"
+   "c1" : "19493"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19493"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19491] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19493] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19496"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19496"
+   "c1" : "19498"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19498"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19496] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19498] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19526"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19526"
+   "c1" : "19528"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19528"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19526] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19528] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19536"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19536"
+   "c1" : "19538"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19538"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19536] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19538] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19541"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19541"
+   "c1" : "19543"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19543"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19541] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19543] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19542"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19542"
+   "c1" : "19544"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19544"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19542] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19544] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19547"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19547"
+   "c1" : "19549"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19549"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19547] goto statement jump to err"
+ , "c3" : "QC-CPP000007[19549] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19562"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19562"
+   "c1" : "19564"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19564"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19562] The pointer ret is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19563"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19563"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19563] The pointer ssl is declared but not initialized"
+ , "c3" : "QC-CPP000014[19564] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "19565"
  , "c1link" : "./qc/ssl/bio_ssl.c.html#19565"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19565] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[19565] The pointer ssl is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19575"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19575"
+   "c1" : "19567"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19567"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[19575] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[19567] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19587"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19587"
+   "c1" : "19577"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19577"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[19577] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "19589"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19589"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19587] The expression client applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[19589] The expression client applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "19598"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19598"
+   "c1" : "19600"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19600"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19598] The pointer tdata is declared but not initialized"
+ , "c3" : "QC-CPP000014[19600] The pointer tdata is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19598"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19598"
+   "c1" : "19600"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19600"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19598] The pointer fdata is declared but not initialized"
+ , "c3" : "QC-CPP000014[19600] The pointer fdata is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "19630"
- , "c1link" : "./qc/ssl/bio_ssl.c.html#19630"
+   "c1" : "19632"
+ , "c1link" : "./qc/ssl/bio_ssl.c.html#19632"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19630] The pointer bdata is declared but not initialized"
+ , "c3" : "QC-CPP000014[19632] The pointer bdata is declared but not initialized"
 }} 
 ]
 };

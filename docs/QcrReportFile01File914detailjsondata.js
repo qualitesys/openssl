@@ -216,24 +216,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08957"
- , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#8957"
+   "c1" : "08959"
+ , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#8959"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08957] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08959] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08977"
- , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#8977"
+   "c1" : "08979"
+ , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#8979"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08977] The expression rem applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08979] The expression rem applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09070"
- , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#9070"
+   "c1" : "09072"
+ , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#9072"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09070] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[09072] The pointer p is declared but not initialized"
 }} 
 ]
 };

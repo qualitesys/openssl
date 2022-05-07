@@ -230,164 +230,164 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09366"
- , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9366"
+   "c1" : "09368"
+ , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9368"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09366] The pointer pdhctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[09368] The pointer pdhctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09433"
- , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9433"
+   "c1" : "09435"
+ , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9435"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09433] The expression  ! ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09435] The expression  ! ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09518"
- , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9518"
+   "c1" : "09520"
+ , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9520"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09518] The expression pad applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[09520] The expression pad applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09533"
- , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9533"
+   "c1" : "09535"
+ , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9535"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09533] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09562"
- , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9562"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09562] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09562"
- , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9562"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09562] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000005[09535] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
    "c1" : "09564"
  , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9564"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09564] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09576"
- , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9576"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09576] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[09564] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09577"
- , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9577"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09577] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09592"
- , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9592"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09592] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09637"
- , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9637"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09637] The pointer dstctx is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09690"
- , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9690"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09690] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09699"
- , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9699"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09699] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09708"
- , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9708"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09708] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09725"
- , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9725"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09725] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09739"
- , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9739"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09739] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09755"
- , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9755"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09755] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09787"
- , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9787"
+   "c1" : "09564"
+ , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9564"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09787] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09564] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09566"
+ , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9566"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09566] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09578"
+ , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9578"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09578] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09579"
+ , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9579"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09579] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09594"
+ , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9594"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09594] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09639"
+ , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9639"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09639] The pointer dstctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09692"
+ , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9692"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09692] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09701"
+ , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9701"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09701] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09710"
+ , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9710"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09710] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09727"
+ , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9727"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09727] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09741"
+ , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9741"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09741] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09757"
+ , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9757"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09757] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "09789"
  , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9789"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09789] The expression 'X942KDF-ASN1' is invariable"
+ , "c3" : "QC-CPP000012[09789] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09877"
- , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9877"
+   "c1" : "09791"
+ , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9791"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09877] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09791] The expression 'X942KDF-ASN1' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10028"
- , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#10028"
+   "c1" : "09879"
+ , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#9879"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09879] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10030"
+ , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#10030"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10028] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[10030] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10075"
- , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#10075"
+   "c1" : "10077"
+ , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#10077"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10075] The expression '' is invariable"
+ , "c3" : "QC-CPP000012[10077] The expression '' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10108"
- , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#10108"
+   "c1" : "10110"
+ , "c1link" : "./qc/providers/implementations/exchange/dh_exch.c.html#10110"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10108] The expression '' is invariable"
+ , "c3" : "QC-CPP000012[10110] The expression '' is invariable"
 }} 
 ]
 };

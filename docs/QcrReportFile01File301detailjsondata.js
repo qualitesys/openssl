@@ -216,66 +216,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "04567"
- , "c1link" : "./qc/crypto/des/fcrypt.c.html#4567"
+   "c1" : "04569"
+ , "c1link" : "./qc/crypto/des/fcrypt.c.html#4569"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04567] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[04569] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04789"
- , "c1link" : "./qc/crypto/des/fcrypt.c.html#4789"
+   "c1" : "04791"
+ , "c1link" : "./qc/crypto/des/fcrypt.c.html#4791"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[04789] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[04791] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04792"
- , "c1link" : "./qc/crypto/des/fcrypt.c.html#4792"
+   "c1" : "04794"
+ , "c1link" : "./qc/crypto/des/fcrypt.c.html#4794"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04792] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04794] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04800"
- , "c1link" : "./qc/crypto/des/fcrypt.c.html#4800"
+   "c1" : "04802"
+ , "c1link" : "./qc/crypto/des/fcrypt.c.html#4802"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04800] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04802] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04814"
- , "c1link" : "./qc/crypto/des/fcrypt.c.html#4814"
+   "c1" : "04816"
+ , "c1link" : "./qc/crypto/des/fcrypt.c.html#4816"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04814] The expression  ! c applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "04825"
- , "c1link" : "./qc/crypto/des/fcrypt.c.html#4825"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04825] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04825"
- , "c1link" : "./qc/crypto/des/fcrypt.c.html#4825"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04825] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04825"
- , "c1link" : "./qc/crypto/des/fcrypt.c.html#4825"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04825] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04825"
- , "c1link" : "./qc/crypto/des/fcrypt.c.html#4825"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04825] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000011[04816] The expression  ! c applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
@@ -307,10 +279,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "04838"
- , "c1link" : "./qc/crypto/des/fcrypt.c.html#4838"
+   "c1" : "04829"
+ , "c1link" : "./qc/crypto/des/fcrypt.c.html#4829"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04829] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04829"
+ , "c1link" : "./qc/crypto/des/fcrypt.c.html#4829"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04829] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04829"
+ , "c1link" : "./qc/crypto/des/fcrypt.c.html#4829"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04829] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04829"
+ , "c1link" : "./qc/crypto/des/fcrypt.c.html#4829"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04829] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04840"
+ , "c1link" : "./qc/crypto/des/fcrypt.c.html#4840"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04838] The expression  ! u applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[04840] The expression  ! u applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -209,24 +209,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "12271"
- , "c1link" : "./qc/crypto/ui/ui_util.c.html#12271"
+   "c1" : "12273"
+ , "c1link" : "./qc/crypto/ui/ui_util.c.html#12273"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12271] The pointer ui is declared but not initialized"
+ , "c3" : "QC-CPP000014[12273] The pointer ui is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12412"
- , "c1link" : "./qc/crypto/ui/ui_util.c.html#12412"
+   "c1" : "12414"
+ , "c1link" : "./qc/crypto/ui/ui_util.c.html#12414"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12412] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12414] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12417"
- , "c1link" : "./qc/crypto/ui/ui_util.c.html#12417"
+   "c1" : "12419"
+ , "c1link" : "./qc/crypto/ui/ui_util.c.html#12419"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12417] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12419] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

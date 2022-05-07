@@ -230,262 +230,234 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "04619"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4619"
+   "c1" : "04621"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4621"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[04619] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[04621] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04620"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4620"
+   "c1" : "04622"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4622"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[04620] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[04622] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04620"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4620"
+   "c1" : "04622"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4622"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[04620] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[04622] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04682"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4682"
+   "c1" : "04684"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4684"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[04682] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[04684] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04700"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4700"
+   "c1" : "04702"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4702"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04700] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04702] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04700"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4700"
+   "c1" : "04702"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4702"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04700] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04702] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04700"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4700"
+   "c1" : "04702"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4702"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04700] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04702] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04700"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4700"
+   "c1" : "04702"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4702"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04700] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04702] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04701"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4701"
+   "c1" : "04703"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4703"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04701] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04703] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04701"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4701"
+   "c1" : "04703"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4703"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04701] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04703] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04701"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4701"
+   "c1" : "04703"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4703"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04701] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04703] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04701"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4701"
+   "c1" : "04703"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4703"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04701] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04703] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04711"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4711"
+   "c1" : "04713"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4713"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04711] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04713] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04711"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4711"
+   "c1" : "04713"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4713"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04711] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04713] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04711"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4711"
+   "c1" : "04713"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4713"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04711] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04713] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04711"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4711"
+   "c1" : "04713"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4713"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04711] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04713] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04711"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4711"
+   "c1" : "04713"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4713"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04711] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04713] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04711"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4711"
+   "c1" : "04713"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4713"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04711] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04713] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04711"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4711"
+   "c1" : "04713"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4713"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04711] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04713] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04711"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4711"
+   "c1" : "04713"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4713"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04711] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04713] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04711"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4711"
+   "c1" : "04713"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4713"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04711] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04713] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04711"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4711"
+   "c1" : "04713"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4713"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04711] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04713] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04711"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4711"
+   "c1" : "04713"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4713"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04711] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04713] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04711"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4711"
+   "c1" : "04713"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4713"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04711] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04713] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04711"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4711"
+   "c1" : "04713"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4713"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04711] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04713] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04711"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4711"
+   "c1" : "04713"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4713"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04711] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04713] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04711"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4711"
+   "c1" : "04713"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4713"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04711] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04713] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04711"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4711"
+   "c1" : "04713"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4713"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04711] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04713] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04711"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4711"
+   "c1" : "04713"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4713"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04711] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[04713] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04711"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4711"
+   "c1" : "04713"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4713"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04711] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[04713] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04735"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4735"
+   "c1" : "04737"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4737"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[04735] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[04737] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04752"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4752"
+   "c1" : "04754"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4754"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04752] The expression num-- applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[04754] The expression num-- applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "04752"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4752"
+   "c1" : "04754"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4754"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04752] The end expression of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04753"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4753"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04753] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04753"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4753"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04753] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04753"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4753"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04753] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04753"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4753"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04753] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000006[04754] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
@@ -517,409 +489,423 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "04759"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4759"
+   "c1" : "04757"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4757"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04759] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04757] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04759"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4759"
+   "c1" : "04757"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4757"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04759] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04757] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04759"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4759"
+   "c1" : "04757"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4757"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04759] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04757] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04759"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4759"
+   "c1" : "04757"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4757"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04759] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04757] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04762"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4762"
+   "c1" : "04761"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4761"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04762] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04761] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04762"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4762"
+   "c1" : "04761"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4761"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04762] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04761] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04762"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4762"
+   "c1" : "04761"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4761"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04762] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04761] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04762"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4762"
+   "c1" : "04761"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4761"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04762] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04761] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04765"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4765"
+   "c1" : "04764"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4764"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04765] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04764] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04765"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4765"
+   "c1" : "04764"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4764"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04765] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04764] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04765"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4765"
+   "c1" : "04764"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4764"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04765] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04764] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04765"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4765"
+   "c1" : "04764"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4764"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04765] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04764] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04768"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4768"
+   "c1" : "04767"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4767"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04768] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04767] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04768"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4768"
+   "c1" : "04767"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4767"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04768] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04767] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04768"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4768"
+   "c1" : "04767"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4767"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04768] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04767] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04768"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4768"
+   "c1" : "04767"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4767"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04768] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04767] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04771"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4771"
+   "c1" : "04770"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4770"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04771] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04770] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04771"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4771"
+   "c1" : "04770"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4770"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04771] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04770] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04771"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4771"
+   "c1" : "04770"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4770"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04771] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04770] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04771"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4771"
+   "c1" : "04770"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4770"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04771] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04770] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04774"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4774"
+   "c1" : "04773"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4773"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04774] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04773] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04774"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4774"
+   "c1" : "04773"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4773"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04774] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04773] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04774"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4774"
+   "c1" : "04773"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4773"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04774] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04773] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04774"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4774"
+   "c1" : "04773"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4773"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04774] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04773] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04777"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4777"
+   "c1" : "04776"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4776"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04777] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04776] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04777"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4777"
+   "c1" : "04776"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4776"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04777] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04776] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04777"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4777"
+   "c1" : "04776"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4776"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04777] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04776] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04777"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4777"
+   "c1" : "04776"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4776"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04777] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04776] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04780"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4780"
+   "c1" : "04779"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4779"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04780] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04779] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04780"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4780"
+   "c1" : "04779"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4779"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04780] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04779] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04780"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4780"
+   "c1" : "04779"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4779"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04780] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04779] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04780"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4780"
+   "c1" : "04779"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4779"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04780] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04779] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04783"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4783"
+   "c1" : "04782"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4782"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04783] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04782] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04783"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4783"
+   "c1" : "04782"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4782"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04783] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04782] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04783"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4783"
+   "c1" : "04782"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4782"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04783] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04782] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04783"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4783"
+   "c1" : "04782"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4782"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04783] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04782] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04786"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4786"
+   "c1" : "04785"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4785"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04786] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04785] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04786"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4786"
+   "c1" : "04785"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4785"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04786] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04785] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04786"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4786"
+   "c1" : "04785"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4785"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04786] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04785] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04786"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4786"
+   "c1" : "04785"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4785"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04786] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04785] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04789"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4789"
+   "c1" : "04788"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4788"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04789] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04788] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04789"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4789"
+   "c1" : "04788"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4788"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04789] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04788] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04789"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4789"
+   "c1" : "04788"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4788"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04789] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04788] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04789"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4789"
+   "c1" : "04788"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4788"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04789] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04788] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04792"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4792"
+   "c1" : "04791"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4791"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04792] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04791] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04792"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4792"
+   "c1" : "04791"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4791"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04792] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04791] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04792"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4792"
+   "c1" : "04791"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4791"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04792] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04791] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04792"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4792"
+   "c1" : "04791"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4791"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04792] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04791] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04795"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4795"
+   "c1" : "04794"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4794"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04795] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04794] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04795"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4795"
+   "c1" : "04794"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4794"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04795] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04794] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04795"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4795"
+   "c1" : "04794"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4794"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04795] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04794] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04795"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4795"
+   "c1" : "04794"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4794"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04795] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04794] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04798"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4798"
+   "c1" : "04797"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4797"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04798] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04797] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04798"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4798"
+   "c1" : "04797"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4797"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04798] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04797] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04798"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4798"
+   "c1" : "04797"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4797"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04798] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04797] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04798"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4798"
+   "c1" : "04797"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4797"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04798] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04797] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04854"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4854"
+   "c1" : "04800"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4800"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04854] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04800] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04855"
- , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4855"
+   "c1" : "04800"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4800"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04855] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04800] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04800"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4800"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04800] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04800"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4800"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04800] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -934,6 +920,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4857"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[04857] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04858"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4858"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04858] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04859"
+ , "c1link" : "./qc/crypto/md5/md5_dgst.c.html#4859"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04859] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

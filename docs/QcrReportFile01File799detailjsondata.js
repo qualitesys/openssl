@@ -447,430 +447,430 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "15916"
- , "c1link" : "./qc/engines/e_afalg.c.html#15916"
+   "c1" : "15918"
+ , "c1link" : "./qc/engines/e_afalg.c.html#15918"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15916] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[15918] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15921"
- , "c1link" : "./qc/engines/e_afalg.c.html#15921"
+   "c1" : "15923"
+ , "c1link" : "./qc/engines/e_afalg.c.html#15923"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15921] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[15923] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15947"
- , "c1link" : "./qc/engines/e_afalg.c.html#15947"
+   "c1" : "15949"
+ , "c1link" : "./qc/engines/e_afalg.c.html#15949"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15947] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[15949] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15952"
- , "c1link" : "./qc/engines/e_afalg.c.html#15952"
+   "c1" : "15954"
+ , "c1link" : "./qc/engines/e_afalg.c.html#15954"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15952] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[15954] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16691"
- , "c1link" : "./qc/engines/e_afalg.c.html#16691"
+   "c1" : "16693"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16693"
  , "c2" : "MINOR"
- , "c3" : "QC-CPP000013[16691] Inline assembly code"
+ , "c3" : "QC-CPP000013[16693] Inline assembly code"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16699"
- , "c1link" : "./qc/engines/e_afalg.c.html#16699"
+   "c1" : "16701"
+ , "c1link" : "./qc/engines/e_afalg.c.html#16701"
  , "c2" : "MINOR"
- , "c3" : "QC-CPP000013[16699] Inline assembly code"
+ , "c3" : "QC-CPP000013[16701] Inline assembly code"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17113"
- , "c1link" : "./qc/engines/e_afalg.c.html#17113"
+   "c1" : "17115"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17115"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17113] The expression  ! error_loaded applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17115] The expression  ! error_loaded applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17124"
- , "c1link" : "./qc/engines/e_afalg.c.html#17124"
+   "c1" : "17126"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17126"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17124] The expression error_loaded applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17126] The expression error_loaded applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17304"
- , "c1link" : "./qc/engines/e_afalg.c.html#17304"
+   "c1" : "17306"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17306"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17304] The pointer job is declared but not initialized"
+ , "c3" : "QC-CPP000014[17306] The pointer job is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17305"
- , "c1link" : "./qc/engines/e_afalg.c.html#17305"
+   "c1" : "17307"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17307"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17305] The pointer waitctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[17307] The pointer waitctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17313"
- , "c1link" : "./qc/engines/e_afalg.c.html#17313"
+   "c1" : "17315"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17315"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17313] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[17315] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17346"
- , "c1link" : "./qc/engines/e_afalg.c.html#17346"
+   "c1" : "17348"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17348"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[17346] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[17348] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17346"
- , "c1link" : "./qc/engines/e_afalg.c.html#17346"
+   "c1" : "17348"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17348"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17346] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[17348] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17363"
- , "c1link" : "./qc/engines/e_afalg.c.html#17363"
+   "c1" : "17365"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17365"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17363] The expression 4 is invariable"
+ , "c3" : "QC-CPP000012[17365] The expression 4 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17367"
- , "c1link" : "./qc/engines/e_afalg.c.html#17367"
+   "c1" : "17369"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17369"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17367] The expression 04000 is invariable"
+ , "c3" : "QC-CPP000012[17369] The expression 04000 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17387"
- , "c1link" : "./qc/engines/e_afalg.c.html#17387"
+   "c1" : "17389"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17389"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[17387] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[17389] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17387"
- , "c1link" : "./qc/engines/e_afalg.c.html#17387"
+   "c1" : "17389"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17389"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17387] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[17389] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17413"
- , "c1link" : "./qc/engines/e_afalg.c.html#17413"
+   "c1" : "17415"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17415"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[17413] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[17415] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17413"
- , "c1link" : "./qc/engines/e_afalg.c.html#17413"
+   "c1" : "17415"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17415"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17413] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[17415] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17431"
- , "c1link" : "./qc/engines/e_afalg.c.html#17431"
+   "c1" : "17433"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17433"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17431] The pointer cb is declared but not initialized"
+ , "c3" : "QC-CPP000014[17433] The pointer cb is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17479"
- , "c1link" : "./qc/engines/e_afalg.c.html#17479"
+   "c1" : "17481"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17481"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[17479] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[17481] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17479"
- , "c1link" : "./qc/engines/e_afalg.c.html#17479"
+   "c1" : "17481"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17481"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17479] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[17481] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17516"
- , "c1link" : "./qc/engines/e_afalg.c.html#17516"
+   "c1" : "17518"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17518"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[17516] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[17518] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17516"
- , "c1link" : "./qc/engines/e_afalg.c.html#17516"
+   "c1" : "17518"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17518"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17516] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[17518] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17531"
- , "c1link" : "./qc/engines/e_afalg.c.html#17531"
+   "c1" : "17533"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17533"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17531] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[17533] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17536"
- , "c1link" : "./qc/engines/e_afalg.c.html#17536"
+   "c1" : "17538"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17538"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17536] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[17538] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17551"
- , "c1link" : "./qc/engines/e_afalg.c.html#17551"
+   "c1" : "17553"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17553"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[17551] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[17553] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17551"
- , "c1link" : "./qc/engines/e_afalg.c.html#17551"
+   "c1" : "17553"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17553"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17551] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[17553] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17578"
- , "c1link" : "./qc/engines/e_afalg.c.html#17578"
+   "c1" : "17580"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17580"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[17578] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[17580] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17578"
- , "c1link" : "./qc/engines/e_afalg.c.html#17578"
+   "c1" : "17580"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17580"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17578] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[17580] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17585"
- , "c1link" : "./qc/engines/e_afalg.c.html#17585"
+   "c1" : "17587"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17587"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[17585] The expression  ! done applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[17587] The expression  ! done applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "17626"
- , "c1link" : "./qc/engines/e_afalg.c.html#17626"
+   "c1" : "17628"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17628"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17626] The pointer aiv is declared but not initialized"
+ , "c3" : "QC-CPP000014[17628] The pointer aiv is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17682"
- , "c1link" : "./qc/engines/e_afalg.c.html#17682"
+   "c1" : "17684"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17684"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[17682] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[17684] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17682"
- , "c1link" : "./qc/engines/e_afalg.c.html#17682"
+   "c1" : "17684"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17684"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17682] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[17684] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17695"
- , "c1link" : "./qc/engines/e_afalg.c.html#17695"
+   "c1" : "17697"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17697"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17695] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17724"
- , "c1link" : "./qc/engines/e_afalg.c.html#17724"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[17724] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17724"
- , "c1link" : "./qc/engines/e_afalg.c.html#17724"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17724] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPPCWE481[17697] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "17726"
  , "c1link" : "./qc/engines/e_afalg.c.html#17726"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[17726] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17726"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17726"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[17726] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17728"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17728"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17726] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17739"
- , "c1link" : "./qc/engines/e_afalg.c.html#17739"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[17739] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17739"
- , "c1link" : "./qc/engines/e_afalg.c.html#17739"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17739] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000007[17728] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "17741"
  , "c1link" : "./qc/engines/e_afalg.c.html#17741"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[17741] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17741"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17741"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[17741] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17743"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17743"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17741] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17758"
- , "c1link" : "./qc/engines/e_afalg.c.html#17758"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[17758] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17758"
- , "c1link" : "./qc/engines/e_afalg.c.html#17758"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17758] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000007[17743] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "17760"
  , "c1link" : "./qc/engines/e_afalg.c.html#17760"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17760] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17770"
- , "c1link" : "./qc/engines/e_afalg.c.html#17770"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17770] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17779"
- , "c1link" : "./qc/engines/e_afalg.c.html#17779"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17779] The pointer cmsg is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17865"
- , "c1link" : "./qc/engines/e_afalg.c.html#17865"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[17865] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[17760] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17865"
- , "c1link" : "./qc/engines/e_afalg.c.html#17865"
+   "c1" : "17760"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17760"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17865] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[17760] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17885"
- , "c1link" : "./qc/engines/e_afalg.c.html#17885"
+   "c1" : "17762"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17762"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17885] The pointer actx is declared but not initialized"
+ , "c3" : "QC-CPP000007[17762] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17886"
- , "c1link" : "./qc/engines/e_afalg.c.html#17886"
+   "c1" : "17772"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17772"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17886] The pointer ciphername is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[17772] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17944"
- , "c1link" : "./qc/engines/e_afalg.c.html#17944"
+   "c1" : "17781"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17781"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17944] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[17781] The pointer cmsg is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17945"
- , "c1link" : "./qc/engines/e_afalg.c.html#17945"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17945] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17948"
- , "c1link" : "./qc/engines/e_afalg.c.html#17948"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17948] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17952"
- , "c1link" : "./qc/engines/e_afalg.c.html#17952"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17952] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17971"
- , "c1link" : "./qc/engines/e_afalg.c.html#17971"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17971] The pointer actx is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18037"
- , "c1link" : "./qc/engines/e_afalg.c.html#18037"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18037] The pointer actx is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18108"
- , "c1link" : "./qc/engines/e_afalg.c.html#18108"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[18108] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "18119"
- , "c1link" : "./qc/engines/e_afalg.c.html#18119"
+   "c1" : "17867"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17867"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000008[18119] Suspicious bitwise operation with value 0, result is a|0 = a"
+ , "c3" : "QC-CPP000006[17867] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18159"
- , "c1link" : "./qc/engines/e_afalg.c.html#18159"
+   "c1" : "17867"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17867"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[17867] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17887"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17887"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[17887] The pointer actx is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17888"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17888"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[17888] The pointer ciphername is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17946"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17946"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[17946] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17947"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17947"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17947] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17950"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17950"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17950] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17954"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17954"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17954] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17973"
+ , "c1link" : "./qc/engines/e_afalg.c.html#17973"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[17973] The pointer actx is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18039"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18039"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[18039] The pointer actx is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18110"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18110"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[18110] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18121"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18121"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000008[18121] Suspicious bitwise operation with value 0, result is a|0 = a"
+}} 
+,
+{ "ligne" : {
+   "c1" : "18161"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18161"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[18159] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[18161] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18224"
- , "c1link" : "./qc/engines/e_afalg.c.html#18224"
+   "c1" : "18226"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18226"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[18224] goto statement jump to skip_cbs"
+ , "c3" : "QC-CPP000007[18226] goto statement jump to skip_cbs"
 }} 
 ,
 { "ligne" : {
-   "c1" : "18237"
- , "c1link" : "./qc/engines/e_afalg.c.html#18237"
+   "c1" : "18239"
+ , "c1link" : "./qc/engines/e_afalg.c.html#18239"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[18237] The pointer str is declared but not initialized"
+ , "c3" : "QC-CPP000014[18239] The pointer str is declared but not initialized"
 }} 
 ]
 };

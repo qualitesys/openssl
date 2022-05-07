@@ -216,31 +216,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "04942"
- , "c1link" : "./qc/crypto/modes/ofb128.c.html#4942"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04942] The expression len applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "04944"
  , "c1link" : "./qc/crypto/modes/ofb128.c.html#4944"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04944] The expression len-- applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[04944] The expression len applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "04951"
- , "c1link" : "./qc/crypto/modes/ofb128.c.html#4951"
+   "c1" : "04946"
+ , "c1link" : "./qc/crypto/modes/ofb128.c.html#4946"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[04951] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000011[04946] The expression len-- applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "04951"
- , "c1link" : "./qc/crypto/modes/ofb128.c.html#4951"
+   "c1" : "04953"
+ , "c1link" : "./qc/crypto/modes/ofb128.c.html#4953"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04951] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000006[04953] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04953"
+ , "c1link" : "./qc/crypto/modes/ofb128.c.html#4953"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04953] The expression 0 is invariable, always false"
 }} 
 ]
 };

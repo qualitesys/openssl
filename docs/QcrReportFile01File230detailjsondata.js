@@ -167,276 +167,262 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03116"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#3116"
+   "c1" : "03117"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#3117"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03116] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03117] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03121"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#3121"
+   "c1" : "03122"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#3122"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03121] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03122] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03146"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#3146"
+   "c1" : "03147"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#3147"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03146] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[03147] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03150"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#3150"
+   "c1" : "03151"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#3151"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03150] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[03151] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03153"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#3153"
+   "c1" : "03154"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#3154"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03153] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[03154] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03178"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#3178"
+   "c1" : "03179"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#3179"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03178] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[03179] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03182"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#3182"
+   "c1" : "03183"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#3183"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03182] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[03183] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03186"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#3186"
+   "c1" : "03187"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#3187"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03186] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[03187] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03194"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#3194"
+   "c1" : "03195"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#3195"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03194] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[03195] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05922"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#5922"
+   "c1" : "05925"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#5925"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05922] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[05925] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05927"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#5927"
+   "c1" : "05930"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#5930"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05927] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[05930] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05952"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#5952"
+   "c1" : "05955"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#5955"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05952] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05955] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05957"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#5957"
+   "c1" : "05960"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#5960"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05957] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05960] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05986"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#5986"
+   "c1" : "05989"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#5989"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05986] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05989] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05991"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#5991"
+   "c1" : "05994"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#5994"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05991] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05994] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06012"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6012"
+   "c1" : "06015"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6015"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06012] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06015] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06017"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6017"
+   "c1" : "06020"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6020"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06017] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06020] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06033"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6033"
+   "c1" : "06036"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6036"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06033] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06036] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06052"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6052"
+   "c1" : "06055"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6055"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06052] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06055] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06057"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6057"
+   "c1" : "06060"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6060"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06057] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06060] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06077"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6077"
+   "c1" : "06080"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6080"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06077] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06080] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06082"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6082"
+   "c1" : "06085"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6085"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06082] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06085] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06103"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6103"
+   "c1" : "06106"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6106"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06103] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06106] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06108"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6108"
+   "c1" : "06111"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6111"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06108] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06111] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06129"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6129"
+   "c1" : "06132"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6132"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06129] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06132] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06134"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6134"
+   "c1" : "06137"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6137"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06134] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06137] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06156"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6156"
+   "c1" : "06159"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6159"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06156] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06159] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06161"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6161"
+   "c1" : "06164"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6164"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06161] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06164] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06185"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6185"
+   "c1" : "06188"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6188"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06185] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06188] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06190"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6190"
+   "c1" : "06193"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#6193"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06190] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06193] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16013"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16013"
+   "c1" : "16016"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16016"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16013] The expression  ! ctx-&gt;unprotectedErrors applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16016] The expression  ! ctx-&gt;unprotectedErrors applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16074"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16074"
+   "c1" : "16077"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16077"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16074] The pointer ss is declared but not initialized"
+ , "c3" : "QC-CPP000014[16077] The pointer ss is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16087"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16087"
+   "c1" : "16090"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16090"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16087] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16090] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16261"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16261"
+   "c1" : "16264"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16264"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16261] The expression '; errorCode: %08lX' is invariable"
+ , "c3" : "QC-CPP000012[16264] The expression '; errorCode: %08lX' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16314"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16314"
+   "c1" : "16317"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16317"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16314] The condition of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[16317] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16314"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16314"
+   "c1" : "16317"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16317"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16314] The end expression of for loop is empty, infinite loop risk"
+ , "c3" : "QC-CPP000006[16317] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16315"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16315"
+   "c1" : "16318"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16318"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16315] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16320"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16320"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16320] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16322"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16322"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16322] The expression 26 is invariable"
+ , "c3" : "QC-CPPCWE481[16318] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -447,269 +433,269 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "16343"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16343"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16343] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16351"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16351"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16351] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16359"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16359"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16359] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16372"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16372"
+   "c1" : "16325"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16325"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16372] The expression 1024 is invariable"
+ , "c3" : "QC-CPP000012[16325] The expression 26 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16372"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16372"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16372] The expression 'value = %jd' is invariable"
+   "c1" : "16326"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16326"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16326] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16346"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16346"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16346] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16354"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16354"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16354] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16362"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16362"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16362] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "16375"
  , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16375"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16375] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16383"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16383"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16383] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16396"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16396"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16396] The expression '%s'' is invariable"
+ , "c3" : "QC-CPP000012[16375] The expression 1024 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16418"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16418"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16418] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16437"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16437"
+   "c1" : "16375"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16375"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16437] The expression sleep applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[16375] The expression 'value = %jd' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16459"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16459"
+   "c1" : "16378"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16378"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16459] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16378] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16475"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16475"
+   "c1" : "16386"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16386"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16475] The pointer certConf is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[16386] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16484"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16484"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16484] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "16399"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16399"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16399] The expression '%s'' is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16489"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16489"
+   "c1" : "16421"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16421"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16489] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16421] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16520"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16520"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16520] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "16440"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16440"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[16440] The expression sleep applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16525"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16525"
+   "c1" : "16462"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16462"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16525] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16462] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16527"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16527"
+   "c1" : "16478"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16478"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16527] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[16478] The pointer certConf is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16532"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16532"
+   "c1" : "16487"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16487"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16532] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[16487] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16557"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16557"
+   "c1" : "16492"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16492"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16557] The pointer privkey is declared but not initialized"
+ , "c3" : "QC-CPP000007[16492] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16584"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16584"
+   "c1" : "16523"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16523"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16584] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[16523] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16598"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16598"
+   "c1" : "16528"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16528"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16598] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16528] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16614"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16614"
+   "c1" : "16530"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16530"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16614] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[16530] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16626"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16626"
+   "c1" : "16535"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16535"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16626] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16535] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16719"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16719"
+   "c1" : "16560"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16560"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16719] The pointer crepmsg is declared but not initialized"
+ , "c3" : "QC-CPP000014[16560] The pointer privkey is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16720"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16720"
+   "c1" : "16587"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16587"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16720] The pointer crep is declared but not initialized"
+ , "c3" : "QC-CPP000007[16587] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16601"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16601"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16601] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16617"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16617"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16617] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16629"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16629"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16629] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "16722"
  , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16722"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16722] The pointer cert is declared but not initialized"
+ , "c3" : "QC-CPP000014[16722] The pointer crepmsg is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16776"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16776"
+   "c1" : "16723"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16723"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16776] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[16723] The pointer crep is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16725"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16725"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[16725] The pointer cert is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "16779"
  , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16779"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16779] goto statement jump to retry"
+ , "c3" : "QC-CPPCWE481[16779] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16847"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16847"
+   "c1" : "16782"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16782"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16847] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[16782] goto statement jump to retry"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16878"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16878"
+   "c1" : "16850"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16850"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16878] The pointer req is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[16850] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16897"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16897"
+   "c1" : "16881"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16881"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16897] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[16881] The pointer req is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16937"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16937"
+   "c1" : "16900"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16900"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16937] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[16900] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16991"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16991"
+   "c1" : "16940"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16940"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16991] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16940] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16993"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16993"
+   "c1" : "16994"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16994"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[16994] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "16996"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16996"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16993] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[16996] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16999"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#16999"
+   "c1" : "17002"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17002"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16999] goto statement jump to err"
+ , "c3" : "QC-CPP000007[17002] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "17065"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17065"
+   "c1" : "17068"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17068"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17065] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17070"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17070"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17070] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17072"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17072"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17072] The expression 12 is invariable"
+ , "c3" : "QC-CPPCWE481[17068] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -720,115 +706,115 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "17083"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17083"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17083] goto statement jump to end"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17088"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17088"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17088] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17104"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17104"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17104] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17122"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17122"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17122] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17129"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17129"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17129] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17134"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17134"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17134] The pointer cid is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17147"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17147"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17147] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17149"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17149"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17149] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17160"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17160"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17160] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17170"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17170"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17170] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17182"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17182"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17182] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17199"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17199"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17199] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17219"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17219"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[17219] The pointer genm is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17245"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17245"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[17245] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17250"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17250"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[17250] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "17252"
- , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17252"
+   "c1" : "17075"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17075"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[17252] The expression 22 is invariable"
+ , "c3" : "QC-CPP000012[17075] The expression 12 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17076"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17076"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17076] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17086"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17086"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17086] goto statement jump to end"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17091"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17091"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17091] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17107"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17107"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17107] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17125"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17125"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17125] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17132"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17132"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17132] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17137"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17137"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[17137] The pointer cid is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17150"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17150"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17150] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17152"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17152"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[17152] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17163"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17163"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17163] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17173"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17173"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17173] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17185"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17185"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17185] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17202"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17202"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17202] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17222"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17222"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[17222] The pointer genm is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17248"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17248"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[17248] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
@@ -836,6 +822,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17253"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[17253] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17255"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17255"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[17255] The expression 22 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "17256"
+ , "c1link" : "./qc/crypto/cmp/cmp_client.c.html#17256"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[17256] goto statement jump to err"
 }} 
 ]
 };

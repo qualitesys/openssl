@@ -209,94 +209,94 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09068"
- , "c1link" : "./qc/providers/implementations/signature/mac_legacy_sig.c.html#9068"
+   "c1" : "09070"
+ , "c1link" : "./qc/providers/implementations/signature/mac_legacy_sig.c.html#9070"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09068] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09070] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13629"
- , "c1link" : "./qc/providers/implementations/signature/mac_legacy_sig.c.html#13629"
+   "c1" : "13631"
+ , "c1link" : "./qc/providers/implementations/signature/mac_legacy_sig.c.html#13631"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13629] The pointer pmacctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[13631] The pointer pmacctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13660"
- , "c1link" : "./qc/providers/implementations/signature/mac_legacy_sig.c.html#13660"
+   "c1" : "13662"
+ , "c1link" : "./qc/providers/implementations/signature/mac_legacy_sig.c.html#13662"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13660] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[13662] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13670"
- , "c1link" : "./qc/providers/implementations/signature/mac_legacy_sig.c.html#13670"
+   "c1" : "13672"
+ , "c1link" : "./qc/providers/implementations/signature/mac_legacy_sig.c.html#13672"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13670] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13672] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13679"
- , "c1link" : "./qc/providers/implementations/signature/mac_legacy_sig.c.html#13679"
+   "c1" : "13681"
+ , "c1link" : "./qc/providers/implementations/signature/mac_legacy_sig.c.html#13681"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13679] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13681] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13687"
- , "c1link" : "./qc/providers/implementations/signature/mac_legacy_sig.c.html#13687"
+   "c1" : "13689"
+ , "c1link" : "./qc/providers/implementations/signature/mac_legacy_sig.c.html#13689"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13687] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13689] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13793"
- , "c1link" : "./qc/providers/implementations/signature/mac_legacy_sig.c.html#13793"
+   "c1" : "13795"
+ , "c1link" : "./qc/providers/implementations/signature/mac_legacy_sig.c.html#13795"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[13793] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[13795] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13854"
- , "c1link" : "./qc/providers/implementations/signature/mac_legacy_sig.c.html#13854"
+   "c1" : "13856"
+ , "c1link" : "./qc/providers/implementations/signature/mac_legacy_sig.c.html#13856"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13854] The pointer dstctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[13856] The pointer dstctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13896"
- , "c1link" : "./qc/providers/implementations/signature/mac_legacy_sig.c.html#13896"
+   "c1" : "13898"
+ , "c1link" : "./qc/providers/implementations/signature/mac_legacy_sig.c.html#13898"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[13896] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[13898] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13901"
- , "c1link" : "./qc/providers/implementations/signature/mac_legacy_sig.c.html#13901"
+   "c1" : "13903"
+ , "c1link" : "./qc/providers/implementations/signature/mac_legacy_sig.c.html#13903"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13901] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13903] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13908"
- , "c1link" : "./qc/providers/implementations/signature/mac_legacy_sig.c.html#13908"
+   "c1" : "13910"
+ , "c1link" : "./qc/providers/implementations/signature/mac_legacy_sig.c.html#13910"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13908] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13910] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13922"
- , "c1link" : "./qc/providers/implementations/signature/mac_legacy_sig.c.html#13922"
+   "c1" : "13924"
+ , "c1link" : "./qc/providers/implementations/signature/mac_legacy_sig.c.html#13924"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13922] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13924] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13952"
- , "c1link" : "./qc/providers/implementations/signature/mac_legacy_sig.c.html#13952"
+   "c1" : "13954"
+ , "c1link" : "./qc/providers/implementations/signature/mac_legacy_sig.c.html#13954"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13952] The pointer params is declared but not initialized"
+ , "c3" : "QC-CPP000014[13954] The pointer params is declared but not initialized"
 }} 
 ]
 };
