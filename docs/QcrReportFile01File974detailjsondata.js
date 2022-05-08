@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/providers/implementations/signature/eddsa_sig.c.html" 
- , "texte" : "File providers/implementations/signature/eddsa_sig.c 40 rule violations " 
- , "fic2"  : "./qc/providers/implementations/signature/eddsa_sig.c.xml" 
+   "fic1"  : "./qc/providers/implementations/rands/drbg_hash.c.html" 
+ , "texte" : "File providers/implementations/rands/drbg_hash.c 36 rule violations " 
+ , "fic2"  : "./qc/providers/implementations/rands/drbg_hash.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,13 +42,13 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "5"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
+ , "c2" : "QC-CPP000006"
+ , "c3" : "Risk of infinite while loop"
  , "c4" : "4"
 }}
 ,
@@ -56,7 +56,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "18"
+ , "c4" : "17"
 }}
 ,
 { "ligne" : {
@@ -68,8 +68,8 @@ var maDataBlocs = {
 ,
 { "ligne" : {
    "c1" : "MAJOR"
- , "c2" : "QC-CPP000007"
- , "c3" : "goto statement"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
  , "c4" : "1"
 }}
 ,
@@ -77,289 +77,261 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "9"
+ , "c4" : "8"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "01209"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#1209"
+   "c1" : "01185"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#1185"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01209] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[01185] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01372"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#1372"
+   "c1" : "01348"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#1348"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01372] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01348] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01399"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#1399"
+   "c1" : "01375"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#1375"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01399] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01375] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01403"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#1403"
+   "c1" : "01379"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#1379"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01403] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01379] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01401"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#1401"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01401] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01401"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#1401"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01401] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "01425"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#1425"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#1425"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01425] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01425"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#1425"
+   "c1" : "01431"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#1431"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01425] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01431] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01449"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#1449"
+   "c1" : "01456"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#1456"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01449] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01456] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01455"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#1455"
+   "c1" : "01460"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#1460"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01455] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01460] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01480"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#1480"
+   "c1" : "01827"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#1827"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01480] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01827] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01484"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#1484"
+   "c1" : "03158"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#3158"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01484] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03158] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02713"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#2713"
+   "c1" : "03163"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#3163"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02713] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03163] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02718"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#2718"
+   "c1" : "03188"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#3188"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02718] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03188] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02743"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#2743"
+   "c1" : "03192"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#3192"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02743] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000018[03192] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02747"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#2747"
+   "c1" : "03195"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#3195"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02747] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000012[03195] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02750"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#2750"
+   "c1" : "03220"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#3220"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02750] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[03220] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02775"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#2775"
+   "c1" : "03224"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#3224"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02775] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000018[03224] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02779"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#2779"
+   "c1" : "03228"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#3228"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02779] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000012[03228] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02783"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#2783"
+   "c1" : "03236"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#3236"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02783] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000018[03236] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02791"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#2791"
+   "c1" : "09434"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9434"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02791] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000005[09434] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08880"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#8880"
+   "c1" : "09457"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9457"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08880] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000006[09457] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09108"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#9108"
+   "c1" : "09457"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9457"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09108] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000006[09457] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09149"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#9149"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09149] The expression ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09191"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#9191"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09191] The expression ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09226"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#9226"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09226] The expression ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09410"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#9410"
+   "c1" : "09536"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9536"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09410] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[09536] The pointer add is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09410"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#9410"
+   "c1" : "09536"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9536"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09410] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09536] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09432"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#9432"
+   "c1" : "09537"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9537"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09432] The pointer data is declared but not initialized"
+ , "c3" : "QC-CPP000014[09537] The pointer d is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09432"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#9432"
+   "c1" : "09537"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9537"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09432] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[09537] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09451"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#9451"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09451] The pointer data is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09451"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#9451"
+   "c1" : "09600"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9600"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09451] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000006[09600] The condition of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09474"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#9474"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09474] The pointer data is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09474"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#9474"
+   "c1" : "09600"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9600"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09474] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000006[09600] The end expression of for loop is empty, infinite loop risk"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09494"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#9494"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09494] The pointer data is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09494"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#9494"
+   "c1" : "09680"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9680"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09494] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[09680] The expression 0x01 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10032"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#10032"
+   "c1" : "09777"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9777"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10032] The pointer peddsactx is declared but not initialized"
+ , "c3" : "QC-CPP000014[09777] The pointer hash is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10080"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#10080"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10080] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10230"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#10230"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10230] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10296"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#10296"
+   "c1" : "09832"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9832"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10296] The pointer dstctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[09832] The pointer hash is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10334"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#10334"
+   "c1" : "09838"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9838"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10334] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[09838] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10351"
- , "c1link" : "./qc/providers/implementations/signature/eddsa_sig.c.html#10351"
+   "c1" : "09854"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9854"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10351] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[09854] The pointer md is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09855"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9855"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09855] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09955"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9955"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09955] The pointer md is declared but not initialized"
 }} 
 ]
 };

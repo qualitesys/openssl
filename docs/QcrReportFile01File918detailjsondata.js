@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html" 
- , "texte" : "File providers/implementations/encode_decode/decode_epki2pki.c 28 rule violations " 
- , "fic2"  : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.xml" 
+   "fic1"  : "./qc/providers/implementations/digests/md5_prov.c.html" 
+ , "texte" : "File providers/implementations/digests/md5_prov.c 19 rule violations " 
+ , "fic2"  : "./qc/providers/implementations/digests/md5_prov.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,23 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "2"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "18"
+ , "c4" : "15"
 }}
 ,
 { "ligne" : {
@@ -68,214 +54,144 @@ var maDataBlocs = {
 ,
 { "ligne" : {
    "c1" : "MAJOR"
- , "c2" : "QC-CPPCWE481"
- , "c3" : "Assigning instead of comparing"
- , "c4" : "2"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "02436"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2436"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02436] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02441"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2441"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02441] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02466"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2466"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02466] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02470"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2470"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02470] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02473"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2473"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02473] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02498"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2498"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02498] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02502"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2502"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02502] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02506"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2506"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02506] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02514"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2514"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02514] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03493"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#3493"
+   "c1" : "01219"
+ , "c1link" : "./qc/providers/implementations/digests/md5_prov.c.html#1219"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[03493] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[01219] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03656"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#3656"
+   "c1" : "01382"
+ , "c1link" : "./qc/providers/implementations/digests/md5_prov.c.html#1382"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03656] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01382] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03659"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#3659"
+   "c1" : "01409"
+ , "c1link" : "./qc/providers/implementations/digests/md5_prov.c.html#1409"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03659] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01409] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03683"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#3683"
+   "c1" : "01413"
+ , "c1link" : "./qc/providers/implementations/digests/md5_prov.c.html#1413"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03683] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01413] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03687"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#3687"
+   "c1" : "01435"
+ , "c1link" : "./qc/providers/implementations/digests/md5_prov.c.html#1435"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03687] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01435] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03709"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#3709"
+   "c1" : "01435"
+ , "c1link" : "./qc/providers/implementations/digests/md5_prov.c.html#1435"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03709] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01435] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03709"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#3709"
+   "c1" : "01459"
+ , "c1link" : "./qc/providers/implementations/digests/md5_prov.c.html#1459"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03709] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01459] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03733"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#3733"
+   "c1" : "01465"
+ , "c1link" : "./qc/providers/implementations/digests/md5_prov.c.html#1465"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03733] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01465] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03739"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#3739"
+   "c1" : "01490"
+ , "c1link" : "./qc/providers/implementations/digests/md5_prov.c.html#1490"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03739] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01490] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03764"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#3764"
+   "c1" : "01494"
+ , "c1link" : "./qc/providers/implementations/digests/md5_prov.c.html#1494"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03764] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01494] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03768"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#3768"
+   "c1" : "02723"
+ , "c1link" : "./qc/providers/implementations/digests/md5_prov.c.html#2723"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03768] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02723] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08343"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#8343"
+   "c1" : "02728"
+ , "c1link" : "./qc/providers/implementations/digests/md5_prov.c.html#2728"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08343] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02728] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12890"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#12890"
+   "c1" : "02753"
+ , "c1link" : "./qc/providers/implementations/digests/md5_prov.c.html#2753"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12890] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[02753] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12895"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#12895"
+   "c1" : "02757"
+ , "c1link" : "./qc/providers/implementations/digests/md5_prov.c.html#2757"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12895] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000018[02757] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12930"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#12930"
+   "c1" : "02760"
+ , "c1link" : "./qc/providers/implementations/digests/md5_prov.c.html#2760"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12930] The expression  ! ok applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[02760] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12933"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#12933"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12933] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12939"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#12939"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12939] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12965"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#12965"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12965] The pointer oct is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12976"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#12976"
+   "c1" : "02785"
+ , "c1link" : "./qc/providers/implementations/digests/md5_prov.c.html#2785"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12976] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[02785] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02789"
+ , "c1link" : "./qc/providers/implementations/digests/md5_prov.c.html#2789"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02789] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02793"
+ , "c1link" : "./qc/providers/implementations/digests/md5_prov.c.html#2793"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02793] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02801"
+ , "c1link" : "./qc/providers/implementations/digests/md5_prov.c.html#2801"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02801] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ]
 };

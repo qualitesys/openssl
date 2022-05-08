@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/rsa/rsa_depr.c.html" 
- , "texte" : "File crypto/rsa/rsa_depr.c 43 rule violations " 
- , "fic2"  : "./qc/crypto/rsa/rsa_depr.c.xml" 
+   "fic1"  : "./qc/crypto/rc2/rc2ofb64.c.html" 
+ , "texte" : "File crypto/rc2/rc2ofb64.c 41 rule violations " 
+ , "fic2"  : "./qc/crypto/rc2/rc2ofb64.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,333 +40,319 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-CPP000012"
- , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "37"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-CPP000018"
- , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "3"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
- , "c2" : "QC-CPP000007"
- , "c3" : "goto statement"
- , "c4" : "2"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "36"
 }}
 ,
 { "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00988"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#988"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00988] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00993"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#993"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00993] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01018"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#1018"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01018] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01022"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#1022"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01022] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01025"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#1025"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01025] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01050"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#1050"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01050] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01054"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#1054"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01054] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01058"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#1058"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01058] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01066"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#1066"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01066] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02361"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2361"
+   "c1" : "00087"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02361] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[00087] The pointer dp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02524"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2524"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02524] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02551"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2551"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02551] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02555"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2555"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02555] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02577"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2577"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02577] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02577"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2577"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02577] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02601"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2601"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02601] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02607"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2607"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02607] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02632"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2632"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02632] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02636"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2636"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02636] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02981"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#2981"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02981] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05927"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#5927"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05927] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05932"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#5932"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05932] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05957"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#5957"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05957] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05962"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#5962"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05962] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05991"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#5991"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05991] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05996"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#5996"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05996] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06017"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#6017"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06017] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06022"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#6022"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06022] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06038"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#6038"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06038] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06057"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#6057"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06057] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06062"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#6062"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06062] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06082"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#6082"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06082] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06087"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#6087"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06087] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06108"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#6108"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06108] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06113"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#6113"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06113] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06134"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#6134"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06134] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06139"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#6139"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06139] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06161"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#6161"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06161] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06166"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#6166"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06166] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06190"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#6190"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06190] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06195"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#6195"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06195] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08202"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#8202"
+   "c1" : "00089"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08202] goto statement jump to err"
+ , "c3" : "QC-CPP000014[00089] The pointer iv is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08211"
- , "c1link" : "./qc/crypto/rsa/rsa_depr.c.html#8211"
+   "c1" : "00089"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#89"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[00089] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00093"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08211] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[00093] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00093"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#93"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00093] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00093"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#93"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00093] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00093"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#93"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00093] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00094"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#94"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00094] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00094"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#94"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00094] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00094"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#94"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00094] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00094"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#94"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00094] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00098"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#98"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00098] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00098"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#98"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00098] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00098"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#98"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00098] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00098"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#98"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00098] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00099"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#99"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00099] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00099"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#99"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00099] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00099"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#99"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00099] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00099"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#99"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00099] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00100"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#100"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00100] The expression l-- applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00105"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#105"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00105] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00105"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#105"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00105] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00105"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#105"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00105] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00105"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#105"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00105] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00107"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#107"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00107] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00107"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#107"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00107] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00107"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#107"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00107] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00107"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#107"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00107] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00113"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#113"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00113] The expression save applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "00117"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#117"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00117] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00117"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#117"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00117] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00117"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#117"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00117] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00117"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#117"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00117] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00118"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#118"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00118] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00118"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#118"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00118] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00118"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#118"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00118] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00118"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#118"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00118] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00120"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#120"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00120] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00120"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#120"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00120] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00120"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#120"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00120] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00120"
+ , "c1link" : "./qc/crypto/rc2/rc2ofb64.c.html#120"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00120] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

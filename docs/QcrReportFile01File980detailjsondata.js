@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/providers/legacyprov.c.html" 
- , "texte" : "File providers/legacyprov.c 34 rule violations " 
- , "fic2"  : "./qc/providers/legacyprov.c.xml" 
+   "fic1"  : "./qc/providers/implementations/rands/seeding/rand_win.c.html" 
+ , "texte" : "File providers/implementations/rands/seeding/rand_win.c 41 rule violations " 
+ , "fic2"  : "./qc/providers/implementations/rands/seeding/rand_win.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "20"
+ , "c4" : "37"
 }}
 ,
 { "ligne" : {
@@ -54,256 +54,298 @@ var maDataBlocs = {
 ,
 { "ligne" : {
    "c1" : "MAJOR"
- , "c2" : "QC-CPPCWE481"
- , "c3" : "Assigning instead of comparing"
- , "c4" : "2"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "9"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00383"
- , "c1link" : "./qc/providers/legacyprov.c.html#383"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00383] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01339"
- , "c1link" : "./qc/providers/legacyprov.c.html#1339"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01339] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01344"
- , "c1link" : "./qc/providers/legacyprov.c.html#1344"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01344] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01369"
- , "c1link" : "./qc/providers/legacyprov.c.html#1369"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01369] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01373"
- , "c1link" : "./qc/providers/legacyprov.c.html#1373"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01373] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01376"
- , "c1link" : "./qc/providers/legacyprov.c.html#1376"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01376] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01401"
- , "c1link" : "./qc/providers/legacyprov.c.html#1401"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01401] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01405"
- , "c1link" : "./qc/providers/legacyprov.c.html#1405"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01405] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01409"
- , "c1link" : "./qc/providers/legacyprov.c.html#1409"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01409] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01417"
- , "c1link" : "./qc/providers/legacyprov.c.html#1417"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01417] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03595"
- , "c1link" : "./qc/providers/legacyprov.c.html#3595"
+   "c1" : "01191"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#1191"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[03595] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[01191] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03758"
- , "c1link" : "./qc/providers/legacyprov.c.html#3758"
+   "c1" : "01354"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#1354"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03758] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01354] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03761"
- , "c1link" : "./qc/providers/legacyprov.c.html#3761"
+   "c1" : "01381"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#1381"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03761] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01381] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03785"
- , "c1link" : "./qc/providers/legacyprov.c.html#3785"
+   "c1" : "01385"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#1385"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03785] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01385] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03789"
- , "c1link" : "./qc/providers/legacyprov.c.html#3789"
+   "c1" : "01407"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#1407"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03789] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01407] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03811"
- , "c1link" : "./qc/providers/legacyprov.c.html#3811"
+   "c1" : "01407"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#1407"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03811] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01407] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03811"
- , "c1link" : "./qc/providers/legacyprov.c.html#3811"
+   "c1" : "01431"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#1431"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03811] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01431] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03835"
- , "c1link" : "./qc/providers/legacyprov.c.html#3835"
+   "c1" : "01437"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#1437"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03835] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01437] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03841"
- , "c1link" : "./qc/providers/legacyprov.c.html#3841"
+   "c1" : "01462"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#1462"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03841] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01462] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03866"
- , "c1link" : "./qc/providers/legacyprov.c.html#3866"
+   "c1" : "01466"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#1466"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03866] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01466] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03870"
- , "c1link" : "./qc/providers/legacyprov.c.html#3870"
+   "c1" : "01833"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#1833"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03870] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01833] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06736"
- , "c1link" : "./qc/providers/legacyprov.c.html#6736"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06736] The pointer c_new_error is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06737"
- , "c1link" : "./qc/providers/legacyprov.c.html#6737"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06737] The pointer c_set_error_debug is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06738"
- , "c1link" : "./qc/providers/legacyprov.c.html#6738"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06738] The pointer c_vset_error is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06739"
- , "c1link" : "./qc/providers/legacyprov.c.html#6739"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06739] The pointer c_set_error_mark is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06740"
- , "c1link" : "./qc/providers/legacyprov.c.html#6740"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06740] The pointer c_clear_last_error_mark is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06741"
- , "c1link" : "./qc/providers/legacyprov.c.html#6741"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06741] The pointer c_pop_error_to_mark is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06784"
- , "c1link" : "./qc/providers/legacyprov.c.html#6784"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06784] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "06791"
- , "c1link" : "./qc/providers/legacyprov.c.html#6791"
+   "c1" : "03115"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#3115"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06791] The expression 'OpenSSL Legacy Provider' is invariable"
+ , "c3" : "QC-CPP000012[03115] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06798"
- , "c1link" : "./qc/providers/legacyprov.c.html#6798"
+   "c1" : "03120"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#3120"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06798] The expression '3.1.0' is invariable"
+ , "c3" : "QC-CPP000012[03120] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06805"
- , "c1link" : "./qc/providers/legacyprov.c.html#6805"
+   "c1" : "03145"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#3145"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06805] The expression '3.1.0-dev' is invariable"
+ , "c3" : "QC-CPP000012[03145] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06977"
- , "c1link" : "./qc/providers/legacyprov.c.html#6977"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[06977] The pointer tmp is declared but not initialized"
+   "c1" : "03149"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#3149"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03149] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07036"
- , "c1link" : "./qc/providers/legacyprov.c.html#7036"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07036] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "03152"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#3152"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[03152] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07041"
- , "c1link" : "./qc/providers/legacyprov.c.html#7041"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07041] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "03177"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#3177"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[03177] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03181"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#3181"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03181] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03185"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#3185"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[03185] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03193"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#3193"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03193] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05923"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#5923"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05923] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05928"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#5928"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05928] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05953"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#5953"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05953] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05958"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#5958"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05958] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05987"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#5987"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05987] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05992"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#5992"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05992] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06013"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#6013"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06013] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06018"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#6018"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06018] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06034"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#6034"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06034] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06053"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#6053"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06053] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06058"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#6058"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06058] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06078"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#6078"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06078] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06083"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#6083"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06083] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06104"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#6104"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06104] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06109"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#6109"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06109] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06130"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#6130"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06130] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06135"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#6135"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06135] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06157"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#6157"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06157] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06162"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#6162"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06162] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06186"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#6186"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06186] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "06191"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_win.c.html#6191"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06191] The expression 2&gt;1 is invariable"
 }} 
 ]
 };

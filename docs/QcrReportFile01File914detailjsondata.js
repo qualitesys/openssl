@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/providers/implementations/digests/sha3_prov.c.html" 
- , "texte" : "File providers/implementations/digests/sha3_prov.c 23 rule violations " 
- , "fic2"  : "./qc/providers/implementations/digests/sha3_prov.c.xml" 
+   "fic1"  : "./qc/providers/implementations/digests/blake2b_prov.c.html" 
+ , "texte" : "File providers/implementations/digests/blake2b_prov.c 239 rule violations " 
+ , "fic2"  : "./qc/providers/implementations/digests/blake2b_prov.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,16 +40,23 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000006"
+ , "c3" : "Risk of infinite while loop"
+ , "c4" : "108"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "124"
 }}
 ,
 { "ligne" : {
@@ -70,170 +77,1682 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00383"
- , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#383"
+   "c1" : "00385"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#385"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00383] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[00385] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01593"
- , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#1593"
+   "c1" : "01591"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#1591"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01593] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[01591] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01756"
- , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#1756"
+   "c1" : "01754"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#1754"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01756] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01754] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01783"
- , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#1783"
+   "c1" : "01781"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#1781"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01783] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01781] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01787"
- , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#1787"
+   "c1" : "01785"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#1785"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01787] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01785] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01809"
- , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#1809"
+   "c1" : "01807"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#1807"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01809] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01807] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01809"
- , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#1809"
+   "c1" : "01807"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#1807"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01809] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01807] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01833"
- , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#1833"
+   "c1" : "01831"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#1831"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01833] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01831] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01839"
- , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#1839"
+   "c1" : "01837"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#1837"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01839] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01837] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01864"
- , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#1864"
+   "c1" : "01862"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#1862"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01864] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01862] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01868"
- , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#1868"
+   "c1" : "01866"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#1866"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01868] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01866] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03067"
- , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#3067"
+   "c1" : "03065"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#3065"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03067] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03065] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03072"
- , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#3072"
+   "c1" : "03070"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#3070"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03072] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03070] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03097"
- , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#3097"
+   "c1" : "03095"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#3095"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03097] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[03095] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03101"
- , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#3101"
+   "c1" : "03099"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#3099"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03101] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[03099] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03104"
- , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#3104"
+   "c1" : "03102"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#3102"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03104] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[03102] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03129"
- , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#3129"
+   "c1" : "03127"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#3127"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03129] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[03127] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03133"
- , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#3133"
+   "c1" : "03131"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#3131"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03133] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[03131] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03137"
- , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#3137"
+   "c1" : "03135"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#3135"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03137] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[03135] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03145"
- , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#3145"
+   "c1" : "03143"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#3143"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03145] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[03143] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08959"
- , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#8959"
+   "c1" : "04959"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04959] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04959"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04959] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04959"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04959] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04959"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04959] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04959"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04959] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04959"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04959] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04959"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04959] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04959"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04959] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04959"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04959] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04959"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04959] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04959"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04959] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04959"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04959] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04959"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04959] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04959"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04959] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04959"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04959] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04959"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04959] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04959"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04959] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04959"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04959] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04960"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4960"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04960] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04960"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4960"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04960] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04960"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4960"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04960] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04960"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4960"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04960] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04960"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4960"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04960] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04960"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4960"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04960] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04960"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4960"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04960] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04960"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4960"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04960] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04960"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4960"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04960] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04960"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4960"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04960] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04960"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4960"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04960] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04960"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4960"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04960] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04960"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4960"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04960] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04960"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4960"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04960] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04960"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4960"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04960] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04960"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4960"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04960] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04960"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4960"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04960] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04960"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4960"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04960] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04961"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4961"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04961] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04961"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4961"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04961] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04961"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4961"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04961] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04961"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4961"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04961] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04961"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4961"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04961] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04961"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4961"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04961] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04961"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4961"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04961] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04961"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4961"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04961] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04961"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4961"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04961] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04961"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4961"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04961] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04961"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4961"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04961] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04961"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4961"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04961] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04961"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4961"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04961] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04961"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4961"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04961] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04961"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4961"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04961] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04961"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4961"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04961] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04961"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4961"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04961] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04961"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4961"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04961] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04962"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4962"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04962] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04962"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4962"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04962] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04962"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4962"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04962] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04962"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4962"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04962] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04962"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4962"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04962] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04962"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4962"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04962] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04962"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4962"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04962] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04962"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4962"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04962] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04962"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4962"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04962] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04962"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4962"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04962] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04962"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4962"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04962] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04962"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4962"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04962] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04962"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4962"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04962] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04962"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4962"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04962] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04962"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4962"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04962] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04962"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4962"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04962] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04962"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4962"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04962] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04962"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4962"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04962] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04963"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4963"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04963] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04963"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4963"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04963] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04963"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4963"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04963] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04963"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4963"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04963] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04963"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4963"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04963] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04963"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4963"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04963] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04963"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4963"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04963] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04963"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4963"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04963] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04963"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4963"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04963] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04963"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4963"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04963] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04963"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4963"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04963] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04963"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4963"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04963] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04963"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4963"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04963] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04963"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4963"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04963] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04963"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4963"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04963] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04963"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4963"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04963] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04963"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4963"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04963] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04963"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4963"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04963] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04964"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04964] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04964"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04964] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04964"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04964] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04964"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04964] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04964"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04964] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04964"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04964] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04964"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04964] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04964"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04964] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04964"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04964] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04964"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04964] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04964"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04964] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04964"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04964] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04964"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04964] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04964"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04964] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04964"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04964] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04964"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04964] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04964"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04964] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04964"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04964] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04965"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4965"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04965] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04965"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4965"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04965] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04965"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4965"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04965] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04965"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4965"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04965] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04965"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4965"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04965] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04965"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4965"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04965] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04965"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4965"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04965] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04965"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4965"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04965] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04965"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4965"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04965] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04965"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4965"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04965] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04965"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4965"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04965] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04965"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4965"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04965] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04965"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4965"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04965] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04965"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4965"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04965] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04965"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4965"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04965] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04965"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4965"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04965] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04965"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4965"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04965] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04965"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4965"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04965] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04966"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4966"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04966] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04966"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4966"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04966] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04966"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4966"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04966] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04966"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4966"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04966] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04966"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4966"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04966] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04966"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4966"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04966] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04966"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4966"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04966] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04966"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4966"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04966] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04966"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4966"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04966] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04966"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4966"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04966] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04966"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4966"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04966] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04966"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4966"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04966] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04966"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4966"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04966] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04966"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4966"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04966] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04966"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4966"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04966] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04966"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4966"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04966] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04966"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4966"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04966] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04966"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4966"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04966] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04967"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4967"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04967] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04967"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4967"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04967] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04967"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4967"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04967] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04967"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4967"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04967] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04967"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4967"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04967] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04967"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4967"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04967] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04967"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4967"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04967] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04967"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4967"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04967] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04967"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4967"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04967] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04967"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4967"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04967] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04967"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4967"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04967] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04967"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4967"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04967] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04967"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4967"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04967] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04967"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4967"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04967] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04967"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4967"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04967] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04967"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4967"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04967] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04967"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4967"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04967] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04967"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4967"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04967] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04968"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4968"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04968] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04968"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4968"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04968] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04968"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4968"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04968] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04968"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4968"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04968] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04968"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4968"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04968] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04968"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4968"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04968] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04968"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4968"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04968] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04968"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4968"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04968] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04968"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4968"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04968] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04968"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4968"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04968] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04968"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4968"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04968] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04968"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4968"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04968] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04968"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4968"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04968] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04968"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4968"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04968] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04968"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4968"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04968] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04968"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4968"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04968] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04968"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4968"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04968] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04968"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4968"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04968] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04969"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4969"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04969] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04969"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4969"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04969] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04969"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4969"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04969] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04969"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4969"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04969] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04969"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4969"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04969] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04969"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4969"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04969] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04969"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4969"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04969] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04969"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4969"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04969] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04969"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4969"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04969] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04969"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4969"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04969] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04969"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4969"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04969] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04969"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4969"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04969] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04969"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4969"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04969] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04969"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4969"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04969] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04969"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4969"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04969] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04969"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4969"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04969] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04969"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4969"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04969] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04969"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4969"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04969] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04970"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4970"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04970] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04970"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4970"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04970] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04970"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4970"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04970] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04970"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4970"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04970] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04970"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4970"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04970] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04970"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4970"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04970] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04970"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4970"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04970] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04970"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4970"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04970] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04970"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4970"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04970] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04970"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4970"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04970] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04970"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4970"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04970] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04970"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4970"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04970] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04970"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4970"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04970] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04970"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4970"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04970] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04970"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4970"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04970] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04970"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4970"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04970] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04970"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4970"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04970] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04970"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4970"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04970] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "04974"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4974"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08959] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04974] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08979"
- , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#8979"
+   "c1" : "04980"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4980"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08979] The expression rem applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[04980] The expression len applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09072"
- , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#9072"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09072] The pointer p is declared but not initialized"
+   "c1" : "04991"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#4991"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[04991] The expression c-&gt;buflen applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -1033,10 +1033,45 @@ var maDataBlocs = {
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
+  "fic"  : "crypto/async/arch/async_null.c" 
+  , "Fic1"  : "qc/crypto/async/arch/async_null.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/async/arch/async_null.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "crypto/async/arch/async_posix.c" 
+  , "Fic1"  : "qc/crypto/async/arch/async_posix.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/async/arch/async_posix.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "crypto/async/arch/async_win.c" 
+  , "Fic1"  : "qc/crypto/async/arch/async_win.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/async/arch/async_win.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "crypto/async/async.c" 
+  , "Fic1"  : "qc/crypto/async/async.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/async/async.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
   "fic"  : "crypto/async/async_err.c" 
   , "Fic1"  : "qc/crypto/async/async_err.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
   , "Fic2"  : "qc/crypto/async/async_err.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "crypto/async/async_wait.c" 
+  , "Fic1"  : "qc/crypto/async/async_wait.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/async/async_wait.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
@@ -1114,6 +1149,13 @@ var maDataBlocs = {
   , "Fic1"  : "qc/crypto/bio/bf_readbuff.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
   , "Fic2"  : "qc/crypto/bio/bf_readbuff.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "crypto/bio/bio_addr.c" 
+  , "Fic1"  : "qc/crypto/bio/bio_addr.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/bio/bio_addr.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
@@ -1198,6 +1240,13 @@ var maDataBlocs = {
   , "Fic1"  : "qc/crypto/bio/bss_core.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
   , "Fic2"  : "qc/crypto/bio/bss_core.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "crypto/bio/bss_dgram.c" 
+  , "Fic1"  : "qc/crypto/bio/bss_dgram.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/bio/bss_dgram.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
@@ -2496,6 +2545,13 @@ var maDataBlocs = {
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
+  "fic"  : "crypto/ec/curve448/scalar.c" 
+  , "Fic1"  : "qc/crypto/ec/curve448/scalar.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/ec/curve448/scalar.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
   "fic"  : "crypto/ec/ec2_oct.c" 
   , "Fic1"  : "qc/crypto/ec/ec2_oct.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
@@ -2668,6 +2724,13 @@ var maDataBlocs = {
   , "Fic1"  : "qc/crypto/ec/ecp_nist.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
   , "Fic2"  : "qc/crypto/ec/ecp_nist.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "crypto/ec/ecp_nistz256_table.c" 
+  , "Fic1"  : "qc/crypto/ec/ecp_nistz256_table.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/ec/ecp_nistz256_table.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
@@ -4397,6 +4460,13 @@ var maDataBlocs = {
   , "Fic1"  : "qc/crypto/rand/rand_err.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
   , "Fic2"  : "qc/crypto/rand/rand_err.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "crypto/rand/rand_lib.c" 
+  , "Fic1"  : "qc/crypto/rand/rand_lib.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/rand/rand_lib.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
@@ -7204,6 +7274,20 @@ var maDataBlocs = {
   , "Fic1"  : "qc/ssl/tls_srp.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
   , "Fic2"  : "qc/ssl/tls_srp.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "util/check-format-test-negatives.c" 
+  , "Fic1"  : "qc/util/check-format-test-negatives.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/util/check-format-test-negatives.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "util/check-format-test-positives.c" 
+  , "Fic1"  : "qc/util/check-format-test-positives.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/util/check-format-test-positives.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
 ]

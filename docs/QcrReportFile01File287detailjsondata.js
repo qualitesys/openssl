@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/ct/ct_sct_ctx.c.html" 
- , "texte" : "File crypto/ct/ct_sct_ctx.c 37 rule violations " 
- , "fic2"  : "./qc/crypto/ct/ct_sct_ctx.c.xml" 
+   "fic1"  : "./qc/crypto/ct/ct_b64.c.html" 
+ , "texte" : "File crypto/ct/ct_b64.c 36 rule violations " 
+ , "fic2"  : "./qc/crypto/ct/ct_b64.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,21 +42,14 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "2"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "2"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "17"
 }}
 ,
 { "ligne" : {
@@ -70,7 +63,7 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000007"
  , "c3" : "goto statement"
- , "c4" : "12"
+ , "c4" : "10"
 }}
 ,
 { "ligne" : {
@@ -83,262 +76,255 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00395"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#395"
+   "c1" : "00419"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#419"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00395] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[00419] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01565"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#1565"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01565] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01570"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#1570"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01570] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01595"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#1595"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01595] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01599"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#1599"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01599] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01602"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#1602"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01602] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01627"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#1627"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01627] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01631"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#1631"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01631] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01635"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#1635"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01635] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01643"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#1643"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01643] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02674"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#2674"
+   "c1" : "02080"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#2080"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02674] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[02080] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02837"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#2837"
+   "c1" : "02243"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#2243"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02837] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02243] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02864"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#2864"
+   "c1" : "02246"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#2246"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02864] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02246] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02868"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#2868"
+   "c1" : "02270"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#2270"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02868] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02270] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02890"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#2890"
+   "c1" : "02274"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#2274"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02890] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02274] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02890"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#2890"
+   "c1" : "02296"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#2296"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02890] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02296] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02914"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#2914"
+   "c1" : "02296"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#2296"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02914] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02296] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02920"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#2920"
+   "c1" : "02320"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#2320"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02920] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02320] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02945"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#2945"
+   "c1" : "02326"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#2326"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02945] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02326] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02949"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#2949"
+   "c1" : "02351"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#2351"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02949] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02351] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13330"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13330"
+   "c1" : "02355"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#2355"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02355] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03376"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#3376"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[03376] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03381"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#3381"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[03381] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03406"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#3406"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[03406] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03410"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#3410"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03410] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03413"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#3413"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[03413] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03438"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#3438"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[03438] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03442"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#3442"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03442] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03446"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#3446"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[03446] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "03454"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#3454"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[03454] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13240"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13240"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[13240] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13267"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13267"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[13330] The pointer preextdata is declared but not initialized"
+ , "c3" : "QC-CPP000007[13267] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13357"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13357"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13357] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13377"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13377"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13377] The expression poison_ext_is_dup applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "13378"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13378"
+   "c1" : "13277"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13277"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13378] goto statement jump to err"
+ , "c3" : "QC-CPP000007[13277] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13285"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13285"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13285] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13301"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13301"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[13301] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13340"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13340"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13340] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13350"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13350"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13350] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13353"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13353"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13353] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13367"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13367"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13367] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "13383"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13383"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13383] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "13388"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13388"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13388"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[13388] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13392"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13392"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13392] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13398"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13398"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[13398] The expression sct_ext_is_dup applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
    "c1" : "13399"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13399"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13399"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[13399] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13406"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13406"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13406] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13427"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13427"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13427] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13432"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13432"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13432] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13436"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13436"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13436] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13461"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13461"
+   "c1" : "13423"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13423"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13461] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[13423] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13479"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13479"
+   "c1" : "13429"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13429"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13479] goto statement jump to err"
+ , "c3" : "QC-CPP000014[13429] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13495"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13495"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13495] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13501"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13501"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13501] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "13508"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13508"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[13508] goto statement jump to err"
+   "c1" : "13429"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#13429"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[13429] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

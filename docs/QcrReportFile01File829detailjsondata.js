@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/providers/common/securitycheck.c.html" 
- , "texte" : "File providers/common/securitycheck.c 23 rule violations " 
- , "fic2"  : "./qc/providers/common/securitycheck.c.xml" 
+   "fic1"  : "./qc/providers/common/der/der_rsa_sig.c.html" 
+ , "texte" : "File providers/common/der/der_rsa_sig.c 36 rule violations " 
+ , "fic2"  : "./qc/providers/common/der/der_rsa_sig.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,6 +40,20 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
+ , "c4" : "6"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "4"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "17"
@@ -53,180 +67,264 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-CPPCWE484"
- , "c3" : "Omitted Break Statement in Switch"
- , "c4" : "2"
-}}
-,
-{ "ligne" : {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "6"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "01505"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#1505"
+   "c1" : "00391"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#391"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01505] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[00391] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01510"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#1510"
+   "c1" : "01559"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#1559"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01510] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01559] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01535"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#1535"
+   "c1" : "01564"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#1564"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01535] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[01564] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01539"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#1539"
+   "c1" : "01589"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#1589"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01539] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000012[01589] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01542"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#1542"
+   "c1" : "01593"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#1593"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01542] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000018[01593] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01567"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#1567"
+   "c1" : "01596"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#1596"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01567] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[01596] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01571"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#1571"
+   "c1" : "01621"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#1621"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01571] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000012[01621] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01575"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#1575"
+   "c1" : "01625"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#1625"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01575] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000018[01625] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01583"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#1583"
+   "c1" : "01629"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#1629"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01583] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000012[01629] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02565"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#2565"
+   "c1" : "01637"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#1637"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01637] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02970"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#2970"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02565] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[02970] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02728"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#2728"
+   "c1" : "03133"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#3133"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02728] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03133] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02755"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#2755"
+   "c1" : "03136"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#3136"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02755] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03136] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02759"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#2759"
+   "c1" : "03160"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#3160"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02759] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03160] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02781"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#2781"
+   "c1" : "03164"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#3164"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02781] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03164] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02781"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#2781"
+   "c1" : "03186"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#3186"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02781] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03186] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02805"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#2805"
+   "c1" : "03186"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#3186"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02805] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03186] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02811"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#2811"
+   "c1" : "03210"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#3210"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02811] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03210] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02836"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#2836"
+   "c1" : "03216"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#3216"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02836] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03216] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02840"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#2840"
+   "c1" : "03241"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#3241"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02840] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03241] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06522"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#6522"
+   "c1" : "03245"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#3245"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06522] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03245] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10095"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#10095"
- , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[10095] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10100"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#10100"
- , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[10100] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10108"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#10108"
+   "c1" : "05188"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#5188"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10108] The expression 0xF000 is invariable"
+ , "c3" : "QC-CPP000011[05188] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05229"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#5229"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05229] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05271"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#5271"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05271] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05306"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#5306"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05306] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "05490"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#5490"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05490] The pointer data is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05490"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#5490"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[05490] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05512"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#5512"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05512] The pointer data is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05512"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#5512"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[05512] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05531"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#5531"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05531] The pointer data is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05531"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#5531"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[05531] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05554"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#5554"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05554] The pointer data is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05554"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#5554"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[05554] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05574"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#5574"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05574] The pointer data is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "05574"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#5574"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[05574] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07382"
+ , "c1link" : "./qc/providers/common/der/der_rsa_sig.c.html#7382"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[07382] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

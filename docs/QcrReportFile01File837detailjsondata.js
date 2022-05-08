@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html" 
- , "texte" : "File providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c 42 rule violations " 
- , "fic2"  : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.xml" 
+   "fic1"  : "./qc/providers/common/provider_seeding.c.html" 
+ , "texte" : "File providers/common/provider_seeding.c 28 rule violations " 
+ , "fic2"  : "./qc/providers/common/provider_seeding.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,9 +40,16 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000006"
+ , "c3" : "Risk of infinite while loop"
+ , "c4" : "4"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "38"
+ , "c4" : "20"
 }}
 ,
 { "ligne" : {
@@ -62,297 +69,199 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "01558"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#1558"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01558] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01563"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#1563"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01563] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01588"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#1588"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01588] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01592"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#1592"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01592] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01595"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#1595"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01595] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01620"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#1620"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01620] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01624"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#1624"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01624] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01628"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#1628"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01628] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01636"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#1636"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01636] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02679"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#2679"
+   "c1" : "02331"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#2331"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02679] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[02331] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02842"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#2842"
+   "c1" : "02494"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#2494"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02842] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02494] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02845"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#2845"
+   "c1" : "02497"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#2497"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02845] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02497] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02869"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#2869"
+   "c1" : "02521"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#2521"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02869] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02521] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02873"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#2873"
+   "c1" : "02525"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#2525"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02873] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02525] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02895"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#2895"
+   "c1" : "02547"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#2547"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02895] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02547] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02895"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#2895"
+   "c1" : "02547"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#2547"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02895] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02547] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02919"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#2919"
+   "c1" : "02571"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#2571"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02919] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02571] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02925"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#2925"
+   "c1" : "02577"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#2577"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02925] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02577] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02950"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#2950"
+   "c1" : "02602"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#2602"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02950] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02602] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02954"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#2954"
+   "c1" : "02606"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#2606"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02954] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02606] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08074"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#8074"
+   "c1" : "03652"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#3652"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08074] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03652] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09432"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#9432"
+   "c1" : "03657"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#3657"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09432] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[03657] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09437"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#9437"
+   "c1" : "03682"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#3682"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09437] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[03682] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09462"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#9462"
+   "c1" : "03686"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#3686"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09462] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000018[03686] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09467"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#9467"
+   "c1" : "03689"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#3689"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09467] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03689] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09496"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#9496"
+   "c1" : "03714"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#3714"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09496] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03714] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09501"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#9501"
+   "c1" : "03718"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#3718"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09501] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000018[03718] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09522"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#9522"
+   "c1" : "03722"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#3722"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09522] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03722] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09527"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#9527"
+   "c1" : "03730"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#3730"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09527] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000018[03730] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09543"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#9543"
+   "c1" : "07930"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#7930"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09543] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000006[07930] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09562"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#9562"
+   "c1" : "07930"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#7930"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09562] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07930] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09567"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#9567"
+   "c1" : "07937"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#7937"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09567] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000006[07937] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09587"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#9587"
+   "c1" : "07937"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#7937"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09587] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07937] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09592"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#9592"
+   "c1" : "07944"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#7944"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09592] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000006[07944] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09613"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#9613"
+   "c1" : "07944"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#7944"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09613] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07944] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09618"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#9618"
+   "c1" : "07951"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#7951"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09618] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000006[07951] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09639"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#9639"
+   "c1" : "07951"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#7951"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09639] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09644"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#9644"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09644] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09666"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#9666"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09666] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09671"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#9671"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09671] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09695"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#9695"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09695] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09700"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#9700"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09700] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[07951] The expression 0 is invariable, always false"
 }} 
 ]
 };

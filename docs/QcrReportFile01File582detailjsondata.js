@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/pem/pem_oth.c.html" 
- , "texte" : "File crypto/pem/pem_oth.c 43 rule violations " 
- , "fic2"  : "./qc/crypto/pem/pem_oth.c.xml" 
+   "fic1"  : "./qc/crypto/param_build_set.c.html" 
+ , "texte" : "File crypto/param_build_set.c 43 rule violations " 
+ , "fic2"  : "./qc/crypto/param_build_set.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,16 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "2"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "37"
+ , "c4" : "38"
 }}
 ,
 { "ligne" : {
@@ -63,310 +56,310 @@ var maDataBlocs = {
    "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00959"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#959"
+   "c1" : "01552"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#1552"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00959] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01552] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00964"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#964"
+   "c1" : "01557"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#1557"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00964] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01557] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00989"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#989"
+   "c1" : "01582"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#1582"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00989] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[01582] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00993"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#993"
+   "c1" : "01586"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#1586"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[00993] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[01586] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "00996"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#996"
+   "c1" : "01589"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#1589"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00996] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[01589] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01021"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#1021"
+   "c1" : "01614"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#1614"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01021] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[01614] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01025"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#1025"
+   "c1" : "01618"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#1618"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01025] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[01618] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01029"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#1029"
+   "c1" : "01622"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#1622"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01029] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[01622] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01037"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#1037"
+   "c1" : "01630"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#1630"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01037] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[01630] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02084"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#2084"
+   "c1" : "02673"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#2673"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02084] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[02673] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02247"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#2247"
+   "c1" : "02836"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#2836"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02247] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02836] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02274"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#2274"
+   "c1" : "02839"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#2839"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02274] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02839] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02278"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#2278"
+   "c1" : "02863"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#2863"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02278] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02863] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02300"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#2300"
+   "c1" : "02867"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#2867"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02300] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02867] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02300"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#2300"
+   "c1" : "02889"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#2889"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02300] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02889] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02324"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#2324"
+   "c1" : "02889"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#2889"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02324] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02889] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02330"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#2330"
+   "c1" : "02913"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#2913"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02330] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02913] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02355"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#2355"
+   "c1" : "02919"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#2919"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02355] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02919] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02359"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#2359"
+   "c1" : "02944"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#2944"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02359] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02944] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02726"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#2726"
+   "c1" : "02948"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#2948"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02726] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02948] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05918"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#5918"
+   "c1" : "05105"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#5105"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05918] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[05105] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05923"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#5923"
+   "c1" : "06463"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#6463"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05923] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[06463] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05948"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#5948"
+   "c1" : "06468"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#6468"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05948] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06468] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05953"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#5953"
+   "c1" : "06493"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#6493"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05953] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06493] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05982"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#5982"
+   "c1" : "06498"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#6498"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05982] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06498] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05987"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#5987"
+   "c1" : "06527"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#6527"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05987] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06527] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06008"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#6008"
+   "c1" : "06532"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#6532"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06008] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06532] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06013"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#6013"
+   "c1" : "06553"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#6553"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06013] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06553] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06029"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#6029"
+   "c1" : "06558"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#6558"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06029] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06558] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06048"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#6048"
+   "c1" : "06574"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#6574"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06048] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06574] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06053"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#6053"
+   "c1" : "06593"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#6593"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06053] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06593] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06073"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#6073"
+   "c1" : "06598"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#6598"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06073] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06598] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06078"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#6078"
+   "c1" : "06618"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#6618"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06078] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06618] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06099"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#6099"
+   "c1" : "06623"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#6623"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06099] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06623] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06104"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#6104"
+   "c1" : "06644"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#6644"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06104] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06644] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06125"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#6125"
+   "c1" : "06649"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#6649"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06125] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06649] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06130"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#6130"
+   "c1" : "06670"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#6670"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06130] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06670] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06152"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#6152"
+   "c1" : "06675"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#6675"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06152] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06675] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06157"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#6157"
+   "c1" : "06697"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#6697"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06157] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06697] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06181"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#6181"
+   "c1" : "06702"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#6702"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06181] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06702] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06186"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#6186"
+   "c1" : "06726"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#6726"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06186] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06726] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13915"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#13915"
+   "c1" : "06731"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#6731"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13915] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[06731] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "13920"
- , "c1link" : "./qc/crypto/pem/pem_oth.c.html#13920"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[13920] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+   "c1" : "08064"
+ , "c1link" : "./qc/crypto/param_build_set.c.html#8064"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08064] The pointer p is declared but not initialized"
 }} 
 ]
 };

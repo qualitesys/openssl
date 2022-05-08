@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/evp/dsa_ctrl.c.html" 
- , "texte" : "File crypto/evp/dsa_ctrl.c 25 rule violations " 
- , "fic2"  : "./qc/crypto/evp/dsa_ctrl.c.xml" 
+   "fic1"  : "./qc/crypto/evp/bio_md.c.html" 
+ , "texte" : "File crypto/evp/bio_md.c 34 rule violations " 
+ , "fic2"  : "./qc/crypto/evp/bio_md.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -42,7 +42,7 @@ var maDataBlocs = {
    "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "15"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : {
@@ -54,193 +54,249 @@ var maDataBlocs = {
 ,
 { "ligne" : {
    "c1" : "MAJOR"
- , "c2" : "QC-CPPCWE481"
- , "c3" : "Assigning instead of comparing"
- , "c4" : "6"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "15"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "01183"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#1183"
+   "c1" : "00959"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00959] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00964"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00964] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00989"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#989"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00989] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00993"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#993"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[00993] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
+   "c1" : "00996"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#996"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00996] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01021"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#1021"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01021] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01025"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#1025"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01025] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01029"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#1029"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01029] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01037"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#1037"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01037] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02604"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#2604"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01183] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[02604] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01346"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#1346"
+   "c1" : "02767"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#2767"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01346] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02767] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01373"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#1373"
+   "c1" : "02770"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#2770"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01373] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02770] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01377"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#1377"
+   "c1" : "02794"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#2794"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01377] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02794] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01399"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#1399"
+   "c1" : "02798"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#2798"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01399] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02798] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01399"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#1399"
+   "c1" : "02820"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#2820"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01399] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02820] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01423"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#1423"
+   "c1" : "02820"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#2820"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01423] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02820] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01429"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#1429"
+   "c1" : "02844"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#2844"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01429] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02844] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01454"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#1454"
+   "c1" : "02850"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#2850"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01454] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02850] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01458"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#1458"
+   "c1" : "02875"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#2875"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01458] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02875] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02475"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#2475"
+   "c1" : "02879"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#2879"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02475] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02879] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02480"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#2480"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02480] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02505"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#2505"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02505] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02509"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#2509"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02509] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02512"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#2512"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02512] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02537"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#2537"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02537] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02541"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#2541"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02541] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02545"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#2545"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02545] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02553"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#2553"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02553] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09213"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#9213"
+   "c1" : "07873"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#7873"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09213] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[07873] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09228"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#9228"
+   "c1" : "07911"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#7911"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09228] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[07911] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09244"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#9244"
+   "c1" : "07912"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#7912"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09244] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[07912] The pointer next is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09260"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#9260"
+   "c1" : "07951"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#7951"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09260] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[07951] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09275"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#9275"
+   "c1" : "07952"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#7952"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09275] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[07952] The pointer next is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09291"
- , "c1link" : "./qc/crypto/evp/dsa_ctrl.c.html#9291"
+   "c1" : "07996"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#7996"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09291] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[07996] The pointer ctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07996"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#7996"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[07996] The pointer dctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07996"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#7996"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[07996] The pointer pctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07997"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#7997"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[07997] The pointer ppmd is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07998"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#7998"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[07998] The pointer md is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08000"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#8000"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08000] The pointer dbio is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08000"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#8000"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08000] The pointer next is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08069"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#8069"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08069] The pointer next is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08085"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#8085"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08085] The pointer ctx is declared but not initialized"
 }} 
 ]
 };

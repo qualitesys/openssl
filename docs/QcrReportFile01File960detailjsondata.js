@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/providers/implementations/macs/siphash_prov.c.html" 
- , "texte" : "File providers/implementations/macs/siphash_prov.c 32 rule violations " 
- , "fic2"  : "./qc/providers/implementations/macs/siphash_prov.c.xml" 
+   "fic1"  : "./qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html" 
+ , "texte" : "File providers/implementations/keymgmt/kdf_legacy_kmgmt.c 21 rule violations " 
+ , "fic2"  : "./qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,16 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "17"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : {
@@ -61,242 +54,158 @@ var maDataBlocs = {
 ,
 { "ligne" : {
    "c1" : "MAJOR"
- , "c2" : "QC-CPPCWE481"
- , "c3" : "Assigning instead of comparing"
- , "c4" : "7"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "4"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00383"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#383"
+   "c1" : "02105"
+ , "c1link" : "./qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html#2105"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00383] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02105] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02490"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#2490"
+   "c1" : "02110"
+ , "c1link" : "./qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html#2110"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02490] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02110] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02495"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#2495"
+   "c1" : "02135"
+ , "c1link" : "./qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html#2135"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02495] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02135] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02520"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#2520"
+   "c1" : "02139"
+ , "c1link" : "./qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html#2139"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02520] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000018[02139] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02524"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#2524"
+   "c1" : "02142"
+ , "c1link" : "./qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html#2142"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02524] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000012[02142] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02527"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#2527"
+   "c1" : "02167"
+ , "c1link" : "./qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html#2167"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02527] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[02167] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02552"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#2552"
+   "c1" : "02171"
+ , "c1link" : "./qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html#2171"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02552] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000018[02171] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02556"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#2556"
+   "c1" : "02175"
+ , "c1link" : "./qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html#2175"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02556] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000012[02175] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02560"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#2560"
+   "c1" : "02183"
+ , "c1link" : "./qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html#2183"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02560] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000018[02183] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02568"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#2568"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02568] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03611"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#3611"
+   "c1" : "03214"
+ , "c1link" : "./qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html#3214"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[03611] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[03214] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03774"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#3774"
+   "c1" : "03377"
+ , "c1link" : "./qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html#3377"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03774] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03377] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03777"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#3777"
+   "c1" : "03380"
+ , "c1link" : "./qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html#3380"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03777] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03380] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03801"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#3801"
+   "c1" : "03404"
+ , "c1link" : "./qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html#3404"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03801] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03404] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03805"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#3805"
+   "c1" : "03408"
+ , "c1link" : "./qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html#3408"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03805] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03408] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03827"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#3827"
+   "c1" : "03430"
+ , "c1link" : "./qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html#3430"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03827] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03430] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03827"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#3827"
+   "c1" : "03430"
+ , "c1link" : "./qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html#3430"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03827] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03430] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03851"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#3851"
+   "c1" : "03454"
+ , "c1link" : "./qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html#3454"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03851] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03454] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03857"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#3857"
+   "c1" : "03460"
+ , "c1link" : "./qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html#3460"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03857] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03460] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03882"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#3882"
+   "c1" : "03485"
+ , "c1link" : "./qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html#3485"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03882] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03485] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03886"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#3886"
+   "c1" : "03489"
+ , "c1link" : "./qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html#3489"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03886] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03489] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08929"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#8929"
+   "c1" : "06085"
+ , "c1link" : "./qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html#6085"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08929] The pointer ctx is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08955"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#8955"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08955] The pointer sdst is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08994"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#8994"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08994] The expression ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "09082"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#9082"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09082] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09084"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#9084"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09084] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09091"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#9091"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09091] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09098"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#9098"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09098] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09163"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#9163"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09163] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09173"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#9173"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09173] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09180"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#9180"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09180] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09187"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#9187"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09187] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[06085] The pointer kdfdata is declared but not initialized"
 }} 
 ]
 };

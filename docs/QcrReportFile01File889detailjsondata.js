@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/providers/implementations/ciphers/cipher_tdes.c.html" 
- , "texte" : "File providers/implementations/ciphers/cipher_tdes.c 41 rule violations " 
- , "fic2"  : "./qc/providers/implementations/ciphers/cipher_tdes.c.xml" 
+   "fic1"  : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html" 
+ , "texte" : "File providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c 45 rule violations " 
+ , "fic2"  : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -40,9 +40,16 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : {
    "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : {
+   "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "37"
+ , "c4" : "39"
 }}
 ,
 { "ligne" : {
@@ -62,290 +69,318 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "01219"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#1219"
+   "c1" : "01609"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#1609"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01609] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01614"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#1614"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01614] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01639"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#1639"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01639] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01643"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#1643"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01643] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01646"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#1646"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01646] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01671"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#1671"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01671] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01675"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#1675"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01675] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01679"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#1679"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01679] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "01687"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#1687"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01687] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {
+   "c1" : "02730"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#2730"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01219] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[02730] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01382"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#1382"
+   "c1" : "02893"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#2893"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01382] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02893] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01409"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#1409"
+   "c1" : "02896"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#2896"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01409] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02896] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01413"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#1413"
+   "c1" : "02920"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#2920"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01413] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02920] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01435"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#1435"
+   "c1" : "02924"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#2924"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01435] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02924] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01435"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#1435"
+   "c1" : "02946"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#2946"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01435] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02946] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01459"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#1459"
+   "c1" : "02946"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#2946"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01459] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02946] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01465"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#1465"
+   "c1" : "02970"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#2970"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01465] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02970] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01490"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#1490"
+   "c1" : "02976"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#2976"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01490] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02976] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01494"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#1494"
+   "c1" : "03001"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#3001"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01494] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03001] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02838"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#2838"
+   "c1" : "03005"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#3005"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02838] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03005] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02843"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#2843"
+   "c1" : "08125"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#8125"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02843] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[08125] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02868"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#2868"
+   "c1" : "09483"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#9483"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02868] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09483] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02872"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#2872"
+   "c1" : "09488"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#9488"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02872] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000012[09488] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02875"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#2875"
+   "c1" : "09513"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#9513"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02875] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09513] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02900"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#2900"
+   "c1" : "09518"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#9518"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02900] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02904"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#2904"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02904] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02908"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#2908"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02908] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02916"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#2916"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02916] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08184"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#8184"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08184] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09542"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#9542"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09542] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09518] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
    "c1" : "09547"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#9547"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#9547"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09547] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09547] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09572"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#9572"
+   "c1" : "09552"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#9552"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09572] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09552] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09577"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#9577"
+   "c1" : "09573"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#9573"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09577] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09573] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09606"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#9606"
+   "c1" : "09578"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#9578"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09606] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09578] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09611"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#9611"
+   "c1" : "09594"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#9594"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09611] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09594] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09632"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#9632"
+   "c1" : "09613"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#9613"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09632] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09613] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09637"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#9637"
+   "c1" : "09618"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#9618"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09637] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09618] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09653"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#9653"
+   "c1" : "09638"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#9638"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09653] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09638] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09672"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#9672"
+   "c1" : "09643"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#9643"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09672] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09643] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09677"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#9677"
+   "c1" : "09664"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#9664"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09677] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09664] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09697"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#9697"
+   "c1" : "09669"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#9669"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09697] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09669] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09702"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#9702"
+   "c1" : "09690"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#9690"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09702] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09690] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09723"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#9723"
+   "c1" : "09695"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#9695"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09723] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09695] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09728"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#9728"
+   "c1" : "09717"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#9717"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09728] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09717] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09749"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#9749"
+   "c1" : "09722"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#9722"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09749] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09722] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09754"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#9754"
+   "c1" : "09746"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#9746"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09754] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09746] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09776"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#9776"
+   "c1" : "09751"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#9751"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09776] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09751] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09781"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#9781"
+   "c1" : "10636"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#10636"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09781] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000011[10636] The expression ctx-&gt;base.enc applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "09805"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#9805"
+   "c1" : "10670"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#10670"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09805] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[10670] The expression 16 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09810"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes.c.html#9810"
+   "c1" : "10693"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hmac_md5_hw.c.html#10693"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09810] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000011[10693] The expression  ! bctx-&gt;enc applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };
