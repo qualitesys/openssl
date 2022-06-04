@@ -24,6 +24,10 @@ OpenSSL 3.1
 
 ### Changes between 3.0 and 3.1 [xx XXX xxxx]
 
+ * Add more SRTP protection profiles from RFC8723 and RFC8269.
+
+   *Kijin Kim*
+
  * Extended Kernel TLS (KTLS) to support TLS 1.3 receive offload.
 
    *Daiki Ueno, John Baldwin and Dmitry Podgorny*
@@ -118,7 +122,21 @@ breaking changes, and mappings for the large list of deprecated functions.
 
 [Migration guide]: https://github.com/openssl/openssl/tree/master/doc/man7/migration_guide.pod
 
+### Changes between 3.0.3 and 3.0.4
+
+ * Case insensitive string comparison no longer uses locales.  It has instead
+   been directly implemented.
+
+   *Paul Dale*
+
 ### Changes between 3.0.2 and 3.0.3
+
+ * Case insensitive string comparison is reimplemented via new locale-agnostic
+   comparison functions OPENSSL_str[n]casecmp always using the POSIX locale for
+   comparison. The previous implementation had problems when the Turkish locale
+   was used.
+
+   *Dmitry Belyavskiy*
 
  * Fixed a bug in the c_rehash script which was not properly sanitising shell
    metacharacters to prevent command injection.  This script is distributed by

@@ -170,7 +170,7 @@ DEFINE_RUN_ONCE_STATIC(ossl_init_load_crypto_nodelete)
 }
 
 static CRYPTO_ONCE load_crypto_strings = CRYPTO_ONCE_STATIC_INIT;
-static int load_crypto_strings_inited = 0;
+
 DEFINE_RUN_ONCE_STATIC(ossl_init_load_crypto_strings)
 {
     int ret = 1;
@@ -181,7 +181,6 @@ DEFINE_RUN_ONCE_STATIC(ossl_init_load_crypto_strings)
 #if !defined(OPENSSL_NO_ERR) && !defined(OPENSSL_NO_AUTOERRINIT)
     OSSL_TRACE(INIT, "ossl_err_load_crypto_strings()\n");
     ret = ossl_err_load_crypto_strings();
-    load_crypto_strings_inited = 1;
 #endif
     return ret;
 }
@@ -271,15 +270,6 @@ DEFINE_RUN_ONCE_STATIC(ossl_init_async)
     return 1;
 }
 
-static CRYPTO_ONCE casecmp = CRYPTO_ONCE_STATIC_INIT;
-static int casecmp_inited = 0;
-DEFINE_RUN_ONCE_STATIC(ossl_init_casecmp)
-{
-    int ret = ossl_init_casecmp_int();
-
-    casecmp_inited = 1;
-    return ret;
-}
 #ifndef OPENSSL_NO_ENGINE
 static CRYPTO_ONCE engine_openssl = CRYPTO_ONCE_STATIC_INIT;
 DEFINE_RUN_ONCE_STATIC(ossl_init_engine_openssl)
@@ -397,11 +387,6 @@ void OPENSSL_cleanup(void)
         async_deinit();
     }
 
-    if (load_crypto_strings_inited) {
-        OSSL_TRACE(INIT, "OPENSSL_cleanup: err_free_strings_int()\n");
-        err_free_strings_int();
-    }
-
     /*
      * Note that cleanup order is important:
      * - ossl_rand_cleanup_int could call an ENGINE's RAND cleanup function so
@@ -457,11 +442,6 @@ void OPENSSL_cleanup(void)
     OSSL_TRACE(INIT, "OPENSSL_cleanup: ossl_trace_cleanup()\n");
     ossl_trace_cleanup();
 
-    if (casecmp_inited) {
-        OSSL_TRACE(INIT, "OPENSSL_cleanup: ossl_deinit_casecmp()\n");
-        ossl_deinit_casecmp();
-    }
-
     base_inited = 0;
 }
 
@@ -474,9 +454,6 @@ int OPENSSL_init_crypto(uint64_t opts, const OPENSSL_INIT_SETTINGS *settings)
 {
     uint64_t tmp;
     int aloaddone = 0;
-    if (!RUN_ONCE(&casecmp, ossl_init_casecmp))
-        return 0;
-
 
    /* Applications depend on 0 being returned when cleanup was already done */
     if (stopped) {
