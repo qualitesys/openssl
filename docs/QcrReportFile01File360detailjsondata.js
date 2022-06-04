@@ -209,101 +209,101 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "04566"
- , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#4566"
+   "c1" : "04570"
+ , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#4570"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04566] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[04570] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04962"
- , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#4962"
+   "c1" : "04966"
+ , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#4966"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[04962] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[04966] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04963"
- , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#4963"
+   "c1" : "04967"
+ , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#4967"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[04963] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[04967] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05130"
- , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#5130"
+   "c1" : "05134"
+ , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#5134"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05130] The expression n applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[05134] The expression n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "05143"
- , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#5143"
+   "c1" : "05147"
+ , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#5147"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05143] The expression 9999&lt;3 is invariable"
+ , "c3" : "QC-CPP000012[05147] The expression 9999&lt;3 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06031"
- , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#6031"
+   "c1" : "06035"
+ , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#6035"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06031] The expression assert_nonzero applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06035] The expression assert_nonzero applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06061"
- , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#6061"
+   "c1" : "06065"
+ , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#6065"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06061] The expression 9999==5 is invariable"
+ , "c3" : "QC-CPP000012[06065] The expression 9999==5 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06066"
- , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#6066"
+   "c1" : "06070"
+ , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#6070"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06066] The expression  ! before_double applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06070] The expression  ! before_double applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06127"
- , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#6127"
+   "c1" : "06131"
+ , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#6131"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06127] The expression  ! before_double applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06131] The expression  ! before_double applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06148"
- , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#6148"
+   "c1" : "06152"
+ , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#6152"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06148] The expression  ! before_double applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06152] The expression  ! before_double applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06624"
- , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#6624"
+   "c1" : "06628"
+ , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#6628"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06624] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[06628] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06627"
- , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#6627"
+   "c1" : "06631"
+ , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#6631"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06627] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[06631] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06646"
- , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#6646"
+   "c1" : "06650"
+ , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#6650"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06646] The expression cv applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06650] The expression cv applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "06664"
- , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#6664"
+   "c1" : "06668"
+ , "c1link" : "./qc/crypto/ec/curve448/curve448.c.html#6668"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[06664] The expression cp applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[06668] The expression cp applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

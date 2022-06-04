@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/aria/aria.c.html" 
- , "texte" : "File crypto/aria/aria.c 164 rule violations " 
+ , "texte" : "File crypto/aria/aria.c 163 rule violations " 
  , "fic2"  : "./qc/crypto/aria/aria.c.xml" 
  , "fic3"  : "" 
 }
@@ -50,13 +50,6 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "77"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000020"
- , "c3" : "Infinite loop risk, the condition must be bounded"
- , "c4" : "1"
 }}
 ,
 { "ligne" : {
@@ -192,13 +185,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/aria/aria.c.html#1092"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[01092] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01092"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1092"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000020[01092] Infinite loop risk, the assignement condition must be bounded to lower value"
 }} 
 ,
 { "ligne" : {

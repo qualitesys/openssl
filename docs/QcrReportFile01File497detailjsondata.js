@@ -160,31 +160,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03619"
- , "c1link" : "./qc/crypto/evp/mac_lib.c.html#3619"
+   "c1" : "03623"
+ , "c1link" : "./qc/crypto/evp/mac_lib.c.html#3623"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[03619] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[03623] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03782"
- , "c1link" : "./qc/crypto/evp/mac_lib.c.html#3782"
+   "c1" : "03786"
+ , "c1link" : "./qc/crypto/evp/mac_lib.c.html#3786"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03782] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03786] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03785"
- , "c1link" : "./qc/crypto/evp/mac_lib.c.html#3785"
+   "c1" : "03789"
+ , "c1link" : "./qc/crypto/evp/mac_lib.c.html#3789"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03785] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03809"
- , "c1link" : "./qc/crypto/evp/mac_lib.c.html#3809"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03809] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03789] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
@@ -195,38 +188,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "03835"
- , "c1link" : "./qc/crypto/evp/mac_lib.c.html#3835"
+   "c1" : "03817"
+ , "c1link" : "./qc/crypto/evp/mac_lib.c.html#3817"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03835] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03817] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03835"
- , "c1link" : "./qc/crypto/evp/mac_lib.c.html#3835"
+   "c1" : "03839"
+ , "c1link" : "./qc/crypto/evp/mac_lib.c.html#3839"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03835] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03839] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03859"
- , "c1link" : "./qc/crypto/evp/mac_lib.c.html#3859"
+   "c1" : "03839"
+ , "c1link" : "./qc/crypto/evp/mac_lib.c.html#3839"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03859] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03839] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03865"
- , "c1link" : "./qc/crypto/evp/mac_lib.c.html#3865"
+   "c1" : "03863"
+ , "c1link" : "./qc/crypto/evp/mac_lib.c.html#3863"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03865] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03863] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03890"
- , "c1link" : "./qc/crypto/evp/mac_lib.c.html#3890"
+   "c1" : "03869"
+ , "c1link" : "./qc/crypto/evp/mac_lib.c.html#3869"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03890] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03869] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
@@ -237,45 +230,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "09666"
- , "c1link" : "./qc/crypto/evp/mac_lib.c.html#9666"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09666] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09716"
- , "c1link" : "./qc/crypto/evp/mac_lib.c.html#9716"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09716] The pointer dst is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09922"
- , "c1link" : "./qc/crypto/evp/mac_lib.c.html#9922"
+   "c1" : "03898"
+ , "c1link" : "./qc/crypto/evp/mac_lib.c.html#3898"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[09922] The expression xof applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[03898] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10068"
- , "c1link" : "./qc/crypto/evp/mac_lib.c.html#10068"
+   "c1" : "09685"
+ , "c1link" : "./qc/crypto/evp/mac_lib.c.html#9685"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09685] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09735"
+ , "c1link" : "./qc/crypto/evp/mac_lib.c.html#9735"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09735] The pointer dst is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "09941"
+ , "c1link" : "./qc/crypto/evp/mac_lib.c.html#9941"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10068] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000011[09941] The expression xof applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10119"
- , "c1link" : "./qc/crypto/evp/mac_lib.c.html#10119"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10119] goto statement jump to err"
+   "c1" : "10087"
+ , "c1link" : "./qc/crypto/evp/mac_lib.c.html#10087"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[10087] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10132"
- , "c1link" : "./qc/crypto/evp/mac_lib.c.html#10132"
+   "c1" : "10138"
+ , "c1link" : "./qc/crypto/evp/mac_lib.c.html#10138"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10132] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[10138] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10151"
+ , "c1link" : "./qc/crypto/evp/mac_lib.c.html#10151"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10151] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

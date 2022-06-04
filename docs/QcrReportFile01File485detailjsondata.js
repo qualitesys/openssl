@@ -216,255 +216,255 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05927"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#5927"
+   "c1" : "05931"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#5931"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05927] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[05931] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05932"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#5932"
+   "c1" : "05936"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#5936"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05932] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[05936] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05957"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#5957"
+   "c1" : "05961"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#5961"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05957] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05961] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05962"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#5962"
+   "c1" : "05966"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#5966"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05962] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05966] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05991"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#5991"
+   "c1" : "05995"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#5995"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05991] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05995] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05996"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#5996"
+   "c1" : "06000"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6000"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05996] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06000] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06017"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6017"
+   "c1" : "06021"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6021"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06017] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06021] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06022"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6022"
+   "c1" : "06026"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6026"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06022] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06026] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06038"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6038"
+   "c1" : "06042"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6042"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06038] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06042] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06057"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6057"
+   "c1" : "06061"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6061"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06057] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06061] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06062"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6062"
+   "c1" : "06066"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6066"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06062] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06066] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06082"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6082"
+   "c1" : "06086"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6086"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06082] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06086] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06087"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6087"
+   "c1" : "06091"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6091"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06087] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06091] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06108"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6108"
+   "c1" : "06112"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6112"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06108] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06112] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06113"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6113"
+   "c1" : "06117"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6117"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06113] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06117] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06134"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6134"
+   "c1" : "06138"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6138"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06134] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06138] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06139"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6139"
+   "c1" : "06143"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6143"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06139] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06143] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06161"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6161"
+   "c1" : "06165"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6165"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06161] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06165] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06166"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6166"
+   "c1" : "06170"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6170"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06166] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06170] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06190"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6190"
+   "c1" : "06194"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6194"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06190] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06194] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06195"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6195"
+   "c1" : "06199"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#6199"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06195] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06199] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11509"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#11509"
+   "c1" : "11532"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#11532"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11509] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11532] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11528"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#11528"
+   "c1" : "11551"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#11551"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11528] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[11551] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11538"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#11538"
+   "c1" : "11561"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#11561"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11538] The expression delete_on_error applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11561] The expression delete_on_error applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11596"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#11596"
+   "c1" : "11619"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#11619"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11596] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11619] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11632"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#11632"
+   "c1" : "11655"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#11655"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11632] The pointer op is declared but not initialized"
+ , "c3" : "QC-CPP000014[11655] The pointer op is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11729"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#11729"
+   "c1" : "11752"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#11752"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11729] The expression ((0x01|0x02)|(0x04|0x80)) is invariable"
+ , "c3" : "QC-CPP000012[11752] The expression ((0x01|0x02)|(0x04|0x80)) is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11837"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#11837"
+   "c1" : "11860"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#11860"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11837] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[11860] The pointer p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11946"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#11946"
+   "c1" : "11969"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#11969"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11946] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11969] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12082"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#12082"
+   "c1" : "12105"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#12105"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12082] The expression ok applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[12105] The expression ok applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12122"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#12122"
+   "c1" : "12145"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#12145"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12122] The expression ok applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[12145] The expression ok applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12203"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#12203"
+   "c1" : "12226"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#12226"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12203] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12226] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12233"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#12233"
+   "c1" : "12256"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#12256"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12233] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12256] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12267"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#12267"
+   "c1" : "12290"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#12290"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12267] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12290] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12317"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#12317"
+   "c1" : "12340"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#12340"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12317] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[12340] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12323"
- , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#12323"
+   "c1" : "12346"
+ , "c1link" : "./qc/crypto/evp/keymgmt_lib.c.html#12346"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12323] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[12346] The expression 0 is invariable, always false"
 }} 
 ]
 };

@@ -223,241 +223,241 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08343"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#8343"
+   "c1" : "08388"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#8388"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08343] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[08388] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12491"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12491"
+   "c1" : "12550"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12550"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12491] The pointer param_pub_key is declared but not initialized"
+ , "c3" : "QC-CPP000014[12550] The pointer param_pub_key is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12509"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12509"
+   "c1" : "12568"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12568"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12509] The expression include_private applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[12568] The expression include_private applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "12533"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12533"
+   "c1" : "12592"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12592"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12533] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12592] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12539"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12539"
+   "c1" : "12598"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12598"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12539] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12598] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12542"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12542"
+   "c1" : "12601"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12601"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12542] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12601] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12571"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12571"
+   "c1" : "12630"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12630"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12571] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12596"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12596"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12596] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12609"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12609"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12609] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12616"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12616"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12616] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12621"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12621"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12621] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12624"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12624"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12624] The expression 7 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12626"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12626"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12626] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12644"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12644"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12644] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12644"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12644"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12644] The pointer pm is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12644"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12644"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12644] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12647"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12647"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12647] The pointer pval is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12648"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12648"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12648] The pointer pstr is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12649"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12649"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12649] The pointer palg is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[12630] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "12655"
  , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12655"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12655] The pointer dsa_p is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[12655] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12655"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12655"
+   "c1" : "12668"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12668"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12655] The pointer dsa_g is declared but not initialized"
+ , "c3" : "QC-CPP000007[12668] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12689"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12689"
+   "c1" : "12675"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12675"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12689] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[12675] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12698"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12698"
+   "c1" : "12680"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12680"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12698] goto statement jump to decerr"
+ , "c3" : "QC-CPP000007[12680] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12700"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12700"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12700] goto statement jump to decerr"
+   "c1" : "12683"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12683"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[12683] The expression 7 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12705"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12705"
+   "c1" : "12685"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12685"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12705] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[12685] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12703"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12703"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[12703] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12703"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12703"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[12703] The pointer pm is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12703"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12703"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[12703] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12706"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12706"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[12706] The pointer pval is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12707"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12707"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[12707] The pointer pstr is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12708"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12708"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[12708] The pointer palg is declared but not initialized"
 }} 
 ,
 { "ligne" : {
    "c1" : "12714"
  , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12714"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12714] goto statement jump to decerr"
+ , "c3" : "QC-CPP000014[12714] The pointer dsa_p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12716"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12716"
+   "c1" : "12714"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12714"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12716] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[12714] The pointer dsa_g is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12727"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12727"
+   "c1" : "12748"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12748"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12727] goto statement jump to dsaerr"
+ , "c3" : "QC-CPPCWE481[12748] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12730"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12730"
+   "c1" : "12757"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12757"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12730] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000007[12757] goto statement jump to decerr"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12740"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12740"
+   "c1" : "12759"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12759"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12740] goto statement jump to dsaerr"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12742"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12742"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12742] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12752"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12752"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12752] goto statement jump to dsaerr"
+ , "c3" : "QC-CPP000007[12759] goto statement jump to decerr"
 }} 
 ,
 { "ligne" : {
    "c1" : "12764"
  , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12764"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12764] goto statement jump to dsaerr"
+ , "c3" : "QC-CPPCWE481[12764] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12768"
- , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12768"
+   "c1" : "12773"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12773"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12768] goto statement jump to done"
+ , "c3" : "QC-CPP000007[12773] goto statement jump to decerr"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12775"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12775"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[12775] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12786"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12786"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12786] goto statement jump to dsaerr"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12789"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12789"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[12789] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12799"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12799"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12799] goto statement jump to dsaerr"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12801"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12801"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[12801] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12811"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12811"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12811] goto statement jump to dsaerr"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12823"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12823"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12823] goto statement jump to dsaerr"
+}} 
+,
+{ "ligne" : {
+   "c1" : "12827"
+ , "c1link" : "./qc/crypto/dsa/dsa_backend.c.html#12827"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12827] goto statement jump to done"
 }} 
 ]
 };

@@ -216,227 +216,227 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05925"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#5925"
+   "c1" : "05929"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#5929"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05925] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[05929] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05930"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#5930"
+   "c1" : "05934"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#5934"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05930] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[05934] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05955"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#5955"
+   "c1" : "05959"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#5959"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05955] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05959] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05960"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#5960"
+   "c1" : "05964"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#5964"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05960] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05964] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05989"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#5989"
+   "c1" : "05993"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#5993"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05989] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05993] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05994"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#5994"
+   "c1" : "05998"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#5998"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05994] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05998] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06015"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6015"
+   "c1" : "06019"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6019"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06015] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06019] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06020"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6020"
+   "c1" : "06024"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6024"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06020] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06024] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06036"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6036"
+   "c1" : "06040"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6040"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06036] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06040] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06055"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6055"
+   "c1" : "06059"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6059"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06055] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06059] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06060"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6060"
+   "c1" : "06064"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6064"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06060] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06064] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06080"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6080"
+   "c1" : "06084"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6084"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06080] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06084] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06085"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6085"
+   "c1" : "06089"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6089"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06085] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06089] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06106"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6106"
+   "c1" : "06110"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6110"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06106] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06110] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06111"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6111"
+   "c1" : "06115"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6115"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06111] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06115] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06132"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6132"
+   "c1" : "06136"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6136"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06132] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06136] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06137"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6137"
+   "c1" : "06141"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6141"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06137] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06141] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06159"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6159"
+   "c1" : "06163"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6163"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06159] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06163] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06164"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6164"
+   "c1" : "06168"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6168"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06164] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06168] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06188"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6188"
+   "c1" : "06192"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6192"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06188] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06192] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06193"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6193"
+   "c1" : "06197"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#6197"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06193] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06197] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07965"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#7965"
+   "c1" : "07986"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#7986"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07965] The pointer ap is declared but not initialized"
+ , "c3" : "QC-CPP000014[07986] The pointer ap is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07965"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#7965"
+   "c1" : "07986"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#7986"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07965] The pointer rp is declared but not initialized"
+ , "c3" : "QC-CPP000014[07986] The pointer rp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08004"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#8004"
+   "c1" : "08025"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#8025"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08004] The pointer ap is declared but not initialized"
+ , "c3" : "QC-CPP000014[08025] The pointer ap is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08004"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#8004"
+   "c1" : "08025"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#8025"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08004] The pointer rp is declared but not initialized"
+ , "c3" : "QC-CPP000014[08025] The pointer rp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08036"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#8036"
+   "c1" : "08057"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#8057"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08036] The expression  ! r-&gt;top applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08057] The expression  ! r-&gt;top applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08073"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#8073"
+   "c1" : "08094"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#8094"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08073] The pointer t is declared but not initialized"
+ , "c3" : "QC-CPP000014[08094] The pointer t is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08073"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#8073"
+   "c1" : "08094"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#8094"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08073] The pointer f is declared but not initialized"
+ , "c3" : "QC-CPP000014[08094] The pointer f is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08118"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#8118"
+   "c1" : "08139"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#8139"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000009[08118] Suspicious bitwise assignment with value 0, result is aa |=0 = aa"
+ , "c3" : "QC-CPP000009[08139] Suspicious bitwise assignment with value 0, result is aa |=0 = aa"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08154"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#8154"
+   "c1" : "08175"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#8175"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08154] The pointer t is declared but not initialized"
+ , "c3" : "QC-CPP000014[08175] The pointer t is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08154"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#8154"
+   "c1" : "08175"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#8175"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08154] The pointer f is declared but not initialized"
+ , "c3" : "QC-CPP000014[08175] The pointer f is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08198"
- , "c1link" : "./qc/crypto/bn/bn_shift.c.html#8198"
+   "c1" : "08219"
+ , "c1link" : "./qc/crypto/bn/bn_shift.c.html#8219"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000009[08198] Suspicious bitwise assignment with value 0, result is aa |=0 = aa"
+ , "c3" : "QC-CPP000009[08219] Suspicious bitwise assignment with value 0, result is aa |=0 = aa"
 }} 
 ]
 };

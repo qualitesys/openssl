@@ -83,10 +83,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "05413"
- , "c1link" : "./qc/crypto/ec/curve448/scalar.c.html#5413"
+   "c1" : "05417"
+ , "c1link" : "./qc/crypto/ec/curve448/scalar.c.html#5417"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[05413] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ec/curve448/scalar.c near following tokens c448_word_t ) chain ; chain __= 64 ; } } static void sc_montmul ( curve448_scalar_t out , const curve448_scalar_t a , "
+ , "c3" : "QC-CPP999999[05417] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ec/curve448/scalar.c near following tokens c448_word_t ) chain ; chain __= 64 ; } } static void sc_montmul ( curve448_scalar_t out , const curve448_scalar_t a , "
 }} 
 ,
 { "ligne" : {
@@ -223,38 +223,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "04567"
- , "c1link" : "./qc/crypto/ec/curve448/scalar.c.html#4567"
+   "c1" : "04571"
+ , "c1link" : "./qc/crypto/ec/curve448/scalar.c.html#4571"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04567] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[04571] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04963"
- , "c1link" : "./qc/crypto/ec/curve448/scalar.c.html#4963"
+   "c1" : "04967"
+ , "c1link" : "./qc/crypto/ec/curve448/scalar.c.html#4967"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[04963] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[04967] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04964"
- , "c1link" : "./qc/crypto/ec/curve448/scalar.c.html#4964"
+   "c1" : "04968"
+ , "c1link" : "./qc/crypto/ec/curve448/scalar.c.html#4968"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[04964] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[04968] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05133"
- , "c1link" : "./qc/crypto/ec/curve448/scalar.c.html#5133"
+   "c1" : "05137"
+ , "c1link" : "./qc/crypto/ec/curve448/scalar.c.html#5137"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05133] The expression n applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[05137] The expression n applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "05146"
- , "c1link" : "./qc/crypto/ec/curve448/scalar.c.html#5146"
+   "c1" : "05150"
+ , "c1link" : "./qc/crypto/ec/curve448/scalar.c.html#5150"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05146] The expression 9999&lt;3 is invariable"
+ , "c3" : "QC-CPP000012[05150] The expression 9999&lt;3 is invariable"
 }} 
 ]
 };

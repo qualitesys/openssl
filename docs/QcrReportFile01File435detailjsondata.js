@@ -216,318 +216,318 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08069"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#8069"
+   "c1" : "08080"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#8080"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08069] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[08080] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09427"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9427"
+   "c1" : "09438"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9438"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09427] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09438] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09432"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9432"
+   "c1" : "09443"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9443"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09432] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09443] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09457"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9457"
+   "c1" : "09468"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9468"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09457] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09468] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09462"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9462"
+   "c1" : "09473"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9473"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09462] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09473] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09491"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9491"
+   "c1" : "09502"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9502"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09491] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09502] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09496"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9496"
+   "c1" : "09507"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9507"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09496] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09507] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09517"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9517"
+   "c1" : "09528"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9528"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09517] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09528] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09522"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9522"
+   "c1" : "09533"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9533"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09522] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09533] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09538"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9538"
+   "c1" : "09549"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9549"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09538] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09549] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09557"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9557"
+   "c1" : "09568"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9568"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09557] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09568] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09562"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9562"
+   "c1" : "09573"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9573"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09562] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09573] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09582"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9582"
+   "c1" : "09593"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9593"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09582] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09593] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09587"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9587"
+   "c1" : "09598"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9598"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09587] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09598] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09608"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9608"
+   "c1" : "09619"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9619"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09608] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09619] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09613"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9613"
+   "c1" : "09624"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9624"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09613] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09624] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09634"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9634"
+   "c1" : "09645"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9645"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09634] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09645] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09639"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9639"
+   "c1" : "09650"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9650"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09639] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09650] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09661"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9661"
+   "c1" : "09672"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9672"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09661] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09672] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09666"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9666"
+   "c1" : "09677"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9677"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09666] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09677] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09690"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9690"
+   "c1" : "09701"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9701"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09690] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09701] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09695"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9695"
+   "c1" : "09706"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#9706"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09695] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09706] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11549"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11549"
+   "c1" : "11572"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11572"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11549] goto statement jump to legacy"
+ , "c3" : "QC-CPP000007[11572] goto statement jump to legacy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11562"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11562"
+   "c1" : "11585"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11585"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11562] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11585] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11580"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11580"
+   "c1" : "11603"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11603"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11580] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11603] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11596"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11596"
+   "c1" : "11619"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11619"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11596] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11619] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11608"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11608"
+   "c1" : "11631"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11631"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11608] The pointer tmp_keymgmt_tofree is declared but not initialized"
+ , "c3" : "QC-CPP000014[11631] The pointer tmp_keymgmt_tofree is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11639"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11639"
+   "c1" : "11662"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11662"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11639] goto statement jump to legacy"
+ , "c3" : "QC-CPP000007[11662] goto statement jump to legacy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11649"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11649"
+   "c1" : "11672"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11672"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11649] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11672] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11674"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11674"
+   "c1" : "11697"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11697"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11674] goto statement jump to legacy"
+ , "c3" : "QC-CPP000007[11697] goto statement jump to legacy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11694"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11694"
+   "c1" : "11717"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11717"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11694] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11717] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11710"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11710"
+   "c1" : "11733"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11733"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11710] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11733] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11726"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11726"
+   "c1" : "11749"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11749"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11726] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11749] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11736"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11736"
+   "c1" : "11759"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11759"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11736] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11759] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11740"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11740"
+   "c1" : "11763"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11763"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11740] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11763] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11792"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11792"
+   "c1" : "11815"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11815"
  , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[11792] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-CPPCWE484[11815] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11857"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11857"
+   "c1" : "11880"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11880"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11857] goto statement jump to legacy"
+ , "c3" : "QC-CPP000007[11880] goto statement jump to legacy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11947"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11947"
+   "c1" : "11970"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#11970"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11947] goto statement jump to legacy"
+ , "c3" : "QC-CPP000007[11970] goto statement jump to legacy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12050"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#12050"
+   "c1" : "12073"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#12073"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12050] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12073] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12060"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#12060"
+   "c1" : "12083"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#12083"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12060] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12083] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12064"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#12064"
+   "c1" : "12087"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#12087"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12064] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[12087] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12069"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#12069"
+   "c1" : "12092"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#12092"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12069] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12092] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12201"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#12201"
+   "c1" : "12224"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#12224"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12201] goto statement jump to err"
+ , "c3" : "QC-CPP000007[12224] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12319"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#12319"
+   "c1" : "12342"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#12342"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12319] The pointer provctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[12342] The pointer provctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "12346"
- , "c1link" : "./qc/crypto/evp/asymcipher.c.html#12346"
+   "c1" : "12369"
+ , "c1link" : "./qc/crypto/evp/asymcipher.c.html#12369"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12346] The pointer provctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[12369] The pointer provctx is declared but not initialized"
 }} 
 ]
 };

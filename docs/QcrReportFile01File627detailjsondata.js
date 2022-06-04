@@ -209,164 +209,164 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05947"
- , "c1link" : "./qc/crypto/property/property_query.c.html#5947"
+   "c1" : "05951"
+ , "c1link" : "./qc/crypto/property/property_query.c.html#5951"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05947] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[05951] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05952"
- , "c1link" : "./qc/crypto/property/property_query.c.html#5952"
+   "c1" : "05956"
+ , "c1link" : "./qc/crypto/property/property_query.c.html#5956"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05952] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[05956] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05977"
- , "c1link" : "./qc/crypto/property/property_query.c.html#5977"
+   "c1" : "05981"
+ , "c1link" : "./qc/crypto/property/property_query.c.html#5981"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05977] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05981] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05982"
- , "c1link" : "./qc/crypto/property/property_query.c.html#5982"
+   "c1" : "05986"
+ , "c1link" : "./qc/crypto/property/property_query.c.html#5986"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05982] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05986] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06011"
- , "c1link" : "./qc/crypto/property/property_query.c.html#6011"
+   "c1" : "06015"
+ , "c1link" : "./qc/crypto/property/property_query.c.html#6015"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06011] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06015] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06016"
- , "c1link" : "./qc/crypto/property/property_query.c.html#6016"
+   "c1" : "06020"
+ , "c1link" : "./qc/crypto/property/property_query.c.html#6020"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06016] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06020] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06037"
- , "c1link" : "./qc/crypto/property/property_query.c.html#6037"
+   "c1" : "06041"
+ , "c1link" : "./qc/crypto/property/property_query.c.html#6041"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06037] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06041] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06042"
- , "c1link" : "./qc/crypto/property/property_query.c.html#6042"
+   "c1" : "06046"
+ , "c1link" : "./qc/crypto/property/property_query.c.html#6046"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06042] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06046] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06058"
- , "c1link" : "./qc/crypto/property/property_query.c.html#6058"
+   "c1" : "06062"
+ , "c1link" : "./qc/crypto/property/property_query.c.html#6062"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06058] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06062] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06077"
- , "c1link" : "./qc/crypto/property/property_query.c.html#6077"
+   "c1" : "06081"
+ , "c1link" : "./qc/crypto/property/property_query.c.html#6081"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06077] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06081] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06082"
- , "c1link" : "./qc/crypto/property/property_query.c.html#6082"
+   "c1" : "06086"
+ , "c1link" : "./qc/crypto/property/property_query.c.html#6086"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06082] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06086] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06102"
- , "c1link" : "./qc/crypto/property/property_query.c.html#6102"
+   "c1" : "06106"
+ , "c1link" : "./qc/crypto/property/property_query.c.html#6106"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06102] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06106] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06107"
- , "c1link" : "./qc/crypto/property/property_query.c.html#6107"
+   "c1" : "06111"
+ , "c1link" : "./qc/crypto/property/property_query.c.html#6111"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06107] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06111] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06128"
- , "c1link" : "./qc/crypto/property/property_query.c.html#6128"
+   "c1" : "06132"
+ , "c1link" : "./qc/crypto/property/property_query.c.html#6132"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06128] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06132] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06133"
- , "c1link" : "./qc/crypto/property/property_query.c.html#6133"
+   "c1" : "06137"
+ , "c1link" : "./qc/crypto/property/property_query.c.html#6137"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06133] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06137] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06154"
- , "c1link" : "./qc/crypto/property/property_query.c.html#6154"
+   "c1" : "06158"
+ , "c1link" : "./qc/crypto/property/property_query.c.html#6158"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06154] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06158] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06159"
- , "c1link" : "./qc/crypto/property/property_query.c.html#6159"
+   "c1" : "06163"
+ , "c1link" : "./qc/crypto/property/property_query.c.html#6163"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06159] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06163] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06181"
- , "c1link" : "./qc/crypto/property/property_query.c.html#6181"
+   "c1" : "06185"
+ , "c1link" : "./qc/crypto/property/property_query.c.html#6185"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06181] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06185] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06186"
- , "c1link" : "./qc/crypto/property/property_query.c.html#6186"
+   "c1" : "06190"
+ , "c1link" : "./qc/crypto/property/property_query.c.html#6190"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06186] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06190] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06210"
- , "c1link" : "./qc/crypto/property/property_query.c.html#6210"
+   "c1" : "06214"
+ , "c1link" : "./qc/crypto/property/property_query.c.html#6214"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06210] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06214] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06215"
- , "c1link" : "./qc/crypto/property/property_query.c.html#6215"
+   "c1" : "06219"
+ , "c1link" : "./qc/crypto/property/property_query.c.html#6219"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06215] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06219] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07924"
- , "c1link" : "./qc/crypto/property/property_query.c.html#7924"
+   "c1" : "07945"
+ , "c1link" : "./qc/crypto/property/property_query.c.html#7945"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07924] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07945] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07980"
- , "c1link" : "./qc/crypto/property/property_query.c.html#7980"
+   "c1" : "08001"
+ , "c1link" : "./qc/crypto/property/property_query.c.html#8001"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07980] The pointer prop is declared but not initialized"
+ , "c3" : "QC-CPP000014[08001] The pointer prop is declared but not initialized"
 }} 
 ]
 };

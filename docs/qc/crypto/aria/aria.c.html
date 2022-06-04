@@ -18,7 +18,7 @@
 <a name="18">18&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br/>
 <a name="19">19&nbsp;&nbsp;&nbsp;</a><br/>
 <a name="20">20&nbsp;&nbsp;&nbsp;#&nbsp;1&nbsp;"include/openssl/configuration.h"&nbsp;1</a><br/>
-<a name="21">21&nbsp;&nbsp;&nbsp;#&nbsp;15&nbsp;"include/openssl/configuration.h"</a><br/>
+<a name="21">21&nbsp;&nbsp;&nbsp;#&nbsp;16&nbsp;"include/openssl/configuration.h"</a><br/>
 <a name="22">22&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br/>
 <a name="23">23&nbsp;&nbsp;&nbsp;#&nbsp;15&nbsp;"include/openssl/opensslconf.h"&nbsp;2</a><br/>
 <a name="24">24&nbsp;&nbsp;&nbsp;#&nbsp;15&nbsp;"include/openssl/macros.h"&nbsp;2</a><br/>
@@ -348,9 +348,9 @@
 <a name="348">348&nbsp;&nbsp;&nbsp;#&nbsp;432&nbsp;"/usr/include/inttypes.h"&nbsp;3&nbsp;4</a><br/>
 <a name="349">349&nbsp;&nbsp;&nbsp;</a><br/>
 <a name="350">350&nbsp;&nbsp;&nbsp;#&nbsp;235&nbsp;"include/openssl/e_os2.h"&nbsp;2</a><br/>
-<a name="351">351&nbsp;&nbsp;&nbsp;#&nbsp;257&nbsp;"include/openssl/e_os2.h"</a><br/>
+<a name="351">351&nbsp;&nbsp;&nbsp;#&nbsp;260&nbsp;"include/openssl/e_os2.h"</a><br/>
 <a name="352">352&nbsp;&nbsp;&nbsp;</a><br/>
-<a name="353">353&nbsp;&nbsp;&nbsp;#&nbsp;257&nbsp;"include/openssl/e_os2.h"</a><br/>
+<a name="353">353&nbsp;&nbsp;&nbsp;#&nbsp;260&nbsp;"include/openssl/e_os2.h"</a><br/>
 <a name="354">354&nbsp;&nbsp;&nbsp;typedef&nbsp;intmax_t&nbsp;ossl_intmax_t;</a><br/>
 <a name="355">355&nbsp;&nbsp;&nbsp;typedef&nbsp;uintmax_t&nbsp;ossl_uintmax_t;</a><br/>
 <a name="356">356&nbsp;&nbsp;&nbsp;#&nbsp;22&nbsp;"crypto/aria/aria.c"&nbsp;2</a><br/>
@@ -1089,7 +1089,7 @@
 <a name="1089">1089&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;do&nbsp;{&nbsp;(reg0)&nbsp;^=&nbsp;(rk)-&gt;u[0];&nbsp;(reg1)&nbsp;^=&nbsp;(rk)-&gt;u[1];&nbsp;(reg2)&nbsp;^=&nbsp;(rk)-&gt;u[2];&nbsp;(reg3)&nbsp;^=&nbsp;(rk)-&gt;u[3];&nbsp;}&nbsp;while(0);</a><br/>
 <a name="1090">1090&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rk++;</a><br/>
 <a name="1091">1091&nbsp;&nbsp;&nbsp;</a><br/>
-<a name="1092">1092&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while&nbsp;(Nr&nbsp;-=&nbsp;2)&nbsp;{</a><br/>
+<a name="1092">1092&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while&nbsp;((Nr&nbsp;-=&nbsp;2)&nbsp;&gt;&nbsp;0)&nbsp;{</a><br/>
 <a name="1093">1093&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;do&nbsp;{&nbsp;do&nbsp;{&nbsp;(reg0)&nbsp;=&nbsp;X1[((uint8_t)((reg0)&nbsp;&gt;&gt;&nbsp;((3&nbsp;-&nbsp;0)&nbsp;*&nbsp;8)))]&nbsp;^&nbsp;X2[((uint8_t)((reg0)&nbsp;&gt;&gt;&nbsp;((3&nbsp;-&nbsp;1)&nbsp;*&nbsp;8)))]&nbsp;^&nbsp;S1[((uint8_t)((reg0)&nbsp;&gt;&gt;&nbsp;((3&nbsp;-&nbsp;2)&nbsp;*&nbsp;8)))]&nbsp;^&nbsp;S2[((uint8_t)((reg0)&nbsp;&gt;&gt;&nbsp;((3&nbsp;-&nbsp;3)&nbsp;*&nbsp;8)))];&nbsp;(reg1)&nbsp;=&nbsp;X1[((uint8_t)((reg1)&nbsp;&gt;&gt;&nbsp;((3&nbsp;-&nbsp;0)&nbsp;*&nbsp;8)))]&nbsp;^&nbsp;X2[((uint8_t)((reg1)&nbsp;&gt;&gt;&nbsp;((3&nbsp;-&nbsp;1)&nbsp;*&nbsp;8)))]&nbsp;^&nbsp;S1[((uint8_t)((reg1)&nbsp;&gt;&gt;&nbsp;((3&nbsp;-&nbsp;2)&nbsp;*&nbsp;8)))]&nbsp;^&nbsp;S2[((uint8_t)((reg1)&nbsp;&gt;&gt;&nbsp;((3&nbsp;-&nbsp;3)&nbsp;*&nbsp;8)))];&nbsp;(reg2)&nbsp;=&nbsp;X1[((uint8_t)((reg2)&nbsp;&gt;&gt;&nbsp;((3&nbsp;-&nbsp;0)&nbsp;*&nbsp;8)))]&nbsp;^&nbsp;X2[((uint8_t)((reg2)&nbsp;&gt;&gt;&nbsp;((3&nbsp;-&nbsp;1)&nbsp;*&nbsp;8)))]&nbsp;^&nbsp;S1[((uint8_t)((reg2)&nbsp;&gt;&gt;&nbsp;((3&nbsp;-&nbsp;2)&nbsp;*&nbsp;8)))]&nbsp;^&nbsp;S2[((uint8_t)((reg2)&nbsp;&gt;&gt;&nbsp;((3&nbsp;-&nbsp;3)&nbsp;*&nbsp;8)))];&nbsp;(reg3)&nbsp;=&nbsp;X1[((uint8_t)((reg3)&nbsp;&gt;&gt;&nbsp;((3&nbsp;-&nbsp;0)&nbsp;*&nbsp;8)))]&nbsp;^&nbsp;X2[((uint8_t)((reg3)&nbsp;&gt;&gt;&nbsp;((3&nbsp;-&nbsp;1)&nbsp;*&nbsp;8)))]&nbsp;^&nbsp;S1[((uint8_t)((reg3)&nbsp;&gt;&gt;&nbsp;((3&nbsp;-&nbsp;2)&nbsp;*&nbsp;8)))]&nbsp;^&nbsp;S2[((uint8_t)((reg3)&nbsp;&gt;&gt;&nbsp;((3&nbsp;-&nbsp;3)&nbsp;*&nbsp;8)))];&nbsp;}&nbsp;while(0);&nbsp;do&nbsp;{&nbsp;(reg1)&nbsp;^=&nbsp;(reg2);&nbsp;(reg2)&nbsp;^=&nbsp;(reg3);&nbsp;(reg0)&nbsp;^=&nbsp;(reg1);&nbsp;(reg3)&nbsp;^=&nbsp;(reg1);&nbsp;(reg2)&nbsp;^=&nbsp;(reg0);&nbsp;(reg1)&nbsp;^=&nbsp;(reg2);&nbsp;}&nbsp;while(0);&nbsp;do&nbsp;{&nbsp;(reg3)&nbsp;=&nbsp;(((reg3)&nbsp;&lt;&lt;&nbsp;8)&nbsp;&amp;&nbsp;0xff00ff00)&nbsp;^&nbsp;(((reg3)&nbsp;&gt;&gt;&nbsp;8)&nbsp;&amp;&nbsp;0x00ff00ff);&nbsp;(reg0)&nbsp;=&nbsp;(((uint32_t)(reg0)&nbsp;&gt;&gt;&nbsp;(16))&nbsp;|&nbsp;((uint32_t)(reg0)&nbsp;&lt;&lt;&nbsp;(32&nbsp;-&nbsp;16)));&nbsp;(reg1)&nbsp;=&nbsp;(((reg1)&nbsp;&lt;&lt;&nbsp;24)&nbsp;^&nbsp;((reg1)&nbsp;&gt;&gt;&nbsp;24)&nbsp;^&nbsp;(((reg1)&nbsp;&amp;&nbsp;0x0000ff00)&nbsp;&lt;&lt;&nbsp;8)&nbsp;^&nbsp;(((reg1)&nbsp;&amp;&nbsp;0x00ff0000)&nbsp;&gt;&gt;&nbsp;8));&nbsp;}&nbsp;while(0);&nbsp;do&nbsp;{&nbsp;(reg1)&nbsp;^=&nbsp;(reg2);&nbsp;(reg2)&nbsp;^=&nbsp;(reg3);&nbsp;(reg0)&nbsp;^=&nbsp;(reg1);&nbsp;(reg3)&nbsp;^=&nbsp;(reg1);&nbsp;(reg2)&nbsp;^=&nbsp;(reg0);&nbsp;(reg1)&nbsp;^=&nbsp;(reg2);&nbsp;}&nbsp;while(0);&nbsp;}&nbsp;while(0);</a><br/>
 <a name="1094">1094&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;do&nbsp;{&nbsp;(reg0)&nbsp;^=&nbsp;(rk)-&gt;u[0];&nbsp;(reg1)&nbsp;^=&nbsp;(rk)-&gt;u[1];&nbsp;(reg2)&nbsp;^=&nbsp;(rk)-&gt;u[2];&nbsp;(reg3)&nbsp;^=&nbsp;(rk)-&gt;u[3];&nbsp;}&nbsp;while(0);</a><br/>
 <a name="1095">1095&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rk++;</a><br/>

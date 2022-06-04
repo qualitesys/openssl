@@ -4442,6 +4442,13 @@ var maDataBlocs = {
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
+  "fic"  : "crypto/quic_vlint.c" 
+  , "Fic1"  : "qc/crypto/quic_vlint.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/quic_vlint.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
   "fic"  : "crypto/rand/prov_seed.c" 
   , "Fic1"  : "qc/crypto/rand/prov_seed.c.qre.nonreg.html" 
   , "OKKO1"  : "" 

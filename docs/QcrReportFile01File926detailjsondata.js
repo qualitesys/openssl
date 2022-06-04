@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/providers/implementations/digests/wp_prov.c.html" 
- , "texte" : "File providers/implementations/digests/wp_prov.c 19 rule violations " 
- , "fic2"  : "./qc/providers/implementations/digests/wp_prov.c.xml" 
+   "fic1"  : "./qc/providers/implementations/digests/sm3_prov.c.html" 
+ , "texte" : "File providers/implementations/digests/sm3_prov.c 19 rule violations " 
+ , "fic2"  : "./qc/providers/implementations/digests/sm3_prov.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -62,136 +62,136 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "01219"
- , "c1link" : "./qc/providers/implementations/digests/wp_prov.c.html#1219"
+   "c1" : "01209"
+ , "c1link" : "./qc/providers/implementations/digests/sm3_prov.c.html#1209"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01219] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[01209] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01382"
- , "c1link" : "./qc/providers/implementations/digests/wp_prov.c.html#1382"
+   "c1" : "01372"
+ , "c1link" : "./qc/providers/implementations/digests/sm3_prov.c.html#1372"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01382] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01372] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01409"
- , "c1link" : "./qc/providers/implementations/digests/wp_prov.c.html#1409"
+   "c1" : "01399"
+ , "c1link" : "./qc/providers/implementations/digests/sm3_prov.c.html#1399"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01409] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01399] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01413"
- , "c1link" : "./qc/providers/implementations/digests/wp_prov.c.html#1413"
+   "c1" : "01403"
+ , "c1link" : "./qc/providers/implementations/digests/sm3_prov.c.html#1403"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01413] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01403] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01435"
- , "c1link" : "./qc/providers/implementations/digests/wp_prov.c.html#1435"
+   "c1" : "01425"
+ , "c1link" : "./qc/providers/implementations/digests/sm3_prov.c.html#1425"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01435] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01425] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01435"
- , "c1link" : "./qc/providers/implementations/digests/wp_prov.c.html#1435"
+   "c1" : "01425"
+ , "c1link" : "./qc/providers/implementations/digests/sm3_prov.c.html#1425"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01435] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01425] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01459"
- , "c1link" : "./qc/providers/implementations/digests/wp_prov.c.html#1459"
+   "c1" : "01449"
+ , "c1link" : "./qc/providers/implementations/digests/sm3_prov.c.html#1449"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01459] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01449] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01465"
- , "c1link" : "./qc/providers/implementations/digests/wp_prov.c.html#1465"
+   "c1" : "01455"
+ , "c1link" : "./qc/providers/implementations/digests/sm3_prov.c.html#1455"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01465] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01455] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01490"
- , "c1link" : "./qc/providers/implementations/digests/wp_prov.c.html#1490"
+   "c1" : "01480"
+ , "c1link" : "./qc/providers/implementations/digests/sm3_prov.c.html#1480"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01490] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01480] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01494"
- , "c1link" : "./qc/providers/implementations/digests/wp_prov.c.html#1494"
+   "c1" : "01484"
+ , "c1link" : "./qc/providers/implementations/digests/sm3_prov.c.html#1484"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01494] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01484] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02723"
- , "c1link" : "./qc/providers/implementations/digests/wp_prov.c.html#2723"
+   "c1" : "02713"
+ , "c1link" : "./qc/providers/implementations/digests/sm3_prov.c.html#2713"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02723] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02713] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02728"
- , "c1link" : "./qc/providers/implementations/digests/wp_prov.c.html#2728"
+   "c1" : "02718"
+ , "c1link" : "./qc/providers/implementations/digests/sm3_prov.c.html#2718"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02728] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02718] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02753"
- , "c1link" : "./qc/providers/implementations/digests/wp_prov.c.html#2753"
+   "c1" : "02743"
+ , "c1link" : "./qc/providers/implementations/digests/sm3_prov.c.html#2743"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02753] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[02743] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02757"
- , "c1link" : "./qc/providers/implementations/digests/wp_prov.c.html#2757"
+   "c1" : "02747"
+ , "c1link" : "./qc/providers/implementations/digests/sm3_prov.c.html#2747"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02757] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[02747] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02760"
- , "c1link" : "./qc/providers/implementations/digests/wp_prov.c.html#2760"
+   "c1" : "02750"
+ , "c1link" : "./qc/providers/implementations/digests/sm3_prov.c.html#2750"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02760] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[02750] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02785"
- , "c1link" : "./qc/providers/implementations/digests/wp_prov.c.html#2785"
+   "c1" : "02775"
+ , "c1link" : "./qc/providers/implementations/digests/sm3_prov.c.html#2775"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02785] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[02775] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02789"
- , "c1link" : "./qc/providers/implementations/digests/wp_prov.c.html#2789"
+   "c1" : "02779"
+ , "c1link" : "./qc/providers/implementations/digests/sm3_prov.c.html#2779"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02789] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[02779] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02793"
- , "c1link" : "./qc/providers/implementations/digests/wp_prov.c.html#2793"
+   "c1" : "02783"
+ , "c1link" : "./qc/providers/implementations/digests/sm3_prov.c.html#2783"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02793] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[02783] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02801"
- , "c1link" : "./qc/providers/implementations/digests/wp_prov.c.html#2801"
+   "c1" : "02791"
+ , "c1link" : "./qc/providers/implementations/digests/sm3_prov.c.html#2791"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02801] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[02791] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ]
 };

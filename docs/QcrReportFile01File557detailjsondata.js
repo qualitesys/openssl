@@ -223,136 +223,136 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08505"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8505"
+   "c1" : "08525"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8525"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08505] The pointer mac_ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[08525] The pointer mac_ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08518"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8518"
+   "c1" : "08538"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8538"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08518] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08538] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08521"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8521"
+   "c1" : "08541"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8541"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08521] The expression 16 is invariable"
+ , "c3" : "QC-CPP000012[08541] The expression 16 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08522"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8522"
+   "c1" : "08542"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8542"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08522] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08542] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08529"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8529"
+   "c1" : "08549"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8549"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08529] The expression 16 is invariable"
+ , "c3" : "QC-CPP000012[08549] The expression 16 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08530"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8530"
+   "c1" : "08550"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8550"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08530] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08550] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08534"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8534"
+   "c1" : "08554"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8554"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08534] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08554] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08562"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8562"
+   "c1" : "08582"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8582"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08562] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP000012[08582] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08574"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8574"
+   "c1" : "08594"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8594"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08574] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[08594] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08577"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8577"
+   "c1" : "08597"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8597"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08577] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08597] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08583"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8583"
+   "c1" : "08603"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8603"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08583] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[08603] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "08610"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8610"
+   "c1" : "08630"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8630"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08610] The pointer cbc_name is declared but not initialized"
+ , "c3" : "QC-CPP000014[08630] The pointer cbc_name is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08661"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8661"
+   "c1" : "08681"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8681"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08661] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08681] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08666"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8666"
+   "c1" : "08686"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8686"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08666] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08686] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08672"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8672"
+   "c1" : "08692"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8692"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08672] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08692] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08687"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8687"
+   "c1" : "08707"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8707"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08687] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08707] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08758"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8758"
+   "c1" : "08778"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8778"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08758] The pointer mac_ctx is declared but not initialized"
+ , "c3" : "QC-CPP000014[08778] The pointer mac_ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08762"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8762"
+   "c1" : "08782"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8782"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08762] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[08782] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08815"
- , "c1link" : "./qc/crypto/modes/siv128.c.html#8815"
+   "c1" : "08835"
+ , "c1link" : "./qc/crypto/modes/siv128.c.html#8835"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08815] The pointer p is declared but not initialized"
+ , "c3" : "QC-CPP000014[08835] The pointer p is declared but not initialized"
 }} 
 ]
 };

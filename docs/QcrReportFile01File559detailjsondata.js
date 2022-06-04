@@ -216,24 +216,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "04953"
- , "c1link" : "./qc/crypto/modes/xts128.c.html#4953"
+   "c1" : "04958"
+ , "c1link" : "./qc/crypto/modes/xts128.c.html#4958"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04953] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04958] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04954"
- , "c1link" : "./qc/crypto/modes/xts128.c.html#4954"
+   "c1" : "04959"
+ , "c1link" : "./qc/crypto/modes/xts128.c.html#4959"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[04954] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[04959] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04984"
- , "c1link" : "./qc/crypto/modes/xts128.c.html#4984"
+   "c1" : "04989"
+ , "c1link" : "./qc/crypto/modes/xts128.c.html#4989"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04984] The expression enc applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[04989] The expression enc applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -216,24 +216,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "10210"
- , "c1link" : "./qc/crypto/ec/ec_oct.c.html#10210"
+   "c1" : "10236"
+ , "c1link" : "./qc/crypto/ec/ec_oct.c.html#10236"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[10210] The pointer buf is declared but not initialized"
+ , "c3" : "QC-CPP000014[10236] The pointer buf is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10210"
- , "c1link" : "./qc/crypto/ec/ec_oct.c.html#10210"
+   "c1" : "10236"
+ , "c1link" : "./qc/crypto/ec/ec_oct.c.html#10236"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[10210] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[10236] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10223"
- , "c1link" : "./qc/crypto/ec/ec_oct.c.html#10223"
+   "c1" : "10249"
+ , "c1link" : "./qc/crypto/ec/ec_oct.c.html#10249"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10223] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10249] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

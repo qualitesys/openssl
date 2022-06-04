@@ -132,206 +132,171 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02968"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#2968"
+   "c1" : "02970"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#2970"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02968] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[02970] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03131"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3131"
+   "c1" : "03133"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3133"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03131] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03133] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03134"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3134"
+   "c1" : "03136"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3136"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03134] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03136] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03158"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3158"
+   "c1" : "03160"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3160"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03158] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03160] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03162"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3162"
+   "c1" : "03164"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3164"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03162] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03164] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03184"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3184"
+   "c1" : "03186"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3186"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03184] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03186] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03184"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3184"
+   "c1" : "03186"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3186"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03184] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03186] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03208"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3208"
+   "c1" : "03210"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3210"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03208] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03210] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03214"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3214"
+   "c1" : "03216"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3216"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03214] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03216] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03239"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3239"
+   "c1" : "03241"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3241"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03239] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03241] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "03243"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3243"
+   "c1" : "03245"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#3245"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03243] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03245] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14062"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14062"
+   "c1" : "14120"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14120"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14062] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[14120] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14067"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14067"
+   "c1" : "14125"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14125"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14067] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[14125] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14092"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14092"
+   "c1" : "14150"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14150"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14092] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14150] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14097"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14097"
+   "c1" : "14155"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14155"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14097] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14155] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14126"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14126"
+   "c1" : "14184"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14184"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14126] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14184] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14131"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14131"
+   "c1" : "14189"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14189"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14131] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14189] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14152"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14152"
+   "c1" : "14210"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14210"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14152] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14210] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14157"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14157"
+   "c1" : "14215"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14215"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14157] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14215] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14173"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14173"
+   "c1" : "14231"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14231"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14173] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14231] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14192"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14192"
+   "c1" : "14250"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14250"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14192] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14250] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14197"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14197"
+   "c1" : "14255"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14255"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14197] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14255] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14217"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14217"
+   "c1" : "14275"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14275"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14217] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14275] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14222"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14222"
+   "c1" : "14280"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14280"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14222] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14243"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14243"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14243] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14248"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14248"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14248] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14269"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14269"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14269] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14274"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14274"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14274] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14296"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14296"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14296] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14280] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
@@ -342,17 +307,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14325"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14325"
+   "c1" : "14306"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14306"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14325] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14306] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14330"
- , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14330"
+   "c1" : "14327"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14327"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14330] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14327] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14332"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14332"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14332] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14354"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14354"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14354] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14359"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14359"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14359] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14383"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14383"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14383] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14388"
+ , "c1link" : "./qc/crypto/engine/eng_rdrand.c.html#14388"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14388] The expression 2&gt;1 is invariable"
 }} 
 ]
 };

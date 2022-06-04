@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/util/check-format-test-positives.c.html" 
- , "texte" : "File util/check-format-test-positives.c 1 rule violations " 
- , "fic2"  : "./qc/util/check-format-test-positives.c.xml" 
+   "fic1"  : "./qc/util/check-format-test-negatives.c.html" 
+ , "texte" : "File util/check-format-test-negatives.c 1 rule violations " 
+ , "fic2"  : "./qc/util/check-format-test-negatives.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -48,10 +48,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "00031"
- , "c1link" : "./qc/util/check-format-test-positives.c.html#31"
+   "c1" : "00754"
+ , "c1link" : "./qc/util/check-format-test-negatives.c.html#754"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00031] syntax analysis failed on file /home/runner/work/openssl/openssl/util/check-format-test-positives.c near following tokens * / # define X 1 ZZ # define Y 2 "
+ , "c3" : "QC-CPP999999[00754] syntax analysis failed on file /home/runner/work/openssl/openssl/util/check-format-test-negatives.c near following tokens int i ; int j ; return ; } ZZ int f ( void ) { typedef int INT ; void "
 }} 
 ]
 };

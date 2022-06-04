@@ -223,598 +223,598 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05927"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#5927"
+   "c1" : "05931"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#5931"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05927] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[05931] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05932"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#5932"
+   "c1" : "05936"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#5936"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05932] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[05936] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05957"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#5957"
+   "c1" : "05961"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#5961"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05957] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05961] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05962"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#5962"
+   "c1" : "05966"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#5966"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05962] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05966] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05991"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#5991"
+   "c1" : "05995"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#5995"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05991] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05995] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05996"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#5996"
+   "c1" : "06000"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6000"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05996] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06000] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06017"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6017"
+   "c1" : "06021"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6021"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06017] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06021] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06022"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6022"
+   "c1" : "06026"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6026"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06022] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06026] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06038"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6038"
+   "c1" : "06042"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6042"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06038] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06042] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06057"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6057"
+   "c1" : "06061"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6061"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06057] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06061] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06062"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6062"
+   "c1" : "06066"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6066"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06062] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06066] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06082"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6082"
+   "c1" : "06086"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6086"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06082] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06086] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06087"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6087"
+   "c1" : "06091"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6091"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06087] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06091] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06108"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6108"
+   "c1" : "06112"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6112"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06108] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06112] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06113"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6113"
+   "c1" : "06117"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6117"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06113] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06117] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06134"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6134"
+   "c1" : "06138"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6138"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06134] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06138] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06139"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6139"
+   "c1" : "06143"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6143"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06139] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06143] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06161"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6161"
+   "c1" : "06165"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6165"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06161] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06165] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06166"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6166"
+   "c1" : "06170"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6170"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06166] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06170] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06190"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6190"
+   "c1" : "06194"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6194"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06190] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06194] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06195"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6195"
+   "c1" : "06199"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#6199"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06195] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06199] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11095"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11095"
+   "c1" : "11139"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11139"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11095] The pointer m is declared but not initialized"
+ , "c3" : "QC-CPP000014[11139] The pointer m is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11095"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11095"
+   "c1" : "11139"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11139"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11095] The pointer blind is declared but not initialized"
+ , "c3" : "QC-CPP000014[11139] The pointer blind is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11095"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11095"
+   "c1" : "11139"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11139"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11095] The pointer blindm is declared but not initialized"
+ , "c3" : "QC-CPP000014[11139] The pointer blindm is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11095"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11095"
+   "c1" : "11139"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11139"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11095] The pointer tmp is declared but not initialized"
+ , "c3" : "QC-CPP000014[11139] The pointer tmp is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11125"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11125"
+   "c1" : "11169"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11169"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11125] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11169] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11133"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11133"
+   "c1" : "11177"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11177"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11133] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11177] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11142"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11142"
+   "c1" : "11186"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11186"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11142] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11186] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11154"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11154"
+   "c1" : "11198"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11198"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11154] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11198] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11162"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11162"
+   "c1" : "11206"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11206"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11162] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11206] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11172"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11172"
+   "c1" : "11216"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11216"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11172] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11216] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11176"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11176"
+   "c1" : "11220"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11220"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11176] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11190"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11190"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11190] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11194"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11194"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11194] The expression  - 1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11194"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11194"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11194] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11194"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11194"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11194] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11195"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11195"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11195] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11203"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11203"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11203] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11205"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11205"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11205] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11209"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11209"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11209] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11213"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11213"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11213] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11217"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11217"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11217] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11225"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11225"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11225] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11227"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11227"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11227] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11220] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "11234"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11234"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11234] goto statement jump to redo"
+ , "c3" : "QC-CPP000007[11234] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11281"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11281"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11281] The pointer k is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11286"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11286"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11286] The pointer l is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11334"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11334"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11334] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11342"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11342"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11342] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11351"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11351"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11351] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11360"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11360"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11360] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11375"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11375"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11375] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11376"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11376"
+   "c1" : "11238"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11238"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11376] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[11238] The expression  - 1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11377"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11377"
+   "c1" : "11238"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11238"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[11238] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11238"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11238"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[11238] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11239"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11239"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11377] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11239] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11247"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11247"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11247] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11249"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11249"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11249] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11253"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11253"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11253] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11257"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11257"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11257] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11261"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11261"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11261] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11269"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11269"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11269] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11271"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11271"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11271] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11278"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11278"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11278] goto statement jump to redo"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11325"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11325"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[11325] The pointer k is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11330"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11330"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[11330] The pointer l is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11378"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11378"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11378] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "11386"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11386"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11386] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[11386] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11391"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11391"
+   "c1" : "11395"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11395"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11391] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11395] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11402"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11402"
+   "c1" : "11404"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11404"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11402] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11404] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11406"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11406"
+   "c1" : "11419"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11419"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11406] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11419] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11414"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11414"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11414] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11417"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11417"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11417] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11422"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11422"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11422] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11433"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11433"
+   "c1" : "11420"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11420"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11433] The expression  ! ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[11420] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11449"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11449"
+   "c1" : "11421"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11421"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11449] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000007[11421] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11430"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11430"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11430] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11435"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11435"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11435] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11446"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11446"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11446] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "11450"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11450"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11450] The pointer u1 is declared but not initialized"
+ , "c3" : "QC-CPP000007[11450] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11450"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11450"
+   "c1" : "11458"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11458"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11450] The pointer u2 is declared but not initialized"
+ , "c3" : "QC-CPP000007[11458] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11450"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11450"
+   "c1" : "11461"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11461"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11450] The pointer t1 is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[11461] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11456"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11456"
+   "c1" : "11466"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11466"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11456] The pointer r is declared but not initialized"
+ , "c3" : "QC-CPP000007[11466] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11456"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11456"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11456] The pointer s is declared but not initialized"
+   "c1" : "11477"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11477"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[11477] The expression  ! ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11526"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11526"
+   "c1" : "11493"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11493"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11526] goto statement jump to err"
+ , "c3" : "QC-CPP000014[11493] The pointer ctx is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11533"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11533"
+   "c1" : "11494"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11494"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11533] goto statement jump to err"
+ , "c3" : "QC-CPP000014[11494] The pointer u1 is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11538"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11538"
+   "c1" : "11494"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11494"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11538] goto statement jump to err"
+ , "c3" : "QC-CPP000014[11494] The pointer u2 is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11549"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11549"
+   "c1" : "11494"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11494"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11549] goto statement jump to err"
+ , "c3" : "QC-CPP000014[11494] The pointer t1 is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11564"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11564"
+   "c1" : "11500"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11500"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11564] goto statement jump to err"
+ , "c3" : "QC-CPP000014[11500] The pointer r is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11568"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11568"
+   "c1" : "11500"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11500"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11568] goto statement jump to err"
+ , "c3" : "QC-CPP000014[11500] The pointer s is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11572"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11572"
+   "c1" : "11570"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11570"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11572] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11570] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "11577"
  , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11577"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11577] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11582"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11582"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11582] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11593"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11593"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11593] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11608"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11608"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11608] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11612"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11612"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11612] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11616"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11616"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[11616] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "11621"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11621"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[11577] The expression  ! mont applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[11621] The expression  ! mont applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "11578"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11578"
+   "c1" : "11622"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11622"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11578] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11622] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11588"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11588"
+   "c1" : "11632"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11632"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11588] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11632] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11592"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11592"
+   "c1" : "11636"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11636"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11592] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11636] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11601"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11601"
+   "c1" : "11645"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11645"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11601] goto statement jump to err"
+ , "c3" : "QC-CPP000007[11645] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11644"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11644"
+   "c1" : "11688"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11688"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11644] The pointer r is declared but not initialized"
+ , "c3" : "QC-CPP000014[11688] The pointer r is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11644"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11644"
+   "c1" : "11688"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11688"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11644] The pointer e is declared but not initialized"
+ , "c3" : "QC-CPP000014[11688] The pointer e is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11646"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11646"
+   "c1" : "11690"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11690"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11646] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11690] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11658"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11658"
+   "c1" : "11702"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11702"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[11658] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[11702] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "11663"
- , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11663"
+   "c1" : "11707"
+ , "c1link" : "./qc/crypto/dsa/dsa_ossl.c.html#11707"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[11663] The expression 2 is invariable"
+ , "c3" : "QC-CPP000012[11707] The expression 2 is invariable"
 }} 
 ]
 };

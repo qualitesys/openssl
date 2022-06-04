@@ -244,647 +244,647 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05666"
- , "c1link" : "./qc/apps/lib/http_server.c.html#5666"
+   "c1" : "05670"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#5670"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05666] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[05670] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05671"
- , "c1link" : "./qc/apps/lib/http_server.c.html#5671"
+   "c1" : "05675"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#5675"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05671] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[05675] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05696"
- , "c1link" : "./qc/apps/lib/http_server.c.html#5696"
+   "c1" : "05700"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#5700"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05696] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05700] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05701"
- , "c1link" : "./qc/apps/lib/http_server.c.html#5701"
+   "c1" : "05705"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#5705"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05701] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05705] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05730"
- , "c1link" : "./qc/apps/lib/http_server.c.html#5730"
+   "c1" : "05734"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#5734"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05730] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05734] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05735"
- , "c1link" : "./qc/apps/lib/http_server.c.html#5735"
+   "c1" : "05739"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#5739"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05735] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05739] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05756"
- , "c1link" : "./qc/apps/lib/http_server.c.html#5756"
+   "c1" : "05760"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#5760"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05756] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05760] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05761"
- , "c1link" : "./qc/apps/lib/http_server.c.html#5761"
+   "c1" : "05765"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#5765"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05761] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05765] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05777"
- , "c1link" : "./qc/apps/lib/http_server.c.html#5777"
+   "c1" : "05781"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#5781"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05777] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05781] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05796"
- , "c1link" : "./qc/apps/lib/http_server.c.html#5796"
+   "c1" : "05800"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#5800"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05796] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05800] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05801"
- , "c1link" : "./qc/apps/lib/http_server.c.html#5801"
+   "c1" : "05805"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#5805"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05801] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05805] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05821"
- , "c1link" : "./qc/apps/lib/http_server.c.html#5821"
+   "c1" : "05825"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#5825"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05821] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05825] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05826"
- , "c1link" : "./qc/apps/lib/http_server.c.html#5826"
+   "c1" : "05830"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#5830"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05826] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05830] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05847"
- , "c1link" : "./qc/apps/lib/http_server.c.html#5847"
+   "c1" : "05851"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#5851"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05847] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05851] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05852"
- , "c1link" : "./qc/apps/lib/http_server.c.html#5852"
+   "c1" : "05856"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#5856"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05852] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05856] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05873"
- , "c1link" : "./qc/apps/lib/http_server.c.html#5873"
+   "c1" : "05877"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#5877"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05873] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05877] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05878"
- , "c1link" : "./qc/apps/lib/http_server.c.html#5878"
+   "c1" : "05882"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#5882"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05878] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05882] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05900"
- , "c1link" : "./qc/apps/lib/http_server.c.html#5900"
+   "c1" : "05904"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#5904"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05900] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05904] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05905"
- , "c1link" : "./qc/apps/lib/http_server.c.html#5905"
+   "c1" : "05909"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#5909"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05905] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05909] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05929"
- , "c1link" : "./qc/apps/lib/http_server.c.html#5929"
+   "c1" : "05933"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#5933"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05929] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05933] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05934"
- , "c1link" : "./qc/apps/lib/http_server.c.html#5934"
+   "c1" : "05938"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#5938"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05934] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05938] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06299"
- , "c1link" : "./qc/apps/lib/http_server.c.html#6299"
+   "c1" : "06303"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#6303"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06299] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06303] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07629"
- , "c1link" : "./qc/apps/lib/http_server.c.html#7629"
+   "c1" : "07633"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#7633"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07629] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07633] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07634"
- , "c1link" : "./qc/apps/lib/http_server.c.html#7634"
+   "c1" : "07638"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#7638"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07634] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07638] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07660"
- , "c1link" : "./qc/apps/lib/http_server.c.html#7660"
+   "c1" : "07664"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#7664"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07660] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07664] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07665"
- , "c1link" : "./qc/apps/lib/http_server.c.html#7665"
+   "c1" : "07669"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#7669"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[07665] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[07669] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21024"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21024"
+   "c1" : "21105"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21105"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21024] The expression multi applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21105] The expression multi applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21114"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21114"
+   "c1" : "21195"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21195"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21114] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[21195] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21114"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21114"
+   "c1" : "21195"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21195"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21114] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[21195] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21146"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21146"
+   "c1" : "21227"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21227"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[21146] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[21227] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21231"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21231"
+   "c1" : "21312"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21312"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21231] The expression termsig applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[21312] The expression termsig applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21234"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21234"
+   "c1" : "21315"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21315"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[21234] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21259"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21259"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21259] The expression termsig applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "21295"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21295"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21295] The pointer bufbio is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21317"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21317"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21317] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21324"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21324"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21324] The expression 131 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21324"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21324"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21324] The expression 0x01 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21329"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21329"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21329] The expression 118 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21329"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21329"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21329] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21331"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21331"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21331] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[21315] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "21340"
  , "c1link" : "./qc/apps/lib/http_server.c.html#21340"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21340] The expression 101 is invariable"
+ , "c3" : "QC-CPP000011[21340] The expression termsig applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21340"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21340"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21340] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21346"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21346"
+   "c1" : "21376"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21376"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21346] goto statement jump to err"
+ , "c3" : "QC-CPP000014[21376] The pointer bufbio is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21354"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21354"
+   "c1" : "21398"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21398"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21354] goto statement jump to err"
+ , "c3" : "QC-CPP000007[21398] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21374"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21374"
+   "c1" : "21405"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21405"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[21374] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[21405] The expression 131 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21375"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21375"
+   "c1" : "21405"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21405"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[21375] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[21405] The expression 0x01 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21377"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21377"
+   "c1" : "21410"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21410"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[21377] The expression  * p applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[21410] The expression 118 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21410"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21410"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[21410] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21412"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21412"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[21412] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21421"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21421"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[21421] The expression 101 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21421"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21421"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[21421] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
    "c1" : "21427"
  , "c1link" : "./qc/apps/lib/http_server.c.html#21427"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21427] The pointer meth is declared but not initialized"
+ , "c3" : "QC-CPP000007[21427] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21427"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21427"
+   "c1" : "21435"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21435"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21427] The pointer url is declared but not initialized"
+ , "c3" : "QC-CPP000007[21435] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21427"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21427"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21427] The pointer end is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21428"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21428"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21428] The pointer req is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21452"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21452"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21452] The pointer port is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21469"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21469"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21469] goto statement jump to fatal"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21475"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21475"
+   "c1" : "21455"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21455"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21475] The expression 101 is invariable"
+ , "c3" : "QC-CPP000005[21455] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21475"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21475"
+   "c1" : "21456"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21456"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21475] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000005[21456] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21483"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21483"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[21483] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21494"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21494"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21494] goto statement jump to out"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21512"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21512"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21512] goto statement jump to out"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21514"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21514"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[21514] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21519"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21519"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[21519] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21527"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21527"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[21527] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21528"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21528"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[21528] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21529"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21529"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[21529] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21532"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21532"
+   "c1" : "21458"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21458"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000015[21532] Suspicion use of negative array index -1"
+ , "c3" : "QC-CPP000011[21458] The expression  * p applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "21540"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21540"
+   "c1" : "21508"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21508"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21540] goto statement jump to out"
+ , "c3" : "QC-CPP000014[21508] The pointer meth is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21553"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21553"
+   "c1" : "21508"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21508"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21553] goto statement jump to out"
+ , "c3" : "QC-CPP000014[21508] The pointer url is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21569"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21569"
+   "c1" : "21508"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21508"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[21508] The pointer end is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21509"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21509"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[21509] The pointer req is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21533"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21533"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[21533] The pointer port is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21550"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21550"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[21550] goto statement jump to fatal"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21556"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21556"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21569] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[21556] The expression 101 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21571"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21571"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21571] goto statement jump to out"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21580"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21580"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21580] goto statement jump to out"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21583"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21583"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[21583] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21588"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21588"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[21588] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21596"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21596"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21596] goto statement jump to fatal"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21606"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21606"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21606] goto statement jump to out"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21612"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21612"
+   "c1" : "21556"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21556"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21612] The expression  - 2 is invariable"
+ , "c3" : "QC-CPP000012[21556] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21612"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21612"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21612] The expression  - 1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21612"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21612"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000015[21612] Suspicion use of negative array index -2"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21612"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21612"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000015[21612] Suspicion use of negative array index -1"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21617"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21617"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[21617] The condition of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21617"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21617"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[21617] The end expression of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21618"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21618"
+   "c1" : "21564"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21564"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21618] The pointer key is declared but not initialized"
+ , "c3" : "QC-CPPCWE481[21564] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21618"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21618"
+   "c1" : "21575"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21575"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[21618] The pointer value is declared but not initialized"
+ , "c3" : "QC-CPP000007[21575] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21628"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21628"
+   "c1" : "21593"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21593"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21628] goto statement jump to out"
+ , "c3" : "QC-CPP000007[21593] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21631"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21631"
+   "c1" : "21595"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21595"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[21595] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21600"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21600"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[21600] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21608"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21608"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[21608] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21609"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21609"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[21609] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21610"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21610"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[21610] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21613"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21613"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21631] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000015[21613] Suspicion use of negative array index -1"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21631"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21631"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21631] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21644"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21644"
+   "c1" : "21621"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21621"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21644] goto statement jump to out"
+ , "c3" : "QC-CPP000007[21621] goto statement jump to out"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21634"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21634"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[21634] goto statement jump to out"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21650"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21650"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[21650] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21652"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21652"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[21652] goto statement jump to out"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21661"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21661"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[21661] goto statement jump to out"
 }} 
 ,
 { "ligne" : {
    "c1" : "21664"
  , "c1link" : "./qc/apps/lib/http_server.c.html#21664"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21664] goto statement jump to out"
+ , "c3" : "QC-CPPCWE481[21664] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21674"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21674"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21674] The expression 'Connection' is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "21675"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21675"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21675] The expression 'keep-alive' is invariable"
+   "c1" : "21669"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21669"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[21669] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
    "c1" : "21677"
  , "c1link" : "./qc/apps/lib/http_server.c.html#21677"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[21677] goto statement jump to fatal"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21687"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21687"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[21687] goto statement jump to out"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21693"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21693"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[21677] The expression 'close' is invariable"
+ , "c3" : "QC-CPP000012[21693] The expression  - 2 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21710"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21710"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[21710] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "21693"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21693"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[21693] The expression  - 1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21718"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21718"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21718] goto statement jump to fatal"
+   "c1" : "21693"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21693"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000015[21693] Suspicion use of negative array index -2"
 }} 
 ,
 { "ligne" : {
-   "c1" : "21753"
- , "c1link" : "./qc/apps/lib/http_server.c.html#21753"
+   "c1" : "21693"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21693"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000015[21693] Suspicion use of negative array index -1"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21698"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21698"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[21698] The condition of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21698"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21698"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[21698] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21699"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21699"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[21753] goto statement jump to out"
+ , "c3" : "QC-CPP000014[21699] The pointer key is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21699"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21699"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[21699] The pointer value is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21709"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21709"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[21709] goto statement jump to out"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21712"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21712"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[21712] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21712"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21712"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[21712] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21725"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21725"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[21725] goto statement jump to out"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21745"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21745"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[21745] goto statement jump to out"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21755"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21755"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[21755] The expression 'Connection' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21756"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21756"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[21756] The expression 'keep-alive' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21758"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21758"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[21758] The expression 'close' is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21791"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21791"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[21791] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21799"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21799"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[21799] goto statement jump to fatal"
+}} 
+,
+{ "ligne" : {
+   "c1" : "21834"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#21834"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[21834] goto statement jump to out"
 }} 
 ]
 };

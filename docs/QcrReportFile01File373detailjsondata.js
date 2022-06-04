@@ -209,24 +209,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05089"
- , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#5089"
+   "c1" : "05104"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#5104"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05089] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07010"
- , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7010"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07010] The pointer buf is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "07010"
- , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7010"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[07010] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[05104] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
@@ -244,31 +230,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "07033"
- , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7033"
+   "c1" : "07054"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7054"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[07033] The pointer ret is declared but not initialized"
+ , "c3" : "QC-CPP000014[07054] The pointer buf is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07035"
- , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7035"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07035] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+   "c1" : "07054"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7054"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[07054] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07037"
- , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7037"
+   "c1" : "07055"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7055"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07037] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[07055] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "07068"
- , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7068"
+   "c1" : "07057"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7057"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[07068] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[07057] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07059"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7059"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07059] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {
+   "c1" : "07090"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7090"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07090] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

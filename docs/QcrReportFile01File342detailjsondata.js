@@ -139,213 +139,178 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02592"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#2592"
+   "c1" : "02594"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#2594"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02592] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[02594] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02755"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#2755"
+   "c1" : "02757"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#2757"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02755] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02757] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02758"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#2758"
+   "c1" : "02760"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#2760"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02758] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02760] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02782"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#2782"
+   "c1" : "02784"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#2784"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02782] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02784] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02786"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#2786"
+   "c1" : "02788"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#2788"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02786] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02788] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02808"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#2808"
+   "c1" : "02810"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#2810"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02808] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02810] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02808"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#2808"
+   "c1" : "02810"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#2810"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02808] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02810] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02832"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#2832"
+   "c1" : "02834"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#2834"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02832] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02834] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02838"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#2838"
+   "c1" : "02840"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#2840"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02838] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02840] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02863"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#2863"
+   "c1" : "02865"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#2865"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02863] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02865] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02867"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#2867"
+   "c1" : "02869"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#2869"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02867] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02869] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "06524"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#6524"
+   "c1" : "06557"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#6557"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06524] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[06557] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14074"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14074"
+   "c1" : "14132"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14132"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14074] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[14132] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14079"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14079"
+   "c1" : "14137"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14137"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14079] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[14137] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14104"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14104"
+   "c1" : "14162"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14162"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14104] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14162] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14109"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14109"
+   "c1" : "14167"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14167"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14109] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14167] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14138"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14138"
+   "c1" : "14196"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14196"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14138] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14196] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14143"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14143"
+   "c1" : "14201"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14201"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14143] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14201] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14164"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14164"
+   "c1" : "14222"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14222"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14164] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14222] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14169"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14169"
+   "c1" : "14227"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14227"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14169] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14227] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14185"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14185"
+   "c1" : "14243"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14243"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14185] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14243] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14204"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14204"
+   "c1" : "14262"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14262"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14204] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14262] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14209"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14209"
+   "c1" : "14267"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14267"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14209] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14267] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14229"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14229"
+   "c1" : "14287"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14287"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14229] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14287] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14234"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14234"
+   "c1" : "14292"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14292"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14234] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14255"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14255"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14255] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14260"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14260"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14260] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14281"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14281"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14281] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14286"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14286"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14286] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14308"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14308"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14308] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14292] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
@@ -356,150 +321,185 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14337"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14337"
+   "c1" : "14318"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14318"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14337] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14318] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14342"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14342"
+   "c1" : "14339"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14339"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14342] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14339] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15048"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15048"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15048] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15055"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15055"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15055] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15058"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15058"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15058] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15071"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15071"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15071] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15083"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15083"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15083] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15086"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15086"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15086] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15093"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15093"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15093] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15136"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15136"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15136] The pointer mtmp is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15138"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15138"
+   "c1" : "14344"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14344"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15138] The expression mtmp-&gt;finish applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[14344] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14366"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14366"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14366] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14371"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14371"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14371] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14395"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14395"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14395] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14400"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#14400"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14400] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15114"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15114"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15114] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15121"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15121"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15121] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15124"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15124"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15124] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15137"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15137"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15137] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
    "c1" : "15149"
  , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15149"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15149] The expression meth-&gt;init applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15206"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15206"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15206] The expression engine applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "15213"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15213"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15213] goto statement jump to err"
+ , "c3" : "QC-CPP000007[15149] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15218"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15218"
+   "c1" : "15152"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15152"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15152] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15159"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15159"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15159] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15202"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15202"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15202] The pointer mtmp is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15204"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15204"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15218] The expression ret-&gt;engine applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15204] The expression mtmp-&gt;finish applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15230"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15230"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15230] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15238"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15238"
+   "c1" : "15215"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15215"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15238] The expression 7 is invariable"
+ , "c3" : "QC-CPP000011[15215] The expression meth-&gt;init applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "15240"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15240"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15240] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15253"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15253"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[15253] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15506"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15506"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[15506] The pointer ffc is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15523"
- , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15523"
+   "c1" : "15272"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15272"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15523] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[15272] The expression engine applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15279"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15279"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15279] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15284"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15284"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15284] The expression ret-&gt;engine applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15296"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15296"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15296] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15304"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15304"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15304] The expression 7 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15306"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15306"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15306] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15319"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15319"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15319] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15572"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15572"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15572] The pointer ffc is declared but not initialized"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15589"
+ , "c1link" : "./qc/crypto/dsa/dsa_lib.c.html#15589"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15589] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

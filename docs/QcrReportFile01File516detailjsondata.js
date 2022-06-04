@@ -76,80 +76,73 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {
-   "c1" : "01548"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#1548"
+   "c1" : "01550"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#1550"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01548] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01550] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01553"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#1553"
+   "c1" : "01555"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#1555"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01553] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01555] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01578"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#1578"
+   "c1" : "01580"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#1580"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01578] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[01580] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01582"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#1582"
+   "c1" : "01584"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#1584"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01582] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[01584] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01585"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#1585"
+   "c1" : "01587"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#1587"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01585] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[01587] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01610"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#1610"
+   "c1" : "01612"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#1612"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01610] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[01612] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01614"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#1614"
+   "c1" : "01616"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#1616"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01614] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[01616] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01618"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#1618"
+   "c1" : "01620"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#1620"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01618] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[01620] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "01626"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#1626"
+   "c1" : "01628"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#1628"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01626] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[01628] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02669"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#2669"
+   "c1" : "02672"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#2672"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02669] The pointer __p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02832"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#2832"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02832] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000014[02672] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
@@ -160,199 +153,206 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "02859"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#2859"
+   "c1" : "02838"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#2838"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02859] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02838] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02863"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#2863"
+   "c1" : "02862"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#2862"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02863] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02862] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02885"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#2885"
+   "c1" : "02866"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#2866"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02885] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02866] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02885"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#2885"
+   "c1" : "02888"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#2888"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02885] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02888] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02909"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#2909"
+   "c1" : "02888"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#2888"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02909] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02888] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02915"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#2915"
+   "c1" : "02912"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#2912"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02915] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02912] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02940"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#2940"
+   "c1" : "02918"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#2918"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02940] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02918] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "02944"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#2944"
+   "c1" : "02943"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#2943"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02944] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02943] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08074"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8074"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08074] The pointer prm is declared but not initialized"
+   "c1" : "02947"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#2947"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02947] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08075"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8075"
+   "c1" : "08109"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8109"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08075] The pointer param_p is declared but not initialized"
+ , "c3" : "QC-CPP000014[08109] The pointer prm is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08075"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8075"
+   "c1" : "08110"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8110"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08075] The pointer param_q is declared but not initialized"
+ , "c3" : "QC-CPP000014[08110] The pointer param_p is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08075"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8075"
+   "c1" : "08110"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8110"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08075] The pointer param_g is declared but not initialized"
+ , "c3" : "QC-CPP000014[08110] The pointer param_q is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08125"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8125"
+   "c1" : "08110"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8110"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[08125] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPP000014[08110] The pointer param_g is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08132"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8132"
+   "c1" : "08160"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8160"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08132] goto statement jump to err"
+ , "c3" : "QC-CPPCWE481[08160] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08154"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8154"
+   "c1" : "08167"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8167"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08154] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08167] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08163"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8163"
+   "c1" : "08189"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8189"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08163] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08189] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08173"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8173"
+   "c1" : "08198"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8198"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08173] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08198] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08182"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8182"
+   "c1" : "08208"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8208"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08182] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08208] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08190"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8190"
+   "c1" : "08217"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8217"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08190] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08217] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08200"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8200"
+   "c1" : "08225"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8225"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08200] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08225] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08202"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8202"
+   "c1" : "08235"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8235"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08202] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08235] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08211"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8211"
+   "c1" : "08237"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8237"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08211] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08237] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08221"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8221"
+   "c1" : "08246"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8246"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08221] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08246] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08231"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8231"
+   "c1" : "08256"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8256"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08231] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08256] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08241"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8241"
+   "c1" : "08266"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8266"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08241] The pointer p1 is declared but not initialized"
+ , "c3" : "QC-CPP000007[08266] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08249"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8249"
+   "c1" : "08276"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8276"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08249] goto statement jump to err"
+ , "c3" : "QC-CPP000014[08276] The pointer p1 is declared but not initialized"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08257"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8257"
+   "c1" : "08284"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8284"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08257] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08284] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "08260"
- , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8260"
+   "c1" : "08292"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8292"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08260] goto statement jump to err"
+ , "c3" : "QC-CPP000007[08292] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "08295"
+ , "c1link" : "./qc/crypto/ffc/ffc_backend.c.html#8295"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08295] goto statement jump to err"
 }} 
 ]
 };

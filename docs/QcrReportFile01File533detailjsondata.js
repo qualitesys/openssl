@@ -202,185 +202,185 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08247"
- , "c1link" : "./qc/crypto/info.c.html#8247"
+   "c1" : "08275"
+ , "c1link" : "./qc/crypto/info.c.html#8275"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08247] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[08275] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09605"
- , "c1link" : "./qc/crypto/info.c.html#9605"
+   "c1" : "09633"
+ , "c1link" : "./qc/crypto/info.c.html#9633"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09605] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09633] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09610"
- , "c1link" : "./qc/crypto/info.c.html#9610"
+   "c1" : "09638"
+ , "c1link" : "./qc/crypto/info.c.html#9638"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09610] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[09638] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09635"
- , "c1link" : "./qc/crypto/info.c.html#9635"
+   "c1" : "09663"
+ , "c1link" : "./qc/crypto/info.c.html#9663"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09635] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09663] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09640"
- , "c1link" : "./qc/crypto/info.c.html#9640"
+   "c1" : "09668"
+ , "c1link" : "./qc/crypto/info.c.html#9668"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09640] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09668] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09669"
- , "c1link" : "./qc/crypto/info.c.html#9669"
+   "c1" : "09697"
+ , "c1link" : "./qc/crypto/info.c.html#9697"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09669] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09697] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09674"
- , "c1link" : "./qc/crypto/info.c.html#9674"
+   "c1" : "09702"
+ , "c1link" : "./qc/crypto/info.c.html#9702"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09674] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09702] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09695"
- , "c1link" : "./qc/crypto/info.c.html#9695"
+   "c1" : "09723"
+ , "c1link" : "./qc/crypto/info.c.html#9723"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09695] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09723] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09700"
- , "c1link" : "./qc/crypto/info.c.html#9700"
+   "c1" : "09728"
+ , "c1link" : "./qc/crypto/info.c.html#9728"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09700] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09728] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09716"
- , "c1link" : "./qc/crypto/info.c.html#9716"
+   "c1" : "09744"
+ , "c1link" : "./qc/crypto/info.c.html#9744"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09716] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09744] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09735"
- , "c1link" : "./qc/crypto/info.c.html#9735"
+   "c1" : "09763"
+ , "c1link" : "./qc/crypto/info.c.html#9763"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09735] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09763] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09740"
- , "c1link" : "./qc/crypto/info.c.html#9740"
+   "c1" : "09768"
+ , "c1link" : "./qc/crypto/info.c.html#9768"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09740] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09768] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09760"
- , "c1link" : "./qc/crypto/info.c.html#9760"
+   "c1" : "09788"
+ , "c1link" : "./qc/crypto/info.c.html#9788"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09760] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09788] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09765"
- , "c1link" : "./qc/crypto/info.c.html#9765"
+   "c1" : "09793"
+ , "c1link" : "./qc/crypto/info.c.html#9793"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09765] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09793] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09786"
- , "c1link" : "./qc/crypto/info.c.html#9786"
+   "c1" : "09814"
+ , "c1link" : "./qc/crypto/info.c.html#9814"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09786] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09814] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09791"
- , "c1link" : "./qc/crypto/info.c.html#9791"
+   "c1" : "09819"
+ , "c1link" : "./qc/crypto/info.c.html#9819"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09791] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09819] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09812"
- , "c1link" : "./qc/crypto/info.c.html#9812"
+   "c1" : "09840"
+ , "c1link" : "./qc/crypto/info.c.html#9840"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09812] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09840] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09817"
- , "c1link" : "./qc/crypto/info.c.html#9817"
+   "c1" : "09845"
+ , "c1link" : "./qc/crypto/info.c.html#9845"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09817] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09845] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09839"
- , "c1link" : "./qc/crypto/info.c.html#9839"
+   "c1" : "09867"
+ , "c1link" : "./qc/crypto/info.c.html#9867"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09839] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09867] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09844"
- , "c1link" : "./qc/crypto/info.c.html#9844"
+   "c1" : "09872"
+ , "c1link" : "./qc/crypto/info.c.html#9872"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09844] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09872] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09868"
- , "c1link" : "./qc/crypto/info.c.html#9868"
+   "c1" : "09896"
+ , "c1link" : "./qc/crypto/info.c.html#9896"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09868] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09896] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "09873"
- , "c1link" : "./qc/crypto/info.c.html#9873"
+   "c1" : "09901"
+ , "c1link" : "./qc/crypto/info.c.html#9901"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09873] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[09901] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10316"
- , "c1link" : "./qc/crypto/info.c.html#10316"
+   "c1" : "10357"
+ , "c1link" : "./qc/crypto/info.c.html#10357"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10316] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10357] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10316"
- , "c1link" : "./qc/crypto/info.c.html#10316"
+   "c1" : "10357"
+ , "c1link" : "./qc/crypto/info.c.html#10357"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[10316] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[10357] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10316"
- , "c1link" : "./qc/crypto/info.c.html#10316"
+   "c1" : "10357"
+ , "c1link" : "./qc/crypto/info.c.html#10357"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10316] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10357] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10362"
- , "c1link" : "./qc/crypto/info.c.html#10362"
+   "c1" : "10403"
+ , "c1link" : "./qc/crypto/info.c.html#10403"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10362] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[10403] The expression 0 is invariable, always false"
 }} 
 ]
 };

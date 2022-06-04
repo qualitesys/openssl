@@ -223,66 +223,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "05116"
- , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#5116"
+   "c1" : "05132"
+ , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#5132"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05116] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[05132] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10166"
- , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10166"
+   "c1" : "10192"
+ , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10192"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10166] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10192] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10191"
- , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10191"
+   "c1" : "10217"
+ , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10217"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10191] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10217] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10218"
- , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10218"
+   "c1" : "10244"
+ , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10244"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10218] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10244] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10220"
- , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10220"
+   "c1" : "10246"
+ , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10246"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10220] The expression  ! ctx applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10246] The expression  ! ctx applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10221"
- , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10221"
+   "c1" : "10247"
+ , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10247"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10221] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10247] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10226"
- , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10226"
+   "c1" : "10252"
+ , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10252"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10226] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10229"
- , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10229"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10229] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10231"
- , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10231"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10231] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10252] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
@@ -295,36 +281,50 @@ var maDataBlocs = {
 { "ligne" : {
    "c1" : "10257"
  , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10257"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10257] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10281"
+ , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10281"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10281] goto statement jump to err"
+}} 
+,
+{ "ligne" : {
+   "c1" : "10283"
+ , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10283"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[10257] The expression  ! ctx applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[10283] The expression  ! ctx applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "10258"
- , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10258"
+   "c1" : "10284"
+ , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10284"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[10258] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[10284] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10263"
- , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10263"
+   "c1" : "10289"
+ , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10289"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10263] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10289] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10266"
- , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10266"
+   "c1" : "10292"
+ , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10292"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10266] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10292] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "10268"
- , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10268"
+   "c1" : "10294"
+ , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10294"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[10268] goto statement jump to err"
+ , "c3" : "QC-CPP000007[10294] goto statement jump to err"
 }} 
 ]
 };

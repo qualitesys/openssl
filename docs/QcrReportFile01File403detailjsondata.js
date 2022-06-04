@@ -230,129 +230,101 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "08337"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#8337"
+   "c1" : "08382"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#8382"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08337] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[08382] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14035"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14035"
+   "c1" : "14088"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14088"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14035] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[14088] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14040"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14040"
+   "c1" : "14093"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14093"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14040] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[14093] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14065"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14065"
+   "c1" : "14118"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14118"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14065] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14118] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14070"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14070"
+   "c1" : "14123"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14123"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14070] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14123] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14099"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14099"
+   "c1" : "14152"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14152"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14099] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14152] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14104"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14104"
+   "c1" : "14157"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14157"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14104] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14157] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14125"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14125"
+   "c1" : "14178"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14178"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14125] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14178] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14130"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14130"
+   "c1" : "14183"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14183"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14130] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14183] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14146"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14146"
+   "c1" : "14199"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14199"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14146] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14199] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14165"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14165"
+   "c1" : "14218"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14218"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14165] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14218] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14170"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14170"
+   "c1" : "14223"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14223"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14170] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14223] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14190"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14190"
+   "c1" : "14243"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14243"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14190] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14243] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14195"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14195"
+   "c1" : "14248"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14248"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14195] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14216"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14216"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14216] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14221"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14221"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14221] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14242"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14242"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14242] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "14247"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14247"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14247] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14248] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
@@ -370,150 +342,178 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "14298"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14298"
+   "c1" : "14295"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14295"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14298] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14295] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "14303"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14303"
+   "c1" : "14300"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14300"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[14303] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[14300] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15814"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#15814"
+   "c1" : "14322"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14322"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15814] The expression data-&gt;error_occurred applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[14322] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "15873"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#15873"
+   "c1" : "14327"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14327"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[15873] The expression data-&gt;error_occurred applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[14327] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16034"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16034"
+   "c1" : "14351"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14351"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14351] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "14356"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#14356"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14356] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {
+   "c1" : "15872"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#15872"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15872] The expression data-&gt;error_occurred applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "15931"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#15931"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15931] The expression data-&gt;error_occurred applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {
+   "c1" : "16092"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16092"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16034] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16092] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16044"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16044"
+   "c1" : "16102"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16102"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16044] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16102] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16062"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16062"
+   "c1" : "16120"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16120"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16062] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16120] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16067"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16067"
+   "c1" : "16125"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16125"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16067] The expression keymgmt_data.error_occurred applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16125] The expression keymgmt_data.error_occurred applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16069"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16069"
+   "c1" : "16127"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16127"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16069] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16127] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16094"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16094"
+   "c1" : "16152"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16152"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16094] The expression encoder_data.error_occurred applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[16152] The expression encoder_data.error_occurred applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "16100"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16100"
+   "c1" : "16158"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16158"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16100] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16158] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16112"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16112"
+   "c1" : "16170"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16170"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[16112] goto statement jump to err"
+ , "c3" : "QC-CPP000007[16170] goto statement jump to err"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16193"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16193"
+   "c1" : "16251"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16251"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[16193] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[16251] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16224"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16224"
+   "c1" : "16282"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16282"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16224] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[16282] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16224"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16224"
+   "c1" : "16282"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16282"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[16224] The condition is always false. Dead code"
+ , "c3" : "QC-CPP000017[16282] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16230"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16230"
+   "c1" : "16288"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16288"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16230] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[16288] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16230"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16230"
+   "c1" : "16288"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16288"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16230] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[16288] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16270"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16270"
+   "c1" : "16328"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16328"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16270] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[16328] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16270"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16270"
+   "c1" : "16328"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16328"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000017[16270] The condition is always false. Dead code"
+ , "c3" : "QC-CPP000017[16328] The condition is always false. Dead code"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16273"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16273"
+   "c1" : "16331"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16331"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[16273] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[16331] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {
-   "c1" : "16273"
- , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16273"
+   "c1" : "16331"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_pkey.c.html#16331"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[16273] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[16331] The expression 0 is invariable, always false"
 }} 
 ]
 };

@@ -216,45 +216,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {
-   "c1" : "04918"
- , "c1link" : "./qc/crypto/modes/cbc128.c.html#4918"
+   "c1" : "04923"
+ , "c1link" : "./qc/crypto/modes/cbc128.c.html#4923"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[04918] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000005[04923] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04924"
- , "c1link" : "./qc/crypto/modes/cbc128.c.html#4924"
+   "c1" : "04929"
+ , "c1link" : "./qc/crypto/modes/cbc128.c.html#4929"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04924] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[04929] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "04948"
- , "c1link" : "./qc/crypto/modes/cbc128.c.html#4948"
+   "c1" : "04953"
+ , "c1link" : "./qc/crypto/modes/cbc128.c.html#4953"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[04948] The expression len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[04953] The expression len applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {
-   "c1" : "04982"
- , "c1link" : "./qc/crypto/modes/cbc128.c.html#4982"
+   "c1" : "04987"
+ , "c1link" : "./qc/crypto/modes/cbc128.c.html#4987"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04982] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[04987] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05010"
- , "c1link" : "./qc/crypto/modes/cbc128.c.html#5010"
+   "c1" : "05015"
+ , "c1link" : "./qc/crypto/modes/cbc128.c.html#5015"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[05010] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[05015] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {
-   "c1" : "05044"
- , "c1link" : "./qc/crypto/modes/cbc128.c.html#5044"
+   "c1" : "05049"
+ , "c1link" : "./qc/crypto/modes/cbc128.c.html#5049"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[05044] The expression len applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[05049] The expression len applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };
