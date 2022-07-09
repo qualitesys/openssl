@@ -191,8 +191,11 @@ static void *encoder_from_algorithm(int id, const OSSL_ALGORITHM *algodef,
         return NULL;
     }
     encoder->base.algodef = algodef;
-    encoder->base.parsed_propdef
-        = ossl_parse_property(libctx, algodef->property_definition);
+    if ((encoder->base.parsed_propdef
+         = ossl_parse_property(libctx, algodef->property_definition)) == NULL) {
+        OSSL_ENCODER_free(encoder);
+        return NULL;
+    }
 
     for (; fns->function_id != 0; fns++) {
         switch (fns->function_id) {
@@ -392,7 +395,7 @@ inner_ossl_encoder_fetch(struct encoder_data_st *methdata,
         ERR_raise_data(ERR_LIB_OSSL_ENCODER, code,
                        "%s, Name (%s : %d), Properties (%s)",
                        ossl_lib_ctx_get_descriptor(methdata->libctx),
-                       name = NULL ? "<null>" : name, id,
+                       name == NULL ? "<null>" : name, id,
                        properties == NULL ? "<null>" : properties);
     }
 

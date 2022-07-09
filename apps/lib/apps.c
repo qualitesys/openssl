@@ -1148,7 +1148,9 @@ int set_dateopt(unsigned long *dateopt, const char *arg)
         *dateopt = ASN1_DTFLGS_RFC822;
     else if (OPENSSL_strcasecmp(arg, "iso_8601") == 0)
         *dateopt = ASN1_DTFLGS_ISO8601;
-    return 0;
+    else
+        return 0;
+    return 1;
 }
 
 int set_ext_copy(int *copy_type, const char *arg)
@@ -1332,8 +1334,8 @@ X509_STORE *setup_verify(const char *CAfile, int noCAfile,
         if (lookup == NULL)
             goto end;
         if (CAfile != NULL) {
-            if (!X509_LOOKUP_load_file_ex(lookup, CAfile, X509_FILETYPE_PEM,
-                                          libctx, propq)) {
+            if (X509_LOOKUP_load_file_ex(lookup, CAfile, X509_FILETYPE_PEM,
+                                          libctx, propq) <= 0) {
                 BIO_printf(bio_err, "Error loading file %s\n", CAfile);
                 goto end;
             }
@@ -1348,7 +1350,7 @@ X509_STORE *setup_verify(const char *CAfile, int noCAfile,
         if (lookup == NULL)
             goto end;
         if (CApath != NULL) {
-            if (!X509_LOOKUP_add_dir(lookup, CApath, X509_FILETYPE_PEM)) {
+            if (X509_LOOKUP_add_dir(lookup, CApath, X509_FILETYPE_PEM) <= 0) {
                 BIO_printf(bio_err, "Error loading directory %s\n", CApath);
                 goto end;
             }
@@ -2448,7 +2450,9 @@ BIO *app_http_tls_cb(BIO *bio, void *arg, int connect, int detail)
     APP_HTTP_TLS_INFO *info = (APP_HTTP_TLS_INFO *)arg;
     SSL_CTX *ssl_ctx = info->ssl_ctx;
 
-    if (connect && detail) { /* connecting with TLS */
+    if (ssl_ctx == NULL) /* not using TLS */
+        return bio;
+    if (connect) {
         SSL *ssl;
         BIO *sbio = NULL;
 
@@ -2526,6 +2530,11 @@ ASN1_VALUE *app_http_get_asn1(const char *url, const char *proxy,
     if (use_ssl && ssl_ctx == NULL) {
         ERR_raise_data(ERR_LIB_HTTP, ERR_R_PASSED_NULL_PARAMETER,
                        "missing SSL_CTX");
+        goto end;
+    }
+    if (!use_ssl && ssl_ctx != NULL) {
+        ERR_raise_data(ERR_LIB_HTTP, ERR_R_PASSED_INVALID_ARGUMENT,
+                       "SSL_CTX given but use_ssl == 0");
         goto end;
     }
 
