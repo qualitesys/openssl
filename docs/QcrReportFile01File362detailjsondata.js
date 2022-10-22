@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/ec/curve448/eddsa.c.html" 
- , "texte" : "File crypto/ec/curve448/eddsa.c 39 rule violations " 
- , "fic2"  : "./qc/crypto/ec/curve448/eddsa.c.xml" 
+   "fic1"  : "./qc/crypto/ec/curve448/arch_32/f_impl32.c.html" 
+ , "texte" : "File crypto/ec/curve448/arch_32/f_impl32.c 21 rule violations " 
+ , "fic2"  : "./qc/crypto/ec/curve448/arch_32/f_impl32.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -38,43 +38,29 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "2"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP999999"
+ , "c3" : "Syntax error in source code"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "BLOCKER"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "26"
+ , "c4" : "16"
 }}
 ,
-{ "ligne" : {
-   "c1" : "BLOCKER"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-CPP000007"
- , "c3" : "goto statement"
- , "c4" : "6"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
  , "c4" : "1"
@@ -82,277 +68,151 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00383"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#383"
+{ "ligne" : {"" : ""
+ , "c1" : "03371"
+ , "c1link" : "./qc/crypto/ec/curve448/arch_32/f_impl32.c.html#3371"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00383] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP999999[03371] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ec/curve448/arch_32/f_impl32.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01589"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#1589"
+{ "ligne" : {"" : ""
+ , "c1" : "01429"
+ , "c1link" : "./qc/crypto/ec/curve448/arch_32/f_impl32.c.html#1429"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01589] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[01429] The pointer __p is declared but not initialized"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01752"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#1752"
+{ "ligne" : {"" : ""
+ , "c1" : "01592"
+ , "c1link" : "./qc/crypto/ec/curve448/arch_32/f_impl32.c.html#1592"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01752] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01592] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01779"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#1779"
+{ "ligne" : {"" : ""
+ , "c1" : "01595"
+ , "c1link" : "./qc/crypto/ec/curve448/arch_32/f_impl32.c.html#1595"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01779] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01595] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01783"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#1783"
+{ "ligne" : {"" : ""
+ , "c1" : "01619"
+ , "c1link" : "./qc/crypto/ec/curve448/arch_32/f_impl32.c.html#1619"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01783] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01619] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01805"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#1805"
+{ "ligne" : {"" : ""
+ , "c1" : "01623"
+ , "c1link" : "./qc/crypto/ec/curve448/arch_32/f_impl32.c.html#1623"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01805] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01623] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01805"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#1805"
+{ "ligne" : {"" : ""
+ , "c1" : "01645"
+ , "c1link" : "./qc/crypto/ec/curve448/arch_32/f_impl32.c.html#1645"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01805] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01645] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01829"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#1829"
+{ "ligne" : {"" : ""
+ , "c1" : "01645"
+ , "c1link" : "./qc/crypto/ec/curve448/arch_32/f_impl32.c.html#1645"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01829] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01645] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01835"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#1835"
+{ "ligne" : {"" : ""
+ , "c1" : "01669"
+ , "c1link" : "./qc/crypto/ec/curve448/arch_32/f_impl32.c.html#1669"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01835] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01669] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01860"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#1860"
+{ "ligne" : {"" : ""
+ , "c1" : "01675"
+ , "c1link" : "./qc/crypto/ec/curve448/arch_32/f_impl32.c.html#1675"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01860] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01675] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01864"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#1864"
+{ "ligne" : {"" : ""
+ , "c1" : "01700"
+ , "c1link" : "./qc/crypto/ec/curve448/arch_32/f_impl32.c.html#1700"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01864] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01700] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "03063"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#3063"
+{ "ligne" : {"" : ""
+ , "c1" : "01704"
+ , "c1link" : "./qc/crypto/ec/curve448/arch_32/f_impl32.c.html#1704"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03063] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01704] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "03068"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#3068"
+{ "ligne" : {"" : ""
+ , "c1" : "02755"
+ , "c1link" : "./qc/crypto/ec/curve448/arch_32/f_impl32.c.html#2755"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03068] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02755] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "03093"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#3093"
+{ "ligne" : {"" : ""
+ , "c1" : "02760"
+ , "c1link" : "./qc/crypto/ec/curve448/arch_32/f_impl32.c.html#2760"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03093] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[02760] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "03097"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#3097"
+{ "ligne" : {"" : ""
+ , "c1" : "02785"
+ , "c1link" : "./qc/crypto/ec/curve448/arch_32/f_impl32.c.html#2785"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03097] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000012[02785] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "03100"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#3100"
+{ "ligne" : {"" : ""
+ , "c1" : "02789"
+ , "c1link" : "./qc/crypto/ec/curve448/arch_32/f_impl32.c.html#2789"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03100] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000018[02789] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "03125"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#3125"
+{ "ligne" : {"" : ""
+ , "c1" : "02792"
+ , "c1link" : "./qc/crypto/ec/curve448/arch_32/f_impl32.c.html#2792"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03125] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[02792] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "03129"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#3129"
+{ "ligne" : {"" : ""
+ , "c1" : "02817"
+ , "c1link" : "./qc/crypto/ec/curve448/arch_32/f_impl32.c.html#2817"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03129] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000012[02817] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "03133"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#3133"
+{ "ligne" : {"" : ""
+ , "c1" : "02821"
+ , "c1link" : "./qc/crypto/ec/curve448/arch_32/f_impl32.c.html#2821"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03133] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000018[02821] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "03141"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#3141"
+{ "ligne" : {"" : ""
+ , "c1" : "02825"
+ , "c1link" : "./qc/crypto/ec/curve448/arch_32/f_impl32.c.html#2825"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03141] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000012[02825] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "08756"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#8756"
+{ "ligne" : {"" : ""
+ , "c1" : "02833"
+ , "c1link" : "./qc/crypto/ec/curve448/arch_32/f_impl32.c.html#2833"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08756] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08757"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#8757"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[08757] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08928"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#8928"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[08928] The expression n applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "08941"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#8941"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08941] The expression 9999&lt;3 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09247"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9247"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09247] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09256"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9256"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09256] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09356"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9356"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09356] The expression 57 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09413"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9413"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09413] The expression 57 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09414"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9414"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09414] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09420"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9420"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09420] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09424"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9424"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09424] The expression 57 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09427"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9427"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09427] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09437"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9437"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09437] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09462"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9462"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09462] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09465"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9465"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09465] The expression 57 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09468"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9468"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[09468] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09565"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9565"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09565] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09567"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9567"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09567] The expression 57 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09568"
- , "c1link" : "./qc/crypto/ec/curve448/eddsa.c.html#9568"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09568] The expression 57 is invariable"
+ , "c3" : "QC-CPP000018[02833] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ]
 };

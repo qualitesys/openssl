@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/providers/implementations/digests/null_prov.c.html" 
- , "texte" : "File providers/implementations/digests/null_prov.c 19 rule violations " 
- , "fic2"  : "./qc/providers/implementations/digests/null_prov.c.xml" 
+   "fic1"  : "./qc/providers/implementations/ciphers/cipher_tdes_wrap_hw.c.html" 
+ , "texte" : "File providers/implementations/ciphers/cipher_tdes_wrap_hw.c 21 rule violations " 
+ , "fic2"  : "./qc/providers/implementations/ciphers/cipher_tdes_wrap_hw.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -38,22 +38,29 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000012"
- , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "15"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP999999"
+ , "c3" : "Syntax error in source code"
+ , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "BLOCKER"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000012"
+ , "c3" : "The condition expression is invariable, always true or false"
+ , "c4" : "16"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
  , "c4" : "1"
@@ -61,137 +68,151 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "01209"
- , "c1link" : "./qc/providers/implementations/digests/null_prov.c.html#1209"
+{ "ligne" : {"" : ""
+ , "c1" : "03382"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes_wrap_hw.c.html#3382"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP999999[03382] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_tdes_wrap_hw.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01560"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes_wrap_hw.c.html#1560"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01560] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01565"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes_wrap_hw.c.html#1565"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01565] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01590"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes_wrap_hw.c.html#1590"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01590] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01594"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes_wrap_hw.c.html#1594"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01594] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01597"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes_wrap_hw.c.html#1597"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01597] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01622"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes_wrap_hw.c.html#1622"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01622] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01626"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes_wrap_hw.c.html#1626"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01626] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01630"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes_wrap_hw.c.html#1630"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01630] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01638"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes_wrap_hw.c.html#1638"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01638] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02682"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes_wrap_hw.c.html#2682"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01209] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[02682] The pointer __p is declared but not initialized"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01372"
- , "c1link" : "./qc/providers/implementations/digests/null_prov.c.html#1372"
+{ "ligne" : {"" : ""
+ , "c1" : "02845"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes_wrap_hw.c.html#2845"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01372] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02845] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01399"
- , "c1link" : "./qc/providers/implementations/digests/null_prov.c.html#1399"
+{ "ligne" : {"" : ""
+ , "c1" : "02848"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes_wrap_hw.c.html#2848"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01399] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02848] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01403"
- , "c1link" : "./qc/providers/implementations/digests/null_prov.c.html#1403"
+{ "ligne" : {"" : ""
+ , "c1" : "02872"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes_wrap_hw.c.html#2872"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01403] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02872] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01425"
- , "c1link" : "./qc/providers/implementations/digests/null_prov.c.html#1425"
+{ "ligne" : {"" : ""
+ , "c1" : "02876"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes_wrap_hw.c.html#2876"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01425] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02876] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01425"
- , "c1link" : "./qc/providers/implementations/digests/null_prov.c.html#1425"
+{ "ligne" : {"" : ""
+ , "c1" : "02898"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes_wrap_hw.c.html#2898"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01425] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02898] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01449"
- , "c1link" : "./qc/providers/implementations/digests/null_prov.c.html#1449"
+{ "ligne" : {"" : ""
+ , "c1" : "02898"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes_wrap_hw.c.html#2898"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01449] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02898] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01455"
- , "c1link" : "./qc/providers/implementations/digests/null_prov.c.html#1455"
+{ "ligne" : {"" : ""
+ , "c1" : "02922"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes_wrap_hw.c.html#2922"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01455] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02922] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01480"
- , "c1link" : "./qc/providers/implementations/digests/null_prov.c.html#1480"
+{ "ligne" : {"" : ""
+ , "c1" : "02928"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes_wrap_hw.c.html#2928"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01480] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02928] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01484"
- , "c1link" : "./qc/providers/implementations/digests/null_prov.c.html#1484"
+{ "ligne" : {"" : ""
+ , "c1" : "02953"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes_wrap_hw.c.html#2953"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01484] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02953] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02713"
- , "c1link" : "./qc/providers/implementations/digests/null_prov.c.html#2713"
+{ "ligne" : {"" : ""
+ , "c1" : "02957"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_tdes_wrap_hw.c.html#2957"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02713] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02718"
- , "c1link" : "./qc/providers/implementations/digests/null_prov.c.html#2718"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02718] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02743"
- , "c1link" : "./qc/providers/implementations/digests/null_prov.c.html#2743"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02743] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02747"
- , "c1link" : "./qc/providers/implementations/digests/null_prov.c.html#2747"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02747] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02750"
- , "c1link" : "./qc/providers/implementations/digests/null_prov.c.html#2750"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02750] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02775"
- , "c1link" : "./qc/providers/implementations/digests/null_prov.c.html#2775"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02775] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02779"
- , "c1link" : "./qc/providers/implementations/digests/null_prov.c.html#2779"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02779] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02783"
- , "c1link" : "./qc/providers/implementations/digests/null_prov.c.html#2783"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02783] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02791"
- , "c1link" : "./qc/providers/implementations/digests/null_prov.c.html#2791"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02791] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000012[02957] The expression 2&gt;1 is invariable"
 }} 
 ]
 };

@@ -4,7 +4,7 @@
 <a name="4">4&nbsp;&nbsp;&nbsp;#&nbsp;1&nbsp;"/usr/include/stdc-predef.h"&nbsp;1&nbsp;3&nbsp;4</a><br/>
 <a name="5">5&nbsp;&nbsp;&nbsp;#&nbsp;1&nbsp;"&lt;command-line&gt;"&nbsp;2</a><br/>
 <a name="6">6&nbsp;&nbsp;&nbsp;#&nbsp;1&nbsp;"crypto/threads_win.c"</a><br/>
-<a name="7">7&nbsp;&nbsp;&nbsp;#&nbsp;17&nbsp;"crypto/threads_win.c"</a><br/>
+<a name="7">7&nbsp;&nbsp;&nbsp;#&nbsp;29&nbsp;"crypto/threads_win.c"</a><br/>
 <a name="8">8&nbsp;&nbsp;&nbsp;#&nbsp;1&nbsp;"include/openssl/crypto.h"&nbsp;1</a><br/>
 <a name="9">9&nbsp;&nbsp;&nbsp;#&nbsp;18&nbsp;"include/openssl/crypto.h"</a><br/>
 <a name="10">10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br/>
@@ -3360,11 +3360,11 @@
 <a name="3360">3360&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CRYPTO_realloc_fn&nbsp;*realloc_fn,</a><br/>
 <a name="3361">3361&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CRYPTO_free_fn&nbsp;*free_fn);</a><br/>
 <a name="3362">3362&nbsp;&nbsp;&nbsp;</a><br/>
-<a name="3363">3363&nbsp;&nbsp;&nbsp;void&nbsp;*CRYPTO_malloc(size_t&nbsp;num,&nbsp;const&nbsp;char&nbsp;*file,&nbsp;int&nbsp;line);</a><br/>
-<a name="3364">3364&nbsp;&nbsp;&nbsp;void&nbsp;*CRYPTO_zalloc(size_t&nbsp;num,&nbsp;const&nbsp;char&nbsp;*file,&nbsp;int&nbsp;line);</a><br/>
-<a name="3365">3365&nbsp;&nbsp;&nbsp;void&nbsp;*CRYPTO_memdup(const&nbsp;void&nbsp;*str,&nbsp;size_t&nbsp;siz,&nbsp;const&nbsp;char&nbsp;*file,&nbsp;int&nbsp;line);</a><br/>
-<a name="3366">3366&nbsp;&nbsp;&nbsp;char&nbsp;*CRYPTO_strdup(const&nbsp;char&nbsp;*str,&nbsp;const&nbsp;char&nbsp;*file,&nbsp;int&nbsp;line);</a><br/>
-<a name="3367">3367&nbsp;&nbsp;&nbsp;char&nbsp;*CRYPTO_strndup(const&nbsp;char&nbsp;*str,&nbsp;size_t&nbsp;s,&nbsp;const&nbsp;char&nbsp;*file,&nbsp;int&nbsp;line);</a><br/>
+<a name="3363">3363&nbsp;&nbsp;&nbsp;__attribute__((malloc))&nbsp;void&nbsp;*CRYPTO_malloc(size_t&nbsp;num,&nbsp;const&nbsp;char&nbsp;*file,&nbsp;int&nbsp;line);</a><br/>
+<a name="3364">3364&nbsp;&nbsp;&nbsp;__attribute__((malloc))&nbsp;void&nbsp;*CRYPTO_zalloc(size_t&nbsp;num,&nbsp;const&nbsp;char&nbsp;*file,&nbsp;int&nbsp;line);</a><br/>
+<a name="3365">3365&nbsp;&nbsp;&nbsp;__attribute__((malloc))&nbsp;void&nbsp;*CRYPTO_memdup(const&nbsp;void&nbsp;*str,&nbsp;size_t&nbsp;siz,&nbsp;const&nbsp;char&nbsp;*file,&nbsp;int&nbsp;line);</a><br/>
+<a name="3366">3366&nbsp;&nbsp;&nbsp;__attribute__((malloc))&nbsp;char&nbsp;*CRYPTO_strdup(const&nbsp;char&nbsp;*str,&nbsp;const&nbsp;char&nbsp;*file,&nbsp;int&nbsp;line);</a><br/>
+<a name="3367">3367&nbsp;&nbsp;&nbsp;__attribute__((malloc))&nbsp;char&nbsp;*CRYPTO_strndup(const&nbsp;char&nbsp;*str,&nbsp;size_t&nbsp;s,&nbsp;const&nbsp;char&nbsp;*file,&nbsp;int&nbsp;line);</a><br/>
 <a name="3368">3368&nbsp;&nbsp;&nbsp;void&nbsp;CRYPTO_free(void&nbsp;*ptr,&nbsp;const&nbsp;char&nbsp;*file,&nbsp;int&nbsp;line);</a><br/>
 <a name="3369">3369&nbsp;&nbsp;&nbsp;void&nbsp;CRYPTO_clear_free(void&nbsp;*ptr,&nbsp;size_t&nbsp;num,&nbsp;const&nbsp;char&nbsp;*file,&nbsp;int&nbsp;line);</a><br/>
 <a name="3370">3370&nbsp;&nbsp;&nbsp;void&nbsp;*CRYPTO_realloc(void&nbsp;*addr,&nbsp;size_t&nbsp;num,&nbsp;const&nbsp;char&nbsp;*file,&nbsp;int&nbsp;line);</a><br/>
@@ -3373,8 +3373,8 @@
 <a name="3373">3373&nbsp;&nbsp;&nbsp;</a><br/>
 <a name="3374">3374&nbsp;&nbsp;&nbsp;int&nbsp;CRYPTO_secure_malloc_init(size_t&nbsp;sz,&nbsp;size_t&nbsp;minsize);</a><br/>
 <a name="3375">3375&nbsp;&nbsp;&nbsp;int&nbsp;CRYPTO_secure_malloc_done(void);</a><br/>
-<a name="3376">3376&nbsp;&nbsp;&nbsp;void&nbsp;*CRYPTO_secure_malloc(size_t&nbsp;num,&nbsp;const&nbsp;char&nbsp;*file,&nbsp;int&nbsp;line);</a><br/>
-<a name="3377">3377&nbsp;&nbsp;&nbsp;void&nbsp;*CRYPTO_secure_zalloc(size_t&nbsp;num,&nbsp;const&nbsp;char&nbsp;*file,&nbsp;int&nbsp;line);</a><br/>
+<a name="3376">3376&nbsp;&nbsp;&nbsp;__attribute__((malloc))&nbsp;void&nbsp;*CRYPTO_secure_malloc(size_t&nbsp;num,&nbsp;const&nbsp;char&nbsp;*file,&nbsp;int&nbsp;line);</a><br/>
+<a name="3377">3377&nbsp;&nbsp;&nbsp;__attribute__((malloc))&nbsp;void&nbsp;*CRYPTO_secure_zalloc(size_t&nbsp;num,&nbsp;const&nbsp;char&nbsp;*file,&nbsp;int&nbsp;line);</a><br/>
 <a name="3378">3378&nbsp;&nbsp;&nbsp;void&nbsp;CRYPTO_secure_free(void&nbsp;*ptr,&nbsp;const&nbsp;char&nbsp;*file,&nbsp;int&nbsp;line);</a><br/>
 <a name="3379">3379&nbsp;&nbsp;&nbsp;void&nbsp;CRYPTO_secure_clear_free(void&nbsp;*ptr,&nbsp;size_t&nbsp;num,</a><br/>
 <a name="3380">3380&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const&nbsp;char&nbsp;*file,&nbsp;int&nbsp;line);</a><br/>
@@ -4230,5 +4230,7 @@
 <a name="4230">4230&nbsp;&nbsp;&nbsp;void&nbsp;OSSL_LIB_CTX_free(OSSL_LIB_CTX&nbsp;*);</a><br/>
 <a name="4231">4231&nbsp;&nbsp;&nbsp;OSSL_LIB_CTX&nbsp;*OSSL_LIB_CTX_get0_global_default(void);</a><br/>
 <a name="4232">4232&nbsp;&nbsp;&nbsp;OSSL_LIB_CTX&nbsp;*OSSL_LIB_CTX_set0_default(OSSL_LIB_CTX&nbsp;*libctx);</a><br/>
-<a name="4233">4233&nbsp;&nbsp;&nbsp;#&nbsp;18&nbsp;"crypto/threads_win.c"&nbsp;2</a><br/>
-<a name="4234">4234&nbsp;&nbsp;&nbsp;</a><br/></FONT</body></html>
+<a name="4233">4233&nbsp;&nbsp;&nbsp;</a><br/>
+<a name="4234">4234&nbsp;&nbsp;&nbsp;void&nbsp;OSSL_sleep(uint64_t&nbsp;millis);</a><br/>
+<a name="4235">4235&nbsp;&nbsp;&nbsp;#&nbsp;30&nbsp;"crypto/threads_win.c"&nbsp;2</a><br/>
+<a name="4236">4236&nbsp;&nbsp;&nbsp;</a><br/></FONT</body></html>

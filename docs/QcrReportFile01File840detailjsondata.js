@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/providers/common/securitycheck.c.html" 
- , "texte" : "File providers/common/securitycheck.c 23 rule violations " 
- , "fic2"  : "./qc/providers/common/securitycheck.c.xml" 
+   "fic1"  : "./qc/providers/common/der/der_ecx_key.c.html" 
+ , "texte" : "File providers/common/der/der_ecx_key.c 22 rule violations " 
+ , "fic2"  : "./qc/providers/common/der/der_ecx_key.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -38,29 +38,29 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP999999"
+ , "c3" : "Syntax error in source code"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "17"
 }}
 ,
-{ "ligne" : {
-   "c1" : "BLOCKER"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
 }}
 ,
-{ "ligne" : {
-   "c1" : "CRITICAL"
- , "c2" : "QC-CPPCWE484"
- , "c3" : "Omitted Break Statement in Switch"
- , "c4" : "2"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
  , "c4" : "1"
@@ -68,165 +68,158 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "01000"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#1000"
+{ "ligne" : {"" : ""
+ , "c1" : "03735"
+ , "c1link" : "./qc/providers/common/der/der_ecx_key.c.html#3735"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01000] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP999999[03735] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/common/der/der_ecx_key.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01005"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#1005"
+{ "ligne" : {"" : ""
+ , "c1" : "00391"
+ , "c1link" : "./qc/providers/common/der/der_ecx_key.c.html#391"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01005] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[00391] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01030"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#1030"
+{ "ligne" : {"" : ""
+ , "c1" : "01559"
+ , "c1link" : "./qc/providers/common/der/der_ecx_key.c.html#1559"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01030] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[01559] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01034"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#1034"
+{ "ligne" : {"" : ""
+ , "c1" : "01564"
+ , "c1link" : "./qc/providers/common/der/der_ecx_key.c.html#1564"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01034] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000012[01564] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01037"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#1037"
+{ "ligne" : {"" : ""
+ , "c1" : "01589"
+ , "c1link" : "./qc/providers/common/der/der_ecx_key.c.html#1589"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01037] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[01589] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01062"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#1062"
+{ "ligne" : {"" : ""
+ , "c1" : "01593"
+ , "c1link" : "./qc/providers/common/der/der_ecx_key.c.html#1593"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01062] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000018[01593] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01066"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#1066"
+{ "ligne" : {"" : ""
+ , "c1" : "01596"
+ , "c1link" : "./qc/providers/common/der/der_ecx_key.c.html#1596"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01066] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000012[01596] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01070"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#1070"
+{ "ligne" : {"" : ""
+ , "c1" : "01621"
+ , "c1link" : "./qc/providers/common/der/der_ecx_key.c.html#1621"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01070] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[01621] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01078"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#1078"
+{ "ligne" : {"" : ""
+ , "c1" : "01625"
+ , "c1link" : "./qc/providers/common/der/der_ecx_key.c.html#1625"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01078] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[01625] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02562"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#2562"
+{ "ligne" : {"" : ""
+ , "c1" : "01629"
+ , "c1link" : "./qc/providers/common/der/der_ecx_key.c.html#1629"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01629] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01637"
+ , "c1link" : "./qc/providers/common/der/der_ecx_key.c.html#1637"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01637] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02972"
+ , "c1link" : "./qc/providers/common/der/der_ecx_key.c.html#2972"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02562] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[02972] The pointer __p is declared but not initialized"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02725"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#2725"
+{ "ligne" : {"" : ""
+ , "c1" : "03135"
+ , "c1link" : "./qc/providers/common/der/der_ecx_key.c.html#3135"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02725] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03135] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02752"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#2752"
+{ "ligne" : {"" : ""
+ , "c1" : "03138"
+ , "c1link" : "./qc/providers/common/der/der_ecx_key.c.html#3138"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02752] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03138] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02756"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#2756"
+{ "ligne" : {"" : ""
+ , "c1" : "03162"
+ , "c1link" : "./qc/providers/common/der/der_ecx_key.c.html#3162"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02756] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03162] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02778"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#2778"
+{ "ligne" : {"" : ""
+ , "c1" : "03166"
+ , "c1link" : "./qc/providers/common/der/der_ecx_key.c.html#3166"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02778] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03166] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02778"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#2778"
+{ "ligne" : {"" : ""
+ , "c1" : "03188"
+ , "c1link" : "./qc/providers/common/der/der_ecx_key.c.html#3188"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02778] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03188] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02802"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#2802"
+{ "ligne" : {"" : ""
+ , "c1" : "03188"
+ , "c1link" : "./qc/providers/common/der/der_ecx_key.c.html#3188"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02802] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03188] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02808"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#2808"
+{ "ligne" : {"" : ""
+ , "c1" : "03212"
+ , "c1link" : "./qc/providers/common/der/der_ecx_key.c.html#3212"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02808] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03212] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02833"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#2833"
+{ "ligne" : {"" : ""
+ , "c1" : "03218"
+ , "c1link" : "./qc/providers/common/der/der_ecx_key.c.html#3218"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02833] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03218] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02837"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#2837"
+{ "ligne" : {"" : ""
+ , "c1" : "03243"
+ , "c1link" : "./qc/providers/common/der/der_ecx_key.c.html#3243"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02837] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03243] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "06549"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#6549"
+{ "ligne" : {"" : ""
+ , "c1" : "03247"
+ , "c1link" : "./qc/providers/common/der/der_ecx_key.c.html#3247"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[06549] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10122"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#10122"
- , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[10122] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10127"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#10127"
- , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[10127] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "10135"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#10135"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[10135] The expression 0xF000 is invariable"
+ , "c3" : "QC-CPP000012[03247] The expression 2&gt;1 is invariable"
 }} 
 ]
 };

@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/providers/implementations/rands/drbg_hmac.c.html" 
- , "texte" : "File providers/implementations/rands/drbg_hmac.c 36 rule violations " 
- , "fic2"  : "./qc/providers/implementations/rands/drbg_hmac.c.xml" 
+   "fic1"  : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.html" 
+ , "texte" : "File providers/implementations/keymgmt/dh_kmgmt.c 22 rule violations " 
+ , "fic2"  : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -38,300 +38,188 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP999999"
+ , "c3" : "Syntax error in source code"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000006"
- , "c3" : "Risk of infinite while loop"
- , "c4" : "2"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "22"
+ , "c4" : "17"
 }}
 ,
-{ "ligne" : {
-   "c1" : "BLOCKER"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-CPPCWE481"
- , "c3" : "Assigning instead of comparing"
- , "c4" : "1"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "7"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "01183"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#1183"
+{ "ligne" : {"" : ""
+ , "c1" : "04293"
+ , "c1link" : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.html#4293"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP999999[04293] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/keymgmt/dh_kmgmt.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00410"
+ , "c1link" : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.html#410"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00410] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02501"
+ , "c1link" : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.html#2501"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02501] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02506"
+ , "c1link" : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.html#2506"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02506] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02531"
+ , "c1link" : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.html#2531"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02531] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02535"
+ , "c1link" : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.html#2535"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02535] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02538"
+ , "c1link" : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.html#2538"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02538] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02563"
+ , "c1link" : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.html#2563"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02563] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02567"
+ , "c1link" : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.html#2567"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02567] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02571"
+ , "c1link" : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.html#2571"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02571] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02579"
+ , "c1link" : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.html#2579"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02579] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03623"
+ , "c1link" : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.html#3623"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01183] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[03623] The pointer __p is declared but not initialized"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01346"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#1346"
+{ "ligne" : {"" : ""
+ , "c1" : "03786"
+ , "c1link" : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.html#3786"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01346] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03786] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01373"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#1373"
+{ "ligne" : {"" : ""
+ , "c1" : "03789"
+ , "c1link" : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.html#3789"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01373] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03789] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01377"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#1377"
+{ "ligne" : {"" : ""
+ , "c1" : "03813"
+ , "c1link" : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.html#3813"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01377] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03813] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01399"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#1399"
+{ "ligne" : {"" : ""
+ , "c1" : "03817"
+ , "c1link" : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.html#3817"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01399] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03817] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01399"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#1399"
+{ "ligne" : {"" : ""
+ , "c1" : "03839"
+ , "c1link" : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.html#3839"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01399] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03839] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01423"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#1423"
+{ "ligne" : {"" : ""
+ , "c1" : "03839"
+ , "c1link" : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.html#3839"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01423] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03839] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01429"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#1429"
+{ "ligne" : {"" : ""
+ , "c1" : "03863"
+ , "c1link" : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.html#3863"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01429] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03863] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01454"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#1454"
+{ "ligne" : {"" : ""
+ , "c1" : "03869"
+ , "c1link" : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.html#3869"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01454] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03869] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01458"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#1458"
+{ "ligne" : {"" : ""
+ , "c1" : "03894"
+ , "c1link" : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.html#3894"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01458] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03894] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01825"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#1825"
+{ "ligne" : {"" : ""
+ , "c1" : "03898"
+ , "c1link" : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.html#3898"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01825] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03064"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#3064"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03064] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03069"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#3069"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03069] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03094"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#3094"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03094] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03098"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#3098"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03098] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03101"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#3101"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03101] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03126"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#3126"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03126] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03130"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#3130"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03130] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03134"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#3134"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03134] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "03142"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#3142"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[03142] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09391"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9391"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09391] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09436"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9436"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09436] The expression 0x00 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09516"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9516"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[09516] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09529"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9529"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09529] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09533"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9533"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09533] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09536"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9536"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[09536] The condition of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09536"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9536"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[09536] The end expression of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09571"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9571"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09571] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09575"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9575"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09575] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09617"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9617"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09617] The pointer hmac is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09672"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9672"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09672] The pointer hmac is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09678"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9678"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[09678] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09694"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9694"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09694] The pointer name is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09695"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9695"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09695] The pointer md is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09696"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9696"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09696] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09818"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hmac.c.html#9818"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[09818] The pointer md is declared but not initialized"
+ , "c3" : "QC-CPP000012[03898] The expression 2&gt;1 is invariable"
 }} 
 ]
 };

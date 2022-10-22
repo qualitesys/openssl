@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html" 
- , "texte" : "File providers/implementations/ciphers/cipher_aria_ccm.c 43 rule violations " 
- , "fic2"  : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.xml" 
+   "fic1"  : "./qc/providers/implementations/ciphers/cipher_aes_ccm_hw.c.html" 
+ , "texte" : "File providers/implementations/ciphers/cipher_aes_ccm_hw.c 21 rule violations " 
+ , "fic2"  : "./qc/providers/implementations/ciphers/cipher_aes_ccm_hw.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -38,328 +38,181 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000012"
- , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "38"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP999999"
+ , "c3" : "Syntax error in source code"
+ , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "BLOCKER"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000012"
+ , "c3" : "The condition expression is invariable, always true or false"
+ , "c4" : "16"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "01579"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1579"
+{ "ligne" : {"" : ""
+ , "c1" : "03461"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ccm_hw.c.html#3461"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01579] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP999999[03461] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_aes_ccm_hw.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01584"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1584"
+{ "ligne" : {"" : ""
+ , "c1" : "01639"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ccm_hw.c.html#1639"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01584] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01639] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01609"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1609"
+{ "ligne" : {"" : ""
+ , "c1" : "01644"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ccm_hw.c.html#1644"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01609] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[01644] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01613"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1613"
+{ "ligne" : {"" : ""
+ , "c1" : "01669"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ccm_hw.c.html#1669"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01613] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000012[01669] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01616"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1616"
+{ "ligne" : {"" : ""
+ , "c1" : "01673"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ccm_hw.c.html#1673"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01616] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000018[01673] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01641"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1641"
+{ "ligne" : {"" : ""
+ , "c1" : "01676"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ccm_hw.c.html#1676"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01641] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[01676] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01645"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1645"
+{ "ligne" : {"" : ""
+ , "c1" : "01701"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ccm_hw.c.html#1701"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01645] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000012[01701] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01649"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1649"
+{ "ligne" : {"" : ""
+ , "c1" : "01705"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ccm_hw.c.html#1705"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01649] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000018[01705] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01657"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1657"
+{ "ligne" : {"" : ""
+ , "c1" : "01709"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ccm_hw.c.html#1709"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01657] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000012[01709] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02701"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#2701"
+{ "ligne" : {"" : ""
+ , "c1" : "01717"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ccm_hw.c.html#1717"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01717] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02761"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ccm_hw.c.html#2761"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02701] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[02761] The pointer __p is declared but not initialized"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02864"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#2864"
+{ "ligne" : {"" : ""
+ , "c1" : "02924"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ccm_hw.c.html#2924"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02864] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02924] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02867"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#2867"
+{ "ligne" : {"" : ""
+ , "c1" : "02927"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ccm_hw.c.html#2927"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02867] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02927] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02891"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#2891"
+{ "ligne" : {"" : ""
+ , "c1" : "02951"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ccm_hw.c.html#2951"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02891] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02951] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02895"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#2895"
+{ "ligne" : {"" : ""
+ , "c1" : "02955"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ccm_hw.c.html#2955"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02895] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02955] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02917"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#2917"
+{ "ligne" : {"" : ""
+ , "c1" : "02977"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ccm_hw.c.html#2977"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02917] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02977] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02917"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#2917"
+{ "ligne" : {"" : ""
+ , "c1" : "02977"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ccm_hw.c.html#2977"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02917] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02977] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02941"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#2941"
+{ "ligne" : {"" : ""
+ , "c1" : "03001"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ccm_hw.c.html#3001"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02941] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03001] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02947"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#2947"
+{ "ligne" : {"" : ""
+ , "c1" : "03007"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ccm_hw.c.html#3007"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02947] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03007] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02972"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#2972"
+{ "ligne" : {"" : ""
+ , "c1" : "03032"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ccm_hw.c.html#3032"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02972] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03032] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02976"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#2976"
+{ "ligne" : {"" : ""
+ , "c1" : "03036"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ccm_hw.c.html#3036"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02976] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08108"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#8108"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08108] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09466"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#9466"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09466] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09471"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#9471"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09471] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09496"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#9496"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09496] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09501"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#9501"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09501] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09530"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#9530"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09530] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09535"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#9535"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09535] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09556"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#9556"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09556] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09561"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#9561"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09561] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09577"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#9577"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09577] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09596"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#9596"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09596] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09601"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#9601"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09601] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09621"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#9621"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09621] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09626"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#9626"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09626] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09647"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#9647"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09647] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09652"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#9652"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09652] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09673"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#9673"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09673] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09678"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#9678"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09678] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09700"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#9700"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09700] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09705"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#9705"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09705] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09729"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#9729"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09729] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09734"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#9734"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09734] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11246"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#11246"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11246] The pointer ctx is declared but not initialized"
+ , "c3" : "QC-CPP000012[03036] The expression 2&gt;1 is invariable"
 }} 
 ]
 };

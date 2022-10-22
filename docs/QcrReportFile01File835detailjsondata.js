@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/providers/common/digest_to_nid.c.html" 
- , "texte" : "File providers/common/digest_to_nid.c 19 rule violations " 
- , "fic2"  : "./qc/providers/common/digest_to_nid.c.xml" 
+   "fic1"  : "./qc/providers/common/der/der_dsa_sig.c.html" 
+ , "texte" : "File providers/common/der/der_dsa_sig.c 22 rule violations " 
+ , "fic2"  : "./qc/providers/common/der/der_dsa_sig.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -38,22 +38,29 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000012"
- , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "15"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP999999"
+ , "c3" : "Syntax error in source code"
+ , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "BLOCKER"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000012"
+ , "c3" : "The condition expression is invariable, always true or false"
+ , "c4" : "17"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
  , "c4" : "1"
@@ -61,137 +68,158 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "01195"
- , "c1link" : "./qc/providers/common/digest_to_nid.c.html#1195"
+{ "ligne" : {"" : ""
+ , "c1" : "03745"
+ , "c1link" : "./qc/providers/common/der/der_dsa_sig.c.html#3745"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01195] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP999999[03745] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/common/der/der_dsa_sig.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01200"
- , "c1link" : "./qc/providers/common/digest_to_nid.c.html#1200"
+{ "ligne" : {"" : ""
+ , "c1" : "00418"
+ , "c1link" : "./qc/providers/common/der/der_dsa_sig.c.html#418"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01200] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[00418] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01225"
- , "c1link" : "./qc/providers/common/digest_to_nid.c.html#1225"
+{ "ligne" : {"" : ""
+ , "c1" : "01569"
+ , "c1link" : "./qc/providers/common/der/der_dsa_sig.c.html#1569"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01225] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[01569] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01229"
- , "c1link" : "./qc/providers/common/digest_to_nid.c.html#1229"
+{ "ligne" : {"" : ""
+ , "c1" : "01574"
+ , "c1link" : "./qc/providers/common/der/der_dsa_sig.c.html#1574"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01229] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000012[01574] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01232"
- , "c1link" : "./qc/providers/common/digest_to_nid.c.html#1232"
+{ "ligne" : {"" : ""
+ , "c1" : "01599"
+ , "c1link" : "./qc/providers/common/der/der_dsa_sig.c.html#1599"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01232] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[01599] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01257"
- , "c1link" : "./qc/providers/common/digest_to_nid.c.html#1257"
+{ "ligne" : {"" : ""
+ , "c1" : "01603"
+ , "c1link" : "./qc/providers/common/der/der_dsa_sig.c.html#1603"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01257] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000018[01603] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01261"
- , "c1link" : "./qc/providers/common/digest_to_nid.c.html#1261"
+{ "ligne" : {"" : ""
+ , "c1" : "01606"
+ , "c1link" : "./qc/providers/common/der/der_dsa_sig.c.html#1606"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01261] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000012[01606] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01265"
- , "c1link" : "./qc/providers/common/digest_to_nid.c.html#1265"
+{ "ligne" : {"" : ""
+ , "c1" : "01631"
+ , "c1link" : "./qc/providers/common/der/der_dsa_sig.c.html#1631"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01265] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[01631] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01273"
- , "c1link" : "./qc/providers/common/digest_to_nid.c.html#1273"
+{ "ligne" : {"" : ""
+ , "c1" : "01635"
+ , "c1link" : "./qc/providers/common/der/der_dsa_sig.c.html#1635"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01273] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[01635] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02319"
- , "c1link" : "./qc/providers/common/digest_to_nid.c.html#2319"
+{ "ligne" : {"" : ""
+ , "c1" : "01639"
+ , "c1link" : "./qc/providers/common/der/der_dsa_sig.c.html#1639"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01639] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01647"
+ , "c1link" : "./qc/providers/common/der/der_dsa_sig.c.html#1647"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01647] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02982"
+ , "c1link" : "./qc/providers/common/der/der_dsa_sig.c.html#2982"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02319] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[02982] The pointer __p is declared but not initialized"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02482"
- , "c1link" : "./qc/providers/common/digest_to_nid.c.html#2482"
+{ "ligne" : {"" : ""
+ , "c1" : "03145"
+ , "c1link" : "./qc/providers/common/der/der_dsa_sig.c.html#3145"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02482] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03145] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02509"
- , "c1link" : "./qc/providers/common/digest_to_nid.c.html#2509"
+{ "ligne" : {"" : ""
+ , "c1" : "03148"
+ , "c1link" : "./qc/providers/common/der/der_dsa_sig.c.html#3148"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02509] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03148] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02513"
- , "c1link" : "./qc/providers/common/digest_to_nid.c.html#2513"
+{ "ligne" : {"" : ""
+ , "c1" : "03172"
+ , "c1link" : "./qc/providers/common/der/der_dsa_sig.c.html#3172"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02513] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03172] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02535"
- , "c1link" : "./qc/providers/common/digest_to_nid.c.html#2535"
+{ "ligne" : {"" : ""
+ , "c1" : "03176"
+ , "c1link" : "./qc/providers/common/der/der_dsa_sig.c.html#3176"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02535] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03176] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02535"
- , "c1link" : "./qc/providers/common/digest_to_nid.c.html#2535"
+{ "ligne" : {"" : ""
+ , "c1" : "03198"
+ , "c1link" : "./qc/providers/common/der/der_dsa_sig.c.html#3198"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02535] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03198] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02559"
- , "c1link" : "./qc/providers/common/digest_to_nid.c.html#2559"
+{ "ligne" : {"" : ""
+ , "c1" : "03198"
+ , "c1link" : "./qc/providers/common/der/der_dsa_sig.c.html#3198"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02559] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03198] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02565"
- , "c1link" : "./qc/providers/common/digest_to_nid.c.html#2565"
+{ "ligne" : {"" : ""
+ , "c1" : "03222"
+ , "c1link" : "./qc/providers/common/der/der_dsa_sig.c.html#3222"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02565] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03222] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02590"
- , "c1link" : "./qc/providers/common/digest_to_nid.c.html#2590"
+{ "ligne" : {"" : ""
+ , "c1" : "03228"
+ , "c1link" : "./qc/providers/common/der/der_dsa_sig.c.html#3228"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02590] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03228] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02594"
- , "c1link" : "./qc/providers/common/digest_to_nid.c.html#2594"
+{ "ligne" : {"" : ""
+ , "c1" : "03253"
+ , "c1link" : "./qc/providers/common/der/der_dsa_sig.c.html#3253"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02594] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03253] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03257"
+ , "c1link" : "./qc/providers/common/der/der_dsa_sig.c.html#3257"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[03257] The expression 2&gt;1 is invariable"
 }} 
 ]
 };

@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html" 
- , "texte" : "File providers/implementations/storemgmt/file_store_any2obj.c 41 rule violations " 
- , "fic2"  : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.xml" 
+   "fic1"  : "./qc/providers/implementations/macs/siphash_prov.c.html" 
+ , "texte" : "File providers/implementations/macs/siphash_prov.c 22 rule violations " 
+ , "fic2"  : "./qc/providers/implementations/macs/siphash_prov.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -38,342 +38,188 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "2"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP999999"
+ , "c3" : "Syntax error in source code"
+ , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "4"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "17"
 }}
 ,
-{ "ligne" : {
-   "c1" : "BLOCKER"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-CPP000007"
- , "c3" : "goto statement"
- , "c4" : "10"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-CPPCWE481"
- , "c3" : "Assigning instead of comparing"
- , "c4" : "2"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "3"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "02111"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2111"
+{ "ligne" : {"" : ""
+ , "c1" : "04290"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#4290"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02111] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP999999[04290] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/macs/siphash_prov.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02116"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2116"
+{ "ligne" : {"" : ""
+ , "c1" : "00383"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#383"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02116] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[00383] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02141"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2141"
+{ "ligne" : {"" : ""
+ , "c1" : "02498"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#2498"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02141] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[02498] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02145"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2145"
+{ "ligne" : {"" : ""
+ , "c1" : "02503"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#2503"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02145] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000012[02503] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02148"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2148"
+{ "ligne" : {"" : ""
+ , "c1" : "02528"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#2528"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02148] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[02528] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02173"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2173"
+{ "ligne" : {"" : ""
+ , "c1" : "02532"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#2532"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02173] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000018[02532] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02177"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2177"
+{ "ligne" : {"" : ""
+ , "c1" : "02535"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#2535"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02177] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000012[02535] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02181"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2181"
+{ "ligne" : {"" : ""
+ , "c1" : "02560"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#2560"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02181] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[02560] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02189"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2189"
+{ "ligne" : {"" : ""
+ , "c1" : "02564"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#2564"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02189] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[02564] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "03232"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#3232"
+{ "ligne" : {"" : ""
+ , "c1" : "02568"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#2568"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02568] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02576"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#2576"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02576] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03620"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#3620"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[03232] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[03620] The pointer __p is declared but not initialized"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "03395"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#3395"
+{ "ligne" : {"" : ""
+ , "c1" : "03783"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#3783"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03395] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03783] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "03398"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#3398"
+{ "ligne" : {"" : ""
+ , "c1" : "03786"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#3786"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03398] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03786] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "03422"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#3422"
+{ "ligne" : {"" : ""
+ , "c1" : "03810"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#3810"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03422] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03810] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "03426"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#3426"
+{ "ligne" : {"" : ""
+ , "c1" : "03814"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#3814"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03426] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03814] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "03448"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#3448"
+{ "ligne" : {"" : ""
+ , "c1" : "03836"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#3836"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03448] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03836] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "03448"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#3448"
+{ "ligne" : {"" : ""
+ , "c1" : "03836"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#3836"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03448] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03836] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "03472"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#3472"
+{ "ligne" : {"" : ""
+ , "c1" : "03860"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#3860"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03472] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03860] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "03478"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#3478"
+{ "ligne" : {"" : ""
+ , "c1" : "03866"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#3866"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03478] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03866] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "03503"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#3503"
+{ "ligne" : {"" : ""
+ , "c1" : "03891"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#3891"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03503] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03891] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "03507"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#3507"
+{ "ligne" : {"" : ""
+ , "c1" : "03895"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#3895"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03507] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08382"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#8382"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08382] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12423"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#12423"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12423] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12423"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#12423"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12423] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12434"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#12434"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12434] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12437"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#12437"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12437] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12448"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#12448"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12448] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12455"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#12455"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12455] The expression  ! ok applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "12456"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#12456"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12456] goto statement jump to next"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12463"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#12463"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12463] The expression  ! ok applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "12464"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#12464"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12464] goto statement jump to next"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12474"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#12474"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12474] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12520"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#12520"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12520] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12520"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#12520"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12520] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12529"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#12529"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12529] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12532"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#12532"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12532] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12543"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#12543"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12543] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12550"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#12550"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12550] The expression  ! ok applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "12551"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#12551"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12551] goto statement jump to next"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12558"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#12558"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12558] The expression  ! ok applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "12559"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#12559"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12559] goto statement jump to next"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12569"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#12569"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12569] goto statement jump to err"
+ , "c3" : "QC-CPP000012[03895] The expression 2&gt;1 is invariable"
 }} 
 ]
 };

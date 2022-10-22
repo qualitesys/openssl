@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/providers/implementations/kdfs/pbkdf2.c.html" 
- , "texte" : "File providers/implementations/kdfs/pbkdf2.c 65 rule violations " 
- , "fic2"  : "./qc/providers/implementations/kdfs/pbkdf2.c.xml" 
+   "fic1"  : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html" 
+ , "texte" : "File providers/implementations/encode_decode/decode_pem2der.c 22 rule violations " 
+ , "fic2"  : "./qc/providers/implementations/encode_decode/decode_pem2der.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -38,510 +38,188 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP999999"
+ , "c3" : "Syntax error in source code"
  , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "2"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "39"
+ , "c4" : "17"
 }}
 ,
-{ "ligne" : {
-   "c1" : "BLOCKER"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-CPP000007"
- , "c3" : "goto statement"
- , "c4" : "7"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-CPPCWE481"
- , "c3" : "Assigning instead of comparing"
- , "c4" : "6"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "7"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "01210"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#1210"
+{ "ligne" : {"" : ""
+ , "c1" : "04303"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html#4303"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP999999[04303] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/encode_decode/decode_pem2der.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00410"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html#410"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00410] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02732"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html#2732"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01210] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[02732] The pointer __p is declared but not initialized"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01373"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#1373"
+{ "ligne" : {"" : ""
+ , "c1" : "02895"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html#2895"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01373] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02895] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01400"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#1400"
+{ "ligne" : {"" : ""
+ , "c1" : "02898"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html#2898"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01400] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02898] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01404"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#1404"
+{ "ligne" : {"" : ""
+ , "c1" : "02922"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html#2922"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01404] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02922] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01426"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#1426"
+{ "ligne" : {"" : ""
+ , "c1" : "02926"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html#2926"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01426] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02926] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01426"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#1426"
+{ "ligne" : {"" : ""
+ , "c1" : "02948"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html#2948"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01426] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02948] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01450"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#1450"
+{ "ligne" : {"" : ""
+ , "c1" : "02948"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html#2948"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01450] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02948] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01456"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#1456"
+{ "ligne" : {"" : ""
+ , "c1" : "02972"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html#2972"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01456] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02972] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01481"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#1481"
+{ "ligne" : {"" : ""
+ , "c1" : "02978"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html#2978"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01481] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02978] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01485"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#1485"
+{ "ligne" : {"" : ""
+ , "c1" : "03003"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html#3003"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01485] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03003] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01858"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#1858"
+{ "ligne" : {"" : ""
+ , "c1" : "03007"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html#3007"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01858] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03007] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02680"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#2680"
+{ "ligne" : {"" : ""
+ , "c1" : "04023"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html#4023"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02680] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[04023] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02685"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#2685"
+{ "ligne" : {"" : ""
+ , "c1" : "04028"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html#4028"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02685] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[04028] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02710"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#2710"
+{ "ligne" : {"" : ""
+ , "c1" : "04053"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html#4053"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02710] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[04053] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02714"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#2714"
+{ "ligne" : {"" : ""
+ , "c1" : "04057"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html#4057"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02714] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[04057] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02717"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#2717"
+{ "ligne" : {"" : ""
+ , "c1" : "04060"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html#4060"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02717] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[04060] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02742"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#2742"
+{ "ligne" : {"" : ""
+ , "c1" : "04085"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html#4085"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02742] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[04085] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02746"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#2746"
+{ "ligne" : {"" : ""
+ , "c1" : "04089"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html#4089"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02746] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[04089] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02750"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#2750"
+{ "ligne" : {"" : ""
+ , "c1" : "04093"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html#4093"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02750] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[04093] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02758"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#2758"
+{ "ligne" : {"" : ""
+ , "c1" : "04101"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html#4101"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[02758] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09571"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#9571"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09571] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09576"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#9576"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09576] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09601"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#9601"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09601] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09606"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#9606"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09606] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09635"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#9635"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09635] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09640"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#9640"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09640] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09661"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#9661"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09661] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09666"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#9666"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09666] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09682"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#9682"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09682] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09701"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#9701"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09701] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09706"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#9706"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09706] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09726"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#9726"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09726] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09731"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#9731"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09731] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09752"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#9752"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09752] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09757"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#9757"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09757] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09778"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#9778"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09778] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09783"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#9783"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09783] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09805"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#9805"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09805] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09810"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#9810"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09810] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09834"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#9834"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09834] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "09839"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#9839"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[09839] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11871"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#11871"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11871] The pointer ctx is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11949"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#11949"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[11949] The pointer dest is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "11963"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#11963"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[11963] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12020"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#12020"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12020] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12037"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#12037"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12037] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12047"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#12047"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12047] The pointer md is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12086"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#12086"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12086] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12102"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#12102"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12102] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12112"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#12112"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12112] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12120"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#12120"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12120] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12138"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#12138"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12138] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12208"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#12208"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12208] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12210"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#12210"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[12210] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12270"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#12270"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[12270] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12270"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#12270"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[12270] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12301"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#12301"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12301] The expression lower_bound_checks applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "12342"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#12342"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12342] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12349"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#12349"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12349] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12350"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#12350"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[12350] The expression tkeylen applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "12364"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#12364"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12364] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12366"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#12366"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[12366] The expression 4 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12372"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#12372"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12372] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12376"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#12376"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12376] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "12383"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2.c.html#12383"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[12383] goto statement jump to err"
+ , "c3" : "QC-CPP000018[04101] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ]
 };

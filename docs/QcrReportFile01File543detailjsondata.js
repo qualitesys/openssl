@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/md5/md5_sha1.c.html" 
- , "texte" : "File crypto/md5/md5_sha1.c 23 rule violations " 
- , "fic2"  : "./qc/crypto/md5/md5_sha1.c.xml" 
+   "fic1"  : "./qc/crypto/lhash/lhash.c.html" 
+ , "texte" : "File crypto/lhash/lhash.c 21 rule violations " 
+ , "fic2"  : "./qc/crypto/lhash/lhash.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -38,22 +38,29 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000012"
- , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "19"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP999999"
+ , "c3" : "Syntax error in source code"
+ , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "BLOCKER"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000012"
+ , "c3" : "The condition expression is invariable, always true or false"
+ , "c4" : "16"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
  , "c4" : "1"
@@ -61,165 +68,151 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00410"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#410"
+{ "ligne" : {"" : ""
+ , "c1" : "03705"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#3705"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00410] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP999999[03705] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/lhash/lhash.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01697"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#1697"
+{ "ligne" : {"" : ""
+ , "c1" : "00959"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#959"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01697] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[00959] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01702"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#1702"
+{ "ligne" : {"" : ""
+ , "c1" : "00964"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#964"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01702] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[00964] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01727"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#1727"
+{ "ligne" : {"" : ""
+ , "c1" : "00989"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#989"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01727] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[00989] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01731"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#1731"
+{ "ligne" : {"" : ""
+ , "c1" : "00993"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#993"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01731] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[00993] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01734"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#1734"
+{ "ligne" : {"" : ""
+ , "c1" : "00996"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#996"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01734] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[00996] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01759"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#1759"
+{ "ligne" : {"" : ""
+ , "c1" : "01021"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#1021"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01759] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[01021] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01763"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#1763"
+{ "ligne" : {"" : ""
+ , "c1" : "01025"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#1025"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01763] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[01025] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01767"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#1767"
+{ "ligne" : {"" : ""
+ , "c1" : "01029"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#1029"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01767] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[01029] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "01775"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#1775"
+{ "ligne" : {"" : ""
+ , "c1" : "01037"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#1037"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01775] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[01037] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "03757"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#3757"
+{ "ligne" : {"" : ""
+ , "c1" : "01419"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#1419"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01419] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02456"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#2456"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[03757] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[02456] The pointer __p is declared but not initialized"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "03920"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#3920"
+{ "ligne" : {"" : ""
+ , "c1" : "02619"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#2619"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03920] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02619] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "03923"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#3923"
+{ "ligne" : {"" : ""
+ , "c1" : "02646"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#2646"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03923] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02646] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "03947"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#3947"
+{ "ligne" : {"" : ""
+ , "c1" : "02650"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#2650"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03947] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02650] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "03951"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#3951"
+{ "ligne" : {"" : ""
+ , "c1" : "02672"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#2672"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03951] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02672] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "03973"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#3973"
+{ "ligne" : {"" : ""
+ , "c1" : "02672"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#2672"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03973] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02672] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "03973"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#3973"
+{ "ligne" : {"" : ""
+ , "c1" : "02696"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#2696"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03973] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02696] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "03997"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#3997"
+{ "ligne" : {"" : ""
+ , "c1" : "02702"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#2702"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03997] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02702] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "04003"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#4003"
+{ "ligne" : {"" : ""
+ , "c1" : "02727"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#2727"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04003] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02727] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "04028"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#4028"
+{ "ligne" : {"" : ""
+ , "c1" : "02731"
+ , "c1link" : "./qc/crypto/lhash/lhash.c.html#2731"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04028] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "04032"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#4032"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[04032] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08279"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#8279"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08279] The expression 40 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "08302"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#8302"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08302] The expression 40 is invariable"
+ , "c3" : "QC-CPP000012[02731] The expression 2&gt;1 is invariable"
 }} 
 ]
 };

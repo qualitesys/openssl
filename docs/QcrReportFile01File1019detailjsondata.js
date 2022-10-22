@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/ssl/ssl_mcnf.c.html" 
- , "texte" : "File ssl/ssl_mcnf.c 67 rule violations " 
- , "fic2"  : "./qc/ssl/ssl_mcnf.c.xml" 
+   "fic1"  : "./qc/ssl/record/methods/dtls_meth.c.html" 
+ , "texte" : "File ssl/record/methods/dtls_meth.c 21 rule violations " 
+ , "fic2"  : "./qc/ssl/record/methods/dtls_meth.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -38,517 +38,181 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "6"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP999999"
+ , "c3" : "Syntax error in source code"
+ , "c4" : "1"
 }}
 ,
-{ "ligne" : {
-   "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "6"
-}}
-,
-{ "ligne" : {
-   "c1" : "BLOCKER"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "37"
+ , "c4" : "16"
 }}
 ,
-{ "ligne" : {
-   "c1" : "BLOCKER"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-CPP000007"
- , "c3" : "goto statement"
- , "c4" : "4"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "11"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00959"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#959"
+{ "ligne" : {"" : ""
+ , "c1" : "03373"
+ , "c1link" : "./qc/ssl/record/methods/dtls_meth.c.html#3373"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00959] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP999999[03373] syntax analysis failed on file /home/runner/work/openssl/openssl/ssl/record/methods/dtls_meth.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00964"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#964"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00964] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00989"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#989"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00989] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00993"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#993"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[00993] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00996"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#996"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00996] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01021"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#1021"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01021] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01025"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#1025"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01025] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01029"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#1029"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01029] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01037"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#1037"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01037] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02306"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#2306"
+{ "ligne" : {"" : ""
+ , "c1" : "01431"
+ , "c1link" : "./qc/ssl/record/methods/dtls_meth.c.html#1431"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02306] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[01431] The pointer __p is declared but not initialized"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02469"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#2469"
+{ "ligne" : {"" : ""
+ , "c1" : "01594"
+ , "c1link" : "./qc/ssl/record/methods/dtls_meth.c.html#1594"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02469] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01594] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02496"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#2496"
+{ "ligne" : {"" : ""
+ , "c1" : "01597"
+ , "c1link" : "./qc/ssl/record/methods/dtls_meth.c.html#1597"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02496] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01597] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02500"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#2500"
+{ "ligne" : {"" : ""
+ , "c1" : "01621"
+ , "c1link" : "./qc/ssl/record/methods/dtls_meth.c.html#1621"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02500] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01621] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02522"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#2522"
+{ "ligne" : {"" : ""
+ , "c1" : "01625"
+ , "c1link" : "./qc/ssl/record/methods/dtls_meth.c.html#1625"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02522] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01625] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02522"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#2522"
+{ "ligne" : {"" : ""
+ , "c1" : "01647"
+ , "c1link" : "./qc/ssl/record/methods/dtls_meth.c.html#1647"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02522] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01647] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02546"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#2546"
+{ "ligne" : {"" : ""
+ , "c1" : "01647"
+ , "c1link" : "./qc/ssl/record/methods/dtls_meth.c.html#1647"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02546] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01647] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02552"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#2552"
+{ "ligne" : {"" : ""
+ , "c1" : "01671"
+ , "c1link" : "./qc/ssl/record/methods/dtls_meth.c.html#1671"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02552] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01671] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02577"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#2577"
+{ "ligne" : {"" : ""
+ , "c1" : "01677"
+ , "c1link" : "./qc/ssl/record/methods/dtls_meth.c.html#1677"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02577] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01677] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02581"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#2581"
+{ "ligne" : {"" : ""
+ , "c1" : "01702"
+ , "c1link" : "./qc/ssl/record/methods/dtls_meth.c.html#1702"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02581] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01702] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "08377"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#8377"
+{ "ligne" : {"" : ""
+ , "c1" : "01706"
+ , "c1link" : "./qc/ssl/record/methods/dtls_meth.c.html#1706"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08377] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01706] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "15120"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#15120"
+{ "ligne" : {"" : ""
+ , "c1" : "02757"
+ , "c1link" : "./qc/ssl/record/methods/dtls_meth.c.html#2757"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15120] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[02757] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "15125"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#15125"
+{ "ligne" : {"" : ""
+ , "c1" : "02762"
+ , "c1link" : "./qc/ssl/record/methods/dtls_meth.c.html#2762"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15125] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[02762] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "15150"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#15150"
+{ "ligne" : {"" : ""
+ , "c1" : "02787"
+ , "c1link" : "./qc/ssl/record/methods/dtls_meth.c.html#2787"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15150] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02787] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "15155"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#15155"
+{ "ligne" : {"" : ""
+ , "c1" : "02791"
+ , "c1link" : "./qc/ssl/record/methods/dtls_meth.c.html#2791"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15155] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000018[02791] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "15184"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#15184"
+{ "ligne" : {"" : ""
+ , "c1" : "02794"
+ , "c1link" : "./qc/ssl/record/methods/dtls_meth.c.html#2794"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15184] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02794] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "15189"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#15189"
+{ "ligne" : {"" : ""
+ , "c1" : "02819"
+ , "c1link" : "./qc/ssl/record/methods/dtls_meth.c.html#2819"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15189] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02819] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "15210"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#15210"
+{ "ligne" : {"" : ""
+ , "c1" : "02823"
+ , "c1link" : "./qc/ssl/record/methods/dtls_meth.c.html#2823"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15210] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000018[02823] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "15215"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#15215"
+{ "ligne" : {"" : ""
+ , "c1" : "02827"
+ , "c1link" : "./qc/ssl/record/methods/dtls_meth.c.html#2827"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15215] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[02827] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "15231"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#15231"
+{ "ligne" : {"" : ""
+ , "c1" : "02835"
+ , "c1link" : "./qc/ssl/record/methods/dtls_meth.c.html#2835"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15231] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15250"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#15250"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15250] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15255"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#15255"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15255] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15275"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#15275"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15275] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15280"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#15280"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15280] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15301"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#15301"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15301] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15306"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#15306"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15306] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15327"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#15327"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15327] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15332"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#15332"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15332] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15354"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#15354"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15354] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15359"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#15359"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15359] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15383"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#15383"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15383] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "15388"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#15388"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[15388] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16166"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#16166"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16166] The expression ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16207"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#16207"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16207] The expression ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16271"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#16271"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16271] The expression ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16306"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#16306"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[16306] The expression ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "16490"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#16490"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16490] The pointer data is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16490"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#16490"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16490] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16512"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#16512"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16512] The pointer data is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16512"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#16512"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16512] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16531"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#16531"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16531] The pointer data is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16531"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#16531"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16531] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16554"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#16554"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16554] The pointer data is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16554"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#16554"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16554] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16574"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#16574"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16574] The pointer data is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16574"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#16574"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16574] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16592"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#16592"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[16592] The pointer data is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "16592"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#16592"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[16592] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19177"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#19177"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19177] The pointer meth is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19178"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#19178"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19178] The pointer cmds is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19204"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#19204"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19204] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19214"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#19214"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19214] The expression  ! system applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19217"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#19217"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19217] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19226"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#19226"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19226] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19228"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#19228"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[19228] The expression  ! system applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {
-   "c1" : "19250"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#19250"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19250] The pointer cmdstr is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19250"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#19250"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[19250] The pointer arg is declared but not initialized"
-}} 
-,
-{ "ligne" : {
-   "c1" : "19259"
- , "c1link" : "./qc/ssl/ssl_mcnf.c.html#19259"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[19259] goto statement jump to err"
+ , "c3" : "QC-CPP000018[02835] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ]
 };

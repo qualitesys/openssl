@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/conf/conf_ssl.c.html" 
- , "texte" : "File crypto/conf/conf_ssl.c 31 rule violations " 
- , "fic2"  : "./qc/crypto/conf/conf_ssl.c.xml" 
+   "fic1"  : "./qc/crypto/conf/conf_lib.c.html" 
+ , "texte" : "File crypto/conf/conf_lib.c 21 rule violations " 
+ , "fic2"  : "./qc/crypto/conf/conf_lib.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -38,251 +38,181 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : {
-   "c1" : "BLOCKER"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP999999"
+ , "c3" : "Syntax error in source code"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "16"
 }}
 ,
-{ "ligne" : {
-   "c1" : "BLOCKER"
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
 }}
 ,
-{ "ligne" : {
-   "c1" : "MAJOR"
- , "c2" : "QC-CPP000007"
- , "c3" : "goto statement"
- , "c4" : "6"
-}}
-,
-{ "ligne" : {
-   "c1" : "MAJOR"
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "6"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {
-   "c1" : "00959"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#959"
+{ "ligne" : {"" : ""
+ , "c1" : "03371"
+ , "c1link" : "./qc/crypto/conf/conf_lib.c.html#3371"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00959] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP999999[03371] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/conf/conf_lib.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
 }} 
 ,
-{ "ligne" : {
-   "c1" : "00964"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#964"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00964] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00989"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#989"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00989] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00993"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#993"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[00993] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "00996"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#996"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00996] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01021"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#1021"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01021] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01025"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#1025"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01025] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01029"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#1029"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01029] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01037"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#1037"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01037] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {
-   "c1" : "01419"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#1419"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01419] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {
-   "c1" : "02686"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#2686"
+{ "ligne" : {"" : ""
+ , "c1" : "01429"
+ , "c1link" : "./qc/crypto/conf/conf_lib.c.html#1429"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02686] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[01429] The pointer __p is declared but not initialized"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02849"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#2849"
+{ "ligne" : {"" : ""
+ , "c1" : "01592"
+ , "c1link" : "./qc/crypto/conf/conf_lib.c.html#1592"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02849] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01592] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02876"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#2876"
+{ "ligne" : {"" : ""
+ , "c1" : "01595"
+ , "c1link" : "./qc/crypto/conf/conf_lib.c.html#1595"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02876] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01595] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02880"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#2880"
+{ "ligne" : {"" : ""
+ , "c1" : "01619"
+ , "c1link" : "./qc/crypto/conf/conf_lib.c.html#1619"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02880] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01619] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02902"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#2902"
+{ "ligne" : {"" : ""
+ , "c1" : "01623"
+ , "c1link" : "./qc/crypto/conf/conf_lib.c.html#1623"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02902] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01623] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02902"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#2902"
+{ "ligne" : {"" : ""
+ , "c1" : "01645"
+ , "c1link" : "./qc/crypto/conf/conf_lib.c.html#1645"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02902] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01645] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02926"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#2926"
+{ "ligne" : {"" : ""
+ , "c1" : "01645"
+ , "c1link" : "./qc/crypto/conf/conf_lib.c.html#1645"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02926] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01645] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02932"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#2932"
+{ "ligne" : {"" : ""
+ , "c1" : "01669"
+ , "c1link" : "./qc/crypto/conf/conf_lib.c.html#1669"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02932] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01669] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02957"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#2957"
+{ "ligne" : {"" : ""
+ , "c1" : "01675"
+ , "c1link" : "./qc/crypto/conf/conf_lib.c.html#1675"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02957] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01675] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "02961"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#2961"
+{ "ligne" : {"" : ""
+ , "c1" : "01700"
+ , "c1link" : "./qc/crypto/conf/conf_lib.c.html#1700"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02961] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[01700] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "05307"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#5307"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05307] The pointer ssl_names is declared but not initialized"
+{ "ligne" : {"" : ""
+ , "c1" : "01704"
+ , "c1link" : "./qc/crypto/conf/conf_lib.c.html#1704"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[01704] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "05342"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#5342"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05342] The pointer ssl_conf_section is declared but not initialized"
+{ "ligne" : {"" : ""
+ , "c1" : "02755"
+ , "c1link" : "./qc/crypto/conf/conf_lib.c.html#2755"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02755] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "05343"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#5343"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05343] The pointer cmd_lists is declared but not initialized"
+{ "ligne" : {"" : ""
+ , "c1" : "02760"
+ , "c1link" : "./qc/crypto/conf/conf_lib.c.html#2760"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02760] The expression 2&gt;1 is invariable"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "05358"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#5358"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[05358] goto statement jump to err"
+{ "ligne" : {"" : ""
+ , "c1" : "02785"
+ , "c1link" : "./qc/crypto/conf/conf_lib.c.html#2785"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02785] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "05368"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#5368"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[05368] goto statement jump to err"
+{ "ligne" : {"" : ""
+ , "c1" : "02789"
+ , "c1link" : "./qc/crypto/conf/conf_lib.c.html#2789"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02789] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "05387"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#5387"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[05387] goto statement jump to err"
+{ "ligne" : {"" : ""
+ , "c1" : "02792"
+ , "c1link" : "./qc/crypto/conf/conf_lib.c.html#2792"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02792] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "05395"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#5395"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[05395] goto statement jump to err"
+{ "ligne" : {"" : ""
+ , "c1" : "02817"
+ , "c1link" : "./qc/crypto/conf/conf_lib.c.html#2817"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02817] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "05403"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#5403"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[05403] goto statement jump to err"
+{ "ligne" : {"" : ""
+ , "c1" : "02821"
+ , "c1link" : "./qc/crypto/conf/conf_lib.c.html#2821"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02821] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "05406"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#5406"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05406] The pointer name is declared but not initialized"
+{ "ligne" : {"" : ""
+ , "c1" : "02825"
+ , "c1link" : "./qc/crypto/conf/conf_lib.c.html#2825"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[02825] The expression 0 is invariable, always false"
 }} 
 ,
-{ "ligne" : {
-   "c1" : "05431"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#5431"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[05431] goto statement jump to err"
-}} 
-,
-{ "ligne" : {
-   "c1" : "05462"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#5462"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[05462] The pointer nm is declared but not initialized"
+{ "ligne" : {"" : ""
+ , "c1" : "02833"
+ , "c1link" : "./qc/crypto/conf/conf_lib.c.html#2833"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02833] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ]
 };
