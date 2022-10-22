@@ -220,6 +220,7 @@ static int dh_to_text(BIO *out, const void *key, int selection)
     const BIGNUM *priv_key = NULL, *pub_key = NULL;
     const FFC_PARAMS *params = NULL;
     const BIGNUM *p = NULL;
+    long length;
 
     if (out == NULL || dh == NULL) {
         ERR_raise(ERR_LIB_PROV, ERR_R_PASSED_NULL_PARAMETER);
@@ -271,6 +272,11 @@ static int dh_to_text(BIO *out, const void *key, int selection)
         return 0;
     if (params != NULL
         && !ffc_params_to_text(out, params))
+        return 0;
+    length = DH_get_length(dh);
+    if (length > 0
+        && BIO_printf(out, "recommended-private-length: %ld bits\n",
+                      length) <= 0)
         return 0;
 
     return 1;
@@ -506,7 +512,8 @@ static int ec_to_text(BIO *out, const void *key, int selection)
     else if ((selection & OSSL_KEYMGMT_SELECT_PUBLIC_KEY) != 0)
         type_label = "Public-Key";
     else if ((selection & OSSL_KEYMGMT_SELECT_DOMAIN_PARAMETERS) != 0)
-        type_label = "EC-Parameters";
+        if (EC_GROUP_get_curve_name(group) != NID_sm2)
+            type_label = "EC-Parameters";
 
     if ((selection & OSSL_KEYMGMT_SELECT_PRIVATE_KEY) != 0) {
         const BIGNUM *priv_key = EC_KEY_get0_private_key(ec);
@@ -532,8 +539,9 @@ static int ec_to_text(BIO *out, const void *key, int selection)
             goto err;
     }
 
-    if (BIO_printf(out, "%s: (%d bit)\n", type_label,
-                   EC_GROUP_order_bits(group)) <= 0)
+    if (type_label != NULL
+        && BIO_printf(out, "%s: (%d bit)\n", type_label,
+                      EC_GROUP_order_bits(group)) <= 0)
         goto err;
     if (priv != NULL
         && !print_labeled_buf(out, "priv:", priv, priv_len))
@@ -656,7 +664,7 @@ static int rsa_to_text(BIO *out, const void *key, int selection)
     coeffs = sk_BIGNUM_const_new_null();
 
     if (factors == NULL || exps == NULL || coeffs == NULL) {
-        ERR_raise(ERR_LIB_PROV, ERR_R_MALLOC_FAILURE);
+        ERR_raise(ERR_LIB_PROV, ERR_R_CRYPTO_LIB);
         goto err;
     }
 

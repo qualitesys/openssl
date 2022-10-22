@@ -114,6 +114,7 @@ char *get_passwd(const char *pass, const char *desc);
 int app_passwd(const char *arg1, const char *arg2, char **pass1, char **pass2);
 int add_oid_section(CONF *conf);
 X509_REQ *load_csr(const char *file, int format, const char *desc);
+X509_REQ *load_csr_autofmt(const char *infile, int format, const char *desc);
 X509 *load_cert_pass(const char *uri, int format, int maybe_stdin,
                      const char *pass, const char *desc);
 #define load_cert(uri, format, desc) load_cert_pass(uri, format, 1, NULL, desc)
@@ -225,12 +226,16 @@ extern int do_updatedb(CA_DB *db, time_t *now);
 
 void app_bail_out(char *fmt, ...);
 void *app_malloc(size_t sz, const char *what);
-BIGNUM *load_serial(const char *serialfile, int create, ASN1_INTEGER **retai);
-int save_serial(const char *serialfile, const char *suffix, const BIGNUM *serial,
-                ASN1_INTEGER **retai);
+
+/* load_serial, save_serial, and rotate_serial are also used for CRL numbers */
+BIGNUM *load_serial(const char *serialfile, int *exists, int create,
+                    ASN1_INTEGER **retai);
+int save_serial(const char *serialfile, const char *suffix,
+                const BIGNUM *serial, ASN1_INTEGER **retai);
 int rotate_serial(const char *serialfile, const char *new_suffix,
                   const char *old_suffix);
 int rand_serial(BIGNUM *b, ASN1_INTEGER *ai);
+
 CA_DB *load_index(const char *dbfile, DB_ATTR *dbattr);
 int index_index(CA_DB *db);
 int save_index(const char *dbfile, const char *suffix, CA_DB *db);

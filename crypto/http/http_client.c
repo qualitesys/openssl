@@ -51,7 +51,7 @@ struct ossl_http_req_ctx_st {
     void *upd_arg;              /* Optional arg for update callback function */
     int use_ssl;                /* Use HTTPS */
     char *proxy;                /* Optional proxy name or URI */
-    char *server;               /* Optional server host name */
+    char *server;               /* Optional server hostname */
     char *port;                 /* Optional server port */
     BIO *mem;                   /* Mem BIO holding request header or response */
     BIO *req;                   /* BIO holding the request provided by caller */
@@ -266,7 +266,10 @@ int OSSL_HTTP_REQ_CTX_set_expected(OSSL_HTTP_REQ_CTX *rctx,
 static int set1_content(OSSL_HTTP_REQ_CTX *rctx,
                         const char *content_type, BIO *req)
 {
-    long req_len;
+    long req_len = 0;
+#ifndef OPENSSL_NO_STDIO
+    FILE *fp = NULL;
+#endif
 
     if (rctx == NULL || (req == NULL && content_type != NULL)) {
         ERR_raise(ERR_LIB_HTTP, ERR_R_PASSED_NULL_PARAMETER);
@@ -290,14 +293,38 @@ static int set1_content(OSSL_HTTP_REQ_CTX *rctx,
             && BIO_printf(rctx->mem, "Content-Type: %s\r\n", content_type) <= 0)
         return 0;
 
-    /* streaming BIO may not support querying size */
-    if (((req_len = BIO_ctrl(req, BIO_CTRL_INFO, 0, NULL)) <= 0
-         || BIO_printf(rctx->mem, "Content-Length: %ld\r\n", req_len) > 0)
-        && BIO_up_ref(req)) {
-        rctx->req = req;
-        return 1;
+    /*
+     * BIO_CTRL_INFO yields the data length at least for memory BIOs, but for
+     * file-based BIOs it gives the current position, which is not what we need.
+     */
+    if (BIO_method_type(req) == BIO_TYPE_FILE) {
+#ifndef OPENSSL_NO_STDIO
+        if (BIO_get_fp(req, &fp) == 1 && fseek(fp, 0, SEEK_END) == 0) {
+            req_len = ftell(fp);
+            (void)fseek(fp, 0, SEEK_SET);
+        } else {
+            fp = NULL;
+        }
+#endif
+    } else {
+        req_len = BIO_ctrl(req, BIO_CTRL_INFO, 0, NULL);
+        /*
+         * Streaming BIOs likely will not support querying the size at all,
+         * and we assume we got a correct value if req_len > 0.
+         */
     }
-    return 0;
+    if ((
+#ifndef OPENSSL_NO_STDIO
+         fp != NULL /* definitely correct req_len */ ||
+#endif
+         req_len > 0)
+            && BIO_printf(rctx->mem, "Content-Length: %ld\r\n", req_len) < 0)
+        return 0;
+
+    if (!BIO_up_ref(req))
+        return 0;
+    rctx->req = req;
+    return 1;
 }
 
 int OSSL_HTTP_REQ_CTX_set1_req(OSSL_HTTP_REQ_CTX *rctx, const char *content_type,
@@ -538,14 +565,14 @@ int OSSL_HTTP_REQ_CTX_nbio(OSSL_HTTP_REQ_CTX *rctx)
         }
         rctx->state = OHS_WRITE_INIT;
 
-        /* fall thru */
+        /* fall through */
     case OHS_WRITE_INIT:
         rctx->len_to_send = BIO_get_mem_data(rctx->mem, &rctx->pos);
         rctx->state = OHS_WRITE_HDR;
         if (OSSL_TRACE_ENABLED(HTTP))
             OSSL_TRACE(HTTP, "Sending request header:\n");
 
-        /* fall thru */
+        /* fall through */
     case OHS_WRITE_HDR:
         /* Copy some chunk of data from rctx->mem to rctx->wbio */
     case OHS_WRITE_REQ:
@@ -585,7 +612,7 @@ int OSSL_HTTP_REQ_CTX_nbio(OSSL_HTTP_REQ_CTX *rctx)
         }
         rctx->state = OHS_FLUSH;
 
-        /* fall thru */
+        /* fall through */
     case OHS_FLUSH:
 
         i = BIO_flush(rctx->wbio);
@@ -687,7 +714,15 @@ int OSSL_HTTP_REQ_CTX_nbio(OSSL_HTTP_REQ_CTX *rctx)
             if (OPENSSL_strcasecmp(key, "Content-Type") == 0) {
                 if (rctx->state == OHS_HEADERS
                     && rctx->expected_ct != NULL) {
-                    if (OPENSSL_strcasecmp(rctx->expected_ct, value) != 0) {
+                    const char *semicolon;
+
+                    if (OPENSSL_strcasecmp(rctx->expected_ct, value) != 0
+                        /* ignore past ';' unless expected_ct contains ';' */
+                        && (strchr(rctx->expected_ct, ';') != NULL
+                            || (semicolon = strchr(value, ';')) == NULL
+                            || (size_t)(semicolon - value) != strlen(rctx->expected_ct)
+                            || OPENSSL_strncasecmp(rctx->expected_ct, value,
+                                                   semicolon - value) != 0)) {
                         ERR_raise_data(ERR_LIB_HTTP,
                                        HTTP_R_UNEXPECTED_CONTENT_TYPE,
                                        "expected=%s, actual=%s",

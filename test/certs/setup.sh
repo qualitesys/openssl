@@ -10,7 +10,7 @@ DAYS=-1 ./mkcert.sh genroot "Root CA" root-key root-expired
 # cross root and root cross cert
 ./mkcert.sh genroot "Cross Root" cross-key cross-root
 ./mkcert.sh genca "Root CA" root-key root-cross-cert cross-key cross-root
-# trust variants: +serverAuth -serverAuth +clientAuth -clientAuth,
+# trust variants: +serverAuth -serverAuth +clientAuth -clientAuth
 openssl x509 -in root-cert.pem -trustout \
     -addtrust serverAuth -out root+serverAuth.pem
 openssl x509 -in root-cert.pem -trustout \
@@ -79,7 +79,7 @@ openssl x509 -in sroot-cert.pem -trustout \
 
 # Primary intermediate ca: ca-cert
 ./mkcert.sh genca "CA" ca-key ca-cert root-key root-cert
-# ca variants: CA:false, key2, DN2, issuer2, expired
+# ca variants: CA:false, no bc, key2, DN2, issuer2, expired
 ./mkcert.sh genee "CA" ca-key ca-nonca root-key root-cert
 ./mkcert.sh gen_nonbc_ca "CA" ca-key ca-nonbc root-key root-cert
 ./mkcert.sh genca "CA" ca-key2 ca-cert2 root-key root-cert
@@ -184,6 +184,14 @@ openssl x509 -in ee-client.pem -trustout \
 ./mkcert.sh genee -p critical,timeStamping server.example ee-key ee-timestampsign-rfc3161 ca-key ca-cert
 ./mkcert.sh genee -p timeStamping server.example ee-key ee-timestampsign-rfc3161-noncritxku ca-key ca-cert
 ./mkcert.sh genee -p critical,timeStamping -k digitalSignature server.example ee-key ee-timestampsign-rfc3161-digsig ca-key ca-cert
+
+# code signing certificate
+./mkcert.sh genee -p codeSigning -k critical,digitalSignature server.example ee-key ee-codesign ca-key ca-cert
+./mkcert.sh genee -p codeSigning,serverAuth -k critical,digitalSignature server.example ee-key ee-codesign-serverauth ca-key ca-cert
+./mkcert.sh genee -p codeSigning,2.5.29.37.0 -k critical,digitalSignature server.example ee-key ee-codesign-anyextkeyusage ca-key ca-cert
+./mkcert.sh genee -p codeSigning -k critical,digitalSignature,cRLSign server.example ee-key ee-codesign-crlsign ca-key ca-cert
+./mkcert.sh genee -p codeSigning -k critical,digitalSignature,keyCertSign server.example ee-key ee-codesign-keycertsign ca-key ca-cert
+./mkcert.sh genee -p codeSigning -k digitalSignature server.example ee-key ee-codesign-noncritical ca-key ca-cert
 
 # Leaf cert security level variants
 # MD5 issuer signature

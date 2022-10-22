@@ -22,14 +22,12 @@ static EVP_KEYEXCH *evp_keyexch_new(OSSL_PROVIDER *prov)
 {
     EVP_KEYEXCH *exchange = OPENSSL_zalloc(sizeof(EVP_KEYEXCH));
 
-    if (exchange == NULL) {
-        ERR_raise(ERR_LIB_EVP, ERR_R_MALLOC_FAILURE);
+    if (exchange == NULL)
         return NULL;
-    }
 
     exchange->lock = CRYPTO_THREAD_lock_new();
     if (exchange->lock == NULL) {
-        ERR_raise(ERR_LIB_EVP, ERR_R_MALLOC_FAILURE);
+        ERR_raise(ERR_LIB_EVP, ERR_R_CRYPTO_LIB);
         OPENSSL_free(exchange);
         return NULL;
     }
@@ -49,7 +47,7 @@ static void *evp_keyexch_from_algorithm(int name_id,
     int fncnt = 0, sparamfncnt = 0, gparamfncnt = 0;
 
     if ((exchange = evp_keyexch_new(prov)) == NULL) {
-        ERR_raise(ERR_LIB_EVP, ERR_R_MALLOC_FAILURE);
+        ERR_raise(ERR_LIB_EVP, ERR_R_EVP_LIB);
         goto err;
     }
 
@@ -556,7 +554,8 @@ const char *EVP_KEYEXCH_get0_description(const EVP_KEYEXCH *keyexch)
 
 int EVP_KEYEXCH_is_a(const EVP_KEYEXCH *keyexch, const char *name)
 {
-    return evp_is_a(keyexch->prov, keyexch->name_id, NULL, name);
+    return keyexch != NULL
+           && evp_is_a(keyexch->prov, keyexch->name_id, NULL, name);
 }
 
 void EVP_KEYEXCH_do_all_provided(OSSL_LIB_CTX *libctx,

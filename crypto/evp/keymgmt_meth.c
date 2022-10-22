@@ -21,10 +21,11 @@ static void *keymgmt_new(void)
 {
     EVP_KEYMGMT *keymgmt = NULL;
 
-    if ((keymgmt = OPENSSL_zalloc(sizeof(*keymgmt))) == NULL
-        || (keymgmt->lock = CRYPTO_THREAD_lock_new()) == NULL) {
+    if ((keymgmt = OPENSSL_zalloc(sizeof(*keymgmt))) == NULL)
+        return NULL;
+    if ((keymgmt->lock = CRYPTO_THREAD_lock_new()) == NULL) {
         EVP_KEYMGMT_free(keymgmt);
-        ERR_raise(ERR_LIB_EVP, ERR_R_MALLOC_FAILURE);
+        ERR_raise(ERR_LIB_EVP, ERR_R_CRYPTO_LIB);
         return NULL;
     }
 
@@ -269,7 +270,8 @@ const char *EVP_KEYMGMT_get0_name(const EVP_KEYMGMT *keymgmt)
 
 int EVP_KEYMGMT_is_a(const EVP_KEYMGMT *keymgmt, const char *name)
 {
-    return evp_is_a(keymgmt->prov, keymgmt->name_id, NULL, name);
+    return keymgmt != NULL
+           && evp_is_a(keymgmt->prov, keymgmt->name_id, NULL, name);
 }
 
 void EVP_KEYMGMT_do_all_provided(OSSL_LIB_CTX *libctx,

@@ -111,7 +111,7 @@ OSSL_CMP_CTX *OSSL_CMP_CTX_new(OSSL_LIB_CTX *libctx, const char *propq)
 
     ctx->libctx = libctx;
     if (propq != NULL && (ctx->propq = OPENSSL_strdup(propq)) == NULL)
-        goto oom;
+        goto err;
 
     ctx->log_verbosity = OSSL_CMP_LOG_INFO;
 
@@ -121,8 +121,10 @@ OSSL_CMP_CTX *OSSL_CMP_CTX_new(OSSL_LIB_CTX *libctx, const char *propq)
     ctx->keep_alive = 1;
     ctx->msg_timeout = -1;
 
-    if ((ctx->untrusted = sk_X509_new_null()) == NULL)
-        goto oom;
+    if ((ctx->untrusted = sk_X509_new_null()) == NULL) {
+        ERR_raise(ERR_LIB_X509, ERR_R_CRYPTO_LIB);
+        goto err;
+    }
 
     ctx->pbm_slen = 16;
     if (!cmp_ctx_set_md(ctx, &ctx->pbm_owf, NID_sha256))
@@ -138,8 +140,6 @@ OSSL_CMP_CTX *OSSL_CMP_CTX_new(OSSL_LIB_CTX *libctx, const char *propq)
     /* all other elements are initialized to 0 or NULL, respectively */
     return ctx;
 
- oom:
-    ERR_raise(ERR_LIB_X509, ERR_R_MALLOC_FAILURE);
  err:
     OSSL_CMP_CTX_free(ctx);
     return NULL;
@@ -166,7 +166,7 @@ int OSSL_CMP_CTX_reinit(OSSL_CMP_CTX *ctx)
         && ossl_cmp_ctx_set1_newChain(ctx, NULL)
         && ossl_cmp_ctx_set1_caPubs(ctx, NULL)
         && ossl_cmp_ctx_set1_extraCertsIn(ctx, NULL)
-        && ossl_cmp_ctx_set0_validatedSrvCert(ctx, NULL)
+        && ossl_cmp_ctx_set1_validatedSrvCert(ctx, NULL)
         && OSSL_CMP_CTX_set1_transactionID(ctx, NULL)
         && OSSL_CMP_CTX_set1_senderNonce(ctx, NULL)
         && ossl_cmp_ctx_set1_recipNonce(ctx, NULL);
@@ -274,15 +274,6 @@ DEFINE_OSSL_get(OSSL_CMP_CTX, status, int, -1)
 DEFINE_OSSL_CMP_CTX_get0(statusString, OSSL_CMP_PKIFREETEXT)
 
 DEFINE_OSSL_set0(ossl_cmp_ctx, statusString, OSSL_CMP_PKIFREETEXT)
-
-int ossl_cmp_ctx_set0_validatedSrvCert(OSSL_CMP_CTX *ctx, X509 *cert)
-{
-    if (!ossl_assert(ctx != NULL))
-        return 0;
-    X509_free(ctx->validatedSrvCert);
-    ctx->validatedSrvCert = cert;
-    return 1;
-}
 
 /* Set callback function for checking if the cert is ok or should be rejected */
 DEFINE_OSSL_set(OSSL_CMP_CTX, certConf_cb, OSSL_CMP_certConf_cb_t)
@@ -585,6 +576,8 @@ int PREFIX##_set1_##FIELD(OSSL_CMP_CTX *ctx, TYPE *val) \
     return 1; \
 }
 
+DEFINE_OSSL_set1_up_ref(ossl_cmp_ctx, validatedSrvCert, X509)
+
 /*
  * Pins the server certificate to be directly trusted (even if it is expired)
  * for verifying response messages.
@@ -718,6 +711,9 @@ DEFINE_OSSL_CMP_CTX_set1(p10CSR, X509_REQ)
  */
 DEFINE_OSSL_set0(ossl_cmp_ctx, newCert, X509)
 
+/* Get successfully validated server cert, if any, of current transaction */
+DEFINE_OSSL_CMP_CTX_get0(validatedSrvCert, X509)
+
 /*
  * Get the (newly received in IP/KUP/CP) client certificate from the context
  * This only permits for one client cert to be received...
@@ -778,7 +774,7 @@ DEFINE_set1_ASN1_OCTET_STRING(OSSL_CMP_CTX, senderNonce)
 /* Set the proxy server to use for HTTP(S) connections */
 DEFINE_OSSL_CMP_CTX_set1(proxy, char)
 
-/* Set the (HTTP) host name of the CMP server */
+/* Set the (HTTP) hostname of the CMP server */
 DEFINE_OSSL_CMP_CTX_set1(server, char)
 
 /* Set the server exclusion list of the HTTP proxy server */

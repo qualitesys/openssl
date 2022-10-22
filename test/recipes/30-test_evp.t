@@ -28,6 +28,7 @@ my $no_dsa = disabled("dsa");
 my $no_ec = disabled("ec");
 my $no_gost = disabled("gost");
 my $no_sm2 = disabled("sm2");
+my $no_siv = disabled("siv");
 
 # Default config depends on if the legacy module is built or not
 my $defaultcnf = $no_legacy ? 'default.cnf' : 'default-and-legacy.cnf';
@@ -83,7 +84,6 @@ push @files, qw(
 # (i.e. The algorithms are not present in the fips provider)
 my @defltfiles = qw(
                      evpciph_aes_ocb.txt
-                     evpciph_aes_siv.txt
                      evpciph_aria.txt 
                      evpciph_bf.txt
                      evpciph_camellia.txt
@@ -105,6 +105,7 @@ my @defltfiles = qw(
                      evpmac_blake.txt
                      evpmac_poly1305.txt
                      evpmac_siphash.txt
+                     evpmac_sm3.txt
                      evpmd_blake.txt
                      evpmd_md.txt
                      evpmd_mdc2.txt
@@ -119,6 +120,8 @@ my @defltfiles = qw(
                     );
 push @defltfiles, qw(evppkey_brainpool.txt) unless $no_ec;
 push @defltfiles, qw(evppkey_sm2.txt) unless $no_sm2;
+push @defltfiles, qw(evpciph_aes_gcm_siv.txt) unless $no_siv;
+push @defltfiles, qw(evpciph_aes_siv.txt) unless $no_siv;
 
 plan tests =>
     + (scalar(@configs) * scalar(@files))

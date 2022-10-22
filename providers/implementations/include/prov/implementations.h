@@ -245,6 +245,9 @@ extern const OSSL_DISPATCH ossl_chacha20_ossl_poly1305_functions[];
 extern const OSSL_DISPATCH ossl_aes128siv_functions[];
 extern const OSSL_DISPATCH ossl_aes192siv_functions[];
 extern const OSSL_DISPATCH ossl_aes256siv_functions[];
+extern const OSSL_DISPATCH ossl_aes128gcm_siv_functions[];
+extern const OSSL_DISPATCH ossl_aes192gcm_siv_functions[];
+extern const OSSL_DISPATCH ossl_aes256gcm_siv_functions[];
 #endif /* OPENSSL_NO_SIV */
 
 /* MACs */
@@ -331,6 +334,8 @@ extern const OSSL_DISPATCH ossl_sm2_asym_cipher_functions[];
 
 /* Asym Key encapsulation  */
 extern const OSSL_DISPATCH ossl_rsa_asym_kem_functions[];
+extern const OSSL_DISPATCH ossl_ecx_asym_kem_functions[];
+extern const OSSL_DISPATCH ossl_ec_asym_kem_functions[];
 
 /* Encoders */
 extern const OSSL_DISPATCH ossl_rsa_to_PKCS1_der_encoder_functions[];
@@ -505,6 +510,7 @@ extern const OSSL_DISPATCH ossl_SubjectPublicKeyInfo_der_to_ed448_decoder_functi
 #ifndef OPENSSL_NO_SM2
 extern const OSSL_DISPATCH ossl_PrivateKeyInfo_der_to_sm2_decoder_functions[];
 extern const OSSL_DISPATCH ossl_SubjectPublicKeyInfo_der_to_sm2_decoder_functions[];
+extern const OSSL_DISPATCH ossl_type_specific_no_pub_der_to_sm2_decoder_functions[];
 #endif
 
 extern const OSSL_DISPATCH ossl_PrivateKeyInfo_der_to_rsa_decoder_functions[];
@@ -522,3 +528,4 @@ extern const OSSL_DISPATCH ossl_SubjectPublicKeyInfo_der_to_der_decoder_function
 extern const OSSL_DISPATCH ossl_pem_to_der_decoder_functions[];
 
 extern const OSSL_DISPATCH ossl_file_store_functions[];
+extern const OSSL_DISPATCH ossl_winstore_store_functions[];

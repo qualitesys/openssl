@@ -79,22 +79,28 @@ int verify_callback(int ok, X509_STORE_CTX *ctx)
     }
     switch (err) {
     case X509_V_ERR_UNABLE_TO_GET_ISSUER_CERT:
-        BIO_puts(bio_err, "issuer= ");
-        X509_NAME_print_ex(bio_err, X509_get_issuer_name(err_cert),
-                           0, get_nameopt());
-        BIO_puts(bio_err, "\n");
+        if (err_cert != NULL) {
+            BIO_puts(bio_err, "issuer= ");
+            X509_NAME_print_ex(bio_err, X509_get_issuer_name(err_cert),
+                               0, get_nameopt());
+            BIO_puts(bio_err, "\n");
+        }
         break;
     case X509_V_ERR_CERT_NOT_YET_VALID:
     case X509_V_ERR_ERROR_IN_CERT_NOT_BEFORE_FIELD:
-        BIO_printf(bio_err, "notBefore=");
-        ASN1_TIME_print(bio_err, X509_get0_notBefore(err_cert));
-        BIO_printf(bio_err, "\n");
+        if (err_cert != NULL) {
+            BIO_printf(bio_err, "notBefore=");
+            ASN1_TIME_print(bio_err, X509_get0_notBefore(err_cert));
+            BIO_printf(bio_err, "\n");
+        }
         break;
     case X509_V_ERR_CERT_HAS_EXPIRED:
     case X509_V_ERR_ERROR_IN_CERT_NOT_AFTER_FIELD:
-        BIO_printf(bio_err, "notAfter=");
-        ASN1_TIME_print(bio_err, X509_get0_notAfter(err_cert));
-        BIO_printf(bio_err, "\n");
+        if (err_cert != NULL) {
+            BIO_printf(bio_err, "notAfter=");
+            ASN1_TIME_print(bio_err, X509_get0_notAfter(err_cert));
+            BIO_printf(bio_err, "\n");
+        }
         break;
     case X509_V_ERR_NO_EXPLICIT_POLICY:
         if (!verify_args.quiet)
@@ -553,6 +559,7 @@ static STRINT_PAIR handshakes[] = {
     {", CertificateStatus", SSL3_MT_CERTIFICATE_STATUS},
     {", SupplementalData", SSL3_MT_SUPPLEMENTAL_DATA},
     {", KeyUpdate", SSL3_MT_KEY_UPDATE},
+    {", CompressedCertificate", SSL3_MT_COMPRESSED_CERTIFICATE},
 #ifndef OPENSSL_NO_NEXTPROTONEG
     {", NextProto", SSL3_MT_NEXT_PROTO},
 #endif
@@ -679,6 +686,7 @@ static STRINT_PAIR tlsext_types[] = {
 #ifdef TLSEXT_TYPE_extended_master_secret
     {"extended master secret", TLSEXT_TYPE_extended_master_secret},
 #endif
+    {"compress certificate", TLSEXT_TYPE_compress_certificate},
     {"key share", TLSEXT_TYPE_key_share},
     {"supported versions", TLSEXT_TYPE_supported_versions},
     {"psk", TLSEXT_TYPE_psk},

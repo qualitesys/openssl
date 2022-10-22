@@ -50,7 +50,7 @@ if [ ! -d $SRCTOP/oqs-provider/oqs ]; then
 # https://github.com/open-quantum-safe/liboqs/wiki/Customizing-liboqs
 (
        cd $SRCTOP/oqs-provider \
-           && git clone --depth 1 --branch main https://github.com/open-quantum-safe/liboqs.git \
+           && git clone --depth 1 --branch 0.7.2 https://github.com/open-quantum-safe/liboqs.git \
            && cd liboqs \
            && mkdir build \
            && cd build \
@@ -58,10 +58,6 @@ if [ ! -d $SRCTOP/oqs-provider/oqs ]; then
            && make \
            && make install
    )
-fi
-
-if [ ! -f $SRCTOP/oqs-provider/test/ssltestlib.c ]; then
-   ( cd $SRCTOP/oqs-provider && OPENSSL_BLDTOP=$BLDTOP ./scripts/preptests.sh )
 fi
 
 echo "   CWD:                $PWD"

@@ -63,6 +63,28 @@ static OSSL_METHOD_STORE *get_evp_method_store(OSSL_LIB_CTX *libctx)
     return ossl_lib_ctx_get_data(libctx, OSSL_LIB_CTX_EVP_METHOD_STORE_INDEX);
 }
 
+static int reserve_evp_method_store(void *store, void *data)
+{
+    struct evp_method_data_st *methdata = data;
+
+    if (store == NULL
+        && (store = get_evp_method_store(methdata->libctx)) == NULL)
+        return 0;
+
+    return ossl_method_lock_store(store);
+}
+
+static int unreserve_evp_method_store(void *store, void *data)
+{
+    struct evp_method_data_st *methdata = data;
+
+    if (store == NULL
+        && (store = get_evp_method_store(methdata->libctx)) == NULL)
+        return 0;
+
+    return ossl_method_unlock_store(store);
+}
+
 /*
  * To identify the method in the EVP method store, we mix the name identity
  * with the operation identity, under the assumption that we don't have more
@@ -271,6 +293,8 @@ inner_evp_generic_fetch(struct evp_method_data_st *methdata,
         || !ossl_method_store_cache_get(store, prov, meth_id, propq, &method)) {
         OSSL_METHOD_CONSTRUCT_METHOD mcm = {
             get_tmp_evp_method_store,
+            reserve_evp_method_store,
+            unreserve_evp_method_store,
             get_evp_method_from_store,
             put_evp_method_in_store,
             construct_evp_method,
@@ -476,7 +500,7 @@ static int evp_default_properties_merge(OSSL_LIB_CTX *libctx, const char *propq,
     pl2 = ossl_property_merge(pl1, *plp);
     ossl_property_free(pl1);
     if (pl2 == NULL) {
-        ERR_raise(ERR_LIB_EVP, ERR_R_MALLOC_FAILURE);
+        ERR_raise(ERR_LIB_EVP, ERR_R_CRYPTO_LIB);
         return 0;
     }
     if (!evp_set_parsed_default_properties(libctx, pl2, 0, 0)) {
@@ -528,10 +552,8 @@ char *evp_get_global_properties_str(OSSL_LIB_CTX *libctx, int loadconfig)
     }
 
     propstr = OPENSSL_malloc(sz);
-    if (propstr == NULL) {
-        ERR_raise(ERR_LIB_EVP, ERR_R_MALLOC_FAILURE);
+    if (propstr == NULL)
         return NULL;
-    }
     if (ossl_property_list_to_string(libctx, *plp, propstr, sz) == 0) {
         ERR_raise(ERR_LIB_EVP, ERR_R_INTERNAL_ERROR);
         OPENSSL_free(propstr);

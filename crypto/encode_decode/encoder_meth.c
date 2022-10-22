@@ -29,10 +29,11 @@ static OSSL_ENCODER *ossl_encoder_new(void)
 {
     OSSL_ENCODER *encoder = NULL;
 
-    if ((encoder = OPENSSL_zalloc(sizeof(*encoder))) == NULL
-        || (encoder->base.lock = CRYPTO_THREAD_lock_new()) == NULL) {
+    if ((encoder = OPENSSL_zalloc(sizeof(*encoder))) == NULL)
+        return NULL;
+    if ((encoder->base.lock = CRYPTO_THREAD_lock_new()) == NULL) {
         OSSL_ENCODER_free(encoder);
-        ERR_raise(ERR_LIB_OSSL_ENCODER, ERR_R_MALLOC_FAILURE);
+        ERR_raise(ERR_LIB_OSSL_ENCODER, ERR_R_CRYPTO_LIB);
         return NULL;
     }
 
@@ -103,6 +104,28 @@ static void dealloc_tmp_encoder_store(void *store)
 static OSSL_METHOD_STORE *get_encoder_store(OSSL_LIB_CTX *libctx)
 {
     return ossl_lib_ctx_get_data(libctx, OSSL_LIB_CTX_ENCODER_STORE_INDEX);
+}
+
+static int reserve_encoder_store(void *store, void *data)
+{
+    struct encoder_data_st *methdata = data;
+
+    if (store == NULL
+        && (store = get_encoder_store(methdata->libctx)) == NULL)
+        return 0;
+
+    return ossl_method_lock_store(store);
+}
+
+static int unreserve_encoder_store(void *store, void *data)
+{
+    struct encoder_data_st *methdata = data;
+
+    if (store == NULL
+        && (store = get_encoder_store(methdata->libctx)) == NULL)
+        return 0;
+
+    return ossl_method_unlock_store(store);
 }
 
 /* Get encoder methods from a store, or put one in */
@@ -354,6 +377,8 @@ inner_ossl_encoder_fetch(struct encoder_data_st *methdata,
         || !ossl_method_store_cache_get(store, NULL, id, propq, &method)) {
         OSSL_METHOD_CONSTRUCT_METHOD mcm = {
             get_tmp_encoder_store,
+            reserve_encoder_store,
+            unreserve_encoder_store,
             get_encoder_from_store,
             put_encoder_in_store,
             construct_encoder,
@@ -585,9 +610,7 @@ OSSL_ENCODER_CTX *OSSL_ENCODER_CTX_new(void)
 {
     OSSL_ENCODER_CTX *ctx;
 
-    if ((ctx = OPENSSL_zalloc(sizeof(*ctx))) == NULL)
-        ERR_raise(ERR_LIB_OSSL_ENCODER, ERR_R_MALLOC_FAILURE);
-
+    ctx = OPENSSL_zalloc(sizeof(*ctx));
     return ctx;
 }
 

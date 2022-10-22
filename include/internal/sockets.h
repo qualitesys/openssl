@@ -28,6 +28,8 @@
 
 # elif defined(OPENSSL_SYS_WINDOWS) || defined(OPENSSL_SYS_MSDOS)
 #  if defined(__DJGPP__)
+#   define WATT32
+#   define WATT32_NO_OLDIES
 #   include <sys/socket.h>
 #   include <sys/un.h>
 #   include <tcp.h>
@@ -60,6 +62,13 @@ struct servent *PASCAL getservbyname(const char *, const char *);
 #  endif
 
 # else
+#  if defined(__APPLE__)
+    /*
+     * This must be defined before including <netinet/in6.h> to get
+     * IPV6_RECVPKTINFO
+     */
+#   define __APPLE_USE_RFC_3542
+#  endif
 
 #  ifndef NO_SYS_PARAM_H
 #   include <sys/param.h>
@@ -143,8 +152,6 @@ struct servent *PASCAL getservbyname(const char *, const char *);
 #  define readsocket(s,b,n)       recv((s),(b),(n),0)
 #  define writesocket(s,b,n)      send((s),(b),(n),0)
 # elif defined(__DJGPP__)
-#  define WATT32
-#  define WATT32_NO_OLDIES
 #  define closesocket(s)          close_s(s)
 #  define readsocket(s,b,n)       read_s(s,b,n)
 #  define writesocket(s,b,n)      send(s,b,n,0)

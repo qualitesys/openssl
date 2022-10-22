@@ -49,6 +49,21 @@
 
 #if defined(_WIN32)
 # include <windows.h>
+/*
+ * While VirtualLock is available under the app partition (e.g. UWP),
+ * the headers do not define the API. Define it ourselves instead.
+ */
+WINBASEAPI
+BOOL
+WINAPI
+VirtualLock(
+    _In_ LPVOID lpAddress,
+    _In_ SIZE_T dwSize
+    );
+#endif
+
+# if defined(OPENSSL_SYS_UNIX)
+#  include <sys/mman.h>
 #endif
 
 #include <openssl/bn.h>
@@ -67,6 +82,7 @@
 #  define HAVE_FORK 0
 # else
 #  define HAVE_FORK 1
+#  include <sys/wait.h>
 # endif
 #endif
 
@@ -109,6 +125,8 @@ static void print_result(int alg, int run_no, int count, double time_used);
 #ifndef NO_FORK
 static int do_multi(int multi, int size_num);
 #endif
+
+static int domlock = 0;
 
 static const int lengths_list[] = {
     16, 64, 256, 1024, 8 * 1024, 16 * 1024
@@ -210,8 +228,8 @@ static int opt_found(const char *name, unsigned int *result,
 typedef enum OPTION_choice {
     OPT_COMMON,
     OPT_ELAPSED, OPT_EVP, OPT_HMAC, OPT_DECRYPT, OPT_ENGINE, OPT_MULTI,
-    OPT_MR, OPT_MB, OPT_MISALIGN, OPT_ASYNCJOBS, OPT_R_ENUM, OPT_PROV_ENUM,
-    OPT_PRIMES, OPT_SECONDS, OPT_BYTES, OPT_AEAD, OPT_CMAC
+    OPT_MR, OPT_MB, OPT_MISALIGN, OPT_ASYNCJOBS, OPT_R_ENUM, OPT_PROV_ENUM, OPT_CONFIG,
+    OPT_PRIMES, OPT_SECONDS, OPT_BYTES, OPT_AEAD, OPT_CMAC, OPT_MLOCK
 } OPTION_CHOICE;
 
 const OPTIONS speed_options[] = {
@@ -237,6 +255,8 @@ const OPTIONS speed_options[] = {
     {"engine", OPT_ENGINE, 's', "Use engine, possibly a hardware device"},
 #endif
     {"primes", OPT_PRIMES, 'p', "Specify number of primes (for RSA only)"},
+    {"mlock", OPT_MLOCK, '-', "Lock memory for better result determinism"},
+    OPT_CONFIG_OPTION,
 
     OPT_SECTION("Selection"),
     {"evp", OPT_EVP, 's', "Use EVP-named cipher or digest"},
@@ -879,11 +899,14 @@ static int FFDH_derive_key_loop(void *args)
     loopargs_t *tempargs = *(loopargs_t **) args;
     EVP_PKEY_CTX *ffdh_ctx = tempargs->ffdh_ctx[testnum];
     unsigned char *derived_secret = tempargs->secret_ff_a;
-    size_t outlen = MAX_FFDH_SIZE;
     int count;
 
-    for (count = 0; COND(ffdh_c[testnum][0]); count++)
+    for (count = 0; COND(ffdh_c[testnum][0]); count++) {
+        /* outlen can be overwritten with a too small value (no padding used) */
+        size_t outlen = MAX_FFDH_SIZE;
+
         EVP_PKEY_derive(ffdh_ctx, derived_secret, &outlen);
+    }
     return count;
 }
 #endif /* OPENSSL_NO_DH */
@@ -1342,6 +1365,7 @@ static EVP_PKEY *get_ecdsa(const EC_CURVE *curve)
 
 int speed_main(int argc, char **argv)
 {
+    CONF *conf = NULL;
     ENGINE *e = NULL;
     loopargs_t *loopargs = NULL;
     const char *prog;
@@ -1598,6 +1622,11 @@ int speed_main(int argc, char **argv)
             if (!opt_provider(o))
                 goto end;
             break;
+        case OPT_CONFIG:
+            conf = app_load_config_modules(opt_arg());
+            if (conf == NULL)
+                goto end;
+            break;
         case OPT_PRIMES:
             primes = opt_int_arg();
             break;
@@ -1613,6 +1642,15 @@ int speed_main(int argc, char **argv)
             break;
         case OPT_AEAD:
             aead = 1;
+            break;
+        case OPT_MLOCK:
+            domlock = 1;
+#if !defined(_WIN32) && !defined(OPENSSL_SYS_LINUX)
+            BIO_printf(bio_err,
+                       "%s: -mlock not supported on this platform\n",
+                       prog);
+            goto end;
+#endif
             break;
         }
     }
@@ -1767,6 +1805,14 @@ int speed_main(int argc, char **argv)
         app_malloc(loopargs_len * sizeof(loopargs_t), "array of loopargs");
     memset(loopargs, 0, loopargs_len * sizeof(loopargs_t));
 
+    buflen = lengths[size_num - 1];
+    if (buflen < 36)    /* size of random vector in RSA benchmark */
+        buflen = 36;
+    if (INT_MAX - (MAX_MISALIGNMENT + 1) < buflen) {
+        BIO_printf(bio_err, "Error: buffer size too large\n");
+        goto end;
+    }
+    buflen += MAX_MISALIGNMENT + 1;
     for (i = 0; i < loopargs_len; i++) {
         if (async_jobs > 0) {
             loopargs[i].wait_ctx = ASYNC_WAIT_CTX_new();
@@ -1776,18 +1822,8 @@ int speed_main(int argc, char **argv)
             }
         }
 
-        buflen = lengths[size_num - 1];
-        if (buflen < 36)    /* size of random vector in RSA benchmark */
-            buflen = 36;
-        if (INT_MAX - (MAX_MISALIGNMENT + 1) < buflen) {
-            BIO_printf(bio_err, "Error: buffer size too large\n");
-            goto end;
-        }
-        buflen += MAX_MISALIGNMENT + 1;
         loopargs[i].buf_malloc = app_malloc(buflen, "input buffer");
         loopargs[i].buf2_malloc = app_malloc(buflen, "input buffer");
-        memset(loopargs[i].buf_malloc, 0, buflen);
-        memset(loopargs[i].buf2_malloc, 0, buflen);
 
         /* Align the start of buffers on a 64 byte boundary */
         loopargs[i].buf = loopargs[i].buf_malloc + misalign;
@@ -1806,6 +1842,20 @@ int speed_main(int argc, char **argv)
     if (multi && do_multi(multi, size_num))
         goto show_res;
 #endif
+
+    for (i = 0; i < loopargs_len; ++i) {
+        if (domlock) {
+#if defined(_WIN32)
+            (void)VirtualLock(loopargs[i].buf_malloc, buflen);
+            (void)VirtualLock(loopargs[i].buf2_malloc, buflen);
+#elif defined(OPENSSL_SYS_LINUX)
+            (void)mlock(loopargs[i].buf_malloc, buflen);
+            (void)mlock(loopargs[i].buf_malloc, buflen);
+#endif
+        }
+        memset(loopargs[i].buf_malloc, 0, buflen);
+        memset(loopargs[i].buf2_malloc, 0, buflen);
+    }
 
     /* Initialize the engine after the fork */
     e = setup_engine(engine_id, 0);
@@ -2008,7 +2058,7 @@ int speed_main(int argc, char **argv)
                 goto end;
 
             if (!EVP_MAC_CTX_set_params(loopargs[i].mctx, params))
-                goto end;
+                goto skip_hmac; /* Digest not found */
         }
         for (testnum = 0; testnum < size_num; testnum++) {
             print_message(names[D_HMAC], c[D_HMAC][testnum], lengths[testnum],
@@ -2025,7 +2075,7 @@ int speed_main(int argc, char **argv)
         EVP_MAC_free(mac);
         mac = NULL;
     }
-
+skip_hmac:
     if (doit[D_CBC_DES]) {
         int st = 1;
 
@@ -2249,8 +2299,9 @@ int speed_main(int argc, char **argv)
                     }
                     OPENSSL_clear_free(loopargs[k].key, keylen);
 
-                    /* SIV mode only allows for a single Update operation */
-                    if (EVP_CIPHER_get_mode(evp_cipher) == EVP_CIPH_SIV_MODE)
+                    /* GCM-SIV/SIV mode only allows for a single Update operation */
+                    if (EVP_CIPHER_get_mode(evp_cipher) == EVP_CIPH_SIV_MODE
+                            || EVP_CIPHER_get_mode(evp_cipher) == EVP_CIPH_GCM_SIV_MODE)
                         (void)EVP_CIPHER_CTX_ctrl(loopargs[k].ctx,
                                                   EVP_CTRL_SET_SPEED, 1, NULL);
                 }
@@ -3350,6 +3401,7 @@ int speed_main(int argc, char **argv)
     release_engine(e);
     EVP_CIPHER_free(evp_cipher);
     EVP_MAC_free(mac);
+    NCONF_free(conf);
     return ret;
 }
 
@@ -3420,6 +3472,7 @@ static int do_multi(int multi, int size_num)
     int n;
     int fd[2];
     int *fds;
+    int status;
     static char sep[] = ":";
 
     fds = app_malloc(sizeof(*fds) * multi, "fd buffer for do_multi");
@@ -3569,6 +3622,20 @@ static int do_multi(int multi, int size_num)
         fclose(f);
     }
     OPENSSL_free(fds);
+    for (n = 0; n < multi; ++n) {
+        while (wait(&status) == -1)
+            if (errno != EINTR) {
+                BIO_printf(bio_err, "Waitng for child failed with 0x%x\n",
+                           errno);
+                return 1;
+            }
+        if (WIFEXITED(status) && WEXITSTATUS(status)) {
+            BIO_printf(bio_err, "Child exited with %d\n", WEXITSTATUS(status));
+        } else if (WIFSIGNALED(status)) {
+            BIO_printf(bio_err, "Child terminated by signal %d\n",
+                       WTERMSIG(status));
+        }
+    }
     return 1;
 }
 #endif

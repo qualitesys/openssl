@@ -397,7 +397,9 @@ static int cmd_Options(SSL_CONF_CTX *cctx, const char *value)
         SSL_FLAG_TBL_INV("ExtendedMasterSecret", SSL_OP_NO_EXTENDED_MASTER_SECRET),
         SSL_FLAG_TBL_INV("CANames", SSL_OP_DISABLE_TLSEXT_CA_NAMES),
         SSL_FLAG_TBL("KTLS", SSL_OP_ENABLE_KTLS),
-        SSL_FLAG_TBL_CERT("StrictCertCheck", SSL_CERT_FLAG_TLS_STRICT)
+        SSL_FLAG_TBL_CERT("StrictCertCheck", SSL_CERT_FLAG_TLS_STRICT),
+        SSL_FLAG_TBL_INV("TxCertificateCompression", SSL_OP_NO_TX_CERTIFICATE_COMPRESSION),
+        SSL_FLAG_TBL_INV("RxCertificateCompression", SSL_OP_NO_RX_CERTIFICATE_COMPRESSION),
     };
     if (value == NULL)
         return -3;
@@ -431,16 +433,23 @@ static int cmd_Certificate(SSL_CONF_CTX *cctx, const char *value)
 {
     int rv = 1;
     CERT *c = NULL;
-    if (cctx->ctx) {
+    if (cctx->ctx != NULL) {
         rv = SSL_CTX_use_certificate_chain_file(cctx->ctx, value);
         c = cctx->ctx->cert;
     }
-    if (cctx->ssl) {
-        rv = SSL_use_certificate_chain_file(cctx->ssl, value);
-        c = cctx->ssl->cert;
+    if (cctx->ssl != NULL) {
+        SSL_CONNECTION *sc = SSL_CONNECTION_FROM_SSL(cctx->ssl);
+
+        if (sc != NULL) {
+            rv = SSL_use_certificate_chain_file(cctx->ssl, value);
+            c = sc->cert;
+        } else {
+            rv = 0;
+        }
     }
-    if (rv > 0 && c && cctx->flags & SSL_CONF_FLAG_REQUIRE_PRIVATE) {
+    if (rv > 0 && c != NULL && cctx->flags & SSL_CONF_FLAG_REQUIRE_PRIVATE) {
         char **pfilename = &cctx->cert_filename[c->key - c->pkeys];
+
         OPENSSL_free(*pfilename);
         *pfilename = OPENSSL_strdup(value);
         if (*pfilename == NULL)
@@ -484,7 +493,12 @@ static int do_store(SSL_CONF_CTX *cctx,
         cert = cctx->ctx->cert;
         ctx = cctx->ctx;
     } else if (cctx->ssl != NULL) {
-        cert = cctx->ssl->cert;
+        SSL_CONNECTION *sc = SSL_CONNECTION_FROM_SSL(cctx->ssl);
+
+        if (sc == NULL)
+            return 0;
+
+        cert = sc->cert;
         ctx = cctx->ssl->ctx;
     } else {
         return 1;
@@ -695,6 +709,10 @@ static const ssl_conf_cmd_tbl ssl_conf_cmds[] = {
     SSL_CONF_CMD_SWITCH("bugs", 0),
     SSL_CONF_CMD_SWITCH("no_comp", 0),
     SSL_CONF_CMD_SWITCH("comp", 0),
+    SSL_CONF_CMD_SWITCH("no_tx_cert_comp", 0),
+    SSL_CONF_CMD_SWITCH("tx_cert_comp", 0),
+    SSL_CONF_CMD_SWITCH("no_rx_cert_comp", 0),
+    SSL_CONF_CMD_SWITCH("rx_cert_comp", 0),
     SSL_CONF_CMD_SWITCH("ecdh_single", SSL_CONF_FLAG_SERVER),
     SSL_CONF_CMD_SWITCH("no_ticket", 0),
     SSL_CONF_CMD_SWITCH("serverpref", SSL_CONF_FLAG_SERVER),
@@ -775,6 +793,10 @@ static const ssl_switch_tbl ssl_cmd_switches[] = {
     {SSL_OP_ALL, 0},            /* bugs */
     {SSL_OP_NO_COMPRESSION, 0}, /* no_comp */
     {SSL_OP_NO_COMPRESSION, SSL_TFLAG_INV}, /* comp */
+    {SSL_OP_NO_TX_CERTIFICATE_COMPRESSION, 0}, /* no_tx_cert_comp */
+    {SSL_OP_NO_TX_CERTIFICATE_COMPRESSION, SSL_TFLAG_INV}, /* tx_cert_comp */
+    {SSL_OP_NO_RX_CERTIFICATE_COMPRESSION, 0}, /* no_rx_cert_comp */
+    {SSL_OP_NO_RX_CERTIFICATE_COMPRESSION, SSL_TFLAG_INV}, /* rx_cert_comp */
     {SSL_OP_SINGLE_ECDH_USE, 0}, /* ecdh_single */
     {SSL_OP_NO_TICKET, 0},      /* no_ticket */
     {SSL_OP_CIPHER_SERVER_PREFERENCE, 0}, /* serverpref */
@@ -977,11 +999,16 @@ int SSL_CONF_CTX_finish(SSL_CONF_CTX *cctx)
     /* See if any certificates are missing private keys */
     size_t i;
     CERT *c = NULL;
-    if (cctx->ctx)
+
+    if (cctx->ctx != NULL) {
         c = cctx->ctx->cert;
-    else if (cctx->ssl)
-        c = cctx->ssl->cert;
-    if (c && cctx->flags & SSL_CONF_FLAG_REQUIRE_PRIVATE) {
+    } else if (cctx->ssl != NULL) {
+        SSL_CONNECTION *sc = SSL_CONNECTION_FROM_SSL(cctx->ssl);
+
+        if (sc != NULL)
+            c = sc->cert;
+    }
+    if (c != NULL && cctx->flags & SSL_CONF_FLAG_REQUIRE_PRIVATE) {
         for (i = 0; i < SSL_PKEY_NUM; i++) {
             const char *p = cctx->cert_filename[i];
             /*
@@ -1050,12 +1077,16 @@ void SSL_CONF_CTX_set_ssl(SSL_CONF_CTX *cctx, SSL *ssl)
 {
     cctx->ssl = ssl;
     cctx->ctx = NULL;
-    if (ssl) {
-        cctx->poptions = &ssl->options;
-        cctx->min_version = &ssl->min_proto_version;
-        cctx->max_version = &ssl->max_proto_version;
-        cctx->pcert_flags = &ssl->cert->cert_flags;
-        cctx->pvfy_flags = &ssl->verify_mode;
+    if (ssl != NULL) {
+        SSL_CONNECTION *sc = SSL_CONNECTION_FROM_SSL(ssl);
+
+        if (sc == NULL)
+            return;
+        cctx->poptions = &sc->options;
+        cctx->min_version = &sc->min_proto_version;
+        cctx->max_version = &sc->max_proto_version;
+        cctx->pcert_flags = &sc->cert->cert_flags;
+        cctx->pvfy_flags = &sc->verify_mode;
     } else {
         cctx->poptions = NULL;
         cctx->min_version = NULL;

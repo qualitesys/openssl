@@ -11,7 +11,40 @@
 # define OSSL_QUIC_LOCAL_H
 
 # include <openssl/ssl.h>
+# include "internal/quic_ssl.h"       /* QUIC_CONNECTION */
 # include "../ssl_local.h"
+
+struct quic_conn_st {
+    /* type identifier and common data */
+    struct ssl_st ssl;
+    /* the associated tls-1.3 connection data */
+    SSL *tls;
+
+    /* For QUIC, diverse handlers */
+    OSSL_ACKM *ackm;
+    OSSL_QRX *qrx;
+};
+
+# define QUIC_CONNECTION_FROM_SSL_int(ssl, c)   \
+    ((ssl) == NULL ? NULL                       \
+     : ((ssl)->type == SSL_TYPE_QUIC_CONNECTION \
+        ? (c QUIC_CONNECTION *)(ssl)            \
+        : NULL))
+
+# define SSL_CONNECTION_FROM_QUIC_SSL_int(ssl, c)               \
+    ((ssl) == NULL ? NULL                                       \
+     : ((ssl)->type == SSL_TYPE_QUIC_CONNECTION                 \
+        ? (c SSL_CONNECTION *)((c QUIC_CONNECTION *)(ssl))->tls \
+        : NULL))
+
+# define QUIC_CONNECTION_FROM_SSL(ssl) \
+    QUIC_CONNECTION_FROM_SSL_int(ssl, SSL_CONNECTION_NO_CONST)
+# define QUIC_CONNECTION_FROM_CONST_SSL(ssl) \
+    QUIC_CONNECTION_FROM_SSL_int(ssl, const)
+# define SSL_CONNECTION_FROM_QUIC_SSL(ssl) \
+    SSL_CONNECTION_FROM_QUIC_SSL_int(ssl, SSL_CONNECTION_NO_CONST)
+# define SSL_CONNECTION_FROM_CONST_QUIC_SSL(ssl) \
+    SSL_CONNECTION_FROM_CONST_QUIC_SSL_int(ssl, const)
 
 # define OSSL_QUIC_ANY_VERSION 0xFFFFF
 
@@ -24,8 +57,11 @@ const SSL_METHOD *func_name(void)  \
                 0, \
                 0, \
                 ossl_quic_new, \
-                ossl_quic_clear, \
                 ossl_quic_free, \
+                ossl_quic_reset, \
+                ossl_quic_init, \
+                ossl_quic_clear, \
+                ossl_quic_deinit, \
                 q_accept, \
                 q_connect, \
                 ossl_quic_read, \
@@ -52,24 +88,5 @@ const SSL_METHOD *func_name(void)  \
         }; \
         return &func_name##_data; \
         }
-
-__owur int ossl_quic_new(SSL *s);
-void ossl_quic_free(SSL *s);
-int ossl_quic_clear(SSL *s);
-__owur int ossl_quic_accept(SSL *s);
-__owur int ossl_quic_connect(SSL *s);
-__owur int ossl_quic_read(SSL *s, void *buf, size_t len, size_t *readbytes);
-__owur int ossl_quic_peek(SSL *s, void *buf, size_t len, size_t *readbytes);
-__owur int ossl_quic_write(SSL *s, const void *buf, size_t len, size_t *written);
-__owur int ossl_quic_shutdown(SSL *s);
-__owur long ossl_quic_ctrl(SSL *s, int cmd, long larg, void *parg);
-__owur long ossl_quic_ctx_ctrl(SSL_CTX *s, int cmd, long larg, void *parg);
-__owur long ossl_quic_callback_ctrl(SSL *s, int cmd, void (*fp) (void));
-__owur long ossl_quic_ctx_callback_ctrl(SSL_CTX *s, int cmd, void (*fp) (void));
-__owur size_t ossl_quic_pending(const SSL *s);
-__owur long ossl_quic_default_timeout(void);
-__owur int ossl_quic_num_ciphers(void);
-__owur const SSL_CIPHER *ossl_quic_get_cipher(unsigned int u);
-int ossl_quic_renegotiate_check(SSL *ssl, int initok);
 
 #endif

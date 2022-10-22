@@ -306,6 +306,7 @@ OSSL_DEPRECATEDIN_3_0 int
 # define         EVP_CIPH_WRAP_MODE              0x10002
 # define         EVP_CIPH_OCB_MODE               0x10003
 # define         EVP_CIPH_SIV_MODE               0x10004
+# define         EVP_CIPH_GCM_SIV_MODE           0x10005
 # define         EVP_CIPH_MODE                   0xF0007
 /* Set if variable length cipher */
 # define         EVP_CIPH_VARIABLE_LENGTH        0x8
@@ -1924,14 +1925,17 @@ int EVP_PKEY_derive_set_peer(EVP_PKEY_CTX *ctx, EVP_PKEY *peer);
 int EVP_PKEY_derive(EVP_PKEY_CTX *ctx, unsigned char *key, size_t *keylen);
 
 int EVP_PKEY_encapsulate_init(EVP_PKEY_CTX *ctx, const OSSL_PARAM params[]);
+int EVP_PKEY_auth_encapsulate_init(EVP_PKEY_CTX *ctx, EVP_PKEY *authpriv,
+                                   const OSSL_PARAM params[]);
 int EVP_PKEY_encapsulate(EVP_PKEY_CTX *ctx,
                          unsigned char *wrappedkey, size_t *wrappedkeylen,
                          unsigned char *genkey, size_t *genkeylen);
 int EVP_PKEY_decapsulate_init(EVP_PKEY_CTX *ctx, const OSSL_PARAM params[]);
+int EVP_PKEY_auth_decapsulate_init(EVP_PKEY_CTX *ctx, EVP_PKEY *authpub,
+                                   const OSSL_PARAM params[]);
 int EVP_PKEY_decapsulate(EVP_PKEY_CTX *ctx,
                          unsigned char *unwrapped, size_t *unwrappedlen,
                          const unsigned char *wrapped, size_t wrappedlen);
-
 typedef int EVP_PKEY_gen_cb(EVP_PKEY_CTX *ctx);
 
 int EVP_PKEY_fromdata_init(EVP_PKEY_CTX *ctx);

@@ -24,6 +24,7 @@
 #endif
 #include <openssl/self_test.h>
 #include "prov/providercommon.h"
+#include "prov/ecx.h"
 #include "crypto/bn.h"
 
 static int ecdsa_keygen_pairwise_test(EC_KEY *eckey, OSSL_CALLBACK *cb,
@@ -349,6 +350,43 @@ err:
     BN_free(order);
     return ok;
 }
+
+#ifndef FIPS_MODULE
+/*
+ * This is similar to ec_generate_key(), except it uses an ikm to
+ * derive the private key.
+ */
+int ossl_ec_generate_key_dhkem(EC_KEY *eckey,
+                               const unsigned char *ikm, size_t ikmlen)
+{
+    int ok = 0;
+
+    if (eckey->priv_key == NULL) {
+        eckey->priv_key = BN_secure_new();
+        if (eckey->priv_key == NULL)
+            goto err;
+    }
+    if (ossl_ec_dhkem_derive_private(eckey, eckey->priv_key, ikm, ikmlen) <= 0)
+        goto err;
+    if (eckey->pub_key == NULL) {
+        eckey->pub_key = EC_POINT_new(eckey->group);
+        if (eckey->pub_key == NULL)
+            goto err;
+    }
+    if (!ossl_ec_key_simple_generate_public_key(eckey))
+        goto err;
+
+    ok = 1;
+err:
+    if (!ok) {
+        BN_clear_free(eckey->priv_key);
+        eckey->priv_key = NULL;
+        if (eckey->pub_key != NULL)
+            EC_POINT_set_to_infinity(eckey->group, eckey->pub_key);
+    }
+    return ok;
+}
+#endif
 
 int ossl_ec_key_simple_generate_key(EC_KEY *eckey)
 {
@@ -721,6 +759,16 @@ int EC_KEY_set_private_key(EC_KEY *key, const BIGNUM *priv_key)
         return 0;
 
     /*
+     * Return `0` to comply with legacy behavior for this function, see
+     * https://github.com/openssl/openssl/issues/18744#issuecomment-1195175696
+     */
+    if (priv_key == NULL) {
+        BN_clear_free(key->priv_key);
+        key->priv_key = NULL;
+        return 0; /* intentional for legacy compatibility */
+    }
+
+    /*
      * We should never leak the bit length of the secret scalar in the key,
      * so we always set the `BN_FLG_CONSTTIME` flag on the internal `BIGNUM`
      * holding the secret scalar.
@@ -944,7 +992,7 @@ int ossl_ec_key_simple_oct2priv(EC_KEY *eckey, const unsigned char *buf,
     if (eckey->priv_key == NULL)
         eckey->priv_key = BN_secure_new();
     if (eckey->priv_key == NULL) {
-        ERR_raise(ERR_LIB_EC, ERR_R_MALLOC_FAILURE);
+        ERR_raise(ERR_LIB_EC, ERR_R_BN_LIB);
         return 0;
     }
     if (BN_bin2bn(buf, len, eckey->priv_key) == NULL) {
@@ -963,10 +1011,8 @@ size_t EC_KEY_priv2buf(const EC_KEY *eckey, unsigned char **pbuf)
     len = EC_KEY_priv2oct(eckey, NULL, 0);
     if (len == 0)
         return 0;
-    if ((buf = OPENSSL_malloc(len)) == NULL) {
-        ERR_raise(ERR_LIB_EC, ERR_R_MALLOC_FAILURE);
+    if ((buf = OPENSSL_malloc(len)) == NULL)
         return 0;
-    }
     len = EC_KEY_priv2oct(eckey, buf, len);
     if (len == 0) {
         OPENSSL_free(buf);
