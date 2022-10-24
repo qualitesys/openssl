@@ -44,6 +44,8 @@
     <!-- Modif D.C. 2020 12 26 pour rapidite, pas besoin de fichiers .lin -->
     <!-- Modif D.C. 2021 01 10 en comm, necessaire pour schema d archi Reporting02 -->
     <sonar.debugskipxsl>true</sonar.debugskipxsl>
+    <!-- Modif D.C. 2022 10 24 pour reduire taille des fichiers generes sur mvn site -->
+    <sonar.reporting01nodocgeneration>yes</sonar.reporting01nodocgeneration>
   </properties>  
   <pluginRepositories> 
     <pluginRepository> 
