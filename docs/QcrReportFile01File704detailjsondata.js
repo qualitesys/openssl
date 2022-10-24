@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/sparse_array.c.html" 
- , "texte" : "File crypto/sparse_array.c 20 rule violations " 
+ , "texte" : "File crypto/sparse_array.c 23 rule violations " 
  , "fic2"  : "./qc/crypto/sparse_array.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,13 +40,6 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "15"
@@ -61,20 +54,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03363"
- , "c1link" : "./qc/crypto/sparse_array.c.html#3363"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03363] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/sparse_array.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01209"
  , "c1link" : "./qc/crypto/sparse_array.c.html#1209"
@@ -206,6 +199,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sparse_array.c.html#2791"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[02791] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04813"
+ , "c1link" : "./qc/crypto/sparse_array.c.html#4813"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[04813] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04861"
+ , "c1link" : "./qc/crypto/sparse_array.c.html#4861"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[04861] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04871"
+ , "c1link" : "./qc/crypto/sparse_array.c.html#4871"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04871] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04895"
+ , "c1link" : "./qc/crypto/sparse_array.c.html#4895"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04895] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

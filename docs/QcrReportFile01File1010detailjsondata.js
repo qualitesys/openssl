@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/legacyprov.c.html" 
- , "texte" : "File providers/legacyprov.c 22 rule violations " 
+ , "texte" : "File providers/legacyprov.c 34 rule violations " 
  , "fic2"  : "./qc/providers/legacyprov.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "17"
+ , "c4" : "20"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,20 +54,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "9"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "04291"
- , "c1link" : "./qc/providers/legacyprov.c.html#4291"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[04291] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/legacyprov.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00383"
  , "c1link" : "./qc/providers/legacyprov.c.html#383"
@@ -220,6 +213,97 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/legacyprov.c.html#3878"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03878] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06806"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6806"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06806] The pointer c_new_error is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06807"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6807"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06807] The pointer c_set_error_debug is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06808"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6808"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06808] The pointer c_vset_error is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06809"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6809"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06809] The pointer c_set_error_mark is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06810"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6810"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06810] The pointer c_clear_last_error_mark is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06811"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6811"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06811] The pointer c_pop_error_to_mark is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06854"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6854"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06854] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06861"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6861"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06861] The expression 'OpenSSL Legacy Provider' is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06868"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6868"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06868] The expression '3.2.0' is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06875"
+ , "c1link" : "./qc/providers/legacyprov.c.html#6875"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06875] The expression '3.2.0-dev' is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07047"
+ , "c1link" : "./qc/providers/legacyprov.c.html#7047"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[07047] The pointer tmp is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07106"
+ , "c1link" : "./qc/providers/legacyprov.c.html#7106"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07106] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07111"
+ , "c1link" : "./qc/providers/legacyprov.c.html#7111"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07111] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

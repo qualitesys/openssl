@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/hpke/hpke_util.c.html" 
- , "texte" : "File crypto/hpke/hpke_util.c 21 rule violations " 
+ , "texte" : "File crypto/hpke/hpke_util.c 65 rule violations " 
  , "fic2"  : "./qc/crypto/hpke/hpke_util.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,23 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
+ , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "41"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,20 +68,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "8"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03461"
- , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#3461"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03461] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/hpke/hpke_util.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01639"
  , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#1639"
@@ -213,6 +220,321 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#3036"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03036] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05738"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#5738"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05738] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07160"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#7160"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07160] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07165"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#7165"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07165] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07190"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#7190"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07190] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07195"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#7195"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07195] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07224"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#7224"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07224] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07229"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#7229"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07229] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07250"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#7250"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07250] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07255"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#7255"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07255] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07271"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#7271"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07271] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07290"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#7290"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07290] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07295"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#7295"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07295] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07315"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#7315"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07315] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07320"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#7320"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07320] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07341"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#7341"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07341] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07346"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#7346"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07346] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07367"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#7367"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07367] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07372"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#7372"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07372] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07394"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#7394"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07394] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07399"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#7399"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07399] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07423"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#7423"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07423] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07428"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#7428"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07428] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07634"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#7634"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07634] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07675"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#7675"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07675] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07802"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#7802"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07802] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07848"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#7848"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07848] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08032"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#8032"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08032] The pointer data is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08032"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#8032"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[08032] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08054"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#8054"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08054] The pointer data is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08054"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#8054"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[08054] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08073"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#8073"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08073] The pointer data is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08073"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#8073"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[08073] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08096"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#8096"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08096] The pointer data is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08096"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#8096"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[08096] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08116"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#8116"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08116] The pointer data is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08116"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#8116"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[08116] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08134"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#8134"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08134] The pointer data is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08134"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#8134"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[08134] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08386"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#8386"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08386] The expression  ! ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08438"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#8438"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08438] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08450"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#8450"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08450] goto statement jump to end"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08477"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#8477"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08477] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08478"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#8478"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08478] The expression 2 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08490"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#8490"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08490] goto statement jump to end"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08504"
+ , "c1link" : "./qc/crypto/hpke/hpke_util.c.html#8504"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08504] The pointer kdf is declared but not initialized"
 }} 
 ]
 };

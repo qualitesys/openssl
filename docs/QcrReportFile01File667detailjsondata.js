@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/rsa/rsa_mp.c.html" 
- , "texte" : "File crypto/rsa/rsa_mp.c 21 rule violations " 
+ , "texte" : "File crypto/rsa/rsa_mp.c 37 rule violations " 
  , "fic2"  : "./qc/crypto/rsa/rsa_mp.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,13 +40,6 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "16"
@@ -61,20 +54,27 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "8"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "7"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03377"
- , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#3377"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03377] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/rsa/rsa_mp.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01171"
  , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#1171"
@@ -213,6 +213,125 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#2859"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02859] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06566"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6566"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06566] The pointer pinfo is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06569"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6569"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[06569] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06579"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6579"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[06579] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06584"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6584"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06584] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06585"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6585"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[06585] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06590"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6590"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06590] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06591"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6591"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[06591] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06596"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6596"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06596] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06597"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6597"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[06597] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06602"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6602"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06602] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06622"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6622"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06622] The pointer pinfo is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06639"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6639"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[06639] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06641"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6641"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06641] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06644"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6644"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[06644] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06649"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6649"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06649] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06668"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6668"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06668] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06671"
+ , "c1link" : "./qc/crypto/rsa/rsa_mp.c.html#6671"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06671] goto statement jump to err"
 }} 
 ]
 };

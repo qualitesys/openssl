@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/ciphers/cipher_blowfish.c.html" 
- , "texte" : "File providers/implementations/ciphers/cipher_blowfish.c 21 rule violations " 
+ , "texte" : "File providers/implementations/ciphers/cipher_blowfish.c 43 rule violations " 
  , "fic2"  : "./qc/providers/implementations/ciphers/cipher_blowfish.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "38"
 }}
 ,
 { "ligne" : { "" : ""
@@ -63,18 +56,11 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03421"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_blowfish.c.html#3421"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03421] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_blowfish.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01599"
  , "c1link" : "./qc/providers/implementations/ciphers/cipher_blowfish.c.html#1599"
@@ -213,6 +199,167 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/ciphers/cipher_blowfish.c.html#2996"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02996] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08172"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_blowfish.c.html#8172"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08172] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09531"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_blowfish.c.html#9531"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09531] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09536"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_blowfish.c.html#9536"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09536] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09561"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_blowfish.c.html#9561"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09561] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09566"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_blowfish.c.html#9566"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09566] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09595"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_blowfish.c.html#9595"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09595] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09600"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_blowfish.c.html#9600"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09600] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09621"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_blowfish.c.html#9621"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09621] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09626"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_blowfish.c.html#9626"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09626] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09642"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_blowfish.c.html#9642"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09642] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09661"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_blowfish.c.html#9661"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09661] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09666"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_blowfish.c.html#9666"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09666] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09686"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_blowfish.c.html#9686"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09686] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09691"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_blowfish.c.html#9691"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09691] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09712"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_blowfish.c.html#9712"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09712] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09717"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_blowfish.c.html#9717"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09717] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09738"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_blowfish.c.html#9738"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09738] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09743"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_blowfish.c.html#9743"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09743] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09765"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_blowfish.c.html#9765"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09765] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09770"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_blowfish.c.html#9770"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09770] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09794"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_blowfish.c.html#9794"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09794] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09799"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_blowfish.c.html#9799"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09799] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "11381"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_blowfish.c.html#11381"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[11381] The pointer ret is declared but not initialized"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/macs/siphash_prov.c.html" 
- , "texte" : "File providers/implementations/macs/siphash_prov.c 22 rule violations " 
+ , "texte" : "File providers/implementations/macs/siphash_prov.c 32 rule violations " 
  , "fic2"  : "./qc/providers/implementations/macs/siphash_prov.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,8 +40,8 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
  , "c4" : "1"
 }}
 ,
@@ -61,20 +61,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "7"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "4"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "04290"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#4290"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[04290] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/macs/siphash_prov.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00383"
  , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#383"
@@ -220,6 +220,83 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#3895"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03895] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09005"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#9005"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09005] The pointer ctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09031"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#9031"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09031] The pointer sdst is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09070"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#9070"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09070] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09158"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#9158"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09158] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09160"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#9160"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09160] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09167"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#9167"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09167] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09174"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#9174"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09174] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09239"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#9239"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09239] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09249"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#9249"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09249] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09256"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#9256"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09256] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09263"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#9263"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09263] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html" 
- , "texte" : "File providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c 21 rule violations " 
+ , "texte" : "File providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c 42 rule violations " 
  , "fic2"  : "./qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "38"
 }}
 ,
 { "ligne" : { "" : ""
@@ -68,13 +61,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03955"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#3955"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03955] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00998"
  , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#998"
@@ -213,6 +199,160 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#3533"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03533] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08743"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#8743"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08743] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10102"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#10102"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10102] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10107"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#10107"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10107] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10132"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#10132"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10132] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10137"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#10137"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10137] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10166"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#10166"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10166] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10171"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#10171"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10171] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10192"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#10192"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10192] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10197"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#10197"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10197] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10213"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#10213"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10213] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10232"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#10232"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10232] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10237"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#10237"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10237] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10257"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#10257"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10257] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10262"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#10262"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10262] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10283"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#10283"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10283] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10288"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#10288"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10288] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10309"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#10309"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10309] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10314"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#10314"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10314] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10336"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#10336"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10336] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10341"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#10341"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10341] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10365"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#10365"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10365] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10370"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#10370"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10370] The expression 2&gt;1 is invariable"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/md5/md5_sha1.c.html" 
- , "texte" : "File crypto/md5/md5_sha1.c 22 rule violations " 
+ , "texte" : "File crypto/md5/md5_sha1.c 23 rule violations " 
  , "fic2"  : "./qc/crypto/md5/md5_sha1.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "17"
+ , "c4" : "19"
 }}
 ,
 { "ligne" : { "" : ""
@@ -68,13 +61,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "04430"
- , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#4430"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[04430] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/md5/md5_sha1.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00410"
  , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#410"
@@ -220,6 +206,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#4038"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[04038] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08323"
+ , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#8323"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08323] The expression 40 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08346"
+ , "c1link" : "./qc/crypto/md5/md5_sha1.c.html#8346"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08346] The expression 40 is invariable"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/digests/sha3_prov.c.html" 
- , "texte" : "File providers/implementations/digests/sha3_prov.c 21 rule violations " 
+ , "texte" : "File providers/implementations/digests/sha3_prov.c 23 rule violations " 
  , "fic2"  : "./qc/providers/implementations/digests/sha3_prov.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,8 +40,8 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
  , "c4" : "1"
 }}
 ,
@@ -61,20 +61,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03717"
- , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#3717"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03717] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/digests/sha3_prov.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00383"
  , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#383"
@@ -213,6 +213,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#3145"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[03145] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09039"
+ , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#9039"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09039] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09059"
+ , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#9059"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09059] The expression rem applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09152"
+ , "c1link" : "./qc/providers/implementations/digests/sha3_prov.c.html#9152"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09152] The pointer p is declared but not initialized"
 }} 
 ]
 };

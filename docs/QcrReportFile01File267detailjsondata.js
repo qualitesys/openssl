@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/comp/c_brotli.c.html" 
- , "texte" : "File crypto/comp/c_brotli.c 21 rule violations " 
+ , "texte" : "File crypto/comp/c_brotli.c 41 rule violations " 
  , "fic2"  : "./qc/crypto/comp/c_brotli.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "37"
 }}
 ,
 { "ligne" : { "" : ""
@@ -68,13 +61,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03739"
- , "c1link" : "./qc/crypto/comp/c_brotli.c.html#3739"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03739] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/comp/c_brotli.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00959"
  , "c1link" : "./qc/crypto/comp/c_brotli.c.html#959"
@@ -213,6 +199,153 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/comp/c_brotli.c.html#2718"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02718] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07485"
+ , "c1link" : "./qc/crypto/comp/c_brotli.c.html#7485"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07485] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07490"
+ , "c1link" : "./qc/crypto/comp/c_brotli.c.html#7490"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07490] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07515"
+ , "c1link" : "./qc/crypto/comp/c_brotli.c.html#7515"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07515] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07520"
+ , "c1link" : "./qc/crypto/comp/c_brotli.c.html#7520"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07520] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07549"
+ , "c1link" : "./qc/crypto/comp/c_brotli.c.html#7549"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07549] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07554"
+ , "c1link" : "./qc/crypto/comp/c_brotli.c.html#7554"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07554] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07575"
+ , "c1link" : "./qc/crypto/comp/c_brotli.c.html#7575"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07575] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07580"
+ , "c1link" : "./qc/crypto/comp/c_brotli.c.html#7580"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07580] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07596"
+ , "c1link" : "./qc/crypto/comp/c_brotli.c.html#7596"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07596] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07615"
+ , "c1link" : "./qc/crypto/comp/c_brotli.c.html#7615"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07615] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07620"
+ , "c1link" : "./qc/crypto/comp/c_brotli.c.html#7620"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07620] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07640"
+ , "c1link" : "./qc/crypto/comp/c_brotli.c.html#7640"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07640] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07645"
+ , "c1link" : "./qc/crypto/comp/c_brotli.c.html#7645"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07645] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07666"
+ , "c1link" : "./qc/crypto/comp/c_brotli.c.html#7666"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07666] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07671"
+ , "c1link" : "./qc/crypto/comp/c_brotli.c.html#7671"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07671] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07692"
+ , "c1link" : "./qc/crypto/comp/c_brotli.c.html#7692"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07692] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07697"
+ , "c1link" : "./qc/crypto/comp/c_brotli.c.html#7697"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07697] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07719"
+ , "c1link" : "./qc/crypto/comp/c_brotli.c.html#7719"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07719] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07724"
+ , "c1link" : "./qc/crypto/comp/c_brotli.c.html#7724"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07724] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07748"
+ , "c1link" : "./qc/crypto/comp/c_brotli.c.html#7748"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07748] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07753"
+ , "c1link" : "./qc/crypto/comp/c_brotli.c.html#7753"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07753] The expression 2&gt;1 is invariable"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/e_camellia.c.html" 
- , "texte" : "File crypto/evp/e_camellia.c 21 rule violations " 
+ , "texte" : "File crypto/evp/e_camellia.c 25 rule violations " 
  , "fic2"  : "./qc/crypto/evp/e_camellia.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,16 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : { "" : ""
@@ -68,13 +68,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03957"
- , "c1link" : "./qc/crypto/evp/e_camellia.c.html#3957"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03957] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/evp/e_camellia.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01000"
  , "c1link" : "./qc/crypto/evp/e_camellia.c.html#1000"
@@ -213,6 +206,41 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/e_camellia.c.html#3535"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03535] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08352"
+ , "c1link" : "./qc/crypto/evp/e_camellia.c.html#8352"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08352] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10050"
+ , "c1link" : "./qc/crypto/evp/e_camellia.c.html#10050"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10050] The expression dat-&gt;stream.cbc applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10117"
+ , "c1link" : "./qc/crypto/evp/e_camellia.c.html#10117"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10117] The expression 0x2000 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10137"
+ , "c1link" : "./qc/crypto/evp/e_camellia.c.html#10137"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10137] The expression len applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10159"
+ , "c1link" : "./qc/crypto/evp/e_camellia.c.html#10159"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10159] The expression dat-&gt;stream.ctr applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

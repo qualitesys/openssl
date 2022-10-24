@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/common/provider_seeding.c.html" 
- , "texte" : "File providers/common/provider_seeding.c 21 rule violations " 
+ , "texte" : "File providers/common/provider_seeding.c 28 rule violations " 
  , "fic2"  : "./qc/providers/common/provider_seeding.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,16 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
+ , "c2" : "QC-CPP000006"
+ , "c3" : "Risk of infinite while loop"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "20"
 }}
 ,
 { "ligne" : { "" : ""
@@ -68,13 +68,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03942"
- , "c1link" : "./qc/providers/common/provider_seeding.c.html#3942"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03942] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/common/provider_seeding.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "02341"
  , "c1link" : "./qc/providers/common/provider_seeding.c.html#2341"
@@ -213,6 +206,62 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/common/provider_seeding.c.html#3740"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[03740] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08001"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#8001"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08001] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08001"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#8001"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08001] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08008"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#8008"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08008] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08008"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#8008"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08008] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08015"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#8015"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08015] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08015"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#8015"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08015] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08022"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#8022"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[08022] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08022"
+ , "c1link" : "./qc/providers/common/provider_seeding.c.html#8022"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08022] The expression 0 is invariable, always false"
 }} 
 ]
 };

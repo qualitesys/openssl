@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/modes/cbc128.c.html" 
- , "texte" : "File crypto/modes/cbc128.c 21 rule violations " 
+ , "texte" : "File crypto/modes/cbc128.c 26 rule violations " 
  , "fic2"  : "./qc/crypto/modes/cbc128.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,23 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
  , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "19"
 }}
 ,
 { "ligne" : { "" : ""
@@ -68,13 +75,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03713"
- , "c1link" : "./qc/crypto/modes/cbc128.c.html#3713"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03713] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/modes/cbc128.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00383"
  , "c1link" : "./qc/crypto/modes/cbc128.c.html#383"
@@ -213,6 +213,48 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/modes/cbc128.c.html#3141"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[03141] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04934"
+ , "c1link" : "./qc/crypto/modes/cbc128.c.html#4934"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[04934] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04940"
+ , "c1link" : "./qc/crypto/modes/cbc128.c.html#4940"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04940] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04964"
+ , "c1link" : "./qc/crypto/modes/cbc128.c.html#4964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[04964] The expression len applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04998"
+ , "c1link" : "./qc/crypto/modes/cbc128.c.html#4998"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04998] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05026"
+ , "c1link" : "./qc/crypto/modes/cbc128.c.html#5026"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05026] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05060"
+ , "c1link" : "./qc/crypto/modes/cbc128.c.html#5060"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05060] The expression len applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

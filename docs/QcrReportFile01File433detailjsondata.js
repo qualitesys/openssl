@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/err/err_blocks.c.html" 
- , "texte" : "File crypto/err/err_blocks.c 21 rule violations " 
+ , "texte" : "File crypto/err/err_blocks.c 29 rule violations " 
  , "fic2"  : "./qc/crypto/err/err_blocks.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,8 +40,8 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
  , "c4" : "1"
 }}
 ,
@@ -49,7 +49,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,20 +61,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "4"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03736"
- , "c1link" : "./qc/crypto/err/err_blocks.c.html#3736"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03736] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/err/err_blocks.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00383"
  , "c1link" : "./qc/crypto/err/err_blocks.c.html#383"
@@ -213,6 +213,69 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/err/err_blocks.c.html#2938"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02938] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05166"
+ , "c1link" : "./qc/crypto/err/err_blocks.c.html#5166"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05166] The expression deall applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05216"
+ , "c1link" : "./qc/crypto/err/err_blocks.c.html#5216"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05216] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05222"
+ , "c1link" : "./qc/crypto/err/err_blocks.c.html#5222"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[05222] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05241"
+ , "c1link" : "./qc/crypto/err/err_blocks.c.html#5241"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05241] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05289"
+ , "c1link" : "./qc/crypto/err/err_blocks.c.html#5289"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05289] The pointer es is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05306"
+ , "c1link" : "./qc/crypto/err/err_blocks.c.html#5306"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05306] The pointer es is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05350"
+ , "c1link" : "./qc/crypto/err/err_blocks.c.html#5350"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05350] The pointer es is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05396"
+ , "c1link" : "./qc/crypto/err/err_blocks.c.html#5396"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[05396] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05427"
+ , "c1link" : "./qc/crypto/err/err_blocks.c.html#5427"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[05427] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

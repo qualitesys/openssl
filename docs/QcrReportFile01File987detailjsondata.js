@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/macs/hmac_prov.c.html" 
- , "texte" : "File providers/implementations/macs/hmac_prov.c 22 rule violations " 
+ , "texte" : "File providers/implementations/macs/hmac_prov.c 39 rule violations " 
  , "fic2"  : "./qc/providers/implementations/macs/hmac_prov.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,16 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "17"
+ , "c4" : "21"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,20 +61,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "7"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "04299"
- , "c1link" : "./qc/providers/implementations/macs/hmac_prov.c.html#4299"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[04299] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/macs/hmac_prov.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00410"
  , "c1link" : "./qc/providers/implementations/macs/hmac_prov.c.html#410"
@@ -220,6 +220,132 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/macs/hmac_prov.c.html#3904"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03904] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08920"
+ , "c1link" : "./qc/providers/implementations/macs/hmac_prov.c.html#8920"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08920] The pointer macctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08929"
+ , "c1link" : "./qc/providers/implementations/macs/hmac_prov.c.html#8929"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08929] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08934"
+ , "c1link" : "./qc/providers/implementations/macs/hmac_prov.c.html#8934"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08934] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08970"
+ , "c1link" : "./qc/providers/implementations/macs/hmac_prov.c.html#8970"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08970] The pointer dst is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08971"
+ , "c1link" : "./qc/providers/implementations/macs/hmac_prov.c.html#8971"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08971] The pointer ctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09051"
+ , "c1link" : "./qc/providers/implementations/macs/hmac_prov.c.html#9051"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09051] The pointer digest is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09124"
+ , "c1link" : "./qc/providers/implementations/macs/hmac_prov.c.html#9124"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09124] The expression  ! macctx-&gt;tls_header_set applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09207"
+ , "c1link" : "./qc/providers/implementations/macs/hmac_prov.c.html#9207"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09207] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09209"
+ , "c1link" : "./qc/providers/implementations/macs/hmac_prov.c.html#9209"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09209] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09217"
+ , "c1link" : "./qc/providers/implementations/macs/hmac_prov.c.html#9217"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09217] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09303"
+ , "c1link" : "./qc/providers/implementations/macs/hmac_prov.c.html#9303"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09303] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09316"
+ , "c1link" : "./qc/providers/implementations/macs/hmac_prov.c.html#9316"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09316] The expression 'digest-noinit' is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09316"
+ , "c1link" : "./qc/providers/implementations/macs/hmac_prov.c.html#9316"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09316] The expression 0x0100 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09319"
+ , "c1link" : "./qc/providers/implementations/macs/hmac_prov.c.html#9319"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09319] The expression 'digest-oneshot' is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09319"
+ , "c1link" : "./qc/providers/implementations/macs/hmac_prov.c.html#9319"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09319] The expression 0x0001 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09322"
+ , "c1link" : "./qc/providers/implementations/macs/hmac_prov.c.html#9322"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09322] The expression flags applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09325"
+ , "c1link" : "./qc/providers/implementations/macs/hmac_prov.c.html#9325"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09325] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09336"
+ , "c1link" : "./qc/providers/implementations/macs/hmac_prov.c.html#9336"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09336] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

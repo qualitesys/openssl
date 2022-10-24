@@ -40,8 +40,8 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
  , "c4" : "1"
 }}
 ,
@@ -68,13 +68,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03378"
- , "c1link" : "./qc/crypto/seed/seed_ecb.c.html#3378"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03378] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/seed/seed_ecb.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01402"
  , "c1link" : "./qc/crypto/seed/seed_ecb.c.html#1402"
@@ -206,6 +199,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/seed/seed_ecb.c.html#2806"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[02806] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04296"
+ , "c1link" : "./qc/crypto/seed/seed_ecb.c.html#4296"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[04296] The expression enc applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ts/ts_asn1.c.html" 
- , "texte" : "File crypto/ts/ts_asn1.c 21 rule violations " 
+ , "texte" : "File crypto/ts/ts_asn1.c 31 rule violations " 
  , "fic2"  : "./qc/crypto/ts/ts_asn1.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,23 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
  , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "19"
 }}
 ,
 { "ligne" : { "" : ""
@@ -63,18 +70,11 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "6"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03403"
- , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#3403"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03403] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ts/ts_asn1.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01707"
  , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#1707"
@@ -213,6 +213,83 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#3111"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[03111] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09026"
+ , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#9026"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09026] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "14044"
+ , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#14044"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14044] The expression a-&gt;token applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "14055"
+ , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#14055"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[14055] The expression  ! a-&gt;tst_info applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "14159"
+ , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#14159"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14159] The pointer pkcs7_signed is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "14160"
+ , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#14160"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14160] The pointer enveloped is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "14161"
+ , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#14161"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14161] The pointer tst_info_wrapper is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "14162"
+ , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#14162"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14162] The pointer tst_info_der is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "14163"
+ , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#14163"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14163] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "14163"
+ , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#14163"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[14163] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "14177"
+ , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#14177"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14177] The expression 2 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "14177"
+ , "c1link" : "./qc/crypto/ts/ts_asn1.c.html#14177"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14177] The expression 0 is invariable, always false"
 }} 
 ]
 };

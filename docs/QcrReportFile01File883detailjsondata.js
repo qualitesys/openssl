@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/ciphers/cipher_aria_hw.c.html" 
- , "texte" : "File providers/implementations/ciphers/cipher_aria_hw.c 21 rule violations " 
+ , "texte" : "File providers/implementations/ciphers/cipher_aria_hw.c 42 rule violations " 
  , "fic2"  : "./qc/providers/implementations/ciphers/cipher_aria_hw.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "38"
 }}
 ,
 { "ligne" : { "" : ""
@@ -68,13 +61,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03414"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_hw.c.html#3414"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03414] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_aria_hw.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01650"
  , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_hw.c.html#1650"
@@ -213,6 +199,160 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_hw.c.html#3047"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03047] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08165"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_hw.c.html#8165"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08165] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09524"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_hw.c.html#9524"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09524] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09529"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_hw.c.html#9529"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09529] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09554"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_hw.c.html#9554"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09554] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09559"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_hw.c.html#9559"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09559] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09588"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_hw.c.html#9588"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09588] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09593"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_hw.c.html#9593"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09593] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09614"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_hw.c.html#9614"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09614] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09619"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_hw.c.html#9619"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09619] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09635"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_hw.c.html#9635"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09635] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09654"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_hw.c.html#9654"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09654] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09659"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_hw.c.html#9659"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09659] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09679"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_hw.c.html#9679"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09679] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09684"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_hw.c.html#9684"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09684] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09705"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_hw.c.html#9705"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09705] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09710"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_hw.c.html#9710"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09710] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09731"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_hw.c.html#9731"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09731] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09736"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_hw.c.html#9736"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09736] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09758"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_hw.c.html#9758"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09758] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09763"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_hw.c.html#9763"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09763] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09787"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_hw.c.html#9787"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09787] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09792"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_hw.c.html#9792"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09792] The expression 2&gt;1 is invariable"
 }} 
 ]
 };

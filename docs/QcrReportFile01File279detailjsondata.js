@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/conf/conf_ssl.c.html" 
- , "texte" : "File crypto/conf/conf_ssl.c 21 rule violations " 
+ , "texte" : "File crypto/conf/conf_ssl.c 31 rule violations " 
  , "fic2"  : "./qc/crypto/conf/conf_ssl.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,13 +40,6 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "16"
@@ -61,20 +54,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "6"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03734"
- , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#3734"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03734] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/conf/conf_ssl.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00959"
  , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#959"
@@ -213,6 +206,83 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#2961"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02961] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05345"
+ , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#5345"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05345] The pointer ssl_names is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05380"
+ , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#5380"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05380] The pointer ssl_conf_section is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05381"
+ , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#5381"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05381] The pointer cmd_lists is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05396"
+ , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#5396"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[05396] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05406"
+ , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#5406"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[05406] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05425"
+ , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#5425"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[05425] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05433"
+ , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#5433"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[05433] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05441"
+ , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#5441"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[05441] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05444"
+ , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#5444"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05444] The pointer name is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05469"
+ , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#5469"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[05469] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05500"
+ , "c1link" : "./qc/crypto/conf/conf_ssl.c.html#5500"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05500] The pointer nm is declared but not initialized"
 }} 
 ]
 };

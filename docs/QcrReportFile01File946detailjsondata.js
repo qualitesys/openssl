@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/encode_decode/decode_msblob2key.c.html" 
- , "texte" : "File providers/implementations/encode_decode/decode_msblob2key.c 22 rule violations " 
+ , "texte" : "File providers/implementations/encode_decode/decode_msblob2key.c 36 rule violations " 
  , "fic2"  : "./qc/providers/implementations/encode_decode/decode_msblob2key.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,8 +40,15 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
  , "c4" : "1"
 }}
 ,
@@ -49,7 +56,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "17"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,20 +68,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "9"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "04303"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_msblob2key.c.html#4303"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[04303] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/encode_decode/decode_msblob2key.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00410"
  , "c1link" : "./qc/providers/implementations/encode_decode/decode_msblob2key.c.html#410"
@@ -220,6 +227,111 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/encode_decode/decode_msblob2key.c.html#4101"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[04101] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13163"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_msblob2key.c.html#13163"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13163] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13163"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_msblob2key.c.html#13163"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[13163] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13164"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_msblob2key.c.html#13164"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[13164] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13186"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_msblob2key.c.html#13186"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13186] The expression 16 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13192"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_msblob2key.c.html#13192"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13192] goto statement jump to next"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13198"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_msblob2key.c.html#13198"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13198] The expression  ! ok applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13199"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_msblob2key.c.html#13199"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13199] goto statement jump to next"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13206"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_msblob2key.c.html#13206"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13206] goto statement jump to next"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13215"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_msblob2key.c.html#13215"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13215] goto statement jump to next"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13223"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_msblob2key.c.html#13223"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13223] goto statement jump to end"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13231"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_msblob2key.c.html#13231"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13231] goto statement jump to next"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13246"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_msblob2key.c.html#13246"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13246] goto statement jump to end"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13254"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_msblob2key.c.html#13254"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13254] goto statement jump to next"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13275"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_msblob2key.c.html#13275"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13275] goto statement jump to next"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13352"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_msblob2key.c.html#13352"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13352] The pointer keydata is declared but not initialized"
 }} 
 ]
 };

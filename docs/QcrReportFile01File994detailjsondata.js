@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/rands/drbg_hash.c.html" 
- , "texte" : "File providers/implementations/rands/drbg_hash.c 21 rule violations " 
+ , "texte" : "File providers/implementations/rands/drbg_hash.c 36 rule violations " 
  , "fic2"  : "./qc/providers/implementations/rands/drbg_hash.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,23 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000006"
+ , "c3" : "Risk of infinite while loop"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "17"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,20 +68,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "8"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03796"
- , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#3796"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03796] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/rands/drbg_hash.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01185"
  , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#1185"
@@ -213,6 +220,118 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#3236"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[03236] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09526"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9526"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[09526] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09549"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9549"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[09549] The condition of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09549"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9549"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[09549] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09628"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9628"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09628] The pointer add is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09628"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9628"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[09628] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09629"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9629"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09629] The pointer d is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09629"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9629"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[09629] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09692"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9692"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[09692] The condition of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09692"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9692"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[09692] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09772"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9772"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09772] The expression 0x01 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09869"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9869"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09869] The pointer hash is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09918"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9918"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09918] The pointer hash is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09924"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9924"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09924] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09940"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9940"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09940] The pointer md is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09941"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#9941"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09941] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10041"
+ , "c1link" : "./qc/providers/implementations/rands/drbg_hash.c.html#10041"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10041] The pointer md is declared but not initialized"
 }} 
 ]
 };

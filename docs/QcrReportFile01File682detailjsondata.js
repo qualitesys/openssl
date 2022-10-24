@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/rsa/rsa_x931g.c.html" 
- , "texte" : "File crypto/rsa/rsa_x931g.c 21 rule violations " 
+ , "texte" : "File crypto/rsa/rsa_x931g.c 53 rule violations " 
  , "fic2"  : "./qc/crypto/rsa/rsa_x931g.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,9 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,6 +61,13 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "29"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
  , "c4" : "1"
@@ -68,13 +75,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03729"
- , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#3729"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03729] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/rsa/rsa_x931g.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00959"
  , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#959"
@@ -213,6 +213,237 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#3153"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03153] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06928"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6928"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06928] The expression  ! rsa applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06929"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6929"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06929] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06937"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6937"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06937] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06950"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6950"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06950] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06951"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6951"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06951] The expression  ! rsa-&gt;e applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06953"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6953"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06953] The expression  ! rsa-&gt;e applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06954"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6954"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06954] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06975"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6975"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06975] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06979"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6979"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06979] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06993"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6993"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06993] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06996"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#6996"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06996] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07025"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7025"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07025] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07027"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7027"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07027] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07031"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7031"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07031] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07033"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7033"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07033] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07035"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7035"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07035] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07038"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7038"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07038] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07045"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7045"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07045] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07053"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7053"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07053] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07065"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7065"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07065] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07074"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7074"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07074] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07080"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7080"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07080] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07089"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7089"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07089] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07095"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7095"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07095] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07108"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7108"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07108] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07146"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7146"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07146] goto statement jump to error"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07156"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7156"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07156] goto statement jump to error"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07158"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7158"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07158] goto statement jump to error"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07171"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7171"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07171] goto statement jump to error"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07193"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7193"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07193] goto statement jump to error"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07213"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7213"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07213] goto statement jump to error"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07262"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7262"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07262] goto statement jump to error"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07271"
+ , "c1link" : "./qc/crypto/rsa/rsa_x931g.c.html#7271"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07271] The expression ok applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

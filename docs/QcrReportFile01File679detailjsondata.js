@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/rsa/rsa_sp800_56b_check.c.html" 
- , "texte" : "File crypto/rsa/rsa_sp800_56b_check.c 20 rule violations " 
+ , "texte" : "File crypto/rsa/rsa_sp800_56b_check.c 37 rule violations " 
  , "fic2"  : "./qc/crypto/rsa/rsa_sp800_56b_check.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "15"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,20 +54,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "10"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "8"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03386"
- , "c1link" : "./qc/crypto/rsa/rsa_sp800_56b_check.c.html#3386"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03386] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/rsa/rsa_sp800_56b_check.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01172"
  , "c1link" : "./qc/crypto/rsa/rsa_sp800_56b_check.c.html#1172"
@@ -206,6 +199,132 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rsa/rsa_sp800_56b_check.c.html#2558"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02558] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06738"
+ , "c1link" : "./qc/crypto/rsa/rsa_sp800_56b_check.c.html#6738"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06738] The pointer low is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06755"
+ , "c1link" : "./qc/crypto/rsa/rsa_sp800_56b_check.c.html#6755"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06755] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06759"
+ , "c1link" : "./qc/crypto/rsa/rsa_sp800_56b_check.c.html#6759"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06759] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06768"
+ , "c1link" : "./qc/crypto/rsa/rsa_sp800_56b_check.c.html#6768"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06768] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06770"
+ , "c1link" : "./qc/crypto/rsa/rsa_sp800_56b_check.c.html#6770"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06770] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06773"
+ , "c1link" : "./qc/crypto/rsa/rsa_sp800_56b_check.c.html#6773"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06773] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06842"
+ , "c1link" : "./qc/crypto/rsa/rsa_sp800_56b_check.c.html#6842"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06842] The pointer r is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06842"
+ , "c1link" : "./qc/crypto/rsa/rsa_sp800_56b_check.c.html#6842"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06842] The pointer p1 is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06842"
+ , "c1link" : "./qc/crypto/rsa/rsa_sp800_56b_check.c.html#6842"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06842] The pointer q1 is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06842"
+ , "c1link" : "./qc/crypto/rsa/rsa_sp800_56b_check.c.html#6842"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06842] The pointer lcm is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06842"
+ , "c1link" : "./qc/crypto/rsa/rsa_sp800_56b_check.c.html#6842"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06842] The pointer p1q1 is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06842"
+ , "c1link" : "./qc/crypto/rsa/rsa_sp800_56b_check.c.html#6842"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06842] The pointer gcd is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06922"
+ , "c1link" : "./qc/crypto/rsa/rsa_sp800_56b_check.c.html#6922"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06922] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07010"
+ , "c1link" : "./qc/crypto/rsa/rsa_sp800_56b_check.c.html#7010"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07010] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07023"
+ , "c1link" : "./qc/crypto/rsa/rsa_sp800_56b_check.c.html#7023"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07023] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07044"
+ , "c1link" : "./qc/crypto/rsa/rsa_sp800_56b_check.c.html#7044"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07044] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07174"
+ , "c1link" : "./qc/crypto/rsa/rsa_sp800_56b_check.c.html#7174"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07174] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07182"
+ , "c1link" : "./qc/crypto/rsa/rsa_sp800_56b_check.c.html#7182"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[07182] goto statement jump to err"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/kem/rsa_kem.c.html" 
- , "texte" : "File providers/implementations/kem/rsa_kem.c 20 rule violations " 
+ , "texte" : "File providers/implementations/kem/rsa_kem.c 25 rule violations " 
  , "fic2"  : "./qc/providers/implementations/kem/rsa_kem.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,8 +40,8 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
  , "c4" : "1"
 }}
 ,
@@ -63,18 +63,11 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "6"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03377"
- , "c1link" : "./qc/providers/implementations/kem/rsa_kem.c.html#3377"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03377] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/kem/rsa_kem.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01223"
  , "c1link" : "./qc/providers/implementations/kem/rsa_kem.c.html#1223"
@@ -206,6 +199,48 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/kem/rsa_kem.c.html#2805"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[02805] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09220"
+ , "c1link" : "./qc/providers/implementations/kem/rsa_kem.c.html#9220"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09220] The pointer dstctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09321"
+ , "c1link" : "./qc/providers/implementations/kem/rsa_kem.c.html#9321"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09321] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09387"
+ , "c1link" : "./qc/providers/implementations/kem/rsa_kem.c.html#9387"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09387] The pointer bnctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09388"
+ , "c1link" : "./qc/providers/implementations/kem/rsa_kem.c.html#9388"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09388] The pointer z is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09388"
+ , "c1link" : "./qc/providers/implementations/kem/rsa_kem.c.html#9388"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09388] The pointer nminus3 is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09486"
+ , "c1link" : "./qc/providers/implementations/kem/rsa_kem.c.html#9486"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09486] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

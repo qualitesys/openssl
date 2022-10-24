@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/ec_check.c.html" 
- , "texte" : "File crypto/ec/ec_check.c 21 rule violations " 
+ , "texte" : "File crypto/ec/ec_check.c 33 rule violations " 
  , "fic2"  : "./qc/crypto/ec/ec_check.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,13 +40,6 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "16"
@@ -61,20 +54,27 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "9"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03792"
- , "c1link" : "./qc/crypto/ec/ec_check.c.html#3792"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03792] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ec/ec_check.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01212"
  , "c1link" : "./qc/crypto/ec/ec_check.c.html#1212"
@@ -213,6 +213,97 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ec_check.c.html#3271"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[03271] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10162"
+ , "c1link" : "./qc/crypto/ec/ec_check.c.html#10162"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10162] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10203"
+ , "c1link" : "./qc/crypto/ec/ec_check.c.html#10203"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10203] The pointer order is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10241"
+ , "c1link" : "./qc/crypto/ec/ec_check.c.html#10241"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10241] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10252"
+ , "c1link" : "./qc/crypto/ec/ec_check.c.html#10252"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10252] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10263"
+ , "c1link" : "./qc/crypto/ec/ec_check.c.html#10263"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10263] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10277"
+ , "c1link" : "./qc/crypto/ec/ec_check.c.html#10277"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10277] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10285"
+ , "c1link" : "./qc/crypto/ec/ec_check.c.html#10285"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10285] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10289"
+ , "c1link" : "./qc/crypto/ec/ec_check.c.html#10289"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10289] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10294"
+ , "c1link" : "./qc/crypto/ec/ec_check.c.html#10294"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10294] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10301"
+ , "c1link" : "./qc/crypto/ec/ec_check.c.html#10301"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10301] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10308"
+ , "c1link" : "./qc/crypto/ec/ec_check.c.html#10308"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10308] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10320"
+ , "c1link" : "./qc/crypto/ec/ec_check.c.html#10320"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10320] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10327"
+ , "c1link" : "./qc/crypto/ec/ec_check.c.html#10327"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10327] goto statement jump to err"
 }} 
 ]
 };

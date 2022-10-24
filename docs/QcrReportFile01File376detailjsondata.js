@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/ec_cvt.c.html" 
- , "texte" : "File crypto/ec/ec_cvt.c 20 rule violations " 
+ , "texte" : "File crypto/ec/ec_cvt.c 24 rule violations " 
  , "fic2"  : "./qc/crypto/ec/ec_cvt.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "15"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : { "" : ""
@@ -63,18 +56,11 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "5"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03396"
- , "c1link" : "./qc/crypto/ec/ec_cvt.c.html#3396"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03396] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ec/ec_cvt.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01182"
  , "c1link" : "./qc/crypto/ec/ec_cvt.c.html#1182"
@@ -206,6 +192,41 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ec_cvt.c.html#2568"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02568] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05644"
+ , "c1link" : "./qc/crypto/ec/ec_cvt.c.html#5644"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05644] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10236"
+ , "c1link" : "./qc/crypto/ec/ec_cvt.c.html#10236"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10236] The pointer meth is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10237"
+ , "c1link" : "./qc/crypto/ec/ec_cvt.c.html#10237"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10237] The pointer ret is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10277"
+ , "c1link" : "./qc/crypto/ec/ec_cvt.c.html#10277"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10277] The pointer meth is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10278"
+ , "c1link" : "./qc/crypto/ec/ec_cvt.c.html#10278"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10278] The pointer ret is declared but not initialized"
 }} 
 ]
 };

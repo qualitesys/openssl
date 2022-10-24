@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/bio_md.c.html" 
- , "texte" : "File crypto/evp/bio_md.c 21 rule violations " 
+ , "texte" : "File crypto/evp/bio_md.c 34 rule violations " 
  , "fic2"  : "./qc/crypto/evp/bio_md.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,13 +40,6 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "16"
@@ -63,18 +56,11 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "15"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03399"
- , "c1link" : "./qc/crypto/evp/bio_md.c.html#3399"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03399] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/evp/bio_md.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00959"
  , "c1link" : "./qc/crypto/evp/bio_md.c.html#959"
@@ -213,6 +199,104 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/bio_md.c.html#2881"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02881] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07941"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#7941"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[07941] The pointer ctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07979"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#7979"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[07979] The pointer ctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07980"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#7980"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[07980] The pointer next is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08019"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#8019"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08019] The pointer ctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08020"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#8020"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08020] The pointer next is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08064"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#8064"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08064] The pointer ctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08064"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#8064"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08064] The pointer dctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08064"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#8064"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08064] The pointer pctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08065"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#8065"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08065] The pointer ppmd is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08066"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#8066"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08066] The pointer md is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08068"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#8068"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08068] The pointer dbio is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08068"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#8068"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08068] The pointer next is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08137"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#8137"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08137] The pointer next is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08153"
+ , "c1link" : "./qc/crypto/evp/bio_md.c.html#8153"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08153] The pointer ctx is declared but not initialized"
 }} 
 ]
 };

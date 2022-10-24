@@ -40,16 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "15"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : { "" : ""
@@ -68,13 +61,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03377"
- , "c1link" : "./qc/crypto/ui/ui_null.c.html#3377"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03377] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ui/ui_null.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01223"
  , "c1link" : "./qc/crypto/ui/ui_null.c.html#1223"
@@ -206,6 +192,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ui/ui_null.c.html#2805"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[02805] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08214"
+ , "c1link" : "./qc/crypto/ui/ui_null.c.html#8214"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08214] The expression 2&gt;1 is invariable"
 }} 
 ]
 };

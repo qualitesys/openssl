@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/lib/tlssrp_depr.c.html" 
- , "texte" : "File apps/lib/tlssrp_depr.c 21 rule violations " 
+ , "texte" : "File apps/lib/tlssrp_depr.c 53 rule violations " 
  , "fic2"  : "./qc/apps/lib/tlssrp_depr.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,8 +40,8 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
  , "c4" : "1"
 }}
 ,
@@ -49,7 +49,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "42"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,6 +61,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "4"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
  , "c4" : "1"
@@ -68,13 +82,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03377"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#3377"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03377] syntax analysis failed on file /home/runner/work/openssl/openssl/apps/lib/tlssrp_depr.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01171"
  , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#1171"
@@ -213,6 +220,237 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#2859"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02859] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08238"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#8238"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08238] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15357"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#15357"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15357] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15362"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#15362"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15362] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15387"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#15387"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15387] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15392"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#15392"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15392] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15421"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#15421"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15421] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15426"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#15426"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15426] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15447"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#15447"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15447] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15452"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#15452"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15452] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15468"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#15468"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15468] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15487"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#15487"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15487] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15492"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#15492"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15492] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15512"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#15512"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15512] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15517"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#15517"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15517] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15538"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#15538"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15538] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15543"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#15543"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15543] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15564"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#15564"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15564] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15569"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#15569"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15569] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15591"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#15591"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15591] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15596"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#15596"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15596] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15620"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#15620"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15620] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15625"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#15625"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15625] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "16947"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#16947"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16947] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "16952"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#16952"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16952] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "16978"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#16978"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16978] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "16983"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#16983"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[16983] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "20969"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20969"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[20969] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "20973"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20973"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[20973] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "20992"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#20992"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[20992] The expression srp_arg-&gt;debug applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "21019"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#21019"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[21019] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "21086"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#21086"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[21086] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "21093"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#21093"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[21093] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "21140"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#21140"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[21140] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

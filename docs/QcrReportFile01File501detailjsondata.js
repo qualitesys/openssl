@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/mac_lib.c.html" 
- , "texte" : "File crypto/evp/mac_lib.c 22 rule violations " 
+ , "texte" : "File crypto/evp/mac_lib.c 27 rule violations " 
  , "fic2"  : "./qc/crypto/evp/mac_lib.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,8 +40,15 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
  , "c4" : "1"
 }}
 ,
@@ -61,20 +68,27 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "04296"
- , "c1link" : "./qc/crypto/evp/mac_lib.c.html#4296"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[04296] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/evp/mac_lib.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00383"
  , "c1link" : "./qc/crypto/evp/mac_lib.c.html#383"
@@ -220,6 +234,48 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/mac_lib.c.html#3904"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03904] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09738"
+ , "c1link" : "./qc/crypto/evp/mac_lib.c.html#9738"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09738] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09782"
+ , "c1link" : "./qc/crypto/evp/mac_lib.c.html#9782"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09782] The pointer dst is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09982"
+ , "c1link" : "./qc/crypto/evp/mac_lib.c.html#9982"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09982] The expression xof applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10132"
+ , "c1link" : "./qc/crypto/evp/mac_lib.c.html#10132"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[10132] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10183"
+ , "c1link" : "./qc/crypto/evp/mac_lib.c.html#10183"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10183] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10196"
+ , "c1link" : "./qc/crypto/evp/mac_lib.c.html#10196"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10196] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

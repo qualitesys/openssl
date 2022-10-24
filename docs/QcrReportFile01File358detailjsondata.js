@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/dso/dso_vms.c.html" 
- , "texte" : "File crypto/dso/dso_vms.c 21 rule violations " 
+ , "texte" : "File crypto/dso/dso_vms.c 41 rule violations " 
  , "fic2"  : "./qc/crypto/dso/dso_vms.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "37"
 }}
 ,
 { "ligne" : { "" : ""
@@ -68,13 +61,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03729"
- , "c1link" : "./qc/crypto/dso/dso_vms.c.html#3729"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03729] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/dso/dso_vms.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00961"
  , "c1link" : "./qc/crypto/dso/dso_vms.c.html#961"
@@ -213,6 +199,153 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/dso/dso_vms.c.html#2728"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02728] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05927"
+ , "c1link" : "./qc/crypto/dso/dso_vms.c.html#5927"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05927] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05932"
+ , "c1link" : "./qc/crypto/dso/dso_vms.c.html#5932"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05932] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05957"
+ , "c1link" : "./qc/crypto/dso/dso_vms.c.html#5957"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05957] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05962"
+ , "c1link" : "./qc/crypto/dso/dso_vms.c.html#5962"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05962] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05991"
+ , "c1link" : "./qc/crypto/dso/dso_vms.c.html#5991"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05991] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05996"
+ , "c1link" : "./qc/crypto/dso/dso_vms.c.html#5996"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05996] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06017"
+ , "c1link" : "./qc/crypto/dso/dso_vms.c.html#6017"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06017] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06022"
+ , "c1link" : "./qc/crypto/dso/dso_vms.c.html#6022"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06022] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06038"
+ , "c1link" : "./qc/crypto/dso/dso_vms.c.html#6038"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06038] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06057"
+ , "c1link" : "./qc/crypto/dso/dso_vms.c.html#6057"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06057] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06062"
+ , "c1link" : "./qc/crypto/dso/dso_vms.c.html#6062"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06062] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06082"
+ , "c1link" : "./qc/crypto/dso/dso_vms.c.html#6082"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06082] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06087"
+ , "c1link" : "./qc/crypto/dso/dso_vms.c.html#6087"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06087] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06108"
+ , "c1link" : "./qc/crypto/dso/dso_vms.c.html#6108"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06108] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06113"
+ , "c1link" : "./qc/crypto/dso/dso_vms.c.html#6113"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06113] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06134"
+ , "c1link" : "./qc/crypto/dso/dso_vms.c.html#6134"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06134] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06139"
+ , "c1link" : "./qc/crypto/dso/dso_vms.c.html#6139"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06139] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06161"
+ , "c1link" : "./qc/crypto/dso/dso_vms.c.html#6161"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06161] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06166"
+ , "c1link" : "./qc/crypto/dso/dso_vms.c.html#6166"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06166] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06190"
+ , "c1link" : "./qc/crypto/dso/dso_vms.c.html#6190"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06190] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06195"
+ , "c1link" : "./qc/crypto/dso/dso_vms.c.html#6195"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06195] The expression 2&gt;1 is invariable"
 }} 
 ]
 };

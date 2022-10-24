@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/ecp_nist.c.html" 
- , "texte" : "File crypto/ec/ecp_nist.c 21 rule violations " 
+ , "texte" : "File crypto/ec/ecp_nist.c 35 rule violations " 
  , "fic2"  : "./qc/crypto/ec/ecp_nist.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,22 +40,36 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "17"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "9"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
  , "c4" : "3"
 }}
 ,
@@ -68,13 +82,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03399"
- , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#3399"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03399] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ec/ecp_nist.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01219"
  , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#1219"
@@ -213,6 +220,111 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#2605"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02605] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05170"
+ , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#5170"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05170] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10241"
+ , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10241"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10241] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10266"
+ , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10266"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10266] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10293"
+ , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10293"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10293] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10295"
+ , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10295"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10295] The expression  ! ctx applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10296"
+ , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10296"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10296] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10301"
+ , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10301"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10301] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10304"
+ , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10304"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10304] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10306"
+ , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10306"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10306] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10330"
+ , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10330"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10330] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10332"
+ , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10332"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10332] The expression  ! ctx applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10333"
+ , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10333"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10333] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10338"
+ , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10338"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10338] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10341"
+ , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10341"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10341] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10343"
+ , "c1link" : "./qc/crypto/ec/ecp_nist.c.html#10343"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10343] goto statement jump to err"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/property/defn_cache.c.html" 
- , "texte" : "File crypto/property/defn_cache.c 21 rule violations " 
+ , "texte" : "File crypto/property/defn_cache.c 48 rule violations " 
  , "fic2"  : "./qc/crypto/property/defn_cache.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "37"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,20 +54,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "5"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03736"
- , "c1link" : "./qc/crypto/property/defn_cache.c.html#3736"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03736] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/property/defn_cache.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00383"
  , "c1link" : "./qc/crypto/property/defn_cache.c.html#383"
@@ -213,6 +206,202 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/property/defn_cache.c.html#2938"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02938] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06510"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6510"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06510] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06515"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6515"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06515] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06540"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6540"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06540] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06545"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6545"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06545] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06574"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6574"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06574] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06579"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6579"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06579] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06600"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6600"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06600] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06605"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6605"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06605] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06621"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6621"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06621] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06640"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6640"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06640] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06645"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6645"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06645] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06665"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6665"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06665] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06670"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6670"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06670] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06691"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6691"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06691] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06696"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6696"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06696] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06717"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6717"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06717] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06722"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6722"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06722] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06744"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6744"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06744] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06749"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6749"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06749] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06773"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6773"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06773] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06778"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#6778"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06778] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08789"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#8789"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08789] The pointer r is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08790"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#8790"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08790] The pointer property_defns is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08827"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#8827"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08827] The pointer old is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08833"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#8833"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08833] The pointer property_defns is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08861"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#8861"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08861] goto statement jump to end"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08886"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#8886"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08886] goto statement jump to end"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08889"
+ , "c1link" : "./qc/crypto/property/defn_cache.c.html#8889"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08889] goto statement jump to end"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/lib/names.c.html" 
- , "texte" : "File apps/lib/names.c 21 rule violations " 
+ , "texte" : "File apps/lib/names.c 41 rule violations " 
  , "fic2"  : "./qc/apps/lib/names.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "37"
 }}
 ,
 { "ligne" : { "" : ""
@@ -68,13 +61,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03724"
- , "c1link" : "./qc/apps/lib/names.c.html#3724"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03724] syntax analysis failed on file /home/runner/work/openssl/openssl/apps/lib/names.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00383"
  , "c1link" : "./qc/apps/lib/names.c.html#383"
@@ -213,6 +199,153 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/lib/names.c.html#2951"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02951] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06265"
+ , "c1link" : "./qc/apps/lib/names.c.html#6265"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06265] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06270"
+ , "c1link" : "./qc/apps/lib/names.c.html#6270"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06270] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06295"
+ , "c1link" : "./qc/apps/lib/names.c.html#6295"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06295] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06300"
+ , "c1link" : "./qc/apps/lib/names.c.html#6300"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06300] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06329"
+ , "c1link" : "./qc/apps/lib/names.c.html#6329"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06329] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06334"
+ , "c1link" : "./qc/apps/lib/names.c.html#6334"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06334] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06355"
+ , "c1link" : "./qc/apps/lib/names.c.html#6355"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06355] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06360"
+ , "c1link" : "./qc/apps/lib/names.c.html#6360"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06360] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06376"
+ , "c1link" : "./qc/apps/lib/names.c.html#6376"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06376] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06395"
+ , "c1link" : "./qc/apps/lib/names.c.html#6395"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06395] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06400"
+ , "c1link" : "./qc/apps/lib/names.c.html#6400"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06400] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06420"
+ , "c1link" : "./qc/apps/lib/names.c.html#6420"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06420] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06425"
+ , "c1link" : "./qc/apps/lib/names.c.html#6425"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06425] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06446"
+ , "c1link" : "./qc/apps/lib/names.c.html#6446"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06446] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06451"
+ , "c1link" : "./qc/apps/lib/names.c.html#6451"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06451] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06472"
+ , "c1link" : "./qc/apps/lib/names.c.html#6472"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06472] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06477"
+ , "c1link" : "./qc/apps/lib/names.c.html#6477"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06477] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06499"
+ , "c1link" : "./qc/apps/lib/names.c.html#6499"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06499] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06504"
+ , "c1link" : "./qc/apps/lib/names.c.html#6504"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06504] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06528"
+ , "c1link" : "./qc/apps/lib/names.c.html#6528"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06528] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06533"
+ , "c1link" : "./qc/apps/lib/names.c.html#6533"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06533] The expression 2&gt;1 is invariable"
 }} 
 ]
 };

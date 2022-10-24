@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/lib/apps_ui.c.html" 
- , "texte" : "File apps/lib/apps_ui.c 21 rule violations " 
+ , "texte" : "File apps/lib/apps_ui.c 27 rule violations " 
  , "fic2"  : "./qc/apps/lib/apps_ui.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "20"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,20 +54,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03736"
- , "c1link" : "./qc/apps/lib/apps_ui.c.html#3736"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03736] syntax analysis failed on file /home/runner/work/openssl/openssl/apps/lib/apps_ui.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00383"
  , "c1link" : "./qc/apps/lib/apps_ui.c.html#383"
@@ -213,6 +206,55 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/lib/apps_ui.c.html#2938"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02938] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "12677"
+ , "c1link" : "./qc/apps/lib/apps_ui.c.html#12677"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[12677] The pointer ui is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "12690"
+ , "c1link" : "./qc/apps/lib/apps_ui.c.html#12690"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[12690] The pointer prompt is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "12692"
+ , "c1link" : "./qc/apps/lib/apps_ui.c.html#12692"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[12692] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "12737"
+ , "c1link" : "./qc/apps/lib/apps_ui.c.html#12737"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[12737] The expression 2 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "12737"
+ , "c1link" : "./qc/apps/lib/apps_ui.c.html#12737"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[12737] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "12737"
+ , "c1link" : "./qc/apps/lib/apps_ui.c.html#12737"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[12737] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "12737"
+ , "c1link" : "./qc/apps/lib/apps_ui.c.html#12737"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[12737] The expression 0 is invariable, always false"
 }} 
 ]
 };

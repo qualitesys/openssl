@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/ciphers/cipher_camellia.c.html" 
- , "texte" : "File providers/implementations/ciphers/cipher_camellia.c 21 rule violations " 
+ , "texte" : "File providers/implementations/ciphers/cipher_camellia.c 47 rule violations " 
  , "fic2"  : "./qc/providers/implementations/ciphers/cipher_camellia.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "38"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,20 +54,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "4"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03462"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#3462"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03462] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_camellia.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01640"
  , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#1640"
@@ -213,6 +206,195 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#3037"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03037] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08213"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#8213"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08213] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09572"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#9572"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09572] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09577"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#9577"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09577] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09602"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#9602"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09602] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09607"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#9607"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09607] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09636"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#9636"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09636] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09641"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#9641"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09641] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09662"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#9662"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09662] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09667"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#9667"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09667] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09683"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#9683"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09683] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09702"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#9702"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09702] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09707"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#9707"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09707] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09727"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#9727"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09727] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09732"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#9732"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09732] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09753"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#9753"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09753] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09758"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#9758"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09758] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09779"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#9779"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09779] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09784"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#9784"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09784] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09806"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#9806"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09806] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09811"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#9811"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09811] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09835"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#9835"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09835] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09840"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#9840"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09840] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "11429"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#11429"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[11429] The pointer ret is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "12711"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#12711"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[12711] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "12764"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#12764"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[12764] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "12774"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#12774"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12774] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "12777"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#12777"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[12777] goto statement jump to err"
 }} 
 ]
 };

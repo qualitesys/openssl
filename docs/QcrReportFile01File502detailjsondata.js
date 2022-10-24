@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/mac_meth.c.html" 
- , "texte" : "File crypto/evp/mac_meth.c 21 rule violations " 
+ , "texte" : "File crypto/evp/mac_meth.c 28 rule violations " 
  , "fic2"  : "./qc/crypto/evp/mac_meth.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,13 +40,6 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "16"
@@ -61,20 +54,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "4"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "5"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03945"
- , "c1link" : "./qc/crypto/evp/mac_meth.c.html#3945"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03945] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/evp/mac_meth.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00988"
  , "c1link" : "./qc/crypto/evp/mac_meth.c.html#988"
@@ -213,6 +206,62 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/mac_meth.c.html#3523"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03523] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09452"
+ , "c1link" : "./qc/crypto/evp/mac_meth.c.html#9452"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09452] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09457"
+ , "c1link" : "./qc/crypto/evp/mac_meth.c.html#9457"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09457] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09487"
+ , "c1link" : "./qc/crypto/evp/mac_meth.c.html#9487"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09487] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09504"
+ , "c1link" : "./qc/crypto/evp/mac_meth.c.html#9504"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09504] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09708"
+ , "c1link" : "./qc/crypto/evp/mac_meth.c.html#9708"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09708] The pointer alg is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09730"
+ , "c1link" : "./qc/crypto/evp/mac_meth.c.html#9730"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09730] The pointer alg is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09752"
+ , "c1link" : "./qc/crypto/evp/mac_meth.c.html#9752"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09752] The pointer alg is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09770"
+ , "c1link" : "./qc/crypto/evp/mac_meth.c.html#9770"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09770] The pointer alg is declared but not initialized"
 }} 
 ]
 };

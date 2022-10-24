@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/p_legacy.c.html" 
- , "texte" : "File crypto/evp/p_legacy.c 21 rule violations " 
+ , "texte" : "File crypto/evp/p_legacy.c 23 rule violations " 
  , "fic2"  : "./qc/crypto/evp/p_legacy.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,8 +40,8 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
  , "c4" : "1"
 }}
 ,
@@ -49,7 +49,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : { "" : ""
@@ -68,13 +68,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03957"
- , "c1link" : "./qc/crypto/evp/p_legacy.c.html#3957"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03957] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/evp/p_legacy.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01469"
  , "c1link" : "./qc/crypto/evp/p_legacy.c.html#1469"
@@ -213,6 +206,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/p_legacy.c.html#3535"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03535] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08794"
+ , "c1link" : "./qc/crypto/evp/p_legacy.c.html#8794"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08794] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10959"
+ , "c1link" : "./qc/crypto/evp/p_legacy.c.html#10959"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10959] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "11004"
+ , "c1link" : "./qc/crypto/evp/p_legacy.c.html#11004"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[11004] The expression 408 is invariable"
 }} 
 ]
 };

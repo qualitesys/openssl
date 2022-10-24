@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/kdfs/scrypt.c.html" 
- , "texte" : "File providers/implementations/kdfs/scrypt.c 21 rule violations " 
+ , "texte" : "File providers/implementations/kdfs/scrypt.c 49 rule violations " 
  , "fic2"  : "./qc/providers/implementations/kdfs/scrypt.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,16 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "19"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,20 +61,27 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "5"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "8"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "12"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "04303"
- , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#4303"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[04303] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/kdfs/scrypt.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01183"
  , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#1183"
@@ -213,6 +220,209 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#2752"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[02752] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10086"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10086"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10086] The pointer ctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10144"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10144"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10144] The pointer dest is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10157"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10157"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10157] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10169"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10169"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10169] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10175"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10175"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10175] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10217"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10217"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10217] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10228"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10228"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10228] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10332"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10332"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10332] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10343"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10343"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10343] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10351"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10351"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10351] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10359"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10359"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10359] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10372"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10372"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10372] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10383"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10383"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10383] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10394"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10394"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10394] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10473"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10473"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10473] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10475"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10475"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10475] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10578"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10578"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10578] The pointer pB is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10594"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10594"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10594] The pointer pB is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10594"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10594"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[10594] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10595"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10595"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10595] The pointer pV is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10636"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10636"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10636] The pointer B is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10636"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10636"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[10636] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10637"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10637"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10637] The pointer X is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10637"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10637"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10637] The pointer V is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10637"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10637"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10637] The pointer T is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10756"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10756"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10756] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10758"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10758"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10758] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10763"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10763"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10763] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10765"
+ , "c1link" : "./qc/providers/implementations/kdfs/scrypt.c.html#10765"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10765] goto statement jump to err"
 }} 
 ]
 };

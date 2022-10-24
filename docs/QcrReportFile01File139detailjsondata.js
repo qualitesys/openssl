@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/asn1/x_algor.c.html" 
- , "texte" : "File crypto/asn1/x_algor.c 21 rule violations " 
+ , "texte" : "File crypto/asn1/x_algor.c 40 rule violations " 
  , "fic2"  : "./qc/crypto/asn1/x_algor.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,16 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "19"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,20 +61,27 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "4"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "4"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03394"
- , "c1link" : "./qc/crypto/asn1/x_algor.c.html#3394"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03394] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/asn1/x_algor.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01710"
  , "c1link" : "./qc/crypto/asn1/x_algor.c.html#1710"
@@ -213,6 +220,146 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/asn1/x_algor.c.html#3114"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[03114] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08199"
+ , "c1link" : "./qc/crypto/asn1/x_algor.c.html#8199"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08199] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13353"
+ , "c1link" : "./qc/crypto/asn1/x_algor.c.html#13353"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[13353] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13396"
+ , "c1link" : "./qc/crypto/asn1/x_algor.c.html#13396"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[13396] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13401"
+ , "c1link" : "./qc/crypto/asn1/x_algor.c.html#13401"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13401] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13423"
+ , "c1link" : "./qc/crypto/asn1/x_algor.c.html#13423"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13423] The expression paobj applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13425"
+ , "c1link" : "./qc/crypto/asn1/x_algor.c.html#13425"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13425] The expression pptype applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13435"
+ , "c1link" : "./qc/crypto/asn1/x_algor.c.html#13435"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13435] The expression ppval applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13457"
+ , "c1link" : "./qc/crypto/asn1/x_algor.c.html#13457"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13457] The expression rv applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13477"
+ , "c1link" : "./qc/crypto/asn1/x_algor.c.html#13477"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13477] The expression dest-&gt;algorithm applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13485"
+ , "c1link" : "./qc/crypto/asn1/x_algor.c.html#13485"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13485] The expression dest-&gt;parameter applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13493"
+ , "c1link" : "./qc/crypto/asn1/x_algor.c.html#13493"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13493] The expression src-&gt;algorithm applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13494"
+ , "c1link" : "./qc/crypto/asn1/x_algor.c.html#13494"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[13494] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13528"
+ , "c1link" : "./qc/crypto/asn1/x_algor.c.html#13528"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13528] The pointer alg is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13535"
+ , "c1link" : "./qc/crypto/asn1/x_algor.c.html#13535"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13535] The expression 'SHA1' is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13537"
+ , "c1link" : "./qc/crypto/asn1/x_algor.c.html#13537"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[13537] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13551"
+ , "c1link" : "./qc/crypto/asn1/x_algor.c.html#13551"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13551] The pointer md is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13608"
+ , "c1link" : "./qc/crypto/asn1/x_algor.c.html#13608"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13608] The expression 'SHA1' is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13612"
+ , "c1link" : "./qc/crypto/asn1/x_algor.c.html#13612"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13612] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13618"
+ , "c1link" : "./qc/crypto/asn1/x_algor.c.html#13618"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13618] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13625"
+ , "c1link" : "./qc/crypto/asn1/x_algor.c.html#13625"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13625] goto statement jump to err"
 }} 
 ]
 };

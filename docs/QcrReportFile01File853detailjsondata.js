@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/common/securitycheck.c.html" 
- , "texte" : "File providers/common/securitycheck.c 20 rule violations " 
+ , "texte" : "File providers/common/securitycheck.c 23 rule violations " 
  , "fic2"  : "./qc/providers/common/securitycheck.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "15"
+ , "c4" : "17"
 }}
 ,
 { "ligne" : { "" : ""
@@ -57,6 +50,13 @@ var maDataBlocs = {
  , "c2" : "QC-CPP000018"
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-CPPCWE484"
+ , "c3" : "Omitted Break Statement in Switch"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -68,13 +68,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03393"
- , "c1link" : "./qc/providers/common/securitycheck.c.html#3393"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03393] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/common/securitycheck.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01000"
  , "c1link" : "./qc/providers/common/securitycheck.c.html#1000"
@@ -206,6 +199,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/common/securitycheck.c.html#2837"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02837] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06584"
+ , "c1link" : "./qc/providers/common/securitycheck.c.html#6584"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06584] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10169"
+ , "c1link" : "./qc/providers/common/securitycheck.c.html#10169"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-CPPCWE484[10169] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10174"
+ , "c1link" : "./qc/providers/common/securitycheck.c.html#10174"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-CPPCWE484[10174] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10182"
+ , "c1link" : "./qc/providers/common/securitycheck.c.html#10182"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10182] The expression 0xF000 is invariable"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html" 
- , "texte" : "File providers/implementations/encode_decode/decode_pem2der.c 22 rule violations " 
+ , "texte" : "File providers/implementations/encode_decode/decode_pem2der.c 24 rule violations " 
  , "fic2"  : "./qc/providers/implementations/encode_decode/decode_pem2der.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,8 +40,15 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
  , "c4" : "1"
 }}
 ,
@@ -61,6 +68,13 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
  , "c4" : "1"
@@ -68,13 +82,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "04303"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html#4303"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[04303] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/encode_decode/decode_pem2der.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00410"
  , "c1link" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html#410"
@@ -220,6 +227,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html#4101"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[04101] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13035"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html#13035"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[13035] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13047"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html#13047"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13047] The expression  ! ok applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13066"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html#13066"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13066] goto statement jump to end"
 }} 
 ]
 };

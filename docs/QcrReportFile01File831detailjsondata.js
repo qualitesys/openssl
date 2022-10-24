@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/common/capabilities.c.html" 
- , "texte" : "File providers/common/capabilities.c 22 rule violations " 
+ , "texte" : "File providers/common/capabilities.c 43 rule violations " 
  , "fic2"  : "./qc/providers/common/capabilities.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "17"
+ , "c4" : "39"
 }}
 ,
 { "ligne" : { "" : ""
@@ -68,13 +61,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "04297"
- , "c1link" : "./qc/providers/common/capabilities.c.html#4297"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[04297] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/common/capabilities.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00385"
  , "c1link" : "./qc/providers/common/capabilities.c.html#385"
@@ -220,6 +206,160 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/common/capabilities.c.html#3902"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03902] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07036"
+ , "c1link" : "./qc/providers/common/capabilities.c.html#7036"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07036] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07041"
+ , "c1link" : "./qc/providers/common/capabilities.c.html#7041"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07041] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07066"
+ , "c1link" : "./qc/providers/common/capabilities.c.html#7066"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07066] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07071"
+ , "c1link" : "./qc/providers/common/capabilities.c.html#7071"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07071] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07100"
+ , "c1link" : "./qc/providers/common/capabilities.c.html#7100"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07100] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07105"
+ , "c1link" : "./qc/providers/common/capabilities.c.html#7105"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07105] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07126"
+ , "c1link" : "./qc/providers/common/capabilities.c.html#7126"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07126] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07131"
+ , "c1link" : "./qc/providers/common/capabilities.c.html#7131"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07131] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07147"
+ , "c1link" : "./qc/providers/common/capabilities.c.html#7147"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07147] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07166"
+ , "c1link" : "./qc/providers/common/capabilities.c.html#7166"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07166] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07171"
+ , "c1link" : "./qc/providers/common/capabilities.c.html#7171"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07171] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07191"
+ , "c1link" : "./qc/providers/common/capabilities.c.html#7191"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07191] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07196"
+ , "c1link" : "./qc/providers/common/capabilities.c.html#7196"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07196] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07217"
+ , "c1link" : "./qc/providers/common/capabilities.c.html#7217"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07217] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07222"
+ , "c1link" : "./qc/providers/common/capabilities.c.html#7222"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07222] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07243"
+ , "c1link" : "./qc/providers/common/capabilities.c.html#7243"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07243] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07248"
+ , "c1link" : "./qc/providers/common/capabilities.c.html#7248"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07248] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07270"
+ , "c1link" : "./qc/providers/common/capabilities.c.html#7270"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07270] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07275"
+ , "c1link" : "./qc/providers/common/capabilities.c.html#7275"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07275] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07299"
+ , "c1link" : "./qc/providers/common/capabilities.c.html#7299"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07299] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07304"
+ , "c1link" : "./qc/providers/common/capabilities.c.html#7304"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07304] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07926"
+ , "c1link" : "./qc/providers/common/capabilities.c.html#7926"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07926] The expression 'TLS-GROUP' is invariable"
 }} 
 ]
 };

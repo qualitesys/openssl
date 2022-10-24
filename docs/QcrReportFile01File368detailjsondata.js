@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/curve448/scalar.c.html" 
- , "texte" : "File crypto/ec/curve448/scalar.c 20 rule violations " 
+ , "texte" : "File crypto/ec/curve448/scalar.c 25 rule violations " 
  , "fic2"  : "./qc/crypto/ec/curve448/scalar.c.xml" 
  , "fic3"  : "" 
 }
@@ -47,9 +47,23 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "15"
+ , "c4" : "17"
 }}
 ,
 { "ligne" : { "" : ""
@@ -69,10 +83,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "03363"
- , "c1link" : "./qc/crypto/ec/curve448/scalar.c.html#3363"
+ , "c1" : "05419"
+ , "c1link" : "./qc/crypto/ec/curve448/scalar.c.html#5419"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03363] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ec/curve448/scalar.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
+ , "c3" : "QC-CPP999999[05419] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ec/curve448/scalar.c near following tokens c448_word_t ) chain ; chain __= 64 ; } } static void sc_montmul ( curve448_scalar_t out , const curve448_scalar_t a , "
 }} 
 ,
 { "ligne" : {"" : ""
@@ -206,6 +220,41 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/curve448/scalar.c.html#2791"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[02791] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04573"
+ , "c1link" : "./qc/crypto/ec/curve448/scalar.c.html#4573"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04573] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04969"
+ , "c1link" : "./qc/crypto/ec/curve448/scalar.c.html#4969"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[04969] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04970"
+ , "c1link" : "./qc/crypto/ec/curve448/scalar.c.html#4970"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[04970] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05139"
+ , "c1link" : "./qc/crypto/ec/curve448/scalar.c.html#5139"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[05139] The expression n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05152"
+ , "c1link" : "./qc/crypto/ec/curve448/scalar.c.html#5152"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05152] The expression 9999&lt;3 is invariable"
 }} 
 ]
 };

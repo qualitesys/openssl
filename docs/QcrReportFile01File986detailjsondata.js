@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/macs/gmac_prov.c.html" 
- , "texte" : "File providers/implementations/macs/gmac_prov.c 20 rule violations " 
+ , "texte" : "File providers/implementations/macs/gmac_prov.c 31 rule violations " 
  , "fic2"  : "./qc/providers/implementations/macs/gmac_prov.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "15"
+ , "c4" : "17"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,20 +54,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "5"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03947"
- , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#3947"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03947] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/macs/gmac_prov.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01183"
  , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#1183"
@@ -206,6 +199,90 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#3493"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[03493] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08763"
+ , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#8763"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08763] The pointer macctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08772"
+ , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#8772"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08772] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08777"
+ , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#8777"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08777] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08797"
+ , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#8797"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08797] The pointer dst is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08912"
+ , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#8912"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08912] The expression 0x7fffffff is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08986"
+ , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#8986"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08986] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08988"
+ , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#8988"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08988] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09043"
+ , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#9043"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09043] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09058"
+ , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#9058"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09058] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09088"
+ , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#9088"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09088] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09097"
+ , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#9097"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09097] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09105"
+ , "c1link" : "./qc/providers/implementations/macs/gmac_prov.c.html#9105"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09105] The expression 0x9 is invariable"
 }} 
 ]
 };

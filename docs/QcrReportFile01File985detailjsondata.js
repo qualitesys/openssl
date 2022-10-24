@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/macs/cmac_prov.c.html" 
- , "texte" : "File providers/implementations/macs/cmac_prov.c 21 rule violations " 
+ , "texte" : "File providers/implementations/macs/cmac_prov.c 29 rule violations " 
  , "fic2"  : "./qc/providers/implementations/macs/cmac_prov.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,13 +40,6 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "16"
@@ -61,20 +54,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "5"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "5"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03948"
- , "c1link" : "./qc/providers/implementations/macs/cmac_prov.c.html#3948"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03948] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/macs/cmac_prov.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "02126"
  , "c1link" : "./qc/providers/implementations/macs/cmac_prov.c.html#2126"
@@ -213,6 +206,69 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/macs/cmac_prov.c.html#3523"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03523] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08540"
+ , "c1link" : "./qc/providers/implementations/macs/cmac_prov.c.html#8540"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08540] The pointer macctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08549"
+ , "c1link" : "./qc/providers/implementations/macs/cmac_prov.c.html#8549"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08549] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08554"
+ , "c1link" : "./qc/providers/implementations/macs/cmac_prov.c.html#8554"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08554] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08590"
+ , "c1link" : "./qc/providers/implementations/macs/cmac_prov.c.html#8590"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08590] The pointer dst is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08716"
+ , "c1link" : "./qc/providers/implementations/macs/cmac_prov.c.html#8716"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08716] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08718"
+ , "c1link" : "./qc/providers/implementations/macs/cmac_prov.c.html#8718"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08718] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08726"
+ , "c1link" : "./qc/providers/implementations/macs/cmac_prov.c.html#8726"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08726] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08776"
+ , "c1link" : "./qc/providers/implementations/macs/cmac_prov.c.html#8776"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08776] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08788"
+ , "c1link" : "./qc/providers/implementations/macs/cmac_prov.c.html#8788"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08788] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

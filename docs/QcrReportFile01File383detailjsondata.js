@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/ec_oct.c.html" 
- , "texte" : "File crypto/ec/ec_oct.c 21 rule violations " 
+ , "texte" : "File crypto/ec/ec_oct.c 23 rule violations " 
  , "fic2"  : "./qc/crypto/ec/ec_oct.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,8 +40,8 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
  , "c4" : "1"
 }}
 ,
@@ -61,20 +61,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03747"
- , "c1link" : "./qc/crypto/ec/ec_oct.c.html#3747"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03747] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ec/ec_oct.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00410"
  , "c1link" : "./qc/crypto/ec/ec_oct.c.html#410"
@@ -213,6 +213,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ec_oct.c.html#2949"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02949] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10285"
+ , "c1link" : "./qc/crypto/ec/ec_oct.c.html#10285"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[10285] The pointer buf is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10285"
+ , "c1link" : "./qc/crypto/ec/ec_oct.c.html#10285"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[10285] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10298"
+ , "c1link" : "./qc/crypto/ec/ec_oct.c.html#10298"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[10298] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

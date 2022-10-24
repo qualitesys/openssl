@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/x509/pcy_node.c.html" 
- , "texte" : "File crypto/x509/pcy_node.c 20 rule violations " 
+ , "texte" : "File crypto/x509/pcy_node.c 32 rule violations " 
  , "fic2"  : "./qc/crypto/x509/pcy_node.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,16 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "15"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,20 +61,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "5"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "4"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03379"
- , "c1link" : "./qc/crypto/x509/pcy_node.c.html#3379"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03379] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/x509/pcy_node.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00986"
  , "c1link" : "./qc/crypto/x509/pcy_node.c.html#986"
@@ -206,6 +206,97 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/pcy_node.c.html#2823"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02823] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08190"
+ , "c1link" : "./qc/crypto/x509/pcy_node.c.html#8190"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08190] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "12975"
+ , "c1link" : "./qc/crypto/x509/pcy_node.c.html#12975"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[12975] The pointer node is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "12996"
+ , "c1link" : "./qc/crypto/x509/pcy_node.c.html#12996"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[12996] The pointer node is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13011"
+ , "c1link" : "./qc/crypto/x509/pcy_node.c.html#13011"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13011] The expression level applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13013"
+ , "c1link" : "./qc/crypto/x509/pcy_node.c.html#13013"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13013] The expression level-&gt;anyPolicy applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13014"
+ , "c1link" : "./qc/crypto/x509/pcy_node.c.html#13014"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13014] goto statement jump to node_error"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13034"
+ , "c1link" : "./qc/crypto/x509/pcy_node.c.html#13034"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13034] goto statement jump to node_error"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13042"
+ , "c1link" : "./qc/crypto/x509/pcy_node.c.html#13042"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13042] goto statement jump to node_error"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13047"
+ , "c1link" : "./qc/crypto/x509/pcy_node.c.html#13047"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13047] The expression tree applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13064"
+ , "c1link" : "./qc/crypto/x509/pcy_node.c.html#13064"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13064] goto statement jump to node_error"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13072"
+ , "c1link" : "./qc/crypto/x509/pcy_node.c.html#13072"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13072] goto statement jump to node_error"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13076"
+ , "c1link" : "./qc/crypto/x509/pcy_node.c.html#13076"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13076] The expression parent applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13104"
+ , "c1link" : "./qc/crypto/x509/pcy_node.c.html#13104"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13104] The pointer policy_oid is declared but not initialized"
 }} 
 ]
 };

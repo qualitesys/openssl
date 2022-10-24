@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/ciphers/cipher_cts.c.html" 
- , "texte" : "File providers/implementations/ciphers/cipher_cts.c 21 rule violations " 
+ , "texte" : "File providers/implementations/ciphers/cipher_cts.c 49 rule violations " 
  , "fic2"  : "./qc/providers/implementations/ciphers/cipher_cts.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,8 +40,8 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
  , "c4" : "1"
 }}
 ,
@@ -49,7 +49,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "44"
 }}
 ,
 { "ligne" : { "" : ""
@@ -68,13 +68,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03376"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#3376"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03376] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_cts.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01554"
  , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#1554"
@@ -213,6 +206,209 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#2951"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02951] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08124"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#8124"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08124] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09483"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#9483"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09483] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09488"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#9488"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09488] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09513"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#9513"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09513] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09518"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#9518"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09518] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09547"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#9547"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09547] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09552"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#9552"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09552] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09573"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#9573"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09573] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09578"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#9578"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09578] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09594"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#9594"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09594] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09613"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#9613"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09613] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09618"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#9618"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09618] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09638"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#9638"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09638] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09643"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#9643"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09643] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09664"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#9664"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09664] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09669"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#9669"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09669] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09690"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#9690"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09690] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09695"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#9695"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09695] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09717"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#9717"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09717] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09722"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#9722"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09722] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09746"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#9746"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09746] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09751"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#9751"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09751] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "11670"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#11670"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[11670] The expression 16 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "11712"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#11712"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[11712] The expression 16 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "11738"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#11738"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[11738] The expression 16 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "11773"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#11773"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[11773] The expression 16 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "11810"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#11810"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[11810] The expression 16 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "11836"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#11836"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[11836] The expression 16 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "11897"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cts.c.html#11897"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[11897] The expression ctx-&gt;enc applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

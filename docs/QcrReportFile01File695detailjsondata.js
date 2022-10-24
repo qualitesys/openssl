@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/siphash/siphash.c.html" 
- , "texte" : "File crypto/siphash/siphash.c 21 rule violations " 
+ , "texte" : "File crypto/siphash/siphash.c 40 rule violations " 
  , "fic2"  : "./qc/crypto/siphash/siphash.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,23 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
+ , "c2" : "QC-CPP000006"
+ , "c3" : "Risk of infinite while loop"
+ , "c4" : "5"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "21"
 }}
 ,
 { "ligne" : { "" : ""
@@ -60,21 +67,21 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-CPPCWE484"
+ , "c3" : "Omitted Break Statement in Switch"
+ , "c4" : "7"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03714"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#3714"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03714] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/siphash/siphash.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01183"
  , "c1link" : "./qc/crypto/siphash/siphash.c.html#1183"
@@ -213,6 +220,146 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/siphash/siphash.c.html#3142"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[03142] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04700"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#4700"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[04700] The pointer end is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04710"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#4710"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[04710] The expression ctx-&gt;len applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04730"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#4730"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04730] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04730"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#4730"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04730] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04740"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#4740"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04740] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04740"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#4740"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04740] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04745"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#4745"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[04745] The expression left applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04769"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#4769"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-CPPCWE484[04769] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04772"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#4772"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-CPPCWE484[04772] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04775"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#4775"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-CPPCWE484[04775] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04778"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#4778"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-CPPCWE484[04778] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04781"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#4781"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-CPPCWE484[04781] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04784"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#4784"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-CPPCWE484[04784] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04787"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#4787"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-CPPCWE484[04787] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04795"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#4795"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04795] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04795"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#4795"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04795] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04802"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#4802"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04802] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04802"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#4802"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04802] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04809"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#4809"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[04809] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04809"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#4809"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04809] The expression 0 is invariable, always false"
 }} 
 ]
 };

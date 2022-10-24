@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/asn1/tasn_typ.c.html" 
- , "texte" : "File crypto/asn1/tasn_typ.c 20 rule violations " 
+ , "texte" : "File crypto/asn1/tasn_typ.c 19 rule violations " 
  , "fic2"  : "./qc/crypto/asn1/tasn_typ.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,13 +40,6 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "15"
@@ -68,13 +61,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03380"
- , "c1link" : "./qc/crypto/asn1/tasn_typ.c.html#3380"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03380] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/asn1/tasn_typ.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00959"
  , "c1link" : "./qc/crypto/asn1/tasn_typ.c.html#959"

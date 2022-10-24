@@ -40,16 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "15"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : { "" : ""
@@ -68,13 +61,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03387"
- , "c1link" : "./qc/crypto/err/err_all.c.html#3387"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03387] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/err/err_all.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00959"
  , "c1link" : "./qc/crypto/err/err_all.c.html#959"
@@ -206,6 +192,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/err/err_all.c.html#2559"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02559] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05022"
+ , "c1link" : "./qc/crypto/err/err_all.c.html#5022"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05022] The expression 0 is invariable, always false"
 }} 
 ]
 };

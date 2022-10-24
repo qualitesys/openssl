@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/punycode.c.html" 
- , "texte" : "File crypto/punycode.c 21 rule violations " 
+ , "texte" : "File crypto/punycode.c 45 rule violations " 
  , "fic2"  : "./qc/crypto/punycode.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,16 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
+ , "c2" : "QC-CPP000006"
+ , "c3" : "Risk of infinite while loop"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "38"
 }}
 ,
 { "ligne" : { "" : ""
@@ -68,13 +68,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03738"
- , "c1link" : "./qc/crypto/punycode.c.html#3738"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03738] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/punycode.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00971"
  , "c1link" : "./qc/crypto/punycode.c.html#971"
@@ -213,6 +206,181 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/punycode.c.html#2945"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02945] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05936"
+ , "c1link" : "./qc/crypto/punycode.c.html#5936"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05936] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05941"
+ , "c1link" : "./qc/crypto/punycode.c.html#5941"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05941] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05966"
+ , "c1link" : "./qc/crypto/punycode.c.html#5966"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05966] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05971"
+ , "c1link" : "./qc/crypto/punycode.c.html#5971"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05971] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06000"
+ , "c1link" : "./qc/crypto/punycode.c.html#6000"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06000] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06005"
+ , "c1link" : "./qc/crypto/punycode.c.html#6005"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06005] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06026"
+ , "c1link" : "./qc/crypto/punycode.c.html#6026"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06026] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06031"
+ , "c1link" : "./qc/crypto/punycode.c.html#6031"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06031] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06047"
+ , "c1link" : "./qc/crypto/punycode.c.html#6047"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06047] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06066"
+ , "c1link" : "./qc/crypto/punycode.c.html#6066"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06066] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06071"
+ , "c1link" : "./qc/crypto/punycode.c.html#6071"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06071] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06091"
+ , "c1link" : "./qc/crypto/punycode.c.html#6091"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06091] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06096"
+ , "c1link" : "./qc/crypto/punycode.c.html#6096"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06096] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06117"
+ , "c1link" : "./qc/crypto/punycode.c.html#6117"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06117] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06122"
+ , "c1link" : "./qc/crypto/punycode.c.html#6122"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06122] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06143"
+ , "c1link" : "./qc/crypto/punycode.c.html#6143"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06143] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06148"
+ , "c1link" : "./qc/crypto/punycode.c.html#6148"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06148] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06170"
+ , "c1link" : "./qc/crypto/punycode.c.html#6170"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06170] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06175"
+ , "c1link" : "./qc/crypto/punycode.c.html#6175"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06175] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06199"
+ , "c1link" : "./qc/crypto/punycode.c.html#6199"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06199] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06204"
+ , "c1link" : "./qc/crypto/punycode.c.html#6204"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06204] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06319"
+ , "c1link" : "./qc/crypto/punycode.c.html#6319"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[06319] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06325"
+ , "c1link" : "./qc/crypto/punycode.c.html#6325"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[06325] The condition of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06432"
+ , "c1link" : "./qc/crypto/punycode.c.html#6432"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[06432] The condition of do while loop is always true, infinite loop risk while (1) do{} 1"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06432"
+ , "c1link" : "./qc/crypto/punycode.c.html#6432"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06432] The expression 1 is invariable, always true"
 }} 
 ]
 };

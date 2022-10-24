@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/asn1/bio_ndef.c.html" 
- , "texte" : "File crypto/asn1/bio_ndef.c 20 rule violations " 
+ , "texte" : "File crypto/asn1/bio_ndef.c 34 rule violations " 
  , "fic2"  : "./qc/crypto/asn1/bio_ndef.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,16 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "15"
+ , "c4" : "17"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,20 +61,27 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "7"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03379"
- , "c1link" : "./qc/crypto/asn1/bio_ndef.c.html#3379"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03379] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/asn1/bio_ndef.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00986"
  , "c1link" : "./qc/crypto/asn1/bio_ndef.c.html#986"
@@ -206,6 +213,111 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/asn1/bio_ndef.c.html#2823"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02823] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05915"
+ , "c1link" : "./qc/crypto/asn1/bio_ndef.c.html#5915"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[05915] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05924"
+ , "c1link" : "./qc/crypto/asn1/bio_ndef.c.html#5924"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[05924] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05946"
+ , "c1link" : "./qc/crypto/asn1/bio_ndef.c.html#5946"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05946] The expression 10 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05947"
+ , "c1link" : "./qc/crypto/asn1/bio_ndef.c.html#5947"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[05947] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05971"
+ , "c1link" : "./qc/crypto/asn1/bio_ndef.c.html#5971"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05971] The pointer ndef_aux is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05972"
+ , "c1link" : "./qc/crypto/asn1/bio_ndef.c.html#5972"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[05972] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05972"
+ , "c1link" : "./qc/crypto/asn1/bio_ndef.c.html#5972"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[05972] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05991"
+ , "c1link" : "./qc/crypto/asn1/bio_ndef.c.html#5991"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[05991] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06017"
+ , "c1link" : "./qc/crypto/asn1/bio_ndef.c.html#6017"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06017] The pointer ndef_aux is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06068"
+ , "c1link" : "./qc/crypto/asn1/bio_ndef.c.html#6068"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06068] The pointer ndef_aux is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06069"
+ , "c1link" : "./qc/crypto/asn1/bio_ndef.c.html#6069"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06069] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06069"
+ , "c1link" : "./qc/crypto/asn1/bio_ndef.c.html#6069"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[06069] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06071"
+ , "c1link" : "./qc/crypto/asn1/bio_ndef.c.html#6071"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06071] The pointer aux is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06089"
+ , "c1link" : "./qc/crypto/asn1/bio_ndef.c.html#6089"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06089] The expression 11 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06100"
+ , "c1link" : "./qc/crypto/asn1/bio_ndef.c.html#6100"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[06100] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.html" 
- , "texte" : "File crypto/evp/e_aes_cbc_hmac_sha256.c 22 rule violations " 
+ , "texte" : "File crypto/evp/e_aes_cbc_hmac_sha256.c 44 rule violations " 
  , "fic2"  : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,16 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "17"
+ , "c4" : "38"
 }}
 ,
 { "ligne" : { "" : ""
@@ -68,13 +68,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "04308"
- , "c1link" : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.html#4308"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[04308] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/evp/e_aes_cbc_hmac_sha256.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00986"
  , "c1link" : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.html#986"
@@ -220,6 +213,167 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.html#3916"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03916] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09733"
+ , "c1link" : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.html#9733"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09733] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09738"
+ , "c1link" : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.html#9738"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09738] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09763"
+ , "c1link" : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.html#9763"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09763] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09768"
+ , "c1link" : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.html#9768"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09768] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09797"
+ , "c1link" : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.html#9797"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09797] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09802"
+ , "c1link" : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.html#9802"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09802] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09823"
+ , "c1link" : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.html#9823"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09823] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09828"
+ , "c1link" : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.html#9828"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09828] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09844"
+ , "c1link" : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.html#9844"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09844] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09863"
+ , "c1link" : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.html#9863"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09863] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09868"
+ , "c1link" : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.html#9868"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09868] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09888"
+ , "c1link" : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.html#9888"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09888] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09893"
+ , "c1link" : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.html#9893"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09893] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09914"
+ , "c1link" : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.html#9914"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09914] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09919"
+ , "c1link" : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.html#9919"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09919] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09940"
+ , "c1link" : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.html#9940"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09940] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09945"
+ , "c1link" : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.html#9945"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09945] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09967"
+ , "c1link" : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.html#9967"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09967] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09972"
+ , "c1link" : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.html#9972"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09972] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09996"
+ , "c1link" : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.html#9996"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09996] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10001"
+ , "c1link" : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.html#10001"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10001] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "11198"
+ , "c1link" : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.html#11198"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[11198] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "11199"
+ , "c1link" : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.html#11199"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[11199] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

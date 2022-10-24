@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/engine/tb_eckey.c.html" 
- , "texte" : "File crypto/engine/tb_eckey.c 20 rule violations " 
+ , "texte" : "File crypto/engine/tb_eckey.c 43 rule violations " 
  , "fic2"  : "./qc/crypto/engine/tb_eckey.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,8 +40,8 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
  , "c4" : "1"
 }}
 ,
@@ -49,7 +49,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "15"
+ , "c4" : "37"
 }}
 ,
 { "ligne" : { "" : ""
@@ -63,18 +63,11 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03381"
- , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#3381"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03381] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/engine/tb_eckey.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01180"
  , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#1180"
@@ -206,6 +199,174 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#2578"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02578] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04944"
+ , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#4944"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04944] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06303"
+ , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#6303"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06303] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06308"
+ , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#6308"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06308] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06333"
+ , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#6333"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06333] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06338"
+ , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#6338"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06338] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06367"
+ , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#6367"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06367] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06372"
+ , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#6372"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06372] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06393"
+ , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#6393"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06393] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06398"
+ , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#6398"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06398] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06414"
+ , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#6414"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06414] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06433"
+ , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#6433"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06433] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06438"
+ , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#6438"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06438] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06458"
+ , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#6458"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06458] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06463"
+ , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#6463"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06463] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06484"
+ , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#6484"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06484] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06489"
+ , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#6489"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06489] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06510"
+ , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#6510"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06510] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06515"
+ , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#6515"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06515] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06537"
+ , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#6537"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06537] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06542"
+ , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#6542"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06542] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06566"
+ , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#6566"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06566] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06571"
+ , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#6571"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06571] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15047"
+ , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#15047"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15047] The pointer e is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15049"
+ , "c1link" : "./qc/crypto/engine/tb_eckey.c.html#15049"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15049] The expression e applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

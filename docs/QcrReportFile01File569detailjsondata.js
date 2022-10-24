@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/o_time.c.html" 
- , "texte" : "File crypto/o_time.c 21 rule violations " 
+ , "texte" : "File crypto/o_time.c 26 rule violations " 
  , "fic2"  : "./qc/crypto/o_time.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,16 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "20"
 }}
 ,
 { "ligne" : { "" : ""
@@ -68,13 +68,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03716"
- , "c1link" : "./qc/crypto/o_time.c.html#3716"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03716] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/o_time.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00715"
  , "c1link" : "./qc/crypto/o_time.c.html#715"
@@ -213,6 +206,48 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/o_time.c.html#3144"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[03144] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04653"
+ , "c1link" : "./qc/crypto/o_time.c.html#4653"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04653] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04653"
+ , "c1link" : "./qc/crypto/o_time.c.html#4653"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04653] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04655"
+ , "c1link" : "./qc/crypto/o_time.c.html#4655"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04655] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04655"
+ , "c1link" : "./qc/crypto/o_time.c.html#4655"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04655] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04669"
+ , "c1link" : "./qc/crypto/o_time.c.html#4669"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[04669] The expression pday applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04671"
+ , "c1link" : "./qc/crypto/o_time.c.html#4671"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[04671] The expression psec applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

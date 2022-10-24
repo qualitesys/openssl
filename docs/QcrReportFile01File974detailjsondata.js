@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/kem/kem_util.c.html" 
- , "texte" : "File providers/implementations/kem/kem_util.c 21 rule violations " 
+ , "texte" : "File providers/implementations/kem/kem_util.c 20 rule violations " 
  , "fic2"  : "./qc/providers/implementations/kem/kem_util.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,13 +40,6 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "16"
@@ -68,13 +61,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03717"
- , "c1link" : "./qc/providers/implementations/kem/kem_util.c.html#3717"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03717] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/kem/kem_util.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00383"
  , "c1link" : "./qc/providers/implementations/kem/kem_util.c.html#383"

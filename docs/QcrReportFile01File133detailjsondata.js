@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/asn1/tasn_fre.c.html" 
- , "texte" : "File crypto/asn1/tasn_fre.c 20 rule violations " 
+ , "texte" : "File crypto/asn1/tasn_fre.c 37 rule violations " 
  , "fic2"  : "./qc/crypto/asn1/tasn_fre.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,16 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "15"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : { "" : ""
@@ -63,18 +63,11 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "7"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03377"
- , "c1link" : "./qc/crypto/asn1/tasn_fre.c.html#3377"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03377] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/asn1/tasn_fre.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00998"
  , "c1link" : "./qc/crypto/asn1/tasn_fre.c.html#998"
@@ -206,6 +199,132 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/asn1/tasn_fre.c.html#2833"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02833] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06507"
+ , "c1link" : "./qc/crypto/asn1/tasn_fre.c.html#6507"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06507] The pointer seqtt is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06508"
+ , "c1link" : "./qc/crypto/asn1/tasn_fre.c.html#6508"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06508] The pointer ef is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06510"
+ , "c1link" : "./qc/crypto/asn1/tasn_fre.c.html#6510"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06510] The pointer asn1_cb is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06533"
+ , "c1link" : "./qc/crypto/asn1/tasn_fre.c.html#6533"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06533] The expression it-&gt;templates applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06544"
+ , "c1link" : "./qc/crypto/asn1/tasn_fre.c.html#6544"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06544] The expression asn1_cb applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06555"
+ , "c1link" : "./qc/crypto/asn1/tasn_fre.c.html#6555"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06555] The pointer pchval is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06561"
+ , "c1link" : "./qc/crypto/asn1/tasn_fre.c.html#6561"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06561] The expression asn1_cb applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06585"
+ , "c1link" : "./qc/crypto/asn1/tasn_fre.c.html#6585"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06585] The expression  - 1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06587"
+ , "c1link" : "./qc/crypto/asn1/tasn_fre.c.html#6587"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06587] The expression asn1_cb applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06604"
+ , "c1link" : "./qc/crypto/asn1/tasn_fre.c.html#6604"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06604] The pointer pseqval is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06608"
+ , "c1link" : "./qc/crypto/asn1/tasn_fre.c.html#6608"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06608] The expression  ! seqtt applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06613"
+ , "c1link" : "./qc/crypto/asn1/tasn_fre.c.html#6613"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06613] The expression asn1_cb applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06634"
+ , "c1link" : "./qc/crypto/asn1/tasn_fre.c.html#6634"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06634] The pointer tval is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06635"
+ , "c1link" : "./qc/crypto/asn1/tasn_fre.c.html#6635"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06635] The expression embed applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06664"
+ , "c1link" : "./qc/crypto/asn1/tasn_fre.c.html#6664"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06664] The expression it applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06667"
+ , "c1link" : "./qc/crypto/asn1/tasn_fre.c.html#6667"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06667] The expression embed applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06679"
+ , "c1link" : "./qc/crypto/asn1/tasn_fre.c.html#6679"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06679] The expression  ! it applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06714"
+ , "c1link" : "./qc/crypto/asn1/tasn_fre.c.html#6714"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06714] The expression it applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

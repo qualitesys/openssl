@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ffc/ffc_params_validate.c.html" 
- , "texte" : "File crypto/ffc/ffc_params_validate.c 20 rule violations " 
+ , "texte" : "File crypto/ffc/ffc_params_validate.c 22 rule violations " 
  , "fic2"  : "./qc/crypto/ffc/ffc_params_validate.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,8 +40,8 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
  , "c4" : "1"
 }}
 ,
@@ -61,20 +61,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03386"
- , "c1link" : "./qc/crypto/ffc/ffc_params_validate.c.html#3386"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03386] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ffc/ffc_params_validate.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01172"
  , "c1link" : "./qc/crypto/ffc/ffc_params_validate.c.html#1172"
@@ -206,6 +206,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ffc/ffc_params_validate.c.html#2558"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02558] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08594"
+ , "c1link" : "./qc/crypto/ffc/ffc_params_validate.c.html#8594"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[08594] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08595"
+ , "c1link" : "./qc/crypto/ffc/ffc_params_validate.c.html#8595"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08595] The pointer ctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08597"
+ , "c1link" : "./qc/crypto/ffc/ffc_params_validate.c.html#8597"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08597] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

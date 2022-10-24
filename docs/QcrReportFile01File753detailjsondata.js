@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/x509/pcy_map.c.html" 
- , "texte" : "File crypto/x509/pcy_map.c 21 rule violations " 
+ , "texte" : "File crypto/x509/pcy_map.c 48 rule violations " 
  , "fic2"  : "./qc/crypto/x509/pcy_map.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "37"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,20 +54,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "5"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03732"
- , "c1link" : "./qc/crypto/x509/pcy_map.c.html#3732"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03732] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/x509/pcy_map.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01191"
  , "c1link" : "./qc/crypto/x509/pcy_map.c.html#1191"
@@ -213,6 +206,202 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/pcy_map.c.html#3194"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[03194] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05930"
+ , "c1link" : "./qc/crypto/x509/pcy_map.c.html#5930"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05930] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05935"
+ , "c1link" : "./qc/crypto/x509/pcy_map.c.html#5935"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05935] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05960"
+ , "c1link" : "./qc/crypto/x509/pcy_map.c.html#5960"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05960] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05965"
+ , "c1link" : "./qc/crypto/x509/pcy_map.c.html#5965"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05965] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05994"
+ , "c1link" : "./qc/crypto/x509/pcy_map.c.html#5994"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05994] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05999"
+ , "c1link" : "./qc/crypto/x509/pcy_map.c.html#5999"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05999] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06020"
+ , "c1link" : "./qc/crypto/x509/pcy_map.c.html#6020"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06020] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06025"
+ , "c1link" : "./qc/crypto/x509/pcy_map.c.html#6025"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06025] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06041"
+ , "c1link" : "./qc/crypto/x509/pcy_map.c.html#6041"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06041] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06060"
+ , "c1link" : "./qc/crypto/x509/pcy_map.c.html#6060"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06060] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06065"
+ , "c1link" : "./qc/crypto/x509/pcy_map.c.html#6065"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06065] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06085"
+ , "c1link" : "./qc/crypto/x509/pcy_map.c.html#6085"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06085] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06090"
+ , "c1link" : "./qc/crypto/x509/pcy_map.c.html#6090"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06090] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06111"
+ , "c1link" : "./qc/crypto/x509/pcy_map.c.html#6111"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06111] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06116"
+ , "c1link" : "./qc/crypto/x509/pcy_map.c.html#6116"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06116] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06137"
+ , "c1link" : "./qc/crypto/x509/pcy_map.c.html#6137"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06137] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06142"
+ , "c1link" : "./qc/crypto/x509/pcy_map.c.html#6142"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06142] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06164"
+ , "c1link" : "./qc/crypto/x509/pcy_map.c.html#6164"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06164] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06169"
+ , "c1link" : "./qc/crypto/x509/pcy_map.c.html#6169"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06169] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06193"
+ , "c1link" : "./qc/crypto/x509/pcy_map.c.html#6193"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06193] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06198"
+ , "c1link" : "./qc/crypto/x509/pcy_map.c.html#6198"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06198] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15346"
+ , "c1link" : "./qc/crypto/x509/pcy_map.c.html#15346"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15346] The pointer map is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15347"
+ , "c1link" : "./qc/crypto/x509/pcy_map.c.html#15347"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15347] The pointer data is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15353"
+ , "c1link" : "./qc/crypto/x509/pcy_map.c.html#15353"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15353] goto statement jump to bad_mapping"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15361"
+ , "c1link" : "./qc/crypto/x509/pcy_map.c.html#15361"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15361] goto statement jump to bad_mapping"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15392"
+ , "c1link" : "./qc/crypto/x509/pcy_map.c.html#15392"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15392] goto statement jump to bad_mapping"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15401"
+ , "c1link" : "./qc/crypto/x509/pcy_map.c.html#15401"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15401] goto statement jump to bad_mapping"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15407"
+ , "c1link" : "./qc/crypto/x509/pcy_map.c.html#15407"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15407] goto statement jump to bad_mapping"
 }} 
 ]
 };

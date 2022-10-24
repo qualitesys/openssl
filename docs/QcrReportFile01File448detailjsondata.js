@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/dh_ctrl.c.html" 
- , "texte" : "File crypto/evp/dh_ctrl.c 21 rule violations " 
+ , "texte" : "File crypto/evp/dh_ctrl.c 25 rule violations " 
  , "fic2"  : "./qc/crypto/evp/dh_ctrl.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,13 +40,6 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "16"
@@ -61,6 +54,13 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "5"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
  , "c4" : "1"
@@ -68,13 +68,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03380"
- , "c1link" : "./qc/crypto/evp/dh_ctrl.c.html#3380"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03380] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/evp/dh_ctrl.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01558"
  , "c1link" : "./qc/crypto/evp/dh_ctrl.c.html#1558"
@@ -213,6 +206,41 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/dh_ctrl.c.html#2955"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02955] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09365"
+ , "c1link" : "./qc/crypto/evp/dh_ctrl.c.html#9365"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09365] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09381"
+ , "c1link" : "./qc/crypto/evp/dh_ctrl.c.html#9381"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09381] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09411"
+ , "c1link" : "./qc/crypto/evp/dh_ctrl.c.html#9411"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09411] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09425"
+ , "c1link" : "./qc/crypto/evp/dh_ctrl.c.html#9425"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09425] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09439"
+ , "c1link" : "./qc/crypto/evp/dh_ctrl.c.html#9439"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[09439] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/des/fcrypt.c.html" 
- , "texte" : "File crypto/des/fcrypt.c 20 rule violations " 
+ , "texte" : "File crypto/des/fcrypt.c 33 rule violations " 
  , "fic2"  : "./qc/crypto/des/fcrypt.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,23 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
  , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "15"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,6 +68,13 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "10"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
  , "c4" : "1"
@@ -68,13 +82,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03366"
- , "c1link" : "./qc/crypto/des/fcrypt.c.html#3366"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03366] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/des/fcrypt.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00987"
  , "c1link" : "./qc/crypto/des/fcrypt.c.html#987"
@@ -206,6 +213,104 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/des/fcrypt.c.html#2389"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02389] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04575"
+ , "c1link" : "./qc/crypto/des/fcrypt.c.html#4575"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[04575] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04797"
+ , "c1link" : "./qc/crypto/des/fcrypt.c.html#4797"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[04797] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04800"
+ , "c1link" : "./qc/crypto/des/fcrypt.c.html#4800"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04800] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04808"
+ , "c1link" : "./qc/crypto/des/fcrypt.c.html#4808"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04808] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04822"
+ , "c1link" : "./qc/crypto/des/fcrypt.c.html#4822"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[04822] The expression  ! c applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04833"
+ , "c1link" : "./qc/crypto/des/fcrypt.c.html#4833"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04833] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04833"
+ , "c1link" : "./qc/crypto/des/fcrypt.c.html#4833"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04833] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04833"
+ , "c1link" : "./qc/crypto/des/fcrypt.c.html#4833"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04833] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04833"
+ , "c1link" : "./qc/crypto/des/fcrypt.c.html#4833"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04833] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04835"
+ , "c1link" : "./qc/crypto/des/fcrypt.c.html#4835"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04835] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04835"
+ , "c1link" : "./qc/crypto/des/fcrypt.c.html#4835"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04835] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04835"
+ , "c1link" : "./qc/crypto/des/fcrypt.c.html#4835"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04835] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04835"
+ , "c1link" : "./qc/crypto/des/fcrypt.c.html#4835"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[04835] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04846"
+ , "c1link" : "./qc/crypto/des/fcrypt.c.html#4846"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[04846] The expression  ! u applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

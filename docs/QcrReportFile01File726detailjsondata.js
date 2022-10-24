@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/trace.c.html" 
- , "texte" : "File crypto/trace.c 21 rule violations " 
+ , "texte" : "File crypto/trace.c 41 rule violations " 
  , "fic2"  : "./qc/crypto/trace.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "37"
 }}
 ,
 { "ligne" : { "" : ""
@@ -68,13 +61,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03709"
- , "c1link" : "./qc/crypto/trace.c.html#3709"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03709] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/trace.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00959"
  , "c1link" : "./qc/crypto/trace.c.html#959"
@@ -213,6 +199,153 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/trace.c.html#2762"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02762] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06488"
+ , "c1link" : "./qc/crypto/trace.c.html#6488"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06488] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06493"
+ , "c1link" : "./qc/crypto/trace.c.html#6493"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06493] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06518"
+ , "c1link" : "./qc/crypto/trace.c.html#6518"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06518] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06523"
+ , "c1link" : "./qc/crypto/trace.c.html#6523"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06523] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06552"
+ , "c1link" : "./qc/crypto/trace.c.html#6552"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06552] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06557"
+ , "c1link" : "./qc/crypto/trace.c.html#6557"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06557] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06578"
+ , "c1link" : "./qc/crypto/trace.c.html#6578"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06578] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06583"
+ , "c1link" : "./qc/crypto/trace.c.html#6583"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06583] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06599"
+ , "c1link" : "./qc/crypto/trace.c.html#6599"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06599] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06618"
+ , "c1link" : "./qc/crypto/trace.c.html#6618"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06618] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06623"
+ , "c1link" : "./qc/crypto/trace.c.html#6623"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06623] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06643"
+ , "c1link" : "./qc/crypto/trace.c.html#6643"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06643] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06648"
+ , "c1link" : "./qc/crypto/trace.c.html#6648"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06648] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06669"
+ , "c1link" : "./qc/crypto/trace.c.html#6669"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06669] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06674"
+ , "c1link" : "./qc/crypto/trace.c.html#6674"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06674] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06695"
+ , "c1link" : "./qc/crypto/trace.c.html#6695"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06695] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06700"
+ , "c1link" : "./qc/crypto/trace.c.html#6700"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06700] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06722"
+ , "c1link" : "./qc/crypto/trace.c.html#6722"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06722] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06727"
+ , "c1link" : "./qc/crypto/trace.c.html#6727"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06727] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06751"
+ , "c1link" : "./qc/crypto/trace.c.html#6751"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06751] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06756"
+ , "c1link" : "./qc/crypto/trace.c.html#6756"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06756] The expression 2&gt;1 is invariable"
 }} 
 ]
 };

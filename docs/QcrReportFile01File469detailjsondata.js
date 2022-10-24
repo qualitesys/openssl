@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/e_seed.c.html" 
- , "texte" : "File crypto/evp/e_seed.c 21 rule violations " 
+ , "texte" : "File crypto/evp/e_seed.c 24 rule violations " 
  , "fic2"  : "./qc/crypto/evp/e_seed.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,16 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : { "" : ""
@@ -68,13 +68,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03956"
- , "c1link" : "./qc/crypto/evp/e_seed.c.html#3956"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03956] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/evp/e_seed.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00999"
  , "c1link" : "./qc/crypto/evp/e_seed.c.html#999"
@@ -213,6 +206,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/e_seed.c.html#3534"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03534] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08351"
+ , "c1link" : "./qc/crypto/evp/e_seed.c.html#8351"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08351] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09632"
+ , "c1link" : "./qc/crypto/evp/e_seed.c.html#9632"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09632] The expression inl applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09632"
+ , "c1link" : "./qc/crypto/evp/e_seed.c.html#9632"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09632] The expression 128==1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09632"
+ , "c1link" : "./qc/crypto/evp/e_seed.c.html#9632"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[09632] The expression inl applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

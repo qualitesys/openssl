@@ -40,8 +40,8 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
  , "c4" : "1"
 }}
 ,
@@ -68,13 +68,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03718"
- , "c1link" : "./qc/crypto/params.c.html#3718"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03718] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/params.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00383"
  , "c1link" : "./qc/crypto/params.c.html#383"
@@ -220,6 +213,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/params.c.html#3323"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03323] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05721"
+ , "c1link" : "./qc/crypto/params.c.html#5721"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[05721] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

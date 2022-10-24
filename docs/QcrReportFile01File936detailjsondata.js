@@ -40,13 +40,6 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "16"
@@ -63,18 +56,11 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03723"
- , "c1link" : "./qc/providers/implementations/digests/md5_sha1_prov.c.html#3723"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03723] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/digests/md5_sha1_prov.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00410"
  , "c1link" : "./qc/providers/implementations/digests/md5_sha1_prov.c.html#410"
@@ -213,6 +199,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/digests/md5_sha1_prov.c.html#3151"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[03151] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08884"
+ , "c1link" : "./qc/providers/implementations/digests/md5_sha1_prov.c.html#8884"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08884] The pointer p is declared but not initialized"
 }} 
 ]
 };

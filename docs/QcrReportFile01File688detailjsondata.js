@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/self_test_core.c.html" 
- , "texte" : "File crypto/self_test_core.c 21 rule violations " 
+ , "texte" : "File crypto/self_test_core.c 43 rule violations " 
  , "fic2"  : "./qc/crypto/self_test_core.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "38"
 }}
 ,
 { "ligne" : { "" : ""
@@ -63,18 +56,11 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03391"
- , "c1link" : "./qc/crypto/self_test_core.c.html#3391"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03391] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/self_test_core.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01569"
  , "c1link" : "./qc/crypto/self_test_core.c.html#1569"
@@ -213,6 +199,167 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/self_test_core.c.html#2966"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02966] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05084"
+ , "c1link" : "./qc/crypto/self_test_core.c.html#5084"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05084] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06443"
+ , "c1link" : "./qc/crypto/self_test_core.c.html#6443"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06443] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06448"
+ , "c1link" : "./qc/crypto/self_test_core.c.html#6448"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06448] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06473"
+ , "c1link" : "./qc/crypto/self_test_core.c.html#6473"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06473] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06478"
+ , "c1link" : "./qc/crypto/self_test_core.c.html#6478"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06478] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06507"
+ , "c1link" : "./qc/crypto/self_test_core.c.html#6507"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06507] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06512"
+ , "c1link" : "./qc/crypto/self_test_core.c.html#6512"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06512] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06533"
+ , "c1link" : "./qc/crypto/self_test_core.c.html#6533"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06533] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06538"
+ , "c1link" : "./qc/crypto/self_test_core.c.html#6538"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06538] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06554"
+ , "c1link" : "./qc/crypto/self_test_core.c.html#6554"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06554] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06573"
+ , "c1link" : "./qc/crypto/self_test_core.c.html#6573"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06573] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06578"
+ , "c1link" : "./qc/crypto/self_test_core.c.html#6578"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06578] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06598"
+ , "c1link" : "./qc/crypto/self_test_core.c.html#6598"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06598] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06603"
+ , "c1link" : "./qc/crypto/self_test_core.c.html#6603"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06603] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06624"
+ , "c1link" : "./qc/crypto/self_test_core.c.html#6624"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06624] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06629"
+ , "c1link" : "./qc/crypto/self_test_core.c.html#6629"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06629] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06650"
+ , "c1link" : "./qc/crypto/self_test_core.c.html#6650"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06650] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06655"
+ , "c1link" : "./qc/crypto/self_test_core.c.html#6655"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06655] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06677"
+ , "c1link" : "./qc/crypto/self_test_core.c.html#6677"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06677] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06682"
+ , "c1link" : "./qc/crypto/self_test_core.c.html#6682"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06682] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06706"
+ , "c1link" : "./qc/crypto/self_test_core.c.html#6706"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06706] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06711"
+ , "c1link" : "./qc/crypto/self_test_core.c.html#6711"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06711] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08681"
+ , "c1link" : "./qc/crypto/self_test_core.c.html#8681"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08681] The pointer stcb is declared but not initialized"
 }} 
 ]
 };

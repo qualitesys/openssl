@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/x509/v3_sxnet.c.html" 
- , "texte" : "File crypto/x509/v3_sxnet.c 21 rule violations " 
+ , "texte" : "File crypto/x509/v3_sxnet.c 64 rule violations " 
  , "fic2"  : "./qc/crypto/x509/v3_sxnet.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "39"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,20 +54,27 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "5"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "11"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03727"
- , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#3727"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03727] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/x509/v3_sxnet.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00959"
  , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#959"
@@ -213,6 +213,314 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#2726"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02726] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05925"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#5925"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05925] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05930"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#5930"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05930] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05955"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#5955"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05955] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05960"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#5960"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05960] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05989"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#5989"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05989] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05994"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#5994"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05994] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06015"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#6015"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06015] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06020"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#6020"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06020] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06036"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#6036"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06036] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06055"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#6055"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06055] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06060"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#6060"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06060] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06080"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#6080"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06080] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06085"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#6085"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06085] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06106"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#6106"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06106] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06111"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#6111"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06111] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06132"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#6132"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06132] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06137"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#6137"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06137] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06159"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#6159"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06159] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06164"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#6164"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06164] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06188"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#6188"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06188] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06193"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#6193"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06193] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15025"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15025"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15025] The pointer tmp is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15026"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15026"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15026] The pointer id is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15069"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15069"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15069] The pointer cnf is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15078"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15078"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15078] The expression  - 1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15096"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15096"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15096] The pointer izone is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15098"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15098"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15098] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15122"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15122"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15122] The pointer izone is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15124"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15124"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15124] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15196"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15196"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15196] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15206"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15206"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15206] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15208"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15208"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15208] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15214"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15214"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15214] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15233"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15233"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15233] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15243"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15243"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15243] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15252"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15252"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15252] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15260"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15260"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15260] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15279"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15279"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15279] The pointer izone is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15280"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15280"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15280] The pointer oct is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15282"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15282"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15282] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15309"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15309"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15309] The pointer izone is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15310"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15310"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15310] The pointer oct is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15312"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15312"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15312] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15337"
+ , "c1link" : "./qc/crypto/x509/v3_sxnet.c.html#15337"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15337] The pointer id is declared but not initialized"
 }} 
 ]
 };

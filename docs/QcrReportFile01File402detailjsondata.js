@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/encode_decode/decoder_meth.c.html" 
- , "texte" : "File crypto/encode_decode/decoder_meth.c 21 rule violations " 
+ , "texte" : "File crypto/encode_decode/decoder_meth.c 59 rule violations " 
  , "fic2"  : "./qc/crypto/encode_decode/decoder_meth.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "38"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,20 +54,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "14"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "4"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "04059"
- , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#4059"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[04059] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/encode_decode/decoder_meth.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "02116"
  , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#2116"
@@ -213,6 +206,279 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#3692"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03692] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08328"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#8328"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08328] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13779"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#13779"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13779] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13784"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#13784"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13784] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13809"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#13809"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13809] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13814"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#13814"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13814] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13843"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#13843"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13843] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13848"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#13848"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13848] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13869"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#13869"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13869] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13874"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#13874"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13874] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13890"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#13890"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13890] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13909"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#13909"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13909] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13914"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#13914"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13914] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13934"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#13934"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13934] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13939"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#13939"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13939] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13960"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#13960"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13960] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13965"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#13965"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13965] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13986"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#13986"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13986] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13991"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#13991"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13991] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "14013"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#14013"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14013] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "14018"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#14018"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14018] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "14042"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#14042"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14042] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "14047"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#14047"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14047] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15374"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#15374"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15374] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15384"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#15384"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15384] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15492"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#15492"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15492] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15511"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#15511"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15511] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15538"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#15538"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15538] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15573"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#15573"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15573] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15599"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#15599"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15599] The pointer namemap is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15623"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#15623"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15623] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15628"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#15628"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15628] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15635"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#15635"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15635] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15659"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#15659"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15659] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15670"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#15670"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15670] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15683"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#15683"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15683] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15973"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#15973"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15973] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "16043"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#16043"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[16043] The pointer method is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "16198"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#16198"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[16198] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "16339"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#16339"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[16339] The pointer ctx is declared but not initialized"
 }} 
 ]
 };

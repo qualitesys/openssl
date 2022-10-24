@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ct/ct_sct_ctx.c.html" 
- , "texte" : "File crypto/ct/ct_sct_ctx.c 21 rule violations " 
+ , "texte" : "File crypto/ct/ct_sct_ctx.c 37 rule violations " 
  , "fic2"  : "./qc/crypto/ct/ct_sct_ctx.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,9 +40,16 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,20 +68,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "12"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03735"
- , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#3735"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03735] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ct/ct_sct_ctx.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00395"
  , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#395"
@@ -213,6 +220,125 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#2949"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02949] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13419"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13419"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13419] The pointer preextdata is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13446"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13446"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[13446] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13466"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13466"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13466] The expression poison_ext_is_dup applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13467"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13467"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13467] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13477"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13477"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13477] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13481"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13481"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13481] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13487"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13487"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13487] The expression sct_ext_is_dup applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13488"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13488"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13488] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13495"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13495"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13495] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13516"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13516"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13516] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13521"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13521"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13521] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13525"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13525"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13525] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13550"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13550"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[13550] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13568"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13568"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13568] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13584"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13584"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13584] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13590"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13590"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13590] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13597"
+ , "c1link" : "./qc/crypto/ct/ct_sct_ctx.c.html#13597"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13597] goto statement jump to err"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/exchange/kdf_exch.c.html" 
- , "texte" : "File providers/implementations/exchange/kdf_exch.c 20 rule violations " 
+ , "texte" : "File providers/implementations/exchange/kdf_exch.c 24 rule violations " 
  , "fic2"  : "./qc/providers/implementations/exchange/kdf_exch.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,13 +40,6 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "15"
@@ -61,20 +54,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "4"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03363"
- , "c1link" : "./qc/providers/implementations/exchange/kdf_exch.c.html#3363"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03363] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/exchange/kdf_exch.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01209"
  , "c1link" : "./qc/providers/implementations/exchange/kdf_exch.c.html#1209"
@@ -206,6 +199,41 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/exchange/kdf_exch.c.html#2791"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[02791] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06763"
+ , "c1link" : "./qc/providers/implementations/exchange/kdf_exch.c.html#6763"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06763] The pointer kdfctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06801"
+ , "c1link" : "./qc/providers/implementations/exchange/kdf_exch.c.html#6801"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06801] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06810"
+ , "c1link" : "./qc/providers/implementations/exchange/kdf_exch.c.html#6810"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[06810] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06916"
+ , "c1link" : "./qc/providers/implementations/exchange/kdf_exch.c.html#6916"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06916] The pointer dstctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06982"
+ , "c1link" : "./qc/providers/implementations/exchange/kdf_exch.c.html#6982"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[06982] The pointer params is declared but not initialized"
 }} 
 ]
 };

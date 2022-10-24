@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.html" 
- , "texte" : "File providers/implementations/encode_decode/decode_spki2typespki.c 21 rule violations " 
+ , "texte" : "File providers/implementations/encode_decode/decode_spki2typespki.c 27 rule violations " 
  , "fic2"  : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,8 +40,8 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
  , "c4" : "1"
 }}
 ,
@@ -49,7 +49,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "17"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,20 +61,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03733"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.html#3733"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03733] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/encode_decode/decode_spki2typespki.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00383"
  , "c1link" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.html#383"
@@ -213,6 +213,55 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.html#3189"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03189] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13302"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.html#13302"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13302] The pointer der is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13302"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.html#13302"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13302] The pointer derp is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13302"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.html#13302"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[13302] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13338"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.html#13338"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13338] goto statement jump to end"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13354"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.html#13354"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13354] goto statement jump to end"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13372"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.html#13372"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13372] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13373"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.html#13373"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[13373] goto statement jump to end"
 }} 
 ]
 };

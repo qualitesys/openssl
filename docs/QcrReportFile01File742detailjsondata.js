@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ui/ui_openssl.c.html" 
- , "texte" : "File crypto/ui/ui_openssl.c 21 rule violations " 
+ , "texte" : "File crypto/ui/ui_openssl.c 57 rule violations " 
  , "fic2"  : "./qc/crypto/ui/ui_openssl.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,16 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "40"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,20 +61,27 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "5"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "4"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03371"
- , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#3371"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03371] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ui/ui_openssl.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01429"
  , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#1429"
@@ -213,6 +220,265 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#2833"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[02833] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05569"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#5569"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05569] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05574"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#5574"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05574] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05599"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#5599"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05599] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05604"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#5604"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05604] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05633"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#5633"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05633] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05638"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#5638"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05638] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05659"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#5659"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05659] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05664"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#5664"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05664] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05680"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#5680"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05680] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05699"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#5699"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05699] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05704"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#5704"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05704] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05724"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#5724"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05724] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05729"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#5729"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05729] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05750"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#5750"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05750] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05755"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#5755"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05755] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05776"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#5776"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05776] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05781"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#5781"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05781] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05803"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#5803"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05803] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05808"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#5808"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05808] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05832"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#5832"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05832] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05837"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#5837"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05837] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10041"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#10041"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10041] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15351"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15351"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15351] The pointer tty_in is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15351"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15351"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[15351] The pointer tty_out is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15416"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15416"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15416] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15442"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15442"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15442] The expression 4 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15444"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15444"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[15444] The expression '\n' is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15485"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15485"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15485] goto statement jump to error"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15496"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15496"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15496] goto statement jump to error"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15498"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15498"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15498] goto statement jump to error"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15500"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15500"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15500] goto statement jump to error"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15501"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15501"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15501] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15506"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15506"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15506] The expression strip_nl applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15509"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15509"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[15509] goto statement jump to error"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15520"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15520"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[15520] The expression echo_eol applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15546"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15546"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15546] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "15556"
+ , "c1link" : "./qc/crypto/ui/ui_openssl.c.html#15556"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[15556] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/ec_deprecated.c.html" 
- , "texte" : "File crypto/ec/ec_deprecated.c 20 rule violations " 
+ , "texte" : "File crypto/ec/ec_deprecated.c 28 rule violations " 
  , "fic2"  : "./qc/crypto/ec/ec_deprecated.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,16 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "15"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,20 +61,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "4"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03363"
- , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#3363"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03363] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ec/ec_deprecated.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01209"
  , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#1209"
@@ -206,6 +206,69 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#2791"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[02791] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05142"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#5142"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05142] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07070"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7070"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[07070] The pointer buf is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07070"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7070"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[07070] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07092"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7092"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[07092] The pointer buf is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07092"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7092"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[07092] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07093"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7093"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[07093] The pointer ret is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07095"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7095"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07095] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07097"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7097"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07097] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07122"
+ , "c1link" : "./qc/crypto/ec/ec_deprecated.c.html#7122"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[07122] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

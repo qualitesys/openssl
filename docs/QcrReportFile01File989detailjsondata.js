@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/macs/poly1305_prov.c.html" 
- , "texte" : "File providers/implementations/macs/poly1305_prov.c 21 rule violations " 
+ , "texte" : "File providers/implementations/macs/poly1305_prov.c 26 rule violations " 
  , "fic2"  : "./qc/providers/implementations/macs/poly1305_prov.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,13 +40,6 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "16"
@@ -61,20 +54,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "5"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03940"
- , "c1link" : "./qc/providers/implementations/macs/poly1305_prov.c.html#3940"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03940] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/macs/poly1305_prov.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "02118"
  , "c1link" : "./qc/providers/implementations/macs/poly1305_prov.c.html#2118"
@@ -213,6 +206,48 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/macs/poly1305_prov.c.html#3515"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03515] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08644"
+ , "c1link" : "./qc/providers/implementations/macs/poly1305_prov.c.html#8644"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08644] The pointer ctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08670"
+ , "c1link" : "./qc/providers/implementations/macs/poly1305_prov.c.html#8670"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08670] The pointer dst is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08783"
+ , "c1link" : "./qc/providers/implementations/macs/poly1305_prov.c.html#8783"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08783] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08785"
+ , "c1link" : "./qc/providers/implementations/macs/poly1305_prov.c.html#8785"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08785] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08820"
+ , "c1link" : "./qc/providers/implementations/macs/poly1305_prov.c.html#8820"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[08820] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08822"
+ , "c1link" : "./qc/providers/implementations/macs/poly1305_prov.c.html#8822"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[08822] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };

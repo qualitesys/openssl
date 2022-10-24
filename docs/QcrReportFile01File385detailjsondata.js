@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/ec_print.c.html" 
- , "texte" : "File crypto/ec/ec_print.c 21 rule violations " 
+ , "texte" : "File crypto/ec/ec_print.c 30 rule violations " 
  , "fic2"  : "./qc/crypto/ec/ec_print.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,8 +40,15 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
  , "c4" : "1"
 }}
 ,
@@ -49,7 +56,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "17"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,20 +68,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "4"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03713"
- , "c1link" : "./qc/crypto/ec/ec_print.c.html#3713"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03713] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ec/ec_print.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00383"
  , "c1link" : "./qc/crypto/ec/ec_print.c.html#383"
@@ -213,6 +220,76 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/ec_print.c.html#3141"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[03141] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09904"
+ , "c1link" : "./qc/crypto/ec/ec_print.c.html#9904"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09904] The pointer ret is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09904"
+ , "c1link" : "./qc/crypto/ec/ec_print.c.html#9904"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09904] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09910"
+ , "c1link" : "./qc/crypto/ec/ec_print.c.html#9910"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[09910] The pointer pbuf is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09906"
+ , "c1link" : "./qc/crypto/ec/ec_print.c.html#9906"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[09906] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09952"
+ , "c1link" : "./qc/crypto/ec/ec_print.c.html#9952"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[09952] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09990"
+ , "c1link" : "./qc/crypto/ec/ec_print.c.html#9990"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[09990] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10002"
+ , "c1link" : "./qc/crypto/ec/ec_print.c.html#10002"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10002] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10004"
+ , "c1link" : "./qc/crypto/ec/ec_print.c.html#10004"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[10004] The expression '\0' is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10006"
+ , "c1link" : "./qc/crypto/ec/ec_print.c.html#10006"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[10006] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10010"
+ , "c1link" : "./qc/crypto/ec/ec_print.c.html#10010"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10010] The expression  ! ok applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/cms/cms_att.c.html" 
- , "texte" : "File crypto/cms/cms_att.c 20 rule violations " 
+ , "texte" : "File crypto/cms/cms_att.c 23 rule violations " 
  , "fic2"  : "./qc/crypto/cms/cms_att.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "15"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : { "" : ""
@@ -63,18 +56,11 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03387"
- , "c1link" : "./qc/crypto/cms/cms_att.c.html#3387"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03387] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/cms/cms_att.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01192"
  , "c1link" : "./qc/crypto/cms/cms_att.c.html#1192"
@@ -206,6 +192,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/cms/cms_att.c.html#2843"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02843] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08383"
+ , "c1link" : "./qc/crypto/cms/cms_att.c.html#8383"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08383] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "14195"
+ , "c1link" : "./qc/crypto/cms/cms_att.c.html#14195"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[14195] The pointer at is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "14260"
+ , "c1link" : "./qc/crypto/cms/cms_att.c.html#14260"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14260] The expression 0x01 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "14262"
+ , "c1link" : "./qc/crypto/cms/cms_att.c.html#14262"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[14262] The expression 0x02 is invariable"
 }} 
 ]
 };

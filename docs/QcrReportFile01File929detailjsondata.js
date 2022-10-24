@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html" 
- , "texte" : "File providers/implementations/ciphers/ciphercommon_hw.c 21 rule violations " 
+ , "texte" : "File providers/implementations/ciphers/ciphercommon_hw.c 48 rule violations " 
  , "fic2"  : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,16 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "38"
 }}
 ,
 { "ligne" : { "" : ""
@@ -68,13 +68,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03372"
- , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#3372"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03372] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/ciphercommon_hw.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01550"
  , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#1550"
@@ -213,6 +206,202 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#2947"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02947] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08123"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#8123"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08123] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09482"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#9482"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09482] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09487"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#9487"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09487] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09512"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#9512"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09512] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09517"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#9517"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09517] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09546"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#9546"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09546] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09551"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#9551"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09551] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09572"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#9572"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09572] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09577"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#9577"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09577] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09593"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#9593"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09593] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09612"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#9612"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09612] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09617"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#9617"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09617] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09637"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#9637"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09637] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09642"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#9642"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09642] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09663"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#9663"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09663] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09668"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#9668"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09668] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09689"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#9689"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09689] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09694"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#9694"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09694] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09716"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#9716"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09716] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09721"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#9721"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09721] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09745"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#9745"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09745] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "09750"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#9750"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[09750] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10735"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#10735"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10735] The expression dat-&gt;stream.cbc applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10737"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#10737"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10737] The expression dat-&gt;enc applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10753"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#10753"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10753] The expression dat-&gt;stream.ecb applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10804"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#10804"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10804] The expression dat-&gt;use_bits applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10818"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#10818"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10818] The expression len applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10832"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_hw.c.html#10832"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10832] The expression dat-&gt;stream.ctr applies to a single value or variable, might be ambiguous."
 }} 
 ]
 };

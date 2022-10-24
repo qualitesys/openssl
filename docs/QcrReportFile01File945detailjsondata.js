@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html" 
- , "texte" : "File providers/implementations/encode_decode/decode_epki2pki.c 21 rule violations " 
+ , "texte" : "File providers/implementations/encode_decode/decode_epki2pki.c 28 rule violations " 
  , "fic2"  : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,8 +40,15 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
  , "c4" : "1"
 }}
 ,
@@ -49,7 +56,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,20 +68,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03959"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#3959"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03959] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/encode_decode/decode_epki2pki.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "02127"
  , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2127"
@@ -213,6 +220,62 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#3775"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03775] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08435"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#8435"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08435] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13021"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#13021"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[13021] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13026"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#13026"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[13026] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13061"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#13061"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[13061] The expression  ! ok applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13064"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#13064"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[13064] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13070"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#13070"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[13070] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13096"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#13096"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[13096] The pointer oct is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "13107"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#13107"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[13107] The expression 0 is invariable, always false"
 }} 
 ]
 };

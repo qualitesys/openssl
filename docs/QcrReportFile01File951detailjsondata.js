@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/encode_decode/encode_key2blob.c.html" 
- , "texte" : "File providers/implementations/encode_decode/encode_key2blob.c 21 rule violations " 
+ , "texte" : "File providers/implementations/encode_decode/encode_key2blob.c 23 rule violations " 
  , "fic2"  : "./qc/providers/implementations/encode_decode/encode_key2blob.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,8 +40,15 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
  , "c4" : "1"
 }}
 ,
@@ -49,7 +56,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "17"
 }}
 ,
 { "ligne" : { "" : ""
@@ -68,13 +75,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03952"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2blob.c.html#3952"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03952] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/encode_decode/encode_key2blob.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "02130"
  , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2blob.c.html#2130"
@@ -213,6 +213,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2blob.c.html#3527"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03527] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08361"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2blob.c.html#8361"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08361] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10046"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2blob.c.html#10046"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[10046] The expression check1 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "10058"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2blob.c.html#10058"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[10058] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

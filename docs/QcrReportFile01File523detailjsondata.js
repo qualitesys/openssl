@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ffc/ffc_key_validate.c.html" 
- , "texte" : "File crypto/ffc/ffc_key_validate.c 21 rule violations " 
+ , "texte" : "File crypto/ffc/ffc_key_validate.c 32 rule violations " 
  , "fic2"  : "./qc/crypto/ffc/ffc_key_validate.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,6 +54,13 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "10"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
  , "c4" : "1"
@@ -68,13 +68,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03368"
- , "c1link" : "./qc/crypto/ffc/ffc_key_validate.c.html#3368"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03368] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ffc/ffc_key_validate.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01546"
  , "c1link" : "./qc/crypto/ffc/ffc_key_validate.c.html#1546"
@@ -213,6 +206,90 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ffc/ffc_key_validate.c.html#2943"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[02943] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08176"
+ , "c1link" : "./qc/crypto/ffc/ffc_key_validate.c.html#8176"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08176] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08186"
+ , "c1link" : "./qc/crypto/ffc/ffc_key_validate.c.html#8186"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08186] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08187"
+ , "c1link" : "./qc/crypto/ffc/ffc_key_validate.c.html#8187"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08187] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08190"
+ , "c1link" : "./qc/crypto/ffc/ffc_key_validate.c.html#8190"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08190] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08198"
+ , "c1link" : "./qc/crypto/ffc/ffc_key_validate.c.html#8198"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[08198] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08199"
+ , "c1link" : "./qc/crypto/ffc/ffc_key_validate.c.html#8199"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08199] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08202"
+ , "c1link" : "./qc/crypto/ffc/ffc_key_validate.c.html#8202"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08202] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08253"
+ , "c1link" : "./qc/crypto/ffc/ffc_key_validate.c.html#8253"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08253] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08264"
+ , "c1link" : "./qc/crypto/ffc/ffc_key_validate.c.html#8264"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08264] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08267"
+ , "c1link" : "./qc/crypto/ffc/ffc_key_validate.c.html#8267"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08267] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08299"
+ , "c1link" : "./qc/crypto/ffc/ffc_key_validate.c.html#8299"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08299] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "08303"
+ , "c1link" : "./qc/crypto/ffc/ffc_key_validate.c.html#8303"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[08303] goto statement jump to err"
 }} 
 ]
 };

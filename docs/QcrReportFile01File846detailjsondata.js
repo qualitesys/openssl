@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/common/der/der_sm2_sig.c.html" 
- , "texte" : "File providers/common/der/der_sm2_sig.c 22 rule violations " 
+ , "texte" : "File providers/common/der/der_sm2_sig.c 59 rule violations " 
  , "fic2"  : "./qc/providers/common/der/der_sm2_sig.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,23 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
+ , "c4" : "7"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "17"
+ , "c4" : "38"
 }}
 ,
 { "ligne" : { "" : ""
@@ -63,18 +70,11 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "7"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03735"
- , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#3735"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03735] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/common/der/der_sm2_sig.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00391"
  , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#391"
@@ -220,6 +220,272 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#3247"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[03247] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06391"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#6391"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06391] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06396"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#6396"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06396] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06421"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#6421"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06421] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06426"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#6426"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06426] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06455"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#6455"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06455] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06460"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#6460"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06460] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06481"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#6481"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06481] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06486"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#6486"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06486] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06502"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#6502"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06502] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06521"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#6521"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06521] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06526"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#6526"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06526] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06546"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#6546"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06546] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06551"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#6551"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06551] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06572"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#6572"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06572] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06577"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#6577"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06577] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06598"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#6598"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06598] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06603"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#6603"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06603] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06625"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#6625"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06625] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06630"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#6630"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06630] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06654"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#6654"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06654] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06659"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#6659"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06659] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06865"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#6865"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06865] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06906"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#6906"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[06906] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07033"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#7033"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07033] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07079"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#7079"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[07079] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07263"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#7263"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[07263] The pointer data is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07263"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#7263"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[07263] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07285"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#7285"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[07285] The pointer data is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07285"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#7285"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[07285] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07304"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#7304"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[07304] The pointer data is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07304"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#7304"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[07304] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07327"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#7327"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[07327] The pointer data is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07327"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#7327"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[07327] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07347"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#7347"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[07347] The pointer data is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07347"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#7347"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[07347] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07365"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#7365"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[07365] The pointer data is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07365"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#7365"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[07365] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "11786"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#11786"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[11786] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 };

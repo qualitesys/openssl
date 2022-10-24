@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/lib/engine_loader.c.html" 
- , "texte" : "File apps/lib/engine_loader.c 21 rule violations " 
+ , "texte" : "File apps/lib/engine_loader.c 51 rule violations " 
  , "fic2"  : "./qc/apps/lib/engine_loader.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,16 +40,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c4" : "44"
 }}
 ,
 { "ligne" : { "" : ""
@@ -61,20 +54,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "03373"
- , "c1link" : "./qc/apps/lib/engine_loader.c.html#3373"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03373] syntax analysis failed on file /home/runner/work/openssl/openssl/apps/lib/engine_loader.c near following tokens , CRYPTO_realloc_fn CPP_POINTEUR realloc_fn , CRYPTO_free_fn CPP_POINTEUR free_fn ) ; __attribute__ ( ( malloc ) ) void CPP_POINTEUR CRYPTO_malloc ( size_t "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01431"
  , "c1link" : "./qc/apps/lib/engine_loader.c.html#1431"
@@ -213,6 +206,223 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/lib/engine_loader.c.html#2835"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[02835] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05571"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#5571"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05571] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05576"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#5576"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05576] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05601"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#5601"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05601] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05606"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#5606"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05606] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05635"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#5635"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05635] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05640"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#5640"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05640] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05661"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#5661"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05661] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05666"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#5666"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05666] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05682"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#5682"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05682] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05701"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#5701"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05701] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05706"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#5706"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05706] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05726"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#5726"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05726] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05731"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#5731"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05731] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05752"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#5752"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05752] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05757"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#5757"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05757] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05778"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#5778"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05778] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05783"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#5783"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05783] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05805"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#5805"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05805] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05810"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#5810"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05810] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05834"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#5834"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05834] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05839"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#5839"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[05839] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06193"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#6193"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[06193] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07523"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#7523"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07523] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07528"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#7528"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07528] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07554"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#7554"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07554] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "07559"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#7559"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[07559] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "18921"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#18921"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[18921] The pointer q is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "18938"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#18938"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[18938] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "18952"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#18952"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[18952] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "18953"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#18953"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[18953] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "19085"
+ , "c1link" : "./qc/apps/lib/engine_loader.c.html#19085"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[19085] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 };
