@@ -43,11 +43,23 @@ jobs:
     - name: rm  doc
       run: |
           rm -rf doc
+    - name: rm  targetqcr/**/*.lin
+      run: |
+          cd targetqcr
+          find . -type f -name "*.var.lin" -delete
+          cd ..
+    - name: rm  targetqcr/**/*.qch
+      run: |
+          cd targetqcr
+          find . -type f -name "*.qch" -delete
+          cd ..
     - name: mvn -version
       run: |
           mvn -version
     - name: maven describe mojo
       run: mvn help:describe -Dplugin=com.qualitesys.maven.plugins:qcr-maven-plugin -Ddetail=true
+    - name: disk usage
+      run: du
     - name: Run maven site
       run: mvn site
     - name: ls -l
