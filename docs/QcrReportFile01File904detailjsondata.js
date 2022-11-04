@@ -376,5 +376,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[11438] The pointer ctx is declared but not initialized"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/providers/implementations/ciphers/cipher_rc4.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

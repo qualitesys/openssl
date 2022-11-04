@@ -684,5 +684,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000007[09075] goto statement jump to err"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/bn/bn_rsa_fips186_4.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

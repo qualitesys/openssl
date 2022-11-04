@@ -467,5 +467,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[11561] The expression 4096 is invariable"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/bio/bio_sock2.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

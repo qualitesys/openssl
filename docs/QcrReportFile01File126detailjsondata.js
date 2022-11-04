@@ -684,5 +684,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[15696] The expression keylen applies to a single value or variable, might be ambiguous."
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/asn1/p5_scrypt.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

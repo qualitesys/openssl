@@ -54,5 +54,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP999999[00024] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ec/ecp_nistz256_table.c near following tokens # if defined ( __GNUC__ ) ZZ __attribute ( ( aligned "
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/ec/ecp_nistz256_table.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

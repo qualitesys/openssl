@@ -418,5 +418,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[15624] The expression 0 is invariable, always false"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/evp/evp_cnf.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

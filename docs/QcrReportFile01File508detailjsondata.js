@@ -229,5 +229,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[11004] The expression 408 is invariable"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/evp/p_legacy.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

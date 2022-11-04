@@ -530,5 +530,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000007[11183] goto statement jump to err"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/providers/implementations/kem/ec_kem.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

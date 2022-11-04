@@ -397,5 +397,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[14744] The expression bnam-&gt;lname applies to a single value or variable, might be ambiguous."
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/asn1/t_bitst.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

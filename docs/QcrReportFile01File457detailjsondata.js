@@ -243,5 +243,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[10159] The expression dat-&gt;stream.ctr applies to a single value or variable, might be ambiguous."
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/evp/e_camellia.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

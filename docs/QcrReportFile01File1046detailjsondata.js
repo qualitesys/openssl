@@ -950,5 +950,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[22669] The pointer next is declared but not initialized"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/ssl/ssl_sess.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -257,5 +257,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[12737] The expression 0 is invariable, always false"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/apps/lib/apps_ui.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

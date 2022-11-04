@@ -425,5 +425,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[18932] The expression show_type_number applies to a single value or variable, might be ambiguous."
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/apps/lib/app_params.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

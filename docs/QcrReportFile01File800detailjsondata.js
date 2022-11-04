@@ -593,5 +593,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[14645] The expression  ! gs_doit[j&amp;3] applies to a single value or variable, might be ambiguous."
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/x509/x509_obj.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -376,5 +376,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[14751] The expression openssl_configured applies to a single value or variable, might be ambiguous."
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/conf/conf_sap.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

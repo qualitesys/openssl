@@ -1734,5 +1734,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[24095] The expression 1 is invariable, always true"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/ssl/statem/extensions_clnt.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

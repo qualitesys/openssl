@@ -425,5 +425,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[20838] The expression '%lx' is invariable"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/apps/errstr.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

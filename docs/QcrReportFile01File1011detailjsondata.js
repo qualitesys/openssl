@@ -236,5 +236,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[06277] The expression '3.2.0-dev' is invariable"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/providers/nullprov.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -600,5 +600,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[13981] The expression 0 is invariable, always false"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/providers/implementations/signature/sm2_sig.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

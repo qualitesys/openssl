@@ -985,5 +985,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[16243] The expression dat-&gt;qualifier_set applies to a single value or variable, might be ambiguous."
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/x509/v3_cpols.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

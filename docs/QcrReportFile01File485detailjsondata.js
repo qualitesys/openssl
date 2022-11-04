@@ -516,5 +516,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[12627] The pointer provctx is declared but not initialized"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/evp/exchange.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -208,5 +208,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[12088] The pointer nsseq is declared but not initialized"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/asn1/nsseq.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

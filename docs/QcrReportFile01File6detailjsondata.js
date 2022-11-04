@@ -747,5 +747,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000007[19499] goto statement jump to end"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/apps/crl.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -614,5 +614,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[06051] The expression ctx applies to a single value or variable, might be ambiguous."
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/modes/ocb128.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -236,5 +236,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[06982] The pointer params is declared but not initialized"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/providers/implementations/exchange/kdf_exch.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

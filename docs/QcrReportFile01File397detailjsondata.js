@@ -341,5 +341,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[12826] The pointer palg is declared but not initialized"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/ec/ecx_backend.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

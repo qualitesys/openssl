@@ -236,5 +236,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPPCWE481[13214] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/providers/implementations/encode_decode/encode_key2ms.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

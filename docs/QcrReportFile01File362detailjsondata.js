@@ -348,5 +348,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[05837] The expression 2&gt;1 is invariable"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/ec/curve448/arch_32/f_impl32.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

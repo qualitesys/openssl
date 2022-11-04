@@ -467,5 +467,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[09270] The expression dso-&gt;loaded_filename applies to a single value or variable, might be ambiguous."
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/dso/dso_lib.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

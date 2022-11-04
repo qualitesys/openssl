@@ -516,5 +516,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[15630] The pointer rand is declared but not initialized"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/rand/rand_lib.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

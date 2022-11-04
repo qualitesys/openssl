@@ -334,5 +334,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[13352] The pointer keydata is declared but not initialized"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/providers/implementations/encode_decode/decode_msblob2key.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

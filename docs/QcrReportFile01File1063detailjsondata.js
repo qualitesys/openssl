@@ -516,5 +516,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[20458] The pointer ret is declared but not initialized"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/ssl/tls_depr.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

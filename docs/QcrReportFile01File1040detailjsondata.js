@@ -37,5 +37,8 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data15" : [
+   "fichierplantumlsvg" : "./qc/ssl/ssl_err_legacy.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

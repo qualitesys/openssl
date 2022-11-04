@@ -586,5 +586,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000019[21443] The variable naccept is post decremented and is tested with equility, risk to be always false"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/apps/lib/s_socket.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

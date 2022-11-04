@@ -467,5 +467,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000007[13476] goto statement jump to end"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/ct/ct_vfy.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

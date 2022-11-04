@@ -432,5 +432,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[08832] The expression  ! icv applies to a single value or variable, might be ambiguous."
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/modes/wrap128.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

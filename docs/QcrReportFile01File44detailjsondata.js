@@ -670,5 +670,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[19337] The expression out_bin applies to a single value or variable, might be ambiguous."
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/apps/mac.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

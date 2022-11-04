@@ -222,5 +222,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[08346] The expression 40 is invariable"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/md5/md5_sha1.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

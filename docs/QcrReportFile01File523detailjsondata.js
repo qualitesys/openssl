@@ -292,5 +292,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000007[08303] goto statement jump to err"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/ffc/ffc_key_validate.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

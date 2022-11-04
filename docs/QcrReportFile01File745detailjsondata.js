@@ -481,5 +481,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[09050] The expression --n applies to a single value or variable, might be ambiguous."
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/whrlpool/wp_block.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

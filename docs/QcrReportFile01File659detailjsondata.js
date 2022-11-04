@@ -845,5 +845,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[15393] The pointer alg is declared but not initialized"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/rsa/rsa_backend.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

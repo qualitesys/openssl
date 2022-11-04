@@ -37,5 +37,8 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data15" : [
+   "fichierplantumlsvg" : "./qc/providers/prov_running.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

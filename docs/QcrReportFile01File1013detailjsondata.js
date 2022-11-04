@@ -775,5 +775,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[20395] The pointer bdata is declared but not initialized"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/ssl/bio_ssl.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

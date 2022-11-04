@@ -418,5 +418,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[08984] The pointer ret is declared but not initialized"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/core_algorithm.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

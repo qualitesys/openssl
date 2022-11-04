@@ -208,5 +208,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[04503] The expression enc applies to a single value or variable, might be ambiguous."
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/seed/seed_cbc.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

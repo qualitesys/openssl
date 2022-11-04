@@ -1699,5 +1699,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[21733] The pointer keyopt is declared but not initialized"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/apps/cms.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

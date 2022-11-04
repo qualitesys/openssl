@@ -89,5 +89,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000001[00708] The unary operator + should be avoided, confusing"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/cast/c_skey.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

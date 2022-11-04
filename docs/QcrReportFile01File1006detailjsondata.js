@@ -810,5 +810,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[14302] The expression 'auto' is invariable"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/providers/implementations/signature/rsa_sig.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

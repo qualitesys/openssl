@@ -383,5 +383,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[14728] The expression pdigest applies to a single value or variable, might be ambiguous."
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/asn1/x_sig.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

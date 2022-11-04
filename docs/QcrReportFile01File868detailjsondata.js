@@ -355,5 +355,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[10370] The expression 2&gt;1 is invariable"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

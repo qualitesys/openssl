@@ -425,5 +425,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[15258] The expression nm-&gt; alias  applies to a single value or variable, might be ambiguous."
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/evp/names.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

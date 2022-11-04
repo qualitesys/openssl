@@ -341,5 +341,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[04811] The expression md applies to a single value or variable, might be ambiguous."
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/whrlpool/wp_dgst.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -194,5 +194,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000018[02791] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/providers/implementations/digests/sm3_prov.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

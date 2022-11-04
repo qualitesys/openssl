@@ -376,5 +376,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000005[11199] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/evp/e_aes_cbc_hmac_sha256.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -656,5 +656,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[09752] The expression truncated applies to a single value or variable, might be ambiguous."
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/bio/bio_print.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

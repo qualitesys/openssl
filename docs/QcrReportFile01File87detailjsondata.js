@@ -474,5 +474,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000007[08845] goto statement jump to auxerr"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/asn1/a_dup.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

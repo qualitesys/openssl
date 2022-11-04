@@ -684,5 +684,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[11647] The expression alloc applies to a single value or variable, might be ambiguous."
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/dh/dh_key.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -439,5 +439,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000009[08952] Suspicious bitwise assignment with value 0, result is aa |=0 = aa"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/bn/bn_shift.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

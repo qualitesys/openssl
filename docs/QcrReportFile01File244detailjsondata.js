@@ -1503,5 +1503,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[18611] The pointer bio is declared but not initialized"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/cmp/cmp_msg.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

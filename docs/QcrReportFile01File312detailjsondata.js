@@ -313,5 +313,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[04846] The expression  ! u applies to a single value or variable, might be ambiguous."
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/des/fcrypt.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

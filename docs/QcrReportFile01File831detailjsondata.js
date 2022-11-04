@@ -362,5 +362,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[07926] The expression 'TLS-GROUP' is invariable"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/providers/common/capabilities.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

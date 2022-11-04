@@ -404,5 +404,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[15531] The expression ctx-&gt;pkey_gencb applies to a single value or variable, might be ambiguous."
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/dsa/dsa_pmeth.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -404,5 +404,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000007[15407] goto statement jump to bad_mapping"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/x509/pcy_map.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

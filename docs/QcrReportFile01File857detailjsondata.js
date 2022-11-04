@@ -222,5 +222,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[10334] The expression '' is invariable"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/providers/implementations/asymciphers/sm2_enc.c.svg" }
+
 };
 console.log('leListeStr 99 main end');

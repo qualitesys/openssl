@@ -173,5 +173,8 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[02629] The expression 9999&lt;3 is invariable"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/crypto/ec/curve448/curve448_tables.c.svg" }
+
 };
 console.log('leListeStr 99 main end');
