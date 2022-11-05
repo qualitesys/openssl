@@ -712,8 +712,10 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[08929] The pointer max is declared but not initialized"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/crypto/txt_db/txt_db.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/crypto/txt_db/txt_db.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

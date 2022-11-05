@@ -600,8 +600,10 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[21357] The expression use_supported applies to a single value or variable, might be ambiguous."
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/apps/ciphers.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/apps/ciphers.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

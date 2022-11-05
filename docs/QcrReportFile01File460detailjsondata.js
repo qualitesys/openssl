@@ -390,8 +390,10 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[11962] The expression 8 is invariable"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/crypto/evp/e_des.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/crypto/evp/e_des.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

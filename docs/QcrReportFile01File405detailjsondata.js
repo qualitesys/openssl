@@ -838,8 +838,10 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[10570] The pointer buf is declared but not initialized"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/crypto/encode_decode/encoder_lib.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/crypto/encode_decode/encoder_lib.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

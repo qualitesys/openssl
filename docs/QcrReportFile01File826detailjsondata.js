@@ -1055,8 +1055,10 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000007[18413] goto statement jump to skip_cbs"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/engines/e_loader_attic.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/engines/e_loader_attic.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

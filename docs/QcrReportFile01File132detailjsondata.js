@@ -670,8 +670,10 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000002[09569] Avoid multiple switch labels with default case in switch case"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/crypto/asn1/tasn_enc.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/crypto/asn1/tasn_enc.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

@@ -355,8 +355,10 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[15259] The pointer policy_id is declared but not initialized"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/crypto/ts/ts_req_print.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/crypto/ts/ts_req_print.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

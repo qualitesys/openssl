@@ -194,8 +194,10 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[02558] The expression 2&gt;1 is invariable"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/providers/implementations/digests/digestcommon.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/providers/implementations/digests/digestcommon.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

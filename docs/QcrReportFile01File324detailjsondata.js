@@ -369,8 +369,10 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000007[11471] goto statement jump to err"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/crypto/dh/dh_asn1.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/crypto/dh/dh_asn1.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

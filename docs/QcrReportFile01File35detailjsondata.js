@@ -37,8 +37,10 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data15" : [
-   "fichierplantumlsvg" : "./qc/apps/lib/fmt.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/apps/lib/fmt.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

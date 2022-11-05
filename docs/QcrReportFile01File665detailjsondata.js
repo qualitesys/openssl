@@ -656,8 +656,10 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[17602] The expression 'RSA-PSS' is invariable"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/crypto/rsa/rsa_lib.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/crypto/rsa/rsa_lib.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

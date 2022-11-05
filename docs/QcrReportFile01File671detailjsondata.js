@@ -1300,8 +1300,10 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[11199] The pointer pinfo is declared but not initialized"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/crypto/rsa/rsa_ossl.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/crypto/rsa/rsa_ossl.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

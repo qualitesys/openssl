@@ -453,8 +453,10 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[15408] The expression 'hash' is invariable"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/crypto/x509/v3_skid.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/crypto/x509/v3_skid.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

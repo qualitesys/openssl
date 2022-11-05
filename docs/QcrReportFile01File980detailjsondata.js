@@ -208,8 +208,10 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[06152] The pointer kdfdata is declared but not initialized"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

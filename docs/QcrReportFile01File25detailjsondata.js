@@ -390,8 +390,10 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[18946] The pointer prov is declared but not initialized"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/apps/lib/app_provider.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/apps/lib/app_provider.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

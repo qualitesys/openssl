@@ -530,8 +530,10 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000007[12610] goto statement jump to end"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/providers/implementations/keymgmt/dsa_kmgmt.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/providers/implementations/keymgmt/dsa_kmgmt.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

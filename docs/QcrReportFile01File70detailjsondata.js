@@ -831,8 +831,10 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[19724] The expression  ! noout applies to a single value or variable, might be ambiguous."
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/apps/storeutl.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/apps/storeutl.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

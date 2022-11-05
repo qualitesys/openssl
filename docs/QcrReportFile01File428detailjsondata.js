@@ -383,8 +383,10 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[15051] The expression e-&gt;rand_meth applies to a single value or variable, might be ambiguous."
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/crypto/engine/tb_rand.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/crypto/engine/tb_rand.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

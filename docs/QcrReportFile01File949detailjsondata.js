@@ -264,8 +264,10 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000007[13373] goto statement jump to end"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

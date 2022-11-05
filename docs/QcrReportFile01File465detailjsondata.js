@@ -411,8 +411,10 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[11715] The expression 0x3 is invariable"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/crypto/evp/e_rc2.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/crypto/evp/e_rc2.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

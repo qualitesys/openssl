@@ -229,8 +229,10 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[14165] The pointer ci is declared but not initialized"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/crypto/cms/cms_io.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/crypto/cms/cms_io.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

@@ -614,8 +614,10 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[19369] The expression hexdump applies to a single value or variable, might be ambiguous."
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/apps/rsautl.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/apps/rsautl.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

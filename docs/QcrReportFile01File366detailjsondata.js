@@ -355,8 +355,10 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[09615] The expression 57 is invariable"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/crypto/ec/curve448/eddsa.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/crypto/ec/curve448/eddsa.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

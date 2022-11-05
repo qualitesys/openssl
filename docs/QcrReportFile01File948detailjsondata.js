@@ -243,8 +243,10 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[13282] The pointer keydata is declared but not initialized"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/providers/implementations/encode_decode/decode_pvk2key.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/providers/implementations/encode_decode/decode_pvk2key.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

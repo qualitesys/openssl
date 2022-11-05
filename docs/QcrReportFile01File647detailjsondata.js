@@ -425,8 +425,10 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[10960] The expression '.rnd' is invariable"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/crypto/rand/randfile.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/crypto/rand/randfile.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

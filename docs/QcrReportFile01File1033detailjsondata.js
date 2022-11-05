@@ -509,8 +509,10 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[19878] The expression sc-&gt;msg_callback applies to a single value or variable, might be ambiguous."
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/ssl/s3_msg.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/ssl/s3_msg.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

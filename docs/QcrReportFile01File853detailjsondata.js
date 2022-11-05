@@ -229,8 +229,10 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[10182] The expression 0xF000 is invariable"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/providers/common/securitycheck.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/providers/common/securitycheck.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

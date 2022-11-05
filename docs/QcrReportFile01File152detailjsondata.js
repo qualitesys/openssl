@@ -369,8 +369,10 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[08778] The expression 0x00000100L is invariable"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/crypto/async/async.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/crypto/async/async.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

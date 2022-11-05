@@ -285,8 +285,10 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[09105] The expression 0x9 is invariable"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/providers/implementations/macs/gmac_prov.c.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/providers/implementations/macs/gmac_prov.c.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');
