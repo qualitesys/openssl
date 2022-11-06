@@ -586,10 +586,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[07674] The expression 1 is invariable, always true"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/crypto/asn1_dsa.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

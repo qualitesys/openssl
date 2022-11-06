@@ -1755,10 +1755,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[04997] The expression c-&gt;buflen applies to a single value or variable, might be ambiguous."
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/providers/implementations/digests/blake2b_prov.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

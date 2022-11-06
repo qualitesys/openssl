@@ -369,10 +369,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[12807] The pointer pbe is declared but not initialized"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/crypto/pkcs12/p12_npas.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

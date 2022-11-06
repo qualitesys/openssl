@@ -1153,10 +1153,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000007[12785] goto statement jump to err"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/providers/implementations/encode_decode/encode_key2text.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

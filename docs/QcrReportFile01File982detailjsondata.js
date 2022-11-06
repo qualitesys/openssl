@@ -558,10 +558,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[12686] The expression 0xF000 is invariable"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

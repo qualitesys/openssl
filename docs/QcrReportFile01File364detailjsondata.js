@@ -306,10 +306,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[06706] The expression cp applies to a single value or variable, might be ambiguous."
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/crypto/ec/curve448/curve448.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

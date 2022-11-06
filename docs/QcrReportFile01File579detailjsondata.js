@@ -278,10 +278,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[12960] The pointer mem is declared but not initialized"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/crypto/ocsp/ocsp_http.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

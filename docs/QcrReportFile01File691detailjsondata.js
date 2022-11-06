@@ -2952,10 +2952,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000001[08559] The unary operator + should be avoided, confusing"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/crypto/sha/sha1dgst.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

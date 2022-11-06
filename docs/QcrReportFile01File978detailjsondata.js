@@ -1258,10 +1258,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[15056] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/providers/implementations/keymgmt/ec_kmgmt.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

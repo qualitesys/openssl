@@ -264,10 +264,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[09842] The pointer alg is declared but not initialized"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/crypto/evp/kdf_meth.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

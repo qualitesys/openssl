@@ -866,10 +866,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000006[00214] The end expression of for loop is empty, infinite loop risk"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/crypto/rc2/rc2_cbc.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

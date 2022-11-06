@@ -369,10 +369,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[14776] The expression enam-&gt;lname applies to a single value or variable, might be ambiguous."
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/crypto/x509/v3_enum.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

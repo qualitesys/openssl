@@ -474,10 +474,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPPCWE481[19004] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/apps/lib/app_rand.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

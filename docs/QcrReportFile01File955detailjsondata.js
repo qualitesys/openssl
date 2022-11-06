@@ -390,10 +390,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[10205] The expression '' is invariable"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/providers/implementations/exchange/dh_exch.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

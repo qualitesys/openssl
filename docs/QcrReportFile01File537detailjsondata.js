@@ -194,10 +194,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[00120] The pointer tp is declared but not initialized"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/crypto/idea/i_skey.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

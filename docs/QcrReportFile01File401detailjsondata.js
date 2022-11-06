@@ -1188,10 +1188,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[11134] The expression new_data.flag_next_level_called applies to a single value or variable, might be ambiguous."
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/crypto/encode_decode/decoder_lib.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

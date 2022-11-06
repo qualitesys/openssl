@@ -579,10 +579,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[20186] The expression ctx-&gt;sendError applies to a single value or variable, might be ambiguous."
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/apps/lib/cmp_mock_srv.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

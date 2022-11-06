@@ -971,10 +971,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[22510] The expression (0x020|0x001) is invariable"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/ssl/statem/extensions.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

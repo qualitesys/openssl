@@ -1335,10 +1335,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[26116] The expression gensecret applies to a single value or variable, might be ambiguous."
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/ssl/s3_lib.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

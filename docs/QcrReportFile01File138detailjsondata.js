@@ -495,10 +495,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[09380] The expression nullerr applies to a single value or variable, might be ambiguous."
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/crypto/asn1/tasn_utl.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

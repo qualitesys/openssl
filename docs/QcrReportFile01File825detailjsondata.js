@@ -677,10 +677,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000018[17167] Suspicious mix of Bitwise and Literal expressions in (p[arg-4]&lt;&lt;8|p[arg-3])&gt;=0x0302"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/engines/e_dasync.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

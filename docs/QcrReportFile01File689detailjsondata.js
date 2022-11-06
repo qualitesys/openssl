@@ -89,10 +89,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[01073] The expression len applies to a single value or variable, might be ambiguous."
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/crypto/sha/keccak1600.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

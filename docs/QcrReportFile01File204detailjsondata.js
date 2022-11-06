@@ -614,10 +614,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[10226] The pointer ftl is declared but not initialized"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/crypto/bn/bn_lib.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

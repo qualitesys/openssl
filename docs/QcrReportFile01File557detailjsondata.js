@@ -355,10 +355,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[05092] The expression len-- applies to a single value or variable, might be ambiguous."
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/crypto/modes/ctr128.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -453,10 +453,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[11435] The expression 0 is invariable, always false"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/crypto/bio/bss_fd.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -37,10 +37,10 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-,
 "data15" : {
    "fichierplantumlsvg" : "./qc/crypto/camellia/cmll_cfb.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

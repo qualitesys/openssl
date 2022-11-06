@@ -376,10 +376,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[08680] The pointer tdata is declared but not initialized"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/crypto/thread/api.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

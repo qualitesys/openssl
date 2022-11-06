@@ -453,10 +453,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[16318] The pointer method is declared but not initialized"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/crypto/store/store_meth.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

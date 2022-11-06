@@ -537,10 +537,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[08504] The pointer kdf is declared but not initialized"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/crypto/hpke/hpke_util.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -334,10 +334,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[10041] The pointer md is declared but not initialized"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/providers/implementations/rands/drbg_hash.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

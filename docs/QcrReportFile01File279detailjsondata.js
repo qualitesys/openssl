@@ -285,10 +285,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[05500] The pointer nm is declared but not initialized"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/crypto/conf/conf_ssl.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

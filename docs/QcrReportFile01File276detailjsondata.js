@@ -348,10 +348,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[06197] The expression 2&gt;1 is invariable"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/crypto/conf/conf_mall.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

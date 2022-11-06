@@ -1090,10 +1090,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPPCWE484[21398] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/ssl/t1_trce.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

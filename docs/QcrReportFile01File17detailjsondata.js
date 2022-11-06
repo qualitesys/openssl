@@ -1090,10 +1090,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000007[19976] goto statement jump to err"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/apps/fipsinstall.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

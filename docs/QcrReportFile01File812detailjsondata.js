@@ -432,10 +432,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[14051] The pointer b64_str is declared but not initialized"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/crypto/x509/x509spki.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -509,10 +509,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[09016] The pointer p is declared but not initialized"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/crypto/params_dup.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

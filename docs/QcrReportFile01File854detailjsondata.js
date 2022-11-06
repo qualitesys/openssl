@@ -194,10 +194,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[02837] The expression 2&gt;1 is invariable"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/providers/common/securitycheck_default.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

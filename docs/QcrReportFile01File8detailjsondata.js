@@ -901,10 +901,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[20076] The expression binout applies to a single value or variable, might be ambiguous."
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/apps/dgst.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -684,10 +684,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000007[12872] goto statement jump to retry"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/crypto/bio/bio_lib.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

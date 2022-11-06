@@ -1468,10 +1468,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[20229] The expression  ! quiet applies to a single value or variable, might be ambiguous."
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/apps/passwd.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -201,10 +201,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[04891] The expression 0 is invariable, always false"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/crypto/engine/eng_err.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

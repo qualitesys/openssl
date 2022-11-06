@@ -369,10 +369,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000014[08738] The pointer prop is declared but not initialized"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/crypto/property/property_query.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

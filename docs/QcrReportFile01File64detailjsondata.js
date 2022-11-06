@@ -733,10 +733,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[21584] The expression (0x10) is invariable"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/apps/s_time.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

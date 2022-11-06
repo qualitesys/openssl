@@ -656,10 +656,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[16514] The expression  - 1 is invariable"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/crypto/x509/x509_lu.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -2245,10 +2245,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000011[27251] The expression mr applies to a single value or variable, might be ambiguous."
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/apps/speed.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

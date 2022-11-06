@@ -1111,10 +1111,11 @@ var maDataBlocs = {
  , "c3" : "QC-CPP000012[22888] The expression 0 is invariable, always false"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/apps/lib/s_cb.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

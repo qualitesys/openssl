@@ -37,10 +37,10 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-,
 "data15" : {
    "fichierplantumlsvg" : "./qc/crypto/provider_predefined.c.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');
