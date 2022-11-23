@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ffc/ffc_key_generate.c.html" 
- , "texte" : "File crypto/ffc/ffc_key_generate.c 28 rule violations " 
+ , "texte" : "File crypto/ffc/ffc_key_generate.c 1 rule violations " 
  , "fic2"  : "./qc/crypto/ffc/ffc_key_generate.c.xml" 
  , "fic3"  : "" 
 }
@@ -40,235 +40,18 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP000006"
- , "c3" : "Risk of infinite while loop"
+ , "c2" : "QC-CPP999999"
+ , "c3" : "Syntax error in source code"
  , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-CPP000012"
- , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "19"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-CPP000018"
- , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-CPP000007"
- , "c3" : "goto statement"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-CPP000014"
- , "c3" : "A pointer is defined but not initialized"
- , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01546"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#1546"
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01546] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01551"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#1551"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01551] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01576"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#1576"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01576] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01580"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#1580"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01580] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01583"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#1583"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01583] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01608"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#1608"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01608] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01612"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#1612"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01612] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&gt;=(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01616"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#1616"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[01616] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01624"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#1624"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01624] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02668"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#2668"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02668] The pointer __p is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02831"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#2831"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02831] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02834"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#2834"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02834] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02858"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#2858"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02858] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02862"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#2862"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02862] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02884"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#2884"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02884] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02884"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#2884"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02884] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02908"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#2908"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02908] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02914"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#2914"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02914] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02939"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#2939"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02939] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02943"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#2943"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[02943] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "08154"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#8154"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[08154] The pointer m is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "08162"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#8162"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08162] goto statement jump to err"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "08177"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#8177"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08177] goto statement jump to err"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "08184"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#8184"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08184] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "08185"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#8185"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08185] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "08186"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#8186"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[08186] goto statement jump to err"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "08190"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#8190"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[08190] The condition of do while loop is always true, infinite loop risk do{} while (1); 1"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "08190"
- , "c1link" : "./qc/crypto/ffc/ffc_key_generate.c.html#8190"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[08190] The expression 1 is invariable, always true"
+ , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ffc/ffc_key_generate.c near following tokens # 0 _crypto/ffc/ffc_key_generate.c_ ZZ # 0 __built-in__ ZZ # 0 __command-line__ "
 }} 
 ]
 , 
