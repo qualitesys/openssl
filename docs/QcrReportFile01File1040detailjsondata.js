@@ -8,12 +8,24 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c2" : "dummy"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/ssl/ssl_err_legacy.c.png" 
+
+ , "ligneplantuml" : "./qc/ssl/ssl_err_legacy.c.svg" }
+
 ] 
 , 
 "data04" : [

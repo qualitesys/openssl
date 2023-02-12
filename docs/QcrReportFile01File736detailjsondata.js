@@ -8,12 +8,24 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c2" : "dummy"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/crypto/ts/ts_rsp_verify.c.png" 
+
+ , "ligneplantuml" : "./qc/crypto/ts/ts_rsp_verify.c.svg" }
+
 ] 
 , 
 "data04" : [

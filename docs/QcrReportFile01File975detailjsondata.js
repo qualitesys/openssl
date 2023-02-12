@@ -8,12 +8,24 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c2" : "dummy"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/providers/implementations/kem/rsa_kem.c.png" 
+
+ , "ligneplantuml" : "./qc/providers/implementations/kem/rsa_kem.c.svg" }
+
 ] 
 , 
 "data04" : [

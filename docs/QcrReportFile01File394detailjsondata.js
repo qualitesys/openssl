@@ -8,12 +8,24 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c2" : "dummy"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/crypto/ec/ecp_nistz256_table.c.png" 
+
+ , "ligneplantuml" : "./qc/crypto/ec/ecp_nistz256_table.c.svg" }
+
 ] 
 , 
 "data04" : [

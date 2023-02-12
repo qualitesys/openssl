@@ -8,12 +8,24 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c2" : "dummy"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/crypto/encode_decode/decoder_pkey.c.png" 
+
+ , "ligneplantuml" : "./qc/crypto/encode_decode/decoder_pkey.c.svg" }
+
 ] 
 , 
 "data04" : [

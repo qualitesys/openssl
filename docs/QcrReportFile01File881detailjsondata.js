@@ -8,12 +8,24 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c2" : "dummy"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/providers/implementations/ciphers/cipher_aria_gcm.c.png" 
+
+ , "ligneplantuml" : "./qc/providers/implementations/ciphers/cipher_aria_gcm.c.svg" }
+
 ] 
 , 
 "data04" : [

@@ -8,12 +8,24 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c2" : "dummy"
+}} 
 ]
 , 
 "data02" : [
+{ "classe" : 
+ { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+] 
+}} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/providers/implementations/rands/seeding/rand_unix.c.png" 
+
+ , "ligneplantuml" : "./qc/providers/implementations/rands/seeding/rand_unix.c.svg" }
+
 ] 
 , 
 "data04" : [

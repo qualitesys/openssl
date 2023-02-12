@@ -1,0 +1,6 @@
+@startuml
+!pragma layout smetana
+"" <|-- "dummy"
+class dummy {
+} 
+@enduml
