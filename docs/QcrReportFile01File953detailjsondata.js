@@ -2341,10 +2341,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01601"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2text.c.html#1601"
+ , "c1" : "01840"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2text.c.html#1840"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01601] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/encode_decode/encode_key2text.c near following tokens ; extern int fclose ( FILE CPP_POINTEUR __stream ) ; extern FILE CPP_POINTEUR tmpfile ( void ) __attribute__ ( ( __malloc__ "
+ , "c3" : "QC-CPP999999[01840] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/encode_decode/encode_key2text.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
 }} 
 ]
 , 

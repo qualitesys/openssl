@@ -2323,10 +2323,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01466"
- , "c1link" : "./qc/providers/implementations/macs/cmac_prov.c.html#1466"
+ , "c1" : "01705"
+ , "c1link" : "./qc/providers/implementations/macs/cmac_prov.c.html#1705"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01466] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/macs/cmac_prov.c near following tokens ; extern int fclose ( FILE CPP_POINTEUR __stream ) ; extern FILE CPP_POINTEUR tmpfile ( void ) __attribute__ ( ( __malloc__ "
+ , "c3" : "QC-CPP999999[01705] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/macs/cmac_prov.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
 }} 
 ]
 , 

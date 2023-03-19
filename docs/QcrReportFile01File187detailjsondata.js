@@ -307,10 +307,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01591"
- , "c1link" : "./qc/crypto/bio/ossl_core_bio.c.html#1591"
+ , "c1" : "01638"
+ , "c1link" : "./qc/crypto/bio/ossl_core_bio.c.html#1638"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01591] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/bio/ossl_core_bio.c near following tokens ) __attribute__ ( ( __nothrow__ , __leaf__ ) ) ; extern void CPP_POINTEUR reallocarray ( void CPP_POINTEUR __ptr , size_t __nmemb "
+ , "c3" : "QC-CPP999999[01638] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/bio/ossl_core_bio.c near following tokens ) ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR aligned_alloc ( size_t __alignment , size_t __size ) "
 }} 
 ]
 , 

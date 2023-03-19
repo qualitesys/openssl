@@ -145,10 +145,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01250"
- , "c1link" : "./qc/ssl/record/methods/tls_multib.c.html#1250"
+ , "c1" : "01297"
+ , "c1link" : "./qc/ssl/record/methods/tls_multib.c.html#1297"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01250] syntax analysis failed on file /home/runner/work/openssl/openssl/ssl/record/methods/tls_multib.c near following tokens ) __attribute__ ( ( __nothrow__ , __leaf__ ) ) ; extern void CPP_POINTEUR reallocarray ( void CPP_POINTEUR __ptr , size_t __nmemb "
+ , "c3" : "QC-CPP999999[01297] syntax analysis failed on file /home/runner/work/openssl/openssl/ssl/record/methods/tls_multib.c near following tokens ) ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR aligned_alloc ( size_t __alignment , size_t __size ) "
 }} 
 ]
 , 

@@ -163,10 +163,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01381"
- , "c1link" : "./qc/apps/lib/http_server.c.html#1381"
+ , "c1" : "01428"
+ , "c1link" : "./qc/apps/lib/http_server.c.html#1428"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01381] syntax analysis failed on file /home/runner/work/openssl/openssl/apps/lib/http_server.c near following tokens ) __attribute__ ( ( __nothrow__ , __leaf__ ) ) ; extern void CPP_POINTEUR reallocarray ( void CPP_POINTEUR __ptr , size_t __nmemb "
+ , "c3" : "QC-CPP999999[01428] syntax analysis failed on file /home/runner/work/openssl/openssl/apps/lib/http_server.c near following tokens ) ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR aligned_alloc ( size_t __alignment , size_t __size ) "
 }} 
 ]
 , 

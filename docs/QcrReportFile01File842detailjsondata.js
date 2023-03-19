@@ -145,10 +145,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01089"
- , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#1089"
+ , "c1" : "01136"
+ , "c1link" : "./qc/providers/common/der/der_rsa_key.c.html#1136"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01089] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/common/der/der_rsa_key.c near following tokens ) __attribute__ ( ( __nothrow__ , __leaf__ ) ) ; extern void CPP_POINTEUR reallocarray ( void CPP_POINTEUR __ptr , size_t __nmemb "
+ , "c3" : "QC-CPP999999[01136] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/common/der/der_rsa_key.c near following tokens ) ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR aligned_alloc ( size_t __alignment , size_t __size ) "
 }} 
 ]
 , 

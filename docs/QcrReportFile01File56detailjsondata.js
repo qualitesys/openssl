@@ -61,10 +61,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00512"
- , "c1link" : "./qc/apps/progs.c.html#512"
+ , "c1" : "00751"
+ , "c1link" : "./qc/apps/progs.c.html#751"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00512] syntax analysis failed on file /home/runner/work/openssl/openssl/apps/progs.c near following tokens ; extern int fclose ( FILE CPP_POINTEUR __stream ) ; extern FILE CPP_POINTEUR tmpfile ( void ) __attribute__ ( ( __malloc__ "
+ , "c3" : "QC-CPP999999[00751] syntax analysis failed on file /home/runner/work/openssl/openssl/apps/progs.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
 }} 
 ]
 , 

@@ -61,10 +61,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00347"
- , "c1link" : "./qc/crypto/http/http_lib.c.html#347"
+ , "c1" : "00586"
+ , "c1link" : "./qc/crypto/http/http_lib.c.html#586"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00347] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/http/http_lib.c near following tokens ; extern int fclose ( FILE CPP_POINTEUR __stream ) ; extern FILE CPP_POINTEUR tmpfile ( void ) __attribute__ ( ( __malloc__ "
+ , "c3" : "QC-CPP999999[00586] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/http/http_lib.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
 }} 
 ]
 , 
