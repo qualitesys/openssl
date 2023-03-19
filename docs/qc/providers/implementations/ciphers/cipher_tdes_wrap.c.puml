@@ -1,6 +1,14 @@
 @startuml
 !pragma layout smetana
-"" <|-- "dummy"
 class dummy {
+atoi(char*) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../../.././qc/providers/implementations/ciphers/cipher_tdes_wrap.c.html#555]]]
+atol(char*) :  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../../.././qc/providers/implementations/ciphers/cipher_tdes_wrap.c.html#560]]]
+atoll(char*) :  long  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../../.././qc/providers/implementations/ciphers/cipher_tdes_wrap.c.html#567]]]
+__bswap_16(__uint16_t) : __uint16_t [[[./../../../.././qc/providers/implementations/ciphers/cipher_tdes_wrap.c.html#729]]]
+__bswap_32(__uint32_t) : __uint32_t [[[./../../../.././qc/providers/implementations/ciphers/cipher_tdes_wrap.c.html#744]]]
+__bswap_64(__uint64_t) : __uint64_t [[[./../../../.././qc/providers/implementations/ciphers/cipher_tdes_wrap.c.html#754]]]
+__uint16_identity(__uint16_t) : __uint16_t [[[./../../../.././qc/providers/implementations/ciphers/cipher_tdes_wrap.c.html#766]]]
+__uint32_identity(__uint32_t) : __uint32_t [[[./../../../.././qc/providers/implementations/ciphers/cipher_tdes_wrap.c.html#772]]]
+__uint64_identity(__uint64_t) : __uint64_t [[[./../../../.././qc/providers/implementations/ciphers/cipher_tdes_wrap.c.html#778]]]
 } 
 @enduml

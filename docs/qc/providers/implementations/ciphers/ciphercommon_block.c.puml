@@ -1,6 +1,14 @@
 @startuml
 !pragma layout smetana
-"" <|-- "dummy"
 class dummy {
+atoi(char*) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../../.././qc/providers/implementations/ciphers/ciphercommon_block.c.html#198]]]
+atol(char*) :  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../../.././qc/providers/implementations/ciphers/ciphercommon_block.c.html#203]]]
+atoll(char*) :  long  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../../.././qc/providers/implementations/ciphers/ciphercommon_block.c.html#210]]]
+__bswap_16(__uint16_t) : __uint16_t [[[./../../../.././qc/providers/implementations/ciphers/ciphercommon_block.c.html#510]]]
+__bswap_32(__uint32_t) : __uint32_t [[[./../../../.././qc/providers/implementations/ciphers/ciphercommon_block.c.html#525]]]
+__bswap_64(__uint64_t) : __uint64_t [[[./../../../.././qc/providers/implementations/ciphers/ciphercommon_block.c.html#535]]]
+__uint16_identity(__uint16_t) : __uint16_t [[[./../../../.././qc/providers/implementations/ciphers/ciphercommon_block.c.html#547]]]
+__uint32_identity(__uint32_t) : __uint32_t [[[./../../../.././qc/providers/implementations/ciphers/ciphercommon_block.c.html#553]]]
+__uint64_identity(__uint64_t) : __uint64_t [[[./../../../.././qc/providers/implementations/ciphers/ciphercommon_block.c.html#559]]]
 } 
 @enduml

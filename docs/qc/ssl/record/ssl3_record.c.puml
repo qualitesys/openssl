@@ -1,6 +1,14 @@
 @startuml
 !pragma layout smetana
-"" <|-- "dummy"
 class dummy {
+atoi(char*) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/ssl/record/ssl3_record.c.html#505]]]
+atol(char*) :  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/ssl/record/ssl3_record.c.html#510]]]
+atoll(char*) :  long  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/ssl/record/ssl3_record.c.html#517]]]
+__bswap_16(__uint16_t) : __uint16_t [[[./../../.././qc/ssl/record/ssl3_record.c.html#679]]]
+__bswap_32(__uint32_t) : __uint32_t [[[./../../.././qc/ssl/record/ssl3_record.c.html#694]]]
+__bswap_64(__uint64_t) : __uint64_t [[[./../../.././qc/ssl/record/ssl3_record.c.html#704]]]
+__uint16_identity(__uint16_t) : __uint16_t [[[./../../.././qc/ssl/record/ssl3_record.c.html#716]]]
+__uint32_identity(__uint32_t) : __uint32_t [[[./../../.././qc/ssl/record/ssl3_record.c.html#722]]]
+__uint64_identity(__uint64_t) : __uint64_t [[[./../../.././qc/ssl/record/ssl3_record.c.html#728]]]
 } 
 @enduml

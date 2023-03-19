@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-"" <|-- "dummy"
 class dummy {
+RC2_ofb64_encrypt(unsignedchar*;unsignedchar*;long;RC2_KEY*;unsignedchar*;int*) :  void  [[[./../../.././qc/crypto/rc2/rc2ofb64.c.html#79]]]
 } 
 @enduml

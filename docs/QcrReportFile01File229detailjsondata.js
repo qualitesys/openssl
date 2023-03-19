@@ -2,21 +2,43 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/camellia/cmll_misc.c.html" 
- , "texte" : "File crypto/camellia/cmll_misc.c 1 rule violations " 
+ , "texte" : "File crypto/camellia/cmll_misc.c 0 rule violation " 
  , "fic2"  : "./qc/crypto/camellia/cmll_misc.c.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c2" : "dummy"
-}} 
 ]
 , 
 "data02" : [
 { "classe" : 
  { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00145"
+ , "c5link" : "././qc/crypto/camellia/cmll_misc.c.html#145"
+ , "c1" : " int "
+ , "c2" : "Camellia_set_key(unsignedchar*;int;CAMELLIA_KEY*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00156"
+ , "c5link" : "././qc/crypto/camellia/cmll_misc.c.html#156"
+ , "c1" : " void "
+ , "c2" : "Camellia_encrypt(unsignedchar*;unsignedchar*;CAMELLIA_KEY*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00162"
+ , "c5link" : "././qc/crypto/camellia/cmll_misc.c.html#162"
+ , "c1" : " void "
+ , "c2" : "Camellia_decrypt(unsignedchar*;unsignedchar*;CAMELLIA_KEY*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -56,24 +78,6 @@ var maDataBlocs = {
 ]
 , 
 "data14" : [
-]
-, 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/camellia/cmll_misc.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/camellia/cmll_misc.c near following tokens # 0 _crypto/camellia/cmll_misc.c_ ZZ # 0 __built-in__ ZZ # 0 __command-line__ "
-}} 
 ]
 , 
 "data15" : {

@@ -1,6 +1,8 @@
 @startuml
 !pragma layout smetana
-"" <|-- "dummy"
 class dummy {
+IDEA_set_encrypt_key(unsignedchar*;IDEA_KEY_SCHEDULE*) :  void  [[[./../../.././qc/crypto/idea/i_skey.c.html#77]]]
+IDEA_set_decrypt_key(IDEA_KEY_SCHEDULE*;IDEA_KEY_SCHEDULE*) :  void  [[[./../../.././qc/crypto/idea/i_skey.c.html#117]]]
+inverse(unsignedint) : IDEA_INT [[[./../../.././qc/crypto/idea/i_skey.c.html#147]]]
 } 
 @enduml

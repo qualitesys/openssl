@@ -1,6 +1,14 @@
 @startuml
 !pragma layout smetana
-"" <|-- "dummy"
 class dummy {
+atoi(char*) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../../.././qc/providers/implementations/macs/kmac_prov.c.html#165]]]
+atol(char*) :  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../../.././qc/providers/implementations/macs/kmac_prov.c.html#170]]]
+atoll(char*) :  long  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../../.././qc/providers/implementations/macs/kmac_prov.c.html#177]]]
+__bswap_16(__uint16_t) : __uint16_t [[[./../../../.././qc/providers/implementations/macs/kmac_prov.c.html#477]]]
+__bswap_32(__uint32_t) : __uint32_t [[[./../../../.././qc/providers/implementations/macs/kmac_prov.c.html#492]]]
+__bswap_64(__uint64_t) : __uint64_t [[[./../../../.././qc/providers/implementations/macs/kmac_prov.c.html#502]]]
+__uint16_identity(__uint16_t) : __uint16_t [[[./../../../.././qc/providers/implementations/macs/kmac_prov.c.html#514]]]
+__uint32_identity(__uint32_t) : __uint32_t [[[./../../../.././qc/providers/implementations/macs/kmac_prov.c.html#520]]]
+__uint64_identity(__uint64_t) : __uint64_t [[[./../../../.././qc/providers/implementations/macs/kmac_prov.c.html#526]]]
 } 
 @enduml

@@ -1,6 +1,14 @@
 @startuml
 !pragma layout smetana
-"" <|-- "dummy"
 class dummy {
+atoi(char*) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/rsa/rsa_pk1.c.html#196]]]
+atol(char*) :  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/rsa/rsa_pk1.c.html#201]]]
+atoll(char*) :  long  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/rsa/rsa_pk1.c.html#208]]]
+__bswap_16(__uint16_t) : __uint16_t [[[./../../.././qc/crypto/rsa/rsa_pk1.c.html#508]]]
+__bswap_32(__uint32_t) : __uint32_t [[[./../../.././qc/crypto/rsa/rsa_pk1.c.html#523]]]
+__bswap_64(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/rsa/rsa_pk1.c.html#533]]]
+__uint16_identity(__uint16_t) : __uint16_t [[[./../../.././qc/crypto/rsa/rsa_pk1.c.html#545]]]
+__uint32_identity(__uint32_t) : __uint32_t [[[./../../.././qc/crypto/rsa/rsa_pk1.c.html#551]]]
+__uint64_identity(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/rsa/rsa_pk1.c.html#557]]]
 } 
 @enduml

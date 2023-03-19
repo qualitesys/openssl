@@ -1,6 +1,7 @@
 @startuml
 !pragma layout smetana
-"" <|-- "dummy"
 class dummy {
+tolower(int) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../.././qc/apps/s_server.c.html#244]]]
+toupper(int) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../.././qc/apps/s_server.c.html#250]]]
 } 
 @enduml

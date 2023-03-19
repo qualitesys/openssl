@@ -8,15 +8,28 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c2" : "dummy"
-}} 
 ]
 , 
 "data02" : [
 { "classe" : 
  { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00244"
+ , "c5link" : "././qc/apps/s_server.c.html#244"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "tolower(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00250"
+ , "c5link" : "././qc/apps/s_server.c.html#250"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "toupper(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -69,10 +82,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/apps/s_server.c.html#1"
+ , "c1" : "00482"
+ , "c1link" : "./qc/apps/s_server.c.html#482"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/apps/s_server.c near following tokens # 0 _apps/s_server.c_ ZZ # 0 __built-in__ ZZ # 0 __command-line__ "
+ , "c3" : "QC-CPP999999[00482] syntax analysis failed on file /home/runner/work/openssl/openssl/apps/s_server.c near following tokens ; extern int fclose ( FILE CPP_POINTEUR __stream ) ; extern FILE CPP_POINTEUR tmpfile ( void ) __attribute__ ( ( __malloc__ "
 }} 
 ]
 , 

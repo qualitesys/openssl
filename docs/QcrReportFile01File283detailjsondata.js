@@ -8,15 +8,91 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c2" : "dummy"
-}} 
 ]
 , 
 "data02" : [
 { "classe" : 
  { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00175"
+ , "c5link" : "././qc/crypto/core_namemap.c.html#175"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00180"
+ , "c5link" : "././qc/crypto/core_namemap.c.html#180"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00187"
+ , "c5link" : "././qc/crypto/core_namemap.c.html#187"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00487"
+ , "c5link" : "././qc/crypto/core_namemap.c.html#487"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00502"
+ , "c5link" : "././qc/crypto/core_namemap.c.html#502"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00512"
+ , "c5link" : "././qc/crypto/core_namemap.c.html#512"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00524"
+ , "c5link" : "././qc/crypto/core_namemap.c.html#524"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00530"
+ , "c5link" : "././qc/crypto/core_namemap.c.html#530"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00536"
+ , "c5link" : "././qc/crypto/core_namemap.c.html#536"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -69,10 +145,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/core_namemap.c.html#1"
+ , "c1" : "01060"
+ , "c1link" : "./qc/crypto/core_namemap.c.html#1060"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/core_namemap.c near following tokens # 0 _crypto/core_namemap.c_ ZZ # 0 __built-in__ ZZ # 0 __command-line__ "
+ , "c3" : "QC-CPP999999[01060] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/core_namemap.c near following tokens ) __attribute__ ( ( __nothrow__ , __leaf__ ) ) ; extern void CPP_POINTEUR reallocarray ( void CPP_POINTEUR __ptr , size_t __nmemb "
 }} 
 ]
 , 

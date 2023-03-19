@@ -1,6 +1,14 @@
 @startuml
 !pragma layout smetana
-"" <|-- "dummy"
 class dummy {
+atoi(char*) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../.././qc/apps/rehash.c.html#503]]]
+atol(char*) :  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../.././qc/apps/rehash.c.html#508]]]
+atoll(char*) :  long  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../.././qc/apps/rehash.c.html#515]]]
+__bswap_16(__uint16_t) : __uint16_t [[[./../.././qc/apps/rehash.c.html#677]]]
+__bswap_32(__uint32_t) : __uint32_t [[[./../.././qc/apps/rehash.c.html#692]]]
+__bswap_64(__uint64_t) : __uint64_t [[[./../.././qc/apps/rehash.c.html#702]]]
+__uint16_identity(__uint16_t) : __uint16_t [[[./../.././qc/apps/rehash.c.html#714]]]
+__uint32_identity(__uint32_t) : __uint32_t [[[./../.././qc/apps/rehash.c.html#720]]]
+__uint64_identity(__uint64_t) : __uint64_t [[[./../.././qc/apps/rehash.c.html#726]]]
 } 
 @enduml

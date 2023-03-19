@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-"" <|-- "dummy"
 class dummy {
+BF_cfb64_encrypt(unsignedchar*;unsignedchar*;long;BF_KEY*;unsignedchar*;int*;int) :  void  [[[./../../.././qc/crypto/bf/bf_cfb64.c.html#369]]]
 } 
 @enduml

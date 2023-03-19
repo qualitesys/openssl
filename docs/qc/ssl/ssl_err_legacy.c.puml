@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-"" <|-- "dummy"
 class dummy {
+ERR_load_SSL_strings(void) :  int  [[[./../.././qc/ssl/ssl_err_legacy.c.html#347]]]
 } 
 @enduml

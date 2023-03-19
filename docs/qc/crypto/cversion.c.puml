@@ -1,6 +1,14 @@
 @startuml
 !pragma layout smetana
-"" <|-- "dummy"
 class dummy {
+atoi(char*) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../.././qc/crypto/cversion.c.html#173]]]
+atol(char*) :  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../.././qc/crypto/cversion.c.html#178]]]
+atoll(char*) :  long  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../.././qc/crypto/cversion.c.html#185]]]
+__bswap_16(__uint16_t) : __uint16_t [[[./../.././qc/crypto/cversion.c.html#485]]]
+__bswap_32(__uint32_t) : __uint32_t [[[./../.././qc/crypto/cversion.c.html#500]]]
+__bswap_64(__uint64_t) : __uint64_t [[[./../.././qc/crypto/cversion.c.html#510]]]
+__uint16_identity(__uint16_t) : __uint16_t [[[./../.././qc/crypto/cversion.c.html#522]]]
+__uint32_identity(__uint32_t) : __uint32_t [[[./../.././qc/crypto/cversion.c.html#528]]]
+__uint64_identity(__uint64_t) : __uint64_t [[[./../.././qc/crypto/cversion.c.html#534]]]
 } 
 @enduml

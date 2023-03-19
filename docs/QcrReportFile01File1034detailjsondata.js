@@ -8,10 +8,6 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c2" : "dummy"
-}} 
 ]
 , 
 "data02" : [
@@ -22,10 +18,6 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/ssl/ssl_asn1.c.png" 
-
- , "ligneplantuml" : "./qc/ssl/ssl_asn1.c.svg" }
-
 ] 
 , 
 "data04" : [
@@ -69,10 +61,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/ssl/ssl_asn1.c.html#1"
+ , "c1" : "00347"
+ , "c1link" : "./qc/ssl/ssl_asn1.c.html#347"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/ssl/ssl_asn1.c near following tokens # 0 _ssl/ssl_asn1.c_ ZZ # 0 __built-in__ ZZ # 0 __command-line__ "
+ , "c3" : "QC-CPP999999[00347] syntax analysis failed on file /home/runner/work/openssl/openssl/ssl/ssl_asn1.c near following tokens ; extern int fclose ( FILE CPP_POINTEUR __stream ) ; extern FILE CPP_POINTEUR tmpfile ( void ) __attribute__ ( ( __malloc__ "
 }} 
 ]
 , 

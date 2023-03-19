@@ -1,6 +1,14 @@
 @startuml
 !pragma layout smetana
-"" <|-- "dummy"
 class dummy {
+atoi(char*) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../../.././qc/providers/implementations/kdfs/pbkdf2.c.html#192]]]
+atol(char*) :  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../../.././qc/providers/implementations/kdfs/pbkdf2.c.html#197]]]
+atoll(char*) :  long  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../../.././qc/providers/implementations/kdfs/pbkdf2.c.html#204]]]
+__bswap_16(__uint16_t) : __uint16_t [[[./../../../.././qc/providers/implementations/kdfs/pbkdf2.c.html#504]]]
+__bswap_32(__uint32_t) : __uint32_t [[[./../../../.././qc/providers/implementations/kdfs/pbkdf2.c.html#519]]]
+__bswap_64(__uint64_t) : __uint64_t [[[./../../../.././qc/providers/implementations/kdfs/pbkdf2.c.html#529]]]
+__uint16_identity(__uint16_t) : __uint16_t [[[./../../../.././qc/providers/implementations/kdfs/pbkdf2.c.html#541]]]
+__uint32_identity(__uint32_t) : __uint32_t [[[./../../../.././qc/providers/implementations/kdfs/pbkdf2.c.html#547]]]
+__uint64_identity(__uint64_t) : __uint64_t [[[./../../../.././qc/providers/implementations/kdfs/pbkdf2.c.html#553]]]
 } 
 @enduml

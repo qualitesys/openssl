@@ -8,10 +8,6 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c2" : "dummy"
-}} 
 ]
 , 
 "data02" : [
@@ -22,10 +18,6 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/aria/aria.c.png" 
-
- , "ligneplantuml" : "./qc/crypto/aria/aria.c.svg" }
-
 ] 
 , 
 "data04" : [
@@ -69,10 +61,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/aria/aria.c.html#1"
+ , "c1" : "00375"
+ , "c1link" : "./qc/crypto/aria/aria.c.html#375"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/aria/aria.c near following tokens # 0 _crypto/aria/aria.c_ ZZ # 0 __built-in__ ZZ # 0 __command-line__ "
+ , "c3" : "QC-CPP999999[00375] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/aria/aria.c near following tokens ( __nonnull__ ( 1 , 2 ) ) ) ; extern void CPP_POINTEUR memccpy ( void CPP_POINTEUR __restrict __dest , const "
 }} 
 ]
 , 

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/kdfs/pbkdf2_fips.c.html" 
- , "texte" : "File providers/implementations/kdfs/pbkdf2_fips.c 1 rule violations " 
+ , "texte" : "File providers/implementations/kdfs/pbkdf2_fips.c 0 rule violation " 
  , "fic2"  : "./qc/providers/implementations/kdfs/pbkdf2_fips.c.xml" 
  , "fic3"  : "" 
 }
@@ -56,24 +56,6 @@ var maDataBlocs = {
 ]
 , 
 "data14" : [
-]
-, 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/kdfs/pbkdf2_fips.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/kdfs/pbkdf2_fips.c near following tokens # 0 _providers/implementations/kdfs/pbkdf2_fips.c_ ZZ # 0 __built-in__ ZZ # 0 __command-line__ "
-}} 
 ]
 , 
 "data15" : {

@@ -8,15 +8,253 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c2" : "dummy"
-}} 
 ]
 , 
 "data02" : [
 { "classe" : 
  { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00439"
+ , "c5link" : "././qc/providers/implementations/encode_decode/endecoder_common.c.html#439"
+ , "c1" : " char "
+ , "c2" : "ossl_check_OPENSSL_STRING_type(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00439"
+ , "c5link" : "././qc/providers/implementations/encode_decode/endecoder_common.c.html#439"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_OPENSSL_STRING_sk_type(structstack_st_OPENSSL_STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00439"
+ , "c5link" : "././qc/providers/implementations/encode_decode/endecoder_common.c.html#439"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_OPENSSL_STRING_sk_type(structstack_st_OPENSSL_STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00439"
+ , "c5link" : "././qc/providers/implementations/encode_decode/endecoder_common.c.html#439"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_OPENSSL_STRING_compfunc_type(sk_OPENSSL_STRING_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00439"
+ , "c5link" : "././qc/providers/implementations/encode_decode/endecoder_common.c.html#439"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_OPENSSL_STRING_copyfunc_type(sk_OPENSSL_STRING_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00439"
+ , "c5link" : "././qc/providers/implementations/encode_decode/endecoder_common.c.html#439"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_OPENSSL_STRING_freefunc_type(sk_OPENSSL_STRING_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00441"
+ , "c5link" : "././qc/providers/implementations/encode_decode/endecoder_common.c.html#441"
+ , "c1" : " char "
+ , "c2" : "ossl_check_OPENSSL_CSTRING_type(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00441"
+ , "c5link" : "././qc/providers/implementations/encode_decode/endecoder_common.c.html#441"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_OPENSSL_CSTRING_sk_type(structstack_st_OPENSSL_CSTRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00441"
+ , "c5link" : "././qc/providers/implementations/encode_decode/endecoder_common.c.html#441"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_sk_type(structstack_st_OPENSSL_CSTRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00441"
+ , "c5link" : "././qc/providers/implementations/encode_decode/endecoder_common.c.html#441"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_compfunc_type(sk_OPENSSL_CSTRING_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00441"
+ , "c5link" : "././qc/providers/implementations/encode_decode/endecoder_common.c.html#441"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_copyfunc_type(sk_OPENSSL_CSTRING_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00441"
+ , "c5link" : "././qc/providers/implementations/encode_decode/endecoder_common.c.html#441"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_freefunc_type(sk_OPENSSL_CSTRING_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00444"
+ , "c5link" : "././qc/providers/implementations/encode_decode/endecoder_common.c.html#444"
+ , "c1" : " void "
+ , "c2" : "ossl_check_OPENSSL_BLOCK_type(void*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00444"
+ , "c5link" : "././qc/providers/implementations/encode_decode/endecoder_common.c.html#444"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00444"
+ , "c5link" : "././qc/providers/implementations/encode_decode/endecoder_common.c.html#444"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00444"
+ , "c5link" : "././qc/providers/implementations/encode_decode/endecoder_common.c.html#444"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_OPENSSL_BLOCK_compfunc_type(sk_OPENSSL_BLOCK_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00444"
+ , "c5link" : "././qc/providers/implementations/encode_decode/endecoder_common.c.html#444"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_OPENSSL_BLOCK_copyfunc_type(sk_OPENSSL_BLOCK_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00444"
+ , "c5link" : "././qc/providers/implementations/encode_decode/endecoder_common.c.html#444"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_OPENSSL_BLOCK_freefunc_type(sk_OPENSSL_BLOCK_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00847"
+ , "c5link" : "././qc/providers/implementations/encode_decode/endecoder_common.c.html#847"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00852"
+ , "c5link" : "././qc/providers/implementations/encode_decode/endecoder_common.c.html#852"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00859"
+ , "c5link" : "././qc/providers/implementations/encode_decode/endecoder_common.c.html#859"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01021"
+ , "c5link" : "././qc/providers/implementations/encode_decode/endecoder_common.c.html#1021"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01036"
+ , "c5link" : "././qc/providers/implementations/encode_decode/endecoder_common.c.html#1036"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01046"
+ , "c5link" : "././qc/providers/implementations/encode_decode/endecoder_common.c.html#1046"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01058"
+ , "c5link" : "././qc/providers/implementations/encode_decode/endecoder_common.c.html#1058"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01064"
+ , "c5link" : "././qc/providers/implementations/encode_decode/endecoder_common.c.html#1064"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01070"
+ , "c5link" : "././qc/providers/implementations/encode_decode/endecoder_common.c.html#1070"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -69,10 +307,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/encode_decode/endecoder_common.c.html#1"
+ , "c1" : "01594"
+ , "c1link" : "./qc/providers/implementations/encode_decode/endecoder_common.c.html#1594"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/encode_decode/endecoder_common.c near following tokens # 0 _providers/implementations/encode_decode/endecoder_common.c_ ZZ # 0 __built-in__ ZZ # 0 __command-line__ "
+ , "c3" : "QC-CPP999999[01594] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/encode_decode/endecoder_common.c near following tokens ) __attribute__ ( ( __nothrow__ , __leaf__ ) ) ; extern void CPP_POINTEUR reallocarray ( void CPP_POINTEUR __ptr , size_t __nmemb "
 }} 
 ]
 , 

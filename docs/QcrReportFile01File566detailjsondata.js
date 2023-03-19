@@ -8,15 +8,91 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c2" : "dummy"
-}} 
 ]
 , 
 "data02" : [
 { "classe" : 
  { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00501"
+ , "c5link" : "././qc/crypto/o_fopen.c.html#501"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00506"
+ , "c5link" : "././qc/crypto/o_fopen.c.html#506"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00513"
+ , "c5link" : "././qc/crypto/o_fopen.c.html#513"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00679"
+ , "c5link" : "././qc/crypto/o_fopen.c.html#679"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00694"
+ , "c5link" : "././qc/crypto/o_fopen.c.html#694"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00704"
+ , "c5link" : "././qc/crypto/o_fopen.c.html#704"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00716"
+ , "c5link" : "././qc/crypto/o_fopen.c.html#716"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00722"
+ , "c5link" : "././qc/crypto/o_fopen.c.html#722"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00728"
+ , "c5link" : "././qc/crypto/o_fopen.c.html#728"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -69,10 +145,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/o_fopen.c.html#1"
+ , "c1" : "01247"
+ , "c1link" : "./qc/crypto/o_fopen.c.html#1247"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/o_fopen.c near following tokens # 0 _crypto/o_fopen.c_ ZZ # 0 __built-in__ ZZ # 0 __command-line__ "
+ , "c3" : "QC-CPP999999[01247] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/o_fopen.c near following tokens ) __attribute__ ( ( __nothrow__ , __leaf__ ) ) ; extern void CPP_POINTEUR reallocarray ( void CPP_POINTEUR __ptr , size_t __nmemb "
 }} 
 ]
 , 

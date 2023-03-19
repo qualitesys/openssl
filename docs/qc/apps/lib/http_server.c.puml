@@ -1,6 +1,16 @@
 @startuml
 !pragma layout smetana
-"" <|-- "dummy"
 class dummy {
+tolower(int) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/apps/lib/http_server.c.html#244]]]
+toupper(int) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/apps/lib/http_server.c.html#250]]]
+atoi(char*) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/apps/lib/http_server.c.html#640]]]
+atol(char*) :  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/apps/lib/http_server.c.html#645]]]
+atoll(char*) :  long  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/apps/lib/http_server.c.html#652]]]
+__bswap_16(__uint16_t) : __uint16_t [[[./../../.././qc/apps/lib/http_server.c.html#808]]]
+__bswap_32(__uint32_t) : __uint32_t [[[./../../.././qc/apps/lib/http_server.c.html#823]]]
+__bswap_64(__uint64_t) : __uint64_t [[[./../../.././qc/apps/lib/http_server.c.html#833]]]
+__uint16_identity(__uint16_t) : __uint16_t [[[./../../.././qc/apps/lib/http_server.c.html#845]]]
+__uint32_identity(__uint32_t) : __uint32_t [[[./../../.././qc/apps/lib/http_server.c.html#851]]]
+__uint64_identity(__uint64_t) : __uint64_t [[[./../../.././qc/apps/lib/http_server.c.html#857]]]
 } 
 @enduml

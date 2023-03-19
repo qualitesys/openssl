@@ -1,6 +1,14 @@
 @startuml
 !pragma layout smetana
-"" <|-- "dummy"
 class dummy {
+atoi(char*) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/seed/seed_cbc.c.html#468]]]
+atol(char*) :  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/seed/seed_cbc.c.html#473]]]
+atoll(char*) :  long  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/seed/seed_cbc.c.html#480]]]
+__bswap_16(__uint16_t) : __uint16_t [[[./../../.././qc/crypto/seed/seed_cbc.c.html#642]]]
+__bswap_32(__uint32_t) : __uint32_t [[[./../../.././qc/crypto/seed/seed_cbc.c.html#657]]]
+__bswap_64(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/seed/seed_cbc.c.html#667]]]
+__uint16_identity(__uint16_t) : __uint16_t [[[./../../.././qc/crypto/seed/seed_cbc.c.html#679]]]
+__uint32_identity(__uint32_t) : __uint32_t [[[./../../.././qc/crypto/seed/seed_cbc.c.html#685]]]
+__uint64_identity(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/seed/seed_cbc.c.html#691]]]
 } 
 @enduml
