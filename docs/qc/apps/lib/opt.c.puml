@@ -25,5 +25,14 @@ ossl_check_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*) : OPENSSL_STACK 
 ossl_check_OPENSSL_BLOCK_compfunc_type(sk_OPENSSL_BLOCK_compfunc) : OPENSSL_sk_compfunc [[[./../../.././qc/apps/lib/opt.c.html#984]]]
 ossl_check_OPENSSL_BLOCK_copyfunc_type(sk_OPENSSL_BLOCK_copyfunc) : OPENSSL_sk_copyfunc [[[./../../.././qc/apps/lib/opt.c.html#984]]]
 ossl_check_OPENSSL_BLOCK_freefunc_type(sk_OPENSSL_BLOCK_freefunc) : OPENSSL_sk_freefunc [[[./../../.././qc/apps/lib/opt.c.html#984]]]
+bcopy(void*;void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/apps/lib/opt.c.html#1537]]]
+bzero(void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/apps/lib/opt.c.html#1544]]]
+memcpy(void*;void*;size_t) :  void  [[[./../../.././qc/apps/lib/opt.c.html#1585]]]
+memmove(void*;void*;size_t) :  void  [[[./../../.././qc/apps/lib/opt.c.html#1593]]]
+memset(void*;int;size_t) :  void  [[[./../../.././qc/apps/lib/opt.c.html#1600]]]
+explicit_bzero(void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/apps/lib/opt.c.html#1613]]]
+strcpy(char*;char*) :  char  [[[./../../.././qc/apps/lib/opt.c.html#1620]]]
+stpcpy(char*;char*) :  char  [[[./../../.././qc/apps/lib/opt.c.html#1627]]]
+strncpy(char*;char*;size_t) :  char  [[[./../../.././qc/apps/lib/opt.c.html#1635]]]
 } 
 @enduml

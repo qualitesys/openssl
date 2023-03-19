@@ -174,6 +174,51 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01314"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm_hw.c.html#1314"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01323"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm_hw.c.html#1323"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01333"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm_hw.c.html#1333"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01340"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm_hw.c.html#1340"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01349"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm_hw.c.html#1349"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -226,10 +271,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01158"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm_hw.c.html#1158"
+ , "c1" : "01358"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm_hw.c.html#1358"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01158] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_aria_ccm_hw.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[01358] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_aria_ccm_hw.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

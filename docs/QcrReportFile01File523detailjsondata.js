@@ -174,6 +174,51 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01281"
+ , "c5link" : "././qc/crypto/ffc/ffc_key_validate.c.html#1281"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01290"
+ , "c5link" : "././qc/crypto/ffc/ffc_key_validate.c.html#1290"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01300"
+ , "c5link" : "././qc/crypto/ffc/ffc_key_validate.c.html#1300"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01307"
+ , "c5link" : "././qc/crypto/ffc/ffc_key_validate.c.html#1307"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01316"
+ , "c5link" : "././qc/crypto/ffc/ffc_key_validate.c.html#1316"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -226,10 +271,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01125"
- , "c1link" : "./qc/crypto/ffc/ffc_key_validate.c.html#1125"
+ , "c1" : "01325"
+ , "c1link" : "./qc/crypto/ffc/ffc_key_validate.c.html#1325"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01125] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ffc/ffc_key_validate.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[01325] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ffc/ffc_key_validate.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

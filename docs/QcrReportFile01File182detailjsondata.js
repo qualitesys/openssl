@@ -13,11 +13,59 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00730"
+ , "c5link" : "././qc/crypto/bio/bss_file.c.html#730"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00739"
+ , "c5link" : "././qc/crypto/bio/bss_file.c.html#739"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00749"
+ , "c5link" : "././qc/crypto/bio/bss_file.c.html#749"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00756"
+ , "c5link" : "././qc/crypto/bio/bss_file.c.html#756"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00765"
+ , "c5link" : "././qc/crypto/bio/bss_file.c.html#765"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/crypto/bio/bss_file.c.png" 
+
+ , "ligneplantuml" : "./qc/crypto/bio/bss_file.c.svg" }
+
 ] 
 , 
 "data04" : [
@@ -61,10 +109,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00578"
- , "c1link" : "./qc/crypto/bio/bss_file.c.html#578"
+ , "c1" : "00774"
+ , "c1link" : "./qc/crypto/bio/bss_file.c.html#774"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00578] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/bio/bss_file.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[00774] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/bio/bss_file.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

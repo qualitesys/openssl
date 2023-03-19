@@ -13,11 +13,59 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00769"
+ , "c5link" : "././qc/crypto/x509/x509_vfy.c.html#769"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00778"
+ , "c5link" : "././qc/crypto/x509/x509_vfy.c.html#778"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00788"
+ , "c5link" : "././qc/crypto/x509/x509_vfy.c.html#788"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00795"
+ , "c5link" : "././qc/crypto/x509/x509_vfy.c.html#795"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00804"
+ , "c5link" : "././qc/crypto/x509/x509_vfy.c.html#804"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/crypto/x509/x509_vfy.c.png" 
+
+ , "ligneplantuml" : "./qc/crypto/x509/x509_vfy.c.svg" }
+
 ] 
 , 
 "data04" : [
@@ -61,10 +109,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00613"
- , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#613"
+ , "c1" : "00813"
+ , "c1link" : "./qc/crypto/x509/x509_vfy.c.html#813"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00613] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/x509/x509_vfy.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[00813] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/x509/x509_vfy.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

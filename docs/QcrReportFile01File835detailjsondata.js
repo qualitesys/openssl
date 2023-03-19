@@ -8,15 +8,91 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c2" : "dummy"
-}} 
 ]
 , 
 "data02" : [
 { "classe" : 
  { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00333"
+ , "c5link" : "././qc/providers/common/der/der_dsa_sig.c.html#333"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bcopy(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00340"
+ , "c5link" : "././qc/providers/common/der/der_dsa_sig.c.html#340"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bzero(void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00381"
+ , "c5link" : "././qc/providers/common/der/der_dsa_sig.c.html#381"
+ , "c1" : " void "
+ , "c2" : "memcpy(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00389"
+ , "c5link" : "././qc/providers/common/der/der_dsa_sig.c.html#389"
+ , "c1" : " void "
+ , "c2" : "memmove(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00396"
+ , "c5link" : "././qc/providers/common/der/der_dsa_sig.c.html#396"
+ , "c1" : " void "
+ , "c2" : "memset(void*;int;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00409"
+ , "c5link" : "././qc/providers/common/der/der_dsa_sig.c.html#409"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "explicit_bzero(void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00416"
+ , "c5link" : "././qc/providers/common/der/der_dsa_sig.c.html#416"
+ , "c1" : " char "
+ , "c2" : "strcpy(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00423"
+ , "c5link" : "././qc/providers/common/der/der_dsa_sig.c.html#423"
+ , "c1" : " char "
+ , "c2" : "stpcpy(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00431"
+ , "c5link" : "././qc/providers/common/der/der_dsa_sig.c.html#431"
+ , "c1" : " char "
+ , "c2" : "strncpy(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -69,10 +145,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/providers/common/der/der_dsa_sig.c.html#99"
+ , "c1" : "00441"
+ , "c1link" : "./qc/providers/common/der/der_dsa_sig.c.html#441"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00099] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/common/der/der_dsa_sig.c near following tokens ( __nonnull__ ( 1 , 2 ) ) ) ; extern void CPP_POINTEUR memccpy ( void CPP_POINTEUR __restrict __dest , const "
+ , "c3" : "QC-CPP999999[00441] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/common/der/der_dsa_sig.c near following tokens ( __dest , 2 _ 1 ) ) ; } extern __inline __attribute__ ( ( __always_inline__ ) ) __attribute__ ( ( "
 }} 
 ]
 , 

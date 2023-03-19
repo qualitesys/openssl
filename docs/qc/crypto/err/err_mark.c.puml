@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+class dummy {
+getchar(void) :  int  [[[./../../.././qc/crypto/err/err_mark.c.html#901]]]
+fgetc_unlocked(FILE*) :  int  [[[./../../.././qc/crypto/err/err_mark.c.html#910]]]
+getc_unlocked(FILE*) :  int  [[[./../../.././qc/crypto/err/err_mark.c.html#920]]]
+getchar_unlocked(void) :  int  [[[./../../.././qc/crypto/err/err_mark.c.html#927]]]
+putchar(int) :  int  [[[./../../.././qc/crypto/err/err_mark.c.html#936]]]
+} 
+@enduml

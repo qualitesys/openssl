@@ -13,11 +13,95 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00310"
+ , "c5link" : "././qc/crypto/asn1/tasn_dec.c.html#310"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bcopy(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00317"
+ , "c5link" : "././qc/crypto/asn1/tasn_dec.c.html#317"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bzero(void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00358"
+ , "c5link" : "././qc/crypto/asn1/tasn_dec.c.html#358"
+ , "c1" : " void "
+ , "c2" : "memcpy(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00366"
+ , "c5link" : "././qc/crypto/asn1/tasn_dec.c.html#366"
+ , "c1" : " void "
+ , "c2" : "memmove(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00373"
+ , "c5link" : "././qc/crypto/asn1/tasn_dec.c.html#373"
+ , "c1" : " void "
+ , "c2" : "memset(void*;int;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00386"
+ , "c5link" : "././qc/crypto/asn1/tasn_dec.c.html#386"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "explicit_bzero(void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00393"
+ , "c5link" : "././qc/crypto/asn1/tasn_dec.c.html#393"
+ , "c1" : " char "
+ , "c2" : "strcpy(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00400"
+ , "c5link" : "././qc/crypto/asn1/tasn_dec.c.html#400"
+ , "c1" : " char "
+ , "c2" : "stpcpy(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00408"
+ , "c5link" : "././qc/crypto/asn1/tasn_dec.c.html#408"
+ , "c1" : " char "
+ , "c2" : "strncpy(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/crypto/asn1/tasn_dec.c.png" 
+
+ , "ligneplantuml" : "./qc/crypto/asn1/tasn_dec.c.svg" }
+
 ] 
 , 
 "data04" : [
@@ -61,10 +145,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/crypto/asn1/tasn_dec.c.html#76"
+ , "c1" : "00418"
+ , "c1link" : "./qc/crypto/asn1/tasn_dec.c.html#418"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00076] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/asn1/tasn_dec.c near following tokens ( __nonnull__ ( 1 , 2 ) ) ) ; extern void CPP_POINTEUR memccpy ( void CPP_POINTEUR __restrict __dest , const "
+ , "c3" : "QC-CPP999999[00418] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/asn1/tasn_dec.c near following tokens ( __dest , 2 _ 1 ) ) ; } extern __inline __attribute__ ( ( __always_inline__ ) ) __attribute__ ( ( "
 }} 
 ]
 , 

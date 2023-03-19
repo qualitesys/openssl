@@ -174,6 +174,51 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01375"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_camellia.c.html#1375"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01384"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_camellia.c.html#1384"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01394"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_camellia.c.html#1394"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01401"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_camellia.c.html#1401"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01410"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_camellia.c.html#1410"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -226,10 +271,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01219"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#1219"
+ , "c1" : "01419"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_camellia.c.html#1419"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01219] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_camellia.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[01419] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_camellia.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

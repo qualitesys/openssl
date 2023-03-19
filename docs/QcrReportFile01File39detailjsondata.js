@@ -228,6 +228,87 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01537"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1537"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bcopy(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01544"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1544"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bzero(void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01585"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1585"
+ , "c1" : " void "
+ , "c2" : "memcpy(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01593"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1593"
+ , "c1" : " void "
+ , "c2" : "memmove(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01600"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1600"
+ , "c1" : " void "
+ , "c2" : "memset(void*;int;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01613"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1613"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "explicit_bzero(void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01620"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1620"
+ , "c1" : " char "
+ , "c2" : "strcpy(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01627"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1627"
+ , "c1" : " char "
+ , "c2" : "stpcpy(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01635"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1635"
+ , "c1" : " char "
+ , "c2" : "strncpy(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -280,10 +361,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01303"
- , "c1link" : "./qc/apps/lib/opt.c.html#1303"
+ , "c1" : "01645"
+ , "c1link" : "./qc/apps/lib/opt.c.html#1645"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01303] syntax analysis failed on file /home/runner/work/openssl/openssl/apps/lib/opt.c near following tokens ( __nonnull__ ( 1 , 2 ) ) ) ; extern void CPP_POINTEUR memccpy ( void CPP_POINTEUR __restrict __dest , const "
+ , "c3" : "QC-CPP999999[01645] syntax analysis failed on file /home/runner/work/openssl/openssl/apps/lib/opt.c near following tokens ( __dest , 2 _ 1 ) ) ; } extern __inline __attribute__ ( ( __always_inline__ ) ) __attribute__ ( ( "
 }} 
 ]
 , 

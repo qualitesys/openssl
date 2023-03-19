@@ -3,5 +3,10 @@
 class dummy {
 tolower(int) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../.././qc/apps/s_server.c.html#244]]]
 toupper(int) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../.././qc/apps/s_server.c.html#250]]]
+getchar(void) :  int  [[[./../.././qc/apps/s_server.c.html#877]]]
+fgetc_unlocked(FILE*) :  int  [[[./../.././qc/apps/s_server.c.html#886]]]
+getc_unlocked(FILE*) :  int  [[[./../.././qc/apps/s_server.c.html#896]]]
+getchar_unlocked(void) :  int  [[[./../.././qc/apps/s_server.c.html#903]]]
+putchar(int) :  int  [[[./../.././qc/apps/s_server.c.html#912]]]
 } 
 @enduml

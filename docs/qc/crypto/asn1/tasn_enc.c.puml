@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+class dummy {
+bcopy(void*;void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/asn1/tasn_enc.c.html#310]]]
+bzero(void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/asn1/tasn_enc.c.html#317]]]
+memcpy(void*;void*;size_t) :  void  [[[./../../.././qc/crypto/asn1/tasn_enc.c.html#358]]]
+memmove(void*;void*;size_t) :  void  [[[./../../.././qc/crypto/asn1/tasn_enc.c.html#366]]]
+memset(void*;int;size_t) :  void  [[[./../../.././qc/crypto/asn1/tasn_enc.c.html#373]]]
+explicit_bzero(void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/asn1/tasn_enc.c.html#386]]]
+strcpy(char*;char*) :  char  [[[./../../.././qc/crypto/asn1/tasn_enc.c.html#393]]]
+stpcpy(char*;char*) :  char  [[[./../../.././qc/crypto/asn1/tasn_enc.c.html#400]]]
+strncpy(char*;char*;size_t) :  char  [[[./../../.././qc/crypto/asn1/tasn_enc.c.html#408]]]
+} 
+@enduml

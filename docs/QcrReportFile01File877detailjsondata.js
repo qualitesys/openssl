@@ -174,6 +174,51 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01374"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_xts_hw.c.html#1374"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01383"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_xts_hw.c.html#1383"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01393"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_xts_hw.c.html#1393"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01400"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_xts_hw.c.html#1400"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01409"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_xts_hw.c.html#1409"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -226,10 +271,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01218"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_xts_hw.c.html#1218"
+ , "c1" : "01418"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_xts_hw.c.html#1418"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01218] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_aes_xts_hw.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[01418] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_aes_xts_hw.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

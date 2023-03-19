@@ -174,6 +174,51 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01206"
+ , "c5link" : "././qc/crypto/x509/by_store.c.html#1206"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01215"
+ , "c5link" : "././qc/crypto/x509/by_store.c.html#1215"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01225"
+ , "c5link" : "././qc/crypto/x509/by_store.c.html#1225"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01232"
+ , "c5link" : "././qc/crypto/x509/by_store.c.html#1232"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01241"
+ , "c5link" : "././qc/crypto/x509/by_store.c.html#1241"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -226,10 +271,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01050"
- , "c1link" : "./qc/crypto/x509/by_store.c.html#1050"
+ , "c1" : "01250"
+ , "c1link" : "./qc/crypto/x509/by_store.c.html#1250"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01050] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/x509/by_store.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[01250] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/x509/by_store.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

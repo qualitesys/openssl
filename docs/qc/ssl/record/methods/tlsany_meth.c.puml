@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+class dummy {
+getchar(void) :  int  [[[./../../../.././qc/ssl/record/methods/tlsany_meth.c.html#771]]]
+fgetc_unlocked(FILE*) :  int  [[[./../../../.././qc/ssl/record/methods/tlsany_meth.c.html#780]]]
+getc_unlocked(FILE*) :  int  [[[./../../../.././qc/ssl/record/methods/tlsany_meth.c.html#790]]]
+getchar_unlocked(void) :  int  [[[./../../../.././qc/ssl/record/methods/tlsany_meth.c.html#797]]]
+putchar(int) :  int  [[[./../../../.././qc/ssl/record/methods/tlsany_meth.c.html#806]]]
+} 
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+class dummy {
+getchar(void) :  int  [[[./../.././qc/engines/e_dasync.c.html#774]]]
+fgetc_unlocked(FILE*) :  int  [[[./../.././qc/engines/e_dasync.c.html#783]]]
+getc_unlocked(FILE*) :  int  [[[./../.././qc/engines/e_dasync.c.html#793]]]
+getchar_unlocked(void) :  int  [[[./../.././qc/engines/e_dasync.c.html#800]]]
+putchar(int) :  int  [[[./../.././qc/engines/e_dasync.c.html#809]]]
+} 
+@enduml

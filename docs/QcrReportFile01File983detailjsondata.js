@@ -2271,6 +2271,51 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01855"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#1855"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01864"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#1864"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01874"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#1874"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01881"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#1881"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01890"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#1890"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -2323,10 +2368,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01699"
- , "c1link" : "./qc/providers/implementations/macs/blake2b_mac.c.html#1699"
+ , "c1" : "01899"
+ , "c1link" : "./qc/providers/implementations/macs/blake2b_mac.c.html#1899"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01699] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/macs/blake2b_mac.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[01899] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/macs/blake2b_mac.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

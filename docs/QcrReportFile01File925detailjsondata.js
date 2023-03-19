@@ -174,6 +174,51 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01357"
+ , "c5link" : "././qc/providers/implementations/ciphers/ciphercommon_ccm.c.html#1357"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01366"
+ , "c5link" : "././qc/providers/implementations/ciphers/ciphercommon_ccm.c.html#1366"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01376"
+ , "c5link" : "././qc/providers/implementations/ciphers/ciphercommon_ccm.c.html#1376"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01383"
+ , "c5link" : "././qc/providers/implementations/ciphers/ciphercommon_ccm.c.html#1383"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01392"
+ , "c5link" : "././qc/providers/implementations/ciphers/ciphercommon_ccm.c.html#1392"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -226,10 +271,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01201"
- , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_ccm.c.html#1201"
+ , "c1" : "01401"
+ , "c1link" : "./qc/providers/implementations/ciphers/ciphercommon_ccm.c.html#1401"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01201] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/ciphercommon_ccm.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[01401] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/ciphercommon_ccm.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

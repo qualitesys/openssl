@@ -8,15 +8,91 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c2" : "dummy"
-}} 
 ]
 , 
 "data02" : [
 { "classe" : 
  { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00300"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#300"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bcopy(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00307"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#307"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bzero(void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00348"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#348"
+ , "c1" : " void "
+ , "c2" : "memcpy(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00356"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#356"
+ , "c1" : " void "
+ , "c2" : "memmove(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00363"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#363"
+ , "c1" : " void "
+ , "c2" : "memset(void*;int;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00376"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#376"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "explicit_bzero(void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00383"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#383"
+ , "c1" : " char "
+ , "c2" : "strcpy(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00390"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#390"
+ , "c1" : " char "
+ , "c2" : "stpcpy(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00398"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#398"
+ , "c1" : " char "
+ , "c2" : "strncpy(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -69,10 +145,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#66"
+ , "c1" : "00408"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html#408"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00066] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/keymgmt/ecx_kmgmt.c near following tokens ( __nonnull__ ( 1 , 2 ) ) ) ; extern void CPP_POINTEUR memccpy ( void CPP_POINTEUR __restrict __dest , const "
+ , "c3" : "QC-CPP999999[00408] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/keymgmt/ecx_kmgmt.c near following tokens ( __dest , 2 _ 1 ) ) ; } extern __inline __attribute__ ( ( __always_inline__ ) ) __attribute__ ( ( "
 }} 
 ]
 , 

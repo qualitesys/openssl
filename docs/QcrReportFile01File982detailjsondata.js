@@ -2271,6 +2271,51 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01856"
+ , "c5link" : "././qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#1856"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01865"
+ , "c5link" : "././qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#1865"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01875"
+ , "c5link" : "././qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#1875"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01882"
+ , "c5link" : "././qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#1882"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01891"
+ , "c5link" : "././qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#1891"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -2323,10 +2368,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01700"
- , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#1700"
+ , "c1" : "01900"
+ , "c1link" : "./qc/providers/implementations/keymgmt/rsa_kmgmt.c.html#1900"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01700] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/keymgmt/rsa_kmgmt.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[01900] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/keymgmt/rsa_kmgmt.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

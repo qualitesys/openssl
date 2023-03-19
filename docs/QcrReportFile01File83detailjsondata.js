@@ -13,11 +13,95 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00609"
+ , "c5link" : "././qc/crypto/aria/aria.c.html#609"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bcopy(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00616"
+ , "c5link" : "././qc/crypto/aria/aria.c.html#616"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bzero(void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00657"
+ , "c5link" : "././qc/crypto/aria/aria.c.html#657"
+ , "c1" : " void "
+ , "c2" : "memcpy(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00665"
+ , "c5link" : "././qc/crypto/aria/aria.c.html#665"
+ , "c1" : " void "
+ , "c2" : "memmove(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00672"
+ , "c5link" : "././qc/crypto/aria/aria.c.html#672"
+ , "c1" : " void "
+ , "c2" : "memset(void*;int;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00685"
+ , "c5link" : "././qc/crypto/aria/aria.c.html#685"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "explicit_bzero(void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00692"
+ , "c5link" : "././qc/crypto/aria/aria.c.html#692"
+ , "c1" : " char "
+ , "c2" : "strcpy(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00699"
+ , "c5link" : "././qc/crypto/aria/aria.c.html#699"
+ , "c1" : " char "
+ , "c2" : "stpcpy(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00707"
+ , "c5link" : "././qc/crypto/aria/aria.c.html#707"
+ , "c1" : " char "
+ , "c2" : "strncpy(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/crypto/aria/aria.c.png" 
+
+ , "ligneplantuml" : "./qc/crypto/aria/aria.c.svg" }
+
 ] 
 , 
 "data04" : [
@@ -61,10 +145,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00375"
- , "c1link" : "./qc/crypto/aria/aria.c.html#375"
+ , "c1" : "00717"
+ , "c1link" : "./qc/crypto/aria/aria.c.html#717"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00375] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/aria/aria.c near following tokens ( __nonnull__ ( 1 , 2 ) ) ) ; extern void CPP_POINTEUR memccpy ( void CPP_POINTEUR __restrict __dest , const "
+ , "c3" : "QC-CPP999999[00717] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/aria/aria.c near following tokens ( __dest , 2 _ 1 ) ) ; } extern __inline __attribute__ ( ( __always_inline__ ) ) __attribute__ ( ( "
 }} 
 ]
 , 

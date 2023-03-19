@@ -19,5 +19,14 @@ ossl_check_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*) : OPENSSL_STACK 
 ossl_check_OPENSSL_BLOCK_compfunc_type(sk_OPENSSL_BLOCK_compfunc) : OPENSSL_sk_compfunc [[[./../../.././qc/crypto/sm2/sm2_sign.c.html#452]]]
 ossl_check_OPENSSL_BLOCK_copyfunc_type(sk_OPENSSL_BLOCK_copyfunc) : OPENSSL_sk_copyfunc [[[./../../.././qc/crypto/sm2/sm2_sign.c.html#452]]]
 ossl_check_OPENSSL_BLOCK_freefunc_type(sk_OPENSSL_BLOCK_freefunc) : OPENSSL_sk_freefunc [[[./../../.././qc/crypto/sm2/sm2_sign.c.html#452]]]
+bcopy(void*;void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/sm2/sm2_sign.c.html#899]]]
+bzero(void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/sm2/sm2_sign.c.html#906]]]
+memcpy(void*;void*;size_t) :  void  [[[./../../.././qc/crypto/sm2/sm2_sign.c.html#947]]]
+memmove(void*;void*;size_t) :  void  [[[./../../.././qc/crypto/sm2/sm2_sign.c.html#955]]]
+memset(void*;int;size_t) :  void  [[[./../../.././qc/crypto/sm2/sm2_sign.c.html#962]]]
+explicit_bzero(void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/sm2/sm2_sign.c.html#975]]]
+strcpy(char*;char*) :  char  [[[./../../.././qc/crypto/sm2/sm2_sign.c.html#982]]]
+stpcpy(char*;char*) :  char  [[[./../../.././qc/crypto/sm2/sm2_sign.c.html#989]]]
+strncpy(char*;char*;size_t) :  char  [[[./../../.././qc/crypto/sm2/sm2_sign.c.html#997]]]
 } 
 @enduml

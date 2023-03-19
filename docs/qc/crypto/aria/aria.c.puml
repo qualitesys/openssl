@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+class dummy {
+bcopy(void*;void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/aria/aria.c.html#609]]]
+bzero(void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/aria/aria.c.html#616]]]
+memcpy(void*;void*;size_t) :  void  [[[./../../.././qc/crypto/aria/aria.c.html#657]]]
+memmove(void*;void*;size_t) :  void  [[[./../../.././qc/crypto/aria/aria.c.html#665]]]
+memset(void*;int;size_t) :  void  [[[./../../.././qc/crypto/aria/aria.c.html#672]]]
+explicit_bzero(void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/aria/aria.c.html#685]]]
+strcpy(char*;char*) :  char  [[[./../../.././qc/crypto/aria/aria.c.html#692]]]
+stpcpy(char*;char*) :  char  [[[./../../.././qc/crypto/aria/aria.c.html#699]]]
+strncpy(char*;char*;size_t) :  char  [[[./../../.././qc/crypto/aria/aria.c.html#707]]]
+} 
+@enduml

@@ -13,11 +13,59 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00958"
+ , "c5link" : "././qc/crypto/evp/legacy_wp.c.html#958"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00967"
+ , "c5link" : "././qc/crypto/evp/legacy_wp.c.html#967"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00977"
+ , "c5link" : "././qc/crypto/evp/legacy_wp.c.html#977"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00984"
+ , "c5link" : "././qc/crypto/evp/legacy_wp.c.html#984"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00993"
+ , "c5link" : "././qc/crypto/evp/legacy_wp.c.html#993"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/crypto/evp/legacy_wp.c.png" 
+
+ , "ligneplantuml" : "./qc/crypto/evp/legacy_wp.c.svg" }
+
 ] 
 , 
 "data04" : [
@@ -61,10 +109,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00802"
- , "c1link" : "./qc/crypto/evp/legacy_wp.c.html#802"
+ , "c1" : "01002"
+ , "c1link" : "./qc/crypto/evp/legacy_wp.c.html#1002"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00802] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/evp/legacy_wp.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[01002] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/evp/legacy_wp.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

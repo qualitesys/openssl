@@ -19,5 +19,10 @@ ossl_check_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*) : OPENSSL_STACK 
 ossl_check_OPENSSL_BLOCK_compfunc_type(sk_OPENSSL_BLOCK_compfunc) : OPENSSL_sk_compfunc [[[./../../.././qc/crypto/encode_decode/decoder_pkey.c.html#456]]]
 ossl_check_OPENSSL_BLOCK_copyfunc_type(sk_OPENSSL_BLOCK_copyfunc) : OPENSSL_sk_copyfunc [[[./../../.././qc/crypto/encode_decode/decoder_pkey.c.html#456]]]
 ossl_check_OPENSSL_BLOCK_freefunc_type(sk_OPENSSL_BLOCK_freefunc) : OPENSSL_sk_freefunc [[[./../../.././qc/crypto/encode_decode/decoder_pkey.c.html#456]]]
+getchar(void) :  int  [[[./../../.././qc/crypto/encode_decode/decoder_pkey.c.html#1338]]]
+fgetc_unlocked(FILE*) :  int  [[[./../../.././qc/crypto/encode_decode/decoder_pkey.c.html#1347]]]
+getc_unlocked(FILE*) :  int  [[[./../../.././qc/crypto/encode_decode/decoder_pkey.c.html#1357]]]
+getchar_unlocked(void) :  int  [[[./../../.././qc/crypto/encode_decode/decoder_pkey.c.html#1364]]]
+putchar(int) :  int  [[[./../../.././qc/crypto/encode_decode/decoder_pkey.c.html#1373]]]
 } 
 @enduml

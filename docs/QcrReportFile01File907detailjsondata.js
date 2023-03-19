@@ -174,6 +174,51 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01323"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_rc4_hw.c.html#1323"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01332"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_rc4_hw.c.html#1332"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01342"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_rc4_hw.c.html#1342"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01349"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_rc4_hw.c.html#1349"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01358"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_rc4_hw.c.html#1358"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -226,10 +271,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01167"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hw.c.html#1167"
+ , "c1" : "01367"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_rc4_hw.c.html#1367"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01167] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_rc4_hw.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[01367] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_rc4_hw.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

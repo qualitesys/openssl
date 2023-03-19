@@ -13,11 +13,59 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00754"
+ , "c5link" : "././qc/crypto/punycode.c.html#754"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00763"
+ , "c5link" : "././qc/crypto/punycode.c.html#763"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00773"
+ , "c5link" : "././qc/crypto/punycode.c.html#773"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00780"
+ , "c5link" : "././qc/crypto/punycode.c.html#780"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00789"
+ , "c5link" : "././qc/crypto/punycode.c.html#789"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/crypto/punycode.c.png" 
+
+ , "ligneplantuml" : "./qc/crypto/punycode.c.svg" }
+
 ] 
 , 
 "data04" : [
@@ -61,10 +109,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00598"
- , "c1link" : "./qc/crypto/punycode.c.html#598"
+ , "c1" : "00798"
+ , "c1link" : "./qc/crypto/punycode.c.html#798"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00598] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/punycode.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[00798] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/punycode.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

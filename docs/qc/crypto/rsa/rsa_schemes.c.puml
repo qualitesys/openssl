@@ -19,5 +19,10 @@ ossl_check_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*) : OPENSSL_STACK 
 ossl_check_OPENSSL_BLOCK_compfunc_type(sk_OPENSSL_BLOCK_compfunc) : OPENSSL_sk_compfunc [[[./../../.././qc/crypto/rsa/rsa_schemes.c.html#444]]]
 ossl_check_OPENSSL_BLOCK_copyfunc_type(sk_OPENSSL_BLOCK_copyfunc) : OPENSSL_sk_copyfunc [[[./../../.././qc/crypto/rsa/rsa_schemes.c.html#444]]]
 ossl_check_OPENSSL_BLOCK_freefunc_type(sk_OPENSSL_BLOCK_freefunc) : OPENSSL_sk_freefunc [[[./../../.././qc/crypto/rsa/rsa_schemes.c.html#444]]]
+getchar(void) :  int  [[[./../../.././qc/crypto/rsa/rsa_schemes.c.html#1289]]]
+fgetc_unlocked(FILE*) :  int  [[[./../../.././qc/crypto/rsa/rsa_schemes.c.html#1298]]]
+getc_unlocked(FILE*) :  int  [[[./../../.././qc/crypto/rsa/rsa_schemes.c.html#1308]]]
+getchar_unlocked(void) :  int  [[[./../../.././qc/crypto/rsa/rsa_schemes.c.html#1315]]]
+putchar(int) :  int  [[[./../../.././qc/crypto/rsa/rsa_schemes.c.html#1324]]]
 } 
 @enduml

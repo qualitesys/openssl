@@ -13,11 +13,59 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00767"
+ , "c5link" : "././qc/apps/ocsp.c.html#767"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00776"
+ , "c5link" : "././qc/apps/ocsp.c.html#776"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00786"
+ , "c5link" : "././qc/apps/ocsp.c.html#786"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00793"
+ , "c5link" : "././qc/apps/ocsp.c.html#793"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00802"
+ , "c5link" : "././qc/apps/ocsp.c.html#802"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/apps/ocsp.c.png" 
+
+ , "ligneplantuml" : "./qc/apps/ocsp.c.svg" }
+
 ] 
 , 
 "data04" : [
@@ -61,10 +109,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00611"
- , "c1link" : "./qc/apps/ocsp.c.html#611"
+ , "c1" : "00811"
+ , "c1link" : "./qc/apps/ocsp.c.html#811"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00611] syntax analysis failed on file /home/runner/work/openssl/openssl/apps/ocsp.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[00811] syntax analysis failed on file /home/runner/work/openssl/openssl/apps/ocsp.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

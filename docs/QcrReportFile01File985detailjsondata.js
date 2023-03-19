@@ -2271,6 +2271,51 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01861"
+ , "c5link" : "././qc/providers/implementations/macs/cmac_prov.c.html#1861"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01870"
+ , "c5link" : "././qc/providers/implementations/macs/cmac_prov.c.html#1870"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01880"
+ , "c5link" : "././qc/providers/implementations/macs/cmac_prov.c.html#1880"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01887"
+ , "c5link" : "././qc/providers/implementations/macs/cmac_prov.c.html#1887"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01896"
+ , "c5link" : "././qc/providers/implementations/macs/cmac_prov.c.html#1896"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -2323,10 +2368,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01705"
- , "c1link" : "./qc/providers/implementations/macs/cmac_prov.c.html#1705"
+ , "c1" : "01905"
+ , "c1link" : "./qc/providers/implementations/macs/cmac_prov.c.html#1905"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01705] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/macs/cmac_prov.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[01905] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/macs/cmac_prov.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

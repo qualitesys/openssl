@@ -252,5 +252,10 @@ OSSL_FUNC_store_load(OSSL_DISPATCH*) : OSSL_FUNC_store_load_fn [[[./../../../../
 OSSL_FUNC_store_eof(OSSL_DISPATCH*) : OSSL_FUNC_store_eof_fn [[[./../../../.././qc/providers/implementations/macs/poly1305_prov.c.html#1269]]]
 OSSL_FUNC_store_close(OSSL_DISPATCH*) : OSSL_FUNC_store_close_fn [[[./../../../.././qc/providers/implementations/macs/poly1305_prov.c.html#1270]]]
 OSSL_FUNC_store_export_object(OSSL_DISPATCH*) : OSSL_FUNC_store_export_object_fn [[[./../../../.././qc/providers/implementations/macs/poly1305_prov.c.html#1271]]]
+getchar(void) :  int  [[[./../../../.././qc/providers/implementations/macs/poly1305_prov.c.html#1853]]]
+fgetc_unlocked(FILE*) :  int  [[[./../../../.././qc/providers/implementations/macs/poly1305_prov.c.html#1862]]]
+getc_unlocked(FILE*) :  int  [[[./../../../.././qc/providers/implementations/macs/poly1305_prov.c.html#1872]]]
+getchar_unlocked(void) :  int  [[[./../../../.././qc/providers/implementations/macs/poly1305_prov.c.html#1879]]]
+putchar(int) :  int  [[[./../../../.././qc/providers/implementations/macs/poly1305_prov.c.html#1888]]]
 } 
 @enduml

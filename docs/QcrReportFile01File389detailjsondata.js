@@ -174,6 +174,87 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00891"
+ , "c5link" : "././qc/crypto/ec/ecdsa_sign.c.html#891"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bcopy(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00898"
+ , "c5link" : "././qc/crypto/ec/ecdsa_sign.c.html#898"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bzero(void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00939"
+ , "c5link" : "././qc/crypto/ec/ecdsa_sign.c.html#939"
+ , "c1" : " void "
+ , "c2" : "memcpy(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00947"
+ , "c5link" : "././qc/crypto/ec/ecdsa_sign.c.html#947"
+ , "c1" : " void "
+ , "c2" : "memmove(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00954"
+ , "c5link" : "././qc/crypto/ec/ecdsa_sign.c.html#954"
+ , "c1" : " void "
+ , "c2" : "memset(void*;int;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00967"
+ , "c5link" : "././qc/crypto/ec/ecdsa_sign.c.html#967"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "explicit_bzero(void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00974"
+ , "c5link" : "././qc/crypto/ec/ecdsa_sign.c.html#974"
+ , "c1" : " char "
+ , "c2" : "strcpy(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00981"
+ , "c5link" : "././qc/crypto/ec/ecdsa_sign.c.html#981"
+ , "c1" : " char "
+ , "c2" : "stpcpy(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00989"
+ , "c5link" : "././qc/crypto/ec/ecdsa_sign.c.html#989"
+ , "c1" : " char "
+ , "c2" : "strncpy(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -226,10 +307,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00657"
- , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#657"
+ , "c1" : "00999"
+ , "c1link" : "./qc/crypto/ec/ecdsa_sign.c.html#999"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00657] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ec/ecdsa_sign.c near following tokens ( __nonnull__ ( 1 , 2 ) ) ) ; extern void CPP_POINTEUR memccpy ( void CPP_POINTEUR __restrict __dest , const "
+ , "c3" : "QC-CPP999999[00999] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ec/ecdsa_sign.c near following tokens ( __dest , 2 _ 1 ) ) ; } extern __inline __attribute__ ( ( __always_inline__ ) ) __attribute__ ( ( "
 }} 
 ]
 , 

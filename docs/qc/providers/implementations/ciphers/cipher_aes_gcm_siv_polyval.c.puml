@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+class dummy {
+getchar(void) :  int  [[[./../../../.././qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#781]]]
+fgetc_unlocked(FILE*) :  int  [[[./../../../.././qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#790]]]
+getc_unlocked(FILE*) :  int  [[[./../../../.././qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#800]]]
+getchar_unlocked(void) :  int  [[[./../../../.././qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#807]]]
+putchar(int) :  int  [[[./../../../.././qc/providers/implementations/ciphers/cipher_aes_gcm_siv_polyval.c.html#816]]]
+} 
+@enduml

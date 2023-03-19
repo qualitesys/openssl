@@ -13,11 +13,59 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00775"
+ , "c5link" : "././qc/crypto/sm3/legacy_sm3.c.html#775"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00784"
+ , "c5link" : "././qc/crypto/sm3/legacy_sm3.c.html#784"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00794"
+ , "c5link" : "././qc/crypto/sm3/legacy_sm3.c.html#794"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00801"
+ , "c5link" : "././qc/crypto/sm3/legacy_sm3.c.html#801"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00810"
+ , "c5link" : "././qc/crypto/sm3/legacy_sm3.c.html#810"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/crypto/sm3/legacy_sm3.c.png" 
+
+ , "ligneplantuml" : "./qc/crypto/sm3/legacy_sm3.c.svg" }
+
 ] 
 , 
 "data04" : [
@@ -61,10 +109,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00619"
- , "c1link" : "./qc/crypto/sm3/legacy_sm3.c.html#619"
+ , "c1" : "00819"
+ , "c1link" : "./qc/crypto/sm3/legacy_sm3.c.html#819"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00619] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/sm3/legacy_sm3.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[00819] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/sm3/legacy_sm3.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

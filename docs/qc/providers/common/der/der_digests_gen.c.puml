@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+class dummy {
+getchar(void) :  int  [[[./../../../.././qc/providers/common/der/der_digests_gen.c.html#906]]]
+fgetc_unlocked(FILE*) :  int  [[[./../../../.././qc/providers/common/der/der_digests_gen.c.html#915]]]
+getc_unlocked(FILE*) :  int  [[[./../../../.././qc/providers/common/der/der_digests_gen.c.html#925]]]
+getchar_unlocked(void) :  int  [[[./../../../.././qc/providers/common/der/der_digests_gen.c.html#932]]]
+putchar(int) :  int  [[[./../../../.././qc/providers/common/der/der_digests_gen.c.html#941]]]
+} 
+@enduml

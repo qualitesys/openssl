@@ -13,11 +13,59 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00779"
+ , "c5link" : "././qc/providers/common/der/der_sm2_gen.c.html#779"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00788"
+ , "c5link" : "././qc/providers/common/der/der_sm2_gen.c.html#788"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00798"
+ , "c5link" : "././qc/providers/common/der/der_sm2_gen.c.html#798"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00805"
+ , "c5link" : "././qc/providers/common/der/der_sm2_gen.c.html#805"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00814"
+ , "c5link" : "././qc/providers/common/der/der_sm2_gen.c.html#814"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/providers/common/der/der_sm2_gen.c.png" 
+
+ , "ligneplantuml" : "./qc/providers/common/der/der_sm2_gen.c.svg" }
+
 ] 
 , 
 "data04" : [
@@ -61,10 +109,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00623"
- , "c1link" : "./qc/providers/common/der/der_sm2_gen.c.html#623"
+ , "c1" : "00823"
+ , "c1link" : "./qc/providers/common/der/der_sm2_gen.c.html#823"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00623] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/common/der/der_sm2_gen.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[00823] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/common/der/der_sm2_gen.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

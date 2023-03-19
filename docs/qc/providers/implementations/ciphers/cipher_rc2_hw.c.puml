@@ -19,5 +19,10 @@ ossl_check_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*) : OPENSSL_STACK 
 ossl_check_OPENSSL_BLOCK_compfunc_type(sk_OPENSSL_BLOCK_compfunc) : OPENSSL_sk_compfunc [[[./../../../.././qc/providers/implementations/ciphers/cipher_rc2_hw.c.html#498]]]
 ossl_check_OPENSSL_BLOCK_copyfunc_type(sk_OPENSSL_BLOCK_copyfunc) : OPENSSL_sk_copyfunc [[[./../../../.././qc/providers/implementations/ciphers/cipher_rc2_hw.c.html#498]]]
 ossl_check_OPENSSL_BLOCK_freefunc_type(sk_OPENSSL_BLOCK_freefunc) : OPENSSL_sk_freefunc [[[./../../../.././qc/providers/implementations/ciphers/cipher_rc2_hw.c.html#498]]]
+getchar(void) :  int  [[[./../../../.././qc/providers/implementations/ciphers/cipher_rc2_hw.c.html#1331]]]
+fgetc_unlocked(FILE*) :  int  [[[./../../../.././qc/providers/implementations/ciphers/cipher_rc2_hw.c.html#1340]]]
+getc_unlocked(FILE*) :  int  [[[./../../../.././qc/providers/implementations/ciphers/cipher_rc2_hw.c.html#1350]]]
+getchar_unlocked(void) :  int  [[[./../../../.././qc/providers/implementations/ciphers/cipher_rc2_hw.c.html#1357]]]
+putchar(int) :  int  [[[./../../../.././qc/providers/implementations/ciphers/cipher_rc2_hw.c.html#1366]]]
 } 
 @enduml

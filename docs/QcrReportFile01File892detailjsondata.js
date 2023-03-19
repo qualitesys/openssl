@@ -174,6 +174,51 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01409"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#1409"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01418"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#1418"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01428"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#1428"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01435"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#1435"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01444"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#1444"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -226,10 +271,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01253"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#1253"
+ , "c1" : "01453"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html#1453"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01253] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_chacha20_poly1305.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[01453] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_chacha20_poly1305.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

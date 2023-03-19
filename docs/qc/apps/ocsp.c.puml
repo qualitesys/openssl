@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+class dummy {
+getchar(void) :  int  [[[./../.././qc/apps/ocsp.c.html#767]]]
+fgetc_unlocked(FILE*) :  int  [[[./../.././qc/apps/ocsp.c.html#776]]]
+getc_unlocked(FILE*) :  int  [[[./../.././qc/apps/ocsp.c.html#786]]]
+getchar_unlocked(void) :  int  [[[./../.././qc/apps/ocsp.c.html#793]]]
+putchar(int) :  int  [[[./../.././qc/apps/ocsp.c.html#802]]]
+} 
+@enduml

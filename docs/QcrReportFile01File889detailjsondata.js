@@ -174,6 +174,51 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01328"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_cast5_hw.c.html#1328"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01337"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_cast5_hw.c.html#1337"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01347"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_cast5_hw.c.html#1347"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01354"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_cast5_hw.c.html#1354"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01363"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_cast5_hw.c.html#1363"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -226,10 +271,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01172"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_cast5_hw.c.html#1172"
+ , "c1" : "01372"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_cast5_hw.c.html#1372"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01172] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_cast5_hw.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[01372] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_cast5_hw.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

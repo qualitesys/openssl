@@ -2271,6 +2271,51 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01852"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#1852"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01861"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#1861"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01871"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#1871"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01878"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#1878"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01887"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#1887"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -2323,10 +2368,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01696"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#1696"
+ , "c1" : "01896"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#1896"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01696] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/storemgmt/file_store_any2obj.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[01896] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/storemgmt/file_store_any2obj.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

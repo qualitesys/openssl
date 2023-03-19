@@ -2271,6 +2271,51 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01848"
+ , "c5link" : "././qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html#1848"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01857"
+ , "c5link" : "././qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html#1857"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01867"
+ , "c5link" : "././qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html#1867"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01874"
+ , "c5link" : "././qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html#1874"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01883"
+ , "c5link" : "././qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html#1883"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -2323,10 +2368,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01692"
- , "c1link" : "./qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html#1692"
+ , "c1" : "01892"
+ , "c1link" : "./qc/providers/implementations/keymgmt/kdf_legacy_kmgmt.c.html#1892"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01692] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/keymgmt/kdf_legacy_kmgmt.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[01892] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/keymgmt/kdf_legacy_kmgmt.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

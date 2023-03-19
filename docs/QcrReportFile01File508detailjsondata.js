@@ -174,6 +174,51 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01204"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1204"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01213"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1213"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01223"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1223"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01230"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1230"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01239"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1239"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -226,10 +271,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01048"
- , "c1link" : "./qc/crypto/evp/p_legacy.c.html#1048"
+ , "c1" : "01248"
+ , "c1link" : "./qc/crypto/evp/p_legacy.c.html#1248"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01048] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/evp/p_legacy.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[01248] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/evp/p_legacy.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

@@ -13,11 +13,59 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00921"
+ , "c5link" : "././qc/crypto/cms/cms_asn1.c.html#921"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00930"
+ , "c5link" : "././qc/crypto/cms/cms_asn1.c.html#930"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00940"
+ , "c5link" : "././qc/crypto/cms/cms_asn1.c.html#940"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00947"
+ , "c5link" : "././qc/crypto/cms/cms_asn1.c.html#947"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00956"
+ , "c5link" : "././qc/crypto/cms/cms_asn1.c.html#956"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/crypto/cms/cms_asn1.c.png" 
+
+ , "ligneplantuml" : "./qc/crypto/cms/cms_asn1.c.svg" }
+
 ] 
 , 
 "data04" : [
@@ -61,10 +109,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00765"
- , "c1link" : "./qc/crypto/cms/cms_asn1.c.html#765"
+ , "c1" : "00965"
+ , "c1link" : "./qc/crypto/cms/cms_asn1.c.html#965"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00765] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/cms/cms_asn1.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[00965] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/cms/cms_asn1.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

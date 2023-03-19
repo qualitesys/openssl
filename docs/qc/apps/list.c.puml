@@ -1,6 +1,14 @@
 @startuml
 !pragma layout smetana
-"" <|-- "dummy"
 class dummy {
+bcopy(void*;void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../.././qc/apps/list.c.html#298]]]
+bzero(void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../.././qc/apps/list.c.html#305]]]
+memcpy(void*;void*;size_t) :  void  [[[./../.././qc/apps/list.c.html#346]]]
+memmove(void*;void*;size_t) :  void  [[[./../.././qc/apps/list.c.html#354]]]
+memset(void*;int;size_t) :  void  [[[./../.././qc/apps/list.c.html#361]]]
+explicit_bzero(void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../.././qc/apps/list.c.html#374]]]
+strcpy(char*;char*) :  char  [[[./../.././qc/apps/list.c.html#381]]]
+stpcpy(char*;char*) :  char  [[[./../.././qc/apps/list.c.html#388]]]
+strncpy(char*;char*;size_t) :  char  [[[./../.././qc/apps/list.c.html#396]]]
 } 
 @enduml

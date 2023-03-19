@@ -13,11 +13,59 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00785"
+ , "c5link" : "././qc/crypto/evp/legacy_md5_sha1.c.html#785"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00794"
+ , "c5link" : "././qc/crypto/evp/legacy_md5_sha1.c.html#794"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00804"
+ , "c5link" : "././qc/crypto/evp/legacy_md5_sha1.c.html#804"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00811"
+ , "c5link" : "././qc/crypto/evp/legacy_md5_sha1.c.html#811"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00820"
+ , "c5link" : "././qc/crypto/evp/legacy_md5_sha1.c.html#820"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/crypto/evp/legacy_md5_sha1.c.png" 
+
+ , "ligneplantuml" : "./qc/crypto/evp/legacy_md5_sha1.c.svg" }
+
 ] 
 , 
 "data04" : [
@@ -61,10 +109,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00629"
- , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#629"
+ , "c1" : "00829"
+ , "c1link" : "./qc/crypto/evp/legacy_md5_sha1.c.html#829"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00629] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/evp/legacy_md5_sha1.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[00829] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/evp/legacy_md5_sha1.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

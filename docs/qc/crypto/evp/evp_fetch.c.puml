@@ -19,5 +19,10 @@ ossl_check_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*) : OPENSSL_STACK 
 ossl_check_OPENSSL_BLOCK_compfunc_type(sk_OPENSSL_BLOCK_compfunc) : OPENSSL_sk_compfunc [[[./../../.././qc/crypto/evp/evp_fetch.c.html#440]]]
 ossl_check_OPENSSL_BLOCK_copyfunc_type(sk_OPENSSL_BLOCK_copyfunc) : OPENSSL_sk_copyfunc [[[./../../.././qc/crypto/evp/evp_fetch.c.html#440]]]
 ossl_check_OPENSSL_BLOCK_freefunc_type(sk_OPENSSL_BLOCK_freefunc) : OPENSSL_sk_freefunc [[[./../../.././qc/crypto/evp/evp_fetch.c.html#440]]]
+getchar(void) :  int  [[[./../../.././qc/crypto/evp/evp_fetch.c.html#1208]]]
+fgetc_unlocked(FILE*) :  int  [[[./../../.././qc/crypto/evp/evp_fetch.c.html#1217]]]
+getc_unlocked(FILE*) :  int  [[[./../../.././qc/crypto/evp/evp_fetch.c.html#1227]]]
+getchar_unlocked(void) :  int  [[[./../../.././qc/crypto/evp/evp_fetch.c.html#1234]]]
+putchar(int) :  int  [[[./../../.././qc/crypto/evp/evp_fetch.c.html#1243]]]
 } 
 @enduml

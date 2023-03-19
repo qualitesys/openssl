@@ -174,6 +174,51 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01333"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_idea_hw.c.html#1333"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01342"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_idea_hw.c.html#1342"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01352"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_idea_hw.c.html#1352"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01359"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_idea_hw.c.html#1359"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01368"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_idea_hw.c.html#1368"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -226,10 +271,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01177"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_idea_hw.c.html#1177"
+ , "c1" : "01377"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_idea_hw.c.html#1377"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01177] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_idea_hw.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[01377] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_idea_hw.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

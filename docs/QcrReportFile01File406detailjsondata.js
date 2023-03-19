@@ -2271,6 +2271,51 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01851"
+ , "c5link" : "././qc/crypto/encode_decode/encoder_meth.c.html#1851"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01860"
+ , "c5link" : "././qc/crypto/encode_decode/encoder_meth.c.html#1860"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01870"
+ , "c5link" : "././qc/crypto/encode_decode/encoder_meth.c.html#1870"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01877"
+ , "c5link" : "././qc/crypto/encode_decode/encoder_meth.c.html#1877"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01886"
+ , "c5link" : "././qc/crypto/encode_decode/encoder_meth.c.html#1886"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -2323,10 +2368,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01695"
- , "c1link" : "./qc/crypto/encode_decode/encoder_meth.c.html#1695"
+ , "c1" : "01895"
+ , "c1link" : "./qc/crypto/encode_decode/encoder_meth.c.html#1895"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01695] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/encode_decode/encoder_meth.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[01895] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/encode_decode/encoder_meth.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

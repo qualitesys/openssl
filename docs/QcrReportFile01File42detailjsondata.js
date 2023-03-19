@@ -13,11 +13,59 @@ var maDataBlocs = {
 "data02" : [
 { "classe" : 
  { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00900"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#900"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00909"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#909"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00919"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#919"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00926"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#926"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00935"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#935"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
 , 
 "data03" : [
+   {"ligne" : "./qc/apps/lib/tlssrp_depr.c.png" 
+
+ , "ligneplantuml" : "./qc/apps/lib/tlssrp_depr.c.svg" }
+
 ] 
 , 
 "data04" : [
@@ -61,10 +109,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00744"
- , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#744"
+ , "c1" : "00944"
+ , "c1link" : "./qc/apps/lib/tlssrp_depr.c.html#944"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00744] syntax analysis failed on file /home/runner/work/openssl/openssl/apps/lib/tlssrp_depr.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[00944] syntax analysis failed on file /home/runner/work/openssl/openssl/apps/lib/tlssrp_depr.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

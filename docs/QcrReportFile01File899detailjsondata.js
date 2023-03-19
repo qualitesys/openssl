@@ -174,6 +174,51 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01335"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_idea.c.html#1335"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01344"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_idea.c.html#1344"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01354"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_idea.c.html#1354"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01361"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_idea.c.html#1361"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01370"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_idea.c.html#1370"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -226,10 +271,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01179"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_idea.c.html#1179"
+ , "c1" : "01379"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_idea.c.html#1379"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01179] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_idea.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[01379] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_idea.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

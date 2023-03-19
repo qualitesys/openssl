@@ -174,6 +174,51 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01338"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_pkey.c.html#1338"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01347"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_pkey.c.html#1347"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01357"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_pkey.c.html#1357"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01364"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_pkey.c.html#1364"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01373"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_pkey.c.html#1373"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -226,10 +271,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01182"
- , "c1link" : "./qc/crypto/encode_decode/decoder_pkey.c.html#1182"
+ , "c1" : "01382"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_pkey.c.html#1382"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01182] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/encode_decode/decoder_pkey.c near following tokens putw ( int __w , FILE CPP_POINTEUR __stream ) ; extern char CPP_POINTEUR fgets ( char CPP_POINTEUR __restrict __s , int "
+ , "c3" : "QC-CPP999999[01382] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/encode_decode/decoder_pkey.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
 }} 
 ]
 , 

@@ -1,0 +1,10 @@
+@startuml
+!pragma layout smetana
+class dummy {
+getchar(void) :  int  [[[./../../../.././qc/ssl/record/methods/ssl3_cbc.c.html#913]]]
+fgetc_unlocked(FILE*) :  int  [[[./../../../.././qc/ssl/record/methods/ssl3_cbc.c.html#922]]]
+getc_unlocked(FILE*) :  int  [[[./../../../.././qc/ssl/record/methods/ssl3_cbc.c.html#932]]]
+getchar_unlocked(void) :  int  [[[./../../../.././qc/ssl/record/methods/ssl3_cbc.c.html#939]]]
+putchar(int) :  int  [[[./../../../.././qc/ssl/record/methods/ssl3_cbc.c.html#948]]]
+} 
+@enduml
