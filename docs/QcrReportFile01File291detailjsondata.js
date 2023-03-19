@@ -93,6 +93,276 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00448"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#448"
+ , "c1" : " char "
+ , "c2" : "stpncpy(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00455"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#455"
+ , "c1" : " char "
+ , "c2" : "strcat(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00462"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#462"
+ , "c1" : " char "
+ , "c2" : "strncat(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00829"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#829"
+ , "c1" : " char "
+ , "c2" : "ossl_check_OPENSSL_STRING_type(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00829"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#829"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_OPENSSL_STRING_sk_type(structstack_st_OPENSSL_STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00829"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#829"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_OPENSSL_STRING_sk_type(structstack_st_OPENSSL_STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00829"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#829"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_OPENSSL_STRING_compfunc_type(sk_OPENSSL_STRING_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00829"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#829"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_OPENSSL_STRING_copyfunc_type(sk_OPENSSL_STRING_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00829"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#829"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_OPENSSL_STRING_freefunc_type(sk_OPENSSL_STRING_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00831"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#831"
+ , "c1" : " char "
+ , "c2" : "ossl_check_OPENSSL_CSTRING_type(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00831"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#831"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_OPENSSL_CSTRING_sk_type(structstack_st_OPENSSL_CSTRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00831"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#831"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_sk_type(structstack_st_OPENSSL_CSTRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00831"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#831"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_compfunc_type(sk_OPENSSL_CSTRING_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00831"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#831"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_copyfunc_type(sk_OPENSSL_CSTRING_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00831"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#831"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_freefunc_type(sk_OPENSSL_CSTRING_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00834"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#834"
+ , "c1" : " void "
+ , "c2" : "ossl_check_OPENSSL_BLOCK_type(void*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00834"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#834"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00834"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#834"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00834"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#834"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_OPENSSL_BLOCK_compfunc_type(sk_OPENSSL_BLOCK_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00834"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#834"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_OPENSSL_BLOCK_copyfunc_type(sk_OPENSSL_BLOCK_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00834"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#834"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_OPENSSL_BLOCK_freefunc_type(sk_OPENSSL_BLOCK_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01183"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#1183"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01188"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#1188"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01195"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#1195"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01357"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#1357"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01372"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#1372"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01382"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#1382"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01394"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#1394"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01400"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#1400"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01406"
+ , "c5link" : "././qc/crypto/ct/ct_b64.c.html#1406"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -145,10 +415,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00448"
- , "c1link" : "./qc/crypto/ct/ct_b64.c.html#448"
+ , "c1" : "01977"
+ , "c1link" : "./qc/crypto/ct/ct_b64.c.html#1977"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00448] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ct/ct_b64.c near following tokens ( __dest , 2 _ 1 ) ) ; } extern __inline __attribute__ ( ( __always_inline__ ) ) __attribute__ ( ( "
+ , "c3" : "QC-CPP999999[01977] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ct/ct_b64.c near following tokens ) ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR aligned_alloc ( size_t __alignment , size_t __size ) "
 }} 
 ]
 , 

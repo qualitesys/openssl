@@ -309,6 +309,33 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01645"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1645"
+ , "c1" : " char "
+ , "c2" : "stpncpy(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01652"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1652"
+ , "c1" : " char "
+ , "c2" : "strcat(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01659"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1659"
+ , "c1" : " char "
+ , "c2" : "strncat(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -361,10 +388,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01645"
- , "c1link" : "./qc/apps/lib/opt.c.html#1645"
+ , "c1" : "01695"
+ , "c1link" : "./qc/apps/lib/opt.c.html#1695"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01645] syntax analysis failed on file /home/runner/work/openssl/openssl/apps/lib/opt.c near following tokens ( __dest , 2 _ 1 ) ) ; } extern __inline __attribute__ ( ( __always_inline__ ) ) __attribute__ ( ( "
+ , "c3" : "QC-CPP999999[01695] syntax analysis failed on file /home/runner/work/openssl/openssl/apps/lib/opt.c near following tokens ; } typedef __useconds_t useconds_t ; typedef __socklen_t socklen_t ; extern int access ( const char CPP_POINTEUR __name , int __type "
 }} 
 ]
 , 

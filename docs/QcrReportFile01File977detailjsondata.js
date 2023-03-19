@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/keymgmt/dsa_kmgmt.c.html" 
- , "texte" : "File providers/implementations/keymgmt/dsa_kmgmt.c 1 rule violations " 
+ , "texte" : "File providers/implementations/keymgmt/dsa_kmgmt.c 2 rule violations " 
  , "fic2"  : "./qc/providers/implementations/keymgmt/dsa_kmgmt.c.xml" 
  , "fic3"  : "" 
 }
@@ -2316,6 +2316,249 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01900"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#1900"
+ , "c1" : " int "
+ , "c2" : "fputc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01910"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#1910"
+ , "c1" : " int "
+ , "c2" : "putc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01917"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#1917"
+ , "c1" : " int "
+ , "c2" : "putchar_unlocked(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01923"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#1923"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "feof_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01930"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#1930"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ferror_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01949"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#1949"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "sprintf(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01962"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#1962"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsprintf(char*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01981"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#1981"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "snprintf(char*;size_t;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01995"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#1995"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsnprintf(char*;size_t;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02016"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2016"
+ , "c1" : " int "
+ , "c2" : "fprintf(FILE*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02023"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2023"
+ , "c1" : " int "
+ , "c2" : "printf(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02035"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2035"
+ , "c1" : " int "
+ , "c2" : "vprintf(char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02045"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2045"
+ , "c1" : " int "
+ , "c2" : "vfprintf(FILE*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02060"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2060"
+ , "c1" : " int "
+ , "c2" : "dprintf(int;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02071"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2071"
+ , "c1" : " int "
+ , "c2" : "vdprintf(int;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02090"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2090"
+ , "c1" : " char "
+ , "c2" : "fgets(char*;int;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02116"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2116"
+ , "c1" : "size_t"
+ , "c2" : "fread(void*;size_t;size_t;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02143"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2143"
+ , "c1" : "size_t"
+ , "c2" : "fread_unlocked(void*;size_t;size_t;FILE*)"
+ , "c3" : "7"
+ , "c4" : "13"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02314"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2314"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02319"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2319"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02326"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2326"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02473"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2473"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02488"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2488"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02498"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2498"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02510"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2510"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02516"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2516"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02522"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2522"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -2364,14 +2607,28 @@ var maDataBlocs = {
  , "c3" : "Syntax error in source code"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01900"
- , "c1link" : "./qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#1900"
+ , "c1" : "03093"
+ , "c1link" : "./qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#3093"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01900] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/keymgmt/dsa_kmgmt.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
+ , "c3" : "QC-CPP999999[03093] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/keymgmt/dsa_kmgmt.c near following tokens ) ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR aligned_alloc ( size_t __alignment , size_t __size ) "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02153"
+ , "c1link" : "./qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2153"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02153] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ]
 , 

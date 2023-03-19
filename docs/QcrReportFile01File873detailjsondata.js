@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html" 
- , "texte" : "File providers/implementations/ciphers/cipher_aes_siv_hw.c 1 rule violations " 
+ , "texte" : "File providers/implementations/ciphers/cipher_aes_siv_hw.c 2 rule violations " 
  , "fic2"  : "./qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.xml" 
  , "fic3"  : "" 
 }
@@ -219,6 +219,249 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01339"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1339"
+ , "c1" : " int "
+ , "c2" : "fputc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01349"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1349"
+ , "c1" : " int "
+ , "c2" : "putc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01356"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1356"
+ , "c1" : " int "
+ , "c2" : "putchar_unlocked(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01362"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1362"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "feof_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01369"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1369"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ferror_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01388"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1388"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "sprintf(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01401"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1401"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsprintf(char*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01420"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1420"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "snprintf(char*;size_t;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01434"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1434"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsnprintf(char*;size_t;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01455"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1455"
+ , "c1" : " int "
+ , "c2" : "fprintf(FILE*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01462"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1462"
+ , "c1" : " int "
+ , "c2" : "printf(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01474"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1474"
+ , "c1" : " int "
+ , "c2" : "vprintf(char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01484"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1484"
+ , "c1" : " int "
+ , "c2" : "vfprintf(FILE*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01499"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1499"
+ , "c1" : " int "
+ , "c2" : "dprintf(int;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01510"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1510"
+ , "c1" : " int "
+ , "c2" : "vdprintf(int;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01529"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1529"
+ , "c1" : " char "
+ , "c2" : "fgets(char*;int;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01555"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1555"
+ , "c1" : "size_t"
+ , "c2" : "fread(void*;size_t;size_t;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01582"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1582"
+ , "c1" : "size_t"
+ , "c2" : "fread_unlocked(void*;size_t;size_t;FILE*)"
+ , "c3" : "7"
+ , "c4" : "13"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01753"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1753"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01758"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1758"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01765"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1765"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01912"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1912"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01927"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1927"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01937"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1937"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01949"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1949"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01955"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1955"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01961"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1961"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -267,14 +510,28 @@ var maDataBlocs = {
  , "c3" : "Syntax error in source code"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01339"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1339"
+ , "c1" : "02532"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#2532"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01339] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_aes_siv_hw.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
+ , "c3" : "QC-CPP999999[02532] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_aes_siv_hw.c near following tokens ) ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR aligned_alloc ( size_t __alignment , size_t __size ) "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01592"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_siv_hw.c.html#1592"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01592] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ]
 , 

@@ -10,5 +10,17 @@ explicit_bzero(void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [
 strcpy(char*;char*) :  char  [[[./../../.././qc/crypto/ec/ec_curve.c.html#408]]]
 stpcpy(char*;char*) :  char  [[[./../../.././qc/crypto/ec/ec_curve.c.html#415]]]
 strncpy(char*;char*;size_t) :  char  [[[./../../.././qc/crypto/ec/ec_curve.c.html#423]]]
+stpncpy(char*;char*;size_t) :  char  [[[./../../.././qc/crypto/ec/ec_curve.c.html#433]]]
+strcat(char*;char*) :  char  [[[./../../.././qc/crypto/ec/ec_curve.c.html#440]]]
+strncat(char*;char*;size_t) :  char  [[[./../../.././qc/crypto/ec/ec_curve.c.html#447]]]
+atoi(char*) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/ec/ec_curve.c.html#587]]]
+atol(char*) :  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/ec/ec_curve.c.html#592]]]
+atoll(char*) :  long  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/ec/ec_curve.c.html#599]]]
+__bswap_16(__uint16_t) : __uint16_t [[[./../../.././qc/crypto/ec/ec_curve.c.html#899]]]
+__bswap_32(__uint32_t) : __uint32_t [[[./../../.././qc/crypto/ec/ec_curve.c.html#914]]]
+__bswap_64(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/ec/ec_curve.c.html#924]]]
+__uint16_identity(__uint16_t) : __uint16_t [[[./../../.././qc/crypto/ec/ec_curve.c.html#936]]]
+__uint32_identity(__uint32_t) : __uint32_t [[[./../../.././qc/crypto/ec/ec_curve.c.html#942]]]
+__uint64_identity(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/ec/ec_curve.c.html#948]]]
 } 
 @enduml

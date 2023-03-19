@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/chacha/chacha_enc.c.html" 
- , "texte" : "File crypto/chacha/chacha_enc.c 1 rule violations " 
+ , "texte" : "File crypto/chacha/chacha_enc.c 66 rule violations " 
  , "fic2"  : "./qc/crypto/chacha/chacha_enc.c.xml" 
  , "fic3"  : "" 
 }
@@ -93,6 +93,51 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00406"
+ , "c5link" : "././qc/crypto/chacha/chacha_enc.c.html#406"
+ , "c1" : " char "
+ , "c2" : "stpncpy(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00413"
+ , "c5link" : "././qc/crypto/chacha/chacha_enc.c.html#413"
+ , "c1" : " char "
+ , "c2" : "strcat(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00420"
+ , "c5link" : "././qc/crypto/chacha/chacha_enc.c.html#420"
+ , "c1" : " char "
+ , "c2" : "strncat(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00767"
+ , "c5link" : "././qc/crypto/chacha/chacha_enc.c.html#767"
+ , "c1" : " void "
+ , "c2" : "chacha20_core(chacha_buf*;u32)"
+ , "c3" : "8"
+ , "c4" : "24"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00795"
+ , "c5link" : "././qc/crypto/chacha/chacha_enc.c.html#795"
+ , "c1" : " void "
+ , "c2" : "ChaCha20_ctr32(unsignedchar*;unsignedchar*;size_t;unsignedint;unsignedint)"
+ , "c3" : "4"
+ , "c4" : "29"
+}} 
 ] 
 }} 
 ]
@@ -137,18 +182,487 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
+ , "c2" : "QC-CPP000006"
+ , "c3" : "Risk of infinite while loop"
  , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000012"
+ , "c3" : "The condition expression is invariable, always true or false"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "64"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00406"
- , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#406"
+ , "c1" : "00776"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#776"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00776] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00776"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#776"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00776] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00776"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#776"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00776] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00776"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#776"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00776] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00776"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#776"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00776] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00776"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#776"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00776] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00776"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#776"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00776] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00776"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#776"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00776] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00777"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#777"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00777] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00777"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#777"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00777] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00777"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#777"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00777] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00777"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#777"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00777] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00777"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#777"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00777] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00777"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#777"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00777] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00777"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#777"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00777] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00777"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#777"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00777] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00778"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#778"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00778] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00778"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#778"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00778] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00778"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#778"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00778] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00778"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#778"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00778] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00778"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#778"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00778] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00778"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#778"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00778] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00778"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#778"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00778] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00778"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#778"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00778] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00779"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#779"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00779] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00779"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#779"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00779] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00779"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#779"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00779] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00779"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#779"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00779] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00779"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#779"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00779] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00779"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#779"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00779] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00779"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#779"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00779] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00779"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#779"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00779] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00780"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#780"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00780] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00780"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#780"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00780] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00780"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#780"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00780] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00780"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#780"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00780] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00780"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#780"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00780] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00780"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#780"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00780] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00780"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#780"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00780] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00780"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#780"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00780] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00781"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#781"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00781] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00781"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#781"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00781] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00781"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#781"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00781] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00781"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#781"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00781] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00781"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#781"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00781] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00781"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#781"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00781] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00781"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#781"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00781] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00781"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#781"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00781] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00782"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#782"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00782] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00782"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#782"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00782] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00782"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#782"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00782] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00782"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#782"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00782] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00782"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#782"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00782] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00782"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#782"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00782] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00782"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#782"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00782] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00782"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#782"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00782] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00783"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#783"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00783] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00783"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#783"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00783] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00783"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#783"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00783] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00783"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#783"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00783] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00783"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#783"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00783] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00783"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#783"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00783] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00783"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#783"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00783] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00783"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#783"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00783] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00791"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#791"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00406] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/chacha/chacha_enc.c near following tokens ( __dest , 2 _ 1 ) ) ; } extern __inline __attribute__ ( ( __always_inline__ ) ) __attribute__ ( ( "
+ , "c3" : "QC-CPP000006[00791] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00791"
+ , "c1link" : "./qc/crypto/chacha/chacha_enc.c.html#791"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00791] The expression 0 is invariable, always false"
 }} 
 ]
 , 

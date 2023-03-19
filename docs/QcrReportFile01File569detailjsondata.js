@@ -93,6 +93,114 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00688"
+ , "c5link" : "././qc/crypto/o_time.c.html#688"
+ , "c1" : " char "
+ , "c2" : "stpncpy(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00695"
+ , "c5link" : "././qc/crypto/o_time.c.html#695"
+ , "c1" : " char "
+ , "c2" : "strcat(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00702"
+ , "c5link" : "././qc/crypto/o_time.c.html#702"
+ , "c1" : " char "
+ , "c2" : "strncat(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00849"
+ , "c5link" : "././qc/crypto/o_time.c.html#849"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00854"
+ , "c5link" : "././qc/crypto/o_time.c.html#854"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00861"
+ , "c5link" : "././qc/crypto/o_time.c.html#861"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01023"
+ , "c5link" : "././qc/crypto/o_time.c.html#1023"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01038"
+ , "c5link" : "././qc/crypto/o_time.c.html#1038"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01048"
+ , "c5link" : "././qc/crypto/o_time.c.html#1048"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01060"
+ , "c5link" : "././qc/crypto/o_time.c.html#1060"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01066"
+ , "c5link" : "././qc/crypto/o_time.c.html#1066"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01072"
+ , "c5link" : "././qc/crypto/o_time.c.html#1072"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -145,10 +253,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00688"
- , "c1link" : "./qc/crypto/o_time.c.html#688"
+ , "c1" : "01643"
+ , "c1link" : "./qc/crypto/o_time.c.html#1643"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00688] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/o_time.c near following tokens ( __dest , 2 _ 1 ) ) ; } extern __inline __attribute__ ( ( __always_inline__ ) ) __attribute__ ( ( "
+ , "c3" : "QC-CPP999999[01643] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/o_time.c near following tokens ) ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR aligned_alloc ( size_t __alignment , size_t __size ) "
 }} 
 ]
 , 

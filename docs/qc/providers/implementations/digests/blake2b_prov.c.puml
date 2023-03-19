@@ -10,5 +10,17 @@ explicit_bzero(void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [
 strcpy(char*;char*) :  char  [[[./../../../.././qc/providers/implementations/digests/blake2b_prov.c.html#383]]]
 stpcpy(char*;char*) :  char  [[[./../../../.././qc/providers/implementations/digests/blake2b_prov.c.html#390]]]
 strncpy(char*;char*;size_t) :  char  [[[./../../../.././qc/providers/implementations/digests/blake2b_prov.c.html#398]]]
+stpncpy(char*;char*;size_t) :  char  [[[./../../../.././qc/providers/implementations/digests/blake2b_prov.c.html#408]]]
+strcat(char*;char*) :  char  [[[./../../../.././qc/providers/implementations/digests/blake2b_prov.c.html#415]]]
+strncat(char*;char*;size_t) :  char  [[[./../../../.././qc/providers/implementations/digests/blake2b_prov.c.html#422]]]
+atoi(char*) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../../.././qc/providers/implementations/digests/blake2b_prov.c.html#586]]]
+atol(char*) :  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../../.././qc/providers/implementations/digests/blake2b_prov.c.html#591]]]
+atoll(char*) :  long  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../../.././qc/providers/implementations/digests/blake2b_prov.c.html#598]]]
+__bswap_16(__uint16_t) : __uint16_t [[[./../../../.././qc/providers/implementations/digests/blake2b_prov.c.html#898]]]
+__bswap_32(__uint32_t) : __uint32_t [[[./../../../.././qc/providers/implementations/digests/blake2b_prov.c.html#913]]]
+__bswap_64(__uint64_t) : __uint64_t [[[./../../../.././qc/providers/implementations/digests/blake2b_prov.c.html#923]]]
+__uint16_identity(__uint16_t) : __uint16_t [[[./../../../.././qc/providers/implementations/digests/blake2b_prov.c.html#935]]]
+__uint32_identity(__uint32_t) : __uint32_t [[[./../../../.././qc/providers/implementations/digests/blake2b_prov.c.html#941]]]
+__uint64_identity(__uint64_t) : __uint64_t [[[./../../../.././qc/providers/implementations/digests/blake2b_prov.c.html#947]]]
 } 
 @enduml

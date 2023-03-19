@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/encode_decode/encode_key2text.c.html" 
- , "texte" : "File providers/implementations/encode_decode/encode_key2text.c 1 rule violations " 
+ , "texte" : "File providers/implementations/encode_decode/encode_key2text.c 2 rule violations " 
  , "fic2"  : "./qc/providers/implementations/encode_decode/encode_key2text.c.xml" 
  , "fic3"  : "" 
 }
@@ -2334,6 +2334,249 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02040"
+ , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2text.c.html#2040"
+ , "c1" : " int "
+ , "c2" : "fputc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02050"
+ , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2text.c.html#2050"
+ , "c1" : " int "
+ , "c2" : "putc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02057"
+ , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2text.c.html#2057"
+ , "c1" : " int "
+ , "c2" : "putchar_unlocked(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02063"
+ , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2text.c.html#2063"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "feof_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02070"
+ , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2text.c.html#2070"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ferror_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02089"
+ , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2text.c.html#2089"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "sprintf(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02102"
+ , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2text.c.html#2102"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsprintf(char*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02121"
+ , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2text.c.html#2121"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "snprintf(char*;size_t;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02135"
+ , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2text.c.html#2135"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsnprintf(char*;size_t;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02156"
+ , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2text.c.html#2156"
+ , "c1" : " int "
+ , "c2" : "fprintf(FILE*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02163"
+ , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2text.c.html#2163"
+ , "c1" : " int "
+ , "c2" : "printf(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02175"
+ , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2text.c.html#2175"
+ , "c1" : " int "
+ , "c2" : "vprintf(char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02185"
+ , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2text.c.html#2185"
+ , "c1" : " int "
+ , "c2" : "vfprintf(FILE*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02200"
+ , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2text.c.html#2200"
+ , "c1" : " int "
+ , "c2" : "dprintf(int;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02211"
+ , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2text.c.html#2211"
+ , "c1" : " int "
+ , "c2" : "vdprintf(int;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02230"
+ , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2text.c.html#2230"
+ , "c1" : " char "
+ , "c2" : "fgets(char*;int;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02256"
+ , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2text.c.html#2256"
+ , "c1" : "size_t"
+ , "c2" : "fread(void*;size_t;size_t;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02283"
+ , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2text.c.html#2283"
+ , "c1" : "size_t"
+ , "c2" : "fread_unlocked(void*;size_t;size_t;FILE*)"
+ , "c3" : "7"
+ , "c4" : "13"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02454"
+ , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2text.c.html#2454"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02459"
+ , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2text.c.html#2459"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02466"
+ , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2text.c.html#2466"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02607"
+ , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2text.c.html#2607"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02622"
+ , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2text.c.html#2622"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02632"
+ , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2text.c.html#2632"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02644"
+ , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2text.c.html#2644"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02650"
+ , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2text.c.html#2650"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02656"
+ , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2text.c.html#2656"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -2382,14 +2625,28 @@ var maDataBlocs = {
  , "c3" : "Syntax error in source code"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "02040"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2text.c.html#2040"
+ , "c1" : "03227"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2text.c.html#3227"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[02040] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/encode_decode/encode_key2text.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
+ , "c3" : "QC-CPP999999[03227] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/encode_decode/encode_key2text.c near following tokens ) ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR aligned_alloc ( size_t __alignment , size_t __size ) "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02293"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2text.c.html#2293"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02293] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ]
 , 

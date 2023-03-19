@@ -10,5 +10,17 @@ explicit_bzero(void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [
 strcpy(char*;char*) :  char  [[[./../../../.././qc/providers/implementations/exchange/dh_exch.c.html#408]]]
 stpcpy(char*;char*) :  char  [[[./../../../.././qc/providers/implementations/exchange/dh_exch.c.html#415]]]
 strncpy(char*;char*;size_t) :  char  [[[./../../../.././qc/providers/implementations/exchange/dh_exch.c.html#423]]]
+stpncpy(char*;char*;size_t) :  char  [[[./../../../.././qc/providers/implementations/exchange/dh_exch.c.html#433]]]
+strcat(char*;char*) :  char  [[[./../../../.././qc/providers/implementations/exchange/dh_exch.c.html#440]]]
+strncat(char*;char*;size_t) :  char  [[[./../../../.././qc/providers/implementations/exchange/dh_exch.c.html#447]]]
+atoi(char*) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../../.././qc/providers/implementations/exchange/dh_exch.c.html#594]]]
+atol(char*) :  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../../.././qc/providers/implementations/exchange/dh_exch.c.html#599]]]
+atoll(char*) :  long  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../../.././qc/providers/implementations/exchange/dh_exch.c.html#606]]]
+__bswap_16(__uint16_t) : __uint16_t [[[./../../../.././qc/providers/implementations/exchange/dh_exch.c.html#906]]]
+__bswap_32(__uint32_t) : __uint32_t [[[./../../../.././qc/providers/implementations/exchange/dh_exch.c.html#921]]]
+__bswap_64(__uint64_t) : __uint64_t [[[./../../../.././qc/providers/implementations/exchange/dh_exch.c.html#931]]]
+__uint16_identity(__uint16_t) : __uint16_t [[[./../../../.././qc/providers/implementations/exchange/dh_exch.c.html#943]]]
+__uint32_identity(__uint32_t) : __uint32_t [[[./../../../.././qc/providers/implementations/exchange/dh_exch.c.html#949]]]
+__uint64_identity(__uint64_t) : __uint64_t [[[./../../../.././qc/providers/implementations/exchange/dh_exch.c.html#955]]]
 } 
 @enduml

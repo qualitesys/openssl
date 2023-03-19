@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/ecx_backend.c.html" 
- , "texte" : "File crypto/ec/ecx_backend.c 1 rule violations " 
+ , "texte" : "File crypto/ec/ecx_backend.c 2 rule violations " 
  , "fic2"  : "./qc/crypto/ec/ecx_backend.c.xml" 
  , "fic3"  : "" 
 }
@@ -93,6 +93,483 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00406"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#406"
+ , "c1" : " char "
+ , "c2" : "stpncpy(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00413"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#413"
+ , "c1" : " char "
+ , "c2" : "strcat(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00420"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#420"
+ , "c1" : " char "
+ , "c2" : "strncat(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00840"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#840"
+ , "c1" : " char "
+ , "c2" : "ossl_check_OPENSSL_STRING_type(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00840"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#840"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_OPENSSL_STRING_sk_type(structstack_st_OPENSSL_STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00840"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#840"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_OPENSSL_STRING_sk_type(structstack_st_OPENSSL_STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00840"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#840"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_OPENSSL_STRING_compfunc_type(sk_OPENSSL_STRING_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00840"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#840"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_OPENSSL_STRING_copyfunc_type(sk_OPENSSL_STRING_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00840"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#840"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_OPENSSL_STRING_freefunc_type(sk_OPENSSL_STRING_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00842"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#842"
+ , "c1" : " char "
+ , "c2" : "ossl_check_OPENSSL_CSTRING_type(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00842"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#842"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_OPENSSL_CSTRING_sk_type(structstack_st_OPENSSL_CSTRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00842"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#842"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_sk_type(structstack_st_OPENSSL_CSTRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00842"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#842"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_compfunc_type(sk_OPENSSL_CSTRING_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00842"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#842"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_copyfunc_type(sk_OPENSSL_CSTRING_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00842"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#842"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_freefunc_type(sk_OPENSSL_CSTRING_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00845"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#845"
+ , "c1" : " void "
+ , "c2" : "ossl_check_OPENSSL_BLOCK_type(void*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00845"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#845"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00845"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#845"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00845"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#845"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_OPENSSL_BLOCK_compfunc_type(sk_OPENSSL_BLOCK_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00845"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#845"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_OPENSSL_BLOCK_copyfunc_type(sk_OPENSSL_BLOCK_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00845"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#845"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_OPENSSL_BLOCK_freefunc_type(sk_OPENSSL_BLOCK_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01678"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#1678"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01687"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#1687"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01697"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#1697"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01704"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#1704"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01713"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#1713"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01722"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#1722"
+ , "c1" : " int "
+ , "c2" : "fputc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01732"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#1732"
+ , "c1" : " int "
+ , "c2" : "putc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01739"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#1739"
+ , "c1" : " int "
+ , "c2" : "putchar_unlocked(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01745"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#1745"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "feof_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01752"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#1752"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ferror_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01771"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#1771"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "sprintf(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01784"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#1784"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsprintf(char*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01803"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#1803"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "snprintf(char*;size_t;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01817"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#1817"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsnprintf(char*;size_t;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01838"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#1838"
+ , "c1" : " int "
+ , "c2" : "fprintf(FILE*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01845"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#1845"
+ , "c1" : " int "
+ , "c2" : "printf(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01857"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#1857"
+ , "c1" : " int "
+ , "c2" : "vprintf(char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01867"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#1867"
+ , "c1" : " int "
+ , "c2" : "vfprintf(FILE*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01882"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#1882"
+ , "c1" : " int "
+ , "c2" : "dprintf(int;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01893"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#1893"
+ , "c1" : " int "
+ , "c2" : "vdprintf(int;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01912"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#1912"
+ , "c1" : " char "
+ , "c2" : "fgets(char*;int;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01938"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#1938"
+ , "c1" : "size_t"
+ , "c2" : "fread(void*;size_t;size_t;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01965"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#1965"
+ , "c1" : "size_t"
+ , "c2" : "fread_unlocked(void*;size_t;size_t;FILE*)"
+ , "c3" : "7"
+ , "c4" : "13"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02136"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#2136"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02141"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#2141"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02148"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#2148"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02295"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#2295"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02310"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#2310"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02320"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#2320"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02332"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#2332"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02338"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#2338"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02344"
+ , "c5link" : "././qc/crypto/ec/ecx_backend.c.html#2344"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -141,14 +618,28 @@ var maDataBlocs = {
  , "c3" : "Syntax error in source code"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00406"
- , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#406"
+ , "c1" : "02915"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#2915"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00406] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ec/ecx_backend.c near following tokens ( __dest , 2 _ 1 ) ) ; } extern __inline __attribute__ ( ( __always_inline__ ) ) __attribute__ ( ( "
+ , "c3" : "QC-CPP999999[02915] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ec/ecx_backend.c near following tokens ) ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR aligned_alloc ( size_t __alignment , size_t __size ) "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01975"
+ , "c1link" : "./qc/crypto/ec/ecx_backend.c.html#1975"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01975] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ]
 , 

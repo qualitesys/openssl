@@ -93,6 +93,114 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00406"
+ , "c5link" : "././qc/providers/implementations/kem/kem_util.c.html#406"
+ , "c1" : " char "
+ , "c2" : "stpncpy(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00413"
+ , "c5link" : "././qc/providers/implementations/kem/kem_util.c.html#413"
+ , "c1" : " char "
+ , "c2" : "strcat(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00420"
+ , "c5link" : "././qc/providers/implementations/kem/kem_util.c.html#420"
+ , "c1" : " char "
+ , "c2" : "strncat(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00588"
+ , "c5link" : "././qc/providers/implementations/kem/kem_util.c.html#588"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00593"
+ , "c5link" : "././qc/providers/implementations/kem/kem_util.c.html#593"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00600"
+ , "c5link" : "././qc/providers/implementations/kem/kem_util.c.html#600"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00900"
+ , "c5link" : "././qc/providers/implementations/kem/kem_util.c.html#900"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00915"
+ , "c5link" : "././qc/providers/implementations/kem/kem_util.c.html#915"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00925"
+ , "c5link" : "././qc/providers/implementations/kem/kem_util.c.html#925"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00937"
+ , "c5link" : "././qc/providers/implementations/kem/kem_util.c.html#937"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00943"
+ , "c5link" : "././qc/providers/implementations/kem/kem_util.c.html#943"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00949"
+ , "c5link" : "././qc/providers/implementations/kem/kem_util.c.html#949"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -145,10 +253,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00406"
- , "c1link" : "./qc/providers/implementations/kem/kem_util.c.html#406"
+ , "c1" : "01520"
+ , "c1link" : "./qc/providers/implementations/kem/kem_util.c.html#1520"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00406] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/kem/kem_util.c near following tokens ( __dest , 2 _ 1 ) ) ; } extern __inline __attribute__ ( ( __always_inline__ ) ) __attribute__ ( ( "
+ , "c3" : "QC-CPP999999[01520] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/kem/kem_util.c near following tokens ) ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR aligned_alloc ( size_t __alignment , size_t __size ) "
 }} 
 ]
 , 

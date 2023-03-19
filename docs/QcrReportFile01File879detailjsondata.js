@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html" 
- , "texte" : "File providers/implementations/ciphers/cipher_aria_ccm.c 1 rule violations " 
+ , "texte" : "File providers/implementations/ciphers/cipher_aria_ccm.c 2 rule violations " 
  , "fic2"  : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.xml" 
  , "fic3"  : "" 
 }
@@ -219,6 +219,249 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01358"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1358"
+ , "c1" : " int "
+ , "c2" : "fputc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01368"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1368"
+ , "c1" : " int "
+ , "c2" : "putc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01375"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1375"
+ , "c1" : " int "
+ , "c2" : "putchar_unlocked(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01381"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1381"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "feof_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01388"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1388"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ferror_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01407"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1407"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "sprintf(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01420"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1420"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsprintf(char*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01439"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1439"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "snprintf(char*;size_t;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01453"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1453"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsnprintf(char*;size_t;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01474"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1474"
+ , "c1" : " int "
+ , "c2" : "fprintf(FILE*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01481"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1481"
+ , "c1" : " int "
+ , "c2" : "printf(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01493"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1493"
+ , "c1" : " int "
+ , "c2" : "vprintf(char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01503"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1503"
+ , "c1" : " int "
+ , "c2" : "vfprintf(FILE*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01518"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1518"
+ , "c1" : " int "
+ , "c2" : "dprintf(int;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01529"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1529"
+ , "c1" : " int "
+ , "c2" : "vdprintf(int;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01548"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1548"
+ , "c1" : " char "
+ , "c2" : "fgets(char*;int;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01574"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1574"
+ , "c1" : "size_t"
+ , "c2" : "fread(void*;size_t;size_t;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01601"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1601"
+ , "c1" : "size_t"
+ , "c2" : "fread_unlocked(void*;size_t;size_t;FILE*)"
+ , "c3" : "7"
+ , "c4" : "13"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01772"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1772"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01777"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1777"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01784"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1784"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01931"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1931"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01946"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1946"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01956"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1956"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01968"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1968"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01974"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1974"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01980"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1980"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -267,14 +510,28 @@ var maDataBlocs = {
  , "c3" : "Syntax error in source code"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01358"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1358"
+ , "c1" : "02551"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#2551"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01358] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_aria_ccm.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
+ , "c3" : "QC-CPP999999[02551] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_aria_ccm.c near following tokens ) ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR aligned_alloc ( size_t __alignment , size_t __size ) "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01611"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aria_ccm.c.html#1611"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01611] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ]
 , 

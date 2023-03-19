@@ -93,6 +93,114 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00433"
+ , "c5link" : "././qc/providers/implementations/signature/dsa_sig.c.html#433"
+ , "c1" : " char "
+ , "c2" : "stpncpy(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00440"
+ , "c5link" : "././qc/providers/implementations/signature/dsa_sig.c.html#440"
+ , "c1" : " char "
+ , "c2" : "strcat(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00447"
+ , "c5link" : "././qc/providers/implementations/signature/dsa_sig.c.html#447"
+ , "c1" : " char "
+ , "c2" : "strncat(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00595"
+ , "c5link" : "././qc/providers/implementations/signature/dsa_sig.c.html#595"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00600"
+ , "c5link" : "././qc/providers/implementations/signature/dsa_sig.c.html#600"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00607"
+ , "c5link" : "././qc/providers/implementations/signature/dsa_sig.c.html#607"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00907"
+ , "c5link" : "././qc/providers/implementations/signature/dsa_sig.c.html#907"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00922"
+ , "c5link" : "././qc/providers/implementations/signature/dsa_sig.c.html#922"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00932"
+ , "c5link" : "././qc/providers/implementations/signature/dsa_sig.c.html#932"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00944"
+ , "c5link" : "././qc/providers/implementations/signature/dsa_sig.c.html#944"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00950"
+ , "c5link" : "././qc/providers/implementations/signature/dsa_sig.c.html#950"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00956"
+ , "c5link" : "././qc/providers/implementations/signature/dsa_sig.c.html#956"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -145,10 +253,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00433"
- , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#433"
+ , "c1" : "01527"
+ , "c1link" : "./qc/providers/implementations/signature/dsa_sig.c.html#1527"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00433] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/signature/dsa_sig.c near following tokens ( __dest , 2 _ 1 ) ) ; } extern __inline __attribute__ ( ( __always_inline__ ) ) __attribute__ ( ( "
+ , "c3" : "QC-CPP999999[01527] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/signature/dsa_sig.c near following tokens ) ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR aligned_alloc ( size_t __alignment , size_t __size ) "
 }} 
 ]
 , 

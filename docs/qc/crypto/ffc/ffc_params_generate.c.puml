@@ -10,5 +10,17 @@ explicit_bzero(void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [
 strcpy(char*;char*) :  char  [[[./../../.././qc/crypto/ffc/ffc_params_generate.c.html#381]]]
 stpcpy(char*;char*) :  char  [[[./../../.././qc/crypto/ffc/ffc_params_generate.c.html#388]]]
 strncpy(char*;char*;size_t) :  char  [[[./../../.././qc/crypto/ffc/ffc_params_generate.c.html#396]]]
+stpncpy(char*;char*;size_t) :  char  [[[./../../.././qc/crypto/ffc/ffc_params_generate.c.html#406]]]
+strcat(char*;char*) :  char  [[[./../../.././qc/crypto/ffc/ffc_params_generate.c.html#413]]]
+strncat(char*;char*;size_t) :  char  [[[./../../.././qc/crypto/ffc/ffc_params_generate.c.html#420]]]
+atoi(char*) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/ffc/ffc_params_generate.c.html#938]]]
+atol(char*) :  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/ffc/ffc_params_generate.c.html#943]]]
+atoll(char*) :  long  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/ffc/ffc_params_generate.c.html#950]]]
+__bswap_16(__uint16_t) : __uint16_t [[[./../../.././qc/crypto/ffc/ffc_params_generate.c.html#1112]]]
+__bswap_32(__uint32_t) : __uint32_t [[[./../../.././qc/crypto/ffc/ffc_params_generate.c.html#1127]]]
+__bswap_64(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/ffc/ffc_params_generate.c.html#1137]]]
+__uint16_identity(__uint16_t) : __uint16_t [[[./../../.././qc/crypto/ffc/ffc_params_generate.c.html#1149]]]
+__uint32_identity(__uint32_t) : __uint32_t [[[./../../.././qc/crypto/ffc/ffc_params_generate.c.html#1155]]]
+__uint64_identity(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/ffc/ffc_params_generate.c.html#1161]]]
 } 
 @enduml

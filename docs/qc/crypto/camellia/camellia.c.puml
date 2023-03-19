@@ -10,5 +10,17 @@ explicit_bzero(void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [
 strcpy(char*;char*) :  char  [[[./../../.././qc/crypto/camellia/camellia.c.html#514]]]
 stpcpy(char*;char*) :  char  [[[./../../.././qc/crypto/camellia/camellia.c.html#521]]]
 strncpy(char*;char*;size_t) :  char  [[[./../../.././qc/crypto/camellia/camellia.c.html#529]]]
+stpncpy(char*;char*;size_t) :  char  [[[./../../.././qc/crypto/camellia/camellia.c.html#539]]]
+strcat(char*;char*) :  char  [[[./../../.././qc/crypto/camellia/camellia.c.html#546]]]
+strncat(char*;char*;size_t) :  char  [[[./../../.././qc/crypto/camellia/camellia.c.html#553]]]
+atoi(char*) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/camellia/camellia.c.html#689]]]
+atol(char*) :  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/camellia/camellia.c.html#694]]]
+atoll(char*) :  long  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/camellia/camellia.c.html#701]]]
+__bswap_16(__uint16_t) : __uint16_t [[[./../../.././qc/crypto/camellia/camellia.c.html#1001]]]
+__bswap_32(__uint32_t) : __uint32_t [[[./../../.././qc/crypto/camellia/camellia.c.html#1016]]]
+__bswap_64(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/camellia/camellia.c.html#1026]]]
+__uint16_identity(__uint16_t) : __uint16_t [[[./../../.././qc/crypto/camellia/camellia.c.html#1038]]]
+__uint32_identity(__uint32_t) : __uint32_t [[[./../../.././qc/crypto/camellia/camellia.c.html#1044]]]
+__uint64_identity(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/camellia/camellia.c.html#1050]]]
 } 
 @enduml

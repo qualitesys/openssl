@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/gendsa.c.html" 
- , "texte" : "File apps/gendsa.c 1 rule violations " 
+ , "texte" : "File apps/gendsa.c 2 rule violations " 
  , "fic2"  : "./qc/apps/gendsa.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,6 +57,357 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00806"
+ , "c5link" : "././qc/apps/gendsa.c.html#806"
+ , "c1" : " int "
+ , "c2" : "fputc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00816"
+ , "c5link" : "././qc/apps/gendsa.c.html#816"
+ , "c1" : " int "
+ , "c2" : "putc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00823"
+ , "c5link" : "././qc/apps/gendsa.c.html#823"
+ , "c1" : " int "
+ , "c2" : "putchar_unlocked(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00829"
+ , "c5link" : "././qc/apps/gendsa.c.html#829"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "feof_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00836"
+ , "c5link" : "././qc/apps/gendsa.c.html#836"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ferror_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00855"
+ , "c5link" : "././qc/apps/gendsa.c.html#855"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "sprintf(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00868"
+ , "c5link" : "././qc/apps/gendsa.c.html#868"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsprintf(char*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00887"
+ , "c5link" : "././qc/apps/gendsa.c.html#887"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "snprintf(char*;size_t;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00901"
+ , "c5link" : "././qc/apps/gendsa.c.html#901"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsnprintf(char*;size_t;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00922"
+ , "c5link" : "././qc/apps/gendsa.c.html#922"
+ , "c1" : " int "
+ , "c2" : "fprintf(FILE*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00929"
+ , "c5link" : "././qc/apps/gendsa.c.html#929"
+ , "c1" : " int "
+ , "c2" : "printf(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00941"
+ , "c5link" : "././qc/apps/gendsa.c.html#941"
+ , "c1" : " int "
+ , "c2" : "vprintf(char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00951"
+ , "c5link" : "././qc/apps/gendsa.c.html#951"
+ , "c1" : " int "
+ , "c2" : "vfprintf(FILE*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00966"
+ , "c5link" : "././qc/apps/gendsa.c.html#966"
+ , "c1" : " int "
+ , "c2" : "dprintf(int;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00977"
+ , "c5link" : "././qc/apps/gendsa.c.html#977"
+ , "c1" : " int "
+ , "c2" : "vdprintf(int;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00996"
+ , "c5link" : "././qc/apps/gendsa.c.html#996"
+ , "c1" : " char "
+ , "c2" : "fgets(char*;int;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01022"
+ , "c5link" : "././qc/apps/gendsa.c.html#1022"
+ , "c1" : "size_t"
+ , "c2" : "fread(void*;size_t;size_t;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01049"
+ , "c5link" : "././qc/apps/gendsa.c.html#1049"
+ , "c1" : "size_t"
+ , "c2" : "fread_unlocked(void*;size_t;size_t;FILE*)"
+ , "c3" : "7"
+ , "c4" : "13"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01352"
+ , "c5link" : "././qc/apps/gendsa.c.html#1352"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bcopy(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01359"
+ , "c5link" : "././qc/apps/gendsa.c.html#1359"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bzero(void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01400"
+ , "c5link" : "././qc/apps/gendsa.c.html#1400"
+ , "c1" : " void "
+ , "c2" : "memcpy(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01408"
+ , "c5link" : "././qc/apps/gendsa.c.html#1408"
+ , "c1" : " void "
+ , "c2" : "memmove(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01415"
+ , "c5link" : "././qc/apps/gendsa.c.html#1415"
+ , "c1" : " void "
+ , "c2" : "memset(void*;int;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01428"
+ , "c5link" : "././qc/apps/gendsa.c.html#1428"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "explicit_bzero(void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01435"
+ , "c5link" : "././qc/apps/gendsa.c.html#1435"
+ , "c1" : " char "
+ , "c2" : "strcpy(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01442"
+ , "c5link" : "././qc/apps/gendsa.c.html#1442"
+ , "c1" : " char "
+ , "c2" : "stpcpy(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01450"
+ , "c5link" : "././qc/apps/gendsa.c.html#1450"
+ , "c1" : " char "
+ , "c2" : "strncpy(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01460"
+ , "c5link" : "././qc/apps/gendsa.c.html#1460"
+ , "c1" : " char "
+ , "c2" : "stpncpy(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01467"
+ , "c5link" : "././qc/apps/gendsa.c.html#1467"
+ , "c1" : " char "
+ , "c2" : "strcat(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01474"
+ , "c5link" : "././qc/apps/gendsa.c.html#1474"
+ , "c1" : " char "
+ , "c2" : "strncat(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01625"
+ , "c5link" : "././qc/apps/gendsa.c.html#1625"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01640"
+ , "c5link" : "././qc/apps/gendsa.c.html#1640"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01650"
+ , "c5link" : "././qc/apps/gendsa.c.html#1650"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01662"
+ , "c5link" : "././qc/apps/gendsa.c.html#1662"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01668"
+ , "c5link" : "././qc/apps/gendsa.c.html#1668"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01674"
+ , "c5link" : "././qc/apps/gendsa.c.html#1674"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02482"
+ , "c5link" : "././qc/apps/gendsa.c.html#2482"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02487"
+ , "c5link" : "././qc/apps/gendsa.c.html#2487"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02494"
+ , "c5link" : "././qc/apps/gendsa.c.html#2494"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -105,14 +456,28 @@ var maDataBlocs = {
  , "c3" : "Syntax error in source code"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00806"
- , "c1link" : "./qc/apps/gendsa.c.html#806"
+ , "c1" : "02714"
+ , "c1link" : "./qc/apps/gendsa.c.html#2714"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00806] syntax analysis failed on file /home/runner/work/openssl/openssl/apps/gendsa.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
+ , "c3" : "QC-CPP999999[02714] syntax analysis failed on file /home/runner/work/openssl/openssl/apps/gendsa.c near following tokens ) ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR aligned_alloc ( size_t __alignment , size_t __size ) "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01059"
+ , "c1link" : "./qc/apps/gendsa.c.html#1059"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01059] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ]
 , 

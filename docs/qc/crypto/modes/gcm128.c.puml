@@ -10,5 +10,17 @@ explicit_bzero(void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [
 strcpy(char*;char*) :  char  [[[./../../.././qc/crypto/modes/gcm128.c.html#381]]]
 stpcpy(char*;char*) :  char  [[[./../../.././qc/crypto/modes/gcm128.c.html#388]]]
 strncpy(char*;char*;size_t) :  char  [[[./../../.././qc/crypto/modes/gcm128.c.html#396]]]
+stpncpy(char*;char*;size_t) :  char  [[[./../../.././qc/crypto/modes/gcm128.c.html#406]]]
+strcat(char*;char*) :  char  [[[./../../.././qc/crypto/modes/gcm128.c.html#413]]]
+strncat(char*;char*;size_t) :  char  [[[./../../.././qc/crypto/modes/gcm128.c.html#420]]]
+atoi(char*) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/modes/gcm128.c.html#584]]]
+atol(char*) :  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/modes/gcm128.c.html#589]]]
+atoll(char*) :  long  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/modes/gcm128.c.html#596]]]
+__bswap_16(__uint16_t) : __uint16_t [[[./../../.././qc/crypto/modes/gcm128.c.html#896]]]
+__bswap_32(__uint32_t) : __uint32_t [[[./../../.././qc/crypto/modes/gcm128.c.html#911]]]
+__bswap_64(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/modes/gcm128.c.html#921]]]
+__uint16_identity(__uint16_t) : __uint16_t [[[./../../.././qc/crypto/modes/gcm128.c.html#933]]]
+__uint32_identity(__uint32_t) : __uint32_t [[[./../../.././qc/crypto/modes/gcm128.c.html#939]]]
+__uint64_identity(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/modes/gcm128.c.html#945]]]
 } 
 @enduml

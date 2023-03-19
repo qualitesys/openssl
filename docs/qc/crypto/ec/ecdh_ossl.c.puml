@@ -10,5 +10,17 @@ explicit_bzero(void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [
 strcpy(char*;char*) :  char  [[[./../../.././qc/crypto/ec/ecdh_ossl.c.html#408]]]
 stpcpy(char*;char*) :  char  [[[./../../.././qc/crypto/ec/ecdh_ossl.c.html#415]]]
 strncpy(char*;char*;size_t) :  char  [[[./../../.././qc/crypto/ec/ecdh_ossl.c.html#423]]]
+stpncpy(char*;char*;size_t) :  char  [[[./../../.././qc/crypto/ec/ecdh_ossl.c.html#433]]]
+strcat(char*;char*) :  char  [[[./../../.././qc/crypto/ec/ecdh_ossl.c.html#440]]]
+strncat(char*;char*;size_t) :  char  [[[./../../.././qc/crypto/ec/ecdh_ossl.c.html#447]]]
+atoi(char*) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/ec/ecdh_ossl.c.html#636]]]
+atol(char*) :  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/ec/ecdh_ossl.c.html#641]]]
+atoll(char*) :  long  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/ec/ecdh_ossl.c.html#648]]]
+__bswap_16(__uint16_t) : __uint16_t [[[./../../.././qc/crypto/ec/ecdh_ossl.c.html#948]]]
+__bswap_32(__uint32_t) : __uint32_t [[[./../../.././qc/crypto/ec/ecdh_ossl.c.html#963]]]
+__bswap_64(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/ec/ecdh_ossl.c.html#973]]]
+__uint16_identity(__uint16_t) : __uint16_t [[[./../../.././qc/crypto/ec/ecdh_ossl.c.html#985]]]
+__uint32_identity(__uint32_t) : __uint32_t [[[./../../.././qc/crypto/ec/ecdh_ossl.c.html#991]]]
+__uint64_identity(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/ec/ecdh_ossl.c.html#997]]]
 } 
 @enduml

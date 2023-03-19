@@ -10,5 +10,13 @@ explicit_bzero(void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [
 strcpy(char*;char*) :  char  [[[./../../.././qc/crypto/sha/sha3.c.html#381]]]
 stpcpy(char*;char*) :  char  [[[./../../.././qc/crypto/sha/sha3.c.html#388]]]
 strncpy(char*;char*;size_t) :  char  [[[./../../.././qc/crypto/sha/sha3.c.html#396]]]
+stpncpy(char*;char*;size_t) :  char  [[[./../../.././qc/crypto/sha/sha3.c.html#406]]]
+strcat(char*;char*) :  char  [[[./../../.././qc/crypto/sha/sha3.c.html#413]]]
+strncat(char*;char*;size_t) :  char  [[[./../../.././qc/crypto/sha/sha3.c.html#420]]]
+ossl_sha3_reset(KECCAK1600_CTX*) :  void  [[[./../../.././qc/crypto/sha/sha3.c.html#773]]]
+ossl_sha3_init(KECCAK1600_CTX*;unsignedchar;size_t) :  int  [[[./../../.././qc/crypto/sha/sha3.c.html#779]]]
+ossl_keccak_kmac_init(KECCAK1600_CTX*;unsignedchar;size_t) :  int  [[[./../../.././qc/crypto/sha/sha3.c.html#794]]]
+ossl_sha3_update(KECCAK1600_CTX*;void*;size_t) :  int  [[[./../../.././qc/crypto/sha/sha3.c.html#803]]]
+ossl_sha3_final(unsignedchar*;KECCAK1600_CTX*) :  int  [[[./../../.././qc/crypto/sha/sha3.c.html#845]]]
 } 
 @enduml

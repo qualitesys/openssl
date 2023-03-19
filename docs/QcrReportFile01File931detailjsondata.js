@@ -93,6 +93,114 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00408"
+ , "c5link" : "././qc/providers/implementations/digests/blake2b_prov.c.html#408"
+ , "c1" : " char "
+ , "c2" : "stpncpy(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00415"
+ , "c5link" : "././qc/providers/implementations/digests/blake2b_prov.c.html#415"
+ , "c1" : " char "
+ , "c2" : "strcat(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00422"
+ , "c5link" : "././qc/providers/implementations/digests/blake2b_prov.c.html#422"
+ , "c1" : " char "
+ , "c2" : "strncat(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00586"
+ , "c5link" : "././qc/providers/implementations/digests/blake2b_prov.c.html#586"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00591"
+ , "c5link" : "././qc/providers/implementations/digests/blake2b_prov.c.html#591"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00598"
+ , "c5link" : "././qc/providers/implementations/digests/blake2b_prov.c.html#598"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00898"
+ , "c5link" : "././qc/providers/implementations/digests/blake2b_prov.c.html#898"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00913"
+ , "c5link" : "././qc/providers/implementations/digests/blake2b_prov.c.html#913"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00923"
+ , "c5link" : "././qc/providers/implementations/digests/blake2b_prov.c.html#923"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00935"
+ , "c5link" : "././qc/providers/implementations/digests/blake2b_prov.c.html#935"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00941"
+ , "c5link" : "././qc/providers/implementations/digests/blake2b_prov.c.html#941"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00947"
+ , "c5link" : "././qc/providers/implementations/digests/blake2b_prov.c.html#947"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -145,10 +253,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00408"
- , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#408"
+ , "c1" : "01518"
+ , "c1link" : "./qc/providers/implementations/digests/blake2b_prov.c.html#1518"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00408] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/digests/blake2b_prov.c near following tokens ( __dest , 2 _ 1 ) ) ; } extern __inline __attribute__ ( ( __always_inline__ ) ) __attribute__ ( ( "
+ , "c3" : "QC-CPP999999[01518] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/digests/blake2b_prov.c near following tokens ) ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR aligned_alloc ( size_t __alignment , size_t __size ) "
 }} 
 ]
 , 

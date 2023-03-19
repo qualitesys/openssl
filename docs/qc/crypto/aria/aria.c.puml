@@ -10,5 +10,11 @@ explicit_bzero(void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [
 strcpy(char*;char*) :  char  [[[./../../.././qc/crypto/aria/aria.c.html#692]]]
 stpcpy(char*;char*) :  char  [[[./../../.././qc/crypto/aria/aria.c.html#699]]]
 strncpy(char*;char*;size_t) :  char  [[[./../../.././qc/crypto/aria/aria.c.html#707]]]
+stpncpy(char*;char*;size_t) :  char  [[[./../../.././qc/crypto/aria/aria.c.html#717]]]
+strcat(char*;char*) :  char  [[[./../../.././qc/crypto/aria/aria.c.html#724]]]
+strncat(char*;char*;size_t) :  char  [[[./../../.././qc/crypto/aria/aria.c.html#731]]]
+ossl_aria_encrypt(unsignedchar*;unsignedchar*;ARIA_KEY*) :  void  [[[./../../.././qc/crypto/aria/aria.c.html#1024]]]
+ossl_aria_set_encrypt_key(unsignedchar*;int;ARIA_KEY*) :  int  [[[./../../.././qc/crypto/aria/aria.c.html#1103]]]
+ossl_aria_set_decrypt_key(unsignedchar*;int;ARIA_KEY*) :  int  [[[./../../.././qc/crypto/aria/aria.c.html#1243]]]
 } 
 @enduml

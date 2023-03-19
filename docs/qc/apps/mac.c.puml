@@ -10,5 +10,17 @@ explicit_bzero(void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [
 strcpy(char*;char*) :  char  [[[./../.././qc/apps/mac.c.html#381]]]
 stpcpy(char*;char*) :  char  [[[./../.././qc/apps/mac.c.html#388]]]
 strncpy(char*;char*;size_t) :  char  [[[./../.././qc/apps/mac.c.html#396]]]
+stpncpy(char*;char*;size_t) :  char  [[[./../.././qc/apps/mac.c.html#406]]]
+strcat(char*;char*) :  char  [[[./../.././qc/apps/mac.c.html#413]]]
+strncat(char*;char*;size_t) :  char  [[[./../.././qc/apps/mac.c.html#420]]]
+atoi(char*) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../.././qc/apps/mac.c.html#897]]]
+atol(char*) :  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../.././qc/apps/mac.c.html#902]]]
+atoll(char*) :  long  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../.././qc/apps/mac.c.html#909]]]
+__bswap_16(__uint16_t) : __uint16_t [[[./../.././qc/apps/mac.c.html#1071]]]
+__bswap_32(__uint32_t) : __uint32_t [[[./../.././qc/apps/mac.c.html#1086]]]
+__bswap_64(__uint64_t) : __uint64_t [[[./../.././qc/apps/mac.c.html#1096]]]
+__uint16_identity(__uint16_t) : __uint16_t [[[./../.././qc/apps/mac.c.html#1108]]]
+__uint32_identity(__uint32_t) : __uint32_t [[[./../.././qc/apps/mac.c.html#1114]]]
+__uint64_identity(__uint64_t) : __uint64_t [[[./../.././qc/apps/mac.c.html#1120]]]
 } 
 @enduml

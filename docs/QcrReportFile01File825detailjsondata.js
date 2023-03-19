@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/engines/e_dasync.c.html" 
- , "texte" : "File engines/e_dasync.c 1 rule violations " 
+ , "texte" : "File engines/e_dasync.c 2 rule violations " 
  , "fic2"  : "./qc/engines/e_dasync.c.xml" 
  , "fic3"  : "" 
 }
@@ -57,6 +57,519 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00818"
+ , "c5link" : "././qc/engines/e_dasync.c.html#818"
+ , "c1" : " int "
+ , "c2" : "fputc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00828"
+ , "c5link" : "././qc/engines/e_dasync.c.html#828"
+ , "c1" : " int "
+ , "c2" : "putc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00835"
+ , "c5link" : "././qc/engines/e_dasync.c.html#835"
+ , "c1" : " int "
+ , "c2" : "putchar_unlocked(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00841"
+ , "c5link" : "././qc/engines/e_dasync.c.html#841"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "feof_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00848"
+ , "c5link" : "././qc/engines/e_dasync.c.html#848"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ferror_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00867"
+ , "c5link" : "././qc/engines/e_dasync.c.html#867"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "sprintf(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00880"
+ , "c5link" : "././qc/engines/e_dasync.c.html#880"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsprintf(char*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00899"
+ , "c5link" : "././qc/engines/e_dasync.c.html#899"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "snprintf(char*;size_t;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00913"
+ , "c5link" : "././qc/engines/e_dasync.c.html#913"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsnprintf(char*;size_t;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00934"
+ , "c5link" : "././qc/engines/e_dasync.c.html#934"
+ , "c1" : " int "
+ , "c2" : "fprintf(FILE*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00941"
+ , "c5link" : "././qc/engines/e_dasync.c.html#941"
+ , "c1" : " int "
+ , "c2" : "printf(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00953"
+ , "c5link" : "././qc/engines/e_dasync.c.html#953"
+ , "c1" : " int "
+ , "c2" : "vprintf(char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00963"
+ , "c5link" : "././qc/engines/e_dasync.c.html#963"
+ , "c1" : " int "
+ , "c2" : "vfprintf(FILE*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00978"
+ , "c5link" : "././qc/engines/e_dasync.c.html#978"
+ , "c1" : " int "
+ , "c2" : "dprintf(int;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00989"
+ , "c5link" : "././qc/engines/e_dasync.c.html#989"
+ , "c1" : " int "
+ , "c2" : "vdprintf(int;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01008"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1008"
+ , "c1" : " char "
+ , "c2" : "fgets(char*;int;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01034"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1034"
+ , "c1" : "size_t"
+ , "c2" : "fread(void*;size_t;size_t;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01061"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1061"
+ , "c1" : "size_t"
+ , "c2" : "fread_unlocked(void*;size_t;size_t;FILE*)"
+ , "c3" : "7"
+ , "c4" : "13"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01364"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1364"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bcopy(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01371"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1371"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bzero(void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01412"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1412"
+ , "c1" : " void "
+ , "c2" : "memcpy(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01420"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1420"
+ , "c1" : " void "
+ , "c2" : "memmove(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01427"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1427"
+ , "c1" : " void "
+ , "c2" : "memset(void*;int;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01440"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1440"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "explicit_bzero(void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01447"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1447"
+ , "c1" : " char "
+ , "c2" : "strcpy(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01454"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1454"
+ , "c1" : " char "
+ , "c2" : "stpcpy(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01462"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1462"
+ , "c1" : " char "
+ , "c2" : "strncpy(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01472"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1472"
+ , "c1" : " char "
+ , "c2" : "stpncpy(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01479"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1479"
+ , "c1" : " char "
+ , "c2" : "strcat(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01486"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1486"
+ , "c1" : " char "
+ , "c2" : "strncat(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01750"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1750"
+ , "c1" : " char "
+ , "c2" : "ossl_check_OPENSSL_STRING_type(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01750"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1750"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_OPENSSL_STRING_sk_type(structstack_st_OPENSSL_STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01750"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1750"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_OPENSSL_STRING_sk_type(structstack_st_OPENSSL_STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01750"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1750"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_OPENSSL_STRING_compfunc_type(sk_OPENSSL_STRING_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01750"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1750"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_OPENSSL_STRING_copyfunc_type(sk_OPENSSL_STRING_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01750"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1750"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_OPENSSL_STRING_freefunc_type(sk_OPENSSL_STRING_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01752"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1752"
+ , "c1" : " char "
+ , "c2" : "ossl_check_OPENSSL_CSTRING_type(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01752"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1752"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_OPENSSL_CSTRING_sk_type(structstack_st_OPENSSL_CSTRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01752"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1752"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_sk_type(structstack_st_OPENSSL_CSTRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01752"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1752"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_compfunc_type(sk_OPENSSL_CSTRING_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01752"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1752"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_copyfunc_type(sk_OPENSSL_CSTRING_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01752"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1752"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_freefunc_type(sk_OPENSSL_CSTRING_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01755"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1755"
+ , "c1" : " void "
+ , "c2" : "ossl_check_OPENSSL_BLOCK_type(void*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01755"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1755"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01755"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1755"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01755"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1755"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_OPENSSL_BLOCK_compfunc_type(sk_OPENSSL_BLOCK_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01755"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1755"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_OPENSSL_BLOCK_copyfunc_type(sk_OPENSSL_BLOCK_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01755"
+ , "c5link" : "././qc/engines/e_dasync.c.html#1755"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_OPENSSL_BLOCK_freefunc_type(sk_OPENSSL_BLOCK_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02065"
+ , "c5link" : "././qc/engines/e_dasync.c.html#2065"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02070"
+ , "c5link" : "././qc/engines/e_dasync.c.html#2070"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02077"
+ , "c5link" : "././qc/engines/e_dasync.c.html#2077"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02224"
+ , "c5link" : "././qc/engines/e_dasync.c.html#2224"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02239"
+ , "c5link" : "././qc/engines/e_dasync.c.html#2239"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02249"
+ , "c5link" : "././qc/engines/e_dasync.c.html#2249"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02261"
+ , "c5link" : "././qc/engines/e_dasync.c.html#2261"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02267"
+ , "c5link" : "././qc/engines/e_dasync.c.html#2267"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02273"
+ , "c5link" : "././qc/engines/e_dasync.c.html#2273"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -105,14 +618,28 @@ var maDataBlocs = {
  , "c3" : "Syntax error in source code"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00818"
- , "c1link" : "./qc/engines/e_dasync.c.html#818"
+ , "c1" : "02844"
+ , "c1link" : "./qc/engines/e_dasync.c.html#2844"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00818] syntax analysis failed on file /home/runner/work/openssl/openssl/engines/e_dasync.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
+ , "c3" : "QC-CPP999999[02844] syntax analysis failed on file /home/runner/work/openssl/openssl/engines/e_dasync.c near following tokens ) ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR aligned_alloc ( size_t __alignment , size_t __size ) "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01071"
+ , "c1link" : "./qc/engines/e_dasync.c.html#1071"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01071] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ]
 , 

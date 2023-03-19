@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/macs/poly1305_prov.c.html" 
- , "texte" : "File providers/implementations/macs/poly1305_prov.c 1 rule violations " 
+ , "texte" : "File providers/implementations/macs/poly1305_prov.c 2 rule violations " 
  , "fic2"  : "./qc/providers/implementations/macs/poly1305_prov.c.xml" 
  , "fic3"  : "" 
 }
@@ -2316,6 +2316,249 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01897"
+ , "c5link" : "././qc/providers/implementations/macs/poly1305_prov.c.html#1897"
+ , "c1" : " int "
+ , "c2" : "fputc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01907"
+ , "c5link" : "././qc/providers/implementations/macs/poly1305_prov.c.html#1907"
+ , "c1" : " int "
+ , "c2" : "putc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01914"
+ , "c5link" : "././qc/providers/implementations/macs/poly1305_prov.c.html#1914"
+ , "c1" : " int "
+ , "c2" : "putchar_unlocked(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01920"
+ , "c5link" : "././qc/providers/implementations/macs/poly1305_prov.c.html#1920"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "feof_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01927"
+ , "c5link" : "././qc/providers/implementations/macs/poly1305_prov.c.html#1927"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ferror_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01946"
+ , "c5link" : "././qc/providers/implementations/macs/poly1305_prov.c.html#1946"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "sprintf(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01959"
+ , "c5link" : "././qc/providers/implementations/macs/poly1305_prov.c.html#1959"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsprintf(char*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01978"
+ , "c5link" : "././qc/providers/implementations/macs/poly1305_prov.c.html#1978"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "snprintf(char*;size_t;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01992"
+ , "c5link" : "././qc/providers/implementations/macs/poly1305_prov.c.html#1992"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsnprintf(char*;size_t;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02013"
+ , "c5link" : "././qc/providers/implementations/macs/poly1305_prov.c.html#2013"
+ , "c1" : " int "
+ , "c2" : "fprintf(FILE*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02020"
+ , "c5link" : "././qc/providers/implementations/macs/poly1305_prov.c.html#2020"
+ , "c1" : " int "
+ , "c2" : "printf(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02032"
+ , "c5link" : "././qc/providers/implementations/macs/poly1305_prov.c.html#2032"
+ , "c1" : " int "
+ , "c2" : "vprintf(char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02042"
+ , "c5link" : "././qc/providers/implementations/macs/poly1305_prov.c.html#2042"
+ , "c1" : " int "
+ , "c2" : "vfprintf(FILE*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02057"
+ , "c5link" : "././qc/providers/implementations/macs/poly1305_prov.c.html#2057"
+ , "c1" : " int "
+ , "c2" : "dprintf(int;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02068"
+ , "c5link" : "././qc/providers/implementations/macs/poly1305_prov.c.html#2068"
+ , "c1" : " int "
+ , "c2" : "vdprintf(int;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02087"
+ , "c5link" : "././qc/providers/implementations/macs/poly1305_prov.c.html#2087"
+ , "c1" : " char "
+ , "c2" : "fgets(char*;int;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02113"
+ , "c5link" : "././qc/providers/implementations/macs/poly1305_prov.c.html#2113"
+ , "c1" : "size_t"
+ , "c2" : "fread(void*;size_t;size_t;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02140"
+ , "c5link" : "././qc/providers/implementations/macs/poly1305_prov.c.html#2140"
+ , "c1" : "size_t"
+ , "c2" : "fread_unlocked(void*;size_t;size_t;FILE*)"
+ , "c3" : "7"
+ , "c4" : "13"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02311"
+ , "c5link" : "././qc/providers/implementations/macs/poly1305_prov.c.html#2311"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02316"
+ , "c5link" : "././qc/providers/implementations/macs/poly1305_prov.c.html#2316"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02323"
+ , "c5link" : "././qc/providers/implementations/macs/poly1305_prov.c.html#2323"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02470"
+ , "c5link" : "././qc/providers/implementations/macs/poly1305_prov.c.html#2470"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02485"
+ , "c5link" : "././qc/providers/implementations/macs/poly1305_prov.c.html#2485"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02495"
+ , "c5link" : "././qc/providers/implementations/macs/poly1305_prov.c.html#2495"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02507"
+ , "c5link" : "././qc/providers/implementations/macs/poly1305_prov.c.html#2507"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02513"
+ , "c5link" : "././qc/providers/implementations/macs/poly1305_prov.c.html#2513"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02519"
+ , "c5link" : "././qc/providers/implementations/macs/poly1305_prov.c.html#2519"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -2364,14 +2607,28 @@ var maDataBlocs = {
  , "c3" : "Syntax error in source code"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01897"
- , "c1link" : "./qc/providers/implementations/macs/poly1305_prov.c.html#1897"
+ , "c1" : "03090"
+ , "c1link" : "./qc/providers/implementations/macs/poly1305_prov.c.html#3090"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01897] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/macs/poly1305_prov.c near following tokens { return putc ( __c , stdout ) ; } extern __inline __attribute__ ( ( __gnu_inline__ ) ) int fputc_unlocked ( "
+ , "c3" : "QC-CPP999999[03090] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/macs/poly1305_prov.c near following tokens ) ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR aligned_alloc ( size_t __alignment , size_t __size ) "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02150"
+ , "c1link" : "./qc/providers/implementations/macs/poly1305_prov.c.html#2150"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02150] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ]
 , 
