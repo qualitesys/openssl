@@ -22,5 +22,6 @@ __bswap_64(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/ec/ecdh_ossl.c.htm
 __uint16_identity(__uint16_t) : __uint16_t [[[./../../.././qc/crypto/ec/ecdh_ossl.c.html#985]]]
 __uint32_identity(__uint32_t) : __uint32_t [[[./../../.././qc/crypto/ec/ecdh_ossl.c.html#991]]]
 __uint64_identity(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/ec/ecdh_ossl.c.html#997]]]
+bsearch(void*;void*;size_t;size_t;__compar_fn_t) :  void  [[[./../../.././qc/crypto/ec/ecdh_ossl.c.html#1665]]]
 } 
 @enduml

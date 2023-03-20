@@ -22,5 +22,6 @@ __bswap_64(__uint64_t) : __uint64_t [[[./../.././qc/apps/kdf.c.html#1096]]]
 __uint16_identity(__uint16_t) : __uint16_t [[[./../.././qc/apps/kdf.c.html#1108]]]
 __uint32_identity(__uint32_t) : __uint32_t [[[./../.././qc/apps/kdf.c.html#1114]]]
 __uint64_identity(__uint64_t) : __uint64_t [[[./../.././qc/apps/kdf.c.html#1120]]]
+bsearch(void*;void*;size_t;size_t;__compar_fn_t) :  void  [[[./../.././qc/apps/kdf.c.html#1788]]]
 } 
 @enduml

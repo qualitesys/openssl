@@ -33,5 +33,6 @@ __bswap_64(__uint64_t) : __uint64_t [[[./../../.././qc/ssl/statem/extensions_srv
 __uint16_identity(__uint16_t) : __uint16_t [[[./../../.././qc/ssl/statem/extensions_srvr.c.html#1573]]]
 __uint32_identity(__uint32_t) : __uint32_t [[[./../../.././qc/ssl/statem/extensions_srvr.c.html#1579]]]
 __uint64_identity(__uint64_t) : __uint64_t [[[./../../.././qc/ssl/statem/extensions_srvr.c.html#1585]]]
+bsearch(void*;void*;size_t;size_t;__compar_fn_t) :  void  [[[./../../.././qc/ssl/statem/extensions_srvr.c.html#2253]]]
 } 
 @enduml

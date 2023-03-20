@@ -33,5 +33,6 @@ __bswap_64(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/dsa/dsa_backend.c.
 __uint16_identity(__uint16_t) : __uint16_t [[[./../../.././qc/crypto/dsa/dsa_backend.c.html#1558]]]
 __uint32_identity(__uint32_t) : __uint32_t [[[./../../.././qc/crypto/dsa/dsa_backend.c.html#1564]]]
 __uint64_identity(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/dsa/dsa_backend.c.html#1570]]]
+bsearch(void*;void*;size_t;size_t;__compar_fn_t) :  void  [[[./../../.././qc/crypto/dsa/dsa_backend.c.html#2238]]]
 } 
 @enduml

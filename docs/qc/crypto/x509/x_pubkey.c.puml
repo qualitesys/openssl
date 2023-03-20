@@ -33,5 +33,6 @@ __bswap_64(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/x509/x_pubkey.c.ht
 __uint16_identity(__uint16_t) : __uint16_t [[[./../../.././qc/crypto/x509/x_pubkey.c.html#1426]]]
 __uint32_identity(__uint32_t) : __uint32_t [[[./../../.././qc/crypto/x509/x_pubkey.c.html#1432]]]
 __uint64_identity(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/x509/x_pubkey.c.html#1438]]]
+bsearch(void*;void*;size_t;size_t;__compar_fn_t) :  void  [[[./../../.././qc/crypto/x509/x_pubkey.c.html#2106]]]
 } 
 @enduml

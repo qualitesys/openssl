@@ -10,5 +10,6 @@ __bswap_64(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/ui/ui_openssl.c.ht
 __uint16_identity(__uint16_t) : __uint16_t [[[./../../.././qc/crypto/ui/ui_openssl.c.html#712]]]
 __uint32_identity(__uint32_t) : __uint32_t [[[./../../.././qc/crypto/ui/ui_openssl.c.html#718]]]
 __uint64_identity(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/ui/ui_openssl.c.html#724]]]
+bsearch(void*;void*;size_t;size_t;__compar_fn_t) :  void  [[[./../../.././qc/crypto/ui/ui_openssl.c.html#1392]]]
 } 
 @enduml

@@ -33,5 +33,6 @@ __uint64_identity(__uint64_t) : __uint64_t [[[./../.././qc/ssl/ssl_cert.c.html#1
 atoi(char*) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../.././qc/ssl/ssl_cert.c.html#1923]]]
 atol(char*) :  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../.././qc/ssl/ssl_cert.c.html#1928]]]
 atoll(char*) :  long  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../.././qc/ssl/ssl_cert.c.html#1935]]]
+bsearch(void*;void*;size_t;size_t;__compar_fn_t) :  void  [[[./../.././qc/ssl/ssl_cert.c.html#2252]]]
 } 
 @enduml

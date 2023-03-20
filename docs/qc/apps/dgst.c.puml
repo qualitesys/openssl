@@ -45,5 +45,6 @@ __bswap_64(__uint64_t) : __uint64_t [[[./../.././qc/apps/dgst.c.html#1772]]]
 __uint16_identity(__uint16_t) : __uint16_t [[[./../.././qc/apps/dgst.c.html#1784]]]
 __uint32_identity(__uint32_t) : __uint32_t [[[./../.././qc/apps/dgst.c.html#1790]]]
 __uint64_identity(__uint64_t) : __uint64_t [[[./../.././qc/apps/dgst.c.html#1796]]]
+bsearch(void*;void*;size_t;size_t;__compar_fn_t) :  void  [[[./../.././qc/apps/dgst.c.html#2464]]]
 } 
 @enduml

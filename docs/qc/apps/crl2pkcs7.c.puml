@@ -45,5 +45,6 @@ __uint64_identity(__uint64_t) : __uint64_t [[[./../.././qc/apps/crl2pkcs7.c.html
 atoi(char*) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../.././qc/apps/crl2pkcs7.c.html#2326]]]
 atol(char*) :  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../.././qc/apps/crl2pkcs7.c.html#2331]]]
 atoll(char*) :  long  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../.././qc/apps/crl2pkcs7.c.html#2338]]]
+bsearch(void*;void*;size_t;size_t;__compar_fn_t) :  void  [[[./../.././qc/apps/crl2pkcs7.c.html#2655]]]
 } 
 @enduml

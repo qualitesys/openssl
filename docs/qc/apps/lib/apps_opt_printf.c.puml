@@ -28,5 +28,6 @@ ossl_check_OPENSSL_BLOCK_freefunc_type(sk_OPENSSL_BLOCK_freefunc) : OPENSSL_sk_f
 atoi(char*) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/apps/lib/apps_opt_printf.c.html#1389]]]
 atol(char*) :  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/apps/lib/apps_opt_printf.c.html#1394]]]
 atoll(char*) :  long  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/apps/lib/apps_opt_printf.c.html#1401]]]
+bsearch(void*;void*;size_t;size_t;__compar_fn_t) :  void  [[[./../../.././qc/apps/lib/apps_opt_printf.c.html#1718]]]
 } 
 @enduml

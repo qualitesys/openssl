@@ -284,5 +284,6 @@ __bswap_64(__uint64_t) : __uint64_t [[[./../../../.././qc/providers/implementati
 __uint16_identity(__uint16_t) : __uint16_t [[[./../../../.././qc/providers/implementations/macs/blake2b_mac.c.html#2509]]]
 __uint32_identity(__uint32_t) : __uint32_t [[[./../../../.././qc/providers/implementations/macs/blake2b_mac.c.html#2515]]]
 __uint64_identity(__uint64_t) : __uint64_t [[[./../../../.././qc/providers/implementations/macs/blake2b_mac.c.html#2521]]]
+bsearch(void*;void*;size_t;size_t;__compar_fn_t) :  void  [[[./../../../.././qc/providers/implementations/macs/blake2b_mac.c.html#3189]]]
 } 
 @enduml

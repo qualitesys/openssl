@@ -33,5 +33,6 @@ __bswap_64(__uint64_t) : __uint64_t [[[./../.././qc/ssl/ssl_sess.c.html#1405]]]
 __uint16_identity(__uint16_t) : __uint16_t [[[./../.././qc/ssl/ssl_sess.c.html#1417]]]
 __uint32_identity(__uint32_t) : __uint32_t [[[./../.././qc/ssl/ssl_sess.c.html#1423]]]
 __uint64_identity(__uint64_t) : __uint64_t [[[./../.././qc/ssl/ssl_sess.c.html#1429]]]
+bsearch(void*;void*;size_t;size_t;__compar_fn_t) :  void  [[[./../.././qc/ssl/ssl_sess.c.html#2097]]]
 } 
 @enduml

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.html" 
- , "texte" : "File providers/implementations/keymgmt/dh_kmgmt.c 2 rule violations " 
+ , "texte" : "File providers/implementations/keymgmt/dh_kmgmt.c 3 rule violations " 
  , "fic2"  : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.xml" 
  , "fic3"  : "" 
 }
@@ -2667,6 +2667,15 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "03583"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dh_kmgmt.c.html#3583"
+ , "c1" : " void "
+ , "c2" : "bsearch(void*;void*;size_t;size_t;__compar_fn_t)"
+ , "c3" : "6"
+ , "c4" : "12"
+}} 
 ] 
 }} 
 ]
@@ -2722,14 +2731,21 @@ var maDataBlocs = {
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "03486"
- , "c1link" : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.html#3486"
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[03486] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/keymgmt/dh_kmgmt.c near following tokens ) ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR aligned_alloc ( size_t __alignment , size_t __size ) "
+ , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/keymgmt/dh_kmgmt.c near following tokens ) __attribute__ ( ( __nothrow__ , __leaf__ ) ) ; extern size_t mbstowcs ( wchar_t CPP_POINTEUR __restrict __pwcs , const char "
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2737,6 +2753,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.html#2546"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[02546] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03588"
+ , "c1link" : "./qc/providers/implementations/keymgmt/dh_kmgmt.c.html#3588"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[03588] The pointer __p is declared but not initialized"
 }} 
 ]
 , 

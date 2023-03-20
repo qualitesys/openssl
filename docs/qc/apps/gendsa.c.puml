@@ -45,5 +45,6 @@ __uint64_identity(__uint64_t) : __uint64_t [[[./../.././qc/apps/gendsa.c.html#16
 atoi(char*) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../.././qc/apps/gendsa.c.html#2482]]]
 atol(char*) :  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../.././qc/apps/gendsa.c.html#2487]]]
 atoll(char*) :  long  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../.././qc/apps/gendsa.c.html#2494]]]
+bsearch(void*;void*;size_t;size_t;__compar_fn_t) :  void  [[[./../.././qc/apps/gendsa.c.html#2811]]]
 } 
 @enduml

@@ -51,5 +51,6 @@ __bswap_64(__uint64_t) : __uint64_t [[[./../../../.././qc/providers/implementati
 __uint16_identity(__uint16_t) : __uint16_t [[[./../../../.././qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#1949]]]
 __uint32_identity(__uint32_t) : __uint32_t [[[./../../../.././qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#1955]]]
 __uint64_identity(__uint64_t) : __uint64_t [[[./../../../.././qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#1961]]]
+bsearch(void*;void*;size_t;size_t;__compar_fn_t) :  void  [[[./../../../.././qc/providers/implementations/ciphers/cipher_aes_cbc_hmac_sha256_hw.c.html#2629]]]
 } 
 @enduml

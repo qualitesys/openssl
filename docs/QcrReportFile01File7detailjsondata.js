@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/crl2pkcs7.c.html" 
- , "texte" : "File apps/crl2pkcs7.c 2 rule violations " 
+ , "texte" : "File apps/crl2pkcs7.c 3 rule violations " 
  , "fic2"  : "./qc/apps/crl2pkcs7.c.xml" 
  , "fic3"  : "" 
 }
@@ -408,6 +408,15 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02655"
+ , "c5link" : "././qc/apps/crl2pkcs7.c.html#2655"
+ , "c1" : " void "
+ , "c2" : "bsearch(void*;void*;size_t;size_t;__compar_fn_t)"
+ , "c3" : "6"
+ , "c4" : "12"
+}} 
 ] 
 }} 
 ]
@@ -463,14 +472,21 @@ var maDataBlocs = {
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "02558"
- , "c1link" : "./qc/apps/crl2pkcs7.c.html#2558"
+ , "c1" : "19235"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#19235"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[02558] syntax analysis failed on file /home/runner/work/openssl/openssl/apps/crl2pkcs7.c near following tokens ) ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR aligned_alloc ( size_t __alignment , size_t __size ) "
+ , "c3" : "QC-CPP999999[19235] syntax analysis failed on file /home/runner/work/openssl/openssl/apps/crl2pkcs7.c near following tokens ) __attribute__ ( ( __nothrow__ , __leaf__ ) ) ; extern size_t mbstowcs ( wchar_t CPP_POINTEUR __restrict __pwcs , const char "
 }} 
 ,
 { "ligne" : {"" : ""
@@ -478,6 +494,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/crl2pkcs7.c.html#1039"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[01039] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02660"
+ , "c1link" : "./qc/apps/crl2pkcs7.c.html#2660"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[02660] The pointer __p is declared but not initialized"
 }} 
 ]
 , 

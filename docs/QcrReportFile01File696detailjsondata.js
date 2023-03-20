@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/sleep.c.html" 
- , "texte" : "File crypto/sleep.c 1 rule violations " 
+ , "texte" : "File crypto/sleep.c 2 rule violations " 
  , "fic2"  : "./qc/crypto/sleep.c.xml" 
  , "fic3"  : "" 
 }
@@ -93,6 +93,15 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01220"
+ , "c5link" : "././qc/crypto/sleep.c.html#1220"
+ , "c1" : " void "
+ , "c2" : "bsearch(void*;void*;size_t;size_t;__compar_fn_t)"
+ , "c3" : "6"
+ , "c4" : "12"
+}} 
 ] 
 }} 
 ]
@@ -141,14 +150,28 @@ var maDataBlocs = {
  , "c3" : "Syntax error in source code"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01123"
- , "c1link" : "./qc/crypto/sleep.c.html#1123"
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/sleep.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01123] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/sleep.c near following tokens ) ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR aligned_alloc ( size_t __alignment , size_t __size ) "
+ , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/sleep.c near following tokens ) __attribute__ ( ( __nothrow__ , __leaf__ ) ) ; extern size_t mbstowcs ( wchar_t CPP_POINTEUR __restrict __pwcs , const char "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01225"
+ , "c1link" : "./qc/crypto/sleep.c.html#1225"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[01225] The pointer __p is declared but not initialized"
 }} 
 ]
 , 

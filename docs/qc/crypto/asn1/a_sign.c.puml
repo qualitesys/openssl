@@ -33,5 +33,6 @@ __uint64_identity(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/asn1/a_sign
 atoi(char*) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/asn1/a_sign.c.html#1968]]]
 atol(char*) :  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/asn1/a_sign.c.html#1973]]]
 atoll(char*) :  long  long  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/asn1/a_sign.c.html#1980]]]
+bsearch(void*;void*;size_t;size_t;__compar_fn_t) :  void  [[[./../../.././qc/crypto/asn1/a_sign.c.html#2297]]]
 } 
 @enduml

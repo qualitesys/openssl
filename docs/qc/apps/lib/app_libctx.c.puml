@@ -28,5 +28,6 @@ __bswap_64(__uint64_t) : __uint64_t [[[./../../.././qc/apps/lib/app_libctx.c.htm
 __uint16_identity(__uint16_t) : __uint16_t [[[./../../.././qc/apps/lib/app_libctx.c.html#976]]]
 __uint32_identity(__uint32_t) : __uint32_t [[[./../../.././qc/apps/lib/app_libctx.c.html#982]]]
 __uint64_identity(__uint64_t) : __uint64_t [[[./../../.././qc/apps/lib/app_libctx.c.html#988]]]
+bsearch(void*;void*;size_t;size_t;__compar_fn_t) :  void  [[[./../../.././qc/apps/lib/app_libctx.c.html#1656]]]
 } 
 @enduml

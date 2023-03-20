@@ -284,5 +284,6 @@ __bswap_64(__uint64_t) : __uint64_t [[[./../../../.././qc/providers/implementati
 __uint16_identity(__uint16_t) : __uint16_t [[[./../../../.././qc/providers/implementations/encode_decode/encode_key2blob.c.html#2519]]]
 __uint32_identity(__uint32_t) : __uint32_t [[[./../../../.././qc/providers/implementations/encode_decode/encode_key2blob.c.html#2525]]]
 __uint64_identity(__uint64_t) : __uint64_t [[[./../../../.././qc/providers/implementations/encode_decode/encode_key2blob.c.html#2531]]]
+bsearch(void*;void*;size_t;size_t;__compar_fn_t) :  void  [[[./../../../.././qc/providers/implementations/encode_decode/encode_key2blob.c.html#3199]]]
 } 
 @enduml

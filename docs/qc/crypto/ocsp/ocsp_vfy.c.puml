@@ -45,5 +45,6 @@ __bswap_64(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/ocsp/ocsp_vfy.c.ht
 __uint16_identity(__uint16_t) : __uint16_t [[[./../../.././qc/crypto/ocsp/ocsp_vfy.c.html#1966]]]
 __uint32_identity(__uint32_t) : __uint32_t [[[./../../.././qc/crypto/ocsp/ocsp_vfy.c.html#1972]]]
 __uint64_identity(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/ocsp/ocsp_vfy.c.html#1978]]]
+bsearch(void*;void*;size_t;size_t;__compar_fn_t) :  void  [[[./../../.././qc/crypto/ocsp/ocsp_vfy.c.html#2646]]]
 } 
 @enduml

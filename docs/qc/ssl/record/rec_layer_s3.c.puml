@@ -33,5 +33,6 @@ __bswap_64(__uint64_t) : __uint64_t [[[./../../.././qc/ssl/record/rec_layer_s3.c
 __uint16_identity(__uint16_t) : __uint16_t [[[./../../.././qc/ssl/record/rec_layer_s3.c.html#1622]]]
 __uint32_identity(__uint32_t) : __uint32_t [[[./../../.././qc/ssl/record/rec_layer_s3.c.html#1628]]]
 __uint64_identity(__uint64_t) : __uint64_t [[[./../../.././qc/ssl/record/rec_layer_s3.c.html#1634]]]
+bsearch(void*;void*;size_t;size_t;__compar_fn_t) :  void  [[[./../../.././qc/ssl/record/rec_layer_s3.c.html#2302]]]
 } 
 @enduml

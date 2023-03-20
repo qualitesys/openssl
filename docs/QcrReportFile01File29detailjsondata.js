@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/lib/apps_opt_printf.c.html" 
- , "texte" : "File apps/lib/apps_opt_printf.c 1 rule violations " 
+ , "texte" : "File apps/lib/apps_opt_printf.c 2 rule violations " 
  , "fic2"  : "./qc/apps/lib/apps_opt_printf.c.xml" 
  , "fic3"  : "" 
 }
@@ -255,6 +255,15 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01718"
+ , "c5link" : "././qc/apps/lib/apps_opt_printf.c.html#1718"
+ , "c1" : " void "
+ , "c2" : "bsearch(void*;void*;size_t;size_t;__compar_fn_t)"
+ , "c3" : "6"
+ , "c4" : "12"
+}} 
 ] 
 }} 
 ]
@@ -303,14 +312,28 @@ var maDataBlocs = {
  , "c3" : "Syntax error in source code"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01621"
- , "c1link" : "./qc/apps/lib/apps_opt_printf.c.html#1621"
+ , "c1" : "00001"
+ , "c1link" : "./qc/apps/lib/apps_opt_printf.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01621] syntax analysis failed on file /home/runner/work/openssl/openssl/apps/lib/apps_opt_printf.c near following tokens ) ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR aligned_alloc ( size_t __alignment , size_t __size ) "
+ , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/apps/lib/apps_opt_printf.c near following tokens ) __attribute__ ( ( __nothrow__ , __leaf__ ) ) ; extern size_t mbstowcs ( wchar_t CPP_POINTEUR __restrict __pwcs , const char "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01723"
+ , "c1link" : "./qc/apps/lib/apps_opt_printf.c.html#1723"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[01723] The pointer __p is declared but not initialized"
 }} 
 ]
 , 

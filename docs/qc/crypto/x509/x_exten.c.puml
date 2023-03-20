@@ -28,5 +28,6 @@ __bswap_64(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/x509/x_exten.c.htm
 __uint16_identity(__uint16_t) : __uint16_t [[[./../../.././qc/crypto/x509/x_exten.c.html#993]]]
 __uint32_identity(__uint32_t) : __uint32_t [[[./../../.././qc/crypto/x509/x_exten.c.html#999]]]
 __uint64_identity(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/x509/x_exten.c.html#1005]]]
+bsearch(void*;void*;size_t;size_t;__compar_fn_t) :  void  [[[./../../.././qc/crypto/x509/x_exten.c.html#1673]]]
 } 
 @enduml

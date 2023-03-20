@@ -10,5 +10,6 @@ __bswap_64(__uint64_t) : __uint64_t [[[./../.././qc/apps/engine.c.html#704]]]
 __uint16_identity(__uint16_t) : __uint16_t [[[./../.././qc/apps/engine.c.html#716]]]
 __uint32_identity(__uint32_t) : __uint32_t [[[./../.././qc/apps/engine.c.html#722]]]
 __uint64_identity(__uint64_t) : __uint64_t [[[./../.././qc/apps/engine.c.html#728]]]
+bsearch(void*;void*;size_t;size_t;__compar_fn_t) :  void  [[[./../.././qc/apps/engine.c.html#1396]]]
 } 
 @enduml

@@ -33,5 +33,6 @@ __bswap_64(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/hmac/hmac.c.html#1
 __uint16_identity(__uint16_t) : __uint16_t [[[./../../.././qc/crypto/hmac/hmac.c.html#1418]]]
 __uint32_identity(__uint32_t) : __uint32_t [[[./../../.././qc/crypto/hmac/hmac.c.html#1424]]]
 __uint64_identity(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/hmac/hmac.c.html#1430]]]
+bsearch(void*;void*;size_t;size_t;__compar_fn_t) :  void  [[[./../../.././qc/crypto/hmac/hmac.c.html#2098]]]
 } 
 @enduml

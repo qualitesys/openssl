@@ -10,5 +10,6 @@ __bswap_64(__uint64_t) : __uint64_t [[[./../.././qc/crypto/packet.c.html#510]]]
 __uint16_identity(__uint16_t) : __uint16_t [[[./../.././qc/crypto/packet.c.html#522]]]
 __uint32_identity(__uint32_t) : __uint32_t [[[./../.././qc/crypto/packet.c.html#528]]]
 __uint64_identity(__uint64_t) : __uint64_t [[[./../.././qc/crypto/packet.c.html#534]]]
+bsearch(void*;void*;size_t;size_t;__compar_fn_t) :  void  [[[./../.././qc/crypto/packet.c.html#1202]]]
 } 
 @enduml

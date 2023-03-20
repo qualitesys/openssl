@@ -63,5 +63,6 @@ __bswap_64(__uint64_t) : __uint64_t [[[./../.././qc/engines/e_dasync.c.html#2249
 __uint16_identity(__uint16_t) : __uint16_t [[[./../.././qc/engines/e_dasync.c.html#2261]]]
 __uint32_identity(__uint32_t) : __uint32_t [[[./../.././qc/engines/e_dasync.c.html#2267]]]
 __uint64_identity(__uint64_t) : __uint64_t [[[./../.././qc/engines/e_dasync.c.html#2273]]]
+bsearch(void*;void*;size_t;size_t;__compar_fn_t) :  void  [[[./../.././qc/engines/e_dasync.c.html#2941]]]
 } 
 @enduml

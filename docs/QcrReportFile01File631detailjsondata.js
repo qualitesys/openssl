@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/property/property_parse.c.html" 
- , "texte" : "File crypto/property/property_parse.c 2 rule violations " 
+ , "texte" : "File crypto/property/property_parse.c 3 rule violations " 
  , "fic2"  : "./qc/crypto/property/property_parse.c.xml" 
  , "fic3"  : "" 
 }
@@ -408,6 +408,15 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02620"
+ , "c5link" : "././qc/crypto/property/property_parse.c.html#2620"
+ , "c1" : " void "
+ , "c2" : "bsearch(void*;void*;size_t;size_t;__compar_fn_t)"
+ , "c3" : "6"
+ , "c4" : "12"
+}} 
 ] 
 }} 
 ]
@@ -463,14 +472,21 @@ var maDataBlocs = {
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "02523"
- , "c1link" : "./qc/crypto/property/property_parse.c.html#2523"
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[02523] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/property/property_parse.c near following tokens ) ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR aligned_alloc ( size_t __alignment , size_t __size ) "
+ , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/property/property_parse.c near following tokens ) __attribute__ ( ( __nothrow__ , __leaf__ ) ) ; extern size_t mbstowcs ( wchar_t CPP_POINTEUR __restrict __pwcs , const char "
 }} 
 ,
 { "ligne" : {"" : ""
@@ -478,6 +494,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/property/property_parse.c.html#1432"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[01432] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02625"
+ , "c1link" : "./qc/crypto/property/property_parse.c.html#2625"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[02625] The pointer __p is declared but not initialized"
 }} 
 ]
 , 

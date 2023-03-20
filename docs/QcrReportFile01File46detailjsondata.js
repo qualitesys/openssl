@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/ocsp.c.html" 
- , "texte" : "File apps/ocsp.c 2 rule violations " 
+ , "texte" : "File apps/ocsp.c 3 rule violations " 
  , "fic2"  : "./qc/apps/ocsp.c.xml" 
  , "fic3"  : "" 
 }
@@ -300,6 +300,15 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02096"
+ , "c5link" : "././qc/apps/ocsp.c.html#2096"
+ , "c1" : " void "
+ , "c2" : "bsearch(void*;void*;size_t;size_t;__compar_fn_t)"
+ , "c3" : "6"
+ , "c4" : "12"
+}} 
 ] 
 }} 
 ]
@@ -355,14 +364,21 @@ var maDataBlocs = {
  , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01999"
- , "c1link" : "./qc/apps/ocsp.c.html#1999"
+ , "c1" : "23028"
+ , "c1link" : "./qc/apps/ocsp.c.html#23028"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01999] syntax analysis failed on file /home/runner/work/openssl/openssl/apps/ocsp.c near following tokens ) ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR aligned_alloc ( size_t __alignment , size_t __size ) "
+ , "c3" : "QC-CPP999999[23028] syntax analysis failed on file /home/runner/work/openssl/openssl/apps/ocsp.c near following tokens ) __attribute__ ( ( __nothrow__ , __leaf__ ) ) ; extern size_t mbstowcs ( wchar_t CPP_POINTEUR __restrict __pwcs , const char "
 }} 
 ,
 { "ligne" : {"" : ""
@@ -370,6 +386,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/ocsp.c.html#1064"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[01064] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02101"
+ , "c1link" : "./qc/apps/ocsp.c.html#2101"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[02101] The pointer __p is declared but not initialized"
 }} 
 ]
 , 
