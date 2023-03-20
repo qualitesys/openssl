@@ -23,5 +23,16 @@ __uint16_identity(__uint16_t) : __uint16_t [[[./../../.././qc/crypto/camellia/ca
 __uint32_identity(__uint32_t) : __uint32_t [[[./../../.././qc/crypto/camellia/camellia.c.html#1044]]]
 __uint64_identity(__uint64_t) : __uint64_t [[[./../../.././qc/crypto/camellia/camellia.c.html#1050]]]
 bsearch(void*;void*;size_t;size_t;__compar_fn_t) :  void  [[[./../../.././qc/crypto/camellia/camellia.c.html#1718]]]
+atof(char*) :  double  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/camellia/camellia.c.html#1]]]
+realpath(char*;char*) :  char  [[[./../../.././qc/crypto/camellia/camellia.c.html#1]]]
+ptsname_r(int;char*;size_t) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/camellia/camellia.c.html#1]]]
+wctomb(char*;wchar_t) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/camellia/camellia.c.html#1]]]
+mbstowcs(wchar_t*;char*;size_t) : size_t [[[./../../.././qc/crypto/camellia/camellia.c.html#1]]]
+wcstombs(char*;wchar_t*;size_t) : size_t [[[./../../.././qc/crypto/camellia/camellia.c.html#1]]]
+Camellia_Ekeygen(int;u8*;KEY_TABLE_TYPE) :  int  [[[./../../.././qc/crypto/camellia/camellia.c.html#1]]]
+Camellia_EncryptBlock_Rounds(int;u8;KEY_TABLE_TYPE;u8) :  void  [[[./../../.././qc/crypto/camellia/camellia.c.html#1]]]
+Camellia_EncryptBlock(int;u8;KEY_TABLE_TYPE;u8) :  void  [[[./../../.././qc/crypto/camellia/camellia.c.html#1]]]
+Camellia_DecryptBlock_Rounds(int;u8;KEY_TABLE_TYPE;u8) :  void  [[[./../../.././qc/crypto/camellia/camellia.c.html#1]]]
+Camellia_DecryptBlock(int;u8;KEY_TABLE_TYPE;u8) :  void  [[[./../../.././qc/crypto/camellia/camellia.c.html#1]]]
 } 
 @enduml

@@ -282,6 +282,24 @@ var maDataBlocs = {
  , "c3" : "7"
  , "c4" : "13"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01642"
+ , "c5link" : "././qc/engines/e_afalg.c.html#1642"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bcopy(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01649"
+ , "c5link" : "././qc/engines/e_afalg.c.html#1649"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bzero(void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -341,10 +359,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01376"
- , "c1link" : "./qc/engines/e_afalg.c.html#1376"
+ , "c1" : "01707"
+ , "c1link" : "./qc/engines/e_afalg.c.html#1707"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01376] syntax analysis failed on file /home/runner/work/openssl/openssl/engines/e_afalg.c near following tokens __attribute__ ( ( __nonnull__ ( 1 ) ) ) ; extern void CPP_POINTEUR memrchr ( const void CPP_POINTEUR __s , int "
+ , "c3" : "QC-CPP999999[01707] syntax analysis failed on file /home/runner/work/openssl/openssl/engines/e_afalg.c near following tokens __attribute__ ( ( __nonnull__ ( 1 ) ) ) ; extern void CPP_POINTEUR memfrob ( void CPP_POINTEUR __s , size_t __n "
 }} 
 ,
 { "ligne" : {"" : ""
