@@ -687,6 +687,69 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/cmp/cmp_util.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "pthread_equal(pthread_t;pthread_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/cmp/cmp_util.c.html#1"
+ , "c1" : "BIO"
+ , "c2" : "ossl_check_BIO_type(BIO*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/cmp/cmp_util.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_BIO_sk_type(structstack_st_BIO*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/cmp/cmp_util.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_BIO_sk_type(structstack_st_BIO*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/cmp/cmp_util.c.html#1"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_BIO_compfunc_type(sk_BIO_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/cmp/cmp_util.c.html#1"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_BIO_copyfunc_type(sk_BIO_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/cmp/cmp_util.c.html#1"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_BIO_freefunc_type(sk_BIO_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -763,7 +826,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/crypto/cmp/cmp_util.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/cmp/cmp_util.c near following tokens ) __attribute__ ( ( __nothrow__ , __leaf__ ) ) ; extern int pthread_setspecific ( pthread_key_t __key , const void CPP_POINTEUR __pointer "
+ , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/cmp/cmp_util.c near following tokens ) ; typedef __useconds_t useconds_t ; typedef __socklen_t socklen_t ; extern int access ( const char CPP_POINTEUR __name , int __type "
 }} 
 ,
 { "ligne" : {"" : ""

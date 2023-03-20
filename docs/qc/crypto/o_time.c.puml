@@ -76,5 +76,12 @@ ossl_check_void_sk_type(structstack_st_void*) : OPENSSL_STACK [[[./../.././qc/cr
 ossl_check_void_compfunc_type(sk_void_compfunc) : OPENSSL_sk_compfunc [[[./../.././qc/crypto/o_time.c.html#1]]]
 ossl_check_void_copyfunc_type(sk_void_copyfunc) : OPENSSL_sk_copyfunc [[[./../.././qc/crypto/o_time.c.html#1]]]
 ossl_check_void_freefunc_type(sk_void_freefunc) : OPENSSL_sk_freefunc [[[./../.././qc/crypto/o_time.c.html#1]]]
+pthread_equal(pthread_t;pthread_t) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../.././qc/crypto/o_time.c.html#1]]]
+OPENSSL_gmtime(time_t*;structtm*) :  struct tm [[[./../.././qc/crypto/o_time.c.html#1]]]
+OPENSSL_gmtime_adj(structtm*;int;long) :  int  [[[./../.././qc/crypto/o_time.c.html#1]]]
+OPENSSL_gmtime_diff(int*;int*;structtm*;structtm*) :  int  [[[./../.././qc/crypto/o_time.c.html#1]]]
+julian_adj(structtm*;int;long;long*;int*) :  int  [[[./../.././qc/crypto/o_time.c.html#1]]]
+date_to_julian(int;int;int) :  long  [[[./../.././qc/crypto/o_time.c.html#1]]]
+julian_to_date(long;int*;int*;int*) :  void  [[[./../.././qc/crypto/o_time.c.html#1]]]
 } 
 @enduml

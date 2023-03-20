@@ -64,5 +64,18 @@ ossl_check_void_sk_type(structstack_st_void*) : OPENSSL_STACK [[[./../../.././qc
 ossl_check_void_compfunc_type(sk_void_compfunc) : OPENSSL_sk_compfunc [[[./../../.././qc/crypto/asn1/asn_mstbl.c.html#1]]]
 ossl_check_void_copyfunc_type(sk_void_copyfunc) : OPENSSL_sk_copyfunc [[[./../../.././qc/crypto/asn1/asn_mstbl.c.html#1]]]
 ossl_check_void_freefunc_type(sk_void_freefunc) : OPENSSL_sk_freefunc [[[./../../.././qc/crypto/asn1/asn_mstbl.c.html#1]]]
+pthread_equal(pthread_t;pthread_t) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/asn1/asn_mstbl.c.html#1]]]
+bcopy(void*;void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/asn1/asn_mstbl.c.html#1]]]
+bzero(void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/asn1/asn_mstbl.c.html#1]]]
+memcpy(void*;void*;size_t) :  void  [[[./../../.././qc/crypto/asn1/asn_mstbl.c.html#1]]]
+memmove(void*;void*;size_t) :  void  [[[./../../.././qc/crypto/asn1/asn_mstbl.c.html#1]]]
+memset(void*;int;size_t) :  void  [[[./../../.././qc/crypto/asn1/asn_mstbl.c.html#1]]]
+explicit_bzero(void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/asn1/asn_mstbl.c.html#1]]]
+strcpy(char*;char*) :  char  [[[./../../.././qc/crypto/asn1/asn_mstbl.c.html#1]]]
+stpcpy(char*;char*) :  char  [[[./../../.././qc/crypto/asn1/asn_mstbl.c.html#1]]]
+strncpy(char*;char*;size_t) :  char  [[[./../../.././qc/crypto/asn1/asn_mstbl.c.html#1]]]
+stpncpy(char*;char*;size_t) :  char  [[[./../../.././qc/crypto/asn1/asn_mstbl.c.html#1]]]
+strcat(char*;char*) :  char  [[[./../../.././qc/crypto/asn1/asn_mstbl.c.html#1]]]
+strncat(char*;char*;size_t) :  char  [[[./../../.././qc/crypto/asn1/asn_mstbl.c.html#1]]]
 } 
 @enduml

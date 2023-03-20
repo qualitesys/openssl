@@ -309,5 +309,17 @@ ossl_check_void_sk_type(structstack_st_void*) : OPENSSL_STACK [[[./../.././qc/pr
 ossl_check_void_compfunc_type(sk_void_compfunc) : OPENSSL_sk_compfunc [[[./../.././qc/providers/baseprov.c.html#1]]]
 ossl_check_void_copyfunc_type(sk_void_copyfunc) : OPENSSL_sk_copyfunc [[[./../.././qc/providers/baseprov.c.html#1]]]
 ossl_check_void_freefunc_type(sk_void_freefunc) : OPENSSL_sk_freefunc [[[./../.././qc/providers/baseprov.c.html#1]]]
+pthread_equal(pthread_t;pthread_t) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../.././qc/providers/baseprov.c.html#1]]]
+ossl_check_BIO_type(BIO*) : BIO [[[./../.././qc/providers/baseprov.c.html#1]]]
+ossl_check_const_BIO_sk_type(structstack_st_BIO*) : OPENSSL_STACK [[[./../.././qc/providers/baseprov.c.html#1]]]
+ossl_check_BIO_sk_type(structstack_st_BIO*) : OPENSSL_STACK [[[./../.././qc/providers/baseprov.c.html#1]]]
+ossl_check_BIO_compfunc_type(sk_BIO_compfunc) : OPENSSL_sk_compfunc [[[./../.././qc/providers/baseprov.c.html#1]]]
+ossl_check_BIO_copyfunc_type(sk_BIO_copyfunc) : OPENSSL_sk_copyfunc [[[./../.././qc/providers/baseprov.c.html#1]]]
+ossl_check_BIO_freefunc_type(sk_BIO_freefunc) : OPENSSL_sk_freefunc [[[./../.././qc/providers/baseprov.c.html#1]]]
+base_gettable_params(void*) : OSSL_PARAM [[[./../.././qc/providers/baseprov.c.html#1]]]
+base_get_params(void*;OSSL_PARAM) :  int  [[[./../.././qc/providers/baseprov.c.html#1]]]
+base_query(void*;int;int*) : OSSL_ALGORITHM [[[./../.././qc/providers/baseprov.c.html#1]]]
+base_teardown(void*) :  void  [[[./../.././qc/providers/baseprov.c.html#1]]]
+ossl_base_provider_init(OSSL_CORE_HANDLE*;OSSL_DISPATCH*;OSSL_DISPATCH*;void*) :  int  [[[./../.././qc/providers/baseprov.c.html#1]]]
 } 
 @enduml

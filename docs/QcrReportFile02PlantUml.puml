@@ -2,139 +2,139 @@
 !pragma layout smetana
 package  {
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :77
+Nb methods :647
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :77
+Nb methods :78
 Complexity :1.24
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
+Nb methods :76
+Complexity :1.24
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
+Nb methods :76
+Complexity :1.24
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :308
+Nb methods :383
 Complexity :1.06
 }
 class "dummy" {
-Nb methods :308
+Nb methods :383
 Complexity :1.06
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :296
-Complexity :1.07
+Nb methods :371
+Complexity :1.06
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
+Nb methods :76
+Complexity :1.24
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
+Nb methods :76
+Complexity :1.24
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
+Nb methods :76
+Complexity :1.24
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.27
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
+Nb methods :76
+Complexity :1.24
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
+Nb methods :76
+Complexity :1.24
 }
 class "dummy" {
-Nb methods :63
+Nb methods :658
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :481
+Complexity :1.04
+}
+class "dummy" {
+Nb methods :503
+Complexity :1.11
+}
+class "dummy" {
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.29
+Nb methods :76
+Complexity :1.24
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
+Nb methods :492
+Complexity :1.05
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
@@ -142,23 +142,23 @@ Nb methods :1
 Complexity :1.00
 }
 class "dummy" {
-Nb methods :65
+Nb methods :66
 Complexity :1.28
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :70
+Complexity :1.25
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
+Nb methods :82
+Complexity :1.21
 }
 class "dummy" {
 Nb methods :36
 Complexity :1.00
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
@@ -166,135 +166,135 @@ Nb methods :51
 Complexity :1.34
 }
 class "dummy" {
-Nb methods :63
+Nb methods :522
+Complexity :1.04
+}
+class "dummy" {
+Nb methods :486
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :78
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :308
-Complexity :1.06
+Nb methods :76
+Complexity :1.24
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
+Nb methods :96
+Complexity :1.18
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :77
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
+Nb methods :78
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :77
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
+Nb methods :506
+Complexity :1.04
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :164
+Complexity :1.13
+}
+class "dummy" {
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :77
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
@@ -306,15 +306,15 @@ Nb methods :21
 Complexity :1.00
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :80
+Complexity :1.49
 }
 class "dummy" {
 Nb methods :52
 Complexity :1.37
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
@@ -326,7 +326,7 @@ Nb methods :19
 Complexity :1.00
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
@@ -334,287 +334,287 @@ Nb methods :15
 Complexity :12.00
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :382
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :97
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :124
+Complexity :1.15
+}
+class "dummy" {
+Nb methods :149
 Complexity :1.25
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :486
+Complexity :1.04
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :504
+Complexity :1.51
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :456
+Complexity :1.15
+}
+class "dummy" {
+Nb methods :499
+Complexity :1.21
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :225
+Complexity :1.08
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :588
+Complexity :1.10
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :64
 Complexity :1.27
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.27
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.27
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :46
+Nb methods :47
 Complexity :1.11
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :97
+Complexity :1.22
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.27
 }
 class "dummy" {
@@ -638,27 +638,27 @@ Nb methods :36
 Complexity :1.50
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
+Nb methods :76
+Complexity :1.24
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
@@ -666,51 +666,51 @@ Nb methods :2
 Complexity :1.00
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
+Nb methods :98
+Complexity :1.26
+}
+class "dummy" {
+Nb methods :64
 Complexity :1.27
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.27
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.27
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :296
+Nb methods :297
 Complexity :1.07
 }
 class "dummy" {
@@ -718,179 +718,179 @@ Nb methods :70
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
+Nb methods :72
 Complexity :1.25
 }
 class "dummy" {
-Nb methods :75
+Nb methods :108
+Complexity :1.19
+}
+class "dummy" {
+Nb methods :82
+Complexity :1.21
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :97
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.29
+Nb methods :76
+Complexity :1.24
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :82
+Complexity :1.21
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.29
+Nb methods :76
+Complexity :1.24
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :76
+Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :97
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
@@ -946,271 +946,271 @@ Nb methods :14
 Complexity :1.72
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :130
+Complexity :1.14
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :606
+Complexity :1.03
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :97
+Complexity :1.22
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :630
+Complexity :1.03
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :130
+Complexity :1.14
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :82
+Complexity :1.21
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :308
+Nb methods :683
 Complexity :1.06
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :308
+Nb methods :672
 Complexity :1.06
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
+Nb methods :725
+Complexity :1.12
 }
 class "dummy" {
-Nb methods :63
+Nb methods :727
+Complexity :1.14
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :97
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :662
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :689
+Complexity :1.20
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :675
+Complexity :1.11
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :150
+Complexity :1.14
+}
+class "dummy" {
+Nb methods :150
+Complexity :1.14
+}
+class "dummy" {
+Nb methods :150
+Complexity :1.14
+}
+class "dummy" {
+Nb methods :97
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :158
+Complexity :1.20
+}
+class "dummy" {
+Nb methods :64
 Complexity :1.29
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :97
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :64
+Complexity :1.29
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :127
+Complexity :1.30
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :309
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :97
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :64
+Complexity :1.29
+}
+class "dummy" {
+Nb methods :768
+Complexity :1.03
+}
+class "dummy" {
+Nb methods :97
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :741
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :664
+Complexity :1.08
+}
+class "dummy" {
+Nb methods :64
+Complexity :1.29
+}
+class "dummy" {
+Nb methods :610
+Complexity :1.07
+}
+class "dummy" {
+Nb methods :97
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :498
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :614
+Complexity :1.14
+}
+class "dummy" {
+Nb methods :498
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :599
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :633
+Complexity :1.10
+}
+class "dummy" {
+Nb methods :616
+Complexity :1.09
+}
+class "dummy" {
+Nb methods :608
+Complexity :1.07
+}
+class "dummy" {
+Nb methods :600
+Complexity :1.04
 }
 class "dummy" {
 Nb methods :58
 Complexity :1.30
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
@@ -1230,24 +1230,24 @@ Nb methods :52
 Complexity :1.45
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :82
+Complexity :1.80
 }
 class "dummy" {
 Nb methods :52
 Complexity :1.37
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
+Nb methods :84
+Complexity :1.24
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :78
+Complexity :1.34
 }
 class "dummy" {
 Nb methods :52
@@ -1274,143 +1274,143 @@ Nb methods :52
 Complexity :1.45
 }
 class "dummy" {
-Nb methods :296
+Nb methods :346
 Complexity :1.06
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :121
+Complexity :1.25
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :78
+Complexity :1.36
 }
 class "dummy" {
 Nb methods :52
 Complexity :1.75
 }
 class "dummy" {
-Nb methods :63
+Nb methods :474
+Complexity :1.04
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :486
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :97
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :492
+Complexity :1.05
 }
 class "dummy" {
-Nb methods :75
+Nb methods :406
+Complexity :1.07
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :474
+Complexity :1.04
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.29
+Nb methods :493
+Complexity :1.09
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :97
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.29
+Nb methods :492
+Complexity :1.05
 }
 class "dummy" {
-Nb methods :75
+Nb methods :412
+Complexity :1.07
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :76
+Complexity :1.24
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
@@ -1418,708 +1418,708 @@ Nb methods :48
 Complexity :1.40
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :97
+Complexity :1.22
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
+Nb methods :426
+Complexity :1.24
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :166
+Complexity :1.43
 }
 class "dummy" {
 Nb methods :84
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
+Nb methods :429
+Complexity :1.14
 }
 class "dummy" {
 Nb methods :91
 Complexity :1.37
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :133
+Complexity :1.28
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
+Nb methods :392
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :421
+Complexity :1.37
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :296
+Nb methods :420
 Complexity :1.07
 }
 class "dummy" {
-Nb methods :296
-Complexity :1.07
+Nb methods :498
+Complexity :1.06
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :391
+Complexity :1.11
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :397
+Complexity :1.16
 }
 class "dummy" {
-Nb methods :296
-Complexity :1.07
+Nb methods :391
+Complexity :1.09
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :152
+Complexity :1.20
 }
 class "dummy" {
-Nb methods :75
+Nb methods :97
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :518
+Complexity :1.13
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :468
+Complexity :1.58
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :108
+Complexity :1.19
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :395
+Complexity :1.12
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
+Nb methods :365
+Complexity :1.10
+}
+class "dummy" {
+Nb methods :365
+Complexity :1.07
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :398
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :394
+Complexity :1.08
+}
+class "dummy" {
+Nb methods :391
+Complexity :1.08
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :401
+Complexity :1.13
+}
+class "dummy" {
+Nb methods :394
+Complexity :1.13
+}
+class "dummy" {
+Nb methods :392
+Complexity :1.27
+}
+class "dummy" {
+Nb methods :422
+Complexity :1.89
+}
+class "dummy" {
+Nb methods :493
+Complexity :1.14
+}
+class "dummy" {
+Nb methods :110
+Complexity :1.20
+}
+class "dummy" {
+Nb methods :474
+Complexity :1.04
+}
+class "dummy" {
+Nb methods :97
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :315
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :480
+Complexity :1.04
+}
+class "dummy" {
+Nb methods :557
+Complexity :1.04
+}
+class "dummy" {
+Nb methods :97
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :315
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :480
+Complexity :1.04
+}
+class "dummy" {
+Nb methods :492
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :82
+Complexity :1.21
+}
+class "dummy" {
+Nb methods :82
+Complexity :1.21
+}
+class "dummy" {
+Nb methods :82
+Complexity :1.21
+}
+class "dummy" {
+Nb methods :97
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :82
+Complexity :1.21
+}
+class "dummy" {
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :64
+Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :82
+Complexity :1.21
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :76
+Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :82
+Complexity :1.21
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :492
+Complexity :1.05
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :76
+Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :64
+Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :82
+Complexity :1.21
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
+Nb methods :82
+Complexity :1.21
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :82
+Complexity :1.21
+}
+class "dummy" {
+Nb methods :82
+Complexity :1.21
+}
+class "dummy" {
+Nb methods :82
+Complexity :1.21
+}
+class "dummy" {
+Nb methods :82
+Complexity :1.21
+}
+class "dummy" {
+Nb methods :82
+Complexity :1.21
+}
+class "dummy" {
+Nb methods :82
+Complexity :1.21
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :97
+Complexity :1.22
 }
 class "dummy" {
 Nb methods :28
 Complexity :1.00
 }
 class "dummy" {
-Nb methods :75
+Nb methods :118
+Complexity :1.37
+}
+class "dummy" {
+Nb methods :117
+Complexity :1.35
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :666
+Complexity :1.04
 }
 class "dummy" {
-Nb methods :75
+Nb methods :97
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :615
+Complexity :1.13
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :353
+Complexity :1.15
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
+Nb methods :452
+Complexity :1.08
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
+Nb methods :150
+Complexity :1.14
 }
 class "dummy" {
-Nb methods :308
+Nb methods :445
+Complexity :1.11
+}
+class "dummy" {
+Nb methods :359
+Complexity :1.07
+}
+class "dummy" {
+Nb methods :492
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :431
+Complexity :1.07
+}
+class "dummy" {
+Nb methods :435
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :357
 Complexity :1.06
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :308
+Nb methods :357
 Complexity :1.06
 }
 class "dummy" {
-Nb methods :308
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :489
+Complexity :1.08
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :355
 Complexity :1.06
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :296
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :469
 Complexity :1.07
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :448
+Complexity :1.11
+}
+class "dummy" {
+Nb methods :361
+Complexity :1.09
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
+Nb methods :492
+Complexity :1.05
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
+Nb methods :97
+Complexity :1.22
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :296
+Nb methods :357
 Complexity :1.06
 }
 class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :76
+Complexity :1.23
 }
 class "dummy" {
-Nb methods :296
-Complexity :1.07
+Nb methods :76
+Complexity :1.23
 }
 class "dummy" {
-Nb methods :296
-Complexity :1.07
+Nb methods :357
+Complexity :1.05
 }
 class "dummy" {
-Nb methods :296
-Complexity :1.07
+Nb methods :456
+Complexity :1.09
 }
 class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :296
+Nb methods :383
 Complexity :1.06
 }
 class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :461
+Complexity :1.13
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :308
+Nb methods :483
+Complexity :1.20
+}
+class "dummy" {
+Nb methods :405
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :401
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :401
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :402
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :401
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :401
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :462
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :401
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :481
+Complexity :1.12
+}
+class "dummy" {
+Nb methods :462
+Complexity :1.13
+}
+class "dummy" {
+Nb methods :474
+Complexity :1.04
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :468
+Complexity :1.07
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :373
+Complexity :1.08
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :492
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :346
+Complexity :1.13
+}
+class "dummy" {
+Nb methods :353
+Complexity :1.09
+}
+class "dummy" {
+Nb methods :346
+Complexity :1.08
+}
+class "dummy" {
+Nb methods :348
+Complexity :1.10
+}
+class "dummy" {
+Nb methods :357
 Complexity :1.06
 }
 class "dummy" {
-Nb methods :296
-Complexity :1.07
+Nb methods :394
+Complexity :1.50
 }
 class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :308
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :376
+Complexity :1.11
 }
 class "dummy" {
 Nb methods :18
 Complexity :1.39
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
+Nb methods :108
+Complexity :1.20
+}
+class "dummy" {
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.29
+Nb methods :97
+Complexity :1.22
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
+Nb methods :163
+Complexity :1.13
 }
 class "dummy" {
 Nb methods :2
@@ -2142,443 +2142,443 @@ Nb methods :3
 Complexity :4.67
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :357
+Complexity :1.05
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :308
+Nb methods :309
 Complexity :1.06
 }
 class "dummy" {
-Nb methods :75
+Nb methods :97
+Complexity :1.21
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
+Nb methods :126
+Complexity :1.47
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.29
+Nb methods :81
+Complexity :1.35
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
+Nb methods :77
 Complexity :1.25
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :81
+Complexity :1.35
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
+Nb methods :77
 Complexity :1.25
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
+Nb methods :361
+Complexity :1.10
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :80
+Complexity :1.32
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :75
+Nb methods :77
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :64
+Complexity :1.29
+}
+class "dummy" {
+Nb methods :78
+Complexity :1.66
+}
+class "dummy" {
+Nb methods :86
+Complexity :1.80
+}
+class "dummy" {
+Nb methods :80
+Complexity :1.63
+}
+class "dummy" {
+Nb methods :81
+Complexity :1.52
+}
+class "dummy" {
+Nb methods :84
+Complexity :1.52
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :124
+Complexity :1.46
+}
+class "dummy" {
+Nb methods :77
+Complexity :1.37
+}
+class "dummy" {
+Nb methods :377
+Complexity :1.13
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :77
+Complexity :1.41
 }
 class "dummy" {
-Nb methods :75
+Nb methods :64
+Complexity :1.29
+}
+class "dummy" {
+Nb methods :64
+Complexity :1.29
+}
+class "dummy" {
+Nb methods :64
+Complexity :1.29
+}
+class "dummy" {
+Nb methods :64
+Complexity :1.29
+}
+class "dummy" {
+Nb methods :82
+Complexity :1.37
+}
+class "dummy" {
+Nb methods :199
+Complexity :1.11
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :97
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :179
+Complexity :1.28
+}
+class "dummy" {
+Nb methods :689
+Complexity :1.03
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :97
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :608
+Complexity :1.04
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :620
+Complexity :1.04
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :632
+Complexity :1.14
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :108
+Complexity :1.19
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :181
+Complexity :2.54
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :492
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :97
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :498
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :474
+Complexity :1.04
 }
 class "dummy" {
-Nb methods :296
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :497
+Complexity :1.11
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :296
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :97
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :143
+Complexity :1.12
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :498
 Complexity :1.07
+}
+class "dummy" {
+Nb methods :594
+Complexity :1.04
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :97
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :85
+Complexity :1.30
+}
+class "dummy" {
+Nb methods :108
+Complexity :1.19
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :97
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :108
+Complexity :1.19
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :96
+Complexity :1.18
+}
+class "dummy" {
+Nb methods :380
+Complexity :1.09
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :354
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :309
+Complexity :1.06
 }
 class "dummy" {
 Nb methods :43
 Complexity :1.00
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :296
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :296
+Nb methods :375
 Complexity :1.07
 }
 class "dummy" {
-Nb methods :75
+Nb methods :64
+Complexity :1.29
+}
+class "dummy" {
+Nb methods :97
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :108
+Complexity :1.19
+}
+class "dummy" {
+Nb methods :362
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
@@ -2602,683 +2602,683 @@ Nb methods :1
 Complexity :4.00
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
+Nb methods :81
+Complexity :1.35
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
+Nb methods :77
 Complexity :1.25
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :511
+Complexity :1.05
 }
 class "dummy" {
-Nb methods :75
+Nb methods :171
+Complexity :1.38
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :113
+Nb methods :97
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :492
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :210
+Complexity :1.13
+}
+class "dummy" {
+Nb methods :170
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :112
+Complexity :1.17
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :114
 Complexity :1.18
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :113
+Nb methods :395
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :114
 Complexity :1.18
 }
 class "dummy" {
-Nb methods :113
-Complexity :1.18
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :296
+Nb methods :351
 Complexity :1.07
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :175
+Complexity :1.34
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :404
+Complexity :1.17
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
+Nb methods :179
+Complexity :1.32
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
+Nb methods :79
+Complexity :1.22
 }
 class "dummy" {
-Nb methods :63
+Nb methods :65
+Complexity :1.30
+}
+class "dummy" {
+Nb methods :65
 Complexity :1.27
 }
 class "dummy" {
-Nb methods :63
+Nb methods :65
+Complexity :1.30
+}
+class "dummy" {
+Nb methods :65
 Complexity :1.27
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
+Nb methods :76
+Complexity :1.24
 }
 class "dummy" {
 Nb methods :19
 Complexity :1.85
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
+Nb methods :363
+Complexity :1.07
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :363
+Complexity :1.12
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
+Nb methods :84
+Complexity :2.59
 }
 class "dummy" {
 Nb methods :17
 Complexity :1.53
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
+Nb methods :83
+Complexity :1.66
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.27
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
+Nb methods :399
+Complexity :1.15
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :97
+Complexity :1.22
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :151
+Complexity :1.16
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
+Nb methods :391
+Complexity :1.18
 }
 class "dummy" {
-Nb methods :296
-Complexity :1.07
+Nb methods :401
+Complexity :1.05
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
+Nb methods :81
+Complexity :2.93
 }
 class "dummy" {
 Nb methods :10
 Complexity :4.31
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :77
+Complexity :1.55
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :97
+Complexity :1.22
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :532
+Complexity :1.04
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :480
+Complexity :1.04
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
+Nb methods :557
+Complexity :1.08
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
+Nb methods :475
+Complexity :1.04
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :67
+Complexity :1.66
+}
+class "dummy" {
+Nb methods :64
+Complexity :1.27
+}
+class "dummy" {
+Nb methods :64
+Complexity :1.27
+}
+class "dummy" {
+Nb methods :64
+Complexity :1.27
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :67
+Complexity :1.26
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :64
+Complexity :1.27
+}
+class "dummy" {
+Nb methods :96
+Complexity :1.21
+}
+class "dummy" {
+Nb methods :84
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :667
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :97
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :594
+Complexity :1.03
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :97
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :481
+Complexity :1.04
+}
+class "dummy" {
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
+Nb methods :492
+Complexity :1.07
+}
+class "dummy" {
+Nb methods :64
 Complexity :1.27
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :76
+Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :81
+Complexity :1.65
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
+Nb methods :474
+Complexity :1.04
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :626
+Complexity :1.07
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :598
+Complexity :1.03
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :97
+Complexity :1.22
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :97
+Complexity :1.22
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
+Nb methods :76
+Complexity :1.24
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.29
+Nb methods :566
+Complexity :1.04
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
@@ -3286,699 +3286,699 @@ Nb methods :32
 Complexity :1.38
 }
 class "dummy" {
-Nb methods :63
+Nb methods :494
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :522
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :494
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :320
+Complexity :1.11
+}
+class "dummy" {
+Nb methods :309
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :309
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :124
+Complexity :1.15
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :347
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :78
+Complexity :1.30
+}
+class "dummy" {
+Nb methods :97
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :350
+Complexity :1.14
+}
+class "dummy" {
+Nb methods :560
+Complexity :1.14
+}
+class "dummy" {
+Nb methods :389
+Complexity :1.08
+}
+class "dummy" {
+Nb methods :114
+Complexity :1.16
+}
+class "dummy" {
+Nb methods :362
+Complexity :1.12
+}
+class "dummy" {
+Nb methods :433
 Complexity :1.25
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.29
+Nb methods :394
+Complexity :1.10
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :308
+Nb methods :357
 Complexity :1.06
 }
 class "dummy" {
-Nb methods :308
+Nb methods :357
 Complexity :1.06
 }
 class "dummy" {
-Nb methods :308
+Nb methods :357
 Complexity :1.06
 }
 class "dummy" {
-Nb methods :63
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :395
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :311
+Complexity :1.07
+}
+class "dummy" {
+Nb methods :97
+Complexity :3.64
+}
+class "dummy" {
+Nb methods :97
+Complexity :3.27
+}
+class "dummy" {
+Nb methods :331
+Complexity :1.08
+}
+class "dummy" {
+Nb methods :303
+Complexity :1.07
+}
+class "dummy" {
+Nb methods :303
+Complexity :1.07
+}
+class "dummy" {
+Nb methods :365
+Complexity :1.07
+}
+class "dummy" {
+Nb methods :337
+Complexity :1.08
+}
+class "dummy" {
+Nb methods :306
+Complexity :1.07
+}
+class "dummy" {
+Nb methods :303
+Complexity :1.07
+}
+class "dummy" {
+Nb methods :389
+Complexity :1.09
+}
+class "dummy" {
+Nb methods :417
+Complexity :1.11
+}
+class "dummy" {
+Nb methods :303
+Complexity :1.07
+}
+class "dummy" {
+Nb methods :303
+Complexity :1.07
+}
+class "dummy" {
+Nb methods :492
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :495
+Complexity :1.07
+}
+class "dummy" {
+Nb methods :493
+Complexity :1.08
+}
+class "dummy" {
+Nb methods :491
+Complexity :1.07
+}
+class "dummy" {
+Nb methods :493
+Complexity :1.07
+}
+class "dummy" {
+Nb methods :485
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :492
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :396
+Complexity :1.08
+}
+class "dummy" {
+Nb methods :507
+Complexity :1.08
+}
+class "dummy" {
+Nb methods :460
+Complexity :1.45
+}
+class "dummy" {
+Nb methods :310
+Complexity :1.11
+}
+class "dummy" {
+Nb methods :396
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :397
+Complexity :1.22
+}
+class "dummy" {
+Nb methods :341
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :344
+Complexity :1.11
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :383
+Complexity :1.12
+}
+class "dummy" {
+Nb methods :454
+Complexity :1.18
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
+Nb methods :410
 Complexity :1.25
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
+Nb methods :410
+Complexity :1.21
 }
 class "dummy" {
-Nb methods :296
-Complexity :1.07
+Nb methods :78
+Complexity :1.26
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
+Nb methods :388
+Complexity :1.13
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
+Nb methods :417
+Complexity :1.31
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.29
+Nb methods :383
+Complexity :1.06
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
+Nb methods :383
+Complexity :1.06
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.29
+Nb methods :383
+Complexity :1.06
 }
 class "dummy" {
-Nb methods :75
+Nb methods :337
+Complexity :1.09
+}
+class "dummy" {
+Nb methods :492
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :383
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :309
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :309
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.10
+}
+class "dummy" {
+Nb methods :383
+Complexity :1.13
+}
+class "dummy" {
+Nb methods :371
+Complexity :1.16
+}
+class "dummy" {
+Nb methods :383
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :383
+Complexity :1.09
+}
+class "dummy" {
+Nb methods :397
+Complexity :1.11
+}
+class "dummy" {
+Nb methods :357
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :383
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :411
+Complexity :1.28
+}
+class "dummy" {
+Nb methods :404
+Complexity :1.15
+}
+class "dummy" {
+Nb methods :401
+Complexity :1.13
+}
+class "dummy" {
+Nb methods :397
+Complexity :1.09
+}
+class "dummy" {
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :308
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :308
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :308
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :308
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :308
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :298
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :308
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :308
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :308
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :308
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :308
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :308
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :308
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :308
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :308
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :308
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :308
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :308
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :308
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :308
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :308
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :308
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :308
-Complexity :1.06
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
@@ -3986,264 +3986,264 @@ Nb methods :70
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :75
+Nb methods :76
 Complexity :1.23
 }
 class "dummy" {
-Nb methods :308
+Nb methods :399
+Complexity :1.11
+}
+class "dummy" {
+Nb methods :383
 Complexity :1.06
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :310
+Nb methods :383
 Complexity :1.06
 }
 class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :308
+Nb methods :383
 Complexity :1.06
 }
 class "dummy" {
-Nb methods :308
+Nb methods :510
+Complexity :1.09
+}
+class "dummy" {
+Nb methods :383
 Complexity :1.06
+}
+class "dummy" {
+Nb methods :383
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :488
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :492
+Complexity :1.08
+}
+class "dummy" {
+Nb methods :353
+Complexity :1.16
+}
+class "dummy" {
+Nb methods :313
+Complexity :1.08
 }
 class "dummy" {
 Nb methods :253
 Complexity :1.00
 }
 class "dummy" {
-Nb methods :75
-Complexity :1.23
+Nb methods :108
+Complexity :1.19
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :112
+Complexity :1.16
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :112
+Complexity :1.16
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :516
+Complexity :1.04
 }
 class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :296
-Complexity :1.07
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :296
+Nb methods :345
 Complexity :1.06
 }
 class "dummy" {
-Nb methods :63
+Nb methods :345
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :504
+Complexity :1.04
+}
+class "dummy" {
+Nb methods :516
+Complexity :1.04
+}
+class "dummy" {
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
+Nb methods :345
+Complexity :1.06
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :65
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
+Nb methods :395
+Complexity :1.06
+}
+class "dummy" {
+Nb methods :64
+Complexity :1.29
+}
+class "dummy" {
+Nb methods :112
+Complexity :1.16
+}
+class "dummy" {
+Nb methods :64
+Complexity :1.29
+}
+class "dummy" {
+Nb methods :64
 Complexity :1.27
+}
+class "dummy" {
+Nb methods :584
+Complexity :1.04
+}
+class "dummy" {
+Nb methods :64
+Complexity :1.29
+}
+class "dummy" {
+Nb methods :494
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :64
+Complexity :1.29
+}
+class "dummy" {
+Nb methods :97
+Complexity :1.22
 }
 class "dummy" {
 Nb methods :1
 Complexity :1.00
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
+Nb methods :64
 Complexity :1.29
 }
 class "dummy" {
-Nb methods :63
+Nb methods :504
+Complexity :1.04
+}
+class "dummy" {
+Nb methods :64
+Complexity :1.29
+}
+class "dummy" {
+Nb methods :522
+Complexity :1.09
+}
+class "dummy" {
+Nb methods :494
+Complexity :1.05
+}
+class "dummy" {
+Nb methods :64
+Complexity :1.29
+}
+class "dummy" {
+Nb methods :64
+Complexity :1.29
+}
+class "dummy" {
+Nb methods :64
+Complexity :1.29
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :606
+Complexity :1.03
+}
+class "dummy" {
+Nb methods :486
+Complexity :1.04
+}
+class "dummy" {
+Nb methods :606
+Complexity :1.03
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.23
+}
+class "dummy" {
+Nb methods :64
+Complexity :1.29
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :76
+Complexity :1.24
+}
+class "dummy" {
+Nb methods :64
+Complexity :1.29
+}
+class "dummy" {
+Nb methods :64
+Complexity :1.29
+}
+class "dummy" {
+Nb methods :606
+Complexity :1.03
+}
+class "dummy" {
+Nb methods :64
+Complexity :1.29
+}
+class "dummy" {
+Nb methods :64
 Complexity :1.27
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.29
+Nb methods :492
+Complexity :1.05
 }
 class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :296
+Nb methods :371
 Complexity :1.06
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.23
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :75
-Complexity :1.25
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.29
-}
-class "dummy" {
-Nb methods :63
-Complexity :1.27
 }
 }
 @enduml

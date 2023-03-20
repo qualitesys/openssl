@@ -309,5 +309,10 @@ ossl_check_void_sk_type(structstack_st_void*) : OPENSSL_STACK [[[./../.././qc/pr
 ossl_check_void_compfunc_type(sk_void_compfunc) : OPENSSL_sk_compfunc [[[./../.././qc/providers/nullprov.c.html#1]]]
 ossl_check_void_copyfunc_type(sk_void_copyfunc) : OPENSSL_sk_copyfunc [[[./../.././qc/providers/nullprov.c.html#1]]]
 ossl_check_void_freefunc_type(sk_void_freefunc) : OPENSSL_sk_freefunc [[[./../.././qc/providers/nullprov.c.html#1]]]
+pthread_equal(pthread_t;pthread_t) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../.././qc/providers/nullprov.c.html#1]]]
+null_gettable_params(OSSL_PROVIDER*) : OSSL_PARAM [[[./../.././qc/providers/nullprov.c.html#1]]]
+null_get_params(OSSL_PROVIDER*;OSSL_PARAM) :  int  [[[./../.././qc/providers/nullprov.c.html#1]]]
+null_query(OSSL_PROVIDER*;int;int*) : OSSL_ALGORITHM [[[./../.././qc/providers/nullprov.c.html#1]]]
+ossl_null_provider_init(OSSL_CORE_HANDLE*;OSSL_DISPATCH*;OSSL_DISPATCH*;void*) :  int  [[[./../.././qc/providers/nullprov.c.html#1]]]
 } 
 @enduml

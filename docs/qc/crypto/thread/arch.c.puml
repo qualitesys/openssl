@@ -64,5 +64,9 @@ ossl_check_void_sk_type(structstack_st_void*) : OPENSSL_STACK [[[./../../.././qc
 ossl_check_void_compfunc_type(sk_void_compfunc) : OPENSSL_sk_compfunc [[[./../../.././qc/crypto/thread/arch.c.html#1]]]
 ossl_check_void_copyfunc_type(sk_void_copyfunc) : OPENSSL_sk_copyfunc [[[./../../.././qc/crypto/thread/arch.c.html#1]]]
 ossl_check_void_freefunc_type(sk_void_freefunc) : OPENSSL_sk_freefunc [[[./../../.././qc/crypto/thread/arch.c.html#1]]]
+pthread_equal(pthread_t;pthread_t) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/thread/arch.c.html#1]]]
+ossl_crypto_thread_native_start(CRYPTO_THREAD_ROUTINE;void*;int) : CRYPTO_THREAD [[[./../../.././qc/crypto/thread/arch.c.html#1]]]
+ossl_crypto_thread_native_join(CRYPTO_THREAD*;CRYPTO_THREAD_RETVAL*) :  int  [[[./../../.././qc/crypto/thread/arch.c.html#1]]]
+ossl_crypto_thread_native_clean(CRYPTO_THREAD*) :  int  [[[./../../.././qc/crypto/thread/arch.c.html#1]]]
 } 
 @enduml

@@ -687,6 +687,15 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/x509/v3_lib.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "pthread_equal(pthread_t;pthread_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -763,7 +772,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/crypto/x509/v3_lib.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/x509/v3_lib.c near following tokens ) __attribute__ ( ( __nothrow__ , __leaf__ ) ) ; extern int pthread_setspecific ( pthread_key_t __key , const void CPP_POINTEUR __pointer "
+ , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/x509/v3_lib.c near following tokens ) ; typedef __useconds_t useconds_t ; typedef __socklen_t socklen_t ; extern int access ( const char CPP_POINTEUR __name , int __type "
 }} 
 ,
 { "ligne" : {"" : ""

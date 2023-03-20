@@ -76,5 +76,16 @@ ossl_check_void_sk_type(structstack_st_void*) : OPENSSL_STACK [[[./../../.././qc
 ossl_check_void_compfunc_type(sk_void_compfunc) : OPENSSL_sk_compfunc [[[./../../.././qc/crypto/modes/ccm128.c.html#1]]]
 ossl_check_void_copyfunc_type(sk_void_copyfunc) : OPENSSL_sk_copyfunc [[[./../../.././qc/crypto/modes/ccm128.c.html#1]]]
 ossl_check_void_freefunc_type(sk_void_freefunc) : OPENSSL_sk_freefunc [[[./../../.././qc/crypto/modes/ccm128.c.html#1]]]
+pthread_equal(pthread_t;pthread_t) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/modes/ccm128.c.html#1]]]
+CRYPTO_ccm128_init(CCM128_CONTEXT*;unsignedint;unsignedint;void*;block128_f) :  void  [[[./../../.././qc/crypto/modes/ccm128.c.html#1]]]
+CRYPTO_ccm128_setiv(CCM128_CONTEXT*;unsignedchar*;size_t;size_t) :  int  [[[./../../.././qc/crypto/modes/ccm128.c.html#1]]]
+CRYPTO_ccm128_aad(CCM128_CONTEXT*;unsignedchar*;size_t) :  void  [[[./../../.././qc/crypto/modes/ccm128.c.html#1]]]
+ctr64_inc(unsignedchar*) :  void  [[[./../../.././qc/crypto/modes/ccm128.c.html#1]]]
+CRYPTO_ccm128_encrypt(CCM128_CONTEXT*;unsignedchar*;unsignedchar*;size_t) :  int  [[[./../../.././qc/crypto/modes/ccm128.c.html#1]]]
+CRYPTO_ccm128_decrypt(CCM128_CONTEXT*;unsignedchar*;unsignedchar*;size_t) :  int  [[[./../../.././qc/crypto/modes/ccm128.c.html#1]]]
+ctr64_add(unsignedchar*;size_t) :  void  [[[./../../.././qc/crypto/modes/ccm128.c.html#1]]]
+CRYPTO_ccm128_encrypt_ccm64(CCM128_CONTEXT*;unsignedchar*;unsignedchar*;size_t;ccm128_f) :  int  [[[./../../.././qc/crypto/modes/ccm128.c.html#1]]]
+CRYPTO_ccm128_decrypt_ccm64(CCM128_CONTEXT*;unsignedchar*;unsignedchar*;size_t;ccm128_f) :  int  [[[./../../.././qc/crypto/modes/ccm128.c.html#1]]]
+CRYPTO_ccm128_tag(CCM128_CONTEXT*;unsignedchar*;size_t) : size_t [[[./../../.././qc/crypto/modes/ccm128.c.html#1]]]
 } 
 @enduml

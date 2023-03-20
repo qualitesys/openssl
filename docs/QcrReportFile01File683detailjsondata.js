@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/seed/seed.c.html" 
- , "texte" : "File crypto/seed/seed.c 5 rule violations " 
+ , "texte" : "File crypto/seed/seed.c 4 rule violations " 
  , "fic2"  : "./qc/crypto/seed/seed.c.xml" 
  , "fic3"  : "" 
 }
@@ -687,6 +687,42 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/seed/seed.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "pthread_equal(pthread_t;pthread_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/seed/seed.c.html#1"
+ , "c1" : " void "
+ , "c2" : "SEED_set_key(unsignedchar;SEED_KEY_SCHEDULE*)"
+ , "c3" : "1"
+ , "c4" : "115"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/seed/seed.c.html#1"
+ , "c1" : " void "
+ , "c2" : "SEED_encrypt(unsignedchar;unsignedchar;SEED_KEY_SCHEDULE*)"
+ , "c3" : "1"
+ , "c4" : "198"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/seed/seed.c.html#1"
+ , "c1" : " void "
+ , "c2" : "SEED_decrypt(unsignedchar;unsignedchar;SEED_KEY_SCHEDULE*)"
+ , "c3" : "1"
+ , "c4" : "198"
+}} 
 ] 
 }} 
 ]
@@ -731,13 +767,6 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "2"
@@ -759,13 +788,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/seed/seed.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/seed/seed.c near following tokens ) __attribute__ ( ( __nothrow__ , __leaf__ ) ) ; extern int pthread_setspecific ( pthread_key_t __key , const void CPP_POINTEUR __pointer "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01066"
  , "c1link" : "./qc/crypto/seed/seed.c.html#1066"

@@ -76,5 +76,11 @@ ossl_check_void_sk_type(structstack_st_void*) : OPENSSL_STACK [[[./../../.././qc
 ossl_check_void_compfunc_type(sk_void_compfunc) : OPENSSL_sk_compfunc [[[./../../.././qc/crypto/md5/md5_dgst.c.html#1]]]
 ossl_check_void_copyfunc_type(sk_void_copyfunc) : OPENSSL_sk_copyfunc [[[./../../.././qc/crypto/md5/md5_dgst.c.html#1]]]
 ossl_check_void_freefunc_type(sk_void_freefunc) : OPENSSL_sk_freefunc [[[./../../.././qc/crypto/md5/md5_dgst.c.html#1]]]
+pthread_equal(pthread_t;pthread_t) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/md5/md5_dgst.c.html#1]]]
+MD5_Update(MD5_CTX*;void*;size_t) :  int  [[[./../../.././qc/crypto/md5/md5_dgst.c.html#1]]]
+MD5_Transform(MD5_CTX*;unsignedchar*) :  void  [[[./../../.././qc/crypto/md5/md5_dgst.c.html#1]]]
+MD5_Final(unsignedchar*;MD5_CTX*) :  int  [[[./../../.././qc/crypto/md5/md5_dgst.c.html#1]]]
+MD5_Init(MD5_CTX*) :  int  [[[./../../.././qc/crypto/md5/md5_dgst.c.html#1]]]
+md5_block_data_order(MD5_CTX*;void*;size_t) :  void  [[[./../../.././qc/crypto/md5/md5_dgst.c.html#1]]]
 } 
 @enduml

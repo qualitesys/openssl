@@ -76,5 +76,10 @@ ossl_check_void_sk_type(structstack_st_void*) : OPENSSL_STACK [[[./../../.././qc
 ossl_check_void_compfunc_type(sk_void_compfunc) : OPENSSL_sk_compfunc [[[./../../.././qc/crypto/mdc2/mdc2dgst.c.html#1]]]
 ossl_check_void_copyfunc_type(sk_void_copyfunc) : OPENSSL_sk_copyfunc [[[./../../.././qc/crypto/mdc2/mdc2dgst.c.html#1]]]
 ossl_check_void_freefunc_type(sk_void_freefunc) : OPENSSL_sk_freefunc [[[./../../.././qc/crypto/mdc2/mdc2dgst.c.html#1]]]
+pthread_equal(pthread_t;pthread_t) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/mdc2/mdc2dgst.c.html#1]]]
+MDC2_Init(MDC2_CTX*) :  int  [[[./../../.././qc/crypto/mdc2/mdc2dgst.c.html#1]]]
+MDC2_Update(MDC2_CTX*;unsignedchar*;size_t) :  int  [[[./../../.././qc/crypto/mdc2/mdc2dgst.c.html#1]]]
+mdc2_body(MDC2_CTX*;unsignedchar*;size_t) :  void  [[[./../../.././qc/crypto/mdc2/mdc2dgst.c.html#1]]]
+MDC2_Final(unsignedchar*;MDC2_CTX*) :  int  [[[./../../.././qc/crypto/mdc2/mdc2dgst.c.html#1]]]
 } 
 @enduml

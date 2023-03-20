@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/kem/kem_util.c.html" 
- , "texte" : "File providers/implementations/kem/kem_util.c 5 rule violations " 
+ , "texte" : "File providers/implementations/kem/kem_util.c 4 rule violations " 
  , "fic2"  : "./qc/providers/implementations/kem/kem_util.c.xml" 
  , "fic3"  : "" 
 }
@@ -687,6 +687,33 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/kem_util.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "pthread_equal(pthread_t;pthread_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/kem_util.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ossl_eckem_modename2id(char*)"
+ , "c3" : "4"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/kem_util.c.html#1"
+ , "c1" : " void "
+ , "c2" : "ossl_dhkem_getsuiteid(unsignedchar;uint16_t)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
 ] 
 }} 
 ]
@@ -731,13 +758,6 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "2"
@@ -759,13 +779,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/kem/kem_util.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/kem/kem_util.c near following tokens ) __attribute__ ( ( __nothrow__ , __leaf__ ) ) ; extern int pthread_setspecific ( pthread_key_t __key , const void CPP_POINTEUR __pointer "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01622"
  , "c1link" : "./qc/providers/implementations/kem/kem_util.c.html#1622"

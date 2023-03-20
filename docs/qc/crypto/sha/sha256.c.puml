@@ -76,5 +76,14 @@ ossl_check_void_sk_type(structstack_st_void*) : OPENSSL_STACK [[[./../../.././qc
 ossl_check_void_compfunc_type(sk_void_compfunc) : OPENSSL_sk_compfunc [[[./../../.././qc/crypto/sha/sha256.c.html#1]]]
 ossl_check_void_copyfunc_type(sk_void_copyfunc) : OPENSSL_sk_copyfunc [[[./../../.././qc/crypto/sha/sha256.c.html#1]]]
 ossl_check_void_freefunc_type(sk_void_freefunc) : OPENSSL_sk_freefunc [[[./../../.././qc/crypto/sha/sha256.c.html#1]]]
+pthread_equal(pthread_t;pthread_t) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/sha/sha256.c.html#1]]]
+SHA224_Init(SHA256_CTX*) :  int  [[[./../../.././qc/crypto/sha/sha256.c.html#1]]]
+SHA256_Init(SHA256_CTX*) :  int  [[[./../../.././qc/crypto/sha/sha256.c.html#1]]]
+SHA224_Update(SHA256_CTX*;void*;size_t) :  int  [[[./../../.././qc/crypto/sha/sha256.c.html#1]]]
+SHA224_Final(unsignedchar*;SHA256_CTX*) :  int  [[[./../../.././qc/crypto/sha/sha256.c.html#1]]]
+SHA256_Update(SHA256_CTX*;void*;size_t) :  int  [[[./../../.././qc/crypto/sha/sha256.c.html#1]]]
+SHA256_Transform(SHA256_CTX*;unsignedchar*) :  void  [[[./../../.././qc/crypto/sha/sha256.c.html#1]]]
+SHA256_Final(unsignedchar*;SHA256_CTX*) :  int  [[[./../../.././qc/crypto/sha/sha256.c.html#1]]]
+sha256_block_data_order(SHA256_CTX*;void*;size_t) :  void  [[[./../../.././qc/crypto/sha/sha256.c.html#1]]]
 } 
 @enduml

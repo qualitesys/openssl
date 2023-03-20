@@ -64,5 +64,14 @@ ossl_check_void_sk_type(structstack_st_void*) : OPENSSL_STACK [[[./../../.././qc
 ossl_check_void_compfunc_type(sk_void_compfunc) : OPENSSL_sk_compfunc [[[./../../.././qc/crypto/bn/bn_const.c.html#1]]]
 ossl_check_void_copyfunc_type(sk_void_copyfunc) : OPENSSL_sk_copyfunc [[[./../../.././qc/crypto/bn/bn_const.c.html#1]]]
 ossl_check_void_freefunc_type(sk_void_freefunc) : OPENSSL_sk_freefunc [[[./../../.././qc/crypto/bn/bn_const.c.html#1]]]
+pthread_equal(pthread_t;pthread_t) :  int  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/bn/bn_const.c.html#1]]]
+BN_get_rfc2409_prime_768(BIGNUM*) : BIGNUM [[[./../../.././qc/crypto/bn/bn_const.c.html#1]]]
+BN_get_rfc2409_prime_1024(BIGNUM*) : BIGNUM [[[./../../.././qc/crypto/bn/bn_const.c.html#1]]]
+BN_get_rfc3526_prime_1536(BIGNUM*) : BIGNUM [[[./../../.././qc/crypto/bn/bn_const.c.html#1]]]
+BN_get_rfc3526_prime_2048(BIGNUM*) : BIGNUM [[[./../../.././qc/crypto/bn/bn_const.c.html#1]]]
+BN_get_rfc3526_prime_3072(BIGNUM*) : BIGNUM [[[./../../.././qc/crypto/bn/bn_const.c.html#1]]]
+BN_get_rfc3526_prime_4096(BIGNUM*) : BIGNUM [[[./../../.././qc/crypto/bn/bn_const.c.html#1]]]
+BN_get_rfc3526_prime_6144(BIGNUM*) : BIGNUM [[[./../../.././qc/crypto/bn/bn_const.c.html#1]]]
+BN_get_rfc3526_prime_8192(BIGNUM*) : BIGNUM [[[./../../.././qc/crypto/bn/bn_const.c.html#1]]]
 } 
 @enduml
