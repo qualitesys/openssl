@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bio/bss_dgram.c.html" 
- , "texte" : "File crypto/bio/bss_dgram.c 5 rule violations " 
+ , "texte" : "File crypto/bio/bss_dgram.c 8 rule violations " 
  , "fic2"  : "./qc/crypto/bio/bss_dgram.c.xml" 
  , "fic3"  : "" 
 }
@@ -642,6 +642,429 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "pthread_equal(pthread_t;pthread_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "ssize_t"
+ , "c2" : "read(int;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "ssize_t"
+ , "c2" : "pread(int;void*;size_t;__off_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "ssize_t"
+ , "c2" : "pread64(int;void*;size_t;__off64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "ssize_t"
+ , "c2" : "readlink(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "ssize_t"
+ , "c2" : "readlinkat(int;char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : " char "
+ , "c2" : "getcwd(char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : " char "
+ , "c2" : "getwd(char*)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "size_t"
+ , "c2" : "confstr(int;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "getgroups(int;__gid_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ttyname_r(int;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : " int "
+ , "c2" : "getlogin_r(char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "gethostname(char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "getdomainname(char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bcopy(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bzero(void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "OSSL_TIME"
+ , "c2" : "ossl_ticks2time(uint64_t)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "uint64_t"
+ , "c2" : "ossl_time2ticks(OSSL_TIME)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "OSSL_TIME"
+ , "c2" : "ossl_time_zero(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "OSSL_TIME"
+ , "c2" : "ossl_time_infinite(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : " struct timeval"
+ , "c2" : "ossl_time_to_timeval(OSSL_TIME)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "OSSL_TIME"
+ , "c2" : "ossl_time_from_timeval(structtimeval)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "time_t"
+ , "c2" : "ossl_time_to_time_t(OSSL_TIME)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "OSSL_TIME"
+ , "c2" : "ossl_time_from_time_t(time_t)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ossl_time_compare(OSSL_TIME;OSSL_TIME)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ossl_time_is_zero(OSSL_TIME)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ossl_time_is_infinite(OSSL_TIME)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "uint64_t"
+ , "c2" : "safe_add_time(uint64_t;uint64_t;int*)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "uint64_t"
+ , "c2" : "safe_sub_time(uint64_t;uint64_t;int*)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "uint64_t"
+ , "c2" : "safe_mul_time(uint64_t;uint64_t;int*)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "uint64_t"
+ , "c2" : "safe_div_time(uint64_t;uint64_t;int*)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "uint64_t"
+ , "c2" : "safe_mod_time(uint64_t;uint64_t;int*)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "uint64_t"
+ , "c2" : "safe_div_round_up_time(uint64_t;uint64_t;int*)"
+ , "c3" : "5"
+ , "c4" : "10"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "uint64_t"
+ , "c2" : "safe_muldiv_time(uint64_t;uint64_t;uint64_t;int*)"
+ , "c3" : "4"
+ , "c4" : "12"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "uint64_t"
+ , "c2" : "safe_neg_time(uint64_t;int*)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "uint64_t"
+ , "c2" : "safe_abs_time(uint64_t;int*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "OSSL_TIME"
+ , "c2" : "ossl_time_add(OSSL_TIME;OSSL_TIME)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "OSSL_TIME"
+ , "c2" : "ossl_time_subtract(OSSL_TIME;OSSL_TIME)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "OSSL_TIME"
+ , "c2" : "ossl_time_abs_difference(OSSL_TIME;OSSL_TIME)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "OSSL_TIME"
+ , "c2" : "ossl_time_multiply(OSSL_TIME;uint64_t)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "OSSL_TIME"
+ , "c2" : "ossl_time_divide(OSSL_TIME;uint64_t)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "OSSL_TIME"
+ , "c2" : "ossl_time_muldiv(OSSL_TIME;uint64_t;uint64_t)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "OSSL_TIME"
+ , "c2" : "ossl_time_max(OSSL_TIME;OSSL_TIME)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "OSSL_TIME"
+ , "c2" : "ossl_time_min(OSSL_TIME;OSSL_TIME)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : " struct cmsghdr"
+ , "c2" : "__cmsg_nxthdr(structmsghdr*;structcmsghdr*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "ssize_t"
+ , "c2" : "recv(int;void*;size_t;int)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "ssize_t"
+ , "c2" : "recvfrom(int;void*;size_t;int;__SOCKADDR_ARG;socklen_t*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
 ] 
 }} 
 ]
@@ -693,9 +1116,16 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -709,7 +1139,7 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -718,7 +1148,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/crypto/bio/bss_dgram.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/bio/bss_dgram.c near following tokens ) __attribute__ ( ( __nothrow__ , __leaf__ ) ) ; extern int pthread_yield ( void ) __asm__ ( __ _sched_yield_ ) "
+ , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/bio/bss_dgram.c near following tokens __attribute__ ( ( __nonnull__ ( 1 ) ) ) ; extern void CPP_POINTEUR memfrob ( void CPP_POINTEUR __s , size_t __n "
 }} 
 ,
 { "ligne" : {"" : ""
@@ -747,6 +1177,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bio/bss_dgram.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00001] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bio/bss_dgram.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bio/bss_dgram.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer err is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bio/bss_dgram.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression  ! e2 applies to a single value or variable, might be ambiguous."
 }} 
 ]
 , 

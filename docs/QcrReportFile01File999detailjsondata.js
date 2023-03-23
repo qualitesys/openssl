@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/rands/seeding/rand_unix.c.html" 
- , "texte" : "File providers/implementations/rands/seeding/rand_unix.c 5 rule violations " 
+ , "texte" : "File providers/implementations/rands/seeding/rand_unix.c 6 rule violations " 
  , "fic2"  : "./qc/providers/implementations/rands/seeding/rand_unix.c.xml" 
  , "fic3"  : "" 
 }
@@ -642,6 +642,150 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/rands/seeding/rand_unix.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "pthread_equal(pthread_t;pthread_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/rands/seeding/rand_unix.c.html#1"
+ , "c1" : "ssize_t"
+ , "c2" : "read(int;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/rands/seeding/rand_unix.c.html#1"
+ , "c1" : "ssize_t"
+ , "c2" : "pread(int;void*;size_t;__off_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/rands/seeding/rand_unix.c.html#1"
+ , "c1" : "ssize_t"
+ , "c2" : "pread64(int;void*;size_t;__off64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/rands/seeding/rand_unix.c.html#1"
+ , "c1" : "ssize_t"
+ , "c2" : "readlink(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/rands/seeding/rand_unix.c.html#1"
+ , "c1" : "ssize_t"
+ , "c2" : "readlinkat(int;char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/rands/seeding/rand_unix.c.html#1"
+ , "c1" : " char "
+ , "c2" : "getcwd(char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/rands/seeding/rand_unix.c.html#1"
+ , "c1" : " char "
+ , "c2" : "getwd(char*)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/rands/seeding/rand_unix.c.html#1"
+ , "c1" : "size_t"
+ , "c2" : "confstr(int;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/rands/seeding/rand_unix.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "getgroups(int;__gid_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/rands/seeding/rand_unix.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ttyname_r(int;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/rands/seeding/rand_unix.c.html#1"
+ , "c1" : " int "
+ , "c2" : "getlogin_r(char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/rands/seeding/rand_unix.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "gethostname(char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/rands/seeding/rand_unix.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "getdomainname(char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/rands/seeding/rand_unix.c.html#1"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bcopy(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/rands/seeding/rand_unix.c.html#1"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bzero(void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -695,7 +839,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -718,7 +862,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/rands/seeding/rand_unix.c near following tokens ) __attribute__ ( ( __nothrow__ , __leaf__ ) ) ; extern int pthread_yield ( void ) __asm__ ( __ _sched_yield_ ) "
+ , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/rands/seeding/rand_unix.c near following tokens __attribute__ ( ( __nonnull__ ( 1 ) ) ) ; extern void CPP_POINTEUR memfrob ( void CPP_POINTEUR __s , size_t __n "
 }} 
 ,
 { "ligne" : {"" : ""
@@ -747,6 +891,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[00001] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/rands/seeding/rand_unix.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 2&gt;1 is invariable"
 }} 
 ]
 , 
