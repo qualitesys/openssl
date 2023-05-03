@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/prime.c.html" 
  , "texte" : "File apps/prime.c 25 rule violations " 
- , "fic2"  : "./qc/apps/prime.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -6155,9 +6154,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/apps/prime.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/apps/prime.c.svg" }
+ "ligneplantuml" : "./qc/apps/prime.c.svg" }
 
 ] 
 , 

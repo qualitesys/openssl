@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/asn1/t_bitst.c.html" 
  , "texte" : "File crypto/asn1/t_bitst.c 11 rule violations " 
- , "fic2"  : "./qc/crypto/asn1/t_bitst.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -6074,9 +6073,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/asn1/t_bitst.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/asn1/t_bitst.c.svg" }
+ "ligneplantuml" : "./qc/crypto/asn1/t_bitst.c.svg" }
 
 ] 
 , 

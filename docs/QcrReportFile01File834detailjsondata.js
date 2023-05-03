@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/common/der/der_dsa_key.c.html" 
  , "texte" : "File providers/common/der/der_dsa_key.c 21 rule violations " 
- , "fic2"  : "./qc/providers/common/der/der_dsa_key.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -1223,9 +1222,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/common/der/der_dsa_key.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/common/der/der_dsa_key.c.svg" }
+ "ligneplantuml" : "./qc/providers/common/der/der_dsa_key.c.svg" }
 
 ] 
 , 

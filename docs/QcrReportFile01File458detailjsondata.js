@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/e_cast.c.html" 
  , "texte" : "File crypto/evp/e_cast.c 8 rule violations " 
- , "fic2"  : "./qc/crypto/evp/e_cast.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -4922,9 +4921,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/evp/e_cast.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/evp/e_cast.c.svg" }
+ "ligneplantuml" : "./qc/crypto/evp/e_cast.c.svg" }
 
 ] 
 , 

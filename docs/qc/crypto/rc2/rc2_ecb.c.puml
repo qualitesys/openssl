@@ -1,6 +1,0 @@
-@startuml
-!pragma layout smetana
-class dummy {
-RC2_ecb_encrypt(unsignedchar*;unsignedchar*;RC2_KEY*;int) :  void  [[[./../../.././qc/crypto/rc2/rc2_ecb.c.html#74]]]
-} 
-@enduml

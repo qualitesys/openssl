@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/dhparam.c.html" 
  , "texte" : "File apps/dhparam.c 63 rule violations " 
- , "fic2"  : "./qc/apps/dhparam.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -6155,9 +6154,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/apps/dhparam.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/apps/dhparam.c.svg" }
+ "ligneplantuml" : "./qc/apps/dhparam.c.svg" }
 
 ] 
 , 

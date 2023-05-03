@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/exchange/ecdh_exch.c.html" 
  , "texte" : "File providers/implementations/exchange/ecdh_exch.c 31 rule violations " 
- , "fic2"  : "./qc/providers/implementations/exchange/ecdh_exch.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -3590,9 +3589,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/implementations/exchange/ecdh_exch.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/implementations/exchange/ecdh_exch.c.svg" }
+ "ligneplantuml" : "./qc/providers/implementations/exchange/ecdh_exch.c.svg" }
 
 ] 
 , 

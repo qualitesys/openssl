@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/encode_decode/decode_msblob2key.c.html" 
  , "texte" : "File providers/implementations/encode_decode/decode_msblob2key.c 19 rule violations " 
- , "fic2"  : "./qc/providers/implementations/encode_decode/decode_msblob2key.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -4454,9 +4453,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/implementations/encode_decode/decode_msblob2key.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/implementations/encode_decode/decode_msblob2key.c.svg" }
+ "ligneplantuml" : "./qc/providers/implementations/encode_decode/decode_msblob2key.c.svg" }
 
 ] 
 , 

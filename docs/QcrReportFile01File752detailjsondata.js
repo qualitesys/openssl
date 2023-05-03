@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/x509/pcy_lib.c.html" 
  , "texte" : "File crypto/x509/pcy_lib.c 16 rule violations " 
- , "fic2"  : "./qc/crypto/x509/pcy_lib.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -6353,9 +6352,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/x509/pcy_lib.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/x509/pcy_lib.c.svg" }
+ "ligneplantuml" : "./qc/crypto/x509/pcy_lib.c.svg" }
 
 ] 
 , 

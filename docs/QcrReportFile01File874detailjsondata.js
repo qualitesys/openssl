@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/ciphers/cipher_aes_wrp.c.html" 
  , "texte" : "File providers/implementations/ciphers/cipher_aes_wrp.c 13 rule violations " 
- , "fic2"  : "./qc/providers/implementations/ciphers/cipher_aes_wrp.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -4445,9 +4444,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/implementations/ciphers/cipher_aes_wrp.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/implementations/ciphers/cipher_aes_wrp.c.svg" }
+ "ligneplantuml" : "./qc/providers/implementations/ciphers/cipher_aes_wrp.c.svg" }
 
 ] 
 , 

@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/legacyprov.c.html" 
  , "texte" : "File providers/legacyprov.c 17 rule violations " 
- , "fic2"  : "./qc/providers/legacyprov.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -3194,9 +3193,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/legacyprov.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/legacyprov.c.svg" }
+ "ligneplantuml" : "./qc/providers/legacyprov.c.svg" }
 
 ] 
 , 

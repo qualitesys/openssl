@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/kem/rsa_kem.c.html" 
  , "texte" : "File providers/implementations/kem/rsa_kem.c 10 rule violations " 
- , "fic2"  : "./qc/providers/implementations/kem/rsa_kem.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -3509,9 +3508,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/implementations/kem/rsa_kem.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/implementations/kem/rsa_kem.c.svg" }
+ "ligneplantuml" : "./qc/providers/implementations/kem/rsa_kem.c.svg" }
 
 ] 
 , 

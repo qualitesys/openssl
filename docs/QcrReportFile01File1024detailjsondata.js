@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/record/methods/tls_common.c.html" 
  , "texte" : "File ssl/record/methods/tls_common.c 163 rule violations " 
- , "fic2"  : "./qc/ssl/record/methods/tls_common.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -6461,9 +6460,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/ssl/record/methods/tls_common.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/ssl/record/methods/tls_common.c.svg" }
+ "ligneplantuml" : "./qc/ssl/record/methods/tls_common.c.svg" }
 
 ] 
 , 

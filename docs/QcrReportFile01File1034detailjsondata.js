@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/ssl_asn1.c.html" 
  , "texte" : "File ssl/ssl_asn1.c 44 rule violations " 
- , "fic2"  : "./qc/ssl/ssl_asn1.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -6119,9 +6118,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/ssl/ssl_asn1.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/ssl/ssl_asn1.c.svg" }
+ "ligneplantuml" : "./qc/ssl/ssl_asn1.c.svg" }
 
 ] 
 , 

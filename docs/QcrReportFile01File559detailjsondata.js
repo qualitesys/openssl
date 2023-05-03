@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/modes/gcm128.c.html" 
  , "texte" : "File crypto/modes/gcm128.c 159 rule violations " 
- , "fic2"  : "./qc/crypto/modes/gcm128.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -4310,9 +4309,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/modes/gcm128.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/modes/gcm128.c.svg" }
+ "ligneplantuml" : "./qc/crypto/modes/gcm128.c.svg" }
 
 ] 
 , 

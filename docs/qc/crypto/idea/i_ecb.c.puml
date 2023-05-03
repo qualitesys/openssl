@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-class dummy {
-IDEA_options(void) :  char  [[[./../../.././qc/crypto/idea/i_ecb.c.html#77]]]
-IDEA_ecb_encrypt(unsignedchar*;unsignedchar*;IDEA_KEY_SCHEDULE*) :  void  [[[./../../.././qc/crypto/idea/i_ecb.c.html#82]]]
-} 
-@enduml

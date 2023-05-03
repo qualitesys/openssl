@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/common/securitycheck_default.c.html" 
  , "texte" : "File providers/common/securitycheck_default.c 4 rule violations " 
- , "fic2"  : "./qc/providers/common/securitycheck_default.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -1043,9 +1042,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/common/securitycheck_default.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/common/securitycheck_default.c.svg" }
+ "ligneplantuml" : "./qc/providers/common/securitycheck_default.c.svg" }
 
 ] 
 , 

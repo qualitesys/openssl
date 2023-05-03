@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/encode_decode/decoder_pkey.c.html" 
  , "texte" : "File crypto/encode_decode/decoder_pkey.c 52 rule violations " 
- , "fic2"  : "./qc/crypto/encode_decode/decoder_pkey.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -6605,9 +6604,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/encode_decode/decoder_pkey.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/encode_decode/decoder_pkey.c.svg" }
+ "ligneplantuml" : "./qc/crypto/encode_decode/decoder_pkey.c.svg" }
 
 ] 
 , 

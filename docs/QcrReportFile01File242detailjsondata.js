@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/cmp/cmp_hdr.c.html" 
  , "texte" : "File crypto/cmp/cmp_hdr.c 28 rule violations " 
- , "fic2"  : "./qc/crypto/cmp/cmp_hdr.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -7361,9 +7360,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/cmp/cmp_hdr.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/cmp/cmp_hdr.c.svg" }
+ "ligneplantuml" : "./qc/crypto/cmp/cmp_hdr.c.svg" }
 
 ] 
 , 

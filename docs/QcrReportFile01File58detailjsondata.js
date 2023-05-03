@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/rehash.c.html" 
  , "texte" : "File apps/rehash.c 58 rule violations " 
- , "fic2"  : "./qc/apps/rehash.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -6236,9 +6235,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/apps/rehash.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/apps/rehash.c.svg" }
+ "ligneplantuml" : "./qc/apps/rehash.c.svg" }
 
 ] 
 , 

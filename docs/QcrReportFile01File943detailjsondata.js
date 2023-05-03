@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/digests/wp_prov.c.html" 
  , "texte" : "File providers/implementations/digests/wp_prov.c 4 rule violations " 
- , "fic2"  : "./qc/providers/implementations/digests/wp_prov.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -2744,9 +2743,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/implementations/digests/wp_prov.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/implementations/digests/wp_prov.c.svg" }
+ "ligneplantuml" : "./qc/providers/implementations/digests/wp_prov.c.svg" }
 
 ] 
 , 

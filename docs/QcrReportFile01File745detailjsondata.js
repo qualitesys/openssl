@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/whrlpool/wp_block.c.html" 
  , "texte" : "File crypto/whrlpool/wp_block.c 22 rule violations " 
- , "fic2"  : "./qc/crypto/whrlpool/wp_block.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -4157,9 +4156,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/whrlpool/wp_block.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/whrlpool/wp_block.c.svg" }
+ "ligneplantuml" : "./qc/crypto/whrlpool/wp_block.c.svg" }
 
 ] 
 , 

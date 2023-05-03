@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.html" 
  , "texte" : "File providers/implementations/encode_decode/decode_spki2typespki.c 11 rule violations " 
- , "fic2"  : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -4382,9 +4381,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.svg" }
+ "ligneplantuml" : "./qc/providers/implementations/encode_decode/decode_spki2typespki.c.svg" }
 
 ] 
 , 

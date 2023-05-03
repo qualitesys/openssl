@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/signature/eddsa_sig.c.html" 
  , "texte" : "File providers/implementations/signature/eddsa_sig.c 27 rule violations " 
- , "fic2"  : "./qc/providers/implementations/signature/eddsa_sig.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -4085,9 +4084,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/implementations/signature/eddsa_sig.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/implementations/signature/eddsa_sig.c.svg" }
+ "ligneplantuml" : "./qc/providers/implementations/signature/eddsa_sig.c.svg" }
 
 ] 
 , 

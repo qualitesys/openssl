@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"" <|-- "dummy"
-class dummy {
-FMT_istext(int) :  int  [[[./../../.././qc/apps/lib/fmt.c.html#13]]]
-} 
-@enduml

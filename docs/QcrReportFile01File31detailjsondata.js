@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/lib/cmp_mock_srv.c.html" 
  , "texte" : "File apps/lib/cmp_mock_srv.c 30 rule violations " 
- , "fic2"  : "./qc/apps/lib/cmp_mock_srv.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -6578,9 +6577,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/apps/lib/cmp_mock_srv.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/apps/lib/cmp_mock_srv.c.svg" }
+ "ligneplantuml" : "./qc/apps/lib/cmp_mock_srv.c.svg" }
 
 ] 
 , 

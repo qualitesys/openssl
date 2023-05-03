@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/ocsp.c.html" 
  , "texte" : "File apps/ocsp.c 130 rule violations " 
- , "fic2"  : "./qc/apps/ocsp.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -6533,9 +6532,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/apps/ocsp.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/apps/ocsp.c.svg" }
+ "ligneplantuml" : "./qc/apps/ocsp.c.svg" }
 
 ] 
 , 

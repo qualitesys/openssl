@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/signature/dsa_sig.c.html" 
  , "texte" : "File providers/implementations/signature/dsa_sig.c 35 rule violations " 
- , "fic2"  : "./qc/providers/implementations/signature/dsa_sig.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -4769,9 +4768,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/implementations/signature/dsa_sig.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/implementations/signature/dsa_sig.c.svg" }
+ "ligneplantuml" : "./qc/providers/implementations/signature/dsa_sig.c.svg" }
 
 ] 
 , 

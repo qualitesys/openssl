@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/cms/cms_sd.c.html" 
  , "texte" : "File crypto/cms/cms_sd.c 180 rule violations " 
- , "fic2"  : "./qc/crypto/cms/cms_sd.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -7460,9 +7459,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/cms/cms_sd.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/cms/cms_sd.c.svg" }
+ "ligneplantuml" : "./qc/crypto/cms/cms_sd.c.svg" }
 
 ] 
 , 

@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/ecdh_ossl.c.html" 
  , "texte" : "File crypto/ec/ecdh_ossl.c 23 rule violations " 
- , "fic2"  : "./qc/crypto/ec/ecdh_ossl.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -4220,9 +4219,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/ec/ecdh_ossl.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/ec/ecdh_ossl.c.svg" }
+ "ligneplantuml" : "./qc/crypto/ec/ecdh_ossl.c.svg" }
 
 ] 
 , 

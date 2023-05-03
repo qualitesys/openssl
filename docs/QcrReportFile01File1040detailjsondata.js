@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/ssl_err_legacy.c.html" 
  , "texte" : "File ssl/ssl_err_legacy.c 0 rule violation " 
- , "fic2"  : "./qc/ssl/ssl_err_legacy.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -26,9 +25,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/ssl/ssl_err_legacy.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/ssl/ssl_err_legacy.c.svg" }
+ "ligneplantuml" : "./qc/ssl/ssl_err_legacy.c.svg" }
 
 ] 
 , 

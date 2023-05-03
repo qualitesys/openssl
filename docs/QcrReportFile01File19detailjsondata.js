@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/genpkey.c.html" 
  , "texte" : "File apps/genpkey.c 41 rule violations " 
- , "fic2"  : "./qc/apps/genpkey.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -6164,9 +6163,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/apps/genpkey.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/apps/genpkey.c.svg" }
+ "ligneplantuml" : "./qc/apps/genpkey.c.svg" }
 
 ] 
 , 

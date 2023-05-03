@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/lib/fmt.c.html" 
  , "texte" : "File apps/lib/fmt.c 0 rule violation " 
- , "fic2"  : "./qc/apps/lib/fmt.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -30,9 +29,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/apps/lib/fmt.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/apps/lib/fmt.c.svg" }
+ "ligneplantuml" : "./qc/apps/lib/fmt.c.svg" }
 
 ] 
 , 

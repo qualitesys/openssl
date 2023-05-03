@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/kdfs/x942kdf.c.html" 
  , "texte" : "File providers/implementations/kdfs/x942kdf.c 52 rule violations " 
- , "fic2"  : "./qc/providers/implementations/kdfs/x942kdf.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -4121,9 +4120,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/implementations/kdfs/x942kdf.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/implementations/kdfs/x942kdf.c.svg" }
+ "ligneplantuml" : "./qc/providers/implementations/kdfs/x942kdf.c.svg" }
 
 ] 
 , 

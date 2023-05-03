@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/camellia/cmll_ecb.c.html" 
  , "texte" : "File crypto/camellia/cmll_ecb.c 0 rule violation " 
- , "fic2"  : "./qc/crypto/camellia/cmll_ecb.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -26,9 +25,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/camellia/cmll_ecb.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/camellia/cmll_ecb.c.svg" }
+ "ligneplantuml" : "./qc/crypto/camellia/cmll_ecb.c.svg" }
 
 ] 
 , 

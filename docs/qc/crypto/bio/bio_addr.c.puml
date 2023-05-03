@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-class dummy {
-bcopy(void*;void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/bio/bio_addr.c.html#354]]]
-bzero(void*;size_t) :  void  __attribute__ (( __nothrow__ ,__leaf__)) [[[./../../.././qc/crypto/bio/bio_addr.c.html#361]]]
-} 
-@enduml

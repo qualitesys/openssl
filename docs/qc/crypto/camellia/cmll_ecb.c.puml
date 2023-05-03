@@ -1,6 +1,0 @@
-@startuml
-!pragma layout smetana
-class dummy {
-Camellia_ecb_encrypt(unsignedchar*;unsignedchar*;CAMELLIA_KEY*;int) :  void  [[[./../../.././qc/crypto/camellia/cmll_ecb.c.html#144]]]
-} 
-@enduml

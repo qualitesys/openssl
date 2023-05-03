@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-class dummy {
-Camellia_set_key(unsignedchar*;int;CAMELLIA_KEY*) :  int  [[[./../../.././qc/crypto/camellia/cmll_misc.c.html#145]]]
-Camellia_encrypt(unsignedchar*;unsignedchar*;CAMELLIA_KEY*) :  void  [[[./../../.././qc/crypto/camellia/cmll_misc.c.html#156]]]
-Camellia_decrypt(unsignedchar*;unsignedchar*;CAMELLIA_KEY*) :  void  [[[./../../.././qc/crypto/camellia/cmll_misc.c.html#162]]]
-} 
-@enduml

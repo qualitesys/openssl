@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/async/arch/async_null.c.html" 
  , "texte" : "File crypto/async/arch/async_null.c 5 rule violations " 
- , "fic2"  : "./qc/crypto/async/arch/async_null.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -935,9 +934,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/async/arch/async_null.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/async/arch/async_null.c.svg" }
+ "ligneplantuml" : "./qc/crypto/async/arch/async_null.c.svg" }
 
 ] 
 , 

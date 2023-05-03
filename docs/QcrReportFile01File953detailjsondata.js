@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/encode_decode/encode_key2text.c.html" 
  , "texte" : "File providers/implementations/encode_decode/encode_key2text.c 135 rule violations " 
- , "fic2"  : "./qc/providers/implementations/encode_decode/encode_key2text.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -4157,9 +4156,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/implementations/encode_decode/encode_key2text.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/implementations/encode_decode/encode_key2text.c.svg" }
+ "ligneplantuml" : "./qc/providers/implementations/encode_decode/encode_key2text.c.svg" }
 
 ] 
 , 

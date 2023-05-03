@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/digests/blake2b_prov.c.html" 
  , "texte" : "File providers/implementations/digests/blake2b_prov.c 223 rule violations " 
- , "fic2"  : "./qc/providers/implementations/digests/blake2b_prov.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -890,9 +889,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/implementations/digests/blake2b_prov.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/implementations/digests/blake2b_prov.c.svg" }
+ "ligneplantuml" : "./qc/providers/implementations/digests/blake2b_prov.c.svg" }
 
 ] 
 , 

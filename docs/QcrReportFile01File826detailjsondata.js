@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/engines/e_loader_attic.c.html" 
  , "texte" : "File engines/e_loader_attic.c 101 rule violations " 
- , "fic2"  : "./qc/engines/e_loader_attic.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -5849,9 +5848,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/engines/e_loader_attic.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/engines/e_loader_attic.c.svg" }
+ "ligneplantuml" : "./qc/engines/e_loader_attic.c.svg" }
 
 ] 
 , 

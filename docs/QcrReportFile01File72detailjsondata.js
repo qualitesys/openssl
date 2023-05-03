@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/verify.c.html" 
  , "texte" : "File apps/verify.c 41 rule violations " 
- , "fic2"  : "./qc/apps/verify.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -6164,9 +6163,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/apps/verify.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/apps/verify.c.svg" }
+ "ligneplantuml" : "./qc/apps/verify.c.svg" }
 
 ] 
 , 

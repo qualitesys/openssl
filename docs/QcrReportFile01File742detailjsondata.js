@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ui/ui_openssl.c.html" 
  , "texte" : "File crypto/ui/ui_openssl.c 20 rule violations " 
- , "fic2"  : "./qc/crypto/ui/ui_openssl.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -5255,9 +5254,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/ui/ui_openssl.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/ui/ui_openssl.c.svg" }
+ "ligneplantuml" : "./qc/crypto/ui/ui_openssl.c.svg" }
 
 ] 
 , 

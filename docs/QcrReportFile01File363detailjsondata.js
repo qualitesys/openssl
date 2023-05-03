@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/curve448/arch_64/f_impl64.c.html" 
  , "texte" : "File crypto/ec/curve448/arch_64/f_impl64.c 9 rule violations " 
- , "fic2"  : "./qc/crypto/ec/curve448/arch_64/f_impl64.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -1322,9 +1321,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/ec/curve448/arch_64/f_impl64.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/ec/curve448/arch_64/f_impl64.c.svg" }
+ "ligneplantuml" : "./qc/crypto/ec/curve448/arch_64/f_impl64.c.svg" }
 
 ] 
 , 

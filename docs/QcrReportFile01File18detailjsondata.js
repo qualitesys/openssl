@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/gendsa.c.html" 
  , "texte" : "File apps/gendsa.c 22 rule violations " 
- , "fic2"  : "./qc/apps/gendsa.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -6146,9 +6145,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/apps/gendsa.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/apps/gendsa.c.svg" }
+ "ligneplantuml" : "./qc/apps/gendsa.c.svg" }
 
 ] 
 , 

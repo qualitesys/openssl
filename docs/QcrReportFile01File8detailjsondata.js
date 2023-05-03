@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/dgst.c.html" 
  , "texte" : "File apps/dgst.c 75 rule violations " 
- , "fic2"  : "./qc/apps/dgst.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -6191,9 +6190,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/apps/dgst.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/apps/dgst.c.svg" }
+ "ligneplantuml" : "./qc/apps/dgst.c.svg" }
 
 ] 
 , 

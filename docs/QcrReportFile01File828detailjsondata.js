@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/engines/e_padlock.c.html" 
  , "texte" : "File engines/e_padlock.c 4 rule violations " 
- , "fic2"  : "./qc/engines/e_padlock.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -4463,9 +4462,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/engines/e_padlock.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/engines/e_padlock.c.svg" }
+ "ligneplantuml" : "./qc/engines/e_padlock.c.svg" }
 
 ] 
 , 

@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.html" 
  , "texte" : "File providers/implementations/ciphers/cipher_chacha20_poly1305.c 12 rule violations " 
- , "fic2"  : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -4238,9 +4237,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.svg" }
+ "ligneplantuml" : "./qc/providers/implementations/ciphers/cipher_chacha20_poly1305.c.svg" }
 
 ] 
 , 

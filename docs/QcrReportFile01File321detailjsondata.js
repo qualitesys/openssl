@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/des/str2key.c.html" 
  , "texte" : "File crypto/des/str2key.c 4 rule violations " 
- , "fic2"  : "./qc/crypto/des/str2key.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -719,9 +718,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/des/str2key.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/des/str2key.c.svg" }
+ "ligneplantuml" : "./qc/crypto/des/str2key.c.svg" }
 
 ] 
 , 

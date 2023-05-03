@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/encode_decode/encoder_meth.c.html" 
  , "texte" : "File crypto/encode_decode/encoder_meth.c 21 rule violations " 
- , "fic2"  : "./qc/crypto/encode_decode/encoder_meth.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -5912,9 +5911,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/encode_decode/encoder_meth.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/encode_decode/encoder_meth.c.svg" }
+ "ligneplantuml" : "./qc/crypto/encode_decode/encoder_meth.c.svg" }
 
 ] 
 , 

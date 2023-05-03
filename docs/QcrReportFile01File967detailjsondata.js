@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/kdfs/scrypt.c.html" 
  , "texte" : "File providers/implementations/kdfs/scrypt.c 33 rule violations " 
- , "fic2"  : "./qc/providers/implementations/kdfs/scrypt.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -4103,9 +4102,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/implementations/kdfs/scrypt.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/implementations/kdfs/scrypt.c.svg" }
+ "ligneplantuml" : "./qc/providers/implementations/kdfs/scrypt.c.svg" }
 
 ] 
 , 

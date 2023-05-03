@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/digests/sha3_prov.c.html" 
  , "texte" : "File providers/implementations/digests/sha3_prov.c 7 rule violations " 
- , "fic2"  : "./qc/providers/implementations/digests/sha3_prov.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -3770,9 +3769,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/implementations/digests/sha3_prov.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/implementations/digests/sha3_prov.c.svg" }
+ "ligneplantuml" : "./qc/providers/implementations/digests/sha3_prov.c.svg" }
 
 ] 
 , 

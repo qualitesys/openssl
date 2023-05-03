@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/ecp_nistz256_table.c.html" 
  , "texte" : "File crypto/ec/ecp_nistz256_table.c 1 rule violations " 
- , "fic2"  : "./qc/crypto/ec/ecp_nistz256_table.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -22,9 +21,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/ec/ecp_nistz256_table.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/ec/ecp_nistz256_table.c.svg" }
+ "ligneplantuml" : "./qc/crypto/ec/ecp_nistz256_table.c.svg" }
 
 ] 
 , 

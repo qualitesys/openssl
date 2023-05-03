@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bn/bn_rsa_fips186_4.c.html" 
  , "texte" : "File crypto/bn/bn_rsa_fips186_4.c 50 rule violations " 
- , "fic2"  : "./qc/crypto/bn/bn_rsa_fips186_4.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -4202,9 +4201,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/bn/bn_rsa_fips186_4.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/bn/bn_rsa_fips186_4.c.svg" }
+ "ligneplantuml" : "./qc/crypto/bn/bn_rsa_fips186_4.c.svg" }
 
 ] 
 , 

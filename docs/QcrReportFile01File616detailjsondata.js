@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/pkcs12/p12_sbag.c.html" 
  , "texte" : "File crypto/pkcs12/p12_sbag.c 17 rule violations " 
- , "fic2"  : "./qc/crypto/pkcs12/p12_sbag.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -5309,9 +5308,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/pkcs12/p12_sbag.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/pkcs12/p12_sbag.c.svg" }
+ "ligneplantuml" : "./qc/crypto/pkcs12/p12_sbag.c.svg" }
 
 ] 
 , 

@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/siphash/siphash.c.html" 
  , "texte" : "File crypto/siphash/siphash.c 24 rule violations " 
- , "fic2"  : "./qc/crypto/siphash/siphash.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -764,9 +763,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/siphash/siphash.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/siphash/siphash.c.svg" }
+ "ligneplantuml" : "./qc/crypto/siphash/siphash.c.svg" }
 
 ] 
 , 

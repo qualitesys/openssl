@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/srp/srp_vfy.c.html" 
  , "texte" : "File crypto/srp/srp_vfy.c 109 rule violations " 
- , "fic2"  : "./qc/crypto/srp/srp_vfy.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -5219,9 +5218,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/srp/srp_vfy.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/srp/srp_vfy.c.svg" }
+ "ligneplantuml" : "./qc/crypto/srp/srp_vfy.c.svg" }
 
 ] 
 , 

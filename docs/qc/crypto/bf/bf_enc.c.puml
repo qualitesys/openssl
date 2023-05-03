@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-class dummy {
-BF_encrypt(unsignedint*;BF_KEY*) :  void  [[[./../../.././qc/crypto/bf/bf_enc.c.html#363]]]
-BF_decrypt(unsignedint*;BF_KEY*) :  void  [[[./../../.././qc/crypto/bf/bf_enc.c.html#402]]]
-BF_cbc_encrypt(unsignedchar*;unsignedchar*;long;BF_KEY*;unsignedchar*;int) :  void  [[[./../../.././qc/crypto/bf/bf_enc.c.html#441]]]
-} 
-@enduml

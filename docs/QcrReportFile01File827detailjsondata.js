@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/engines/e_ossltest.c.html" 
  , "texte" : "File engines/e_ossltest.c 57 rule violations " 
- , "fic2"  : "./qc/engines/e_ossltest.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -5534,9 +5533,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/engines/e_ossltest.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/engines/e_ossltest.c.svg" }
+ "ligneplantuml" : "./qc/engines/e_ossltest.c.svg" }
 
 ] 
 , 

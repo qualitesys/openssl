@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/defltprov.c.html" 
  , "texte" : "File providers/defltprov.c 11 rule violations " 
- , "fic2"  : "./qc/providers/defltprov.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -3275,9 +3274,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/defltprov.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/defltprov.c.svg" }
+ "ligneplantuml" : "./qc/providers/defltprov.c.svg" }
 
 ] 
 , 

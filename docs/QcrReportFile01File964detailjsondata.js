@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/kdfs/pbkdf2_fips.c.html" 
  , "texte" : "File providers/implementations/kdfs/pbkdf2_fips.c 0 rule violation " 
- , "fic2"  : "./qc/providers/implementations/kdfs/pbkdf2_fips.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -22,9 +21,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/implementations/kdfs/pbkdf2_fips.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/implementations/kdfs/pbkdf2_fips.c.svg" }
+ "ligneplantuml" : "./qc/providers/implementations/kdfs/pbkdf2_fips.c.svg" }
 
 ] 
 , 

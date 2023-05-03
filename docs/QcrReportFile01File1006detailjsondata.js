@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/signature/rsa_sig.c.html" 
  , "texte" : "File providers/implementations/signature/rsa_sig.c 63 rule violations " 
- , "fic2"  : "./qc/providers/implementations/signature/rsa_sig.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -4859,9 +4858,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/implementations/signature/rsa_sig.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/implementations/signature/rsa_sig.c.svg" }
+ "ligneplantuml" : "./qc/providers/implementations/signature/rsa_sig.c.svg" }
 
 ] 
 , 

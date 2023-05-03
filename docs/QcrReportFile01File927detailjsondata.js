@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/ciphers/ciphercommon_gcm.c.html" 
  , "texte" : "File providers/implementations/ciphers/ciphercommon_gcm.c 34 rule violations " 
- , "fic2"  : "./qc/providers/implementations/ciphers/ciphercommon_gcm.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -4301,9 +4300,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/implementations/ciphers/ciphercommon_gcm.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/implementations/ciphers/ciphercommon_gcm.c.svg" }
+ "ligneplantuml" : "./qc/providers/implementations/ciphers/ciphercommon_gcm.c.svg" }
 
 ] 
 , 

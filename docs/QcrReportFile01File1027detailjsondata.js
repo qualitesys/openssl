@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/record/rec_layer_d1.c.html" 
  , "texte" : "File ssl/record/rec_layer_d1.c 48 rule violations " 
- , "fic2"  : "./qc/ssl/record/rec_layer_d1.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -6623,9 +6622,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/ssl/record/rec_layer_d1.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/ssl/record/rec_layer_d1.c.svg" }
+ "ligneplantuml" : "./qc/ssl/record/rec_layer_d1.c.svg" }
 
 ] 
 , 

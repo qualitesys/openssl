@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/asymciphers/sm2_enc.c.html" 
  , "texte" : "File providers/implementations/asymciphers/sm2_enc.c 7 rule violations " 
- , "fic2"  : "./qc/providers/implementations/asymciphers/sm2_enc.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -3563,9 +3562,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/implementations/asymciphers/sm2_enc.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/implementations/asymciphers/sm2_enc.c.svg" }
+ "ligneplantuml" : "./qc/providers/implementations/asymciphers/sm2_enc.c.svg" }
 
 ] 
 , 

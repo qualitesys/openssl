@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/aes/aes_core.c.html" 
  , "texte" : "File crypto/aes/aes_core.c 18 rule violations " 
- , "fic2"  : "./qc/crypto/aes/aes_core.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -737,9 +736,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/aes/aes_core.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/aes/aes_core.c.svg" }
+ "ligneplantuml" : "./qc/crypto/aes/aes_core.c.svg" }
 
 ] 
 , 

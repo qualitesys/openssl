@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ebcdic.c.html" 
  , "texte" : "File crypto/ebcdic.c 0 rule violation " 
- , "fic2"  : "./qc/crypto/ebcdic.c.xml" 
  , "fic3"  : "" 
 }
 , 

@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/s_time.c.html" 
  , "texte" : "File apps/s_time.c 51 rule violations " 
- , "fic2"  : "./qc/apps/s_time.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -6596,9 +6595,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/apps/s_time.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/apps/s_time.c.svg" }
+ "ligneplantuml" : "./qc/apps/s_time.c.svg" }
 
 ] 
 , 

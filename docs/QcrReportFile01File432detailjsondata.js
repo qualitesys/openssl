@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/err/err_all_legacy.c.html" 
  , "texte" : "File crypto/err/err_all_legacy.c 0 rule violation " 
- , "fic2"  : "./qc/crypto/err/err_all_legacy.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -269,9 +268,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/err/err_all_legacy.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/err/err_all_legacy.c.svg" }
+ "ligneplantuml" : "./qc/crypto/err/err_all_legacy.c.svg" }
 
 ] 
 , 

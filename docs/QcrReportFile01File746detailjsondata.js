@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/whrlpool/wp_dgst.c.html" 
  , "texte" : "File crypto/whrlpool/wp_dgst.c 20 rule violations " 
- , "fic2"  : "./qc/crypto/whrlpool/wp_dgst.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -746,9 +745,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/whrlpool/wp_dgst.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/whrlpool/wp_dgst.c.svg" }
+ "ligneplantuml" : "./qc/crypto/whrlpool/wp_dgst.c.svg" }
 
 ] 
 , 

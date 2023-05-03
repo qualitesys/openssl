@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/encode_decode/decode_pem2der.c.html" 
  , "texte" : "File providers/implementations/encode_decode/decode_pem2der.c 7 rule violations " 
- , "fic2"  : "./qc/providers/implementations/encode_decode/decode_pem2der.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -4436,9 +4435,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.svg" }
+ "ligneplantuml" : "./qc/providers/implementations/encode_decode/decode_pem2der.c.svg" }
 
 ] 
 , 

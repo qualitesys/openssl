@@ -1,6 +1,0 @@
-@startuml
-!pragma layout smetana
-class dummy {
-IDEA_ofb64_encrypt(unsignedchar*;unsignedchar*;long;IDEA_KEY_SCHEDULE*;unsignedchar*;int*) :  void  [[[./../../.././qc/crypto/idea/i_ofb64.c.html#81]]]
-} 
-@enduml

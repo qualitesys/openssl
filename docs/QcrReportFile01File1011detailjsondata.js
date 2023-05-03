@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/nullprov.c.html" 
  , "texte" : "File providers/nullprov.c 8 rule violations " 
- , "fic2"  : "./qc/providers/nullprov.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -2834,9 +2833,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/nullprov.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/nullprov.c.svg" }
+ "ligneplantuml" : "./qc/providers/nullprov.c.svg" }
 
 ] 
 , 

@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/rands/seeding/rand_unix.c.html" 
  , "texte" : "File providers/implementations/rands/seeding/rand_unix.c 6 rule violations " 
- , "fic2"  : "./qc/providers/implementations/rands/seeding/rand_unix.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -791,9 +790,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/implementations/rands/seeding/rand_unix.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/implementations/rands/seeding/rand_unix.c.svg" }
+ "ligneplantuml" : "./qc/providers/implementations/rands/seeding/rand_unix.c.svg" }
 
 ] 
 , 

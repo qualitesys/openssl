@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/ctrl_params_translate.c.html" 
  , "texte" : "File crypto/evp/ctrl_params_translate.c 50 rule violations " 
- , "fic2"  : "./qc/crypto/evp/ctrl_params_translate.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -5327,9 +5326,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/evp/ctrl_params_translate.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/evp/ctrl_params_translate.c.svg" }
+ "ligneplantuml" : "./qc/crypto/evp/ctrl_params_translate.c.svg" }
 
 ] 
 , 

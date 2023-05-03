@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/property/defn_cache.c.html" 
  , "texte" : "File crypto/property/defn_cache.c 12 rule violations " 
- , "fic2"  : "./qc/crypto/property/defn_cache.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -4319,9 +4318,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/property/defn_cache.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/property/defn_cache.c.svg" }
+ "ligneplantuml" : "./qc/crypto/property/defn_cache.c.svg" }
 
 ] 
 , 

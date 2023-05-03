@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/rsa/rsa_mp_names.c.html" 
  , "texte" : "File crypto/rsa/rsa_mp_names.c 4 rule violations " 
- , "fic2"  : "./qc/crypto/rsa/rsa_mp_names.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -1025,9 +1024,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/rsa/rsa_mp_names.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/rsa/rsa_mp_names.c.svg" }
+ "ligneplantuml" : "./qc/crypto/rsa/rsa_mp_names.c.svg" }
 
 ] 
 , 

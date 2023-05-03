@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/ssl_ciph.c.html" 
  , "texte" : "File ssl/ssl_ciph.c 118 rule violations " 
- , "fic2"  : "./qc/ssl/ssl_ciph.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -7118,9 +7117,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/ssl/ssl_ciph.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/ssl/ssl_ciph.c.svg" }
+ "ligneplantuml" : "./qc/ssl/ssl_ciph.c.svg" }
 
 ] 
 , 

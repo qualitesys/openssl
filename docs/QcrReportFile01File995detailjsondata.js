@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/rands/drbg_hmac.c.html" 
  , "texte" : "File providers/implementations/rands/drbg_hmac.c 20 rule violations " 
- , "fic2"  : "./qc/providers/implementations/rands/drbg_hmac.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -3626,9 +3625,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/implementations/rands/drbg_hmac.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/implementations/rands/drbg_hmac.c.svg" }
+ "ligneplantuml" : "./qc/providers/implementations/rands/drbg_hmac.c.svg" }
 
 ] 
 , 

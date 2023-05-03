@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/pkcs12/p12_decr.c.html" 
  , "texte" : "File crypto/pkcs12/p12_decr.c 41 rule violations " 
- , "fic2"  : "./qc/crypto/pkcs12/p12_decr.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -5183,9 +5182,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/pkcs12/p12_decr.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/pkcs12/p12_decr.c.svg" }
+ "ligneplantuml" : "./qc/crypto/pkcs12/p12_decr.c.svg" }
 
 ] 
 , 

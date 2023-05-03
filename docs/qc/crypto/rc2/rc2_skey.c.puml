@@ -1,6 +1,0 @@
-@startuml
-!pragma layout smetana
-class dummy {
-RC2_set_key(RC2_KEY*;int;unsignedchar*;int) :  void  [[[./../../.././qc/crypto/rc2/rc2_skey.c.html#99]]]
-} 
-@enduml

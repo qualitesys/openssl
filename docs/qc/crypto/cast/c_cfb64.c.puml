@@ -1,6 +1,0 @@
-@startuml
-!pragma layout smetana
-class dummy {
-CAST_cfb64_encrypt(unsignedchar*;unsignedchar*;long;CAST_KEY*;unsignedchar*;int*;int) :  void  [[[./../../.././qc/crypto/cast/c_cfb64.c.html#86]]]
-} 
-@enduml

@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/macs/siphash_prov.c.html" 
  , "texte" : "File providers/implementations/macs/siphash_prov.c 15 rule violations " 
- , "fic2"  : "./qc/providers/implementations/macs/siphash_prov.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -3590,9 +3589,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/implementations/macs/siphash_prov.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/implementations/macs/siphash_prov.c.svg" }
+ "ligneplantuml" : "./qc/providers/implementations/macs/siphash_prov.c.svg" }
 
 ] 
 , 

@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/encode_decode/endecoder_common.c.html" 
  , "texte" : "File providers/implementations/encode_decode/endecoder_common.c 6 rule violations " 
- , "fic2"  : "./qc/providers/implementations/encode_decode/endecoder_common.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -2807,9 +2806,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/implementations/encode_decode/endecoder_common.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/implementations/encode_decode/endecoder_common.c.svg" }
+ "ligneplantuml" : "./qc/providers/implementations/encode_decode/endecoder_common.c.svg" }
 
 ] 
 , 

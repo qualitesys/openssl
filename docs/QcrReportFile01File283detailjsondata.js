@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/core_namemap.c.html" 
  , "texte" : "File crypto/core_namemap.c 32 rule violations " 
- , "fic2"  : "./qc/crypto/core_namemap.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -4472,9 +4471,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/core_namemap.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/core_namemap.c.svg" }
+ "ligneplantuml" : "./qc/crypto/core_namemap.c.svg" }
 
 ] 
 , 

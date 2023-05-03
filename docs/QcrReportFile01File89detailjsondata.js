@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/asn1/a_i2d_fp.c.html" 
  , "texte" : "File crypto/asn1/a_i2d_fp.c 19 rule violations " 
- , "fic2"  : "./qc/crypto/asn1/a_i2d_fp.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -4193,9 +4192,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/asn1/a_i2d_fp.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/asn1/a_i2d_fp.c.svg" }
+ "ligneplantuml" : "./qc/crypto/asn1/a_i2d_fp.c.svg" }
 
 ] 
 , 

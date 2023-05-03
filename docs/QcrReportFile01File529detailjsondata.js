@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/hpke/hpke_util.c.html" 
  , "texte" : "File crypto/hpke/hpke_util.c 28 rule violations " 
- , "fic2"  : "./qc/crypto/hpke/hpke_util.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -1556,9 +1555,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/hpke/hpke_util.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/hpke/hpke_util.c.svg" }
+ "ligneplantuml" : "./qc/crypto/hpke/hpke_util.c.svg" }
 
 ] 
 , 

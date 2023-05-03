@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/statem/extensions_clnt.c.html" 
  , "texte" : "File ssl/statem/extensions_clnt.c 197 rule violations " 
- , "fic2"  : "./qc/ssl/statem/extensions_clnt.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -8117,9 +8116,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/ssl/statem/extensions_clnt.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/ssl/statem/extensions_clnt.c.svg" }
+ "ligneplantuml" : "./qc/ssl/statem/extensions_clnt.c.svg" }
 
 ] 
 , 

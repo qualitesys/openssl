@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/asn1/d2i_param.c.html" 
  , "texte" : "File crypto/asn1/d2i_param.c 12 rule violations " 
- , "fic2"  : "./qc/crypto/asn1/d2i_param.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -4634,9 +4633,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/asn1/d2i_param.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/asn1/d2i_param.c.svg" }
+ "ligneplantuml" : "./qc/crypto/asn1/d2i_param.c.svg" }
 
 ] 
 , 

@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/record/methods/ssl3_cbc.c.html" 
  , "texte" : "File ssl/record/methods/ssl3_cbc.c 88 rule violations " 
- , "fic2"  : "./qc/ssl/record/methods/ssl3_cbc.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -6929,9 +6928,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/ssl/record/methods/ssl3_cbc.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/ssl/record/methods/ssl3_cbc.c.svg" }
+ "ligneplantuml" : "./qc/ssl/record/methods/ssl3_cbc.c.svg" }
 
 ] 
 , 

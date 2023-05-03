@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/util/check-format-test-positives.c.html" 
  , "texte" : "File util/check-format-test-positives.c 0 rule violation " 
- , "fic2"  : "./qc/util/check-format-test-positives.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -22,9 +21,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/util/check-format-test-positives.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/util/check-format-test-positives.c.svg" }
+ "ligneplantuml" : "./qc/util/check-format-test-positives.c.svg" }
 
 ] 
 , 

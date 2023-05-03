@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/common/capabilities.c.html" 
  , "texte" : "File providers/common/capabilities.c 6 rule violations " 
- , "fic2"  : "./qc/providers/common/capabilities.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -2924,9 +2923,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/common/capabilities.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/common/capabilities.c.svg" }
+ "ligneplantuml" : "./qc/providers/common/capabilities.c.svg" }
 
 ] 
 , 

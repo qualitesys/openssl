@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/engines/e_dasync.c.html" 
  , "texte" : "File engines/e_dasync.c 47 rule violations " 
- , "fic2"  : "./qc/engines/e_dasync.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -5282,9 +5281,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/engines/e_dasync.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/engines/e_dasync.c.svg" }
+ "ligneplantuml" : "./qc/engines/e_dasync.c.svg" }
 
 ] 
 , 

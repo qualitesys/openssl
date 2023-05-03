@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.html" 
  , "texte" : "File providers/implementations/keymgmt/ecx_kmgmt.c 35 rule violations " 
- , "fic2"  : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -4625,9 +4624,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.svg" }
+ "ligneplantuml" : "./qc/providers/implementations/keymgmt/ecx_kmgmt.c.svg" }
 
 ] 
 , 

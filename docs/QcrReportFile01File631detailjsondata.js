@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/property/property_parse.c.html" 
  , "texte" : "File crypto/property/property_parse.c 58 rule violations " 
- , "fic2"  : "./qc/crypto/property/property_parse.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -4580,9 +4579,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/property/property_parse.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/property/property_parse.c.svg" }
+ "ligneplantuml" : "./qc/crypto/property/property_parse.c.svg" }
 
 ] 
 , 

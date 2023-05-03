@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/ciphers/cipher_null.c.html" 
  , "texte" : "File providers/implementations/ciphers/cipher_null.c 9 rule violations " 
- , "fic2"  : "./qc/providers/implementations/ciphers/cipher_null.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -4247,9 +4246,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/implementations/ciphers/cipher_null.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/implementations/ciphers/cipher_null.c.svg" }
+ "ligneplantuml" : "./qc/providers/implementations/ciphers/cipher_null.c.svg" }
 
 ] 
 , 

@@ -1,6 +1,0 @@
-@startuml
-!pragma layout smetana
-class dummy {
-CAST_ecb_encrypt(unsignedchar*;unsignedchar*;CAST_KEY*;int) :  void  [[[./../../.././qc/crypto/cast/c_ecb.c.html#81]]]
-} 
-@enduml

@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/rsa.c.html" 
  , "texte" : "File apps/rsa.c 41 rule violations " 
- , "fic2"  : "./qc/apps/rsa.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -6155,9 +6154,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/apps/rsa.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/apps/rsa.c.svg" }
+ "ligneplantuml" : "./qc/apps/rsa.c.svg" }
 
 ] 
 , 

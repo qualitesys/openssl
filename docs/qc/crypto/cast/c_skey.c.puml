@@ -1,6 +1,0 @@
-@startuml
-!pragma layout smetana
-class dummy {
-CAST_set_key(CAST_KEY*;int;unsignedchar*) :  void  [[[./../../.././qc/crypto/cast/c_skey.c.html#618]]]
-} 
-@enduml

@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/pkeyparam.c.html" 
  , "texte" : "File apps/pkeyparam.c 20 rule violations " 
- , "fic2"  : "./qc/apps/pkeyparam.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -6146,9 +6145,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/apps/pkeyparam.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/apps/pkeyparam.c.svg" }
+ "ligneplantuml" : "./qc/apps/pkeyparam.c.svg" }
 
 ] 
 , 

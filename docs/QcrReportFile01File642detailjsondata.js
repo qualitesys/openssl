@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/rand/rand_deprecated.c.html" 
  , "texte" : "File crypto/rand/rand_deprecated.c 5 rule violations " 
- , "fic2"  : "./qc/crypto/rand/rand_deprecated.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -3248,9 +3247,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/rand/rand_deprecated.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/rand/rand_deprecated.c.svg" }
+ "ligneplantuml" : "./qc/crypto/rand/rand_deprecated.c.svg" }
 
 ] 
 , 

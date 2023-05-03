@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ts/ts_rsp_print.c.html" 
  , "texte" : "File crypto/ts/ts_rsp_print.c 7 rule violations " 
- , "fic2"  : "./qc/crypto/ts/ts_rsp_print.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -6200,9 +6199,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/ts/ts_rsp_print.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/ts/ts_rsp_print.c.svg" }
+ "ligneplantuml" : "./qc/crypto/ts/ts_rsp_print.c.svg" }
 
 ] 
 , 

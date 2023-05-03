@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/crmf/crmf_err.c.html" 
  , "texte" : "File crypto/crmf/crmf_err.c 5 rule violations " 
- , "fic2"  : "./qc/crypto/crmf/crmf_err.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -890,9 +889,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/crypto/crmf/crmf_err.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/crypto/crmf/crmf_err.c.svg" }
+ "ligneplantuml" : "./qc/crypto/crmf/crmf_err.c.svg" }
 
 ] 
 , 

@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/ciphers/cipher_tdes.c.html" 
  , "texte" : "File providers/implementations/ciphers/cipher_tdes.c 5 rule violations " 
- , "fic2"  : "./qc/providers/implementations/ciphers/cipher_tdes.c.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -4184,9 +4183,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/providers/implementations/ciphers/cipher_tdes.c.png" 
+   {
 
- , "ligneplantuml" : "./qc/providers/implementations/ciphers/cipher_tdes.c.svg" }
+ "ligneplantuml" : "./qc/providers/implementations/ciphers/cipher_tdes.c.svg" }
 
 ] 
 , 

@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-class dummy {
-CAST_encrypt(unsignedint*;CAST_KEY*) :  void  [[[./../../.././qc/crypto/cast/c_enc.c.html#80]]]
-CAST_decrypt(unsignedint*;CAST_KEY*) :  void  [[[./../../.././qc/crypto/cast/c_enc.c.html#112]]]
-CAST_cbc_encrypt(unsignedchar*;unsignedchar*;long;CAST_KEY*;unsignedchar*;int) :  void  [[[./../../.././qc/crypto/cast/c_enc.c.html#144]]]
-} 
-@enduml
