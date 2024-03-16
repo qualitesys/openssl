@@ -1,8 +1,8 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/sm4/sm4.c.html" 
- , "texte" : "File crypto/sm4/sm4.c 32 rule violations " 
+   "fic1"  : "./qc/crypto/sleep.c.html" 
+ , "texte" : "File crypto/sleep.c 5 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -13,93 +13,714 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00541"
- , "c5link" : "././qc/crypto/sm4/sm4.c.html#541"
- , "c1" : "uint32_t"
- , "c2" : "rotl(uint32_t;uint8_t)"
+ , "c5" : "00191"
+ , "c5link" : "././qc/crypto/sleep.c.html#191"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00196"
+ , "c5link" : "././qc/crypto/sleep.c.html#196"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00203"
+ , "c5link" : "././qc/crypto/sleep.c.html#203"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00503"
+ , "c5link" : "././qc/crypto/sleep.c.html#503"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00518"
+ , "c5link" : "././qc/crypto/sleep.c.html#518"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00528"
+ , "c5link" : "././qc/crypto/sleep.c.html#528"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00540"
+ , "c5link" : "././qc/crypto/sleep.c.html#540"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00546"
- , "c5link" : "././qc/crypto/sm4/sm4.c.html#546"
- , "c1" : "uint32_t"
- , "c2" : "load_u32_be(uint8_t*;uint32_t)"
+ , "c5link" : "././qc/crypto/sleep.c.html#546"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00554"
- , "c5link" : "././qc/crypto/sm4/sm4.c.html#554"
- , "c1" : " void "
- , "c2" : "store_u32_be(uint32_t;uint8_t*)"
+ , "c5" : "00552"
+ , "c5link" : "././qc/crypto/sleep.c.html#552"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
  , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01220"
+ , "c5link" : "././qc/crypto/sleep.c.html#1220"
+ , "c1" : " void "
+ , "c2" : "bsearch(void*;void*;size_t;size_t;__compar_fn_t)"
+ , "c3" : "6"
+ , "c4" : "12"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " double  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atof(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " char "
+ , "c2" : "realpath(char*;char*)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ptsname_r(int;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "wctomb(char*;wchar_t)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "size_t"
+ , "c2" : "mbstowcs(wchar_t*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "size_t"
+ , "c2" : "wcstombs(char*;wchar_t*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " int "
+ , "c2" : "fputc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " int "
+ , "c2" : "putc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " int "
+ , "c2" : "putchar_unlocked(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "feof_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ferror_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "sprintf(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsprintf(char*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "snprintf(char*;size_t;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsnprintf(char*;size_t;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " int "
+ , "c2" : "fprintf(FILE*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " int "
+ , "c2" : "printf(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " int "
+ , "c2" : "vprintf(char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " int "
+ , "c2" : "vfprintf(FILE*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " int "
+ , "c2" : "dprintf(int;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " int "
+ , "c2" : "vdprintf(int;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " char "
+ , "c2" : "fgets(char*;int;FILE*)"
+ , "c3" : "3"
  , "c4" : "4"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00562"
- , "c5link" : "././qc/crypto/sm4/sm4.c.html#562"
- , "c1" : "uint32_t"
- , "c2" : "SM4_T_non_lin_sub(uint32_t)"
- , "c3" : "1"
- , "c4" : "6"
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "size_t"
+ , "c2" : "fread(void*;size_t;size_t;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00574"
- , "c5link" : "././qc/crypto/sm4/sm4.c.html#574"
- , "c1" : "uint32_t"
- , "c2" : "SM4_T_slow(uint32_t)"
- , "c3" : "1"
- , "c4" : "2"
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "size_t"
+ , "c2" : "fread_unlocked(void*;size_t;size_t;FILE*)"
+ , "c3" : "7"
+ , "c4" : "13"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00584"
- , "c5link" : "././qc/crypto/sm4/sm4.c.html#584"
- , "c1" : "uint32_t"
- , "c2" : "SM4_T(uint32_t)"
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " char "
+ , "c2" : "ossl_check_OPENSSL_STRING_type(char*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00592"
- , "c5link" : "././qc/crypto/sm4/sm4.c.html#592"
- , "c1" : "uint32_t"
- , "c2" : "SM4_key_sub(uint32_t)"
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_OPENSSL_STRING_sk_type(structstack_st_OPENSSL_STRING*)"
  , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_OPENSSL_STRING_sk_type(structstack_st_OPENSSL_STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_OPENSSL_STRING_compfunc_type(sk_OPENSSL_STRING_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_OPENSSL_STRING_copyfunc_type(sk_OPENSSL_STRING_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_OPENSSL_STRING_freefunc_type(sk_OPENSSL_STRING_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " char "
+ , "c2" : "ossl_check_OPENSSL_CSTRING_type(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_OPENSSL_CSTRING_sk_type(structstack_st_OPENSSL_CSTRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_sk_type(structstack_st_OPENSSL_CSTRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_compfunc_type(sk_OPENSSL_CSTRING_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_copyfunc_type(sk_OPENSSL_CSTRING_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_freefunc_type(sk_OPENSSL_CSTRING_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " void "
+ , "c2" : "ossl_check_OPENSSL_BLOCK_type(void*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_OPENSSL_BLOCK_compfunc_type(sk_OPENSSL_BLOCK_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_OPENSSL_BLOCK_copyfunc_type(sk_OPENSSL_BLOCK_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_OPENSSL_BLOCK_freefunc_type(sk_OPENSSL_BLOCK_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " void "
+ , "c2" : "ossl_check_void_type(void*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_void_sk_type(structstack_st_void*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_void_sk_type(structstack_st_void*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_void_compfunc_type(sk_void_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_void_copyfunc_type(sk_void_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_void_freefunc_type(sk_void_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "pthread_equal(pthread_t;pthread_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "ssize_t"
+ , "c2" : "read(int;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "ssize_t"
+ , "c2" : "pread(int;void*;size_t;__off_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "ssize_t"
+ , "c2" : "readlink(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "ssize_t"
+ , "c2" : "readlinkat(int;char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " char "
+ , "c2" : "getcwd(char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " char "
+ , "c2" : "getwd(char*)"
+ , "c3" : "2"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00599"
- , "c5link" : "././qc/crypto/sm4/sm4.c.html#599"
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : "size_t"
+ , "c2" : "confstr(int;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "getgroups(int;__gid_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ttyname_r(int;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
  , "c1" : " int "
- , "c2" : "ossl_sm4_set_key(uint8_t*;SM4_KEY*)"
- , "c3" : "2"
- , "c4" : "19"
+ , "c2" : "getlogin_r(char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00643"
- , "c5link" : "././qc/crypto/sm4/sm4.c.html#643"
- , "c1" : " void "
- , "c2" : "ossl_sm4_encrypt(uint8_t*;uint8_t*;SM4_KEY*)"
- , "c3" : "17"
- , "c4" : "48"
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "gethostname(char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00669"
- , "c5link" : "././qc/crypto/sm4/sm4.c.html#669"
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "getdomainname(char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bcopy(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bzero(void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/sleep.c.html#1"
  , "c1" : " void "
- , "c2" : "ossl_sm4_decrypt(uint8_t*;uint8_t*;SM4_KEY*)"
- , "c3" : "17"
- , "c4" : "48"
+ , "c2" : "OSSL_sleep(uint64_t)"
+ , "c3" : "1"
+ , "c4" : "4"
 }} 
 ] 
 }} 
@@ -108,7 +729,7 @@ var maDataBlocs = {
 "data03" : [
    {
 
- "ligneplantuml" : "./qc/crypto/sm4/sm4.c.svg" }
+ "ligneplantuml" : "./qc/crypto/sleep.c.svg" }
 
 ] 
 , 
@@ -142,247 +763,65 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP000006"
- , "c3" : "Risk of infinite while loop"
- , "c4" : "16"
+ , "c2" : "QC-CPP000012"
+ , "c3" : "The condition expression is invariable, always true or false"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP000012"
- , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "16"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000014"
+ , "c3" : "A pointer is defined but not initialized"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00654"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#654"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00654] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c1" : "01225"
+ , "c1link" : "./qc/crypto/sleep.c.html#1225"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[01225] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00654"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#654"
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/sleep.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00654] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[00001] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00655"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#655"
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/sleep.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00655] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000012[00001] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00655"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#655"
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/sleep.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00655] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000018[00001] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00656"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#656"
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/sleep.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00656] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00656"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#656"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00656] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00657"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#657"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00657] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00657"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#657"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00657] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00658"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#658"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00658] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00658"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#658"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00658] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00659"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#659"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00659] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00659"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#659"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00659] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00660"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#660"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00660] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00660"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#660"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00660] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00661"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#661"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00661] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00661"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#661"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00661] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00676"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#676"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00676] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00676"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#676"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00676] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00677"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#677"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00677] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00677"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#677"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00677] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00678"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#678"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00678] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00678"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#678"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00678] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00679"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#679"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00679] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00679"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#679"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00679] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00680"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#680"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00680] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00680"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#680"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00680] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00681"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#681"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00681] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00681"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#681"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00681] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00682"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#682"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00682] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00682"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#682"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00682] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00683"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#683"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00683] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00683"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#683"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00683] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[00001] The expression 2&gt;1 is invariable"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/crypto/sm4/sm4.c.fct.svg" 
+   "fichierplantumlsvg" : "./qc/crypto/sleep.c.fct.svg" 
 
 , 
 }

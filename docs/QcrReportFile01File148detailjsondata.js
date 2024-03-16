@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/asn1_dsa.c.html" 
- , "texte" : "File crypto/asn1_dsa.c 37 rule violations " 
+ , "texte" : "File crypto/asn1_dsa.c 34 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -699,132 +699,6 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1_dsa.c.html#1"
- , "c1" : "ssize_t"
- , "c2" : "read(int;void*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/asn1_dsa.c.html#1"
- , "c1" : "ssize_t"
- , "c2" : "pread(int;void*;size_t;__off_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/asn1_dsa.c.html#1"
- , "c1" : "ssize_t"
- , "c2" : "readlink(char*;char*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/asn1_dsa.c.html#1"
- , "c1" : "ssize_t"
- , "c2" : "readlinkat(int;char*;char*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/asn1_dsa.c.html#1"
- , "c1" : " char "
- , "c2" : "getcwd(char*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/asn1_dsa.c.html#1"
- , "c1" : " char "
- , "c2" : "getwd(char*)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/asn1_dsa.c.html#1"
- , "c1" : "size_t"
- , "c2" : "confstr(int;char*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/asn1_dsa.c.html#1"
- , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "getgroups(int;__gid_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/asn1_dsa.c.html#1"
- , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "ttyname_r(int;char*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/asn1_dsa.c.html#1"
- , "c1" : " int "
- , "c2" : "getlogin_r(char*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/asn1_dsa.c.html#1"
- , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "gethostname(char*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/asn1_dsa.c.html#1"
- , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "getdomainname(char*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/asn1_dsa.c.html#1"
- , "c1" : "size_t"
- , "c2" : "ossl_quic_vlint_encode_len(uint64_t)"
- , "c3" : "5"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/asn1_dsa.c.html#1"
- , "c1" : "size_t"
- , "c2" : "ossl_quic_vlint_decode_len(uint8_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/asn1_dsa.c.html#1"
  , "c1" : " void "
  , "c2" : "packet_forward(PACKET*;size_t)"
  , "c3" : "1"
@@ -973,33 +847,6 @@ var maDataBlocs = {
  , "c2" : "PACKET_peek_net_8(PACKET*;uint64_t*)"
  , "c3" : "2"
  , "c4" : "10"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/asn1_dsa.c.html#1"
- , "c1" : " int "
- , "c2" : "PACKET_get_quic_vlint(PACKET*;uint64_t*)"
- , "c3" : "3"
- , "c4" : "7"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/asn1_dsa.c.html#1"
- , "c1" : " int "
- , "c2" : "PACKET_peek_quic_vlint(PACKET*;uint64_t*)"
- , "c3" : "3"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/asn1_dsa.c.html#1"
- , "c1" : " int "
- , "c2" : "PACKET_skip_quic_vlint(PACKET*)"
- , "c3" : "3"
- , "c4" : "6"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -1204,15 +1051,6 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1_dsa.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_quic_length_prefixed(PACKET*;PACKET*)"
- , "c3" : "2"
- , "c4" : "8"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/asn1_dsa.c.html#1"
- , "c1" : " int "
  , "c2" : "ossl_encode_der_length(WPACKET*;size_t)"
  , "c3" : "7"
  , "c4" : "5"
@@ -1305,7 +1143,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "7"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1319,7 +1157,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "14"
+ , "c4" : "13"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1333,7 +1171,7 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "9"
+ , "c4" : "8"
 }}
  ] 
 ,
@@ -1370,13 +1208,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/crypto/asn1_dsa.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/asn1_dsa.c.html#1"
- , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[00001] The expression ret applies to a single value or variable, might be ambiguous."
 }} 
 ,
@@ -1399,20 +1230,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/asn1_dsa.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[00001] The expression ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/asn1_dsa.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00001] The pointer data is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/asn1_dsa.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[00001] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {"" : ""

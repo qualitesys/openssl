@@ -1410,8 +1410,26 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/nsseq.c.html#1"
+ , "c1" : "OSSL_FUNC_get_user_entropy_fn"
+ , "c2" : "OSSL_FUNC_get_user_entropy(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/asn1/nsseq.c.html#1"
  , "c1" : "OSSL_FUNC_cleanup_entropy_fn"
  , "c2" : "OSSL_FUNC_cleanup_entropy(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/asn1/nsseq.c.html#1"
+ , "c1" : "OSSL_FUNC_cleanup_user_entropy_fn"
+ , "c2" : "OSSL_FUNC_cleanup_user_entropy(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1428,8 +1446,26 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/nsseq.c.html#1"
+ , "c1" : "OSSL_FUNC_get_user_nonce_fn"
+ , "c2" : "OSSL_FUNC_get_user_nonce(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/asn1/nsseq.c.html#1"
  , "c1" : "OSSL_FUNC_cleanup_nonce_fn"
  , "c2" : "OSSL_FUNC_cleanup_nonce(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/asn1/nsseq.c.html#1"
+ , "c1" : "OSSL_FUNC_cleanup_user_nonce_fn"
+ , "c2" : "OSSL_FUNC_cleanup_user_nonce(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1601,6 +1637,15 @@ var maDataBlocs = {
  , "c5link" : "././qc/crypto/asn1/nsseq.c.html#1"
  , "c1" : "OSSL_FUNC_digest_final_fn"
  , "c2" : "OSSL_FUNC_digest_final(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/asn1/nsseq.c.html#1"
+ , "c1" : "OSSL_FUNC_digest_squeeze_fn"
+ , "c2" : "OSSL_FUNC_digest_squeeze(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2400,6 +2445,24 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/nsseq.c.html#1"
+ , "c1" : "OSSL_FUNC_keymgmt_import_types_ex_fn"
+ , "c2" : "OSSL_FUNC_keymgmt_import_types_ex(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/asn1/nsseq.c.html#1"
+ , "c1" : "OSSL_FUNC_keymgmt_export_types_ex_fn"
+ , "c2" : "OSSL_FUNC_keymgmt_export_types_ex(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/asn1/nsseq.c.html#1"
  , "c1" : "OSSL_FUNC_keyexch_newctx_fn"
  , "c2" : "OSSL_FUNC_keyexch_newctx(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -3174,6 +3237,24 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/nsseq.c.html#1"
+ , "c1" : "OSSL_FUNC_store_delete_fn"
+ , "c2" : "OSSL_FUNC_store_delete(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/asn1/nsseq.c.html#1"
+ , "c1" : "OSSL_FUNC_store_open_ex_fn"
+ , "c2" : "OSSL_FUNC_store_open_ex(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/asn1/nsseq.c.html#1"
  , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "bcopy(void*;void*;size_t)"
  , "c3" : "1"
@@ -3714,6 +3795,42 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/nsseq.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/asn1/nsseq.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_OPENSSL_STRING_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/asn1/nsseq.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_STRING_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/asn1/nsseq.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_STRING_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/asn1/nsseq.c.html#1"
  , "c1" : "OPENSSL_STRING"
  , "c2" : "ossl_check_OPENSSL_STRING_lh_plain_type(OPENSSL_STRING*)"
  , "c3" : "1"
@@ -3772,6 +3889,42 @@ var maDataBlocs = {
  , "c2" : "ossl_check_OPENSSL_STRING_lh_doallfunc_type(lh_OPENSSL_STRING_doallfunc)"
  , "c3" : "1"
  , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/asn1/nsseq.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/asn1/nsseq.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_OPENSSL_CSTRING_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/asn1/nsseq.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_CSTRING_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/asn1/nsseq.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_CSTRING_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -4267,6 +4420,42 @@ var maDataBlocs = {
  , "c2" : "ossl_check_CONF_VALUE_freefunc_type(sk_CONF_VALUE_freefunc)"
  , "c3" : "1"
  , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/asn1/nsseq.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_CONF_VALUE_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/asn1/nsseq.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_CONF_VALUE_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/asn1/nsseq.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_CONF_VALUE_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/asn1/nsseq.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_CONF_VALUE_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""

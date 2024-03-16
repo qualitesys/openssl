@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/rand.c.html" 
- , "texte" : "File apps/rand.c 25 rule violations " 
+ , "texte" : "File apps/rand.c 33 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -103,8 +103,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "19177"
- , "c5link" : "././qc/apps/rand.c.html#19177"
+ , "c5" : "19436"
+ , "c5link" : "././qc/apps/rand.c.html#19436"
  , "c1" : " double  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "atof(char*)"
  , "c3" : "1"
@@ -816,6 +816,15 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : " char "
+ , "c2" : "ossl_determine_dirsep(char*)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
  , "c1" : " int "
  , "c2" : "ossl_is_absolute_path(char*)"
  , "c3" : "1"
@@ -847,6 +856,15 @@ var maDataBlocs = {
  , "c2" : "recvfrom(int;void*;size_t;int;structsockaddr*;socklen_t*)"
  , "c3" : "3"
  , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : " int "
+ , "c2" : "poll(structpollfd*;nfds_t;int)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -1257,8 +1275,26 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : "OSSL_FUNC_get_user_entropy_fn"
+ , "c2" : "OSSL_FUNC_get_user_entropy(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
  , "c1" : "OSSL_FUNC_cleanup_entropy_fn"
  , "c2" : "OSSL_FUNC_cleanup_entropy(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : "OSSL_FUNC_cleanup_user_entropy_fn"
+ , "c2" : "OSSL_FUNC_cleanup_user_entropy(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1275,8 +1311,26 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : "OSSL_FUNC_get_user_nonce_fn"
+ , "c2" : "OSSL_FUNC_get_user_nonce(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
  , "c1" : "OSSL_FUNC_cleanup_nonce_fn"
  , "c2" : "OSSL_FUNC_cleanup_nonce(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : "OSSL_FUNC_cleanup_user_nonce_fn"
+ , "c2" : "OSSL_FUNC_cleanup_user_nonce(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1448,6 +1502,15 @@ var maDataBlocs = {
  , "c5link" : "././qc/apps/rand.c.html#1"
  , "c1" : "OSSL_FUNC_digest_final_fn"
  , "c2" : "OSSL_FUNC_digest_final(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : "OSSL_FUNC_digest_squeeze_fn"
+ , "c2" : "OSSL_FUNC_digest_squeeze(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2247,6 +2310,24 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : "OSSL_FUNC_keymgmt_import_types_ex_fn"
+ , "c2" : "OSSL_FUNC_keymgmt_import_types_ex(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : "OSSL_FUNC_keymgmt_export_types_ex_fn"
+ , "c2" : "OSSL_FUNC_keymgmt_export_types_ex(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
  , "c1" : "OSSL_FUNC_keyexch_newctx_fn"
  , "c2" : "OSSL_FUNC_keyexch_newctx(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -3014,6 +3095,24 @@ var maDataBlocs = {
  , "c5link" : "././qc/apps/rand.c.html#1"
  , "c1" : "OSSL_FUNC_store_export_object_fn"
  , "c2" : "OSSL_FUNC_store_export_object(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : "OSSL_FUNC_store_delete_fn"
+ , "c2" : "OSSL_FUNC_store_delete(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : "OSSL_FUNC_store_open_ex_fn"
+ , "c2" : "OSSL_FUNC_store_open_ex(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3831,6 +3930,42 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_OPENSSL_STRING_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_STRING_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_STRING_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
  , "c1" : "OPENSSL_STRING"
  , "c2" : "ossl_check_OPENSSL_STRING_lh_plain_type(OPENSSL_STRING*)"
  , "c3" : "1"
@@ -3889,6 +4024,42 @@ var maDataBlocs = {
  , "c2" : "ossl_check_OPENSSL_STRING_lh_doallfunc_type(lh_OPENSSL_STRING_doallfunc)"
  , "c3" : "1"
  , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_OPENSSL_CSTRING_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_CSTRING_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_CSTRING_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -4389,6 +4560,42 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_CONF_VALUE_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_CONF_VALUE_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_CONF_VALUE_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_CONF_VALUE_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
  , "c1" : "CONF_VALUE"
  , "c2" : "ossl_check_CONF_VALUE_lh_plain_type(CONF_VALUE*)"
  , "c3" : "1"
@@ -4771,6 +4978,42 @@ var maDataBlocs = {
  , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
  , "c3" : "1"
  , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_ERR_STRING_DATA_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_ERR_STRING_DATA_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_ERR_STRING_DATA_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -6027,10 +6270,19 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/rand.c.html#1"
- , "c1" : " struct lhash_st_FUNCTION"
- , "c2" : "lh_FUNCTION_new(unsignedlong;int)"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_FUNCTION_hfn_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_FUNCTION_cfn_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -6118,7 +6370,34 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/apps/rand.c.html#1"
  , "c1" : " void "
+ , "c2" : "lh_FUNCTION_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_FUNCTION_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : " void "
  , "c2" : "lh_FUNCTION_doall(structlhash_st_FUNCTION*;void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/rand.c.html#1"
+ , "c1" : " struct lhash_st_FUNCTION"
+ , "c2" : "lh_FUNCTION_new(unsignedlong;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -6155,8 +6434,8 @@ var maDataBlocs = {
  , "c5link" : "././qc/apps/rand.c.html#1"
  , "c1" : " int "
  , "c2" : "rand_main(int;char*)"
- , "c3" : "38"
- , "c4" : "55"
+ , "c3" : "53"
+ , "c4" : "81"
 }} 
 ] 
 }} 
@@ -6199,9 +6478,16 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "7"
+ , "c4" : "10"
 }}
 ,
 { "ligne" : { "" : ""
@@ -6215,7 +6501,7 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-CPP000007"
  , "c3" : "goto statement"
- , "c4" : "13"
+ , "c4" : "17"
 }}
 ,
 { "ligne" : { "" : ""
@@ -6330,6 +6616,62 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/rand.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00001] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/apps/rand.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 'max' is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/apps/rand.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression argv[0][factoridx] applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/apps/rand.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/apps/rand.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to opthelp"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/apps/rand.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/apps/rand.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to opthelp"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/apps/rand.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to opthelp"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/apps/rand.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to opthelp"
 }} 
 ,
 { "ligne" : {"" : ""

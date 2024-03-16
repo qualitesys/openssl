@@ -130,8 +130,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00795"
- , "c5link" : "././qc/crypto/chacha/chacha_enc.c.html#795"
+ , "c5" : "00799"
+ , "c5link" : "././qc/crypto/chacha/chacha_enc.c.html#799"
  , "c1" : " void "
  , "c2" : "ChaCha20_ctr32(unsignedchar*;unsignedchar*;size_t;unsignedint;unsignedint)"
  , "c3" : "4"

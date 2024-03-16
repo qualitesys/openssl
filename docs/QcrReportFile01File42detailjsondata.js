@@ -978,8 +978,26 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
+ , "c1" : "OSSL_FUNC_get_user_entropy_fn"
+ , "c2" : "OSSL_FUNC_get_user_entropy(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
  , "c1" : "OSSL_FUNC_cleanup_entropy_fn"
  , "c2" : "OSSL_FUNC_cleanup_entropy(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
+ , "c1" : "OSSL_FUNC_cleanup_user_entropy_fn"
+ , "c2" : "OSSL_FUNC_cleanup_user_entropy(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -996,8 +1014,26 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
+ , "c1" : "OSSL_FUNC_get_user_nonce_fn"
+ , "c2" : "OSSL_FUNC_get_user_nonce(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
  , "c1" : "OSSL_FUNC_cleanup_nonce_fn"
  , "c2" : "OSSL_FUNC_cleanup_nonce(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
+ , "c1" : "OSSL_FUNC_cleanup_user_nonce_fn"
+ , "c2" : "OSSL_FUNC_cleanup_user_nonce(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1169,6 +1205,15 @@ var maDataBlocs = {
  , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
  , "c1" : "OSSL_FUNC_digest_final_fn"
  , "c2" : "OSSL_FUNC_digest_final(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
+ , "c1" : "OSSL_FUNC_digest_squeeze_fn"
+ , "c2" : "OSSL_FUNC_digest_squeeze(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1968,6 +2013,24 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
+ , "c1" : "OSSL_FUNC_keymgmt_import_types_ex_fn"
+ , "c2" : "OSSL_FUNC_keymgmt_import_types_ex(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
+ , "c1" : "OSSL_FUNC_keymgmt_export_types_ex_fn"
+ , "c2" : "OSSL_FUNC_keymgmt_export_types_ex(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
  , "c1" : "OSSL_FUNC_keyexch_newctx_fn"
  , "c2" : "OSSL_FUNC_keyexch_newctx(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -2735,6 +2798,24 @@ var maDataBlocs = {
  , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
  , "c1" : "OSSL_FUNC_store_export_object_fn"
  , "c2" : "OSSL_FUNC_store_export_object(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
+ , "c1" : "OSSL_FUNC_store_delete_fn"
+ , "c2" : "OSSL_FUNC_store_delete(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
+ , "c1" : "OSSL_FUNC_store_open_ex_fn"
+ , "c2" : "OSSL_FUNC_store_open_ex(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3660,6 +3741,42 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_OPENSSL_STRING_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_STRING_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_STRING_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
  , "c1" : "OPENSSL_STRING"
  , "c2" : "ossl_check_OPENSSL_STRING_lh_plain_type(OPENSSL_STRING*)"
  , "c3" : "1"
@@ -3718,6 +3835,42 @@ var maDataBlocs = {
  , "c2" : "ossl_check_OPENSSL_STRING_lh_doallfunc_type(lh_OPENSSL_STRING_doallfunc)"
  , "c3" : "1"
  , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_OPENSSL_CSTRING_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_CSTRING_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_CSTRING_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -4218,6 +4371,42 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_CONF_VALUE_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_CONF_VALUE_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_CONF_VALUE_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_CONF_VALUE_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
  , "c1" : "CONF_VALUE"
  , "c2" : "ossl_check_CONF_VALUE_lh_plain_type(CONF_VALUE*)"
  , "c3" : "1"
@@ -4551,6 +4740,15 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
+ , "c1" : "BIO_POLL_DESCRIPTOR"
+ , "c2" : "SSL_as_poll_descriptor(SSL*)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
  , "c1" : "SRP_gN_cache"
  , "c2" : "ossl_check_SRP_gN_cache_type(SRP_gN_cache*)"
  , "c3" : "1"
@@ -4830,6 +5028,15 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
+ , "c1" : " char "
+ , "c2" : "ossl_determine_dirsep(char*)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
  , "c1" : " int "
  , "c2" : "ossl_is_absolute_path(char*)"
  , "c3" : "1"
@@ -4861,6 +5068,15 @@ var maDataBlocs = {
  , "c2" : "recvfrom(int;void*;size_t;int;structsockaddr*;socklen_t*)"
  , "c3" : "3"
  , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
+ , "c1" : " int "
+ , "c2" : "poll(structpollfd*;nfds_t;int)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -5203,6 +5419,42 @@ var maDataBlocs = {
  , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
  , "c3" : "1"
  , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_ERR_STRING_DATA_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_ERR_STRING_DATA_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/tlssrp_depr.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_ERR_STRING_DATA_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""

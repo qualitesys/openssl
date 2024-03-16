@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bio/bss_dgram.c.html" 
- , "texte" : "File crypto/bio/bss_dgram.c 8 rule violations " 
+ , "texte" : "File crypto/bio/bss_dgram.c 9 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -789,105 +789,6 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
- , "c1" : "OSSL_TIME"
- , "c2" : "ossl_ticks2time(uint64_t)"
- , "c3" : "1"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
- , "c1" : "uint64_t"
- , "c2" : "ossl_time2ticks(OSSL_TIME)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
- , "c1" : "OSSL_TIME"
- , "c2" : "ossl_time_zero(void)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
- , "c1" : "OSSL_TIME"
- , "c2" : "ossl_time_infinite(void)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
- , "c1" : " struct timeval"
- , "c2" : "ossl_time_to_timeval(OSSL_TIME)"
- , "c3" : "1"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
- , "c1" : "OSSL_TIME"
- , "c2" : "ossl_time_from_timeval(structtimeval)"
- , "c3" : "2"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
- , "c1" : "time_t"
- , "c2" : "ossl_time_to_time_t(OSSL_TIME)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
- , "c1" : "OSSL_TIME"
- , "c2" : "ossl_time_from_time_t(time_t)"
- , "c3" : "1"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
- , "c1" : " int "
- , "c2" : "ossl_time_compare(OSSL_TIME;OSSL_TIME)"
- , "c3" : "3"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
- , "c1" : " int "
- , "c2" : "ossl_time_is_zero(OSSL_TIME)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
- , "c1" : " int "
- , "c2" : "ossl_time_is_infinite(OSSL_TIME)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
  , "c1" : "uint64_t"
  , "c2" : "safe_add_time(uint64_t;uint64_t;int*)"
  , "c3" : "2"
@@ -962,6 +863,105 @@ var maDataBlocs = {
  , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
  , "c1" : "uint64_t"
  , "c2" : "safe_abs_time(uint64_t;int*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "OSSL_TIME"
+ , "c2" : "ossl_ticks2time(uint64_t)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "uint64_t"
+ , "c2" : "ossl_time2ticks(OSSL_TIME)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "OSSL_TIME"
+ , "c2" : "ossl_time_zero(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "OSSL_TIME"
+ , "c2" : "ossl_time_infinite(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : " struct timeval"
+ , "c2" : "ossl_time_to_timeval(OSSL_TIME)"
+ , "c3" : "2"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "OSSL_TIME"
+ , "c2" : "ossl_time_from_timeval(structtimeval)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "time_t"
+ , "c2" : "ossl_time_to_time_t(OSSL_TIME)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : "OSSL_TIME"
+ , "c2" : "ossl_time_from_time_t(time_t)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ossl_time_compare(OSSL_TIME;OSSL_TIME)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ossl_time_is_zero(OSSL_TIME)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bio/bss_dgram.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ossl_time_is_infinite(OSSL_TIME)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1114,7 +1114,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1194,6 +1194,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bio/bss_dgram.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[00001] The expression  ! e2 applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bio/bss_dgram.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression err applies to a single value or variable, might be ambiguous."
 }} 
 ]
 , 

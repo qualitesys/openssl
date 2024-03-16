@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/lib/apps.c.html" 
- , "texte" : "File apps/lib/apps.c 271 rule violations " 
+ , "texte" : "File apps/lib/apps.c 280 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -1464,8 +1464,26 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : "OSSL_FUNC_get_user_entropy_fn"
+ , "c2" : "OSSL_FUNC_get_user_entropy(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
  , "c1" : "OSSL_FUNC_cleanup_entropy_fn"
  , "c2" : "OSSL_FUNC_cleanup_entropy(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : "OSSL_FUNC_cleanup_user_entropy_fn"
+ , "c2" : "OSSL_FUNC_cleanup_user_entropy(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1482,8 +1500,26 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : "OSSL_FUNC_get_user_nonce_fn"
+ , "c2" : "OSSL_FUNC_get_user_nonce(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
  , "c1" : "OSSL_FUNC_cleanup_nonce_fn"
  , "c2" : "OSSL_FUNC_cleanup_nonce(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : "OSSL_FUNC_cleanup_user_nonce_fn"
+ , "c2" : "OSSL_FUNC_cleanup_user_nonce(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1655,6 +1691,15 @@ var maDataBlocs = {
  , "c5link" : "././qc/apps/lib/apps.c.html#1"
  , "c1" : "OSSL_FUNC_digest_final_fn"
  , "c2" : "OSSL_FUNC_digest_final(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : "OSSL_FUNC_digest_squeeze_fn"
+ , "c2" : "OSSL_FUNC_digest_squeeze(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2454,6 +2499,24 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : "OSSL_FUNC_keymgmt_import_types_ex_fn"
+ , "c2" : "OSSL_FUNC_keymgmt_import_types_ex(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : "OSSL_FUNC_keymgmt_export_types_ex_fn"
+ , "c2" : "OSSL_FUNC_keymgmt_export_types_ex(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
  , "c1" : "OSSL_FUNC_keyexch_newctx_fn"
  , "c2" : "OSSL_FUNC_keyexch_newctx(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -3228,6 +3291,24 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : "OSSL_FUNC_store_delete_fn"
+ , "c2" : "OSSL_FUNC_store_delete(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : "OSSL_FUNC_store_open_ex_fn"
+ , "c2" : "OSSL_FUNC_store_open_ex(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
  , "c1" : "X509_NAME"
  , "c2" : "ossl_check_X509_NAME_type(X509_NAME*)"
  , "c3" : "1"
@@ -3660,6 +3741,42 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_OPENSSL_STRING_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_STRING_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_STRING_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
  , "c1" : "OPENSSL_STRING"
  , "c2" : "ossl_check_OPENSSL_STRING_lh_plain_type(OPENSSL_STRING*)"
  , "c3" : "1"
@@ -3718,6 +3835,42 @@ var maDataBlocs = {
  , "c2" : "ossl_check_OPENSSL_STRING_lh_doallfunc_type(lh_OPENSSL_STRING_doallfunc)"
  , "c3" : "1"
  , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_OPENSSL_CSTRING_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_CSTRING_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_CSTRING_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -4218,6 +4371,42 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_CONF_VALUE_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_CONF_VALUE_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_CONF_VALUE_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_CONF_VALUE_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
  , "c1" : "CONF_VALUE"
  , "c2" : "ossl_check_CONF_VALUE_lh_plain_type(CONF_VALUE*)"
  , "c3" : "1"
@@ -4375,6 +4564,42 @@ var maDataBlocs = {
  , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
  , "c3" : "1"
  , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_ERR_STRING_DATA_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_ERR_STRING_DATA_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_ERR_STRING_DATA_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -5775,6 +6000,15 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : "BIO_POLL_DESCRIPTOR"
+ , "c2" : "SSL_as_poll_descriptor(SSL*)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
  , "c1" : "SRP_gN_cache"
  , "c2" : "ossl_check_SRP_gN_cache_type(SRP_gN_cache*)"
  , "c3" : "1"
@@ -6054,6 +6288,15 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : " char "
+ , "c2" : "ossl_determine_dirsep(char*)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
  , "c1" : " int "
  , "c2" : "ossl_is_absolute_path(char*)"
  , "c3" : "1"
@@ -6085,6 +6328,15 @@ var maDataBlocs = {
  , "c2" : "recvfrom(int;void*;size_t;int;structsockaddr*;socklen_t*)"
  , "c3" : "3"
  , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : " int "
+ , "c2" : "poll(structpollfd*;nfds_t;int)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -6849,7 +7101,25 @@ var maDataBlocs = {
  , "c1" : " char "
  , "c2" : "app_get_pass(char*;int)"
  , "c3" : "21"
- , "c4" : "37"
+ , "c4" : "38"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : " char "
+ , "c2" : "app_conf_try_string(CONF*;char*;char*)"
+ , "c3" : "3"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/apps.c.html#1"
+ , "c1" : " int "
+ , "c2" : "app_conf_try_number(CONF*;char*;char*;long*)"
+ , "c3" : "3"
+ , "c4" : "6"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -6894,7 +7164,7 @@ var maDataBlocs = {
  , "c1" : " int "
  , "c2" : "add_oid_section(CONF*)"
  , "c3" : "5"
- , "c4" : "14"
+ , "c4" : "13"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -6937,7 +7207,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/apps/lib/apps.c.html#1"
  , "c1" : "X509_REQ"
- , "c2" : "load_csr_autofmt(char*;int;char*)"
+ , "c2" : "load_csr_autofmt(char*;int;structstack_st_OPENSSL_STRING*;char*)"
  , "c3" : "9"
  , "c4" : "15"
 }} 
@@ -6974,8 +7244,8 @@ var maDataBlocs = {
  , "c5link" : "././qc/apps/lib/apps.c.html#1"
  , "c1" : "EVP_PKEY"
  , "c2" : "load_pubkey(char*;int;int;char*;ENGINE*;char*)"
- , "c3" : "3"
- , "c4" : "7"
+ , "c3" : "4"
+ , "c4" : "8"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -6983,8 +7253,8 @@ var maDataBlocs = {
  , "c5link" : "././qc/apps/lib/apps.c.html#1"
  , "c1" : "EVP_PKEY"
  , "c2" : "load_keyparams_suppress(char*;int;int;char*;char*;int)"
- , "c3" : "4"
- , "c4" : "11"
+ , "c3" : "3"
+ , "c4" : "8"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -7117,9 +7387,9 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/apps/lib/apps.c.html#1"
  , "c1" : " int "
- , "c2" : "load_key_certs_crls(char*;int;int;char*;char*;EVP_PKEY*;EVP_PKEY*;EVP_PKEY*;X509*;structstack_st_X509*;X509_CRL*;structstack_st_X509_CRL*)"
- , "c3" : "52"
- , "c4" : "97"
+ , "c2" : "load_key_certs_crls(char*;int;int;char*;char*;int;EVP_PKEY*;EVP_PKEY*;EVP_PKEY*;X509*;structstack_st_X509*;X509_CRL*;structstack_st_X509_CRL*)"
+ , "c3" : "59"
+ , "c4" : "98"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -7217,8 +7487,8 @@ var maDataBlocs = {
  , "c5link" : "././qc/apps/lib/apps.c.html#1"
  , "c1" : "X509_STORE"
  , "c2" : "setup_verify(char*;int;char*;int;char*;int)"
- , "c3" : "16"
- , "c4" : "24"
+ , "c3" : "17"
+ , "c4" : "25"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -7406,7 +7676,7 @@ var maDataBlocs = {
  , "c5link" : "././qc/apps/lib/apps.c.html#1"
  , "c1" : " int "
  , "c2" : "bio_to_mem(unsignedchar*;int;BIO*)"
- , "c3" : "9"
+ , "c3" : "10"
  , "c4" : "21"
 }} 
 ,
@@ -7513,9 +7783,9 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/apps/lib/apps.c.html#1"
  , "c1" : " int "
- , "c2" : "do_X509_sign(X509*;EVP_PKEY*;char*;structstack_st_OPENSSL_STRING*;X509V3_CTX*)"
+ , "c2" : "do_X509_sign(X509*;int;EVP_PKEY*;char*;structstack_st_OPENSSL_STRING*;X509V3_CTX*)"
  , "c3" : "6"
- , "c4" : "11"
+ , "c4" : "10"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -7613,8 +7883,8 @@ var maDataBlocs = {
  , "c5link" : "././qc/apps/lib/apps.c.html#1"
  , "c1" : "BIO"
  , "c2" : "app_http_tls_cb(BIO*;void*;int;int)"
- , "c3" : "6"
- , "c4" : "14"
+ , "c3" : "7"
+ , "c4" : "17"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -7721,8 +7991,8 @@ var maDataBlocs = {
  , "c5link" : "././qc/apps/lib/apps.c.html#1"
  , "c1" : "BIO"
  , "c2" : "dup_bio_out(int)"
- , "c3" : "2"
- , "c4" : "5"
+ , "c3" : "3"
+ , "c4" : "6"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -7892,8 +8162,8 @@ var maDataBlocs = {
  , "c5link" : "././qc/apps/lib/apps.c.html#1"
  , "c1" : " int "
  , "c2" : "opt_legacy_okay(void)"
- , "c3" : "3"
- , "c4" : "7"
+ , "c3" : "2"
+ , "c4" : "4"
 }} 
 ] 
 }} 
@@ -7952,14 +8222,14 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "42"
+ , "c4" : "48"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "52"
+ , "c4" : "54"
 }}
 ,
 { "ligne" : { "" : ""
@@ -7987,7 +8257,7 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "52"
+ , "c4" : "53"
 }}
  ] 
 ,
@@ -8129,6 +8399,20 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/apps/lib/apps.c.html#1"
  , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer res is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/apps/lib/apps.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression  ! ok applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/apps/lib/apps.c.html#1"
+ , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[00001] The pointer conf is declared but not initialized"
 }} 
 ,
@@ -8254,13 +8538,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/apps/lib/apps.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00001] The expression suppress_decode_errors applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/apps/lib/apps.c.html#1"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[00001] The pointer pass_string is declared but not initialized"
 }} 
@@ -8359,8 +8636,8 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/apps/lib/apps.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression  ! quiet applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {"" : ""
@@ -8389,6 +8666,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/lib/apps.c.html#1"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/apps/lib/apps.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/apps/lib/apps.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression  ! quiet applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {"" : ""
@@ -8417,6 +8708,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/lib/apps.c.html#1"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/apps/lib/apps.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression  ! quiet applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {"" : ""
@@ -8457,8 +8755,8 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/apps/lib/apps.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[00001] goto statement jump to end"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression  ! quiet applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {"" : ""
@@ -8466,6 +8764,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/lib/apps.c.html#1"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000007[00001] goto statement jump to end"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/apps/lib/apps.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression  ! quiet applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/apps/lib/apps.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to end"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/apps/lib/apps.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression  ! quiet applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {"" : ""
@@ -8585,6 +8904,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/lib/apps.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[00001] The expression  ! ok applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/apps/lib/apps.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression  ! quiet applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {"" : ""
@@ -8732,6 +9058,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/lib/apps.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00001] The expression ( long  )(1) is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/apps/lib/apps.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/apps/lib/apps.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression ( long  )(2) is invariable"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -9026,20 +9366,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/lib/apps.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[00001] The expression db_attr applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/apps/lib/apps.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00001] The expression dbattr_conf applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/apps/lib/apps.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00001] The expression p applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {"" : ""
@@ -9376,6 +9702,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/lib/apps.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[00001] The expression disabled applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/apps/lib/apps.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression  ! force_v1 applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {"" : ""

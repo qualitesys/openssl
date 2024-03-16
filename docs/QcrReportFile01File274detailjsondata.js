@@ -1,8 +1,8 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/conf/conf_err.c.html" 
- , "texte" : "File crypto/conf/conf_err.c 5 rule violations " 
+   "fic1"  : "./qc/crypto/conf/conf_def.c.html" 
+ , "texte" : "File crypto/conf/conf_def.c 134 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -13,8 +13,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00901"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#901"
+ , "c5" : "00742"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#742"
  , "c1" : " int "
  , "c2" : "getchar(void)"
  , "c3" : "1"
@@ -22,8 +22,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00910"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#910"
+ , "c5" : "00751"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#751"
  , "c1" : " int "
  , "c2" : "fgetc_unlocked(FILE*)"
  , "c3" : "1"
@@ -31,8 +31,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00920"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#920"
+ , "c5" : "00761"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#761"
  , "c1" : " int "
  , "c2" : "getc_unlocked(FILE*)"
  , "c3" : "1"
@@ -40,8 +40,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00927"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#927"
+ , "c5" : "00768"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#768"
  , "c1" : " int "
  , "c2" : "getchar_unlocked(void)"
  , "c3" : "1"
@@ -49,8 +49,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00936"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#936"
+ , "c5" : "00777"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#777"
  , "c1" : " int "
  , "c2" : "putchar(int)"
  , "c3" : "1"
@@ -58,8 +58,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00945"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#945"
+ , "c5" : "00786"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#786"
  , "c1" : " int "
  , "c2" : "fputc_unlocked(int;FILE*)"
  , "c3" : "1"
@@ -67,8 +67,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00955"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#955"
+ , "c5" : "00796"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#796"
  , "c1" : " int "
  , "c2" : "putc_unlocked(int;FILE*)"
  , "c3" : "1"
@@ -76,8 +76,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00962"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#962"
+ , "c5" : "00803"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#803"
  , "c1" : " int "
  , "c2" : "putchar_unlocked(int)"
  , "c3" : "1"
@@ -85,8 +85,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00968"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#968"
+ , "c5" : "00809"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#809"
  , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "feof_unlocked(FILE*)"
  , "c3" : "1"
@@ -94,8 +94,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00975"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#975"
+ , "c5" : "00816"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#816"
  , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "ferror_unlocked(FILE*)"
  , "c3" : "1"
@@ -103,8 +103,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00994"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#994"
+ , "c5" : "00835"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#835"
  , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "sprintf(char*;char*)"
  , "c3" : "1"
@@ -112,8 +112,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01007"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1007"
+ , "c5" : "00848"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#848"
  , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "vsprintf(char*;char*;__gnuc_va_list)"
  , "c3" : "1"
@@ -121,8 +121,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01026"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1026"
+ , "c5" : "00867"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#867"
  , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "snprintf(char*;size_t;char*)"
  , "c3" : "1"
@@ -130,8 +130,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01040"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1040"
+ , "c5" : "00881"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#881"
  , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "vsnprintf(char*;size_t;char*;__gnuc_va_list)"
  , "c3" : "1"
@@ -139,8 +139,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01061"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1061"
+ , "c5" : "00902"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#902"
  , "c1" : " int "
  , "c2" : "fprintf(FILE*;char*)"
  , "c3" : "1"
@@ -148,8 +148,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01068"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1068"
+ , "c5" : "00909"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#909"
  , "c1" : " int "
  , "c2" : "printf(char*)"
  , "c3" : "1"
@@ -157,8 +157,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01080"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1080"
+ , "c5" : "00921"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#921"
  , "c1" : " int "
  , "c2" : "vprintf(char*;__gnuc_va_list)"
  , "c3" : "1"
@@ -166,8 +166,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01090"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1090"
+ , "c5" : "00931"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#931"
  , "c1" : " int "
  , "c2" : "vfprintf(FILE*;char*;__gnuc_va_list)"
  , "c3" : "1"
@@ -175,8 +175,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01105"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1105"
+ , "c5" : "00946"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#946"
  , "c1" : " int "
  , "c2" : "dprintf(int;char*)"
  , "c3" : "1"
@@ -184,8 +184,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01116"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1116"
+ , "c5" : "00957"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#957"
  , "c1" : " int "
  , "c2" : "vdprintf(int;char*;__gnuc_va_list)"
  , "c3" : "1"
@@ -193,8 +193,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01135"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1135"
+ , "c5" : "00976"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#976"
  , "c1" : " char "
  , "c2" : "fgets(char*;int;FILE*)"
  , "c3" : "3"
@@ -202,8 +202,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01161"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1161"
+ , "c5" : "01002"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1002"
  , "c1" : "size_t"
  , "c2" : "fread(void*;size_t;size_t;FILE*)"
  , "c3" : "3"
@@ -211,8 +211,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01188"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1188"
+ , "c5" : "01029"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1029"
  , "c1" : "size_t"
  , "c2" : "fread_unlocked(void*;size_t;size_t;FILE*)"
  , "c3" : "7"
@@ -220,8 +220,116 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01348"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1348"
+ , "c5" : "01332"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1332"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bcopy(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01339"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1339"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "bzero(void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01380"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1380"
+ , "c1" : " void "
+ , "c2" : "memcpy(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01388"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1388"
+ , "c1" : " void "
+ , "c2" : "memmove(void*;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01395"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1395"
+ , "c1" : " void "
+ , "c2" : "memset(void*;int;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01408"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1408"
+ , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "explicit_bzero(void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01415"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1415"
+ , "c1" : " char "
+ , "c2" : "strcpy(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01422"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1422"
+ , "c1" : " char "
+ , "c2" : "stpcpy(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01430"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1430"
+ , "c1" : " char "
+ , "c2" : "strncpy(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01440"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1440"
+ , "c1" : " char "
+ , "c2" : "stpncpy(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01447"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1447"
+ , "c1" : " char "
+ , "c2" : "strcat(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01454"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1454"
+ , "c1" : " char "
+ , "c2" : "strncat(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01786"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1786"
  , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "atoi(char*)"
  , "c3" : "1"
@@ -229,8 +337,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01353"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1353"
+ , "c5" : "01791"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1791"
  , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "atol(char*)"
  , "c3" : "1"
@@ -238,8 +346,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01360"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1360"
+ , "c5" : "01798"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1798"
  , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "atoll(char*)"
  , "c3" : "1"
@@ -247,8 +355,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01507"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1507"
+ , "c5" : "01945"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1945"
  , "c1" : "__uint16_t"
  , "c2" : "__bswap_16(__uint16_t)"
  , "c3" : "1"
@@ -256,8 +364,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01522"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1522"
+ , "c5" : "01960"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1960"
  , "c1" : "__uint32_t"
  , "c2" : "__bswap_32(__uint32_t)"
  , "c3" : "1"
@@ -265,8 +373,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01532"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1532"
+ , "c5" : "01970"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1970"
  , "c1" : "__uint64_t"
  , "c2" : "__bswap_64(__uint64_t)"
  , "c3" : "1"
@@ -274,8 +382,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01544"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1544"
+ , "c5" : "01982"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1982"
  , "c1" : "__uint16_t"
  , "c2" : "__uint16_identity(__uint16_t)"
  , "c3" : "1"
@@ -283,8 +391,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01550"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1550"
+ , "c5" : "01988"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1988"
  , "c1" : "__uint32_t"
  , "c2" : "__uint32_identity(__uint32_t)"
  , "c3" : "1"
@@ -292,8 +400,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01556"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1556"
+ , "c5" : "01994"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1994"
  , "c1" : "__uint64_t"
  , "c2" : "__uint64_identity(__uint64_t)"
  , "c3" : "1"
@@ -301,8 +409,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02224"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#2224"
+ , "c5" : "02662"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#2662"
  , "c1" : " void "
  , "c2" : "bsearch(void*;void*;size_t;size_t;__compar_fn_t)"
  , "c3" : "6"
@@ -311,7 +419,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : " double  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "atof(char*)"
  , "c3" : "1"
@@ -320,16 +428,16 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : " char "
  , "c2" : "realpath(char*;char*)"
- , "c3" : "2"
- , "c4" : "3"
+ , "c3" : "3"
+ , "c4" : "4"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "ptsname_r(int;char*;size_t)"
  , "c3" : "1"
@@ -338,7 +446,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "wctomb(char*;wchar_t)"
  , "c3" : "2"
@@ -347,7 +455,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "size_t"
  , "c2" : "mbstowcs(wchar_t*;char*;size_t)"
  , "c3" : "1"
@@ -356,7 +464,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "size_t"
  , "c2" : "wcstombs(char*;wchar_t*;size_t)"
  , "c3" : "1"
@@ -365,7 +473,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : " char "
  , "c2" : "ossl_check_OPENSSL_STRING_type(char*)"
  , "c3" : "1"
@@ -374,7 +482,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_STACK"
  , "c2" : "ossl_check_const_OPENSSL_STRING_sk_type(structstack_st_OPENSSL_STRING*)"
  , "c3" : "1"
@@ -383,7 +491,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_STACK"
  , "c2" : "ossl_check_OPENSSL_STRING_sk_type(structstack_st_OPENSSL_STRING*)"
  , "c3" : "1"
@@ -392,7 +500,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_sk_compfunc"
  , "c2" : "ossl_check_OPENSSL_STRING_compfunc_type(sk_OPENSSL_STRING_compfunc)"
  , "c3" : "1"
@@ -401,7 +509,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_sk_copyfunc"
  , "c2" : "ossl_check_OPENSSL_STRING_copyfunc_type(sk_OPENSSL_STRING_copyfunc)"
  , "c3" : "1"
@@ -410,7 +518,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_sk_freefunc"
  , "c2" : "ossl_check_OPENSSL_STRING_freefunc_type(sk_OPENSSL_STRING_freefunc)"
  , "c3" : "1"
@@ -419,7 +527,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : " char "
  , "c2" : "ossl_check_OPENSSL_CSTRING_type(char*)"
  , "c3" : "1"
@@ -428,7 +536,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_STACK"
  , "c2" : "ossl_check_const_OPENSSL_CSTRING_sk_type(structstack_st_OPENSSL_CSTRING*)"
  , "c3" : "1"
@@ -437,7 +545,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_STACK"
  , "c2" : "ossl_check_OPENSSL_CSTRING_sk_type(structstack_st_OPENSSL_CSTRING*)"
  , "c3" : "1"
@@ -446,7 +554,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_sk_compfunc"
  , "c2" : "ossl_check_OPENSSL_CSTRING_compfunc_type(sk_OPENSSL_CSTRING_compfunc)"
  , "c3" : "1"
@@ -455,7 +563,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_sk_copyfunc"
  , "c2" : "ossl_check_OPENSSL_CSTRING_copyfunc_type(sk_OPENSSL_CSTRING_copyfunc)"
  , "c3" : "1"
@@ -464,7 +572,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_sk_freefunc"
  , "c2" : "ossl_check_OPENSSL_CSTRING_freefunc_type(sk_OPENSSL_CSTRING_freefunc)"
  , "c3" : "1"
@@ -473,7 +581,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : " void "
  , "c2" : "ossl_check_OPENSSL_BLOCK_type(void*)"
  , "c3" : "1"
@@ -482,7 +590,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_STACK"
  , "c2" : "ossl_check_const_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*)"
  , "c3" : "1"
@@ -491,7 +599,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_STACK"
  , "c2" : "ossl_check_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*)"
  , "c3" : "1"
@@ -500,7 +608,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_sk_compfunc"
  , "c2" : "ossl_check_OPENSSL_BLOCK_compfunc_type(sk_OPENSSL_BLOCK_compfunc)"
  , "c3" : "1"
@@ -509,7 +617,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_sk_copyfunc"
  , "c2" : "ossl_check_OPENSSL_BLOCK_copyfunc_type(sk_OPENSSL_BLOCK_copyfunc)"
  , "c3" : "1"
@@ -518,7 +626,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_sk_freefunc"
  , "c2" : "ossl_check_OPENSSL_BLOCK_freefunc_type(sk_OPENSSL_BLOCK_freefunc)"
  , "c3" : "1"
@@ -527,7 +635,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : " void "
  , "c2" : "ossl_check_void_type(void*)"
  , "c3" : "1"
@@ -536,7 +644,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_STACK"
  , "c2" : "ossl_check_const_void_sk_type(structstack_st_void*)"
  , "c3" : "1"
@@ -545,7 +653,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_STACK"
  , "c2" : "ossl_check_void_sk_type(structstack_st_void*)"
  , "c3" : "1"
@@ -554,7 +662,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_sk_compfunc"
  , "c2" : "ossl_check_void_compfunc_type(sk_void_compfunc)"
  , "c3" : "1"
@@ -563,7 +671,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_sk_copyfunc"
  , "c2" : "ossl_check_void_copyfunc_type(sk_void_copyfunc)"
  , "c3" : "1"
@@ -572,7 +680,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_sk_freefunc"
  , "c2" : "ossl_check_void_freefunc_type(sk_void_freefunc)"
  , "c3" : "1"
@@ -581,7 +689,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "pthread_equal(pthread_t;pthread_t)"
  , "c3" : "1"
@@ -590,7 +698,142 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "ssize_t"
+ , "c2" : "read(int;void*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "ssize_t"
+ , "c2" : "pread(int;void*;size_t;__off_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "ssize_t"
+ , "c2" : "readlink(char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "ssize_t"
+ , "c2" : "readlinkat(int;char*;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " char "
+ , "c2" : "getcwd(char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " char "
+ , "c2" : "getwd(char*)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "size_t"
+ , "c2" : "confstr(int;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "getgroups(int;__gid_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ttyname_r(int;char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "getlogin_r(char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "gethostname(char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "getdomainname(char*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ossl_ends_with_dirsep(char*)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " char "
+ , "c2" : "ossl_determine_dirsep(char*)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ossl_is_absolute_path(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "BIO"
  , "c2" : "ossl_check_BIO_type(BIO*)"
  , "c3" : "1"
@@ -599,7 +842,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_STACK"
  , "c2" : "ossl_check_const_BIO_sk_type(structstack_st_BIO*)"
  , "c3" : "1"
@@ -608,7 +851,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_STACK"
  , "c2" : "ossl_check_BIO_sk_type(structstack_st_BIO*)"
  , "c3" : "1"
@@ -617,7 +860,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_sk_compfunc"
  , "c2" : "ossl_check_BIO_compfunc_type(sk_BIO_compfunc)"
  , "c3" : "1"
@@ -626,7 +869,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_sk_copyfunc"
  , "c2" : "ossl_check_BIO_copyfunc_type(sk_BIO_copyfunc)"
  , "c3" : "1"
@@ -635,7 +878,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_sk_freefunc"
  , "c2" : "ossl_check_BIO_freefunc_type(sk_BIO_freefunc)"
  , "c3" : "1"
@@ -644,7 +887,421 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "X509_ALGOR"
+ , "c2" : "ossl_check_X509_ALGOR_type(X509_ALGOR*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_X509_ALGOR_sk_type(structstack_st_X509_ALGOR*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_X509_ALGOR_sk_type(structstack_st_X509_ALGOR*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_X509_ALGOR_compfunc_type(sk_X509_ALGOR_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_X509_ALGOR_copyfunc_type(sk_X509_ALGOR_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_X509_ALGOR_freefunc_type(sk_X509_ALGOR_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "ASN1_STRING_TABLE"
+ , "c2" : "ossl_check_ASN1_STRING_TABLE_type(ASN1_STRING_TABLE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_ASN1_STRING_TABLE_sk_type(structstack_st_ASN1_STRING_TABLE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_ASN1_STRING_TABLE_sk_type(structstack_st_ASN1_STRING_TABLE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_ASN1_STRING_TABLE_compfunc_type(sk_ASN1_STRING_TABLE_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_ASN1_STRING_TABLE_copyfunc_type(sk_ASN1_STRING_TABLE_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_ASN1_STRING_TABLE_freefunc_type(sk_ASN1_STRING_TABLE_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "ASN1_TYPE"
+ , "c2" : "ossl_check_ASN1_TYPE_type(ASN1_TYPE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_ASN1_TYPE_sk_type(structstack_st_ASN1_TYPE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_ASN1_TYPE_sk_type(structstack_st_ASN1_TYPE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_ASN1_TYPE_compfunc_type(sk_ASN1_TYPE_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_ASN1_TYPE_copyfunc_type(sk_ASN1_TYPE_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_ASN1_TYPE_freefunc_type(sk_ASN1_TYPE_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "ASN1_OBJECT"
+ , "c2" : "ossl_check_ASN1_OBJECT_type(ASN1_OBJECT*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_ASN1_OBJECT_sk_type(structstack_st_ASN1_OBJECT*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_ASN1_OBJECT_sk_type(structstack_st_ASN1_OBJECT*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_ASN1_OBJECT_compfunc_type(sk_ASN1_OBJECT_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_ASN1_OBJECT_copyfunc_type(sk_ASN1_OBJECT_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_ASN1_OBJECT_freefunc_type(sk_ASN1_OBJECT_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "ASN1_INTEGER"
+ , "c2" : "ossl_check_ASN1_INTEGER_type(ASN1_INTEGER*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_ASN1_INTEGER_sk_type(structstack_st_ASN1_INTEGER*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_ASN1_INTEGER_sk_type(structstack_st_ASN1_INTEGER*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_ASN1_INTEGER_compfunc_type(sk_ASN1_INTEGER_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_ASN1_INTEGER_copyfunc_type(sk_ASN1_INTEGER_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_ASN1_INTEGER_freefunc_type(sk_ASN1_INTEGER_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "ASN1_UTF8STRING"
+ , "c2" : "ossl_check_ASN1_UTF8STRING_type(ASN1_UTF8STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_ASN1_UTF8STRING_sk_type(structstack_st_ASN1_UTF8STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_ASN1_UTF8STRING_sk_type(structstack_st_ASN1_UTF8STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_ASN1_UTF8STRING_compfunc_type(sk_ASN1_UTF8STRING_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_ASN1_UTF8STRING_copyfunc_type(sk_ASN1_UTF8STRING_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_ASN1_UTF8STRING_freefunc_type(sk_ASN1_UTF8STRING_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "ASN1_GENERALSTRING"
+ , "c2" : "ossl_check_ASN1_GENERALSTRING_type(ASN1_GENERALSTRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_ASN1_GENERALSTRING_sk_type(structstack_st_ASN1_GENERALSTRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_ASN1_GENERALSTRING_sk_type(structstack_st_ASN1_GENERALSTRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_ASN1_GENERALSTRING_compfunc_type(sk_ASN1_GENERALSTRING_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_ASN1_GENERALSTRING_copyfunc_type(sk_ASN1_GENERALSTRING_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_ASN1_GENERALSTRING_freefunc_type(sk_ASN1_GENERALSTRING_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_OPENSSL_STRING_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_STRING_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_STRING_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_STRING"
  , "c2" : "ossl_check_OPENSSL_STRING_lh_plain_type(OPENSSL_STRING*)"
  , "c3" : "1"
@@ -653,7 +1310,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_STRING"
  , "c2" : "ossl_check_const_OPENSSL_STRING_lh_plain_type(OPENSSL_STRING*)"
  , "c3" : "1"
@@ -662,7 +1319,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_LHASH"
  , "c2" : "ossl_check_const_OPENSSL_STRING_lh_type(structlhash_st_OPENSSL_STRING*)"
  , "c3" : "1"
@@ -671,7 +1328,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_LHASH"
  , "c2" : "ossl_check_OPENSSL_STRING_lh_type(structlhash_st_OPENSSL_STRING*)"
  , "c3" : "1"
@@ -680,7 +1337,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_LH_COMPFUNC"
  , "c2" : "ossl_check_OPENSSL_STRING_lh_compfunc_type(lh_OPENSSL_STRING_compfunc)"
  , "c3" : "1"
@@ -689,7 +1346,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_LH_HASHFUNC"
  , "c2" : "ossl_check_OPENSSL_STRING_lh_hashfunc_type(lh_OPENSSL_STRING_hashfunc)"
  , "c3" : "1"
@@ -698,7 +1355,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_LH_DOALL_FUNC"
  , "c2" : "ossl_check_OPENSSL_STRING_lh_doallfunc_type(lh_OPENSSL_STRING_doallfunc)"
  , "c3" : "1"
@@ -707,7 +1364,43 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_OPENSSL_CSTRING_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_CSTRING_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_CSTRING_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_CSTRING"
  , "c2" : "ossl_check_OPENSSL_CSTRING_lh_plain_type(OPENSSL_CSTRING*)"
  , "c3" : "1"
@@ -716,7 +1409,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_CSTRING"
  , "c2" : "ossl_check_const_OPENSSL_CSTRING_lh_plain_type(OPENSSL_CSTRING*)"
  , "c3" : "1"
@@ -725,7 +1418,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_LHASH"
  , "c2" : "ossl_check_const_OPENSSL_CSTRING_lh_type(structlhash_st_OPENSSL_CSTRING*)"
  , "c3" : "1"
@@ -734,7 +1427,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_LHASH"
  , "c2" : "ossl_check_OPENSSL_CSTRING_lh_type(structlhash_st_OPENSSL_CSTRING*)"
  , "c3" : "1"
@@ -743,7 +1436,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_LH_COMPFUNC"
  , "c2" : "ossl_check_OPENSSL_CSTRING_lh_compfunc_type(lh_OPENSSL_CSTRING_compfunc)"
  , "c3" : "1"
@@ -752,7 +1445,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_LH_HASHFUNC"
  , "c2" : "ossl_check_OPENSSL_CSTRING_lh_hashfunc_type(lh_OPENSSL_CSTRING_hashfunc)"
  , "c3" : "1"
@@ -761,7 +1454,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_LH_DOALL_FUNC"
  , "c2" : "ossl_check_OPENSSL_CSTRING_lh_doallfunc_type(lh_OPENSSL_CSTRING_doallfunc)"
  , "c3" : "1"
@@ -770,7 +1463,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : " int "
  , "c2" : "ERR_GET_LIB(unsignedlong)"
  , "c3" : "2"
@@ -779,7 +1472,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : " int "
  , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
  , "c3" : "2"
@@ -788,7 +1481,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : " int "
  , "c2" : "ERR_GET_REASON(unsignedlong)"
  , "c3" : "2"
@@ -797,7 +1490,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : " int "
  , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
  , "c3" : "1"
@@ -806,7 +1499,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : " int "
  , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
  , "c3" : "1"
@@ -815,7 +1508,43 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_ERR_STRING_DATA_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_ERR_STRING_DATA_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_ERR_STRING_DATA_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "ERR_STRING_DATA"
  , "c2" : "ossl_check_ERR_STRING_DATA_lh_plain_type(ERR_STRING_DATA*)"
  , "c3" : "1"
@@ -824,7 +1553,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "ERR_STRING_DATA"
  , "c2" : "ossl_check_const_ERR_STRING_DATA_lh_plain_type(ERR_STRING_DATA*)"
  , "c3" : "1"
@@ -833,7 +1562,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_LHASH"
  , "c2" : "ossl_check_const_ERR_STRING_DATA_lh_type(structlhash_st_ERR_STRING_DATA*)"
  , "c3" : "1"
@@ -842,7 +1571,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_LHASH"
  , "c2" : "ossl_check_ERR_STRING_DATA_lh_type(structlhash_st_ERR_STRING_DATA*)"
  , "c3" : "1"
@@ -851,7 +1580,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_LH_COMPFUNC"
  , "c2" : "ossl_check_ERR_STRING_DATA_lh_compfunc_type(lh_ERR_STRING_DATA_compfunc)"
  , "c3" : "1"
@@ -860,7 +1589,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_LH_HASHFUNC"
  , "c2" : "ossl_check_ERR_STRING_DATA_lh_hashfunc_type(lh_ERR_STRING_DATA_hashfunc)"
  , "c3" : "1"
@@ -869,7 +1598,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : "OPENSSL_LH_DOALL_FUNC"
  , "c2" : "ossl_check_ERR_STRING_DATA_lh_doallfunc_type(lh_ERR_STRING_DATA_doallfunc)"
  , "c3" : "1"
@@ -878,11 +1607,758 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/conf/conf_err.c.html#1"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
  , "c1" : " int "
- , "c2" : "ossl_err_load_CONF_strings(void)"
+ , "c2" : "sk_EX_CALLBACK_num(structstack_st_EX_CALLBACK*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "EX_CALLBACK"
+ , "c2" : "sk_EX_CALLBACK_value(structstack_st_EX_CALLBACK*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " struct stack_st_EX_CALLBACK"
+ , "c2" : "sk_EX_CALLBACK_new(sk_EX_CALLBACK_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " struct stack_st_EX_CALLBACK"
+ , "c2" : "sk_EX_CALLBACK_new_null(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " struct stack_st_EX_CALLBACK"
+ , "c2" : "sk_EX_CALLBACK_new_reserve(sk_EX_CALLBACK_compfunc;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EX_CALLBACK_reserve(structstack_st_EX_CALLBACK*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " void "
+ , "c2" : "sk_EX_CALLBACK_free(structstack_st_EX_CALLBACK*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " void "
+ , "c2" : "sk_EX_CALLBACK_zero(structstack_st_EX_CALLBACK*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "EX_CALLBACK"
+ , "c2" : "sk_EX_CALLBACK_delete(structstack_st_EX_CALLBACK*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "EX_CALLBACK"
+ , "c2" : "sk_EX_CALLBACK_delete_ptr(structstack_st_EX_CALLBACK*;EX_CALLBACK*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EX_CALLBACK_push(structstack_st_EX_CALLBACK*;EX_CALLBACK*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EX_CALLBACK_unshift(structstack_st_EX_CALLBACK*;EX_CALLBACK*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "EX_CALLBACK"
+ , "c2" : "sk_EX_CALLBACK_pop(structstack_st_EX_CALLBACK*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "EX_CALLBACK"
+ , "c2" : "sk_EX_CALLBACK_shift(structstack_st_EX_CALLBACK*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " void "
+ , "c2" : "sk_EX_CALLBACK_pop_free(structstack_st_EX_CALLBACK*;sk_EX_CALLBACK_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EX_CALLBACK_insert(structstack_st_EX_CALLBACK*;EX_CALLBACK*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "EX_CALLBACK"
+ , "c2" : "sk_EX_CALLBACK_set(structstack_st_EX_CALLBACK*;int;EX_CALLBACK*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EX_CALLBACK_find(structstack_st_EX_CALLBACK*;EX_CALLBACK*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EX_CALLBACK_find_ex(structstack_st_EX_CALLBACK*;EX_CALLBACK*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EX_CALLBACK_find_all(structstack_st_EX_CALLBACK*;EX_CALLBACK*;int*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " void "
+ , "c2" : "sk_EX_CALLBACK_sort(structstack_st_EX_CALLBACK*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EX_CALLBACK_is_sorted(structstack_st_EX_CALLBACK*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " struct stack_st_EX_CALLBACK"
+ , "c2" : "sk_EX_CALLBACK_dup(structstack_st_EX_CALLBACK*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " struct stack_st_EX_CALLBACK"
+ , "c2" : "sk_EX_CALLBACK_deep_copy(structstack_st_EX_CALLBACK*;sk_EX_CALLBACK_copyfunc;sk_EX_CALLBACK_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "sk_EX_CALLBACK_compfunc"
+ , "c2" : "sk_EX_CALLBACK_set_cmp_func(structstack_st_EX_CALLBACK*;sk_EX_CALLBACK_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_MEM_hfn_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_MEM_cfn_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_MEM_free(structlhash_st_MEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_MEM_flush(structlhash_st_MEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "MEM"
+ , "c2" : "lh_MEM_insert(structlhash_st_MEM*;MEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "MEM"
+ , "c2" : "lh_MEM_delete(structlhash_st_MEM*;MEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "MEM"
+ , "c2" : "lh_MEM_retrieve(structlhash_st_MEM*;MEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_MEM_error(structlhash_st_MEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_MEM_num_items(structlhash_st_MEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_MEM_get_down_load(structlhash_st_MEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_MEM_set_down_load(structlhash_st_MEM*;unsignedlong)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_MEM_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_MEM_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_MEM_doall(structlhash_st_MEM*;void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " struct lhash_st_MEM"
+ , "c2" : "lh_MEM_new(unsignedlong;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_MEM_doall_arg(structlhash_st_MEM*;void;void*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "CONF_VALUE"
+ , "c2" : "ossl_check_CONF_VALUE_type(CONF_VALUE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_CONF_VALUE_sk_type(structstack_st_CONF_VALUE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_CONF_VALUE_sk_type(structstack_st_CONF_VALUE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_CONF_VALUE_compfunc_type(sk_CONF_VALUE_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_CONF_VALUE_copyfunc_type(sk_CONF_VALUE_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_CONF_VALUE_freefunc_type(sk_CONF_VALUE_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_CONF_VALUE_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_CONF_VALUE_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_CONF_VALUE_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_CONF_VALUE_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "CONF_VALUE"
+ , "c2" : "ossl_check_CONF_VALUE_lh_plain_type(CONF_VALUE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "CONF_VALUE"
+ , "c2" : "ossl_check_const_CONF_VALUE_lh_plain_type(CONF_VALUE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_LHASH"
+ , "c2" : "ossl_check_const_CONF_VALUE_lh_type(structlhash_st_CONF_VALUE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_LHASH"
+ , "c2" : "ossl_check_CONF_VALUE_lh_type(structlhash_st_CONF_VALUE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_LH_COMPFUNC"
+ , "c2" : "ossl_check_CONF_VALUE_lh_compfunc_type(lh_CONF_VALUE_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_LH_HASHFUNC"
+ , "c2" : "ossl_check_CONF_VALUE_lh_hashfunc_type(lh_CONF_VALUE_hashfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "OPENSSL_LH_DOALL_FUNC"
+ , "c2" : "ossl_check_CONF_VALUE_lh_doallfunc_type(lh_CONF_VALUE_doallfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "CONF_METHOD"
+ , "c2" : "NCONF_default(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "CONF_METHOD"
+ , "c2" : "NCONF_WIN32(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "CONF"
+ , "c2" : "def_create(CONF_METHOD*)"
+ , "c3" : "3"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "def_init_default(CONF*)"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "def_init_WIN32(CONF*)"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "def_destroy(CONF*)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "def_destroy_data(CONF*)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "def_load(CONF*;char*;long*)"
+ , "c3" : "4"
+ , "c4" : "9"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "parsebool(char*;int*)"
+ , "c3" : "5"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "def_load_bio(CONF*;BIO*;long*)"
+ , "c3" : "75"
+ , "c4" : "179"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " void "
+ , "c2" : "clear_comments(CONF*;char*)"
+ , "c3" : "11"
+ , "c4" : "18"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "str_copy(CONF*;char*;char*;char*)"
+ , "c3" : "47"
+ , "c4" : "74"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "BIO"
+ , "c2" : "process_include(char*;OPENSSL_DIR_CTX*;char*)"
+ , "c3" : "5"
+ , "c4" : "10"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : "BIO"
+ , "c2" : "get_next_file(char*;OPENSSL_DIR_CTX*)"
+ , "c3" : "6"
+ , "c4" : "20"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "is_keytype(CONF*;char;unsignedshort)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " char "
+ , "c2" : "eat_ws(CONF*;char*)"
  , "c3" : "2"
  , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " void "
+ , "c2" : "trim_ws(CONF*;char*)"
+ , "c3" : "3"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " char "
+ , "c2" : "eat_alpha_numeric(CONF*;char*)"
+ , "c3" : "4"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " char "
+ , "c2" : "scan_quote(CONF*;char*)"
+ , "c3" : "5"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " char "
+ , "c2" : "scan_dquote(CONF*;char*)"
+ , "c3" : "6"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " void "
+ , "c2" : "dump_value_doall_arg(CONF_VALUE*;BIO*)"
+ , "c3" : "3"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_CONF_VALUE_doall_BIO_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_CONF_VALUE_doall_BIO(structlhash_st_CONF_VALUE*;void;BIO*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "def_dump(CONF*;BIO*)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "def_is_number(CONF*;char)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/conf/conf_def.c.html#1"
+ , "c1" : " int "
+ , "c2" : "def_to_int(CONF*;char)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ] 
 }} 
@@ -891,7 +2367,7 @@ var maDataBlocs = {
 "data03" : [
    {
 
- "ligneplantuml" : "./qc/crypto/conf/conf_err.c.svg" }
+ "ligneplantuml" : "./qc/crypto/conf/conf_def.c.svg" }
 
 ] 
 , 
@@ -925,9 +2401,30 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000001"
+ , "c3" : "Confusing use of the + unary expression"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000006"
+ , "c3" : "Risk of infinite while loop"
+ , "c4" : "10"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "3"
+ , "c4" : "41"
 }}
 ,
 { "ligne" : { "" : ""
@@ -939,51 +2436,968 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "32"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "15"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "27"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01198"
- , "c1link" : "./qc/crypto/conf/conf_err.c.html#1198"
+ , "c1" : "01039"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1039"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01198] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[01039] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "02229"
- , "c1link" : "./qc/crypto/conf/conf_err.c.html#2229"
+ , "c1" : "02667"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#2667"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02229] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[02667] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
- , "c1link" : "./qc/crypto/conf/conf_err.c.html#1"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00001] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
- , "c1link" : "./qc/crypto/conf/conf_err.c.html#1"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00001] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
- , "c1link" : "./qc/crypto/conf/conf_err.c.html#1"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 2&gt;1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer ret is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 'on' is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 'true' is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 'off' is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 'false' is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer s is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer end is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer tv is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer buf is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer start is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer psection is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer pname is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[00001] The condition of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[00001] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 512-1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression first_call applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 3 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer parent is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer next is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to read_retry"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to read_retry"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00001] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 32 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression again applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 8 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer ss is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to again"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer pval is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 'dollarid' is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 'abspath' is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 'includedir' is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer next is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[00001] The condition of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[00001] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 2048 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 16 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[00001] The condition of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[00001] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 128 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 1024 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 64 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 32 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000001[00001] The unary operator + should be avoided, confusing"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 8 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer s is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer e is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer rp is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer rrp is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer np is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer cp is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer buf is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[00001] The condition of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[00001] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 64 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 8 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 32 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 8 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 1024 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 8 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 32 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 8 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 8 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression q applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression ((2|4)|1|256) is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression ((2|4)|1|256) is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression q applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression  * p applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer next is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer filename is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer newpath is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer bio is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 16 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 8 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 16 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[00001] The condition of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[00001] The end expression of for loop is empty, infinite loop risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 32 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000001[00001] The unary operator + should be avoided, confusing"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 32 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 8 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/conf/conf_def.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression a-&gt;name applies to a single value or variable, might be ambiguous."
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/crypto/conf/conf_err.c.fct.svg" 
+   "fichierplantumlsvg" : "./qc/crypto/conf/conf_def.c.fct.svg" 
 
 , 
 }

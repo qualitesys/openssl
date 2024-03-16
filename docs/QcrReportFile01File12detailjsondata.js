@@ -805,8 +805,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02122"
- , "c5link" : "././qc/apps/ec.c.html#2122"
+ , "c5" : "02120"
+ , "c5link" : "././qc/apps/ec.c.html#2120"
  , "c1" : "OSSL_FUNC_self_test_cb_fn"
  , "c2" : "OSSL_FUNC_self_test_cb(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -814,8 +814,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02130"
- , "c5link" : "././qc/apps/ec.c.html#2130"
+ , "c5" : "02128"
+ , "c5link" : "././qc/apps/ec.c.html#2128"
  , "c1" : "OSSL_FUNC_get_entropy_fn"
  , "c2" : "OSSL_FUNC_get_entropy(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -823,8 +823,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02133"
- , "c5link" : "././qc/apps/ec.c.html#2133"
+ , "c5" : "02131"
+ , "c5link" : "././qc/apps/ec.c.html#2131"
+ , "c1" : "OSSL_FUNC_get_user_entropy_fn"
+ , "c2" : "OSSL_FUNC_get_user_entropy(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02134"
+ , "c5link" : "././qc/apps/ec.c.html#2134"
  , "c1" : "OSSL_FUNC_cleanup_entropy_fn"
  , "c2" : "OSSL_FUNC_cleanup_entropy(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -832,8 +841,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02135"
- , "c5link" : "././qc/apps/ec.c.html#2135"
+ , "c5" : "02136"
+ , "c5link" : "././qc/apps/ec.c.html#2136"
+ , "c1" : "OSSL_FUNC_cleanup_user_entropy_fn"
+ , "c2" : "OSSL_FUNC_cleanup_user_entropy(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02138"
+ , "c5link" : "././qc/apps/ec.c.html#2138"
  , "c1" : "OSSL_FUNC_get_nonce_fn"
  , "c2" : "OSSL_FUNC_get_nonce(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -841,8 +859,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02139"
- , "c5link" : "././qc/apps/ec.c.html#2139"
+ , "c5" : "02142"
+ , "c5link" : "././qc/apps/ec.c.html#2142"
+ , "c1" : "OSSL_FUNC_get_user_nonce_fn"
+ , "c2" : "OSSL_FUNC_get_user_nonce(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02146"
+ , "c5link" : "././qc/apps/ec.c.html#2146"
  , "c1" : "OSSL_FUNC_cleanup_nonce_fn"
  , "c2" : "OSSL_FUNC_cleanup_nonce(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -850,8 +877,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02141"
- , "c5link" : "././qc/apps/ec.c.html#2141"
+ , "c5" : "02148"
+ , "c5link" : "././qc/apps/ec.c.html#2148"
+ , "c1" : "OSSL_FUNC_cleanup_user_nonce_fn"
+ , "c2" : "OSSL_FUNC_cleanup_user_nonce(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02150"
+ , "c5link" : "././qc/apps/ec.c.html#2150"
  , "c1" : "OSSL_FUNC_provider_register_child_cb_fn"
  , "c2" : "OSSL_FUNC_provider_register_child_cb(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -859,8 +895,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02147"
- , "c5link" : "././qc/apps/ec.c.html#2147"
+ , "c5" : "02156"
+ , "c5link" : "././qc/apps/ec.c.html#2156"
  , "c1" : "OSSL_FUNC_provider_deregister_child_cb_fn"
  , "c2" : "OSSL_FUNC_provider_deregister_child_cb(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -868,8 +904,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02149"
- , "c5link" : "././qc/apps/ec.c.html#2149"
+ , "c5" : "02158"
+ , "c5link" : "././qc/apps/ec.c.html#2158"
  , "c1" : "OSSL_FUNC_provider_name_fn"
  , "c2" : "OSSL_FUNC_provider_name(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -877,8 +913,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02151"
- , "c5link" : "././qc/apps/ec.c.html#2151"
+ , "c5" : "02160"
+ , "c5link" : "././qc/apps/ec.c.html#2160"
  , "c1" : "OSSL_FUNC_provider_get0_provider_ctx_fn"
  , "c2" : "OSSL_FUNC_provider_get0_provider_ctx(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -886,8 +922,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02153"
- , "c5link" : "././qc/apps/ec.c.html#2153"
+ , "c5" : "02162"
+ , "c5link" : "././qc/apps/ec.c.html#2162"
  , "c1" : "OSSL_FUNC_provider_get0_dispatch_fn"
  , "c2" : "OSSL_FUNC_provider_get0_dispatch(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -895,8 +931,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02155"
- , "c5link" : "././qc/apps/ec.c.html#2155"
+ , "c5" : "02164"
+ , "c5link" : "././qc/apps/ec.c.html#2164"
  , "c1" : "OSSL_FUNC_provider_up_ref_fn"
  , "c2" : "OSSL_FUNC_provider_up_ref(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -904,8 +940,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02157"
- , "c5link" : "././qc/apps/ec.c.html#2157"
+ , "c5" : "02166"
+ , "c5link" : "././qc/apps/ec.c.html#2166"
  , "c1" : "OSSL_FUNC_provider_free_fn"
  , "c2" : "OSSL_FUNC_provider_free(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -913,8 +949,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02162"
- , "c5link" : "././qc/apps/ec.c.html#2162"
+ , "c5" : "02171"
+ , "c5link" : "././qc/apps/ec.c.html#2171"
  , "c1" : "OSSL_FUNC_provider_teardown_fn"
  , "c2" : "OSSL_FUNC_provider_teardown(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -922,8 +958,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02164"
- , "c5link" : "././qc/apps/ec.c.html#2164"
+ , "c5" : "02173"
+ , "c5link" : "././qc/apps/ec.c.html#2173"
  , "c1" : "OSSL_FUNC_provider_gettable_params_fn"
  , "c2" : "OSSL_FUNC_provider_gettable_params(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -931,8 +967,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02167"
- , "c5link" : "././qc/apps/ec.c.html#2167"
+ , "c5" : "02176"
+ , "c5link" : "././qc/apps/ec.c.html#2176"
  , "c1" : "OSSL_FUNC_provider_get_params_fn"
  , "c2" : "OSSL_FUNC_provider_get_params(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -940,8 +976,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02170"
- , "c5link" : "././qc/apps/ec.c.html#2170"
+ , "c5" : "02179"
+ , "c5link" : "././qc/apps/ec.c.html#2179"
  , "c1" : "OSSL_FUNC_provider_query_operation_fn"
  , "c2" : "OSSL_FUNC_provider_query_operation(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -949,8 +985,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02173"
- , "c5link" : "././qc/apps/ec.c.html#2173"
+ , "c5" : "02182"
+ , "c5link" : "././qc/apps/ec.c.html#2182"
  , "c1" : "OSSL_FUNC_provider_unquery_operation_fn"
  , "c2" : "OSSL_FUNC_provider_unquery_operation(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -958,8 +994,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02176"
- , "c5link" : "././qc/apps/ec.c.html#2176"
+ , "c5" : "02185"
+ , "c5link" : "././qc/apps/ec.c.html#2185"
  , "c1" : "OSSL_FUNC_provider_get_reason_strings_fn"
  , "c2" : "OSSL_FUNC_provider_get_reason_strings(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -967,8 +1003,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02179"
- , "c5link" : "././qc/apps/ec.c.html#2179"
+ , "c5" : "02188"
+ , "c5link" : "././qc/apps/ec.c.html#2188"
  , "c1" : "OSSL_FUNC_provider_get_capabilities_fn"
  , "c2" : "OSSL_FUNC_provider_get_capabilities(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -976,8 +1012,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02182"
- , "c5link" : "././qc/apps/ec.c.html#2182"
+ , "c5" : "02191"
+ , "c5link" : "././qc/apps/ec.c.html#2191"
  , "c1" : "OSSL_FUNC_provider_self_test_fn"
  , "c2" : "OSSL_FUNC_provider_self_test(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -985,8 +1021,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02184"
- , "c5link" : "././qc/apps/ec.c.html#2184"
+ , "c5" : "02193"
+ , "c5link" : "././qc/apps/ec.c.html#2193"
  , "c1" : "OSSL_FUNC_digest_newctx_fn"
  , "c2" : "OSSL_FUNC_digest_newctx(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -994,8 +1030,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02185"
- , "c5link" : "././qc/apps/ec.c.html#2185"
+ , "c5" : "02194"
+ , "c5link" : "././qc/apps/ec.c.html#2194"
  , "c1" : "OSSL_FUNC_digest_init_fn"
  , "c2" : "OSSL_FUNC_digest_init(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -1003,8 +1039,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02186"
- , "c5link" : "././qc/apps/ec.c.html#2186"
+ , "c5" : "02195"
+ , "c5link" : "././qc/apps/ec.c.html#2195"
  , "c1" : "OSSL_FUNC_digest_update_fn"
  , "c2" : "OSSL_FUNC_digest_update(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -1012,8 +1048,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02188"
- , "c5link" : "././qc/apps/ec.c.html#2188"
+ , "c5" : "02197"
+ , "c5link" : "././qc/apps/ec.c.html#2197"
  , "c1" : "OSSL_FUNC_digest_final_fn"
  , "c2" : "OSSL_FUNC_digest_final(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -1021,55 +1057,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02191"
- , "c5link" : "././qc/apps/ec.c.html#2191"
- , "c1" : "OSSL_FUNC_digest_digest_fn"
- , "c2" : "OSSL_FUNC_digest_digest(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02195"
- , "c5link" : "././qc/apps/ec.c.html#2195"
- , "c1" : "OSSL_FUNC_digest_freectx_fn"
- , "c2" : "OSSL_FUNC_digest_freectx(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02196"
- , "c5link" : "././qc/apps/ec.c.html#2196"
- , "c1" : "OSSL_FUNC_digest_dupctx_fn"
- , "c2" : "OSSL_FUNC_digest_dupctx(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02198"
- , "c5link" : "././qc/apps/ec.c.html#2198"
- , "c1" : "OSSL_FUNC_digest_get_params_fn"
- , "c2" : "OSSL_FUNC_digest_get_params(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02199"
- , "c5link" : "././qc/apps/ec.c.html#2199"
- , "c1" : "OSSL_FUNC_digest_set_ctx_params_fn"
- , "c2" : "OSSL_FUNC_digest_set_ctx_params(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02201"
- , "c5link" : "././qc/apps/ec.c.html#2201"
- , "c1" : "OSSL_FUNC_digest_get_ctx_params_fn"
- , "c2" : "OSSL_FUNC_digest_get_ctx_params(OSSL_DISPATCH*)"
+ , "c5" : "02200"
+ , "c5link" : "././qc/apps/ec.c.html#2200"
+ , "c1" : "OSSL_FUNC_digest_squeeze_fn"
+ , "c2" : "OSSL_FUNC_digest_squeeze(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1077,17 +1068,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02203"
  , "c5link" : "././qc/apps/ec.c.html#2203"
- , "c1" : "OSSL_FUNC_digest_gettable_params_fn"
- , "c2" : "OSSL_FUNC_digest_gettable_params(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02205"
- , "c5link" : "././qc/apps/ec.c.html#2205"
- , "c1" : "OSSL_FUNC_digest_settable_ctx_params_fn"
- , "c2" : "OSSL_FUNC_digest_settable_ctx_params(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_digest_digest_fn"
+ , "c2" : "OSSL_FUNC_digest_digest(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1095,17 +1077,17 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02207"
  , "c5link" : "././qc/apps/ec.c.html#2207"
- , "c1" : "OSSL_FUNC_digest_gettable_ctx_params_fn"
- , "c2" : "OSSL_FUNC_digest_gettable_ctx_params(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_digest_freectx_fn"
+ , "c2" : "OSSL_FUNC_digest_freectx(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02209"
- , "c5link" : "././qc/apps/ec.c.html#2209"
- , "c1" : "OSSL_FUNC_cipher_newctx_fn"
- , "c2" : "OSSL_FUNC_cipher_newctx(OSSL_DISPATCH*)"
+ , "c5" : "02208"
+ , "c5link" : "././qc/apps/ec.c.html#2208"
+ , "c1" : "OSSL_FUNC_digest_dupctx_fn"
+ , "c2" : "OSSL_FUNC_digest_dupctx(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1113,17 +1095,62 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02210"
  , "c5link" : "././qc/apps/ec.c.html#2210"
- , "c1" : "OSSL_FUNC_cipher_encrypt_init_fn"
- , "c2" : "OSSL_FUNC_cipher_encrypt_init(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_digest_get_params_fn"
+ , "c2" : "OSSL_FUNC_digest_get_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02216"
- , "c5link" : "././qc/apps/ec.c.html#2216"
- , "c1" : "OSSL_FUNC_cipher_decrypt_init_fn"
- , "c2" : "OSSL_FUNC_cipher_decrypt_init(OSSL_DISPATCH*)"
+ , "c5" : "02211"
+ , "c5link" : "././qc/apps/ec.c.html#2211"
+ , "c1" : "OSSL_FUNC_digest_set_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_digest_set_ctx_params(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02213"
+ , "c5link" : "././qc/apps/ec.c.html#2213"
+ , "c1" : "OSSL_FUNC_digest_get_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_digest_get_ctx_params(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02215"
+ , "c5link" : "././qc/apps/ec.c.html#2215"
+ , "c1" : "OSSL_FUNC_digest_gettable_params_fn"
+ , "c2" : "OSSL_FUNC_digest_gettable_params(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02217"
+ , "c5link" : "././qc/apps/ec.c.html#2217"
+ , "c1" : "OSSL_FUNC_digest_settable_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_digest_settable_ctx_params(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02219"
+ , "c5link" : "././qc/apps/ec.c.html#2219"
+ , "c1" : "OSSL_FUNC_digest_gettable_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_digest_gettable_ctx_params(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02221"
+ , "c5link" : "././qc/apps/ec.c.html#2221"
+ , "c1" : "OSSL_FUNC_cipher_newctx_fn"
+ , "c2" : "OSSL_FUNC_cipher_newctx(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1131,35 +1158,17 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02222"
  , "c5link" : "././qc/apps/ec.c.html#2222"
- , "c1" : "OSSL_FUNC_cipher_update_fn"
- , "c2" : "OSSL_FUNC_cipher_update(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_cipher_encrypt_init_fn"
+ , "c2" : "OSSL_FUNC_cipher_encrypt_init(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02226"
- , "c5link" : "././qc/apps/ec.c.html#2226"
- , "c1" : "OSSL_FUNC_cipher_final_fn"
- , "c2" : "OSSL_FUNC_cipher_final(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02229"
- , "c5link" : "././qc/apps/ec.c.html#2229"
- , "c1" : "OSSL_FUNC_cipher_cipher_fn"
- , "c2" : "OSSL_FUNC_cipher_cipher(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02233"
- , "c5link" : "././qc/apps/ec.c.html#2233"
- , "c1" : "OSSL_FUNC_cipher_freectx_fn"
- , "c2" : "OSSL_FUNC_cipher_freectx(OSSL_DISPATCH*)"
+ , "c5" : "02228"
+ , "c5link" : "././qc/apps/ec.c.html#2228"
+ , "c1" : "OSSL_FUNC_cipher_decrypt_init_fn"
+ , "c2" : "OSSL_FUNC_cipher_decrypt_init(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1167,26 +1176,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02234"
  , "c5link" : "././qc/apps/ec.c.html#2234"
- , "c1" : "OSSL_FUNC_cipher_dupctx_fn"
- , "c2" : "OSSL_FUNC_cipher_dupctx(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02235"
- , "c5link" : "././qc/apps/ec.c.html#2235"
- , "c1" : "OSSL_FUNC_cipher_get_params_fn"
- , "c2" : "OSSL_FUNC_cipher_get_params(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02236"
- , "c5link" : "././qc/apps/ec.c.html#2236"
- , "c1" : "OSSL_FUNC_cipher_get_ctx_params_fn"
- , "c2" : "OSSL_FUNC_cipher_get_ctx_params(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_cipher_update_fn"
+ , "c2" : "OSSL_FUNC_cipher_update(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1194,35 +1185,26 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02238"
  , "c5link" : "././qc/apps/ec.c.html#2238"
- , "c1" : "OSSL_FUNC_cipher_set_ctx_params_fn"
- , "c2" : "OSSL_FUNC_cipher_set_ctx_params(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_cipher_final_fn"
+ , "c2" : "OSSL_FUNC_cipher_final(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02240"
- , "c5link" : "././qc/apps/ec.c.html#2240"
- , "c1" : "OSSL_FUNC_cipher_gettable_params_fn"
- , "c2" : "OSSL_FUNC_cipher_gettable_params(OSSL_DISPATCH*)"
+ , "c5" : "02241"
+ , "c5link" : "././qc/apps/ec.c.html#2241"
+ , "c1" : "OSSL_FUNC_cipher_cipher_fn"
+ , "c2" : "OSSL_FUNC_cipher_cipher(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02242"
- , "c5link" : "././qc/apps/ec.c.html#2242"
- , "c1" : "OSSL_FUNC_cipher_settable_ctx_params_fn"
- , "c2" : "OSSL_FUNC_cipher_settable_ctx_params(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02244"
- , "c5link" : "././qc/apps/ec.c.html#2244"
- , "c1" : "OSSL_FUNC_cipher_gettable_ctx_params_fn"
- , "c2" : "OSSL_FUNC_cipher_gettable_ctx_params(OSSL_DISPATCH*)"
+ , "c5" : "02245"
+ , "c5link" : "././qc/apps/ec.c.html#2245"
+ , "c1" : "OSSL_FUNC_cipher_freectx_fn"
+ , "c2" : "OSSL_FUNC_cipher_freectx(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1230,8 +1212,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02246"
  , "c5link" : "././qc/apps/ec.c.html#2246"
- , "c1" : "OSSL_FUNC_mac_newctx_fn"
- , "c2" : "OSSL_FUNC_mac_newctx(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_cipher_dupctx_fn"
+ , "c2" : "OSSL_FUNC_cipher_dupctx(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1239,8 +1221,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02247"
  , "c5link" : "././qc/apps/ec.c.html#2247"
- , "c1" : "OSSL_FUNC_mac_dupctx_fn"
- , "c2" : "OSSL_FUNC_mac_dupctx(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_cipher_get_params_fn"
+ , "c2" : "OSSL_FUNC_cipher_get_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1248,35 +1230,35 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02248"
  , "c5link" : "././qc/apps/ec.c.html#2248"
- , "c1" : "OSSL_FUNC_mac_freectx_fn"
- , "c2" : "OSSL_FUNC_mac_freectx(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_cipher_get_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_cipher_get_ctx_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02249"
- , "c5link" : "././qc/apps/ec.c.html#2249"
- , "c1" : "OSSL_FUNC_mac_init_fn"
- , "c2" : "OSSL_FUNC_mac_init(OSSL_DISPATCH*)"
+ , "c5" : "02250"
+ , "c5link" : "././qc/apps/ec.c.html#2250"
+ , "c1" : "OSSL_FUNC_cipher_set_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_cipher_set_ctx_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02251"
- , "c5link" : "././qc/apps/ec.c.html#2251"
- , "c1" : "OSSL_FUNC_mac_update_fn"
- , "c2" : "OSSL_FUNC_mac_update(OSSL_DISPATCH*)"
+ , "c5" : "02252"
+ , "c5link" : "././qc/apps/ec.c.html#2252"
+ , "c1" : "OSSL_FUNC_cipher_gettable_params_fn"
+ , "c2" : "OSSL_FUNC_cipher_gettable_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02253"
- , "c5link" : "././qc/apps/ec.c.html#2253"
- , "c1" : "OSSL_FUNC_mac_final_fn"
- , "c2" : "OSSL_FUNC_mac_final(OSSL_DISPATCH*)"
+ , "c5" : "02254"
+ , "c5link" : "././qc/apps/ec.c.html#2254"
+ , "c1" : "OSSL_FUNC_cipher_settable_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_cipher_settable_ctx_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1284,17 +1266,17 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02256"
  , "c5link" : "././qc/apps/ec.c.html#2256"
- , "c1" : "OSSL_FUNC_mac_gettable_params_fn"
- , "c2" : "OSSL_FUNC_mac_gettable_params(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_cipher_gettable_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_cipher_gettable_ctx_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02257"
- , "c5link" : "././qc/apps/ec.c.html#2257"
- , "c1" : "OSSL_FUNC_mac_gettable_ctx_params_fn"
- , "c2" : "OSSL_FUNC_mac_gettable_ctx_params(OSSL_DISPATCH*)"
+ , "c5" : "02258"
+ , "c5link" : "././qc/apps/ec.c.html#2258"
+ , "c1" : "OSSL_FUNC_mac_newctx_fn"
+ , "c2" : "OSSL_FUNC_mac_newctx(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1302,8 +1284,17 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02259"
  , "c5link" : "././qc/apps/ec.c.html#2259"
- , "c1" : "OSSL_FUNC_mac_settable_ctx_params_fn"
- , "c2" : "OSSL_FUNC_mac_settable_ctx_params(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_mac_dupctx_fn"
+ , "c2" : "OSSL_FUNC_mac_dupctx(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02260"
+ , "c5link" : "././qc/apps/ec.c.html#2260"
+ , "c1" : "OSSL_FUNC_mac_freectx_fn"
+ , "c2" : "OSSL_FUNC_mac_freectx(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1311,44 +1302,26 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02261"
  , "c5link" : "././qc/apps/ec.c.html#2261"
- , "c1" : "OSSL_FUNC_mac_get_params_fn"
- , "c2" : "OSSL_FUNC_mac_get_params(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_mac_init_fn"
+ , "c2" : "OSSL_FUNC_mac_init(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02262"
- , "c5link" : "././qc/apps/ec.c.html#2262"
- , "c1" : "OSSL_FUNC_mac_get_ctx_params_fn"
- , "c2" : "OSSL_FUNC_mac_get_ctx_params(OSSL_DISPATCH*)"
+ , "c5" : "02263"
+ , "c5link" : "././qc/apps/ec.c.html#2263"
+ , "c1" : "OSSL_FUNC_mac_update_fn"
+ , "c2" : "OSSL_FUNC_mac_update(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02264"
- , "c5link" : "././qc/apps/ec.c.html#2264"
- , "c1" : "OSSL_FUNC_mac_set_ctx_params_fn"
- , "c2" : "OSSL_FUNC_mac_set_ctx_params(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02266"
- , "c5link" : "././qc/apps/ec.c.html#2266"
- , "c1" : "OSSL_FUNC_kdf_newctx_fn"
- , "c2" : "OSSL_FUNC_kdf_newctx(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02267"
- , "c5link" : "././qc/apps/ec.c.html#2267"
- , "c1" : "OSSL_FUNC_kdf_dupctx_fn"
- , "c2" : "OSSL_FUNC_kdf_dupctx(OSSL_DISPATCH*)"
+ , "c5" : "02265"
+ , "c5link" : "././qc/apps/ec.c.html#2265"
+ , "c1" : "OSSL_FUNC_mac_final_fn"
+ , "c2" : "OSSL_FUNC_mac_final(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1356,8 +1329,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02268"
  , "c5link" : "././qc/apps/ec.c.html#2268"
- , "c1" : "OSSL_FUNC_kdf_freectx_fn"
- , "c2" : "OSSL_FUNC_kdf_freectx(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_mac_gettable_params_fn"
+ , "c2" : "OSSL_FUNC_mac_gettable_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1365,26 +1338,17 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02269"
  , "c5link" : "././qc/apps/ec.c.html#2269"
- , "c1" : "OSSL_FUNC_kdf_reset_fn"
- , "c2" : "OSSL_FUNC_kdf_reset(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_mac_gettable_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_mac_gettable_ctx_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02270"
- , "c5link" : "././qc/apps/ec.c.html#2270"
- , "c1" : "OSSL_FUNC_kdf_derive_fn"
- , "c2" : "OSSL_FUNC_kdf_derive(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02272"
- , "c5link" : "././qc/apps/ec.c.html#2272"
- , "c1" : "OSSL_FUNC_kdf_gettable_params_fn"
- , "c2" : "OSSL_FUNC_kdf_gettable_params(OSSL_DISPATCH*)"
+ , "c5" : "02271"
+ , "c5link" : "././qc/apps/ec.c.html#2271"
+ , "c1" : "OSSL_FUNC_mac_settable_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_mac_settable_ctx_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1392,26 +1356,26 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02273"
  , "c5link" : "././qc/apps/ec.c.html#2273"
- , "c1" : "OSSL_FUNC_kdf_gettable_ctx_params_fn"
- , "c2" : "OSSL_FUNC_kdf_gettable_ctx_params(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_mac_get_params_fn"
+ , "c2" : "OSSL_FUNC_mac_get_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02275"
- , "c5link" : "././qc/apps/ec.c.html#2275"
- , "c1" : "OSSL_FUNC_kdf_settable_ctx_params_fn"
- , "c2" : "OSSL_FUNC_kdf_settable_ctx_params(OSSL_DISPATCH*)"
+ , "c5" : "02274"
+ , "c5link" : "././qc/apps/ec.c.html#2274"
+ , "c1" : "OSSL_FUNC_mac_get_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_mac_get_ctx_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02277"
- , "c5link" : "././qc/apps/ec.c.html#2277"
- , "c1" : "OSSL_FUNC_kdf_get_params_fn"
- , "c2" : "OSSL_FUNC_kdf_get_params(OSSL_DISPATCH*)"
+ , "c5" : "02276"
+ , "c5link" : "././qc/apps/ec.c.html#2276"
+ , "c1" : "OSSL_FUNC_mac_set_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_mac_set_ctx_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1419,8 +1383,17 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02278"
  , "c5link" : "././qc/apps/ec.c.html#2278"
- , "c1" : "OSSL_FUNC_kdf_get_ctx_params_fn"
- , "c2" : "OSSL_FUNC_kdf_get_ctx_params(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_kdf_newctx_fn"
+ , "c2" : "OSSL_FUNC_kdf_newctx(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02279"
+ , "c5link" : "././qc/apps/ec.c.html#2279"
+ , "c1" : "OSSL_FUNC_kdf_dupctx_fn"
+ , "c2" : "OSSL_FUNC_kdf_dupctx(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1428,8 +1401,17 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02280"
  , "c5link" : "././qc/apps/ec.c.html#2280"
- , "c1" : "OSSL_FUNC_kdf_set_ctx_params_fn"
- , "c2" : "OSSL_FUNC_kdf_set_ctx_params(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_kdf_freectx_fn"
+ , "c2" : "OSSL_FUNC_kdf_freectx(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02281"
+ , "c5link" : "././qc/apps/ec.c.html#2281"
+ , "c1" : "OSSL_FUNC_kdf_reset_fn"
+ , "c2" : "OSSL_FUNC_kdf_reset(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1437,8 +1419,17 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02282"
  , "c5link" : "././qc/apps/ec.c.html#2282"
- , "c1" : "OSSL_FUNC_rand_newctx_fn"
- , "c2" : "OSSL_FUNC_rand_newctx(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_kdf_derive_fn"
+ , "c2" : "OSSL_FUNC_kdf_derive(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02284"
+ , "c5link" : "././qc/apps/ec.c.html#2284"
+ , "c1" : "OSSL_FUNC_kdf_gettable_params_fn"
+ , "c2" : "OSSL_FUNC_kdf_gettable_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1446,26 +1437,35 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02285"
  , "c5link" : "././qc/apps/ec.c.html#2285"
- , "c1" : "OSSL_FUNC_rand_freectx_fn"
- , "c2" : "OSSL_FUNC_rand_freectx(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_kdf_gettable_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_kdf_gettable_ctx_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02286"
- , "c5link" : "././qc/apps/ec.c.html#2286"
- , "c1" : "OSSL_FUNC_rand_instantiate_fn"
- , "c2" : "OSSL_FUNC_rand_instantiate(OSSL_DISPATCH*)"
+ , "c5" : "02287"
+ , "c5link" : "././qc/apps/ec.c.html#2287"
+ , "c1" : "OSSL_FUNC_kdf_settable_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_kdf_settable_ctx_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02291"
- , "c5link" : "././qc/apps/ec.c.html#2291"
- , "c1" : "OSSL_FUNC_rand_uninstantiate_fn"
- , "c2" : "OSSL_FUNC_rand_uninstantiate(OSSL_DISPATCH*)"
+ , "c5" : "02289"
+ , "c5link" : "././qc/apps/ec.c.html#2289"
+ , "c1" : "OSSL_FUNC_kdf_get_params_fn"
+ , "c2" : "OSSL_FUNC_kdf_get_params(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02290"
+ , "c5link" : "././qc/apps/ec.c.html#2290"
+ , "c1" : "OSSL_FUNC_kdf_get_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_kdf_get_ctx_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1473,26 +1473,35 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02292"
  , "c5link" : "././qc/apps/ec.c.html#2292"
- , "c1" : "OSSL_FUNC_rand_generate_fn"
- , "c2" : "OSSL_FUNC_rand_generate(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_kdf_set_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_kdf_set_ctx_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02296"
- , "c5link" : "././qc/apps/ec.c.html#2296"
- , "c1" : "OSSL_FUNC_rand_reseed_fn"
- , "c2" : "OSSL_FUNC_rand_reseed(OSSL_DISPATCH*)"
+ , "c5" : "02294"
+ , "c5link" : "././qc/apps/ec.c.html#2294"
+ , "c1" : "OSSL_FUNC_rand_newctx_fn"
+ , "c2" : "OSSL_FUNC_rand_newctx(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02300"
- , "c5link" : "././qc/apps/ec.c.html#2300"
- , "c1" : "OSSL_FUNC_rand_nonce_fn"
- , "c2" : "OSSL_FUNC_rand_nonce(OSSL_DISPATCH*)"
+ , "c5" : "02297"
+ , "c5link" : "././qc/apps/ec.c.html#2297"
+ , "c1" : "OSSL_FUNC_rand_freectx_fn"
+ , "c2" : "OSSL_FUNC_rand_freectx(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02298"
+ , "c5link" : "././qc/apps/ec.c.html#2298"
+ , "c1" : "OSSL_FUNC_rand_instantiate_fn"
+ , "c2" : "OSSL_FUNC_rand_instantiate(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1500,8 +1509,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02303"
  , "c5link" : "././qc/apps/ec.c.html#2303"
- , "c1" : "OSSL_FUNC_rand_enable_locking_fn"
- , "c2" : "OSSL_FUNC_rand_enable_locking(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_rand_uninstantiate_fn"
+ , "c2" : "OSSL_FUNC_rand_uninstantiate(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1509,53 +1518,17 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02304"
  , "c5link" : "././qc/apps/ec.c.html#2304"
- , "c1" : "OSSL_FUNC_rand_lock_fn"
- , "c2" : "OSSL_FUNC_rand_lock(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_rand_generate_fn"
+ , "c2" : "OSSL_FUNC_rand_generate(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02305"
- , "c5link" : "././qc/apps/ec.c.html#2305"
- , "c1" : "OSSL_FUNC_rand_unlock_fn"
- , "c2" : "OSSL_FUNC_rand_unlock(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02306"
- , "c5link" : "././qc/apps/ec.c.html#2306"
- , "c1" : "OSSL_FUNC_rand_gettable_params_fn"
- , "c2" : "OSSL_FUNC_rand_gettable_params(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02307"
- , "c5link" : "././qc/apps/ec.c.html#2307"
- , "c1" : "OSSL_FUNC_rand_gettable_ctx_params_fn"
- , "c2" : "OSSL_FUNC_rand_gettable_ctx_params(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02309"
- , "c5link" : "././qc/apps/ec.c.html#2309"
- , "c1" : "OSSL_FUNC_rand_settable_ctx_params_fn"
- , "c2" : "OSSL_FUNC_rand_settable_ctx_params(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02311"
- , "c5link" : "././qc/apps/ec.c.html#2311"
- , "c1" : "OSSL_FUNC_rand_get_params_fn"
- , "c2" : "OSSL_FUNC_rand_get_params(OSSL_DISPATCH*)"
+ , "c5" : "02308"
+ , "c5link" : "././qc/apps/ec.c.html#2308"
+ , "c1" : "OSSL_FUNC_rand_reseed_fn"
+ , "c2" : "OSSL_FUNC_rand_reseed(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1563,17 +1536,17 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02312"
  , "c5link" : "././qc/apps/ec.c.html#2312"
- , "c1" : "OSSL_FUNC_rand_get_ctx_params_fn"
- , "c2" : "OSSL_FUNC_rand_get_ctx_params(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_rand_nonce_fn"
+ , "c2" : "OSSL_FUNC_rand_nonce(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02314"
- , "c5link" : "././qc/apps/ec.c.html#2314"
- , "c1" : "OSSL_FUNC_rand_set_ctx_params_fn"
- , "c2" : "OSSL_FUNC_rand_set_ctx_params(OSSL_DISPATCH*)"
+ , "c5" : "02315"
+ , "c5link" : "././qc/apps/ec.c.html#2315"
+ , "c1" : "OSSL_FUNC_rand_enable_locking_fn"
+ , "c2" : "OSSL_FUNC_rand_enable_locking(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1581,8 +1554,35 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02316"
  , "c5link" : "././qc/apps/ec.c.html#2316"
- , "c1" : "OSSL_FUNC_rand_set_callbacks_fn"
- , "c2" : "OSSL_FUNC_rand_set_callbacks(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_rand_lock_fn"
+ , "c2" : "OSSL_FUNC_rand_lock(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02317"
+ , "c5link" : "././qc/apps/ec.c.html#2317"
+ , "c1" : "OSSL_FUNC_rand_unlock_fn"
+ , "c2" : "OSSL_FUNC_rand_unlock(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02318"
+ , "c5link" : "././qc/apps/ec.c.html#2318"
+ , "c1" : "OSSL_FUNC_rand_gettable_params_fn"
+ , "c2" : "OSSL_FUNC_rand_gettable_params(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02319"
+ , "c5link" : "././qc/apps/ec.c.html#2319"
+ , "c1" : "OSSL_FUNC_rand_gettable_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_rand_gettable_ctx_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1590,8 +1590,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02321"
  , "c5link" : "././qc/apps/ec.c.html#2321"
- , "c1" : "OSSL_FUNC_rand_verify_zeroization_fn"
- , "c2" : "OSSL_FUNC_rand_verify_zeroization(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_rand_settable_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_rand_settable_ctx_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1599,8 +1599,26 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02323"
  , "c5link" : "././qc/apps/ec.c.html#2323"
- , "c1" : "OSSL_FUNC_rand_get_seed_fn"
- , "c2" : "OSSL_FUNC_rand_get_seed(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_rand_get_params_fn"
+ , "c2" : "OSSL_FUNC_rand_get_params(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02324"
+ , "c5link" : "././qc/apps/ec.c.html#2324"
+ , "c1" : "OSSL_FUNC_rand_get_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_rand_get_ctx_params(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02326"
+ , "c5link" : "././qc/apps/ec.c.html#2326"
+ , "c1" : "OSSL_FUNC_rand_set_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_rand_set_ctx_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1608,6 +1626,33 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02328"
  , "c5link" : "././qc/apps/ec.c.html#2328"
+ , "c1" : "OSSL_FUNC_rand_set_callbacks_fn"
+ , "c2" : "OSSL_FUNC_rand_set_callbacks(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02333"
+ , "c5link" : "././qc/apps/ec.c.html#2333"
+ , "c1" : "OSSL_FUNC_rand_verify_zeroization_fn"
+ , "c2" : "OSSL_FUNC_rand_verify_zeroization(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02335"
+ , "c5link" : "././qc/apps/ec.c.html#2335"
+ , "c1" : "OSSL_FUNC_rand_get_seed_fn"
+ , "c2" : "OSSL_FUNC_rand_get_seed(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02340"
+ , "c5link" : "././qc/apps/ec.c.html#2340"
  , "c1" : "OSSL_FUNC_rand_clear_seed_fn"
  , "c2" : "OSSL_FUNC_rand_clear_seed(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -1615,8 +1660,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02330"
- , "c5link" : "././qc/apps/ec.c.html#2330"
+ , "c5" : "02342"
+ , "c5link" : "././qc/apps/ec.c.html#2342"
  , "c1" : "OSSL_FUNC_keymgmt_new_fn"
  , "c2" : "OSSL_FUNC_keymgmt_new(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -1624,8 +1669,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02332"
- , "c5link" : "././qc/apps/ec.c.html#2332"
+ , "c5" : "02344"
+ , "c5link" : "././qc/apps/ec.c.html#2344"
  , "c1" : "OSSL_FUNC_keymgmt_gen_init_fn"
  , "c2" : "OSSL_FUNC_keymgmt_gen_init(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -1633,8 +1678,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02334"
- , "c5link" : "././qc/apps/ec.c.html#2334"
+ , "c5" : "02346"
+ , "c5link" : "././qc/apps/ec.c.html#2346"
  , "c1" : "OSSL_FUNC_keymgmt_gen_set_template_fn"
  , "c2" : "OSSL_FUNC_keymgmt_gen_set_template(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -1642,8 +1687,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02336"
- , "c5link" : "././qc/apps/ec.c.html#2336"
+ , "c5" : "02348"
+ , "c5link" : "././qc/apps/ec.c.html#2348"
  , "c1" : "OSSL_FUNC_keymgmt_gen_set_params_fn"
  , "c2" : "OSSL_FUNC_keymgmt_gen_set_params(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -1651,8 +1696,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02338"
- , "c5link" : "././qc/apps/ec.c.html#2338"
+ , "c5" : "02350"
+ , "c5link" : "././qc/apps/ec.c.html#2350"
  , "c1" : "OSSL_FUNC_keymgmt_gen_settable_params_fn"
  , "c2" : "OSSL_FUNC_keymgmt_gen_settable_params(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -1660,8 +1705,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02341"
- , "c5link" : "././qc/apps/ec.c.html#2341"
+ , "c5" : "02353"
+ , "c5link" : "././qc/apps/ec.c.html#2353"
  , "c1" : "OSSL_FUNC_keymgmt_gen_fn"
  , "c2" : "OSSL_FUNC_keymgmt_gen(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -1669,8 +1714,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02343"
- , "c5link" : "././qc/apps/ec.c.html#2343"
+ , "c5" : "02355"
+ , "c5link" : "././qc/apps/ec.c.html#2355"
  , "c1" : "OSSL_FUNC_keymgmt_gen_cleanup_fn"
  , "c2" : "OSSL_FUNC_keymgmt_gen_cleanup(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -1678,8 +1723,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02347"
- , "c5link" : "././qc/apps/ec.c.html#2347"
+ , "c5" : "02359"
+ , "c5link" : "././qc/apps/ec.c.html#2359"
  , "c1" : "OSSL_FUNC_keymgmt_load_fn"
  , "c2" : "OSSL_FUNC_keymgmt_load(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -1687,8 +1732,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02352"
- , "c5link" : "././qc/apps/ec.c.html#2352"
+ , "c5" : "02364"
+ , "c5link" : "././qc/apps/ec.c.html#2364"
  , "c1" : "OSSL_FUNC_keymgmt_free_fn"
  , "c2" : "OSSL_FUNC_keymgmt_free(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -1696,8 +1741,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02357"
- , "c5link" : "././qc/apps/ec.c.html#2357"
+ , "c5" : "02369"
+ , "c5link" : "././qc/apps/ec.c.html#2369"
  , "c1" : "OSSL_FUNC_keymgmt_get_params_fn"
  , "c2" : "OSSL_FUNC_keymgmt_get_params(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -1705,8 +1750,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02359"
- , "c5link" : "././qc/apps/ec.c.html#2359"
+ , "c5" : "02371"
+ , "c5link" : "././qc/apps/ec.c.html#2371"
  , "c1" : "OSSL_FUNC_keymgmt_gettable_params_fn"
  , "c2" : "OSSL_FUNC_keymgmt_gettable_params(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -1714,8 +1759,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02364"
- , "c5link" : "././qc/apps/ec.c.html#2364"
+ , "c5" : "02376"
+ , "c5link" : "././qc/apps/ec.c.html#2376"
  , "c1" : "OSSL_FUNC_keymgmt_set_params_fn"
  , "c2" : "OSSL_FUNC_keymgmt_set_params(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -1723,8 +1768,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02366"
- , "c5link" : "././qc/apps/ec.c.html#2366"
+ , "c5" : "02378"
+ , "c5link" : "././qc/apps/ec.c.html#2378"
  , "c1" : "OSSL_FUNC_keymgmt_settable_params_fn"
  , "c2" : "OSSL_FUNC_keymgmt_settable_params(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -1732,8 +1777,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02371"
- , "c5link" : "././qc/apps/ec.c.html#2371"
+ , "c5" : "02383"
+ , "c5link" : "././qc/apps/ec.c.html#2383"
  , "c1" : "OSSL_FUNC_keymgmt_query_operation_name_fn"
  , "c2" : "OSSL_FUNC_keymgmt_query_operation_name(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -1741,8 +1786,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02376"
- , "c5link" : "././qc/apps/ec.c.html#2376"
+ , "c5" : "02388"
+ , "c5link" : "././qc/apps/ec.c.html#2388"
  , "c1" : "OSSL_FUNC_keymgmt_has_fn"
  , "c2" : "OSSL_FUNC_keymgmt_has(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -1750,8 +1795,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02380"
- , "c5link" : "././qc/apps/ec.c.html#2380"
+ , "c5" : "02392"
+ , "c5link" : "././qc/apps/ec.c.html#2392"
  , "c1" : "OSSL_FUNC_keymgmt_validate_fn"
  , "c2" : "OSSL_FUNC_keymgmt_validate(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -1759,8 +1804,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02385"
- , "c5link" : "././qc/apps/ec.c.html#2385"
+ , "c5" : "02397"
+ , "c5link" : "././qc/apps/ec.c.html#2397"
  , "c1" : "OSSL_FUNC_keymgmt_match_fn"
  , "c2" : "OSSL_FUNC_keymgmt_match(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -1768,8 +1813,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02387"
- , "c5link" : "././qc/apps/ec.c.html#2387"
+ , "c5" : "02399"
+ , "c5link" : "././qc/apps/ec.c.html#2399"
  , "c1" : "OSSL_FUNC_keymgmt_import_fn"
  , "c2" : "OSSL_FUNC_keymgmt_import(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -1777,8 +1822,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02389"
- , "c5link" : "././qc/apps/ec.c.html#2389"
+ , "c5" : "02401"
+ , "c5link" : "././qc/apps/ec.c.html#2401"
  , "c1" : "OSSL_FUNC_keymgmt_import_types_fn"
  , "c2" : "OSSL_FUNC_keymgmt_import_types(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -1786,8 +1831,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02391"
- , "c5link" : "././qc/apps/ec.c.html#2391"
+ , "c5" : "02403"
+ , "c5link" : "././qc/apps/ec.c.html#2403"
  , "c1" : "OSSL_FUNC_keymgmt_export_fn"
  , "c2" : "OSSL_FUNC_keymgmt_export(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -1795,8 +1840,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02394"
- , "c5link" : "././qc/apps/ec.c.html#2394"
+ , "c5" : "02406"
+ , "c5link" : "././qc/apps/ec.c.html#2406"
  , "c1" : "OSSL_FUNC_keymgmt_export_types_fn"
  , "c2" : "OSSL_FUNC_keymgmt_export_types(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -1804,8 +1849,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02399"
- , "c5link" : "././qc/apps/ec.c.html#2399"
+ , "c5" : "02411"
+ , "c5link" : "././qc/apps/ec.c.html#2411"
  , "c1" : "OSSL_FUNC_keymgmt_dup_fn"
  , "c2" : "OSSL_FUNC_keymgmt_dup(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -1813,100 +1858,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02401"
- , "c5link" : "././qc/apps/ec.c.html#2401"
- , "c1" : "OSSL_FUNC_keyexch_newctx_fn"
- , "c2" : "OSSL_FUNC_keyexch_newctx(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02402"
- , "c5link" : "././qc/apps/ec.c.html#2402"
- , "c1" : "OSSL_FUNC_keyexch_init_fn"
- , "c2" : "OSSL_FUNC_keyexch_init(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02404"
- , "c5link" : "././qc/apps/ec.c.html#2404"
- , "c1" : "OSSL_FUNC_keyexch_derive_fn"
- , "c2" : "OSSL_FUNC_keyexch_derive(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02406"
- , "c5link" : "././qc/apps/ec.c.html#2406"
- , "c1" : "OSSL_FUNC_keyexch_set_peer_fn"
- , "c2" : "OSSL_FUNC_keyexch_set_peer(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02407"
- , "c5link" : "././qc/apps/ec.c.html#2407"
- , "c1" : "OSSL_FUNC_keyexch_freectx_fn"
- , "c2" : "OSSL_FUNC_keyexch_freectx(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02408"
- , "c5link" : "././qc/apps/ec.c.html#2408"
- , "c1" : "OSSL_FUNC_keyexch_dupctx_fn"
- , "c2" : "OSSL_FUNC_keyexch_dupctx(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02409"
- , "c5link" : "././qc/apps/ec.c.html#2409"
- , "c1" : "OSSL_FUNC_keyexch_set_ctx_params_fn"
- , "c2" : "OSSL_FUNC_keyexch_set_ctx_params(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02411"
- , "c5link" : "././qc/apps/ec.c.html#2411"
- , "c1" : "OSSL_FUNC_keyexch_settable_ctx_params_fn"
- , "c2" : "OSSL_FUNC_keyexch_settable_ctx_params(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02413"
- , "c5link" : "././qc/apps/ec.c.html#2413"
- , "c1" : "OSSL_FUNC_keyexch_get_ctx_params_fn"
- , "c2" : "OSSL_FUNC_keyexch_get_ctx_params(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02415"
- , "c5link" : "././qc/apps/ec.c.html#2415"
- , "c1" : "OSSL_FUNC_keyexch_gettable_ctx_params_fn"
- , "c2" : "OSSL_FUNC_keyexch_gettable_ctx_params(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
  , "c5" : "02417"
  , "c5link" : "././qc/apps/ec.c.html#2417"
- , "c1" : "OSSL_FUNC_signature_newctx_fn"
- , "c2" : "OSSL_FUNC_signature_newctx(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_keymgmt_import_types_ex_fn"
+ , "c2" : "OSSL_FUNC_keymgmt_import_types_ex(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1914,8 +1869,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02419"
  , "c5link" : "././qc/apps/ec.c.html#2419"
- , "c1" : "OSSL_FUNC_signature_sign_init_fn"
- , "c2" : "OSSL_FUNC_signature_sign_init(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_keymgmt_export_types_ex_fn"
+ , "c2" : "OSSL_FUNC_keymgmt_export_types_ex(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1923,17 +1878,35 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02421"
  , "c5link" : "././qc/apps/ec.c.html#2421"
- , "c1" : "OSSL_FUNC_signature_sign_fn"
- , "c2" : "OSSL_FUNC_signature_sign(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_keyexch_newctx_fn"
+ , "c2" : "OSSL_FUNC_keyexch_newctx(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02425"
- , "c5link" : "././qc/apps/ec.c.html#2425"
- , "c1" : "OSSL_FUNC_signature_verify_init_fn"
- , "c2" : "OSSL_FUNC_signature_verify_init(OSSL_DISPATCH*)"
+ , "c5" : "02422"
+ , "c5link" : "././qc/apps/ec.c.html#2422"
+ , "c1" : "OSSL_FUNC_keyexch_init_fn"
+ , "c2" : "OSSL_FUNC_keyexch_init(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02424"
+ , "c5link" : "././qc/apps/ec.c.html#2424"
+ , "c1" : "OSSL_FUNC_keyexch_derive_fn"
+ , "c2" : "OSSL_FUNC_keyexch_derive(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02426"
+ , "c5link" : "././qc/apps/ec.c.html#2426"
+ , "c1" : "OSSL_FUNC_keyexch_set_peer_fn"
+ , "c2" : "OSSL_FUNC_keyexch_set_peer(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1941,26 +1914,53 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02427"
  , "c5link" : "././qc/apps/ec.c.html#2427"
- , "c1" : "OSSL_FUNC_signature_verify_fn"
- , "c2" : "OSSL_FUNC_signature_verify(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_keyexch_freectx_fn"
+ , "c2" : "OSSL_FUNC_keyexch_freectx(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02432"
- , "c5link" : "././qc/apps/ec.c.html#2432"
- , "c1" : "OSSL_FUNC_signature_verify_recover_init_fn"
- , "c2" : "OSSL_FUNC_signature_verify_recover_init(OSSL_DISPATCH*)"
+ , "c5" : "02428"
+ , "c5link" : "././qc/apps/ec.c.html#2428"
+ , "c1" : "OSSL_FUNC_keyexch_dupctx_fn"
+ , "c2" : "OSSL_FUNC_keyexch_dupctx(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02434"
- , "c5link" : "././qc/apps/ec.c.html#2434"
- , "c1" : "OSSL_FUNC_signature_verify_recover_fn"
- , "c2" : "OSSL_FUNC_signature_verify_recover(OSSL_DISPATCH*)"
+ , "c5" : "02429"
+ , "c5link" : "././qc/apps/ec.c.html#2429"
+ , "c1" : "OSSL_FUNC_keyexch_set_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_keyexch_set_ctx_params(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02431"
+ , "c5link" : "././qc/apps/ec.c.html#2431"
+ , "c1" : "OSSL_FUNC_keyexch_settable_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_keyexch_settable_ctx_params(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02433"
+ , "c5link" : "././qc/apps/ec.c.html#2433"
+ , "c1" : "OSSL_FUNC_keyexch_get_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_keyexch_get_ctx_params(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02435"
+ , "c5link" : "././qc/apps/ec.c.html#2435"
+ , "c1" : "OSSL_FUNC_keyexch_gettable_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_keyexch_gettable_ctx_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1968,26 +1968,26 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02437"
  , "c5link" : "././qc/apps/ec.c.html#2437"
- , "c1" : "OSSL_FUNC_signature_digest_sign_init_fn"
- , "c2" : "OSSL_FUNC_signature_digest_sign_init(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_signature_newctx_fn"
+ , "c2" : "OSSL_FUNC_signature_newctx(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02440"
- , "c5link" : "././qc/apps/ec.c.html#2440"
- , "c1" : "OSSL_FUNC_signature_digest_sign_update_fn"
- , "c2" : "OSSL_FUNC_signature_digest_sign_update(OSSL_DISPATCH*)"
+ , "c5" : "02439"
+ , "c5link" : "././qc/apps/ec.c.html#2439"
+ , "c1" : "OSSL_FUNC_signature_sign_init_fn"
+ , "c2" : "OSSL_FUNC_signature_sign_init(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02442"
- , "c5link" : "././qc/apps/ec.c.html#2442"
- , "c1" : "OSSL_FUNC_signature_digest_sign_final_fn"
- , "c2" : "OSSL_FUNC_signature_digest_sign_final(OSSL_DISPATCH*)"
+ , "c5" : "02441"
+ , "c5link" : "././qc/apps/ec.c.html#2441"
+ , "c1" : "OSSL_FUNC_signature_sign_fn"
+ , "c2" : "OSSL_FUNC_signature_sign(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1995,62 +1995,44 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02445"
  , "c5link" : "././qc/apps/ec.c.html#2445"
- , "c1" : "OSSL_FUNC_signature_digest_sign_fn"
- , "c2" : "OSSL_FUNC_signature_digest_sign(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_signature_verify_init_fn"
+ , "c2" : "OSSL_FUNC_signature_verify_init(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02448"
- , "c5link" : "././qc/apps/ec.c.html#2448"
- , "c1" : "OSSL_FUNC_signature_digest_verify_init_fn"
- , "c2" : "OSSL_FUNC_signature_digest_verify_init(OSSL_DISPATCH*)"
+ , "c5" : "02447"
+ , "c5link" : "././qc/apps/ec.c.html#2447"
+ , "c1" : "OSSL_FUNC_signature_verify_fn"
+ , "c2" : "OSSL_FUNC_signature_verify(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02451"
- , "c5link" : "././qc/apps/ec.c.html#2451"
- , "c1" : "OSSL_FUNC_signature_digest_verify_update_fn"
- , "c2" : "OSSL_FUNC_signature_digest_verify_update(OSSL_DISPATCH*)"
+ , "c5" : "02452"
+ , "c5link" : "././qc/apps/ec.c.html#2452"
+ , "c1" : "OSSL_FUNC_signature_verify_recover_init_fn"
+ , "c2" : "OSSL_FUNC_signature_verify_recover_init(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02453"
- , "c5link" : "././qc/apps/ec.c.html#2453"
- , "c1" : "OSSL_FUNC_signature_digest_verify_final_fn"
- , "c2" : "OSSL_FUNC_signature_digest_verify_final(OSSL_DISPATCH*)"
+ , "c5" : "02454"
+ , "c5link" : "././qc/apps/ec.c.html#2454"
+ , "c1" : "OSSL_FUNC_signature_verify_recover_fn"
+ , "c2" : "OSSL_FUNC_signature_verify_recover(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02455"
- , "c5link" : "././qc/apps/ec.c.html#2455"
- , "c1" : "OSSL_FUNC_signature_digest_verify_fn"
- , "c2" : "OSSL_FUNC_signature_digest_verify(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02458"
- , "c5link" : "././qc/apps/ec.c.html#2458"
- , "c1" : "OSSL_FUNC_signature_freectx_fn"
- , "c2" : "OSSL_FUNC_signature_freectx(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02459"
- , "c5link" : "././qc/apps/ec.c.html#2459"
- , "c1" : "OSSL_FUNC_signature_dupctx_fn"
- , "c2" : "OSSL_FUNC_signature_dupctx(OSSL_DISPATCH*)"
+ , "c5" : "02457"
+ , "c5link" : "././qc/apps/ec.c.html#2457"
+ , "c1" : "OSSL_FUNC_signature_digest_sign_init_fn"
+ , "c2" : "OSSL_FUNC_signature_digest_sign_init(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2058,8 +2040,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02460"
  , "c5link" : "././qc/apps/ec.c.html#2460"
- , "c1" : "OSSL_FUNC_signature_get_ctx_params_fn"
- , "c2" : "OSSL_FUNC_signature_get_ctx_params(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_signature_digest_sign_update_fn"
+ , "c2" : "OSSL_FUNC_signature_digest_sign_update(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2067,26 +2049,17 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02462"
  , "c5link" : "././qc/apps/ec.c.html#2462"
- , "c1" : "OSSL_FUNC_signature_gettable_ctx_params_fn"
- , "c2" : "OSSL_FUNC_signature_gettable_ctx_params(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_signature_digest_sign_final_fn"
+ , "c2" : "OSSL_FUNC_signature_digest_sign_final(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02464"
- , "c5link" : "././qc/apps/ec.c.html#2464"
- , "c1" : "OSSL_FUNC_signature_set_ctx_params_fn"
- , "c2" : "OSSL_FUNC_signature_set_ctx_params(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02466"
- , "c5link" : "././qc/apps/ec.c.html#2466"
- , "c1" : "OSSL_FUNC_signature_settable_ctx_params_fn"
- , "c2" : "OSSL_FUNC_signature_settable_ctx_params(OSSL_DISPATCH*)"
+ , "c5" : "02465"
+ , "c5link" : "././qc/apps/ec.c.html#2465"
+ , "c1" : "OSSL_FUNC_signature_digest_sign_fn"
+ , "c2" : "OSSL_FUNC_signature_digest_sign(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2094,53 +2067,44 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02468"
  , "c5link" : "././qc/apps/ec.c.html#2468"
- , "c1" : "OSSL_FUNC_signature_get_ctx_md_params_fn"
- , "c2" : "OSSL_FUNC_signature_get_ctx_md_params(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_signature_digest_verify_init_fn"
+ , "c2" : "OSSL_FUNC_signature_digest_verify_init(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02470"
- , "c5link" : "././qc/apps/ec.c.html#2470"
- , "c1" : "OSSL_FUNC_signature_gettable_ctx_md_params_fn"
- , "c2" : "OSSL_FUNC_signature_gettable_ctx_md_params(OSSL_DISPATCH*)"
+ , "c5" : "02471"
+ , "c5link" : "././qc/apps/ec.c.html#2471"
+ , "c1" : "OSSL_FUNC_signature_digest_verify_update_fn"
+ , "c2" : "OSSL_FUNC_signature_digest_verify_update(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02472"
- , "c5link" : "././qc/apps/ec.c.html#2472"
- , "c1" : "OSSL_FUNC_signature_set_ctx_md_params_fn"
- , "c2" : "OSSL_FUNC_signature_set_ctx_md_params(OSSL_DISPATCH*)"
+ , "c5" : "02473"
+ , "c5link" : "././qc/apps/ec.c.html#2473"
+ , "c1" : "OSSL_FUNC_signature_digest_verify_final_fn"
+ , "c2" : "OSSL_FUNC_signature_digest_verify_final(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02474"
- , "c5link" : "././qc/apps/ec.c.html#2474"
- , "c1" : "OSSL_FUNC_signature_settable_ctx_md_params_fn"
- , "c2" : "OSSL_FUNC_signature_settable_ctx_md_params(OSSL_DISPATCH*)"
+ , "c5" : "02475"
+ , "c5link" : "././qc/apps/ec.c.html#2475"
+ , "c1" : "OSSL_FUNC_signature_digest_verify_fn"
+ , "c2" : "OSSL_FUNC_signature_digest_verify(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02476"
- , "c5link" : "././qc/apps/ec.c.html#2476"
- , "c1" : "OSSL_FUNC_asym_cipher_newctx_fn"
- , "c2" : "OSSL_FUNC_asym_cipher_newctx(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02477"
- , "c5link" : "././qc/apps/ec.c.html#2477"
- , "c1" : "OSSL_FUNC_asym_cipher_encrypt_init_fn"
- , "c2" : "OSSL_FUNC_asym_cipher_encrypt_init(OSSL_DISPATCH*)"
+ , "c5" : "02478"
+ , "c5link" : "././qc/apps/ec.c.html#2478"
+ , "c1" : "OSSL_FUNC_signature_freectx_fn"
+ , "c2" : "OSSL_FUNC_signature_freectx(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2148,8 +2112,26 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02479"
  , "c5link" : "././qc/apps/ec.c.html#2479"
- , "c1" : "OSSL_FUNC_asym_cipher_encrypt_fn"
- , "c2" : "OSSL_FUNC_asym_cipher_encrypt(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_signature_dupctx_fn"
+ , "c2" : "OSSL_FUNC_signature_dupctx(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02480"
+ , "c5link" : "././qc/apps/ec.c.html#2480"
+ , "c1" : "OSSL_FUNC_signature_get_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_signature_get_ctx_params(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02482"
+ , "c5link" : "././qc/apps/ec.c.html#2482"
+ , "c1" : "OSSL_FUNC_signature_gettable_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_signature_gettable_ctx_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2157,8 +2139,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02484"
  , "c5link" : "././qc/apps/ec.c.html#2484"
- , "c1" : "OSSL_FUNC_asym_cipher_decrypt_init_fn"
- , "c2" : "OSSL_FUNC_asym_cipher_decrypt_init(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_signature_set_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_signature_set_ctx_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2166,17 +2148,26 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02486"
  , "c5link" : "././qc/apps/ec.c.html#2486"
- , "c1" : "OSSL_FUNC_asym_cipher_decrypt_fn"
- , "c2" : "OSSL_FUNC_asym_cipher_decrypt(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_signature_settable_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_signature_settable_ctx_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02491"
- , "c5link" : "././qc/apps/ec.c.html#2491"
- , "c1" : "OSSL_FUNC_asym_cipher_freectx_fn"
- , "c2" : "OSSL_FUNC_asym_cipher_freectx(OSSL_DISPATCH*)"
+ , "c5" : "02488"
+ , "c5link" : "././qc/apps/ec.c.html#2488"
+ , "c1" : "OSSL_FUNC_signature_get_ctx_md_params_fn"
+ , "c2" : "OSSL_FUNC_signature_get_ctx_md_params(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02490"
+ , "c5link" : "././qc/apps/ec.c.html#2490"
+ , "c1" : "OSSL_FUNC_signature_gettable_ctx_md_params_fn"
+ , "c2" : "OSSL_FUNC_signature_gettable_ctx_md_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2184,26 +2175,26 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02492"
  , "c5link" : "././qc/apps/ec.c.html#2492"
- , "c1" : "OSSL_FUNC_asym_cipher_dupctx_fn"
- , "c2" : "OSSL_FUNC_asym_cipher_dupctx(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_signature_set_ctx_md_params_fn"
+ , "c2" : "OSSL_FUNC_signature_set_ctx_md_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02493"
- , "c5link" : "././qc/apps/ec.c.html#2493"
- , "c1" : "OSSL_FUNC_asym_cipher_get_ctx_params_fn"
- , "c2" : "OSSL_FUNC_asym_cipher_get_ctx_params(OSSL_DISPATCH*)"
+ , "c5" : "02494"
+ , "c5link" : "././qc/apps/ec.c.html#2494"
+ , "c1" : "OSSL_FUNC_signature_settable_ctx_md_params_fn"
+ , "c2" : "OSSL_FUNC_signature_settable_ctx_md_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02495"
- , "c5link" : "././qc/apps/ec.c.html#2495"
- , "c1" : "OSSL_FUNC_asym_cipher_gettable_ctx_params_fn"
- , "c2" : "OSSL_FUNC_asym_cipher_gettable_ctx_params(OSSL_DISPATCH*)"
+ , "c5" : "02496"
+ , "c5link" : "././qc/apps/ec.c.html#2496"
+ , "c1" : "OSSL_FUNC_asym_cipher_newctx_fn"
+ , "c2" : "OSSL_FUNC_asym_cipher_newctx(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2211,8 +2202,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02497"
  , "c5link" : "././qc/apps/ec.c.html#2497"
- , "c1" : "OSSL_FUNC_asym_cipher_set_ctx_params_fn"
- , "c2" : "OSSL_FUNC_asym_cipher_set_ctx_params(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_asym_cipher_encrypt_init_fn"
+ , "c2" : "OSSL_FUNC_asym_cipher_encrypt_init(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2220,26 +2211,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02499"
  , "c5link" : "././qc/apps/ec.c.html#2499"
- , "c1" : "OSSL_FUNC_asym_cipher_settable_ctx_params_fn"
- , "c2" : "OSSL_FUNC_asym_cipher_settable_ctx_params(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02501"
- , "c5link" : "././qc/apps/ec.c.html#2501"
- , "c1" : "OSSL_FUNC_kem_newctx_fn"
- , "c2" : "OSSL_FUNC_kem_newctx(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02502"
- , "c5link" : "././qc/apps/ec.c.html#2502"
- , "c1" : "OSSL_FUNC_kem_encapsulate_init_fn"
- , "c2" : "OSSL_FUNC_kem_encapsulate_init(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_asym_cipher_encrypt_fn"
+ , "c2" : "OSSL_FUNC_asym_cipher_encrypt(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2247,17 +2220,17 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02504"
  , "c5link" : "././qc/apps/ec.c.html#2504"
- , "c1" : "OSSL_FUNC_kem_auth_encapsulate_init_fn"
- , "c2" : "OSSL_FUNC_kem_auth_encapsulate_init(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_asym_cipher_decrypt_init_fn"
+ , "c2" : "OSSL_FUNC_asym_cipher_decrypt_init(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02507"
- , "c5link" : "././qc/apps/ec.c.html#2507"
- , "c1" : "OSSL_FUNC_kem_encapsulate_fn"
- , "c2" : "OSSL_FUNC_kem_encapsulate(OSSL_DISPATCH*)"
+ , "c5" : "02506"
+ , "c5link" : "././qc/apps/ec.c.html#2506"
+ , "c1" : "OSSL_FUNC_asym_cipher_decrypt_fn"
+ , "c2" : "OSSL_FUNC_asym_cipher_decrypt(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2265,8 +2238,17 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02511"
  , "c5link" : "././qc/apps/ec.c.html#2511"
- , "c1" : "OSSL_FUNC_kem_decapsulate_init_fn"
- , "c2" : "OSSL_FUNC_kem_decapsulate_init(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_asym_cipher_freectx_fn"
+ , "c2" : "OSSL_FUNC_asym_cipher_freectx(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02512"
+ , "c5link" : "././qc/apps/ec.c.html#2512"
+ , "c1" : "OSSL_FUNC_asym_cipher_dupctx_fn"
+ , "c2" : "OSSL_FUNC_asym_cipher_dupctx(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2274,17 +2256,26 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02513"
  , "c5link" : "././qc/apps/ec.c.html#2513"
- , "c1" : "OSSL_FUNC_kem_auth_decapsulate_init_fn"
- , "c2" : "OSSL_FUNC_kem_auth_decapsulate_init(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_asym_cipher_get_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_asym_cipher_get_ctx_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02516"
- , "c5link" : "././qc/apps/ec.c.html#2516"
- , "c1" : "OSSL_FUNC_kem_decapsulate_fn"
- , "c2" : "OSSL_FUNC_kem_decapsulate(OSSL_DISPATCH*)"
+ , "c5" : "02515"
+ , "c5link" : "././qc/apps/ec.c.html#2515"
+ , "c1" : "OSSL_FUNC_asym_cipher_gettable_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_asym_cipher_gettable_ctx_params(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02517"
+ , "c5link" : "././qc/apps/ec.c.html#2517"
+ , "c1" : "OSSL_FUNC_asym_cipher_set_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_asym_cipher_set_ctx_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2292,17 +2283,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02519"
  , "c5link" : "././qc/apps/ec.c.html#2519"
- , "c1" : "OSSL_FUNC_kem_freectx_fn"
- , "c2" : "OSSL_FUNC_kem_freectx(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02520"
- , "c5link" : "././qc/apps/ec.c.html#2520"
- , "c1" : "OSSL_FUNC_kem_dupctx_fn"
- , "c2" : "OSSL_FUNC_kem_dupctx(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_asym_cipher_settable_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_asym_cipher_settable_ctx_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2310,8 +2292,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02521"
  , "c5link" : "././qc/apps/ec.c.html#2521"
- , "c1" : "OSSL_FUNC_kem_get_ctx_params_fn"
- , "c2" : "OSSL_FUNC_kem_get_ctx_params(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_kem_newctx_fn"
+ , "c2" : "OSSL_FUNC_kem_newctx(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2319,8 +2301,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02522"
  , "c5link" : "././qc/apps/ec.c.html#2522"
- , "c1" : "OSSL_FUNC_kem_gettable_ctx_params_fn"
- , "c2" : "OSSL_FUNC_kem_gettable_ctx_params(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_kem_encapsulate_init_fn"
+ , "c2" : "OSSL_FUNC_kem_encapsulate_init(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2328,44 +2310,17 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02524"
  , "c5link" : "././qc/apps/ec.c.html#2524"
- , "c1" : "OSSL_FUNC_kem_set_ctx_params_fn"
- , "c2" : "OSSL_FUNC_kem_set_ctx_params(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_kem_auth_encapsulate_init_fn"
+ , "c2" : "OSSL_FUNC_kem_auth_encapsulate_init(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02526"
- , "c5link" : "././qc/apps/ec.c.html#2526"
- , "c1" : "OSSL_FUNC_kem_settable_ctx_params_fn"
- , "c2" : "OSSL_FUNC_kem_settable_ctx_params(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02528"
- , "c5link" : "././qc/apps/ec.c.html#2528"
- , "c1" : "OSSL_FUNC_encoder_newctx_fn"
- , "c2" : "OSSL_FUNC_encoder_newctx(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02529"
- , "c5link" : "././qc/apps/ec.c.html#2529"
- , "c1" : "OSSL_FUNC_encoder_freectx_fn"
- , "c2" : "OSSL_FUNC_encoder_freectx(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02530"
- , "c5link" : "././qc/apps/ec.c.html#2530"
- , "c1" : "OSSL_FUNC_encoder_get_params_fn"
- , "c2" : "OSSL_FUNC_encoder_get_params(OSSL_DISPATCH*)"
+ , "c5" : "02527"
+ , "c5link" : "././qc/apps/ec.c.html#2527"
+ , "c1" : "OSSL_FUNC_kem_encapsulate_fn"
+ , "c2" : "OSSL_FUNC_kem_encapsulate(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2373,8 +2328,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02531"
  , "c5link" : "././qc/apps/ec.c.html#2531"
- , "c1" : "OSSL_FUNC_encoder_gettable_params_fn"
- , "c2" : "OSSL_FUNC_encoder_gettable_params(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_kem_decapsulate_init_fn"
+ , "c2" : "OSSL_FUNC_kem_decapsulate_init(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2382,26 +2337,26 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02533"
  , "c5link" : "././qc/apps/ec.c.html#2533"
- , "c1" : "OSSL_FUNC_encoder_set_ctx_params_fn"
- , "c2" : "OSSL_FUNC_encoder_set_ctx_params(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_kem_auth_decapsulate_init_fn"
+ , "c2" : "OSSL_FUNC_kem_auth_decapsulate_init(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02535"
- , "c5link" : "././qc/apps/ec.c.html#2535"
- , "c1" : "OSSL_FUNC_encoder_settable_ctx_params_fn"
- , "c2" : "OSSL_FUNC_encoder_settable_ctx_params(OSSL_DISPATCH*)"
+ , "c5" : "02536"
+ , "c5link" : "././qc/apps/ec.c.html#2536"
+ , "c1" : "OSSL_FUNC_kem_decapsulate_fn"
+ , "c2" : "OSSL_FUNC_kem_decapsulate(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02538"
- , "c5link" : "././qc/apps/ec.c.html#2538"
- , "c1" : "OSSL_FUNC_encoder_does_selection_fn"
- , "c2" : "OSSL_FUNC_encoder_does_selection(OSSL_DISPATCH*)"
+ , "c5" : "02539"
+ , "c5link" : "././qc/apps/ec.c.html#2539"
+ , "c1" : "OSSL_FUNC_kem_freectx_fn"
+ , "c2" : "OSSL_FUNC_kem_freectx(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2409,8 +2364,35 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02540"
  , "c5link" : "././qc/apps/ec.c.html#2540"
- , "c1" : "OSSL_FUNC_encoder_encode_fn"
- , "c2" : "OSSL_FUNC_encoder_encode(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_kem_dupctx_fn"
+ , "c2" : "OSSL_FUNC_kem_dupctx(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02541"
+ , "c5link" : "././qc/apps/ec.c.html#2541"
+ , "c1" : "OSSL_FUNC_kem_get_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_kem_get_ctx_params(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02542"
+ , "c5link" : "././qc/apps/ec.c.html#2542"
+ , "c1" : "OSSL_FUNC_kem_gettable_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_kem_gettable_ctx_params(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02544"
+ , "c5link" : "././qc/apps/ec.c.html#2544"
+ , "c1" : "OSSL_FUNC_kem_set_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_kem_set_ctx_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2418,8 +2400,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02546"
  , "c5link" : "././qc/apps/ec.c.html#2546"
- , "c1" : "OSSL_FUNC_encoder_import_object_fn"
- , "c2" : "OSSL_FUNC_encoder_import_object(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_kem_settable_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_kem_settable_ctx_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2427,8 +2409,17 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02548"
  , "c5link" : "././qc/apps/ec.c.html#2548"
- , "c1" : "OSSL_FUNC_encoder_free_object_fn"
- , "c2" : "OSSL_FUNC_encoder_free_object(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_encoder_newctx_fn"
+ , "c2" : "OSSL_FUNC_encoder_newctx(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02549"
+ , "c5link" : "././qc/apps/ec.c.html#2549"
+ , "c1" : "OSSL_FUNC_encoder_freectx_fn"
+ , "c2" : "OSSL_FUNC_encoder_freectx(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2436,8 +2427,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02550"
  , "c5link" : "././qc/apps/ec.c.html#2550"
- , "c1" : "OSSL_FUNC_decoder_newctx_fn"
- , "c2" : "OSSL_FUNC_decoder_newctx(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_encoder_get_params_fn"
+ , "c2" : "OSSL_FUNC_encoder_get_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2445,17 +2436,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02551"
  , "c5link" : "././qc/apps/ec.c.html#2551"
- , "c1" : "OSSL_FUNC_decoder_freectx_fn"
- , "c2" : "OSSL_FUNC_decoder_freectx(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02552"
- , "c5link" : "././qc/apps/ec.c.html#2552"
- , "c1" : "OSSL_FUNC_decoder_get_params_fn"
- , "c2" : "OSSL_FUNC_decoder_get_params(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_encoder_gettable_params_fn"
+ , "c2" : "OSSL_FUNC_encoder_gettable_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2463,8 +2445,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02553"
  , "c5link" : "././qc/apps/ec.c.html#2553"
- , "c1" : "OSSL_FUNC_decoder_gettable_params_fn"
- , "c2" : "OSSL_FUNC_decoder_gettable_params(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_encoder_set_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_encoder_set_ctx_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2472,17 +2454,17 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02555"
  , "c5link" : "././qc/apps/ec.c.html#2555"
- , "c1" : "OSSL_FUNC_decoder_set_ctx_params_fn"
- , "c2" : "OSSL_FUNC_decoder_set_ctx_params(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_encoder_settable_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_encoder_settable_ctx_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02557"
- , "c5link" : "././qc/apps/ec.c.html#2557"
- , "c1" : "OSSL_FUNC_decoder_settable_ctx_params_fn"
- , "c2" : "OSSL_FUNC_decoder_settable_ctx_params(OSSL_DISPATCH*)"
+ , "c5" : "02558"
+ , "c5link" : "././qc/apps/ec.c.html#2558"
+ , "c1" : "OSSL_FUNC_encoder_does_selection_fn"
+ , "c2" : "OSSL_FUNC_encoder_does_selection(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2490,17 +2472,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02560"
  , "c5link" : "././qc/apps/ec.c.html#2560"
- , "c1" : "OSSL_FUNC_decoder_does_selection_fn"
- , "c2" : "OSSL_FUNC_decoder_does_selection(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02562"
- , "c5link" : "././qc/apps/ec.c.html#2562"
- , "c1" : "OSSL_FUNC_decoder_decode_fn"
- , "c2" : "OSSL_FUNC_decoder_decode(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_encoder_encode_fn"
+ , "c2" : "OSSL_FUNC_encoder_encode(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2508,8 +2481,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02566"
  , "c5link" : "././qc/apps/ec.c.html#2566"
- , "c1" : "OSSL_FUNC_decoder_export_object_fn"
- , "c2" : "OSSL_FUNC_decoder_export_object(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_encoder_import_object_fn"
+ , "c2" : "OSSL_FUNC_encoder_import_object(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2517,17 +2490,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02568"
  , "c5link" : "././qc/apps/ec.c.html#2568"
- , "c1" : "OSSL_FUNC_store_open_fn"
- , "c2" : "OSSL_FUNC_store_open(OSSL_DISPATCH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02569"
- , "c5link" : "././qc/apps/ec.c.html#2569"
- , "c1" : "OSSL_FUNC_store_attach_fn"
- , "c2" : "OSSL_FUNC_store_attach(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_encoder_free_object_fn"
+ , "c2" : "OSSL_FUNC_encoder_free_object(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2535,8 +2499,17 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02570"
  , "c5link" : "././qc/apps/ec.c.html#2570"
- , "c1" : "OSSL_FUNC_store_settable_ctx_params_fn"
- , "c2" : "OSSL_FUNC_store_settable_ctx_params(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_decoder_newctx_fn"
+ , "c2" : "OSSL_FUNC_decoder_newctx(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02571"
+ , "c5link" : "././qc/apps/ec.c.html#2571"
+ , "c1" : "OSSL_FUNC_decoder_freectx_fn"
+ , "c2" : "OSSL_FUNC_decoder_freectx(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2544,35 +2517,35 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02572"
  , "c5link" : "././qc/apps/ec.c.html#2572"
- , "c1" : "OSSL_FUNC_store_set_ctx_params_fn"
- , "c2" : "OSSL_FUNC_store_set_ctx_params(OSSL_DISPATCH*)"
+ , "c1" : "OSSL_FUNC_decoder_get_params_fn"
+ , "c2" : "OSSL_FUNC_decoder_get_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02574"
- , "c5link" : "././qc/apps/ec.c.html#2574"
- , "c1" : "OSSL_FUNC_store_load_fn"
- , "c2" : "OSSL_FUNC_store_load(OSSL_DISPATCH*)"
+ , "c5" : "02573"
+ , "c5link" : "././qc/apps/ec.c.html#2573"
+ , "c1" : "OSSL_FUNC_decoder_gettable_params_fn"
+ , "c2" : "OSSL_FUNC_decoder_gettable_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02578"
- , "c5link" : "././qc/apps/ec.c.html#2578"
- , "c1" : "OSSL_FUNC_store_eof_fn"
- , "c2" : "OSSL_FUNC_store_eof(OSSL_DISPATCH*)"
+ , "c5" : "02575"
+ , "c5link" : "././qc/apps/ec.c.html#2575"
+ , "c1" : "OSSL_FUNC_decoder_set_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_decoder_set_ctx_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02579"
- , "c5link" : "././qc/apps/ec.c.html#2579"
- , "c1" : "OSSL_FUNC_store_close_fn"
- , "c2" : "OSSL_FUNC_store_close(OSSL_DISPATCH*)"
+ , "c5" : "02577"
+ , "c5link" : "././qc/apps/ec.c.html#2577"
+ , "c1" : "OSSL_FUNC_decoder_settable_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_decoder_settable_ctx_params(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2580,6 +2553,96 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02580"
  , "c5link" : "././qc/apps/ec.c.html#2580"
+ , "c1" : "OSSL_FUNC_decoder_does_selection_fn"
+ , "c2" : "OSSL_FUNC_decoder_does_selection(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02582"
+ , "c5link" : "././qc/apps/ec.c.html#2582"
+ , "c1" : "OSSL_FUNC_decoder_decode_fn"
+ , "c2" : "OSSL_FUNC_decoder_decode(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02586"
+ , "c5link" : "././qc/apps/ec.c.html#2586"
+ , "c1" : "OSSL_FUNC_decoder_export_object_fn"
+ , "c2" : "OSSL_FUNC_decoder_export_object(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02588"
+ , "c5link" : "././qc/apps/ec.c.html#2588"
+ , "c1" : "OSSL_FUNC_store_open_fn"
+ , "c2" : "OSSL_FUNC_store_open(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02589"
+ , "c5link" : "././qc/apps/ec.c.html#2589"
+ , "c1" : "OSSL_FUNC_store_attach_fn"
+ , "c2" : "OSSL_FUNC_store_attach(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02590"
+ , "c5link" : "././qc/apps/ec.c.html#2590"
+ , "c1" : "OSSL_FUNC_store_settable_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_store_settable_ctx_params(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02592"
+ , "c5link" : "././qc/apps/ec.c.html#2592"
+ , "c1" : "OSSL_FUNC_store_set_ctx_params_fn"
+ , "c2" : "OSSL_FUNC_store_set_ctx_params(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02594"
+ , "c5link" : "././qc/apps/ec.c.html#2594"
+ , "c1" : "OSSL_FUNC_store_load_fn"
+ , "c2" : "OSSL_FUNC_store_load(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02598"
+ , "c5link" : "././qc/apps/ec.c.html#2598"
+ , "c1" : "OSSL_FUNC_store_eof_fn"
+ , "c2" : "OSSL_FUNC_store_eof(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02599"
+ , "c5link" : "././qc/apps/ec.c.html#2599"
+ , "c1" : "OSSL_FUNC_store_close_fn"
+ , "c2" : "OSSL_FUNC_store_close(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02600"
+ , "c5link" : "././qc/apps/ec.c.html#2600"
  , "c1" : "OSSL_FUNC_store_export_object_fn"
  , "c2" : "OSSL_FUNC_store_export_object(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -2587,8 +2650,26 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02714"
- , "c5link" : "././qc/apps/ec.c.html#2714"
+ , "c5" : "02603"
+ , "c5link" : "././qc/apps/ec.c.html#2603"
+ , "c1" : "OSSL_FUNC_store_delete_fn"
+ , "c2" : "OSSL_FUNC_store_delete(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02606"
+ , "c5link" : "././qc/apps/ec.c.html#2606"
+ , "c1" : "OSSL_FUNC_store_open_ex_fn"
+ , "c2" : "OSSL_FUNC_store_open_ex(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02740"
+ , "c5link" : "././qc/apps/ec.c.html#2740"
  , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "atoi(char*)"
  , "c3" : "1"
@@ -2596,8 +2677,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02719"
- , "c5link" : "././qc/apps/ec.c.html#2719"
+ , "c5" : "02745"
+ , "c5link" : "././qc/apps/ec.c.html#2745"
  , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "atol(char*)"
  , "c3" : "1"
@@ -2605,8 +2686,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02726"
- , "c5link" : "././qc/apps/ec.c.html#2726"
+ , "c5" : "02752"
+ , "c5link" : "././qc/apps/ec.c.html#2752"
  , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "atoll(char*)"
  , "c3" : "1"
@@ -2614,8 +2695,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02873"
- , "c5link" : "././qc/apps/ec.c.html#2873"
+ , "c5" : "02899"
+ , "c5link" : "././qc/apps/ec.c.html#2899"
  , "c1" : "__uint16_t"
  , "c2" : "__bswap_16(__uint16_t)"
  , "c3" : "1"
@@ -2623,8 +2704,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02888"
- , "c5link" : "././qc/apps/ec.c.html#2888"
+ , "c5" : "02914"
+ , "c5link" : "././qc/apps/ec.c.html#2914"
  , "c1" : "__uint32_t"
  , "c2" : "__bswap_32(__uint32_t)"
  , "c3" : "1"
@@ -2632,8 +2713,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02898"
- , "c5link" : "././qc/apps/ec.c.html#2898"
+ , "c5" : "02924"
+ , "c5link" : "././qc/apps/ec.c.html#2924"
  , "c1" : "__uint64_t"
  , "c2" : "__bswap_64(__uint64_t)"
  , "c3" : "1"
@@ -2641,8 +2722,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02910"
- , "c5link" : "././qc/apps/ec.c.html#2910"
+ , "c5" : "02936"
+ , "c5link" : "././qc/apps/ec.c.html#2936"
  , "c1" : "__uint16_t"
  , "c2" : "__uint16_identity(__uint16_t)"
  , "c3" : "1"
@@ -2650,8 +2731,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02916"
- , "c5link" : "././qc/apps/ec.c.html#2916"
+ , "c5" : "02942"
+ , "c5link" : "././qc/apps/ec.c.html#2942"
  , "c1" : "__uint32_t"
  , "c2" : "__uint32_identity(__uint32_t)"
  , "c3" : "1"
@@ -2659,8 +2740,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02922"
- , "c5link" : "././qc/apps/ec.c.html#2922"
+ , "c5" : "02948"
+ , "c5link" : "././qc/apps/ec.c.html#2948"
  , "c1" : "__uint64_t"
  , "c2" : "__uint64_identity(__uint64_t)"
  , "c3" : "1"
@@ -2668,8 +2749,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "03590"
- , "c5link" : "././qc/apps/ec.c.html#3590"
+ , "c5" : "03616"
+ , "c5link" : "././qc/apps/ec.c.html#3616"
  , "c1" : " void "
  , "c2" : "bsearch(void*;void*;size_t;size_t;__compar_fn_t)"
  , "c3" : "6"
@@ -3228,6 +3309,42 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/ec.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/ec.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_OPENSSL_STRING_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/ec.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_STRING_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/ec.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_STRING_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/ec.c.html#1"
  , "c1" : "OPENSSL_STRING"
  , "c2" : "ossl_check_OPENSSL_STRING_lh_plain_type(OPENSSL_STRING*)"
  , "c3" : "1"
@@ -3286,6 +3403,42 @@ var maDataBlocs = {
  , "c2" : "ossl_check_OPENSSL_STRING_lh_doallfunc_type(lh_OPENSSL_STRING_doallfunc)"
  , "c3" : "1"
  , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/ec.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/ec.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_OPENSSL_CSTRING_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/ec.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_CSTRING_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/ec.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_CSTRING_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -3394,6 +3547,42 @@ var maDataBlocs = {
  , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
  , "c3" : "1"
  , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/ec.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/ec.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_ERR_STRING_DATA_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/ec.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_ERR_STRING_DATA_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/ec.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_ERR_STRING_DATA_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -3579,6 +3768,15 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/ec.c.html#1"
+ , "c1" : " char "
+ , "c2" : "ossl_determine_dirsep(char*)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/ec.c.html#1"
  , "c1" : " int "
  , "c2" : "ossl_is_absolute_path(char*)"
  , "c3" : "1"
@@ -3610,6 +3808,15 @@ var maDataBlocs = {
  , "c2" : "recvfrom(int;void*;size_t;int;structsockaddr*;socklen_t*)"
  , "c3" : "3"
  , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/ec.c.html#1"
+ , "c1" : " int "
+ , "c2" : "poll(structpollfd*;nfds_t;int)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -4492,6 +4699,42 @@ var maDataBlocs = {
  , "c2" : "ossl_check_CONF_VALUE_freefunc_type(sk_CONF_VALUE_freefunc)"
  , "c3" : "1"
  , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/ec.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_CONF_VALUE_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/ec.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_CONF_VALUE_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/ec.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_CONF_VALUE_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/ec.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_CONF_VALUE_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -6027,10 +6270,19 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/ec.c.html#1"
- , "c1" : " struct lhash_st_FUNCTION"
- , "c2" : "lh_FUNCTION_new(unsignedlong;int)"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_FUNCTION_hfn_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/ec.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_FUNCTION_cfn_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -6118,7 +6370,34 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/apps/ec.c.html#1"
  , "c1" : " void "
+ , "c2" : "lh_FUNCTION_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/ec.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_FUNCTION_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/ec.c.html#1"
+ , "c1" : " void "
  , "c2" : "lh_FUNCTION_doall(structlhash_st_FUNCTION*;void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/ec.c.html#1"
+ , "c1" : " struct lhash_st_FUNCTION"
+ , "c2" : "lh_FUNCTION_new(unsignedlong;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -6137,8 +6416,8 @@ var maDataBlocs = {
  , "c5link" : "././qc/apps/ec.c.html#1"
  , "c1" : " int "
  , "c2" : "ec_main(int;char*)"
- , "c3" : "63"
- , "c4" : "119"
+ , "c3" : "62"
+ , "c4" : "118"
 }} 
 ] 
 }} 
@@ -6238,10 +6517,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "03595"
- , "c1link" : "./qc/apps/ec.c.html#3595"
+ , "c1" : "03621"
+ , "c1link" : "./qc/apps/ec.c.html#3621"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[03595] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[03621] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6304,7 +6583,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/apps/ec.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression ((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)|(1L&lt;&lt;4)|(1L&lt;&lt;5)|(1L&lt;&lt;7)|(1L&lt;&lt;8)|(1L&lt;&lt;9)|(1L&lt;&lt;10)) is invariable"
+ , "c3" : "QC-CPP000012[00001] The expression ((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)|(1L&lt;&lt;4)|(1L&lt;&lt;5)|(1L&lt;&lt;6)|(1L&lt;&lt;7)|(1L&lt;&lt;8)|(1L&lt;&lt;9)|(1L&lt;&lt;10)|(1L&lt;&lt;11)) is invariable"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6318,7 +6597,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/apps/ec.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression (1L&lt;&lt;1) is invariable"
+ , "c3" : "QC-CPP000012[00001] The expression ((1L&lt;&lt;1)|(1L&lt;&lt;2)) is invariable"
 }} 
 ,
 { "ligne" : {"" : ""

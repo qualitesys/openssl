@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/apps/lib/opt.c.html" 
- , "texte" : "File apps/lib/opt.c 72 rule violations " 
+ , "texte" : "File apps/lib/opt.c 78 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -229,8 +229,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01537"
- , "c5link" : "././qc/apps/lib/opt.c.html#1537"
+ , "c5" : "01532"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1532"
  , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "bcopy(void*;void*;size_t)"
  , "c3" : "1"
@@ -238,8 +238,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01544"
- , "c5link" : "././qc/apps/lib/opt.c.html#1544"
+ , "c5" : "01539"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1539"
  , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "bzero(void*;size_t)"
  , "c3" : "1"
@@ -247,8 +247,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01585"
- , "c5link" : "././qc/apps/lib/opt.c.html#1585"
+ , "c5" : "01580"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1580"
  , "c1" : " void "
  , "c2" : "memcpy(void*;void*;size_t)"
  , "c3" : "1"
@@ -256,8 +256,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01593"
- , "c5link" : "././qc/apps/lib/opt.c.html#1593"
+ , "c5" : "01588"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1588"
  , "c1" : " void "
  , "c2" : "memmove(void*;void*;size_t)"
  , "c3" : "1"
@@ -265,8 +265,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01600"
- , "c5link" : "././qc/apps/lib/opt.c.html#1600"
+ , "c5" : "01595"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1595"
  , "c1" : " void "
  , "c2" : "memset(void*;int;size_t)"
  , "c3" : "1"
@@ -274,8 +274,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01613"
- , "c5link" : "././qc/apps/lib/opt.c.html#1613"
+ , "c5" : "01608"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1608"
  , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "explicit_bzero(void*;size_t)"
  , "c3" : "1"
@@ -283,8 +283,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01620"
- , "c5link" : "././qc/apps/lib/opt.c.html#1620"
+ , "c5" : "01615"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1615"
  , "c1" : " char "
  , "c2" : "strcpy(char*;char*)"
  , "c3" : "1"
@@ -292,8 +292,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01627"
- , "c5link" : "././qc/apps/lib/opt.c.html#1627"
+ , "c5" : "01622"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1622"
  , "c1" : " char "
  , "c2" : "stpcpy(char*;char*)"
  , "c3" : "1"
@@ -301,8 +301,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01635"
- , "c5link" : "././qc/apps/lib/opt.c.html#1635"
+ , "c5" : "01630"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1630"
  , "c1" : " char "
  , "c2" : "strncpy(char*;char*;size_t)"
  , "c3" : "1"
@@ -310,8 +310,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01645"
- , "c5link" : "././qc/apps/lib/opt.c.html#1645"
+ , "c5" : "01640"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1640"
  , "c1" : " char "
  , "c2" : "stpncpy(char*;char*;size_t)"
  , "c3" : "1"
@@ -319,8 +319,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01652"
- , "c5link" : "././qc/apps/lib/opt.c.html#1652"
+ , "c5" : "01647"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1647"
  , "c1" : " char "
  , "c2" : "strcat(char*;char*)"
  , "c3" : "1"
@@ -328,8 +328,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01659"
- , "c5link" : "././qc/apps/lib/opt.c.html#1659"
+ , "c5" : "01654"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1654"
  , "c1" : " char "
  , "c2" : "strncat(char*;char*;size_t)"
  , "c3" : "1"
@@ -337,8 +337,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02915"
- , "c5link" : "././qc/apps/lib/opt.c.html#2915"
+ , "c5" : "02910"
+ , "c5link" : "././qc/apps/lib/opt.c.html#2910"
  , "c1" : "ssize_t"
  , "c2" : "read(int;void*;size_t)"
  , "c3" : "1"
@@ -346,8 +346,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02951"
- , "c5link" : "././qc/apps/lib/opt.c.html#2951"
+ , "c5" : "02946"
+ , "c5link" : "././qc/apps/lib/opt.c.html#2946"
  , "c1" : "ssize_t"
  , "c2" : "pread(int;void*;size_t;__off_t)"
  , "c3" : "1"
@@ -355,8 +355,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02974"
- , "c5link" : "././qc/apps/lib/opt.c.html#2974"
+ , "c5" : "02969"
+ , "c5link" : "././qc/apps/lib/opt.c.html#2969"
  , "c1" : "ssize_t"
  , "c2" : "readlink(char*;char*;size_t)"
  , "c3" : "1"
@@ -364,8 +364,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "03002"
- , "c5link" : "././qc/apps/lib/opt.c.html#3002"
+ , "c5" : "02997"
+ , "c5link" : "././qc/apps/lib/opt.c.html#2997"
  , "c1" : "ssize_t"
  , "c2" : "readlinkat(int;char*;char*;size_t)"
  , "c3" : "1"
@@ -373,8 +373,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "03022"
- , "c5link" : "././qc/apps/lib/opt.c.html#3022"
+ , "c5" : "03017"
+ , "c5link" : "././qc/apps/lib/opt.c.html#3017"
  , "c1" : " char "
  , "c2" : "getcwd(char*;size_t)"
  , "c3" : "1"
@@ -382,8 +382,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "03037"
- , "c5link" : "././qc/apps/lib/opt.c.html#3037"
+ , "c5" : "03032"
+ , "c5link" : "././qc/apps/lib/opt.c.html#3032"
  , "c1" : " char "
  , "c2" : "getwd(char*)"
  , "c3" : "2"
@@ -391,8 +391,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "03058"
- , "c5link" : "././qc/apps/lib/opt.c.html#3058"
+ , "c5" : "03053"
+ , "c5link" : "././qc/apps/lib/opt.c.html#3053"
  , "c1" : "size_t"
  , "c2" : "confstr(int;char*;size_t)"
  , "c3" : "1"
@@ -400,8 +400,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "03077"
- , "c5link" : "././qc/apps/lib/opt.c.html#3077"
+ , "c5" : "03072"
+ , "c5link" : "././qc/apps/lib/opt.c.html#3072"
  , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "getgroups(int;__gid_t)"
  , "c3" : "1"
@@ -409,8 +409,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "03098"
- , "c5link" : "././qc/apps/lib/opt.c.html#3098"
+ , "c5" : "03093"
+ , "c5link" : "././qc/apps/lib/opt.c.html#3093"
  , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "ttyname_r(int;char*;size_t)"
  , "c3" : "1"
@@ -418,8 +418,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "03118"
- , "c5link" : "././qc/apps/lib/opt.c.html#3118"
+ , "c5" : "03113"
+ , "c5link" : "././qc/apps/lib/opt.c.html#3113"
  , "c1" : " int "
  , "c2" : "getlogin_r(char*;size_t)"
  , "c3" : "1"
@@ -427,8 +427,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "03140"
- , "c5link" : "././qc/apps/lib/opt.c.html#3140"
+ , "c5" : "03135"
+ , "c5link" : "././qc/apps/lib/opt.c.html#3135"
  , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "gethostname(char*;size_t)"
  , "c3" : "1"
@@ -436,8 +436,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "03164"
- , "c5link" : "././qc/apps/lib/opt.c.html#3164"
+ , "c5" : "03159"
+ , "c5link" : "././qc/apps/lib/opt.c.html#3159"
  , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "getdomainname(char*;size_t)"
  , "c3" : "1"
@@ -445,8 +445,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "03307"
- , "c5link" : "././qc/apps/lib/opt.c.html#3307"
+ , "c5" : "03302"
+ , "c5link" : "././qc/apps/lib/opt.c.html#3302"
  , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "atoi(char*)"
  , "c3" : "1"
@@ -454,8 +454,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "03312"
- , "c5link" : "././qc/apps/lib/opt.c.html#3312"
+ , "c5" : "03307"
+ , "c5link" : "././qc/apps/lib/opt.c.html#3307"
  , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "atol(char*)"
  , "c3" : "1"
@@ -463,8 +463,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "03319"
- , "c5link" : "././qc/apps/lib/opt.c.html#3319"
+ , "c5" : "03314"
+ , "c5link" : "././qc/apps/lib/opt.c.html#3314"
  , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "atoll(char*)"
  , "c3" : "1"
@@ -472,8 +472,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "03636"
- , "c5link" : "././qc/apps/lib/opt.c.html#3636"
+ , "c5" : "03631"
+ , "c5link" : "././qc/apps/lib/opt.c.html#3631"
  , "c1" : " void "
  , "c2" : "bsearch(void*;void*;size_t;size_t;__compar_fn_t)"
  , "c3" : "6"
@@ -879,6 +879,42 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/lib/opt.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_OPENSSL_STRING_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_STRING_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_STRING_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1"
  , "c1" : "OPENSSL_STRING"
  , "c2" : "ossl_check_OPENSSL_STRING_lh_plain_type(OPENSSL_STRING*)"
  , "c3" : "1"
@@ -937,6 +973,42 @@ var maDataBlocs = {
  , "c2" : "ossl_check_OPENSSL_STRING_lh_doallfunc_type(lh_OPENSSL_STRING_doallfunc)"
  , "c3" : "1"
  , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_OPENSSL_CSTRING_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_CSTRING_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_CSTRING_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -1045,6 +1117,42 @@ var maDataBlocs = {
  , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
  , "c3" : "1"
  , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_ERR_STRING_DATA_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_ERR_STRING_DATA_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_ERR_STRING_DATA_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -1446,8 +1554,26 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/lib/opt.c.html#1"
+ , "c1" : "OSSL_FUNC_get_user_entropy_fn"
+ , "c2" : "OSSL_FUNC_get_user_entropy(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1"
  , "c1" : "OSSL_FUNC_cleanup_entropy_fn"
  , "c2" : "OSSL_FUNC_cleanup_entropy(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1"
+ , "c1" : "OSSL_FUNC_cleanup_user_entropy_fn"
+ , "c2" : "OSSL_FUNC_cleanup_user_entropy(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1464,8 +1590,26 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/lib/opt.c.html#1"
+ , "c1" : "OSSL_FUNC_get_user_nonce_fn"
+ , "c2" : "OSSL_FUNC_get_user_nonce(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1"
  , "c1" : "OSSL_FUNC_cleanup_nonce_fn"
  , "c2" : "OSSL_FUNC_cleanup_nonce(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1"
+ , "c1" : "OSSL_FUNC_cleanup_user_nonce_fn"
+ , "c2" : "OSSL_FUNC_cleanup_user_nonce(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1637,6 +1781,15 @@ var maDataBlocs = {
  , "c5link" : "././qc/apps/lib/opt.c.html#1"
  , "c1" : "OSSL_FUNC_digest_final_fn"
  , "c2" : "OSSL_FUNC_digest_final(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1"
+ , "c1" : "OSSL_FUNC_digest_squeeze_fn"
+ , "c2" : "OSSL_FUNC_digest_squeeze(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2436,6 +2589,24 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/lib/opt.c.html#1"
+ , "c1" : "OSSL_FUNC_keymgmt_import_types_ex_fn"
+ , "c2" : "OSSL_FUNC_keymgmt_import_types_ex(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1"
+ , "c1" : "OSSL_FUNC_keymgmt_export_types_ex_fn"
+ , "c2" : "OSSL_FUNC_keymgmt_export_types_ex(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1"
  , "c1" : "OSSL_FUNC_keyexch_newctx_fn"
  , "c2" : "OSSL_FUNC_keyexch_newctx(OSSL_DISPATCH*)"
  , "c3" : "1"
@@ -3203,6 +3374,24 @@ var maDataBlocs = {
  , "c5link" : "././qc/apps/lib/opt.c.html#1"
  , "c1" : "OSSL_FUNC_store_export_object_fn"
  , "c2" : "OSSL_FUNC_store_export_object(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1"
+ , "c1" : "OSSL_FUNC_store_delete_fn"
+ , "c2" : "OSSL_FUNC_store_delete(OSSL_DISPATCH*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1"
+ , "c1" : "OSSL_FUNC_store_open_ex_fn"
+ , "c2" : "OSSL_FUNC_store_open_ex(OSSL_DISPATCH*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4452,6 +4641,42 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/apps/lib/opt.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_CONF_VALUE_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_CONF_VALUE_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_CONF_VALUE_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_CONF_VALUE_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/apps/lib/opt.c.html#1"
  , "c1" : "CONF_VALUE"
  , "c2" : "ossl_check_CONF_VALUE_lh_plain_type(CONF_VALUE*)"
  , "c3" : "1"
@@ -5543,7 +5768,7 @@ var maDataBlocs = {
  , "c5link" : "././qc/apps/lib/opt.c.html#1"
  , "c1" : " int "
  , "c2" : "opt_format_error(char*;unsignedlong)"
- , "c3" : "5"
+ , "c3" : "3"
  , "c4" : "7"
 }} 
 ,
@@ -5552,8 +5777,8 @@ var maDataBlocs = {
  , "c5link" : "././qc/apps/lib/opt.c.html#1"
  , "c1" : " int "
  , "c2" : "opt_format(char*;unsignedlong;int*)"
- , "c3" : "36"
- , "c4" : "37"
+ , "c3" : "41"
+ , "c4" : "41"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -5714,8 +5939,8 @@ var maDataBlocs = {
  , "c5link" : "././qc/apps/lib/opt.c.html#1"
  , "c1" : " int "
  , "c2" : "opt_verify(int;X509_VERIFY_PARAM*)"
- , "c3" : "44"
- , "c4" : "86"
+ , "c3" : "45"
+ , "c4" : "88"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -5732,7 +5957,7 @@ var maDataBlocs = {
  , "c5link" : "././qc/apps/lib/opt.c.html#1"
  , "c1" : " int "
  , "c2" : "opt_next(void)"
- , "c3" : "40"
+ , "c3" : "42"
  , "c4" : "56"
 }} 
 ,
@@ -5795,8 +6020,8 @@ var maDataBlocs = {
  , "c5link" : "././qc/apps/lib/opt.c.html#1"
  , "c1" : " int "
  , "c2" : "opt_check_rest_arg(char*)"
- , "c3" : "6"
- , "c4" : "8"
+ , "c3" : "7"
+ , "c4" : "11"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -5891,7 +6116,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "23"
+ , "c4" : "29"
 }}
 ,
 { "ligne" : { "" : ""
@@ -5932,17 +6157,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "03040"
- , "c1link" : "./qc/apps/lib/opt.c.html#3040"
+ , "c1" : "03035"
+ , "c1link" : "./qc/apps/lib/opt.c.html#3035"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[03040] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[03035] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "03641"
- , "c1link" : "./qc/apps/lib/opt.c.html#3641"
+ , "c1" : "03636"
+ , "c1link" : "./qc/apps/lib/opt.c.html#3636"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[03641] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[03636] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6055,6 +6280,41 @@ var maDataBlocs = {
  , "c1link" : "./qc/apps/lib/opt.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[00001] The expression ap-&gt;name applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/apps/lib/opt.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/apps/lib/opt.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 'B64' is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/apps/lib/opt.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 'b64' is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/apps/lib/opt.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 'BASE64' is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/apps/lib/opt.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 'base64' is invariable"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6355,28 +6615,35 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/apps/lib/opt.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression ((1L&lt;&lt;1)|(1L&lt;&lt;3)) is invariable"
+ , "c3" : "QC-CPP000012[00001] The expression (((1L&lt;&lt;1)|(1L&lt;&lt;2))|(1L&lt;&lt;5)) is invariable"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/apps/lib/opt.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression ((1L&lt;&lt;1)|(1L&lt;&lt;4)) is invariable"
+ , "c3" : "QC-CPP000012[00001] The expression (((1L&lt;&lt;1)|(1L&lt;&lt;2))|(1L&lt;&lt;6)) is invariable"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/apps/lib/opt.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression (1L&lt;&lt;1) is invariable"
+ , "c3" : "QC-CPP000012[00001] The expression ((1L&lt;&lt;1)|(1L&lt;&lt;2)) is invariable"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/apps/lib/opt.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression ((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)|(1L&lt;&lt;4)|(1L&lt;&lt;5)|(1L&lt;&lt;7)|(1L&lt;&lt;8)|(1L&lt;&lt;9)|(1L&lt;&lt;10)) is invariable"
+ , "c3" : "QC-CPP000012[00001] The expression ((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)) is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/apps/lib/opt.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression ((1L&lt;&lt;1)|(1L&lt;&lt;2)|(1L&lt;&lt;3)|(1L&lt;&lt;4)|(1L&lt;&lt;5)|(1L&lt;&lt;6)|(1L&lt;&lt;7)|(1L&lt;&lt;8)|(1L&lt;&lt;9)|(1L&lt;&lt;10)|(1L&lt;&lt;11)) is invariable"
 }} 
 ,
 { "ligne" : {"" : ""

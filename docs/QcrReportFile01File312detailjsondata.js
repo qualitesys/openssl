@@ -1,8 +1,8 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/crypto/des/fcrypt.c.html" 
- , "texte" : "File crypto/des/fcrypt.c 17 rule violations " 
+   "fic1"  : "./qc/crypto/des/ecb_enc.c.html" 
+ , "texte" : "File crypto/des/ecb_enc.c 25 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -13,8 +13,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00770"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#770"
+ , "c5" : "00903"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#903"
  , "c1" : " int "
  , "c2" : "getchar(void)"
  , "c3" : "1"
@@ -22,8 +22,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00779"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#779"
+ , "c5" : "00912"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#912"
  , "c1" : " int "
  , "c2" : "fgetc_unlocked(FILE*)"
  , "c3" : "1"
@@ -31,8 +31,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00789"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#789"
+ , "c5" : "00922"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#922"
  , "c1" : " int "
  , "c2" : "getc_unlocked(FILE*)"
  , "c3" : "1"
@@ -40,8 +40,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00796"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#796"
+ , "c5" : "00929"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#929"
  , "c1" : " int "
  , "c2" : "getchar_unlocked(void)"
  , "c3" : "1"
@@ -49,8 +49,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00805"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#805"
+ , "c5" : "00938"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#938"
  , "c1" : " int "
  , "c2" : "putchar(int)"
  , "c3" : "1"
@@ -58,8 +58,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00814"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#814"
+ , "c5" : "00947"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#947"
  , "c1" : " int "
  , "c2" : "fputc_unlocked(int;FILE*)"
  , "c3" : "1"
@@ -67,8 +67,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00824"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#824"
+ , "c5" : "00957"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#957"
  , "c1" : " int "
  , "c2" : "putc_unlocked(int;FILE*)"
  , "c3" : "1"
@@ -76,8 +76,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00831"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#831"
+ , "c5" : "00964"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#964"
  , "c1" : " int "
  , "c2" : "putchar_unlocked(int)"
  , "c3" : "1"
@@ -85,8 +85,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00837"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#837"
+ , "c5" : "00970"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#970"
  , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "feof_unlocked(FILE*)"
  , "c3" : "1"
@@ -94,8 +94,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00844"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#844"
+ , "c5" : "00977"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#977"
  , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "ferror_unlocked(FILE*)"
  , "c3" : "1"
@@ -103,8 +103,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00863"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#863"
+ , "c5" : "00996"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#996"
  , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "sprintf(char*;char*)"
  , "c3" : "1"
@@ -112,8 +112,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00876"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#876"
+ , "c5" : "01009"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1009"
  , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "vsprintf(char*;char*;__gnuc_va_list)"
  , "c3" : "1"
@@ -121,8 +121,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00895"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#895"
+ , "c5" : "01028"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1028"
  , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "snprintf(char*;size_t;char*)"
  , "c3" : "1"
@@ -130,8 +130,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00909"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#909"
+ , "c5" : "01042"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1042"
  , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "vsnprintf(char*;size_t;char*;__gnuc_va_list)"
  , "c3" : "1"
@@ -139,8 +139,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00930"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#930"
+ , "c5" : "01063"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1063"
  , "c1" : " int "
  , "c2" : "fprintf(FILE*;char*)"
  , "c3" : "1"
@@ -148,8 +148,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00937"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#937"
+ , "c5" : "01070"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1070"
  , "c1" : " int "
  , "c2" : "printf(char*)"
  , "c3" : "1"
@@ -157,8 +157,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00949"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#949"
+ , "c5" : "01082"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1082"
  , "c1" : " int "
  , "c2" : "vprintf(char*;__gnuc_va_list)"
  , "c3" : "1"
@@ -166,8 +166,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00959"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#959"
+ , "c5" : "01092"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1092"
  , "c1" : " int "
  , "c2" : "vfprintf(FILE*;char*;__gnuc_va_list)"
  , "c3" : "1"
@@ -175,8 +175,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00974"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#974"
+ , "c5" : "01107"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1107"
  , "c1" : " int "
  , "c2" : "dprintf(int;char*)"
  , "c3" : "1"
@@ -184,8 +184,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00985"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#985"
+ , "c5" : "01118"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1118"
  , "c1" : " int "
  , "c2" : "vdprintf(int;char*;__gnuc_va_list)"
  , "c3" : "1"
@@ -193,8 +193,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01004"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1004"
+ , "c5" : "01137"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1137"
  , "c1" : " char "
  , "c2" : "fgets(char*;int;FILE*)"
  , "c3" : "3"
@@ -202,8 +202,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01030"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1030"
+ , "c5" : "01163"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1163"
  , "c1" : "size_t"
  , "c2" : "fread(void*;size_t;size_t;FILE*)"
  , "c3" : "3"
@@ -211,8 +211,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01057"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1057"
+ , "c5" : "01190"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1190"
  , "c1" : "size_t"
  , "c2" : "fread_unlocked(void*;size_t;size_t;FILE*)"
  , "c3" : "7"
@@ -220,8 +220,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01227"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1227"
+ , "c5" : "01350"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1350"
  , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "atoi(char*)"
  , "c3" : "1"
@@ -229,8 +229,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01232"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1232"
+ , "c5" : "01355"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1355"
  , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "atol(char*)"
  , "c3" : "1"
@@ -238,8 +238,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01239"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1239"
+ , "c5" : "01362"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1362"
  , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "atoll(char*)"
  , "c3" : "1"
@@ -247,8 +247,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01392"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1392"
+ , "c5" : "01509"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1509"
  , "c1" : "__uint16_t"
  , "c2" : "__bswap_16(__uint16_t)"
  , "c3" : "1"
@@ -256,8 +256,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01407"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1407"
+ , "c5" : "01524"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1524"
  , "c1" : "__uint32_t"
  , "c2" : "__bswap_32(__uint32_t)"
  , "c3" : "1"
@@ -265,8 +265,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01417"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1417"
+ , "c5" : "01534"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1534"
  , "c1" : "__uint64_t"
  , "c2" : "__bswap_64(__uint64_t)"
  , "c3" : "1"
@@ -274,8 +274,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01429"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1429"
+ , "c5" : "01546"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1546"
  , "c1" : "__uint16_t"
  , "c2" : "__uint16_identity(__uint16_t)"
  , "c3" : "1"
@@ -283,8 +283,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01435"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1435"
+ , "c5" : "01552"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1552"
  , "c1" : "__uint32_t"
  , "c2" : "__uint32_identity(__uint32_t)"
  , "c3" : "1"
@@ -292,8 +292,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01441"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1441"
+ , "c5" : "01558"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1558"
  , "c1" : "__uint64_t"
  , "c2" : "__uint64_identity(__uint64_t)"
  , "c3" : "1"
@@ -301,8 +301,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "02109"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#2109"
+ , "c5" : "02226"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#2226"
  , "c1" : " void "
  , "c2" : "bsearch(void*;void*;size_t;size_t;__compar_fn_t)"
  , "c3" : "6"
@@ -311,7 +311,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
  , "c1" : " double  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "atof(char*)"
  , "c3" : "1"
@@ -320,7 +320,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
  , "c1" : " char "
  , "c2" : "realpath(char*;char*)"
  , "c3" : "2"
@@ -329,7 +329,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
  , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "ptsname_r(int;char*;size_t)"
  , "c3" : "1"
@@ -338,7 +338,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
  , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "wctomb(char*;wchar_t)"
  , "c3" : "2"
@@ -347,7 +347,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
  , "c1" : "size_t"
  , "c2" : "mbstowcs(wchar_t*;char*;size_t)"
  , "c3" : "1"
@@ -356,7 +356,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
  , "c1" : "size_t"
  , "c2" : "wcstombs(char*;wchar_t*;size_t)"
  , "c3" : "1"
@@ -365,232 +365,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
- , "c1" : " char "
- , "c2" : "ossl_check_OPENSSL_STRING_type(char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_OPENSSL_STRING_sk_type(structstack_st_OPENSSL_STRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_OPENSSL_STRING_sk_type(structstack_st_OPENSSL_STRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
- , "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_OPENSSL_STRING_compfunc_type(sk_OPENSSL_STRING_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
- , "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_OPENSSL_STRING_copyfunc_type(sk_OPENSSL_STRING_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
- , "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_OPENSSL_STRING_freefunc_type(sk_OPENSSL_STRING_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
- , "c1" : " char "
- , "c2" : "ossl_check_OPENSSL_CSTRING_type(char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_OPENSSL_CSTRING_sk_type(structstack_st_OPENSSL_CSTRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_OPENSSL_CSTRING_sk_type(structstack_st_OPENSSL_CSTRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
- , "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_OPENSSL_CSTRING_compfunc_type(sk_OPENSSL_CSTRING_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
- , "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_OPENSSL_CSTRING_copyfunc_type(sk_OPENSSL_CSTRING_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
- , "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_OPENSSL_CSTRING_freefunc_type(sk_OPENSSL_CSTRING_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
- , "c1" : " void "
- , "c2" : "ossl_check_OPENSSL_BLOCK_type(void*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
- , "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_OPENSSL_BLOCK_compfunc_type(sk_OPENSSL_BLOCK_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
- , "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_OPENSSL_BLOCK_copyfunc_type(sk_OPENSSL_BLOCK_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
- , "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_OPENSSL_BLOCK_freefunc_type(sk_OPENSSL_BLOCK_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
- , "c1" : " void "
- , "c2" : "ossl_check_void_type(void*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_void_sk_type(structstack_st_void*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_void_sk_type(structstack_st_void*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
- , "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_void_compfunc_type(sk_void_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
- , "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_void_copyfunc_type(sk_void_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
- , "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_void_freefunc_type(sk_void_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
- , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "pthread_equal(pthread_t;pthread_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
  , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "bcopy(void*;void*;size_t)"
  , "c3" : "1"
@@ -599,7 +374,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
  , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "bzero(void*;size_t)"
  , "c3" : "1"
@@ -608,7 +383,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
  , "c1" : " void "
  , "c2" : "memcpy(void*;void*;size_t)"
  , "c3" : "1"
@@ -617,7 +392,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
  , "c1" : " void "
  , "c2" : "memmove(void*;void*;size_t)"
  , "c3" : "1"
@@ -626,7 +401,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
  , "c1" : " void "
  , "c2" : "memset(void*;int;size_t)"
  , "c3" : "1"
@@ -635,7 +410,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
  , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "explicit_bzero(void*;size_t)"
  , "c3" : "1"
@@ -644,7 +419,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
  , "c1" : " char "
  , "c2" : "strcpy(char*;char*)"
  , "c3" : "1"
@@ -653,7 +428,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
  , "c1" : " char "
  , "c2" : "stpcpy(char*;char*)"
  , "c3" : "1"
@@ -662,7 +437,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
  , "c1" : " char "
  , "c2" : "strncpy(char*;char*;size_t)"
  , "c3" : "1"
@@ -671,7 +446,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
  , "c1" : " char "
  , "c2" : "stpncpy(char*;char*;size_t)"
  , "c3" : "1"
@@ -680,7 +455,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
  , "c1" : " char "
  , "c2" : "strcat(char*;char*)"
  , "c3" : "1"
@@ -689,7 +464,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
  , "c1" : " char "
  , "c2" : "strncat(char*;char*;size_t)"
  , "c3" : "1"
@@ -698,20 +473,299 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
  , "c1" : " char "
- , "c2" : "DES_crypt(char*;char*)"
+ , "c2" : "ossl_check_OPENSSL_STRING_type(char*)"
  , "c3" : "1"
- , "c4" : "2"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00001"
- , "c5link" : "././qc/crypto/des/fcrypt.c.html#1"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_OPENSSL_STRING_sk_type(structstack_st_OPENSSL_STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_OPENSSL_STRING_sk_type(structstack_st_OPENSSL_STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_OPENSSL_STRING_compfunc_type(sk_OPENSSL_STRING_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_OPENSSL_STRING_copyfunc_type(sk_OPENSSL_STRING_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_OPENSSL_STRING_freefunc_type(sk_OPENSSL_STRING_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
  , "c1" : " char "
- , "c2" : "DES_fcrypt(char*;char*;char*)"
- , "c3" : "10"
- , "c4" : "44"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_type(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_OPENSSL_CSTRING_sk_type(structstack_st_OPENSSL_CSTRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_sk_type(structstack_st_OPENSSL_CSTRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_compfunc_type(sk_OPENSSL_CSTRING_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_copyfunc_type(sk_OPENSSL_CSTRING_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_freefunc_type(sk_OPENSSL_CSTRING_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : " void "
+ , "c2" : "ossl_check_OPENSSL_BLOCK_type(void*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_OPENSSL_BLOCK_compfunc_type(sk_OPENSSL_BLOCK_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_OPENSSL_BLOCK_copyfunc_type(sk_OPENSSL_BLOCK_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_OPENSSL_BLOCK_freefunc_type(sk_OPENSSL_BLOCK_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : " void "
+ , "c2" : "ossl_check_void_type(void*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_void_sk_type(structstack_st_void*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_void_sk_type(structstack_st_void*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_void_compfunc_type(sk_void_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_void_copyfunc_type(sk_void_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_void_freefunc_type(sk_void_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "pthread_equal(pthread_t;pthread_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : "BIO"
+ , "c2" : "ossl_check_BIO_type(BIO*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_const_BIO_sk_type(structstack_st_BIO*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : "OPENSSL_STACK"
+ , "c2" : "ossl_check_BIO_sk_type(structstack_st_BIO*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : "OPENSSL_sk_compfunc"
+ , "c2" : "ossl_check_BIO_compfunc_type(sk_BIO_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : "OPENSSL_sk_copyfunc"
+ , "c2" : "ossl_check_BIO_copyfunc_type(sk_BIO_copyfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : "OPENSSL_sk_freefunc"
+ , "c2" : "ossl_check_BIO_freefunc_type(sk_BIO_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : " char "
+ , "c2" : "DES_options(void)"
+ , "c3" : "4"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/des/ecb_enc.c.html#1"
+ , "c1" : " void "
+ , "c2" : "DES_ecb_encrypt(const_DES_cblock*;DES_cblock*;DES_key_schedule*;int)"
+ , "c3" : "1"
+ , "c4" : "14"
 }} 
 ] 
 }} 
@@ -720,7 +774,7 @@ var maDataBlocs = {
 "data03" : [
    {
 
- "ligneplantuml" : "./qc/crypto/des/fcrypt.c.svg" }
+ "ligneplantuml" : "./qc/crypto/des/ecb_enc.c.svg" }
 
 ] 
 , 
@@ -756,14 +810,14 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -784,7 +838,7 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-CPPCWE481"
  , "c3" : "Assigning instead of comparing"
- , "c4" : "10"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : { "" : ""
@@ -797,127 +851,183 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01067"
- , "c1link" : "./qc/crypto/des/fcrypt.c.html#1067"
+ , "c1" : "01200"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#1200"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[01067] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+ , "c3" : "QC-CPP000018[01200] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "02114"
- , "c1link" : "./qc/crypto/des/fcrypt.c.html#2114"
+ , "c1" : "02231"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#2231"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02114] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[02231] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
- , "c1link" : "./qc/crypto/des/fcrypt.c.html#1"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00001] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
- , "c1link" : "./qc/crypto/des/fcrypt.c.html#1"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00001] The expression 2&gt;1 is invariable"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
- , "c1link" : "./qc/crypto/des/fcrypt.c.html#1"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression init applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[00001] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
- , "c1link" : "./qc/crypto/des/fcrypt.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/des/fcrypt.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/des/fcrypt.c.html#1"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00001] The expression  ! c applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000005[00001] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
- , "c1link" : "./qc/crypto/des/fcrypt.c.html#1"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#1"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
- , "c1link" : "./qc/crypto/des/fcrypt.c.html#1"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#1"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
- , "c1link" : "./qc/crypto/des/fcrypt.c.html#1"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#1"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
- , "c1link" : "./qc/crypto/des/fcrypt.c.html#1"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#1"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
- , "c1link" : "./qc/crypto/des/fcrypt.c.html#1"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#1"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
- , "c1link" : "./qc/crypto/des/fcrypt.c.html#1"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#1"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
- , "c1link" : "./qc/crypto/des/fcrypt.c.html#1"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#1"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
- , "c1link" : "./qc/crypto/des/fcrypt.c.html#1"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#1"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
- , "c1link" : "./qc/crypto/des/fcrypt.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00001] The expression  ! u applies to a single value or variable, might be ambiguous."
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/des/ecb_enc.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/crypto/des/fcrypt.c.fct.svg" 
+   "fichierplantumlsvg" : "./qc/crypto/des/ecb_enc.c.fct.svg" 
 
 , 
 }

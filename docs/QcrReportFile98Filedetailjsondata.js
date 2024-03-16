@@ -1691,6 +1691,13 @@ var maDataBlocs = {
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
+  "fic"  : "crypto/cmp/cmp_genm.c" 
+  , "Fic1"  : "qc/crypto/cmp/cmp_genm.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/cmp/cmp_genm.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
   "fic"  : "crypto/cmp/cmp_hdr.c" 
   , "Fic1"  : "qc/crypto/cmp/cmp_hdr.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
@@ -2255,6 +2262,13 @@ var maDataBlocs = {
   , "Fic1"  : "qc/crypto/des/xcbc_enc.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
   , "Fic2"  : "qc/crypto/des/xcbc_enc.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "crypto/deterministic_nonce.c" 
+  , "Fic1"  : "qc/crypto/deterministic_nonce.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/deterministic_nonce.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
@@ -3049,6 +3063,13 @@ var maDataBlocs = {
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
+  "fic"  : "crypto/err/err_save.c" 
+  , "Fic1"  : "qc/crypto/err/err_save.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/err/err_save.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
   "fic"  : "crypto/ess/ess_asn1.c" 
   , "Fic1"  : "qc/crypto/ess/ess_asn1.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
@@ -3700,6 +3721,13 @@ var maDataBlocs = {
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
+  "fic"  : "crypto/hpke/hpke.c" 
+  , "Fic1"  : "qc/crypto/hpke/hpke.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/hpke/hpke.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
   "fic"  : "crypto/hpke/hpke_util.c" 
   , "Fic1"  : "qc/crypto/hpke/hpke_util.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
@@ -3952,6 +3980,13 @@ var maDataBlocs = {
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
+  "fic"  : "crypto/modes/xts128gb.c" 
+  , "Fic1"  : "qc/crypto/modes/xts128gb.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/modes/xts128gb.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
   "fic"  : "crypto/o_dir.c" 
   , "Fic1"  : "qc/crypto/o_dir.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
@@ -4131,6 +4166,13 @@ var maDataBlocs = {
   , "Fic1"  : "qc/crypto/params_from_text.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
   , "Fic2"  : "qc/crypto/params_from_text.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "crypto/params_idx.c" 
+  , "Fic1"  : "qc/crypto/params_idx.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/params_idx.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
@@ -4523,6 +4565,13 @@ var maDataBlocs = {
   , "Fic1"  : "qc/crypto/rand/rand_pool.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
   , "Fic2"  : "qc/crypto/rand/rand_pool.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "crypto/rand/rand_uniform.c" 
+  , "Fic1"  : "qc/crypto/rand/rand_uniform.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/rand/rand_uniform.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
@@ -5401,10 +5450,24 @@ var maDataBlocs = {
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
+  "fic"  : "crypto/x509/v3_group_ac.c" 
+  , "Fic1"  : "qc/crypto/x509/v3_group_ac.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/x509/v3_group_ac.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
   "fic"  : "crypto/x509/v3_ia5.c" 
   , "Fic1"  : "qc/crypto/x509/v3_ia5.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
   , "Fic2"  : "qc/crypto/x509/v3_ia5.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "crypto/x509/v3_ind_iss.c" 
+  , "Fic1"  : "qc/crypto/x509/v3_ind_iss.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/x509/v3_ind_iss.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
@@ -5440,6 +5503,20 @@ var maDataBlocs = {
   , "Fic1"  : "qc/crypto/x509/v3_ncons.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
   , "Fic2"  : "qc/crypto/x509/v3_ncons.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "crypto/x509/v3_no_ass.c" 
+  , "Fic1"  : "qc/crypto/x509/v3_no_ass.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/x509/v3_no_ass.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "crypto/x509/v3_no_rev_avail.c" 
+  , "Fic1"  : "qc/crypto/x509/v3_no_rev_avail.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/x509/v3_no_rev_avail.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
@@ -5499,10 +5576,24 @@ var maDataBlocs = {
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
+  "fic"  : "crypto/x509/v3_single_use.c" 
+  , "Fic1"  : "qc/crypto/x509/v3_single_use.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/x509/v3_single_use.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
   "fic"  : "crypto/x509/v3_skid.c" 
   , "Fic1"  : "qc/crypto/x509/v3_skid.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
   , "Fic2"  : "qc/crypto/x509/v3_skid.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "crypto/x509/v3_soa_id.c" 
+  , "Fic1"  : "qc/crypto/x509/v3_soa_id.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/crypto/x509/v3_soa_id.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
@@ -5797,6 +5888,13 @@ var maDataBlocs = {
   , "Fic1"  : "qc/engines/e_padlock.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
   , "Fic2"  : "qc/engines/e_padlock.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ms/applink.c" 
+  , "Fic1"  : "qc/ms/applink.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ms/applink.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
@@ -6409,6 +6507,20 @@ var maDataBlocs = {
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
+  "fic"  : "providers/implementations/ciphers/cipher_sm4_xts.c" 
+  , "Fic1"  : "qc/providers/implementations/ciphers/cipher_sm4_xts.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/providers/implementations/ciphers/cipher_sm4_xts.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "providers/implementations/ciphers/cipher_sm4_xts_hw.c" 
+  , "Fic1"  : "qc/providers/implementations/ciphers/cipher_sm4_xts_hw.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/providers/implementations/ciphers/cipher_sm4_xts_hw.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
   "fic"  : "providers/implementations/ciphers/cipher_tdes.c" 
   , "Fic1"  : "qc/providers/implementations/ciphers/cipher_tdes.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
@@ -6710,10 +6822,24 @@ var maDataBlocs = {
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
+  "fic"  : "providers/implementations/kdfs/argon2.c" 
+  , "Fic1"  : "qc/providers/implementations/kdfs/argon2.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/providers/implementations/kdfs/argon2.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
   "fic"  : "providers/implementations/kdfs/hkdf.c" 
   , "Fic1"  : "qc/providers/implementations/kdfs/hkdf.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
   , "Fic2"  : "qc/providers/implementations/kdfs/hkdf.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "providers/implementations/kdfs/hmacdrbg_kdf.c" 
+  , "Fic1"  : "qc/providers/implementations/kdfs/hmacdrbg_kdf.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/providers/implementations/kdfs/hmacdrbg_kdf.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
@@ -7116,6 +7242,13 @@ var maDataBlocs = {
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
+  "fic"  : "ssl/event_queue.c" 
+  , "Fic1"  : "qc/ssl/event_queue.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/event_queue.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
   "fic"  : "ssl/methods.c" 
   , "Fic1"  : "qc/ssl/methods.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
@@ -7127,6 +7260,286 @@ var maDataBlocs = {
   , "Fic1"  : "qc/ssl/pqueue.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
   , "Fic2"  : "qc/ssl/pqueue.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/priority_queue.c" 
+  , "Fic1"  : "qc/ssl/priority_queue.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/priority_queue.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/cc_newreno.c" 
+  , "Fic1"  : "qc/ssl/quic/cc_newreno.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/cc_newreno.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/json_enc.c" 
+  , "Fic1"  : "qc/ssl/quic/json_enc.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/json_enc.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/qlog.c" 
+  , "Fic1"  : "qc/ssl/quic/qlog.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/qlog.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/qlog_event_helpers.c" 
+  , "Fic1"  : "qc/ssl/quic/qlog_event_helpers.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/qlog_event_helpers.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_ackm.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_ackm.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_ackm.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_cfq.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_cfq.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_cfq.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_channel.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_channel.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_channel.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_demux.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_demux.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_demux.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_engine.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_engine.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_engine.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_fc.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_fc.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_fc.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_fifd.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_fifd.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_fifd.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_impl.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_impl.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_impl.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_lcidm.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_lcidm.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_lcidm.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_method.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_method.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_method.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_port.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_port.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_port.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_rcidm.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_rcidm.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_rcidm.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_reactor.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_reactor.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_reactor.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_record_rx.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_record_rx.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_record_rx.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_record_shared.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_record_shared.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_record_shared.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_record_tx.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_record_tx.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_record_tx.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_record_util.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_record_util.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_record_util.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_rstream.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_rstream.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_rstream.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_rx_depack.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_rx_depack.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_rx_depack.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_sf_list.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_sf_list.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_sf_list.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_srt_gen.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_srt_gen.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_srt_gen.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_srtm.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_srtm.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_srtm.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_sstream.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_sstream.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_sstream.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_statm.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_statm.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_statm.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_stream_map.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_stream_map.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_stream_map.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_thread_assist.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_thread_assist.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_thread_assist.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_tls.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_tls.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_tls.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_trace.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_trace.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_trace.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_tserver.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_tserver.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_tserver.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_txp.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_txp.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_txp.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_txpim.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_txpim.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_txpim.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_types.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_types.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_types.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_wire.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_wire.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_wire.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/quic_wire_pkt.c" 
+  , "Fic1"  : "qc/ssl/quic/quic_wire_pkt.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/quic_wire_pkt.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "ssl/quic/uint_set.c" 
+  , "Fic1"  : "qc/ssl/quic/uint_set.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/quic/uint_set.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
@@ -7179,6 +7592,13 @@ var maDataBlocs = {
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
+  "fic"  : "ssl/record/methods/tls_pad.c" 
+  , "Fic1"  : "qc/ssl/record/methods/tls_pad.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/ssl/record/methods/tls_pad.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
   "fic"  : "ssl/record/methods/tlsany_meth.c" 
   , "Fic1"  : "qc/ssl/record/methods/tlsany_meth.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
@@ -7200,17 +7620,10 @@ var maDataBlocs = {
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
-  "fic"  : "ssl/record/ssl3_record.c" 
-  , "Fic1"  : "qc/ssl/record/ssl3_record.c.qre.nonreg.html" 
+  "fic"  : "ssl/rio/poll_immediate.c" 
+  , "Fic1"  : "qc/ssl/rio/poll_immediate.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
-  , "Fic2"  : "qc/ssl/record/ssl3_record.c.xml.nonreg.html" 
-  , "OKKO2"  : "" 
-}},
- { "ligne" : {
-  "fic"  : "ssl/record/tls_pad.c" 
-  , "Fic1"  : "qc/ssl/record/tls_pad.c.qre.nonreg.html" 
-  , "OKKO1"  : "" 
-  , "Fic2"  : "qc/ssl/record/tls_pad.c.xml.nonreg.html" 
+  , "Fic2"  : "qc/ssl/rio/poll_immediate.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
@@ -7456,6 +7869,13 @@ var maDataBlocs = {
   , "Fic1"  : "qc/util/check-format-test-positives.c.qre.nonreg.html" 
   , "OKKO1"  : "" 
   , "Fic2"  : "qc/util/check-format-test-positives.c.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "util/quicserver.c" 
+  , "Fic1"  : "qc/util/quicserver.c.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/util/quicserver.c.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
 ]
