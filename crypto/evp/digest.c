@@ -1,5 +1,5 @@
 /*
- * Copyright 1995-2022 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 1995-2023 The OpenSSL Project Authors. All Rights Reserved.
  *
  * Licensed under the Apache License 2.0 (the "License").  You may not use
  * this file except in compliance with the License.  You can obtain a copy
@@ -181,7 +181,8 @@ static int evp_md_init_internal(EVP_MD_CTX *ctx, const EVP_MD *type,
     }
 #endif
 
-    EVP_MD_CTX_clear_flags(ctx, EVP_MD_CTX_FLAG_CLEANED);
+    EVP_MD_CTX_clear_flags(ctx, EVP_MD_CTX_FLAG_CLEANED
+                                | EVP_MD_CTX_FLAG_FINALISED);
 
     if (type != NULL) {
         ctx->reqdigest = type;
@@ -387,6 +388,11 @@ int EVP_DigestUpdate(EVP_MD_CTX *ctx, const void *data, size_t count)
     if (count == 0)
         return 1;
 
+    if ((ctx->flags & EVP_MD_CTX_FLAG_FINALISED) != 0) {
+        ERR_raise(ERR_LIB_EVP, EVP_R_UPDATE_ERROR);
+        return 0;
+    }
+
     if (ctx->pctx != NULL
             && EVP_PKEY_CTX_IS_SIGNATURE_OP(ctx->pctx)
             && ctx->pctx->op.sig.algctx != NULL) {
@@ -448,16 +454,32 @@ int EVP_DigestFinal_ex(EVP_MD_CTX *ctx, unsigned char *md, unsigned int *isize)
     if (ctx->digest->prov == NULL)
         goto legacy;
 
+    if (ctx->digest->gettable_ctx_params != NULL) {
+        OSSL_PARAM params[] = { OSSL_PARAM_END, OSSL_PARAM_END };
+
+        params[0] = OSSL_PARAM_construct_size_t(OSSL_DIGEST_PARAM_SIZE,
+                                                &mdsize);
+        if (!EVP_MD_CTX_get_params(ctx, params))
+            return 0;
+    }
+
     if (ctx->digest->dfinal == NULL) {
+        ERR_raise(ERR_LIB_EVP, EVP_R_FINAL_ERROR);
+        return 0;
+    }
+
+    if ((ctx->flags & EVP_MD_CTX_FLAG_FINALISED) != 0) {
         ERR_raise(ERR_LIB_EVP, EVP_R_FINAL_ERROR);
         return 0;
     }
 
     ret = ctx->digest->dfinal(ctx->algctx, md, &size, mdsize);
 
+    ctx->flags |= EVP_MD_CTX_FLAG_FINALISED;
+
     if (isize != NULL) {
         if (size <= UINT_MAX) {
-            *isize = (int)size;
+            *isize = (unsigned int)size;
         } else {
             ERR_raise(ERR_LIB_EVP, EVP_R_FINAL_ERROR);
             ret = 0;
@@ -480,6 +502,7 @@ int EVP_DigestFinal_ex(EVP_MD_CTX *ctx, unsigned char *md, unsigned int *isize)
     return ret;
 }
 
+/* This is a one shot operation */
 int EVP_DigestFinalXOF(EVP_MD_CTX *ctx, unsigned char *md, size_t size)
 {
     int ret = 0;
@@ -499,11 +522,23 @@ int EVP_DigestFinalXOF(EVP_MD_CTX *ctx, unsigned char *md, size_t size)
         return 0;
     }
 
+    if ((ctx->flags & EVP_MD_CTX_FLAG_FINALISED) != 0) {
+        ERR_raise(ERR_LIB_EVP, EVP_R_FINAL_ERROR);
+        return 0;
+    }
+
+    /*
+     * For backward compatibility we pass the XOFLEN via a param here so that
+     * older providers can use the supplied value. Ideally we should have just
+     * used the size passed into ctx->digest->dfinal().
+     */
     params[i++] = OSSL_PARAM_construct_size_t(OSSL_DIGEST_PARAM_XOFLEN, &size);
     params[i++] = OSSL_PARAM_construct_end();
 
-    if (EVP_MD_CTX_set_params(ctx, params) > 0)
+    if (EVP_MD_CTX_set_params(ctx, params) >= 0)
         ret = ctx->digest->dfinal(ctx->algctx, md, &size, size);
+
+    ctx->flags |= EVP_MD_CTX_FLAG_FINALISED;
 
     return ret;
 
@@ -522,6 +557,27 @@ legacy:
     }
 
     return ret;
+}
+
+/* EVP_DigestSqueeze() can be called multiple times */
+int EVP_DigestSqueeze(EVP_MD_CTX *ctx, unsigned char *md, size_t size)
+{
+    if (ctx->digest == NULL) {
+        ERR_raise(ERR_LIB_EVP, EVP_R_INVALID_NULL_ALGORITHM);
+        return 0;
+    }
+
+    if (ctx->digest->prov == NULL) {
+        ERR_raise(ERR_LIB_EVP, EVP_R_INVALID_OPERATION);
+        return 0;
+    }
+
+    if (ctx->digest->dsqueeze == NULL) {
+        ERR_raise(ERR_LIB_EVP, EVP_R_METHOD_NOT_SUPPORTED);
+        return 0;
+    }
+
+    return ctx->digest->dsqueeze(ctx->algctx, md, &size, size);
 }
 
 EVP_MD_CTX *EVP_MD_CTX_dup(const EVP_MD_CTX *in)
@@ -781,7 +837,7 @@ int EVP_MD_CTX_get_params(EVP_MD_CTX *ctx, OSSL_PARAM params[])
         return pctx->op.sig.signature->get_ctx_md_params(pctx->op.sig.algctx,
                                                          params);
 
-    if (ctx->digest != NULL && ctx->digest->get_params != NULL)
+    if (ctx->digest != NULL && ctx->digest->get_ctx_params != NULL)
         return ctx->digest->get_ctx_params(ctx->algctx, params);
 
     return 0;
@@ -881,13 +937,9 @@ EVP_MD *evp_md_new(void)
 {
     EVP_MD *md = OPENSSL_zalloc(sizeof(*md));
 
-    if (md != NULL) {
-        md->lock = CRYPTO_THREAD_lock_new();
-        if (md->lock == NULL) {
-            OPENSSL_free(md);
-            return NULL;
-        }
-        md->refcnt = 1;
+    if (md != NULL && !CRYPTO_NEW_REF(&md->refcnt, 1)) {
+        OPENSSL_free(md);
+        return NULL;
     }
     return md;
 }
@@ -1007,6 +1059,12 @@ static void *evp_md_from_algorithm(int name_id,
                 fncnt++;
             }
             break;
+        case OSSL_FUNC_DIGEST_SQUEEZE:
+            if (md->dsqueeze == NULL) {
+                md->dsqueeze = OSSL_FUNC_digest_squeeze(fns);
+                fncnt++;
+            }
+            break;
         case OSSL_FUNC_DIGEST_DIGEST:
             if (md->digest == NULL)
                 md->digest = OSSL_FUNC_digest_digest(fns);
@@ -1050,7 +1108,7 @@ static void *evp_md_from_algorithm(int name_id,
             break;
         }
     }
-    if ((fncnt != 0 && fncnt != 5)
+    if ((fncnt != 0 && fncnt != 5 && fncnt != 6)
         || (fncnt == 0 && md->digest == NULL)) {
         /*
          * In order to be a consistent set of functions we either need the
@@ -1100,7 +1158,7 @@ int EVP_MD_up_ref(EVP_MD *md)
     int ref = 0;
 
     if (md->origin == EVP_ORIG_DYNAMIC)
-        CRYPTO_UP_REF(&md->refcnt, &ref, md->lock);
+        CRYPTO_UP_REF(&md->refcnt, &ref);
     return 1;
 }
 
@@ -1111,7 +1169,7 @@ void EVP_MD_free(EVP_MD *md)
     if (md == NULL || md->origin != EVP_ORIG_DYNAMIC)
         return;
 
-    CRYPTO_DOWN_REF(&md->refcnt, &i, md->lock);
+    CRYPTO_DOWN_REF(&md->refcnt, &i);
     if (i > 0)
         return;
     evp_md_free_int(md);

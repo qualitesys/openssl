@@ -1,5 +1,5 @@
 /*
- * Copyright 2016-2022 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2016-2023 The OpenSSL Project Authors. All Rights Reserved.
  *
  * Licensed under the Apache License 2.0 (the "License").  You may not use
  * this file except in compliance with the License.  You can obtain a copy
@@ -44,6 +44,7 @@ int tls_parse_ctos_renegotiate(SSL_CONNECTION *s, PACKET *pkt,
 {
     unsigned int ilen;
     const unsigned char *data;
+    int ok;
 
     /* Parse the length byte */
     if (!PACKET_get_1(pkt, &ilen)
@@ -58,8 +59,16 @@ int tls_parse_ctos_renegotiate(SSL_CONNECTION *s, PACKET *pkt,
         return 0;
     }
 
-    if (memcmp(data, s->s3.previous_client_finished,
-               s->s3.previous_client_finished_len)) {
+    ok = memcmp(data, s->s3.previous_client_finished,
+                    s->s3.previous_client_finished_len);
+#ifdef FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION
+    if (ok) {
+        if ((data[0] ^ s->s3.previous_client_finished[0]) != 0xFF) {
+            ok = 0;
+        }
+    }
+#endif
+    if (ok) {
         SSLfatal(s, SSL_AD_HANDSHAKE_FAILURE, SSL_R_RENEGOTIATION_MISMATCH);
         return 0;
     }
@@ -564,6 +573,21 @@ int tls_parse_ctos_psk_kex_modes(SSL_CONNECTION *s, PACKET *pkt,
                 && (s->options & SSL_OP_ALLOW_NO_DHE_KEX) != 0)
             s->ext.psk_kex_mode |= TLSEXT_KEX_MODE_FLAG_KE;
     }
+
+    if (((s->ext.psk_kex_mode & TLSEXT_KEX_MODE_FLAG_KE) != 0)
+            && (s->options & SSL_OP_PREFER_NO_DHE_KEX) != 0) {
+
+        /*
+         * If NO_DHE is supported and preferred, then we only remember this
+         * mode. DHE PSK will not be used for sure, because in any case where
+         * it would be supported (i.e. if a key share is present), NO_DHE would
+         * be supported as well. As the latter is preferred it would be
+         * chosen. By removing DHE PSK here, we don't have to deal with the
+         * SSL_OP_PREFER_NO_DHE_KEX option in any other place.
+         */
+        s->ext.psk_kex_mode = TLSEXT_KEX_MODE_FLAG_KE;
+    }
+
 #endif
 
     return 1;
@@ -893,7 +917,7 @@ int tls_parse_ctos_cookie(SSL_CONNECTION *s, PACKET *pkt, unsigned int context,
     }
 
     /* Act as if this ClientHello came after a HelloRetryRequest */
-    s->hello_retry_request = 1;
+    s->hello_retry_request = SSL_HRR_PENDING;
 
     s->ext.cookieok = 1;
 #endif
@@ -1146,16 +1170,18 @@ int tls_parse_ctos_psk(SSL_CONNECTION *s, PACKET *pkt, unsigned int context,
                 continue;
             }
 
-            age = ossl_time_subtract(ossl_seconds2time(ticket_agel),
-                                     ossl_seconds2time(sess->ext.tick_age_add));
+            age = ossl_time_subtract(ossl_ms2time(ticket_agel),
+                                     ossl_ms2time(sess->ext.tick_age_add));
             t = ossl_time_subtract(ossl_time_now(), sess->time);
 
             /*
-             * Beause we use second granuality, it could appear that
-             * the client's ticket age is longer than ours (our ticket
-             * age calculation should always be slightly longer than the
-             * client's due to the network latency).  Therefore we add
-             * 1000ms to our age calculation to adjust for rounding errors.
+             * Although internally we use OSS_TIME which has ns granularity,
+             * when SSL_SESSION structures are serialised/deserialised we use
+             * second granularity for the sess->time field. Therefore it could
+             * appear that the client's ticket age is longer than ours (our
+             * ticket age calculation should always be slightly longer than the
+             * client's due to the network latency). Therefore we add 1000ms to
+             * our age calculation to adjust for rounding errors.
              */
             expire = ossl_time_add(t, ossl_ms2time(1000));
 
@@ -1634,10 +1660,13 @@ EXT_RETURN tls_construct_stoc_key_share(SSL_CONNECTION *s, WPACKET *pkt,
         }
         return EXT_RETURN_NOT_SENT;
     }
+
     if (s->hit && (s->ext.psk_kex_mode & TLSEXT_KEX_MODE_FLAG_KE_DHE) == 0) {
         /*
-         * PSK ('hit') and explicitly not doing DHE (if the client sent the
-         * DHE option we always take it); don't send key share.
+         * PSK ('hit') and explicitly not doing DHE. If the client sent the
+         * DHE option, we take it by default, except if non-DHE would be
+         * preferred by config, but this case would have been handled in
+         * tls_parse_ctos_psk_kex_modes().
          */
         return EXT_RETURN_NOT_SENT;
     }
@@ -1936,4 +1965,165 @@ EXT_RETURN tls_construct_stoc_psk(SSL_CONNECTION *s, WPACKET *pkt,
     }
 
     return EXT_RETURN_SENT;
+}
+
+EXT_RETURN tls_construct_stoc_client_cert_type(SSL_CONNECTION *sc, WPACKET *pkt,
+                                               unsigned int context,
+                                               X509 *x, size_t chainidx)
+{
+    if (sc->ext.client_cert_type_ctos == OSSL_CERT_TYPE_CTOS_ERROR
+        && (send_certificate_request(sc)
+            || sc->post_handshake_auth == SSL_PHA_EXT_RECEIVED)) {
+        /* Did not receive an acceptable cert type - and doing client auth */
+        SSLfatal(sc, SSL_AD_UNSUPPORTED_CERTIFICATE, SSL_R_BAD_EXTENSION);
+        return EXT_RETURN_FAIL;
+    }
+
+    if (sc->ext.client_cert_type == TLSEXT_cert_type_x509) {
+        sc->ext.client_cert_type_ctos = OSSL_CERT_TYPE_CTOS_NONE;
+        return EXT_RETURN_NOT_SENT;
+    }
+
+    /*
+     * Note: only supposed to send this if we are going to do a cert request,
+     * but TLSv1.3 could do a PHA request if the client supports it
+     */
+    if ((!send_certificate_request(sc) && sc->post_handshake_auth != SSL_PHA_EXT_RECEIVED)
+            || sc->ext.client_cert_type_ctos != OSSL_CERT_TYPE_CTOS_GOOD
+            || sc->client_cert_type == NULL) {
+        /* if we don't send it, reset to TLSEXT_cert_type_x509 */
+        sc->ext.client_cert_type_ctos = OSSL_CERT_TYPE_CTOS_NONE;
+        sc->ext.client_cert_type = TLSEXT_cert_type_x509;
+        return EXT_RETURN_NOT_SENT;
+    }
+
+    if (!WPACKET_put_bytes_u16(pkt, TLSEXT_TYPE_client_cert_type)
+            || !WPACKET_start_sub_packet_u16(pkt)
+            || !WPACKET_put_bytes_u8(pkt, sc->ext.client_cert_type)
+            || !WPACKET_close(pkt)) {
+        SSLfatal(sc, SSL_AD_INTERNAL_ERROR, ERR_R_INTERNAL_ERROR);
+        return EXT_RETURN_FAIL;
+    }
+    return EXT_RETURN_SENT;
+}
+
+/* One of |pref|, |other| is configured and the values are sanitized */
+static int reconcile_cert_type(const unsigned char *pref, size_t pref_len,
+                               const unsigned char *other, size_t other_len,
+                               uint8_t *chosen_cert_type)
+{
+    size_t i;
+
+    for (i = 0; i < pref_len; i++) {
+        if (memchr(other, pref[i], other_len) != NULL) {
+            *chosen_cert_type = pref[i];
+            return OSSL_CERT_TYPE_CTOS_GOOD;
+        }
+    }
+    return OSSL_CERT_TYPE_CTOS_ERROR;
+}
+
+int tls_parse_ctos_client_cert_type(SSL_CONNECTION *sc, PACKET *pkt,
+                                    unsigned int context,
+                                    X509 *x, size_t chainidx)
+{
+    PACKET supported_cert_types;
+    const unsigned char *data;
+    size_t len;
+
+    /* Ignore the extension */
+    if (sc->client_cert_type == NULL) {
+        sc->ext.client_cert_type_ctos = OSSL_CERT_TYPE_CTOS_NONE;
+        sc->ext.client_cert_type = TLSEXT_cert_type_x509;
+        return 1;
+    }
+
+    if (!PACKET_as_length_prefixed_1(pkt, &supported_cert_types)) {
+        sc->ext.client_cert_type_ctos = OSSL_CERT_TYPE_CTOS_ERROR;
+        SSLfatal(sc, SSL_AD_DECODE_ERROR, SSL_R_BAD_EXTENSION);
+        return 0;
+    }
+    if ((len = PACKET_remaining(&supported_cert_types)) == 0) {
+        sc->ext.client_cert_type_ctos = OSSL_CERT_TYPE_CTOS_ERROR;
+        SSLfatal(sc, SSL_AD_DECODE_ERROR, SSL_R_BAD_EXTENSION);
+        return 0;
+    }
+    if (!PACKET_get_bytes(&supported_cert_types, &data, len)) {
+        sc->ext.client_cert_type_ctos = OSSL_CERT_TYPE_CTOS_ERROR;
+        SSLfatal(sc, SSL_AD_DECODE_ERROR, SSL_R_BAD_EXTENSION);
+        return 0;
+    }
+    /* client_cert_type: client (peer) has priority */
+    sc->ext.client_cert_type_ctos = reconcile_cert_type(data, len,
+                                                        sc->client_cert_type, sc->client_cert_type_len,
+                                                        &sc->ext.client_cert_type);
+
+    /* Ignore the error until sending - so we can check cert auth*/
+    return 1;
+}
+
+EXT_RETURN tls_construct_stoc_server_cert_type(SSL_CONNECTION *sc, WPACKET *pkt,
+                                               unsigned int context,
+                                               X509 *x, size_t chainidx)
+{
+    if (sc->ext.server_cert_type == TLSEXT_cert_type_x509) {
+        sc->ext.server_cert_type_ctos = OSSL_CERT_TYPE_CTOS_NONE;
+        return EXT_RETURN_NOT_SENT;
+    }
+    if (sc->ext.server_cert_type_ctos != OSSL_CERT_TYPE_CTOS_GOOD
+            || sc->server_cert_type == NULL) {
+        /* if we don't send it, reset to TLSEXT_cert_type_x509 */
+        sc->ext.server_cert_type_ctos = OSSL_CERT_TYPE_CTOS_NONE;
+        sc->ext.server_cert_type = TLSEXT_cert_type_x509;
+        return EXT_RETURN_NOT_SENT;
+    }
+
+    if (!WPACKET_put_bytes_u16(pkt, TLSEXT_TYPE_server_cert_type)
+            || !WPACKET_start_sub_packet_u16(pkt)
+            || !WPACKET_put_bytes_u8(pkt, sc->ext.server_cert_type)
+            || !WPACKET_close(pkt)) {
+        SSLfatal(sc, SSL_AD_INTERNAL_ERROR, ERR_R_INTERNAL_ERROR);
+        return EXT_RETURN_FAIL;
+    }
+    return EXT_RETURN_SENT;
+}
+
+int tls_parse_ctos_server_cert_type(SSL_CONNECTION *sc, PACKET *pkt,
+                                    unsigned int context,
+                                    X509 *x, size_t chainidx)
+{
+    PACKET supported_cert_types;
+    const unsigned char *data;
+    size_t len;
+
+    /* Ignore the extension */
+    if (sc->server_cert_type == NULL) {
+        sc->ext.server_cert_type_ctos = OSSL_CERT_TYPE_CTOS_NONE;
+        sc->ext.server_cert_type = TLSEXT_cert_type_x509;
+        return 1;
+    }
+
+    if (!PACKET_as_length_prefixed_1(pkt, &supported_cert_types)) {
+        SSLfatal(sc, SSL_AD_DECODE_ERROR, SSL_R_BAD_EXTENSION);
+        return 0;
+    }
+
+    if ((len = PACKET_remaining(&supported_cert_types)) == 0) {
+        SSLfatal(sc, SSL_AD_DECODE_ERROR, SSL_R_BAD_EXTENSION);
+        return 0;
+    }
+    if (!PACKET_get_bytes(&supported_cert_types, &data, len)) {
+        SSLfatal(sc, SSL_AD_DECODE_ERROR, SSL_R_BAD_EXTENSION);
+        return 0;
+    }
+    /* server_cert_type: server (this) has priority */
+    sc->ext.server_cert_type_ctos = reconcile_cert_type(sc->server_cert_type, sc->server_cert_type_len,
+                                                        data, len,
+                                                        &sc->ext.server_cert_type);
+    if (sc->ext.server_cert_type_ctos == OSSL_CERT_TYPE_CTOS_GOOD)
+        return 1;
+
+    /* Did not receive an acceptable cert type */
+    SSLfatal(sc, SSL_AD_UNSUPPORTED_CERTIFICATE, SSL_R_BAD_EXTENSION);
+    return 0;
 }

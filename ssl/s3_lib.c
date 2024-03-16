@@ -1,5 +1,5 @@
 /*
- * Copyright 1995-2022 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 1995-2023 The OpenSSL Project Authors. All Rights Reserved.
  * Copyright (c) 2002, Oracle and/or its affiliates. All rights reserved
  * Copyright 2005 Nokia. All rights reserved.
  *
@@ -47,7 +47,7 @@ static SSL_CIPHER tls13_ciphers[] = {
         TLS1_3_VERSION, TLS1_3_VERSION,
         0, 0,
         SSL_HIGH,
-        SSL_HANDSHAKE_MAC_SHA256,
+        SSL_HANDSHAKE_MAC_SHA256 | SSL_QUIC,
         128,
         128,
     }, {
@@ -62,7 +62,7 @@ static SSL_CIPHER tls13_ciphers[] = {
         TLS1_3_VERSION, TLS1_3_VERSION,
         0, 0,
         SSL_HIGH,
-        SSL_HANDSHAKE_MAC_SHA384,
+        SSL_HANDSHAKE_MAC_SHA384 | SSL_QUIC,
         256,
         256,
     },
@@ -78,7 +78,7 @@ static SSL_CIPHER tls13_ciphers[] = {
         TLS1_3_VERSION, TLS1_3_VERSION,
         0, 0,
         SSL_HIGH,
-        SSL_HANDSHAKE_MAC_SHA256,
+        SSL_HANDSHAKE_MAC_SHA256 | SSL_QUIC,
         256,
         256,
     },
@@ -3366,9 +3366,14 @@ void ssl3_free(SSL *s)
     OPENSSL_clear_free(sc->s3.tmp.pms, sc->s3.tmp.pmslen);
     OPENSSL_free(sc->s3.tmp.peer_sigalgs);
     OPENSSL_free(sc->s3.tmp.peer_cert_sigalgs);
+    OPENSSL_free(sc->s3.tmp.valid_flags);
     ssl3_free_digest_list(sc);
     OPENSSL_free(sc->s3.alpn_selected);
     OPENSSL_free(sc->s3.alpn_proposed);
+
+#ifndef OPENSSL_NO_PSK
+    OPENSSL_free(sc->s3.tmp.psk);
+#endif
 
 #ifndef OPENSSL_NO_SRP
     ssl_srp_ctx_free_intern(sc);
@@ -3379,6 +3384,7 @@ void ssl3_free(SSL *s)
 int ssl3_clear(SSL *s)
 {
     SSL_CONNECTION *sc = SSL_CONNECTION_FROM_SSL(s);
+    int flags;
 
     if (sc == NULL)
         return 0;
@@ -3390,6 +3396,7 @@ int ssl3_clear(SSL *s)
     OPENSSL_clear_free(sc->s3.tmp.pms, sc->s3.tmp.pmslen);
     OPENSSL_free(sc->s3.tmp.peer_sigalgs);
     OPENSSL_free(sc->s3.tmp.peer_cert_sigalgs);
+    OPENSSL_free(sc->s3.tmp.valid_flags);
 
     EVP_PKEY_free(sc->s3.tmp.pkey);
     EVP_PKEY_free(sc->s3.peer_tmp);
@@ -3399,8 +3406,13 @@ int ssl3_clear(SSL *s)
     OPENSSL_free(sc->s3.alpn_selected);
     OPENSSL_free(sc->s3.alpn_proposed);
 
-    /* NULL/zero-out everything in the s3 struct */
+    /*
+     * NULL/zero-out everything in the s3 struct, but remember if we are doing
+     * QUIC.
+     */
+    flags = sc->s3.flags & TLS1_FLAGS_QUIC;
     memset(&sc->s3, 0, sizeof(sc->s3));
+    sc->s3.flags |= flags;
 
     if (!ssl_free_wbio_buffer(sc))
         return 0;
@@ -3759,6 +3771,10 @@ long ssl3_ctrl(SSL *s, int cmd, long larg, void *parg)
             return (int)sc->ext.peer_supportedgroups_len;
         }
 
+    case SSL_CTRL_SET_MSG_CALLBACK_ARG:
+        sc->msg_callback_arg = parg;
+        return 1;
+
     default:
         break;
     }
@@ -3790,6 +3806,10 @@ long ssl3_callback_ctrl(SSL *s, int cmd, void (*fp) (void))
         sc->not_resumable_session_cb = (int (*)(SSL *, int))fp;
         ret = 1;
         break;
+
+    case SSL_CTRL_SET_MSG_CALLBACK:
+        sc->msg_callback = (ossl_msg_cb)fp;
+        return 1;
     default:
         break;
     }
@@ -4244,7 +4264,7 @@ const SSL_CIPHER *ssl3_choose_cipher(SSL_CONNECTION *s, STACK_OF(SSL_CIPHER) *cl
 
     if (SSL_CONNECTION_IS_TLS13(s)) {
 #ifndef OPENSSL_NO_PSK
-        int j;
+        size_t j;
 
         /*
          * If we allow "old" style PSK callbacks, and we have no certificate (so
@@ -4254,8 +4274,8 @@ const SSL_CIPHER *ssl3_choose_cipher(SSL_CONNECTION *s, STACK_OF(SSL_CIPHER) *cl
          * that.
          */
         if (s->psk_server_callback != NULL) {
-            for (j = 0; j < SSL_PKEY_NUM && !ssl_has_cert(s, j); j++);
-            if (j == SSL_PKEY_NUM) {
+            for (j = 0; j < s->ssl_pkey_num && !ssl_has_cert(s, j); j++);
+            if (j == s->ssl_pkey_num) {
                 /* There are no certificates */
                 prefer_sha256 = 1;
             }
@@ -4267,15 +4287,15 @@ const SSL_CIPHER *ssl3_choose_cipher(SSL_CONNECTION *s, STACK_OF(SSL_CIPHER) *cl
     }
 
     for (i = 0; i < sk_SSL_CIPHER_num(prio); i++) {
+        int minversion, maxversion;
+
         c = sk_SSL_CIPHER_value(prio, i);
+        minversion = SSL_CONNECTION_IS_DTLS(s) ? c->min_dtls : c->min_tls;
+        maxversion = SSL_CONNECTION_IS_DTLS(s) ? c->max_dtls : c->max_tls;
 
         /* Skip ciphers not supported by the protocol version */
-        if (!SSL_CONNECTION_IS_DTLS(s) &&
-            ((s->version < c->min_tls) || (s->version > c->max_tls)))
-            continue;
-        if (SSL_CONNECTION_IS_DTLS(s) &&
-            (DTLS_VERSION_LT(s->version, c->min_dtls) ||
-             DTLS_VERSION_GT(s->version, c->max_dtls)))
+        if (ssl_version_cmp(s, s->version, minversion) < 0
+            || ssl_version_cmp(s, s->version, maxversion) > 0)
             continue;
 
         /*
@@ -4443,11 +4463,11 @@ int ssl3_shutdown(SSL *s)
         ssl3_send_alert(sc, SSL3_AL_WARNING, SSL_AD_CLOSE_NOTIFY);
         /*
          * our shutdown alert has been sent now, and if it still needs to be
-         * written, s->s3.alert_dispatch will be true
+         * written, s->s3.alert_dispatch will be > 0
          */
-        if (sc->s3.alert_dispatch)
+        if (sc->s3.alert_dispatch > 0)
             return -1;        /* return WANT_WRITE */
-    } else if (sc->s3.alert_dispatch) {
+    } else if (sc->s3.alert_dispatch > 0) {
         /* resend it if not sent */
         ret = s->method->ssl_dispatch_alert(s);
         if (ret == -1) {
@@ -4469,8 +4489,8 @@ int ssl3_shutdown(SSL *s)
         }
     }
 
-    if ((sc->shutdown == (SSL_SENT_SHUTDOWN | SSL_RECEIVED_SHUTDOWN)) &&
-        !sc->s3.alert_dispatch)
+    if ((sc->shutdown == (SSL_SENT_SHUTDOWN | SSL_RECEIVED_SHUTDOWN))
+            && sc->s3.alert_dispatch == SSL_ALERT_DISPATCH_NONE)
         return 1;
     else
         return 0;
@@ -5010,6 +5030,22 @@ int ssl_encapsulate(SSL_CONNECTION *s, EVP_PKEY *pubkey,
     OPENSSL_free(ct);
     EVP_PKEY_CTX_free(pctx);
     return rv;
+}
+
+const char *SSL_get0_group_name(SSL *s)
+{
+    SSL_CONNECTION *sc = SSL_CONNECTION_FROM_SSL(s);
+    unsigned int id;
+
+    if (sc == NULL)
+        return NULL;
+
+    if (SSL_CONNECTION_IS_TLS13(sc) && sc->s3.did_kex)
+        id = sc->s3.group_id;
+    else
+        id = sc->session->kex_group;
+
+    return tls1_group_id2name(s->ctx, id);
 }
 
 const char *SSL_group_to_name(SSL *s, int nid) {

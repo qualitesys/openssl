@@ -1,5 +1,5 @@
 /*
- * Copyright 1995-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 1995-2023 The OpenSSL Project Authors. All Rights Reserved.
  * Copyright (c) 2002, Oracle and/or its affiliates. All rights reserved
  * Copyright 2005 Nokia. All rights reserved.
  *
@@ -114,7 +114,7 @@ static const ssl_cipher_table ssl_cipher_table_auth[] = {
 /* *INDENT-ON* */
 
 /* Utility function for table lookup */
-static int ssl_cipher_info_find(const ssl_cipher_table * table,
+static int ssl_cipher_info_find(const ssl_cipher_table *table,
                                 size_t table_cnt, uint32_t mask)
 {
     size_t i;
@@ -358,7 +358,7 @@ int ssl_load_ciphers(SSL_CTX *ctx)
 
     /*
      * We ignore any errors from the fetches below. They are expected to fail
-     * if theose algorithms are not available.
+     * if these algorithms are not available.
      */
     ERR_set_mark();
     sig = EVP_SIGNATURE_fetch(ctx->libctx, "DSA", ctx->propq);
@@ -465,7 +465,8 @@ DEFINE_RUN_ONCE_STATIC(do_load_builtin_compressions)
             comp->method = method;
             comp->id = SSL_COMP_ZLIB_IDX;
             comp->name = COMP_get_name(method);
-            sk_SSL_COMP_push(ssl_comp_methods, comp);
+            if (!sk_SSL_COMP_push(ssl_comp_methods, comp))
+                OPENSSL_free(comp);
             sk_SSL_COMP_sort(ssl_comp_methods);
         }
     }
@@ -820,8 +821,9 @@ static void ssl_cipher_apply_rule(uint32_t cipher_id, uint32_t alg_mkey,
     OSSL_TRACE_BEGIN(TLS_CIPHER) {
         BIO_printf(trc_out,
                    "Applying rule %d with %08x/%08x/%08x/%08x/%08x %08x (%d)\n",
-                   rule, alg_mkey, alg_auth, alg_enc, alg_mac, min_tls,
-                   algo_strength, strength_bits);
+                   rule, (unsigned int)alg_mkey, (unsigned int)alg_auth,
+                   (unsigned int)alg_enc, (unsigned int)alg_mac, min_tls,
+                   (unsigned int)algo_strength, (int)strength_bits);
     }
 
     if (rule == CIPHER_DEL || rule == CIPHER_BUMP)
@@ -865,9 +867,13 @@ static void ssl_cipher_apply_rule(uint32_t cipher_id, uint32_t alg_mkey,
                 BIO_printf(trc_out,
                            "\nName: %s:"
                            "\nAlgo = %08x/%08x/%08x/%08x/%08x Algo_strength = %08x\n",
-                           cp->name, cp->algorithm_mkey, cp->algorithm_auth,
-                           cp->algorithm_enc, cp->algorithm_mac, cp->min_tls,
-                           cp->algo_strength);
+                           cp->name,
+                           (unsigned int)cp->algorithm_mkey,
+                           (unsigned int)cp->algorithm_auth,
+                           (unsigned int)cp->algorithm_enc,
+                           (unsigned int)cp->algorithm_mac,
+                           cp->min_tls,
+                           (unsigned int)cp->algo_strength);
             }
             if (cipher_id != 0 && (cipher_id != cp->id))
                 continue;
@@ -1062,9 +1068,7 @@ static int ssl_cipher_process_rulestr(const char *rule_str,
                  * alphanumeric, so we call this an error.
                  */
                 ERR_raise(ERR_LIB_SSL, SSL_R_INVALID_COMMAND);
-                retval = found = 0;
-                l++;
-                break;
+                return 0;
             }
 
             if (rule == CIPHER_SPECIAL) {
@@ -1492,9 +1496,11 @@ STACK_OF(SSL_CIPHER) *ssl_create_cipher_list(SSL_CTX *ctx,
      */
     num_of_ciphers = ssl_method->num_ciphers();
 
-    co_list = OPENSSL_malloc(sizeof(*co_list) * num_of_ciphers);
-    if (co_list == NULL)
-        return NULL;          /* Failure */
+    if (num_of_ciphers > 0) {
+        co_list = OPENSSL_malloc(sizeof(*co_list) * num_of_ciphers);
+        if (co_list == NULL)
+            return NULL;          /* Failure */
+    }
 
     ssl_cipher_collect_ciphers(ssl_method, num_of_ciphers,
                                disabled_mkey, disabled_auth, disabled_enc,
@@ -1702,7 +1708,7 @@ char *SSL_CIPHER_description(const SSL_CIPHER *cipher, char *buf, int len)
     const char *ver;
     const char *kx, *au, *enc, *mac;
     uint32_t alg_mkey, alg_auth, alg_enc, alg_mac;
-    static const char *format = "%-30s %-7s Kx=%-8s Au=%-5s Enc=%-22s Mac=%-4s\n";
+    static const char *const format = "%-30s %-7s Kx=%-8s Au=%-5s Enc=%-22s Mac=%-4s\n";
 
     if (buf == NULL) {
         len = 128;
@@ -2150,6 +2156,16 @@ int SSL_CIPHER_get_auth_nid(const SSL_CIPHER *c)
     return ssl_cipher_table_auth[i].nid;
 }
 
+int ssl_get_md_idx(int md_nid) {
+    int i;
+
+    for(i = 0; i < SSL_MD_NUM_IDX; i++) {
+        if (md_nid == ssl_cipher_table_mac[i].nid)
+            return i;
+    }
+    return -1;
+}
+
 const EVP_MD *SSL_CIPHER_get_handshake_digest(const SSL_CIPHER *c)
 {
     int idx = c->algorithm2 & SSL_HANDSHAKE_MAC_MASK;
@@ -2205,6 +2221,8 @@ int ssl_cipher_get_overhead(const SSL_CIPHER *c, size_t *mac_overhead,
             in = 1; /* padding length byte */
             out = EVP_CIPHER_get_iv_length(e_ciph);
             blk = EVP_CIPHER_get_block_size(e_ciph);
+            if (blk == 0)
+                return 0;
         }
     }
 
@@ -2218,8 +2236,13 @@ int ssl_cipher_get_overhead(const SSL_CIPHER *c, size_t *mac_overhead,
 
 int ssl_cert_is_disabled(SSL_CTX *ctx, size_t idx)
 {
-    const SSL_CERT_LOOKUP *cl = ssl_cert_lookup_by_idx(idx);
+    const SSL_CERT_LOOKUP *cl;
 
+    /* A provider-loaded key type is always enabled */
+    if (idx >= SSL_PKEY_NUM)
+        return 0;
+
+    cl = ssl_cert_lookup_by_idx(idx, ctx);
     if (cl == NULL || (cl->amask & ctx->disabled_auth_mask) != 0)
         return 1;
     return 0;

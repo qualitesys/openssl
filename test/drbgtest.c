@@ -1,5 +1,5 @@
 /*
- * Copyright 2011-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2011-2023 The OpenSSL Project Authors. All Rights Reserved.
  *
  * Licensed under the Apache License 2.0 (the "License").  You may not use
  * this file except in compliance with the License.  You can obtain a copy
@@ -277,7 +277,7 @@ static int test_drbg_reseed(int expect_success,
 }
 
 
-#if defined(OPENSSL_SYS_UNIX)
+#if defined(OPENSSL_SYS_UNIX) && !defined(OPENSSL_RAND_SEED_EGD)
 /* number of children to fork */
 #define DRBG_FORK_COUNT 9
 /* two results per child, two for the parent */
@@ -299,7 +299,7 @@ typedef struct drbg_fork_result_st {
  * This simplifies finding duplicate random output and makes
  * the printout in case of an error more readable.
  */
-static int compare_drbg_fork_result(const void * left, const void * right)
+static int compare_drbg_fork_result(const void *left, const void *right)
 {
     int result;
     const drbg_fork_result *l = left;
@@ -322,7 +322,7 @@ static int compare_drbg_fork_result(const void * left, const void * right)
  *
  * Used for finding collisions in two-byte chunks
  */
-static int compare_rand_chunk(const void * left, const void * right)
+static int compare_rand_chunk(const void *left, const void *right)
 {
     return memcmp(left, right, 2);
 }
@@ -895,7 +895,7 @@ err:
 int setup_tests(void)
 {
     ADD_TEST(test_rand_reseed);
-#if defined(OPENSSL_SYS_UNIX)
+#if defined(OPENSSL_SYS_UNIX) && !defined(OPENSSL_RAND_SEED_EGD)
     ADD_ALL_TESTS(test_rand_fork_safety, RANDOM_SIZE);
 #endif
     ADD_TEST(test_rand_prediction_resistance);

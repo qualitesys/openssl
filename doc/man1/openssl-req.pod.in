@@ -33,6 +33,7 @@ B<openssl> B<req>
 [B<-config> I<filename>]
 [B<-section> I<name>]
 [B<-x509>]
+[B<-x509v1>]
 [B<-CA> I<filename>|I<uri>]
 [B<-CAkey> I<filename>|I<uri>]
 [B<-days> I<n>]
@@ -52,6 +53,7 @@ B<openssl> B<req>
 [B<-vfyopt> I<nm>:I<v>]
 [B<-batch>]
 [B<-verbose>]
+[B<-quiet>]
 {- $OpenSSL::safe::opt_name_synopsis -}
 {- $OpenSSL::safe::opt_r_synopsis -}
 {- $OpenSSL::safe::opt_engine_synopsis -}{- $OpenSSL::safe::opt_provider_synopsis -}
@@ -287,7 +289,7 @@ It is implied by the B<-CA> option.
 This option implies the B<-new> flag if B<-in> is not given.
 
 If an existing request is specified with the B<-in> option, it is converted
-to the a certificate; otherwise a request is created from scratch.
+to a certificate; otherwise a request is created from scratch.
 
 Unless specified using the B<-set_serial> option,
 a large random number will be used for the serial number.
@@ -298,6 +300,16 @@ X.509 extensions are not copied from any provided request input file.
 X.509 extensions to be added can be specified in the configuration file,
 possibly using the B<-config> and B<-extensions> options,
 and/or using the B<-addext> option.
+
+Unless B<-x509v1> is given, generated certificates bear X.509 version 3.
+Unless specified otherwise,
+key identifier extensions are included as described in L<x509v3_config(5)>.
+
+=item B<-x509v1>
+
+Request generation of certificates with X.509 version 1.
+This implies B<-x509>.
+If X.509 extensions are given, anyway X.509 version 3 is set.
 
 =item B<-CA> I<filename>|I<uri>
 
@@ -349,7 +361,7 @@ file to specify requests for a variety of purposes.
 
 Add a specific extension to the certificate (if B<-x509> is in use)
 or certificate request.  The argument must have the form of
-a key=value pair as it would appear in a config file.
+a C<key=value> pair as it would appear in a config file.
 
 This option can be given multiple times.
 
@@ -390,6 +402,12 @@ Non-interactive mode.
 =item B<-verbose>
 
 Print extra details about the operations being performed.
+
+=item B<-quiet>
+
+Print fewer details about the operations being performed, which may be
+handy during batch scripts or pipelines (specifically "progress dots"
+during key generation are suppressed).
 
 =item B<-keygen_engine> I<id>
 
@@ -770,9 +788,13 @@ The <-nodes> option was deprecated in OpenSSL 3.0, too; use B<-noenc> instead.
 
 The B<-reqexts> option has been made an alias of B<-extensions> in OpenSSL 3.2.
 
+Since OpenSSL 3.2,
+generated certificates bear X.509 version 3 unless B<-x509v1> is given,
+and key identifier extensions are included by default.
+
 =head1 COPYRIGHT
 
-Copyright 2000-2021 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2000-2023 The OpenSSL Project Authors. All Rights Reserved.
 
 Licensed under the Apache License 2.0 (the "License").  You may not use
 this file except in compliance with the License.  You can obtain a copy

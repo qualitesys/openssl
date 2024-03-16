@@ -1,5 +1,5 @@
 /*
- * Copyright 2016-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2016-2023 The OpenSSL Project Authors. All Rights Reserved.
  *
  * Licensed under the Apache License 2.0 (the "License").  You may not use
  * this file except in compliance with the License.  You can obtain a copy
@@ -218,12 +218,13 @@ void ssl_evp_md_free(const EVP_MD *md)
 }
 
 int ssl_set_new_record_layer(SSL_CONNECTION *s, int version, int direction,
-                             int level, unsigned char *key, size_t keylen,
+                             int level, unsigned char *secret, size_t secretlen,
+                             unsigned char *key, size_t keylen,
                              unsigned char *iv,  size_t ivlen,
                              unsigned char *mackey, size_t mackeylen,
                              const EVP_CIPHER *ciph, size_t taglen,
                              int mactype, const EVP_MD *md,
-                             const SSL_COMP *comp)
+                             const SSL_COMP *comp, const EVP_MD *kdfdigest)
 {
     return 0;
 }

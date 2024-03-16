@@ -1,5 +1,5 @@
 /*
- * Copyright 2022 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2022-2023 The OpenSSL Project Authors. All Rights Reserved.
  *
  * Licensed under the Apache License 2.0 (the "License").  You may not use
  * this file except in compliance with the License.  You can obtain a copy
@@ -39,8 +39,6 @@ static int tls13_set_crypto_state(OSSL_RECORD_LAYER *rl, int level,
         return OSSL_RECORD_RETURN_FATAL;
     }
 
-    rl->taglen = taglen;
-
     mode = EVP_CIPHER_get_mode(ciph);
 
     if (EVP_CipherInit_ex(ciph_ctx, ciph, NULL, NULL, NULL, enc) <= 0
@@ -57,8 +55,9 @@ static int tls13_set_crypto_state(OSSL_RECORD_LAYER *rl, int level,
     return OSSL_RECORD_RETURN_SUCCESS;
 }
 
-static int tls13_cipher(OSSL_RECORD_LAYER *rl, SSL3_RECORD *recs, size_t n_recs,
-                        int sending, SSL_MAC_BUF *mac, size_t macsize)
+static int tls13_cipher(OSSL_RECORD_LAYER *rl, TLS_RL_RECORD *recs,
+                        size_t n_recs, int sending, SSL_MAC_BUF *mac,
+                        size_t macsize)
 {
     EVP_CIPHER_CTX *ctx;
     unsigned char iv[EVP_MAX_IV_LENGTH], recheader[SSL3_RT_HEADER_LENGTH];
@@ -66,7 +65,7 @@ static int tls13_cipher(OSSL_RECORD_LAYER *rl, SSL3_RECORD *recs, size_t n_recs,
     unsigned char *staticiv;
     unsigned char *seq = rl->sequence;
     int lenu, lenf;
-    SSL3_RECORD *rec = &recs[0];
+    TLS_RL_RECORD *rec = &recs[0];
     WPACKET wpkt;
     const EVP_CIPHER *cipher;
     int mode;
@@ -176,7 +175,8 @@ static int tls13_cipher(OSSL_RECORD_LAYER *rl, SSL3_RECORD *recs, size_t n_recs,
     return 1;
 }
 
-static int tls13_validate_record_header(OSSL_RECORD_LAYER *rl, SSL3_RECORD *rec)
+static int tls13_validate_record_header(OSSL_RECORD_LAYER *rl,
+                                        TLS_RL_RECORD *rec)
 {
     if (rec->type != SSL3_RT_APPLICATION_DATA
             && (rec->type != SSL3_RT_CHANGE_CIPHER_SPEC
@@ -199,7 +199,7 @@ static int tls13_validate_record_header(OSSL_RECORD_LAYER *rl, SSL3_RECORD *rec)
     return 1;
 }
 
-static int tls13_post_process_record(OSSL_RECORD_LAYER *rl, SSL3_RECORD *rec)
+static int tls13_post_process_record(OSSL_RECORD_LAYER *rl, TLS_RL_RECORD *rec)
 {
     /* Skip this if we've received a plaintext alert */
     if (rec->type != SSL3_RT_ALERT) {
@@ -233,11 +233,11 @@ static int tls13_post_process_record(OSSL_RECORD_LAYER *rl, SSL3_RECORD *rec)
     return 1;
 }
 
-static unsigned int tls13_get_record_type(OSSL_RECORD_LAYER *rl,
-                                          OSSL_RECORD_TEMPLATE *template)
+static uint8_t tls13_get_record_type(OSSL_RECORD_LAYER *rl,
+                                     OSSL_RECORD_TEMPLATE *template)
 {
     if (rl->allow_plain_alerts && template->type == SSL3_RT_ALERT)
-        return  SSL3_RT_ALERT;
+        return SSL3_RT_ALERT;
 
     /*
      * Aside from the above case we always use the application data record type
@@ -250,7 +250,7 @@ static unsigned int tls13_get_record_type(OSSL_RECORD_LAYER *rl,
 static int tls13_add_record_padding(OSSL_RECORD_LAYER *rl,
                                     OSSL_RECORD_TEMPLATE *thistempl,
                                     WPACKET *thispkt,
-                                    SSL3_RECORD *thiswr)
+                                    TLS_RL_RECORD *thiswr)
 {
     size_t rlen;
 
@@ -262,10 +262,10 @@ static int tls13_add_record_padding(OSSL_RECORD_LAYER *rl,
         RLAYERfatal(rl, SSL_AD_INTERNAL_ERROR, ERR_R_INTERNAL_ERROR);
         return 0;
     }
-    SSL3_RECORD_add_length(thiswr, 1);
+    TLS_RL_RECORD_add_length(thiswr, 1);
 
     /* Add TLS1.3 padding */
-    rlen = SSL3_RECORD_get_length(thiswr);
+    rlen = TLS_RL_RECORD_get_length(thiswr);
     if (rlen < rl->max_frag_len) {
         size_t padding = 0;
         size_t max_padding = rl->max_frag_len - rlen;
@@ -296,14 +296,14 @@ static int tls13_add_record_padding(OSSL_RECORD_LAYER *rl,
                             ERR_R_INTERNAL_ERROR);
                 return 0;
             }
-            SSL3_RECORD_add_length(thiswr, padding);
+            TLS_RL_RECORD_add_length(thiswr, padding);
         }
     }
 
     return 1;
 }
 
-struct record_functions_st tls_1_3_funcs = {
+const struct record_functions_st tls_1_3_funcs = {
     tls13_set_crypto_state,
     tls13_cipher,
     NULL,

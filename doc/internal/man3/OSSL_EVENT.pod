@@ -81,7 +81,7 @@ guaranteed to not trigger before their time.
 
 =item context
 
-A reference to user supplied contextual informaton.  The event queue passes
+A reference to user supplied contextual information.  The event queue passes
 this to callbacks and never dereferences the pointer.
 
 =item payload, payload_size
@@ -99,7 +99,7 @@ Once populated, the event type, the references to event context, and the
 reference to the destructor function are considered immutable, up until the
 event structure is destroyed.
 
-The reference to the auxilliary identifying material or to the payload,
+The reference to the auxiliary identifying material or to the payload,
 however, are considered mutable.  Any event handler may "steal" them and
 replace the reference to them in the event structure with NULL.  Stealing
 must be done with much care.
@@ -191,7 +191,7 @@ This functionality was added to OpenSSL 3.2.
 
 =head1 COPYRIGHT
 
-Copyright 2022 The OpenSSL Project Authors. All Rights Reserved.
+Copyright 2022-2023 The OpenSSL Project Authors. All Rights Reserved.
 
 Licensed under the Apache License 2.0 (the "License").  You may not use this
 file except in compliance with the License.  You can obtain a copy in the file

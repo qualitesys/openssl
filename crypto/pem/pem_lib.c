@@ -1,5 +1,5 @@
 /*
- * Copyright 1995-2022 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 1995-2023 The OpenSSL Project Authors. All Rights Reserved.
  *
  * Licensed under the Apache License 2.0 (the "License").  You may not use
  * this file except in compliance with the License.  You can obtain a copy
@@ -929,7 +929,7 @@ int PEM_read_bio_ex(BIO *bp, char **name_out, char **header,
     BIO *headerB = NULL, *dataB = NULL;
     char *name = NULL;
     int len, taillen, headerlen, ret = 0;
-    BUF_MEM * buf_mem;
+    BUF_MEM *buf_mem;
 
     *len_out = 0;
     *name_out = *header = NULL;
@@ -995,7 +995,9 @@ int PEM_read_bio_ex(BIO *bp, char **name_out, char **header,
 
 out_free:
     PEM_FREE(*header, flags, 0);
+    *header = NULL;
     PEM_FREE(*data, flags, 0);
+    *data = NULL;
 end:
     EVP_ENCODE_CTX_free(ctx);
     PEM_FREE(name, flags, 0);

@@ -1,5 +1,5 @@
 /*
- * Copyright 2019-2022 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2019-2023 The OpenSSL Project Authors. All Rights Reserved.
  *
  * Licensed under the Apache License 2.0 (the "License").  You may not use
  * this file except in compliance with the License.  You can obtain a copy
@@ -507,5 +507,5 @@ const OSSL_DISPATCH ossl_dh_keyexch_functions[] = {
     { OSSL_FUNC_KEYEXCH_GET_CTX_PARAMS, (void (*)(void))dh_get_ctx_params },
     { OSSL_FUNC_KEYEXCH_GETTABLE_CTX_PARAMS,
       (void (*)(void))dh_gettable_ctx_params },
-    { 0, NULL }
+    OSSL_DISPATCH_END
 };

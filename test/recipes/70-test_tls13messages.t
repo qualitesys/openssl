@@ -1,5 +1,5 @@
 #! /usr/bin/env perl
-# Copyright 2015-2020 The OpenSSL Project Authors. All Rights Reserved.
+# Copyright 2015-2023 The OpenSSL Project Authors. All Rights Reserved.
 #
 # Licensed under the Apache License 2.0 (the "License").  You may not use
 # this file except in compliance with the License.  You can obtain a copy
@@ -362,7 +362,7 @@ SKIP: {
 #Test 15: HRR Handshake
 $proxy->clear();
 $proxy->clientflags("-no_rx_cert_comp");
-$proxy->serverflags("-no_rx_cert_comp -curves P-256");
+$proxy->serverflags("-no_rx_cert_comp -curves P-384");
 $proxy->start();
 checkhandshake($proxy, checkhandshake::HRR_HANDSHAKE,
                checkhandshake::DEFAULT_EXTENSIONS
@@ -372,7 +372,7 @@ checkhandshake($proxy, checkhandshake::HRR_HANDSHAKE,
 #Test 16: Resumption handshake with HRR
 $proxy->clear();
 $proxy->clientflags("-no_rx_cert_comp -sess_in ".$session);
-$proxy->serverflags("-no_rx_cert_comp -curves P-256");
+$proxy->serverflags("-no_rx_cert_comp -curves P-384");
 $proxy->start();
 checkhandshake($proxy, checkhandshake::HRR_RESUME_HANDSHAKE,
                (checkhandshake::DEFAULT_EXTENSIONS
@@ -383,7 +383,7 @@ checkhandshake($proxy, checkhandshake::HRR_RESUME_HANDSHAKE,
 
 #Test 17: Acceptable but non preferred key_share
 $proxy->clear();
-$proxy->clientflags("-no_rx_cert_comp -curves P-256");
+$proxy->clientflags("-no_rx_cert_comp -curves P-384");
 $proxy->start();
 checkhandshake($proxy, checkhandshake::DEFAULT_HANDSHAKE,
                checkhandshake::DEFAULT_EXTENSIONS

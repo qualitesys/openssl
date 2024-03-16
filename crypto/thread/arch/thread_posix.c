@@ -1,5 +1,5 @@
 /*
- * Copyright 2019-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2019-2023 The OpenSSL Project Authors. All Rights Reserved.
  *
  * Licensed under the Apache License 2.0 (the "License").  You may not use
  * this file except in compliance with the License.  You can obtain a copy
@@ -21,9 +21,6 @@ static void *thread_start_thunk(void *vthread)
     CRYPTO_THREAD_RETVAL ret;
 
     thread = (CRYPTO_THREAD *)vthread;
-
-    pthread_setcancelstate(PTHREAD_CANCEL_ENABLE, NULL);
-    pthread_setcanceltype(PTHREAD_CANCEL_ASYNCHRONOUS, NULL);
 
     ret = thread->routine(thread->data);
     ossl_crypto_mutex_lock(thread->statelock);
@@ -85,52 +82,6 @@ int ossl_crypto_thread_native_perform_join(CRYPTO_THREAD *thread, CRYPTO_THREAD_
     return 1;
 }
 
-int ossl_crypto_thread_native_terminate(CRYPTO_THREAD *thread)
-{
-    void *res;
-    uint64_t mask;
-    pthread_t *handle;
-
-    mask = CRYPTO_THREAD_FINISHED;
-    mask |= CRYPTO_THREAD_TERMINATED;
-    mask |= CRYPTO_THREAD_JOINED;
-
-    if (thread == NULL)
-        return 0;
-
-    ossl_crypto_mutex_lock(thread->statelock);
-    if (thread->handle == NULL || CRYPTO_THREAD_GET_STATE(thread, mask))
-        goto terminated;
-    /* Do not fail when there's a join in progress. Do not block. */
-    if (CRYPTO_THREAD_GET_STATE(thread, CRYPTO_THREAD_JOIN_AWAIT))
-        goto fail;
-    ossl_crypto_mutex_unlock(thread->statelock);
-
-    handle = thread->handle;
-    if (pthread_cancel(*handle) != 0) {
-        ossl_crypto_mutex_lock(thread->statelock);
-        goto fail;
-    }
-    if (pthread_join(*handle, &res) != 0)
-        return 0;
-    if (res != PTHREAD_CANCELED)
-        return 0;
-
-    thread->handle = NULL;
-    OPENSSL_free(handle);
-
-    ossl_crypto_mutex_lock(thread->statelock);
-terminated:
-    CRYPTO_THREAD_UNSET_ERROR(thread, CRYPTO_THREAD_TERMINATED);
-    CRYPTO_THREAD_SET_STATE(thread, CRYPTO_THREAD_TERMINATED);
-    ossl_crypto_mutex_unlock(thread->statelock);
-    return 1;
-fail:
-    CRYPTO_THREAD_SET_ERROR(thread, CRYPTO_THREAD_TERMINATED);
-    ossl_crypto_mutex_unlock(thread->statelock);
-    return 0;
-}
-
 int ossl_crypto_thread_native_exit(void)
 {
     pthread_exit(NULL);
@@ -169,18 +120,22 @@ int ossl_crypto_mutex_try_lock(CRYPTO_MUTEX *mutex)
 
 void ossl_crypto_mutex_lock(CRYPTO_MUTEX *mutex)
 {
+    int rc;
     pthread_mutex_t *mutex_p;
 
     mutex_p = (pthread_mutex_t *)mutex;
-    pthread_mutex_lock(mutex_p);
+    rc = pthread_mutex_lock(mutex_p);
+    OPENSSL_assert(rc == 0);
 }
 
 void ossl_crypto_mutex_unlock(CRYPTO_MUTEX *mutex)
 {
+    int rc;
     pthread_mutex_t *mutex_p;
 
     mutex_p = (pthread_mutex_t *)mutex;
-    pthread_mutex_unlock(mutex_p);
+    rc = pthread_mutex_unlock(mutex_p);
+    OPENSSL_assert(rc == 0);
 }
 
 void ossl_crypto_mutex_free(CRYPTO_MUTEX **mutex)
@@ -220,12 +175,45 @@ void ossl_crypto_condvar_wait(CRYPTO_CONDVAR *cv, CRYPTO_MUTEX *mutex)
     pthread_cond_wait(cv_p, mutex_p);
 }
 
+void ossl_crypto_condvar_wait_timeout(CRYPTO_CONDVAR *cv, CRYPTO_MUTEX *mutex,
+                                      OSSL_TIME deadline)
+{
+    pthread_cond_t *cv_p = (pthread_cond_t *)cv;
+    pthread_mutex_t *mutex_p = (pthread_mutex_t *)mutex;
+
+    if (ossl_time_is_infinite(deadline)) {
+        /*
+         * No deadline. Some pthread implementations allow
+         * pthread_cond_timedwait to work the same as pthread_cond_wait when
+         * abstime is NULL, but it is unclear whether this is POSIXly correct.
+         */
+        pthread_cond_wait(cv_p, mutex_p);
+    } else {
+        struct timespec deadline_ts;
+
+        deadline_ts.tv_sec
+            = ossl_time2seconds(deadline);
+        deadline_ts.tv_nsec
+            = (ossl_time2ticks(deadline) % OSSL_TIME_SECOND) / OSSL_TIME_NS;
+
+        pthread_cond_timedwait(cv_p, mutex_p, &deadline_ts);
+    }
+}
+
 void ossl_crypto_condvar_broadcast(CRYPTO_CONDVAR *cv)
 {
     pthread_cond_t *cv_p;
 
     cv_p = (pthread_cond_t *)cv;
     pthread_cond_broadcast(cv_p);
+}
+
+void ossl_crypto_condvar_signal(CRYPTO_CONDVAR *cv)
+{
+    pthread_cond_t *cv_p;
+
+    cv_p = (pthread_cond_t *)cv;
+    pthread_cond_signal(cv_p);
 }
 
 void ossl_crypto_condvar_free(CRYPTO_CONDVAR **cv)
@@ -240,42 +228,6 @@ void ossl_crypto_condvar_free(CRYPTO_CONDVAR **cv)
         pthread_cond_destroy(*cv_p);
     OPENSSL_free(*cv_p);
     *cv_p = NULL;
-}
-
-void ossl_crypto_mem_barrier(void)
-{
-# if defined(__clang__) || defined(__GNUC__)
-    __sync_synchronize();
-# elif !defined(OPENSSL_NO_ASM)
-#  if defined(__alpha__) /* Alpha */
-    __asm__ volatile("mb" : : : "memory");
-#  elif defined(__amd64__) || defined(__i386__) || defined(__i486__) \
-    || defined(__i586__)  || defined(__i686__) || defined(__i386) /* x86 */
-    __asm__ volatile("mfence" : : : "memory");
-#  elif defined(__arm__) || defined(__aarch64__) /* ARMv7, ARMv8 */
-    __asm__ volatile("dmb ish" : : : "memory");
-#  elif defined(__hppa__) /* PARISC */
-    __asm__ volatile("" : : : "memory");
-#  elif defined(__mips__) /* MIPS */
-    __asm__ volatile("sync" : : : "memory");
-#  elif defined(__powerpc__) || defined(__powerpc64__) /* power, ppc64, ppc64le */
-    __asm__ volatile("sync" : : : "memory");
-#  elif defined(__sparc__)
-    __asm__ volatile("ba,pt	%%xcc, 1f\n\t" \
-                     " membar	#Sync\n"   \
-                     "1:\n"                \
-                     : : : "memory");
-#  elif defined(__s390__) || defined(__s390x__) /* z */
-    __asm__ volatile("bcr 15,0" : : : "memory");
-#  elif defined(__riscv) || defined(__riscv__) /* riscv */
-    __asm__ volatile("fence iorw,iorw" : : : "memory");
-#  else /* others, compiler only */
-    __asm__ volatile("" : : : "memory");
-#  endif
-# else
-    /* compiler only barrier */
-    __asm__ volatile("" : : : "memory");
-# endif
 }
 
 #endif

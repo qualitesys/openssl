@@ -1,5 +1,5 @@
 /*
- * Copyright 2006-2022 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 2006-2023 The OpenSSL Project Authors. All Rights Reserved.
  *
  * Licensed under the Apache License 2.0 (the "License").  You may not use
  * this file except in compliance with the License.  You can obtain a copy
@@ -375,7 +375,7 @@ static CONF *load_config_file(const char *configfile)
         const char *p;
 
         BIO_printf(bio_err, "Using configuration from %s\n", configfile);
-        p = NCONF_get_string(conf, NULL, ENV_OID_FILE);
+        p = app_conf_try_string(conf, NULL, ENV_OID_FILE);
         if (p != NULL) {
             BIO *oid_bio = BIO_new_file(p, "r");
             if (!oid_bio)
@@ -384,8 +384,7 @@ static CONF *load_config_file(const char *configfile)
                 OBJ_create_objects(oid_bio);
                 BIO_free_all(oid_bio);
             }
-        } else
-            ERR_clear_error();
+        }
         if (!add_oid_section(conf))
             ERR_print_errors(bio_err);
     }

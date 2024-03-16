@@ -1,5 +1,5 @@
 /*
- * Copyright 1995-2021 The OpenSSL Project Authors. All Rights Reserved.
+ * Copyright 1995-2023 The OpenSSL Project Authors. All Rights Reserved.
  *
  * Licensed under the Apache License 2.0 (the "License").  You may not use
  * this file except in compliance with the License.  You can obtain a copy
@@ -15,6 +15,7 @@
 #include <openssl/err.h>
 #include "internal/cryptlib.h"
 #include "internal/sizes.h"
+#include "crypto/evp.h"
 #include "pk7_local.h"
 
 static int add_attribute(STACK_OF(X509_ATTRIBUTE) **sk, int nid, int atrtype,
@@ -84,7 +85,11 @@ static int pkcs7_bio_add_digest(BIO **pbio, X509_ALGOR *alg,
     }
     (void)ERR_pop_to_mark();
 
-    BIO_set_md(btmp, md);
+    if (BIO_set_md(btmp, md) <= 0) {
+        ERR_raise(ERR_LIB_PKCS7, ERR_R_BIO_LIB);
+        EVP_MD_free(fetched);
+        goto err;
+    }
     EVP_MD_free(fetched);
     if (*pbio == NULL)
         *pbio = btmp;
@@ -163,22 +168,17 @@ static int pkcs7_decrypt_rinfo(unsigned char **pek, int *peklen,
     if (EVP_PKEY_decrypt_init(pctx) <= 0)
         goto err;
 
-    if (EVP_PKEY_decrypt(pctx, NULL, &eklen,
-                         ri->enc_key->data, ri->enc_key->length) <= 0)
-        goto err;
+    if (EVP_PKEY_is_a(pkey, "RSA"))
+        /* upper layer pkcs7 code incorrectly assumes that a successful RSA
+         * decryption means that the key matches ciphertext (which never
+         * was the case, implicit rejection or not), so to make it work
+         * disable implicit rejection for RSA keys */
+        EVP_PKEY_CTX_ctrl_str(pctx, "rsa_pkcs1_implicit_rejection", "0");
 
-    ek = OPENSSL_malloc(eklen);
-    if (ek == NULL)
+    ret = evp_pkey_decrypt_alloc(pctx, &ek, &eklen, fixlen,
+                                 ri->enc_key->data, ri->enc_key->length);
+    if (ret <= 0)
         goto err;
-
-    if (EVP_PKEY_decrypt(pctx, ek, &eklen,
-                         ri->enc_key->data, ri->enc_key->length) <= 0
-            || eklen == 0
-            || (fixlen != 0 && eklen != fixlen)) {
-        ret = 0;
-        ERR_raise(ERR_LIB_PKCS7, ERR_R_EVP_LIB);
-        goto err;
-    }
 
     ret = 1;
 
@@ -324,7 +324,7 @@ BIO *PKCS7_dataInit(PKCS7 *p7, BIO *bio)
                 if (xalg->parameter == NULL)
                     goto err;
             }
-            if (EVP_CIPHER_param_to_asn1(ctx, xalg->parameter) < 0)
+            if (EVP_CIPHER_param_to_asn1(ctx, xalg->parameter) <= 0)
                 goto err;
         }
 
@@ -516,7 +516,11 @@ BIO *PKCS7_dataDecode(PKCS7 *p7, EVP_PKEY *pkey, BIO *in_bio, X509 *pcert)
             }
             (void)ERR_pop_to_mark();
 
-            BIO_set_md(btmp, md);
+            if (BIO_set_md(btmp, md) <= 0) {
+                EVP_MD_free(evp_md);
+                ERR_raise(ERR_LIB_PKCS7, ERR_R_BIO_LIB);
+                goto err;
+            }
             EVP_MD_free(evp_md);
             if (out == NULL)
                 out = btmp;
@@ -582,7 +586,7 @@ BIO *PKCS7_dataDecode(PKCS7 *p7, EVP_PKEY *pkey, BIO *in_bio, X509 *pcert)
         BIO_get_cipher_ctx(etmp, &evp_ctx);
         if (EVP_CipherInit_ex(evp_ctx, cipher, NULL, NULL, NULL, 0) <= 0)
             goto err;
-        if (EVP_CIPHER_asn1_to_param(evp_ctx, enc_alg->parameter) < 0)
+        if (EVP_CIPHER_asn1_to_param(evp_ctx, enc_alg->parameter) <= 0)
             goto err;
         /* Generate random key as MMA defence */
         len = EVP_CIPHER_CTX_get_key_length(evp_ctx);
@@ -830,10 +834,9 @@ int PKCS7_dataFinal(PKCS7 *p7, BIO *bio)
                     goto err;
             } else {
                 unsigned char *abuf = NULL;
-                unsigned int abuflen;
-                abuflen = EVP_PKEY_get_size(si->pkey);
-                abuf = OPENSSL_malloc(abuflen);
-                if (abuf == NULL)
+                unsigned int abuflen = EVP_PKEY_get_size(si->pkey);
+
+                if (abuflen == 0 || (abuf = OPENSSL_malloc(abuflen)) == NULL)
                     goto err;
 
                 if (!EVP_SignFinal_ex(ctx_tmp, abuf, &abuflen, si->pkey,

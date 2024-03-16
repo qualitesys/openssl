@@ -2,8 +2,8 @@ Build and Install
 =================
 
 This document describes installation on all supported operating
-systems (the Unix/Linux family, including macOS), OpenVMS,
-and Windows).
+systems: the Unix/Linux family (including macOS), OpenVMS,
+and Windows.
 
 Table of Contents
 =================
@@ -64,6 +64,7 @@ issues and other details, please read one of these:
  * [Notes for Windows platforms](NOTES-WINDOWS.md)
  * [Notes for the DOS platform with DJGPP](NOTES-DJGPP.md)
  * [Notes for the OpenVMS platform](NOTES-VMS.md)
+ * [Notes for the HPE NonStop platform](NOTES-NONSTOP.md)
  * [Notes on Perl](NOTES-PERL.md)
  * [Notes on Valgrind](NOTES-VALGRIND.md)
 
@@ -141,7 +142,7 @@ Use the following commands to configure, build and test OpenSSL.
 The testing is optional, but recommended if you intend to install
 OpenSSL for production use.
 
-### Unix / Linux / macOS
+### Unix / Linux / macOS / NonStop
 
     $ ./Configure
     $ make
@@ -167,8 +168,9 @@ issue the following commands to build OpenSSL.
 As mentioned in the [Choices](#choices) section, you need to pick one
 of the four Configure targets in the first command.
 
-Most likely you will be using the `VC-WIN64A` target for 64bit Windows
-binaries (AMD64) or `VC-WIN32` for 32bit Windows binaries (X86).
+Most likely you will be using the `VC-WIN64A`/`VC-WIN64A-HYBRIDCRT` target for
+64bit Windows binaries (AMD64) or `VC-WIN32`/`VC-WIN32-HYBRIDCRT` for 32bit
+Windows binaries (X86).
 The other two options are `VC-WIN64I` (Intel IA64, Itanium) and
 `VC-CE` (Windows CE) are rather uncommon nowadays.
 
@@ -197,7 +199,7 @@ the global search path for system libraries.
 Finally, if you plan on using the FIPS module, you need to read the
 [Post-installation Notes](#post-installation-notes) further down.
 
-### Unix / Linux / macOS
+### Unix / Linux / macOS / NonStop
 
 Depending on your distribution, you need to run the following command as
 root user or prepend `sudo` to the command:
@@ -234,9 +236,8 @@ and issue the following command.
 
     $ nmake install
 
-The easiest way to elevate the Command Prompt is to press and hold down
-the both the `<CTRL>` and `<SHIFT>` key while clicking the menu item in the
-task menu.
+The easiest way to elevate the Command Prompt is to press and hold down both
+the `<CTRL>` and `<SHIFT>` keys while clicking the menu item in the task menu.
 
 The default installation location is
 
@@ -583,6 +584,11 @@ access to algorithm internals that are not normally accessible.
 Additional information related to ACVP can be found at
 <https://github.com/usnistgov/ACVP>.
 
+### no-apps
+
+Do not build apps, e.g. the openssl program. This is handy for minimization.
+This option also disables tests.
+
 ### no-asm
 
 Do not use assembler code.
@@ -594,6 +600,14 @@ be used even with this option.
 ### no-async
 
 Do not build support for async operations.
+
+### no-atexit
+
+Do not use `atexit()` in libcrypto builds.
+
+`atexit()` has varied semantics between platforms and can cause SIGSEGV in some
+circumstances. This option disables the atexit registration of OPENSSL_cleanup.
+By default, NonStop configurations use `no-atexit`.
 
 ### no-autoalginit
 
@@ -711,6 +725,10 @@ Don't build support for datagram based BIOs.
 
 Selecting this option will also force the disabling of DTLS.
 
+### no-docs
+
+Don't build and install documentation, i.e. manual pages in various forms.
+
 ### no-dso
 
 Don't build support for loading Dynamic Shared Objects (DSO)
@@ -806,6 +824,10 @@ Note that if this feature is enabled then GOST ciphersuites are only available
 if the GOST algorithms are also available through loading an externally supplied
 engine.
 
+### no-http
+
+Disable HTTP support.
+
 ### no-legacy
 
 Don't build the legacy provider.
@@ -856,14 +878,22 @@ By default OpenSSL will attempt to stay in memory until the process exits.
 This is so that libcrypto and libssl can be properly cleaned up automatically
 via an `atexit()` handler.  The handler is registered by libcrypto and cleans
 up both libraries.  On some platforms the `atexit()` handler will run on unload of
-libcrypto (if it has been dynamically loaded) rather than at process exit.  This
-option can be used to stop OpenSSL from attempting to stay in memory until the
+libcrypto (if it has been dynamically loaded) rather than at process exit.
+
+This option can be used to stop OpenSSL from attempting to stay in memory until the
 process exits.  This could lead to crashes if either libcrypto or libssl have
 already been unloaded at the point that the atexit handler is invoked, e.g.  on a
 platform which calls `atexit()` on unload of the library, and libssl is unloaded
-before libcrypto then a crash is likely to happen.  Applications can suppress
-running of the `atexit()` handler at run time by using the
-`OPENSSL_INIT_NO_ATEXIT` option to `OPENSSL_init_crypto()`.
+before libcrypto then a crash is likely to happen.
+
+Note that shared library pinning is not automatically disabled for static builds,
+i.e., `no-shared` does not imply `no-pinshared`. This may come as a surprise when
+linking libcrypto statically into a shared third-party library, because in this
+case the shared library will be pinned. To prevent this behaviour, you need to
+configure the static build using `no-shared` and `no-pinshared` together.
+
+Applications can suppress running of the `atexit()` handler at run time by
+using the `OPENSSL_INIT_NO_ATEXIT` option to `OPENSSL_init_crypto()`.
 See the man page for it for further details.
 
 ### no-posix-io
@@ -892,6 +922,10 @@ Build support for Stream Control Transmission Protocol (SCTP).
 Do not create shared libraries, only static ones.
 
 See [Notes on shared libraries](#notes-on-shared-libraries) below.
+
+### no-sm2-precomp
+
+Disable using the SM2 precomputed table on aarch64 to make the library smaller.
 
 ### no-sock
 
@@ -950,10 +984,9 @@ Don't build test programs or run any tests.
 
 Build with support for TCP Fast Open (RFC7413). Supported on Linux, macOS and FreeBSD.
 
-### enable-quic
+### no-quic
 
-Build with QUIC support. This is currently just for developers as the
-implementation is by no means complete and usable.
+Don't build with QUIC support.
 
 ### no-threads
 
@@ -1050,6 +1083,14 @@ Like the enable-zstd option, but has OpenSSL load the Zstd library dynamically
 when needed.
 
 This is only supported on systems where loading of shared libraries is supported.
+
+### enable-unstable-qlog
+
+Enables qlog output support for the QUIC protocol. This functionality is
+unstable and implements a draft version of the qlog specification. The qlog
+output from OpenSSL will change in incompatible ways in future, and is not
+subject to any format stability or compatibility guarantees at this time. See
+the manpage openssl-qlog(7) for details.
 
 ### 386
 
@@ -1305,6 +1346,14 @@ and `descrip.mms` on OpenVMS) from a suitable template in `Configurations/`,
 and defines various macros in `include/openssl/configuration.h` (generated
 from `include/openssl/configuration.h.in`.
 
+If none of the generated build files suit your purpose, it's possible to
+write your own build file template and give its name through the environment
+variable `BUILDFILE`.  For example, Ninja build files could be supported by
+writing `Configurations/build.ninja.tmpl` and then configure with `BUILDFILE`
+set like this (Unix syntax shown, you'll have to adapt for other platforms):
+
+    $ BUILDFILE=build.ninja perl Configure [options...]
+
 ### Out of Tree Builds
 
 OpenSSL can be configured to build in a build directory separate from the
@@ -1550,7 +1599,7 @@ over the build process.  Typically these should be defined prior to running
 
     PERL
                    The name of the Perl executable to use when building OpenSSL.
-                   Only needed if builing should use a different Perl executable
+                   Only needed if building should use a different Perl executable
                    than what is used to run the Configure script.
 
     RANLIB
