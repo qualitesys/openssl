@@ -165,7 +165,7 @@ var mavar =
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"234" , "nbComplexite":"1.18"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"236" , "nbComplexite":"1.23"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"237" , "nbComplexite":"1.30"} ,' + 
-' { "namespace":"" , "classe":"dummy" , "nbMethodes":"2" , "nbComplexite":"1.00"} ,' + 
+' { "namespace":"" , "classe":"dummy" , "nbMethodes":"268" , "nbComplexite":"1.58"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"229" , "nbComplexite":"1.24"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"236" , "nbComplexite":"1.22"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"110" , "nbComplexite":"1.23"} ,' + 
@@ -178,7 +178,7 @@ var mavar =
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"248" , "nbComplexite":"1.58"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"244" , "nbComplexite":"1.75"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"482" , "nbComplexite":"1.12"} ,' + 
-' { "namespace":"" , "classe":"dummy" , "nbMethodes":"117" , "nbComplexite":"1.38"} ,' + 
+' { "namespace":"" , "classe":"dummy" , "nbMethodes":"288" , "nbComplexite":"1.73"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"277" , "nbComplexite":"1.74"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"238" , "nbComplexite":"1.29"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"237" , "nbComplexite":"1.38"} ,' + 
@@ -355,7 +355,7 @@ var mavar =
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"516" , "nbComplexite":"1.18"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"466" , "nbComplexite":"1.06"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"223" , "nbComplexite":"1.11"} ,' + 
-' { "namespace":"" , "classe":"dummy" , "nbMethodes":"48" , "nbComplexite":"1.40"} ,' + 
+' { "namespace":"" , "classe":"dummy" , "nbMethodes":"240" , "nbComplexite":"1.25"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"109" , "nbComplexite":"1.20"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"238" , "nbComplexite":"1.33"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"223" , "nbComplexite":"1.11"} ,' + 
@@ -527,7 +527,7 @@ var mavar =
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"479" , "nbComplexite":"1.17"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"415" , "nbComplexite":"1.47"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"397" , "nbComplexite":"1.11"} ,' + 
-' { "namespace":"" , "classe":"dummy" , "nbMethodes":"18" , "nbComplexite":"1.39"} ,' + 
+' { "namespace":"" , "classe":"dummy" , "nbMethodes":"228" , "nbComplexite":"1.11"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"474" , "nbComplexite":"1.14"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"451" , "nbComplexite":"1.47"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"478" , "nbComplexite":"1.22"} ,' + 
@@ -833,7 +833,7 @@ var mavar =
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"595" , "nbComplexite":"1.07"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"710" , "nbComplexite":"1.08"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"595" , "nbComplexite":"1.09"} ,' + 
-' { "namespace":"" , "classe":"dummy" , "nbMethodes":"32" , "nbComplexite":"1.38"} ,' + 
+' { "namespace":"" , "classe":"dummy" , "nbMethodes":"607" , "nbComplexite":"1.27"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"519" , "nbComplexite":"1.05"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"616" , "nbComplexite":"1.16"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"653" , "nbComplexite":"1.35"} ,' + 
@@ -1012,7 +1012,7 @@ var mavar =
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"418" , "nbComplexite":"1.08"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"460" , "nbComplexite":"1.05"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"460" , "nbComplexite":"1.05"} ,' + 
-' { "namespace":"" , "classe":"dummy" , "nbMethodes":"86" , "nbComplexite":"1.25"} ,' + 
+' { "namespace":"" , "classe":"dummy" , "nbMethodes":"485" , "nbComplexite":"1.18"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"460" , "nbComplexite":"1.05"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"421" , "nbComplexite":"1.12"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"523" , "nbComplexite":"1.23"} ,' + 

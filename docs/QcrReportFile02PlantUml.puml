@@ -662,8 +662,8 @@ Nb methods :237
 Complexity :1.30
 }
 class "dummy" {
-Nb methods :2
-Complexity :1.00
+Nb methods :268
+Complexity :1.58
 }
 class "dummy" {
 Nb methods :229
@@ -714,8 +714,8 @@ Nb methods :482
 Complexity :1.12
 }
 class "dummy" {
-Nb methods :117
-Complexity :1.38
+Nb methods :288
+Complexity :1.73
 }
 class "dummy" {
 Nb methods :277
@@ -1422,8 +1422,8 @@ Nb methods :223
 Complexity :1.11
 }
 class "dummy" {
-Nb methods :48
-Complexity :1.40
+Nb methods :240
+Complexity :1.25
 }
 class "dummy" {
 Nb methods :109
@@ -2110,8 +2110,8 @@ Nb methods :397
 Complexity :1.11
 }
 class "dummy" {
-Nb methods :18
-Complexity :1.39
+Nb methods :228
+Complexity :1.11
 }
 class "dummy" {
 Nb methods :474
@@ -3334,8 +3334,8 @@ Nb methods :595
 Complexity :1.09
 }
 class "dummy" {
-Nb methods :32
-Complexity :1.38
+Nb methods :607
+Complexity :1.27
 }
 class "dummy" {
 Nb methods :519
@@ -4050,8 +4050,8 @@ Nb methods :460
 Complexity :1.05
 }
 class "dummy" {
-Nb methods :86
-Complexity :1.25
+Nb methods :485
+Complexity :1.18
 }
 class "dummy" {
 Nb methods :460
