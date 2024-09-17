@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/quic/quic_cfq.c.html" 
- , "texte" : "File ssl/quic/quic_cfq.c 5 rule violations " 
+ , "texte" : "File ssl/quic/quic_cfq.c 9 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -4790,6 +4790,213 @@ var maDataBlocs = {
  , "c3" : "2"
  , "c4" : "2"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_cfq.c.html#1"
+ , "c1" : "uint64_t"
+ , "c2" : "ossl_quic_cfq_item_get_frame_type(QUIC_CFQ_ITEM*)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_cfq.c.html#1"
+ , "c1" : " unsigned  char "
+ , "c2" : "ossl_quic_cfq_item_get_encoded(QUIC_CFQ_ITEM*)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_cfq.c.html#1"
+ , "c1" : "size_t"
+ , "c2" : "ossl_quic_cfq_item_get_encoded_len(QUIC_CFQ_ITEM*)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_cfq.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ossl_quic_cfq_item_get_state(QUIC_CFQ_ITEM*)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_cfq.c.html#1"
+ , "c1" : "uint32_t"
+ , "c2" : "ossl_quic_cfq_item_get_pn_space(QUIC_CFQ_ITEM*)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_cfq.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ossl_quic_cfq_item_is_unreliable(QUIC_CFQ_ITEM*)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_cfq.c.html#1"
+ , "c1" : " int "
+ , "c2" : "compare(QUIC_CFQ_ITEM_EX*;QUIC_CFQ_ITEM_EX*)"
+ , "c3" : "7"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_cfq.c.html#1"
+ , "c1" : " void "
+ , "c2" : "list_remove(QUIC_CFQ_ITEM_LIST*;QUIC_CFQ_ITEM_EX*)"
+ , "c3" : "5"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_cfq.c.html#1"
+ , "c1" : " void "
+ , "c2" : "list_insert_head(QUIC_CFQ_ITEM_LIST*;QUIC_CFQ_ITEM_EX*)"
+ , "c3" : "3"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_cfq.c.html#1"
+ , "c1" : " void "
+ , "c2" : "list_insert_tail(QUIC_CFQ_ITEM_LIST*;QUIC_CFQ_ITEM_EX*)"
+ , "c3" : "3"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_cfq.c.html#1"
+ , "c1" : " void "
+ , "c2" : "list_insert_after(QUIC_CFQ_ITEM_LIST*;QUIC_CFQ_ITEM_EX*;QUIC_CFQ_ITEM_EX*)"
+ , "c3" : "3"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_cfq.c.html#1"
+ , "c1" : " void "
+ , "c2" : "list_insert_sorted(QUIC_CFQ_ITEM_LIST*;QUIC_CFQ_ITEM_EX*;int)"
+ , "c3" : "7"
+ , "c4" : "10"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_cfq.c.html#1"
+ , "c1" : "QUIC_CFQ"
+ , "c2" : "ossl_quic_cfq_new(void)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_cfq.c.html#1"
+ , "c1" : " void "
+ , "c2" : "clear_item(QUIC_CFQ_ITEM_EX*)"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_cfq.c.html#1"
+ , "c1" : " void "
+ , "c2" : "free_list_items(QUIC_CFQ_ITEM_LIST*)"
+ , "c3" : "2"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_cfq.c.html#1"
+ , "c1" : " void "
+ , "c2" : "ossl_quic_cfq_free(QUIC_CFQ*)"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_cfq.c.html#1"
+ , "c1" : "QUIC_CFQ_ITEM_EX"
+ , "c2" : "cfq_get_free(QUIC_CFQ*)"
+ , "c3" : "3"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_cfq.c.html#1"
+ , "c1" : "QUIC_CFQ_ITEM"
+ , "c2" : "ossl_quic_cfq_add_frame(QUIC_CFQ*;uint32_t;uint32_t;uint64_t;uint32_t;unsignedchar*;size_t;cfq_free_cb*;void*)"
+ , "c3" : "2"
+ , "c4" : "14"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_cfq.c.html#1"
+ , "c1" : " void "
+ , "c2" : "ossl_quic_cfq_mark_tx(QUIC_CFQ*;QUIC_CFQ_ITEM*)"
+ , "c3" : "3"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_cfq.c.html#1"
+ , "c1" : " void "
+ , "c2" : "ossl_quic_cfq_mark_lost(QUIC_CFQ*;QUIC_CFQ_ITEM*;uint32_t)"
+ , "c3" : "6"
+ , "c4" : "14"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_cfq.c.html#1"
+ , "c1" : " void "
+ , "c2" : "ossl_quic_cfq_release(QUIC_CFQ*;QUIC_CFQ_ITEM*)"
+ , "c3" : "3"
+ , "c4" : "11"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_cfq.c.html#1"
+ , "c1" : "QUIC_CFQ_ITEM"
+ , "c2" : "ossl_quic_cfq_get_priority_head(QUIC_CFQ*;uint32_t)"
+ , "c3" : "3"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_cfq.c.html#1"
+ , "c1" : "QUIC_CFQ_ITEM"
+ , "c2" : "ossl_quic_cfq_item_get_priority_next(QUIC_CFQ_ITEM*;uint32_t)"
+ , "c3" : "4"
+ , "c4" : "8"
+}} 
 ] 
 }} 
 ]
@@ -4831,13 +5038,6 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "2"
@@ -4852,20 +5052,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/ssl/quic/quic_cfq.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/ssl/quic/quic_cfq.c near following tokens ; typedef __uint128_t uint128_t ; typedef struct quic_cfq_item_ex_st QUIC_CFQ_ITEM_EX ; struct quic_cfq_item_ex_st { QUIC_CFQ_ITEM public ; QUIC_CFQ_ITEM_EX CPP_POINTEUR prev , CPP_POINTEUR "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01456"
  , "c1link" : "./qc/ssl/quic/quic_cfq.c.html#1456"
@@ -4892,6 +5092,41 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/quic/quic_cfq.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000018[00001] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/ssl/quic/quic_cfq.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/ssl/quic/quic_cfq.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/ssl/quic/quic_cfq.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/ssl/quic/quic_cfq.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/ssl/quic/quic_cfq.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer pnext is declared but not initialized"
 }} 
 ]
 , 

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/ssl/quic/quic_txpim.c.html" 
- , "texte" : "File ssl/quic/quic_txpim.c 25 rule violations " 
+ , "texte" : "File ssl/quic/quic_txpim.c 30 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -5573,6 +5573,150 @@ var maDataBlocs = {
  , "c3" : "6"
  , "c4" : "2"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_txpim.c.html#1"
+ , "c1" : "QUIC_TXPIM"
+ , "c2" : "ossl_quic_txpim_new(void)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_txpim.c.html#1"
+ , "c1" : " void "
+ , "c2" : "free_list(QUIC_TXPIM_PKT_EX_LIST*)"
+ , "c3" : "2"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_txpim.c.html#1"
+ , "c1" : " void "
+ , "c2" : "ossl_quic_txpim_free(QUIC_TXPIM*)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_txpim.c.html#1"
+ , "c1" : " void "
+ , "c2" : "list_remove(QUIC_TXPIM_PKT_EX_LIST*;QUIC_TXPIM_PKT_EX*)"
+ , "c3" : "5"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_txpim.c.html#1"
+ , "c1" : " void "
+ , "c2" : "list_insert_tail(QUIC_TXPIM_PKT_EX_LIST*;QUIC_TXPIM_PKT_EX*)"
+ , "c3" : "3"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_txpim.c.html#1"
+ , "c1" : "QUIC_TXPIM_PKT_EX"
+ , "c2" : "txpim_get_free(QUIC_TXPIM*)"
+ , "c3" : "3"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_txpim.c.html#1"
+ , "c1" : " void "
+ , "c2" : "txpim_clear(QUIC_TXPIM_PKT_EX*)"
+ , "c3" : "1"
+ , "c4" : "10"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_txpim.c.html#1"
+ , "c1" : "QUIC_TXPIM_PKT"
+ , "c2" : "ossl_quic_txpim_pkt_alloc(QUIC_TXPIM*)"
+ , "c3" : "2"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_txpim.c.html#1"
+ , "c1" : " void "
+ , "c2" : "ossl_quic_txpim_pkt_release(QUIC_TXPIM*;QUIC_TXPIM_PKT*)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_txpim.c.html#1"
+ , "c1" : " void "
+ , "c2" : "ossl_quic_txpim_pkt_add_cfq_item(QUIC_TXPIM_PKT*;QUIC_CFQ_ITEM*)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_txpim.c.html#1"
+ , "c1" : " void "
+ , "c2" : "ossl_quic_txpim_pkt_clear_chunks(QUIC_TXPIM_PKT*)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_txpim.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ossl_quic_txpim_pkt_append_chunk(QUIC_TXPIM_PKT*;QUIC_TXPIM_CHUNK*)"
+ , "c3" : "5"
+ , "c4" : "13"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_txpim.c.html#1"
+ , "c1" : " int "
+ , "c2" : "compare(void*;void*)"
+ , "c3" : "7"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_txpim.c.html#1"
+ , "c1" : "QUIC_TXPIM_CHUNK"
+ , "c2" : "ossl_quic_txpim_pkt_get_chunks(QUIC_TXPIM_PKT*)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_txpim.c.html#1"
+ , "c1" : "size_t"
+ , "c2" : "ossl_quic_txpim_pkt_get_num_chunks(QUIC_TXPIM_PKT*)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/ssl/quic/quic_txpim.c.html#1"
+ , "c1" : "size_t"
+ , "c2" : "ossl_quic_txpim_get_in_use(QUIC_TXPIM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -5614,13 +5758,6 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
  , "c4" : "6"
@@ -5630,7 +5767,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "6"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
@@ -5649,20 +5786,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "8"
+ , "c4" : "11"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/ssl/quic/quic_txpim.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/ssl/quic/quic_txpim.c near following tokens QUIC_TXPIM CPP_POINTEUR txpim ) ; typedef struct quic_txpim_pkt_ex_st QUIC_TXPIM_PKT_EX ; struct quic_txpim_pkt_ex_st { QUIC_TXPIM_PKT public ; QUIC_TXPIM_PKT_EX CPP_POINTEUR prev , CPP_POINTEUR "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01456"
  , "c1link" : "./qc/ssl/quic/quic_txpim.c.html#1456"
@@ -5829,6 +5966,48 @@ var maDataBlocs = {
  , "c1link" : "./qc/ssl/quic/quic_txpim.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000005[00001] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/ssl/quic/quic_txpim.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer n is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/ssl/quic/quic_txpim.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer nnext is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/ssl/quic/quic_txpim.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/ssl/quic/quic_txpim.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/ssl/quic/quic_txpim.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer new_chunk is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/ssl/quic/quic_txpim.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression ex-&gt;chunks_need_sort applies to a single value or variable, might be ambiguous."
 }} 
 ]
 , 
