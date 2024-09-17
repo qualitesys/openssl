@@ -33,7 +33,7 @@ jobs:
       run: mvn qcr:qcrgoalfilecopycpp
     - name: Run maven site avant tests
       run: mvn site -Dsonar.reporting01nodocgeneration=yes
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v4
       with:
         name: ArtifactMvnSiteAvantTests
         path: |
@@ -80,7 +80,7 @@ jobs:
       run: make V=1 TESTS=01 test 2>> ./make_test_err80.log
     - name: Run maven site apres tests
       run: mvn site -Dsonar.reporting01nodocgeneration=yes
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v4
       with:
         name: ArtifactMvnSiteApresTests
         path: |
@@ -93,11 +93,11 @@ jobs:
       run: sort -u -o make_test_err_sort.log make_test_err*.log
     - name: ls
       run: ls -l make_test_err_sort.log
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v4
       with:
         name: artifact-sauve-log
         path: make_test_err_sort.log
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v4
       with:
         name: ArtifactTestRuns
         path: |
