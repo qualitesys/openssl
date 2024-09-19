@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/objects/o_names.c.html" 
- , "texte" : "File crypto/objects/o_names.c 18 rule violations " 
+ , "texte" : "File crypto/objects/o_names.c 7 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -2117,150 +2117,6 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/objects/o_names.c.html#1"
- , "c1" : " int "
- , "c2" : "OBJ_NAME_new_index(unsignedlong;int;void)"
- , "c3" : "11"
- , "c4" : "26"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/objects/o_names.c.html#1"
- , "c1" : " int "
- , "c2" : "obj_name_cmp(OBJ_NAME*;OBJ_NAME*)"
- , "c3" : "4"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/objects/o_names.c.html#1"
- , "c1" : " unsigned  long "
- , "c2" : "obj_name_hash(OBJ_NAME*)"
- , "c3" : "3"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/objects/o_names.c.html#1"
- , "c1" : " char "
- , "c2" : "OBJ_NAME_get(char*;int)"
- , "c3" : "9"
- , "c4" : "20"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/objects/o_names.c.html#1"
- , "c1" : " int "
- , "c2" : "OBJ_NAME_add(char*;int;char*)"
- , "c3" : "8"
- , "c4" : "21"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/objects/o_names.c.html#1"
- , "c1" : " int "
- , "c2" : "OBJ_NAME_remove(char*;int)"
- , "c3" : "5"
- , "c4" : "13"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/objects/o_names.c.html#1"
- , "c1" : " void "
- , "c2" : "do_all_fn(OBJ_NAME*;OBJ_DOALL*)"
- , "c3" : "2"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/objects/o_names.c.html#1"
- , "c1" : " void "
- , "c2" : "lh_OBJ_NAME_doall_OBJ_DOALL_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/objects/o_names.c.html#1"
- , "c1" : " void "
- , "c2" : "lh_OBJ_NAME_doall_OBJ_DOALL(structlhash_st_OBJ_NAME*;void;OBJ_DOALL*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/objects/o_names.c.html#1"
- , "c1" : " void "
- , "c2" : "OBJ_NAME_do_all(int;void;void*)"
- , "c3" : "1"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/objects/o_names.c.html#1"
- , "c1" : " void "
- , "c2" : "do_all_sorted_fn(OBJ_NAME*;void*)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/objects/o_names.c.html#1"
- , "c1" : " int "
- , "c2" : "do_all_sorted_cmp(void*;void*)"
- , "c3" : "1"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/objects/o_names.c.html#1"
- , "c1" : " void "
- , "c2" : "OBJ_NAME_do_all_sorted(int;void;void*)"
- , "c3" : "3"
- , "c4" : "11"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/objects/o_names.c.html#1"
- , "c1" : " void "
- , "c2" : "names_lh_free_doall(OBJ_NAME*)"
- , "c3" : "3"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/objects/o_names.c.html#1"
- , "c1" : " void "
- , "c2" : "name_funcs_free(NAME_FUNCS*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/objects/o_names.c.html#1"
- , "c1" : " void "
- , "c2" : "OBJ_NAME_cleanup(int)"
- , "c3" : "4"
- , "c4" : "13"
-}} 
 ] 
 }} 
 ]
@@ -2302,15 +2158,8 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP000006"
- , "c3" : "Risk of infinite while loop"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
+ , "c2" : "QC-CPP999999"
+ , "c3" : "Syntax error in source code"
  , "c4" : "1"
 }}
 ,
@@ -2330,20 +2179,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-CPP000007"
- , "c3" : "goto statement"
- , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "7"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/objects/o_names.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/objects/o_names.c near following tokens , o_names_init_ossl_ ) ? o_names_init_ossl_ret_ : 0 ) ; } int OBJ_NAME_new_index ( unsigned long ( CPP_POINTEUR hash_func ) ( const "
+}} 
+,
 { "ligne" : {"" : ""
  , "c1" : "01039"
  , "c1link" : "./qc/crypto/objects/o_names.c.html#1039"
@@ -2384,90 +2233,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/objects/o_names.c.html#1"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[00001] The pointer name_funcs_stack is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/objects/o_names.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00001] The pointer name_funcs is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/objects/o_names.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[00001] goto statement jump to out"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/objects/o_names.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[00001] goto statement jump to out"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/objects/o_names.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00001] The expression  ! push applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/objects/o_names.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[00001] goto statement jump to out"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/objects/o_names.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00001] The pointer ret is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/objects/o_names.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00001] The condition of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/objects/o_names.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00001] The end expression of for loop is empty, infinite loop risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/objects/o_names.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00001] The pointer onp is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/objects/o_names.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00001] The pointer ret is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/objects/o_names.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[00001] goto statement jump to unlock"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/objects/o_names.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00001] The pointer ret is declared but not initialized"
 }} 
 ]
 , 

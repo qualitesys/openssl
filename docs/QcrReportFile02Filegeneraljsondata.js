@@ -1,7 +1,7 @@
 var mavar = 
 '{ "monTableau" : [' +
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"719" , "nbComplexite":"1.15"} ,' + 
-' { "namespace":"" , "classe":"dummy" , "nbMethodes":"728" , "nbComplexite":"1.77"} ,' + 
+' { "namespace":"" , "classe":"dummy" , "nbMethodes":"717" , "nbComplexite":"1.45"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"762" , "nbComplexite":"1.12"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"852" , "nbComplexite":"1.83"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"744" , "nbComplexite":"1.58"} ,' + 
@@ -171,7 +171,7 @@ var mavar =
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"110" , "nbComplexite":"1.23"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"290" , "nbComplexite":"1.60"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"258" , "nbComplexite":"1.16"} ,' + 
-' { "namespace":"" , "classe":"dummy" , "nbMethodes":"230" , "nbComplexite":"2.06"} ,' + 
+' { "namespace":"" , "classe":"dummy" , "nbMethodes":"227" , "nbComplexite":"2.05"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"240" , "nbComplexite":"1.28"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"233" , "nbComplexite":"1.26"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"239" , "nbComplexite":"1.56"} ,' + 
@@ -572,7 +572,7 @@ var mavar =
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"123" , "nbComplexite":"1.18"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"236" , "nbComplexite":"1.36"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"82" , "nbComplexite":"1.37"} ,' + 
-' { "namespace":"" , "classe":"dummy" , "nbMethodes":"250" , "nbComplexite":"1.27"} ,' + 
+' { "namespace":"" , "classe":"dummy" , "nbMethodes":"234" , "nbComplexite":"1.10"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"584" , "nbComplexite":"1.26"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"109" , "nbComplexite":"1.20"} ,' + 
 ' { "namespace":"" , "classe":"dummy" , "nbMethodes":"487" , "nbComplexite":"1.07"} ,' + 

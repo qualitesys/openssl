@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bio/bio_print.c.html" 
- , "texte" : "File crypto/bio/bio_print.c 49 rule violations " 
+ , "texte" : "File crypto/bio/bio_print.c 48 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -2054,33 +2054,6 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "6"
 }} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/bio/bio_print.c.html#1"
- , "c1" : " int "
- , "c2" : "BIO_vprintf(BIO*;char*;va_list)"
- , "c3" : "4"
- , "c4" : "14"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/bio/bio_print.c.html#1"
- , "c1" : " int "
- , "c2" : "BIO_snprintf(char*;size_t;char*)"
- , "c3" : "1"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/bio/bio_print.c.html#1"
- , "c1" : " int "
- , "c2" : "BIO_vsnprintf(char*;size_t;char*;va_list)"
- , "c3" : "3"
- , "c4" : "5"
-}} 
 ] 
 }} 
 ]
@@ -2122,9 +2095,16 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP999999"
+ , "c3" : "Syntax error in source code"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "9"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
@@ -2164,6 +2144,13 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bio/bio_print.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/bio/bio_print.c near following tokens ; __builtin_va_end ( args ) ; return ret ; } int BIO_vprintf ( BIO CPP_POINTEUR bio , const char CPP_POINTEUR format "
+}} 
+,
 { "ligne" : {"" : ""
  , "c1" : "01039"
  , "c1link" : "./qc/crypto/bio/bio_print.c.html#1039"
@@ -2491,20 +2478,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bio/bio_print.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000011[00001] The expression  * sbuffer applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/bio/bio_print.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00001] The expression dynbuf applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/bio/bio_print.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00001] The expression truncated applies to a single value or variable, might be ambiguous."
 }} 
 ]
 , 
