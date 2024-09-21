@@ -1,7 +1,11 @@
 name: C/C++ CI Complet
 
 on:
-  [push]
+  push:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    # Demarrage a 20h30 chaque jour
+    - cron:  '30 20 * * *'
 jobs:
   build: 
 
@@ -64,6 +68,8 @@ jobs:
       run: more crypto/ocsp/v3_ocsp.c
     - name: more crypto/mem.c
       run: more crypto/mem.c
+    - name: more engines/e_afalg.c Modif D.C. 2024 09 21
+      run: more engines/e_afalg.c
     - name: Maven and co make
       run: make
     - name: ls -l
