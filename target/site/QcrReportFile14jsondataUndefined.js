@@ -1,5 +1,3 @@
 var datadependUndefined = { "lesdatas" : [
-   ]
-   }
 ]
 } ;
