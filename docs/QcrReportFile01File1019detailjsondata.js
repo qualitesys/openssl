@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/rands/test_rng.c.html" 
- , "texte" : "File providers/implementations/rands/test_rng.c 11 rule violations " 
+ , "texte" : "File providers/implementations/rands/test_rng.c 6 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -13,8 +13,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00298"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#298"
+ , "c5" : "00332"
+ , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#332"
  , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "bcopy(void*;void*;size_t)"
  , "c3" : "1"
@@ -22,8 +22,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00305"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#305"
+ , "c5" : "00339"
+ , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#339"
  , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "bzero(void*;size_t)"
  , "c3" : "1"
@@ -31,8 +31,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00346"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#346"
+ , "c5" : "00393"
+ , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#393"
  , "c1" : " void "
  , "c2" : "memcpy(void*;void*;size_t)"
  , "c3" : "1"
@@ -40,8 +40,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00354"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#354"
+ , "c5" : "00401"
+ , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#401"
  , "c1" : " void "
  , "c2" : "memmove(void*;void*;size_t)"
  , "c3" : "1"
@@ -49,8 +49,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00361"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#361"
+ , "c5" : "00408"
+ , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#408"
  , "c1" : " void "
  , "c2" : "memset(void*;int;size_t)"
  , "c3" : "1"
@@ -58,8 +58,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00374"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#374"
+ , "c5" : "00421"
+ , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#421"
  , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "explicit_bzero(void*;size_t)"
  , "c3" : "1"
@@ -67,8 +67,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00381"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#381"
+ , "c5" : "00428"
+ , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#428"
  , "c1" : " char "
  , "c2" : "strcpy(char*;char*)"
  , "c3" : "1"
@@ -76,8 +76,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00388"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#388"
+ , "c5" : "00435"
+ , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#435"
  , "c1" : " char "
  , "c2" : "stpcpy(char*;char*)"
  , "c3" : "1"
@@ -85,8 +85,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00396"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#396"
+ , "c5" : "00443"
+ , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#443"
  , "c1" : " char "
  , "c2" : "strncpy(char*;char*;size_t)"
  , "c3" : "1"
@@ -94,8 +94,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00406"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#406"
+ , "c5" : "00453"
+ , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#453"
  , "c1" : " char "
  , "c2" : "stpncpy(char*;char*;size_t)"
  , "c3" : "1"
@@ -103,8 +103,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00413"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#413"
+ , "c5" : "00460"
+ , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#460"
  , "c1" : " char "
  , "c2" : "strcat(char*;char*)"
  , "c3" : "1"
@@ -112,8 +112,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00420"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#420"
+ , "c5" : "00467"
+ , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#467"
  , "c1" : " char "
  , "c2" : "strncat(char*;char*;size_t)"
  , "c3" : "1"
@@ -121,8 +121,26 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00558"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#558"
+ , "c5" : "00482"
+ , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#482"
+ , "c1" : "size_t"
+ , "c2" : "strlcpy(char*;char*;size_t)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00499"
+ , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#499"
+ , "c1" : "size_t"
+ , "c2" : "strlcat(char*;char*;size_t)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00640"
+ , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#640"
  , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "atoi(char*)"
  , "c3" : "1"
@@ -130,8 +148,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00563"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#563"
+ , "c5" : "00645"
+ , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#645"
  , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "atol(char*)"
  , "c3" : "1"
@@ -139,8 +157,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00570"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#570"
+ , "c5" : "00652"
+ , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#652"
  , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "atoll(char*)"
  , "c3" : "1"
@@ -148,8 +166,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00870"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#870"
+ , "c5" : "00952"
+ , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#952"
  , "c1" : "__uint16_t"
  , "c2" : "__bswap_16(__uint16_t)"
  , "c3" : "1"
@@ -157,8 +175,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00885"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#885"
+ , "c5" : "00967"
+ , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#967"
  , "c1" : "__uint32_t"
  , "c2" : "__bswap_32(__uint32_t)"
  , "c3" : "1"
@@ -166,8 +184,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00895"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#895"
+ , "c5" : "00977"
+ , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#977"
  , "c1" : "__uint64_t"
  , "c2" : "__bswap_64(__uint64_t)"
  , "c3" : "1"
@@ -175,8 +193,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00907"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#907"
+ , "c5" : "00989"
+ , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#989"
  , "c1" : "__uint16_t"
  , "c2" : "__uint16_identity(__uint16_t)"
  , "c3" : "1"
@@ -184,8 +202,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00913"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#913"
+ , "c5" : "00995"
+ , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#995"
  , "c1" : "__uint32_t"
  , "c2" : "__uint32_identity(__uint32_t)"
  , "c3" : "1"
@@ -193,8 +211,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00919"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#919"
+ , "c5" : "01001"
+ , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1001"
  , "c1" : "__uint64_t"
  , "c2" : "__uint64_identity(__uint64_t)"
  , "c3" : "1"
@@ -202,8 +220,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01587"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1587"
+ , "c5" : "01685"
+ , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1685"
  , "c1" : " void "
  , "c2" : "bsearch(void*;void*;size_t;size_t;__compar_fn_t)"
  , "c3" : "6"
@@ -251,8 +269,8 @@ var maDataBlocs = {
  , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
  , "c1" : "size_t"
  , "c2" : "mbstowcs(wchar_t*;char*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
+ , "c3" : "3"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -2603,1203 +2621,6 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "getchar(void)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "fgetc_unlocked(FILE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "getc_unlocked(FILE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "getchar_unlocked(void)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "putchar(int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "fputc_unlocked(int;FILE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "putc_unlocked(int;FILE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "putchar_unlocked(int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "feof_unlocked(FILE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "ferror_unlocked(FILE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "sprintf(char*;char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "vsprintf(char*;char*;__gnuc_va_list)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "snprintf(char*;size_t;char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "vsnprintf(char*;size_t;char*;__gnuc_va_list)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "fprintf(FILE*;char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "printf(char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "vprintf(char*;__gnuc_va_list)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "vfprintf(FILE*;char*;__gnuc_va_list)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "dprintf(int;char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "vdprintf(int;char*;__gnuc_va_list)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " char "
- , "c2" : "fgets(char*;int;FILE*)"
- , "c3" : "3"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "size_t"
- , "c2" : "fread(void*;size_t;size_t;FILE*)"
- , "c3" : "3"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "size_t"
- , "c2" : "fread_unlocked(void*;size_t;size_t;FILE*)"
- , "c3" : "7"
- , "c4" : "13"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " void "
- , "c2" : "ossl_check_void_type(void*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_void_sk_type(structstack_st_void*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_void_sk_type(structstack_st_void*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_void_compfunc_type(sk_void_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_void_copyfunc_type(sk_void_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_void_freefunc_type(sk_void_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "pthread_equal(pthread_t;pthread_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "BIO"
- , "c2" : "ossl_check_BIO_type(BIO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_BIO_sk_type(structstack_st_BIO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_BIO_sk_type(structstack_st_BIO*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_BIO_compfunc_type(sk_BIO_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_BIO_copyfunc_type(sk_BIO_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_BIO_freefunc_type(sk_BIO_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "X509_ALGOR"
- , "c2" : "ossl_check_X509_ALGOR_type(X509_ALGOR*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_X509_ALGOR_sk_type(structstack_st_X509_ALGOR*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_X509_ALGOR_sk_type(structstack_st_X509_ALGOR*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_X509_ALGOR_compfunc_type(sk_X509_ALGOR_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_X509_ALGOR_copyfunc_type(sk_X509_ALGOR_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_X509_ALGOR_freefunc_type(sk_X509_ALGOR_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "ASN1_STRING_TABLE"
- , "c2" : "ossl_check_ASN1_STRING_TABLE_type(ASN1_STRING_TABLE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_ASN1_STRING_TABLE_sk_type(structstack_st_ASN1_STRING_TABLE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_ASN1_STRING_TABLE_sk_type(structstack_st_ASN1_STRING_TABLE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_ASN1_STRING_TABLE_compfunc_type(sk_ASN1_STRING_TABLE_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_ASN1_STRING_TABLE_copyfunc_type(sk_ASN1_STRING_TABLE_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_ASN1_STRING_TABLE_freefunc_type(sk_ASN1_STRING_TABLE_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "ASN1_TYPE"
- , "c2" : "ossl_check_ASN1_TYPE_type(ASN1_TYPE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_ASN1_TYPE_sk_type(structstack_st_ASN1_TYPE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_ASN1_TYPE_sk_type(structstack_st_ASN1_TYPE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_ASN1_TYPE_compfunc_type(sk_ASN1_TYPE_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_ASN1_TYPE_copyfunc_type(sk_ASN1_TYPE_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_ASN1_TYPE_freefunc_type(sk_ASN1_TYPE_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "ASN1_OBJECT"
- , "c2" : "ossl_check_ASN1_OBJECT_type(ASN1_OBJECT*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_ASN1_OBJECT_sk_type(structstack_st_ASN1_OBJECT*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_ASN1_OBJECT_sk_type(structstack_st_ASN1_OBJECT*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_ASN1_OBJECT_compfunc_type(sk_ASN1_OBJECT_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_ASN1_OBJECT_copyfunc_type(sk_ASN1_OBJECT_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_ASN1_OBJECT_freefunc_type(sk_ASN1_OBJECT_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "ASN1_INTEGER"
- , "c2" : "ossl_check_ASN1_INTEGER_type(ASN1_INTEGER*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_ASN1_INTEGER_sk_type(structstack_st_ASN1_INTEGER*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_ASN1_INTEGER_sk_type(structstack_st_ASN1_INTEGER*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_ASN1_INTEGER_compfunc_type(sk_ASN1_INTEGER_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_ASN1_INTEGER_copyfunc_type(sk_ASN1_INTEGER_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_ASN1_INTEGER_freefunc_type(sk_ASN1_INTEGER_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "ASN1_UTF8STRING"
- , "c2" : "ossl_check_ASN1_UTF8STRING_type(ASN1_UTF8STRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_ASN1_UTF8STRING_sk_type(structstack_st_ASN1_UTF8STRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_ASN1_UTF8STRING_sk_type(structstack_st_ASN1_UTF8STRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_ASN1_UTF8STRING_compfunc_type(sk_ASN1_UTF8STRING_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_ASN1_UTF8STRING_copyfunc_type(sk_ASN1_UTF8STRING_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_ASN1_UTF8STRING_freefunc_type(sk_ASN1_UTF8STRING_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "ASN1_GENERALSTRING"
- , "c2" : "ossl_check_ASN1_GENERALSTRING_type(ASN1_GENERALSTRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_ASN1_GENERALSTRING_sk_type(structstack_st_ASN1_GENERALSTRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_ASN1_GENERALSTRING_sk_type(structstack_st_ASN1_GENERALSTRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_ASN1_GENERALSTRING_compfunc_type(sk_ASN1_GENERALSTRING_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_ASN1_GENERALSTRING_copyfunc_type(sk_ASN1_GENERALSTRING_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_ASN1_GENERALSTRING_freefunc_type(sk_ASN1_GENERALSTRING_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " unsigned  long "
- , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "lh_OPENSSL_STRING_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " void "
- , "c2" : "lh_OPENSSL_STRING_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " void "
- , "c2" : "lh_OPENSSL_STRING_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_STRING"
- , "c2" : "ossl_check_OPENSSL_STRING_lh_plain_type(OPENSSL_STRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_STRING"
- , "c2" : "ossl_check_const_OPENSSL_STRING_lh_plain_type(OPENSSL_STRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_LHASH"
- , "c2" : "ossl_check_const_OPENSSL_STRING_lh_type(structlhash_st_OPENSSL_STRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_LHASH"
- , "c2" : "ossl_check_OPENSSL_STRING_lh_type(structlhash_st_OPENSSL_STRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_LH_COMPFUNC"
- , "c2" : "ossl_check_OPENSSL_STRING_lh_compfunc_type(lh_OPENSSL_STRING_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_LH_HASHFUNC"
- , "c2" : "ossl_check_OPENSSL_STRING_lh_hashfunc_type(lh_OPENSSL_STRING_hashfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_LH_DOALL_FUNC"
- , "c2" : "ossl_check_OPENSSL_STRING_lh_doallfunc_type(lh_OPENSSL_STRING_doallfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " unsigned  long "
- , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "lh_OPENSSL_CSTRING_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " void "
- , "c2" : "lh_OPENSSL_CSTRING_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " void "
- , "c2" : "lh_OPENSSL_CSTRING_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_CSTRING"
- , "c2" : "ossl_check_OPENSSL_CSTRING_lh_plain_type(OPENSSL_CSTRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_CSTRING"
- , "c2" : "ossl_check_const_OPENSSL_CSTRING_lh_plain_type(OPENSSL_CSTRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_LHASH"
- , "c2" : "ossl_check_const_OPENSSL_CSTRING_lh_type(structlhash_st_OPENSSL_CSTRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_LHASH"
- , "c2" : "ossl_check_OPENSSL_CSTRING_lh_type(structlhash_st_OPENSSL_CSTRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_LH_COMPFUNC"
- , "c2" : "ossl_check_OPENSSL_CSTRING_lh_compfunc_type(lh_OPENSSL_CSTRING_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_LH_HASHFUNC"
- , "c2" : "ossl_check_OPENSSL_CSTRING_lh_hashfunc_type(lh_OPENSSL_CSTRING_hashfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_LH_DOALL_FUNC"
- , "c2" : "ossl_check_OPENSSL_CSTRING_lh_doallfunc_type(lh_OPENSSL_CSTRING_doallfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "ERR_GET_LIB(unsignedlong)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "ERR_GET_REASON(unsignedlong)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " unsigned  long "
- , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "lh_ERR_STRING_DATA_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " void "
- , "c2" : "lh_ERR_STRING_DATA_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " void "
- , "c2" : "lh_ERR_STRING_DATA_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "ERR_STRING_DATA"
- , "c2" : "ossl_check_ERR_STRING_DATA_lh_plain_type(ERR_STRING_DATA*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "ERR_STRING_DATA"
- , "c2" : "ossl_check_const_ERR_STRING_DATA_lh_plain_type(ERR_STRING_DATA*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_LHASH"
- , "c2" : "ossl_check_const_ERR_STRING_DATA_lh_type(structlhash_st_ERR_STRING_DATA*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_LHASH"
- , "c2" : "ossl_check_ERR_STRING_DATA_lh_type(structlhash_st_ERR_STRING_DATA*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_LH_COMPFUNC"
- , "c2" : "ossl_check_ERR_STRING_DATA_lh_compfunc_type(lh_ERR_STRING_DATA_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_LH_HASHFUNC"
- , "c2" : "ossl_check_ERR_STRING_DATA_lh_hashfunc_type(lh_ERR_STRING_DATA_hashfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OPENSSL_LH_DOALL_FUNC"
- , "c2" : "ossl_check_ERR_STRING_DATA_lh_doallfunc_type(lh_ERR_STRING_DATA_doallfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " void "
- , "c2" : "test_rng_new(void*;void*;OSSL_DISPATCH*)"
- , "c3" : "2"
- , "c4" : "7"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " void "
- , "c2" : "test_rng_free(void*)"
- , "c3" : "2"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "test_rng_instantiate(void*;unsignedint;int;unsignedchar*;size_t;OSSL_PARAM)"
- , "c3" : "2"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "test_rng_uninstantiate(void*)"
- , "c3" : "1"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " unsigned  char "
- , "c2" : "gen_byte(PROV_TEST_RNG*)"
- , "c3" : "1"
- , "c4" : "7"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "test_rng_generate(void*;unsignedchar*;size_t;unsignedint;int;unsignedchar*;size_t)"
- , "c3" : "6"
- , "c4" : "10"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "test_rng_reseed(void*;int;unsignedchar*;size_t;unsignedchar*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "size_t"
- , "c2" : "test_rng_nonce(void*;unsignedchar*;unsignedint;size_t;size_t)"
- , "c3" : "6"
- , "c4" : "10"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "test_rng_get_ctx_params(void*;OSSL_PARAM)"
- , "c3" : "5"
- , "c4" : "11"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OSSL_PARAM"
- , "c2" : "test_rng_gettable_ctx_params(void*;void*)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "test_rng_set_ctx_params(void*;OSSL_PARAM)"
- , "c3" : "9"
- , "c4" : "24"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "OSSL_PARAM"
- , "c2" : "test_rng_settable_ctx_params(void*;void*)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "test_rng_verify_zeroization(void*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : "size_t"
- , "c2" : "test_rng_get_seed(void*;unsignedchar*;int;size_t;size_t;int;unsignedchar*;size_t)"
- , "c3" : "1"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "test_rng_enable_locking(void*)"
- , "c3" : "3"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " int "
- , "c2" : "test_rng_lock(void*)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/rands/test_rng.c.html#1"
- , "c1" : " void "
- , "c2" : "test_rng_unlock(void*)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
 ] 
 }} 
 ]
@@ -3841,9 +2662,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "2"
+ , "c2" : "QC-CPP999999"
+ , "c3" : "Syntax error in source code"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -3854,96 +2675,54 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-CPP000018"
- , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "4"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01592"
- , "c1link" : "./qc/providers/implementations/rands/test_rng.c.html#1592"
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/rands/test_rng.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/rands/test_rng.c near following tokens __attribute__ ( ( __nonnull__ ( 1 ) ) ) ; extern void perror ( const char CPP_POINTEUR __s ) __attribute__ ( "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00486"
+ , "c1link" : "./qc/providers/implementations/rands/test_rng.c.html#486"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00486] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00503"
+ , "c1link" : "./qc/providers/implementations/rands/test_rng.c.html#503"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00503] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01690"
+ , "c1link" : "./qc/providers/implementations/rands/test_rng.c.html#1690"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01592] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[01690] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/providers/implementations/rands/test_rng.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[00001] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/providers/implementations/rands/test_rng.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression 2&gt;1 is invariable"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/rands/test_rng.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[00001] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/rands/test_rng.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00001] The pointer t is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/rands/test_rng.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00001] The expression t-&gt;generate applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/rands/test_rng.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00001] The expression t-&gt;generate applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/rands/test_rng.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00001] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/rands/test_rng.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00001] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/rands/test_rng.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/rands/test_rng.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[00001] The expression 1 is invariable, always true"
 }} 
 ]
 , 

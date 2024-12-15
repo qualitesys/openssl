@@ -13,8 +13,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00347"
- , "c5link" : "././qc/ssl/ssl_err_legacy.c.html#347"
+ , "c5" : "00348"
+ , "c5link" : "././qc/ssl/ssl_err_legacy.c.html#348"
  , "c1" : " int "
  , "c2" : "ERR_load_SSL_strings(void)"
  , "c3" : "1"

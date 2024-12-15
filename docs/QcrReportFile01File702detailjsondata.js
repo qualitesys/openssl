@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/siphash/siphash.c.html" 
- , "texte" : "File crypto/siphash/siphash.c 24 rule violations " 
+ , "texte" : "File crypto/siphash/siphash.c 6 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -94,8 +94,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01194"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1194"
+ , "c5" : "01210"
+ , "c5link" : "././qc/crypto/siphash/siphash.c.html#1210"
  , "c1" : " void "
  , "c2" : "bsearch(void*;void*;size_t;size_t;__compar_fn_t)"
  , "c3" : "6"
@@ -143,8 +143,8 @@ var maDataBlocs = {
  , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
  , "c1" : "size_t"
  , "c2" : "mbstowcs(wchar_t*;char*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
+ , "c3" : "3"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -267,458 +267,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " int "
- , "c2" : "getchar(void)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " int "
- , "c2" : "fgetc_unlocked(FILE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " int "
- , "c2" : "getc_unlocked(FILE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " int "
- , "c2" : "getchar_unlocked(void)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " int "
- , "c2" : "putchar(int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " int "
- , "c2" : "fputc_unlocked(int;FILE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " int "
- , "c2" : "putc_unlocked(int;FILE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " int "
- , "c2" : "putchar_unlocked(int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "feof_unlocked(FILE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "ferror_unlocked(FILE*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "sprintf(char*;char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "vsprintf(char*;char*;__gnuc_va_list)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "snprintf(char*;size_t;char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "vsnprintf(char*;size_t;char*;__gnuc_va_list)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " int "
- , "c2" : "fprintf(FILE*;char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " int "
- , "c2" : "printf(char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " int "
- , "c2" : "vprintf(char*;__gnuc_va_list)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " int "
- , "c2" : "vfprintf(FILE*;char*;__gnuc_va_list)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " int "
- , "c2" : "dprintf(int;char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " int "
- , "c2" : "vdprintf(int;char*;__gnuc_va_list)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " char "
- , "c2" : "fgets(char*;int;FILE*)"
- , "c3" : "3"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
  , "c1" : "size_t"
- , "c2" : "fread(void*;size_t;size_t;FILE*)"
- , "c3" : "3"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : "size_t"
- , "c2" : "fread_unlocked(void*;size_t;size_t;FILE*)"
- , "c3" : "7"
- , "c4" : "13"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " char "
- , "c2" : "ossl_check_OPENSSL_STRING_type(char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_OPENSSL_STRING_sk_type(structstack_st_OPENSSL_STRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_OPENSSL_STRING_sk_type(structstack_st_OPENSSL_STRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_OPENSSL_STRING_compfunc_type(sk_OPENSSL_STRING_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_OPENSSL_STRING_copyfunc_type(sk_OPENSSL_STRING_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_OPENSSL_STRING_freefunc_type(sk_OPENSSL_STRING_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " char "
- , "c2" : "ossl_check_OPENSSL_CSTRING_type(char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_OPENSSL_CSTRING_sk_type(structstack_st_OPENSSL_CSTRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_OPENSSL_CSTRING_sk_type(structstack_st_OPENSSL_CSTRING*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_OPENSSL_CSTRING_compfunc_type(sk_OPENSSL_CSTRING_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_OPENSSL_CSTRING_copyfunc_type(sk_OPENSSL_CSTRING_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_OPENSSL_CSTRING_freefunc_type(sk_OPENSSL_CSTRING_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " void "
- , "c2" : "ossl_check_OPENSSL_BLOCK_type(void*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_OPENSSL_BLOCK_sk_type(structstack_st_OPENSSL_BLOCK*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_OPENSSL_BLOCK_compfunc_type(sk_OPENSSL_BLOCK_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_OPENSSL_BLOCK_copyfunc_type(sk_OPENSSL_BLOCK_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_OPENSSL_BLOCK_freefunc_type(sk_OPENSSL_BLOCK_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " void "
- , "c2" : "ossl_check_void_type(void*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_const_void_sk_type(structstack_st_void*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : "OPENSSL_STACK"
- , "c2" : "ossl_check_void_sk_type(structstack_st_void*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : "OPENSSL_sk_compfunc"
- , "c2" : "ossl_check_void_compfunc_type(sk_void_compfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : "OPENSSL_sk_copyfunc"
- , "c2" : "ossl_check_void_copyfunc_type(sk_void_copyfunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : "OPENSSL_sk_freefunc"
- , "c2" : "ossl_check_void_freefunc_type(sk_void_freefunc)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "pthread_equal(pthread_t;pthread_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : "size_t"
- , "c2" : "SipHash_ctx_size(void)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : "size_t"
- , "c2" : "SipHash_hash_size(SIPHASH*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : "size_t"
- , "c2" : "siphash_adjust_hash_size(size_t)"
+ , "c2" : "strlcpy(char*;char*;size_t)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -726,37 +276,10 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " int "
- , "c2" : "SipHash_set_hash_size(SIPHASH*;size_t)"
- , "c3" : "3"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " int "
- , "c2" : "SipHash_Init(SIPHASH*;unsignedchar*;int;int)"
- , "c3" : "4"
- , "c4" : "15"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " void "
- , "c2" : "SipHash_Update(SIPHASH*;unsignedchar*;size_t)"
- , "c3" : "11"
- , "c4" : "66"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
- , "c1" : " int "
- , "c2" : "SipHash_Final(SIPHASH*;unsignedchar*;size_t)"
- , "c3" : "22"
- , "c4" : "97"
+ , "c1" : "size_t"
+ , "c2" : "strlcat(char*;char*;size_t)"
+ , "c3" : "2"
+ , "c4" : "2"
 }} 
 ] 
 }} 
@@ -799,214 +322,67 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP000006"
- , "c3" : "Risk of infinite while loop"
- , "c4" : "5"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "2"
+ , "c2" : "QC-CPP999999"
+ , "c3" : "Syntax error in source code"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "7"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-CPP000018"
- , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-CPPCWE484"
- , "c3" : "Omitted Break Statement in Switch"
- , "c4" : "7"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01199"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#1199"
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/siphash/siphash.c near following tokens __attribute__ ( ( __nonnull__ ( 1 ) ) ) ; extern void perror ( const char CPP_POINTEUR __s ) __attribute__ ( "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01215"
+ , "c1link" : "./qc/crypto/siphash/siphash.c.html#1215"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01199] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[01215] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/crypto/siphash/siphash.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[00001] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/crypto/siphash/siphash.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[00001] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/crypto/siphash/siphash.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000018[00001] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00001] The pointer end is declared but not initialized"
+ , "c3" : "QC-CPP000012[00001] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/crypto/siphash/siphash.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00001] The expression ctx-&gt;len applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00001] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00001] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00001] The expression left applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[00001] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[00001] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[00001] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[00001] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[00001] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[00001] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-CPPCWE484[00001] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00001] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00001] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00001] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/siphash/siphash.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[00001] The expression 1 is invariable, always true"
 }} 
 ]
 , 

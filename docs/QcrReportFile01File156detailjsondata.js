@@ -13,8 +13,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00363"
- , "c5link" : "././qc/crypto/bf/bf_ecb.c.html#363"
+ , "c5" : "00364"
+ , "c5link" : "././qc/crypto/bf/bf_ecb.c.html#364"
  , "c1" : " char "
  , "c2" : "BF_options(void)"
  , "c3" : "1"
@@ -22,8 +22,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00368"
- , "c5link" : "././qc/crypto/bf/bf_ecb.c.html#368"
+ , "c5" : "00369"
+ , "c5link" : "././qc/crypto/bf/bf_ecb.c.html#369"
  , "c1" : " void "
  , "c2" : "BF_ecb_encrypt(unsignedchar*;unsignedchar*;BF_KEY*;int)"
  , "c3" : "3"
@@ -85,122 +85,94 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00373"
- , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#373"
+ , "c1" : "00374"
+ , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#374"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00373] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[00374] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00373"
- , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#373"
+ , "c1" : "00374"
+ , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#374"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00373] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[00374] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00373"
- , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#373"
+ , "c1" : "00374"
+ , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#374"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00373] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[00374] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00373"
- , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#373"
+ , "c1" : "00374"
+ , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#374"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00373] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[00374] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00375"
- , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#375"
+ , "c1" : "00376"
+ , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#376"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00375] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[00376] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00375"
- , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#375"
+ , "c1" : "00376"
+ , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#376"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00375] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[00376] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00375"
- , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#375"
+ , "c1" : "00376"
+ , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#376"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00375] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[00376] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00375"
- , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#375"
+ , "c1" : "00376"
+ , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#376"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00375] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[00376] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00377"
- , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#377"
+ , "c1" : "00378"
+ , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#378"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00377] The expression encrypt applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[00378] The expression encrypt applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00382"
- , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#382"
+ , "c1" : "00383"
+ , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#383"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00382] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[00383] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00382"
- , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#382"
+ , "c1" : "00383"
+ , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#383"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00382] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[00383] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00382"
- , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#382"
+ , "c1" : "00383"
+ , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#383"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00382] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[00383] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00382"
- , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#382"
+ , "c1" : "00383"
+ , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#383"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00382] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00384"
- , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#384"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00384] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00384"
- , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#384"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00384] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00384"
- , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#384"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00384] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00384"
- , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#384"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00384] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[00383] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -215,6 +187,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#385"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[00385] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00385"
+ , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#385"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00385] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00385"
+ , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#385"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00385] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00386"
+ , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#386"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00386] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00386"
+ , "c1link" : "./qc/crypto/bf/bf_ecb.c.html#386"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00386] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 , 

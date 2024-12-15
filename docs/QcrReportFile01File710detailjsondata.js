@@ -13,8 +13,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00541"
- , "c5link" : "././qc/crypto/sm4/sm4.c.html#541"
+ , "c5" : "00542"
+ , "c5link" : "././qc/crypto/sm4/sm4.c.html#542"
  , "c1" : "uint32_t"
  , "c2" : "rotl(uint32_t;uint8_t)"
  , "c3" : "1"
@@ -22,8 +22,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00546"
- , "c5link" : "././qc/crypto/sm4/sm4.c.html#546"
+ , "c5" : "00547"
+ , "c5link" : "././qc/crypto/sm4/sm4.c.html#547"
  , "c1" : "uint32_t"
  , "c2" : "load_u32_be(uint8_t*;uint32_t)"
  , "c3" : "1"
@@ -31,8 +31,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00554"
- , "c5link" : "././qc/crypto/sm4/sm4.c.html#554"
+ , "c5" : "00555"
+ , "c5link" : "././qc/crypto/sm4/sm4.c.html#555"
  , "c1" : " void "
  , "c2" : "store_u32_be(uint32_t;uint8_t*)"
  , "c3" : "1"
@@ -40,8 +40,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00562"
- , "c5link" : "././qc/crypto/sm4/sm4.c.html#562"
+ , "c5" : "00563"
+ , "c5link" : "././qc/crypto/sm4/sm4.c.html#563"
  , "c1" : "uint32_t"
  , "c2" : "SM4_T_non_lin_sub(uint32_t)"
  , "c3" : "1"
@@ -49,8 +49,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00574"
- , "c5link" : "././qc/crypto/sm4/sm4.c.html#574"
+ , "c5" : "00575"
+ , "c5link" : "././qc/crypto/sm4/sm4.c.html#575"
  , "c1" : "uint32_t"
  , "c2" : "SM4_T_slow(uint32_t)"
  , "c3" : "1"
@@ -58,8 +58,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00584"
- , "c5link" : "././qc/crypto/sm4/sm4.c.html#584"
+ , "c5" : "00585"
+ , "c5link" : "././qc/crypto/sm4/sm4.c.html#585"
  , "c1" : "uint32_t"
  , "c2" : "SM4_T(uint32_t)"
  , "c3" : "1"
@@ -67,8 +67,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00592"
- , "c5link" : "././qc/crypto/sm4/sm4.c.html#592"
+ , "c5" : "00593"
+ , "c5link" : "././qc/crypto/sm4/sm4.c.html#593"
  , "c1" : "uint32_t"
  , "c2" : "SM4_key_sub(uint32_t)"
  , "c3" : "1"
@@ -76,8 +76,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00599"
- , "c5link" : "././qc/crypto/sm4/sm4.c.html#599"
+ , "c5" : "00600"
+ , "c5link" : "././qc/crypto/sm4/sm4.c.html#600"
  , "c1" : " int "
  , "c2" : "ossl_sm4_set_key(uint8_t*;SM4_KEY*)"
  , "c3" : "2"
@@ -85,8 +85,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00643"
- , "c5link" : "././qc/crypto/sm4/sm4.c.html#643"
+ , "c5" : "00644"
+ , "c5link" : "././qc/crypto/sm4/sm4.c.html#644"
  , "c1" : " void "
  , "c2" : "ossl_sm4_encrypt(uint8_t*;uint8_t*;SM4_KEY*)"
  , "c3" : "17"
@@ -94,8 +94,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00669"
- , "c5link" : "././qc/crypto/sm4/sm4.c.html#669"
+ , "c5" : "00670"
+ , "c5link" : "././qc/crypto/sm4/sm4.c.html#670"
  , "c1" : " void "
  , "c2" : "ossl_sm4_decrypt(uint8_t*;uint8_t*;SM4_KEY*)"
  , "c3" : "17"
@@ -156,20 +156,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00654"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#654"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00654] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00654"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#654"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00654] The expression 0 is invariable, always false"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00655"
  , "c1link" : "./qc/crypto/sm4/sm4.c.html#655"
@@ -269,17 +255,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00676"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#676"
+ , "c1" : "00662"
+ , "c1link" : "./qc/crypto/sm4/sm4.c.html#662"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000006[00676] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+ , "c3" : "QC-CPP000006[00662] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00676"
- , "c1link" : "./qc/crypto/sm4/sm4.c.html#676"
+ , "c1" : "00662"
+ , "c1link" : "./qc/crypto/sm4/sm4.c.html#662"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00676] The expression 0 is invariable, always false"
+ , "c3" : "QC-CPP000012[00662] The expression 0 is invariable, always false"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -378,6 +364,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sm4/sm4.c.html#683"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00683] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00684"
+ , "c1link" : "./qc/crypto/sm4/sm4.c.html#684"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000006[00684] The condition of do while loop is always false. The loop body is run once only do{} while (0);"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00684"
+ , "c1link" : "./qc/crypto/sm4/sm4.c.html#684"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00684] The expression 0 is invariable, always false"
 }} 
 ]
 , 

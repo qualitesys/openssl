@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/sha/sha3.c.html" 
- , "texte" : "File crypto/sha/sha3.c 5 rule violations " 
+ , "texte" : "File crypto/sha/sha3.c 7 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -13,8 +13,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "dummy" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00298"
- , "c5link" : "././qc/crypto/sha/sha3.c.html#298"
+ , "c5" : "00332"
+ , "c5link" : "././qc/crypto/sha/sha3.c.html#332"
  , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "bcopy(void*;void*;size_t)"
  , "c3" : "1"
@@ -22,8 +22,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00305"
- , "c5link" : "././qc/crypto/sha/sha3.c.html#305"
+ , "c5" : "00339"
+ , "c5link" : "././qc/crypto/sha/sha3.c.html#339"
  , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "bzero(void*;size_t)"
  , "c3" : "1"
@@ -31,8 +31,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00346"
- , "c5link" : "././qc/crypto/sha/sha3.c.html#346"
+ , "c5" : "00393"
+ , "c5link" : "././qc/crypto/sha/sha3.c.html#393"
  , "c1" : " void "
  , "c2" : "memcpy(void*;void*;size_t)"
  , "c3" : "1"
@@ -40,8 +40,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00354"
- , "c5link" : "././qc/crypto/sha/sha3.c.html#354"
+ , "c5" : "00401"
+ , "c5link" : "././qc/crypto/sha/sha3.c.html#401"
  , "c1" : " void "
  , "c2" : "memmove(void*;void*;size_t)"
  , "c3" : "1"
@@ -49,8 +49,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00361"
- , "c5link" : "././qc/crypto/sha/sha3.c.html#361"
+ , "c5" : "00408"
+ , "c5link" : "././qc/crypto/sha/sha3.c.html#408"
  , "c1" : " void "
  , "c2" : "memset(void*;int;size_t)"
  , "c3" : "1"
@@ -58,8 +58,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00374"
- , "c5link" : "././qc/crypto/sha/sha3.c.html#374"
+ , "c5" : "00421"
+ , "c5link" : "././qc/crypto/sha/sha3.c.html#421"
  , "c1" : " void  __attribute__ (( __nothrow__ ,__leaf__))"
  , "c2" : "explicit_bzero(void*;size_t)"
  , "c3" : "1"
@@ -67,8 +67,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00381"
- , "c5link" : "././qc/crypto/sha/sha3.c.html#381"
+ , "c5" : "00428"
+ , "c5link" : "././qc/crypto/sha/sha3.c.html#428"
  , "c1" : " char "
  , "c2" : "strcpy(char*;char*)"
  , "c3" : "1"
@@ -76,8 +76,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00388"
- , "c5link" : "././qc/crypto/sha/sha3.c.html#388"
+ , "c5" : "00435"
+ , "c5link" : "././qc/crypto/sha/sha3.c.html#435"
  , "c1" : " char "
  , "c2" : "stpcpy(char*;char*)"
  , "c3" : "1"
@@ -85,8 +85,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00396"
- , "c5link" : "././qc/crypto/sha/sha3.c.html#396"
+ , "c5" : "00443"
+ , "c5link" : "././qc/crypto/sha/sha3.c.html#443"
  , "c1" : " char "
  , "c2" : "strncpy(char*;char*;size_t)"
  , "c3" : "1"
@@ -94,8 +94,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00406"
- , "c5link" : "././qc/crypto/sha/sha3.c.html#406"
+ , "c5" : "00453"
+ , "c5link" : "././qc/crypto/sha/sha3.c.html#453"
  , "c1" : " char "
  , "c2" : "stpncpy(char*;char*;size_t)"
  , "c3" : "1"
@@ -103,8 +103,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00413"
- , "c5link" : "././qc/crypto/sha/sha3.c.html#413"
+ , "c5" : "00460"
+ , "c5link" : "././qc/crypto/sha/sha3.c.html#460"
  , "c1" : " char "
  , "c2" : "strcat(char*;char*)"
  , "c3" : "1"
@@ -112,8 +112,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00420"
- , "c5link" : "././qc/crypto/sha/sha3.c.html#420"
+ , "c5" : "00467"
+ , "c5link" : "././qc/crypto/sha/sha3.c.html#467"
  , "c1" : " char "
  , "c2" : "strncat(char*;char*;size_t)"
  , "c3" : "1"
@@ -121,8 +121,26 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00782"
- , "c5link" : "././qc/crypto/sha/sha3.c.html#782"
+ , "c5" : "00482"
+ , "c5link" : "././qc/crypto/sha/sha3.c.html#482"
+ , "c1" : "size_t"
+ , "c2" : "strlcpy(char*;char*;size_t)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00499"
+ , "c5link" : "././qc/crypto/sha/sha3.c.html#499"
+ , "c1" : "size_t"
+ , "c2" : "strlcat(char*;char*;size_t)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00865"
+ , "c5link" : "././qc/crypto/sha/sha3.c.html#865"
  , "c1" : " void "
  , "c2" : "ossl_sha3_reset(KECCAK1600_CTX*)"
  , "c3" : "1"
@@ -130,8 +148,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00789"
- , "c5link" : "././qc/crypto/sha/sha3.c.html#789"
+ , "c5" : "00872"
+ , "c5link" : "././qc/crypto/sha/sha3.c.html#872"
  , "c1" : " int "
  , "c2" : "ossl_sha3_init(KECCAK1600_CTX*;unsignedchar;size_t)"
  , "c3" : "2"
@@ -139,8 +157,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00804"
- , "c5link" : "././qc/crypto/sha/sha3.c.html#804"
+ , "c5" : "00887"
+ , "c5link" : "././qc/crypto/sha/sha3.c.html#887"
  , "c1" : " int "
  , "c2" : "ossl_keccak_kmac_init(KECCAK1600_CTX*;unsignedchar;size_t)"
  , "c3" : "2"
@@ -148,8 +166,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00813"
- , "c5link" : "././qc/crypto/sha/sha3.c.html#813"
+ , "c5" : "00896"
+ , "c5link" : "././qc/crypto/sha/sha3.c.html#896"
  , "c1" : " int "
  , "c2" : "ossl_sha3_update(KECCAK1600_CTX*;void*;size_t)"
  , "c3" : "8"
@@ -157,8 +175,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00864"
- , "c5link" : "././qc/crypto/sha/sha3.c.html#864"
+ , "c5" : "00947"
+ , "c5link" : "././qc/crypto/sha/sha3.c.html#947"
  , "c1" : " int "
  , "c2" : "ossl_sha3_final(KECCAK1600_CTX*;unsignedchar*;size_t)"
  , "c3" : "3"
@@ -166,8 +184,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00891"
- , "c5link" : "././qc/crypto/sha/sha3.c.html#891"
+ , "c5" : "00974"
+ , "c5link" : "././qc/crypto/sha/sha3.c.html#974"
  , "c1" : " int "
  , "c2" : "ossl_sha3_squeeze(KECCAK1600_CTX*;unsignedchar*;size_t)"
  , "c3" : "10"
@@ -227,6 +245,13 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000012"
+ , "c3" : "The condition expression is invariable, always true or false"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-CPPCWE481"
  , "c3" : "Assigning instead of comparing"
@@ -236,38 +261,52 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00808"
- , "c1link" : "./qc/crypto/sha/sha3.c.html#808"
+ , "c1" : "00486"
+ , "c1link" : "./qc/crypto/sha/sha3.c.html#486"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00808] The expression ret applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000012[00486] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00815"
- , "c1link" : "./qc/crypto/sha/sha3.c.html#815"
+ , "c1" : "00503"
+ , "c1link" : "./qc/crypto/sha/sha3.c.html#503"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[00815] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+ , "c3" : "QC-CPP000012[00503] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00826"
- , "c1link" : "./qc/crypto/sha/sha3.c.html#826"
+ , "c1" : "00891"
+ , "c1link" : "./qc/crypto/sha/sha3.c.html#891"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00891] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00898"
+ , "c1link" : "./qc/crypto/sha/sha3.c.html#898"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[00898] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00909"
+ , "c1link" : "./qc/crypto/sha/sha3.c.html#909"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00826] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[00909] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00851"
- , "c1link" : "./qc/crypto/sha/sha3.c.html#851"
+ , "c1" : "00934"
+ , "c1link" : "./qc/crypto/sha/sha3.c.html#934"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00851] The expression rem applies to a single value or variable, might be ambiguous."
+ , "c3" : "QC-CPP000011[00934] The expression rem applies to a single value or variable, might be ambiguous."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00920"
- , "c1link" : "./qc/crypto/sha/sha3.c.html#920"
+ , "c1" : "01003"
+ , "c1link" : "./qc/crypto/sha/sha3.c.html#1003"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00920] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-CPPCWE481[01003] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ]
 , 

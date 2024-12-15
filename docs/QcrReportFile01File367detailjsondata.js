@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/curve448/curve448_tables.c.html" 
- , "texte" : "File crypto/ec/curve448/curve448_tables.c 7 rule violations " 
+ , "texte" : "File crypto/ec/curve448/curve448_tables.c 9 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -94,8 +94,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01200"
- , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1200"
+ , "c5" : "01216"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1216"
  , "c1" : " void "
  , "c2" : "bsearch(void*;void*;size_t;size_t;__compar_fn_t)"
  , "c3" : "6"
@@ -143,8 +143,8 @@ var maDataBlocs = {
  , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
  , "c1" : "size_t"
  , "c2" : "mbstowcs(wchar_t*;char*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
+ , "c3" : "3"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -262,6 +262,24 @@ var maDataBlocs = {
  , "c2" : "strncat(char*;char*;size_t)"
  , "c3" : "1"
  , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : "size_t"
+ , "c2" : "strlcpy(char*;char*;size_t)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : "size_t"
+ , "c2" : "strlcat(char*;char*;size_t)"
+ , "c3" : "2"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
@@ -824,7 +842,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "3"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -837,24 +855,38 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01205"
- , "c1link" : "./qc/crypto/ec/curve448/curve448_tables.c.html#1205"
+ , "c1" : "01221"
+ , "c1link" : "./qc/crypto/ec/curve448/curve448_tables.c.html#1221"
  , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01205] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP000014[01221] The pointer __p is declared but not initialized"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/crypto/ec/curve448/curve448_tables.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[00001] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/crypto/ec/curve448/curve448_tables.c.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression 2&gt;1 is invariable"
+ , "c3" : "QC-CPP000012[00001] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 1 is invariable, always true"
 }} 
 ,
 { "ligne" : {"" : ""
