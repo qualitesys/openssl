@@ -4,4 +4,6 @@ var datadependCallerContainsCla = { "lesdatas" : [
 ]
  , "lescycles" : [ 
 ]
+ , "lesclassesversclassecontenue" : [ 
+]
 } ;
