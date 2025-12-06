@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/curve25519.c.html" 
- , "texte" : "File crypto/ec/curve25519.c 6 rule violations " 
+ , "texte" : "File crypto/ec/curve25519.c 3 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -380,69 +380,6 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "02235"
- , "c5link" : "././qc/crypto/ec/curve25519.c.html#2235"
- , "c1" : " void "
- , "c2" : "bsearch(void*;void*;size_t;size_t;__compar_fn_t)"
- , "c3" : "6"
- , "c4" : "12"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/ec/curve25519.c.html#1"
- , "c1" : " double  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "atof(char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/ec/curve25519.c.html#1"
- , "c1" : " char "
- , "c2" : "realpath(char*;char*)"
- , "c3" : "3"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/ec/curve25519.c.html#1"
- , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "ptsname_r(int;char*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/ec/curve25519.c.html#1"
- , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "wctomb(char*;wchar_t)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/ec/curve25519.c.html#1"
- , "c1" : "size_t"
- , "c2" : "mbstowcs(wchar_t*;char*;size_t)"
- , "c3" : "3"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/ec/curve25519.c.html#1"
- , "c1" : "size_t"
- , "c2" : "wcstombs(char*;wchar_t*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
 ] 
 }} 
 ]
@@ -493,23 +430,16 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-CPP000014"
- , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/ec/curve25519.c.html#1"
+ , "c1" : "02068"
+ , "c1link" : "./qc/crypto/ec/curve25519.c.html#2068"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ec/curve25519.c near following tokens __attribute__ ( ( __nonnull__ ( 1 ) ) ) ; extern void perror ( const char CPP_POINTEUR __s ) __attribute__ ( "
+ , "c3" : "QC-CPP999999[02068] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ec/curve25519.c near following tokens __leaf__ ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR malloc ( size_t __size ) __attribute__ ( ( "
 }} 
 ,
 { "ligne" : {"" : ""
@@ -524,27 +454,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/curve25519.c.html#530"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00530] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02240"
- , "c1link" : "./qc/crypto/ec/curve25519.c.html#2240"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[02240] The pointer __p is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/ec/curve25519.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/ec/curve25519.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression 1 is invariable, always true"
 }} 
 ]
 , 

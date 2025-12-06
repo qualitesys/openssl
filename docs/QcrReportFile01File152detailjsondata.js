@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/async/async.c.html" 
- , "texte" : "File crypto/async/async.c 2 rule violations " 
+ , "texte" : "File crypto/async/async.c 1 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -92,24 +92,6 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "01207"
- , "c5link" : "././qc/crypto/async/async.c.html#1207"
- , "c1" : " void "
- , "c2" : "bsearch(void*;void*;size_t;size_t;__compar_fn_t)"
- , "c3" : "6"
- , "c4" : "12"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/async/async.c.html#1"
- , "c1" : " double  __attribute__ (( __nothrow__ ,__leaf__))"
- , "c2" : "atof(char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
 ] 
 }} 
 ]
@@ -155,28 +137,14 @@ var maDataBlocs = {
  , "c3" : "Syntax error in source code"
  , "c4" : "1"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-CPP000014"
- , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/async/async.c.html#1"
+ , "c1" : "01040"
+ , "c1link" : "./qc/crypto/async/async.c.html#1040"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/async/async.c near following tokens __attribute__ ( ( __nonnull__ ( 1 ) ) ) ; extern void perror ( const char CPP_POINTEUR __s ) __attribute__ ( "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01212"
- , "c1link" : "./qc/crypto/async/async.c.html#1212"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[01212] The pointer __p is declared but not initialized"
+ , "c3" : "QC-CPP999999[01040] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/async/async.c near following tokens ) __attribute__ ( ( __nothrow__ , __leaf__ ) ) ; extern void CPP_POINTEUR malloc ( size_t __size ) __attribute__ ( ( "
 }} 
 ]
 , 
