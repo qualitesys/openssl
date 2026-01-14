@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/rsa/rsa_backend.c.html" 
- , "texte" : "File crypto/rsa/rsa_backend.c 3 rule violations " 
+ , "texte" : "File crypto/rsa/rsa_backend.c 4 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -299,6 +299,294 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01933"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#1933"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01942"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#1942"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01952"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#1952"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01959"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#1959"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01968"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#1968"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01977"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#1977"
+ , "c1" : " int "
+ , "c2" : "fputc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01987"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#1987"
+ , "c1" : " int "
+ , "c2" : "putc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01994"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#1994"
+ , "c1" : " int "
+ , "c2" : "putchar_unlocked(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02000"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#2000"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "feof_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02007"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#2007"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ferror_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02018"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#2018"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "sprintf(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02031"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#2031"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsprintf(char*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02041"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#2041"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "snprintf(char*;size_t;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02055"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#2055"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsnprintf(char*;size_t;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02067"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#2067"
+ , "c1" : " int "
+ , "c2" : "fprintf(FILE*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02074"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#2074"
+ , "c1" : " int "
+ , "c2" : "printf(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02086"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#2086"
+ , "c1" : " int "
+ , "c2" : "vprintf(char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02096"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#2096"
+ , "c1" : " int "
+ , "c2" : "vfprintf(FILE*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02105"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#2105"
+ , "c1" : " int "
+ , "c2" : "dprintf(int;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02116"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#2116"
+ , "c1" : " int "
+ , "c2" : "vdprintf(int;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02122"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#2122"
+ , "c1" : " char "
+ , "c2" : "fgets(char*;int;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02134"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#2134"
+ , "c1" : "size_t"
+ , "c2" : "fread(void*;size_t;size_t;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02146"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#2146"
+ , "c1" : "size_t"
+ , "c2" : "fread_unlocked(void*;size_t;size_t;FILE*)"
+ , "c3" : "7"
+ , "c4" : "13"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02312"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#2312"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02317"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#2317"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02324"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#2324"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02471"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#2471"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02486"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#2486"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02496"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#2496"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02508"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#2508"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02514"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#2514"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02520"
+ , "c5link" : "././qc/crypto/rsa/rsa_backend.c.html#2520"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -351,14 +639,21 @@ var maDataBlocs = {
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "2"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01798"
- , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#1798"
+ , "c1" : "03037"
+ , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#3037"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01798] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/rsa/rsa_backend.c near following tokens __attribute__ ( ( __nonnull__ ( 1 ) ) ) ; extern void perror ( const char CPP_POINTEUR __s ) __attribute__ ( "
+ , "c3" : "QC-CPP999999[03037] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/rsa/rsa_backend.c near following tokens __leaf__ ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR malloc ( size_t __size ) __attribute__ ( ( "
 }} 
 ,
 { "ligne" : {"" : ""
@@ -373,6 +668,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#530"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00530] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02156"
+ , "c1link" : "./qc/crypto/rsa/rsa_backend.c.html#2156"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02156] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ]
 , 

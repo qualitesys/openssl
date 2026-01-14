@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/common/capabilities.c.html" 
- , "texte" : "File providers/common/capabilities.c 3 rule violations " 
+ , "texte" : "File providers/common/capabilities.c 4 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -2477,6 +2477,294 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02522"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#2522"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02531"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#2531"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02541"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#2541"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02548"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#2548"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02557"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#2557"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02566"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#2566"
+ , "c1" : " int "
+ , "c2" : "fputc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02576"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#2576"
+ , "c1" : " int "
+ , "c2" : "putc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02583"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#2583"
+ , "c1" : " int "
+ , "c2" : "putchar_unlocked(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02589"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#2589"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "feof_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02596"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#2596"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ferror_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02607"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#2607"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "sprintf(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02620"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#2620"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsprintf(char*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02630"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#2630"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "snprintf(char*;size_t;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02644"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#2644"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsnprintf(char*;size_t;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02656"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#2656"
+ , "c1" : " int "
+ , "c2" : "fprintf(FILE*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02663"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#2663"
+ , "c1" : " int "
+ , "c2" : "printf(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02675"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#2675"
+ , "c1" : " int "
+ , "c2" : "vprintf(char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02685"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#2685"
+ , "c1" : " int "
+ , "c2" : "vfprintf(FILE*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02694"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#2694"
+ , "c1" : " int "
+ , "c2" : "dprintf(int;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02705"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#2705"
+ , "c1" : " int "
+ , "c2" : "vdprintf(int;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02711"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#2711"
+ , "c1" : " char "
+ , "c2" : "fgets(char*;int;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02723"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#2723"
+ , "c1" : "size_t"
+ , "c2" : "fread(void*;size_t;size_t;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02735"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#2735"
+ , "c1" : "size_t"
+ , "c2" : "fread_unlocked(void*;size_t;size_t;FILE*)"
+ , "c3" : "7"
+ , "c4" : "13"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02901"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#2901"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02906"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#2906"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02913"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#2913"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "03060"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#3060"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "03075"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#3075"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "03085"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#3085"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "03097"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#3097"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "03103"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#3103"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "03109"
+ , "c5link" : "././qc/providers/common/capabilities.c.html#3109"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -2529,14 +2817,21 @@ var maDataBlocs = {
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "2"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "02387"
- , "c1link" : "./qc/providers/common/capabilities.c.html#2387"
+ , "c1" : "03626"
+ , "c1link" : "./qc/providers/common/capabilities.c.html#3626"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[02387] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/common/capabilities.c near following tokens __attribute__ ( ( __nonnull__ ( 1 ) ) ) ; extern void perror ( const char CPP_POINTEUR __s ) __attribute__ ( "
+ , "c3" : "QC-CPP999999[03626] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/common/capabilities.c near following tokens __leaf__ ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR malloc ( size_t __size ) __attribute__ ( ( "
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2551,6 +2846,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/common/capabilities.c.html#505"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00505] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02745"
+ , "c1link" : "./qc/providers/common/capabilities.c.html#2745"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02745] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ]
 , 

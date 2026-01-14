@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/provider_core.c.html" 
- , "texte" : "File crypto/provider_core.c 1 rule violations " 
+ , "texte" : "File crypto/provider_core.c 2 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -2351,6 +2351,294 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02091"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2091"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02100"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2100"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02110"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2110"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02117"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2117"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02126"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2126"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02135"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2135"
+ , "c1" : " int "
+ , "c2" : "fputc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02145"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2145"
+ , "c1" : " int "
+ , "c2" : "putc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02152"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2152"
+ , "c1" : " int "
+ , "c2" : "putchar_unlocked(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02158"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2158"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "feof_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02165"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2165"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ferror_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02176"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2176"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "sprintf(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02189"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2189"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsprintf(char*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02199"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2199"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "snprintf(char*;size_t;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02213"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2213"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsnprintf(char*;size_t;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02225"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2225"
+ , "c1" : " int "
+ , "c2" : "fprintf(FILE*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02232"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2232"
+ , "c1" : " int "
+ , "c2" : "printf(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02244"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2244"
+ , "c1" : " int "
+ , "c2" : "vprintf(char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02254"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2254"
+ , "c1" : " int "
+ , "c2" : "vfprintf(FILE*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02263"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2263"
+ , "c1" : " int "
+ , "c2" : "dprintf(int;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02274"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2274"
+ , "c1" : " int "
+ , "c2" : "vdprintf(int;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02280"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2280"
+ , "c1" : " char "
+ , "c2" : "fgets(char*;int;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02292"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2292"
+ , "c1" : "size_t"
+ , "c2" : "fread(void*;size_t;size_t;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02304"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2304"
+ , "c1" : "size_t"
+ , "c2" : "fread_unlocked(void*;size_t;size_t;FILE*)"
+ , "c3" : "7"
+ , "c4" : "13"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02470"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2470"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02475"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2475"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02482"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2482"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02629"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2629"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02644"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2644"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02654"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2654"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02666"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2666"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02672"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2672"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02678"
+ , "c5link" : "././qc/crypto/provider_core.c.html#2678"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -2396,14 +2684,28 @@ var maDataBlocs = {
  , "c3" : "Syntax error in source code"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01956"
- , "c1link" : "./qc/crypto/provider_core.c.html#1956"
+ , "c1" : "03195"
+ , "c1link" : "./qc/crypto/provider_core.c.html#3195"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01956] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/provider_core.c near following tokens __attribute__ ( ( __nonnull__ ( 1 ) ) ) ; extern void perror ( const char CPP_POINTEUR __s ) __attribute__ ( "
+ , "c3" : "QC-CPP999999[03195] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/provider_core.c near following tokens __leaf__ ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR malloc ( size_t __size ) __attribute__ ( ( "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02314"
+ , "c1link" : "./qc/crypto/provider_core.c.html#2314"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02314] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ]
 , 

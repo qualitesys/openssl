@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/macs/blake2b_mac.c.html" 
- , "texte" : "File providers/implementations/macs/blake2b_mac.c 1 rule violations " 
+ , "texte" : "File providers/implementations/macs/blake2b_mac.c 2 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -2351,6 +2351,294 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02042"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2042"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02051"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2051"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02061"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2061"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02068"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2068"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02077"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2077"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02086"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2086"
+ , "c1" : " int "
+ , "c2" : "fputc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02096"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2096"
+ , "c1" : " int "
+ , "c2" : "putc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02103"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2103"
+ , "c1" : " int "
+ , "c2" : "putchar_unlocked(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02109"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2109"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "feof_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02116"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2116"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ferror_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02127"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2127"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "sprintf(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02140"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2140"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsprintf(char*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02150"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2150"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "snprintf(char*;size_t;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02164"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2164"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsnprintf(char*;size_t;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02176"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2176"
+ , "c1" : " int "
+ , "c2" : "fprintf(FILE*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02183"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2183"
+ , "c1" : " int "
+ , "c2" : "printf(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02195"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2195"
+ , "c1" : " int "
+ , "c2" : "vprintf(char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02205"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2205"
+ , "c1" : " int "
+ , "c2" : "vfprintf(FILE*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02214"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2214"
+ , "c1" : " int "
+ , "c2" : "dprintf(int;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02225"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2225"
+ , "c1" : " int "
+ , "c2" : "vdprintf(int;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02231"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2231"
+ , "c1" : " char "
+ , "c2" : "fgets(char*;int;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02243"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2243"
+ , "c1" : "size_t"
+ , "c2" : "fread(void*;size_t;size_t;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02255"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2255"
+ , "c1" : "size_t"
+ , "c2" : "fread_unlocked(void*;size_t;size_t;FILE*)"
+ , "c3" : "7"
+ , "c4" : "13"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02421"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2421"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02426"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2426"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02433"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2433"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02580"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2580"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02595"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2595"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02605"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2605"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02617"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2617"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02623"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2623"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02629"
+ , "c5link" : "././qc/providers/implementations/macs/blake2b_mac.c.html#2629"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -2396,14 +2684,28 @@ var maDataBlocs = {
  , "c3" : "Syntax error in source code"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01907"
- , "c1link" : "./qc/providers/implementations/macs/blake2b_mac.c.html#1907"
+ , "c1" : "03146"
+ , "c1link" : "./qc/providers/implementations/macs/blake2b_mac.c.html#3146"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01907] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/macs/blake2b_mac.c near following tokens __attribute__ ( ( __nonnull__ ( 1 ) ) ) ; extern void perror ( const char CPP_POINTEUR __s ) __attribute__ ( "
+ , "c3" : "QC-CPP999999[03146] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/macs/blake2b_mac.c near following tokens __leaf__ ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR malloc ( size_t __size ) __attribute__ ( ( "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02265"
+ , "c1link" : "./qc/providers/implementations/macs/blake2b_mac.c.html#2265"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02265] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ]
 , 

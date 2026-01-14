@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/encode_decode/decoder_meth.c.html" 
- , "texte" : "File crypto/encode_decode/decoder_meth.c 1 rule violations " 
+ , "texte" : "File crypto/encode_decode/decoder_meth.c 2 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -2351,6 +2351,294 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02038"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2038"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02047"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2047"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02057"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2057"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02064"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2064"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02073"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2073"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02082"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2082"
+ , "c1" : " int "
+ , "c2" : "fputc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02092"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2092"
+ , "c1" : " int "
+ , "c2" : "putc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02099"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2099"
+ , "c1" : " int "
+ , "c2" : "putchar_unlocked(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02105"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2105"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "feof_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02112"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2112"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ferror_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02123"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2123"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "sprintf(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02136"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2136"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsprintf(char*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02146"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2146"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "snprintf(char*;size_t;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02160"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2160"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsnprintf(char*;size_t;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02172"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2172"
+ , "c1" : " int "
+ , "c2" : "fprintf(FILE*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02179"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2179"
+ , "c1" : " int "
+ , "c2" : "printf(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02191"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2191"
+ , "c1" : " int "
+ , "c2" : "vprintf(char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02201"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2201"
+ , "c1" : " int "
+ , "c2" : "vfprintf(FILE*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02210"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2210"
+ , "c1" : " int "
+ , "c2" : "dprintf(int;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02221"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2221"
+ , "c1" : " int "
+ , "c2" : "vdprintf(int;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02227"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2227"
+ , "c1" : " char "
+ , "c2" : "fgets(char*;int;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02239"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2239"
+ , "c1" : "size_t"
+ , "c2" : "fread(void*;size_t;size_t;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02251"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2251"
+ , "c1" : "size_t"
+ , "c2" : "fread_unlocked(void*;size_t;size_t;FILE*)"
+ , "c3" : "7"
+ , "c4" : "13"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02596"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2596"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02601"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2601"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02608"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2608"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02755"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2755"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02770"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2770"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02780"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2780"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02792"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2792"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02798"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2798"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02804"
+ , "c5link" : "././qc/crypto/encode_decode/decoder_meth.c.html#2804"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -2396,14 +2684,28 @@ var maDataBlocs = {
  , "c3" : "Syntax error in source code"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01903"
- , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#1903"
+ , "c1" : "03321"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#3321"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01903] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/encode_decode/decoder_meth.c near following tokens __attribute__ ( ( __nonnull__ ( 1 ) ) ) ; extern void perror ( const char CPP_POINTEUR __s ) __attribute__ ( "
+ , "c3" : "QC-CPP999999[03321] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/encode_decode/decoder_meth.c near following tokens __leaf__ ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR malloc ( size_t __size ) __attribute__ ( ( "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02261"
+ , "c1link" : "./qc/crypto/encode_decode/decoder_meth.c.html#2261"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02261] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ]
 , 

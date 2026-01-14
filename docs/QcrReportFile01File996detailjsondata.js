@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/keymgmt/ec_kmgmt.c.html" 
- , "texte" : "File providers/implementations/keymgmt/ec_kmgmt.c 3 rule violations " 
+ , "texte" : "File providers/implementations/keymgmt/ec_kmgmt.c 4 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -2477,6 +2477,294 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02518"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#2518"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02527"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#2527"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02537"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#2537"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02544"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#2544"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02553"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#2553"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02562"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#2562"
+ , "c1" : " int "
+ , "c2" : "fputc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02572"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#2572"
+ , "c1" : " int "
+ , "c2" : "putc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02579"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#2579"
+ , "c1" : " int "
+ , "c2" : "putchar_unlocked(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02585"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#2585"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "feof_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02592"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#2592"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ferror_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02603"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#2603"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "sprintf(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02616"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#2616"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsprintf(char*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02626"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#2626"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "snprintf(char*;size_t;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02640"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#2640"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsnprintf(char*;size_t;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02652"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#2652"
+ , "c1" : " int "
+ , "c2" : "fprintf(FILE*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02659"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#2659"
+ , "c1" : " int "
+ , "c2" : "printf(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02671"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#2671"
+ , "c1" : " int "
+ , "c2" : "vprintf(char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02681"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#2681"
+ , "c1" : " int "
+ , "c2" : "vfprintf(FILE*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02690"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#2690"
+ , "c1" : " int "
+ , "c2" : "dprintf(int;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02701"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#2701"
+ , "c1" : " int "
+ , "c2" : "vdprintf(int;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02707"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#2707"
+ , "c1" : " char "
+ , "c2" : "fgets(char*;int;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02719"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#2719"
+ , "c1" : "size_t"
+ , "c2" : "fread(void*;size_t;size_t;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02731"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#2731"
+ , "c1" : "size_t"
+ , "c2" : "fread_unlocked(void*;size_t;size_t;FILE*)"
+ , "c3" : "7"
+ , "c4" : "13"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02897"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#2897"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02902"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#2902"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02909"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#2909"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "03056"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#3056"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "03071"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#3071"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "03081"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#3081"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "03093"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#3093"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "03099"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#3099"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "03105"
+ , "c5link" : "././qc/providers/implementations/keymgmt/ec_kmgmt.c.html#3105"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -2529,14 +2817,21 @@ var maDataBlocs = {
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "2"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "02383"
- , "c1link" : "./qc/providers/implementations/keymgmt/ec_kmgmt.c.html#2383"
+ , "c1" : "03622"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ec_kmgmt.c.html#3622"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[02383] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/keymgmt/ec_kmgmt.c near following tokens __attribute__ ( ( __nonnull__ ( 1 ) ) ) ; extern void perror ( const char CPP_POINTEUR __s ) __attribute__ ( "
+ , "c3" : "QC-CPP999999[03622] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/keymgmt/ec_kmgmt.c near following tokens __leaf__ ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR malloc ( size_t __size ) __attribute__ ( ( "
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2551,6 +2846,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/keymgmt/ec_kmgmt.c.html#530"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00530] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02741"
+ , "c1link" : "./qc/providers/implementations/keymgmt/ec_kmgmt.c.html#2741"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02741] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ]
 , 

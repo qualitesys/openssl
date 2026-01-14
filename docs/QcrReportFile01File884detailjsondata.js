@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/ciphers/cipher_aes_ocb.c.html" 
- , "texte" : "File providers/implementations/ciphers/cipher_aes_ocb.c 1 rule violations " 
+ , "texte" : "File providers/implementations/ciphers/cipher_aes_ocb.c 2 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -173,6 +173,294 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01608"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1608"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01617"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1617"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01627"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1627"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01634"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1634"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01643"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1643"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01652"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1652"
+ , "c1" : " int "
+ , "c2" : "fputc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01662"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1662"
+ , "c1" : " int "
+ , "c2" : "putc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01669"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1669"
+ , "c1" : " int "
+ , "c2" : "putchar_unlocked(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01675"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1675"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "feof_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01682"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1682"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ferror_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01693"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1693"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "sprintf(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01706"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1706"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsprintf(char*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01716"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1716"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "snprintf(char*;size_t;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01730"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1730"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsnprintf(char*;size_t;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01742"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1742"
+ , "c1" : " int "
+ , "c2" : "fprintf(FILE*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01749"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1749"
+ , "c1" : " int "
+ , "c2" : "printf(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01761"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1761"
+ , "c1" : " int "
+ , "c2" : "vprintf(char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01771"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1771"
+ , "c1" : " int "
+ , "c2" : "vfprintf(FILE*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01780"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1780"
+ , "c1" : " int "
+ , "c2" : "dprintf(int;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01791"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1791"
+ , "c1" : " int "
+ , "c2" : "vdprintf(int;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01797"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1797"
+ , "c1" : " char "
+ , "c2" : "fgets(char*;int;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01809"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1809"
+ , "c1" : "size_t"
+ , "c2" : "fread(void*;size_t;size_t;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01821"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1821"
+ , "c1" : "size_t"
+ , "c2" : "fread_unlocked(void*;size_t;size_t;FILE*)"
+ , "c3" : "7"
+ , "c4" : "13"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01987"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1987"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01992"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1992"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01999"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1999"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02146"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#2146"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02161"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#2161"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02171"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#2171"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02183"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#2183"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02189"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#2189"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02195"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#2195"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -218,14 +506,28 @@ var maDataBlocs = {
  , "c3" : "Syntax error in source code"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01473"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1473"
+ , "c1" : "02712"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#2712"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01473] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_aes_ocb.c near following tokens __attribute__ ( ( __nonnull__ ( 1 ) ) ) ; extern void perror ( const char CPP_POINTEUR __s ) __attribute__ ( "
+ , "c3" : "QC-CPP999999[02712] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_aes_ocb.c near following tokens __leaf__ ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR malloc ( size_t __size ) __attribute__ ( ( "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01831"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1831"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01831] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ]
 , 

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html" 
- , "texte" : "File providers/implementations/storemgmt/file_store_any2obj.c 1 rule violations " 
+ , "texte" : "File providers/implementations/storemgmt/file_store_any2obj.c 2 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -2351,6 +2351,294 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02039"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2039"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02048"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2048"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02058"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2058"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02065"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2065"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02074"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2074"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02083"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2083"
+ , "c1" : " int "
+ , "c2" : "fputc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02093"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2093"
+ , "c1" : " int "
+ , "c2" : "putc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02100"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2100"
+ , "c1" : " int "
+ , "c2" : "putchar_unlocked(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02106"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2106"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "feof_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02113"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2113"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ferror_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02124"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2124"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "sprintf(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02137"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2137"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsprintf(char*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02147"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2147"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "snprintf(char*;size_t;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02161"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2161"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsnprintf(char*;size_t;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02173"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2173"
+ , "c1" : " int "
+ , "c2" : "fprintf(FILE*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02180"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2180"
+ , "c1" : " int "
+ , "c2" : "printf(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02192"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2192"
+ , "c1" : " int "
+ , "c2" : "vprintf(char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02202"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2202"
+ , "c1" : " int "
+ , "c2" : "vfprintf(FILE*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02211"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2211"
+ , "c1" : " int "
+ , "c2" : "dprintf(int;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02222"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2222"
+ , "c1" : " int "
+ , "c2" : "vdprintf(int;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02228"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2228"
+ , "c1" : " char "
+ , "c2" : "fgets(char*;int;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02240"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2240"
+ , "c1" : "size_t"
+ , "c2" : "fread(void*;size_t;size_t;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02252"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2252"
+ , "c1" : "size_t"
+ , "c2" : "fread_unlocked(void*;size_t;size_t;FILE*)"
+ , "c3" : "7"
+ , "c4" : "13"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02417"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2417"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02422"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2422"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02429"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2429"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02576"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2576"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02591"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2591"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02601"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2601"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02613"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2613"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02619"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2619"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02625"
+ , "c5link" : "././qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2625"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -2396,14 +2684,28 @@ var maDataBlocs = {
  , "c3" : "Syntax error in source code"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01904"
- , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#1904"
+ , "c1" : "03142"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#3142"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01904] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/storemgmt/file_store_any2obj.c near following tokens __attribute__ ( ( __nonnull__ ( 1 ) ) ) ; extern void perror ( const char CPP_POINTEUR __s ) __attribute__ ( "
+ , "c3" : "QC-CPP999999[03142] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/storemgmt/file_store_any2obj.c near following tokens __leaf__ ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR malloc ( size_t __size ) __attribute__ ( ( "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02262"
+ , "c1link" : "./qc/providers/implementations/storemgmt/file_store_any2obj.c.html#2262"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02262] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ]
 , 

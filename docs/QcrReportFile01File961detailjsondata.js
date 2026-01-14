@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html" 
- , "texte" : "File providers/implementations/encode_decode/decode_epki2pki.c 1 rule violations " 
+ , "texte" : "File providers/implementations/encode_decode/decode_epki2pki.c 2 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -2351,6 +2351,294 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02049"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2049"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02058"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2058"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02068"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2068"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02075"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2075"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02084"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2084"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02093"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2093"
+ , "c1" : " int "
+ , "c2" : "fputc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02103"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2103"
+ , "c1" : " int "
+ , "c2" : "putc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02110"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2110"
+ , "c1" : " int "
+ , "c2" : "putchar_unlocked(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02116"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2116"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "feof_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02123"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2123"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ferror_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02134"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2134"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "sprintf(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02147"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2147"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsprintf(char*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02157"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2157"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "snprintf(char*;size_t;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02171"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2171"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsnprintf(char*;size_t;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02183"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2183"
+ , "c1" : " int "
+ , "c2" : "fprintf(FILE*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02190"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2190"
+ , "c1" : " int "
+ , "c2" : "printf(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02202"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2202"
+ , "c1" : " int "
+ , "c2" : "vprintf(char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02212"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2212"
+ , "c1" : " int "
+ , "c2" : "vfprintf(FILE*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02221"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2221"
+ , "c1" : " int "
+ , "c2" : "dprintf(int;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02232"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2232"
+ , "c1" : " int "
+ , "c2" : "vdprintf(int;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02238"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2238"
+ , "c1" : " char "
+ , "c2" : "fgets(char*;int;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02250"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2250"
+ , "c1" : "size_t"
+ , "c2" : "fread(void*;size_t;size_t;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02262"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2262"
+ , "c1" : "size_t"
+ , "c2" : "fread_unlocked(void*;size_t;size_t;FILE*)"
+ , "c3" : "7"
+ , "c4" : "13"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02728"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2728"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02733"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2733"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02740"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2740"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02839"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2839"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02854"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2854"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02864"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2864"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02876"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2876"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02882"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2882"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02888"
+ , "c5link" : "././qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2888"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -2396,14 +2684,28 @@ var maDataBlocs = {
  , "c3" : "Syntax error in source code"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01914"
- , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#1914"
+ , "c1" : "03390"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#3390"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01914] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/encode_decode/decode_epki2pki.c near following tokens __attribute__ ( ( __nonnull__ ( 1 ) ) ) ; extern void perror ( const char CPP_POINTEUR __s ) __attribute__ ( "
+ , "c3" : "QC-CPP999999[03390] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/encode_decode/decode_epki2pki.c near following tokens __leaf__ ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR malloc ( size_t __size ) __attribute__ ( ( "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02272"
+ , "c1link" : "./qc/providers/implementations/encode_decode/decode_epki2pki.c.html#2272"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02272] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ]
 , 

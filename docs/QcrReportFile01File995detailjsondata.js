@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/keymgmt/dsa_kmgmt.c.html" 
- , "texte" : "File providers/implementations/keymgmt/dsa_kmgmt.c 1 rule violations " 
+ , "texte" : "File providers/implementations/keymgmt/dsa_kmgmt.c 2 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -2351,6 +2351,294 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02043"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2043"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02052"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2052"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02062"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2062"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02069"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2069"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02078"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2078"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02087"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2087"
+ , "c1" : " int "
+ , "c2" : "fputc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02097"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2097"
+ , "c1" : " int "
+ , "c2" : "putc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02104"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2104"
+ , "c1" : " int "
+ , "c2" : "putchar_unlocked(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02110"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2110"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "feof_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02117"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2117"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ferror_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02128"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2128"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "sprintf(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02141"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2141"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsprintf(char*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02151"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2151"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "snprintf(char*;size_t;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02165"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2165"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsnprintf(char*;size_t;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02177"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2177"
+ , "c1" : " int "
+ , "c2" : "fprintf(FILE*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02184"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2184"
+ , "c1" : " int "
+ , "c2" : "printf(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02196"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2196"
+ , "c1" : " int "
+ , "c2" : "vprintf(char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02206"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2206"
+ , "c1" : " int "
+ , "c2" : "vfprintf(FILE*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02215"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2215"
+ , "c1" : " int "
+ , "c2" : "dprintf(int;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02226"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2226"
+ , "c1" : " int "
+ , "c2" : "vdprintf(int;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02232"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2232"
+ , "c1" : " char "
+ , "c2" : "fgets(char*;int;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02244"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2244"
+ , "c1" : "size_t"
+ , "c2" : "fread(void*;size_t;size_t;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02256"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2256"
+ , "c1" : "size_t"
+ , "c2" : "fread_unlocked(void*;size_t;size_t;FILE*)"
+ , "c3" : "7"
+ , "c4" : "13"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02422"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2422"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02427"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2427"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02434"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2434"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02581"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2581"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02596"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2596"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02606"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2606"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02618"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2618"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02624"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2624"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02630"
+ , "c5link" : "././qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2630"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -2396,14 +2684,28 @@ var maDataBlocs = {
  , "c3" : "Syntax error in source code"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01908"
- , "c1link" : "./qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#1908"
+ , "c1" : "03147"
+ , "c1link" : "./qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#3147"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01908] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/keymgmt/dsa_kmgmt.c near following tokens __attribute__ ( ( __nonnull__ ( 1 ) ) ) ; extern void perror ( const char CPP_POINTEUR __s ) __attribute__ ( "
+ , "c3" : "QC-CPP999999[03147] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/keymgmt/dsa_kmgmt.c near following tokens __leaf__ ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR malloc ( size_t __size ) __attribute__ ( ( "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02266"
+ , "c1link" : "./qc/providers/implementations/keymgmt/dsa_kmgmt.c.html#2266"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02266] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ]
 , 

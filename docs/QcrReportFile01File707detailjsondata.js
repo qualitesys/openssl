@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/sm2/sm2_sign.c.html" 
- , "texte" : "File crypto/sm2/sm2_sign.c 3 rule violations " 
+ , "texte" : "File crypto/sm2/sm2_sign.c 4 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -299,6 +299,294 @@ var maDataBlocs = {
  , "c3" : "2"
  , "c4" : "2"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01890"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#1890"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01899"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#1899"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01909"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#1909"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01916"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#1916"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01925"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#1925"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01934"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#1934"
+ , "c1" : " int "
+ , "c2" : "fputc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01944"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#1944"
+ , "c1" : " int "
+ , "c2" : "putc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01951"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#1951"
+ , "c1" : " int "
+ , "c2" : "putchar_unlocked(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01957"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#1957"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "feof_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01964"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#1964"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ferror_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01975"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#1975"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "sprintf(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01988"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#1988"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsprintf(char*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01998"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#1998"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "snprintf(char*;size_t;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02012"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#2012"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsnprintf(char*;size_t;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02024"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#2024"
+ , "c1" : " int "
+ , "c2" : "fprintf(FILE*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02031"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#2031"
+ , "c1" : " int "
+ , "c2" : "printf(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02043"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#2043"
+ , "c1" : " int "
+ , "c2" : "vprintf(char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02053"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#2053"
+ , "c1" : " int "
+ , "c2" : "vfprintf(FILE*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02062"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#2062"
+ , "c1" : " int "
+ , "c2" : "dprintf(int;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02073"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#2073"
+ , "c1" : " int "
+ , "c2" : "vdprintf(int;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02079"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#2079"
+ , "c1" : " char "
+ , "c2" : "fgets(char*;int;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02091"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#2091"
+ , "c1" : "size_t"
+ , "c2" : "fread(void*;size_t;size_t;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02103"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#2103"
+ , "c1" : "size_t"
+ , "c2" : "fread_unlocked(void*;size_t;size_t;FILE*)"
+ , "c3" : "7"
+ , "c4" : "13"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02545"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#2545"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02550"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#2550"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02557"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#2557"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02656"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#2656"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02671"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#2671"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02681"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#2681"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02693"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#2693"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02699"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#2699"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02705"
+ , "c5link" : "././qc/crypto/sm2/sm2_sign.c.html#2705"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -351,14 +639,21 @@ var maDataBlocs = {
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "2"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01755"
- , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#1755"
+ , "c1" : "03207"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#3207"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01755] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/sm2/sm2_sign.c near following tokens __attribute__ ( ( __nonnull__ ( 1 ) ) ) ; extern void perror ( const char CPP_POINTEUR __s ) __attribute__ ( "
+ , "c3" : "QC-CPP999999[03207] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/sm2/sm2_sign.c near following tokens __leaf__ ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR malloc ( size_t __size ) __attribute__ ( ( "
 }} 
 ,
 { "ligne" : {"" : ""
@@ -373,6 +668,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#1105"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[01105] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02113"
+ , "c1link" : "./qc/crypto/sm2/sm2_sign.c.html#2113"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02113] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ]
 , 

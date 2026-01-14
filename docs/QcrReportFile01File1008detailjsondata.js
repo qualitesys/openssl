@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/macs/siphash_prov.c.html" 
- , "texte" : "File providers/implementations/macs/siphash_prov.c 3 rule violations " 
+ , "texte" : "File providers/implementations/macs/siphash_prov.c 4 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -2477,6 +2477,294 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02515"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#2515"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02524"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#2524"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02534"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#2534"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02541"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#2541"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02550"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#2550"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02559"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#2559"
+ , "c1" : " int "
+ , "c2" : "fputc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02569"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#2569"
+ , "c1" : " int "
+ , "c2" : "putc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02576"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#2576"
+ , "c1" : " int "
+ , "c2" : "putchar_unlocked(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02582"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#2582"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "feof_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02589"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#2589"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ferror_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02600"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#2600"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "sprintf(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02613"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#2613"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsprintf(char*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02623"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#2623"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "snprintf(char*;size_t;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02637"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#2637"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsnprintf(char*;size_t;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02649"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#2649"
+ , "c1" : " int "
+ , "c2" : "fprintf(FILE*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02656"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#2656"
+ , "c1" : " int "
+ , "c2" : "printf(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02668"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#2668"
+ , "c1" : " int "
+ , "c2" : "vprintf(char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02678"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#2678"
+ , "c1" : " int "
+ , "c2" : "vfprintf(FILE*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02687"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#2687"
+ , "c1" : " int "
+ , "c2" : "dprintf(int;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02698"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#2698"
+ , "c1" : " int "
+ , "c2" : "vdprintf(int;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02704"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#2704"
+ , "c1" : " char "
+ , "c2" : "fgets(char*;int;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02716"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#2716"
+ , "c1" : "size_t"
+ , "c2" : "fread(void*;size_t;size_t;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02728"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#2728"
+ , "c1" : "size_t"
+ , "c2" : "fread_unlocked(void*;size_t;size_t;FILE*)"
+ , "c3" : "7"
+ , "c4" : "13"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02894"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#2894"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02899"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#2899"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02906"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#2906"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "03053"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#3053"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "03068"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#3068"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "03078"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#3078"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "03090"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#3090"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "03096"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#3096"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "03102"
+ , "c5link" : "././qc/providers/implementations/macs/siphash_prov.c.html#3102"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -2529,14 +2817,21 @@ var maDataBlocs = {
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "2"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "02380"
- , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#2380"
+ , "c1" : "03619"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#3619"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[02380] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/macs/siphash_prov.c near following tokens __attribute__ ( ( __nonnull__ ( 1 ) ) ) ; extern void perror ( const char CPP_POINTEUR __s ) __attribute__ ( "
+ , "c3" : "QC-CPP999999[03619] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/macs/siphash_prov.c near following tokens __leaf__ ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR malloc ( size_t __size ) __attribute__ ( ( "
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2551,6 +2846,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#503"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00503] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02738"
+ , "c1link" : "./qc/providers/implementations/macs/siphash_prov.c.html#2738"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[02738] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ]
 , 

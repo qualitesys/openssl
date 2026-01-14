@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/ciphers/cipher_sm4_xts.c.html" 
- , "texte" : "File providers/implementations/ciphers/cipher_sm4_xts.c 1 rule violations " 
+ , "texte" : "File providers/implementations/ciphers/cipher_sm4_xts.c 2 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -173,6 +173,294 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01538"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#1538"
+ , "c1" : " int "
+ , "c2" : "getchar(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01547"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#1547"
+ , "c1" : " int "
+ , "c2" : "fgetc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01557"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#1557"
+ , "c1" : " int "
+ , "c2" : "getc_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01564"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#1564"
+ , "c1" : " int "
+ , "c2" : "getchar_unlocked(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01573"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#1573"
+ , "c1" : " int "
+ , "c2" : "putchar(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01582"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#1582"
+ , "c1" : " int "
+ , "c2" : "fputc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01592"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#1592"
+ , "c1" : " int "
+ , "c2" : "putc_unlocked(int;FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01599"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#1599"
+ , "c1" : " int "
+ , "c2" : "putchar_unlocked(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01605"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#1605"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "feof_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01612"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#1612"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "ferror_unlocked(FILE*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01623"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#1623"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "sprintf(char*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01636"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#1636"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsprintf(char*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01646"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#1646"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "snprintf(char*;size_t;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01660"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#1660"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "vsnprintf(char*;size_t;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01672"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#1672"
+ , "c1" : " int "
+ , "c2" : "fprintf(FILE*;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01679"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#1679"
+ , "c1" : " int "
+ , "c2" : "printf(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01691"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#1691"
+ , "c1" : " int "
+ , "c2" : "vprintf(char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01701"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#1701"
+ , "c1" : " int "
+ , "c2" : "vfprintf(FILE*;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01710"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#1710"
+ , "c1" : " int "
+ , "c2" : "dprintf(int;char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01721"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#1721"
+ , "c1" : " int "
+ , "c2" : "vdprintf(int;char*;__gnuc_va_list)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01727"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#1727"
+ , "c1" : " char "
+ , "c2" : "fgets(char*;int;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01739"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#1739"
+ , "c1" : "size_t"
+ , "c2" : "fread(void*;size_t;size_t;FILE*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01751"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#1751"
+ , "c1" : "size_t"
+ , "c2" : "fread_unlocked(void*;size_t;size_t;FILE*)"
+ , "c3" : "7"
+ , "c4" : "13"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01917"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#1917"
+ , "c1" : " int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoi(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01922"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#1922"
+ , "c1" : " long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atol(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "01929"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#1929"
+ , "c1" : " long  long  int  __attribute__ (( __nothrow__ ,__leaf__))"
+ , "c2" : "atoll(char*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02076"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#2076"
+ , "c1" : "__uint16_t"
+ , "c2" : "__bswap_16(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02091"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#2091"
+ , "c1" : "__uint32_t"
+ , "c2" : "__bswap_32(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02101"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#2101"
+ , "c1" : "__uint64_t"
+ , "c2" : "__bswap_64(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02113"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#2113"
+ , "c1" : "__uint16_t"
+ , "c2" : "__uint16_identity(__uint16_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02119"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#2119"
+ , "c1" : "__uint32_t"
+ , "c2" : "__uint32_identity(__uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "02125"
+ , "c5link" : "././qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#2125"
+ , "c1" : "__uint64_t"
+ , "c2" : "__uint64_identity(__uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -218,14 +506,28 @@ var maDataBlocs = {
  , "c3" : "Syntax error in source code"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000018"
+ , "c3" : "A suspicious bitwise expression is compared to a numerical expression"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "01403"
- , "c1link" : "./qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#1403"
+ , "c1" : "02642"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#2642"
  , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[01403] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_sm4_xts.c near following tokens __attribute__ ( ( __nonnull__ ( 1 ) ) ) ; extern void perror ( const char CPP_POINTEUR __s ) __attribute__ ( "
+ , "c3" : "QC-CPP999999[02642] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/ciphers/cipher_sm4_xts.c near following tokens __leaf__ ) ) __attribute__ ( ( __warn_unused_result__ ) ) ; extern void CPP_POINTEUR malloc ( size_t __size ) __attribute__ ( ( "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01761"
+ , "c1link" : "./qc/providers/implementations/ciphers/cipher_sm4_xts.c.html#1761"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000018[01761] Suspicious mix of Bitwise and Literal expressions in (__size|__n)&lt;(((size_t )1)&lt;&lt;(8 *  sizeof (size_t)/2))"
 }} 
 ]
 , 
