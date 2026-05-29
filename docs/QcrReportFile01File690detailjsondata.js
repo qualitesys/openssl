@@ -718,7 +718,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/seed/seed.c.html#1"
  , "c1" : " void "
- , "c2" : "SEED_set_key(unsignedchar;SEED_KEY_SCHEDULE*)"
+ , "c2" : "SEED_set_key(char;SEED_KEY_SCHEDULE*)"
  , "c3" : "1"
  , "c4" : "115"
 }} 
@@ -727,7 +727,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/seed/seed.c.html#1"
  , "c1" : " void "
- , "c2" : "SEED_encrypt(unsignedchar;unsignedchar;SEED_KEY_SCHEDULE*)"
+ , "c2" : "SEED_encrypt(char;char;SEED_KEY_SCHEDULE*)"
  , "c3" : "1"
  , "c4" : "198"
 }} 
@@ -736,7 +736,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/seed/seed.c.html#1"
  , "c1" : " void "
- , "c2" : "SEED_decrypt(unsignedchar;unsignedchar;SEED_KEY_SCHEDULE*)"
+ , "c2" : "SEED_decrypt(char;char;SEED_KEY_SCHEDULE*)"
  , "c3" : "1"
  , "c4" : "198"
 }} 

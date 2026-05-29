@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/asymciphers/rsa_enc.c.html" 
- , "texte" : "File providers/implementations/asymciphers/rsa_enc.c 20 rule violations " 
+ , "texte" : "File providers/implementations/asymciphers/rsa_enc.c 7 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -3201,7 +3201,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3300,7 +3300,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3400,7 +3400,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_LIB(unsignedlong)"
+ , "c2" : "ERR_GET_LIB(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3409,7 +3409,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
+ , "c2" : "ERR_GET_RFLAGS(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3418,7 +3418,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_REASON(unsignedlong)"
+ , "c2" : "ERR_GET_REASON(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3427,7 +3427,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
+ , "c2" : "ERR_FATAL_ERROR(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3436,7 +3436,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
+ , "c2" : "ERR_COMMON_ERROR(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3444,7 +3444,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3669,8 +3669,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " unsigned  int "
- , "c2" : "constant_time_msb(unsignedint)"
+ , "c1" : " int "
+ , "c2" : "constant_time_msb(int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3705,8 +3705,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " unsigned  int "
- , "c2" : "constant_time_lt(unsignedint;unsignedint)"
+ , "c1" : " int "
+ , "c2" : "constant_time_lt(int;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3723,8 +3723,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " unsigned  char "
- , "c2" : "constant_time_lt_8(unsignedint;unsignedint)"
+ , "c1" : " char "
+ , "c2" : "constant_time_lt_8(int;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3741,8 +3741,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " unsigned  int "
- , "c2" : "constant_time_ge(unsignedint;unsignedint)"
+ , "c1" : " int "
+ , "c2" : "constant_time_ge(int;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3759,8 +3759,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " unsigned  char "
- , "c2" : "constant_time_ge_8(unsignedint;unsignedint)"
+ , "c1" : " char "
+ , "c2" : "constant_time_ge_8(int;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3768,7 +3768,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " unsigned  char "
+ , "c1" : " char "
  , "c2" : "constant_time_ge_8_s(size_t;size_t)"
  , "c3" : "1"
  , "c4" : "1"
@@ -3777,8 +3777,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " unsigned  int "
- , "c2" : "constant_time_is_zero(unsignedint)"
+ , "c1" : " int "
+ , "c2" : "constant_time_is_zero(int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3795,8 +3795,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " unsigned  char "
- , "c2" : "constant_time_is_zero_8(unsignedint)"
+ , "c1" : " char "
+ , "c2" : "constant_time_is_zero_8(int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3822,8 +3822,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " unsigned  int "
- , "c2" : "constant_time_eq(unsignedint;unsignedint)"
+ , "c1" : " int "
+ , "c2" : "constant_time_eq(int;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3840,8 +3840,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " unsigned  char "
- , "c2" : "constant_time_eq_8(unsignedint;unsignedint)"
+ , "c1" : " char "
+ , "c2" : "constant_time_eq_8(int;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3849,269 +3849,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " unsigned  char "
+ , "c1" : " char "
  , "c2" : "constant_time_eq_8_s(size_t;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " unsigned  int "
- , "c2" : "constant_time_eq_int(int;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " unsigned  char "
- , "c2" : "constant_time_eq_int_8(int;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " unsigned  int "
- , "c2" : "value_barrier(unsignedint)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : "uint32_t"
- , "c2" : "value_barrier_32(uint32_t)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : "uint64_t"
- , "c2" : "value_barrier_64(uint64_t)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : "size_t"
- , "c2" : "value_barrier_s(size_t)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " unsigned  int "
- , "c2" : "constant_time_select(unsignedint;unsignedint;unsignedint)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : "size_t"
- , "c2" : "constant_time_select_s(size_t;size_t;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " unsigned  char "
- , "c2" : "constant_time_select_8(unsignedchar;unsignedchar;unsignedchar)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " int "
- , "c2" : "constant_time_select_int(unsignedint;int;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " int "
- , "c2" : "constant_time_select_int_s(size_t;int;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : "uint32_t"
- , "c2" : "constant_time_select_32(uint32_t;uint32_t;uint32_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : "uint64_t"
- , "c2" : "constant_time_select_64(uint64_t;uint64_t;uint64_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " void "
- , "c2" : "constant_time_cond_swap_32(uint32_t;uint32_t*;uint32_t*)"
- , "c3" : "1"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " void "
- , "c2" : "constant_time_cond_swap_64(uint64_t;uint64_t*;uint64_t*)"
- , "c3" : "1"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " void "
- , "c2" : "constant_time_cond_swap_buff(unsignedchar;unsignedchar*;unsignedchar*;size_t)"
- , "c3" : "2"
- , "c4" : "8"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " void "
- , "c2" : "constant_time_lookup(void*;void*;size_t;size_t;size_t)"
- , "c3" : "3"
- , "c4" : "11"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " void "
- , "c2" : "rsa_newctx(void*)"
- , "c3" : "3"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " int "
- , "c2" : "rsa_init(void*;void*;OSSL_PARAM;int)"
- , "c3" : "5"
- , "c4" : "13"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " int "
- , "c2" : "rsa_encrypt_init(void*;void*;OSSL_PARAM)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " int "
- , "c2" : "rsa_decrypt_init(void*;void*;OSSL_PARAM)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " int "
- , "c2" : "rsa_encrypt(void*;unsignedchar*;size_t*;size_t;unsignedchar*;size_t)"
- , "c3" : "11"
- , "c4" : "24"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " int "
- , "c2" : "rsa_decrypt(void*;unsignedchar*;size_t*;size_t;unsignedchar*;size_t)"
- , "c3" : "20"
- , "c4" : "37"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " void "
- , "c2" : "rsa_freectx(void*)"
- , "c3" : "1"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " void "
- , "c2" : "rsa_dupctx(void*)"
- , "c3" : "6"
- , "c4" : "16"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " int "
- , "c2" : "rsa_get_ctx_params(void*;OSSL_PARAM*)"
- , "c3" : "18"
- , "c4" : "30"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : "OSSL_PARAM"
- , "c2" : "rsa_gettable_ctx_params(void*;void*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : " int "
- , "c2" : "rsa_set_ctx_params(void*;OSSL_PARAM)"
- , "c3" : "32"
- , "c4" : "62"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c1" : "OSSL_PARAM"
- , "c2" : "rsa_settable_ctx_params(void*;void*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4156,15 +3895,8 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
+ , "c2" : "QC-CPP999999"
+ , "c3" : "Syntax error in source code"
  , "c4" : "1"
 }}
 ,
@@ -4172,7 +3904,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "7"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -4184,20 +3916,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-CPPCWE481"
- , "c3" : "Assigning instead of comparing"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "7"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/asymciphers/rsa_enc.c near following tokens char ) constant_time_eq_s ( a , b ) ; } static inline unsigned int constant_time_eq_int ( int a , int b "
+}} 
+,
 { "ligne" : {"" : ""
  , "c1" : "01251"
  , "c1link" : "./qc/providers/implementations/asymciphers/rsa_enc.c.html#1251"
@@ -4238,104 +3970,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00001] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[00001] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[00001] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00001] The pointer prsactx is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00001] The pointer tbuf is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00001] The expression  ! ret applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00001] The pointer tbuf is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00001] The pointer dstctx is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00001] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression '' is invariable"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression '' is invariable"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00001] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/asymciphers/rsa_enc.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression 0 is invariable, always false"
 }} 
 ]
 , 

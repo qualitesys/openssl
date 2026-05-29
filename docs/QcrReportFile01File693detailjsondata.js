@@ -592,7 +592,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/seed/seed_ecb.c.html#1"
  , "c1" : " void "
- , "c2" : "SEED_ecb_encrypt(unsignedchar*;unsignedchar*;SEED_KEY_SCHEDULE*;int)"
+ , "c2" : "SEED_ecb_encrypt(char*;char*;SEED_KEY_SCHEDULE*;int)"
  , "c3" : "3"
  , "c4" : "2"
 }} 

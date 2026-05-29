@@ -726,8 +726,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/poly1305/poly1305.c.html#1"
- , "c1" : " unsigned  int "
- , "c2" : "U8TOU32(unsignedchar*)"
+ , "c1" : " int "
+ , "c2" : "U8TOU32(char*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -736,7 +736,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/poly1305/poly1305.c.html#1"
  , "c1" : " void "
- , "c2" : "U32TO8(unsignedchar*;unsignedint)"
+ , "c2" : "U32TO8(char*;int)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -745,7 +745,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/poly1305/poly1305.c.html#1"
  , "c1" : " void "
- , "c2" : "poly1305_init(void*;unsignedchar)"
+ , "c2" : "poly1305_init(void*;char)"
  , "c3" : "1"
  , "c4" : "10"
 }} 
@@ -754,7 +754,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/poly1305/poly1305.c.html#1"
  , "c1" : " void "
- , "c2" : "poly1305_blocks(void*;unsignedchar*;size_t;u32)"
+ , "c2" : "poly1305_blocks(void*;char*;size_t;u32)"
  , "c3" : "2"
  , "c4" : "46"
 }} 
@@ -763,7 +763,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/poly1305/poly1305.c.html#1"
  , "c1" : " void "
- , "c2" : "poly1305_emit(void*;unsignedchar;u32)"
+ , "c2" : "poly1305_emit(void*;char;u32)"
  , "c3" : "1"
  , "c4" : "33"
 }} 
@@ -772,7 +772,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/poly1305/poly1305.c.html#1"
  , "c1" : " void "
- , "c2" : "Poly1305_Init(POLY1305*;unsignedchar)"
+ , "c2" : "Poly1305_Init(POLY1305*;char)"
  , "c3" : "1"
  , "c4" : "6"
 }} 
@@ -781,7 +781,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/poly1305/poly1305.c.html#1"
  , "c1" : " void "
- , "c2" : "Poly1305_Update(POLY1305*;unsignedchar*;size_t)"
+ , "c2" : "Poly1305_Update(POLY1305*;char*;size_t)"
  , "c3" : "6"
  , "c4" : "15"
 }} 
@@ -790,7 +790,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/poly1305/poly1305.c.html#1"
  , "c1" : " void "
- , "c2" : "Poly1305_Final(POLY1305*;unsignedchar)"
+ , "c2" : "Poly1305_Final(POLY1305*;char)"
  , "c3" : "3"
  , "c4" : "6"
 }} 

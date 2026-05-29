@@ -142,7 +142,7 @@ var maDataBlocs = {
  , "c5" : "01107"
  , "c5link" : "././qc/crypto/aria/aria.c.html#1107"
  , "c1" : " void "
- , "c2" : "ossl_aria_encrypt(unsignedchar*;unsignedchar*;ARIA_KEY*)"
+ , "c2" : "ossl_aria_encrypt(char*;char*;ARIA_KEY*)"
  , "c3" : "50"
  , "c4" : "131"
 }} 
@@ -151,7 +151,7 @@ var maDataBlocs = {
  , "c5" : "01186"
  , "c5link" : "././qc/crypto/aria/aria.c.html#1186"
  , "c1" : " int "
- , "c2" : "ossl_aria_set_encrypt_key(unsignedchar*;int;ARIA_KEY*)"
+ , "c2" : "ossl_aria_set_encrypt_key(char*;int;ARIA_KEY*)"
  , "c3" : "73"
  , "c4" : "226"
 }} 
@@ -160,7 +160,7 @@ var maDataBlocs = {
  , "c5" : "01326"
  , "c5link" : "././qc/crypto/aria/aria.c.html#1326"
  , "c1" : " int "
- , "c2" : "ossl_aria_set_decrypt_key(unsignedchar*;int;ARIA_KEY*)"
+ , "c2" : "ossl_aria_set_decrypt_key(char*;int;ARIA_KEY*)"
  , "c3" : "45"
  , "c4" : "141"
 }} 

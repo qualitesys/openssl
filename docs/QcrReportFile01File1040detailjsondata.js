@@ -853,7 +853,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/ssl/quic/json_enc.c.html#1"
  , "c1" : " int "
- , "c2" : "json_push(OSSL_JSON_ENC*;unsignedint)"
+ , "c2" : "json_push(OSSL_JSON_ENC*;int)"
  , "c3" : "7"
  , "c4" : "9"
 }} 

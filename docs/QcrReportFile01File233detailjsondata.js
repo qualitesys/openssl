@@ -16,7 +16,7 @@ var maDataBlocs = {
  , "c5" : "00080"
  , "c5link" : "././qc/crypto/cast/c_enc.c.html#80"
  , "c1" : " void "
- , "c2" : "CAST_encrypt(unsignedint*;CAST_KEY*)"
+ , "c2" : "CAST_encrypt(int*;CAST_KEY*)"
  , "c3" : "2"
  , "c4" : "151"
 }} 
@@ -25,7 +25,7 @@ var maDataBlocs = {
  , "c5" : "00112"
  , "c5link" : "././qc/crypto/cast/c_enc.c.html#112"
  , "c1" : " void "
- , "c2" : "CAST_decrypt(unsignedint*;CAST_KEY*)"
+ , "c2" : "CAST_decrypt(int*;CAST_KEY*)"
  , "c3" : "2"
  , "c4" : "151"
 }} 
@@ -34,7 +34,7 @@ var maDataBlocs = {
  , "c5" : "00144"
  , "c5link" : "././qc/crypto/cast/c_enc.c.html#144"
  , "c1" : " void "
- , "c2" : "CAST_cbc_encrypt(unsignedchar*;unsignedchar*;long;CAST_KEY*;unsignedchar*;int)"
+ , "c2" : "CAST_cbc_encrypt(char*;char*;long;CAST_KEY*;char*;int)"
  , "c3" : "23"
  , "c4" : "81"
 }} 

@@ -16,7 +16,7 @@ var maDataBlocs = {
  , "c5" : "00080"
  , "c5link" : "././qc/crypto/rc2/rc2cfb64.c.html#80"
  , "c1" : " void "
- , "c2" : "RC2_cfb64_encrypt(unsignedchar*;unsignedchar*;long;RC2_KEY*;unsignedchar*;int*;int)"
+ , "c2" : "RC2_cfb64_encrypt(char*;char*;long;RC2_KEY*;char*;int*;int)"
  , "c3" : "7"
  , "c4" : "39"
 }} 

@@ -25,7 +25,7 @@ var maDataBlocs = {
  , "c5" : "00082"
  , "c5link" : "././qc/crypto/idea/i_ecb.c.html#82"
  , "c1" : " void "
- , "c2" : "IDEA_ecb_encrypt(unsignedchar*;unsignedchar*;IDEA_KEY_SCHEDULE*)"
+ , "c2" : "IDEA_ecb_encrypt(char*;char*;IDEA_KEY_SCHEDULE*)"
  , "c3" : "1"
  , "c4" : "11"
 }} 

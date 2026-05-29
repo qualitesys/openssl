@@ -772,7 +772,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/digests/blake2b_prov.c.html#1"
  , "c1" : "uint32_t"
- , "c2" : "rotr32(uint32_t;unsignedint)"
+ , "c2" : "rotr32(uint32_t;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -781,7 +781,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/digests/blake2b_prov.c.html#1"
  , "c1" : "uint64_t"
- , "c2" : "rotr64(uint64_t;unsignedint)"
+ , "c2" : "rotr64(uint64_t;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3399,7 +3399,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/digests/blake2b_prov.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3498,7 +3498,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/digests/blake2b_prov.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3598,7 +3598,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/digests/blake2b_prov.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_LIB(unsignedlong)"
+ , "c2" : "ERR_GET_LIB(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3607,7 +3607,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/digests/blake2b_prov.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
+ , "c2" : "ERR_GET_RFLAGS(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3616,7 +3616,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/digests/blake2b_prov.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_REASON(unsignedlong)"
+ , "c2" : "ERR_GET_REASON(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3625,7 +3625,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/digests/blake2b_prov.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
+ , "c2" : "ERR_FATAL_ERROR(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3634,7 +3634,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/digests/blake2b_prov.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
+ , "c2" : "ERR_COMMON_ERROR(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3642,7 +3642,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/digests/blake2b_prov.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -4345,7 +4345,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/digests/blake2b_prov.c.html#1"
  , "c1" : " int "
- , "c2" : "ossl_blake2b_final(unsignedchar*;BLAKE2B_CTX*)"
+ , "c2" : "ossl_blake2b_final(char*;BLAKE2B_CTX*)"
  , "c3" : "4"
  , "c4" : "15"
 }} 

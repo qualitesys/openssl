@@ -718,7 +718,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/cts128.c.html#1"
  , "c1" : "size_t"
- , "c2" : "CRYPTO_cts128_encrypt_block(unsignedchar*;unsignedchar*;size_t;void*;unsignedchar;block128_f)"
+ , "c2" : "CRYPTO_cts128_encrypt_block(char*;char*;size_t;void*;char;block128_f)"
  , "c3" : "4"
  , "c4" : "14"
 }} 
@@ -727,7 +727,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/cts128.c.html#1"
  , "c1" : "size_t"
- , "c2" : "CRYPTO_nistcts128_encrypt_block(unsignedchar*;unsignedchar*;size_t;void*;unsignedchar;block128_f)"
+ , "c2" : "CRYPTO_nistcts128_encrypt_block(char*;char*;size_t;void*;char;block128_f)"
  , "c3" : "4"
  , "c4" : "14"
 }} 
@@ -736,7 +736,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/cts128.c.html#1"
  , "c1" : "size_t"
- , "c2" : "CRYPTO_cts128_encrypt(unsignedchar*;unsignedchar*;size_t;void*;unsignedchar;cbc128_f)"
+ , "c2" : "CRYPTO_cts128_encrypt(char*;char*;size_t;void*;char;cbc128_f)"
  , "c3" : "3"
  , "c4" : "15"
 }} 
@@ -745,7 +745,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/cts128.c.html#1"
  , "c1" : "size_t"
- , "c2" : "CRYPTO_nistcts128_encrypt(unsignedchar*;unsignedchar*;size_t;void*;unsignedchar;cbc128_f)"
+ , "c2" : "CRYPTO_nistcts128_encrypt(char*;char*;size_t;void*;char;cbc128_f)"
  , "c3" : "3"
  , "c4" : "15"
 }} 
@@ -754,7 +754,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/cts128.c.html#1"
  , "c1" : "size_t"
- , "c2" : "CRYPTO_cts128_decrypt_block(unsignedchar*;unsignedchar*;size_t;void*;unsignedchar;block128_f)"
+ , "c2" : "CRYPTO_cts128_decrypt_block(char*;char*;size_t;void*;char;block128_f)"
  , "c3" : "6"
  , "c4" : "23"
 }} 
@@ -763,7 +763,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/cts128.c.html#1"
  , "c1" : "size_t"
- , "c2" : "CRYPTO_nistcts128_decrypt_block(unsignedchar*;unsignedchar*;size_t;void*;unsignedchar;block128_f)"
+ , "c2" : "CRYPTO_nistcts128_decrypt_block(char*;char*;size_t;void*;char;block128_f)"
  , "c3" : "6"
  , "c4" : "26"
 }} 
@@ -772,7 +772,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/cts128.c.html#1"
  , "c1" : "size_t"
- , "c2" : "CRYPTO_cts128_decrypt(unsignedchar*;unsignedchar*;size_t;void*;unsignedchar;cbc128_f)"
+ , "c2" : "CRYPTO_cts128_decrypt(char*;char*;size_t;void*;char;cbc128_f)"
  , "c3" : "4"
  , "c4" : "16"
 }} 
@@ -781,7 +781,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/cts128.c.html#1"
  , "c1" : "size_t"
- , "c2" : "CRYPTO_nistcts128_decrypt(unsignedchar*;unsignedchar*;size_t;void*;unsignedchar;cbc128_f)"
+ , "c2" : "CRYPTO_nistcts128_decrypt(char*;char*;size_t;void*;char;cbc128_f)"
  , "c3" : "4"
  , "c4" : "18"
 }} 

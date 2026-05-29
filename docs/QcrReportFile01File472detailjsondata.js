@@ -3201,7 +3201,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_seed.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3300,7 +3300,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_seed.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3400,7 +3400,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_seed.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_LIB(unsignedlong)"
+ , "c2" : "ERR_GET_LIB(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3409,7 +3409,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_seed.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
+ , "c2" : "ERR_GET_RFLAGS(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3418,7 +3418,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_seed.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_REASON(unsignedlong)"
+ , "c2" : "ERR_GET_REASON(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3427,7 +3427,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_seed.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
+ , "c2" : "ERR_FATAL_ERROR(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3436,7 +3436,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_seed.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
+ , "c2" : "ERR_COMMON_ERROR(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3444,7 +3444,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_seed.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -4390,7 +4390,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_seed.c.html#1"
  , "c1" : " int "
- , "c2" : "seed_cbc_cipher(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;size_t)"
+ , "c2" : "seed_cbc_cipher(EVP_CIPHER_CTX*;char*;char*;size_t)"
  , "c3" : "3"
  , "c4" : "6"
 }} 
@@ -4399,7 +4399,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_seed.c.html#1"
  , "c1" : " int "
- , "c2" : "seed_cfb128_cipher(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;size_t)"
+ , "c2" : "seed_cfb128_cipher(EVP_CIPHER_CTX*;char*;char*;size_t)"
  , "c3" : "5"
  , "c4" : "11"
 }} 
@@ -4408,7 +4408,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_seed.c.html#1"
  , "c1" : " int "
- , "c2" : "seed_ecb_cipher(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;size_t)"
+ , "c2" : "seed_ecb_cipher(EVP_CIPHER_CTX*;char*;char*;size_t)"
  , "c3" : "3"
  , "c4" : "8"
 }} 
@@ -4417,7 +4417,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_seed.c.html#1"
  , "c1" : " int "
- , "c2" : "seed_ofb_cipher(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;size_t)"
+ , "c2" : "seed_ofb_cipher(EVP_CIPHER_CTX*;char*;char*;size_t)"
  , "c3" : "3"
  , "c4" : "10"
 }} 
@@ -4462,7 +4462,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_seed.c.html#1"
  , "c1" : " int "
- , "c2" : "seed_init_key(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;int)"
+ , "c2" : "seed_init_key(EVP_CIPHER_CTX*;char*;char*;int)"
  , "c3" : "1"
  , "c4" : "2"
 }} 

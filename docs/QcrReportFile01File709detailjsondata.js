@@ -727,7 +727,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/sm3/sm3.c.html#1"
  , "c1" : " void "
- , "c2" : "ossl_sm3_transform(SM3_CTX*;unsignedchar*)"
+ , "c2" : "ossl_sm3_transform(SM3_CTX*;char*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -736,7 +736,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/sm3/sm3.c.html#1"
  , "c1" : " int "
- , "c2" : "ossl_sm3_final(unsignedchar*;SM3_CTX*)"
+ , "c2" : "ossl_sm3_final(char*;SM3_CTX*)"
  , "c3" : "4"
  , "c4" : "34"
 }} 

@@ -3327,7 +3327,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/hpke/hpke.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3426,7 +3426,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/hpke/hpke.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3526,7 +3526,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/hpke/hpke.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_LIB(unsignedlong)"
+ , "c2" : "ERR_GET_LIB(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3535,7 +3535,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/hpke/hpke.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
+ , "c2" : "ERR_GET_RFLAGS(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3544,7 +3544,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/hpke/hpke.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_REASON(unsignedlong)"
+ , "c2" : "ERR_GET_REASON(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3553,7 +3553,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/hpke/hpke.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
+ , "c2" : "ERR_FATAL_ERROR(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3562,7 +3562,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/hpke/hpke.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
+ , "c2" : "ERR_COMMON_ERROR(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3570,7 +3570,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/hpke/hpke.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3814,7 +3814,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/hpke/hpke.c.html#1"
  , "c1" : "EVP_PKEY"
- , "c2" : "evp_pkey_new_raw_nist_public_key(OSSL_LIB_CTX*;char*;char*;unsignedchar*;size_t)"
+ , "c2" : "evp_pkey_new_raw_nist_public_key(OSSL_LIB_CTX*;char*;char*;char*;size_t)"
  , "c3" : "2"
  , "c4" : "11"
 }} 
@@ -3823,7 +3823,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/hpke/hpke.c.html#1"
  , "c1" : " int "
- , "c2" : "hpke_aead_dec(OSSL_HPKE_CTX*;unsignedchar*;unsignedchar*;size_t;unsignedchar*;size_t;unsignedchar*;size_t*)"
+ , "c2" : "hpke_aead_dec(OSSL_HPKE_CTX*;char*;char*;size_t;char*;size_t;char*;size_t*)"
  , "c3" : "12"
  , "c4" : "27"
 }} 
@@ -3832,7 +3832,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/hpke/hpke.c.html#1"
  , "c1" : " int "
- , "c2" : "hpke_aead_enc(OSSL_HPKE_CTX*;unsignedchar*;unsignedchar*;size_t;unsignedchar*;size_t;unsignedchar*;size_t*)"
+ , "c2" : "hpke_aead_enc(OSSL_HPKE_CTX*;char*;char*;size_t;char*;size_t;char*;size_t*)"
  , "c3" : "13"
  , "c4" : "33"
 }} 
@@ -3841,7 +3841,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/hpke/hpke.c.html#1"
  , "c1" : " int "
- , "c2" : "hpke_mode_check(unsignedint)"
+ , "c2" : "hpke_mode_check(int)"
  , "c3" : "5"
  , "c4" : "3"
 }} 
@@ -3877,7 +3877,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/hpke/hpke.c.html#1"
  , "c1" : "size_t"
- , "c2" : "hpke_seqnonce2buf(OSSL_HPKE_CTX*;unsignedchar*;size_t)"
+ , "c2" : "hpke_seqnonce2buf(OSSL_HPKE_CTX*;char*;size_t)"
  , "c3" : "4"
  , "c4" : "13"
 }} 
@@ -3886,7 +3886,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/hpke/hpke.c.html#1"
  , "c1" : " int "
- , "c2" : "hpke_encap(OSSL_HPKE_CTX*;unsignedchar*;size_t*;unsignedchar*;size_t)"
+ , "c2" : "hpke_encap(OSSL_HPKE_CTX*;char*;size_t*;char*;size_t)"
  , "c3" : "17"
  , "c4" : "44"
 }} 
@@ -3895,7 +3895,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/hpke/hpke.c.html#1"
  , "c1" : " int "
- , "c2" : "hpke_decap(OSSL_HPKE_CTX*;unsignedchar*;size_t;EVP_PKEY*)"
+ , "c2" : "hpke_decap(OSSL_HPKE_CTX*;char*;size_t;EVP_PKEY*)"
  , "c3" : "16"
  , "c4" : "40"
 }} 
@@ -3904,7 +3904,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/hpke/hpke.c.html#1"
  , "c1" : " int "
- , "c2" : "hpke_do_middle(OSSL_HPKE_CTX*;unsignedchar*;size_t)"
+ , "c2" : "hpke_do_middle(OSSL_HPKE_CTX*;char*;size_t)"
  , "c3" : "20"
  , "c4" : "71"
 }} 
@@ -3931,7 +3931,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/hpke/hpke.c.html#1"
  , "c1" : " int "
- , "c2" : "OSSL_HPKE_CTX_set1_psk(OSSL_HPKE_CTX*;char*;unsignedchar*;size_t)"
+ , "c2" : "OSSL_HPKE_CTX_set1_psk(OSSL_HPKE_CTX*;char*;char*;size_t)"
  , "c3" : "9"
  , "c4" : "23"
 }} 
@@ -3940,7 +3940,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/hpke/hpke.c.html#1"
  , "c1" : " int "
- , "c2" : "OSSL_HPKE_CTX_set1_ikme(OSSL_HPKE_CTX*;unsignedchar*;size_t)"
+ , "c2" : "OSSL_HPKE_CTX_set1_ikme(OSSL_HPKE_CTX*;char*;size_t)"
  , "c3" : "5"
  , "c4" : "11"
 }} 
@@ -3958,7 +3958,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/hpke/hpke.c.html#1"
  , "c1" : " int "
- , "c2" : "OSSL_HPKE_CTX_set1_authpub(OSSL_HPKE_CTX*;unsignedchar*;size_t)"
+ , "c2" : "OSSL_HPKE_CTX_set1_authpub(OSSL_HPKE_CTX*;char*;size_t)"
  , "c3" : "10"
  , "c4" : "28"
 }} 
@@ -3985,7 +3985,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/hpke/hpke.c.html#1"
  , "c1" : " int "
- , "c2" : "OSSL_HPKE_encap(OSSL_HPKE_CTX*;unsignedchar*;size_t*;unsignedchar*;size_t;unsignedchar*;size_t)"
+ , "c2" : "OSSL_HPKE_encap(OSSL_HPKE_CTX*;char*;size_t*;char*;size_t;char*;size_t)"
  , "c3" : "8"
  , "c4" : "19"
 }} 
@@ -3994,7 +3994,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/hpke/hpke.c.html#1"
  , "c1" : " int "
- , "c2" : "OSSL_HPKE_decap(OSSL_HPKE_CTX*;unsignedchar*;size_t;EVP_PKEY*;unsignedchar*;size_t)"
+ , "c2" : "OSSL_HPKE_decap(OSSL_HPKE_CTX*;char*;size_t;EVP_PKEY*;char*;size_t)"
  , "c3" : "8"
  , "c4" : "20"
 }} 
@@ -4003,7 +4003,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/hpke/hpke.c.html#1"
  , "c1" : " int "
- , "c2" : "OSSL_HPKE_seal(OSSL_HPKE_CTX*;unsignedchar*;size_t*;unsignedchar*;size_t;unsignedchar*;size_t)"
+ , "c2" : "OSSL_HPKE_seal(OSSL_HPKE_CTX*;char*;size_t*;char*;size_t;char*;size_t)"
  , "c3" : "8"
  , "c4" : "19"
 }} 
@@ -4012,7 +4012,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/hpke/hpke.c.html#1"
  , "c1" : " int "
- , "c2" : "OSSL_HPKE_open(OSSL_HPKE_CTX*;unsignedchar*;size_t*;unsignedchar*;size_t;unsignedchar*;size_t)"
+ , "c2" : "OSSL_HPKE_open(OSSL_HPKE_CTX*;char*;size_t*;char*;size_t;char*;size_t)"
  , "c3" : "7"
  , "c4" : "19"
 }} 
@@ -4021,7 +4021,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/hpke/hpke.c.html#1"
  , "c1" : " int "
- , "c2" : "OSSL_HPKE_export(OSSL_HPKE_CTX*;unsignedchar*;size_t;unsignedchar*;size_t)"
+ , "c2" : "OSSL_HPKE_export(OSSL_HPKE_CTX*;char*;size_t;char*;size_t)"
  , "c3" : "8"
  , "c4" : "30"
 }} 
@@ -4030,7 +4030,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/hpke/hpke.c.html#1"
  , "c1" : " int "
- , "c2" : "OSSL_HPKE_keygen(OSSL_HPKE_SUITE;unsignedchar*;size_t*;EVP_PKEY*;unsignedchar*;size_t;OSSL_LIB_CTX*;char*)"
+ , "c2" : "OSSL_HPKE_keygen(OSSL_HPKE_SUITE;char*;size_t*;EVP_PKEY*;char*;size_t;OSSL_LIB_CTX*;char*)"
  , "c3" : "12"
  , "c4" : "31"
 }} 
@@ -4048,7 +4048,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/hpke/hpke.c.html#1"
  , "c1" : " int "
- , "c2" : "OSSL_HPKE_get_grease_value(OSSL_HPKE_SUITE*;OSSL_HPKE_SUITE*;unsignedchar*;size_t*;unsignedchar*;size_t;OSSL_LIB_CTX*;char*)"
+ , "c2" : "OSSL_HPKE_get_grease_value(OSSL_HPKE_SUITE*;OSSL_HPKE_SUITE*;char*;size_t*;char*;size_t;OSSL_LIB_CTX*;char*)"
  , "c3" : "10"
  , "c4" : "25"
 }} 

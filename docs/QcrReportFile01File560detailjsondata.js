@@ -718,7 +718,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/cfb128.c.html#1"
  , "c1" : " void "
- , "c2" : "CRYPTO_cfb128_encrypt(unsignedchar*;unsignedchar*;size_t;void*;unsignedchar;int*;int;block128_f)"
+ , "c2" : "CRYPTO_cfb128_encrypt(char*;char*;size_t;void*;char;int*;int;block128_f)"
  , "c3" : "24"
  , "c4" : "57"
 }} 
@@ -727,7 +727,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/cfb128.c.html#1"
  , "c1" : " void "
- , "c2" : "cfbr_encrypt_block(unsignedchar*;unsignedchar*;int;void*;unsignedchar;int;block128_f)"
+ , "c2" : "cfbr_encrypt_block(char*;char*;int;void*;char;int;block128_f)"
  , "c3" : "9"
  , "c4" : "18"
 }} 
@@ -736,7 +736,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/cfb128.c.html#1"
  , "c1" : " void "
- , "c2" : "CRYPTO_cfb128_1_encrypt(unsignedchar*;unsignedchar*;size_t;void*;unsignedchar;int*;int;block128_f)"
+ , "c2" : "CRYPTO_cfb128_1_encrypt(char*;char*;size_t;void*;char;int*;int;block128_f)"
  , "c3" : "2"
  , "c4" : "7"
 }} 
@@ -745,7 +745,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/cfb128.c.html#1"
  , "c1" : " void "
- , "c2" : "CRYPTO_cfb128_8_encrypt(unsignedchar*;unsignedchar*;size_t;void*;unsignedchar;int*;int;block128_f)"
+ , "c2" : "CRYPTO_cfb128_8_encrypt(char*;char*;size_t;void*;char;int*;int;block128_f)"
  , "c3" : "2"
  , "c4" : "4"
 }} 

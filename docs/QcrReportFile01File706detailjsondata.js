@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/sm2/sm2_key.c.html" 
- , "texte" : "File crypto/sm2/sm2_key.c 12 rule violations " 
+ , "texte" : "File crypto/sm2/sm2_key.c 7 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -645,7 +645,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/sm2/sm2_key.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -744,7 +744,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/sm2/sm2_key.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -844,7 +844,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/sm2/sm2_key.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_LIB(unsignedlong)"
+ , "c2" : "ERR_GET_LIB(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -853,7 +853,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/sm2/sm2_key.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
+ , "c2" : "ERR_GET_RFLAGS(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -862,7 +862,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/sm2/sm2_key.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_REASON(unsignedlong)"
+ , "c2" : "ERR_GET_REASON(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -871,7 +871,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/sm2/sm2_key.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
+ , "c2" : "ERR_FATAL_ERROR(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -880,7 +880,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/sm2/sm2_key.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
+ , "c2" : "ERR_COMMON_ERROR(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -888,7 +888,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/sm2/sm2_key.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -1487,15 +1487,6 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/sm2/sm2_key.c.html#1"
- , "c1" : " int "
- , "c2" : "ossl_sm2_key_private_check(EC_KEY*)"
- , "c3" : "4"
- , "c4" : "13"
-}} 
 ] 
 }} 
 ]
@@ -1537,9 +1528,16 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP999999"
+ , "c3" : "Syntax error in source code"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "5"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1551,20 +1549,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-CPP000007"
- , "c3" : "goto statement"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-CPPCWE481"
- , "c3" : "Assigning instead of comparing"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
  , "c4" : "1"
@@ -1572,6 +1556,13 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/sm2/sm2_key.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/sm2/sm2_key.c near following tokens EC_KEY CPP_POINTEUR key , const EC_POINT CPP_POINTEUR pub ) ; extern unsigned EC_KEY_get_enc_flags ( const EC_KEY CPP_POINTEUR key ) ; extern "
+}} 
+,
 { "ligne" : {"" : ""
  , "c1" : "01299"
  , "c1link" : "./qc/crypto/sm2/sm2_key.c.html#1299"
@@ -1612,48 +1603,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/sm2/sm2_key.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00001] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/sm2/sm2_key.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/sm2/sm2_key.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/sm2/sm2_key.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/sm2/sm2_key.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/sm2/sm2_key.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[00001] goto statement jump to end"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/sm2/sm2_key.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000007[00001] goto statement jump to end"
 }} 
 ]
 , 

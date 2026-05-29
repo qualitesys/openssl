@@ -771,7 +771,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/drbg_ctr.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -870,7 +870,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/drbg_ctr.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -970,7 +970,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/drbg_ctr.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_LIB(unsignedlong)"
+ , "c2" : "ERR_GET_LIB(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -979,7 +979,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/drbg_ctr.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
+ , "c2" : "ERR_GET_RFLAGS(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -988,7 +988,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/drbg_ctr.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_REASON(unsignedlong)"
+ , "c2" : "ERR_GET_REASON(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -997,7 +997,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/drbg_ctr.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
+ , "c2" : "ERR_FATAL_ERROR(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1006,7 +1006,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/drbg_ctr.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
+ , "c2" : "ERR_COMMON_ERROR(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1014,7 +1014,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/drbg_ctr.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3679,7 +3679,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/drbg_ctr.c.html#1"
  , "c1" : " void "
- , "c2" : "ctr_XOR(PROV_DRBG_CTR*;unsignedchar*;size_t)"
+ , "c2" : "ctr_XOR(PROV_DRBG_CTR*;char*;size_t)"
  , "c3" : "6"
  , "c4" : "12"
 }} 
@@ -3688,7 +3688,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/drbg_ctr.c.html#1"
  , "c1" : " int "
- , "c2" : "ctr_BCC_block(PROV_DRBG_CTR*;unsignedchar*;unsignedchar*;int)"
+ , "c2" : "ctr_BCC_block(PROV_DRBG_CTR*;char*;char*;int)"
  , "c3" : "3"
  , "c4" : "6"
 }} 
@@ -3697,7 +3697,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/drbg_ctr.c.html#1"
  , "c1" : " int "
- , "c2" : "ctr_BCC_blocks(PROV_DRBG_CTR*;unsignedchar*)"
+ , "c2" : "ctr_BCC_blocks(PROV_DRBG_CTR*;char*)"
  , "c3" : "2"
  , "c4" : "7"
 }} 
@@ -3715,7 +3715,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/drbg_ctr.c.html#1"
  , "c1" : " int "
- , "c2" : "ctr_BCC_update(PROV_DRBG_CTR*;unsignedchar*;size_t)"
+ , "c2" : "ctr_BCC_update(PROV_DRBG_CTR*;char*;size_t)"
  , "c3" : "8"
  , "c4" : "13"
 }} 
@@ -3733,7 +3733,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/drbg_ctr.c.html#1"
  , "c1" : " int "
- , "c2" : "ctr_df(PROV_DRBG_CTR*;unsignedchar*;size_t;unsignedchar*;size_t;unsignedchar*;size_t)"
+ , "c2" : "ctr_df(PROV_DRBG_CTR*;char*;size_t;char*;size_t;char*;size_t)"
  , "c3" : "11"
  , "c4" : "24"
 }} 
@@ -3742,7 +3742,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/drbg_ctr.c.html#1"
  , "c1" : " int "
- , "c2" : "ctr_update(PROV_DRBG*;unsignedchar*;size_t;unsignedchar*;size_t;unsignedchar*;size_t)"
+ , "c2" : "ctr_update(PROV_DRBG*;char*;size_t;char*;size_t;char*;size_t)"
  , "c3" : "10"
  , "c4" : "20"
 }} 
@@ -3751,7 +3751,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/drbg_ctr.c.html#1"
  , "c1" : " int "
- , "c2" : "drbg_ctr_instantiate(PROV_DRBG*;unsignedchar*;size_t;unsignedchar*;size_t;unsignedchar*;size_t)"
+ , "c2" : "drbg_ctr_instantiate(PROV_DRBG*;char*;size_t;char*;size_t;char*;size_t)"
  , "c3" : "4"
  , "c4" : "8"
 }} 
@@ -3760,7 +3760,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/drbg_ctr.c.html#1"
  , "c1" : " int "
- , "c2" : "drbg_ctr_instantiate_wrapper(void*;unsignedint;int;unsignedchar*;size_t;OSSL_PARAM)"
+ , "c2" : "drbg_ctr_instantiate_wrapper(void*;int;int;char*;size_t;OSSL_PARAM)"
  , "c3" : "4"
  , "c4" : "7"
 }} 
@@ -3769,7 +3769,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/drbg_ctr.c.html#1"
  , "c1" : " int "
- , "c2" : "drbg_ctr_reseed(PROV_DRBG*;unsignedchar*;size_t;unsignedchar*;size_t)"
+ , "c2" : "drbg_ctr_reseed(PROV_DRBG*;char*;size_t;char*;size_t)"
  , "c3" : "3"
  , "c4" : "5"
 }} 
@@ -3778,7 +3778,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/drbg_ctr.c.html#1"
  , "c1" : " int "
- , "c2" : "drbg_ctr_reseed_wrapper(void*;int;unsignedchar*;size_t;unsignedchar*;size_t)"
+ , "c2" : "drbg_ctr_reseed_wrapper(void*;int;char*;size_t;char*;size_t)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -3787,7 +3787,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/drbg_ctr.c.html#1"
  , "c1" : " void "
- , "c2" : "ctr96_inc(unsignedchar*)"
+ , "c2" : "ctr96_inc(char*)"
  , "c3" : "3"
  , "c4" : "6"
 }} 
@@ -3796,7 +3796,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/drbg_ctr.c.html#1"
  , "c1" : " int "
- , "c2" : "drbg_ctr_generate(PROV_DRBG*;unsignedchar*;size_t;unsignedchar*;size_t)"
+ , "c2" : "drbg_ctr_generate(PROV_DRBG*;char*;size_t;char*;size_t)"
  , "c3" : "14"
  , "c4" : "28"
 }} 
@@ -3805,7 +3805,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/drbg_ctr.c.html#1"
  , "c1" : " int "
- , "c2" : "drbg_ctr_generate_wrapper(void*;unsignedchar*;size_t;unsignedint;int;unsignedchar*;size_t)"
+ , "c2" : "drbg_ctr_generate_wrapper(void*;char*;size_t;int;int;char*;size_t)"
  , "c3" : "1"
  , "c4" : "2"
 }} 

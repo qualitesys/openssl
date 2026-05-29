@@ -349,7 +349,7 @@ var maDataBlocs = {
  , "c5" : "02352"
  , "c5link" : "././qc/crypto/bf/bf_skey.c.html#2352"
  , "c1" : " void "
- , "c2" : "BF_set_key(BF_KEY*;int;unsignedchar*)"
+ , "c2" : "BF_set_key(BF_KEY*;int;char*)"
  , "c3" : "9"
  , "c4" : "35"
 }} 

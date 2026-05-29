@@ -1284,7 +1284,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -1383,7 +1383,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -1483,7 +1483,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_LIB(unsignedlong)"
+ , "c2" : "ERR_GET_LIB(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -1492,7 +1492,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
+ , "c2" : "ERR_GET_RFLAGS(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -1501,7 +1501,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_REASON(unsignedlong)"
+ , "c2" : "ERR_GET_REASON(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -1510,7 +1510,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
+ , "c2" : "ERR_FATAL_ERROR(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1519,7 +1519,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
+ , "c2" : "ERR_COMMON_ERROR(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1527,7 +1527,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -1851,7 +1851,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_MEM_hfn_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -1923,7 +1923,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_MEM_num_items(structlhash_st_MEM*)"
  , "c3" : "1"
  , "c4" : "1"
@@ -1932,7 +1932,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_MEM_get_down_load(structlhash_st_MEM*)"
  , "c3" : "1"
  , "c4" : "1"
@@ -1942,7 +1942,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " void "
- , "c2" : "lh_MEM_set_down_load(structlhash_st_MEM*;unsignedlong)"
+ , "c2" : "lh_MEM_set_down_load(structlhash_st_MEM*;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1978,7 +1978,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " struct lhash_st_MEM"
- , "c2" : "lh_MEM_new(unsignedlong;int)"
+ , "c2" : "lh_MEM_new(long;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2013,7 +2013,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
- , "c1" : " unsigned  char "
+ , "c1" : " char "
  , "c2" : "PACKET_end(PACKET*)"
  , "c3" : "1"
  , "c4" : "1"
@@ -2022,7 +2022,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
- , "c1" : " unsigned  char "
+ , "c1" : " char "
  , "c2" : "PACKET_data(PACKET*)"
  , "c3" : "1"
  , "c4" : "1"
@@ -2032,7 +2032,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_buf_init(PACKET*;unsignedchar*;size_t)"
+ , "c2" : "PACKET_buf_init(PACKET*;char*;size_t)"
  , "c3" : "2"
  , "c4" : "4"
 }} 
@@ -2077,7 +2077,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_net_2(PACKET*;unsignedint*)"
+ , "c2" : "PACKET_peek_net_2(PACKET*;int*)"
  , "c3" : "2"
  , "c4" : "4"
 }} 
@@ -2086,7 +2086,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_net_2(PACKET*;unsignedint*)"
+ , "c2" : "PACKET_get_net_2(PACKET*;int*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -2104,7 +2104,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_net_3(PACKET*;unsignedlong*)"
+ , "c2" : "PACKET_peek_net_3(PACKET*;long*)"
  , "c3" : "2"
  , "c4" : "5"
 }} 
@@ -2113,7 +2113,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_net_3(PACKET*;unsignedlong*)"
+ , "c2" : "PACKET_get_net_3(PACKET*;long*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -2131,7 +2131,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_net_4(PACKET*;unsignedlong*)"
+ , "c2" : "PACKET_peek_net_4(PACKET*;long*)"
  , "c3" : "2"
  , "c4" : "6"
 }} 
@@ -2149,7 +2149,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_net_4(PACKET*;unsignedlong*)"
+ , "c2" : "PACKET_get_net_4(PACKET*;long*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -2176,7 +2176,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_1(PACKET*;unsignedint*)"
+ , "c2" : "PACKET_peek_1(PACKET*;int*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -2185,7 +2185,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_1(PACKET*;unsignedint*)"
+ , "c2" : "PACKET_get_1(PACKET*;int*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -2203,7 +2203,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_4(PACKET*;unsignedlong*)"
+ , "c2" : "PACKET_peek_4(PACKET*;long*)"
  , "c3" : "2"
  , "c4" : "6"
 }} 
@@ -2212,7 +2212,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_4(PACKET*;unsignedlong*)"
+ , "c2" : "PACKET_get_4(PACKET*;long*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -2221,7 +2221,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_bytes(PACKET*;unsignedchar*;size_t)"
+ , "c2" : "PACKET_peek_bytes(PACKET*;char*;size_t)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -2230,7 +2230,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_bytes(PACKET*;unsignedchar*;size_t)"
+ , "c2" : "PACKET_get_bytes(PACKET*;char*;size_t)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -2239,7 +2239,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_copy_bytes(PACKET*;unsignedchar*;size_t)"
+ , "c2" : "PACKET_peek_copy_bytes(PACKET*;char*;size_t)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -2248,7 +2248,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_copy_bytes(PACKET*;unsignedchar*;size_t)"
+ , "c2" : "PACKET_copy_bytes(PACKET*;char*;size_t)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -2257,7 +2257,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_copy_all(PACKET*;unsignedchar*;size_t;size_t*)"
+ , "c2" : "PACKET_copy_all(PACKET*;char*;size_t;size_t*)"
  , "c3" : "2"
  , "c4" : "5"
 }} 
@@ -2266,7 +2266,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_memdup(PACKET*;unsignedchar*;size_t*)"
+ , "c2" : "PACKET_memdup(PACKET*;char*;size_t*)"
  , "c3" : "3"
  , "c4" : "10"
 }} 
@@ -2410,7 +2410,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "WPACKET_allocate_bytes(WPACKET*;size_t;unsignedchar*)"
+ , "c2" : "WPACKET_allocate_bytes(WPACKET*;size_t;char*)"
  , "c3" : "2"
  , "c4" : "4"
 }} 
@@ -2419,7 +2419,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "WPACKET_sub_allocate_bytes__(WPACKET*;size_t;unsignedchar*;size_t)"
+ , "c2" : "WPACKET_sub_allocate_bytes__(WPACKET*;size_t;char*;size_t)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -2428,7 +2428,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "WPACKET_reserve_bytes(WPACKET*;size_t;unsignedchar*)"
+ , "c2" : "WPACKET_reserve_bytes(WPACKET*;size_t;char*)"
  , "c3" : "10"
  , "c4" : "12"
 }} 
@@ -2437,7 +2437,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "WPACKET_sub_reserve_bytes__(WPACKET*;size_t;unsignedchar*;size_t)"
+ , "c2" : "WPACKET_sub_reserve_bytes__(WPACKET*;size_t;char*;size_t)"
  , "c3" : "4"
  , "c4" : "4"
 }} 
@@ -2464,7 +2464,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "WPACKET_init_static_len(WPACKET*;unsignedchar*;size_t;size_t)"
+ , "c2" : "WPACKET_init_static_len(WPACKET*;char*;size_t;size_t)"
  , "c3" : "2"
  , "c4" : "7"
 }} 
@@ -2473,7 +2473,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "WPACKET_init_der(WPACKET*;unsignedchar*;size_t)"
+ , "c2" : "WPACKET_init_der(WPACKET*;char*;size_t)"
  , "c3" : "2"
  , "c4" : "6"
 }} 
@@ -2518,7 +2518,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "WPACKET_set_flags(WPACKET*;unsignedint)"
+ , "c2" : "WPACKET_set_flags(WPACKET*;int)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -2527,7 +2527,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "put_value(unsignedchar*;uint64_t;size_t)"
+ , "c2" : "put_value(char*;uint64_t;size_t)"
  , "c3" : "4"
  , "c4" : "8"
 }} 
@@ -2536,7 +2536,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "put_quic_value(unsignedchar*;size_t;size_t)"
+ , "c2" : "put_quic_value(char*;size_t;size_t)"
  , "c3" : "3"
  , "c4" : "4"
 }} 
@@ -2661,7 +2661,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
- , "c1" : " unsigned  char "
+ , "c1" : " char "
  , "c2" : "WPACKET_get_curr(WPACKET*)"
  , "c3" : "3"
  , "c4" : "4"
@@ -2707,7 +2707,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/packet.c.html#1"
  , "c1" : " int "
- , "c2" : "WPACKET_quic_sub_allocate_bytes(WPACKET*;size_t;unsignedchar*)"
+ , "c2" : "WPACKET_quic_sub_allocate_bytes(WPACKET*;size_t;char*)"
  , "c3" : "2"
  , "c4" : "2"
 }} 

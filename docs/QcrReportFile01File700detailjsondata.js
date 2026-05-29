@@ -151,7 +151,7 @@ var maDataBlocs = {
  , "c5" : "00872"
  , "c5link" : "././qc/crypto/sha/sha3.c.html#872"
  , "c1" : " int "
- , "c2" : "ossl_sha3_init(KECCAK1600_CTX*;unsignedchar;size_t)"
+ , "c2" : "ossl_sha3_init(KECCAK1600_CTX*;char;size_t)"
  , "c3" : "2"
  , "c4" : "7"
 }} 
@@ -160,7 +160,7 @@ var maDataBlocs = {
  , "c5" : "00887"
  , "c5link" : "././qc/crypto/sha/sha3.c.html#887"
  , "c1" : " int "
- , "c2" : "ossl_keccak_kmac_init(KECCAK1600_CTX*;unsignedchar;size_t)"
+ , "c2" : "ossl_keccak_kmac_init(KECCAK1600_CTX*;char;size_t)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -178,7 +178,7 @@ var maDataBlocs = {
  , "c5" : "00947"
  , "c5link" : "././qc/crypto/sha/sha3.c.html#947"
  , "c1" : " int "
- , "c2" : "ossl_sha3_final(KECCAK1600_CTX*;unsignedchar*;size_t)"
+ , "c2" : "ossl_sha3_final(KECCAK1600_CTX*;char*;size_t)"
  , "c3" : "3"
  , "c4" : "11"
 }} 
@@ -187,7 +187,7 @@ var maDataBlocs = {
  , "c5" : "00974"
  , "c5link" : "././qc/crypto/sha/sha3.c.html#974"
  , "c1" : " int "
- , "c2" : "ossl_sha3_squeeze(KECCAK1600_CTX*;unsignedchar*;size_t)"
+ , "c2" : "ossl_sha3_squeeze(KECCAK1600_CTX*;char*;size_t)"
  , "c3" : "10"
  , "c4" : "29"
 }} 

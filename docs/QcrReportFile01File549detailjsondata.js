@@ -717,8 +717,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/md4/md4_one.c.html#1"
- , "c1" : " unsigned  char "
- , "c2" : "MD4(unsignedchar*;size_t;unsignedchar*)"
+ , "c1" : " char "
+ , "c2" : "MD4(char*;size_t;char*)"
  , "c3" : "3"
  , "c4" : "8"
 }} 

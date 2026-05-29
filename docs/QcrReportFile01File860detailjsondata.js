@@ -735,7 +735,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_sm2_sig.c.html#1"
- , "c1" : " unsigned  char "
+ , "c1" : " char "
  , "c2" : "PACKET_end(PACKET*)"
  , "c3" : "1"
  , "c4" : "1"
@@ -744,7 +744,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_sm2_sig.c.html#1"
- , "c1" : " unsigned  char "
+ , "c1" : " char "
  , "c2" : "PACKET_data(PACKET*)"
  , "c3" : "1"
  , "c4" : "1"
@@ -754,7 +754,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_sm2_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_buf_init(PACKET*;unsignedchar*;size_t)"
+ , "c2" : "PACKET_buf_init(PACKET*;char*;size_t)"
  , "c3" : "2"
  , "c4" : "4"
 }} 
@@ -799,7 +799,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_sm2_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_net_2(PACKET*;unsignedint*)"
+ , "c2" : "PACKET_peek_net_2(PACKET*;int*)"
  , "c3" : "2"
  , "c4" : "4"
 }} 
@@ -808,7 +808,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_sm2_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_net_2(PACKET*;unsignedint*)"
+ , "c2" : "PACKET_get_net_2(PACKET*;int*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -826,7 +826,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_sm2_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_net_3(PACKET*;unsignedlong*)"
+ , "c2" : "PACKET_peek_net_3(PACKET*;long*)"
  , "c3" : "2"
  , "c4" : "5"
 }} 
@@ -835,7 +835,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_sm2_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_net_3(PACKET*;unsignedlong*)"
+ , "c2" : "PACKET_get_net_3(PACKET*;long*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -853,7 +853,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_sm2_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_net_4(PACKET*;unsignedlong*)"
+ , "c2" : "PACKET_peek_net_4(PACKET*;long*)"
  , "c3" : "2"
  , "c4" : "6"
 }} 
@@ -871,7 +871,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_sm2_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_net_4(PACKET*;unsignedlong*)"
+ , "c2" : "PACKET_get_net_4(PACKET*;long*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -898,7 +898,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_sm2_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_1(PACKET*;unsignedint*)"
+ , "c2" : "PACKET_peek_1(PACKET*;int*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -907,7 +907,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_sm2_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_1(PACKET*;unsignedint*)"
+ , "c2" : "PACKET_get_1(PACKET*;int*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -925,7 +925,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_sm2_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_4(PACKET*;unsignedlong*)"
+ , "c2" : "PACKET_peek_4(PACKET*;long*)"
  , "c3" : "2"
  , "c4" : "6"
 }} 
@@ -934,7 +934,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_sm2_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_4(PACKET*;unsignedlong*)"
+ , "c2" : "PACKET_get_4(PACKET*;long*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -943,7 +943,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_sm2_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_bytes(PACKET*;unsignedchar*;size_t)"
+ , "c2" : "PACKET_peek_bytes(PACKET*;char*;size_t)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -952,7 +952,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_sm2_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_bytes(PACKET*;unsignedchar*;size_t)"
+ , "c2" : "PACKET_get_bytes(PACKET*;char*;size_t)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -961,7 +961,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_sm2_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_copy_bytes(PACKET*;unsignedchar*;size_t)"
+ , "c2" : "PACKET_peek_copy_bytes(PACKET*;char*;size_t)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -970,7 +970,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_sm2_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_copy_bytes(PACKET*;unsignedchar*;size_t)"
+ , "c2" : "PACKET_copy_bytes(PACKET*;char*;size_t)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -979,7 +979,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_sm2_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_copy_all(PACKET*;unsignedchar*;size_t;size_t*)"
+ , "c2" : "PACKET_copy_all(PACKET*;char*;size_t;size_t*)"
  , "c3" : "2"
  , "c4" : "5"
 }} 
@@ -988,7 +988,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_sm2_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_memdup(PACKET*;unsignedchar*;size_t*)"
+ , "c2" : "PACKET_memdup(PACKET*;char*;size_t*)"
  , "c3" : "3"
  , "c4" : "10"
 }} 
@@ -3674,15 +3674,6 @@ var maDataBlocs = {
  , "c3" : "1"
  , "c4" : "1"
 }} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/common/der/der_sm2_sig.c.html#1"
- , "c1" : " int "
- , "c2" : "ossl_DER_w_algorithmIdentifier_SM2_with_MD(WPACKET*;int;EC_KEY*;int)"
- , "c3" : "2"
- , "c4" : "8"
-}} 
 ] 
 }} 
 ]
@@ -3724,9 +3715,16 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP999999"
+ , "c3" : "Syntax error in source code"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000005"
  , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "6"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -3759,6 +3757,13 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/common/der/der_sm2_sig.c near following tokens EC_KEY CPP_POINTEUR key , const EC_POINT CPP_POINTEUR pub ) ; __attribute__ ( ( deprecated ( _Since OpenSSL _ _3.0_ ) ) ) unsigned "
+}} 
+,
 { "ligne" : {"" : ""
  , "c1" : "00494"
  , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#494"
@@ -3890,13 +3895,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#1"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPP000014[00001] The pointer data is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/common/der/der_sm2_sig.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[00001] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ,
 { "ligne" : {"" : ""

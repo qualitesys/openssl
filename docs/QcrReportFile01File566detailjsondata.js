@@ -3391,7 +3391,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/siv128.c.html#1"
  , "c1" : " int "
- , "c2" : "siv128_do_s2v_p(SIV128_CONTEXT*;SIV_BLOCK*;unsignedcharconst*;size_t)"
+ , "c2" : "siv128_do_s2v_p(SIV128_CONTEXT*;SIV_BLOCK*;charconst*;size_t)"
  , "c3" : "8"
  , "c4" : "20"
 }} 
@@ -3400,7 +3400,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/siv128.c.html#1"
  , "c1" : " int "
- , "c2" : "siv128_do_encrypt(EVP_CIPHER_CTX*;unsignedchar*;unsignedcharconst*;size_t;SIV_BLOCK*)"
+ , "c2" : "siv128_do_encrypt(EVP_CIPHER_CTX*;char*;charconst*;size_t;SIV_BLOCK*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -3409,7 +3409,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/siv128.c.html#1"
  , "c1" : "SIV128_CONTEXT"
- , "c2" : "ossl_siv128_new(unsignedchar*;int;EVP_CIPHER*;EVP_CIPHER*;OSSL_LIB_CTX*;char*)"
+ , "c2" : "ossl_siv128_new(char*;int;EVP_CIPHER*;EVP_CIPHER*;OSSL_LIB_CTX*;char*)"
  , "c3" : "3"
  , "c4" : "6"
 }} 
@@ -3418,7 +3418,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/siv128.c.html#1"
  , "c1" : " int "
- , "c2" : "ossl_siv128_init(SIV128_CONTEXT*;unsignedchar*;int;EVP_CIPHER*;EVP_CIPHER*;OSSL_LIB_CTX*;char*)"
+ , "c2" : "ossl_siv128_init(SIV128_CONTEXT*;char*;int;EVP_CIPHER*;EVP_CIPHER*;OSSL_LIB_CTX*;char*)"
  , "c3" : "4"
  , "c4" : "27"
 }} 
@@ -3436,7 +3436,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/siv128.c.html#1"
  , "c1" : " int "
- , "c2" : "ossl_siv128_aad(SIV128_CONTEXT*;unsignedchar*;size_t)"
+ , "c2" : "ossl_siv128_aad(SIV128_CONTEXT*;char*;size_t)"
  , "c3" : "2"
  , "c4" : "9"
 }} 
@@ -3445,7 +3445,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/siv128.c.html#1"
  , "c1" : " int "
- , "c2" : "ossl_siv128_encrypt(SIV128_CONTEXT*;unsignedchar*;unsignedchar*;size_t)"
+ , "c2" : "ossl_siv128_encrypt(SIV128_CONTEXT*;char*;char*;size_t)"
  , "c3" : "4"
  , "c4" : "10"
 }} 
@@ -3454,7 +3454,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/siv128.c.html#1"
  , "c1" : " int "
- , "c2" : "ossl_siv128_decrypt(SIV128_CONTEXT*;unsignedchar*;unsignedchar*;size_t)"
+ , "c2" : "ossl_siv128_decrypt(SIV128_CONTEXT*;char*;char*;size_t)"
  , "c3" : "5"
  , "c4" : "17"
 }} 
@@ -3472,7 +3472,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/siv128.c.html#1"
  , "c1" : " int "
- , "c2" : "ossl_siv128_set_tag(SIV128_CONTEXT*;unsignedchar*;size_t)"
+ , "c2" : "ossl_siv128_set_tag(SIV128_CONTEXT*;char*;size_t)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -3481,7 +3481,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/siv128.c.html#1"
  , "c1" : " int "
- , "c2" : "ossl_siv128_get_tag(SIV128_CONTEXT*;unsignedchar*;size_t)"
+ , "c2" : "ossl_siv128_get_tag(SIV128_CONTEXT*;char*;size_t)"
  , "c3" : "2"
  , "c4" : "3"
 }} 

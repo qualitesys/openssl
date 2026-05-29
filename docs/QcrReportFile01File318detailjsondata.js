@@ -493,7 +493,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/des/pcbc_enc.c.html#1"
  , "c1" : " void "
- , "c2" : "DES_pcbc_encrypt(unsignedchar*;unsignedchar*;long;DES_key_schedule*;DES_cblock*;int)"
+ , "c2" : "DES_pcbc_encrypt(char*;char*;long;DES_key_schedule*;DES_cblock*;int)"
  , "c3" : "25"
  , "c4" : "60"
 }} 

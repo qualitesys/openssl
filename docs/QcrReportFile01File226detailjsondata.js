@@ -178,7 +178,7 @@ var maDataBlocs = {
  , "c5" : "00920"
  , "c5link" : "././qc/crypto/camellia/cmll_cfb.c.html#920"
  , "c1" : " void "
- , "c2" : "Camellia_cfb128_encrypt(unsignedchar*;unsignedchar*;size_t;CAMELLIA_KEY*;unsignedchar*;int*;int)"
+ , "c2" : "Camellia_cfb128_encrypt(char*;char*;size_t;CAMELLIA_KEY*;char*;int*;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -187,7 +187,7 @@ var maDataBlocs = {
  , "c5" : "00930"
  , "c5link" : "././qc/crypto/camellia/cmll_cfb.c.html#930"
  , "c1" : " void "
- , "c2" : "Camellia_cfb1_encrypt(unsignedchar*;unsignedchar*;size_t;CAMELLIA_KEY*;unsignedchar*;int*;int)"
+ , "c2" : "Camellia_cfb1_encrypt(char*;char*;size_t;CAMELLIA_KEY*;char*;int*;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -196,7 +196,7 @@ var maDataBlocs = {
  , "c5" : "00938"
  , "c5link" : "././qc/crypto/camellia/cmll_cfb.c.html#938"
  , "c1" : " void "
- , "c2" : "Camellia_cfb8_encrypt(unsignedchar*;unsignedchar*;size_t;CAMELLIA_KEY*;unsignedchar*;int*;int)"
+ , "c2" : "Camellia_cfb8_encrypt(char*;char*;size_t;CAMELLIA_KEY*;char*;int*;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

@@ -771,7 +771,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/rsa/rsa_meth.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -870,7 +870,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/rsa/rsa_meth.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -970,7 +970,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/rsa/rsa_meth.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_LIB(unsignedlong)"
+ , "c2" : "ERR_GET_LIB(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -979,7 +979,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/rsa/rsa_meth.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
+ , "c2" : "ERR_GET_RFLAGS(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -988,7 +988,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/rsa/rsa_meth.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_REASON(unsignedlong)"
+ , "c2" : "ERR_GET_REASON(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -997,7 +997,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/rsa/rsa_meth.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
+ , "c2" : "ERR_FATAL_ERROR(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1006,7 +1006,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/rsa/rsa_meth.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
+ , "c2" : "ERR_COMMON_ERROR(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1014,7 +1014,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/rsa/rsa_meth.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -1843,7 +1843,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/rsa/rsa_meth.c.html#1"
  , "c1" : " int "
- , "c2" : "(int;unsignedchar*;unsignedchar*;RSA*;int)"
+ , "c2" : "(int;char*;char*;RSA*;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1861,7 +1861,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/rsa/rsa_meth.c.html#1"
  , "c1" : " int "
- , "c2" : "(int;unsignedchar*;unsignedchar*;RSA*;int)"
+ , "c2" : "(int;char*;char*;RSA*;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1879,7 +1879,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/rsa/rsa_meth.c.html#1"
  , "c1" : " int "
- , "c2" : "(int;unsignedchar*;unsignedchar*;RSA*;int)"
+ , "c2" : "(int;char*;char*;RSA*;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1897,7 +1897,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/rsa/rsa_meth.c.html#1"
  , "c1" : " int "
- , "c2" : "(int;unsignedchar*;unsignedchar*;RSA*;int)"
+ , "c2" : "(int;char*;char*;RSA*;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1987,7 +1987,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/rsa/rsa_meth.c.html#1"
  , "c1" : " int "
- , "c2" : "(int;unsignedchar*;unsignedint;unsignedchar*;unsignedint*;RSA*)"
+ , "c2" : "(int;char*;int;char*;int*;RSA*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2005,7 +2005,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/rsa/rsa_meth.c.html#1"
  , "c1" : " int "
- , "c2" : "(int;unsignedchar*;unsignedint;unsignedchar*;unsignedint;RSA*)"
+ , "c2" : "(int;char*;int;char*;int;RSA*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

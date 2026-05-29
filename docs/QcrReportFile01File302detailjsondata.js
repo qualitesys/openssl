@@ -493,7 +493,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/ctype.c.html#1"
  , "c1" : " int "
- , "c2" : "ossl_ctype_check(int;unsignedint)"
+ , "c2" : "ossl_ctype_check(int;int)"
  , "c3" : "1"
  , "c4" : "3"
 }} 

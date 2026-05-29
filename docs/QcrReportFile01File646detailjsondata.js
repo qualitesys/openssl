@@ -754,7 +754,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/quic_vlint.c.html#1"
  , "c1" : "uint64_t"
- , "c2" : "ossl_quic_vlint_decode_unchecked(unsignedchar*)"
+ , "c2" : "ossl_quic_vlint_decode_unchecked(char*)"
  , "c3" : "4"
  , "c4" : "6"
 }} 
@@ -763,7 +763,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/quic_vlint.c.html#1"
  , "c1" : " int "
- , "c2" : "ossl_quic_vlint_decode(unsignedchar*;size_t;uint64_t*)"
+ , "c2" : "ossl_quic_vlint_decode(char*;size_t;uint64_t*)"
  , "c3" : "3"
  , "c4" : "8"
 }} 

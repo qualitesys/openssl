@@ -178,7 +178,7 @@ var maDataBlocs = {
  , "c5" : "00915"
  , "c5link" : "././qc/crypto/aes/aes_cbc.c.html#915"
  , "c1" : " void "
- , "c2" : "AES_cbc_encrypt(unsignedchar*;unsignedchar*;size_t;AES_KEY*;unsignedchar*;int)"
+ , "c2" : "AES_cbc_encrypt(char*;char*;size_t;AES_KEY*;char*;int)"
  , "c3" : "3"
  , "c4" : "2"
 }} 

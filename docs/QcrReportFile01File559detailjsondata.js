@@ -718,7 +718,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/ccm128.c.html#1"
  , "c1" : " void "
- , "c2" : "CRYPTO_ccm128_init(CCM128_CONTEXT*;unsignedint;unsignedint;void*;block128_f)"
+ , "c2" : "CRYPTO_ccm128_init(CCM128_CONTEXT*;int;int;void*;block128_f)"
  , "c3" : "1"
  , "c4" : "5"
 }} 
@@ -727,7 +727,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/ccm128.c.html#1"
  , "c1" : " int "
- , "c2" : "CRYPTO_ccm128_setiv(CCM128_CONTEXT*;unsignedchar*;size_t;size_t)"
+ , "c2" : "CRYPTO_ccm128_setiv(CCM128_CONTEXT*;char*;size_t;size_t)"
  , "c3" : "4"
  , "c4" : "14"
 }} 
@@ -736,7 +736,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/ccm128.c.html#1"
  , "c1" : " void "
- , "c2" : "CRYPTO_ccm128_aad(CCM128_CONTEXT*;unsignedchar*;size_t)"
+ , "c2" : "CRYPTO_ccm128_aad(CCM128_CONTEXT*;char*;size_t)"
  , "c3" : "9"
  , "c4" : "32"
 }} 
@@ -745,7 +745,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/ccm128.c.html#1"
  , "c1" : " void "
- , "c2" : "ctr64_inc(unsignedchar*)"
+ , "c2" : "ctr64_inc(char*)"
  , "c3" : "4"
  , "c4" : "9"
 }} 
@@ -754,7 +754,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/ccm128.c.html#1"
  , "c1" : " int "
- , "c2" : "CRYPTO_ccm128_encrypt(CCM128_CONTEXT*;unsignedchar*;unsignedchar*;size_t)"
+ , "c2" : "CRYPTO_ccm128_encrypt(CCM128_CONTEXT*;char*;char*;size_t)"
  , "c3" : "10"
  , "c4" : "46"
 }} 
@@ -763,7 +763,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/ccm128.c.html#1"
  , "c1" : " int "
- , "c2" : "CRYPTO_ccm128_decrypt(CCM128_CONTEXT*;unsignedchar*;unsignedchar*;size_t)"
+ , "c2" : "CRYPTO_ccm128_decrypt(CCM128_CONTEXT*;char*;char*;size_t)"
  , "c3" : "8"
  , "c4" : "39"
 }} 
@@ -772,7 +772,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/ccm128.c.html#1"
  , "c1" : " void "
- , "c2" : "ctr64_add(unsignedchar*;size_t)"
+ , "c2" : "ctr64_add(char*;size_t)"
  , "c3" : "3"
  , "c4" : "8"
 }} 
@@ -781,7 +781,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/ccm128.c.html#1"
  , "c1" : " int "
- , "c2" : "CRYPTO_ccm128_encrypt_ccm64(CCM128_CONTEXT*;unsignedchar*;unsignedchar*;size_t;ccm128_f)"
+ , "c2" : "CRYPTO_ccm128_encrypt_ccm64(CCM128_CONTEXT*;char*;char*;size_t;ccm128_f)"
  , "c3" : "11"
  , "c4" : "42"
 }} 
@@ -790,7 +790,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/ccm128.c.html#1"
  , "c1" : " int "
- , "c2" : "CRYPTO_ccm128_decrypt_ccm64(CCM128_CONTEXT*;unsignedchar*;unsignedchar*;size_t;ccm128_f)"
+ , "c2" : "CRYPTO_ccm128_decrypt_ccm64(CCM128_CONTEXT*;char*;char*;size_t;ccm128_f)"
  , "c3" : "9"
  , "c4" : "37"
 }} 
@@ -799,7 +799,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/ccm128.c.html#1"
  , "c1" : "size_t"
- , "c2" : "CRYPTO_ccm128_tag(CCM128_CONTEXT*;unsignedchar*;size_t)"
+ , "c2" : "CRYPTO_ccm128_tag(CCM128_CONTEXT*;char*;size_t)"
  , "c3" : "2"
  , "c4" : "6"
 }} 

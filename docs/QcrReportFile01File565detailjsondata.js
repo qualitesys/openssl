@@ -718,7 +718,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/ofb128.c.html#1"
  , "c1" : " void "
- , "c2" : "CRYPTO_ofb128_encrypt(unsignedchar*;unsignedchar*;size_t;void*;unsignedchar;int*;block128_f)"
+ , "c2" : "CRYPTO_ofb128_encrypt(char*;char*;size_t;void*;char;int*;block128_f)"
  , "c3" : "12"
  , "c4" : "27"
 }} 

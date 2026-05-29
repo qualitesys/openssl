@@ -3462,7 +3462,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3561,7 +3561,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3661,7 +3661,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_LIB(unsignedlong)"
+ , "c2" : "ERR_GET_LIB(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3670,7 +3670,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
+ , "c2" : "ERR_GET_RFLAGS(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3679,7 +3679,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_REASON(unsignedlong)"
+ , "c2" : "ERR_GET_REASON(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3688,7 +3688,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
+ , "c2" : "ERR_FATAL_ERROR(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3697,7 +3697,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
+ , "c2" : "ERR_COMMON_ERROR(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3705,7 +3705,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -4029,7 +4029,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_MEM_hfn_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -4101,7 +4101,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_MEM_num_items(structlhash_st_MEM*)"
  , "c3" : "1"
  , "c4" : "1"
@@ -4110,7 +4110,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_MEM_get_down_load(structlhash_st_MEM*)"
  , "c3" : "1"
  , "c4" : "1"
@@ -4120,7 +4120,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1"
  , "c1" : " void "
- , "c2" : "lh_MEM_set_down_load(structlhash_st_MEM*;unsignedlong)"
+ , "c2" : "lh_MEM_set_down_load(structlhash_st_MEM*;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4156,7 +4156,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1"
  , "c1" : " struct lhash_st_MEM"
- , "c2" : "lh_MEM_new(unsignedlong;int)"
+ , "c2" : "lh_MEM_new(long;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4174,7 +4174,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1"
  , "c1" : " int "
- , "c2" : "aes_generic_ocb_setiv(PROV_AES_OCB_CTX*;unsignedchar*;size_t;size_t)"
+ , "c2" : "aes_generic_ocb_setiv(PROV_AES_OCB_CTX*;char*;size_t;size_t)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4183,7 +4183,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1"
  , "c1" : " int "
- , "c2" : "aes_generic_ocb_setaad(PROV_AES_OCB_CTX*;unsignedchar*;size_t)"
+ , "c2" : "aes_generic_ocb_setaad(PROV_AES_OCB_CTX*;char*;size_t)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4192,7 +4192,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1"
  , "c1" : " int "
- , "c2" : "aes_generic_ocb_gettag(PROV_AES_OCB_CTX*;unsignedchar*;size_t)"
+ , "c2" : "aes_generic_ocb_gettag(PROV_AES_OCB_CTX*;char*;size_t)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4219,7 +4219,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1"
  , "c1" : " int "
- , "c2" : "aes_generic_ocb_cipher(PROV_AES_OCB_CTX*;unsignedchar*;unsignedchar*;size_t)"
+ , "c2" : "aes_generic_ocb_cipher(PROV_AES_OCB_CTX*;char*;char*;size_t)"
  , "c3" : "5"
  , "c4" : "3"
 }} 
@@ -4237,7 +4237,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1"
  , "c1" : " int "
- , "c2" : "aes_ocb_init(void*;unsignedchar*;size_t;unsignedchar*;size_t;OSSL_PARAM;int)"
+ , "c2" : "aes_ocb_init(void*;char*;size_t;char*;size_t;OSSL_PARAM;int)"
  , "c3" : "9"
  , "c4" : "14"
 }} 
@@ -4246,7 +4246,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1"
  , "c1" : " int "
- , "c2" : "aes_ocb_einit(void*;unsignedchar*;size_t;unsignedchar*;size_t;OSSL_PARAM)"
+ , "c2" : "aes_ocb_einit(void*;char*;size_t;char*;size_t;OSSL_PARAM)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4255,7 +4255,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1"
  , "c1" : " int "
- , "c2" : "aes_ocb_dinit(void*;unsignedchar*;size_t;unsignedchar*;size_t;OSSL_PARAM)"
+ , "c2" : "aes_ocb_dinit(void*;char*;size_t;char*;size_t;OSSL_PARAM)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4264,7 +4264,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1"
  , "c1" : " int "
- , "c2" : "aes_ocb_block_update_internal(PROV_AES_OCB_CTX*;unsignedchar*;size_t*;unsignedchar*;size_t*;size_t;unsignedchar*;size_t;OSSL_ocb_cipher_fn)"
+ , "c2" : "aes_ocb_block_update_internal(PROV_AES_OCB_CTX*;char*;size_t*;char*;size_t*;size_t;char*;size_t;OSSL_ocb_cipher_fn)"
  , "c3" : "11"
  , "c4" : "21"
 }} 
@@ -4273,7 +4273,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1"
  , "c1" : " int "
- , "c2" : "cipher_updateaad(PROV_AES_OCB_CTX*;unsignedchar*;unsignedchar*;size_t)"
+ , "c2" : "cipher_updateaad(PROV_AES_OCB_CTX*;char*;char*;size_t)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4291,7 +4291,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1"
  , "c1" : " int "
- , "c2" : "aes_ocb_block_update(void*;unsignedchar*;size_t*;size_t;unsignedchar*;size_t)"
+ , "c2" : "aes_ocb_block_update(void*;char*;size_t*;size_t;char*;size_t)"
  , "c3" : "5"
  , "c4" : "14"
 }} 
@@ -4300,7 +4300,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1"
  , "c1" : " int "
- , "c2" : "aes_ocb_block_final(void*;unsignedchar*;size_t*;size_t)"
+ , "c2" : "aes_ocb_block_final(void*;char*;size_t*;size_t)"
  , "c3" : "12"
  , "c4" : "14"
 }} 
@@ -4309,7 +4309,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1"
  , "c1" : " void "
- , "c2" : "aes_ocb_newctx(void*;size_t;size_t;size_t;unsignedint;uint64_t)"
+ , "c2" : "aes_ocb_newctx(void*;size_t;size_t;size_t;int;uint64_t)"
  , "c3" : "3"
  , "c4" : "6"
 }} 
@@ -4372,7 +4372,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/ciphers/cipher_aes_ocb.c.html#1"
  , "c1" : " int "
- , "c2" : "aes_ocb_cipher(void*;unsignedchar*;size_t*;size_t;unsignedchar*;size_t)"
+ , "c2" : "aes_ocb_cipher(void*;char*;size_t*;size_t;char*;size_t)"
  , "c3" : "4"
  , "c4" : "8"
 }} 

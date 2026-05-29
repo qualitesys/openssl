@@ -16,7 +16,7 @@ var maDataBlocs = {
  , "c5" : "00618"
  , "c5link" : "././qc/crypto/cast/c_skey.c.html#618"
  , "c1" : " void "
- , "c2" : "CAST_set_key(CAST_KEY*;int;unsignedchar*)"
+ , "c2" : "CAST_set_key(CAST_KEY*;int;char*)"
  , "c3" : "9"
  , "c4" : "156"
 }} 

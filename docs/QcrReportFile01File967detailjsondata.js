@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/encode_decode/encode_key2blob.c.html" 
- , "texte" : "File providers/implementations/encode_decode/encode_key2blob.c 8 rule violations " 
+ , "texte" : "File providers/implementations/encode_decode/encode_key2blob.c 7 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -2823,7 +2823,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2blob.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -2922,7 +2922,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2blob.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3022,7 +3022,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2blob.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_LIB(unsignedlong)"
+ , "c2" : "ERR_GET_LIB(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3031,7 +3031,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2blob.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
+ , "c2" : "ERR_GET_RFLAGS(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3040,7 +3040,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2blob.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_REASON(unsignedlong)"
+ , "c2" : "ERR_GET_REASON(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3049,7 +3049,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2blob.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
+ , "c2" : "ERR_FATAL_ERROR(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3058,7 +3058,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2blob.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
+ , "c2" : "ERR_COMMON_ERROR(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3066,7 +3066,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2blob.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3665,123 +3665,6 @@ var maDataBlocs = {
  , "c3" : "2"
  , "c4" : "2"
 }} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2blob.c.html#1"
- , "c1" : " int "
- , "c2" : "write_blob(void*;OSSL_CORE_BIO*;void*;int)"
- , "c3" : "2"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2blob.c.html#1"
- , "c1" : " void "
- , "c2" : "key2blob_newctx(void*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2blob.c.html#1"
- , "c1" : " void "
- , "c2" : "key2blob_freectx(void*)"
- , "c3" : "1"
- , "c4" : "0"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2blob.c.html#1"
- , "c1" : " int "
- , "c2" : "key2blob_check_selection(int;int)"
- , "c3" : "4"
- , "c4" : "9"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2blob.c.html#1"
- , "c1" : " int "
- , "c2" : "key2blob_encode(void*;void*;int;OSSL_CORE_BIO*)"
- , "c3" : "2"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2blob.c.html#1"
- , "c1" : " void "
- , "c2" : "ec2blob_import_object(void*;int;OSSL_PARAM)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2blob.c.html#1"
- , "c1" : " void "
- , "c2" : "ec2blob_free_object(void*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2blob.c.html#1"
- , "c1" : " int "
- , "c2" : "ec2blob_does_selection(void*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2blob.c.html#1"
- , "c1" : " int "
- , "c2" : "ec2blob_encode(void*;OSSL_CORE_BIO*;void*;OSSL_PARAM;int;OSSL_PASSPHRASE_CALLBACK*;void*)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2blob.c.html#1"
- , "c1" : " void "
- , "c2" : "sm22blob_import_object(void*;int;OSSL_PARAM)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2blob.c.html#1"
- , "c1" : " void "
- , "c2" : "sm22blob_free_object(void*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2blob.c.html#1"
- , "c1" : " int "
- , "c2" : "sm22blob_does_selection(void*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/providers/implementations/encode_decode/encode_key2blob.c.html#1"
- , "c1" : " int "
- , "c2" : "sm22blob_encode(void*;OSSL_CORE_BIO*;void*;OSSL_PARAM;int;OSSL_PASSPHRASE_CALLBACK*;void*)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
 ] 
 }} 
 ]
@@ -3823,15 +3706,8 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
+ , "c2" : "QC-CPP999999"
+ , "c3" : "Syntax error in source code"
  , "c4" : "1"
 }}
 ,
@@ -3858,6 +3734,13 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2blob.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/encode_decode/encode_key2blob.c near following tokens EC_KEY CPP_POINTEUR key , const EC_POINT CPP_POINTEUR pub ) ; extern unsigned EC_KEY_get_enc_flags ( const EC_KEY CPP_POINTEUR key ) ; extern "
+}} 
+,
 { "ligne" : {"" : ""
  , "c1" : "02275"
  , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2blob.c.html#2275"
@@ -3898,20 +3781,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2blob.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00001] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2blob.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00001] The expression check1 applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/encode_decode/encode_key2blob.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[00001] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
 }} 
 ]
 , 

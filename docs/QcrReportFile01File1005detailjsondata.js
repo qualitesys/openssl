@@ -3373,7 +3373,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/macs/hmac_prov.c.html#1"
  , "c1" : " int "
- , "c2" : "hmac_setkey(structhmac_data_st*;unsignedchar*;size_t)"
+ , "c2" : "hmac_setkey(structhmac_data_st*;char*;size_t)"
  , "c3" : "4"
  , "c4" : "9"
 }} 
@@ -3382,7 +3382,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/macs/hmac_prov.c.html#1"
  , "c1" : " int "
- , "c2" : "hmac_init(void*;unsignedchar*;size_t;OSSL_PARAM)"
+ , "c2" : "hmac_init(void*;char*;size_t;OSSL_PARAM)"
  , "c3" : "3"
  , "c4" : "4"
 }} 
@@ -3391,7 +3391,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/macs/hmac_prov.c.html#1"
  , "c1" : " int "
- , "c2" : "hmac_update(void*;unsignedchar*;size_t)"
+ , "c2" : "hmac_update(void*;char*;size_t)"
  , "c3" : "5"
  , "c4" : "8"
 }} 
@@ -3400,7 +3400,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/macs/hmac_prov.c.html#1"
  , "c1" : " int "
- , "c2" : "hmac_final(void*;unsignedchar*;size_t*;size_t)"
+ , "c2" : "hmac_final(void*;char*;size_t*;size_t)"
  , "c3" : "6"
  , "c4" : "10"
 }} 

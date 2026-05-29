@@ -2949,7 +2949,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3048,7 +3048,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3148,7 +3148,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_LIB(unsignedlong)"
+ , "c2" : "ERR_GET_LIB(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3157,7 +3157,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
+ , "c2" : "ERR_GET_RFLAGS(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3166,7 +3166,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_REASON(unsignedlong)"
+ , "c2" : "ERR_GET_REASON(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3175,7 +3175,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
+ , "c2" : "ERR_FATAL_ERROR(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3184,7 +3184,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
+ , "c2" : "ERR_COMMON_ERROR(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3192,7 +3192,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -4029,7 +4029,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_MEM_hfn_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -4101,7 +4101,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_MEM_num_items(structlhash_st_MEM*)"
  , "c3" : "1"
  , "c4" : "1"
@@ -4110,7 +4110,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_MEM_get_down_load(structlhash_st_MEM*)"
  , "c3" : "1"
  , "c4" : "1"
@@ -4120,7 +4120,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " void "
- , "c2" : "lh_MEM_set_down_load(structlhash_st_MEM*;unsignedlong)"
+ , "c2" : "lh_MEM_set_down_load(structlhash_st_MEM*;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4156,7 +4156,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " struct lhash_st_MEM"
- , "c2" : "lh_MEM_new(unsignedlong;int)"
+ , "c2" : "lh_MEM_new(long;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4191,7 +4191,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
- , "c1" : " unsigned  char "
+ , "c1" : " char "
  , "c2" : "PACKET_end(PACKET*)"
  , "c3" : "1"
  , "c4" : "1"
@@ -4200,7 +4200,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
- , "c1" : " unsigned  char "
+ , "c1" : " char "
  , "c2" : "PACKET_data(PACKET*)"
  , "c3" : "1"
  , "c4" : "1"
@@ -4210,7 +4210,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_buf_init(PACKET*;unsignedchar*;size_t)"
+ , "c2" : "PACKET_buf_init(PACKET*;char*;size_t)"
  , "c3" : "2"
  , "c4" : "4"
 }} 
@@ -4255,7 +4255,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_net_2(PACKET*;unsignedint*)"
+ , "c2" : "PACKET_peek_net_2(PACKET*;int*)"
  , "c3" : "2"
  , "c4" : "4"
 }} 
@@ -4264,7 +4264,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_net_2(PACKET*;unsignedint*)"
+ , "c2" : "PACKET_get_net_2(PACKET*;int*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -4282,7 +4282,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_net_3(PACKET*;unsignedlong*)"
+ , "c2" : "PACKET_peek_net_3(PACKET*;long*)"
  , "c3" : "2"
  , "c4" : "5"
 }} 
@@ -4291,7 +4291,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_net_3(PACKET*;unsignedlong*)"
+ , "c2" : "PACKET_get_net_3(PACKET*;long*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -4309,7 +4309,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_net_4(PACKET*;unsignedlong*)"
+ , "c2" : "PACKET_peek_net_4(PACKET*;long*)"
  , "c3" : "2"
  , "c4" : "6"
 }} 
@@ -4327,7 +4327,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_net_4(PACKET*;unsignedlong*)"
+ , "c2" : "PACKET_get_net_4(PACKET*;long*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -4354,7 +4354,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_1(PACKET*;unsignedint*)"
+ , "c2" : "PACKET_peek_1(PACKET*;int*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -4363,7 +4363,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_1(PACKET*;unsignedint*)"
+ , "c2" : "PACKET_get_1(PACKET*;int*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -4381,7 +4381,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_4(PACKET*;unsignedlong*)"
+ , "c2" : "PACKET_peek_4(PACKET*;long*)"
  , "c3" : "2"
  , "c4" : "6"
 }} 
@@ -4390,7 +4390,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_4(PACKET*;unsignedlong*)"
+ , "c2" : "PACKET_get_4(PACKET*;long*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -4399,7 +4399,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_bytes(PACKET*;unsignedchar*;size_t)"
+ , "c2" : "PACKET_peek_bytes(PACKET*;char*;size_t)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -4408,7 +4408,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_bytes(PACKET*;unsignedchar*;size_t)"
+ , "c2" : "PACKET_get_bytes(PACKET*;char*;size_t)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -4417,7 +4417,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_copy_bytes(PACKET*;unsignedchar*;size_t)"
+ , "c2" : "PACKET_peek_copy_bytes(PACKET*;char*;size_t)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -4426,7 +4426,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_copy_bytes(PACKET*;unsignedchar*;size_t)"
+ , "c2" : "PACKET_copy_bytes(PACKET*;char*;size_t)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -4435,7 +4435,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_copy_all(PACKET*;unsignedchar*;size_t;size_t*)"
+ , "c2" : "PACKET_copy_all(PACKET*;char*;size_t;size_t*)"
  , "c3" : "2"
  , "c4" : "5"
 }} 
@@ -4444,7 +4444,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_memdup(PACKET*;unsignedchar*;size_t*)"
+ , "c2" : "PACKET_memdup(PACKET*;char*;size_t*)"
  , "c3" : "3"
  , "c4" : "10"
 }} 
@@ -4569,8 +4569,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
- , "c1" : " unsigned  char "
- , "c2" : "rsa_generate_signature_aid(PROV_RSA_CTX*;unsignedchar*;size_t;size_t*)"
+ , "c1" : " char "
+ , "c2" : "rsa_generate_signature_aid(PROV_RSA_CTX*;char*;size_t;size_t*)"
  , "c3" : "10"
  , "c4" : "24"
 }} 
@@ -4642,7 +4642,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "rsa_sign(void*;unsignedchar*;size_t*;size_t;unsignedchar*;size_t)"
+ , "c2" : "rsa_sign(void*;char*;size_t*;size_t;char*;size_t)"
  , "c3" : "23"
  , "c4" : "52"
 }} 
@@ -4660,7 +4660,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "rsa_verify_recover(void*;unsignedchar*;size_t*;size_t;unsignedchar*;size_t)"
+ , "c2" : "rsa_verify_recover(void*;char*;size_t*;size_t;char*;size_t)"
  , "c3" : "15"
  , "c4" : "32"
 }} 
@@ -4678,7 +4678,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "rsa_verify(void*;unsignedchar*;size_t;unsignedchar*;size_t)"
+ , "c2" : "rsa_verify(void*;char*;size_t;char*;size_t)"
  , "c3" : "17"
  , "c4" : "32"
 }} 
@@ -4696,7 +4696,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "rsa_digest_signverify_update(void*;unsignedchar*;size_t)"
+ , "c2" : "rsa_digest_signverify_update(void*;char*;size_t)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -4714,7 +4714,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "rsa_digest_sign_final(void*;unsignedchar*;size_t*;size_t)"
+ , "c2" : "rsa_digest_sign_final(void*;char*;size_t*;size_t)"
  , "c3" : "5"
  , "c4" : "8"
 }} 
@@ -4732,7 +4732,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/rsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "rsa_digest_verify_final(void*;unsignedchar*;size_t)"
+ , "c2" : "rsa_digest_verify_final(void*;char*;size_t)"
  , "c3" : "5"
  , "c4" : "9"
 }} 

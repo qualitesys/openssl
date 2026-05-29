@@ -493,7 +493,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/des/cbc_cksm.c.html#1"
  , "c1" : "DES_LONG"
- , "c2" : "DES_cbc_cksum(unsignedchar*;DES_cblock*;long;DES_key_schedule*;const_DES_cblock*)"
+ , "c2" : "DES_cbc_cksum(char*;DES_cblock*;long;DES_key_schedule*;const_DES_cblock*)"
  , "c3" : "13"
  , "c4" : "34"
 }} 

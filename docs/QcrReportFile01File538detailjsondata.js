@@ -16,7 +16,7 @@ var maDataBlocs = {
  , "c5" : "00082"
  , "c5link" : "././qc/crypto/idea/i_cfb64.c.html#82"
  , "c1" : " void "
- , "c2" : "IDEA_cfb64_encrypt(unsignedchar*;unsignedchar*;long;IDEA_KEY_SCHEDULE*;unsignedchar*;int*;int)"
+ , "c2" : "IDEA_cfb64_encrypt(char*;char*;long;IDEA_KEY_SCHEDULE*;char*;int*;int)"
  , "c3" : "8"
  , "c4" : "41"
 }} 

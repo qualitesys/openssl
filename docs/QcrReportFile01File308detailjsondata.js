@@ -493,7 +493,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/des/cfb64enc.c.html#1"
  , "c1" : " void "
- , "c2" : "DES_cfb64_encrypt(unsignedchar*;unsignedchar*;long;DES_key_schedule*;DES_cblock*;int*;int)"
+ , "c2" : "DES_cfb64_encrypt(char*;char*;long;DES_key_schedule*;DES_cblock*;int*;int)"
  , "c3" : "7"
  , "c4" : "39"
 }} 

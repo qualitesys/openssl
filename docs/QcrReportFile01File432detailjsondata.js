@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/err/err.c.html" 
- , "texte" : "File crypto/err/err.c 34 rule violations " 
+ , "texte" : "File crypto/err/err.c 8 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -1284,7 +1284,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -1383,7 +1383,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -1483,7 +1483,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/err/err.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_LIB(unsignedlong)"
+ , "c2" : "ERR_GET_LIB(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -1492,7 +1492,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/err/err.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
+ , "c2" : "ERR_GET_RFLAGS(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -1501,7 +1501,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/err/err.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_REASON(unsignedlong)"
+ , "c2" : "ERR_GET_REASON(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -1510,7 +1510,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/err/err.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
+ , "c2" : "ERR_FATAL_ERROR(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1519,7 +1519,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/err/err.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
+ , "c2" : "ERR_COMMON_ERROR(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1527,7 +1527,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -1851,7 +1851,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_MEM_hfn_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -1923,7 +1923,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_MEM_num_items(structlhash_st_MEM*)"
  , "c3" : "1"
  , "c4" : "1"
@@ -1932,7 +1932,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_MEM_get_down_load(structlhash_st_MEM*)"
  , "c3" : "1"
  , "c4" : "1"
@@ -1942,7 +1942,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/err/err.c.html#1"
  , "c1" : " void "
- , "c2" : "lh_MEM_set_down_load(structlhash_st_MEM*;unsignedlong)"
+ , "c2" : "lh_MEM_set_down_load(structlhash_st_MEM*;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1978,7 +1978,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/err/err.c.html#1"
  , "c1" : " struct lhash_st_MEM"
- , "c2" : "lh_MEM_new(unsignedlong;int)"
+ , "c2" : "lh_MEM_new(long;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1995,8 +1995,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  int "
- , "c2" : "constant_time_msb(unsignedint)"
+ , "c1" : " int "
+ , "c2" : "constant_time_msb(int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2031,8 +2031,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  int "
- , "c2" : "constant_time_lt(unsignedint;unsignedint)"
+ , "c1" : " int "
+ , "c2" : "constant_time_lt(int;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2049,8 +2049,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  char "
- , "c2" : "constant_time_lt_8(unsignedint;unsignedint)"
+ , "c1" : " char "
+ , "c2" : "constant_time_lt_8(int;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2067,8 +2067,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  int "
- , "c2" : "constant_time_ge(unsignedint;unsignedint)"
+ , "c1" : " int "
+ , "c2" : "constant_time_ge(int;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2085,8 +2085,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  char "
- , "c2" : "constant_time_ge_8(unsignedint;unsignedint)"
+ , "c1" : " char "
+ , "c2" : "constant_time_ge_8(int;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2094,7 +2094,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  char "
+ , "c1" : " char "
  , "c2" : "constant_time_ge_8_s(size_t;size_t)"
  , "c3" : "1"
  , "c4" : "1"
@@ -2103,8 +2103,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  int "
- , "c2" : "constant_time_is_zero(unsignedint)"
+ , "c1" : " int "
+ , "c2" : "constant_time_is_zero(int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2121,8 +2121,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  char "
- , "c2" : "constant_time_is_zero_8(unsignedint)"
+ , "c1" : " char "
+ , "c2" : "constant_time_is_zero_8(int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2148,8 +2148,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  int "
- , "c2" : "constant_time_eq(unsignedint;unsignedint)"
+ , "c1" : " int "
+ , "c2" : "constant_time_eq(int;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2166,8 +2166,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  char "
- , "c2" : "constant_time_eq_8(unsignedint;unsignedint)"
+ , "c1" : " char "
+ , "c2" : "constant_time_eq_8(int;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2175,694 +2175,10 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  char "
+ , "c1" : " char "
  , "c2" : "constant_time_eq_8_s(size_t;size_t)"
  , "c3" : "1"
  , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  int "
- , "c2" : "constant_time_eq_int(int;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  char "
- , "c2" : "constant_time_eq_int_8(int;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  int "
- , "c2" : "value_barrier(unsignedint)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : "uint32_t"
- , "c2" : "value_barrier_32(uint32_t)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : "uint64_t"
- , "c2" : "value_barrier_64(uint64_t)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : "size_t"
- , "c2" : "value_barrier_s(size_t)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  int "
- , "c2" : "constant_time_select(unsignedint;unsignedint;unsignedint)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : "size_t"
- , "c2" : "constant_time_select_s(size_t;size_t;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  char "
- , "c2" : "constant_time_select_8(unsignedchar;unsignedchar;unsignedchar)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " int "
- , "c2" : "constant_time_select_int(unsignedint;int;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " int "
- , "c2" : "constant_time_select_int_s(size_t;int;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : "uint32_t"
- , "c2" : "constant_time_select_32(uint32_t;uint32_t;uint32_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : "uint64_t"
- , "c2" : "constant_time_select_64(uint64_t;uint64_t;uint64_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " void "
- , "c2" : "constant_time_cond_swap_32(uint32_t;uint32_t*;uint32_t*)"
- , "c3" : "1"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " void "
- , "c2" : "constant_time_cond_swap_64(uint64_t;uint64_t*;uint64_t*)"
- , "c3" : "1"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " void "
- , "c2" : "constant_time_cond_swap_buff(unsignedchar;unsignedchar*;unsignedchar*;size_t)"
- , "c3" : "2"
- , "c4" : "8"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " void "
- , "c2" : "constant_time_lookup(void*;void*;size_t;size_t;size_t)"
- , "c3" : "3"
- , "c4" : "11"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " void "
- , "c2" : "err_get_slot(ERR_STATE*)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " void "
- , "c2" : "err_clear_data(ERR_STATE*;size_t;int)"
- , "c3" : "6"
- , "c4" : "9"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " void "
- , "c2" : "err_set_error(ERR_STATE*;size_t;int;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " void "
- , "c2" : "err_set_debug(ERR_STATE*;size_t;char*;int;char*)"
- , "c3" : "7"
- , "c4" : "7"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " void "
- , "c2" : "err_set_data(ERR_STATE*;size_t;void*;size_t;int)"
- , "c3" : "2"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " void "
- , "c2" : "err_clear(ERR_STATE*;size_t;int)"
- , "c3" : "1"
- , "c4" : "9"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  long "
- , "c2" : "err_string_data_hash(ERR_STRING_DATA*)"
- , "c3" : "1"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " int "
- , "c2" : "err_string_data_cmp(ERR_STRING_DATA*;ERR_STRING_DATA*)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : "ERR_STRING_DATA"
- , "c2" : "int_err_get_item(ERR_STRING_DATA*)"
- , "c3" : "2"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " void "
- , "c2" : "OSSL_ERR_STATE_free(ERR_STATE*)"
- , "c3" : "3"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " void "
- , "c2" : "do_err_strings_init_ossl_(void)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " int "
- , "c2" : "do_err_strings_init(void)"
- , "c3" : "4"
- , "c4" : "8"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " void "
- , "c2" : "err_cleanup(void)"
- , "c3" : "2"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " void "
- , "c2" : "err_patch(int;ERR_STRING_DATA*)"
- , "c3" : "2"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " int "
- , "c2" : "err_load_strings(ERR_STRING_DATA*)"
- , "c3" : "3"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " int "
- , "c2" : "ossl_err_load_ERR_strings(void)"
- , "c3" : "2"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " int "
- , "c2" : "ERR_load_strings(int;ERR_STRING_DATA*)"
- , "c3" : "2"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " int "
- , "c2" : "ERR_load_strings_const(ERR_STRING_DATA*)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " int "
- , "c2" : "ERR_unload_strings(int;ERR_STRING_DATA*)"
- , "c3" : "4"
- , "c4" : "7"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " void "
- , "c2" : "err_free_strings_int(void)"
- , "c3" : "1"
- , "c4" : "0"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " void "
- , "c2" : "ERR_clear_error(void)"
- , "c3" : "3"
- , "c4" : "8"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  long "
- , "c2" : "ERR_get_error(void)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  long "
- , "c2" : "ERR_get_error_all(char*;int*;char*;char*;int*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  long "
- , "c2" : "ERR_get_error_line(char*;int*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  long "
- , "c2" : "ERR_get_error_line_data(char*;int*;char*;int*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  long "
- , "c2" : "ERR_peek_error(void)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  long "
- , "c2" : "ERR_peek_error_line(char*;int*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  long "
- , "c2" : "ERR_peek_error_func(char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  long "
- , "c2" : "ERR_peek_error_data(char*;int*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  long "
- , "c2" : "ERR_peek_error_all(char*;int*;char*;char*;int*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  long "
- , "c2" : "ERR_peek_error_line_data(char*;int*;char*;int*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  long "
- , "c2" : "ERR_peek_last_error(void)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  long "
- , "c2" : "ERR_peek_last_error_line(char*;int*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  long "
- , "c2" : "ERR_peek_last_error_func(char*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  long "
- , "c2" : "ERR_peek_last_error_data(char*;int*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  long "
- , "c2" : "ERR_peek_last_error_all(char*;int*;char*;char*;int*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  long "
- , "c2" : "ERR_peek_last_error_line_data(char*;int*;char*;int*)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " unsigned  long "
- , "c2" : "get_error_values(ERR_GET_ACTION;char*;int*;char*;char*;int*)"
- , "c3" : "20"
- , "c4" : "30"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " void "
- , "c2" : "ossl_err_string_int(unsignedlong;char*;char*;size_t)"
- , "c3" : "8"
- , "c4" : "15"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " void "
- , "c2" : "ERR_error_string_n(unsignedlong;char*;size_t)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " char "
- , "c2" : "ERR_error_string(unsignedlong;char*)"
- , "c3" : "2"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " char "
- , "c2" : "ERR_lib_error_string(unsignedlong)"
- , "c3" : "2"
- , "c4" : "7"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " char "
- , "c2" : "ERR_func_error_string(unsignedlong)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " char "
- , "c2" : "ERR_reason_error_string(unsignedlong)"
- , "c3" : "4"
- , "c4" : "11"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " void "
- , "c2" : "err_delete_thread_state(void*)"
- , "c3" : "2"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " void "
- , "c2" : "ERR_remove_thread_state(void*)"
- , "c3" : "1"
- , "c4" : "0"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " void "
- , "c2" : "ERR_remove_state(unsignedlong)"
- , "c3" : "1"
- , "c4" : "0"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " void "
- , "c2" : "err_do_init_ossl_(void)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " int "
- , "c2" : "err_do_init(void)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : "ERR_STATE"
- , "c2" : "ossl_err_get_state_int(void)"
- , "c3" : "8"
- , "c4" : "16"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : "ERR_STATE"
- , "c2" : "ERR_get_state(void)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " int "
- , "c2" : "err_shelve_state(void*)"
- , "c3" : "4"
- , "c4" : "7"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " void "
- , "c2" : "err_unshelve_state(void*)"
- , "c3" : "2"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " int "
- , "c2" : "ERR_get_next_error_library(void)"
- , "c3" : "3"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " int "
- , "c2" : "err_set_error_data_int(char*;size_t;int;int)"
- , "c3" : "2"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " void "
- , "c2" : "ERR_set_error_data(char*;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " void "
- , "c2" : "ERR_add_error_data(int)"
- , "c3" : "1"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " void "
- , "c2" : "ERR_add_error_vdata(int;va_list)"
- , "c3" : "11"
- , "c4" : "25"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/err/err.c.html#1"
- , "c1" : " void "
- , "c2" : "err_clear_last_constant_time(int)"
- , "c3" : "2"
- , "c4" : "7"
 }} 
 ] 
 }} 
@@ -2905,23 +2221,16 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP000005"
- , "c3" : "Check pointer declaration to unsigned char"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-CPP000011"
- , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "3"
+ , "c2" : "QC-CPP999999"
+ , "c3" : "Syntax error in source code"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "12"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -2933,20 +2242,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-CPPCWE481"
- , "c3" : "Assigning instead of comparing"
- , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "12"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/err/err.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/err/err.c near following tokens char ) constant_time_eq_s ( a , b ) ; } static inline unsigned int constant_time_eq_int ( int a , int b "
+}} 
+,
 { "ligne" : {"" : ""
  , "c1" : "01129"
  , "c1link" : "./qc/crypto/err/err.c.html#1129"
@@ -2994,195 +2303,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/err/err.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00001] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/err/err.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[00001] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/err/err.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000005[00001] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/err/err.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00001] The expression deall applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/err/err.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/err/err.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/err/err.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/err/err.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/err/err.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression 0x00040000L is invariable"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/err/err.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00001] The expression str-&gt; error  applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/err/err.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00001] The expression str-&gt; error  applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/err/err.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00001] The pointer es is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/err/err.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/err/err.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00001] The pointer es is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/err/err.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00001] The pointer ls is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/err/err.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00001] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/err/err.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00001] The pointer state is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/err/err.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression 0x00040000L is invariable"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/err/err.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression 0x00040000L is invariable"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/err/err.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00001] The pointer es is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/err/err.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00001] The pointer str is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/err/err.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00001] The pointer arg is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/err/err.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00001] The pointer es is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/err/err.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression 1 is invariable, always true"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/err/err.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/err/err.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00001] The pointer p is declared but not initialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/err/err.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000012[00001] The expression 0 is invariable, always false"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/err/err.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00001] The pointer es is declared but not initialized"
 }} 
 ]
 , 

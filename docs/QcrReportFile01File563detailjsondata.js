@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/modes/gcm128.c.html" 
- , "texte" : "File crypto/modes/gcm128.c 161 rule violations " 
+ , "texte" : "File crypto/modes/gcm128.c 158 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -1284,7 +1284,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/gcm128.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -1383,7 +1383,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/gcm128.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -1483,7 +1483,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/gcm128.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_LIB(unsignedlong)"
+ , "c2" : "ERR_GET_LIB(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -1492,7 +1492,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/gcm128.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
+ , "c2" : "ERR_GET_RFLAGS(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -1501,7 +1501,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/gcm128.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_REASON(unsignedlong)"
+ , "c2" : "ERR_GET_REASON(long)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -1510,7 +1510,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/gcm128.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
+ , "c2" : "ERR_FATAL_ERROR(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1519,7 +1519,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/gcm128.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
+ , "c2" : "ERR_COMMON_ERROR(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1527,7 +1527,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/gcm128.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -1851,7 +1851,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/gcm128.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_MEM_hfn_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -1923,7 +1923,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/gcm128.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_MEM_num_items(structlhash_st_MEM*)"
  , "c3" : "1"
  , "c4" : "1"
@@ -1932,7 +1932,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/gcm128.c.html#1"
- , "c1" : " unsigned  long "
+ , "c1" : " long "
  , "c2" : "lh_MEM_get_down_load(structlhash_st_MEM*)"
  , "c3" : "1"
  , "c4" : "1"
@@ -1942,7 +1942,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/gcm128.c.html#1"
  , "c1" : " void "
- , "c2" : "lh_MEM_set_down_load(structlhash_st_MEM*;unsignedlong)"
+ , "c2" : "lh_MEM_set_down_load(structlhash_st_MEM*;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1978,7 +1978,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/gcm128.c.html#1"
  , "c1" : " struct lhash_st_MEM"
- , "c2" : "lh_MEM_new(unsignedlong;int)"
+ , "c2" : "lh_MEM_new(long;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2068,7 +2068,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/gcm128.c.html#1"
  , "c1" : " void "
- , "c2" : "CRYPTO_gcm128_setiv(GCM128_CONTEXT*;unsignedchar*;size_t)"
+ , "c2" : "CRYPTO_gcm128_setiv(GCM128_CONTEXT*;char*;size_t)"
  , "c3" : "13"
  , "c4" : "47"
 }} 
@@ -2077,7 +2077,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/gcm128.c.html#1"
  , "c1" : " int "
- , "c2" : "CRYPTO_gcm128_aad(GCM128_CONTEXT*;unsignedchar*;size_t)"
+ , "c2" : "CRYPTO_gcm128_aad(GCM128_CONTEXT*;char*;size_t)"
  , "c3" : "10"
  , "c4" : "23"
 }} 
@@ -2086,7 +2086,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/gcm128.c.html#1"
  , "c1" : " int "
- , "c2" : "CRYPTO_gcm128_encrypt(GCM128_CONTEXT*;unsignedchar*;unsignedchar*;size_t)"
+ , "c2" : "CRYPTO_gcm128_encrypt(GCM128_CONTEXT*;char*;char*;size_t)"
  , "c3" : "33"
  , "c4" : "80"
 }} 
@@ -2095,7 +2095,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/gcm128.c.html#1"
  , "c1" : " int "
- , "c2" : "CRYPTO_gcm128_decrypt(GCM128_CONTEXT*;unsignedchar*;unsignedchar*;size_t)"
+ , "c2" : "CRYPTO_gcm128_decrypt(GCM128_CONTEXT*;char*;char*;size_t)"
  , "c3" : "33"
  , "c4" : "80"
 }} 
@@ -2104,7 +2104,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/gcm128.c.html#1"
  , "c1" : " int "
- , "c2" : "CRYPTO_gcm128_encrypt_ctr32(GCM128_CONTEXT*;unsignedchar*;unsignedchar*;size_t;ctr128_f)"
+ , "c2" : "CRYPTO_gcm128_encrypt_ctr32(GCM128_CONTEXT*;char*;char*;size_t;ctr128_f)"
  , "c3" : "21"
  , "c4" : "54"
 }} 
@@ -2113,45 +2113,9 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/gcm128.c.html#1"
  , "c1" : " int "
- , "c2" : "CRYPTO_gcm128_decrypt_ctr32(GCM128_CONTEXT*;unsignedchar*;unsignedchar*;size_t;ctr128_f)"
+ , "c2" : "CRYPTO_gcm128_decrypt_ctr32(GCM128_CONTEXT*;char*;char*;size_t;ctr128_f)"
  , "c3" : "21"
  , "c4" : "54"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/modes/gcm128.c.html#1"
- , "c1" : " int "
- , "c2" : "CRYPTO_gcm128_finish(GCM128_CONTEXT*;unsignedchar*;size_t)"
- , "c3" : "8"
- , "c4" : "25"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/modes/gcm128.c.html#1"
- , "c1" : " void "
- , "c2" : "CRYPTO_gcm128_tag(GCM128_CONTEXT*;unsignedchar*;size_t)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/modes/gcm128.c.html#1"
- , "c1" : "GCM128_CONTEXT"
- , "c2" : "CRYPTO_gcm128_new(void*;block128_f)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/crypto/modes/gcm128.c.html#1"
- , "c1" : " void "
- , "c2" : "CRYPTO_gcm128_release(GCM128_CONTEXT*)"
- , "c3" : "1"
- , "c4" : "1"
 }} 
 ] 
 }} 
@@ -2194,6 +2158,13 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP999999"
+ , "c3" : "Syntax error in source code"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000006"
  , "c3" : "Risk of infinite while loop"
  , "c4" : "7"
@@ -2203,7 +2174,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000011"
  , "c3" : "The condition expression on a single value can be confusing"
- , "c4" : "24"
+ , "c4" : "22"
 }}
 ,
 { "ligne" : { "" : ""
@@ -2224,18 +2195,25 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-CPPCWE481"
  , "c3" : "Assigning instead of comparing"
- , "c4" : "114"
+ , "c4" : "113"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/modes/gcm128.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/modes/gcm128.c near following tokens ctx -_ mres = mres ; return 0 ; } int CRYPTO_gcm128_finish ( GCM128_CONTEXT CPP_POINTEUR ctx , const unsigned char CPP_POINTEUR "
+}} 
+,
 { "ligne" : {"" : ""
  , "c1" : "00486"
  , "c1link" : "./qc/crypto/modes/gcm128.c.html#486"
@@ -3326,34 +3304,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/modes/gcm128.c.html#1"
  , "c2" : "MAJOR"
  , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/modes/gcm128.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/modes/gcm128.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00001] The expression mres applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/modes/gcm128.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP000011[00001] The expression ctx-&gt;ares applies to a single value or variable, might be ambiguous."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/modes/gcm128.c.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-CPP000014[00001] The pointer ret is declared but not initialized"
 }} 
 ,
 { "ligne" : {"" : ""

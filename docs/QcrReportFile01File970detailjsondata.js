@@ -2878,7 +2878,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/encode_decode/endecoder_common.c.html#1"
  , "c1" : " int "
- , "c2" : "ossl_read_der(PROV_CTX*;OSSL_CORE_BIO*;unsignedchar*;long*)"
+ , "c2" : "ossl_read_der(PROV_CTX*;OSSL_CORE_BIO*;char*;long*)"
  , "c3" : "3"
  , "c4" : "10"
 }} 

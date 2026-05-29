@@ -493,7 +493,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/des/cfb64ede.c.html#1"
  , "c1" : " void "
- , "c2" : "DES_ede3_cfb64_encrypt(unsignedchar*;unsignedchar*;long;DES_key_schedule*;DES_key_schedule*;DES_key_schedule*;DES_cblock*;int*;int)"
+ , "c2" : "DES_ede3_cfb64_encrypt(char*;char*;long;DES_key_schedule*;DES_key_schedule*;DES_key_schedule*;DES_cblock*;int*;int)"
  , "c3" : "7"
  , "c4" : "39"
 }} 
@@ -502,7 +502,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/des/cfb64ede.c.html#1"
  , "c1" : " void "
- , "c2" : "DES_ede3_cfb_encrypt(unsignedchar*;unsignedchar*;int;long;DES_key_schedule*;DES_key_schedule*;DES_key_schedule*;DES_cblock*;int)"
+ , "c2" : "DES_ede3_cfb_encrypt(char*;char*;int;long;DES_key_schedule*;DES_key_schedule*;DES_key_schedule*;DES_cblock*;int)"
  , "c3" : "50"
  , "c4" : "106"
 }} 

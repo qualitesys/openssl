@@ -16,7 +16,7 @@ var maDataBlocs = {
  , "c5" : "00364"
  , "c5link" : "././qc/crypto/bf/bf_enc.c.html#364"
  , "c1" : " void "
- , "c2" : "BF_encrypt(unsignedint*;BF_KEY*)"
+ , "c2" : "BF_encrypt(int*;BF_KEY*)"
  , "c3" : "1"
  , "c4" : "26"
 }} 
@@ -25,7 +25,7 @@ var maDataBlocs = {
  , "c5" : "00403"
  , "c5link" : "././qc/crypto/bf/bf_enc.c.html#403"
  , "c1" : " void "
- , "c2" : "BF_decrypt(unsignedint*;BF_KEY*)"
+ , "c2" : "BF_decrypt(int*;BF_KEY*)"
  , "c3" : "1"
  , "c4" : "26"
 }} 
@@ -34,7 +34,7 @@ var maDataBlocs = {
  , "c5" : "00442"
  , "c5link" : "././qc/crypto/bf/bf_enc.c.html#442"
  , "c1" : " void "
- , "c2" : "BF_cbc_encrypt(unsignedchar*;unsignedchar*;long;BF_KEY*;unsignedchar*;int)"
+ , "c2" : "BF_cbc_encrypt(char*;char*;long;BF_KEY*;char*;int)"
  , "c3" : "23"
  , "c4" : "81"
 }} 

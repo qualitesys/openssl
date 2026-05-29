@@ -16,7 +16,7 @@ var maDataBlocs = {
  , "c5" : "00144"
  , "c5link" : "././qc/crypto/camellia/cmll_ecb.c.html#144"
  , "c1" : " void "
- , "c2" : "Camellia_ecb_encrypt(unsignedchar*;unsignedchar*;CAMELLIA_KEY*;int)"
+ , "c2" : "Camellia_ecb_encrypt(char*;char*;CAMELLIA_KEY*;int)"
  , "c3" : "3"
  , "c4" : "2"
 }} 

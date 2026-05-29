@@ -16,7 +16,7 @@ var maDataBlocs = {
  , "c5" : "00076"
  , "c5link" : "././qc/crypto/idea/i_cbc.c.html#76"
  , "c1" : " void "
- , "c2" : "IDEA_cbc_encrypt(unsignedchar*;unsignedchar*;long;IDEA_KEY_SCHEDULE*;unsignedchar*;int)"
+ , "c2" : "IDEA_cbc_encrypt(char*;char*;long;IDEA_KEY_SCHEDULE*;char*;int)"
  , "c3" : "23"
  , "c4" : "81"
 }} 
@@ -25,7 +25,7 @@ var maDataBlocs = {
  , "c5" : "00152"
  , "c5link" : "././qc/crypto/idea/i_cbc.c.html#152"
  , "c1" : " void "
- , "c2" : "IDEA_encrypt(unsignedlong*;IDEA_KEY_SCHEDULE*)"
+ , "c2" : "IDEA_encrypt(long*;IDEA_KEY_SCHEDULE*)"
  , "c3" : "69"
  , "c4" : "320"
 }} 

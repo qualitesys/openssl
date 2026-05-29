@@ -493,7 +493,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/aes/aes_ecb.c.html#1"
  , "c1" : " void "
- , "c2" : "AES_ecb_encrypt(unsignedchar*;unsignedchar*;AES_KEY*;int)"
+ , "c2" : "AES_ecb_encrypt(char*;char*;AES_KEY*;int)"
  , "c3" : "3"
  , "c4" : "4"
 }} 
