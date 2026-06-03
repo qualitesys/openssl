@@ -187,7 +187,7 @@ var maDataBlocs = {
  , "c5" : "01063"
  , "c5link" : "././qc/crypto/sha/keccak1600.c.html#1063"
  , "c1" : "size_t"
- , "c2" : "SHA3_absorb(uint64_t;char*;size_t;size_t)"
+ , "c2" : "SHA3_absorb(uint64_t;unsignedchar*;size_t;size_t)"
  , "c3" : "3"
  , "c4" : "11"
 }} 
@@ -196,7 +196,7 @@ var maDataBlocs = {
  , "c5" : "01092"
  , "c5link" : "././qc/crypto/sha/keccak1600.c.html#1092"
  , "c1" : " void "
- , "c2" : "SHA3_squeeze(uint64_t;char*;size_t;size_t;int)"
+ , "c2" : "SHA3_squeeze(uint64_t;unsignedchar*;size_t;size_t;int)"
  , "c3" : "6"
  , "c4" : "23"
 }} 

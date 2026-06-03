@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/kem/ec_kem.c.html" 
- , "texte" : "File providers/implementations/kem/ec_kem.c 7 rule violations " 
+ , "texte" : "File providers/implementations/kem/ec_kem.c 50 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -3323,6 +3323,582 @@ var maDataBlocs = {
  , "c3" : "2"
  , "c4" : "2"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_OPENSSL_STRING_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_STRING_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_STRING_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : "OPENSSL_STRING"
+ , "c2" : "ossl_check_OPENSSL_STRING_lh_plain_type(OPENSSL_STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : "OPENSSL_STRING"
+ , "c2" : "ossl_check_const_OPENSSL_STRING_lh_plain_type(OPENSSL_STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : "OPENSSL_LHASH"
+ , "c2" : "ossl_check_const_OPENSSL_STRING_lh_type(structlhash_st_OPENSSL_STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : "OPENSSL_LHASH"
+ , "c2" : "ossl_check_OPENSSL_STRING_lh_type(structlhash_st_OPENSSL_STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : "OPENSSL_LH_COMPFUNC"
+ , "c2" : "ossl_check_OPENSSL_STRING_lh_compfunc_type(lh_OPENSSL_STRING_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : "OPENSSL_LH_HASHFUNC"
+ , "c2" : "ossl_check_OPENSSL_STRING_lh_hashfunc_type(lh_OPENSSL_STRING_hashfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : "OPENSSL_LH_DOALL_FUNC"
+ , "c2" : "ossl_check_OPENSSL_STRING_lh_doallfunc_type(lh_OPENSSL_STRING_doallfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_OPENSSL_CSTRING_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_CSTRING_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_CSTRING_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : "OPENSSL_CSTRING"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_lh_plain_type(OPENSSL_CSTRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : "OPENSSL_CSTRING"
+ , "c2" : "ossl_check_const_OPENSSL_CSTRING_lh_plain_type(OPENSSL_CSTRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : "OPENSSL_LHASH"
+ , "c2" : "ossl_check_const_OPENSSL_CSTRING_lh_type(structlhash_st_OPENSSL_CSTRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : "OPENSSL_LHASH"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_lh_type(structlhash_st_OPENSSL_CSTRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : "OPENSSL_LH_COMPFUNC"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_lh_compfunc_type(lh_OPENSSL_CSTRING_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : "OPENSSL_LH_HASHFUNC"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_lh_hashfunc_type(lh_OPENSSL_CSTRING_hashfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : "OPENSSL_LH_DOALL_FUNC"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_lh_doallfunc_type(lh_OPENSSL_CSTRING_doallfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ERR_GET_LIB(unsignedlong)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ERR_GET_REASON(unsignedlong)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_ERR_STRING_DATA_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_ERR_STRING_DATA_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_ERR_STRING_DATA_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : "ERR_STRING_DATA"
+ , "c2" : "ossl_check_ERR_STRING_DATA_lh_plain_type(ERR_STRING_DATA*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : "ERR_STRING_DATA"
+ , "c2" : "ossl_check_const_ERR_STRING_DATA_lh_plain_type(ERR_STRING_DATA*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : "OPENSSL_LHASH"
+ , "c2" : "ossl_check_const_ERR_STRING_DATA_lh_type(structlhash_st_ERR_STRING_DATA*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : "OPENSSL_LHASH"
+ , "c2" : "ossl_check_ERR_STRING_DATA_lh_type(structlhash_st_ERR_STRING_DATA*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : "OPENSSL_LH_COMPFUNC"
+ , "c2" : "ossl_check_ERR_STRING_DATA_lh_compfunc_type(lh_ERR_STRING_DATA_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : "OPENSSL_LH_HASHFUNC"
+ , "c2" : "ossl_check_ERR_STRING_DATA_lh_hashfunc_type(lh_ERR_STRING_DATA_hashfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : "OPENSSL_LH_DOALL_FUNC"
+ , "c2" : "ossl_check_ERR_STRING_DATA_lh_doallfunc_type(lh_ERR_STRING_DATA_doallfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " int "
+ , "c2" : "eckey_check(EC_KEY*;int)"
+ , "c3" : "5"
+ , "c4" : "16"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " char "
+ , "c2" : "ec_curvename_get0(EC_KEY*)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " int "
+ , "c2" : "recipient_key_set(PROV_EC_CTX*;EC_KEY*)"
+ , "c3" : "5"
+ , "c4" : "10"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sender_authkey_set(PROV_EC_CTX*;EC_KEY*)"
+ , "c3" : "3"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : "EC_KEY"
+ , "c2" : "eckey_frompub(EC_KEY*;unsignedchar*;size_t)"
+ , "c3" : "4"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ecpubkey_todata(EC_KEY*;unsignedchar*;size_t*;size_t)"
+ , "c3" : "1"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " void "
+ , "c2" : "eckem_newctx(void*)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " void "
+ , "c2" : "eckem_freectx(void*)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ossl_ec_match_params(EC_KEY*;EC_KEY*)"
+ , "c3" : "3"
+ , "c4" : "10"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " int "
+ , "c2" : "eckem_init(void*;int;void*;void*;OSSL_PARAM)"
+ , "c3" : "6"
+ , "c4" : "11"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " int "
+ , "c2" : "eckem_encapsulate_init(void*;void*;OSSL_PARAM)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " int "
+ , "c2" : "eckem_decapsulate_init(void*;void*;OSSL_PARAM)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " int "
+ , "c2" : "eckem_auth_encapsulate_init(void*;void*;void*;OSSL_PARAM)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " int "
+ , "c2" : "eckem_auth_decapsulate_init(void*;void*;void*;OSSL_PARAM)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " int "
+ , "c2" : "eckem_set_ctx_params(void*;OSSL_PARAM)"
+ , "c3" : "8"
+ , "c4" : "17"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : "OSSL_PARAM"
+ , "c2" : "eckem_settable_ctx_params(void*;void*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " int "
+ , "c2" : "dhkem_extract_and_expand(EVP_KDF_CTX*;unsignedchar*;size_t;uint16_t;unsignedchar*;size_t;unsignedchar*;size_t)"
+ , "c3" : "2"
+ , "c4" : "10"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ossl_ec_dhkem_derive_private(EC_KEY*;BIGNUM*;unsignedchar*;size_t)"
+ , "c3" : "11"
+ , "c4" : "32"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : "EC_KEY"
+ , "c2" : "derivekey(PROV_EC_CTX*;unsignedchar*;size_t)"
+ , "c3" : "8"
+ , "c4" : "17"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " int "
+ , "c2" : "check_publickey(EC_KEY*)"
+ , "c3" : "2"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " int "
+ , "c2" : "generate_ecdhkm(EC_KEY*;EC_KEY*;unsignedchar*;size_t;unsignedint)"
+ , "c3" : "3"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " int "
+ , "c2" : "derive_secret(PROV_EC_CTX*;unsignedchar*;EC_KEY*;EC_KEY*;EC_KEY*;EC_KEY*;unsignedchar*;unsignedchar*)"
+ , "c3" : "10"
+ , "c4" : "31"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " int "
+ , "c2" : "dhkem_encap(PROV_EC_CTX*;unsignedchar*;size_t*;unsignedchar*;size_t*)"
+ , "c3" : "11"
+ , "c4" : "26"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " int "
+ , "c2" : "dhkem_decap(PROV_EC_CTX*;unsignedchar*;size_t*;unsignedchar*;size_t)"
+ , "c3" : "8"
+ , "c4" : "22"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " int "
+ , "c2" : "eckem_encapsulate(void*;unsignedchar*;size_t*;unsignedchar*;size_t*)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c1" : " int "
+ , "c2" : "eckem_decapsulate(void*;unsignedchar*;size_t*;unsignedchar*;size_t)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
 ] 
 }} 
 ]
@@ -3364,16 +3940,23 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
  , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "4"
+ , "c4" : "10"
 }}
 ,
 { "ligne" : { "" : ""
@@ -3385,20 +3968,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "27"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "8"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/kem/ec_kem.c near following tokens EC_KEY CPP_POINTEUR key , const EC_POINT CPP_POINTEUR pub ) ; extern unsigned EC_KEY_get_enc_flags ( const EC_KEY CPP_POINTEUR key ) ; extern "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01251"
  , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1251"
@@ -3439,6 +4022,314 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00001] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer key is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer pub is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer group is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression  ! ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer order is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer info is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression '\x64\x6B\x70\x5F\x70\x72\x6B' is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression '\x63\x61\x6E\x64\x69\x64\x61\x74\x65' is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer key is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[00001] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression auth applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression auth applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/kem/ec_kem.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
 }} 
 ]
 , 

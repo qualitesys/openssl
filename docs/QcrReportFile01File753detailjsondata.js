@@ -745,7 +745,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/whrlpool/wp_dgst.c.html#1"
  , "c1" : " int "
- , "c2" : "WHIRLPOOL_Final(char*;WHIRLPOOL_CTX*)"
+ , "c2" : "WHIRLPOOL_Final(unsignedchar*;WHIRLPOOL_CTX*)"
  , "c3" : "9"
  , "c4" : "22"
 }} 
@@ -753,8 +753,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/whrlpool/wp_dgst.c.html#1"
- , "c1" : " char "
- , "c2" : "WHIRLPOOL(void*;size_t;char*)"
+ , "c1" : " unsigned  char "
+ , "c2" : "WHIRLPOOL(void*;size_t;unsignedchar*)"
  , "c3" : "2"
  , "c4" : "7"
 }} 

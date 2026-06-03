@@ -178,7 +178,7 @@ var maDataBlocs = {
  , "c5" : "00921"
  , "c5link" : "././qc/crypto/aes/aes_cfb.c.html#921"
  , "c1" : " void "
- , "c2" : "AES_cfb128_encrypt(char*;char*;size_t;AES_KEY*;char*;int*;int)"
+ , "c2" : "AES_cfb128_encrypt(unsignedchar*;unsignedchar*;size_t;AES_KEY*;unsignedchar*;int*;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -187,7 +187,7 @@ var maDataBlocs = {
  , "c5" : "00931"
  , "c5link" : "././qc/crypto/aes/aes_cfb.c.html#931"
  , "c1" : " void "
- , "c2" : "AES_cfb1_encrypt(char*;char*;size_t;AES_KEY*;char*;int*;int)"
+ , "c2" : "AES_cfb1_encrypt(unsignedchar*;unsignedchar*;size_t;AES_KEY*;unsignedchar*;int*;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -196,7 +196,7 @@ var maDataBlocs = {
  , "c5" : "00939"
  , "c5link" : "././qc/crypto/aes/aes_cfb.c.html#939"
  , "c1" : " void "
- , "c2" : "AES_cfb8_encrypt(char*;char*;size_t;AES_KEY*;char*;int*;int)"
+ , "c2" : "AES_cfb8_encrypt(unsignedchar*;unsignedchar*;size_t;AES_KEY*;unsignedchar*;int*;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

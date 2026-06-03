@@ -754,7 +754,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
  , "c1" : " int "
- , "c2" : "SipHash_Init(SIPHASH*;char*;int;int)"
+ , "c2" : "SipHash_Init(SIPHASH*;unsignedchar*;int;int)"
  , "c3" : "4"
  , "c4" : "15"
 }} 
@@ -763,7 +763,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
  , "c1" : " void "
- , "c2" : "SipHash_Update(SIPHASH*;char*;size_t)"
+ , "c2" : "SipHash_Update(SIPHASH*;unsignedchar*;size_t)"
  , "c3" : "11"
  , "c4" : "66"
 }} 
@@ -772,7 +772,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/siphash/siphash.c.html#1"
  , "c1" : " int "
- , "c2" : "SipHash_Final(SIPHASH*;char*;size_t)"
+ , "c2" : "SipHash_Final(SIPHASH*;unsignedchar*;size_t)"
  , "c3" : "22"
  , "c4" : "97"
 }} 

@@ -1167,7 +1167,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_rsa_gen.c.html#1"
- , "c1" : " char "
+ , "c1" : " unsigned  char "
  , "c2" : "PACKET_end(PACKET*)"
  , "c3" : "1"
  , "c4" : "1"
@@ -1176,7 +1176,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_rsa_gen.c.html#1"
- , "c1" : " char "
+ , "c1" : " unsigned  char "
  , "c2" : "PACKET_data(PACKET*)"
  , "c3" : "1"
  , "c4" : "1"
@@ -1186,7 +1186,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_rsa_gen.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_buf_init(PACKET*;char*;size_t)"
+ , "c2" : "PACKET_buf_init(PACKET*;unsignedchar*;size_t)"
  , "c3" : "2"
  , "c4" : "4"
 }} 
@@ -1231,7 +1231,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_rsa_gen.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_net_2(PACKET*;int*)"
+ , "c2" : "PACKET_peek_net_2(PACKET*;unsignedint*)"
  , "c3" : "2"
  , "c4" : "4"
 }} 
@@ -1240,7 +1240,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_rsa_gen.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_net_2(PACKET*;int*)"
+ , "c2" : "PACKET_get_net_2(PACKET*;unsignedint*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -1258,7 +1258,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_rsa_gen.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_net_3(PACKET*;long*)"
+ , "c2" : "PACKET_peek_net_3(PACKET*;unsignedlong*)"
  , "c3" : "2"
  , "c4" : "5"
 }} 
@@ -1267,7 +1267,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_rsa_gen.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_net_3(PACKET*;long*)"
+ , "c2" : "PACKET_get_net_3(PACKET*;unsignedlong*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -1285,7 +1285,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_rsa_gen.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_net_4(PACKET*;long*)"
+ , "c2" : "PACKET_peek_net_4(PACKET*;unsignedlong*)"
  , "c3" : "2"
  , "c4" : "6"
 }} 
@@ -1303,7 +1303,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_rsa_gen.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_net_4(PACKET*;long*)"
+ , "c2" : "PACKET_get_net_4(PACKET*;unsignedlong*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -1330,7 +1330,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_rsa_gen.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_1(PACKET*;int*)"
+ , "c2" : "PACKET_peek_1(PACKET*;unsignedint*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -1339,7 +1339,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_rsa_gen.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_1(PACKET*;int*)"
+ , "c2" : "PACKET_get_1(PACKET*;unsignedint*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -1357,7 +1357,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_rsa_gen.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_4(PACKET*;long*)"
+ , "c2" : "PACKET_peek_4(PACKET*;unsignedlong*)"
  , "c3" : "2"
  , "c4" : "6"
 }} 
@@ -1366,7 +1366,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_rsa_gen.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_4(PACKET*;long*)"
+ , "c2" : "PACKET_get_4(PACKET*;unsignedlong*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -1375,7 +1375,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_rsa_gen.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_bytes(PACKET*;char*;size_t)"
+ , "c2" : "PACKET_peek_bytes(PACKET*;unsignedchar*;size_t)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -1384,7 +1384,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_rsa_gen.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_bytes(PACKET*;char*;size_t)"
+ , "c2" : "PACKET_get_bytes(PACKET*;unsignedchar*;size_t)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -1393,7 +1393,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_rsa_gen.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_copy_bytes(PACKET*;char*;size_t)"
+ , "c2" : "PACKET_peek_copy_bytes(PACKET*;unsignedchar*;size_t)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -1402,7 +1402,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_rsa_gen.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_copy_bytes(PACKET*;char*;size_t)"
+ , "c2" : "PACKET_copy_bytes(PACKET*;unsignedchar*;size_t)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -1411,7 +1411,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_rsa_gen.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_copy_all(PACKET*;char*;size_t;size_t*)"
+ , "c2" : "PACKET_copy_all(PACKET*;unsignedchar*;size_t;size_t*)"
  , "c3" : "2"
  , "c4" : "5"
 }} 
@@ -1420,7 +1420,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/der/der_rsa_gen.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_memdup(PACKET*;char*;size_t*)"
+ , "c2" : "PACKET_memdup(PACKET*;unsignedchar*;size_t*)"
  , "c3" : "3"
  , "c4" : "10"
 }} 

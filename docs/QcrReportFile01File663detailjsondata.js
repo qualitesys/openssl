@@ -717,8 +717,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/ripemd/rmd_one.c.html#1"
- , "c1" : " char "
- , "c2" : "RIPEMD160(char*;size_t;char*)"
+ , "c1" : " unsigned  char "
+ , "c2" : "RIPEMD160(unsignedchar*;size_t;unsignedchar*)"
  , "c3" : "3"
  , "c4" : "8"
 }} 

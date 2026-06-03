@@ -16,7 +16,7 @@ var maDataBlocs = {
  , "c5" : "00074"
  , "c5link" : "././qc/crypto/rc2/rc2_cbc.c.html#74"
  , "c1" : " void "
- , "c2" : "RC2_cbc_encrypt(char*;char*;long;RC2_KEY*;char*;int)"
+ , "c2" : "RC2_cbc_encrypt(unsignedchar*;unsignedchar*;long;RC2_KEY*;unsignedchar*;int)"
  , "c3" : "23"
  , "c4" : "81"
 }} 
@@ -25,7 +25,7 @@ var maDataBlocs = {
  , "c5" : "00149"
  , "c5link" : "././qc/crypto/rc2/rc2_cbc.c.html#149"
  , "c1" : " void "
- , "c2" : "RC2_encrypt(long*;RC2_KEY*)"
+ , "c2" : "RC2_encrypt(unsignedlong*;RC2_KEY*)"
  , "c3" : "4"
  , "c4" : "31"
 }} 
@@ -34,7 +34,7 @@ var maDataBlocs = {
  , "c5" : "00195"
  , "c5link" : "././qc/crypto/rc2/rc2_cbc.c.html#195"
  , "c1" : " void "
- , "c2" : "RC2_decrypt(long*;RC2_KEY*)"
+ , "c2" : "RC2_decrypt(unsignedlong*;RC2_KEY*)"
  , "c3" : "4"
  , "c4" : "32"
 }} 

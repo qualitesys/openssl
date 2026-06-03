@@ -3346,7 +3346,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/md5/md5_sha1.c.html#1"
  , "c1" : " int "
- , "c2" : "ossl_md5_sha1_final(char*;MD5_SHA1_CTX*)"
+ , "c2" : "ossl_md5_sha1_final(unsignedchar*;MD5_SHA1_CTX*)"
  , "c3" : "2"
  , "c4" : "2"
 }} 

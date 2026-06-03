@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/ec/curve448/curve448_tables.c.html" 
- , "texte" : "File crypto/ec/curve448/curve448_tables.c 6 rule violations " 
+ , "texte" : "File crypto/ec/curve448/curve448_tables.c 9 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -285,8 +285,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
- , "c1" : " int "
- , "c2" : "constant_time_msb(int)"
+ , "c1" : " unsigned  int "
+ , "c2" : "constant_time_msb(unsignedint)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -321,8 +321,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
- , "c1" : " int "
- , "c2" : "constant_time_lt(int;int)"
+ , "c1" : " unsigned  int "
+ , "c2" : "constant_time_lt(unsignedint;unsignedint)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -339,8 +339,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
- , "c1" : " char "
- , "c2" : "constant_time_lt_8(int;int)"
+ , "c1" : " unsigned  char "
+ , "c2" : "constant_time_lt_8(unsignedint;unsignedint)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -357,8 +357,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
- , "c1" : " int "
- , "c2" : "constant_time_ge(int;int)"
+ , "c1" : " unsigned  int "
+ , "c2" : "constant_time_ge(unsignedint;unsignedint)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -375,8 +375,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
- , "c1" : " char "
- , "c2" : "constant_time_ge_8(int;int)"
+ , "c1" : " unsigned  char "
+ , "c2" : "constant_time_ge_8(unsignedint;unsignedint)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -384,7 +384,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
- , "c1" : " char "
+ , "c1" : " unsigned  char "
  , "c2" : "constant_time_ge_8_s(size_t;size_t)"
  , "c3" : "1"
  , "c4" : "1"
@@ -393,8 +393,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
- , "c1" : " int "
- , "c2" : "constant_time_is_zero(int)"
+ , "c1" : " unsigned  int "
+ , "c2" : "constant_time_is_zero(unsignedint)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -411,8 +411,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
- , "c1" : " char "
- , "c2" : "constant_time_is_zero_8(int)"
+ , "c1" : " unsigned  char "
+ , "c2" : "constant_time_is_zero_8(unsignedint)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -438,8 +438,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
- , "c1" : " int "
- , "c2" : "constant_time_eq(int;int)"
+ , "c1" : " unsigned  int "
+ , "c2" : "constant_time_eq(unsignedint;unsignedint)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -456,8 +456,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
- , "c1" : " char "
- , "c2" : "constant_time_eq_8(int;int)"
+ , "c1" : " unsigned  char "
+ , "c2" : "constant_time_eq_8(unsignedint;unsignedint)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -465,8 +465,323 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
- , "c1" : " char "
+ , "c1" : " unsigned  char "
  , "c2" : "constant_time_eq_8_s(size_t;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : " unsigned  int "
+ , "c2" : "constant_time_eq_int(int;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : " unsigned  char "
+ , "c2" : "constant_time_eq_int_8(int;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : " unsigned  int "
+ , "c2" : "value_barrier(unsignedint)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : "uint32_t"
+ , "c2" : "value_barrier_32(uint32_t)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : "uint64_t"
+ , "c2" : "value_barrier_64(uint64_t)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : "size_t"
+ , "c2" : "value_barrier_s(size_t)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : " unsigned  int "
+ , "c2" : "constant_time_select(unsignedint;unsignedint;unsignedint)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : "size_t"
+ , "c2" : "constant_time_select_s(size_t;size_t;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : " unsigned  char "
+ , "c2" : "constant_time_select_8(unsignedchar;unsignedchar;unsignedchar)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : " int "
+ , "c2" : "constant_time_select_int(unsignedint;int;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : " int "
+ , "c2" : "constant_time_select_int_s(size_t;int;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : "uint32_t"
+ , "c2" : "constant_time_select_32(uint32_t;uint32_t;uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : "uint64_t"
+ , "c2" : "constant_time_select_64(uint64_t;uint64_t;uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : " void "
+ , "c2" : "constant_time_cond_swap_32(uint32_t;uint32_t*;uint32_t*)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : " void "
+ , "c2" : "constant_time_cond_swap_64(uint64_t;uint64_t*;uint64_t*)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : " void "
+ , "c2" : "constant_time_cond_swap_buff(unsignedchar;unsignedchar*;unsignedchar*;size_t)"
+ , "c3" : "2"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : " void "
+ , "c2" : "constant_time_lookup(void*;void*;size_t;size_t;size_t)"
+ , "c3" : "3"
+ , "c4" : "11"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : "c448_error_t"
+ , "c2" : "c448_succeed_if(c448_bool_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : "uint128_t"
+ , "c2" : "widemul(uint64_t;uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : "c448_bool_t"
+ , "c2" : "mask_to_bool(mask_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : "mask_t"
+ , "c2" : "bool_to_mask(c448_bool_t)"
+ , "c3" : "3"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : " void "
+ , "c2" : "gf_copy(gf;gf)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : " void "
+ , "c2" : "gf_add_RAW(gf;gf;gf)"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : " void "
+ , "c2" : "gf_sub_RAW(gf;gf;gf)"
+ , "c3" : "2"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : " void "
+ , "c2" : "gf_bias(gf;int)"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : " void "
+ , "c2" : "gf_weak_reduce(gf)"
+ , "c3" : "2"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : " void "
+ , "c2" : "gf_sqrn(gf_s*;gf;int)"
+ , "c3" : "4"
+ , "c4" : "11"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : " void "
+ , "c2" : "gf_sub_nr(gf;gf;gf)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : " void "
+ , "c2" : "gf_subx_nr(gf;gf;gf;int)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : " void "
+ , "c2" : "gf_mulw(gf;gf;int32_t)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : " void "
+ , "c2" : "gf_cond_sel(gf;gf;gf;mask_t)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : " void "
+ , "c2" : "gf_cond_neg(gf;mask_t)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : " void "
+ , "c2" : "gf_cond_swap(gf;gf_s*;mask_t)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : " void "
+ , "c2" : "curve448_scalar_copy(curve448_scalar_t;curve448_scalar_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c1" : " void "
+ , "c2" : "curve448_point_copy(curve448_point_t;curve448_point_t)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -511,8 +826,15 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
  , "c4" : "1"
 }}
 ,
@@ -520,7 +842,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "4"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -532,13 +854,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/ec/curve448/curve448_tables.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/ec/curve448/curve448_tables.c near following tokens char ) constant_time_eq_s ( a , b ) ; } static inline unsigned int constant_time_eq_int ( int a , int b "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01221"
  , "c1link" : "./qc/crypto/ec/curve448/curve448_tables.c.html#1221"
@@ -572,6 +887,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/ec/curve448/curve448_tables.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00001] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[00001] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[00001] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression n applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/ec/curve448/curve448_tables.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 9999&lt;3 is invariable"
 }} 
 ]
 , 

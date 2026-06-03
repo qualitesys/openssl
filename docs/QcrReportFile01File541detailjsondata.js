@@ -16,7 +16,7 @@ var maDataBlocs = {
  , "c5" : "00077"
  , "c5link" : "././qc/crypto/idea/i_skey.c.html#77"
  , "c1" : " void "
- , "c2" : "IDEA_set_encrypt_key(char*;IDEA_KEY_SCHEDULE*)"
+ , "c2" : "IDEA_set_encrypt_key(unsignedchar*;IDEA_KEY_SCHEDULE*)"
  , "c3" : "3"
  , "c4" : "33"
 }} 
@@ -34,7 +34,7 @@ var maDataBlocs = {
  , "c5" : "00147"
  , "c5link" : "././qc/crypto/idea/i_skey.c.html#147"
  , "c1" : "IDEA_INT"
- , "c2" : "inverse(int)"
+ , "c2" : "inverse(unsignedint)"
  , "c3" : "8"
  , "c4" : "16"
 }} 

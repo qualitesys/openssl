@@ -718,7 +718,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/modes/xts128.c.html#1"
  , "c1" : " int "
- , "c2" : "CRYPTO_xts128_encrypt(XTS128_CONTEXT*;char;char*;char*;size_t;int)"
+ , "c2" : "CRYPTO_xts128_encrypt(XTS128_CONTEXT*;unsignedchar;unsignedchar*;unsignedchar*;size_t;int)"
  , "c3" : "15"
  , "c4" : "73"
 }} 

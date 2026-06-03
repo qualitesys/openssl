@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/evp/p_legacy.c.html" 
- , "texte" : "File crypto/evp/p_legacy.c 7 rule violations " 
+ , "texte" : "File crypto/evp/p_legacy.c 8 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -3201,7 +3201,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3300,7 +3300,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3400,7 +3400,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_LIB(long)"
+ , "c2" : "ERR_GET_LIB(unsignedlong)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3409,7 +3409,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_RFLAGS(long)"
+ , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3418,7 +3418,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_REASON(long)"
+ , "c2" : "ERR_GET_REASON(unsignedlong)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3427,7 +3427,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_FATAL_ERROR(long)"
+ , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3436,7 +3436,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_COMMON_ERROR(long)"
+ , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3444,7 +3444,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3665,6 +3665,798 @@ var maDataBlocs = {
  , "c3" : "2"
  , "c4" : "2"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "CRYPTO_UP_REF(CRYPTO_REF_COUNT*;int*)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "CRYPTO_DOWN_REF(CRYPTO_REF_COUNT*;int*)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "CRYPTO_GET_REF(CRYPTO_REF_COUNT*;int*)"
+ , "c3" : "1"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "CRYPTO_NEW_REF(CRYPTO_REF_COUNT*;int)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " void "
+ , "c2" : "CRYPTO_FREE_REF(CRYPTO_REF_COUNT*)"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EVP_PKEY_METHOD_num(structstack_st_EVP_PKEY_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : "EVP_PKEY_METHOD"
+ , "c2" : "sk_EVP_PKEY_METHOD_value(structstack_st_EVP_PKEY_METHOD*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " struct stack_st_EVP_PKEY_METHOD"
+ , "c2" : "sk_EVP_PKEY_METHOD_new(sk_EVP_PKEY_METHOD_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " struct stack_st_EVP_PKEY_METHOD"
+ , "c2" : "sk_EVP_PKEY_METHOD_new_null(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " struct stack_st_EVP_PKEY_METHOD"
+ , "c2" : "sk_EVP_PKEY_METHOD_new_reserve(sk_EVP_PKEY_METHOD_compfunc;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EVP_PKEY_METHOD_reserve(structstack_st_EVP_PKEY_METHOD*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " void "
+ , "c2" : "sk_EVP_PKEY_METHOD_free(structstack_st_EVP_PKEY_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " void "
+ , "c2" : "sk_EVP_PKEY_METHOD_zero(structstack_st_EVP_PKEY_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : "EVP_PKEY_METHOD"
+ , "c2" : "sk_EVP_PKEY_METHOD_delete(structstack_st_EVP_PKEY_METHOD*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : "EVP_PKEY_METHOD"
+ , "c2" : "sk_EVP_PKEY_METHOD_delete_ptr(structstack_st_EVP_PKEY_METHOD*;EVP_PKEY_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EVP_PKEY_METHOD_push(structstack_st_EVP_PKEY_METHOD*;EVP_PKEY_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EVP_PKEY_METHOD_unshift(structstack_st_EVP_PKEY_METHOD*;EVP_PKEY_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : "EVP_PKEY_METHOD"
+ , "c2" : "sk_EVP_PKEY_METHOD_pop(structstack_st_EVP_PKEY_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : "EVP_PKEY_METHOD"
+ , "c2" : "sk_EVP_PKEY_METHOD_shift(structstack_st_EVP_PKEY_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " void "
+ , "c2" : "sk_EVP_PKEY_METHOD_pop_free(structstack_st_EVP_PKEY_METHOD*;sk_EVP_PKEY_METHOD_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EVP_PKEY_METHOD_insert(structstack_st_EVP_PKEY_METHOD*;EVP_PKEY_METHOD*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : "EVP_PKEY_METHOD"
+ , "c2" : "sk_EVP_PKEY_METHOD_set(structstack_st_EVP_PKEY_METHOD*;int;EVP_PKEY_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EVP_PKEY_METHOD_find(structstack_st_EVP_PKEY_METHOD*;EVP_PKEY_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EVP_PKEY_METHOD_find_ex(structstack_st_EVP_PKEY_METHOD*;EVP_PKEY_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EVP_PKEY_METHOD_find_all(structstack_st_EVP_PKEY_METHOD*;EVP_PKEY_METHOD*;int*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " void "
+ , "c2" : "sk_EVP_PKEY_METHOD_sort(structstack_st_EVP_PKEY_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EVP_PKEY_METHOD_is_sorted(structstack_st_EVP_PKEY_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " struct stack_st_EVP_PKEY_METHOD"
+ , "c2" : "sk_EVP_PKEY_METHOD_dup(structstack_st_EVP_PKEY_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " struct stack_st_EVP_PKEY_METHOD"
+ , "c2" : "sk_EVP_PKEY_METHOD_deep_copy(structstack_st_EVP_PKEY_METHOD*;sk_EVP_PKEY_METHOD_copyfunc;sk_EVP_PKEY_METHOD_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : "sk_EVP_PKEY_METHOD_compfunc"
+ , "c2" : "sk_EVP_PKEY_METHOD_set_cmp_func(structstack_st_EVP_PKEY_METHOD*;sk_EVP_PKEY_METHOD_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_OP_CACHE_ELEM_num(structstack_st_OP_CACHE_ELEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : "OP_CACHE_ELEM"
+ , "c2" : "sk_OP_CACHE_ELEM_value(structstack_st_OP_CACHE_ELEM*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " struct stack_st_OP_CACHE_ELEM"
+ , "c2" : "sk_OP_CACHE_ELEM_new(sk_OP_CACHE_ELEM_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " struct stack_st_OP_CACHE_ELEM"
+ , "c2" : "sk_OP_CACHE_ELEM_new_null(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " struct stack_st_OP_CACHE_ELEM"
+ , "c2" : "sk_OP_CACHE_ELEM_new_reserve(sk_OP_CACHE_ELEM_compfunc;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_OP_CACHE_ELEM_reserve(structstack_st_OP_CACHE_ELEM*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " void "
+ , "c2" : "sk_OP_CACHE_ELEM_free(structstack_st_OP_CACHE_ELEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " void "
+ , "c2" : "sk_OP_CACHE_ELEM_zero(structstack_st_OP_CACHE_ELEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : "OP_CACHE_ELEM"
+ , "c2" : "sk_OP_CACHE_ELEM_delete(structstack_st_OP_CACHE_ELEM*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : "OP_CACHE_ELEM"
+ , "c2" : "sk_OP_CACHE_ELEM_delete_ptr(structstack_st_OP_CACHE_ELEM*;OP_CACHE_ELEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_OP_CACHE_ELEM_push(structstack_st_OP_CACHE_ELEM*;OP_CACHE_ELEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_OP_CACHE_ELEM_unshift(structstack_st_OP_CACHE_ELEM*;OP_CACHE_ELEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : "OP_CACHE_ELEM"
+ , "c2" : "sk_OP_CACHE_ELEM_pop(structstack_st_OP_CACHE_ELEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : "OP_CACHE_ELEM"
+ , "c2" : "sk_OP_CACHE_ELEM_shift(structstack_st_OP_CACHE_ELEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " void "
+ , "c2" : "sk_OP_CACHE_ELEM_pop_free(structstack_st_OP_CACHE_ELEM*;sk_OP_CACHE_ELEM_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_OP_CACHE_ELEM_insert(structstack_st_OP_CACHE_ELEM*;OP_CACHE_ELEM*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : "OP_CACHE_ELEM"
+ , "c2" : "sk_OP_CACHE_ELEM_set(structstack_st_OP_CACHE_ELEM*;int;OP_CACHE_ELEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_OP_CACHE_ELEM_find(structstack_st_OP_CACHE_ELEM*;OP_CACHE_ELEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_OP_CACHE_ELEM_find_ex(structstack_st_OP_CACHE_ELEM*;OP_CACHE_ELEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_OP_CACHE_ELEM_find_all(structstack_st_OP_CACHE_ELEM*;OP_CACHE_ELEM*;int*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " void "
+ , "c2" : "sk_OP_CACHE_ELEM_sort(structstack_st_OP_CACHE_ELEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_OP_CACHE_ELEM_is_sorted(structstack_st_OP_CACHE_ELEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " struct stack_st_OP_CACHE_ELEM"
+ , "c2" : "sk_OP_CACHE_ELEM_dup(structstack_st_OP_CACHE_ELEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " struct stack_st_OP_CACHE_ELEM"
+ , "c2" : "sk_OP_CACHE_ELEM_deep_copy(structstack_st_OP_CACHE_ELEM*;sk_OP_CACHE_ELEM_copyfunc;sk_OP_CACHE_ELEM_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : "sk_OP_CACHE_ELEM_compfunc"
+ , "c2" : "sk_OP_CACHE_ELEM_set_cmp_func(structstack_st_OP_CACHE_ELEM*;sk_OP_CACHE_ELEM_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EVP_PBE_CTL_num(structstack_st_EVP_PBE_CTL*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : "EVP_PBE_CTL"
+ , "c2" : "sk_EVP_PBE_CTL_value(structstack_st_EVP_PBE_CTL*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " struct stack_st_EVP_PBE_CTL"
+ , "c2" : "sk_EVP_PBE_CTL_new(sk_EVP_PBE_CTL_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " struct stack_st_EVP_PBE_CTL"
+ , "c2" : "sk_EVP_PBE_CTL_new_null(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " struct stack_st_EVP_PBE_CTL"
+ , "c2" : "sk_EVP_PBE_CTL_new_reserve(sk_EVP_PBE_CTL_compfunc;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EVP_PBE_CTL_reserve(structstack_st_EVP_PBE_CTL*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " void "
+ , "c2" : "sk_EVP_PBE_CTL_free(structstack_st_EVP_PBE_CTL*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " void "
+ , "c2" : "sk_EVP_PBE_CTL_zero(structstack_st_EVP_PBE_CTL*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : "EVP_PBE_CTL"
+ , "c2" : "sk_EVP_PBE_CTL_delete(structstack_st_EVP_PBE_CTL*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : "EVP_PBE_CTL"
+ , "c2" : "sk_EVP_PBE_CTL_delete_ptr(structstack_st_EVP_PBE_CTL*;EVP_PBE_CTL*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EVP_PBE_CTL_push(structstack_st_EVP_PBE_CTL*;EVP_PBE_CTL*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EVP_PBE_CTL_unshift(structstack_st_EVP_PBE_CTL*;EVP_PBE_CTL*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : "EVP_PBE_CTL"
+ , "c2" : "sk_EVP_PBE_CTL_pop(structstack_st_EVP_PBE_CTL*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : "EVP_PBE_CTL"
+ , "c2" : "sk_EVP_PBE_CTL_shift(structstack_st_EVP_PBE_CTL*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " void "
+ , "c2" : "sk_EVP_PBE_CTL_pop_free(structstack_st_EVP_PBE_CTL*;sk_EVP_PBE_CTL_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EVP_PBE_CTL_insert(structstack_st_EVP_PBE_CTL*;EVP_PBE_CTL*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : "EVP_PBE_CTL"
+ , "c2" : "sk_EVP_PBE_CTL_set(structstack_st_EVP_PBE_CTL*;int;EVP_PBE_CTL*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EVP_PBE_CTL_find(structstack_st_EVP_PBE_CTL*;EVP_PBE_CTL*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EVP_PBE_CTL_find_ex(structstack_st_EVP_PBE_CTL*;EVP_PBE_CTL*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EVP_PBE_CTL_find_all(structstack_st_EVP_PBE_CTL*;EVP_PBE_CTL*;int*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " void "
+ , "c2" : "sk_EVP_PBE_CTL_sort(structstack_st_EVP_PBE_CTL*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EVP_PBE_CTL_is_sorted(structstack_st_EVP_PBE_CTL*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " struct stack_st_EVP_PBE_CTL"
+ , "c2" : "sk_EVP_PBE_CTL_dup(structstack_st_EVP_PBE_CTL*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " struct stack_st_EVP_PBE_CTL"
+ , "c2" : "sk_EVP_PBE_CTL_deep_copy(structstack_st_EVP_PBE_CTL*;sk_EVP_PBE_CTL_copyfunc;sk_EVP_PBE_CTL_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : "sk_EVP_PBE_CTL_compfunc"
+ , "c2" : "sk_EVP_PBE_CTL_set_cmp_func(structstack_st_EVP_PBE_CTL*;sk_EVP_PBE_CTL_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "EVP_PKEY_set1_RSA(EVP_PKEY*;RSA*)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : "RSA"
+ , "c2" : "evp_pkey_get0_RSA_int(EVP_PKEY*)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : "RSA"
+ , "c2" : "EVP_PKEY_get0_RSA(EVP_PKEY*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : "RSA"
+ , "c2" : "EVP_PKEY_get1_RSA(EVP_PKEY*)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : " int "
+ , "c2" : "EVP_PKEY_set1_EC_KEY(EVP_PKEY*;EC_KEY*)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : "EC_KEY"
+ , "c2" : "evp_pkey_get0_EC_KEY_int(EVP_PKEY*)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : "EC_KEY"
+ , "c2" : "EVP_PKEY_get0_EC_KEY(EVP_PKEY*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/evp/p_legacy.c.html#1"
+ , "c1" : "EC_KEY"
+ , "c2" : "EVP_PKEY_get1_EC_KEY(EVP_PKEY*)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
 ] 
 }} 
 ]
@@ -3706,8 +4498,8 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
  , "c4" : "1"
 }}
 ,
@@ -3715,7 +4507,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "4"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -3734,13 +4526,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/evp/p_legacy.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/evp/p_legacy.c near following tokens EC_KEY CPP_POINTEUR key , const EC_POINT CPP_POINTEUR pub ) ; extern unsigned EC_KEY_get_enc_flags ( const EC_KEY CPP_POINTEUR key ) ; extern "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01588"
  , "c1link" : "./qc/crypto/evp/p_legacy.c.html#1588"
@@ -3781,6 +4566,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/evp/p_legacy.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00001] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/evp/p_legacy.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/evp/p_legacy.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 408 is invariable"
 }} 
 ]
 , 

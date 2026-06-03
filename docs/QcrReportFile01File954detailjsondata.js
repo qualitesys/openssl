@@ -2788,7 +2788,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/digests/null_prov.c.html#1"
  , "c1" : " int "
- , "c2" : "null_final(char*;NULLMD_CTX*)"
+ , "c2" : "null_final(unsignedchar*;NULLMD_CTX*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2833,7 +2833,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/digests/null_prov.c.html#1"
  , "c1" : " int "
- , "c2" : "nullmd_internal_final(void*;char*;size_t*;size_t)"
+ , "c2" : "nullmd_internal_final(void*;unsignedchar*;size_t*;size_t)"
  , "c3" : "2"
  , "c4" : "3"
 }} 

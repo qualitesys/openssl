@@ -3327,7 +3327,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kem/ecx_kem.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3426,7 +3426,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kem/ecx_kem.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3526,7 +3526,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kem/ecx_kem.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_LIB(long)"
+ , "c2" : "ERR_GET_LIB(unsignedlong)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3535,7 +3535,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kem/ecx_kem.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_RFLAGS(long)"
+ , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3544,7 +3544,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kem/ecx_kem.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_REASON(long)"
+ , "c2" : "ERR_GET_REASON(unsignedlong)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3553,7 +3553,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kem/ecx_kem.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_FATAL_ERROR(long)"
+ , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3562,7 +3562,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kem/ecx_kem.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_COMMON_ERROR(long)"
+ , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3570,7 +3570,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kem/ecx_kem.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3742,7 +3742,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kem/ecx_kem.c.html#1"
  , "c1" : "ECX_KEY"
- , "c2" : "ecxkey_pubfromdata(PROV_ECX_CTX*;char*;size_t)"
+ , "c2" : "ecxkey_pubfromdata(PROV_ECX_CTX*;unsignedchar*;size_t)"
  , "c3" : "3"
  , "c4" : "9"
 }} 
@@ -3750,7 +3750,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kem/ecx_kem.c.html#1"
- , "c1" : " char "
+ , "c1" : " unsigned  char "
  , "c2" : "ecx_pubkey(ECX_KEY*)"
  , "c3" : "2"
  , "c4" : "3"
@@ -3859,7 +3859,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kem/ecx_kem.c.html#1"
  , "c1" : " int "
- , "c2" : "dhkem_extract_and_expand(EVP_KDF_CTX*;char*;size_t;uint16_t;char*;size_t;char*;size_t)"
+ , "c2" : "dhkem_extract_and_expand(EVP_KDF_CTX*;unsignedchar*;size_t;uint16_t;unsignedchar*;size_t;unsignedchar*;size_t)"
  , "c3" : "2"
  , "c4" : "10"
 }} 
@@ -3868,7 +3868,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kem/ecx_kem.c.html#1"
  , "c1" : " int "
- , "c2" : "ossl_ecx_dhkem_derive_private(ECX_KEY*;char*;char*;size_t)"
+ , "c2" : "ossl_ecx_dhkem_derive_private(ECX_KEY*;unsignedchar*;unsignedchar*;size_t)"
  , "c3" : "5"
  , "c4" : "17"
 }} 
@@ -3877,7 +3877,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kem/ecx_kem.c.html#1"
  , "c1" : "ECX_KEY"
- , "c2" : "derivekey(PROV_ECX_CTX*;char*;size_t)"
+ , "c2" : "derivekey(PROV_ECX_CTX*;unsignedchar*;size_t)"
  , "c3" : "10"
  , "c4" : "23"
 }} 
@@ -3886,7 +3886,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kem/ecx_kem.c.html#1"
  , "c1" : " int "
- , "c2" : "generate_ecxdhkm(ECX_KEY*;ECX_KEY*;char*;size_t;int)"
+ , "c2" : "generate_ecxdhkm(ECX_KEY*;ECX_KEY*;unsignedchar*;size_t;unsignedint)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -3895,7 +3895,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kem/ecx_kem.c.html#1"
  , "c1" : " int "
- , "c2" : "derive_secret(PROV_ECX_CTX*;char*;ECX_KEY*;ECX_KEY*;ECX_KEY*;ECX_KEY*;char*;char*)"
+ , "c2" : "derive_secret(PROV_ECX_CTX*;unsignedchar*;ECX_KEY*;ECX_KEY*;ECX_KEY*;ECX_KEY*;unsignedchar*;unsignedchar*)"
  , "c3" : "9"
  , "c4" : "27"
 }} 
@@ -3904,7 +3904,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kem/ecx_kem.c.html#1"
  , "c1" : " int "
- , "c2" : "dhkem_encap(PROV_ECX_CTX*;char*;size_t*;char*;size_t*)"
+ , "c2" : "dhkem_encap(PROV_ECX_CTX*;unsignedchar*;size_t*;unsignedchar*;size_t*)"
  , "c3" : "9"
  , "c4" : "23"
 }} 
@@ -3913,7 +3913,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kem/ecx_kem.c.html#1"
  , "c1" : " int "
- , "c2" : "dhkem_decap(PROV_ECX_CTX*;char*;size_t*;char*;size_t)"
+ , "c2" : "dhkem_decap(PROV_ECX_CTX*;unsignedchar*;size_t*;unsignedchar*;size_t)"
  , "c3" : "7"
  , "c4" : "20"
 }} 
@@ -3922,7 +3922,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kem/ecx_kem.c.html#1"
  , "c1" : " int "
- , "c2" : "ecxkem_encapsulate(void*;char*;size_t*;char*;size_t*)"
+ , "c2" : "ecxkem_encapsulate(void*;unsignedchar*;size_t*;unsignedchar*;size_t*)"
  , "c3" : "2"
  , "c4" : "4"
 }} 
@@ -3931,7 +3931,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kem/ecx_kem.c.html#1"
  , "c1" : " int "
- , "c2" : "ecxkem_decapsulate(void*;char*;size_t*;char*;size_t)"
+ , "c2" : "ecxkem_decapsulate(void*;unsignedchar*;size_t*;unsignedchar*;size_t)"
  , "c3" : "2"
  , "c4" : "4"
 }} 

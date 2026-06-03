@@ -3382,7 +3382,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/digests/md5_sha1_prov.c.html#1"
  , "c1" : " int "
- , "c2" : "md5_sha1_internal_final(void*;char*;size_t*;size_t)"
+ , "c2" : "md5_sha1_internal_final(void*;unsignedchar*;size_t*;size_t)"
  , "c3" : "2"
  , "c4" : "3"
 }} 

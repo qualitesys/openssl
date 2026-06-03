@@ -151,7 +151,7 @@ var maDataBlocs = {
  , "c5" : "00882"
  , "c5link" : "././qc/crypto/chacha/chacha_enc.c.html#882"
  , "c1" : " void "
- , "c2" : "ChaCha20_ctr32(char*;char*;size_t;int;int)"
+ , "c2" : "ChaCha20_ctr32(unsignedchar*;unsignedchar*;size_t;unsignedint;unsignedint)"
  , "c3" : "4"
  , "c4" : "29"
 }} 

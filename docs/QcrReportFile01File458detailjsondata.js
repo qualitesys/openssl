@@ -1284,7 +1284,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -1383,7 +1383,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -1483,7 +1483,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_LIB(long)"
+ , "c2" : "ERR_GET_LIB(unsignedlong)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -1492,7 +1492,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_RFLAGS(long)"
+ , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -1501,7 +1501,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_REASON(long)"
+ , "c2" : "ERR_GET_REASON(unsignedlong)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -1510,7 +1510,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_FATAL_ERROR(long)"
+ , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1519,7 +1519,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_COMMON_ERROR(long)"
+ , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1527,7 +1527,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -1851,7 +1851,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_MEM_hfn_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -1923,7 +1923,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_MEM_num_items(structlhash_st_MEM*)"
  , "c3" : "1"
  , "c4" : "1"
@@ -1932,7 +1932,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_MEM_get_down_load(structlhash_st_MEM*)"
  , "c3" : "1"
  , "c4" : "1"
@@ -1942,7 +1942,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " void "
- , "c2" : "lh_MEM_set_down_load(structlhash_st_MEM*;long)"
+ , "c2" : "lh_MEM_set_down_load(structlhash_st_MEM*;unsignedlong)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1978,7 +1978,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " struct lhash_st_MEM"
- , "c2" : "lh_MEM_new(long;int)"
+ , "c2" : "lh_MEM_new(unsignedlong;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4894,7 +4894,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "aria_init_key(EVP_CIPHER_CTX*;char*;char*;int)"
+ , "c2" : "aria_init_key(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;int)"
  , "c3" : "4"
  , "c4" : "7"
 }} 
@@ -4903,7 +4903,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " void "
- , "c2" : "aria_cbc_encrypt(char*;char*;size_t;ARIA_KEY*;char*;int)"
+ , "c2" : "aria_cbc_encrypt(unsignedchar*;unsignedchar*;size_t;ARIA_KEY*;unsignedchar*;int)"
  , "c3" : "3"
  , "c4" : "2"
 }} 
@@ -4912,7 +4912,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " void "
- , "c2" : "aria_cfb128_encrypt(char*;char*;size_t;ARIA_KEY*;char*;int*;int)"
+ , "c2" : "aria_cfb128_encrypt(unsignedchar*;unsignedchar*;size_t;ARIA_KEY*;unsignedchar*;int*;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4921,7 +4921,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " void "
- , "c2" : "aria_cfb1_encrypt(char*;char*;size_t;ARIA_KEY*;char*;int*;int)"
+ , "c2" : "aria_cfb1_encrypt(unsignedchar*;unsignedchar*;size_t;ARIA_KEY*;unsignedchar*;int*;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4930,7 +4930,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " void "
- , "c2" : "aria_cfb8_encrypt(char*;char*;size_t;ARIA_KEY*;char*;int*;int)"
+ , "c2" : "aria_cfb8_encrypt(unsignedchar*;unsignedchar*;size_t;ARIA_KEY*;unsignedchar*;int*;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4939,7 +4939,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " void "
- , "c2" : "aria_ecb_encrypt(char*;char*;ARIA_KEY*;int)"
+ , "c2" : "aria_ecb_encrypt(unsignedchar*;unsignedchar*;ARIA_KEY*;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4948,7 +4948,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " void "
- , "c2" : "aria_ofb128_encrypt(char*;char*;size_t;ARIA_KEY*;char*;int*)"
+ , "c2" : "aria_ofb128_encrypt(unsignedchar*;unsignedchar*;size_t;ARIA_KEY*;unsignedchar*;int*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4957,7 +4957,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "aria_128_cbc_cipher(EVP_CIPHER_CTX*;char*;char*;size_t)"
+ , "c2" : "aria_128_cbc_cipher(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;size_t)"
  , "c3" : "3"
  , "c4" : "6"
 }} 
@@ -4966,7 +4966,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "aria_128_cfb128_cipher(EVP_CIPHER_CTX*;char*;char*;size_t)"
+ , "c2" : "aria_128_cfb128_cipher(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;size_t)"
  , "c3" : "5"
  , "c4" : "11"
 }} 
@@ -4975,7 +4975,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "aria_128_ecb_cipher(EVP_CIPHER_CTX*;char*;char*;size_t)"
+ , "c2" : "aria_128_ecb_cipher(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;size_t)"
  , "c3" : "3"
  , "c4" : "8"
 }} 
@@ -4984,7 +4984,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "aria_128_ofb_cipher(EVP_CIPHER_CTX*;char*;char*;size_t)"
+ , "c2" : "aria_128_ofb_cipher(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;size_t)"
  , "c3" : "3"
  , "c4" : "10"
 }} 
@@ -5029,7 +5029,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "aria_192_cbc_cipher(EVP_CIPHER_CTX*;char*;char*;size_t)"
+ , "c2" : "aria_192_cbc_cipher(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;size_t)"
  , "c3" : "3"
  , "c4" : "6"
 }} 
@@ -5038,7 +5038,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "aria_192_cfb128_cipher(EVP_CIPHER_CTX*;char*;char*;size_t)"
+ , "c2" : "aria_192_cfb128_cipher(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;size_t)"
  , "c3" : "5"
  , "c4" : "11"
 }} 
@@ -5047,7 +5047,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "aria_192_ecb_cipher(EVP_CIPHER_CTX*;char*;char*;size_t)"
+ , "c2" : "aria_192_ecb_cipher(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;size_t)"
  , "c3" : "3"
  , "c4" : "8"
 }} 
@@ -5056,7 +5056,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "aria_192_ofb_cipher(EVP_CIPHER_CTX*;char*;char*;size_t)"
+ , "c2" : "aria_192_ofb_cipher(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;size_t)"
  , "c3" : "3"
  , "c4" : "10"
 }} 
@@ -5101,7 +5101,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "aria_256_cbc_cipher(EVP_CIPHER_CTX*;char*;char*;size_t)"
+ , "c2" : "aria_256_cbc_cipher(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;size_t)"
  , "c3" : "3"
  , "c4" : "6"
 }} 
@@ -5110,7 +5110,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "aria_256_cfb128_cipher(EVP_CIPHER_CTX*;char*;char*;size_t)"
+ , "c2" : "aria_256_cfb128_cipher(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;size_t)"
  , "c3" : "5"
  , "c4" : "11"
 }} 
@@ -5119,7 +5119,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "aria_256_ecb_cipher(EVP_CIPHER_CTX*;char*;char*;size_t)"
+ , "c2" : "aria_256_ecb_cipher(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;size_t)"
  , "c3" : "3"
  , "c4" : "8"
 }} 
@@ -5128,7 +5128,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "aria_256_ofb_cipher(EVP_CIPHER_CTX*;char*;char*;size_t)"
+ , "c2" : "aria_256_ofb_cipher(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;size_t)"
  , "c3" : "3"
  , "c4" : "10"
 }} 
@@ -5173,7 +5173,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "aria_128_cfb1_cipher(EVP_CIPHER_CTX*;char*;char*;size_t)"
+ , "c2" : "aria_128_cfb1_cipher(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;size_t)"
  , "c3" : "5"
  , "c4" : "11"
 }} 
@@ -5191,7 +5191,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "aria_192_cfb1_cipher(EVP_CIPHER_CTX*;char*;char*;size_t)"
+ , "c2" : "aria_192_cfb1_cipher(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;size_t)"
  , "c3" : "5"
  , "c4" : "11"
 }} 
@@ -5209,7 +5209,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "aria_256_cfb1_cipher(EVP_CIPHER_CTX*;char*;char*;size_t)"
+ , "c2" : "aria_256_cfb1_cipher(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;size_t)"
  , "c3" : "5"
  , "c4" : "11"
 }} 
@@ -5227,7 +5227,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "aria_128_cfb8_cipher(EVP_CIPHER_CTX*;char*;char*;size_t)"
+ , "c2" : "aria_128_cfb8_cipher(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;size_t)"
  , "c3" : "5"
  , "c4" : "11"
 }} 
@@ -5245,7 +5245,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "aria_192_cfb8_cipher(EVP_CIPHER_CTX*;char*;char*;size_t)"
+ , "c2" : "aria_192_cfb8_cipher(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;size_t)"
  , "c3" : "5"
  , "c4" : "11"
 }} 
@@ -5263,7 +5263,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "aria_256_cfb8_cipher(EVP_CIPHER_CTX*;char*;char*;size_t)"
+ , "c2" : "aria_256_cfb8_cipher(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;size_t)"
  , "c3" : "5"
  , "c4" : "11"
 }} 
@@ -5281,7 +5281,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "aria_ctr_cipher(EVP_CIPHER_CTX*;char*;char*;size_t)"
+ , "c2" : "aria_ctr_cipher(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;size_t)"
  , "c3" : "2"
  , "c4" : "8"
 }} 
@@ -5317,7 +5317,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " void "
- , "c2" : "ctr64_inc(char*)"
+ , "c2" : "ctr64_inc(unsignedchar*)"
  , "c3" : "4"
  , "c4" : "8"
 }} 
@@ -5326,7 +5326,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "aria_gcm_init_key(EVP_CIPHER_CTX*;char*;char*;int)"
+ , "c2" : "aria_gcm_init_key(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;int)"
  , "c3" : "9"
  , "c4" : "16"
 }} 
@@ -5344,7 +5344,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "aria_gcm_tls_cipher(EVP_CIPHER_CTX*;char*;char*;size_t)"
+ , "c2" : "aria_gcm_tls_cipher(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;size_t)"
  , "c3" : "9"
  , "c4" : "20"
 }} 
@@ -5353,7 +5353,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "aria_gcm_cipher(EVP_CIPHER_CTX*;char*;char*;size_t)"
+ , "c2" : "aria_gcm_cipher(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;size_t)"
  , "c3" : "15"
  , "c4" : "16"
 }} 
@@ -5371,7 +5371,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "aria_ccm_init_key(EVP_CIPHER_CTX*;char*;char*;int)"
+ , "c2" : "aria_ccm_init_key(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;int)"
  , "c3" : "5"
  , "c4" : "12"
 }} 
@@ -5389,7 +5389,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "aria_ccm_tls_cipher(EVP_CIPHER_CTX*;char*;char*;size_t)"
+ , "c2" : "aria_ccm_tls_cipher(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;size_t)"
  , "c3" : "11"
  , "c4" : "17"
 }} 
@@ -5398,7 +5398,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/e_aria.c.html#1"
  , "c1" : " int "
- , "c2" : "aria_ccm_cipher(EVP_CIPHER_CTX*;char*;char*;size_t)"
+ , "c2" : "aria_ccm_cipher(EVP_CIPHER_CTX*;unsignedchar*;unsignedchar*;size_t)"
  , "c3" : "19"
  , "c4" : "26"
 }} 

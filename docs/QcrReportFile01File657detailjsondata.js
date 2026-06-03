@@ -16,7 +16,7 @@ var maDataBlocs = {
  , "c5" : "00099"
  , "c5link" : "././qc/crypto/rc2/rc2_skey.c.html#99"
  , "c1" : " void "
- , "c2" : "RC2_set_key(RC2_KEY*;int;char*;int)"
+ , "c2" : "RC2_set_key(RC2_KEY*;int;unsignedchar*;int)"
  , "c3" : "8"
  , "c4" : "29"
 }} 

@@ -16,7 +16,7 @@ var maDataBlocs = {
  , "c5" : "00369"
  , "c5link" : "././qc/crypto/bf/bf_ofb64.c.html#369"
  , "c1" : " void "
- , "c2" : "BF_ofb64_encrypt(char*;char*;long;BF_KEY*;char*;int*)"
+ , "c2" : "BF_ofb64_encrypt(unsignedchar*;unsignedchar*;long;BF_KEY*;unsignedchar*;int*)"
  , "c3" : "4"
  , "c4" : "32"
 }} 

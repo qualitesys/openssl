@@ -727,7 +727,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/ripemd/rmd_dgst.c.html#1"
  , "c1" : " void "
- , "c2" : "RIPEMD160_Transform(RIPEMD160_CTX*;char*)"
+ , "c2" : "RIPEMD160_Transform(RIPEMD160_CTX*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -736,7 +736,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/ripemd/rmd_dgst.c.html#1"
  , "c1" : " int "
- , "c2" : "RIPEMD160_Final(char*;RIPEMD160_CTX*)"
+ , "c2" : "RIPEMD160_Final(unsignedchar*;RIPEMD160_CTX*)"
  , "c3" : "4"
  , "c4" : "28"
 }} 

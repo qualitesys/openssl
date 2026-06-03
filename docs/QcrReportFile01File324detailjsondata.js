@@ -3202,7 +3202,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/deterministic_nonce.c.html#1"
  , "c1" : " int "
- , "c2" : "bits2int(BIGNUM*;int;char*;size_t)"
+ , "c2" : "bits2int(BIGNUM*;int;unsignedchar*;size_t)"
  , "c3" : "3"
  , "c4" : "6"
 }} 
@@ -3211,7 +3211,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/deterministic_nonce.c.html#1"
  , "c1" : " int "
- , "c2" : "int2octets(char*;BIGNUM*;int)"
+ , "c2" : "int2octets(unsignedchar*;BIGNUM*;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3220,7 +3220,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/deterministic_nonce.c.html#1"
  , "c1" : " int "
- , "c2" : "bits2octets(char*;BIGNUM*;int;int;char*;size_t)"
+ , "c2" : "bits2octets(unsignedchar*;BIGNUM*;int;int;unsignedchar*;size_t)"
  , "c3" : "3"
  , "c4" : "7"
 }} 
@@ -3229,7 +3229,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/deterministic_nonce.c.html#1"
  , "c1" : "EVP_KDF_CTX"
- , "c2" : "kdf_setup(char*;char*;size_t;char*;size_t;OSSL_LIB_CTX*;char*)"
+ , "c2" : "kdf_setup(char*;unsignedchar*;size_t;unsignedchar*;size_t;OSSL_LIB_CTX*;char*)"
  , "c3" : "4"
  , "c4" : "17"
 }} 
@@ -3238,7 +3238,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/deterministic_nonce.c.html#1"
  , "c1" : " int "
- , "c2" : "ossl_gen_deterministic_nonce_rfc6979(BIGNUM*;BIGNUM*;BIGNUM*;char*;size_t;char*;OSSL_LIB_CTX*;char*)"
+ , "c2" : "ossl_gen_deterministic_nonce_rfc6979(BIGNUM*;BIGNUM*;BIGNUM*;unsignedchar*;size_t;char*;OSSL_LIB_CTX*;char*)"
  , "c3" : "9"
  , "c4" : "22"
 }} 

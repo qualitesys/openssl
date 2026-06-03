@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/providers/implementations/signature/ecdsa_sig.c.html" 
- , "texte" : "File providers/implementations/signature/ecdsa_sig.c 8 rule violations " 
+ , "texte" : "File providers/implementations/signature/ecdsa_sig.c 36 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -3327,7 +3327,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3426,7 +3426,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3526,7 +3526,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_LIB(long)"
+ , "c2" : "ERR_GET_LIB(unsignedlong)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3535,7 +3535,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_RFLAGS(long)"
+ , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3544,7 +3544,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_REASON(long)"
+ , "c2" : "ERR_GET_REASON(unsignedlong)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3553,7 +3553,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_FATAL_ERROR(long)"
+ , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3562,7 +3562,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_COMMON_ERROR(long)"
+ , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3570,7 +3570,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -4029,7 +4029,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_MEM_hfn_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -4101,7 +4101,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_MEM_num_items(structlhash_st_MEM*)"
  , "c3" : "1"
  , "c4" : "1"
@@ -4110,7 +4110,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_MEM_get_down_load(structlhash_st_MEM*)"
  , "c3" : "1"
  , "c4" : "1"
@@ -4120,7 +4120,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
  , "c1" : " void "
- , "c2" : "lh_MEM_set_down_load(structlhash_st_MEM*;long)"
+ , "c2" : "lh_MEM_set_down_load(structlhash_st_MEM*;unsignedlong)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4156,7 +4156,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
  , "c1" : " struct lhash_st_MEM"
- , "c2" : "lh_MEM_new(long;int)"
+ , "c2" : "lh_MEM_new(unsignedlong;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4168,6 +4168,564 @@ var maDataBlocs = {
  , "c2" : "lh_MEM_doall_arg(structlhash_st_MEM*;void;void*)"
  , "c3" : "1"
  , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " void "
+ , "c2" : "packet_forward(PACKET*;size_t)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : "size_t"
+ , "c2" : "PACKET_remaining(PACKET*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " unsigned  char "
+ , "c2" : "PACKET_end(PACKET*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " unsigned  char "
+ , "c2" : "PACKET_data(PACKET*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_buf_init(PACKET*;unsignedchar*;size_t)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " void "
+ , "c2" : "PACKET_null_init(PACKET*)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_equal(PACKET*;void*;size_t)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_peek_sub_packet(PACKET*;PACKET*;size_t)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_get_sub_packet(PACKET*;PACKET*;size_t)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_peek_net_2(PACKET*;unsignedint*)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_get_net_2(PACKET*;unsignedint*)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_get_net_2_len(PACKET*;size_t*)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_peek_net_3(PACKET*;unsignedlong*)"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_get_net_3(PACKET*;unsignedlong*)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_get_net_3_len(PACKET*;size_t*)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_peek_net_4(PACKET*;unsignedlong*)"
+ , "c3" : "2"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_peek_net_8(PACKET*;uint64_t*)"
+ , "c3" : "2"
+ , "c4" : "10"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_get_net_4(PACKET*;unsignedlong*)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_get_net_4_len(PACKET*;size_t*)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_get_net_8(PACKET*;uint64_t*)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_peek_1(PACKET*;unsignedint*)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_get_1(PACKET*;unsignedint*)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_get_1_len(PACKET*;size_t*)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_peek_4(PACKET*;unsignedlong*)"
+ , "c3" : "2"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_get_4(PACKET*;unsignedlong*)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_peek_bytes(PACKET*;unsignedchar*;size_t)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_get_bytes(PACKET*;unsignedchar*;size_t)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_peek_copy_bytes(PACKET*;unsignedchar*;size_t)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_copy_bytes(PACKET*;unsignedchar*;size_t)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_copy_all(PACKET*;unsignedchar*;size_t;size_t*)"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_memdup(PACKET*;unsignedchar*;size_t*)"
+ , "c3" : "3"
+ , "c4" : "10"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_strndup(PACKET*;char*)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_contains_zero_byte(PACKET*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_forward(PACKET*;size_t)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_get_length_prefixed_1(PACKET*;PACKET*)"
+ , "c3" : "2"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_as_length_prefixed_1(PACKET*;PACKET*)"
+ , "c3" : "2"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_get_length_prefixed_2(PACKET*;PACKET*)"
+ , "c3" : "2"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_as_length_prefixed_2(PACKET*;PACKET*)"
+ , "c3" : "2"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "PACKET_get_length_prefixed_3(PACKET*;PACKET*)"
+ , "c3" : "2"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " void "
+ , "c2" : "ecdsa_newctx(void*;char*)"
+ , "c3" : "4"
+ , "c4" : "9"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ecdsa_signverify_init(void*;void*;OSSL_PARAM;int)"
+ , "c3" : "7"
+ , "c4" : "11"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ecdsa_sign_init(void*;void*;OSSL_PARAM)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ecdsa_verify_init(void*;void*;OSSL_PARAM)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ecdsa_sign(void*;unsignedchar*;size_t*;size_t;unsignedchar*;size_t)"
+ , "c3" : "8"
+ , "c4" : "14"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ecdsa_verify(void*;unsignedchar*;size_t;unsignedchar*;size_t)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ecdsa_setup_md(PROV_ECDSA_CTX*;char*;char*)"
+ , "c3" : "9"
+ , "c4" : "33"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ecdsa_digest_signverify_init(void*;char*;void*;OSSL_PARAM;int)"
+ , "c3" : "6"
+ , "c4" : "11"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ecdsa_digest_sign_init(void*;char*;void*;OSSL_PARAM)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ecdsa_digest_verify_init(void*;char*;void*;OSSL_PARAM)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ecdsa_digest_signverify_update(void*;unsignedchar*;size_t)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ecdsa_digest_sign_final(void*;unsignedchar*;size_t*;size_t)"
+ , "c3" : "3"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ecdsa_digest_verify_final(void*;unsignedchar*;size_t)"
+ , "c3" : "3"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " void "
+ , "c2" : "ecdsa_freectx(void*)"
+ , "c3" : "1"
+ , "c4" : "12"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " void "
+ , "c2" : "ecdsa_dupctx(void*)"
+ , "c3" : "10"
+ , "c4" : "22"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ecdsa_get_ctx_params(void*;OSSL_PARAM*)"
+ , "c3" : "6"
+ , "c4" : "12"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : "OSSL_PARAM"
+ , "c2" : "ecdsa_gettable_ctx_params(void*;void*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ecdsa_set_ctx_params(void*;OSSL_PARAM)"
+ , "c3" : "10"
+ , "c4" : "18"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : "OSSL_PARAM"
+ , "c2" : "ecdsa_settable_ctx_params(void*;void*)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ecdsa_get_ctx_md_params(void*;OSSL_PARAM*)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : "OSSL_PARAM"
+ , "c2" : "ecdsa_gettable_ctx_md_params(void*)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ecdsa_set_ctx_md_params(void*;OSSL_PARAM)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c1" : "OSSL_PARAM"
+ , "c2" : "ecdsa_settable_ctx_md_params(void*)"
+ , "c3" : "2"
+ , "c4" : "3"
 }} 
 ] 
 }} 
@@ -4210,16 +4768,23 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
+ , "c4" : "5"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "5"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
@@ -4231,20 +4796,27 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "7"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "10"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/providers/implementations/signature/ecdsa_sig.c near following tokens EC_KEY CPP_POINTEUR key , const EC_POINT CPP_POINTEUR pub ) ; extern unsigned EC_KEY_get_enc_flags ( const EC_KEY CPP_POINTEUR key ) ; extern "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00513"
  , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#513"
@@ -4292,6 +4864,209 @@ var maDataBlocs = {
  , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00001] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression ret applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer data is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[00001] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer data is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[00001] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer data is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[00001] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer data is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[00001] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer data is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[00001] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer ctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression  ! ctx-&gt;flag_allow_md applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression  - 1 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to error"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to error"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer dstctx is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer p is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/providers/implementations/signature/ecdsa_sig.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer p is declared but not initialized"
 }} 
 ]
 , 

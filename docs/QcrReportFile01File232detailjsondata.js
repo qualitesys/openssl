@@ -16,7 +16,7 @@ var maDataBlocs = {
  , "c5" : "00081"
  , "c5link" : "././qc/crypto/cast/c_ecb.c.html#81"
  , "c1" : " void "
- , "c2" : "CAST_ecb_encrypt(char*;char*;CAST_KEY*;int)"
+ , "c2" : "CAST_ecb_encrypt(unsignedchar*;unsignedchar*;CAST_KEY*;int)"
  , "c3" : "3"
  , "c4" : "12"
 }} 

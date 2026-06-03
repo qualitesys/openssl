@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/bn/bn_lib.c.html" 
- , "texte" : "File crypto/bn/bn_lib.c 8 rule violations " 
+ , "texte" : "File crypto/bn/bn_lib.c 36 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -1284,7 +1284,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -1383,7 +1383,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -1483,7 +1483,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_LIB(long)"
+ , "c2" : "ERR_GET_LIB(unsignedlong)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -1492,7 +1492,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_RFLAGS(long)"
+ , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -1501,7 +1501,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_REASON(long)"
+ , "c2" : "ERR_GET_REASON(unsignedlong)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -1510,7 +1510,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_FATAL_ERROR(long)"
+ , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1519,7 +1519,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_COMMON_ERROR(long)"
+ , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1527,7 +1527,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -1851,7 +1851,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_MEM_hfn_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -1923,7 +1923,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_MEM_num_items(structlhash_st_MEM*)"
  , "c3" : "1"
  , "c4" : "1"
@@ -1932,7 +1932,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_MEM_get_down_load(structlhash_st_MEM*)"
  , "c3" : "1"
  , "c4" : "1"
@@ -1942,7 +1942,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
  , "c1" : " void "
- , "c2" : "lh_MEM_set_down_load(structlhash_st_MEM*;long)"
+ , "c2" : "lh_MEM_set_down_load(structlhash_st_MEM*;unsignedlong)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1978,7 +1978,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
  , "c1" : " struct lhash_st_MEM"
- , "c2" : "lh_MEM_new(long;int)"
+ , "c2" : "lh_MEM_new(unsignedlong;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2004,8 +2004,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
- , "c1" : " int "
- , "c2" : "constant_time_msb(int)"
+ , "c1" : " unsigned  int "
+ , "c2" : "constant_time_msb(unsignedint)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2040,8 +2040,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
- , "c1" : " int "
- , "c2" : "constant_time_lt(int;int)"
+ , "c1" : " unsigned  int "
+ , "c2" : "constant_time_lt(unsignedint;unsignedint)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2058,8 +2058,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
- , "c1" : " char "
- , "c2" : "constant_time_lt_8(int;int)"
+ , "c1" : " unsigned  char "
+ , "c2" : "constant_time_lt_8(unsignedint;unsignedint)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2076,8 +2076,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
- , "c1" : " int "
- , "c2" : "constant_time_ge(int;int)"
+ , "c1" : " unsigned  int "
+ , "c2" : "constant_time_ge(unsignedint;unsignedint)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2094,8 +2094,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
- , "c1" : " char "
- , "c2" : "constant_time_ge_8(int;int)"
+ , "c1" : " unsigned  char "
+ , "c2" : "constant_time_ge_8(unsignedint;unsignedint)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2103,7 +2103,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
- , "c1" : " char "
+ , "c1" : " unsigned  char "
  , "c2" : "constant_time_ge_8_s(size_t;size_t)"
  , "c3" : "1"
  , "c4" : "1"
@@ -2112,8 +2112,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
- , "c1" : " int "
- , "c2" : "constant_time_is_zero(int)"
+ , "c1" : " unsigned  int "
+ , "c2" : "constant_time_is_zero(unsignedint)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2130,8 +2130,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
- , "c1" : " char "
- , "c2" : "constant_time_is_zero_8(int)"
+ , "c1" : " unsigned  char "
+ , "c2" : "constant_time_is_zero_8(unsignedint)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2157,8 +2157,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
- , "c1" : " int "
- , "c2" : "constant_time_eq(int;int)"
+ , "c1" : " unsigned  int "
+ , "c2" : "constant_time_eq(unsignedint;unsignedint)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2175,8 +2175,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
- , "c1" : " char "
- , "c2" : "constant_time_eq_8(int;int)"
+ , "c1" : " unsigned  char "
+ , "c2" : "constant_time_eq_8(unsignedint;unsignedint)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2184,10 +2184,748 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
- , "c1" : " char "
+ , "c1" : " unsigned  char "
  , "c2" : "constant_time_eq_8_s(size_t;size_t)"
  , "c3" : "1"
  , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " unsigned  int "
+ , "c2" : "constant_time_eq_int(int;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " unsigned  char "
+ , "c2" : "constant_time_eq_int_8(int;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " unsigned  int "
+ , "c2" : "value_barrier(unsignedint)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : "uint32_t"
+ , "c2" : "value_barrier_32(uint32_t)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : "uint64_t"
+ , "c2" : "value_barrier_64(uint64_t)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : "size_t"
+ , "c2" : "value_barrier_s(size_t)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " unsigned  int "
+ , "c2" : "constant_time_select(unsignedint;unsignedint;unsignedint)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : "size_t"
+ , "c2" : "constant_time_select_s(size_t;size_t;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " unsigned  char "
+ , "c2" : "constant_time_select_8(unsignedchar;unsignedchar;unsignedchar)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "constant_time_select_int(unsignedint;int;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "constant_time_select_int_s(size_t;int;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : "uint32_t"
+ , "c2" : "constant_time_select_32(uint32_t;uint32_t;uint32_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : "uint64_t"
+ , "c2" : "constant_time_select_64(uint64_t;uint64_t;uint64_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " void "
+ , "c2" : "constant_time_cond_swap_32(uint32_t;uint32_t*;uint32_t*)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " void "
+ , "c2" : "constant_time_cond_swap_64(uint64_t;uint64_t*;uint64_t*)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " void "
+ , "c2" : "constant_time_cond_swap_buff(unsignedchar;unsignedchar*;unsignedchar*;size_t)"
+ , "c3" : "2"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " void "
+ , "c2" : "constant_time_lookup(void*;void*;size_t;size_t;size_t)"
+ , "c3" : "3"
+ , "c4" : "11"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " void "
+ , "c2" : "BN_set_params(int;int;int;int)"
+ , "c3" : "9"
+ , "c4" : "12"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "BN_get_params(int)"
+ , "c3" : "9"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : "BIGNUM"
+ , "c2" : "BN_value_one(void)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "BN_num_bits_word(unsignedlong)"
+ , "c3" : "1"
+ , "c4" : "32"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "bn_num_bits_consttime(BIGNUM*)"
+ , "c3" : "2"
+ , "c4" : "12"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "BN_num_bits(BIGNUM*)"
+ , "c3" : "3"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " void "
+ , "c2" : "bn_free_d(BIGNUM*;int)"
+ , "c3" : "5"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " void "
+ , "c2" : "BN_clear_free(BIGNUM*)"
+ , "c3" : "4"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " void "
+ , "c2" : "BN_free(BIGNUM*)"
+ , "c3" : "4"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " void "
+ , "c2" : "bn_init(BIGNUM*)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : "BIGNUM"
+ , "c2" : "BN_new(void)"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : "BIGNUM"
+ , "c2" : "BN_secure_new(void)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "bn_expand_internal(BIGNUM*;int)"
+ , "c3" : "7"
+ , "c4" : "11"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : "BIGNUM"
+ , "c2" : "bn_expand2(BIGNUM*;int)"
+ , "c3" : "4"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : "BIGNUM"
+ , "c2" : "BN_dup(BIGNUM*)"
+ , "c3" : "4"
+ , "c4" : "9"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : "BIGNUM"
+ , "c2" : "BN_copy(BIGNUM*;BIGNUM*)"
+ , "c3" : "4"
+ , "c4" : "11"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " void "
+ , "c2" : "BN_swap(BIGNUM*;BIGNUM*)"
+ , "c3" : "1"
+ , "c4" : "23"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " void "
+ , "c2" : "BN_clear(BIGNUM*)"
+ , "c3" : "3"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "BN_get_word(BIGNUM*)"
+ , "c3" : "4"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "BN_set_word(BIGNUM*;unsignedlong)"
+ , "c3" : "2"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : "BIGNUM"
+ , "c2" : "bin2bn(unsignedchar*;int;BIGNUM*;endianness_t;signedness_t)"
+ , "c3" : "15"
+ , "c4" : "47"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : "BIGNUM"
+ , "c2" : "BN_bin2bn(unsignedchar*;int;BIGNUM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : "BIGNUM"
+ , "c2" : "BN_signed_bin2bn(unsignedchar*;int;BIGNUM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "bn2binpad(BIGNUM*;unsignedchar*;int;endianness_t;signedness_t)"
+ , "c3" : "11"
+ , "c4" : "36"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "BN_bn2binpad(BIGNUM*;unsignedchar*;int)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "BN_signed_bn2bin(BIGNUM*;unsignedchar*;int)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "BN_bn2bin(BIGNUM*;unsignedchar*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : "BIGNUM"
+ , "c2" : "BN_lebin2bn(unsignedchar*;int;BIGNUM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : "BIGNUM"
+ , "c2" : "BN_signed_lebin2bn(unsignedchar*;int;BIGNUM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "BN_bn2lebinpad(BIGNUM*;unsignedchar*;int)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "BN_signed_bn2lebin(BIGNUM*;unsignedchar*;int)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : "BIGNUM"
+ , "c2" : "BN_native2bn(unsignedchar*;int;BIGNUM*)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : "BIGNUM"
+ , "c2" : "BN_signed_native2bn(unsignedchar*;int;BIGNUM*)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "BN_bn2nativepad(BIGNUM*;unsignedchar*;int)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "BN_signed_bn2native(BIGNUM*;unsignedchar*;int)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "BN_ucmp(BIGNUM*;BIGNUM*)"
+ , "c3" : "4"
+ , "c4" : "14"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "BN_cmp(BIGNUM*;BIGNUM*)"
+ , "c3" : "16"
+ , "c4" : "23"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "BN_set_bit(BIGNUM*;int)"
+ , "c3" : "5"
+ , "c4" : "13"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "BN_clear_bit(BIGNUM*;int)"
+ , "c3" : "3"
+ , "c4" : "9"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "BN_is_bit_set(BIGNUM*;int)"
+ , "c3" : "3"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "BN_mask_bits(BIGNUM*;int)"
+ , "c3" : "5"
+ , "c4" : "11"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " void "
+ , "c2" : "BN_set_negative(BIGNUM*;int)"
+ , "c3" : "3"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "bn_cmp_words(unsignedlong*;unsignedlong*;int)"
+ , "c3" : "5"
+ , "c4" : "12"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "bn_cmp_part_words(unsignedlong*;unsignedlong*;int;int)"
+ , "c3" : "7"
+ , "c4" : "9"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " void "
+ , "c2" : "BN_consttime_swap(unsignedlong;BIGNUM*;BIGNUM*;int)"
+ , "c3" : "2"
+ , "c4" : "19"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "BN_security_bits(int;int)"
+ , "c3" : "13"
+ , "c4" : "11"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " void "
+ , "c2" : "BN_zero_ex(BIGNUM*)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "BN_abs_is_word(BIGNUM*;unsignedlong)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "BN_is_zero(BIGNUM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "BN_is_one(BIGNUM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "BN_is_word(BIGNUM*;unsignedlong)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "BN_is_odd(BIGNUM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "BN_is_negative(BIGNUM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "BN_to_montgomery(BIGNUM*;BIGNUM*;BN_MONT_CTX*;BN_CTX*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " void "
+ , "c2" : "BN_with_flags(BIGNUM*;BIGNUM*;int)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : "BN_GENCB"
+ , "c2" : "BN_GENCB_new(void)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " void "
+ , "c2" : "BN_GENCB_free(BN_GENCB*)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " void "
+ , "c2" : "BN_set_flags(BIGNUM*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " int "
+ , "c2" : "BN_get_flags(BIGNUM*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " void "
+ , "c2" : "BN_GENCB_set_old(BN_GENCB*;void;void*)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " void "
+ , "c2" : "BN_GENCB_set(BN_GENCB*;int;void*)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " void "
+ , "c2" : "BN_GENCB_get_arg(BN_GENCB*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : "BIGNUM"
+ , "c2" : "bn_wexpand(BIGNUM*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " void "
+ , "c2" : "bn_correct_top_consttime(BIGNUM*)"
+ , "c3" : "2"
+ , "c4" : "16"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/bn/bn_lib.c.html#1"
+ , "c1" : " void "
+ , "c2" : "bn_correct_top(BIGNUM*)"
+ , "c3" : "5"
+ , "c4" : "10"
 }} 
 ] 
 }} 
@@ -2230,16 +2968,30 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000008"
+ , "c3" : "Suspicious bitwise operation"
+ , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-CPP000011"
+ , "c3" : "The condition expression on a single value can be confusing"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "5"
+ , "c4" : "12"
 }}
 ,
 { "ligne" : { "" : ""
@@ -2251,20 +3003,20 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "9"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/bn/bn_lib.c near following tokens char ) constant_time_eq_s ( a , b ) ; } static inline unsigned int constant_time_eq_int ( int a , int b "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01267"
  , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1267"
@@ -2312,6 +3064,209 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00001] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[00001] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[00001] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 0x08 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 0x02 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 0x01 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 0x02 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer ret is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 0x02 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 0x08 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression  ! a applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer t is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000008[00001] Suspicious bitwise operation with value 0, result is a and 0 = 0"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000008[00001] Suspicious bitwise operation with value 0, result is a and 0 = 0"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer tmp_d is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression ( int  ) sizeof ( unsigned  long  ) * 8 is invariable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer s2 is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[00001] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer ap is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer bp is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000011[00001] The expression a-&gt;neg applies to a single value or variable, might be ambiguous."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000008[00001] Suspicious bitwise operation with value 0, result is a|0 = a"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000008[00001] Suspicious bitwise operation with value 0, result is a|0 = a"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000008[00001] Suspicious bitwise operation with value 0, result is a|0 = a"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000008[00001] Suspicious bitwise operation with value 0, result is a|0 = a"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer ret is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/bn/bn_lib.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer ftl is declared but not initialized"
 }} 
 ]
 , 

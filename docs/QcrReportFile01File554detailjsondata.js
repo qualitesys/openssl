@@ -727,7 +727,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/mdc2/mdc2dgst.c.html#1"
  , "c1" : " int "
- , "c2" : "MDC2_Update(MDC2_CTX*;char*;size_t)"
+ , "c2" : "MDC2_Update(MDC2_CTX*;unsignedchar*;size_t)"
  , "c3" : "6"
  , "c4" : "17"
 }} 
@@ -736,7 +736,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/mdc2/mdc2dgst.c.html#1"
  , "c1" : " void "
- , "c2" : "mdc2_body(MDC2_CTX*;char*;size_t)"
+ , "c2" : "mdc2_body(MDC2_CTX*;unsignedchar*;size_t)"
  , "c3" : "2"
  , "c4" : "30"
 }} 
@@ -745,7 +745,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/mdc2/mdc2dgst.c.html#1"
  , "c1" : " int "
- , "c2" : "MDC2_Final(char*;MDC2_CTX*)"
+ , "c2" : "MDC2_Final(unsignedchar*;MDC2_CTX*)"
  , "c3" : "3"
  , "c4" : "10"
 }} 

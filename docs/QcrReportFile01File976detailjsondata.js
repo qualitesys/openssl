@@ -3462,7 +3462,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3561,7 +3561,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3661,7 +3661,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_LIB(long)"
+ , "c2" : "ERR_GET_LIB(unsignedlong)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3670,7 +3670,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_RFLAGS(long)"
+ , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3679,7 +3679,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_REASON(long)"
+ , "c2" : "ERR_GET_REASON(unsignedlong)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3688,7 +3688,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_FATAL_ERROR(long)"
+ , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3697,7 +3697,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_COMMON_ERROR(long)"
+ , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3705,7 +3705,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -4029,7 +4029,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_MEM_hfn_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -4101,7 +4101,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_MEM_num_items(structlhash_st_MEM*)"
  , "c3" : "1"
  , "c4" : "1"
@@ -4110,7 +4110,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_MEM_get_down_load(structlhash_st_MEM*)"
  , "c3" : "1"
  , "c4" : "1"
@@ -4120,7 +4120,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " void "
- , "c2" : "lh_MEM_set_down_load(structlhash_st_MEM*;long)"
+ , "c2" : "lh_MEM_set_down_load(structlhash_st_MEM*;unsignedlong)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4156,7 +4156,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " struct lhash_st_MEM"
- , "c2" : "lh_MEM_new(long;int)"
+ , "c2" : "lh_MEM_new(unsignedlong;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4191,7 +4191,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
- , "c1" : " char "
+ , "c1" : " unsigned  char "
  , "c2" : "PACKET_end(PACKET*)"
  , "c3" : "1"
  , "c4" : "1"
@@ -4200,7 +4200,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
- , "c1" : " char "
+ , "c1" : " unsigned  char "
  , "c2" : "PACKET_data(PACKET*)"
  , "c3" : "1"
  , "c4" : "1"
@@ -4210,7 +4210,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_buf_init(PACKET*;char*;size_t)"
+ , "c2" : "PACKET_buf_init(PACKET*;unsignedchar*;size_t)"
  , "c3" : "2"
  , "c4" : "4"
 }} 
@@ -4255,7 +4255,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_net_2(PACKET*;int*)"
+ , "c2" : "PACKET_peek_net_2(PACKET*;unsignedint*)"
  , "c3" : "2"
  , "c4" : "4"
 }} 
@@ -4264,7 +4264,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_net_2(PACKET*;int*)"
+ , "c2" : "PACKET_get_net_2(PACKET*;unsignedint*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -4282,7 +4282,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_net_3(PACKET*;long*)"
+ , "c2" : "PACKET_peek_net_3(PACKET*;unsignedlong*)"
  , "c3" : "2"
  , "c4" : "5"
 }} 
@@ -4291,7 +4291,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_net_3(PACKET*;long*)"
+ , "c2" : "PACKET_get_net_3(PACKET*;unsignedlong*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -4309,7 +4309,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_net_4(PACKET*;long*)"
+ , "c2" : "PACKET_peek_net_4(PACKET*;unsignedlong*)"
  , "c3" : "2"
  , "c4" : "6"
 }} 
@@ -4327,7 +4327,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_net_4(PACKET*;long*)"
+ , "c2" : "PACKET_get_net_4(PACKET*;unsignedlong*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -4354,7 +4354,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_1(PACKET*;int*)"
+ , "c2" : "PACKET_peek_1(PACKET*;unsignedint*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -4363,7 +4363,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_1(PACKET*;int*)"
+ , "c2" : "PACKET_get_1(PACKET*;unsignedint*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -4381,7 +4381,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_4(PACKET*;long*)"
+ , "c2" : "PACKET_peek_4(PACKET*;unsignedlong*)"
  , "c3" : "2"
  , "c4" : "6"
 }} 
@@ -4390,7 +4390,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_4(PACKET*;long*)"
+ , "c2" : "PACKET_get_4(PACKET*;unsignedlong*)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -4399,7 +4399,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_bytes(PACKET*;char*;size_t)"
+ , "c2" : "PACKET_peek_bytes(PACKET*;unsignedchar*;size_t)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -4408,7 +4408,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_get_bytes(PACKET*;char*;size_t)"
+ , "c2" : "PACKET_get_bytes(PACKET*;unsignedchar*;size_t)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -4417,7 +4417,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_peek_copy_bytes(PACKET*;char*;size_t)"
+ , "c2" : "PACKET_peek_copy_bytes(PACKET*;unsignedchar*;size_t)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -4426,7 +4426,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_copy_bytes(PACKET*;char*;size_t)"
+ , "c2" : "PACKET_copy_bytes(PACKET*;unsignedchar*;size_t)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -4435,7 +4435,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_copy_all(PACKET*;char*;size_t;size_t*)"
+ , "c2" : "PACKET_copy_all(PACKET*;unsignedchar*;size_t;size_t*)"
  , "c3" : "2"
  , "c4" : "5"
 }} 
@@ -4444,7 +4444,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "PACKET_memdup(PACKET*;char*;size_t*)"
+ , "c2" : "PACKET_memdup(PACKET*;unsignedchar*;size_t*)"
  , "c3" : "3"
  , "c4" : "10"
 }} 
@@ -5065,7 +5065,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "kdf_hkdf_derive(void*;char*;size_t;OSSL_PARAM)"
+ , "c2" : "kdf_hkdf_derive(void*;unsignedchar*;size_t;OSSL_PARAM)"
  , "c3" : "8"
  , "c4" : "14"
 }} 
@@ -5119,7 +5119,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "HKDF(OSSL_LIB_CTX*;EVP_MD*;char*;size_t;char*;size_t;char*;size_t;char*;size_t)"
+ , "c2" : "HKDF(OSSL_LIB_CTX*;EVP_MD*;unsignedchar*;size_t;unsignedchar*;size_t;unsignedchar*;size_t;unsignedchar*;size_t)"
  , "c3" : "3"
  , "c4" : "10"
 }} 
@@ -5128,7 +5128,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "HKDF_Extract(OSSL_LIB_CTX*;EVP_MD*;char*;size_t;char*;size_t;char*;size_t)"
+ , "c2" : "HKDF_Extract(OSSL_LIB_CTX*;EVP_MD*;unsignedchar*;size_t;unsignedchar*;size_t;unsignedchar*;size_t)"
  , "c3" : "3"
  , "c4" : "5"
 }} 
@@ -5137,7 +5137,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "HKDF_Expand(EVP_MD*;char*;size_t;char*;size_t;char*;size_t)"
+ , "c2" : "HKDF_Expand(EVP_MD*;unsignedchar*;size_t;unsignedchar*;size_t;unsignedchar*;size_t)"
  , "c3" : "13"
  , "c4" : "29"
 }} 
@@ -5146,7 +5146,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "prov_tls13_hkdf_expand(EVP_MD*;char*;size_t;char*;size_t;char*;size_t;char*;size_t;char*;size_t)"
+ , "c2" : "prov_tls13_hkdf_expand(EVP_MD*;unsignedchar*;size_t;unsignedchar*;size_t;unsignedchar*;size_t;unsignedchar*;size_t;unsignedchar*;size_t)"
  , "c3" : "2"
  , "c4" : "6"
 }} 
@@ -5155,7 +5155,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "prov_tls13_hkdf_generate_secret(OSSL_LIB_CTX*;EVP_MD*;char*;size_t;char*;size_t;char*;size_t;char*;size_t;char*;size_t)"
+ , "c2" : "prov_tls13_hkdf_generate_secret(OSSL_LIB_CTX*;EVP_MD*;unsignedchar*;size_t;unsignedchar*;size_t;unsignedchar*;size_t;unsignedchar*;size_t;unsignedchar*;size_t)"
  , "c3" : "8"
  , "c4" : "22"
 }} 
@@ -5164,7 +5164,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/kdfs/hkdf.c.html#1"
  , "c1" : " int "
- , "c2" : "kdf_tls1_3_derive(void*;char*;size_t;OSSL_PARAM)"
+ , "c2" : "kdf_tls1_3_derive(void*;unsignedchar*;size_t;OSSL_PARAM)"
  , "c3" : "5"
  , "c4" : "9"
 }} 

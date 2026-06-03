@@ -718,7 +718,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/aes/aes_core.c.html#1"
  , "c1" : " int "
- , "c2" : "AES_set_encrypt_key(char*;int;AES_KEY*)"
+ , "c2" : "AES_set_encrypt_key(unsignedchar*;int;AES_KEY*)"
  , "c3" : "16"
  , "c4" : "46"
 }} 
@@ -727,7 +727,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/aes/aes_core.c.html#1"
  , "c1" : " int "
- , "c2" : "AES_set_decrypt_key(char*;int;AES_KEY*)"
+ , "c2" : "AES_set_decrypt_key(unsignedchar*;int;AES_KEY*)"
  , "c3" : "4"
  , "c4" : "28"
 }} 
@@ -736,7 +736,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/aes/aes_core.c.html#1"
  , "c1" : " void "
- , "c2" : "AES_encrypt(char*;char*;AES_KEY*)"
+ , "c2" : "AES_encrypt(unsignedchar*;unsignedchar*;AES_KEY*)"
  , "c3" : "3"
  , "c4" : "46"
 }} 
@@ -745,7 +745,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/aes/aes_core.c.html#1"
  , "c1" : " void "
- , "c2" : "AES_decrypt(char*;char*;AES_KEY*)"
+ , "c2" : "AES_decrypt(unsignedchar*;unsignedchar*;AES_KEY*)"
  , "c3" : "3"
  , "c4" : "46"
 }} 

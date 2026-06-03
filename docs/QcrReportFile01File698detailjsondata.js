@@ -3337,7 +3337,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/sha/sha1dgst.c.html#1"
  , "c1" : " void "
- , "c2" : "SHA1_Transform(SHA_CTX*;char*)"
+ , "c2" : "SHA1_Transform(SHA_CTX*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3346,7 +3346,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/sha/sha1dgst.c.html#1"
  , "c1" : " int "
- , "c2" : "SHA1_Final(char*;SHA_CTX*)"
+ , "c2" : "SHA1_Final(unsignedchar*;SHA_CTX*)"
  , "c3" : "4"
  , "c4" : "28"
 }} 

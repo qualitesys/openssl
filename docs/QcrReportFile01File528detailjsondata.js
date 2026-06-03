@@ -3327,7 +3327,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/ffc/ffc_params_generate.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3426,7 +3426,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/ffc/ffc_params_generate.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3526,7 +3526,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/ffc/ffc_params_generate.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_LIB(long)"
+ , "c2" : "ERR_GET_LIB(unsignedlong)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3535,7 +3535,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/ffc/ffc_params_generate.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_RFLAGS(long)"
+ , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3544,7 +3544,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/ffc/ffc_params_generate.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_REASON(long)"
+ , "c2" : "ERR_GET_REASON(unsignedlong)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3553,7 +3553,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/ffc/ffc_params_generate.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_FATAL_ERROR(long)"
+ , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3562,7 +3562,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/ffc/ffc_params_generate.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_COMMON_ERROR(long)"
+ , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3570,7 +3570,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/ffc/ffc_params_generate.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3688,7 +3688,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/ffc/ffc_params_generate.c.html#1"
  , "c1" : " int "
- , "c2" : "generate_canonical_g(BN_CTX*;BN_MONT_CTX*;EVP_MD*;BIGNUM*;BIGNUM*;BIGNUM*;BIGNUM*;int;char*;size_t)"
+ , "c2" : "generate_canonical_g(BN_CTX*;BN_MONT_CTX*;EVP_MD*;BIGNUM*;BIGNUM*;BIGNUM*;BIGNUM*;int;unsignedchar*;size_t)"
  , "c3" : "6"
  , "c4" : "20"
 }} 
@@ -3697,7 +3697,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/ffc/ffc_params_generate.c.html#1"
  , "c1" : " int "
- , "c2" : "generate_p(BN_CTX*;EVP_MD*;int;int;char*;size_t;BIGNUM*;BIGNUM*;int;BN_GENCB*;int*;int*)"
+ , "c2" : "generate_p(BN_CTX*;EVP_MD*;int;int;unsignedchar*;size_t;BIGNUM*;BIGNUM*;int;BN_GENCB*;int*;int*)"
  , "c3" : "14"
  , "c4" : "36"
 }} 
@@ -3706,7 +3706,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/ffc/ffc_params_generate.c.html#1"
  , "c1" : " int "
- , "c2" : "generate_q_fips186_4(BN_CTX*;BIGNUM*;EVP_MD*;int;char*;size_t;int;int*;int*;BN_GENCB*)"
+ , "c2" : "generate_q_fips186_4(BN_CTX*;BIGNUM*;EVP_MD*;int;unsignedchar*;size_t;int;int*;int*;BN_GENCB*)"
  , "c3" : "12"
  , "c4" : "25"
 }} 
@@ -3715,7 +3715,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/ffc/ffc_params_generate.c.html#1"
  , "c1" : " int "
- , "c2" : "generate_q_fips186_2(BN_CTX*;BIGNUM*;EVP_MD*;char*;char*;size_t;int;int*;int*;BN_GENCB*)"
+ , "c2" : "generate_q_fips186_2(BN_CTX*;BIGNUM*;EVP_MD*;unsignedchar*;unsignedchar*;size_t;int;int*;int*;BN_GENCB*)"
  , "c3" : "12"
  , "c4" : "29"
 }} 

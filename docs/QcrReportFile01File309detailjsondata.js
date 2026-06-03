@@ -826,7 +826,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/des/cfb_enc.c.html#1"
  , "c1" : " void "
- , "c2" : "DES_cfb_encrypt(char*;char*;int;long;DES_key_schedule*;DES_cblock*;int)"
+ , "c2" : "DES_cfb_encrypt(unsignedchar*;unsignedchar*;int;long;DES_key_schedule*;DES_cblock*;int)"
  , "c3" : "52"
  , "c4" : "94"
 }} 

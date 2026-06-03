@@ -178,7 +178,7 @@ var maDataBlocs = {
  , "c5" : "00914"
  , "c5link" : "././qc/crypto/camellia/cmll_cbc.c.html#914"
  , "c1" : " void "
- , "c2" : "Camellia_cbc_encrypt(char*;char*;size_t;CAMELLIA_KEY*;char*;int)"
+ , "c2" : "Camellia_cbc_encrypt(unsignedchar*;unsignedchar*;size_t;CAMELLIA_KEY*;unsignedchar*;int)"
  , "c3" : "3"
  , "c4" : "2"
 }} 

@@ -1087,7 +1087,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : "ASN1_OCTET_STRING"
- , "c2" : "d2i_ASN1_OCTET_STRING(ASN1_OCTET_STRING*;char*;long)"
+ , "c2" : "d2i_ASN1_OCTET_STRING(ASN1_OCTET_STRING*;unsignedchar*;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1096,7 +1096,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : " int "
- , "c2" : "i2d_ASN1_OCTET_STRING(ASN1_OCTET_STRING*;char*)"
+ , "c2" : "i2d_ASN1_OCTET_STRING(ASN1_OCTET_STRING*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1132,7 +1132,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : "ASN1_INTEGER"
- , "c2" : "d2i_ASN1_INTEGER(ASN1_INTEGER*;char*;long)"
+ , "c2" : "d2i_ASN1_INTEGER(ASN1_INTEGER*;unsignedchar*;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1141,7 +1141,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : " int "
- , "c2" : "i2d_ASN1_INTEGER(ASN1_INTEGER*;char*)"
+ , "c2" : "i2d_ASN1_INTEGER(ASN1_INTEGER*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1177,7 +1177,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : "ASN1_ENUMERATED"
- , "c2" : "d2i_ASN1_ENUMERATED(ASN1_ENUMERATED*;char*;long)"
+ , "c2" : "d2i_ASN1_ENUMERATED(ASN1_ENUMERATED*;unsignedchar*;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1186,7 +1186,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : " int "
- , "c2" : "i2d_ASN1_ENUMERATED(ASN1_ENUMERATED*;char*)"
+ , "c2" : "i2d_ASN1_ENUMERATED(ASN1_ENUMERATED*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1222,7 +1222,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : "ASN1_BIT_STRING"
- , "c2" : "d2i_ASN1_BIT_STRING(ASN1_BIT_STRING*;char*;long)"
+ , "c2" : "d2i_ASN1_BIT_STRING(ASN1_BIT_STRING*;unsignedchar*;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1231,7 +1231,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : " int "
- , "c2" : "i2d_ASN1_BIT_STRING(ASN1_BIT_STRING*;char*)"
+ , "c2" : "i2d_ASN1_BIT_STRING(ASN1_BIT_STRING*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1267,7 +1267,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : "ASN1_UTF8STRING"
- , "c2" : "d2i_ASN1_UTF8STRING(ASN1_UTF8STRING*;char*;long)"
+ , "c2" : "d2i_ASN1_UTF8STRING(ASN1_UTF8STRING*;unsignedchar*;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1276,7 +1276,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : " int "
- , "c2" : "i2d_ASN1_UTF8STRING(ASN1_UTF8STRING*;char*)"
+ , "c2" : "i2d_ASN1_UTF8STRING(ASN1_UTF8STRING*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1312,7 +1312,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : "ASN1_PRINTABLESTRING"
- , "c2" : "d2i_ASN1_PRINTABLESTRING(ASN1_PRINTABLESTRING*;char*;long)"
+ , "c2" : "d2i_ASN1_PRINTABLESTRING(ASN1_PRINTABLESTRING*;unsignedchar*;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1321,7 +1321,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : " int "
- , "c2" : "i2d_ASN1_PRINTABLESTRING(ASN1_PRINTABLESTRING*;char*)"
+ , "c2" : "i2d_ASN1_PRINTABLESTRING(ASN1_PRINTABLESTRING*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1357,7 +1357,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : "ASN1_T61STRING"
- , "c2" : "d2i_ASN1_T61STRING(ASN1_T61STRING*;char*;long)"
+ , "c2" : "d2i_ASN1_T61STRING(ASN1_T61STRING*;unsignedchar*;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1366,7 +1366,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : " int "
- , "c2" : "i2d_ASN1_T61STRING(ASN1_T61STRING*;char*)"
+ , "c2" : "i2d_ASN1_T61STRING(ASN1_T61STRING*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1402,7 +1402,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : "ASN1_IA5STRING"
- , "c2" : "d2i_ASN1_IA5STRING(ASN1_IA5STRING*;char*;long)"
+ , "c2" : "d2i_ASN1_IA5STRING(ASN1_IA5STRING*;unsignedchar*;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1411,7 +1411,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : " int "
- , "c2" : "i2d_ASN1_IA5STRING(ASN1_IA5STRING*;char*)"
+ , "c2" : "i2d_ASN1_IA5STRING(ASN1_IA5STRING*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1447,7 +1447,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : "ASN1_GENERALSTRING"
- , "c2" : "d2i_ASN1_GENERALSTRING(ASN1_GENERALSTRING*;char*;long)"
+ , "c2" : "d2i_ASN1_GENERALSTRING(ASN1_GENERALSTRING*;unsignedchar*;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1456,7 +1456,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : " int "
- , "c2" : "i2d_ASN1_GENERALSTRING(ASN1_GENERALSTRING*;char*)"
+ , "c2" : "i2d_ASN1_GENERALSTRING(ASN1_GENERALSTRING*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1492,7 +1492,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : "ASN1_UTCTIME"
- , "c2" : "d2i_ASN1_UTCTIME(ASN1_UTCTIME*;char*;long)"
+ , "c2" : "d2i_ASN1_UTCTIME(ASN1_UTCTIME*;unsignedchar*;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1501,7 +1501,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : " int "
- , "c2" : "i2d_ASN1_UTCTIME(ASN1_UTCTIME*;char*)"
+ , "c2" : "i2d_ASN1_UTCTIME(ASN1_UTCTIME*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1537,7 +1537,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : "ASN1_GENERALIZEDTIME"
- , "c2" : "d2i_ASN1_GENERALIZEDTIME(ASN1_GENERALIZEDTIME*;char*;long)"
+ , "c2" : "d2i_ASN1_GENERALIZEDTIME(ASN1_GENERALIZEDTIME*;unsignedchar*;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1546,7 +1546,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : " int "
- , "c2" : "i2d_ASN1_GENERALIZEDTIME(ASN1_GENERALIZEDTIME*;char*)"
+ , "c2" : "i2d_ASN1_GENERALIZEDTIME(ASN1_GENERALIZEDTIME*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1582,7 +1582,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : "ASN1_VISIBLESTRING"
- , "c2" : "d2i_ASN1_VISIBLESTRING(ASN1_VISIBLESTRING*;char*;long)"
+ , "c2" : "d2i_ASN1_VISIBLESTRING(ASN1_VISIBLESTRING*;unsignedchar*;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1591,7 +1591,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : " int "
- , "c2" : "i2d_ASN1_VISIBLESTRING(ASN1_VISIBLESTRING*;char*)"
+ , "c2" : "i2d_ASN1_VISIBLESTRING(ASN1_VISIBLESTRING*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1627,7 +1627,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : "ASN1_UNIVERSALSTRING"
- , "c2" : "d2i_ASN1_UNIVERSALSTRING(ASN1_UNIVERSALSTRING*;char*;long)"
+ , "c2" : "d2i_ASN1_UNIVERSALSTRING(ASN1_UNIVERSALSTRING*;unsignedchar*;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1636,7 +1636,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : " int "
- , "c2" : "i2d_ASN1_UNIVERSALSTRING(ASN1_UNIVERSALSTRING*;char*)"
+ , "c2" : "i2d_ASN1_UNIVERSALSTRING(ASN1_UNIVERSALSTRING*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1672,7 +1672,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : "ASN1_BMPSTRING"
- , "c2" : "d2i_ASN1_BMPSTRING(ASN1_BMPSTRING*;char*;long)"
+ , "c2" : "d2i_ASN1_BMPSTRING(ASN1_BMPSTRING*;unsignedchar*;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1681,7 +1681,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : " int "
- , "c2" : "i2d_ASN1_BMPSTRING(ASN1_BMPSTRING*;char*)"
+ , "c2" : "i2d_ASN1_BMPSTRING(ASN1_BMPSTRING*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1717,7 +1717,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : "ASN1_NULL"
- , "c2" : "d2i_ASN1_NULL(ASN1_NULL*;char*;long)"
+ , "c2" : "d2i_ASN1_NULL(ASN1_NULL*;unsignedchar*;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1726,7 +1726,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : " int "
- , "c2" : "i2d_ASN1_NULL(ASN1_NULL*;char*)"
+ , "c2" : "i2d_ASN1_NULL(ASN1_NULL*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1780,7 +1780,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : "ASN1_TYPE"
- , "c2" : "d2i_ASN1_TYPE(ASN1_TYPE*;char*;long)"
+ , "c2" : "d2i_ASN1_TYPE(ASN1_TYPE*;unsignedchar*;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1789,7 +1789,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : " int "
- , "c2" : "i2d_ASN1_TYPE(ASN1_TYPE*;char*)"
+ , "c2" : "i2d_ASN1_TYPE(ASN1_TYPE*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1825,7 +1825,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : "ASN1_STRING"
- , "c2" : "d2i_ASN1_PRINTABLE(ASN1_STRING*;char*;long)"
+ , "c2" : "d2i_ASN1_PRINTABLE(ASN1_STRING*;unsignedchar*;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1834,7 +1834,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : " int "
- , "c2" : "i2d_ASN1_PRINTABLE(ASN1_STRING*;char*)"
+ , "c2" : "i2d_ASN1_PRINTABLE(ASN1_STRING*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1870,7 +1870,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : "ASN1_STRING"
- , "c2" : "d2i_DISPLAYTEXT(ASN1_STRING*;char*;long)"
+ , "c2" : "d2i_DISPLAYTEXT(ASN1_STRING*;unsignedchar*;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1879,7 +1879,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : " int "
- , "c2" : "i2d_DISPLAYTEXT(ASN1_STRING*;char*)"
+ , "c2" : "i2d_DISPLAYTEXT(ASN1_STRING*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1915,7 +1915,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : "ASN1_STRING"
- , "c2" : "d2i_DIRECTORYSTRING(ASN1_STRING*;char*;long)"
+ , "c2" : "d2i_DIRECTORYSTRING(ASN1_STRING*;unsignedchar*;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1924,7 +1924,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : " int "
- , "c2" : "i2d_DIRECTORYSTRING(ASN1_STRING*;char*)"
+ , "c2" : "i2d_DIRECTORYSTRING(ASN1_STRING*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2005,7 +2005,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : "ASN1_SEQUENCE_ANY"
- , "c2" : "d2i_ASN1_SEQUENCE_ANY(ASN1_SEQUENCE_ANY*;char*;long)"
+ , "c2" : "d2i_ASN1_SEQUENCE_ANY(ASN1_SEQUENCE_ANY*;unsignedchar*;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2014,7 +2014,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : " int "
- , "c2" : "i2d_ASN1_SEQUENCE_ANY(ASN1_SEQUENCE_ANY*;char*)"
+ , "c2" : "i2d_ASN1_SEQUENCE_ANY(ASN1_SEQUENCE_ANY*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2023,7 +2023,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : "ASN1_SEQUENCE_ANY"
- , "c2" : "d2i_ASN1_SET_ANY(ASN1_SEQUENCE_ANY*;char*;long)"
+ , "c2" : "d2i_ASN1_SET_ANY(ASN1_SEQUENCE_ANY*;unsignedchar*;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -2032,7 +2032,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/asn1/tasn_typ.c.html#1"
  , "c1" : " int "
- , "c2" : "i2d_ASN1_SET_ANY(ASN1_SEQUENCE_ANY*;char*)"
+ , "c2" : "i2d_ASN1_SET_ANY(ASN1_SEQUENCE_ANY*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

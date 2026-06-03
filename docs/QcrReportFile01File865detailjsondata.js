@@ -3211,7 +3211,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/provider_seeding.c.html#1"
  , "c1" : "size_t"
- , "c2" : "ossl_prov_get_entropy(PROV_CTX*;char*;int;size_t;size_t)"
+ , "c2" : "ossl_prov_get_entropy(PROV_CTX*;unsignedchar*;int;size_t;size_t)"
  , "c3" : "3"
  , "c4" : "4"
 }} 
@@ -3220,7 +3220,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/provider_seeding.c.html#1"
  , "c1" : " void "
- , "c2" : "ossl_prov_cleanup_entropy(PROV_CTX*;char*;size_t)"
+ , "c2" : "ossl_prov_cleanup_entropy(PROV_CTX*;unsignedchar*;size_t)"
  , "c3" : "4"
  , "c4" : "3"
 }} 
@@ -3229,7 +3229,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/provider_seeding.c.html#1"
  , "c1" : "size_t"
- , "c2" : "ossl_prov_get_nonce(PROV_CTX*;char*;size_t;size_t;void*;size_t)"
+ , "c2" : "ossl_prov_get_nonce(PROV_CTX*;unsignedchar*;size_t;size_t;void*;size_t)"
  , "c3" : "3"
  , "c4" : "4"
 }} 
@@ -3238,7 +3238,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/common/provider_seeding.c.html#1"
  , "c1" : " void "
- , "c2" : "ossl_prov_cleanup_nonce(PROV_CTX*;char*;size_t)"
+ , "c2" : "ossl_prov_cleanup_nonce(PROV_CTX*;unsignedchar*;size_t)"
  , "c3" : "4"
  , "c4" : "3"
 }} 

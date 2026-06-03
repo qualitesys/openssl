@@ -3327,7 +3327,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/seed_src.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3426,7 +3426,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/seed_src.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3526,7 +3526,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/seed_src.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_LIB(long)"
+ , "c2" : "ERR_GET_LIB(unsignedlong)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3535,7 +3535,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/seed_src.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_RFLAGS(long)"
+ , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3544,7 +3544,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/seed_src.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_REASON(long)"
+ , "c2" : "ERR_GET_REASON(unsignedlong)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3553,7 +3553,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/seed_src.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_FATAL_ERROR(long)"
+ , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3562,7 +3562,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/seed_src.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_COMMON_ERROR(long)"
+ , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3570,7 +3570,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/seed_src.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3688,7 +3688,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/seed_src.c.html#1"
  , "c1" : " int "
- , "c2" : "seed_src_instantiate(void*;int;int;char*;size_t;OSSL_PARAM)"
+ , "c2" : "seed_src_instantiate(void*;unsignedint;int;unsignedchar*;size_t;OSSL_PARAM)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -3706,7 +3706,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/seed_src.c.html#1"
  , "c1" : " int "
- , "c2" : "seed_src_generate(void*;char*;size_t;int;int;char*;size_t)"
+ , "c2" : "seed_src_generate(void*;unsignedchar*;size_t;unsignedint;int;unsignedchar*;size_t)"
  , "c3" : "4"
  , "c4" : "12"
 }} 
@@ -3715,7 +3715,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/seed_src.c.html#1"
  , "c1" : " int "
- , "c2" : "seed_src_reseed(void*;int;char*;size_t;char*;size_t)"
+ , "c2" : "seed_src_reseed(void*;int;unsignedchar*;size_t;unsignedchar*;size_t)"
  , "c3" : "2"
  , "c4" : "4"
 }} 
@@ -3751,7 +3751,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/seed_src.c.html#1"
  , "c1" : "size_t"
- , "c2" : "seed_get_seed(void*;char*;int;size_t;size_t;int;char*;size_t)"
+ , "c2" : "seed_get_seed(void*;unsignedchar*;int;size_t;size_t;int;unsignedchar*;size_t)"
  , "c3" : "5"
  , "c4" : "16"
 }} 
@@ -3760,7 +3760,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/providers/implementations/rands/seed_src.c.html#1"
  , "c1" : " void "
- , "c2" : "seed_clear_seed(void*;char*;size_t)"
+ , "c2" : "seed_clear_seed(void*;unsignedchar*;size_t)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

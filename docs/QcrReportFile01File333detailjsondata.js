@@ -3436,7 +3436,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/dh/dh_kdf.c.html#1"
  , "c1" : " int "
- , "c2" : "ossl_dh_kdf_X9_42_asn1(char*;size_t;char*;size_t;char*;char*;size_t;EVP_MD*;OSSL_LIB_CTX*;char*)"
+ , "c2" : "ossl_dh_kdf_X9_42_asn1(unsignedchar*;size_t;unsignedchar*;size_t;char*;unsignedchar*;size_t;EVP_MD*;OSSL_LIB_CTX*;char*)"
  , "c3" : "4"
  , "c4" : "18"
 }} 
@@ -3445,7 +3445,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/dh/dh_kdf.c.html#1"
  , "c1" : " int "
- , "c2" : "DH_KDF_X9_42(char*;size_t;char*;size_t;ASN1_OBJECT*;char*;size_t;EVP_MD*)"
+ , "c2" : "DH_KDF_X9_42(unsignedchar*;size_t;unsignedchar*;size_t;ASN1_OBJECT*;unsignedchar*;size_t;EVP_MD*)"
  , "c3" : "2"
  , "c4" : "5"
 }} 

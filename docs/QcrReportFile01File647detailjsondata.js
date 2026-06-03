@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/rand/prov_seed.c.html" 
- , "texte" : "File crypto/rand/prov_seed.c 7 rule violations " 
+ , "texte" : "File crypto/rand/prov_seed.c 16 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -3323,6 +3323,915 @@ var maDataBlocs = {
  , "c3" : "2"
  , "c4" : "2"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_OPENSSL_STRING_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_STRING_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_STRING_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "OPENSSL_STRING"
+ , "c2" : "ossl_check_OPENSSL_STRING_lh_plain_type(OPENSSL_STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "OPENSSL_STRING"
+ , "c2" : "ossl_check_const_OPENSSL_STRING_lh_plain_type(OPENSSL_STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "OPENSSL_LHASH"
+ , "c2" : "ossl_check_const_OPENSSL_STRING_lh_type(structlhash_st_OPENSSL_STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "OPENSSL_LHASH"
+ , "c2" : "ossl_check_OPENSSL_STRING_lh_type(structlhash_st_OPENSSL_STRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "OPENSSL_LH_COMPFUNC"
+ , "c2" : "ossl_check_OPENSSL_STRING_lh_compfunc_type(lh_OPENSSL_STRING_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "OPENSSL_LH_HASHFUNC"
+ , "c2" : "ossl_check_OPENSSL_STRING_lh_hashfunc_type(lh_OPENSSL_STRING_hashfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "OPENSSL_LH_DOALL_FUNC"
+ , "c2" : "ossl_check_OPENSSL_STRING_lh_doallfunc_type(lh_OPENSSL_STRING_doallfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_OPENSSL_CSTRING_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_CSTRING_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_OPENSSL_CSTRING_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "OPENSSL_CSTRING"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_lh_plain_type(OPENSSL_CSTRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "OPENSSL_CSTRING"
+ , "c2" : "ossl_check_const_OPENSSL_CSTRING_lh_plain_type(OPENSSL_CSTRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "OPENSSL_LHASH"
+ , "c2" : "ossl_check_const_OPENSSL_CSTRING_lh_type(structlhash_st_OPENSSL_CSTRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "OPENSSL_LHASH"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_lh_type(structlhash_st_OPENSSL_CSTRING*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "OPENSSL_LH_COMPFUNC"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_lh_compfunc_type(lh_OPENSSL_CSTRING_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "OPENSSL_LH_HASHFUNC"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_lh_hashfunc_type(lh_OPENSSL_CSTRING_hashfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "OPENSSL_LH_DOALL_FUNC"
+ , "c2" : "ossl_check_OPENSSL_CSTRING_lh_doallfunc_type(lh_OPENSSL_CSTRING_doallfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ERR_GET_LIB(unsignedlong)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ERR_GET_REASON(unsignedlong)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " unsigned  long "
+ , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "lh_ERR_STRING_DATA_comp_thunk(void*;void*;OPENSSL_LH_COMPFUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_ERR_STRING_DATA_doall_thunk(void*;OPENSSL_LH_DOALL_FUNC)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " void "
+ , "c2" : "lh_ERR_STRING_DATA_doall_arg_thunk(void*;void*;OPENSSL_LH_DOALL_FUNCARG)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "ERR_STRING_DATA"
+ , "c2" : "ossl_check_ERR_STRING_DATA_lh_plain_type(ERR_STRING_DATA*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "ERR_STRING_DATA"
+ , "c2" : "ossl_check_const_ERR_STRING_DATA_lh_plain_type(ERR_STRING_DATA*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "OPENSSL_LHASH"
+ , "c2" : "ossl_check_const_ERR_STRING_DATA_lh_type(structlhash_st_ERR_STRING_DATA*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "OPENSSL_LHASH"
+ , "c2" : "ossl_check_ERR_STRING_DATA_lh_type(structlhash_st_ERR_STRING_DATA*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "OPENSSL_LH_COMPFUNC"
+ , "c2" : "ossl_check_ERR_STRING_DATA_lh_compfunc_type(lh_ERR_STRING_DATA_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "OPENSSL_LH_HASHFUNC"
+ , "c2" : "ossl_check_ERR_STRING_DATA_lh_hashfunc_type(lh_ERR_STRING_DATA_hashfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "OPENSSL_LH_DOALL_FUNC"
+ , "c2" : "ossl_check_ERR_STRING_DATA_lh_doallfunc_type(lh_ERR_STRING_DATA_doallfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "CRYPTO_UP_REF(CRYPTO_REF_COUNT*;int*)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "CRYPTO_DOWN_REF(CRYPTO_REF_COUNT*;int*)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "CRYPTO_GET_REF(CRYPTO_REF_COUNT*;int*)"
+ , "c3" : "1"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "CRYPTO_NEW_REF(CRYPTO_REF_COUNT*;int)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " void "
+ , "c2" : "CRYPTO_FREE_REF(CRYPTO_REF_COUNT*)"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EVP_PKEY_METHOD_num(structstack_st_EVP_PKEY_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "EVP_PKEY_METHOD"
+ , "c2" : "sk_EVP_PKEY_METHOD_value(structstack_st_EVP_PKEY_METHOD*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " struct stack_st_EVP_PKEY_METHOD"
+ , "c2" : "sk_EVP_PKEY_METHOD_new(sk_EVP_PKEY_METHOD_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " struct stack_st_EVP_PKEY_METHOD"
+ , "c2" : "sk_EVP_PKEY_METHOD_new_null(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " struct stack_st_EVP_PKEY_METHOD"
+ , "c2" : "sk_EVP_PKEY_METHOD_new_reserve(sk_EVP_PKEY_METHOD_compfunc;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EVP_PKEY_METHOD_reserve(structstack_st_EVP_PKEY_METHOD*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " void "
+ , "c2" : "sk_EVP_PKEY_METHOD_free(structstack_st_EVP_PKEY_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " void "
+ , "c2" : "sk_EVP_PKEY_METHOD_zero(structstack_st_EVP_PKEY_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "EVP_PKEY_METHOD"
+ , "c2" : "sk_EVP_PKEY_METHOD_delete(structstack_st_EVP_PKEY_METHOD*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "EVP_PKEY_METHOD"
+ , "c2" : "sk_EVP_PKEY_METHOD_delete_ptr(structstack_st_EVP_PKEY_METHOD*;EVP_PKEY_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EVP_PKEY_METHOD_push(structstack_st_EVP_PKEY_METHOD*;EVP_PKEY_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EVP_PKEY_METHOD_unshift(structstack_st_EVP_PKEY_METHOD*;EVP_PKEY_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "EVP_PKEY_METHOD"
+ , "c2" : "sk_EVP_PKEY_METHOD_pop(structstack_st_EVP_PKEY_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "EVP_PKEY_METHOD"
+ , "c2" : "sk_EVP_PKEY_METHOD_shift(structstack_st_EVP_PKEY_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " void "
+ , "c2" : "sk_EVP_PKEY_METHOD_pop_free(structstack_st_EVP_PKEY_METHOD*;sk_EVP_PKEY_METHOD_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EVP_PKEY_METHOD_insert(structstack_st_EVP_PKEY_METHOD*;EVP_PKEY_METHOD*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "EVP_PKEY_METHOD"
+ , "c2" : "sk_EVP_PKEY_METHOD_set(structstack_st_EVP_PKEY_METHOD*;int;EVP_PKEY_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EVP_PKEY_METHOD_find(structstack_st_EVP_PKEY_METHOD*;EVP_PKEY_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EVP_PKEY_METHOD_find_ex(structstack_st_EVP_PKEY_METHOD*;EVP_PKEY_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EVP_PKEY_METHOD_find_all(structstack_st_EVP_PKEY_METHOD*;EVP_PKEY_METHOD*;int*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " void "
+ , "c2" : "sk_EVP_PKEY_METHOD_sort(structstack_st_EVP_PKEY_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_EVP_PKEY_METHOD_is_sorted(structstack_st_EVP_PKEY_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " struct stack_st_EVP_PKEY_METHOD"
+ , "c2" : "sk_EVP_PKEY_METHOD_dup(structstack_st_EVP_PKEY_METHOD*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " struct stack_st_EVP_PKEY_METHOD"
+ , "c2" : "sk_EVP_PKEY_METHOD_deep_copy(structstack_st_EVP_PKEY_METHOD*;sk_EVP_PKEY_METHOD_copyfunc;sk_EVP_PKEY_METHOD_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "sk_EVP_PKEY_METHOD_compfunc"
+ , "c2" : "sk_EVP_PKEY_METHOD_set_cmp_func(structstack_st_EVP_PKEY_METHOD*;sk_EVP_PKEY_METHOD_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_OP_CACHE_ELEM_num(structstack_st_OP_CACHE_ELEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "OP_CACHE_ELEM"
+ , "c2" : "sk_OP_CACHE_ELEM_value(structstack_st_OP_CACHE_ELEM*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " struct stack_st_OP_CACHE_ELEM"
+ , "c2" : "sk_OP_CACHE_ELEM_new(sk_OP_CACHE_ELEM_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " struct stack_st_OP_CACHE_ELEM"
+ , "c2" : "sk_OP_CACHE_ELEM_new_null(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " struct stack_st_OP_CACHE_ELEM"
+ , "c2" : "sk_OP_CACHE_ELEM_new_reserve(sk_OP_CACHE_ELEM_compfunc;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_OP_CACHE_ELEM_reserve(structstack_st_OP_CACHE_ELEM*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " void "
+ , "c2" : "sk_OP_CACHE_ELEM_free(structstack_st_OP_CACHE_ELEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " void "
+ , "c2" : "sk_OP_CACHE_ELEM_zero(structstack_st_OP_CACHE_ELEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "OP_CACHE_ELEM"
+ , "c2" : "sk_OP_CACHE_ELEM_delete(structstack_st_OP_CACHE_ELEM*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "OP_CACHE_ELEM"
+ , "c2" : "sk_OP_CACHE_ELEM_delete_ptr(structstack_st_OP_CACHE_ELEM*;OP_CACHE_ELEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_OP_CACHE_ELEM_push(structstack_st_OP_CACHE_ELEM*;OP_CACHE_ELEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_OP_CACHE_ELEM_unshift(structstack_st_OP_CACHE_ELEM*;OP_CACHE_ELEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "OP_CACHE_ELEM"
+ , "c2" : "sk_OP_CACHE_ELEM_pop(structstack_st_OP_CACHE_ELEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "OP_CACHE_ELEM"
+ , "c2" : "sk_OP_CACHE_ELEM_shift(structstack_st_OP_CACHE_ELEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " void "
+ , "c2" : "sk_OP_CACHE_ELEM_pop_free(structstack_st_OP_CACHE_ELEM*;sk_OP_CACHE_ELEM_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_OP_CACHE_ELEM_insert(structstack_st_OP_CACHE_ELEM*;OP_CACHE_ELEM*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "OP_CACHE_ELEM"
+ , "c2" : "sk_OP_CACHE_ELEM_set(structstack_st_OP_CACHE_ELEM*;int;OP_CACHE_ELEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_OP_CACHE_ELEM_find(structstack_st_OP_CACHE_ELEM*;OP_CACHE_ELEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_OP_CACHE_ELEM_find_ex(structstack_st_OP_CACHE_ELEM*;OP_CACHE_ELEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_OP_CACHE_ELEM_find_all(structstack_st_OP_CACHE_ELEM*;OP_CACHE_ELEM*;int*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " void "
+ , "c2" : "sk_OP_CACHE_ELEM_sort(structstack_st_OP_CACHE_ELEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " int "
+ , "c2" : "sk_OP_CACHE_ELEM_is_sorted(structstack_st_OP_CACHE_ELEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " struct stack_st_OP_CACHE_ELEM"
+ , "c2" : "sk_OP_CACHE_ELEM_dup(structstack_st_OP_CACHE_ELEM*)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " struct stack_st_OP_CACHE_ELEM"
+ , "c2" : "sk_OP_CACHE_ELEM_deep_copy(structstack_st_OP_CACHE_ELEM*;sk_OP_CACHE_ELEM_copyfunc;sk_OP_CACHE_ELEM_freefunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "sk_OP_CACHE_ELEM_compfunc"
+ , "c2" : "sk_OP_CACHE_ELEM_set_cmp_func(structstack_st_OP_CACHE_ELEM*;sk_OP_CACHE_ELEM_compfunc)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "size_t"
+ , "c2" : "ossl_rand_get_entropy(OSSL_LIB_CTX*;unsignedchar*;int;size_t;size_t)"
+ , "c3" : "3"
+ , "c4" : "11"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "size_t"
+ , "c2" : "ossl_rand_get_user_entropy(OSSL_LIB_CTX*;unsignedchar*;int;size_t;size_t)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " void "
+ , "c2" : "ossl_rand_cleanup_entropy(OSSL_LIB_CTX*;unsignedchar*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " void "
+ , "c2" : "ossl_rand_cleanup_user_entropy(OSSL_LIB_CTX*;unsignedchar*;size_t)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "size_t"
+ , "c2" : "ossl_rand_get_nonce(OSSL_LIB_CTX*;unsignedchar*;size_t;size_t;void*;size_t)"
+ , "c3" : "4"
+ , "c4" : "11"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : "size_t"
+ , "c2" : "ossl_rand_get_user_nonce(OSSL_LIB_CTX*;unsignedchar*;size_t;size_t;void*;size_t)"
+ , "c3" : "4"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " void "
+ , "c2" : "ossl_rand_cleanup_nonce(OSSL_LIB_CTX*;unsignedchar*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/prov_seed.c.html#1"
+ , "c1" : " void "
+ , "c2" : "ossl_rand_cleanup_user_nonce(OSSL_LIB_CTX*;unsignedchar*;size_t)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -3364,8 +4273,8 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
+ , "c2" : "QC-CPP000005"
+ , "c3" : "Check pointer declaration to unsigned char"
  , "c4" : "1"
 }}
 ,
@@ -3373,7 +4282,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
- , "c4" : "4"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
@@ -3385,20 +4294,27 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-CPP000007"
+ , "c3" : "goto statement"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-CPPCWE481"
+ , "c3" : "Assigning instead of comparing"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-CPP000014"
  , "c3" : "A pointer is defined but not initialized"
- , "c4" : "1"
+ , "c4" : "4"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/rand/prov_seed.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/rand/prov_seed.c near following tokens EC_KEY CPP_POINTEUR key , const EC_POINT CPP_POINTEUR pub ) ; __attribute__ ( ( deprecated ( _Since OpenSSL _ _3.0_ ) ) ) unsigned "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01252"
  , "c1link" : "./qc/crypto/rand/prov_seed.c.html#1252"
@@ -3439,6 +4355,76 @@ var maDataBlocs = {
  , "c1link" : "./qc/crypto/rand/prov_seed.c.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-CPP000012[00001] The expression 1 is invariable, always true"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/rand/prov_seed.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer pool is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/rand/prov_seed.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer pool is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/rand/prov_seed.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/rand/prov_seed.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/rand/prov_seed.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000007[00001] goto statement jump to err"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/rand/prov_seed.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPP000014[00001] The pointer buf is declared but not initialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/rand/prov_seed.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000005[00001] Suspicious declaration of a pointer to unsigned char, in case of memcpy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/rand/prov_seed.c.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-CPPCWE481[00001] Assigning instead of comparing (see http://cwe.mitre.org/data/definitions/481.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/rand/prov_seed.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 0 is invariable, always false"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/crypto/rand/prov_seed.c.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-CPP000012[00001] The expression 0 is invariable, always false"
 }} 
 ]
 , 

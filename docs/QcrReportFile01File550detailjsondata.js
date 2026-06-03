@@ -727,7 +727,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/md5/md5_dgst.c.html#1"
  , "c1" : " void "
- , "c2" : "MD5_Transform(MD5_CTX*;char*)"
+ , "c2" : "MD5_Transform(MD5_CTX*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -736,7 +736,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/md5/md5_dgst.c.html#1"
  , "c1" : " int "
- , "c2" : "MD5_Final(char*;MD5_CTX*)"
+ , "c2" : "MD5_Final(unsignedchar*;MD5_CTX*)"
  , "c3" : "4"
  , "c4" : "26"
 }} 

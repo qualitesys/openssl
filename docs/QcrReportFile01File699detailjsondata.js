@@ -754,7 +754,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/sha/sha256.c.html#1"
  , "c1" : " int "
- , "c2" : "SHA224_Final(char*;SHA256_CTX*)"
+ , "c2" : "SHA224_Final(unsignedchar*;SHA256_CTX*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -772,7 +772,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/sha/sha256.c.html#1"
  , "c1" : " void "
- , "c2" : "SHA256_Transform(SHA256_CTX*;char*)"
+ , "c2" : "SHA256_Transform(SHA256_CTX*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -781,7 +781,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/sha/sha256.c.html#1"
  , "c1" : " int "
- , "c2" : "SHA256_Final(char*;SHA256_CTX*)"
+ , "c2" : "SHA256_Final(unsignedchar*;SHA256_CTX*)"
  , "c3" : "12"
  , "c4" : "40"
 }} 

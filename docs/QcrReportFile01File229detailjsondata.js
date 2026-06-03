@@ -16,7 +16,7 @@ var maDataBlocs = {
  , "c5" : "00145"
  , "c5link" : "././qc/crypto/camellia/cmll_misc.c.html#145"
  , "c1" : " int "
- , "c2" : "Camellia_set_key(char*;int;CAMELLIA_KEY*)"
+ , "c2" : "Camellia_set_key(unsignedchar*;int;CAMELLIA_KEY*)"
  , "c3" : "3"
  , "c4" : "4"
 }} 
@@ -25,7 +25,7 @@ var maDataBlocs = {
  , "c5" : "00156"
  , "c5link" : "././qc/crypto/camellia/cmll_misc.c.html#156"
  , "c1" : " void "
- , "c2" : "Camellia_encrypt(char*;char*;CAMELLIA_KEY*)"
+ , "c2" : "Camellia_encrypt(unsignedchar*;unsignedchar*;CAMELLIA_KEY*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -34,7 +34,7 @@ var maDataBlocs = {
  , "c5" : "00162"
  , "c5link" : "././qc/crypto/camellia/cmll_misc.c.html#162"
  , "c1" : " void "
- , "c2" : "Camellia_decrypt(char*;char*;CAMELLIA_KEY*)"
+ , "c2" : "Camellia_decrypt(unsignedchar*;unsignedchar*;CAMELLIA_KEY*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

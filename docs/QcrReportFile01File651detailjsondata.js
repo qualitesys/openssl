@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/crypto/rand/rand_meth.c.html" 
- , "texte" : "File crypto/rand/rand_meth.c 7 rule violations " 
+ , "texte" : "File crypto/rand/rand_meth.c 6 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -3323,6 +3323,51 @@ var maDataBlocs = {
  , "c3" : "2"
  , "c4" : "2"
 }} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/rand_meth.c.html#1"
+ , "c1" : " int "
+ , "c2" : "drbg_add(void*;int;double)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/rand_meth.c.html#1"
+ , "c1" : " int "
+ , "c2" : "drbg_seed(void*;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/rand_meth.c.html#1"
+ , "c1" : " int "
+ , "c2" : "drbg_status(void)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/rand_meth.c.html#1"
+ , "c1" : " int "
+ , "c2" : "drbg_bytes(unsignedchar*;int)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/crypto/rand/rand_meth.c.html#1"
+ , "c1" : "RAND_METHOD"
+ , "c2" : "RAND_OpenSSL(void)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
@@ -3364,13 +3409,6 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-CPP999999"
- , "c3" : "Syntax error in source code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-CPP000012"
  , "c3" : "The condition expression is invariable, always true or false"
  , "c4" : "4"
@@ -3392,13 +3430,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/crypto/rand/rand_meth.c.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-CPP999999[00001] syntax analysis failed on file /home/runner/work/openssl/openssl/crypto/rand/rand_meth.c near following tokens EC_KEY CPP_POINTEUR key , const EC_POINT CPP_POINTEUR pub ) ; __attribute__ ( ( deprecated ( _Since OpenSSL _ _3.0_ ) ) ) unsigned "
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "01154"
  , "c1link" : "./qc/crypto/rand/rand_meth.c.html#1154"

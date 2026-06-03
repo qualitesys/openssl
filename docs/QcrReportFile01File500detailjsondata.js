@@ -3201,7 +3201,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/legacy_sha.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_OPENSSL_STRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3300,7 +3300,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/legacy_sha.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_OPENSSL_CSTRING_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -3400,7 +3400,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/legacy_sha.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_LIB(long)"
+ , "c2" : "ERR_GET_LIB(unsignedlong)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3409,7 +3409,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/legacy_sha.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_RFLAGS(long)"
+ , "c2" : "ERR_GET_RFLAGS(unsignedlong)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3418,7 +3418,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/legacy_sha.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_GET_REASON(long)"
+ , "c2" : "ERR_GET_REASON(unsignedlong)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -3427,7 +3427,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/legacy_sha.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_FATAL_ERROR(long)"
+ , "c2" : "ERR_FATAL_ERROR(unsignedlong)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3436,7 +3436,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/legacy_sha.c.html#1"
  , "c1" : " int "
- , "c2" : "ERR_COMMON_ERROR(long)"
+ , "c2" : "ERR_COMMON_ERROR(unsignedlong)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -3444,7 +3444,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/legacy_sha.c.html#1"
- , "c1" : " long "
+ , "c1" : " unsigned  long "
  , "c2" : "lh_ERR_STRING_DATA_hash_thunk(void*;OPENSSL_LH_HASHFUNC)"
  , "c3" : "1"
  , "c4" : "2"
@@ -4282,7 +4282,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/legacy_sha.c.html#1"
  , "c1" : " int "
- , "c2" : "sha1_final(EVP_MD_CTX*;char*)"
+ , "c2" : "sha1_final(EVP_MD_CTX*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4309,7 +4309,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/legacy_sha.c.html#1"
  , "c1" : " int "
- , "c2" : "sha224_final(EVP_MD_CTX*;char*)"
+ , "c2" : "sha224_final(EVP_MD_CTX*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4336,7 +4336,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/legacy_sha.c.html#1"
  , "c1" : " int "
- , "c2" : "sha256_final(EVP_MD_CTX*;char*)"
+ , "c2" : "sha256_final(EVP_MD_CTX*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4363,7 +4363,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/legacy_sha.c.html#1"
  , "c1" : " int "
- , "c2" : "sha384_final(EVP_MD_CTX*;char*)"
+ , "c2" : "sha384_final(EVP_MD_CTX*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4390,7 +4390,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/legacy_sha.c.html#1"
  , "c1" : " int "
- , "c2" : "sha512_final(EVP_MD_CTX*;char*)"
+ , "c2" : "sha512_final(EVP_MD_CTX*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4417,7 +4417,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/legacy_sha.c.html#1"
  , "c1" : " int "
- , "c2" : "sha512_224_int_final(EVP_MD_CTX*;char*)"
+ , "c2" : "sha512_224_int_final(EVP_MD_CTX*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4444,7 +4444,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/legacy_sha.c.html#1"
  , "c1" : " int "
- , "c2" : "sha512_256_int_final(EVP_MD_CTX*;char*)"
+ , "c2" : "sha512_256_int_final(EVP_MD_CTX*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -4471,7 +4471,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/crypto/evp/legacy_sha.c.html#1"
  , "c1" : " int "
- , "c2" : "sha3_int_final(EVP_MD_CTX*;char*)"
+ , "c2" : "sha3_int_final(EVP_MD_CTX*;unsignedchar*)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
